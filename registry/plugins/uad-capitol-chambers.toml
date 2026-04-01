@@ -1,0 +1,22 @@
+slug        = "uad-capitol-chambers"
+name        = "Capitol Chambers"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Reverb emulation of the legendary underground echo chambers beneath Capitol Records Studios in Hollywood."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = ["reverb", "chamber", "capitol", "vintage", "classic", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/reverbs/capitol-chambers.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Capitol Chambers.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Capitol Chambers.component"

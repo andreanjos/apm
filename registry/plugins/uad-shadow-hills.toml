@@ -1,0 +1,22 @@
+slug        = "uad-shadow-hills"
+name        = "Shadow Hills Mastering Compressor"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Dual-stage mastering compressor with optical and discrete VCA stages, plus three output transformer options."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = ["compressor", "mastering", "dual-stage", "optical", "vca", "transformer", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/shadow-hills-mastering-compressor.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Shadow Hills Mastering Compressor.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Shadow Hills Mastering Compressor.component"

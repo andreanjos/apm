@@ -1,0 +1,22 @@
+slug        = "uad-galaxy-tape-echo"
+name        = "Galaxy Tape Echo"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Tape delay emulation inspired by the Roland RE-201 Space Echo with tape saturation, wow/flutter, and spring reverb."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = ["delay", "tape-echo", "space-echo", "roland", "vintage", "spring-reverb", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/delay/galaxy-tape-echo.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Galaxy Tape Echo.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Galaxy Tape Echo.component"

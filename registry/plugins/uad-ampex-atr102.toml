@@ -1,0 +1,22 @@
+slug        = "uad-ampex-atr102"
+name        = "Ampex ATR-102"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Mastering tape machine emulation of the Ampex ATR-102 with selectable tape formulations, speeds, and alignment settings."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = ["tape", "mastering", "ampex", "saturation", "analog", "warmth", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/tape-machines/ampex-atr-102.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Ampex ATR-102.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Ampex ATR-102.component"
