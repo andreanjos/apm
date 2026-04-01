@@ -1,0 +1,22 @@
+slug        = "uad-ep34-tape-echo"
+name        = "EP-34 Tape Echo"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Tape echo emulation of the Maestro Echoplex EP-3/EP-4 with its warm, organic sound and subtle preamp coloring."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = ["delay", "tape-echo", "echoplex", "vintage", "warm", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/delay-modulation/ep-34-tape-echo.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD EP-34 Tape Echo.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD EP-34 Tape Echo.component"

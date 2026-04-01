@@ -1,0 +1,22 @@
+slug        = "uad-antares-autotune"
+name        = "Antares Auto-Tune Realtime"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Real-time pitch correction powered by Antares Auto-Tune with natural and creative vocal tuning modes."
+category    = "effects"
+subcategory = "pitch-correction"
+license     = "commercial"
+tags        = ["pitch-correction", "autotune", "vocal", "antares", "real-time", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/pitch-correction/antares-auto-tune-realtime.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Antares Auto-Tune Realtime.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Antares Auto-Tune Realtime.component"

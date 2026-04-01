@@ -1,0 +1,22 @@
+slug        = "uad-neve-31102"
+name        = "Neve 31102"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Console EQ emulation of the Neve 31102 with its four-band parametric design and rich harmonic character."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = ["eq", "neve", "31102", "console", "parametric", "vintage", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/neve-31102-console-eq.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Neve 31102.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Neve 31102.component"
