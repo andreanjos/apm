@@ -1,12 +1,14 @@
 // install command — look up plugin in registry, check install state, download,
 // verify, extract, place, and record.
 
+use std::path::Path;
+
 use anyhow::Result;
 use colored::Colorize;
 
 use crate::config::{Config, InstallScope};
 use crate::error::ApmError;
-use crate::registry::{PluginFormat, Registry};
+use crate::registry::{DownloadType, PluginFormat, Registry};
 use crate::state::InstallState;
 
 pub async fn run(
@@ -14,6 +16,7 @@ pub async fn run(
     name: &str,
     format: Option<PluginFormat>,
     scope: Option<InstallScope>,
+    from_file: Option<&Path>,
 ) -> Result<()> {
     // ── Load registry ─────────────────────────────────────────────────────────
 
@@ -53,6 +56,49 @@ pub async fn run(
         }
     }
 
+    // ── Check for manual download type (when no --from-file provided) ─────────
+
+    if from_file.is_none() {
+        // Check whether any of the formats we'd install are manual.
+        let formats_to_check: Vec<_> = match format {
+            Some(fmt) => {
+                if let Some(src) = plugin.formats.get(&fmt) {
+                    vec![(fmt, src)]
+                } else {
+                    vec![]
+                }
+            }
+            None => plugin.formats.iter().map(|(&f, s)| (f, s)).collect(),
+        };
+
+        let is_manual = formats_to_check
+            .iter()
+            .any(|(_, src)| src.download_type == DownloadType::Manual);
+
+        if is_manual {
+            let homepage = plugin
+                .homepage
+                .as_deref()
+                .unwrap_or("(no homepage listed)");
+
+            println!(
+                "{} requires manual download (account signup needed).\n",
+                plugin.name.bold()
+            );
+            println!("1. Download the installer from: {}", homepage.cyan());
+            println!("   (Opening in your browser...)\n");
+            println!(
+                "2. Once downloaded, run:\n   {}",
+                format!("apm install {} --from-file ~/Downloads/<installer>", plugin.slug).bold()
+            );
+
+            // Try to open the homepage in the default browser (macOS `open`).
+            let _ = std::process::Command::new("open").arg(homepage).spawn();
+
+            return Ok(());
+        }
+    }
+
     // ── Show install plan ─────────────────────────────────────────────────────
 
     let formats_to_show: Vec<String> = match format {
@@ -64,16 +110,26 @@ pub async fn run(
             .collect::<Vec<_>>(),
     };
 
-    println!(
-        "Installing {} v{} ({})...",
-        plugin.name.bold(),
-        plugin.version.cyan(),
-        formats_to_show.join(", ")
-    );
+    if let Some(path) = from_file {
+        println!(
+            "Installing {} v{} ({}) from file {}...",
+            plugin.name.bold(),
+            plugin.version.cyan(),
+            formats_to_show.join(", "),
+            path.display().to_string().yellow()
+        );
+    } else {
+        println!(
+            "Installing {} v{} ({})...",
+            plugin.name.bold(),
+            plugin.version.cyan(),
+            formats_to_show.join(", ")
+        );
+    }
 
     // ── Install ───────────────────────────────────────────────────────────────
 
-    crate::install::install_plugin(plugin, format, scope, config, &mut state)
+    crate::install::install_plugin(plugin, format, scope, config, &mut state, from_file)
         .await
         .map_err(|e| {
             // Wrap with top-level context so the error shows the plugin name.

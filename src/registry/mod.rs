@@ -15,8 +15,8 @@ use crate::config::Config;
 // digging into the internal `types` submodule.
 #[allow(unused_imports)]
 pub use types::{
-    FormatSource, InstallType, PluginDefinition, PluginFormat, RegistryIndex, RegistryIndexEntry,
-    Source,
+    DownloadType, FormatSource, InstallType, PluginDefinition, PluginFormat, RegistryIndex,
+    RegistryIndexEntry, Source,
 };
 
 // ── Registry ──────────────────────────────────────────────────────────────────

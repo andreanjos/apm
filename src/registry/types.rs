@@ -50,6 +50,22 @@ impl std::fmt::Display for InstallType {
     }
 }
 
+// ── DownloadType ──────────────────────────────────────────────────────────────
+
+/// Whether apm can download this plugin automatically or the user must do it.
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
+#[serde(rename_all = "lowercase")]
+pub enum DownloadType {
+    /// apm can download this plugin automatically (default).
+    Direct,
+    /// The user must download this plugin manually (e.g., requires signup/login).
+    Manual,
+}
+
+fn default_download_type() -> DownloadType {
+    DownloadType::Direct
+}
+
 // ── FormatSource ──────────────────────────────────────────────────────────────
 
 /// Download and verification metadata for a single format of a plugin.
@@ -67,6 +83,11 @@ pub struct FormatSource {
     /// Path of the bundle inside the archive (relative, e.g. `"Plugin.vst3"`).
     /// Optional — some archives contain exactly one bundle at the root.
     pub bundle_path: Option<String>,
+
+    /// Whether apm can download this automatically or the user must download
+    /// it manually (e.g., requires account signup). Defaults to `direct`.
+    #[serde(default = "default_download_type")]
+    pub download_type: DownloadType,
 }
 
 // ── PluginDefinition ──────────────────────────────────────────────────────────

@@ -164,7 +164,7 @@ pub async fn run(config: &Config, name: Option<&str>) -> Result<()> {
         state.remove(&candidate.slug);
 
         // Install the new version (this records it in state and saves).
-        crate::install::install_plugin(registry_plugin, None, None, config, &mut state)
+        crate::install::install_plugin(registry_plugin, None, None, config, &mut state, None)
             .await
             .map_err(|e| e.context(format!("Failed to upgrade '{}'", candidate.slug)))?;
 

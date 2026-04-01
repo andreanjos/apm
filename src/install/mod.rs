@@ -13,6 +13,7 @@ use anyhow::{Context, Result};
 use chrono::Utc;
 use colored::Colorize;
 use indicatif::{MultiProgress, ProgressBar, ProgressStyle};
+use sha2::{Digest, Sha256};
 use tracing::{debug, info};
 
 use crate::config::{Config, InstallScope};
@@ -20,9 +21,23 @@ use crate::error::ApmError;
 use crate::registry::{FormatSource, InstallType, PluginDefinition, PluginFormat};
 use crate::state::{InstalledFormat, InstalledPlugin, InstallState};
 
+// ── SHA256 placeholder detection ──────────────────────────────────────────────
+
+/// Returns `true` when the sha256 value is an empty/placeholder that should
+/// be treated as "no checksum available".
+fn is_placeholder_sha256(sha256: &str) -> bool {
+    let s = sha256.trim();
+    s.is_empty()
+        || s.eq_ignore_ascii_case("manual")
+        || s.chars().all(|c| c == '0')
+}
+
 // ── Public entry point ────────────────────────────────────────────────────────
 
 /// Install `plugin`, optionally filtered to a single `format`.
+///
+/// When `from_file` is `Some`, the download step is skipped and the provided
+/// file path is used as the archive directly.
 ///
 /// # Atomicity
 /// If any format fails mid-install, all bundles placed by this run are
@@ -31,7 +46,7 @@ use crate::state::{InstalledFormat, InstalledPlugin, InstallState};
 ///
 /// # Flow
 /// 1. Determine which formats to install.
-/// 2. For each format:  download → verify SHA256 → extract → place → strip quarantine.
+/// 2. For each format:  download (or use local file) → verify SHA256 → extract → place → strip quarantine.
 /// 3. Record all formats in `state` and save.
 pub async fn install_plugin(
     plugin: &PluginDefinition,
@@ -39,6 +54,7 @@ pub async fn install_plugin(
     scope: Option<InstallScope>,
     config: &Config,
     state: &mut InstallState,
+    from_file: Option<&Path>,
 ) -> Result<()> {
     let effective_scope = scope.unwrap_or(config.install_scope);
 
@@ -90,7 +106,18 @@ pub async fn install_plugin(
             fmt.to_string()
         };
 
-        match install_one_format(plugin, *fmt, &fmt_label, source, effective_scope, config, &mp).await {
+        match install_one_format(FormatInstallCtx {
+            plugin,
+            fmt: *fmt,
+            fmt_label: &fmt_label,
+            source,
+            scope: effective_scope,
+            config,
+            mp: &mp,
+            from_file,
+        })
+        .await
+        {
             Ok(bundle_path) => {
                 // Print per-format installed path.
                 let display = display_path(&bundle_path);
@@ -141,42 +168,94 @@ pub async fn install_plugin(
 
 // ── Per-format installation ───────────────────────────────────────────────────
 
-async fn install_one_format(
-    plugin: &PluginDefinition,
+/// Bundles the arguments shared across a single-format install to stay within
+/// clippy's `too_many_arguments` limit.
+struct FormatInstallCtx<'a> {
+    plugin: &'a PluginDefinition,
     fmt: PluginFormat,
-    fmt_label: &str,
-    source: &FormatSource,
+    fmt_label: &'a str,
+    source: &'a FormatSource,
     scope: InstallScope,
-    config: &Config,
-    mp: &MultiProgress,
-) -> Result<PathBuf> {
+    config: &'a Config,
+    mp: &'a MultiProgress,
+    from_file: Option<&'a Path>,
+}
+
+async fn install_one_format(ctx: FormatInstallCtx<'_>) -> Result<PathBuf> {
+    let FormatInstallCtx {
+        plugin,
+        fmt,
+        fmt_label,
+        source,
+        scope,
+        config,
+        mp,
+        from_file,
+    } = ctx;
     let dest_dir = plugin_dest_dir(fmt, scope);
 
-    // ── Step 1: Download ──────────────────────────────────────────────────────
+    // ── Step 1: Obtain archive (download or use local file) ───────────────────
 
-    let archive_name = archive_filename(plugin, fmt, source);
-    let archive_path = config.downloads_cache_dir().join(&archive_name);
+    let archive_path: PathBuf = if let Some(local_path) = from_file {
+        // Use the provided local file directly; validate it exists.
+        if !local_path.exists() {
+            anyhow::bail!(
+                "Local file not found: {}\n\
+                 Hint: Check the path and try again.",
+                local_path.display()
+            );
+        }
 
-    // Build a per-format progress bar with the format name as prefix.
-    let pb = build_format_progress_bar(mp, fmt_label, None);
+        // Verify SHA256 of the local file if the registry has a real checksum.
+        let sha = &source.sha256;
+        if is_placeholder_sha256(sha) {
+            println!(
+                "    {}: {}",
+                fmt_label.cyan(),
+                "Warning: No SHA256 checksum available for this plugin. Skipping integrity verification."
+                    .yellow()
+            );
+        } else {
+            println!(
+                "    {}: {}",
+                fmt_label.cyan(),
+                "Verifying checksum...".dimmed()
+            );
+            verify_local_file_sha256(local_path, sha).with_context(|| {
+                format!(
+                    "Checksum verification failed for local file '{}'",
+                    local_path.display()
+                )
+            })?;
+        }
 
-    crate::download::download_file_with_progress(
-        &source.url,
-        &archive_path,
-        &source.sha256,
-        pb,
-    )
-    .await
-    .with_context(|| {
-        format!(
-            "Failed to download {} archive for '{}'",
-            fmt, plugin.slug
+        local_path.to_path_buf()
+    } else {
+        // Normal download flow.
+        let archive_name = archive_filename(plugin, fmt, source);
+        let archive_path = config.downloads_cache_dir().join(&archive_name);
+
+        // Build a per-format progress bar with the format name as prefix.
+        let pb = build_format_progress_bar(mp, fmt_label, None);
+
+        crate::download::download_file_with_progress(
+            &source.url,
+            &archive_path,
+            &source.sha256,
+            pb,
         )
-    })?;
+        .await
+        .with_context(|| {
+            format!(
+                "Failed to download {} archive for '{}'",
+                fmt, plugin.slug
+            )
+        })?;
 
-    // ── Step 2: Verify (already done inside download_file_with_progress) ─────
+        archive_path
+    };
 
-    // ── Step 3: Extract + place ───────────────────────────────────────────────
+    // ── Step 2: Extract + place ───────────────────────────────────────────────
 
     println!(
         "    {}: {}",
@@ -210,7 +289,7 @@ async fn install_one_format(
         }
     };
 
-    // ── Step 4: Strip quarantine ──────────────────────────────────────────────
+    // ── Step 3: Strip quarantine ──────────────────────────────────────────────
 
     quarantine::remove_quarantine(&bundle_path).with_context(|| {
         format!(
@@ -229,6 +308,43 @@ async fn install_one_format(
     );
 
     Ok(bundle_path)
+}
+
+// ── SHA256 verification for local files ───────────────────────────────────────
+
+fn verify_local_file_sha256(path: &Path, expected_sha256: &str) -> Result<()> {
+    use std::io::Read;
+
+    let mut file = std::fs::File::open(path)
+        .with_context(|| format!("Cannot open file for checksum: {}", path.display()))?;
+
+    let mut hasher = Sha256::new();
+    let mut buf = [0u8; 65536];
+
+    loop {
+        let n = file
+            .read(&mut buf)
+            .with_context(|| format!("Read error while hashing: {}", path.display()))?;
+        if n == 0 {
+            break;
+        }
+        hasher.update(&buf[..n]);
+    }
+
+    let actual_hex = hex::encode(hasher.finalize());
+    let expected_lower = expected_sha256.to_lowercase();
+    let actual_lower = actual_hex.to_lowercase();
+
+    if expected_lower != actual_lower {
+        return Err(ApmError::Checksum {
+            expected: expected_sha256.to_owned(),
+            actual: actual_hex,
+        }
+        .into());
+    }
+
+    debug!("SHA256 OK for local file: {actual_hex}");
+    Ok(())
 }
 
 // ── Rollback ──────────────────────────────────────────────────────────────────

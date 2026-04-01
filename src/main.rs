@@ -7,6 +7,8 @@ mod registry;
 mod scanner;
 mod state;
 
+use std::path::PathBuf;
+
 use anyhow::Result;
 use clap::{Parser, Subcommand};
 use tracing_subscriber::EnvFilter;
@@ -93,6 +95,9 @@ enum Commands {
     /// verifies the SHA256 checksum, extracts, and places the bundle in the
     /// correct macOS plugin directory. Installs all available formats by
     /// default.
+    ///
+    /// For plugins that require manual download (e.g. account signup), use
+    /// --from-file to provide the downloaded archive directly.
     Install {
         /// Plugin name or slug to install (e.g. "tal-noisemaker").
         name: String,
@@ -105,6 +110,13 @@ enum Commands {
         /// Requires sudo. Default is user-scope (~/.Library/Audio/Plug-Ins/).
         #[arg(long)]
         system: bool,
+
+        /// Install from a local file instead of downloading.
+        ///
+        /// Skips the download step and uses the provided archive path directly.
+        /// SHA256 is still verified if the registry has a known checksum.
+        #[arg(long)]
+        from_file: Option<PathBuf>,
     },
 
     /// Remove a plugin installed by apm.
@@ -260,6 +272,7 @@ async fn run() -> Result<()> {
             name,
             format,
             system,
+            from_file,
         } => {
             let plugin_format = match format.as_deref() {
                 Some("au") => Some(registry::PluginFormat::Au),
@@ -278,7 +291,7 @@ async fn run() -> Result<()> {
             } else {
                 None
             };
-            commands::install::run(&config, name, plugin_format, scope).await
+            commands::install::run(&config, name, plugin_format, scope, from_file.as_deref()).await
         }
 
         Commands::Remove { name } => commands::remove::run(&config, name).await,

@@ -13,13 +13,15 @@ homepage    = "https://vital.audio/"
 # The download URL below is the official account download page.
 # Direct installer links are not publicly accessible without login.
 [formats.vst3]
-url          = "https://account.vital.audio/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
-bundle_path  = "Vital.vst3"
+url           = "https://account.vital.audio/"
+sha256        = "manual"
+install_type  = "dmg"
+bundle_path   = "Vital.vst3"
+download_type = "manual"
 
 [formats.au]
-url          = "https://account.vital.audio/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
-bundle_path  = "Vital.component"
+url           = "https://account.vital.audio/"
+sha256        = "manual"
+install_type  = "dmg"
+bundle_path   = "Vital.component"
+download_type = "manual"
