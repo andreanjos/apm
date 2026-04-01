@@ -160,6 +160,13 @@ impl Config {
         self.resolved_cache_dir().join("downloads")
     }
 
+    /// Returns the directory where plugin backups are stored.
+    ///
+    /// Structure: `<backups_dir>/<slug>/<version>/`
+    pub fn backups_dir(&self) -> PathBuf {
+        self.resolved_data_dir().join("backups")
+    }
+
     /// Returns all configured sources, always including the default official
     /// registry first, followed by any user-added sources.
     pub fn sources(&self) -> Vec<Source> {

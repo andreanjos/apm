@@ -162,8 +162,27 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<(
             candidate.available_version.cyan()
         );
 
-        // Remove old bundles from disk.
+        // Back up the current version before overwriting.
         let installed = state.find(&candidate.slug).cloned().unwrap();
+        match crate::backup::backup_plugin(&installed, config) {
+            Ok(entry) => {
+                println!(
+                    "  {} v{} backed up to {}",
+                    candidate.slug,
+                    candidate.installed_version,
+                    entry.backup_dir.display()
+                );
+            }
+            Err(e) => {
+                eprintln!(
+                    "  {} Could not back up '{}' before upgrade: {e} (continuing anyway)",
+                    "Warning:".yellow(),
+                    candidate.slug
+                );
+            }
+        }
+
+        // Remove old bundles from disk.
         for fmt in &installed.formats {
             let path = &fmt.path;
             if path.exists() {

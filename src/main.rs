@@ -1,3 +1,4 @@
+mod backup;
 mod commands;
 mod config;
 mod download;
@@ -253,6 +254,19 @@ enum Commands {
         /// Show details for a specific bundle (name or slug).
         name: Option<String>,
     },
+
+    /// Restore a plugin to its most recent backed-up version.
+    ///
+    /// Backups are created automatically before each `apm upgrade`.
+    /// Use --list to see all available backups with their sizes.
+    Rollback {
+        /// Plugin name or slug to roll back (e.g. "valhalla-supermassive").
+        plugin: Option<String>,
+
+        /// List all backups with sizes and dates.
+        #[arg(long, short = 'l')]
+        list: bool,
+    },
 }
 
 #[derive(Subcommand, Debug)]
@@ -412,6 +426,10 @@ async fn run() -> Result<()> {
 
         Commands::Bundles { name } => {
             commands::bundles::run(&config, name.as_deref()).await
+        }
+
+        Commands::Rollback { plugin, list } => {
+            commands::rollback::run(&config, plugin.as_deref(), *list).await
         }
     }
 }

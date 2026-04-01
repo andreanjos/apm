@@ -1,5 +1,6 @@
 pub mod bundles;
 pub mod cleanup;
+pub mod rollback;
 pub mod completions;
 pub mod doctor;
 pub mod export_cmd;
