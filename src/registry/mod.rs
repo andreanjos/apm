@@ -13,10 +13,8 @@ use crate::config::Config;
 // Re-export all registry types at the crate-module boundary so that future
 // phases can import them as `use apm::registry::PluginDefinition` etc. without
 // digging into the internal `types` submodule.
-#[allow(unused_imports)]
 pub use types::{
-    DownloadType, FormatSource, InstallType, PluginBundle, PluginDefinition, PluginFormat,
-    RegistryIndex, RegistryIndexEntry, Source,
+    DownloadType, FormatSource, InstallType, PluginBundle, PluginDefinition, PluginFormat, Source,
 };
 
 // ── Registry ──────────────────────────────────────────────────────────────────
