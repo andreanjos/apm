@@ -1,0 +1,24 @@
+slug        = "zynaptiq-unfilter"
+name        = "UNFILTER"
+vendor      = "Zynaptiq"
+version     = "1.5.0"
+description = "Real-time adaptive EQ that automatically linearizes the frequency response of any audio signal, removing colorations caused by room acoustics, mics, or speakers."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = ["eq", "adaptive", "tonal-linearization", "restoration", "mastering", "ilok"]
+homepage    = "https://www.zynaptiq.com/unfilter/"
+
+# NOTE: Zynaptiq distributes via email download link. Fill out the form on the
+# downloads page to receive a personal download URL. Requires iLok account.
+[formats.vst3]
+url          = "https://www.zynaptiq.com/unfilter/unfilter-downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UNFILTER.vst3"
+
+[formats.au]
+url          = "https://www.zynaptiq.com/unfilter/unfilter-downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UNFILTER.component"

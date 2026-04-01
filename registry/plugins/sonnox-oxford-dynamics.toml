@@ -1,0 +1,24 @@
+slug        = "sonnox-oxford-dynamics"
+name        = "Oxford Dynamics"
+vendor      = "Sonnox"
+version     = "5.0"
+description = "Comprehensive dynamics processor combining gate, expander, compressor, limiter, and side-chain EQ in a single plugin, based on the original Sony Oxford OXF-R3 console."
+category    = "effects"
+subcategory = "dynamics"
+license     = "commercial"
+tags        = ["compressor", "limiter", "gate", "expander", "dynamics", "mastering", "mixing", "console", "ilok"]
+homepage    = "https://sonnox.com/products/oxford-dynamics"
+
+# NOTE: Sonnox products require an iLok account for activation.
+# Downloads are available from the Sonnox website after purchase.
+[formats.vst3]
+url          = "https://sonnox.com/products/oxford-dynamics"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Oxford Dynamics.vst3"
+
+[formats.au]
+url          = "https://sonnox.com/products/oxford-dynamics"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Oxford Dynamics.component"

@@ -1,0 +1,24 @@
+slug        = "klanghelm-sdrr2"
+name        = "SDRR2"
+vendor      = "Klanghelm"
+version     = "2.4.1"
+description = "Multi-flavor saturation plugin with four distinct modes — Tube, Desk, Digi, and Fuzz — each delivering different harmonic coloration characteristics with dynamic response."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = ["saturation", "tube", "distortion", "harmonics", "analog", "warmth", "fuzz", "desk", "color"]
+homepage    = "https://klanghelm.com/contents/products/SDRR.html"
+
+# NOTE: Klanghelm plugins are available for direct download from klanghelm.com
+# after purchase. A demo version with limited functionality is available for free.
+[formats.vst3]
+url          = "https://klanghelm.com/contents/products/SDRR.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "SDRR2.vst3"
+
+[formats.au]
+url          = "https://klanghelm.com/contents/products/SDRR.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "SDRR2.component"

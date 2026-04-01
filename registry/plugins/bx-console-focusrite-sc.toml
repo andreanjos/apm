@@ -1,0 +1,24 @@
+slug        = "bx-console-focusrite-sc"
+name        = "bx_console Focusrite SC"
+vendor      = "Brainworx / Plugin Alliance"
+version     = "1.6.0"
+description = "Console emulation of the Focusrite SC console channel strip, developed in partnership with Focusrite, featuring 72 individually modeled channels with TMT technology."
+category    = "effects"
+subcategory = "channel-strip"
+license     = "commercial"
+tags        = ["console", "channel-strip", "focusrite", "analog-modeling", "tmt", "eq", "dynamics", "mixing"]
+homepage    = "https://www.plugin-alliance.com/products/bx_console-focusrite-sc"
+
+# NOTE: Plugin Alliance products are installed via the Plugin Alliance
+# Installation Manager. Also available to registered Focusrite hardware owners.
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "bx_console Focusrite SC.vst3"
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "bx_console Focusrite SC.component"
