@@ -8,7 +8,7 @@ use crate::config::Config;
 use crate::registry::Registry;
 use crate::state::InstallState;
 
-pub async fn run(config: &Config, name: Option<&str>) -> Result<()> {
+pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<()> {
     // ── Load state and registry ───────────────────────────────────────────────
 
     let mut state = InstallState::load(config)?;
@@ -100,6 +100,31 @@ pub async fn run(config: &Config, name: Option<&str>) -> Result<()> {
 
     if candidates.is_empty() {
         println!("All plugins are up to date.");
+        return Ok(());
+    }
+
+    // ── Dry-run: show what would be upgraded ──────────────────────────────────
+
+    if dry_run {
+        println!("[dry-run] The following plugins would be upgraded:");
+        for candidate in &candidates {
+            if candidate.pinned {
+                println!(
+                    "  {} {} -> {} {}",
+                    candidate.slug.bold(),
+                    candidate.installed_version.cyan(),
+                    candidate.available_version.cyan(),
+                    "(pinned — would be skipped)".dimmed()
+                );
+            } else {
+                println!(
+                    "  {} {} -> {}",
+                    candidate.slug.bold(),
+                    candidate.installed_version.cyan(),
+                    candidate.available_version.cyan()
+                );
+            }
+        }
         return Ok(());
     }
 

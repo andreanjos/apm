@@ -19,6 +19,8 @@ pub async fn run(
     format: Option<PluginFormat>,
     scope: Option<InstallScope>,
     from_file: Option<&Path>,
+    dry_run: bool,
+    bundle: Option<&str>,
 ) -> Result<()> {
     // ── Validate --from-file with multiple plugins ────────────────────────────
 
@@ -40,11 +42,31 @@ pub async fn run(
         );
     }
 
+    // ── Bundle resolution ─────────────────────────────────────────────────────
+
+    if let Some(bundle_slug) = bundle {
+        let b = registry.find_bundle(bundle_slug).ok_or_else(|| {
+            anyhow::anyhow!(
+                "Bundle '{}' not found. Use `apm bundles` to list available bundles.",
+                bundle_slug
+            )
+        })?;
+
+        println!(
+            "Installing bundle '{}' ({} plugins)...",
+            b.name,
+            b.plugins.len()
+        );
+
+        let bundle_plugins: Vec<String> = b.plugins.clone();
+        return Box::pin(run(config, &bundle_plugins, format, scope, None, dry_run, None)).await;
+    }
+
     // ── Single-plugin fast path (original behaviour) ──────────────────────────
 
     if plugins.len() == 1 {
         let name = &plugins[0];
-        return run_single(config, name, &registry, format, scope, from_file).await;
+        return run_single(config, name, &registry, format, scope, from_file, dry_run).await;
     }
 
     // ── Batch install ─────────────────────────────────────────────────────────
@@ -53,7 +75,7 @@ pub async fn run(
     let mut failed: Vec<(String, String)> = Vec::new(); // (name, reason)
 
     for name in plugins {
-        match run_single(config, name, &registry, format, scope, None).await {
+        match run_single(config, name, &registry, format, scope, None, dry_run).await {
             Ok(()) => {
                 succeeded.push(name.clone());
             }
@@ -67,6 +89,10 @@ pub async fn run(
     }
 
     // ── Summary ───────────────────────────────────────────────────────────────
+
+    if dry_run {
+        return Ok(());
+    }
 
     let total = plugins.len();
     let n_ok = succeeded.len();
@@ -110,6 +136,7 @@ async fn run_single(
     format: Option<PluginFormat>,
     scope: Option<InstallScope>,
     from_file: Option<&Path>,
+    dry_run: bool,
 ) -> Result<()> {
     // ── Look up the plugin ────────────────────────────────────────────────────
 
@@ -129,18 +156,25 @@ async fn run_single(
         };
 
         if already_has_format {
-            println!(
-                "Plugin '{}' is already installed (v{}).",
-                plugin.slug, existing.version
-            );
-            println!("Use `apm upgrade {}` to update.", plugin.slug);
+            if dry_run {
+                println!(
+                    "[dry-run] '{}' is already installed (v{}). Nothing to do.",
+                    plugin.slug, existing.version
+                );
+            } else {
+                println!(
+                    "Plugin '{}' is already installed (v{}).",
+                    plugin.slug, existing.version
+                );
+                println!("Use `apm upgrade {}` to update.", plugin.slug);
+            }
             return Ok(());
         }
     }
 
     // ── Check for manual download type (when no --from-file provided) ─────────
 
-    if from_file.is_none() {
+    if from_file.is_none() && !dry_run {
         // Check whether any of the formats we'd install are manual.
         let formats_to_check: Vec<_> = match format {
             Some(fmt) => {
@@ -181,16 +215,59 @@ async fn run_single(
         }
     }
 
-    // ── Show install plan ─────────────────────────────────────────────────────
+    // ── Determine formats and install paths ───────────────────────────────────
 
-    let formats_to_show: Vec<String> = match format {
-        Some(fmt) => vec![fmt.to_string()],
-        None => plugin
-            .formats
-            .keys()
-            .map(|f| f.to_string())
-            .collect::<Vec<_>>(),
+    let effective_scope = scope.unwrap_or(config.install_scope);
+
+    let mut formats_to_install: Vec<(PluginFormat, &crate::registry::FormatSource)> = match format {
+        Some(fmt) => {
+            if let Some(src) = plugin.formats.get(&fmt) {
+                vec![(fmt, src)]
+            } else {
+                vec![]
+            }
+        }
+        None => plugin.formats.iter().map(|(&f, s)| (f, s)).collect(),
     };
+    formats_to_install.sort_by_key(|(f, _)| f.to_string());
+
+    let formats_to_show: Vec<String> = formats_to_install
+        .iter()
+        .map(|(f, _)| f.to_string())
+        .collect();
+
+    // ── Dry-run output ────────────────────────────────────────────────────────
+
+    if dry_run {
+        let install_base = match effective_scope {
+            InstallScope::User => "~/Library/Audio/Plug-Ins/",
+            InstallScope::System => "/Library/Audio/Plug-Ins/",
+        };
+
+        println!(
+            "[dry-run] Would install {} v{} ({})",
+            plugin.name.bold(),
+            plugin.version.cyan(),
+            formats_to_show.join(", ")
+        );
+        println!("          Destination: {}", install_base.yellow());
+
+        for (fmt, src) in &formats_to_install {
+            let dl_type = match src.download_type {
+                DownloadType::Direct => "direct download",
+                DownloadType::Manual => "manual download required",
+            };
+            println!(
+                "          {}: {} ({})",
+                fmt.to_string().cyan(),
+                src.url,
+                dl_type
+            );
+        }
+        return Ok(());
+    }
+
+    // ── Show install plan ─────────────────────────────────────────────────────
 
     if let Some(path) = from_file {
         println!(
@@ -220,7 +297,7 @@ async fn run_single(
 
     // ── Success message ───────────────────────────────────────────────────────
 
-    let install_base = match scope.unwrap_or(config.install_scope) {
+    let install_base = match effective_scope {
         InstallScope::User => "~/Library/Audio/Plug-Ins/",
         InstallScope::System => "/Library/Audio/Plug-Ins/",
     };

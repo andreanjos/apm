@@ -13,3 +13,4 @@ pub mod search;
 pub mod sources;
 pub mod sync_cmd;
 pub mod upgrade;
+pub mod cleanup;

@@ -122,6 +122,16 @@ enum Commands {
         /// Only valid when installing a single plugin.
         #[arg(long)]
         from_file: Option<PathBuf>,
+
+        /// Show what would be installed without downloading or placing any files.
+        #[arg(long)]
+        dry_run: bool,
+
+        /// Install a named bundle (meta-package) of plugins (e.g. "producer-essentials").
+        ///
+        /// Bundles are curated plugin collections. See `apm bundles` for available bundles.
+        #[arg(long, value_name = "BUNDLE")]
+        bundle: Option<String>,
     },
 
     /// Remove a plugin installed by apm.
@@ -146,6 +156,10 @@ enum Commands {
     Upgrade {
         /// Plugin name or slug to upgrade. Omit to upgrade all outdated plugins.
         name: Option<String>,
+
+        /// Show what would be upgraded without making any changes.
+        #[arg(long)]
+        dry_run: bool,
     },
 
     /// Pin a plugin to prevent it from being upgraded.
@@ -217,6 +231,16 @@ enum Commands {
         file: PathBuf,
 
         /// Preview what would be installed without making any changes.
+        #[arg(long)]
+        dry_run: bool,
+    },
+
+    /// Clean up the download cache.
+    ///
+    /// Scans the downloads cache directory, reports total size, and removes
+    /// all cached archives. Use --dry-run to preview without deleting.
+    Cleanup {
+        /// Show what would be deleted without actually deleting anything.
         #[arg(long)]
         dry_run: bool,
     },
@@ -305,6 +329,8 @@ async fn run() -> Result<()> {
             format,
             system,
             from_file,
+            dry_run,
+            bundle,
         } => {
             let plugin_format = match format.as_deref() {
                 Some("au") => Some(registry::PluginFormat::Au),
@@ -323,15 +349,24 @@ async fn run() -> Result<()> {
             } else {
                 None
             };
-            commands::install::run(&config, plugins, plugin_format, scope, from_file.as_deref()).await
+            commands::install::run(
+                &config,
+                plugins,
+                plugin_format,
+                scope,
+                from_file.as_deref(),
+                *dry_run,
+                bundle.as_deref(),
+            )
+            .await
         }
 
         Commands::Remove { name } => commands::remove::run(&config, name).await,
 
         Commands::Outdated => commands::outdated::run(&config, json).await,
 
-        Commands::Upgrade { name } => {
-            commands::upgrade::run(&config, name.as_deref()).await
+        Commands::Upgrade { name, dry_run } => {
+            commands::upgrade::run(&config, name.as_deref(), *dry_run).await
         }
 
         Commands::Pin { name, unpin, list } => {
@@ -360,6 +395,10 @@ async fn run() -> Result<()> {
 
         Commands::Import { file, dry_run } => {
             commands::import_cmd::run(&config, file, *dry_run).await
+        }
+
+        Commands::Cleanup { dry_run } => {
+            commands::cleanup::run(&config, *dry_run).await
         }
     }
 }
