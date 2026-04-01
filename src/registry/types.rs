@@ -133,6 +133,26 @@ pub struct PluginDefinition {
     pub homepage: Option<String>,
 }
 
+// ── PluginBundle ──────────────────────────────────────────────────────────────
+
+/// A named collection of plugins that can be installed together.
+///
+/// Bundle definitions live in `<cache_dir>/bundles/*.toml`.
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct PluginBundle {
+    /// Unique slug for the bundle (e.g. `"producer-essentials"`).
+    pub slug: String,
+
+    /// Human-readable display name.
+    pub name: String,
+
+    /// Short description shown in `apm bundles`.
+    pub description: String,
+
+    /// List of plugin slugs included in this bundle.
+    pub plugins: Vec<String>,
+}
+
 // ── Source ────────────────────────────────────────────────────────────────────
 
 /// A configured registry source (mirrors `apt`'s `sources.list` entry).

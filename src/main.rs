@@ -244,6 +244,15 @@ enum Commands {
         #[arg(long)]
         dry_run: bool,
     },
+
+    /// List and inspect plugin bundles (curated meta-packages).
+    ///
+    /// Bundles group related plugins for quick one-command installation.
+    /// Use `apm install --bundle <name>` to install a bundle.
+    Bundles {
+        /// Show details for a specific bundle (name or slug).
+        name: Option<String>,
+    },
 }
 
 #[derive(Subcommand, Debug)]
@@ -399,6 +408,10 @@ async fn run() -> Result<()> {
 
         Commands::Cleanup { dry_run } => {
             commands::cleanup::run(&config, *dry_run).await
+        }
+
+        Commands::Bundles { name } => {
+            commands::bundles::run(&config, name.as_deref()).await
         }
     }
 }

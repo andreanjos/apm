@@ -15,8 +15,8 @@ use crate::config::Config;
 // digging into the internal `types` submodule.
 #[allow(unused_imports)]
 pub use types::{
-    DownloadType, FormatSource, InstallType, PluginDefinition, PluginFormat, RegistryIndex,
-    RegistryIndexEntry, Source,
+    DownloadType, FormatSource, InstallType, PluginBundle, PluginDefinition, PluginFormat,
+    RegistryIndex, RegistryIndexEntry, Source,
 };
 
 // ── Registry ──────────────────────────────────────────────────────────────────
@@ -27,6 +27,9 @@ pub use types::{
 pub struct Registry {
     /// All known plugins, keyed by slug (e.g. `"valhalla-supermassive"`).
     pub plugins: HashMap<String, PluginDefinition>,
+
+    /// All known bundles (meta-packages), keyed by bundle slug.
+    pub bundles: HashMap<String, PluginBundle>,
 }
 
 impl Registry {
@@ -34,6 +37,7 @@ impl Registry {
     pub fn new() -> Self {
         Self {
             plugins: HashMap::new(),
+            bundles: HashMap::new(),
         }
     }
 
@@ -84,7 +88,7 @@ impl Registry {
         Ok(registry)
     }
 
-    /// Load and merge plugins from all configured sources.
+    /// Load and merge plugins (and bundles) from all configured sources.
     ///
     /// Sources are processed in order; later sources override earlier ones
     /// on slug collision (non-default sources take precedence, allowing
@@ -109,9 +113,62 @@ impl Registry {
                     tracing::warn!("Could not load source '{}': {e}", source.name);
                 }
             }
+
+            // Also load bundles from this source.
+            merged.load_bundles_from_cache(&source_cache);
         }
 
         Ok(merged)
+    }
+
+    /// Load bundle TOML files from `<cache_dir>/bundles/*.toml` into this registry.
+    ///
+    /// Files that fail to parse are warned about and skipped.
+    pub fn load_bundles_from_cache(&mut self, cache_dir: &Path) {
+        let bundles_dir = cache_dir.join("bundles");
+        debug!("Loading bundles from {}", bundles_dir.display());
+
+        if !bundles_dir.exists() {
+            debug!("Bundles directory does not exist: {}", bundles_dir.display());
+            return;
+        }
+
+        let entries = match std::fs::read_dir(&bundles_dir) {
+            Ok(e) => e,
+            Err(e) => {
+                tracing::warn!("Cannot read bundles directory {}: {e}", bundles_dir.display());
+                return;
+            }
+        };
+
+        for entry in entries.flatten() {
+            let path = entry.path();
+            if path.extension().and_then(|e| e.to_str()) != Some("toml") {
+                continue;
+            }
+            match load_bundle_toml(&path) {
+                Ok(bundle) => {
+                    debug!("Loaded bundle: {}", bundle.slug);
+                    self.bundles.insert(bundle.slug.clone(), bundle);
+                }
+                Err(e) => {
+                    tracing::warn!("Skipping bundle {}: {e}", path.display());
+                }
+            }
+        }
+
+        debug!("Loaded {} bundles from cache", self.bundles.len());
+    }
+
+    /// Find a bundle by slug (exact, case-insensitive).
+    pub fn find_bundle(&self, slug: &str) -> Option<&PluginBundle> {
+        if let Some(b) = self.bundles.get(slug) {
+            return Some(b);
+        }
+        let lower = slug.to_lowercase();
+        self.bundles
+            .values()
+            .find(|b| b.slug.to_lowercase() == lower)
     }
 
     /// Find a plugin by slug (exact, case-insensitive).
@@ -148,6 +205,20 @@ fn load_plugin_toml(path: &Path) -> Result<PluginDefinition> {
     toml::from_str(&raw).map_err(|e| {
         anyhow::anyhow!(
             "TOML parse error in {}:\n  {}\nHint: Fix the syntax error in the registry file.",
+            path.display(),
+            e
+        )
+    })
+}
+
+/// Parse a single bundle TOML file into a `PluginBundle`.
+fn load_bundle_toml(path: &Path) -> Result<PluginBundle> {
+    let raw = std::fs::read_to_string(path)
+        .with_context(|| format!("Cannot read bundle file: {}", path.display()))?;
+
+    toml::from_str(&raw).map_err(|e| {
+        anyhow::anyhow!(
+            "TOML parse error in {}:\n  {}\nHint: Fix the syntax error in the bundle file.",
             path.display(),
             e
         )

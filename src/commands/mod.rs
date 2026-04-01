@@ -1,3 +1,5 @@
+pub mod bundles;
+pub mod cleanup;
 pub mod completions;
 pub mod doctor;
 pub mod export_cmd;
@@ -13,4 +15,3 @@ pub mod search;
 pub mod sources;
 pub mod sync_cmd;
 pub mod upgrade;
-pub mod cleanup;
