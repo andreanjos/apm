@@ -56,7 +56,7 @@ dirs = "6"
 
 # Date/time (default-features = false avoids the `time` crate dependency that
 # requires Cargo edition2024 on Rust 1.84; "std" + "serde" is sufficient for apm)
-chrono = { version = "0.4", features = ["std", "serde"], default-features = false }
+chrono = { version = "0.4", features = ["std", "serde", "clock"], default-features = false }
 
 # Logging
 tracing = "0.1"

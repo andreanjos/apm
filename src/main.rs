@@ -1,6 +1,8 @@
 mod commands;
 mod config;
+mod download;
 mod error;
+mod install;
 mod registry;
 mod scanner;
 mod state;
