@@ -14,21 +14,41 @@ use crate::error::ApmError;
 
 /// Download `url` to `dest`, verifying the SHA256 checksum on completion.
 ///
+/// Creates its own progress bar. For multi-format installs where a
+/// [`MultiProgress`](indicatif::MultiProgress) is managing display, use
+/// [`download_file_with_progress`] instead.
+///
 /// - Streams the response, computing the hash incrementally so no second pass
 ///   over the file is needed.
-/// - Shows a progress bar with bytes downloaded, transfer speed, and ETA.
 /// - Writes to a sibling `.tmp` file first; renames to `dest` only on success.
 /// - On checksum mismatch: deletes the temp file and returns `ApmError::Checksum`.
 /// - On network error: retries once before surfacing the error.
+#[allow(dead_code)]
 pub async fn download_file(
     url: &str,
     dest: &Path,
     expected_sha256: &str,
 ) -> Result<()> {
+    let pb = build_standalone_progress_bar(None);
+    download_file_with_progress(url, dest, expected_sha256, pb).await
+}
+
+/// Download `url` to `dest` using the supplied `ProgressBar`.
+///
+/// The progress bar is updated as bytes arrive and finished on completion.
+/// This variant is intended for use from the install orchestrator, which
+/// manages a [`MultiProgress`](indicatif::MultiProgress) container so that
+/// per-format bars render correctly alongside each other.
+pub async fn download_file_with_progress(
+    url: &str,
+    dest: &Path,
+    expected_sha256: &str,
+    pb: ProgressBar,
+) -> Result<()> {
     debug!("Downloading {} → {}", url, dest.display());
 
     // Attempt with one retry.
-    match attempt_download(url, dest, expected_sha256).await {
+    match attempt_download(url, dest, expected_sha256, &pb).await {
         Ok(()) => Ok(()),
         Err(first_err) => {
             // Only retry on network / transient errors, not checksum mismatches.
@@ -44,7 +64,11 @@ pub async fn download_file(
                 "Download failed ({}); retrying once…",
                 first_err
             );
-            attempt_download(url, dest, expected_sha256)
+
+            // Reset the bar for the retry.
+            pb.set_position(0);
+
+            attempt_download(url, dest, expected_sha256, &pb)
                 .await
                 .with_context(|| format!("Download failed after retry: {url}"))
         }
@@ -55,6 +79,7 @@ async fn attempt_download(
     url: &str,
     dest: &Path,
     expected_sha256: &str,
+    pb: &ProgressBar,
 ) -> Result<()> {
     // Ensure destination parent exists.
     if let Some(parent) = dest.parent() {
@@ -101,9 +126,10 @@ async fn attempt_download(
         );
     }
 
-    // Set up progress bar.
-    let content_length = response.content_length();
-    let pb = build_progress_bar(content_length);
+    // Update progress bar length if we now know the content length.
+    if let Some(len) = response.content_length() {
+        pb.set_length(len);
+    }
 
     // Stream body, hash incrementally, write to temp file.
     let mut hasher = Sha256::new();
@@ -122,10 +148,12 @@ async fn attempt_download(
 
         hasher.update(&chunk);
 
+        {
             use tokio::io::AsyncWriteExt;
-        file.write_all(&chunk)
-            .await
-            .with_context(|| format!("Write error on temp file: {}", tmp_path.display()))?;
+            file.write_all(&chunk)
+                .await
+                .with_context(|| format!("Write error on temp file: {}", tmp_path.display()))?;
+        }
 
         bytes_written += chunk.len() as u64;
         pb.set_position(bytes_written);
@@ -139,7 +167,7 @@ async fn attempt_download(
     }
     drop(file);
 
-    pb.finish_with_message("done");
+    pb.finish_and_clear();
 
     // Verify checksum.
     let actual_hex = hex::encode(hasher.finalize());
@@ -184,8 +212,8 @@ fn temp_path(dest: &Path) -> PathBuf {
     tmp
 }
 
-/// Build a progress bar sized to `total_bytes` (or indeterminate if unknown).
-fn build_progress_bar(total_bytes: Option<u64>) -> ProgressBar {
+/// Build a standalone progress bar (not attached to a MultiProgress).
+fn build_standalone_progress_bar(total_bytes: Option<u64>) -> ProgressBar {
     let pb = if let Some(total) = total_bytes {
         ProgressBar::new(total)
     } else {

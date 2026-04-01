@@ -12,6 +12,7 @@ use std::path::{Path, PathBuf};
 use anyhow::{Context, Result};
 use chrono::Utc;
 use colored::Colorize;
+use indicatif::{MultiProgress, ProgressBar, ProgressStyle};
 use tracing::{debug, info};
 
 use crate::config::{Config, InstallScope};
@@ -42,7 +43,7 @@ pub async fn install_plugin(
     let effective_scope = scope.unwrap_or(config.install_scope);
 
     // Collect (format, source) pairs to install.
-    let to_install: Vec<(PluginFormat, &FormatSource)> = match format_filter {
+    let mut to_install: Vec<(PluginFormat, &FormatSource)> = match format_filter {
         Some(fmt) => {
             let src = plugin.formats.get(&fmt).ok_or_else(|| ApmError::Install {
                 plugin: plugin.slug.clone(),
@@ -69,13 +70,35 @@ pub async fn install_plugin(
             .collect(),
     };
 
+    // Sort formats for deterministic order: VST3 before AU.
+    to_install.sort_by_key(|(fmt, _)| fmt.to_string());
+
+    let multi_format = to_install.len() > 1;
+
     // ── Download + install each format ────────────────────────────────────────
+
+    // Use a MultiProgress container so per-format progress bars render cleanly
+    // alongside each other (indicatif handles cursor management).
+    let mp = MultiProgress::new();
 
     let mut installed_paths: Vec<(PluginFormat, PathBuf)> = Vec::new();
 
     for (fmt, source) in &to_install {
-        match install_one_format(plugin, *fmt, source, effective_scope, config).await {
+        let fmt_label = if multi_format {
+            format!("{:<5}", fmt.to_string())
+        } else {
+            fmt.to_string()
+        };
+
+        match install_one_format(plugin, *fmt, &fmt_label, source, effective_scope, config, &mp).await {
             Ok(bundle_path) => {
+                // Print per-format installed path.
+                let display = display_path(&bundle_path);
+                println!(
+                    "    {}: {}",
+                    fmt_label.cyan(),
+                    format!("Installed to {display}").green()
+                );
                 installed_paths.push((*fmt, bundle_path));
             }
             Err(e) => {
@@ -121,9 +144,11 @@ pub async fn install_plugin(
 async fn install_one_format(
     plugin: &PluginDefinition,
     fmt: PluginFormat,
+    fmt_label: &str,
     source: &FormatSource,
     scope: InstallScope,
     config: &Config,
+    mp: &MultiProgress,
 ) -> Result<PathBuf> {
     let dest_dir = plugin_dest_dir(fmt, scope);
 
@@ -132,30 +157,32 @@ async fn install_one_format(
     let archive_name = archive_filename(plugin, fmt, source);
     let archive_path = config.downloads_cache_dir().join(&archive_name);
 
-    println!(
-        "  {} Downloading {} {} ({})...",
-        "[1/4]".dimmed(),
-        plugin.name.bold(),
-        plugin.version.cyan(),
-        fmt
-    );
+    // Build a per-format progress bar with the format name as prefix.
+    let pb = build_format_progress_bar(mp, fmt_label, None);
 
-    crate::download::download_file(&source.url, &archive_path, &source.sha256)
-        .await
-        .with_context(|| {
-            format!(
-                "Failed to download {} archive for '{}'",
-                fmt, plugin.slug
-            )
-        })?;
+    crate::download::download_file_with_progress(
+        &source.url,
+        &archive_path,
+        &source.sha256,
+        pb,
+    )
+    .await
+    .with_context(|| {
+        format!(
+            "Failed to download {} archive for '{}'",
+            fmt, plugin.slug
+        )
+    })?;
 
-    // ── Step 2: Verify (already done inside download_file) ────────────────────
-
-    println!("  {} Checksum OK.", "[2/4]".dimmed());
+    // ── Step 2: Verify (already done inside download_file_with_progress) ─────
 
     // ── Step 3: Extract + place ───────────────────────────────────────────────
 
-    println!("  {} Extracting...", "[3/4]".dimmed());
+    println!(
+        "    {}: {}",
+        fmt_label.cyan(),
+        "Extracting...".dimmed()
+    );
 
     let bundle_path = match source.install_type {
         InstallType::Dmg => {
@@ -185,8 +212,6 @@ async fn install_one_format(
 
     // ── Step 4: Strip quarantine ──────────────────────────────────────────────
 
-    println!("  {} Removing quarantine flag...", "[4/4]".dimmed());
-
     quarantine::remove_quarantine(&bundle_path).with_context(|| {
         format!(
             "Quarantine removal failed for '{}' ({})",
@@ -213,12 +238,13 @@ fn rollback(installed: &[(PluginFormat, PathBuf)], plugin_slug: &str) {
     if installed.is_empty() {
         return;
     }
-    eprintln!("  Rolling back partial install of '{plugin_slug}'...");
+    eprintln!("  {}", format!("Rolling back partial install of '{plugin_slug}'...").yellow());
     for (fmt, path) in installed {
         if path.exists() {
             if let Err(e) = std::fs::remove_dir_all(path) {
                 eprintln!(
-                    "  Warning: Could not remove partial {fmt} bundle at {}: {e}",
+                    "  {}: Could not remove partial {fmt} bundle at {}: {e}",
+                    "Warning".yellow(),
                     path.display()
                 );
             } else {
@@ -253,4 +279,36 @@ fn archive_filename(plugin: &PluginDefinition, fmt: PluginFormat, source: &Forma
         });
 
     format!("{}-{}-{}.{}", plugin.slug, plugin.version, fmt.to_string().to_lowercase(), ext)
+}
+
+/// Build a per-format progress bar attached to the multi-progress container.
+fn build_format_progress_bar(mp: &MultiProgress, fmt_label: &str, total: Option<u64>) -> ProgressBar {
+    let pb = if let Some(n) = total {
+        mp.add(ProgressBar::new(n))
+    } else {
+        mp.add(ProgressBar::new_spinner())
+    };
+
+    let prefix = format!("    {:<5}: Downloading", fmt_label);
+    let style = ProgressStyle::with_template(
+        "{prefix} [{bar:40.cyan/blue}] {bytes}/{total_bytes} ({bytes_per_sec}, ETA {eta})",
+    )
+    .unwrap_or_else(|_| ProgressStyle::default_bar())
+    .progress_chars("=>-");
+
+    pb.set_style(style);
+    pb.set_prefix(prefix);
+    pb
+}
+
+/// Replace the user's home directory prefix with `~` for readability.
+fn display_path(path: &Path) -> String {
+    let path_str = path.to_string_lossy();
+    if let Some(home) = dirs::home_dir() {
+        let home_str = home.to_string_lossy();
+        if let Some(rest) = path_str.strip_prefix(home_str.as_ref()) {
+            return format!("~{rest}");
+        }
+    }
+    path_str.into_owned()
 }
