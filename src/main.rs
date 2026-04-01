@@ -152,6 +152,19 @@ enum Commands {
     /// by default.
     #[command(subcommand)]
     Sources(SourcesCommands),
+
+    /// Generate shell completion scripts.
+    ///
+    /// Prints the completion script for the specified shell to stdout.
+    /// Source or eval the output to enable tab-completion for apm.
+    ///
+    /// Examples:
+    ///   apm completions zsh > ~/.zsh/completions/_apm
+    ///   source <(apm completions bash)
+    Completions {
+        /// Shell to generate completions for: bash, zsh, fish, elvish, powershell.
+        shell: String,
+    },
 }
 
 #[derive(Subcommand, Debug)]
@@ -276,5 +289,9 @@ async fn run() -> Result<()> {
             }
             SourcesCommands::List => commands::sources::run_list(&config).await,
         },
+
+        Commands::Completions { shell } => {
+            commands::completions::run(shell)
+        }
     }
 }
