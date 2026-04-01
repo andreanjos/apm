@@ -153,7 +153,14 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<(
         }
 
         // Look up the full registry definition.
-        let registry_plugin = registry.find(&candidate.slug).expect("already checked above");
+        let registry_plugin = match registry.find(&candidate.slug) {
+            Some(p) => p,
+            None => {
+                tracing::warn!("Plugin '{}' not found in registry, skipping", candidate.slug);
+                failed += 1;
+                continue;
+            }
+        };
 
         println!(
             "Upgrading {} {} -> {}...",
@@ -163,7 +170,14 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<(
         );
 
         // Back up the current version before overwriting.
-        let installed = state.find(&candidate.slug).cloned().unwrap();
+        let installed = match state.find(&candidate.slug).cloned() {
+            Some(p) => p,
+            None => {
+                tracing::warn!("Plugin '{}' not in install state, skipping", candidate.slug);
+                failed += 1;
+                continue;
+            }
+        };
         match crate::backup::backup_plugin(&installed, config) {
             Ok(entry) => {
                 println!(

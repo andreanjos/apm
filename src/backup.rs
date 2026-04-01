@@ -266,9 +266,11 @@ pub fn list_backups(config: &Config) -> Result<Vec<BackupEntry>> {
             .unwrap_or("")
             .to_string();
 
-        for version_entry in std::fs::read_dir(&slug_path)
-            .unwrap_or_else(|_| std::fs::read_dir(".").unwrap())
-            .filter_map(|e| e.ok())
+        let version_entries = match std::fs::read_dir(&slug_path) {
+            Ok(entries) => entries,
+            Err(_) => continue,
+        };
+        for version_entry in version_entries.filter_map(|e| e.ok())
         {
             let version_path = version_entry.path();
             if !version_path.is_dir() {

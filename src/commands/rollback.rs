@@ -60,16 +60,17 @@ async fn run_restore(config: &Config, slug: &str) -> Result<()> {
     // Check that a backup exists before touching state.
     let entry = backup::find_latest_backup(slug, config)?;
 
-    if entry.is_none() {
-        println!(
-            "No backup found for '{}'.",
-            slug.bold()
-        );
-        println!("Backups are created automatically during upgrades.");
-        return Ok(());
-    }
-
-    let entry = entry.unwrap();
+    let entry = match entry {
+        Some(e) => e,
+        None => {
+            println!(
+                "No backup found for '{}'.",
+                slug.bold()
+            );
+            println!("Backups are created automatically during upgrades.");
+            return Ok(());
+        }
+    };
 
     println!(
         "Rolling back {} to v{}...",
