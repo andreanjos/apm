@@ -165,6 +165,13 @@ enum Commands {
         /// Shell to generate completions for: bash, zsh, fish, elvish, powershell.
         shell: String,
     },
+
+    /// Run diagnostic checks on your apm installation.
+    ///
+    /// Verifies that plugin directories exist and are accessible, that the
+    /// config and state files are valid, and that the registry cache is
+    /// populated. Also scans for quarantined plugin bundles in user directories.
+    Doctor,
 }
 
 #[derive(Subcommand, Debug)]
@@ -293,5 +300,7 @@ async fn run() -> Result<()> {
         Commands::Completions { shell } => {
             commands::completions::run(shell)
         }
+
+        Commands::Doctor => commands::doctor::run(&config),
     }
 }

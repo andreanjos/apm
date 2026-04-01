@@ -1,4 +1,5 @@
 pub mod completions;
+pub mod doctor;
 pub mod info;
 pub mod install;
 pub mod list;
