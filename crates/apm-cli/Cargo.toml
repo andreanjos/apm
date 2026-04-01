@@ -1,0 +1,40 @@
+[package]
+name = "apm-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "apm"
+path = "src/main.rs"
+
+[dependencies]
+apm-core = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+chrono = { workspace = true }
+
+# CLI-only deps (not shared with server)
+clap = { version = "4", features = ["derive", "env", "color"] }
+clap_complete = ">=4, <4.6"
+reqwest = { version = "0.12", features = ["rustls-tls", "stream"], default-features = false }
+indicatif = "0.17"
+colored = "3"
+sha2 = "0.10"
+hex = "0.4"
+# zip: disable the "time" feature so we don't pull in time >= 0.3.37 which
+# requires Cargo edition2024 (incompatible with Rust 1.84). deflate is the
+# only compression codec needed for reading plugin ZIP archives.
+zip = { version = "2", default-features = false, features = ["deflate"] }
+# Pin tempfile to < 3.15 to avoid getrandom 0.4.x which requires Cargo
+# edition2024 (not available on Rust 1.84).
+tempfile = ">=3, <3.15"
+futures-util = "0.3"
+
+[dev-dependencies]
+apm-core = { workspace = true }
+assert_cmd = "2"
+assert_fs = "1"

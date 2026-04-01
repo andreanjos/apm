@@ -1,0 +1,13 @@
+[package]
+name = "apm-server"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "apm-server"
+path = "src/main.rs"
+
+[dependencies]
+apm-core = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
