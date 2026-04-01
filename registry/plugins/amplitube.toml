@@ -1,0 +1,22 @@
+slug        = "amplitube"
+name        = "AmpliTube 5"
+vendor      = "IK Multimedia"
+version     = "5.10.9"
+description = "Comprehensive guitar and bass tone modeling suite with 400+ gear models, VIR cab technology, and full signal chain."
+category    = "effects"
+subcategory = "amp-sim"
+license     = "commercial"
+tags        = ["guitar", "bass", "amp-sim", "effects", "cabinet-sim", "standalone"]
+homepage    = "https://www.ikmultimedia.com/products/amplitube5/"
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/amplitube5/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "AmpliTube 5.vst3"
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/amplitube5/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "AmpliTube 5.component"

@@ -1,0 +1,22 @@
+slug        = "omnisphere"
+name        = "Omnisphere 3"
+vendor      = "Spectrasonics"
+version     = "3.0.2"
+description = "Flagship synthesizer with massive sound library, hardware synth integration, granular synthesis, wavetables, FM, and analog modeling."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "commercial"
+tags        = ["synthesizer", "virtual-instrument", "sample-based", "granular", "wavetable", "sound-design"]
+homepage    = "https://www.spectrasonics.net/products/omnisphere/overview.php"
+
+[formats.vst3]
+url          = "https://www.spectrasonics.net/products/omnisphere/buyomnisphere.php"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Omnisphere.vst3"
+
+[formats.au]
+url          = "https://www.spectrasonics.net/products/omnisphere/buyomnisphere.php"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Omnisphere.component"

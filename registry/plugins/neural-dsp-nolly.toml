@@ -1,0 +1,22 @@
+slug        = "neural-dsp-nolly"
+name        = "Archetype: Nolly X"
+vendor      = "Neural DSP"
+version     = "1.0.2"
+description = "Guitar and bass amp/effects suite featuring four tube amplifier models, overdrive/booster pedals, compressor, and cab sim."
+category    = "effects"
+subcategory = "amp-sim"
+license     = "commercial"
+tags        = ["guitar", "bass", "amp-sim", "effects", "neural-network", "metal", "standalone"]
+homepage    = "https://neuraldsp.com/plugins/archetype-nolly"
+
+[formats.vst3]
+url          = "https://neuraldsp.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Archetype Nolly X.vst3"
+
+[formats.au]
+url          = "https://neuraldsp.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Archetype Nolly X.component"
