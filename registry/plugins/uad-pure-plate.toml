@@ -1,0 +1,22 @@
+slug        = "uad-pure-plate"
+name        = "Pure Plate"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Lush plate reverb with simple controls for adding smooth, dense reverb tails to any source."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = ["reverb", "plate", "lush", "smooth", "simple", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/reverbs/pure-plate-reverb.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Pure Plate.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Pure Plate.component"

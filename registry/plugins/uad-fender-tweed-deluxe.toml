@@ -1,0 +1,22 @@
+slug        = "uad-fender-tweed-deluxe"
+name        = "Fender '55 Tweed Deluxe"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Guitar amplifier emulation of the 1955 Fender Tweed Deluxe 5E3 with touch-sensitive breakup and vintage warmth."
+category    = "effects"
+subcategory = "amp-sim"
+license     = "commercial"
+tags        = ["guitar", "amp-sim", "fender", "tweed", "vintage", "blues", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/guitar-bass/fender-55-tweed-deluxe.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Fender 55 Tweed Deluxe.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Fender 55 Tweed Deluxe.component"
