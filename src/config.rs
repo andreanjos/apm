@@ -9,6 +9,8 @@ use anyhow::{Context, Result};
 use serde::{Deserialize, Serialize};
 use tracing::{debug, info};
 
+use crate::registry::Source;
+
 // ── macOS Plugin Path Constants ───────────────────────────────────────────────
 
 /// System-wide AU (Audio Units) plugin directory.
@@ -101,6 +103,19 @@ pub struct Config {
     /// Cache directory override. Defaults to `~/.cache/apm/`.
     #[serde(default)]
     pub cache_dir: Option<PathBuf>,
+
+    /// Third-party registry sources (in addition to the default official one).
+    #[serde(default)]
+    pub sources: Vec<SourceEntry>,
+}
+
+/// A registry source stored in config.toml.
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq)]
+pub struct SourceEntry {
+    /// Short name for display and directory naming (e.g. `"my-registry"`).
+    pub name: String,
+    /// Git repository URL.
+    pub url: String,
 }
 
 fn default_registry_url() -> String {
@@ -114,6 +129,7 @@ impl Default for Config {
             install_scope: InstallScope::User,
             data_dir: None,
             cache_dir: None,
+            sources: Vec::new(),
         }
     }
 }
@@ -142,6 +158,27 @@ impl Config {
     /// Returns the staging directory for downloaded archives.
     pub fn downloads_cache_dir(&self) -> PathBuf {
         self.resolved_cache_dir().join("downloads")
+    }
+
+    /// Returns all configured sources, always including the default official
+    /// registry first, followed by any user-added sources.
+    pub fn sources(&self) -> Vec<Source> {
+        let mut result = vec![Source::official(&self.default_registry_url)];
+        for entry in &self.sources {
+            result.push(Source {
+                name: entry.name.clone(),
+                url: entry.url.clone(),
+                is_default: false,
+            });
+        }
+        result
+    }
+
+    /// Save the current configuration back to `~/.config/apm/config.toml`.
+    pub fn save(&self) -> Result<()> {
+        let cfg_path = config_dir().join("config.toml");
+        write_config(&cfg_path, self)
+            .with_context(|| format!("Failed to save config to {}", cfg_path.display()))
     }
 }
 
@@ -193,13 +230,20 @@ pub fn load_config(path: &Path) -> Result<Config> {
 
 /// Write a default config file with inline comments for discoverability.
 fn write_default_config(path: &Path, config: &Config) -> Result<()> {
+    write_config(path, config)
+}
+
+/// Serialise and write the config to `path`, preserving the hand-written
+/// header comments on first write. On subsequent saves we use TOML serialisation
+/// directly (comments are not round-tripped, but correctness is what matters).
+fn write_config(path: &Path, config: &Config) -> Result<()> {
     let scope_str = match config.install_scope {
         InstallScope::User => "user",
         InstallScope::System => "system",
     };
 
-    let content = format!(
-        "# apm configuration — auto-generated on first run\n\
+    let mut content = format!(
+        "# apm configuration\n\
          # Edit this file to customise apm behaviour.\n\
          \n\
          # URL of the default plugin registry (a Git repository).\n\
@@ -210,6 +254,18 @@ fn write_default_config(path: &Path, config: &Config) -> Result<()> {
         registry_url = config.default_registry_url,
         scope = scope_str,
     );
+
+    // Append user-added sources (the default official one is already encoded
+    // above via `default_registry_url`).
+    if !config.sources.is_empty() {
+        content.push('\n');
+        for entry in &config.sources {
+            content.push_str(&format!(
+                "[[sources]]\nname = \"{}\"\nurl = \"{}\"\n\n",
+                entry.name, entry.url
+            ));
+        }
+    }
 
     std::fs::write(path, content)
         .with_context(|| format!("Cannot write config file: {}", path.display()))

@@ -1,0 +1,22 @@
+slug        = "dexed"
+name        = "Dexed"
+vendor      = "Digital Suburban"
+version     = "0.9.6"
+description = "FM synthesizer closely modeled on the Yamaha DX7, with support for loading original DX7 SysEx patches and a rich built-in patch library."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "GPL-3.0"
+tags        = ["synth", "synthesizer", "fm", "dx7", "yamaha", "free", "gpl", "retro", "vintage"]
+homepage    = "https://asb2m10.github.io/dexed/"
+
+[formats.vst3]
+url          = "https://github.com/asb2m10/dexed/releases/download/v0.9.6/Dexed-0.9.6-mac.zip"
+sha256       = "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+install_type = "zip"
+bundle_path  = "Dexed.vst3"
+
+[formats.au]
+url          = "https://github.com/asb2m10/dexed/releases/download/v0.9.6/Dexed-0.9.6-mac.zip"
+sha256       = "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+install_type = "zip"
+bundle_path  = "Dexed.component"

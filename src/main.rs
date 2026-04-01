@@ -61,9 +61,10 @@ enum Commands {
     ///
     /// Full-text match on plugin name, vendor, description, and tags.
     /// Run `apm sync` first to populate the local registry cache.
+    /// Omit the query to list all plugins (optionally filtered by --category).
     Search {
-        /// Search query (e.g. "reverb", "tal", "free synth").
-        query: String,
+        /// Search query (e.g. "reverb", "tal", "free synth"). Omit to list all.
+        query: Option<String>,
 
         /// Filter results by category (e.g. "instrument", "effect", "reverb").
         #[arg(long, short = 'c')]
@@ -212,7 +213,8 @@ async fn run() -> Result<()> {
         Commands::Info { name } => commands::info::run(&config, name).await,
 
         Commands::Search { query, category } => {
-            commands::search::run(&config, query, category.as_deref()).await
+            let q = query.as_deref().unwrap_or("");
+            commands::search::run(&config, q, category.as_deref()).await
         }
 
         Commands::Sync => commands::sync_cmd::run(&config).await,

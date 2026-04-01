@@ -1,8 +1,121 @@
 use anyhow::Result;
 
 use crate::config::Config;
-use crate::error::ApmError;
+use crate::registry::{self, PluginDefinition};
+use crate::state::InstallState;
 
-pub async fn run(_config: &Config, _name: &str) -> Result<()> {
-    Err(ApmError::not_implemented("info", "Phase 3").into())
+pub async fn run(config: &Config, name: &str) -> Result<()> {
+    let registry = registry::Registry::load_all_sources(config)?;
+
+    if registry.is_empty() {
+        println!(
+            "Registry cache is empty. Run `apm sync` to download the plugin registry."
+        );
+        return Ok(());
+    }
+
+    let plugin = match registry.find(name) {
+        Some(p) => p,
+        None => {
+            println!(
+                "Plugin '{name}' not found. Try `apm search {name}` to find the correct name."
+            );
+            return Ok(());
+        }
+    };
+
+    // Check install state.
+    let state = InstallState::load(config)?;
+    let installed = state.find(&plugin.slug);
+
+    print_plugin_info(plugin, installed);
+    Ok(())
+}
+
+// ── Display ───────────────────────────────────────────────────────────────────
+
+fn print_plugin_info(p: &PluginDefinition, installed: Option<&crate::state::InstalledPlugin>) {
+    // Title
+    println!("{}", p.slug);
+    println!("{}", "\u{2550}".repeat(47)); // ═══════
+
+    println!("{:<13} {}", "Name:", p.name);
+    println!("{:<13} {}", "Vendor:", p.vendor);
+    println!("{:<13} {}", "Version:", p.version);
+
+    // Category
+    let cat = match &p.subcategory {
+        Some(sub) => format!("{} / {}", p.category, sub),
+        None => p.category.clone(),
+    };
+    println!("{:<13} {}", "Category:", cat);
+
+    println!("{:<13} {}", "License:", p.license);
+
+    if let Some(hp) = &p.homepage {
+        println!("{:<13} {}", "Homepage:", hp);
+    }
+
+    // Tags
+    if !p.tags.is_empty() {
+        println!("{:<13} {}", "Tags:", p.tags.join(", "));
+    }
+
+    // Description
+    println!();
+    println!("Description:");
+    if p.description.is_empty() {
+        println!("  (no description)");
+    } else {
+        // Word-wrap at 72 chars.
+        for line in wrap_text(&p.description, 70) {
+            println!("  {line}");
+        }
+    }
+
+    // Available formats
+    println!();
+    println!("Available Formats:");
+    if p.formats.is_empty() {
+        println!("  (none listed)");
+    } else {
+        let mut formats: Vec<_> = p.formats.iter().collect();
+        formats.sort_by_key(|(fmt, _)| fmt.to_string());
+        for (fmt, src) in formats {
+            println!("  {:<6} ({})", fmt.to_string(), src.install_type);
+        }
+    }
+
+    // Install status
+    println!();
+    match installed {
+        Some(inst) => {
+            println!("Status:       Installed (v{})", inst.version);
+        }
+        None => {
+            println!("Status:       Not installed");
+        }
+    }
+}
+
+/// Very basic word-wrap: split on spaces and reflow to fit `width` columns.
+fn wrap_text(text: &str, width: usize) -> Vec<String> {
+    let mut lines = Vec::new();
+    let mut current = String::new();
+
+    for word in text.split_whitespace() {
+        if current.is_empty() {
+            current.push_str(word);
+        } else if current.len() + 1 + word.len() <= width {
+            current.push(' ');
+            current.push_str(word);
+        } else {
+            lines.push(current.clone());
+            current = word.to_string();
+        }
+    }
+    if !current.is_empty() {
+        lines.push(current);
+    }
+    lines
 }

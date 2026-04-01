@@ -1,0 +1,22 @@
+slug        = "valhalla-supermassive"
+name        = "Valhalla Supermassive"
+vendor      = "Valhalla DSP"
+version     = "2.3.0"
+description = "Massive reverb and delay with lush modulation. Covers everything from short rooms to galaxy-scale spaces, all for free."
+category    = "effects"
+subcategory = "reverb"
+license     = "freeware"
+tags        = ["reverb", "delay", "modulation", "free", "freeware", "space", "ambient"]
+homepage    = "https://valhalladsp.com/shop/reverb/valhalla-supermassive/"
+
+[formats.vst3]
+url          = "https://github.com/apm-pm/registry/releases/download/v0.1.0/valhalla-supermassive-2.3.0-mac.zip"
+sha256       = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+install_type = "zip"
+bundle_path  = "ValhallaSupermassive.vst3"
+
+[formats.au]
+url          = "https://github.com/apm-pm/registry/releases/download/v0.1.0/valhalla-supermassive-2.3.0-mac.zip"
+sha256       = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+install_type = "zip"
+bundle_path  = "ValhallaSupermassive.component"

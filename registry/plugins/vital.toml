@@ -1,0 +1,22 @@
+slug        = "vital"
+name        = "Vital"
+vendor      = "Matt Tytel"
+version     = "1.5.5"
+description = "Spectral warping wavetable synthesizer with advanced modulation, built-in effects, and a polished modern interface."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "GPL-3.0"
+tags        = ["synth", "synthesizer", "wavetable", "spectral", "free", "gpl", "modulation"]
+homepage    = "https://vital.audio/"
+
+[formats.vst3]
+url          = "https://github.com/mtytel/vital/releases/download/1.5.5/vital_linux_vst3.zip"
+sha256       = "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+install_type = "zip"
+bundle_path  = "Vital.vst3"
+
+[formats.au]
+url          = "https://github.com/mtytel/vital/releases/download/1.5.5/vital_mac.dmg"
+sha256       = "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+install_type = "dmg"
+bundle_path  = "Vital.component"

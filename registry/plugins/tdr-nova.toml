@@ -1,0 +1,22 @@
+slug        = "tdr-nova"
+name        = "TDR Nova"
+vendor      = "Tokyo Dawn Records"
+version     = "2.1.5"
+description = "Parallel dynamic equalizer combining a classic parametric EQ with a full-featured dynamic section on every band. Studio-grade transparency."
+category    = "effects"
+subcategory = "eq"
+license     = "freeware"
+tags        = ["eq", "equalizer", "dynamic-eq", "parametric", "free", "freeware", "mastering", "mixing"]
+homepage    = "https://www.tokyodawn.net/tdr-nova/"
+
+[formats.vst3]
+url          = "https://github.com/apm-pm/registry/releases/download/v0.1.0/tdr-nova-2.1.5-mac.zip"
+sha256       = "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+install_type = "zip"
+bundle_path  = "TDR Nova.vst3"
+
+[formats.au]
+url          = "https://github.com/apm-pm/registry/releases/download/v0.1.0/tdr-nova-2.1.5-mac.zip"
+sha256       = "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+install_type = "zip"
+bundle_path  = "TDR Nova.component"
