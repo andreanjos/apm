@@ -1,0 +1,22 @@
+slug        = "uad-vertigo-vsm3"
+name        = "Vertigo VSM-3"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Mix saturator with FET and tube saturation modes for harmonic enrichment"
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = ["saturation", "harmonic", "fet", "tube", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Vertigo VSM-3.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Vertigo VSM-3.component"

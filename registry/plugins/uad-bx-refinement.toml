@@ -1,0 +1,22 @@
+slug        = "uad-bx-refinement"
+name        = "bx_refinement"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Intelligent de-harsh processor that reduces digital harshness in recordings"
+category    = "effects"
+subcategory = "de-harsh"
+license     = "commercial"
+tags        = ["de-harsh", "equalization", "harshness", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD bx_refinement.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD bx_refinement.component"

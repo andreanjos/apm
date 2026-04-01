@@ -1,0 +1,22 @@
+slug        = "uad-elysia-alpha-mix"
+name        = "elysia alpha mix"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Mix-optimized version of the elysia alpha compressor for individual channels"
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = ["compressor", "mixing", "alpha", "channel", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD elysia alpha mix.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD elysia alpha mix.component"

@@ -1,0 +1,22 @@
+slug        = "uad-elysia-alpha-master"
+name        = "elysia alpha master"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Mastering version of the elysia alpha compressor with M/S processing"
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = ["mastering", "compressor", "mid-side", "alpha", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD elysia alpha master.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD elysia alpha master.component"
