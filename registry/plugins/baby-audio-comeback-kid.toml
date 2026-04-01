@@ -1,0 +1,22 @@
+slug        = "baby-audio-comeback-kid"
+name        = "Comeback Kid"
+vendor      = "Baby Audio"
+version     = "1.6"
+description = "Analog-flavored delay engine with a streamlined interface offering warm, characterful echo from subtle slapback to cascading repeats."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = ["delay", "analog", "echo", "slapback", "tape", "warmth", "creative", "vintage"]
+homepage    = "https://babyaud.io/comeback-kid-delay-plugin"
+
+[formats.vst3]
+url          = "https://babyaud.io/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Comeback Kid.vst3"
+
+[formats.au]
+url          = "https://babyaud.io/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Comeback Kid.component"

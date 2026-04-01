@@ -1,0 +1,22 @@
+slug        = "lindell-audio-354e"
+name        = "Lindell Audio 354E"
+vendor      = "Lindell Audio"
+version     = "1.0.4"
+description = "Three-band diode bridge compressor emulating the rich, punchy character of a legendary vintage hardware unit with independent low, mid, and high compression bands."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = ["compressor", "multiband", "diode-bridge", "vintage", "analog-modeling", "dynamics", "mastering"]
+homepage    = "https://www.plugin-alliance.com/en/products/lindell_354e.html"
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Lindell 354E.vst3"
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Lindell 354E.component"

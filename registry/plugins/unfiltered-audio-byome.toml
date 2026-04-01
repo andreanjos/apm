@@ -1,0 +1,22 @@
+slug        = "unfiltered-audio-byome"
+name        = "BYOME"
+vendor      = "Unfiltered Audio"
+version     = "1.3.6"
+description = "Modular multi-effects plugin with over 40 signal processing modules and fully customizable routing for endless sound design possibilities."
+category    = "effects"
+subcategory = "multi-fx"
+license     = "commercial"
+tags        = ["modular", "multi-fx", "signal-processing", "sound-design", "creative", "routing", "effects-chain"]
+homepage    = "https://www.plugin-alliance.com/en/products/unfiltered_audio_byome.html"
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "BYOME.vst3"
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "BYOME.component"

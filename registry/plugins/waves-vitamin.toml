@@ -1,0 +1,22 @@
+slug        = "waves-vitamin"
+name        = "Vitamin Sonic Enhancer"
+vendor      = "Waves Audio"
+version     = "15.0"
+description = "Multiband harmonic enhancer with five independent bands for adding presence, brightness, and body to any source."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = ["enhancer", "harmonic", "multiband", "saturation", "presence", "exciter"]
+homepage    = "https://www.waves.com/plugins/vitamin-sonic-enhancer"
+
+[formats.vst3]
+url          = "https://www.waves.com/downloads/central"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "WaveShell-VST3 15.0.vst3"
+
+[formats.au]
+url          = "https://www.waves.com/downloads/central"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "WaveShell2-AU 15.0.component"

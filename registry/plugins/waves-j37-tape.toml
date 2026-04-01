@@ -1,0 +1,22 @@
+slug        = "waves-j37-tape"
+name        = "J37 Tape"
+vendor      = "Waves Audio"
+version     = "15.0"
+description = "Tape saturation plugin modeled after the iconic EMI/Studer J37 tube-driven tape machine used at Abbey Road Studios."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = ["tape", "saturation", "analog-modeling", "warmth", "abbey-road", "vintage", "harmonic"]
+homepage    = "https://www.waves.com/plugins/j37-tape"
+
+[formats.vst3]
+url          = "https://www.waves.com/downloads/central"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "WaveShell-VST3 15.0.vst3"
+
+[formats.au]
+url          = "https://www.waves.com/downloads/central"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "WaveShell2-AU 15.0.component"
