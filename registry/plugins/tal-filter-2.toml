@@ -1,0 +1,22 @@
+slug        = "tal-filter-2"
+name        = "TAL-Filter-2"
+vendor      = "TAL Software"
+version     = "3.0.0"
+description = "Host-synced filter effect with LP/HP/BP/Notch types and spline-based modulation editor for cutoff, panorama, and volume."
+category    = "effects"
+subcategory = "filter"
+license     = "freeware"
+tags        = ["filter", "modulation", "tremolo", "trance-gate", "free", "host-sync", "freeware"]
+homepage    = "https://tal-software.com/products/tal-filter"
+
+[formats.vst3]
+url          = "https://tal-software.com/products/tal-filter"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "TAL-Filter-2.vst3"
+
+[formats.au]
+url          = "https://tal-software.com/products/tal-filter"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "TAL-Filter-2.component"

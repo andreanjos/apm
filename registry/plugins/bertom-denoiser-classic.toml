@@ -1,0 +1,22 @@
+slug        = "bertom-denoiser-classic"
+name        = "Denoiser Classic"
+vendor      = "Bertom Audio"
+version     = "3.0.7"
+description = "Zero-latency noise reduction plugin with 6 frequency band sliders for targeted noise reduction."
+category    = "effects"
+subcategory = "noise-reduction"
+license     = "freeware"
+tags        = ["noise-reduction", "denoiser", "free", "zero-latency", "restoration", "freeware"]
+homepage    = "https://bertomaudio.com/denoiser-classic.html"
+
+[formats.vst3]
+url          = "https://bertomaudio.com/denoiser-classic.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Denoiser Classic.vst3"
+
+[formats.au]
+url          = "https://bertomaudio.com/denoiser-classic.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Denoiser Classic.component"
