@@ -1,0 +1,22 @@
+slug        = "uad-neve-1081"
+name        = "Neve 1081"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Preamp and EQ emulation of the Neve 1081 with 4-band parametric EQ and high/low-pass filters."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = ["eq", "preamp", "neve", "1081", "parametric", "vintage", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/neve-1081-classic-console-eq.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Neve 1081.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Neve 1081.component"

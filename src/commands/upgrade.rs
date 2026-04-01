@@ -131,6 +131,7 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<(
     // ── Process each candidate ────────────────────────────────────────────────
 
     let mut upgraded = 0usize;
+    let mut failed = 0usize;
 
     for candidate in &candidates {
         // Handle pinned plugins.
@@ -235,8 +236,13 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<(
 
     // ── Summary ───────────────────────────────────────────────────────────────
 
-    if upgraded == 0 {
+    if upgraded == 0 && failed == 0 {
         println!("{}", "Nothing was upgraded.".dimmed());
+    } else if failed > 0 {
+        println!(
+            "\n{}",
+            format!("Upgraded {} plugin(s), {} failed.", upgraded, failed).yellow()
+        );
     } else {
         println!("\n{}", format!("Upgraded {} plugin(s).", upgraded).green());
     }

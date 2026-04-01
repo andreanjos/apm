@@ -1,0 +1,22 @@
+slug        = "uad-millennia-nseq2"
+name        = "Millennia NSEQ-2"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Twin-topology mastering EQ offering both tube and solid-state signal paths with ultra-clean, transparent equalization."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = ["eq", "mastering", "tube", "solid-state", "transparent", "millennia", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/millennia-nseq-2.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Millennia NSEQ-2.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Millennia NSEQ-2.component"
