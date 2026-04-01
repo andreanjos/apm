@@ -11,12 +11,12 @@ homepage    = "https://tal-software.com/products/tal-noisemaker"
 
 [formats.vst3]
 url          = "https://tal-software.com/downloads/plugins/TAL-NoiseMaker-installer_macos.zip"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "7d756aba0af00d46a14c579bf3317316326b6d50382411c3c7605520c1026dc4"
 install_type = "zip"
 bundle_path  = "TAL-NoiseMaker.vst3"
 
 [formats.au]
 url          = "https://tal-software.com/downloads/plugins/TAL-NoiseMaker-installer_macos.zip"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "7d756aba0af00d46a14c579bf3317316326b6d50382411c3c7605520c1026dc4"
 install_type = "zip"
 bundle_path  = "TAL-NoiseMaker.component"

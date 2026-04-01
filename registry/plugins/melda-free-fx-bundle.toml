@@ -2,21 +2,25 @@ slug        = "melda-free-fx-bundle"
 name        = "MFreeFXBundle"
 vendor      = "MeldaProduction"
 version     = "17.08"
-description = "Suite of 37+ free audio effects including EQ, compressor, reverb, delay, saturator, analyzer, and more."
+description = "Suite of 37+ free audio effects including EQ, compressor, reverb, delay, saturator, analyzer, and more. Installed via MPluginManager."
 category    = "effects"
 subcategory = "multi-fx"
 license     = "freeware"
 tags        = ["effects", "bundle", "multi-fx", "eq", "compressor", "reverb", "analyzer", "saturation", "free", "freeware"]
 homepage    = "https://www.meldaproduction.com/MFreeFXBundle"
 
+# NOTE: MeldaProduction distributes all plugins through their MPluginManager
+# installer app. The URL below downloads MPluginManager which then handles
+# the actual plugin installation. SHA256 cannot be pre-computed as the CDN
+# URL requires a browser session for authenticated access.
 [formats.vst3]
-url          = "https://www.meldaproduction.com/downloads/down?name=MPluginManager_02_19_setupmac.zip"
+url          = "https://www.meldaproduction.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
 bundle_path  = "MEqualizer.vst3"
 
 [formats.au]
-url          = "https://www.meldaproduction.com/downloads/down?name=MPluginManager_02_19_setupmac.zip"
+url          = "https://www.meldaproduction.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
 bundle_path  = "MEqualizer.component"
