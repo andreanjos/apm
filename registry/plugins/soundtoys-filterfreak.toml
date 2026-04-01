@@ -1,0 +1,22 @@
+slug        = "soundtoys-filterfreak"
+name        = "FilterFreak"
+vendor      = "Soundtoys"
+version     = "5.5.4"
+description = "Analog-modeled resonant filter with rhythm tools for auto-wah, including single and dual serial/parallel modes."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = ["filter", "analog", "resonant", "auto-wah", "sweep", "modulation"]
+homepage    = "https://www.soundtoys.com/product/filterfreak/"
+
+[formats.vst3]
+url          = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/FilterFreak5_5.5.4.18982.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "FilterFreak.vst3"
+
+[formats.au]
+url          = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/FilterFreak5_5.5.4.18982.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "FilterFreak.component"
