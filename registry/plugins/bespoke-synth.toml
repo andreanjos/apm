@@ -1,0 +1,22 @@
+slug        = "bespoke-synth"
+name        = "Bespoke Synth"
+vendor      = "Ryan Challinor"
+version     = "1.3.0"
+description = "Free open-source modular DAW with over 190 connectable modules — synthesizers, samplers, sequencers, and effects — on a freeform canvas without a traditional timeline."
+category    = "instruments"
+subcategory = "modular"
+license     = "GPL-3.0"
+tags        = ["modular", "free", "open-source", "gpl", "sequencer", "synthesizer", "experimental", "creative"]
+homepage    = "https://www.bespokesynth.com"
+
+[formats.vst3]
+url          = "https://github.com/BespokeSynth/BespokeSynth/releases/tag/v1.3.0"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "BespokeSynth.vst3"
+
+[formats.au]
+url          = "https://github.com/BespokeSynth/BespokeSynth/releases/tag/v1.3.0"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "BespokeSynth.component"

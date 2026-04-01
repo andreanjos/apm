@@ -1,0 +1,22 @@
+slug        = "baby-audio-spaced-out"
+name        = "Spaced Out"
+vendor      = "Baby Audio"
+version     = "1.0"
+description = "Hybrid reverb, delay, and modulation plugin for creating lush, creative ambience effects with over 50 parameters behind a streamlined interface."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = ["reverb", "delay", "modulation", "ambient", "creative", "echo", "space"]
+homepage    = "https://babyaud.io/spaced-out-plugin"
+
+[formats.vst3]
+url          = "https://babyaud.io/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Spaced Out.vst3"
+
+[formats.au]
+url          = "https://babyaud.io/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Spaced Out.component"
