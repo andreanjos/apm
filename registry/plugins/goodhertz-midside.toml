@@ -1,0 +1,22 @@
+slug        = "goodhertz-midside"
+name        = "Midside"
+vendor      = "Goodhertz"
+version     = "3.11.0"
+description = "Mid/side processing plugin for adjusting stereo width, balance, and spatial positioning of mid and side channels."
+category    = "effects"
+subcategory = "stereo"
+license     = "commercial"
+tags        = ["mid-side", "stereo", "width", "spatial", "utility", "mixing"]
+homepage    = "https://goodhertz.com/midside/"
+
+[formats.vst3]
+url          = "https://goodhertz.com/downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Ghz Midside 3.vst3"
+
+[formats.au]
+url          = "https://goodhertz.com/downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Ghz Midside 3.component"
