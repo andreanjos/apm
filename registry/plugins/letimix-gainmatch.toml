@@ -1,0 +1,22 @@
+slug        = "letimix-gainmatch"
+name        = "GainMatch"
+vendor      = "LetiMix"
+version     = "1.413"
+description = "Gain matching utility for objectively comparing plugins before/after processing by eliminating volume bias."
+category    = "effects"
+subcategory = "utility"
+license     = "commercial"
+tags        = ["utility", "gain-matching", "loudness", "metering", "mixing"]
+homepage    = "https://letimix.com/products/gainmatch"
+
+[formats.vst3]
+url          = "https://letimix.com/products/gainmatch"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "GainMatch.vst3"
+
+[formats.au]
+url          = "https://letimix.com/products/gainmatch"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "GainMatch.component"

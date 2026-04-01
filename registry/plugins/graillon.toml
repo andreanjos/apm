@@ -1,0 +1,22 @@
+slug        = "graillon"
+name        = "Graillon"
+vendor      = "Auburn Sounds"
+version     = "3.2.0"
+description = "Vocal live changer with pitch correction, pitch shifting, and voice transformation. Free edition includes core features."
+category    = "effects"
+subcategory = "pitch-correction"
+license     = "freeware"
+tags        = ["vocal", "pitch-correction", "pitch-shifter", "voice-changer", "free", "freeware"]
+homepage    = "https://www.auburnsounds.com/products/Graillon.html"
+
+[formats.vst3]
+url          = "https://www.auburnsounds.com/products/Graillon.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "Graillon.vst3"
+
+[formats.au]
+url          = "https://www.auburnsounds.com/products/Graillon.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "Graillon.component"
