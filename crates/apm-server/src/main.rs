@@ -6,7 +6,7 @@ use std::net::SocketAddr;
 use anyhow::Context;
 use axum::serve;
 use tokio::net::TcpListener;
-use tracing_subscriber::{prelude::*, EnvFilter};
+use tracing_subscriber::EnvFilter;
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {

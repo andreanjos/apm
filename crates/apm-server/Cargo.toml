@@ -15,7 +15,7 @@ apm-core = { workspace = true }
 dotenvy = "0.15"
 serde = { workspace = true }
 serde_json = { workspace = true }
-sqlx = { version = "=0.8.2", default-features = false, features = ["migrate", "postgres", "runtime-tokio-rustls"] }
+sqlx = { version = "=0.8.2", default-features = false, features = ["macros", "migrate", "postgres", "runtime-tokio-rustls"] }
 tokio = { workspace = true }
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true }
