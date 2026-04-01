@@ -1,7 +1,7 @@
 slug        = "tdr-nova"
 name        = "TDR Nova"
 vendor      = "Tokyo Dawn Records"
-version     = "2.1.5"
+version     = "2.2.2"
 description = "Parallel dynamic equalizer combining a classic parametric EQ with a full-featured dynamic section on every band. Studio-grade transparency."
 category    = "effects"
 subcategory = "eq"
@@ -10,13 +10,13 @@ tags        = ["eq", "equalizer", "dynamic-eq", "parametric", "free", "freeware"
 homepage    = "https://www.tokyodawn.net/tdr-nova/"
 
 [formats.vst3]
-url          = "https://github.com/apm-pm/registry/releases/download/v0.1.0/tdr-nova-2.1.5-mac.zip"
-sha256       = "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+url          = "https://www.tokyodawn.net/labs/Nova/2.2.2/TDR%20Nova.zip"
+sha256       = "fce66850d17a089c4cebd96076aa98421f12f5eef605d991867f4207bdaf11fa"
 install_type = "zip"
 bundle_path  = "TDR Nova.vst3"
 
 [formats.au]
-url          = "https://github.com/apm-pm/registry/releases/download/v0.1.0/tdr-nova-2.1.5-mac.zip"
-sha256       = "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+url          = "https://www.tokyodawn.net/labs/Nova/2.2.2/TDR%20Nova.zip"
+sha256       = "fce66850d17a089c4cebd96076aa98421f12f5eef605d991867f4207bdaf11fa"
 install_type = "zip"
 bundle_path  = "TDR Nova.component"

@@ -1,0 +1,22 @@
+slug        = "zebralette"
+name        = "Zebralette 3"
+vendor      = "u-he"
+version     = "3.0.0"
+description = "Free spectral synthesizer featuring a single versatile oscillator from the Zebra family with MSEG and effects."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "freeware"
+tags        = ["synth", "synthesizer", "spectral", "wavetable", "free", "freeware"]
+homepage    = "https://u-he.com/products/freeware/zebralette/"
+
+[formats.vst3]
+url          = "https://dl.u-he.com/releases/zebralette3_300_20399_Mac.zip"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "Zebralette 3.vst3"
+
+[formats.au]
+url          = "https://dl.u-he.com/releases/zebralette3_300_20399_Mac.zip"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "Zebralette 3.component"

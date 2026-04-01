@@ -1,0 +1,22 @@
+slug        = "tdr-kotelnikov"
+name        = "TDR Kotelnikov"
+vendor      = "Tokyo Dawn Records"
+version     = "1.6.7"
+description = "Wideband dynamics processor combining high-fidelity dynamic range control with deep musical flexibility for transparent mastering compression."
+category    = "effects"
+subcategory = "compressor"
+license     = "freeware"
+tags        = ["compressor", "dynamics", "mastering", "bus-compressor", "free", "freeware", "mixing", "transparent"]
+homepage    = "https://www.tokyodawn.net/tdr-kotelnikov/"
+
+[formats.vst3]
+url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.7/TDR%20Kotelnikov.zip"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "TDR Kotelnikov.vst3"
+
+[formats.au]
+url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.7/TDR%20Kotelnikov.zip"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "TDR Kotelnikov.component"

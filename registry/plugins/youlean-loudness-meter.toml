@@ -1,0 +1,22 @@
+slug        = "youlean-loudness-meter"
+name        = "Youlean Loudness Meter 2"
+vendor      = "Youlean"
+version     = "2.5.14"
+description = "Loudness metering plugin for broadcast, streaming, and music production with EBU R128, ATSC A/85, and platform-specific targets."
+category    = "effects"
+subcategory = "metering"
+license     = "freeware"
+tags        = ["metering", "loudness", "lufs", "broadcast", "streaming", "free", "freeware", "mastering", "analysis"]
+homepage    = "https://youlean.co/youlean-loudness-meter/"
+
+[formats.vst3]
+url          = "https://youlean.co/download-youlean-loudness-meter/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Youlean Loudness Meter 2.vst3"
+
+[formats.au]
+url          = "https://youlean.co/download-youlean-loudness-meter/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Youlean Loudness Meter 2.component"

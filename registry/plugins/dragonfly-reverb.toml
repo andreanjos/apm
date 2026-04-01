@@ -1,0 +1,16 @@
+slug        = "dragonfly-reverb"
+name        = "Dragonfly Reverb"
+vendor      = "Michael Willis"
+version     = "3.2.10"
+description = "Open-source bundle of four algorithmic reverb effects: Hall, Room, Plate, and Early Reflections."
+category    = "effects"
+subcategory = "reverb"
+license     = "GPL-3.0"
+tags        = ["reverb", "hall", "room", "plate", "early-reflections", "algorithmic", "free", "gpl", "open-source"]
+homepage    = "https://michaelwillis.github.io/dragonfly-reverb/"
+
+[formats.vst3]
+url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "DragonflyHallReverb.vst3"

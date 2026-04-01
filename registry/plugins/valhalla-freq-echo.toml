@@ -1,0 +1,22 @@
+slug        = "valhalla-freq-echo"
+name        = "Valhalla Freq Echo"
+vendor      = "Valhalla DSP"
+version     = "1.2.8"
+description = "Frequency shifter with analog echo emulation for creating psychedelic and dub delay effects."
+category    = "effects"
+subcategory = "delay"
+license     = "freeware"
+tags        = ["delay", "echo", "frequency-shifter", "analog", "dub", "psychedelic", "free", "freeware"]
+homepage    = "https://valhalladsp.com/shop/delay/valhalla-freq-echo/"
+
+[formats.vst3]
+url          = "https://valhallaproduction.s3.us-west-2.amazonaws.com/freqecho/ValhallaFreqEchoOSX_1_2_8.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "ValhallaFreqEcho.vst3"
+
+[formats.au]
+url          = "https://valhallaproduction.s3.us-west-2.amazonaws.com/freqecho/ValhallaFreqEchoOSX_1_2_8.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "ValhallaFreqEcho.component"

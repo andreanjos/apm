@@ -1,0 +1,22 @@
+slug        = "kilohearts-essentials"
+name        = "Kilohearts Essentials"
+vendor      = "Kilohearts"
+version     = "2.4.6"
+description = "Free bundle of 30+ essential audio effects usable as standalone DAW plugins or as Snapins inside Kilohearts modular hosts."
+category    = "effects"
+subcategory = "multi-fx"
+license     = "freeware"
+tags        = ["effects", "bundle", "multi-fx", "snapins", "modular", "free", "freeware", "eq", "delay", "distortion", "compressor"]
+homepage    = "https://kilohearts.com/products/kilohearts_essentials"
+
+[formats.vst3]
+url          = "https://kilohearts.com/files/releases/installer/Kilohearts%20Offline%20Installer.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Snap Heap.vst3"
+
+[formats.au]
+url          = "https://kilohearts.com/files/releases/installer/Kilohearts%20Offline%20Installer.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Snap Heap.component"

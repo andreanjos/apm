@@ -1,0 +1,22 @@
+slug        = "chow-tape-model"
+name        = "ChowTapeModel"
+vendor      = "Chowdhury DSP"
+version     = "2.11.4"
+description = "Physical-model emulation of a reel-to-reel analog tape machine with controls for tape speed, saturation, degradation, wow and flutter."
+category    = "effects"
+subcategory = "saturation"
+license     = "GPL-3.0"
+tags        = ["tape", "saturation", "analog", "emulation", "tape-machine", "warmth", "lo-fi", "free", "open-source"]
+homepage    = "https://chowdsp.com/products.html"
+
+[formats.vst3]
+url          = "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Mac-2.11.4.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "CHOWTapeModel.vst3"
+
+[formats.au]
+url          = "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.4/ChowTapeModel-Mac-2.11.4.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "CHOWTapeModel.component"

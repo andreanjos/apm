@@ -1,0 +1,22 @@
+slug        = "surge-xt"
+name        = "Surge XT"
+vendor      = "Surge Synth Team"
+version     = "1.3.4"
+description = "Open-source hybrid synthesizer with multiple synthesis techniques, flexible modulation, and extensive effects."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "GPL-3.0"
+tags        = ["synth", "synthesizer", "hybrid", "subtractive", "wavetable", "fm", "free", "gpl", "open-source", "mpe"]
+homepage    = "https://surge-synthesizer.github.io/"
+
+[formats.vst3]
+url          = "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Surge XT.vst3"
+
+[formats.au]
+url          = "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-macOS-1.3.4.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Surge XT.component"

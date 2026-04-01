@@ -9,14 +9,17 @@ license     = "GPL-3.0"
 tags        = ["synth", "synthesizer", "wavetable", "spectral", "free", "gpl", "modulation"]
 homepage    = "https://vital.audio/"
 
+# NOTE: Vital requires a free account at account.vital.audio to download.
+# The download URL below is the official account download page.
+# Direct installer links are not publicly accessible without login.
 [formats.vst3]
-url          = "https://github.com/mtytel/vital/releases/download/1.5.5/vital_linux_vst3.zip"
-sha256       = "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
-install_type = "zip"
+url          = "https://account.vital.audio/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
 bundle_path  = "Vital.vst3"
 
 [formats.au]
-url          = "https://github.com/mtytel/vital/releases/download/1.5.5/vital_mac.dmg"
-sha256       = "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+url          = "https://account.vital.audio/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
 bundle_path  = "Vital.component"

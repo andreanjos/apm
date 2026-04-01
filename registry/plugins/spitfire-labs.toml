@@ -1,0 +1,22 @@
+slug        = "spitfire-labs"
+name        = "Spitfire LABS"
+vendor      = "Spitfire Audio"
+version     = "3.4.17"
+description = "Free collection of virtual instruments with curated sample-based sounds spanning strings, piano, synths, percussion, choir, and more."
+category    = "instruments"
+subcategory = "sampler"
+license     = "freeware"
+tags        = ["instruments", "sampler", "strings", "piano", "synth", "orchestra", "free", "freeware"]
+homepage    = "https://labs.spitfireaudio.com/"
+
+[formats.vst3]
+url          = "https://d1t3zg51rvnesz.cloudfront.net/p/files/lm/1770184800/mac/SpitfireAudio.Mac-3.4.17.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "LABS.vst3"
+
+[formats.au]
+url          = "https://d1t3zg51rvnesz.cloudfront.net/p/files/lm/1770184800/mac/SpitfireAudio.Mac-3.4.17.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "LABS.component"

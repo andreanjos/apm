@@ -1,0 +1,22 @@
+slug        = "voxengo-span"
+name        = "Voxengo SPAN"
+vendor      = "Voxengo"
+version     = "3.23"
+description = "Real-time FFT audio spectrum analyzer with multi-channel analysis, correlation metering, and EBU R128 loudness support."
+category    = "effects"
+subcategory = "analyzer"
+license     = "freeware"
+tags        = ["analyzer", "spectrum", "metering", "fft", "free", "freeware", "mixing", "mastering", "loudness"]
+homepage    = "https://www.voxengo.com/product/span/"
+
+[formats.vst3]
+url          = "https://www.voxengo.com/files/VoxengoSPAN_323_Mac_AU_AAX_VST_setup.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "VoxengoSPAN.vst3"
+
+[formats.au]
+url          = "https://www.voxengo.com/files/VoxengoSPAN_323_Mac_AU_AAX_VST_setup.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "VoxengoSPAN.component"
