@@ -1,0 +1,22 @@
+slug        = "blade-2"
+name        = "Blade 2"
+vendor      = "Rob Papen"
+version     = "2.1.0a"
+description = "Additive synthesizer with innovative XY morphing Harmolator control, 32 filter types, three multi-FX processors, and extensive modulation."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "commercial"
+tags        = ["synth", "synthesizer", "additive", "xy-pad", "morphing", "harmolator"]
+homepage    = "https://www.robpapen.com/BLADE-2.html"
+
+[formats.vst3]
+url          = "https://www.robpapen.com/BLADE-2.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Blade 2.vst3"
+
+[formats.au]
+url          = "https://www.robpapen.com/BLADE-2.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Blade 2.component"

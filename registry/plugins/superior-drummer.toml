@@ -1,0 +1,22 @@
+slug        = "superior-drummer"
+name        = "Superior Drummer 3"
+vendor      = "Toontrack"
+version     = "3.4.3"
+description = "Advanced drum production studio with deep sound sculpting, 35 GB core library, built-in audio-to-MIDI conversion, and extensive mixing capabilities."
+category    = "instruments"
+subcategory = "drums"
+license     = "commercial"
+tags        = ["drums", "percussion", "drum-machine", "production", "mixing", "sampling"]
+homepage    = "https://www.toontrack.com/product/superior-drummer-3/"
+
+[formats.vst3]
+url          = "https://www.toontrack.com/product/superior-drummer-3/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Superior Drummer 3.vst3"
+
+[formats.au]
+url          = "https://www.toontrack.com/product/superior-drummer-3/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Superior Drummer 3.component"

@@ -1,0 +1,22 @@
+slug        = "icarus-2"
+name        = "Icarus 2"
+vendor      = "Tone2"
+version     = "2.5.0"
+description = "3D wavetable synthesizer with 54 synthesis methods, innovative wavetable morphing, resynthesis capabilities, and a massive preset library."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "commercial"
+tags        = ["synth", "synthesizer", "wavetable", "3d-wavetable", "hybrid", "resynthesis"]
+homepage    = "https://www.tone2.com/icarus.html"
+
+[formats.vst3]
+url          = "https://www.tone2.com/download-for-mac.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Icarus.vst3"
+
+[formats.au]
+url          = "https://www.tone2.com/download-for-mac.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Icarus.component"

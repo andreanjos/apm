@@ -1,0 +1,22 @@
+slug        = "cherry-audio-sines"
+name        = "Sines"
+vendor      = "Cherry Audio"
+version     = "1.4.0"
+description = "Innovative FM/additive/subtractive polyphonic synthesizer with four sine-wave oscillators, phase modulation, diverse waveshaping, and integrated effects."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "commercial"
+tags        = ["synth", "synthesizer", "fm", "additive", "subtractive", "sine", "waveshaping"]
+homepage    = "https://cherryaudio.com/products/sines"
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/sines/download"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Sines.vst3"
+
+[formats.au]
+url          = "https://cherryaudio.com/products/sines/download"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Sines.component"

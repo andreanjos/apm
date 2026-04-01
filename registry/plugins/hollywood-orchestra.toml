@@ -1,0 +1,22 @@
+slug        = "hollywood-orchestra"
+name        = "Hollywood Orchestra Opus Edition"
+vendor      = "EastWest"
+version     = "1.6.2"
+description = "Comprehensive orchestral sample library with Hollywood Strings, Brass, Woodwinds, Percussion, Solo Violin, Solo Cello, and Harp, powered by the Opus engine."
+category    = "instruments"
+subcategory = "sampler"
+license     = "commercial"
+tags        = ["orchestral", "strings", "brass", "woodwinds", "percussion", "cinematic", "film", "sampler"]
+homepage    = "https://www.soundsonline.com/orchestras/hollywood-orchestra-opus-edition"
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/support/updates"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Opus.vst3"
+
+[formats.au]
+url          = "https://www.soundsonline.com/support/updates"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Opus.component"
