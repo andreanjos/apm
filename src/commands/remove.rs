@@ -1,6 +1,7 @@
 // remove command — delete plugin bundle(s) from disk and remove from state.
 
 use anyhow::Result;
+use colored::Colorize;
 
 use crate::config::Config;
 use crate::state::InstallState;
@@ -26,7 +27,7 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
     // ── Show what will be removed ─────────────────────────────────────────────
 
     let format_names: Vec<String> = plugin.formats.iter().map(|f| f.format.to_string()).collect();
-    println!("Removing {} v{}...", plugin.name, plugin.version);
+    println!("Removing {} v{}...", plugin.name.bold(), plugin.version.cyan());
 
     // ── Delete each bundle from disk ──────────────────────────────────────────
 
@@ -58,10 +59,14 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
     // ── Success message ───────────────────────────────────────────────────────
 
     println!(
-        "Removed {} v{} ({})",
-        plugin.name,
-        plugin.version,
-        format_names.join(", ")
+        "{}",
+        format!(
+            "Removed {} v{} ({})",
+            plugin.name,
+            plugin.version,
+            format_names.join(", ")
+        )
+        .green()
     );
 
     Ok(())

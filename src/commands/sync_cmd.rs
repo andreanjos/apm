@@ -1,4 +1,5 @@
 use anyhow::Result;
+use colored::Colorize;
 
 use crate::config::Config;
 use crate::registry::{self, sync};
@@ -26,14 +27,18 @@ pub async fn run(config: &Config) -> Result<()> {
                     .unwrap_or(0);
 
                 println!(
-                    "Registry '{}' updated. {} plugin{} available.",
-                    source.name,
-                    count,
-                    if count == 1 { "" } else { "s" }
+                    "{}",
+                    format!(
+                        "Registry '{}' updated. {} plugin{} available.",
+                        source.name,
+                        count,
+                        if count == 1 { "" } else { "s" }
+                    )
+                    .green()
                 );
             }
             Err(e) => {
-                eprintln!("Failed to sync registry '{}': {e}", source.name);
+                eprintln!("{}", format!("Failed to sync registry '{}': {e}", source.name).red());
                 any_error = true;
             }
         }

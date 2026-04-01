@@ -29,6 +29,9 @@ toml = "0.8"
 # Progress / TUI
 indicatif = "0.17"
 
+# Terminal colors
+colored = "3"
+
 # Error handling
 anyhow = "1"
 thiserror = "2"

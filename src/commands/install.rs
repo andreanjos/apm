@@ -2,6 +2,7 @@
 // verify, extract, place, and record.
 
 use anyhow::Result;
+use colored::Colorize;
 
 use crate::config::{Config, InstallScope};
 use crate::error::ApmError;
@@ -65,8 +66,8 @@ pub async fn run(
 
     println!(
         "Installing {} v{} ({})...",
-        plugin.name,
-        plugin.version,
+        plugin.name.bold(),
+        plugin.version.cyan(),
         formats_to_show.join(", ")
     );
 
@@ -87,8 +88,12 @@ pub async fn run(
     };
 
     println!(
-        "\nInstalled {} v{} to {}",
-        plugin.name, plugin.version, install_base
+        "\n{}",
+        format!(
+            "Installed {} v{} to {}",
+            plugin.name, plugin.version, install_base
+        )
+        .green()
     );
 
     Ok(())

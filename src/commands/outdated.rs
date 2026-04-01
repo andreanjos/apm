@@ -2,6 +2,7 @@
 // plugins that have newer versions available.
 
 use anyhow::Result;
+use colored::Colorize;
 use semver::Version;
 use serde::Serialize;
 
@@ -123,24 +124,32 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
     // Header.
     println!(
-        "{:<col_name$}  {:<col_inst$}  {:<col_avail$}  Status",
-        "Plugin", "Installed", "Available",
-        col_name = col_name,
-        col_inst = col_inst,
-        col_avail = col_avail,
+        "{}",
+        format!(
+            "{:<col_name$}  {:<col_inst$}  {:<col_avail$}  Status",
+            "Plugin", "Installed", "Available",
+            col_name = col_name,
+            col_inst = col_inst,
+            col_avail = col_avail,
+        )
+        .bold()
     );
 
     // Separator line.
     let total_width = col_name + 2 + col_inst + 2 + col_avail + 2 + 6;
-    println!("{}", "\u{2500}".repeat(total_width));
+    println!("{}", "\u{2500}".repeat(total_width).dimmed());
 
     for entry in &outdated {
-        let status = if entry.pinned { "pinned" } else { "" };
+        let status = if entry.pinned {
+            "pinned".yellow().to_string()
+        } else {
+            String::new()
+        };
         println!(
             "{:<col_name$}  {:<col_inst$}  {:<col_avail$}  {}",
-            entry.name,
-            entry.installed,
-            entry.available,
+            entry.name.bold().to_string(),
+            entry.installed.cyan().to_string(),
+            entry.available.green().to_string(),
             status,
             col_name = col_name,
             col_inst = col_inst,
@@ -152,11 +161,15 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     let upgradeable = outdated.iter().filter(|e| !e.pinned).count();
     if upgradeable > 0 {
         println!(
-            "\n{} plugin(s) can be upgraded. Run 'apm upgrade' to upgrade all.",
-            upgradeable
+            "\n{}",
+            format!(
+                "{} plugin(s) can be upgraded. Run 'apm upgrade' to upgrade all.",
+                upgradeable
+            )
+            .yellow()
         );
     } else {
-        println!("\nAll upgradeable plugins are pinned.");
+        println!("\n{}", "All upgradeable plugins are pinned.".yellow());
     }
 
     Ok(())

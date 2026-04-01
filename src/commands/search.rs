@@ -1,4 +1,5 @@
 use anyhow::Result;
+use colored::Colorize;
 use serde::Serialize;
 
 use crate::config::Config;
@@ -119,35 +120,43 @@ pub async fn run(config: &Config, query: &str, category: Option<&str>, vendor: O
 
     // ── Header ────────────────────────────────────────────────────────────────
     println!(
-        "{:<w_name$}  {:<w_vendor$}  {:<w_ver$}  {:<w_cat$}  {}",
-        HDR_NAME, HDR_VENDOR, HDR_VER, HDR_CAT, HDR_LIC,
+        "{}",
+        format!(
+            "{:<w_name$}  {:<w_vendor$}  {:<w_ver$}  {:<w_cat$}  {}",
+            HDR_NAME, HDR_VENDOR, HDR_VER, HDR_CAT, HDR_LIC,
+        )
+        .bold()
     );
 
     let rule_len = w_name + 2 + w_vendor + 2 + w_ver + 2 + w_cat + 2 + w_lic;
-    println!("{}", "\u{2500}".repeat(rule_len));
+    println!("{}", "\u{2500}".repeat(rule_len).dimmed());
 
     // ── Rows ──────────────────────────────────────────────────────────────────
     for p in &results {
         println!(
             "{:<w_name$}  {:<w_vendor$}  {:<w_ver$}  {:<w_cat$}  {}",
-            p.slug,
+            p.slug.bold().to_string(),
             p.vendor,
-            p.version,
+            p.version.cyan().to_string(),
             category_display(p),
             p.license,
         );
         // Description on an indented second line.
         if !p.description.is_empty() {
-            println!("  {}", p.description);
+            println!("  {}", p.description.dimmed());
         }
     }
 
     // ── Summary ───────────────────────────────────────────────────────────────
     println!();
     println!(
-        "Found {} plugin{}",
-        results.len(),
-        if results.len() == 1 { "" } else { "s" }
+        "{}",
+        format!(
+            "Found {} plugin{}",
+            results.len(),
+            if results.len() == 1 { "" } else { "s" }
+        )
+        .dimmed()
     );
 
     Ok(())

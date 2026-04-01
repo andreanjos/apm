@@ -1,6 +1,7 @@
 // upgrade command — replace installed plugin(s) with newer registry versions.
 
 use anyhow::Result;
+use colored::Colorize;
 use semver::Version;
 
 use crate::config::Config;
@@ -130,8 +131,10 @@ pub async fn run(config: &Config, name: Option<&str>) -> Result<()> {
         let registry_plugin = registry.find(&candidate.slug).expect("already checked above");
 
         println!(
-            "Upgrading {} v{} -> v{}...",
-            candidate.slug, candidate.installed_version, candidate.available_version
+            "Upgrading {} {} -> {}...",
+            candidate.slug.bold(),
+            candidate.installed_version.cyan(),
+            candidate.available_version.cyan()
         );
 
         // Remove old bundles from disk.
@@ -166,8 +169,8 @@ pub async fn run(config: &Config, name: Option<&str>) -> Result<()> {
             .map_err(|e| e.context(format!("Failed to upgrade '{}'", candidate.slug)))?;
 
         println!(
-            "Upgraded {} to v{}",
-            candidate.slug, candidate.available_version
+            "{}",
+            format!("Upgraded {} to v{}", candidate.slug, candidate.available_version).green()
         );
         upgraded += 1;
     }
@@ -175,9 +178,9 @@ pub async fn run(config: &Config, name: Option<&str>) -> Result<()> {
     // ── Summary ───────────────────────────────────────────────────────────────
 
     if upgraded == 0 {
-        println!("Nothing was upgraded.");
+        println!("{}", "Nothing was upgraded.".dimmed());
     } else {
-        println!("\nUpgraded {} plugin(s).", upgraded);
+        println!("\n{}", format!("Upgraded {} plugin(s).", upgraded).green());
     }
 
     Ok(())

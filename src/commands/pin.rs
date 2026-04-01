@@ -1,6 +1,7 @@
 // pin command — pin or unpin a plugin, or list all pinned plugins.
 
 use anyhow::Result;
+use colored::Colorize;
 
 use crate::config::Config;
 use crate::state::InstallState;
@@ -26,17 +27,16 @@ pub async fn run(config: &Config, name: Option<&str>, unpin: bool, list: bool) -
             .max(6);
 
         println!(
-            "{:<col_name$}  Version",
-            "Plugin",
-            col_name = col_name
+            "{}",
+            format!("{:<col_name$}  Version", "Plugin", col_name = col_name).bold()
         );
-        println!("{}", "\u{2500}".repeat(col_name + 2 + 7));
+        println!("{}", "\u{2500}".repeat(col_name + 2 + 7).dimmed());
 
         for plugin in &pinned {
             println!(
                 "{:<col_name$}  {}",
-                plugin.name,
-                plugin.version,
+                plugin.name.bold().to_string(),
+                plugin.version.cyan(),
                 col_name = col_name,
             );
         }
@@ -76,14 +76,14 @@ pub async fn run(config: &Config, name: Option<&str>, unpin: bool, list: bool) -
             p.pinned = false;
         }
         state.save(config)?;
-        println!("Unpinned {}", plugin.name);
+        println!("{}", format!("Unpinned {}", plugin.name).green());
     } else {
         // Pin.
         if let Some(p) = state.find_mut(plugin_name) {
             p.pinned = true;
         }
         state.save(config)?;
-        println!("Pinned {} at v{}", plugin.name, plugin.version);
+        println!("{}", format!("Pinned {} at v{}", plugin.name, plugin.version).yellow());
     }
 
     Ok(())

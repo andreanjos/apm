@@ -1,4 +1,5 @@
 use anyhow::Result;
+use colored::Colorize;
 use serde::Serialize;
 
 use crate::config::Config;
@@ -98,17 +99,16 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
     // ── Header ────────────────────────────────────────────────────────────────
     println!(
-        "{:<w_name$}  {:<w_ver$}  {:<w_vendor$}  {:<w_fmt$}  {:<w_src$}  {}",
-        HDR_NAME,
-        HDR_VER,
-        HDR_VENDOR,
-        HDR_FMT,
-        HDR_SRC,
-        HDR_LOC,
+        "{}",
+        format!(
+            "{:<w_name$}  {:<w_ver$}  {:<w_vendor$}  {:<w_fmt$}  {:<w_src$}  {}",
+            HDR_NAME, HDR_VER, HDR_VENDOR, HDR_FMT, HDR_SRC, HDR_LOC,
+        )
+        .bold()
     );
 
     let rule_len = w_name + 2 + w_ver + 2 + w_vendor + 2 + w_fmt + 2 + w_src + 2 + HDR_LOC.len();
-    println!("{}", "\u{2500}".repeat(rule_len)); // ─────
+    println!("{}", "\u{2500}".repeat(rule_len).dimmed()); // ─────
 
     // ── Rows ──────────────────────────────────────────────────────────────────
     for p in &plugins {
@@ -125,16 +125,16 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
             sp.formats.iter().any(|f| f.path == p.path)
                 || sp.name.eq_ignore_ascii_case(&p.name)
         });
-        let source_cell = if is_managed { "apm" } else { "-" };
+        let source_cell = if is_managed { "apm".green().to_string() } else { "-".dimmed().to_string() };
 
         println!(
             "{:<w_name$}  {:<w_ver$}  {:<w_vendor$}  {:<w_fmt$}  {:<w_src$}  {}",
-            name_cell,
-            ver_cell,
+            name_cell.bold().to_string(),
+            ver_cell.cyan().to_string(),
             vendor_cell,
             p.format.to_string(),
             source_cell,
-            path_str,
+            path_str.dimmed(),
         );
     }
 
@@ -147,11 +147,15 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
     println!();
     println!(
-        "Found {} plugin{} ({} AU, {} VST3)",
-        plugins.len(),
-        if plugins.len() == 1 { "" } else { "s" },
-        n_au,
-        n_vst3,
+        "{}",
+        format!(
+            "Found {} plugin{} ({} AU, {} VST3)",
+            plugins.len(),
+            if plugins.len() == 1 { "" } else { "s" },
+            n_au,
+            n_vst3,
+        )
+        .dimmed()
     );
 
     Ok(())

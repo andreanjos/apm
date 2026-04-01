@@ -1,4 +1,5 @@
 use anyhow::Result;
+use colored::Colorize;
 use serde::Serialize;
 
 use crate::config::Config;
@@ -78,12 +79,16 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
     // ── Header ────────────────────────────────────────────────────────────────
     println!(
-        "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {}",
-        HDR_NAME, HDR_VER, HDR_FMT, HDR_PATH,
+        "{}",
+        format!(
+            "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {}",
+            HDR_NAME, HDR_VER, HDR_FMT, HDR_PATH,
+        )
+        .bold()
     );
 
     let rule_len = w_name + 2 + w_ver + 2 + w_fmt + 2 + HDR_PATH.len();
-    println!("{}", "\u{2500}".repeat(rule_len));
+    println!("{}", "\u{2500}".repeat(rule_len).dimmed());
 
     // ── Rows ──────────────────────────────────────────────────────────────────
     for plugin in &state.plugins {
@@ -101,16 +106,23 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
         println!(
             "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {}",
-            plugin.name, plugin.version, fmt_label, path_str,
+            plugin.name.bold().to_string(),
+            plugin.version.cyan().to_string(),
+            fmt_label,
+            path_str.dimmed(),
         );
     }
 
     // ── Summary ───────────────────────────────────────────────────────────────
     println!();
     println!(
-        "{} plugin{} managed by apm.",
-        state.plugins.len(),
-        if state.plugins.len() == 1 { "" } else { "s" }
+        "{}",
+        format!(
+            "{} plugin{} managed by apm.",
+            state.plugins.len(),
+            if state.plugins.len() == 1 { "" } else { "s" }
+        )
+        .dimmed()
     );
 
     Ok(())

@@ -11,6 +11,7 @@ use std::path::{Path, PathBuf};
 
 use anyhow::{Context, Result};
 use chrono::Utc;
+use colored::Colorize;
 use tracing::{debug, info};
 
 use crate::config::{Config, InstallScope};
@@ -132,8 +133,11 @@ async fn install_one_format(
     let archive_path = config.downloads_cache_dir().join(&archive_name);
 
     println!(
-        "  [1/4] Downloading {} {} ({})...",
-        plugin.name, plugin.version, fmt
+        "  {} Downloading {} {} ({})...",
+        "[1/4]".dimmed(),
+        plugin.name.bold(),
+        plugin.version.cyan(),
+        fmt
     );
 
     crate::download::download_file(&source.url, &archive_path, &source.sha256)
@@ -147,11 +151,11 @@ async fn install_one_format(
 
     // ── Step 2: Verify (already done inside download_file) ────────────────────
 
-    println!("  [2/4] Checksum OK.");
+    println!("  {} Checksum OK.", "[2/4]".dimmed());
 
     // ── Step 3: Extract + place ───────────────────────────────────────────────
 
-    println!("  [3/4] Extracting...");
+    println!("  {} Extracting...", "[3/4]".dimmed());
 
     let bundle_path = match source.install_type {
         InstallType::Dmg => {
@@ -181,7 +185,7 @@ async fn install_one_format(
 
     // ── Step 4: Strip quarantine ──────────────────────────────────────────────
 
-    println!("  [4/4] Removing quarantine flag...");
+    println!("  {} Removing quarantine flag...", "[4/4]".dimmed());
 
     quarantine::remove_quarantine(&bundle_path).with_context(|| {
         format!(

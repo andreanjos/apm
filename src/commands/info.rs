@@ -1,4 +1,5 @@
 use anyhow::Result;
+use colored::Colorize;
 use serde::Serialize;
 
 use crate::config::Config;
@@ -84,36 +85,36 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
 
 fn print_plugin_info(p: &PluginDefinition, installed: Option<&crate::state::InstalledPlugin>) {
     // Title
-    println!("{}", p.slug);
-    println!("{}", "\u{2550}".repeat(47)); // ═══════
+    println!("{}", p.slug.bold());
+    println!("{}", "\u{2550}".repeat(47).dimmed()); // ═══════
 
-    println!("{:<13} {}", "Name:", p.name);
-    println!("{:<13} {}", "Vendor:", p.vendor);
-    println!("{:<13} {}", "Version:", p.version);
+    println!("{:<13} {}", "Name:".dimmed(), p.name.bold());
+    println!("{:<13} {}", "Vendor:".dimmed(), p.vendor);
+    println!("{:<13} {}", "Version:".dimmed(), p.version.cyan());
 
     // Category
     let cat = match &p.subcategory {
         Some(sub) => format!("{} / {}", p.category, sub),
         None => p.category.clone(),
     };
-    println!("{:<13} {}", "Category:", cat);
+    println!("{:<13} {}", "Category:".dimmed(), cat);
 
-    println!("{:<13} {}", "License:", p.license);
+    println!("{:<13} {}", "License:".dimmed(), p.license);
 
     if let Some(hp) = &p.homepage {
-        println!("{:<13} {}", "Homepage:", hp);
+        println!("{:<13} {}", "Homepage:".dimmed(), hp);
     }
 
     // Tags
     if !p.tags.is_empty() {
-        println!("{:<13} {}", "Tags:", p.tags.join(", "));
+        println!("{:<13} {}", "Tags:".dimmed(), p.tags.join(", "));
     }
 
     // Description
     println!();
-    println!("Description:");
+    println!("{}", "Description:".bold());
     if p.description.is_empty() {
-        println!("  (no description)");
+        println!("  {}", "(no description)".dimmed());
     } else {
         // Word-wrap at 72 chars.
         for line in wrap_text(&p.description, 70) {
@@ -123,14 +124,14 @@ fn print_plugin_info(p: &PluginDefinition, installed: Option<&crate::state::Inst
 
     // Available formats
     println!();
-    println!("Available Formats:");
+    println!("{}", "Available Formats:".bold());
     if p.formats.is_empty() {
-        println!("  (none listed)");
+        println!("  {}", "(none listed)".dimmed());
     } else {
         let mut formats: Vec<_> = p.formats.iter().collect();
         formats.sort_by_key(|(fmt, _)| fmt.to_string());
         for (fmt, src) in formats {
-            println!("  {:<6} ({})", fmt.to_string(), src.install_type);
+            println!("  {:<6} ({})", fmt.to_string().cyan(), src.install_type);
         }
     }
 
@@ -138,10 +139,13 @@ fn print_plugin_info(p: &PluginDefinition, installed: Option<&crate::state::Inst
     println!();
     match installed {
         Some(inst) => {
-            println!("Status:       Installed (v{})", inst.version);
+            println!(
+                "Status:       {}",
+                format!("Installed (v{})", inst.version).green()
+            );
         }
         None => {
-            println!("Status:       Not installed");
+            println!("Status:       {}", "Not installed".yellow());
         }
     }
 }
