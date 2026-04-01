@@ -1,0 +1,22 @@
+slug        = "voxengo-oldskoolverb"
+name        = "Voxengo OldSkoolVerb"
+vendor      = "Voxengo"
+version     = "2.6"
+description = "Free vintage algorithmic reverb covering plate, room, and hall sounds with five reverb modes."
+category    = "effects"
+subcategory = "reverb"
+license     = "freeware"
+tags        = ["reverb", "algorithmic", "vintage", "plate", "hall", "room", "free", "freeware"]
+homepage    = "https://www.voxengo.com/product/oldskoolverb/"
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/oldskoolverb/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "VoxengoOldSkoolVerb.vst3"
+
+[formats.au]
+url          = "https://www.voxengo.com/product/oldskoolverb/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "VoxengoOldSkoolVerb.component"

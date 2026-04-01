@@ -1,0 +1,22 @@
+slug        = "deelay"
+name        = "Deelay"
+vendor      = "Sixth Sample"
+version     = "1.3.1"
+description = "Free versatile delay with tape emulation, diffusion, eleven distortion types, and five delay modes."
+category    = "effects"
+subcategory = "delay"
+license     = "freeware"
+tags        = ["delay", "tape", "diffusion", "modulation", "ping-pong", "free", "freeware"]
+homepage    = "https://sixthsample.com/deelay/"
+
+[formats.vst3]
+url          = "https://sixthsample.com/deelay/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Deelay.vst3"
+
+[formats.au]
+url          = "https://sixthsample.com/deelay/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Deelay.component"

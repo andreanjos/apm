@@ -1,0 +1,22 @@
+slug        = "voxengo-boogex"
+name        = "Voxengo Boogex"
+vendor      = "Voxengo"
+version     = "3.8"
+description = "Free guitar amplifier plugin with IR cabinet loading, covering heavy distortion to light overdrive."
+category    = "effects"
+subcategory = "amp-sim"
+license     = "freeware"
+tags        = ["amp-sim", "guitar", "distortion", "overdrive", "cabinet", "ir", "free", "freeware"]
+homepage    = "https://www.voxengo.com/product/boogex/"
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/boogex/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "VoxengoBoogex.vst3"
+
+[formats.au]
+url          = "https://www.voxengo.com/product/boogex/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "VoxengoBoogex.component"

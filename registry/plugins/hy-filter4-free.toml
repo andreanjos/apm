@@ -1,0 +1,22 @@
+slug        = "hy-filter4-free"
+name        = "HY-Filter4 Free"
+vendor      = "HY-Plugins"
+version     = "1.1.62"
+description = "Free semi-modular filter plugin with SVF and 3BP filter engines and five modulation types."
+category    = "effects"
+subcategory = "filter"
+license     = "freeware"
+tags        = ["filter", "modulation", "svf", "semi-modular", "free", "freeware"]
+homepage    = "https://hy-plugins.com/product/hy-filter4/"
+
+[formats.vst3]
+url          = "https://hy-plugins.com/download/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "HY-Filter4Free.vst3"
+
+[formats.au]
+url          = "https://hy-plugins.com/download/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "HY-Filter4Free.component"
