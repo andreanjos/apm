@@ -1,0 +1,22 @@
+slug        = "eastwest-hollywood-brass"
+name        = "Hollywood Brass"
+vendor      = "EastWest"
+version     = "2.0.0"
+description = "Industry-standard orchestral brass library recorded at EastWest Studio 1 with full sections, soloists, multiple mic positions, and the Opus engine."
+category    = "instruments"
+subcategory = "orchestral"
+license     = "commercial"
+tags        = ["brass", "orchestral", "cinematic", "opus", "ensemble", "trumpet", "trombone", "horn", "sample-library", "film-scoring"]
+homepage    = "https://www.soundsonline.com/orchestras/hollywood-orchestra-opus-edition"
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/support/updates"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "EastWest Opus.vst3"
+
+[formats.au]
+url          = "https://www.soundsonline.com/support/updates"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "EastWest Opus.component"

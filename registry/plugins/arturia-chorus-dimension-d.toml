@@ -1,0 +1,22 @@
+slug        = "arturia-chorus-dimension-d"
+name        = "Chorus DIMENSION-D"
+vendor      = "Arturia"
+version     = "1.4.0"
+description = "Faithful emulation of the Roland Dimension D spatial chorus ensemble, delivering its signature lush stereo widening and shimmer."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = ["chorus", "roland", "dimension-d", "vintage", "ensemble", "stereo", "analog-modeling", "classic"]
+homepage    = "https://www.arturia.com/products/software-effects/chorus-dimension-d/overview"
+
+[formats.vst3]
+url          = "https://www.arturia.com/support/downloads-manuals/product/chorus-dimension-d"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Chorus DIMENSION-D.vst3"
+
+[formats.au]
+url          = "https://www.arturia.com/support/downloads-manuals/product/chorus-dimension-d"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Chorus DIMENSION-D.component"

@@ -1,0 +1,22 @@
+slug        = "arturia-flanger-bl-20"
+name        = "Flanger BL-20"
+vendor      = "Arturia"
+version     = "1.5.1"
+description = "Analog-modeled flanger inspired by the Bel BF-20 tape-flange unit, with dual-engine architecture for classic to extreme flanging effects."
+category    = "effects"
+subcategory = "flanger"
+license     = "commercial"
+tags        = ["flanger", "analog-modeling", "tape", "vintage", "modulation", "bel", "bbd", "creative"]
+homepage    = "https://www.arturia.com/products/software-effects/flanger-bl-20/overview"
+
+[formats.vst3]
+url          = "https://www.arturia.com/support/downloads-manuals/product/flanger-bl-20"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Flanger BL-20.vst3"
+
+[formats.au]
+url          = "https://www.arturia.com/support/downloads-manuals/product/flanger-bl-20"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Flanger BL-20.component"
