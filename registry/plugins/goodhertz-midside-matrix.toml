@@ -1,0 +1,22 @@
+slug        = "goodhertz-midside-matrix"
+name        = "Midside Matrix"
+vendor      = "Goodhertz"
+version     = "3.11.0"
+description = "Mid/side encoding and decoding matrix for advanced stereo manipulation workflows"
+category    = "effects"
+subcategory = "utility"
+license     = "commercial"
+tags        = ["mid-side", "matrix", "stereo", "encoding", "utility"]
+homepage    = "https://goodhertz.com/midside-matrix/"
+
+[formats.vst3]
+url          = "https://goodhertz.com/downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Ghz Midside Matrix 3.vst3"
+
+[formats.au]
+url          = "https://goodhertz.com/downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Ghz Midside Matrix 3.component"

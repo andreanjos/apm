@@ -1,0 +1,22 @@
+slug        = "goodhertz-loudness"
+name        = "Loudness"
+vendor      = "Goodhertz"
+version     = "3.11.0"
+description = "Loudness metering and monitoring plugin with LUFS and true peak measurement"
+category    = "effects"
+subcategory = "metering"
+license     = "commercial"
+tags        = ["metering", "loudness", "lufs", "true-peak", "mastering"]
+homepage    = "https://goodhertz.com/loudness/"
+
+[formats.vst3]
+url          = "https://goodhertz.com/downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Ghz Loudness 3.vst3"
+
+[formats.au]
+url          = "https://goodhertz.com/downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Ghz Loudness 3.component"
