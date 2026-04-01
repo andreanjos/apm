@@ -238,11 +238,12 @@ async fn install_one_format(ctx: FormatInstallCtx<'_>) -> Result<PathBuf> {
         // Build a per-format progress bar with the format name as prefix.
         let pb = build_format_progress_bar(mp, fmt_label, None);
 
-        crate::download::download_file_with_progress(
+        crate::download::download_file_with_progress_cached(
             &source.url,
             &archive_path,
             &source.sha256,
             pb,
+            config,
         )
         .await
         .with_context(|| {
