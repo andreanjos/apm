@@ -1,0 +1,22 @@
+slug        = "uad-api-560"
+name        = "API 560"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "10-band graphic EQ emulation of the API 560 with proportional-Q design"
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = ["eq", "graphic", "api", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD API 560.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD API 560.component"

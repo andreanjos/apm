@@ -1,0 +1,22 @@
+slug        = "uad-c-suite-c-vox"
+name        = "C-Suite C-Vox"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Vocal dynamics processor from the C-Suite collection for automatic level control"
+category    = "effects"
+subcategory = "dynamics"
+license     = "commercial"
+tags        = ["dynamics", "vocal", "c-suite", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD C-Suite C-Vox.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD C-Suite C-Vox.component"

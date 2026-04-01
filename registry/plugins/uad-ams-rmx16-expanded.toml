@@ -1,0 +1,22 @@
+slug        = "uad-ams-rmx16-expanded"
+name        = "AMS RMX16 Expanded"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Expanded version of the AMS RMX16 with additional algorithms and controls"
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = ["reverb", "ams", "digital", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD AMS RMX16 Expanded.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD AMS RMX16 Expanded.component"
