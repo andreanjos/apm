@@ -1,0 +1,22 @@
+slug        = "uad-little-labs-vog"
+name        = "Little Labs VOG"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Voice of God bass resonance tool for adding controlled low-end weight"
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = ["eq", "bass", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Little Labs VOG.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Little Labs VOG.component"

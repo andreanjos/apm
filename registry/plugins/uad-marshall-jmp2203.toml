@@ -1,0 +1,22 @@
+slug        = "uad-marshall-jmp2203"
+name        = "Marshall JMP 2203"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Guitar amplifier emulation of the Marshall JMP 2203 master volume head"
+category    = "effects"
+subcategory = "amp-sim"
+license     = "commercial"
+tags        = ["amp-sim", "guitar", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Marshall JMP 2203.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Marshall JMP 2203.component"

@@ -1,0 +1,22 @@
+slug        = "uad-oxford-envolution"
+name        = "Oxford Envolution"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Frequency-selective transient shaper for precise attack and sustain control"
+category    = "effects"
+subcategory = "transient-shaper"
+license     = "commercial"
+tags        = ["transient-shaper", "dynamics", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Oxford Envolution.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Oxford Envolution.component"
