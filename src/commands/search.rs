@@ -3,7 +3,7 @@ use anyhow::Result;
 use crate::config::Config;
 use crate::registry::{self, search};
 
-pub async fn run(config: &Config, query: &str, category: Option<&str>) -> Result<()> {
+pub async fn run(config: &Config, query: &str, category: Option<&str>, vendor: Option<&str>) -> Result<()> {
     let registry = registry::Registry::load_all_sources(config)?;
 
     if registry.is_empty() {
@@ -13,12 +13,16 @@ pub async fn run(config: &Config, query: &str, category: Option<&str>) -> Result
         return Ok(());
     }
 
-    let results = search::search(&registry, query, category);
+    let results = search::search(&registry, query, category, vendor);
 
     if results.is_empty() {
-        let filter_msg = category
-            .map(|c| format!(" in category '{c}'"))
-            .unwrap_or_default();
+        let mut filter_msg = String::new();
+        if let Some(c) = category {
+            filter_msg.push_str(&format!(" in category '{c}'"));
+        }
+        if let Some(v) = vendor {
+            filter_msg.push_str(&format!(" by vendor '{v}'"));
+        }
         if query.is_empty() {
             println!("No plugins found{filter_msg}.");
         } else {

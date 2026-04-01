@@ -4,7 +4,8 @@
 use crate::registry::{PluginDefinition, Registry};
 
 /// Search `registry` for plugins matching `query`, optionally restricted to
-/// `category` (matches category or subcategory, case-insensitive).
+/// `category` (matches category or subcategory, case-insensitive) and/or
+/// `vendor` (matches the vendor field, case-insensitive).
 ///
 /// Results are sorted by relevance:
 /// 1. Exact slug or name match (case-insensitive).
@@ -15,9 +16,11 @@ pub fn search<'r>(
     registry: &'r Registry,
     query: &str,
     category: Option<&str>,
+    vendor: Option<&str>,
 ) -> Vec<&'r PluginDefinition> {
     let query_lower = query.to_lowercase();
     let category_lower = category.map(|c| c.to_lowercase());
+    let vendor_lower = vendor.map(|v| v.to_lowercase());
 
     // First pass: collect every plugin that matches the query (all fields).
     let mut results: Vec<&PluginDefinition> = registry
@@ -36,8 +39,15 @@ pub fn search<'r>(
                 }
             }
 
+            // Vendor filter.
+            if let Some(ref ven) = vendor_lower {
+                if !p.vendor.to_lowercase().contains(ven.as_str()) {
+                    return false;
+                }
+            }
+
             // If the query is empty (e.g. `apm search --category reverb ""`),
-            // return all category-filtered results.
+            // return all category/vendor-filtered results.
             if query_lower.is_empty() {
                 return true;
             }

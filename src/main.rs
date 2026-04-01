@@ -71,6 +71,10 @@ enum Commands {
         /// Filter results by category (e.g. "instrument", "effect", "reverb").
         #[arg(long, short = 'c')]
         category: Option<String>,
+
+        /// Filter results by vendor name (e.g. "Valhalla", "Fabfilter").
+        #[arg(long)]
+        vendor: Option<String>,
     },
 
     /// Sync the local registry cache from the configured Git remote.
@@ -219,9 +223,9 @@ async fn run() -> Result<()> {
 
         Commands::Info { name } => commands::info::run(&config, name).await,
 
-        Commands::Search { query, category } => {
+        Commands::Search { query, category, vendor } => {
             let q = query.as_deref().unwrap_or("");
-            commands::search::run(&config, q, category.as_deref()).await
+            commands::search::run(&config, q, category.as_deref(), vendor.as_deref()).await
         }
 
         Commands::Sync => commands::sync_cmd::run(&config).await,
