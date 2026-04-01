@@ -33,6 +33,10 @@ struct Cli {
     /// Enable verbose output (equivalent to RUST_LOG=apm=debug).
     #[arg(long, short = 'v', global = true)]
     verbose: bool,
+
+    /// Output results as JSON instead of human-readable tables.
+    #[arg(long, global = true)]
+    json: bool,
 }
 
 #[derive(Subcommand, Debug)]
@@ -235,17 +239,19 @@ async fn run() -> Result<()> {
     // This creates ~/.config/apm/ on first run.
     let config = config::init()?;
 
+    let json = cli.json;
+
     // Dispatch to command handlers.
     match &cli.command {
-        Commands::Scan => commands::scan::run(&config).await,
+        Commands::Scan => commands::scan::run(&config, json).await,
 
-        Commands::List => commands::list::run(&config).await,
+        Commands::List => commands::list::run(&config, json).await,
 
-        Commands::Info { name } => commands::info::run(&config, name).await,
+        Commands::Info { name } => commands::info::run(&config, name, json).await,
 
         Commands::Search { query, category, vendor } => {
             let q = query.as_deref().unwrap_or("");
-            commands::search::run(&config, q, category.as_deref(), vendor.as_deref()).await
+            commands::search::run(&config, q, category.as_deref(), vendor.as_deref(), json).await
         }
 
         Commands::Sync => commands::sync_cmd::run(&config).await,
@@ -277,7 +283,7 @@ async fn run() -> Result<()> {
 
         Commands::Remove { name } => commands::remove::run(&config, name).await,
 
-        Commands::Outdated => commands::outdated::run(&config).await,
+        Commands::Outdated => commands::outdated::run(&config, json).await,
 
         Commands::Upgrade { name } => {
             commands::upgrade::run(&config, name.as_deref()).await

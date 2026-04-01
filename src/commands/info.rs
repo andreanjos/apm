@@ -1,25 +1,52 @@
 use anyhow::Result;
+use serde::Serialize;
 
 use crate::config::Config;
 use crate::registry::{self, PluginDefinition};
 use crate::state::InstallState;
 
-pub async fn run(config: &Config, name: &str) -> Result<()> {
+/// JSON-serializable view of a plugin info result.
+#[derive(Serialize)]
+struct PluginInfoJson<'a> {
+    slug: &'a str,
+    name: &'a str,
+    vendor: &'a str,
+    version: &'a str,
+    category: &'a str,
+    subcategory: Option<&'a str>,
+    license: &'a str,
+    description: &'a str,
+    tags: &'a [String],
+    homepage: Option<&'a str>,
+    formats: Vec<String>,
+    installed: bool,
+    installed_version: Option<String>,
+}
+
+pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
     let registry = registry::Registry::load_all_sources(config)?;
 
     if registry.is_empty() {
-        println!(
-            "Registry cache is empty. Run `apm sync` to download the plugin registry."
-        );
+        if json {
+            println!("null");
+        } else {
+            println!(
+                "Registry cache is empty. Run `apm sync` to download the plugin registry."
+            );
+        }
         return Ok(());
     }
 
     let plugin = match registry.find(name) {
         Some(p) => p,
         None => {
-            println!(
-                "Plugin '{name}' not found. Try `apm search {name}` to find the correct name."
-            );
+            if json {
+                println!("null");
+            } else {
+                println!(
+                    "Plugin '{name}' not found. Try `apm search {name}` to find the correct name."
+                );
+            }
             return Ok(());
         }
     };
@@ -28,7 +55,28 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
     let state = InstallState::load(config)?;
     let installed = state.find(&plugin.slug);
 
-    print_plugin_info(plugin, installed);
+    if json {
+        let mut formats: Vec<String> = plugin.formats.keys().map(|f| f.to_string()).collect();
+        formats.sort();
+        let info = PluginInfoJson {
+            slug: &plugin.slug,
+            name: &plugin.name,
+            vendor: &plugin.vendor,
+            version: &plugin.version,
+            category: &plugin.category,
+            subcategory: plugin.subcategory.as_deref(),
+            license: &plugin.license,
+            description: &plugin.description,
+            tags: &plugin.tags,
+            homepage: plugin.homepage.as_deref(),
+            formats,
+            installed: installed.is_some(),
+            installed_version: installed.map(|i| i.version.clone()),
+        };
+        println!("{}", serde_json::to_string_pretty(&info)?);
+    } else {
+        print_plugin_info(plugin, installed);
+    }
     Ok(())
 }
 

@@ -3,18 +3,32 @@
 
 use anyhow::Result;
 use semver::Version;
+use serde::Serialize;
 
 use crate::config::Config;
 use crate::registry::Registry;
 use crate::state::InstallState;
 
-pub async fn run(config: &Config) -> Result<()> {
+/// JSON-serializable view of an outdated plugin.
+#[derive(Serialize)]
+struct OutdatedPluginJson {
+    name: String,
+    installed_version: String,
+    available_version: String,
+    pinned: bool,
+}
+
+pub async fn run(config: &Config, json: bool) -> Result<()> {
     // ── Load state and registry ───────────────────────────────────────────────
 
     let state = InstallState::load(config)?;
 
     if state.plugins.is_empty() {
-        println!("No plugins installed via apm.");
+        if json {
+            println!("[]");
+        } else {
+            println!("No plugins installed via apm.");
+        }
         return Ok(());
     }
 
@@ -69,7 +83,26 @@ pub async fn run(config: &Config) -> Result<()> {
     // ── Display results ───────────────────────────────────────────────────────
 
     if outdated.is_empty() {
-        println!("All plugins are up to date.");
+        if json {
+            println!("[]");
+        } else {
+            println!("All plugins are up to date.");
+        }
+        return Ok(());
+    }
+
+    // ── JSON output ───────────────────────────────────────────────────────────
+    if json {
+        let json_results: Vec<OutdatedPluginJson> = outdated
+            .iter()
+            .map(|e| OutdatedPluginJson {
+                name: e.name.clone(),
+                installed_version: e.installed.clone(),
+                available_version: e.available.clone(),
+                pinned: e.pinned,
+            })
+            .collect();
+        println!("{}", serde_json::to_string_pretty(&json_results)?);
         return Ok(());
     }
 

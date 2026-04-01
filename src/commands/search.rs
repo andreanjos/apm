@@ -1,21 +1,44 @@
 use anyhow::Result;
+use serde::Serialize;
 
 use crate::config::Config;
 use crate::registry::{self, search};
 
-pub async fn run(config: &Config, query: &str, category: Option<&str>, vendor: Option<&str>) -> Result<()> {
+/// JSON-serializable view of a search result.
+#[derive(Serialize)]
+struct SearchResultJson {
+    slug: String,
+    name: String,
+    vendor: String,
+    version: String,
+    category: String,
+    subcategory: Option<String>,
+    license: String,
+    description: String,
+    tags: Vec<String>,
+}
+
+pub async fn run(config: &Config, query: &str, category: Option<&str>, vendor: Option<&str>, json: bool) -> Result<()> {
     let registry = registry::Registry::load_all_sources(config)?;
 
     if registry.is_empty() {
-        println!(
-            "Registry cache is empty. Run `apm sync` to download the plugin registry."
-        );
+        if json {
+            println!("[]");
+        } else {
+            println!(
+                "Registry cache is empty. Run `apm sync` to download the plugin registry."
+            );
+        }
         return Ok(());
     }
 
     let results = search::search(&registry, query, category, vendor);
 
     if results.is_empty() {
+        if json {
+            println!("[]");
+            return Ok(());
+        }
         let mut filter_msg = String::new();
         if let Some(c) = category {
             filter_msg.push_str(&format!(" in category '{c}'"));
@@ -28,6 +51,26 @@ pub async fn run(config: &Config, query: &str, category: Option<&str>, vendor: O
         } else {
             println!("No plugins found matching '{query}'{filter_msg}.");
         }
+        return Ok(());
+    }
+
+    // ── JSON output ───────────────────────────────────────────────────────────
+    if json {
+        let json_results: Vec<SearchResultJson> = results
+            .iter()
+            .map(|p| SearchResultJson {
+                slug: p.slug.clone(),
+                name: p.name.clone(),
+                vendor: p.vendor.clone(),
+                version: p.version.clone(),
+                category: p.category.clone(),
+                subcategory: p.subcategory.clone(),
+                license: p.license.clone(),
+                description: p.description.clone(),
+                tags: p.tags.clone(),
+            })
+            .collect();
+        println!("{}", serde_json::to_string_pretty(&json_results)?);
         return Ok(());
     }
 

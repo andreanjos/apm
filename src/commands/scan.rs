@@ -1,4 +1,5 @@
 use anyhow::Result;
+use serde::Serialize;
 
 use crate::config::Config;
 use crate::scanner::{self, PluginFormat};
@@ -9,17 +10,55 @@ const MAX_NAME: usize = 35;
 const MAX_VER: usize = 12;
 const MAX_VENDOR: usize = 25;
 
-pub async fn run(config: &Config) -> Result<()> {
+/// JSON-serializable view of a scanned plugin.
+#[derive(Serialize)]
+struct ScannedPluginJson {
+    name: String,
+    version: String,
+    vendor: String,
+    format: String,
+    path: String,
+    managed_by_apm: bool,
+}
+
+pub async fn run(config: &Config, json: bool) -> Result<()> {
     let plugins = scanner::scan_plugins(config);
 
     if plugins.is_empty() {
-        println!("No audio plugins found in standard directories.");
+        if json {
+            println!("[]");
+        } else {
+            println!("No audio plugins found in standard directories.");
+        }
         return Ok(());
     }
 
     // Load apm-managed install state for source annotation.
     // A missing or unreadable state file is treated as empty (no managed plugins).
     let state = InstallState::load(config).unwrap_or_default();
+
+    // ── JSON output ───────────────────────────────────────────────────────────
+    if json {
+        let results: Vec<ScannedPluginJson> = plugins
+            .iter()
+            .map(|p| {
+                let is_managed = state.plugins.iter().any(|sp| {
+                    sp.formats.iter().any(|f| f.path == p.path)
+                        || sp.name.eq_ignore_ascii_case(&p.name)
+                });
+                ScannedPluginJson {
+                    name: p.name.clone(),
+                    version: p.version.clone(),
+                    vendor: p.vendor.clone(),
+                    format: p.format.to_string(),
+                    path: p.path.to_string_lossy().into_owned(),
+                    managed_by_apm: is_managed,
+                }
+            })
+            .collect();
+        println!("{}", serde_json::to_string_pretty(&results)?);
+        return Ok(());
+    }
 
     // ── Column widths ─────────────────────────────────────────────────────────
     // Compute widths from data, capped at the defined maximums.

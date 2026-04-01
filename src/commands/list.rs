@@ -1,13 +1,47 @@
 use anyhow::Result;
+use serde::Serialize;
 
 use crate::config::Config;
 use crate::state::{InstallState, InstalledPlugin};
 
-pub async fn run(config: &Config) -> Result<()> {
+/// JSON-serializable view of an installed plugin.
+#[derive(Serialize)]
+struct InstalledPluginJson {
+    name: String,
+    version: String,
+    formats: Vec<String>,
+    paths: Vec<String>,
+}
+
+pub async fn run(config: &Config, json: bool) -> Result<()> {
     let state = InstallState::load(config)?;
 
     if state.plugins.is_empty() {
-        println!("No plugins installed via apm. Use 'apm install <plugin>' to get started.");
+        if json {
+            println!("[]");
+        } else {
+            println!("No plugins installed via apm. Use 'apm install <plugin>' to get started.");
+        }
+        return Ok(());
+    }
+
+    // ── JSON output ───────────────────────────────────────────────────────────
+    if json {
+        let results: Vec<InstalledPluginJson> = state
+            .plugins
+            .iter()
+            .map(|p| InstalledPluginJson {
+                name: p.name.clone(),
+                version: p.version.clone(),
+                formats: p.formats.iter().map(|f| f.format.to_string()).collect(),
+                paths: p
+                    .formats
+                    .iter()
+                    .map(|f| f.path.to_string_lossy().into_owned())
+                    .collect(),
+            })
+            .collect();
+        println!("{}", serde_json::to_string_pretty(&results)?);
         return Ok(());
     }
 
