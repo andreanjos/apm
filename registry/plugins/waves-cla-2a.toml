@@ -1,0 +1,22 @@
+slug        = "waves-cla-2a"
+name        = "CLA-2A"
+vendor      = "Waves Audio"
+version     = "15.0"
+description = "Modeled electro-optical tube compressor/limiter developed in collaboration with Chris Lord-Alge."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = ["compressor", "limiter", "tube", "vintage", "optical", "analog-modeling"]
+homepage    = "https://www.waves.com/plugins/cla-2a-compressor-limiter"
+
+[formats.vst3]
+url          = "https://www.waves.com/downloads/central"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "WaveShell-VST3 15.0.vst3"
+
+[formats.au]
+url          = "https://www.waves.com/downloads/central"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "WaveShell2-AU 15.0.component"

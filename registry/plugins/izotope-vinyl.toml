@@ -1,0 +1,22 @@
+slug        = "izotope-vinyl"
+name        = "Vinyl"
+vendor      = "iZotope"
+version     = "1.13.0"
+description = "Free lo-fi effect simulating vinyl record dust, scratches, warp, and mechanical noise."
+category    = "effects"
+subcategory = "lo-fi"
+license     = "freeware"
+tags        = ["lo-fi", "vinyl", "free", "vintage", "creative", "noise", "freeware"]
+homepage    = "https://www.izotope.com/en/products/vinyl.html"
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products/vinyl.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Vinyl.vst3"
+
+[formats.au]
+url          = "https://www.izotope.com/en/products/vinyl.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Vinyl.component"
