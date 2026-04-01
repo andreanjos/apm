@@ -8,9 +8,9 @@ use chrono::{DateTime, Utc};
 use serde::{Deserialize, Serialize};
 use tracing::{debug, info};
 
-use crate::config::Config;
+use apm_core::config::Config;
 use crate::install::quarantine;
-use crate::state::{InstalledFormat, InstalledPlugin, InstallState};
+use apm_core::state::{InstalledFormat, InstalledPlugin, InstallState};
 
 // ── BackupEntry ───────────────────────────────────────────────────────────────
 
@@ -52,7 +52,7 @@ pub fn backup_plugin(plugin: &InstalledPlugin, config: &Config) -> Result<Backup
         .join(&plugin.name)
         .join(&plugin.version);
 
-    crate::config::ensure_dir(&backup_root).with_context(|| {
+    apm_core::config::ensure_dir(&backup_root).with_context(|| {
         format!("Cannot create backup directory: {}", backup_root.display())
     })?;
 
@@ -175,12 +175,12 @@ pub fn restore_plugin(slug: &str, config: &Config, state: &mut InstallState) -> 
         for src in &bundle_paths {
             let ext = src.extension().and_then(|e| e.to_str()).unwrap_or("");
             let dest_dir = match ext {
-                "component" => crate::config::user_au_dir(),
-                "vst3" => crate::config::user_vst3_dir(),
+                "component" => apm_core::config::user_au_dir(),
+                "vst3" => apm_core::config::user_vst3_dir(),
                 _ => continue,
             };
 
-            crate::config::ensure_dir(&dest_dir)?;
+            apm_core::config::ensure_dir(&dest_dir)?;
 
             let bundle_name = src
                 .file_name()
@@ -205,9 +205,9 @@ pub fn restore_plugin(slug: &str, config: &Config, state: &mut InstallState) -> 
                 .unwrap_or_else(|| ext.to_string());
 
             let format = if fmt_str == "au" || fmt_str == "component" {
-                crate::registry::PluginFormat::Au
+                apm_core::registry::PluginFormat::Au
             } else {
-                crate::registry::PluginFormat::Vst3
+                apm_core::registry::PluginFormat::Vst3
             };
 
             restored_formats.push(InstalledFormat {

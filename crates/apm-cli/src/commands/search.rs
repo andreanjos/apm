@@ -2,8 +2,8 @@ use anyhow::Result;
 use colored::Colorize;
 use serde::Serialize;
 
-use crate::config::Config;
-use crate::registry::{self, search};
+use apm_core::config::Config;
+use apm_core::registry::{self, search};
 
 /// JSON-serializable view of a search result.
 #[derive(Serialize)]
@@ -165,7 +165,7 @@ pub async fn run(config: &Config, query: &str, category: Option<&str>, vendor: O
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 /// Format category / subcategory as "category" or "category / subcategory".
-fn category_display(p: &crate::registry::PluginDefinition) -> String {
+fn category_display(p: &apm_core::registry::PluginDefinition) -> String {
     match &p.subcategory {
         Some(sub) => format!("{} / {}", p.category, sub),
         None => p.category.clone(),

@@ -5,8 +5,8 @@ use std::path::PathBuf;
 use anyhow::{Context, Result};
 use serde::{Deserialize, Serialize};
 
-use crate::config::Config;
-use crate::state::InstallState;
+use apm_core::config::Config;
+use apm_core::state::InstallState;
 
 // ── Export record ─────────────────────────────────────────────────────────────
 

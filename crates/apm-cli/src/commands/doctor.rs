@@ -4,9 +4,9 @@ use std::path::Path;
 
 use anyhow::Result;
 
-use crate::config::{self, Config};
-use crate::registry::Registry;
-use crate::state::InstallState;
+use apm_core::config::{self, Config};
+use apm_core::registry::Registry;
+use apm_core::state::InstallState;
 
 // ── Check result ──────────────────────────────────────────────────────────────
 

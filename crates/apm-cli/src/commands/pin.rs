@@ -3,8 +3,8 @@
 use anyhow::Result;
 use colored::Colorize;
 
-use crate::config::Config;
-use crate::state::InstallState;
+use apm_core::config::Config;
+use apm_core::state::InstallState;
 
 pub async fn run(config: &Config, name: Option<&str>, unpin: bool, list: bool) -> Result<()> {
     let mut state = InstallState::load(config)?;

@@ -4,9 +4,9 @@ use anyhow::Result;
 use colored::Colorize;
 use semver::Version;
 
-use crate::config::Config;
-use crate::registry::Registry;
-use crate::state::InstallState;
+use apm_core::config::Config;
+use apm_core::registry::Registry;
+use apm_core::state::InstallState;
 
 pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<()> {
     // ── Load state and registry ───────────────────────────────────────────────

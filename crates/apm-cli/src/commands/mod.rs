@@ -1,5 +1,10 @@
+pub mod buy;
 pub mod bundles;
 pub mod cleanup;
+pub mod explore;
+pub mod featured;
+pub mod licenses;
+pub mod login;
 pub mod rollback;
 pub mod completions;
 pub mod doctor;

@@ -4,8 +4,8 @@ use anyhow::Result;
 use colored::Colorize;
 
 use crate::backup;
-use crate::config::Config;
-use crate::state::InstallState;
+use apm_core::config::Config;
+use apm_core::state::InstallState;
 
 // ── Entry point ───────────────────────────────────────────────────────────────
 

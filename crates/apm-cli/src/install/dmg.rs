@@ -8,8 +8,8 @@ use anyhow::{Context, Result};
 use tracing::{debug, info, warn};
 use walkdir::WalkDir;
 
-use crate::error::ApmError;
-use crate::registry::PluginFormat;
+use apm_core::error::ApmError;
+use apm_core::registry::PluginFormat;
 
 // ── DmgGuard ─────────────────────────────────────────────────────────────────
 
@@ -276,7 +276,7 @@ fn find_and_copy_bundle(
 /// Copy a plugin bundle directory to `dest_dir` using `cp -R`, which preserves
 /// the bundle's internal structure and resource forks.
 fn copy_bundle(bundle_src: &Path, dest_dir: &Path) -> Result<PathBuf> {
-    crate::config::ensure_dir(dest_dir)
+    apm_core::config::ensure_dir(dest_dir)
         .with_context(|| format!("Cannot create plugin directory: {}", dest_dir.display()))?;
 
     let bundle_name = bundle_src

@@ -2,8 +2,8 @@ use anyhow::Result;
 use colored::Colorize;
 use serde::Serialize;
 
-use crate::config::Config;
-use crate::state::{InstallState, InstalledPlugin};
+use apm_core::config::Config;
+use apm_core::state::{InstallState, InstalledPlugin};
 
 /// JSON-serializable view of an installed plugin.
 #[derive(Serialize)]

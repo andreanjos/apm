@@ -2,9 +2,9 @@ use anyhow::Result;
 use colored::Colorize;
 use serde::Serialize;
 
-use crate::config::Config;
-use crate::scanner::{self, PluginFormat};
-use crate::state::InstallState;
+use apm_core::config::Config;
+use apm_core::scanner::{self, PluginFormat};
+use apm_core::state::InstallState;
 
 // Maximum column widths for the scan table.
 const MAX_NAME: usize = 35;

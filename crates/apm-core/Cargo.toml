@@ -4,6 +4,11 @@ version.workspace = true
 edition.workspace = true
 license.workspace = true
 
+[features]
+# Enable the From<reqwest::Error> impl for ApmError. CLI crates that
+# use reqwest should enable this feature.
+reqwest = ["dep:reqwest"]
+
 [dependencies]
 serde = { workspace = true }
 serde_json = { workspace = true }
@@ -18,3 +23,5 @@ walkdir = "2"
 # plist: disable default features (no `enable_unstable_features_that_may_break_with_minor_version_bumps`)
 plist = { version = "1", default-features = false }
 git2 = "0.19"
+# Optional: only pulled in when the "reqwest" feature is enabled
+reqwest = { version = "0.12", features = ["rustls-tls", "stream"], default-features = false, optional = true }

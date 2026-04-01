@@ -12,8 +12,8 @@ use indicatif::{ProgressBar, ProgressStyle};
 use sha2::{Digest, Sha256};
 use tracing::{debug, info};
 
-use crate::config::Config;
-use crate::error::ApmError;
+use apm_core::config::Config;
+use apm_core::error::ApmError;
 
 // ── Placeholder SHA256 detection ──────────────────────────────────────────────
 
@@ -106,7 +106,7 @@ async fn download_file_with_progress_and_config(
                         .unwrap_or("plugin");
                     println!("  Using cached download for {plugin_name}");
                     if let Some(parent) = dest.parent() {
-                        crate::config::ensure_dir(parent).with_context(|| {
+                        apm_core::config::ensure_dir(parent).with_context(|| {
                             format!("Cannot create download directory: {}", parent.display())
                         })?;
                     }
@@ -188,7 +188,7 @@ async fn attempt_download(
 ) -> Result<()> {
     // Ensure destination parent exists.
     if let Some(parent) = dest.parent() {
-        crate::config::ensure_dir(parent)
+        apm_core::config::ensure_dir(parent)
             .with_context(|| format!("Cannot create download directory: {}", parent.display()))?;
     }
 
@@ -362,7 +362,7 @@ fn cache_file_path(config: &Config, sha256: &str) -> PathBuf {
 /// Best-effort: silently ignores errors (cache miss is never fatal).
 fn save_to_cache(config: &Config, src: &Path, sha256: &str) {
     let cache_dir = config.downloads_cache_dir();
-    if let Err(e) = crate::config::ensure_dir(&cache_dir) {
+    if let Err(e) = apm_core::config::ensure_dir(&cache_dir) {
         debug!("Could not create cache dir: {e}");
         return;
     }

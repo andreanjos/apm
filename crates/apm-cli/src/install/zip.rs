@@ -7,8 +7,8 @@ use anyhow::{Context, Result};
 use tracing::{debug, info};
 use walkdir::WalkDir;
 
-use crate::error::ApmError;
-use crate::registry::PluginFormat;
+use apm_core::error::ApmError;
+use apm_core::registry::PluginFormat;
 
 /// Extract `zip_path`, find the `.component` or `.vst3` bundle for `format`,
 /// copy it to `dest_dir`, and return the path to the installed bundle.
@@ -138,7 +138,7 @@ fn extract_zip(zip_path: &Path, dest: &Path) -> Result<()> {
 // ── Bundle copy ───────────────────────────────────────────────────────────────
 
 fn copy_bundle(bundle_src: &Path, dest_dir: &Path) -> Result<PathBuf> {
-    crate::config::ensure_dir(dest_dir)
+    apm_core::config::ensure_dir(dest_dir)
         .with_context(|| format!("Cannot create plugin directory: {}", dest_dir.display()))?;
 
     let bundle_name = bundle_src

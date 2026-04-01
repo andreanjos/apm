@@ -1,6 +1,6 @@
 use anyhow::Result;
 
-use crate::config::{Config, SourceEntry};
+use apm_core::config::{Config, SourceEntry};
 
 pub async fn run_add(config: &Config, url: &str, name: Option<&str>) -> Result<()> {
     // Derive a name from the URL if not provided.

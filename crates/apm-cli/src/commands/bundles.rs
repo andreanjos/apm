@@ -3,8 +3,8 @@
 use anyhow::Result;
 use colored::Colorize;
 
-use crate::config::Config;
-use crate::registry::Registry;
+use apm_core::config::Config;
+use apm_core::registry::Registry;
 
 // ── Entry point ───────────────────────────────────────────────────────────────
 

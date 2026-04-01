@@ -1,8 +1,8 @@
 use anyhow::Result;
 use colored::Colorize;
 
-use crate::config::Config;
-use crate::registry::{self, sync};
+use apm_core::config::Config;
+use apm_core::registry::{self, sync};
 
 pub async fn run(config: &Config) -> Result<()> {
     let sources = config.sources();

@@ -2,9 +2,9 @@ use anyhow::Result;
 use colored::Colorize;
 use serde::Serialize;
 
-use crate::config::Config;
-use crate::registry::{self, PluginDefinition};
-use crate::state::InstallState;
+use apm_core::config::Config;
+use apm_core::registry::{self, PluginDefinition};
+use apm_core::state::InstallState;
 
 /// JSON-serializable view of a plugin info result.
 #[derive(Serialize)]
@@ -83,7 +83,7 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
 
 // ── Display ───────────────────────────────────────────────────────────────────
 
-fn print_plugin_info(p: &PluginDefinition, installed: Option<&crate::state::InstalledPlugin>) {
+fn print_plugin_info(p: &PluginDefinition, installed: Option<&apm_core::state::InstalledPlugin>) {
     // Title
     println!("{}", p.slug.bold());
     println!("{}", "\u{2550}".repeat(47).dimmed()); // ═══════

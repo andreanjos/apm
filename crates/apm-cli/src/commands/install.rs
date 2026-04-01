@@ -8,10 +8,10 @@ use std::path::Path;
 use anyhow::Result;
 use colored::Colorize;
 
-use crate::config::{Config, InstallScope};
-use crate::error::ApmError;
-use crate::registry::{DownloadType, PluginFormat, Registry};
-use crate::state::InstallState;
+use apm_core::config::{Config, InstallScope};
+use apm_core::error::ApmError;
+use apm_core::registry::{DownloadType, PluginFormat, Registry};
+use apm_core::state::InstallState;
 
 pub async fn run(
     config: &Config,
@@ -219,7 +219,7 @@ async fn run_single(
 
     let effective_scope = scope.unwrap_or(config.install_scope);
 
-    let mut formats_to_install: Vec<(PluginFormat, &crate::registry::FormatSource)> = match format {
+    let mut formats_to_install: Vec<(PluginFormat, &apm_core::registry::FormatSource)> = match format {
         Some(fmt) => {
             if let Some(src) = plugin.formats.get(&fmt) {
                 vec![(fmt, src)]

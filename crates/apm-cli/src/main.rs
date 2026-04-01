@@ -1,12 +1,7 @@
 mod backup;
 mod commands;
-mod config;
 mod download;
-mod error;
 mod install;
-mod registry;
-mod scanner;
-mod state;
 
 use std::path::PathBuf;
 
@@ -14,7 +9,7 @@ use anyhow::Result;
 use clap::{Parser, Subcommand};
 use tracing_subscriber::EnvFilter;
 
-use crate::config::InstallScope;
+use apm_core::config::InstallScope;
 
 // ── CLI Definition ────────────────────────────────────────────────────────────
 
@@ -267,6 +262,24 @@ enum Commands {
         #[arg(long, short = 'l')]
         list: bool,
     },
+
+    /// Purchase a paid plugin from the apm store.
+    Buy {
+        /// Plugin name or slug to purchase.
+        plugin: String,
+    },
+
+    /// Log in to your apm account.
+    Login,
+
+    /// List your plugin licenses.
+    Licenses,
+
+    /// Show featured plugins and staff picks.
+    Featured,
+
+    /// Browse plugin categories and recommendations.
+    Explore,
 }
 
 #[derive(Subcommand, Debug)]
@@ -328,7 +341,7 @@ async fn run() -> Result<()> {
 
     // Initialise config directory and load configuration.
     // This creates ~/.config/apm/ on first run.
-    let config = config::init()?;
+    let config = apm_core::config::init()?;
 
     let json = cli.json;
 
@@ -356,8 +369,8 @@ async fn run() -> Result<()> {
             bundle,
         } => {
             let plugin_format = match format.as_deref() {
-                Some("au") => Some(registry::PluginFormat::Au),
-                Some("vst3") => Some(registry::PluginFormat::Vst3),
+                Some("au") => Some(apm_core::registry::PluginFormat::Au),
+                Some("vst3") => Some(apm_core::registry::PluginFormat::Vst3),
                 Some(other) => {
                     anyhow::bail!(
                         "Unknown format '{other}'. Valid values are: au, vst3.\n\
@@ -431,5 +444,15 @@ async fn run() -> Result<()> {
         Commands::Rollback { plugin, list } => {
             commands::rollback::run(&config, plugin.as_deref(), *list).await
         }
+
+        Commands::Buy { plugin } => commands::buy::run(plugin, json).await,
+
+        Commands::Login => commands::login::run(json).await,
+
+        Commands::Licenses => commands::licenses::run(json).await,
+
+        Commands::Featured => commands::featured::run(json).await,
+
+        Commands::Explore => commands::explore::run(json).await,
     }
 }

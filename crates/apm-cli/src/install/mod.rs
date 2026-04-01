@@ -16,10 +16,10 @@ use indicatif::{MultiProgress, ProgressBar, ProgressStyle};
 use sha2::{Digest, Sha256};
 use tracing::{debug, info};
 
-use crate::config::{Config, InstallScope};
-use crate::error::ApmError;
-use crate::registry::{FormatSource, InstallType, PluginDefinition, PluginFormat};
-use crate::state::{InstalledFormat, InstalledPlugin, InstallState};
+use apm_core::config::{Config, InstallScope};
+use apm_core::error::ApmError;
+use apm_core::registry::{FormatSource, InstallType, PluginDefinition, PluginFormat};
+use apm_core::state::{InstalledFormat, InstalledPlugin, InstallState};
 
 // ── SHA256 placeholder detection ──────────────────────────────────────────────
 
@@ -375,10 +375,10 @@ fn rollback(installed: &[(PluginFormat, PathBuf)], plugin_slug: &str) {
 
 fn plugin_dest_dir(fmt: PluginFormat, scope: InstallScope) -> PathBuf {
     match (fmt, scope) {
-        (PluginFormat::Au, InstallScope::User) => crate::config::user_au_dir(),
-        (PluginFormat::Au, InstallScope::System) => crate::config::system_au_dir(),
-        (PluginFormat::Vst3, InstallScope::User) => crate::config::user_vst3_dir(),
-        (PluginFormat::Vst3, InstallScope::System) => crate::config::system_vst3_dir(),
+        (PluginFormat::Au, InstallScope::User) => apm_core::config::user_au_dir(),
+        (PluginFormat::Au, InstallScope::System) => apm_core::config::system_au_dir(),
+        (PluginFormat::Vst3, InstallScope::User) => apm_core::config::user_vst3_dir(),
+        (PluginFormat::Vst3, InstallScope::System) => apm_core::config::system_vst3_dir(),
     }
 }
 

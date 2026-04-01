@@ -132,6 +132,7 @@ impl From<std::io::Error> for ApmError {
     }
 }
 
+#[cfg(feature = "reqwest")]
 impl From<reqwest::Error> for ApmError {
     fn from(e: reqwest::Error) -> Self {
         let reason = e.to_string();
@@ -143,3 +144,4 @@ impl From<reqwest::Error> for ApmError {
         }
     }
 }
+

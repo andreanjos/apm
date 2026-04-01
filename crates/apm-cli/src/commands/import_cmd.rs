@@ -6,9 +6,9 @@ use anyhow::{Context, Result};
 use colored::Colorize;
 
 use crate::commands::export_cmd::{ExportDocument, ExportedPlugin};
-use crate::config::Config;
-use crate::registry::Registry;
-use crate::state::InstallState;
+use apm_core::config::Config;
+use apm_core::registry::Registry;
+use apm_core::state::InstallState;
 
 // ── Entry point ───────────────────────────────────────────────────────────────
 

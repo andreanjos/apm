@@ -4,7 +4,7 @@
 use anyhow::{Context, Result};
 use colored::Colorize;
 
-use crate::config::Config;
+use apm_core::config::Config;
 
 pub async fn run(config: &Config, dry_run: bool) -> Result<()> {
     let cache_dir = config.downloads_cache_dir();

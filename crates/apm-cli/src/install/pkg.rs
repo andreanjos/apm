@@ -7,7 +7,7 @@ use std::path::{Path, PathBuf};
 use anyhow::{Context, Result};
 use tracing::{debug, info, warn};
 
-use crate::error::ApmError;
+use apm_core::error::ApmError;
 
 /// Install a PKG file using `sudo installer -pkg <path> -target /`.
 ///

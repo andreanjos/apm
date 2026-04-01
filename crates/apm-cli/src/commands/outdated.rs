@@ -6,9 +6,9 @@ use colored::Colorize;
 use semver::Version;
 use serde::Serialize;
 
-use crate::config::Config;
-use crate::registry::Registry;
-use crate::state::InstallState;
+use apm_core::config::Config;
+use apm_core::registry::Registry;
+use apm_core::state::InstallState;
 
 /// JSON-serializable view of an outdated plugin.
 #[derive(Serialize)]
