@@ -1,0 +1,22 @@
+slug        = "eventide-mangledverb"
+name        = "MangledVerb"
+vendor      = "Eventide"
+version     = "2.10.4"
+description = "Combines lush reverbs with ripping distortion for sound-sculpting chaos, ported from the H9 Harmonizer."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = ["reverb", "distortion", "creative", "mangled", "sound-design", "aggressive"]
+homepage    = "https://www.eventideaudio.com/plug-ins/mangledverb/"
+
+[formats.vst3]
+url          = "https://downloads.eventide.com/audio/installers/plug-ins/MangledVerb/MangledVerb-2.10.4-osx-installer.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "MangledVerb.vst3"
+
+[formats.au]
+url          = "https://downloads.eventide.com/audio/installers/plug-ins/MangledVerb/MangledVerb-2.10.4-osx-installer.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "MangledVerb.component"

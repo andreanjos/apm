@@ -1,0 +1,22 @@
+slug        = "valhalla-plate"
+name        = "Valhalla Plate"
+vendor      = "Valhalla DSP"
+version     = "1.6.8"
+description = "Algorithmic plate reverb emulating classic 1960s-70s steel plate sounds with twelve original algorithms."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = ["reverb", "plate", "algorithmic", "vintage", "classic", "warm"]
+homepage    = "https://valhalladsp.com/shop/reverb/valhalla-plate/"
+
+[formats.vst3]
+url          = "https://valhalladsp.com/demos-downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "ValhallaPlate.vst3"
+
+[formats.au]
+url          = "https://valhalladsp.com/demos-downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "ValhallaPlate.component"

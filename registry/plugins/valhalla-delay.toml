@@ -1,0 +1,22 @@
+slug        = "valhalla-delay"
+name        = "Valhalla Delay"
+vendor      = "Valhalla DSP"
+version     = "3.0.5"
+description = "Tape echo, BBD, digital, pitch shifting, reverse, and ghost delay modes with a powerful diffusion section."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = ["delay", "echo", "tape", "bbd", "digital", "pitch-shift", "diffusion", "creative"]
+homepage    = "https://valhalladsp.com/shop/delay/valhalladelay/"
+
+[formats.vst3]
+url          = "https://valhalladsp.com/demos-downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "ValhallaDelay.vst3"
+
+[formats.au]
+url          = "https://valhalladsp.com/demos-downloads/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "ValhallaDelay.component"

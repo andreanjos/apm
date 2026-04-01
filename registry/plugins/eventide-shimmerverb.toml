@@ -1,0 +1,22 @@
+slug        = "eventide-shimmerverb"
+name        = "ShimmerVerb"
+vendor      = "Eventide"
+version     = "1.3.4"
+description = "Lustrous reverb with parallel pitch shifters adding ethereal layers, inspired by techniques of Daniel Lanois and Brian Eno."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = ["reverb", "shimmer", "pitch-shift", "ethereal", "ambient", "creative"]
+homepage    = "https://www.eventideaudio.com/plug-ins/shimmerverb/"
+
+[formats.vst3]
+url          = "https://downloads.eventide.com/audio/installers/plug-ins/ShimmerVerb/ShimmerVerb-1.3.4-osx-installer.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "ShimmerVerb.vst3"
+
+[formats.au]
+url          = "https://downloads.eventide.com/audio/installers/plug-ins/ShimmerVerb/ShimmerVerb-1.3.4-osx-installer.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "ShimmerVerb.component"
