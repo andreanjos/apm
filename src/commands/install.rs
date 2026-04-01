@@ -1,5 +1,7 @@
-// install command — look up plugin in registry, check install state, download,
-// verify, extract, place, and record.
+// install command — look up plugin(s) in registry, check install state,
+// download, verify, extract, place, and record.
+//
+// Supports batch installs: `apm install vital surge-xt dexed`
 
 use std::path::Path;
 
@@ -13,11 +15,20 @@ use crate::state::InstallState;
 
 pub async fn run(
     config: &Config,
-    name: &str,
+    plugins: &[String],
     format: Option<PluginFormat>,
     scope: Option<InstallScope>,
     from_file: Option<&Path>,
 ) -> Result<()> {
+    // ── Validate --from-file with multiple plugins ────────────────────────────
+
+    if from_file.is_some() && plugins.len() > 1 {
+        anyhow::bail!(
+            "--from-file can only be used when installing a single plugin.\n\
+             Hint: Remove extra plugin names or omit --from-file."
+        );
+    }
+
     // ── Load registry ─────────────────────────────────────────────────────────
 
     let registry = Registry::load_all_sources(config)?;
@@ -29,6 +40,77 @@ pub async fn run(
         );
     }
 
+    // ── Single-plugin fast path (original behaviour) ──────────────────────────
+
+    if plugins.len() == 1 {
+        let name = &plugins[0];
+        return run_single(config, name, &registry, format, scope, from_file).await;
+    }
+
+    // ── Batch install ─────────────────────────────────────────────────────────
+
+    let mut succeeded: Vec<String> = Vec::new();
+    let mut failed: Vec<(String, String)> = Vec::new(); // (name, reason)
+
+    for name in plugins {
+        match run_single(config, name, &registry, format, scope, None).await {
+            Ok(()) => {
+                succeeded.push(name.clone());
+            }
+            Err(e) => {
+                // Print the per-plugin failure immediately so the user can see it
+                // as it happens (other plugins still continue).
+                eprintln!("  {} {}: {}", "FAILED".red().bold(), name, e);
+                failed.push((name.clone(), e.to_string()));
+            }
+        }
+    }
+
+    // ── Summary ───────────────────────────────────────────────────────────────
+
+    let total = plugins.len();
+    let n_ok = succeeded.len();
+    let n_fail = failed.len();
+
+    println!();
+    if n_fail == 0 {
+        println!(
+            "{}",
+            format!("Installed {n_ok}/{total} plugins.").green()
+        );
+    } else {
+        let failed_names: Vec<String> = failed
+            .iter()
+            .map(|(name, reason)| {
+                // Produce a short reason by taking the first line.
+                let short = reason.lines().next().unwrap_or(reason.as_str());
+                format!("{name} — {short}")
+            })
+            .collect();
+
+        println!(
+            "{}",
+            format!(
+                "Installed {n_ok}/{total} plugins ({n_fail} failed: {})",
+                failed_names.join(", ")
+            )
+            .yellow()
+        );
+    }
+
+    Ok(())
+}
+
+// ── Single-plugin installation ────────────────────────────────────────────────
+
+async fn run_single(
+    config: &Config,
+    name: &str,
+    registry: &Registry,
+    format: Option<PluginFormat>,
+    scope: Option<InstallScope>,
+    from_file: Option<&Path>,
+) -> Result<()> {
     // ── Look up the plugin ────────────────────────────────────────────────────
 
     let plugin = registry.find(name).ok_or_else(|| ApmError::PluginNotFound {

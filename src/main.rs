@@ -89,18 +89,22 @@ enum Commands {
     /// runs. Registry is stored in ~/.cache/apm/registries/.
     Sync,
 
-    /// Download and install a plugin from the registry.
+    /// Download and install one or more plugins from the registry.
     ///
-    /// Looks up the plugin in the synced registry, downloads the archive,
+    /// Looks up each plugin in the synced registry, downloads the archive,
     /// verifies the SHA256 checksum, extracts, and places the bundle in the
     /// correct macOS plugin directory. Installs all available formats by
     /// default.
     ///
+    /// Multiple plugins can be installed in one command:
+    ///   apm install vital surge-xt dexed
+    ///
     /// For plugins that require manual download (e.g. account signup), use
-    /// --from-file to provide the downloaded archive directly.
+    /// --from-file to provide the downloaded archive directly (single plugin only).
     Install {
-        /// Plugin name or slug to install (e.g. "tal-noisemaker").
-        name: String,
+        /// Plugin name(s) or slug(s) to install (e.g. "tal-noisemaker").
+        #[arg(required_unless_present = "from_file")]
+        plugins: Vec<String>,
 
         /// Install only this format: "au" or "vst3".
         #[arg(long, short = 'f', value_name = "FORMAT")]
@@ -115,6 +119,7 @@ enum Commands {
         ///
         /// Skips the download step and uses the provided archive path directly.
         /// SHA256 is still verified if the registry has a known checksum.
+        /// Only valid when installing a single plugin.
         #[arg(long)]
         from_file: Option<PathBuf>,
     },
@@ -269,7 +274,7 @@ async fn run() -> Result<()> {
         Commands::Sync => commands::sync_cmd::run(&config).await,
 
         Commands::Install {
-            name,
+            plugins,
             format,
             system,
             from_file,
@@ -291,7 +296,7 @@ async fn run() -> Result<()> {
             } else {
                 None
             };
-            commands::install::run(&config, name, plugin_format, scope, from_file.as_deref()).await
+            commands::install::run(&config, plugins, plugin_format, scope, from_file.as_deref()).await
         }
 
         Commands::Remove { name } => commands::remove::run(&config, name).await,
