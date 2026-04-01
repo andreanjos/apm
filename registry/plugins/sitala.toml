@@ -1,0 +1,22 @@
+slug        = "sitala"
+name        = "Sitala"
+vendor      = "Decomposer"
+version     = "1.0.9"
+description = "Lightweight 16-pad drum sampler with drag-and-drop sample management, beat slicing, and gated mode."
+category    = "instruments"
+subcategory = "drums"
+license     = "freeware"
+tags        = ["drums", "sampler", "drum-machine", "free", "beat-slicing", "freeware"]
+homepage    = "https://decomposer.de/sitala/"
+
+[formats.vst3]
+url          = "https://decomposer.de/sitala/releases/Sitala-1.0.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Sitala.vst3"
+
+[formats.au]
+url          = "https://decomposer.de/sitala/releases/Sitala-1.0.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Sitala.component"

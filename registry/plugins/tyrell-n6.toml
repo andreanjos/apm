@@ -1,0 +1,22 @@
+slug        = "tyrell-n6"
+name        = "Tyrell N6"
+vendor      = "u-he"
+version     = "3.0.0"
+description = "Free virtual analog synthesizer with two oscillators, sub-oscillator, noise, multi-mode filter, two LFOs, and two envelopes."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "freeware"
+tags        = ["synth", "synthesizer", "analog", "virtual-analog", "subtractive", "free", "freeware"]
+homepage    = "https://u-he.com/products/tyrelln6/"
+
+[formats.vst3]
+url          = "https://dl.u-he.com/releases/TyrellN6_300_public_beta_16976_Mac.zip"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "TyrellN6.vst3"
+
+[formats.au]
+url          = "https://dl.u-he.com/releases/TyrellN6_300_public_beta_16976_Mac.zip"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "TyrellN6.component"
