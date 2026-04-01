@@ -1,0 +1,22 @@
+slug        = "a1stereocontrol"
+name        = "A1StereoControl"
+vendor      = "Alex Hilton / A1AUDIO"
+version     = "1.0.2"
+description = "Free stereo width expander with Safe Bass algorithm to center low frequencies and expert mode with pan laws and curves."
+category    = "effects"
+subcategory = "stereo"
+license     = "freeware"
+tags        = ["stereo", "imaging", "width", "panning", "utility", "free", "freeware", "mastering", "mixing"]
+homepage    = "https://a1audio.alexhilton.net/a1stereocontrol"
+
+[formats.vst3]
+url          = "https://a1audio.alexhilton.net/a1stereocontrol"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "A1StereoControl.vst3"
+
+[formats.au]
+url          = "https://a1audio.alexhilton.net/a1stereocontrol"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "A1StereoControl.component"

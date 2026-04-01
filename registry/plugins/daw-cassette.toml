@@ -1,0 +1,22 @@
+slug        = "daw-cassette"
+name        = "DAW Cassette"
+vendor      = "Klevgrand"
+version     = "1.2.2"
+description = "Old-school tape deck emulation with saturation, distortion, noise, wobble, three tape types, and Dolby emulation."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = ["tape", "cassette", "saturation", "lo-fi", "vintage", "emulation", "noise", "wobble"]
+homepage    = "https://klevgrand.com/products/dawcassette"
+
+[formats.vst3]
+url          = "https://klevgrand.com/products/dawcassette"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "DAW Cassette.vst3"
+
+[formats.au]
+url          = "https://klevgrand.com/products/dawcassette"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "DAW Cassette.component"

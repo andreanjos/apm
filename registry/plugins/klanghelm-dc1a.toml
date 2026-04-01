@@ -1,0 +1,22 @@
+slug        = "klanghelm-dc1a"
+name        = "DC1A"
+vendor      = "Klanghelm"
+version     = "3.5.0"
+description = "Free character compressor with negative ratio, stereo unlink, and mix knob for parallel compression."
+category    = "effects"
+subcategory = "compressor"
+license     = "freeware"
+tags        = ["compressor", "character", "dynamics", "parallel", "free", "freeware", "mixing"]
+homepage    = "https://klanghelm.com/contents/products/DC1A"
+
+[formats.vst3]
+url          = "https://klanghelm.com/free/DC1A3dl.php?id=3"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "DC1A.vst3"
+
+[formats.au]
+url          = "https://klanghelm.com/free/DC1A3dl.php?id=3"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "DC1A.component"

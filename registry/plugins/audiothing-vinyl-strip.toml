@@ -1,0 +1,22 @@
+slug        = "audiothing-vinyl-strip"
+name        = "Vinyl Strip"
+vendor      = "AudioThing"
+version     = "1.6.2"
+description = "Modular multi-effect channel strip with 6 rearrangeable modules: Distortion, Compressor, Bit Crusher, Tilt EQ, Reverb, and Vinylizer."
+category    = "effects"
+subcategory = "lo-fi"
+license     = "commercial"
+tags        = ["vinyl", "lo-fi", "multi-effect", "channel-strip", "distortion", "compressor", "reverb", "vintage"]
+homepage    = "https://www.audiothing.net/effects/vinyl-strip/"
+
+[formats.vst3]
+url          = "https://www.audiothing.net/effects/vinyl-strip/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Vinyl Strip.vst3"
+
+[formats.au]
+url          = "https://www.audiothing.net/effects/vinyl-strip/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Vinyl Strip.component"

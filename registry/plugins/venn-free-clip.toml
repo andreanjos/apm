@@ -1,0 +1,22 @@
+slug        = "venn-free-clip"
+name        = "Free Clip"
+vendor      = "Venn Audio"
+version     = "1.0.2"
+description = "Free multi-algorithm soft clipper/waveshaper with six clipping shapes and up to 32x oversampling."
+category    = "effects"
+subcategory = "clipper"
+license     = "freeware"
+tags        = ["clipper", "soft-clipper", "waveshaper", "saturation", "free", "freeware", "mixing", "mastering"]
+homepage    = "https://www.vennaudio.com/free-clip/"
+
+[formats.vst3]
+url          = "https://www.vennaudio.com/downloads/Free%20Suite/Free%20Suite_MacOS_1.0.2_07Dec2023_2259.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Free Clip.vst3"
+
+[formats.au]
+url          = "https://www.vennaudio.com/downloads/Free%20Suite/Free%20Suite_MacOS_1.0.2_07Dec2023_2259.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "Free Clip.component"

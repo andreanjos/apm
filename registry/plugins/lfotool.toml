@@ -1,0 +1,22 @@
+slug        = "lfotool"
+name        = "LFOTool"
+vendor      = "Xfer Records"
+version     = "1.768"
+description = "LFO-driven multi-effect with custom LFO curves, 80 filter types, sidechain simulation via LFO ducking, and minimal CPU usage."
+category    = "effects"
+subcategory = "multi-fx"
+license     = "commercial"
+tags        = ["lfo", "modulation", "sidechain", "tremolo", "filter", "multi-effect", "utility"]
+homepage    = "https://xferrecords.com/products/lfo-tool"
+
+[formats.vst3]
+url          = "https://xferrecords.com/products/lfo-tool"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "LFOTool.vst3"
+
+[formats.au]
+url          = "https://xferrecords.com/products/lfo-tool"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "LFOTool.component"
