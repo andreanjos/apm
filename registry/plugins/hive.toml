@@ -1,0 +1,22 @@
+slug        = "hive"
+name        = "Hive 2"
+vendor      = "u-he"
+version     = "2.1.2"
+description = "Sleek wavetable synthesizer combining high-quality u-he sound with low CPU footprint and extensive modulation matrix."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "commercial"
+tags        = ["synth", "synthesizer", "wavetable", "lightweight", "modulation", "nks"]
+homepage    = "https://u-he.com/products/hive/"
+
+[formats.vst3]
+url          = "https://dl.u-he.com/releases/Hive_212_16520_Mac.zip"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "Hive.vst3"
+
+[formats.au]
+url          = "https://dl.u-he.com/releases/Hive_212_16520_Mac.zip"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "Hive.component"

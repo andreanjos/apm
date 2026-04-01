@@ -1,0 +1,22 @@
+slug        = "repro"
+name        = "Repro"
+vendor      = "u-he"
+version     = "1.1.3"
+description = "Precision emulation of the Sequential Pro-One (Repro-1) and Prophet-5 (Repro-5) analog synthesizers."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "commercial"
+tags        = ["synth", "synthesizer", "analog", "emulation", "prophet", "sequential", "pro-one", "prophet-5", "vintage"]
+homepage    = "https://u-he.com/products/repro/"
+
+[formats.vst3]
+url          = "https://dl.u-he.com/releases/Repro_113_16797_Mac.zip"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "Repro-1.vst3"
+
+[formats.au]
+url          = "https://dl.u-he.com/releases/Repro_113_16797_Mac.zip"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "zip"
+bundle_path  = "Repro-1.component"
