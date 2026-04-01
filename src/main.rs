@@ -2,6 +2,7 @@ mod commands;
 mod config;
 mod error;
 mod registry;
+mod scanner;
 mod state;
 
 use anyhow::Result;
