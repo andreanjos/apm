@@ -2,6 +2,7 @@ use anyhow::Result;
 
 use crate::config::Config;
 use crate::scanner::{self, PluginFormat};
+use crate::state::InstallState;
 
 // Maximum column widths for the scan table.
 const MAX_NAME: usize = 35;
@@ -16,6 +17,10 @@ pub async fn run(config: &Config) -> Result<()> {
         return Ok(());
     }
 
+    // Load apm-managed install state for source annotation.
+    // A missing or unreadable state file is treated as empty (no managed plugins).
+    let state = InstallState::load(config).unwrap_or_default();
+
     // ── Column widths ─────────────────────────────────────────────────────────
     // Compute widths from data, capped at the defined maximums.
 
@@ -23,6 +28,7 @@ pub async fn run(config: &Config) -> Result<()> {
     const HDR_VER: &str = "Version";
     const HDR_VENDOR: &str = "Vendor";
     const HDR_FMT: &str = "Format";
+    const HDR_SRC: &str = "Source";
     const HDR_LOC: &str = "Location";
 
     let w_name = plugins
@@ -48,18 +54,21 @@ pub async fn run(config: &Config) -> Result<()> {
 
     // Format column is at most 4 chars ("VST3") — header wins.
     let w_fmt = HDR_FMT.len();
+    // Source column: "apm" (3) or "-" (1) — header "Source" wins.
+    let w_src = HDR_SRC.len();
 
     // ── Header ────────────────────────────────────────────────────────────────
     println!(
-        "{:<w_name$}  {:<w_ver$}  {:<w_vendor$}  {:<w_fmt$}  {}",
+        "{:<w_name$}  {:<w_ver$}  {:<w_vendor$}  {:<w_fmt$}  {:<w_src$}  {}",
         HDR_NAME,
         HDR_VER,
         HDR_VENDOR,
         HDR_FMT,
+        HDR_SRC,
         HDR_LOC,
     );
 
-    let rule_len = w_name + 2 + w_ver + 2 + w_vendor + 2 + w_fmt + 2 + HDR_LOC.len();
+    let rule_len = w_name + 2 + w_ver + 2 + w_vendor + 2 + w_fmt + 2 + w_src + 2 + HDR_LOC.len();
     println!("{}", "\u{2500}".repeat(rule_len)); // ─────
 
     // ── Rows ──────────────────────────────────────────────────────────────────
@@ -71,12 +80,21 @@ pub async fn run(config: &Config) -> Result<()> {
         let ver_cell = truncate(&p.version, MAX_VER);
         let vendor_cell = truncate(&p.vendor, MAX_VENDOR);
 
+        // Determine if this plugin was installed by apm: match by path (most
+        // precise) or by name as a fallback.
+        let is_managed = state.plugins.iter().any(|sp| {
+            sp.formats.iter().any(|f| f.path == p.path)
+                || sp.name.eq_ignore_ascii_case(&p.name)
+        });
+        let source_cell = if is_managed { "apm" } else { "-" };
+
         println!(
-            "{:<w_name$}  {:<w_ver$}  {:<w_vendor$}  {:<w_fmt$}  {}",
+            "{:<w_name$}  {:<w_ver$}  {:<w_vendor$}  {:<w_fmt$}  {:<w_src$}  {}",
             name_cell,
             ver_cell,
             vendor_cell,
             p.format.to_string(),
+            source_cell,
             path_str,
         );
     }
