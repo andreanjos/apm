@@ -193,6 +193,33 @@ enum Commands {
     /// config and state files are valid, and that the registry cache is
     /// populated. Also scans for quarantined plugin bundles in user directories.
     Doctor,
+
+    /// Export the list of installed plugins to a file or stdout.
+    ///
+    /// Produces a TOML or JSON file listing every plugin currently tracked by
+    /// apm. Use this to migrate your setup to another machine with `apm import`.
+    Export {
+        /// Write output to this file instead of stdout.
+        #[arg(long, short = 'o', value_name = "FILE")]
+        output: Option<PathBuf>,
+
+        /// Output format: "toml" (default) or "json".
+        #[arg(long, default_value = "toml", value_name = "FORMAT")]
+        format: String,
+    },
+
+    /// Install plugins from an exported plugin list file.
+    ///
+    /// Reads a TOML or JSON file produced by `apm export`, looks up each
+    /// plugin in the registry, and installs any that are not already present.
+    Import {
+        /// Path to the export file to read (TOML or JSON).
+        file: PathBuf,
+
+        /// Preview what would be installed without making any changes.
+        #[arg(long)]
+        dry_run: bool,
+    },
 }
 
 #[derive(Subcommand, Debug)]
@@ -326,5 +353,13 @@ async fn run() -> Result<()> {
         }
 
         Commands::Doctor => commands::doctor::run(&config),
+
+        Commands::Export { output, format } => {
+            commands::export_cmd::run(&config, output.as_ref(), format).await
+        }
+
+        Commands::Import { file, dry_run } => {
+            commands::import_cmd::run(&config, file, *dry_run).await
+        }
     }
 }

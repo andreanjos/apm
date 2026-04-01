@@ -1,5 +1,7 @@
 pub mod completions;
 pub mod doctor;
+pub mod export_cmd;
+pub mod import_cmd;
 pub mod info;
 pub mod install;
 pub mod list;
