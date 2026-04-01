@@ -1,0 +1,22 @@
+slug        = "sketch-cassette"
+name        = "SketchCassette II"
+vendor      = "Aberrant DSP"
+version     = "2.0"
+description = "Free cassette tape emulation with authentic wow, flutter, saturation, noise, and mechanical characteristics."
+category    = "effects"
+subcategory = "lo-fi"
+license     = "freeware"
+tags        = ["tape", "cassette", "lo-fi", "vintage", "wow", "flutter", "saturation", "free", "freeware"]
+homepage    = "https://aberrantdsp.com/plugins/sketchcassette/"
+
+[formats.vst3]
+url          = "https://aberrantdsp.com/plugins/sketchcassette/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "SketchCassette II.vst3"
+
+[formats.au]
+url          = "https://aberrantdsp.com/plugins/sketchcassette/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "SketchCassette II.component"
