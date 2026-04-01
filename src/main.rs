@@ -126,14 +126,19 @@ enum Commands {
     /// Pin a plugin to prevent it from being upgraded.
     ///
     /// Pinned plugins are skipped by `apm upgrade` and shown as pinned by
-    /// `apm outdated`. Use --unpin to remove the pin.
+    /// `apm outdated`. Use --unpin to remove the pin. Use --list to show all
+    /// pinned plugins.
     Pin {
-        /// Plugin name or slug to pin or unpin.
-        name: String,
+        /// Plugin name or slug to pin or unpin. Omit when using --list.
+        name: Option<String>,
 
         /// Remove the pin (allow the plugin to be upgraded again).
-        #[arg(long)]
+        #[arg(long, short = 'r')]
         unpin: bool,
+
+        /// List all pinned plugins.
+        #[arg(long, short = 'l')]
+        list: bool,
     },
 
     /// Manage registry sources.
@@ -254,8 +259,8 @@ async fn run() -> Result<()> {
             commands::upgrade::run(&config, name.as_deref()).await
         }
 
-        Commands::Pin { name, unpin } => {
-            commands::pin::run(&config, name, *unpin).await
+        Commands::Pin { name, unpin, list } => {
+            commands::pin::run(&config, name.as_deref(), *unpin, *list).await
         }
 
         Commands::Sources(sub) => match sub {
