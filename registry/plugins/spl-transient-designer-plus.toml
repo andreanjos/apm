@@ -1,0 +1,22 @@
+slug        = "spl-transient-designer-plus"
+name        = "SPL Transient Designer Plus"
+vendor      = "Plugin Alliance / SPL"
+version     = "1.0"
+description = "Enhanced transient shaper based on SPL hardware with attack/sustain controls plus mix, filter, and output gain."
+category    = "effects"
+subcategory = "transient-shaper"
+license     = "commercial"
+tags        = ["transient", "shaper", "dynamics", "drums", "spl", "mixing"]
+homepage    = "https://www.plugin-alliance.com/en/products/spl_transient_designer_plus.html"
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "SPL Transient Designer Plus.vst3"
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "SPL Transient Designer Plus.component"

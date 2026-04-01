@@ -1,0 +1,22 @@
+slug        = "ssl-native-bus-compressor"
+name        = "SSL Native Bus Compressor 2"
+vendor      = "Solid State Logic"
+version     = "2.0"
+description = "Emulation of the legendary SSL bus compressor from the 4000 series console with sidechain filtering and mix control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = ["compressor", "bus", "glue", "ssl", "mixing", "mastering"]
+homepage    = "https://www.solidstatelogic.com/products/native-bus-compressor-2"
+
+[formats.vst3]
+url          = "https://www.solidstatelogic.com/support/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "SSL Native Bus Compressor 2.vst3"
+
+[formats.au]
+url          = "https://www.solidstatelogic.com/support/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "SSL Native Bus Compressor 2.component"

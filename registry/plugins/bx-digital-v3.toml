@@ -1,0 +1,22 @@
+slug        = "bx-digital-v3"
+name        = "bx_digital V3"
+vendor      = "Plugin Alliance / Brainworx"
+version     = "3.0"
+description = "Mastering-grade M/S equalizer with dynamic EQ bands, mono-maker, stereo width control, and surgical precision."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = ["eq", "mastering", "mid-side", "dynamic-eq", "stereo", "brainworx"]
+homepage    = "https://www.plugin-alliance.com/en/products/bx_digital_v3.html"
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "bx_digital V3.vst3"
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "bx_digital V3.component"

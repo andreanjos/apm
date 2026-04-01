@@ -1,0 +1,22 @@
+slug        = "vla-2a"
+name        = "VLA-2A"
+vendor      = "Plugin Alliance / Black Rooster Audio"
+version     = "1.0"
+description = "Emulation of the Teletronix LA-2A optical leveling amplifier with electro-optical compression."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = ["compressor", "la-2a", "optical", "leveling", "vintage", "vocals", "mixing"]
+homepage    = "https://www.plugin-alliance.com/en/products/black_rooster_audio_vla-2a.html"
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "VLA-2A.vst3"
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "VLA-2A.component"

@@ -1,0 +1,22 @@
+slug        = "bx-townhouse-buss-compressor"
+name        = "bx_townhouse Buss Compressor"
+vendor      = "Plugin Alliance / Brainworx"
+version     = "1.0"
+description = "Emulation of the modified SSL bus compressor from Townhouse Studios, known for its punchy and aggressive character."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = ["compressor", "bus", "glue", "ssl", "townhouse", "mixing", "mastering"]
+homepage    = "https://www.plugin-alliance.com/en/products/bx_townhouse_buss_compressor.html"
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "bx_townhouse Buss Compressor.vst3"
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "bx_townhouse Buss Compressor.component"
