@@ -1,0 +1,73 @@
+[package]
+name = "apm"
+version = "0.1.0"
+edition = "2021"
+description = "Audio Plugin Manager — apt-style package management for macOS audio plugins"
+license = "MIT"
+repository = "https://github.com/apm-pm/apm"
+
+[[bin]]
+name = "apm"
+path = "src/main.rs"
+
+[dependencies]
+# CLI
+clap = { version = "4", features = ["derive", "env", "color"] }
+
+# HTTP
+reqwest = { version = "0.12", features = ["rustls-tls", "stream"], default-features = false }
+
+# Async runtime
+tokio = { version = "1", features = ["full"] }
+
+# Serialization
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+
+# Progress / TUI
+indicatif = "0.17"
+
+# Error handling
+anyhow = "1"
+thiserror = "2"
+
+# Crypto
+sha2 = "0.10"
+hex = "0.4"
+
+# Git
+git2 = "0.19"
+
+# File handling
+# zip: disable the "time" feature so we don't pull in time >= 0.3.37 which
+# requires Cargo edition2024 (incompatible with Rust 1.84). deflate is the
+# only compression codec needed for reading plugin ZIP archives.
+zip = { version = "2", default-features = false, features = ["deflate"] }
+# plist: disable default features (no `enable_unstable_features_that_may_break_with_minor_version_bumps`)
+plist = { version = "1", default-features = false }
+walkdir = "2"
+# Pin tempfile to < 3.15 to avoid getrandom 0.4.x which requires Cargo
+# edition2024 (not available on Rust 1.84). tempfile >= 3.15 pulls in
+# getrandom 0.4.x via a new fastrand dependency chain.
+tempfile = ">=3, <3.15"
+
+# Path resolution
+dirs = "6"
+
+# Date/time (default-features = false avoids the `time` crate dependency that
+# requires Cargo edition2024 on Rust 1.84; "std" + "serde" is sufficient for apm)
+chrono = { version = "0.4", features = ["std", "serde"], default-features = false }
+
+# Logging
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+# Async utilities
+futures-util = "0.3"
+
+# Semver
+semver = "1"
+
+[dev-dependencies]
+assert_cmd = "2"
+assert_fs = "1"
