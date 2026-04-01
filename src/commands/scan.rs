@@ -3,6 +3,11 @@ use anyhow::Result;
 use crate::config::Config;
 use crate::scanner::{self, PluginFormat};
 
+// Maximum column widths for the scan table.
+const MAX_NAME: usize = 35;
+const MAX_VER: usize = 12;
+const MAX_VENDOR: usize = 25;
+
 pub async fn run(config: &Config) -> Result<()> {
     let plugins = scanner::scan_plugins(config);
 
@@ -12,7 +17,7 @@ pub async fn run(config: &Config) -> Result<()> {
     }
 
     // ── Column widths ─────────────────────────────────────────────────────────
-    // Compute widths from data so the table always fits.
+    // Compute widths from data, capped at the defined maximums.
 
     const HDR_NAME: &str = "Name";
     const HDR_VER: &str = "Version";
@@ -22,21 +27,21 @@ pub async fn run(config: &Config) -> Result<()> {
 
     let w_name = plugins
         .iter()
-        .map(|p| p.name.len())
+        .map(|p| p.name.len().min(MAX_NAME))
         .max()
         .unwrap_or(0)
         .max(HDR_NAME.len());
 
     let w_ver = plugins
         .iter()
-        .map(|p| p.version.len())
+        .map(|p| p.version.len().min(MAX_VER))
         .max()
         .unwrap_or(0)
         .max(HDR_VER.len());
 
     let w_vendor = plugins
         .iter()
-        .map(|p| p.vendor.len())
+        .map(|p| p.vendor.len().min(MAX_VENDOR))
         .max()
         .unwrap_or(0)
         .max(HDR_VENDOR.len());
@@ -62,11 +67,15 @@ pub async fn run(config: &Config) -> Result<()> {
         // Display the path in a human-friendly way: abbreviate $HOME to ~
         let path_str = display_path(&p.path);
 
+        let name_cell = truncate(&p.name, MAX_NAME);
+        let ver_cell = truncate(&p.version, MAX_VER);
+        let vendor_cell = truncate(&p.vendor, MAX_VENDOR);
+
         println!(
             "{:<w_name$}  {:<w_ver$}  {:<w_vendor$}  {:<w_fmt$}  {}",
-            p.name,
-            p.version,
-            p.vendor,
+            name_cell,
+            ver_cell,
+            vendor_cell,
             p.format.to_string(),
             path_str,
         );
@@ -101,4 +110,14 @@ fn display_path(path: &std::path::Path) -> String {
         }
     }
     path_str.into_owned()
+}
+
+/// Truncate `s` to `max` characters, appending "..." if truncated.
+fn truncate(s: &str, max: usize) -> String {
+    if s.len() <= max {
+        s.to_owned()
+    } else {
+        // Ensure the suffix fits: we always have max >= 3 from our constants.
+        format!("{}...", &s[..max.saturating_sub(3)])
+    }
 }
