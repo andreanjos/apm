@@ -1,0 +1,22 @@
+slug        = "fabfilter-pro-mb"
+name        = "FabFilter Pro-MB"
+vendor      = "FabFilter"
+version     = "1.0"
+description = "Multiband dynamics processor with up to 6 bands, flexible crossover slopes, and mid/side processing."
+category    = "effects"
+subcategory = "multiband-dynamics"
+license     = "commercial"
+tags        = ["multiband", "dynamics", "compressor", "expander", "mastering", "fabfilter"]
+homepage    = "https://www.fabfilter.com/products/pro-mb-multiband-compressor-plug-in"
+
+[formats.vst3]
+url          = "https://www.fabfilter.com/shop/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "FabFilter Pro-MB.vst3"
+
+[formats.au]
+url          = "https://www.fabfilter.com/shop/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "FabFilter Pro-MB.component"

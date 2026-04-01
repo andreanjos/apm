@@ -1,0 +1,22 @@
+slug        = "soundtoys-effect-rack"
+name        = "Effect Rack"
+vendor      = "Soundtoys"
+version     = "5.5.4"
+description = "Multi-effects rack hosting any combination of Soundtoys plugins in a drag-and-drop signal chain with global mix control."
+category    = "effects"
+subcategory = "multi-fx"
+license     = "commercial"
+tags        = ["multi-fx", "rack", "effects-chain", "modular"]
+homepage    = "https://www.soundtoys.com/product/effect-rack/"
+
+[formats.vst3]
+url          = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/EffectRack5_5.5.4.18982.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "EffectRack.vst3"
+
+[formats.au]
+url          = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/EffectRack5_5.5.4.18982.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "EffectRack.component"
