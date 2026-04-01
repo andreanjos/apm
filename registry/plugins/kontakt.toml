@@ -1,0 +1,22 @@
+slug        = "kontakt"
+name        = "Kontakt 7"
+vendor      = "Native Instruments"
+version     = "7.10.9"
+description = "Industry-standard sampler and virtual instrument platform with 900+ meticulously sampled instruments."
+category    = "instruments"
+subcategory = "sampler"
+license     = "commercial"
+tags        = ["sampler", "instrument-platform", "orchestral", "cinematic", "nks", "komplete"]
+homepage    = "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8/"
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/specials/native-access/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Kontakt 7.vst3"
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/specials/native-access/"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Kontakt 7.component"
