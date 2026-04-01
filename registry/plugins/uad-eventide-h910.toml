@@ -1,0 +1,22 @@
+slug        = "uad-eventide-h910"
+name        = "Eventide H910 Harmonizer"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Pitch shifter emulation of the original Eventide H910 Harmonizer"
+category    = "effects"
+subcategory = "pitch-shift"
+license     = "commercial"
+tags        = ["pitch-shift", "harmonizer", "eventide", "vintage", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Eventide H910 Harmonizer.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Eventide H910 Harmonizer.component"
