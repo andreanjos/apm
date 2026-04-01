@@ -1,0 +1,16 @@
+slug = "test-reverb"
+name = "Test Reverb"
+vendor = "Test Vendor"
+version = "1.0.0"
+description = "A test reverb plugin"
+category = "effects"
+subcategory = "reverb"
+license = "freeware"
+tags = ["reverb", "test"]
+homepage = "https://example.com"
+
+[formats.vst3]
+url = "https://example.com/test-reverb.zip"
+sha256 = "abc123"
+install_type = "zip"
+bundle_path = "TestReverb.vst3"

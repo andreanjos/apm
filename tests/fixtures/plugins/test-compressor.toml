@@ -1,0 +1,16 @@
+slug = "test-compressor"
+name = "Test Compressor"
+vendor = "Dynamics Corp"
+version = "3.0.0"
+description = "A test compressor plugin for dynamics processing"
+category = "effects"
+subcategory = "dynamics"
+license = "GPL-2.0"
+tags = ["compressor", "dynamics", "test"]
+homepage = "https://example.com/compressor"
+
+[formats.au]
+url = "https://example.com/test-compressor-au.zip"
+sha256 = "ghi789"
+install_type = "zip"
+bundle_path = "TestCompressor.component"

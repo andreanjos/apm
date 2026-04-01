@@ -1,0 +1,22 @@
+slug = "test-synth"
+name = "Test Synth"
+vendor = "Synth Vendor"
+version = "2.1.0"
+description = "A test synthesizer plugin"
+category = "instruments"
+subcategory = "synthesizer"
+license = "MIT"
+tags = ["synth", "synthesizer", "test"]
+homepage = "https://example.com/synth"
+
+[formats.vst3]
+url = "https://example.com/test-synth.zip"
+sha256 = "def456"
+install_type = "zip"
+bundle_path = "TestSynth.vst3"
+
+[formats.au]
+url = "https://example.com/test-synth-au.zip"
+sha256 = "def457"
+install_type = "zip"
+bundle_path = "TestSynth.component"
