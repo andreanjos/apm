@@ -240,7 +240,9 @@ fn parse_bundle(bundle: &Path, format: PluginFormat, scope: InstallScope) -> Opt
     // Version: prefer the human-readable short version string.
     let version = get_str("CFBundleShortVersionString")
         .or_else(|| get_str("CFBundleVersion"))
-        .unwrap_or_else(|| "Unknown".to_owned());
+        .map(|s| sanitize_version(&s))
+        .filter(|s| !s.is_empty())
+        .unwrap_or_else(|| "unknown".to_owned());
 
     let bundle_id = get_str("CFBundleIdentifier").unwrap_or_default();
 
@@ -261,6 +263,28 @@ fn parse_bundle(bundle: &Path, format: PluginFormat, scope: InstallScope) -> Opt
         scope,
         path: bundle.to_path_buf(),
     })
+}
+
+/// Sanitize a raw version string read from Info.plist.
+///
+/// Some plugins embed extra text after the version number (e.g.
+/// "5.5.4.18982 Authorization: Crystallizer"). This function:
+/// 1. Strips everything after the first space.
+/// 2. Keeps only digits, dots, hyphens, and an optional leading 'v'.
+/// 3. Returns an empty string if nothing version-like remains (callers should
+///    fall back to "unknown" in that case).
+fn sanitize_version(raw: &str) -> String {
+    // Take only the first whitespace-delimited token.
+    let token = raw.split_whitespace().next().unwrap_or("");
+    // Keep digits, dots, hyphens, and a leading 'v'.
+    let cleaned: String = token
+        .chars()
+        .enumerate()
+        .filter(|(i, c)| c.is_ascii_digit() || *c == '.' || *c == '-' || (*i == 0 && *c == 'v'))
+        .map(|(_, c)| c)
+        .collect();
+    // Strip any leading/trailing dots or hyphens left over from filtering.
+    cleaned.trim_matches(|c| c == '.' || c == '-').to_owned()
 }
 
 /// Try to extract a vendor name from the `AudioComponents` array in an AU
