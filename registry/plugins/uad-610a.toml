@@ -1,0 +1,22 @@
+slug        = "uad-610a"
+name        = "UA 610-A"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Tube preamp and EQ emulation of the UA 610-A console module"
+category    = "effects"
+subcategory = "preamp"
+license     = "commercial"
+tags        = ["preamp", "tube", "eq", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD UA 610-A.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD UA 610-A.component"

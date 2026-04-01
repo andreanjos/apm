@@ -1,0 +1,22 @@
+slug        = "uad-tube-tech-pe1c"
+name        = "Tube-Tech PE 1C"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Pultec-style passive tube EQ with gentle, musical boost and cut"
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = ["eq", "tube", "pultec", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Tube-Tech PE 1C.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Tube-Tech PE 1C.component"
