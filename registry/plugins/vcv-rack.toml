@@ -1,0 +1,22 @@
+slug        = "vcv-rack"
+name        = "VCV Rack 2 Pro"
+vendor      = "VCV"
+version     = "2.6.6"
+description = "Open-source virtual Eurorack modular studio with hundreds of modules; Pro version adds DAW plugin hosting as VST3, AU, and CLAP."
+category    = "instruments"
+subcategory = "modular"
+license     = "commercial"
+tags        = ["synth", "synthesizer", "modular", "eurorack", "open-source", "patching", "vcv", "free"]
+homepage    = "https://vcvrack.com/Rack"
+
+[formats.vst3]
+url          = "https://vcvrack.com/downloads/RackFree-2.6.6-mac-x64+arm64.pkg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "VCV Rack 2 Pro.vst3"
+
+[formats.au]
+url          = "https://vcvrack.com/downloads/RackFree-2.6.6-mac-x64+arm64.pkg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "VCV Rack 2 Pro.component"

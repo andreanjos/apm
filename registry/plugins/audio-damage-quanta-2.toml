@@ -1,0 +1,22 @@
+slug        = "audio-damage-quanta-2"
+name        = "Quanta 2"
+vendor      = "Audio Damage"
+version     = "2.1.4"
+description = "Full-featured granular synthesizer with expanded modulation, enhanced grain engine, CLAP/VST3/AU/AAX support, and Universal Binary 2."
+category    = "instruments"
+subcategory = "granular"
+license     = "commercial"
+tags        = ["synth", "synthesizer", "granular", "sampling", "modulation", "sound-design", "clap"]
+homepage    = "https://www.audiodamage.com/products/ad055-quanta-2"
+
+[formats.vst3]
+url          = "https://www.audiodamage.com/products/ad055-quanta-2"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Quanta2.vst3"
+
+[formats.au]
+url          = "https://www.audiodamage.com/products/ad055-quanta-2"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Quanta2.component"

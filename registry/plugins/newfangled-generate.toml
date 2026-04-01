@@ -1,0 +1,22 @@
+slug        = "newfangled-generate"
+name        = "Generate"
+vendor      = "Newfangled Audio"
+version     = "1.4.0"
+description = "Polyphonic synthesizer built around eight types of chaotic oscillators, five Buchla-inspired wavefolders, and deep MPE modulation."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "commercial"
+tags        = ["synth", "synthesizer", "chaotic", "wavefolder", "mpe", "buchla", "experimental", "eventide"]
+homepage    = "https://www.newfangledaudio.com/generate"
+
+[formats.vst3]
+url          = "https://store.eventideaudio.com/products/generate"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Generate.vst3"
+
+[formats.au]
+url          = "https://store.eventideaudio.com/products/generate"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Generate.component"

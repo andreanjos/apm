@@ -1,0 +1,22 @@
+slug        = "analog-lab-intro"
+name        = "Analog Lab Intro"
+vendor      = "Arturia"
+version     = "5.12.2"
+description = "Free preset browser and player with 500 curated sounds from 28 classic instrument emulations in the V Collection."
+category    = "instruments"
+subcategory = "multi-instrument"
+license     = "freeware"
+tags        = ["presets", "multi-instrument", "synth", "keys", "free", "freeware", "v-collection", "analog"]
+homepage    = "https://www.arturia.com/products/software-instruments/analoglab-intro/overview"
+
+[formats.vst3]
+url          = "https://www.arturia.com/support/downloads-manuals"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Analog Lab Intro.vst3"
+
+[formats.au]
+url          = "https://www.arturia.com/support/downloads-manuals"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Analog Lab Intro.component"

@@ -1,0 +1,22 @@
+slug        = "tal-mod"
+name        = "TAL-Mod"
+vendor      = "TAL Software"
+version     = "1.9.8"
+description = "Virtual analog modular synthesizer with a unique oscillator model, MPE support, and near-unlimited modulation possibilities."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "commercial"
+tags        = ["synth", "synthesizer", "modular", "virtual-analog", "mpe", "microtuning", "semi-modular"]
+homepage    = "https://tal-software.com/products/tal-mod"
+
+[formats.vst3]
+url          = "https://tal-software.com/products/tal-mod"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "TAL-Mod.vst3"
+
+[formats.au]
+url          = "https://tal-software.com/products/tal-mod"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "TAL-Mod.component"

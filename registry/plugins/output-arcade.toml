@@ -1,0 +1,22 @@
+slug        = "output-arcade"
+name        = "Arcade"
+vendor      = "Output"
+version     = "2.12.0"
+description = "Cloud-connected loop synthesizer and sample instrument with daily new content, playable loops, and a creative sound engine."
+category    = "instruments"
+subcategory = "sample-library"
+license     = "subscription"
+tags        = ["loops", "sampler", "cloud", "creative", "subscription", "beats", "melodic", "performance"]
+homepage    = "https://output.com/products/arcade"
+
+[formats.vst3]
+url          = "https://output.com/products/arcade"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Arcade.vst3"
+
+[formats.au]
+url          = "https://output.com/products/arcade"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "Arcade.component"
