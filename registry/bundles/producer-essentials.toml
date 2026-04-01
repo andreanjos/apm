@@ -1,0 +1,9 @@
+slug = "producer-essentials"
+name = "Producer Essentials"
+description = "A curated set of free, high-quality plugins covering reverb, dynamics, and synthesis — ideal for producers starting out."
+plugins = [
+    "valhalla-supermassive",
+    "vital",
+    "tdr-nova",
+    "surge-xt",
+]
