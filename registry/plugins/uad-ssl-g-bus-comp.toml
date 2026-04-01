@@ -1,0 +1,22 @@
+slug        = "uad-ssl-g-bus-comp"
+name        = "SSL G Bus Compressor"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Emulation of the SSL 4000 G series bus compressor, the definitive glue compressor for mix bus processing."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = ["compressor", "bus", "glue", "ssl", "console", "mixing", "mastering", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/ssl-4000-g-bus-compressor-collection.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD SSL G Bus Compressor.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD SSL G Bus Compressor.component"

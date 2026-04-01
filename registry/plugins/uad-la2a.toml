@@ -1,0 +1,22 @@
+slug        = "uad-la2a"
+name        = "Teletronix LA-2A Silver"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Optical leveling amplifier emulation of the classic LA-2A with smooth, program-dependent compression."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = ["compressor", "la-2a", "optical", "leveling", "vintage", "vocals", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-collection.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Teletronix LA-2A Silver.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Teletronix LA-2A Silver.component"

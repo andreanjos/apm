@@ -1,0 +1,22 @@
+slug        = "uad-studer-a800"
+name        = "Studer A800"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Tape machine emulation of the legendary Studer A800 multitrack recorder with selectable tape formulations and speeds."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = ["tape", "saturation", "studer", "analog", "warmth", "recording", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/tape-machines/studer-a800.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Studer A800.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Studer A800.component"

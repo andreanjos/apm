@@ -1,0 +1,22 @@
+slug        = "uad-ssl-e-channel"
+name        = "SSL E Channel Strip"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Emulation of the SSL 4000 E channel strip with EQ, dynamics, filters, and the legendary SSL sound."
+category    = "effects"
+subcategory = "channel-strip"
+license     = "commercial"
+tags        = ["channel-strip", "ssl", "eq", "compressor", "gate", "console", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/channel-strips/ssl-4000-e-channel-strip-collection.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD SSL E Channel Strip.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD SSL E Channel Strip.component"

@@ -1,0 +1,22 @@
+slug        = "uad-lexicon-224"
+name        = "Lexicon 224"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Digital reverb emulation of the iconic Lexicon 224 with its signature lush, dense reverb tails."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = ["reverb", "lexicon", "digital", "vintage", "lush", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/reverbs/lexicon-224-digital-reverb.html"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Lexicon 224.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Lexicon 224.component"
