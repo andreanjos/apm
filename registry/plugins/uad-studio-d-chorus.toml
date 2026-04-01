@@ -1,0 +1,22 @@
+slug        = "uad-studio-d-chorus"
+name        = "Studio D Chorus"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Studio-quality chorus with selectable modes for subtle to dramatic widening"
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = ["chorus", "modulation", "widening", "stereo", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Studio D Chorus.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Studio D Chorus.component"

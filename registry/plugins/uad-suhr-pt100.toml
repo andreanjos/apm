@@ -1,0 +1,22 @@
+slug        = "uad-suhr-pt100"
+name        = "Suhr PT100"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Guitar amplifier emulation of the Suhr PT100 with modern high-gain voicing"
+category    = "effects"
+subcategory = "amp-sim"
+license     = "commercial"
+tags        = ["amp-sim", "guitar", "high-gain", "suhr", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Suhr PT100.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Suhr PT100.component"

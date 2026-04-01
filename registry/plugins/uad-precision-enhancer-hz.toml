@@ -1,0 +1,22 @@
+slug        = "uad-precision-enhancer-hz"
+name        = "Precision Enhancer Hz"
+vendor      = "Universal Audio"
+version     = "1.0"
+description = "Low-frequency harmonic enhancer for adding weight and presence to bass content"
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = ["enhancer", "low-frequency", "bass", "harmonics", "uad"]
+homepage    = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Precision Enhancer Hz.vst3"
+
+[formats.au]
+url          = "https://www.uaudio.com/downloads"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path  = "UAD Precision Enhancer Hz.component"
