@@ -1,6 +1,5 @@
 // backup — copy plugin bundles before upgrading and restore them on rollback.
 
-#![allow(dead_code)]
 
 use std::path::{Path, PathBuf};
 

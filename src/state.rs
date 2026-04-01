@@ -1,7 +1,6 @@
 // State management is the full install-tracking API used by later phases.
 // Phase 1 defines the schema; later phases wire up load/save/mutate.
 // The dead_code lint is suppressed here intentionally.
-#![allow(dead_code)]
 
 use std::path::{Path, PathBuf};
 

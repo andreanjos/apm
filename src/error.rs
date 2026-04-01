@@ -1,7 +1,4 @@
 // ApmError variants are the full error surface for all phases of apm.
-// Phase 1 only uses NotImplemented; remaining variants will be used in later
-// phases. The dead_code lint is suppressed here intentionally.
-#![allow(dead_code)]
 
 use std::path::PathBuf;
 use thiserror::Error;
@@ -12,6 +9,7 @@ use thiserror::Error;
 /// remediation hint. Use [`anyhow::Context`] in command handlers to add
 /// higher-level context (e.g. "while installing tal-noisemaker").
 #[derive(Error, Debug)]
+#[allow(dead_code)]
 pub enum ApmError {
     // ── Configuration ────────────────────────────────────────────────────────
     #[error(
@@ -125,36 +123,8 @@ pub enum ApmError {
         context: Option<String>,
     },
 
-    // ── Not implemented ───────────────────────────────────────────────────────
-    #[error(
-        "`apm {command}` is not yet implemented.\n\
-         Hint: This feature is coming in {phase}. Track progress at https://github.com/apm-pm/apm."
-    )]
-    NotImplemented { command: String, phase: String },
 }
 
-impl ApmError {
-    /// Convenience constructor for I/O errors with context.
-    pub fn io(source: std::io::Error) -> Self {
-        Self::Io { source, context: None }
-    }
-
-    /// Convenience constructor for I/O errors with context string.
-    pub fn io_context(source: std::io::Error, context: impl Into<String>) -> Self {
-        Self::Io {
-            source,
-            context: Some(context.into()),
-        }
-    }
-
-    /// Convenience constructor for "not yet implemented" errors.
-    pub fn not_implemented(command: impl Into<String>, phase: impl Into<String>) -> Self {
-        Self::NotImplemented {
-            command: command.into(),
-            phase: phase.into(),
-        }
-    }
-}
 
 impl From<std::io::Error> for ApmError {
     fn from(e: std::io::Error) -> Self {

@@ -1,10 +1,5 @@
 // Plugin scanner — walks macOS AU and VST3 plugin directories and parses
 // metadata from each bundle's Info.plist. No network access required.
-//
-// Fields on ScannedPlugin that are not yet consumed by command handlers
-// (bundle_id, scope) will be used in later phases; dead_code is suppressed
-// to avoid noise, consistent with the rest of the Phase 1 infrastructure.
-#![allow(dead_code)]
 
 use std::fmt;
 use std::path::{Path, PathBuf};
@@ -68,12 +63,14 @@ pub struct ScannedPlugin {
     pub vendor: String,
 
     /// Reverse-domain bundle identifier from `CFBundleIdentifier`.
+    #[allow(dead_code)]
     pub bundle_id: String,
 
     /// Plugin format derived from the bundle extension.
     pub format: PluginFormat,
 
     /// Whether the bundle is in a system or user plugin directory.
+    #[allow(dead_code)]
     pub scope: InstallScope,
 
     /// Absolute path to the bundle directory (e.g. `.component` or `.vst3`).

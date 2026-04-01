@@ -1,7 +1,4 @@
 // Registry types are the full TOML schema for the plugin registry.
-// Phase 1 defines these types; later phases parse actual TOML files.
-// The dead_code lint is suppressed here intentionally.
-#![allow(dead_code)]
 
 use serde::{Deserialize, Serialize};
 
