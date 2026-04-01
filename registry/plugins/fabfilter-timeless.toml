@@ -1,0 +1,22 @@
+slug        = "fabfilter-timeless"
+name        = "FabFilter Timeless 3"
+vendor      = "FabFilter"
+version     = "3.09"
+description = "Vintage-sounding tape delay with up to 16 taps, five feedback circuit effects, multimode filters, and extensive modulation."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = ["delay", "tape", "echo", "modulation", "creative"]
+homepage    = "https://www.fabfilter.com/products/timeless-3-delay-plug-in"
+
+[formats.vst3]
+url          = "https://cdn-b.fabfilter.com/downloads/fftimeless309.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "FabFilter Timeless 3.vst3"
+
+[formats.au]
+url          = "https://cdn-b.fabfilter.com/downloads/fftimeless309.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "FabFilter Timeless 3.component"

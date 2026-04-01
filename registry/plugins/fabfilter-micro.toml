@@ -1,0 +1,22 @@
+slug        = "fabfilter-micro"
+name        = "FabFilter Micro"
+vendor      = "FabFilter"
+version     = "1.31"
+description = "Basic single-filter plugin with smooth analog character, envelope follower for cut-off modulation, and self-oscillation."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = ["filter", "basic", "analog", "micro"]
+homepage    = "https://www.fabfilter.com/products/micro-mini-filter-plug-in"
+
+[formats.vst3]
+url          = "https://cdn-b.fabfilter.com/downloads/ffmicro131.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "FabFilter Micro.vst3"
+
+[formats.au]
+url          = "https://cdn-b.fabfilter.com/downloads/ffmicro131.dmg"
+sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path  = "FabFilter Micro.component"
