@@ -5,6 +5,8 @@ use serde::Serialize;
 use apm_core::config::Config;
 use apm_core::registry::{self, search};
 
+use crate::utils::{format_category, format_price};
+
 /// JSON-serializable view of a search result.
 #[derive(Serialize)]
 struct SearchResultJson {
@@ -93,7 +95,7 @@ pub async fn run(
                 is_paid: p.is_paid,
                 price_cents: p.price_cents,
                 currency: p.currency.clone(),
-                price_display: price_display(p),
+                price_display: format_price(p.price_cents, p.currency.as_deref(), p.is_paid),
             })
             .collect();
         println!("{}", serde_json::to_string_pretty(&json_results)?);
@@ -132,7 +134,7 @@ pub async fn run(
 
     let w_cat = results
         .iter()
-        .map(|p| category_display(p).len())
+        .map(|p| format_category(&p.category, p.subcategory.as_deref()).len())
         .max()
         .unwrap_or(0)
         .max(HDR_CAT.len());
@@ -146,7 +148,7 @@ pub async fn run(
 
     let w_price = results
         .iter()
-        .map(|p| price_display(p).len())
+        .map(|p| format_price(p.price_cents, p.currency.as_deref(), p.is_paid).len())
         .max()
         .unwrap_or(0)
         .max(HDR_PRICE.len());
@@ -171,9 +173,9 @@ pub async fn run(
             p.slug.bold().to_string(),
             p.vendor,
             p.version.cyan().to_string(),
-            category_display(p),
+            format_category(&p.category, p.subcategory.as_deref()),
             p.license,
-            price_display(p),
+            format_price(p.price_cents, p.currency.as_deref(), p.is_paid),
         );
         // Description on an indented second line.
         if !p.description.is_empty() {
@@ -196,27 +198,3 @@ pub async fn run(
     Ok(())
 }
 
-// ── Helpers ───────────────────────────────────────────────────────────────────
-
-/// Format category / subcategory as "category" or "category / subcategory".
-fn category_display(p: &apm_core::registry::PluginDefinition) -> String {
-    match &p.subcategory {
-        Some(sub) => format!("{} / {}", p.category, sub),
-        None => p.category.clone(),
-    }
-}
-
-fn price_display(p: &apm_core::registry::PluginDefinition) -> String {
-    if !p.is_paid {
-        return "free".to_string();
-    }
-
-    match (p.price_cents, p.currency.as_deref()) {
-        (Some(cents), Some(currency)) => {
-            let major = cents / 100;
-            let minor = cents.abs() % 100;
-            format!("{} {}.{minor:02}", currency.to_uppercase(), major)
-        }
-        _ => "paid".to_string(),
-    }
-}

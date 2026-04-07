@@ -9,6 +9,7 @@ use apm_core::{
 };
 
 use crate::license_cache::LicenseCache;
+use crate::utils::display_path;
 
 #[derive(Serialize)]
 struct InstalledPluginJson {
@@ -203,13 +204,3 @@ fn format_label(plugin: &InstalledPlugin) -> String {
     parts.join("+")
 }
 
-fn display_path(path: &std::path::Path) -> String {
-    let path_str = path.to_string_lossy();
-    if let Some(home) = dirs::home_dir() {
-        let home_str = home.to_string_lossy();
-        if let Some(rest) = path_str.strip_prefix(home_str.as_ref()) {
-            return format!("~{rest}");
-        }
-    }
-    path_str.into_owned()
-}

@@ -6,6 +6,8 @@ use apm_core::config::Config;
 use apm_core::scanner::{self, PluginFormat};
 use apm_core::state::InstallState;
 
+use crate::utils::{display_path, truncate};
+
 // Maximum column widths for the scan table.
 const MAX_NAME: usize = 35;
 const MAX_VER: usize = 12;
@@ -167,24 +169,3 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     Ok(())
 }
 
-/// Replace the user's home directory prefix with `~` for readability.
-fn display_path(path: &std::path::Path) -> String {
-    let path_str = path.to_string_lossy();
-    if let Some(home) = dirs::home_dir() {
-        let home_str = home.to_string_lossy();
-        if let Some(rest) = path_str.strip_prefix(home_str.as_ref()) {
-            return format!("~{rest}");
-        }
-    }
-    path_str.into_owned()
-}
-
-/// Truncate `s` to `max` characters, appending "..." if truncated.
-fn truncate(s: &str, max: usize) -> String {
-    if s.len() <= max {
-        s.to_owned()
-    } else {
-        // Ensure the suffix fits: we always have max >= 3 from our constants.
-        format!("{}...", &s[..max.saturating_sub(3)])
-    }
-}

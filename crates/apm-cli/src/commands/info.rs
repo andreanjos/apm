@@ -6,6 +6,8 @@ use apm_core::config::Config;
 use apm_core::registry::{self, PluginDefinition};
 use apm_core::state::InstallState;
 
+use crate::utils::{format_category, format_price};
+
 /// JSON-serializable view of a plugin info result.
 #[derive(Serialize)]
 struct PluginInfoJson<'a> {
@@ -80,7 +82,7 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
             is_paid: plugin.is_paid,
             price_cents: plugin.price_cents,
             currency: plugin.currency.as_deref(),
-            price_display: price_display(plugin),
+            price_display: format_price(plugin.price_cents, plugin.currency.as_deref(), plugin.is_paid),
         };
         println!("{}", serde_json::to_string_pretty(&info)?);
     } else {
@@ -112,14 +114,14 @@ fn print_plugin_info(p: &PluginDefinition, installed: Option<&apm_core::state::I
         "Type:".dimmed(),
         if p.is_paid { "Paid" } else { "Free" }
     );
-    println!("{:<13} {}", "Price:".dimmed(), price_display(p));
+    println!("{:<13} {}", "Price:".dimmed(), format_price(p.price_cents, p.currency.as_deref(), p.is_paid));
 
     // Category
-    let cat = match &p.subcategory {
-        Some(sub) => format!("{} / {}", p.category, sub),
-        None => p.category.clone(),
-    };
-    println!("{:<13} {}", "Category:".dimmed(), cat);
+    println!(
+        "{:<13} {}",
+        "Category:".dimmed(),
+        format_category(&p.category, p.subcategory.as_deref())
+    );
 
     println!("{:<13} {}", "License:".dimmed(), p.license);
 
@@ -194,17 +196,3 @@ fn wrap_text(text: &str, width: usize) -> Vec<String> {
     lines
 }
 
-fn price_display(p: &PluginDefinition) -> String {
-    if !p.is_paid {
-        return "free".to_string();
-    }
-
-    match (p.price_cents, p.currency.as_deref()) {
-        (Some(cents), Some(currency)) => {
-            let major = cents / 100;
-            let minor = cents.abs() % 100;
-            format!("{} {}.{minor:02}", currency.to_uppercase(), major)
-        }
-        _ => "paid".to_string(),
-    }
-}

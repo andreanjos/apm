@@ -6,6 +6,7 @@ mod download;
 mod install;
 mod license_cache;
 mod portable;
+pub(crate) mod utils;
 
 use std::path::PathBuf;
 
