@@ -22,7 +22,13 @@ struct UpgradeEntry {
     version: String,
 }
 
-pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, json: bool) -> Result<()> {
+pub async fn run(
+    config: &Config,
+    name: Option<&str>,
+    dry_run: bool,
+    json: bool,
+    yes: bool,
+) -> Result<()> {
     // ── Load state and registry ───────────────────────────────────────────────
 
     let mut state = InstallState::load(config)?;
@@ -202,6 +208,49 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, json: bool)
             println!("{}", serde_json::to_string_pretty(&result)?);
         }
         return Ok(());
+    }
+
+    // ── Confirmation prompt (bulk upgrade only) ────────────────────────────────
+
+    if name.is_none() && !json && !yes {
+        println!("\nThe following plugins will be upgraded:\n");
+        // Compute alignment: find the longest slug among non-pinned candidates.
+        let max_name = candidates
+            .iter()
+            .filter(|c| !c.pinned)
+            .map(|c| c.slug.len())
+            .max()
+            .unwrap_or(0);
+        for candidate in &candidates {
+            if candidate.pinned {
+                continue;
+            }
+            println!(
+                "  {:<width$}  {} -> {}",
+                candidate.slug,
+                candidate.installed_version,
+                candidate.available_version,
+                width = max_name,
+            );
+        }
+        let upgradable = candidates.iter().filter(|c| !c.pinned).count();
+        let pinned = candidates.iter().filter(|c| c.pinned).count();
+        if pinned > 0 {
+            print!("\n{} plugin(s) to upgrade ({} pinned, skipped). ", upgradable, pinned);
+        } else {
+            print!("\n{} plugin(s) to upgrade. ", upgradable);
+        }
+        print!("Proceed? [Y/n] ");
+        std::io::Write::flush(&mut std::io::stdout())?;
+        let mut input_buf = String::new();
+        std::io::stdin()
+            .read_line(&mut input_buf)
+            .map_err(|e| anyhow::anyhow!("Cannot read user input: {e}"))?;
+        let answer = input_buf.trim();
+        if !answer.is_empty() && !answer.eq_ignore_ascii_case("y") {
+            println!("Aborted.");
+            return Ok(());
+        }
     }
 
     // ── Process each candidate ────────────────────────────────────────────────

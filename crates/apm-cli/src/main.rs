@@ -118,6 +118,10 @@ enum Commands {
         /// Maximum number of results to show.
         #[arg(long, short = 'l')]
         limit: Option<usize>,
+
+        /// Show only installed plugins in results.
+        #[arg(long)]
+        installed: bool,
     },
 
     /// Sync the local registry cache from the configured Git remote.
@@ -229,6 +233,10 @@ enum Commands {
         /// Show what would be upgraded without making any changes.
         #[arg(long)]
         dry_run: bool,
+
+        /// Skip confirmation prompt (for scripting/automation).
+        #[arg(long)]
+        yes: bool,
     },
 
     /// Pin a plugin to prevent it from being upgraded.
@@ -558,6 +566,7 @@ async fn run() -> Result<()> {
             free,
             tag,
             limit,
+            installed,
         } => {
             let q = query.as_deref().unwrap_or("");
             commands::search::run(
@@ -569,6 +578,7 @@ async fn run() -> Result<()> {
                 *free,
                 tag.as_deref(),
                 *limit,
+                *installed,
                 json,
             )
             .await
@@ -625,8 +635,8 @@ async fn run() -> Result<()> {
 
         Commands::Open { name } => commands::open::run(&config, name).await,
 
-        Commands::Upgrade { name, dry_run } => {
-            commands::upgrade::run(&config, name.as_deref(), *dry_run, json).await
+        Commands::Upgrade { name, dry_run, yes } => {
+            commands::upgrade::run(&config, name.as_deref(), *dry_run, json, *yes).await
         }
 
         Commands::Pin { name, unpin, list } => {
