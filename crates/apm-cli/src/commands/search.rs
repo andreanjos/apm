@@ -39,6 +39,7 @@ pub async fn run(
     tag: Option<&str>,
     limit: Option<usize>,
     installed: bool,
+    new: bool,
     json: bool,
 ) -> Result<()> {
     let registry = registry::Registry::load_all_sources(config)?;
@@ -56,8 +57,8 @@ pub async fn run(
         return Ok(());
     }
 
-    // When --installed is set, load the install state and build a lookup set.
-    let installed_slugs: Option<HashSet<String>> = if installed {
+    // When --installed or --new is set, load the install state and build a lookup set.
+    let installed_slugs: Option<HashSet<String>> = if installed || new {
         let state = InstallState::load(config).unwrap_or_default();
         Some(state.plugins.iter().map(|p| p.name.clone()).collect())
     } else {
@@ -74,7 +75,10 @@ pub async fn run(
                 return false;
             }
             if let Some(ref slugs) = installed_slugs {
-                if !slugs.contains(&plugin.slug) {
+                if installed && !slugs.contains(&plugin.slug) {
+                    return false;
+                }
+                if new && slugs.contains(&plugin.slug) {
                     return false;
                 }
             }
@@ -92,6 +96,9 @@ pub async fn run(
         let mut filter_msg = String::new();
         if installed {
             filter_msg.push_str(" among installed plugins");
+        }
+        if new {
+            filter_msg.push_str(" among not-yet-installed plugins");
         }
         if let Some(c) = category {
             filter_msg.push_str(&format!(" in category \"{c}\""));
@@ -237,7 +244,13 @@ pub async fn run(
     } else {
         ""
     };
-    let installed_qualifier = if installed { " installed" } else { "" };
+    let installed_qualifier = if installed {
+        " installed"
+    } else if new {
+        " new"
+    } else {
+        ""
+    };
     let plugin_word = if total_matches == 1 {
         "plugin"
     } else {

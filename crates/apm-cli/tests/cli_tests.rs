@@ -331,7 +331,7 @@ fn test_info_json_with_fixture_registry_includes_available_versions() {
         .expect("copy plugins");
 
     let output = Command::new(apm_bin())
-        .args(["--json", "info", "test-synth"])
+        .args(["--json", "info", "--versions", "test-synth"])
         .env("XDG_CONFIG_HOME", tmp_config.path())
         .env("XDG_DATA_HOME", tmp_data.path())
         .env("XDG_CACHE_HOME", tmp_cache.path())

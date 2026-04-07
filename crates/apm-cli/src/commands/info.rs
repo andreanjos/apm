@@ -15,7 +15,8 @@ struct PluginInfoJson<'a> {
     name: &'a str,
     vendor: &'a str,
     version: &'a str,
-    available_versions: Vec<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    available_versions: Option<Vec<String>>,
     category: &'a str,
     subcategory: Option<&'a str>,
     license: &'a str,
@@ -31,7 +32,7 @@ struct PluginInfoJson<'a> {
     price_display: String,
 }
 
-pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
+pub async fn run(config: &Config, name: &str, json: bool, versions: bool) -> Result<()> {
     let registry = registry::Registry::load_all_sources(config)?;
 
     if registry.is_empty() {
@@ -69,7 +70,11 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
             name: &plugin.name,
             vendor: &plugin.vendor,
             version: &plugin.version,
-            available_versions: plugin.available_versions(),
+            available_versions: if versions {
+                Some(plugin.available_versions())
+            } else {
+                None
+            },
             category: &plugin.category,
             subcategory: plugin.subcategory.as_deref(),
             license: &plugin.license,
@@ -86,14 +91,18 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
         };
         println!("{}", serde_json::to_string_pretty(&info)?);
     } else {
-        print_plugin_info(plugin, installed);
+        print_plugin_info(plugin, installed, versions);
     }
     Ok(())
 }
 
 // ── Display ───────────────────────────────────────────────────────────────────
 
-fn print_plugin_info(p: &PluginDefinition, installed: Option<&apm_core::state::InstalledPlugin>) {
+fn print_plugin_info(
+    p: &PluginDefinition,
+    installed: Option<&apm_core::state::InstalledPlugin>,
+    show_versions: bool,
+) {
     // Title
     println!("{}", p.slug.bold());
     println!("{}", "\u{2550}".repeat(47).dimmed()); // ═══════
@@ -101,14 +110,6 @@ fn print_plugin_info(p: &PluginDefinition, installed: Option<&apm_core::state::I
     println!("{:<13} {}", "Name:".dimmed(), p.name.bold());
     println!("{:<13} {}", "Vendor:".dimmed(), p.vendor);
     println!("{:<13} {}", "Version:".dimmed(), p.version.cyan());
-    let available_versions = p.available_versions();
-    if available_versions.len() > 1 {
-        println!(
-            "{:<13} {}",
-            "Versions:".dimmed(),
-            available_versions.join(", ")
-        );
-    }
     println!(
         "{:<13} {}",
         "Type:".dimmed(),
@@ -170,6 +171,22 @@ fn print_plugin_info(p: &PluginDefinition, installed: Option<&apm_core::state::I
         }
         None => {
             println!("Status:       {}", "Not installed".yellow());
+        }
+    }
+
+    // Available versions (only when --versions flag is active)
+    if show_versions {
+        let versions = p.available_versions();
+        println!();
+        println!("{}", "Available Versions:".bold());
+        for (i, v) in versions.iter().enumerate() {
+            if i == 0 && versions.len() == 1 {
+                println!("  {}  {}", v.cyan(), "(latest, only version)".dimmed());
+            } else if i == 0 {
+                println!("  {}  {}", v.cyan(), "(latest)".dimmed());
+            } else {
+                println!("  {}", v);
+            }
         }
     }
 }
