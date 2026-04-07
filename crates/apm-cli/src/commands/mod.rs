@@ -1,4 +1,5 @@
 pub mod bundles;
+pub mod check;
 pub mod cleanup;
 pub mod completions;
 pub mod config_cmd;
@@ -12,6 +13,7 @@ pub mod install;
 pub mod list;
 pub mod outdated;
 pub mod pin;
+pub mod random;
 pub mod remove;
 pub mod rollback;
 pub mod scan;

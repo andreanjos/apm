@@ -111,6 +111,10 @@ enum Commands {
         #[arg(long, conflicts_with = "paid")]
         free: bool,
 
+        /// Filter by tag (e.g. "synth", "reverb", "open-source").
+        #[arg(long, short = 't')]
+        tag: Option<String>,
+
         /// Maximum number of results to show.
         #[arg(long, short = 'l')]
         limit: Option<usize>,
@@ -323,6 +327,17 @@ enum Commands {
         name: Option<String>,
     },
 
+    /// Verify the integrity of an installed plugin.
+    ///
+    /// Checks that each installed format bundle exists on disk at the
+    /// recorded path and is not quarantined by macOS Gatekeeper.
+    /// Reports a per-format status table and an overall health verdict.
+    #[command(alias = "verify")]
+    Check {
+        /// Plugin name or slug to check (e.g. "tal-noisemaker").
+        name: String,
+    },
+
     /// Print plugin counts (for scripting and shell prompts).
     ///
     /// With no flags, prints the number of installed plugins as a plain integer.
@@ -358,6 +373,16 @@ enum Commands {
         /// List all backups with sizes and dates.
         #[arg(long, short = 'l')]
         list: bool,
+    },
+
+    /// Suggest a random plugin from the registry.
+    ///
+    /// Great for discovering new plugins you might not have found otherwise.
+    /// Optionally filter by category to get a random instrument, effect, etc.
+    Random {
+        /// Filter by category (e.g. "instrument", "effect", "reverb").
+        #[arg(long, short = 'c')]
+        category: Option<String>,
     },
 
     /// Show a quick summary of your apm environment.
@@ -479,6 +504,7 @@ async fn run() -> Result<()> {
             vendor,
             paid,
             free,
+            tag,
             limit,
         } => {
             let q = query.as_deref().unwrap_or("");
@@ -489,6 +515,7 @@ async fn run() -> Result<()> {
                 vendor.as_deref(),
                 *paid,
                 *free,
+                tag.as_deref(),
                 *limit,
                 json,
             )
@@ -580,6 +607,8 @@ async fn run() -> Result<()> {
         Commands::Cleanup { dry_run } => commands::cleanup::run(&config, *dry_run, json).await,
 
         Commands::Bundles { name } => commands::bundles::run(&config, name.as_deref(), json).await,
+
+        Commands::Check { name } => commands::check::run(&config, name, json).await,
 
         Commands::Count { available } => commands::count::run(&config, json, *available).await,
 
