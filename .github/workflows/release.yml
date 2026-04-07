@@ -18,6 +18,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Install Rust stable
         uses: dtolnay/rust-toolchain@stable
@@ -72,8 +75,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout main
           git add Formula/apm.rb
           git diff --cached --quiet && exit 0
           git commit -m "chore(formula): update to v${GITHUB_REF#refs/tags/v}"
-          git push origin main
+          git push origin HEAD:main
