@@ -133,10 +133,12 @@ enum Commands {
         new: bool,
     },
 
-    /// Sync the local registry cache from the configured Git remote.
+    /// Sync the local registry cache from configured Git remotes.
     ///
-    /// Clones the registry on first run; fast-forward fetches on subsequent
-    /// runs. Registry is stored in ~/.cache/apm/registries/.
+    /// Clones each registry on first run; performs fast-forward fetches on
+    /// subsequent runs. Registry data is stored in ~/.cache/apm/registries/.
+    /// Run this before `search`, `install`, or `outdated` to ensure you have
+    /// the latest plugin definitions.
     #[command(alias = "update")]
     Sync,
 
@@ -279,11 +281,11 @@ enum Commands {
         list: bool,
     },
 
-    /// View apm configuration.
+    /// View or locate the apm configuration.
     ///
-    /// Show current configuration values and paths. Use `config show` for
-    /// all settings, or `config path` to print the config file location
-    /// (useful for `$EDITOR $(apm config path)`).
+    /// Use `config show` to display all current settings (registry URL,
+    /// install scope, directories, sources), or `config path` to print the
+    /// config file path for quick editing with your $EDITOR.
     #[command(subcommand, alias = "cfg")]
     Config(ConfigCommands),
 
@@ -355,22 +357,25 @@ enum Commands {
         yes: bool,
     },
 
-    /// Clean up the download cache.
+    /// Clean up the download cache to reclaim disk space.
     ///
-    /// Scans the downloads cache directory, reports total size, and removes
-    /// all cached archives. Use --dry-run to preview without deleting.
+    /// Scans the downloads cache directory (~/.cache/apm/downloads/), reports
+    /// total size, and removes all cached archives. Safe to run at any time --
+    /// plugins already installed are not affected. Use --dry-run to preview.
     Cleanup {
-        /// Show what would be deleted without actually deleting anything.
+        /// Show what would be deleted without actually removing anything.
         #[arg(long)]
         dry_run: bool,
     },
 
-    /// List and inspect plugin bundles (curated meta-packages).
+    /// List and inspect plugin bundles (curated collections).
     ///
-    /// Bundles group related plugins for quick one-command installation.
-    /// Use `apm install --bundle <name>` to install a bundle.
+    /// Bundles group related plugins into themed collections for one-command
+    /// installation. Without an argument, lists all available bundles. Pass a
+    /// bundle name to see its description and included plugins.
+    /// Use `apm install --bundle <name>` to install all plugins in a bundle.
     Bundles {
-        /// Show details for a specific bundle (name or slug).
+        /// Show details for a specific bundle (e.g. "producer-essentials").
         name: Option<String>,
     },
 
@@ -378,7 +383,8 @@ enum Commands {
     ///
     /// Shows a tree of categories from the synced registry, with the number
     /// of plugins in each category and subcategory. Useful for discovering
-    /// what kinds of plugins are available before searching.
+    /// what kinds of plugins are available before drilling down with
+    /// `apm search --category <name>`.
     #[command(alias = "cats")]
     Categories,
 
@@ -411,65 +417,71 @@ enum Commands {
         available: bool,
     },
 
-    /// Show why/how a plugin was installed by apm.
+    /// Show install details and provenance for a plugin.
     ///
-    /// Displays install date, version, registry source, pinned status, and
-    /// installed format paths. Useful for auditing how a plugin ended up on
-    /// your system.
+    /// Displays when the plugin was installed, which version, which registry
+    /// source it came from, whether it is pinned, and the on-disk paths for
+    /// each installed format. Useful for auditing how a plugin ended up on
+    /// your system or troubleshooting version mismatches.
     Why {
-        /// Plugin name or slug to look up (e.g. "tal-noisemaker").
+        /// Plugin name or slug to inspect (e.g. "tal-noisemaker").
         name: String,
     },
 
-    /// Restore a plugin to its most recent local backed-up version.
+    /// Restore a plugin to its previous version from a local backup.
     ///
-    /// Backups are created automatically before each `apm upgrade`.
-    /// This restores a local backup snapshot, not an arbitrary registry version.
-    /// Use `apm install <plugin> --version <x.y.z>` for registry-backed historical installs.
-    /// Use --list to see all available backups with their sizes.
+    /// Backups are created automatically before each `apm upgrade`. This
+    /// command restores the most recent backup snapshot for the given plugin.
+    /// It does NOT re-download from the registry -- use
+    /// `apm install <plugin> --version <x.y.z>` to fetch a specific version.
+    /// Use --list to see all available backups with their dates and sizes.
     Rollback {
         /// Plugin name or slug to roll back (e.g. "valhalla-supermassive").
         plugin: Option<String>,
 
-        /// List all backups with sizes and dates.
+        /// List all available backups with dates and sizes.
         #[arg(long, short = 'l')]
         list: bool,
     },
 
-    /// Suggest a random plugin from the registry.
+    /// Discover something new -- suggest a random plugin from the registry.
     ///
-    /// Great for discovering new plugins you might not have found otherwise.
-    /// Optionally filter by category to get a random instrument, effect, etc.
+    /// Picks a random plugin and displays its full info card. Great for
+    /// discovering plugins you might not have found through search. Optionally
+    /// filter by category to narrow the suggestion to instruments, effects, etc.
     Random {
-        /// Filter by category (e.g. "instrument", "effect", "reverb").
+        /// Limit to a category (e.g. "instrument", "effect", "reverb").
         #[arg(long, short = 'c')]
         category: Option<String>,
     },
 
-    /// Show disk usage of installed plugins.
+    /// Show disk usage of installed plugins, sorted largest first.
     ///
     /// Walks each installed plugin's bundle directories and sums file sizes.
-    /// Results are sorted by size (largest first) with a per-format breakdown.
-    /// Useful for finding which plugins consume the most disk space.
+    /// Displays a per-plugin table with AU and VST3 sizes, sorted by total
+    /// size (largest first), plus a grand total at the bottom. Useful for
+    /// finding which plugins consume the most disk space.
     #[command(alias = "du")]
     Size,
 
-    /// Show a quick summary of your apm environment.
+    /// Show a dashboard summary of your apm environment.
     ///
-    /// Displays installed plugin count (with AU/VST3 breakdown), available
-    /// plugins in the registry, pinned count, configured sources, download
-    /// cache size, and last sync time.
+    /// Displays at a glance: installed plugin count with AU/VST3 format
+    /// breakdown, total available plugins in the registry, number of pinned
+    /// plugins, configured registry sources, download cache size on disk,
+    /// and the timestamp of the last `apm sync`.
     #[command(alias = "st")]
     Stats,
 
-    /// Show plugin install history sorted by date (most recent first).
+    /// Show plugin install and upgrade history sorted by date.
     ///
-    /// Lists all installed plugins in chronological order based on their
-    /// install timestamp. Useful for reviewing what was recently installed
-    /// or upgraded.
+    /// Lists all installed plugins in reverse chronological order (most
+    /// recent first) based on their install or last-upgrade timestamp.
+    /// Useful for reviewing what changed recently or auditing when a
+    /// particular plugin was added.
     #[command(alias = "log")]
     History {
-        /// Maximum number of entries to show.
+        /// Maximum number of entries to show (default: all).
         #[arg(long, short = 'l')]
         limit: Option<usize>,
     },
@@ -478,33 +490,38 @@ enum Commands {
     ///
     /// Collects every tag from every plugin definition, counts how often each
     /// appears, and displays the top 50 in a compact word-cloud layout sorted
-    /// by frequency. Use --json to get the full list.
+    /// by frequency. Use --json to get the full untruncated list.
+    /// Pair with `apm search --tag <name>` to find plugins by tag.
     Tags,
 
     /// List all plugin vendors in the registry with plugin counts.
     ///
     /// Shows every vendor that has at least one plugin in the synced registry,
     /// sorted by number of plugins (most first). Useful for discovering who
-    /// publishes the most free audio plugins.
+    /// publishes the most plugins. Use `apm search --vendor <name>` to browse
+    /// a specific vendor's catalog.
     Vendors,
 
-    /// List registry plugins that are NOT currently installed.
+    /// List registry plugins that you have not yet installed.
     ///
-    /// The inverse of `apm list` -- shows what's available to install.
-    /// Useful for discovering new plugins. Optionally filter by category
-    /// or limit the number of results shown.
+    /// The inverse of `apm list` -- shows everything available in the
+    /// registry minus what you already have. Useful for browsing what is
+    /// left to try. Optionally filter by category or cap the output.
     #[command(alias = "available")]
     Uninstalled {
         /// Filter by category (e.g. "instrument", "effect", "reverb").
         #[arg(long, short = 'c')]
         category: Option<String>,
 
-        /// Maximum number of results to show.
+        /// Maximum number of results to show (default: all).
         #[arg(long, short = 'l')]
         limit: Option<usize>,
     },
 
-    /// Print the apm version.
+    /// Print the apm version and exit.
+    ///
+    /// Shows the version string (e.g. "apm 0.1.0"). With --json, includes
+    /// the build target triple alongside the version.
     #[command(alias = "v")]
     Version,
 }
@@ -517,9 +534,10 @@ enum ConfigCommands {
     /// cache directories, and configured sources.
     Show,
 
-    /// Print the config file path.
+    /// Print the config file path (for use with $EDITOR).
     ///
-    /// Useful for quick editing: `$EDITOR $(apm config path)`
+    /// Outputs the absolute path to the apm configuration file so you can
+    /// quickly open it in your editor: `$EDITOR $(apm config path)`
     Path,
 }
 
@@ -539,12 +557,18 @@ enum SourcesCommands {
     },
 
     /// Remove a registry source by name.
+    ///
+    /// Deletes the named source from the config. The local cache for this
+    /// registry is not removed; run `apm cleanup` to reclaim space.
     Remove {
         /// Name of the source to remove (see `apm sources list`).
         name: String,
     },
 
     /// List all configured registry sources.
+    ///
+    /// Shows each source's short name and Git URL. The first entry is the
+    /// default (official) registry.
     List,
 }
 
