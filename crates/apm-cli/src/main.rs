@@ -395,6 +395,14 @@ enum Commands {
         category: Option<String>,
     },
 
+    /// Show disk usage of installed plugins.
+    ///
+    /// Walks each installed plugin's bundle directories and sums file sizes.
+    /// Results are sorted by size (largest first) with a per-format breakdown.
+    /// Useful for finding which plugins consume the most disk space.
+    #[command(alias = "du")]
+    Size,
+
     /// Show a quick summary of your apm environment.
     ///
     /// Displays installed plugin count (with AU/VST3 breakdown), available
@@ -645,6 +653,8 @@ async fn run() -> Result<()> {
         Commands::Random { category } => {
             commands::random::run(&config, category.as_deref(), json).await
         }
+
+        Commands::Size => commands::size::run(&config, json).await,
 
         Commands::Stats => commands::stats::run(&config, json).await,
 
