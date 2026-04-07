@@ -4,8 +4,9 @@
 use crate::registry::{PluginDefinition, Registry};
 
 /// Search `registry` for plugins matching `query`, optionally restricted to
-/// `category` (matches category or subcategory, case-insensitive) and/or
-/// `vendor` (matches the vendor field, case-insensitive).
+/// `category` (matches category or subcategory, case-insensitive),
+/// `vendor` (matches the vendor field, case-insensitive), and/or
+/// `tag` (matches any element of the plugin's tags array, case-insensitive).
 ///
 /// Results are sorted by relevance:
 /// 1. Exact slug or name match (case-insensitive).
@@ -17,10 +18,12 @@ pub fn search<'r>(
     query: &str,
     category: Option<&str>,
     vendor: Option<&str>,
+    tag: Option<&str>,
 ) -> Vec<&'r PluginDefinition> {
     let query_lower = query.to_lowercase();
     let category_lower = category.map(|c| c.to_lowercase());
     let vendor_lower = vendor.map(|v| v.to_lowercase());
+    let tag_lower = tag.map(|t| t.to_lowercase());
 
     // First pass: collect every plugin that matches the query (all fields).
     let mut results: Vec<&PluginDefinition> = registry
@@ -46,8 +49,19 @@ pub fn search<'r>(
                 }
             }
 
+            // Tag filter — plugin must have a tag matching (case-insensitive).
+            if let Some(ref tg) = tag_lower {
+                let tag_match = p
+                    .tags
+                    .iter()
+                    .any(|t| t.to_lowercase() == *tg);
+                if !tag_match {
+                    return false;
+                }
+            }
+
             // If the query is empty (e.g. `apm search --category reverb ""`),
-            // return all category/vendor-filtered results.
+            // return all category/vendor/tag-filtered results.
             if query_lower.is_empty() {
                 return true;
             }
@@ -180,7 +194,7 @@ mod tests {
             ),
         ]);
 
-        let results = search(&registry, "surge-xt", None, None);
+        let results = search(&registry, "surge-xt", None, None, None);
 
         assert!(
             results.len() >= 2,
@@ -217,7 +231,7 @@ mod tests {
             ),
         ]);
 
-        let results = search(&registry, "reverb", None, None);
+        let results = search(&registry, "reverb", None, None, None);
 
         assert!(
             results.len() >= 2,
@@ -262,7 +276,7 @@ mod tests {
             ),
         ]);
 
-        let results = search(&registry, "", None, Some("TAL Software"));
+        let results = search(&registry, "", None, Some("TAL Software"), None);
 
         assert_eq!(results.len(), 2, "Should return only TAL Software plugins");
         for p in &results {
@@ -305,7 +319,7 @@ mod tests {
             ),
         ]);
 
-        let results = search(&registry, "", Some("instrument"), None);
+        let results = search(&registry, "", Some("instrument"), None, None);
 
         assert_eq!(results.len(), 2, "Should return only instruments");
         for p in &results {
@@ -348,7 +362,7 @@ mod tests {
             ),
         ]);
 
-        let results = search(&registry, "", None, None);
+        let results = search(&registry, "", None, None, None);
 
         assert_eq!(
             results.len(),
@@ -380,8 +394,8 @@ mod tests {
             ),
         ]);
 
-        let upper = search(&registry, "TAL", None, None);
-        let lower = search(&registry, "tal", None, None);
+        let upper = search(&registry, "TAL", None, None, None);
+        let lower = search(&registry, "tal", None, None, None);
 
         assert_eq!(
             upper.len(),
@@ -398,5 +412,66 @@ mod tests {
             upper_slugs, lower_slugs,
             "Results should be identical regardless of query case"
         );
+    }
+
+    #[test]
+    fn test_tag_filter_works() {
+        let registry = make_registry(vec![
+            make_plugin(
+                "surge-xt",
+                "Surge XT",
+                "Surge Synth Team",
+                "Open-source hybrid synthesizer",
+                "instrument",
+                Some("synth"),
+                vec!["open-source", "synth", "wavetable"],
+            ),
+            make_plugin(
+                "vital",
+                "Vital",
+                "Matt Tytel",
+                "Spectral warping wavetable synth",
+                "instrument",
+                Some("synth"),
+                vec!["wavetable", "free"],
+            ),
+            make_plugin(
+                "dragonfly-reverb",
+                "Dragonfly Reverb",
+                "Michael Willis",
+                "Algorithmic reverb",
+                "effect",
+                Some("reverb"),
+                vec!["open-source", "reverb"],
+            ),
+        ]);
+
+        // Filter by "open-source" tag — should return Surge XT and Dragonfly.
+        let results = search(&registry, "", None, None, Some("open-source"));
+        assert_eq!(results.len(), 2, "Should return only open-source plugins");
+        let slugs: Vec<&str> = results.iter().map(|p| p.slug.as_str()).collect();
+        assert!(slugs.contains(&"surge-xt"));
+        assert!(slugs.contains(&"dragonfly-reverb"));
+
+        // Filter by "wavetable" tag — should return Surge XT and Vital.
+        let results = search(&registry, "", None, None, Some("wavetable"));
+        assert_eq!(results.len(), 2, "Should return only wavetable plugins");
+
+        // Tag filter is case-insensitive.
+        let results = search(&registry, "", None, None, Some("Open-Source"));
+        assert_eq!(
+            results.len(),
+            2,
+            "Tag filter should be case-insensitive"
+        );
+
+        // Tag filter combined with query.
+        let results = search(&registry, "surge", None, None, Some("wavetable"));
+        assert_eq!(results.len(), 1, "Should match query AND tag");
+        assert_eq!(results[0].slug, "surge-xt");
+
+        // Non-existent tag returns nothing.
+        let results = search(&registry, "", None, None, Some("nonexistent"));
+        assert!(results.is_empty(), "Unknown tag should match nothing");
     }
 }

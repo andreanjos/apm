@@ -33,6 +33,7 @@ pub async fn run(
     vendor: Option<&str>,
     paid_only: bool,
     free_only: bool,
+    tag: Option<&str>,
     limit: Option<usize>,
     json: bool,
 ) -> Result<()> {
@@ -51,7 +52,7 @@ pub async fn run(
         return Ok(());
     }
 
-    let results: Vec<_> = search::search(&registry, query, category, vendor)
+    let results: Vec<_> = search::search(&registry, query, category, vendor, tag)
         .into_iter()
         .filter(|plugin| {
             if paid_only && !plugin.is_paid {
@@ -77,6 +78,9 @@ pub async fn run(
         }
         if let Some(v) = vendor {
             filter_msg.push_str(&format!(" by vendor \"{v}\""));
+        }
+        if let Some(t) = tag {
+            filter_msg.push_str(&format!(" tagged \"{t}\""));
         }
         if query.is_empty() {
             println!("No plugins found{filter_msg}.");
@@ -229,6 +233,9 @@ pub async fn run(
     }
     if let Some(v) = vendor {
         footer.push_str(&format!(" by vendor \"{v}\""));
+    }
+    if let Some(t) = tag {
+        footer.push_str(&format!(" tagged \"{t}\""));
     }
 
     // If limit truncated results, note how many are shown.
