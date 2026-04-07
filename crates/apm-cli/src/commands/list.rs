@@ -1,14 +1,12 @@
-use anyhow::Result;
+use anyhow::{bail, Result};
 use colored::Colorize;
 use serde::Serialize;
 
 use apm_core::{
     config::Config,
     state::{InstallState, InstalledPlugin},
-    Registry,
 };
 
-use crate::license_cache::LicenseCache;
 use crate::utils::display_path;
 
 #[derive(Serialize)]
@@ -17,50 +15,85 @@ struct InstalledPluginJson {
     version: String,
     formats: Vec<String>,
     paths: Vec<String>,
-    license_status: String,
 }
 
-pub async fn run(config: &Config, json: bool) -> Result<()> {
+pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) -> Result<()> {
+    // Validate the sort parameter up front.
+    match sort {
+        "name" | "version" | "date" => {}
+        other => bail!(
+            "Unknown sort key '{other}'. Valid values are: name, version, date.\n\
+             Hint: Use `--sort name`, `--sort version`, or `--sort date`."
+        ),
+    }
+
+    // Validate the format parameter up front.
+    if let Some(f) = format {
+        match f {
+            "au" | "vst3" => {}
+            other => bail!(
+                "Unknown format '{other}'. Valid values are: au, vst3.\n\
+                 Hint: Use `--format au` or `--format vst3`, or omit the flag to show all."
+            ),
+        }
+    }
+
     let state = InstallState::load(config)?;
 
-    if state.plugins.is_empty() {
+    // Filter by format if requested.
+    let mut plugins: Vec<&InstalledPlugin> = state
+        .plugins
+        .iter()
+        .filter(|plugin| match format {
+            Some("au") => plugin
+                .formats
+                .iter()
+                .any(|f| f.format.to_string().eq_ignore_ascii_case("au")),
+            Some("vst3") => plugin
+                .formats
+                .iter()
+                .any(|f| f.format.to_string().eq_ignore_ascii_case("vst3")),
+            _ => true,
+        })
+        .collect();
+
+    // Sort.
+    match sort {
+        "name" => plugins.sort_by(|a, b| a.name.to_lowercase().cmp(&b.name.to_lowercase())),
+        "version" => plugins.sort_by(|a, b| a.version.cmp(&b.version)),
+        "date" => plugins.sort_by(|a, b| b.installed_at.cmp(&a.installed_at)),
+        _ => unreachable!(),
+    }
+
+    if plugins.is_empty() {
         if json {
             println!("[]");
+        } else if format.is_some() {
+            println!("No plugins installed matching the specified format.");
         } else {
             println!("No plugins installed via apm. Use 'apm install <plugin>' to get started.");
         }
         return Ok(());
     }
 
-    let registry = Registry::load_all_sources(config).ok();
-    let cache = if config.license_cache_db_path().exists() {
-        Some(LicenseCache::open(config)?)
-    } else {
-        None
-    };
-
     if json {
-        let results: Vec<InstalledPluginJson> = state
-            .plugins
+        let results: Vec<InstalledPluginJson> = plugins
             .iter()
-            .map(|plugin| {
-                Ok(InstalledPluginJson {
-                    name: plugin.name.clone(),
-                    version: plugin.version.clone(),
-                    formats: plugin
-                        .formats
-                        .iter()
-                        .map(|f| f.format.to_string())
-                        .collect(),
-                    paths: plugin
-                        .formats
-                        .iter()
-                        .map(|f| f.path.to_string_lossy().into_owned())
-                        .collect(),
-                    license_status: license_annotation(plugin, registry.as_ref(), cache.as_ref())?,
-                })
+            .map(|plugin| InstalledPluginJson {
+                name: plugin.name.clone(),
+                version: plugin.version.clone(),
+                formats: plugin
+                    .formats
+                    .iter()
+                    .map(|f| f.format.to_string())
+                    .collect(),
+                paths: plugin
+                    .formats
+                    .iter()
+                    .map(|f| f.path.to_string_lossy().into_owned())
+                    .collect(),
             })
-            .collect::<Result<_>>()?;
+            .collect();
         println!("{}", serde_json::to_string_pretty(&results)?);
         return Ok(());
     }
@@ -68,59 +101,45 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     const HDR_NAME: &str = "Name";
     const HDR_VER: &str = "Version";
     const HDR_FMT: &str = "Format";
-    const HDR_LICENSE: &str = "License";
     const HDR_PATH: &str = "Path";
 
-    let rows: Vec<_> = state
-        .plugins
+    let rows: Vec<_> = plugins
         .iter()
-        .map(|plugin| {
-            Ok((
-                plugin,
-                format_label(plugin),
-                license_annotation(plugin, registry.as_ref(), cache.as_ref())?,
-            ))
-        })
-        .collect::<Result<_>>()?;
+        .map(|plugin| (*plugin, format_label(plugin)))
+        .collect();
 
     let w_name = rows
         .iter()
-        .map(|(plugin, _, _)| plugin.name.len())
+        .map(|(plugin, _)| plugin.name.len())
         .max()
         .unwrap_or(0)
         .max(HDR_NAME.len());
     let w_ver = rows
         .iter()
-        .map(|(plugin, _, _)| plugin.version.len())
+        .map(|(plugin, _)| plugin.version.len())
         .max()
         .unwrap_or(0)
         .max(HDR_VER.len());
     let w_fmt = rows
         .iter()
-        .map(|(_, format, _)| format.len())
+        .map(|(_, format)| format.len())
         .max()
         .unwrap_or(0)
         .max(HDR_FMT.len());
-    let w_license = rows
-        .iter()
-        .map(|(_, _, license)| license.len())
-        .max()
-        .unwrap_or(0)
-        .max(HDR_LICENSE.len());
 
     println!(
         "{}",
         format!(
-            "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {:<w_license$}  {}",
-            HDR_NAME, HDR_VER, HDR_FMT, HDR_LICENSE, HDR_PATH,
+            "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {}",
+            HDR_NAME, HDR_VER, HDR_FMT, HDR_PATH,
         )
         .bold()
     );
 
-    let rule_len = w_name + 2 + w_ver + 2 + w_fmt + 2 + w_license + 2 + HDR_PATH.len();
+    let rule_len = w_name + 2 + w_ver + 2 + w_fmt + 2 + HDR_PATH.len();
     println!("{}", "\u{2500}".repeat(rule_len).dimmed());
 
-    for (plugin, fmt_label, license) in &rows {
+    for (plugin, fmt_label) in &rows {
         let path_str = plugin
             .formats
             .first()
@@ -129,11 +148,10 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
             .unwrap_or_default();
 
         println!(
-            "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {:<w_license$}  {}",
+            "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {}",
             plugin.name.bold().to_string(),
             plugin.version.cyan().to_string(),
             fmt_label,
-            human_license_label(license),
             path_str.dimmed(),
         );
     }
@@ -143,54 +161,13 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
         "{}",
         format!(
             "{} plugin{} managed by apm.",
-            state.plugins.len(),
-            if state.plugins.len() == 1 { "" } else { "s" }
+            plugins.len(),
+            if plugins.len() == 1 { "" } else { "s" }
         )
         .dimmed()
     );
 
     Ok(())
-}
-
-fn license_annotation(
-    plugin: &InstalledPlugin,
-    registry: Option<&Registry>,
-    cache: Option<&LicenseCache>,
-) -> Result<String> {
-    let cached_status = match cache {
-        Some(cache) => cache
-            .load_license(&plugin.name)?
-            .map(|license| license.status),
-        None => None,
-    };
-
-    let is_paid = registry
-        .and_then(|registry| registry.find(&plugin.name))
-        .map(|plugin| plugin.is_paid)
-        .unwrap_or(cached_status.is_some());
-
-    if !is_paid {
-        return Ok("free".to_string());
-    }
-
-    Ok(match cached_status.as_deref() {
-        Some("active") => "licensed".to_string(),
-        Some("refunded") => "refunded".to_string(),
-        Some("revoked") => "revoked".to_string(),
-        Some(other) => other.to_string(),
-        None => "no_license".to_string(),
-    })
-}
-
-fn human_license_label(status: &str) -> String {
-    match status {
-        "free" => "free".dimmed().to_string(),
-        "licensed" => "licensed".green().to_string(),
-        "refunded" => "refunded".yellow().to_string(),
-        "revoked" => "revoked".red().to_string(),
-        "no_license" => "no_license".red().to_string(),
-        other => other.to_string(),
-    }
 }
 
 fn format_label(plugin: &InstalledPlugin) -> String {
@@ -203,4 +180,3 @@ fn format_label(plugin: &InstalledPlugin) -> String {
     parts.dedup();
     parts.join("+")
 }
-

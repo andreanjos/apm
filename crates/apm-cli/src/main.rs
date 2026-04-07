@@ -50,14 +50,30 @@ enum Commands {
     /// Walks both system (/Library/Audio/Plug-Ins/) and user
     /// (~/Library/Audio/Plug-Ins/) directories, extracting metadata from each
     /// plugin bundle's Info.plist. Shows both apm-managed and unmanaged plugins.
-    Scan,
+    Scan {
+        /// Show only plugins managed by apm.
+        #[arg(long, conflicts_with = "unmanaged")]
+        managed: bool,
+
+        /// Show only plugins NOT managed by apm (third-party installs).
+        #[arg(long, conflicts_with = "managed")]
+        unmanaged: bool,
+    },
 
     /// List all plugins installed by apm.
     ///
     /// Shows name, version, format, and install path for every plugin tracked
     /// in the local state file (~/.local/share/apm/state.toml).
     #[command(alias = "ls")]
-    List,
+    List {
+        /// Filter by plugin format: "au" or "vst3".
+        #[arg(long, short = 'f')]
+        format: Option<String>,
+
+        /// Sort by: "name" (default), "version", "date".
+        #[arg(long, short = 's', default_value = "name")]
+        sort: String,
+    },
 
     /// Show detailed information about a plugin from the registry.
     ///
@@ -374,9 +390,13 @@ async fn run() -> Result<()> {
 
     // Dispatch to command handlers.
     match &cli.command {
-        Commands::Scan => commands::scan::run(&config, json).await,
+        Commands::Scan { managed, unmanaged } => {
+            commands::scan::run(&config, json, *managed, *unmanaged).await
+        }
 
-        Commands::List => commands::list::run(&config, json).await,
+        Commands::List { format, sort } => {
+            commands::list::run(&config, json, format.as_deref(), sort).await
+        }
 
         Commands::Info { name } => commands::info::run(&config, name, json).await,
 
