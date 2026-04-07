@@ -1188,6 +1188,155 @@ fn test_remove_dry_run_help_shows_flag() {
     );
 }
 
+// ── Edge cases and error paths ───────────────────────────────────────────────
+
+#[test]
+fn test_search_empty_query_lists_all() {
+    // With fixtures loaded, `apm search` with no query should list all plugins.
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+
+    let output = run_apm_with_env(&["--json", "search"], &cfg, &data, &cache);
+    assert!(
+        output.status.success(),
+        "apm search with no query should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    let value: serde_json::Value =
+        serde_json::from_str(stdout.trim()).expect("should parse as JSON");
+    let arr = value.as_array().expect("should be array");
+    assert_eq!(
+        arr.len(),
+        3,
+        "search with no query should list all 3 fixture plugins, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_info_nonexistent_plugin() {
+    // With an empty registry, info falls back to "Registry cache is empty".
+    // With a populated registry, it says "not found". Test both paths:
+    // use the fixture registry so we exercise the "not found" branch.
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+
+    let output = run_apm_with_env(&["info", "nonexistent-plugin-xyz"], &cfg, &data, &cache);
+    // The command exits 0 but prints a helpful message to stdout.
+    assert!(
+        output.status.success(),
+        "apm info should exit 0 even for unknown plugin; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("not found"),
+        "info on nonexistent plugin should say 'not found', got: {stdout}"
+    );
+}
+
+#[test]
+fn test_install_dry_run_nonexistent() {
+    // With a populated registry, install should say "not found" for an
+    // unknown slug and exit non-zero.
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+
+    let output = run_apm_with_env(
+        &["install", "nonexistent-xyz", "--dry-run"],
+        &cfg,
+        &data,
+        &cache,
+    );
+    assert!(
+        !output.status.success(),
+        "apm install --dry-run on nonexistent plugin should exit non-zero"
+    );
+
+    let stderr = String::from_utf8_lossy(&output.stderr);
+    assert!(
+        stderr.contains("not found") || stderr.contains("Not found"),
+        "error should mention 'not found', got: {stderr}"
+    );
+}
+
+#[test]
+fn test_outdated_empty_state() {
+    let output = run_apm_isolated(&["outdated"]);
+    assert!(
+        output.status.success(),
+        "apm outdated with no plugins should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("up to date")
+            || stdout.contains("No plugins")
+            || stdout.contains("no plugins"),
+        "outdated with no plugins should show 'up to date' or 'no plugins', got: {stdout}"
+    );
+}
+
+#[test]
+fn test_pin_nonexistent_plugin() {
+    let output = run_apm_isolated(&["pin", "nonexistent-xyz"]);
+    // The command exits 0 but prints a helpful message to stdout.
+    assert!(
+        output.status.success(),
+        "apm pin should exit 0 even for unknown plugin; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("not installed"),
+        "pin on nonexistent plugin should say 'not installed', got: {stdout}"
+    );
+}
+
+#[test]
+fn test_export_empty_state() {
+    let output = run_apm_isolated(&["export"]);
+    assert!(
+        output.status.success(),
+        "apm export with no plugins should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    // Even with no plugins, should produce a valid apm1:// portable string.
+    assert!(
+        stdout.trim().starts_with("apm1://"),
+        "export with no plugins should still produce a valid apm1:// string, got: {}",
+        &stdout[..stdout.len().min(80)]
+    );
+}
+
+#[test]
+fn test_import_invalid_string() {
+    let output = run_apm_isolated(&["import", "not-a-valid-apm1-string"]);
+    assert!(
+        !output.status.success(),
+        "apm import with invalid string should exit non-zero"
+    );
+
+    let stderr = String::from_utf8_lossy(&output.stderr);
+    assert!(
+        stderr.contains("apm1://") || stderr.contains("not a valid"),
+        "error should mention expected format, got: {stderr}"
+    );
+}
+
+#[test]
+fn test_doctor_runs_successfully() {
+    let output = run_apm_isolated(&["doctor"]);
+    assert!(
+        output.status.success(),
+        "apm doctor should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+}
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 /// Recursively copy a directory tree from `src` to `dst`.
