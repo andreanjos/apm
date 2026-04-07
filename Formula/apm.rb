@@ -6,7 +6,7 @@ class Apm < Formula
   on_macos do
     url "https://github.com/andreanjos/apm/releases/download/v#{version}/apm-#{version}-macos-universal.tar.gz"
     # SHA256 will be filled in after the first release build
-    sha256 "PLACEHOLDER"
+    sha256 "9e3a194a51f0eee880b1c5a2399fa295158f92cd8be66a8d11b4853df3729c64"
   end
 
   def install
