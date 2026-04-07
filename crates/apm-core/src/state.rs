@@ -61,7 +61,7 @@ pub struct InstalledPlugin {
 ///
 /// Written atomically (write to a temp file, rename into place) to prevent
 /// corruption if the process is interrupted mid-write.
-#[derive(Debug, Clone, Serialize, Deserialize, Default)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct InstallState {
     /// Schema version — increment when the format changes.
     #[serde(default = "default_schema_version")]
@@ -74,6 +74,15 @@ pub struct InstallState {
 
 fn default_schema_version() -> u32 {
     1
+}
+
+impl Default for InstallState {
+    fn default() -> Self {
+        Self {
+            version: default_schema_version(),
+            plugins: Vec::new(),
+        }
+    }
 }
 
 impl InstallState {
@@ -190,5 +199,105 @@ impl InstallState {
         } else {
             None
         }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use chrono::Utc;
+    use tempfile::TempDir;
+
+    /// Build a minimal `InstalledPlugin` for testing.
+    fn make_plugin(name: &str, version: &str) -> InstalledPlugin {
+        InstalledPlugin {
+            name: name.to_string(),
+            version: version.to_string(),
+            vendor: "TestVendor".to_string(),
+            formats: vec![],
+            installed_at: Utc::now(),
+            source: "official".to_string(),
+            pinned: false,
+        }
+    }
+
+    #[test]
+    fn test_record_install_replaces_existing() {
+        let mut state = InstallState::default();
+        state.record_install(make_plugin("reverb-pro", "1.0.0"));
+        state.record_install(make_plugin("reverb-pro", "2.0.0"));
+
+        assert_eq!(state.plugins.len(), 1, "duplicate should be replaced, not appended");
+        assert_eq!(state.plugins[0].version, "2.0.0");
+    }
+
+    #[test]
+    fn test_pin_survives_save_load() {
+        let tmp = TempDir::new().unwrap();
+        let state_path = tmp.path().join("state.toml");
+
+        let mut state = InstallState::default();
+        let mut plugin = make_plugin("compressor-x", "3.1.0");
+        plugin.pinned = true;
+        state.record_install(plugin);
+        state.save_to(&state_path).unwrap();
+
+        let loaded = InstallState::load_from(&state_path).unwrap();
+        let found = loaded.find("compressor-x").expect("plugin should exist after reload");
+        assert!(found.pinned, "pinned flag should survive save/load round-trip");
+    }
+
+    #[test]
+    fn test_remove_nonexistent_returns_none() {
+        let mut state = InstallState::default();
+        state.record_install(make_plugin("delay-unit", "1.0.0"));
+
+        let result = state.remove("i-do-not-exist");
+        assert!(result.is_none(), "removing nonexistent plugin should return None");
+        assert_eq!(state.plugins.len(), 1, "existing plugins should be untouched");
+    }
+
+    #[test]
+    fn test_find_case_insensitive() {
+        let mut state = InstallState::default();
+        state.record_install(make_plugin("tal-noisemaker", "4.0.0"));
+
+        let found = state.find("TAL-NoiseMaker");
+        assert!(found.is_some(), "find should be case-insensitive");
+        assert_eq!(found.unwrap().name, "tal-noisemaker");
+    }
+
+    #[test]
+    fn test_empty_state_load_from_missing_file() {
+        let tmp = TempDir::new().unwrap();
+        let missing = tmp.path().join("does-not-exist.toml");
+
+        let state = InstallState::load_from(&missing).unwrap();
+        assert!(state.plugins.is_empty(), "loading missing file should yield empty state");
+        assert_eq!(state.version, 1, "default schema version should be 1");
+    }
+
+    #[test]
+    fn test_save_atomic_creates_parent_dirs() {
+        let tmp = TempDir::new().unwrap();
+        let nested_path = tmp.path().join("a").join("b").join("c").join("state.toml");
+
+        let state = InstallState::default();
+        state.save_to(&nested_path).unwrap();
+
+        assert!(nested_path.exists(), "state file should exist after save");
+        let loaded = InstallState::load_from(&nested_path).unwrap();
+        assert!(loaded.plugins.is_empty());
+    }
+
+    #[test]
+    fn test_plugins_sorted_after_record() {
+        let mut state = InstallState::default();
+        state.record_install(make_plugin("zebra-synth", "1.0.0"));
+        state.record_install(make_plugin("analog-lab", "2.0.0"));
+        state.record_install(make_plugin("massive-x", "1.5.0"));
+
+        let names: Vec<&str> = state.plugins.iter().map(|p| p.name.as_str()).collect();
+        assert_eq!(names, vec!["analog-lab", "massive-x", "zebra-synth"]);
     }
 }
