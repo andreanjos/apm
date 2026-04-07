@@ -315,6 +315,16 @@ enum Commands {
         available: bool,
     },
 
+    /// Show why/how a plugin was installed by apm.
+    ///
+    /// Displays install date, version, registry source, pinned status, and
+    /// installed format paths. Useful for auditing how a plugin ended up on
+    /// your system.
+    Why {
+        /// Plugin name or slug to look up (e.g. "tal-noisemaker").
+        name: String,
+    },
+
     /// Restore a plugin to its most recent local backed-up version.
     ///
     /// Backups are created automatically before each `apm upgrade`.
@@ -329,6 +339,14 @@ enum Commands {
         #[arg(long, short = 'l')]
         list: bool,
     },
+
+    /// Show a quick summary of your apm environment.
+    ///
+    /// Displays installed plugin count (with AU/VST3 breakdown), available
+    /// plugins in the registry, pinned count, configured sources, download
+    /// cache size, and last sync time.
+    #[command(alias = "st")]
+    Stats,
 
 }
 
@@ -513,9 +531,13 @@ async fn run() -> Result<()> {
 
         Commands::Count { available } => commands::count::run(&config, json, *available).await,
 
+        Commands::Why { name } => commands::why::run(&config, name, json).await,
+
         Commands::Rollback { plugin, list } => {
             commands::rollback::run(&config, plugin.as_deref(), *list, json).await
         }
+
+        Commands::Stats => commands::stats::run(&config, json).await,
 
     }
 }
