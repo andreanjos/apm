@@ -423,6 +423,20 @@ enum Commands {
         limit: Option<usize>,
     },
 
+    /// List all unique tags across the registry with occurrence counts.
+    ///
+    /// Collects every tag from every plugin definition, counts how often each
+    /// appears, and displays the top 50 in a compact word-cloud layout sorted
+    /// by frequency. Use --json to get the full list.
+    Tags,
+
+    /// List all plugin vendors in the registry with plugin counts.
+    ///
+    /// Shows every vendor that has at least one plugin in the synced registry,
+    /// sorted by number of plugins (most first). Useful for discovering who
+    /// publishes the most free audio plugins.
+    Vendors,
+
     /// Print the apm version.
     #[command(alias = "v")]
     Version,
@@ -659,6 +673,8 @@ async fn run() -> Result<()> {
         Commands::Stats => commands::stats::run(&config, json).await,
 
         Commands::History { limit } => commands::history::run(&config, *limit, json).await,
+
+        Commands::Vendors => commands::vendors::run(&config, json).await,
 
         Commands::Version => {
             let version = env!("CARGO_PKG_VERSION");

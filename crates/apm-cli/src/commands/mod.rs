@@ -1,4 +1,5 @@
 pub mod bundles;
+pub mod categories;
 pub mod check;
 pub mod cleanup;
 pub mod completions;
@@ -24,5 +25,7 @@ pub mod size;
 pub mod sources;
 pub mod stats;
 pub mod sync_cmd;
+pub mod tags;
 pub mod upgrade;
+pub mod vendors;
 pub mod why;
