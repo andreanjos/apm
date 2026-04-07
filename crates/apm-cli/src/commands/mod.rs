@@ -26,6 +26,7 @@ pub mod sources;
 pub mod stats;
 pub mod sync_cmd;
 pub mod tags;
+pub mod uninstalled;
 pub mod upgrade;
 pub mod vendors;
 pub mod why;

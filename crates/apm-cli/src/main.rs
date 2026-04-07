@@ -453,6 +453,22 @@ enum Commands {
     /// publishes the most free audio plugins.
     Vendors,
 
+    /// List registry plugins that are NOT currently installed.
+    ///
+    /// The inverse of `apm list` -- shows what's available to install.
+    /// Useful for discovering new plugins. Optionally filter by category
+    /// or limit the number of results shown.
+    #[command(alias = "available")]
+    Uninstalled {
+        /// Filter by category (e.g. "instrument", "effect", "reverb").
+        #[arg(long, short = 'c')]
+        category: Option<String>,
+
+        /// Maximum number of results to show.
+        #[arg(long, short = 'l')]
+        limit: Option<usize>,
+    },
+
     /// Print the apm version.
     #[command(alias = "v")]
     Version,
@@ -697,6 +713,10 @@ async fn run() -> Result<()> {
         Commands::Tags => commands::tags::run(&config, json).await,
 
         Commands::Vendors => commands::vendors::run(&config, json).await,
+
+        Commands::Uninstalled { category, limit } => {
+            commands::uninstalled::run(&config, category.as_deref(), *limit, json).await
+        }
 
         Commands::Version => {
             let version = env!("CARGO_PKG_VERSION");
