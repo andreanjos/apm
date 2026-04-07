@@ -2,11 +2,8 @@ use std::net::SocketAddr;
 
 use anyhow::Context;
 use apm_server::{
-    auth::AuthConfig,
     db,
-    license::LicenseConfig,
     routes::{self, AppState},
-    stripe::StripeConfig,
 };
 use axum::serve;
 use tokio::net::TcpListener;
@@ -21,9 +18,6 @@ async fn main() -> anyhow::Result<()> {
 
     let pool = db::create_pool().await?;
     sqlx::migrate!("../../migrations").run(&pool).await?;
-    let auth = AuthConfig::from_env()?;
-    let stripe = StripeConfig::from_env();
-    let license = LicenseConfig::from_env()?;
 
     let bind_addr = std::env::var("APM_SERVER_BIND_ADDR")
         .unwrap_or_else(|_| "127.0.0.1:3000".to_string())
@@ -37,9 +31,6 @@ async fn main() -> anyhow::Result<()> {
         listener,
         routes::router(AppState {
             pool,
-            auth,
-            stripe,
-            license,
         }),
     )
     .await?;
