@@ -4,6 +4,7 @@ pub mod buy;
 pub mod cleanup;
 pub mod compare;
 pub mod completions;
+pub mod count;
 pub mod doctor;
 pub mod explore;
 pub mod export_cmd;

@@ -303,6 +303,18 @@ enum Commands {
         name: Option<String>,
     },
 
+    /// Print plugin counts (for scripting and shell prompts).
+    ///
+    /// With no flags, prints the number of installed plugins as a plain integer.
+    /// With --available, prints the number of plugins in the registry.
+    /// With --json, outputs both counts as a JSON object.
+    #[command(alias = "c")]
+    Count {
+        /// Show available plugins in registry instead of installed.
+        #[arg(long)]
+        available: bool,
+    },
+
     /// Restore a plugin to its most recent local backed-up version.
     ///
     /// Backups are created automatically before each `apm upgrade`.
@@ -498,6 +510,8 @@ async fn run() -> Result<()> {
         Commands::Cleanup { dry_run } => commands::cleanup::run(&config, *dry_run, json).await,
 
         Commands::Bundles { name } => commands::bundles::run(&config, name.as_deref(), json).await,
+
+        Commands::Count { available } => commands::count::run(&config, json, *available).await,
 
         Commands::Rollback { plugin, list } => {
             commands::rollback::run(&config, plugin.as_deref(), *list, json).await
