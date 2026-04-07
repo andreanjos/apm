@@ -84,6 +84,25 @@ apm pin vital --unpin   # Unpin
 apm pin --list          # List pinned plugins
 ```
 
+### Portable setup
+
+Export your entire setup as a shareable string — paste it in Slack, a README,
+or a terminal on another machine:
+
+```sh
+apm export                          # Outputs apm1://... string to stdout
+apm export -o setup.apmsetup        # Save to file instead
+
+apm import apm1://dGFsLW5v...       # Import from string (preview + confirm)
+apm import setup.apmsetup            # Import from file
+apm import --dry-run apm1://...      # Preview what would change
+apm import --yes apm1://...          # Skip confirmation (for scripts)
+```
+
+The string encodes your installed plugins, versions, pins, registry sources,
+and preferences. Legacy formats still work: `apm export --format toml` and
+`apm import list.json`.
+
 ### System and diagnostics
 
 ```sh
@@ -92,8 +111,6 @@ apm scan                # All AU/VST3 on the system
 apm doctor              # Run diagnostic checks
 apm cleanup             # Clear download cache
 apm rollback <slug>     # Restore from pre-upgrade backup
-apm export > list.toml  # Export installed plugins
-apm import list.toml    # Import and install from a list
 ```
 
 ### Registry sources
