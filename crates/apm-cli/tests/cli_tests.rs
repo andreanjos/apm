@@ -1337,6 +1337,156 @@ fn test_doctor_runs_successfully() {
     );
 }
 
+// ── Discovery and utility commands ──────────────────────────────────────────
+
+#[test]
+fn test_stats_runs_successfully() {
+    let output = run_apm_isolated(&["stats"]);
+    assert!(
+        output.status.success(),
+        "apm stats should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+}
+
+#[test]
+fn test_stats_json_output() {
+    let output = run_apm_isolated(&["--json", "stats"]);
+    assert!(
+        output.status.success(),
+        "apm --json stats should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    let value: serde_json::Value =
+        serde_json::from_str(stdout.trim()).expect("should parse as valid JSON");
+    let obj = value.as_object().expect("stats JSON should be an object");
+
+    for key in &["installed", "available", "pinned", "sources", "cache_bytes"] {
+        assert!(
+            obj.contains_key(*key),
+            "stats JSON should contain '{key}', got keys: {:?}",
+            obj.keys().collect::<Vec<_>>()
+        );
+    }
+}
+
+#[test]
+fn test_vendors_runs_successfully() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+
+    let output = run_apm_with_env(&["vendors"], &cfg, &data, &cache);
+    assert!(
+        output.status.success(),
+        "apm vendors should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+}
+
+#[test]
+fn test_categories_runs_successfully() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+
+    let output = run_apm_with_env(&["categories"], &cfg, &data, &cache);
+    assert!(
+        output.status.success(),
+        "apm categories should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+}
+
+#[test]
+fn test_tags_runs_successfully() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+
+    let output = run_apm_with_env(&["tags"], &cfg, &data, &cache);
+    assert!(
+        output.status.success(),
+        "apm tags should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+}
+
+#[test]
+fn test_diff_empty_state() {
+    let output = run_apm_isolated(&["diff"]);
+    assert!(
+        output.status.success(),
+        "apm diff with no installed plugins should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+}
+
+#[test]
+fn test_history_empty_state() {
+    let output = run_apm_isolated(&["history"]);
+    assert!(
+        output.status.success(),
+        "apm history with no installed plugins should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+}
+
+#[test]
+fn test_count_installed() {
+    let output = run_apm_isolated(&["count"]);
+    assert!(
+        output.status.success(),
+        "apm count should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert_eq!(
+        stdout.trim(),
+        "0",
+        "apm count with no installed plugins should output '0', got: {stdout}"
+    );
+}
+
+#[test]
+fn test_count_available_json() {
+    let output = run_apm_isolated(&["--json", "count", "--available"]);
+    assert!(
+        output.status.success(),
+        "apm --json count --available should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    let value: serde_json::Value =
+        serde_json::from_str(stdout.trim()).expect("should parse as valid JSON");
+    let obj = value.as_object().expect("count JSON should be an object");
+
+    assert!(
+        obj.contains_key("installed"),
+        "count JSON should contain 'installed', got keys: {:?}",
+        obj.keys().collect::<Vec<_>>()
+    );
+    assert!(
+        obj.contains_key("available"),
+        "count JSON should contain 'available', got keys: {:?}",
+        obj.keys().collect::<Vec<_>>()
+    );
+}
+
+#[test]
+fn test_version_subcommand() {
+    let output = run_apm_isolated(&["version"]);
+    assert!(
+        output.status.success(),
+        "apm version should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("apm") && stdout.chars().any(|c| c.is_ascii_digit()),
+        "apm version should output a version string containing 'apm' and a number, got: {stdout}"
+    );
+}
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 /// Recursively copy a directory tree from `src` to `dst`.
