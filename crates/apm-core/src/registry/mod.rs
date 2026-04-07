@@ -105,13 +105,30 @@ impl Registry {
 
         for source in &sources {
             let source_cache = config.registries_cache_dir().join(&source.name);
+
+            // For local filesystem sources, load directly from the path if the
+            // cache symlink hasn't been created yet (allows `apm install` to
+            // work without requiring `apm sync` first).
+            let effective_path = if source_cache.exists() {
+                source_cache.clone()
+            } else if let Some(local) = sync::local_path(&source.url) {
+                debug!(
+                    "Loading source '{}' directly from local path {}",
+                    source.name,
+                    local.display()
+                );
+                local
+            } else {
+                source_cache.clone()
+            };
+
             debug!(
                 "Loading source '{}' from {}",
                 source.name,
-                source_cache.display()
+                effective_path.display()
             );
 
-            match Self::load_from_cache(&source_cache) {
+            match Self::load_from_cache(&effective_path) {
                 Ok(mut registry) => {
                     for plugin in registry.plugins.values_mut() {
                         plugin.source_name = Some(source.name.clone());
