@@ -240,17 +240,22 @@ enum Commands {
         format: String,
     },
 
-    /// Install plugins from an exported plugin list file.
+    /// Import a plugin setup from a portable string or file.
     ///
-    /// Reads a TOML or JSON file produced by `apm export`, looks up each
-    /// plugin in the registry, and installs any that are not already present.
+    /// Accepts an `apm1://` portable string directly, a path to an `.apmsetup`
+    /// file containing such a string, or a legacy TOML/JSON export file.
+    /// Shows a preview of changes before proceeding.
     Import {
-        /// Path to the export file to read (TOML or JSON).
-        file: PathBuf,
+        /// Portable setup string (apm1://...) or path to export file.
+        input: String,
 
-        /// Preview what would be installed without making any changes.
+        /// Preview what would change without making any modifications.
         #[arg(long)]
         dry_run: bool,
+
+        /// Skip confirmation prompt (for scripting/automation).
+        #[arg(long)]
+        yes: bool,
     },
 
     /// Clean up the download cache.
@@ -550,8 +555,8 @@ async fn run() -> Result<()> {
             commands::export_cmd::run(&config, output.as_ref(), format).await
         }
 
-        Commands::Import { file, dry_run } => {
-            commands::import_cmd::run(&config, file, *dry_run).await
+        Commands::Import { input, dry_run, yes } => {
+            commands::import_cmd::run(&config, input, *dry_run, *yes).await
         }
 
         Commands::Cleanup { dry_run } => commands::cleanup::run(&config, *dry_run).await,
