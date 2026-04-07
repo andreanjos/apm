@@ -3,6 +3,7 @@
 //
 // Supports batch installs: `apm install vital surge-xt dexed`
 
+use std::io::Read as _;
 use std::path::Path;
 
 use anyhow::Result;
@@ -17,6 +18,7 @@ use apm_core::state::InstallState;
 pub async fn run(
     config: &Config,
     plugins: &[String],
+    stdin: bool,
     version: Option<&str>,
     format: Option<PluginFormat>,
     scope: Option<InstallScope>,
@@ -24,6 +26,27 @@ pub async fn run(
     dry_run: bool,
     bundle: Option<&str>,
 ) -> Result<()> {
+    // ── Resolve plugin list (--stdin or positional args) ─────────────────────
+
+    let stdin_plugins;
+    let plugins = if stdin {
+        let mut input = String::new();
+        std::io::stdin().read_to_string(&mut input)?;
+        stdin_plugins = input
+            .split_whitespace()
+            .map(String::from)
+            .collect::<Vec<_>>();
+        if stdin_plugins.is_empty() {
+            anyhow::bail!(
+                "No plugin names received from stdin.\n\
+                 Hint: Pipe plugin names (space or newline separated) into `apm install --stdin`."
+            );
+        }
+        stdin_plugins.as_slice()
+    } else {
+        plugins
+    };
+
     // ── Validate --from-file with multiple plugins ────────────────────────────
 
     if from_file.is_some() && plugins.len() > 1 {
@@ -99,6 +122,7 @@ pub async fn run(
         return Box::pin(run(
             config,
             &bundle_plugins,
+            false,
             None,
             format,
             scope,

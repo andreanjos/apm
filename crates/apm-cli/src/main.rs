@@ -25,6 +25,7 @@ use apm_core::config::InstallScope;
     about = "Audio Plugin Manager — apt-style management for macOS AU and VST3 plugins",
     long_about = None,
     propagate_version = true,
+    after_help = "Quick start:\n  apm sync          Pull latest plugin registry\n  apm search synth  Search for plugins\n  apm install <id>  Install a plugin\n  apm list          See installed plugins"
 )]
 struct Cli {
     #[command(subcommand)]
@@ -83,6 +84,10 @@ enum Commands {
     Info {
         /// Plugin name or slug to look up (e.g. "tal-noisemaker").
         name: String,
+
+        /// Show all available versions for this plugin.
+        #[arg(long)]
+        versions: bool,
     },
 
     /// Search the registry for plugins matching a query.
@@ -122,6 +127,10 @@ enum Commands {
         /// Show only installed plugins in results.
         #[arg(long)]
         installed: bool,
+
+        /// Show only plugins not currently installed.
+        #[arg(long, conflicts_with = "installed")]
+        new: bool,
     },
 
     /// Sync the local registry cache from the configured Git remote.
@@ -146,8 +155,16 @@ enum Commands {
     #[command(alias = "i", disable_version_flag = true)]
     Install {
         /// Plugin name(s) or slug(s) to install (e.g. "tal-noisemaker").
-        #[arg(required_unless_present = "from_file")]
+        #[arg(required_unless_present_any = ["from_file", "stdin"])]
         plugins: Vec<String>,
+
+        /// Read plugin names from stdin (one per line or space-separated).
+        ///
+        /// Enables piping workflows like:
+        ///   apm search --free --json | jq '.[].slug' -r | apm install --stdin
+        ///   echo "vital surge-xt dexed" | apm install --stdin
+        #[arg(long)]
+        stdin: bool,
 
         /// Install a specific registry version instead of the latest release.
         #[arg(long = "version", value_name = "VERSION")]
@@ -572,7 +589,9 @@ async fn run() -> Result<()> {
             commands::list::run(&config, json, format.as_deref(), sort).await
         }
 
-        Commands::Info { name } => commands::info::run(&config, name, json).await,
+        Commands::Info { name, versions } => {
+            commands::info::run(&config, name, json, *versions).await
+        }
 
         Commands::Search {
             query,
@@ -583,6 +602,7 @@ async fn run() -> Result<()> {
             tag,
             limit,
             installed,
+            new,
         } => {
             let q = query.as_deref().unwrap_or("");
             commands::search::run(
@@ -595,6 +615,7 @@ async fn run() -> Result<()> {
                 tag.as_deref(),
                 *limit,
                 *installed,
+                *new,
                 json,
             )
             .await
@@ -604,6 +625,7 @@ async fn run() -> Result<()> {
 
         Commands::Install {
             plugins,
+            stdin,
             install_version,
             format,
             system,
@@ -631,6 +653,7 @@ async fn run() -> Result<()> {
             commands::install::run(
                 &config,
                 plugins,
+                *stdin,
                 install_version.as_deref(),
                 plugin_format,
                 scope,
