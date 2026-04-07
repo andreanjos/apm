@@ -34,6 +34,10 @@ struct Cli {
     #[arg(long, short = 'v', global = true)]
     verbose: bool,
 
+    /// Suppress non-error output (for scripting).
+    #[arg(long, short = 'q', global = true)]
+    quiet: bool,
+
     /// Output results as JSON instead of human-readable tables.
     #[arg(long, global = true)]
     json: bool,
@@ -344,9 +348,13 @@ async fn main() {
 async fn run() -> Result<()> {
     let cli = Cli::parse();
 
-    // Initialise tracing. --verbose sets the level to debug for the apm crate;
-    // otherwise fall back to RUST_LOG, then to warn.
-    let env_filter = if cli.verbose {
+    // Initialise tracing.
+    // --quiet (when not combined with --json) suppresses everything below error.
+    // --verbose sets the level to debug for the apm crate.
+    // Otherwise fall back to RUST_LOG, then to warn.
+    let env_filter = if cli.quiet && !cli.json {
+        EnvFilter::new("error")
+    } else if cli.verbose {
         EnvFilter::new("apm=debug")
     } else {
         EnvFilter::try_from_default_env().unwrap_or_else(|_| EnvFilter::new("warn"))
@@ -362,6 +370,7 @@ async fn run() -> Result<()> {
     let config = apm_core::config::init()?;
 
     let json = cli.json;
+    let quiet = cli.quiet;
 
     // Dispatch to command handlers.
     match &cli.command {
@@ -391,7 +400,7 @@ async fn run() -> Result<()> {
             .await
         }
 
-        Commands::Sync => commands::sync_cmd::run(&config).await,
+        Commands::Sync => commands::sync_cmd::run(&config, json, quiet).await,
 
         Commands::Install {
             plugins,
@@ -468,7 +477,7 @@ async fn run() -> Result<()> {
 
         Commands::Cleanup { dry_run } => commands::cleanup::run(&config, *dry_run, json).await,
 
-        Commands::Bundles { name } => commands::bundles::run(&config, name.as_deref()).await,
+        Commands::Bundles { name } => commands::bundles::run(&config, name.as_deref(), json).await,
 
         Commands::Rollback { plugin, list } => {
             commands::rollback::run(&config, plugin.as_deref(), *list, json).await
