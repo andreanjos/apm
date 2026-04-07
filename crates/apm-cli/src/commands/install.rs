@@ -114,7 +114,7 @@ pub async fn run(
     if plugins.len() == 1 {
         let name = &plugins[0];
         return run_single(
-            config, name, version, &registry, format, scope, from_file, dry_run,
+            config, name, version, &registry, format, scope, from_file, dry_run, None,
         )
         .await;
     }
@@ -124,8 +124,22 @@ pub async fn run(
     let mut succeeded: Vec<String> = Vec::new();
     let mut failed: Vec<(String, String)> = Vec::new(); // (name, reason)
 
-    for name in plugins {
-        match run_single(config, name, None, &registry, format, scope, None, dry_run).await {
+    let total = plugins.len();
+    for (i, name) in plugins.iter().enumerate() {
+        let batch_prefix = format!("[{}/{}] ", i + 1, total);
+        match run_single(
+            config,
+            name,
+            None,
+            &registry,
+            format,
+            scope,
+            None,
+            dry_run,
+            Some(&batch_prefix),
+        )
+        .await
+        {
             Ok(()) => {
                 succeeded.push(name.clone());
             }
@@ -144,13 +158,15 @@ pub async fn run(
         return Ok(());
     }
 
-    let total = plugins.len();
     let n_ok = succeeded.len();
     let n_fail = failed.len();
 
     println!();
     if n_fail == 0 {
-        println!("{}", format!("Installed {n_ok}/{total} plugins.").green());
+        println!(
+            "{}",
+            format!("Installed {n_ok}/{total} plugins successfully.").green()
+        );
     } else {
         let failed_names: Vec<String> = failed
             .iter()
@@ -186,6 +202,7 @@ async fn run_single(
     scope: Option<InstallScope>,
     from_file: Option<&Path>,
     dry_run: bool,
+    batch_prefix: Option<&str>,
 ) -> Result<()> {
     // ── Look up the plugin ────────────────────────────────────────────────────
 
@@ -377,9 +394,11 @@ async fn run_single(
 
     // ── Show install plan ─────────────────────────────────────────────────────
 
+    let prefix = batch_prefix.unwrap_or("");
+
     if let Some(path) = from_file {
         println!(
-            "Installing {} v{} ({}) from file {}...",
+            "{prefix}Installing {} v{} ({}) from file {}...",
             plugin.name.bold(),
             selected_plugin.version.cyan(),
             formats_to_show.join(", "),
@@ -387,7 +406,7 @@ async fn run_single(
         );
     } else {
         println!(
-            "Installing {} v{} ({})...",
+            "{prefix}Installing {} v{} ({})...",
             plugin.name.bold(),
             selected_plugin.version.cyan(),
             formats_to_show.join(", ")
