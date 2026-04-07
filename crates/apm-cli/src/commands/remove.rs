@@ -2,11 +2,12 @@
 
 use anyhow::Result;
 use colored::Colorize;
+use serde_json;
 
 use apm_core::config::Config;
 use apm_core::state::InstallState;
 
-pub async fn run(config: &Config, name: &str) -> Result<()> {
+pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
     // ── Load state ────────────────────────────────────────────────────────────
 
     let mut state = InstallState::load(config)?;
@@ -16,10 +17,14 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
     let plugin = match state.find(name) {
         Some(p) => p.clone(),
         None => {
-            println!(
-                "Plugin '{}' is not installed via apm. Nothing to remove.",
-                name
-            );
+            if json {
+                println!("{{\"removed\":false,\"plugin\":{},\"reason\":\"not installed\"}}", serde_json::json!(name));
+            } else {
+                println!(
+                    "Plugin '{}' is not installed via apm. Nothing to remove.",
+                    name
+                );
+            }
             return Ok(());
         }
     };
@@ -31,11 +36,14 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
         .iter()
         .map(|f| f.format.to_string())
         .collect();
-    println!(
-        "Removing {} v{}...",
-        plugin.name.bold(),
-        plugin.version.cyan()
-    );
+
+    if !json {
+        println!(
+            "Removing {} v{}...",
+            plugin.name.bold(),
+            plugin.version.cyan()
+        );
+    }
 
     // ── Delete each bundle from disk ──────────────────────────────────────────
 
@@ -50,7 +58,7 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
                     e
                 )
             })?;
-        } else {
+        } else if !json {
             eprintln!(
                 "Warning: {} bundle not found at {} (already removed?)",
                 fmt.format,
@@ -66,16 +74,27 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
 
     // ── Success message ───────────────────────────────────────────────────────
 
-    println!(
-        "{}",
-        format!(
-            "Removed {} v{} ({})",
-            plugin.name,
-            plugin.version,
-            format_names.join(", ")
-        )
-        .green()
-    );
+    if json {
+        println!(
+            "{}",
+            serde_json::json!({
+                "removed": true,
+                "plugin": plugin.name,
+                "formats_removed": format_names,
+            })
+        );
+    } else {
+        println!(
+            "{}",
+            format!(
+                "Removed {} v{} ({})",
+                plugin.name,
+                plugin.version,
+                format_names.join(", ")
+            )
+            .green()
+        );
+    }
 
     Ok(())
 }

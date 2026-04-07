@@ -3,14 +3,19 @@
 
 use anyhow::{Context, Result};
 use colored::Colorize;
+use serde_json;
 
 use apm_core::config::Config;
 
-pub async fn run(config: &Config, dry_run: bool) -> Result<()> {
+pub async fn run(config: &Config, dry_run: bool, json: bool) -> Result<()> {
     let cache_dir = config.downloads_cache_dir();
 
     if !cache_dir.exists() {
-        println!("Downloads cache directory does not exist. Nothing to clean up.");
+        if json {
+            println!("{{\"files_removed\":0,\"bytes_freed\":0}}");
+        } else {
+            println!("Downloads cache directory does not exist. Nothing to clean up.");
+        }
         return Ok(());
     }
 
@@ -35,7 +40,11 @@ pub async fn run(config: &Config, dry_run: bool) -> Result<()> {
     let n = files.len();
 
     if n == 0 {
-        println!("Downloads cache is already empty. Nothing to clean up.");
+        if json {
+            println!("{{\"files_removed\":0,\"bytes_freed\":0}}");
+        } else {
+            println!("Downloads cache is already empty. Nothing to clean up.");
+        }
         return Ok(());
     }
 
@@ -44,20 +53,31 @@ pub async fn run(config: &Config, dry_run: bool) -> Result<()> {
     // ── Dry-run: report without deleting ─────────────────────────────────────
 
     if dry_run {
-        println!(
-            "[dry-run] Would remove {} cached download{} ({:.1} MB):",
-            n,
-            if n == 1 { "" } else { "s" },
-            total_mb
-        );
-        for path in &files {
-            let display = shorten_path(path);
-            println!("  {}", display.dimmed());
+        if json {
+            println!(
+                "{}",
+                serde_json::json!({
+                    "dry_run": true,
+                    "files_removed": n,
+                    "bytes_freed": total_bytes,
+                })
+            );
+        } else {
+            println!(
+                "[dry-run] Would remove {} cached download{} ({:.1} MB):",
+                n,
+                if n == 1 { "" } else { "s" },
+                total_mb
+            );
+            for path in &files {
+                let display = shorten_path(path);
+                println!("  {}", display.dimmed());
+            }
+            println!(
+                "\n[dry-run] Run {} to actually free the space.",
+                "apm cleanup".bold()
+            );
         }
-        println!(
-            "\n[dry-run] Run {} to actually free the space.",
-            "apm cleanup".bold()
-        );
         return Ok(());
     }
 
@@ -80,18 +100,28 @@ pub async fn run(config: &Config, dry_run: bool) -> Result<()> {
 
     // ── Summary ──────────────────────────────────────────────────────────────
 
-    let freed_mb = freed_bytes as f64 / 1_048_576.0;
+    if json {
+        println!(
+            "{}",
+            serde_json::json!({
+                "files_removed": removed,
+                "bytes_freed": freed_bytes,
+            })
+        );
+    } else {
+        let freed_mb = freed_bytes as f64 / 1_048_576.0;
 
-    println!(
-        "{}",
-        format!(
-            "Removed {} cached download{}, freed {:.1} MB.",
-            removed,
-            if removed == 1 { "" } else { "s" },
-            freed_mb
-        )
-        .green()
-    );
+        println!(
+            "{}",
+            format!(
+                "Removed {} cached download{}, freed {:.1} MB.",
+                removed,
+                if removed == 1 { "" } else { "s" },
+                freed_mb
+            )
+            .green()
+        );
+    }
 
     Ok(())
 }

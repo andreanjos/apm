@@ -1,10 +1,7 @@
-mod api;
-mod auth;
 mod backup;
 mod commands;
 mod download;
 mod install;
-mod license_cache;
 mod portable;
 pub(crate) mod utils;
 
@@ -147,9 +144,6 @@ enum Commands {
         #[arg(long, value_name = "BUNDLE")]
         bundle: Option<String>,
 
-        /// Internal-only restore path that bypasses manage-scope auth for trusted restore flows.
-        #[arg(long, hide = true)]
-        internal_restore: bool,
     },
 
     /// Remove a plugin installed by apm.
@@ -293,80 +287,6 @@ enum Commands {
         list: bool,
     },
 
-    /// Purchase a paid plugin from the apm store.
-    #[command(hide = true)]
-    Buy {
-        /// Plugin name or slug to purchase.
-        plugin: String,
-
-        /// Explicitly confirm non-interactive agent purchase mode.
-        #[arg(long)]
-        confirm: bool,
-    },
-
-    /// Request a refund for a purchased plugin or order.
-    #[command(hide = true)]
-    Refund {
-        /// Plugin slug with a local order record or a numeric order id.
-        target: String,
-    },
-
-    /// Log in to your apm account.
-    #[command(hide = true)]
-    Login {
-        /// Account email address to use for device authorization.
-        #[arg(long, env = "APM_AUTH_EMAIL")]
-        email: String,
-
-        /// Account password to approve the device flow.
-        #[arg(long, env = "APM_AUTH_PASSWORD")]
-        password: String,
-    },
-
-    /// Create an account and log in immediately.
-    #[command(hide = true)]
-    Signup {
-        /// Account email address to create.
-        #[arg(long, env = "APM_AUTH_EMAIL")]
-        email: String,
-
-        /// Account password to create and use for approval.
-        #[arg(long, env = "APM_AUTH_PASSWORD")]
-        password: String,
-    },
-
-    /// Remove all locally stored authentication credentials.
-    #[command(hide = true)]
-    Logout,
-
-    /// Manage locally stored authentication credentials.
-    #[command(subcommand, hide = true)]
-    Auth(AuthCommands),
-
-    /// List your plugin licenses.
-    #[command(hide = true)]
-    Licenses,
-
-    /// Restore previously purchased plugins on this machine.
-    #[command(hide = true)]
-    Restore,
-
-    /// Show featured plugins and staff picks.
-    #[command(hide = true)]
-    Featured,
-
-    /// Browse plugin categories and recommendations.
-    #[command(hide = true)]
-    Explore,
-
-    /// Compare two plugins side-by-side using storefront facts.
-    #[command(hide = true)]
-    Compare {
-        /// Left-hand plugin slug.
-        left: String,
-        /// Right-hand plugin slug.
-        right: String,
-    },
 }
 
 #[derive(Subcommand, Debug)]
@@ -392,26 +312,6 @@ enum SourcesCommands {
 
     /// List all configured registry sources.
     List,
-}
-
-#[derive(Subcommand, Debug)]
-enum AuthCommands {
-    /// Store a named API key locally for automation use.
-    SetApiKey {
-        name: String,
-        key: String,
-        #[arg(long = "scope")]
-        scope: Vec<String>,
-    },
-
-    /// List locally stored API keys.
-    ListApiKeys,
-
-    /// Remove a locally stored API key.
-    RemoveApiKey { name: String },
-
-    /// Resolve and verify the active auth source against apm-server.
-    Status,
 }
 
 // ── Entry Point ───────────────────────────────────────────────────────────────
@@ -490,7 +390,6 @@ async fn run() -> Result<()> {
             from_file,
             dry_run,
             bundle,
-            internal_restore,
         } => {
             let plugin_format = match format.as_deref() {
                 Some("au") => Some(apm_core::registry::PluginFormat::Au),
@@ -509,12 +408,7 @@ async fn run() -> Result<()> {
             } else {
                 None
             };
-            let authorization = if *internal_restore {
-                commands::install::InstallAuthorization::Restore
-            } else {
-                commands::install::InstallAuthorization::Standard
-            };
-            commands::install::run_with_authorization(
+            commands::install::run(
                 &config,
                 plugins,
                 install_version.as_deref(),
@@ -523,12 +417,11 @@ async fn run() -> Result<()> {
                 from_file.as_deref(),
                 *dry_run,
                 bundle.as_deref(),
-                authorization,
             )
             .await
         }
 
-        Commands::Remove { name } => commands::remove::run(&config, name).await,
+        Commands::Remove { name } => commands::remove::run(&config, name, json).await,
 
         Commands::Outdated => commands::outdated::run(&config, json).await,
 
@@ -560,7 +453,7 @@ async fn run() -> Result<()> {
             commands::import_cmd::run(&config, input, *dry_run, *yes).await
         }
 
-        Commands::Cleanup { dry_run } => commands::cleanup::run(&config, *dry_run).await,
+        Commands::Cleanup { dry_run } => commands::cleanup::run(&config, *dry_run, json).await,
 
         Commands::Bundles { name } => commands::bundles::run(&config, name.as_deref()).await,
 
@@ -568,41 +461,5 @@ async fn run() -> Result<()> {
             commands::rollback::run(&config, plugin.as_deref(), *list).await
         }
 
-        Commands::Buy { plugin, confirm } => {
-            commands::buy::run(&config, plugin, *confirm, json).await
-        }
-
-        Commands::Refund { target } => commands::refund::run(&config, target, json).await,
-
-        Commands::Login { email, password } => {
-            commands::login::run(&config, email, password, false, json).await
-        }
-
-        Commands::Signup { email, password } => {
-            commands::login::run(&config, email, password, true, json).await
-        }
-
-        Commands::Logout => commands::logout::run(json).await,
-
-        Commands::Auth(subcommand) => match subcommand {
-            AuthCommands::SetApiKey { name, key, scope } => {
-                commands::auth::run_set_api_key(name, key, scope, json).await
-            }
-            AuthCommands::ListApiKeys => commands::auth::run_list_api_keys(json).await,
-            AuthCommands::RemoveApiKey { name } => {
-                commands::auth::run_remove_api_key(name, json).await
-            }
-            AuthCommands::Status => commands::auth::run_status(json).await,
-        },
-
-        Commands::Licenses => commands::licenses::run(&config, json).await,
-
-        Commands::Restore => commands::restore::run(&config, json).await,
-
-        Commands::Featured => commands::featured::run(json).await,
-
-        Commands::Explore => commands::explore::run(json).await,
-
-        Commands::Compare { left, right } => commands::compare::run(left, right, json).await,
     }
 }

@@ -60,6 +60,15 @@ pub enum DownloadType {
     Manual,
 }
 
+impl std::fmt::Display for DownloadType {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            Self::Direct => write!(f, "direct"),
+            Self::Manual => write!(f, "manual"),
+        }
+    }
+}
+
 fn default_download_type() -> DownloadType {
     DownloadType::Direct
 }
