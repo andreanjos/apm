@@ -1,0 +1,79 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    name: Build universal binary
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust stable
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin,x86_64-apple-darwin
+
+      - name: Cache cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+          key: ${{ runner.os }}-cargo-release-${{ hashFiles('**/Cargo.lock') }}
+
+      - name: Build aarch64
+        run: cargo build --release --target aarch64-apple-darwin --bin apm
+
+      - name: Build x86_64
+        run: cargo build --release --target x86_64-apple-darwin --bin apm
+
+      - name: Create universal binary
+        run: |
+          lipo -create \
+            target/aarch64-apple-darwin/release/apm \
+            target/x86_64-apple-darwin/release/apm \
+            -output apm
+          file apm
+
+      - name: Package
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/v}
+          tar czf apm-${VERSION}-macos-universal.tar.gz apm
+          shasum -a 256 apm-${VERSION}-macos-universal.tar.gz > apm-${VERSION}-macos-universal.tar.gz.sha256
+
+      - name: Update Homebrew formula
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/v}
+          SHA256=$(shasum -a 256 apm-${VERSION}-macos-universal.tar.gz | awk '{print $1}')
+          sed -i '' "s/version \".*\"/version \"${VERSION}\"/" Formula/apm.rb
+          sed -i '' "s/sha256 \".*\"/sha256 \"${SHA256}\"/" Formula/apm.rb
+          cat Formula/apm.rb
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: |
+            apm-*-macos-universal.tar.gz
+            apm-*-macos-universal.tar.gz.sha256
+
+      - name: Commit updated formula
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout main
+          git add Formula/apm.rb
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(formula): update to v${GITHUB_REF#refs/tags/v}"
+          git push origin main
