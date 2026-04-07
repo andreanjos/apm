@@ -1,4 +1,5 @@
-// export command — serialize the installed plugin list to TOML or JSON.
+// export command — serialize the installed plugin list to a portable apm1://
+// string (default) or legacy TOML/JSON format.
 
 use std::path::PathBuf;
 
@@ -8,9 +9,11 @@ use serde::{Deserialize, Serialize};
 use apm_core::config::Config;
 use apm_core::state::InstallState;
 
-// ── Export record ─────────────────────────────────────────────────────────────
+use crate::portable;
 
-/// One entry in the exported plugin list.
+// ── Export record (legacy formats) ───────────────────────────────────────────
+
+/// One entry in the exported plugin list (used by legacy TOML/JSON paths).
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ExportedPlugin {
     pub name: String,
@@ -19,7 +22,7 @@ pub struct ExportedPlugin {
     pub source: String,
 }
 
-/// Top-level export document.
+/// Top-level export document (used by legacy TOML/JSON paths).
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ExportDocument {
     pub plugins: Vec<ExportedPlugin>,
@@ -30,6 +33,44 @@ pub struct ExportDocument {
 pub async fn run(config: &Config, output: Option<&PathBuf>, format: &str) -> Result<()> {
     let state = InstallState::load(config)?;
 
+    match format {
+        "portable" => run_portable(config, &state, output),
+        "json" => run_legacy(config, &state, output, format),
+        _ => run_legacy(config, &state, output, format), // "toml" or anything else
+    }
+}
+
+// ── Portable format (apm1://) ────────────────────────────────────────────────
+
+fn run_portable(config: &Config, state: &InstallState, output: Option<&PathBuf>) -> Result<()> {
+    let setup = portable::from_state_and_config(state, config);
+    let encoded = portable::encode(&setup)?;
+
+    match output {
+        Some(path) => {
+            std::fs::write(path, &encoded)
+                .with_context(|| format!("Failed to write export to {}", path.display()))?;
+            eprintln!(
+                "Exported setup to {}",
+                path.display()
+            );
+        }
+        None => {
+            println!("{encoded}");
+        }
+    }
+
+    Ok(())
+}
+
+// ── Legacy formats (TOML / JSON) ────────────────────────────────────────────
+
+fn run_legacy(
+    _config: &Config,
+    state: &InstallState,
+    output: Option<&PathBuf>,
+    format: &str,
+) -> Result<()> {
     let entries: Vec<ExportedPlugin> = state
         .plugins
         .iter()

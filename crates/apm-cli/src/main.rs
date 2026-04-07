@@ -227,15 +227,16 @@ enum Commands {
 
     /// Export the list of installed plugins to a file or stdout.
     ///
-    /// Produces a TOML or JSON file listing every plugin currently tracked by
-    /// apm. Use this to migrate your setup to another machine with `apm import`.
+    /// Produces a portable setup string (apm1://) or legacy TOML/JSON file
+    /// listing every plugin currently tracked by apm. Use this to migrate your
+    /// setup to another machine with `apm import`.
     Export {
         /// Write output to this file instead of stdout.
         #[arg(long, short = 'o', value_name = "FILE")]
         output: Option<PathBuf>,
 
-        /// Output format: "toml" (default) or "json".
-        #[arg(long, default_value = "toml", value_name = "FORMAT")]
+        /// Output format: "portable" (default), "toml" (legacy), or "json" (legacy).
+        #[arg(long, default_value = "portable", value_name = "FORMAT")]
         format: String,
     },
 
