@@ -52,12 +52,14 @@ enum Commands {
     ///
     /// Shows name, version, format, and install path for every plugin tracked
     /// in the local state file (~/.local/share/apm/state.toml).
+    #[command(alias = "ls")]
     List,
 
     /// Show detailed information about a plugin from the registry.
     ///
     /// Displays vendor, version, description, category, available formats,
     /// license, tags, and homepage URL.
+    #[command(alias = "show")]
     Info {
         /// Plugin name or slug to look up (e.g. "tal-noisemaker").
         name: String,
@@ -68,6 +70,7 @@ enum Commands {
     /// Full-text match on plugin name, vendor, description, and tags.
     /// Run `apm sync` first to populate the local registry cache.
     /// Omit the query to list all plugins (optionally filtered by --category).
+    #[command(alias = "s")]
     Search {
         /// Search query (e.g. "reverb", "tal", "free synth"). Omit to list all.
         query: Option<String>,
@@ -93,6 +96,7 @@ enum Commands {
     ///
     /// Clones the registry on first run; fast-forward fetches on subsequent
     /// runs. Registry is stored in ~/.cache/apm/registries/.
+    #[command(alias = "update")]
     Sync,
 
     /// Download and install one or more plugins from the registry.
@@ -107,7 +111,7 @@ enum Commands {
     ///
     /// For plugins that require manual download (e.g. account signup), use
     /// --from-file to provide the downloaded archive directly (single plugin only).
-    #[command(disable_version_flag = true)]
+    #[command(alias = "i", disable_version_flag = true)]
     Install {
         /// Plugin name(s) or slug(s) to install (e.g. "tal-noisemaker").
         #[arg(required_unless_present = "from_file")]
@@ -150,21 +154,28 @@ enum Commands {
     ///
     /// Deletes the plugin bundle(s) from disk and removes the entry from the
     /// local state file. Only removes plugins that apm installed.
+    #[command(alias = "rm")]
     Remove {
         /// Plugin name or slug to remove (e.g. "tal-noisemaker").
         name: String,
+
+        /// Show what would be removed without deleting anything.
+        #[arg(long)]
+        dry_run: bool,
     },
 
     /// List installed plugins that have newer versions available in the registry.
     ///
     /// Compares installed versions from the local state file against the
     /// current registry. Pinned plugins are shown but marked as pinned.
+    #[command(alias = "od")]
     Outdated,
 
     /// Upgrade one or all plugins to the latest registry version.
     ///
     /// Without an argument, upgrades all outdated plugins except those that
     /// are pinned. With a plugin name, upgrades only that plugin.
+    #[command(alias = "up")]
     Upgrade {
         /// Plugin name or slug to upgrade. Omit to upgrade all outdated plugins.
         name: Option<String>,
@@ -426,7 +437,7 @@ async fn run() -> Result<()> {
         Commands::Outdated => commands::outdated::run(&config, json).await,
 
         Commands::Upgrade { name, dry_run } => {
-            commands::upgrade::run(&config, name.as_deref(), *dry_run).await
+            commands::upgrade::run(&config, name.as_deref(), *dry_run, json).await
         }
 
         Commands::Pin { name, unpin, list } => {
