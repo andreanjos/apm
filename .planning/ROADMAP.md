@@ -220,7 +220,7 @@ Plans:
 - [x] 11-01-PLAN.md — Schema, CLI flag, info output, and fixture-backed historical install tests
 
 ### Phase 12: Lifecycle Consistency for Historical Versions
-**Goal**: The rest of the package-manager lifecycle understands that “installed version” and “latest available version” may differ intentionally.
+**Goal**: The rest of the package-manager lifecycle understands that "installed version" and "latest available version" may differ intentionally.
 **Depends on**: Phase 11
 **Requirements**: LIFE-01, LIFE-03
 **Success Criteria** (what must be TRUE):
@@ -237,7 +237,7 @@ Plans:
 **Depends on**: Phase 12
 **Requirements**: REL-02, REL-03
 **Success Criteria** (what must be TRUE):
-  1. ZIP and DMG archives that wrap PKG installers no longer fail as “no bundle found” or “registry metadata mismatch”; they reach the PKG installer flow instead
+  1. ZIP and DMG archives that wrap PKG installers no longer fail as "no bundle found" or "registry metadata mismatch"; they reach the PKG installer flow instead
   2. PKG installs select the intended installed bundle using requested format and expected bundle path instead of blindly taking the first discovered bundle
   3. Regression coverage exists for the common failure modes observed during live install probing
 **Plans**: 1 plan
@@ -246,19 +246,21 @@ Plans:
 - [x] 13-01-PLAN.md — Install reliability audit, wrapped PKG support, and regression coverage
 
 ### Phase 14: Portable Setup (Import/Export)
-**Goal**: Users can export their entire apm setup to a single human-readable file and import it on another machine to recreate the same plugin environment — including installed plugins with versions, pinned status, registry sources, and preferences.
+**Goal**: Users can export their entire apm setup to a compact, shareable `apm1://` string and import it on another machine to recreate the same plugin environment — including installed plugins with versions, pinned status, registry sources, and preferences.
 **Depends on**: Phase 13
-**Requirements**: TBD
+**Requirements**: D-01 through D-19 (see 14-CONTEXT.md)
 **Success Criteria** (what must be TRUE):
-  1. `apm export` produces a single TOML file capturing installed plugins (with versions and pin status), configured sources, and user preferences
-  2. `apm import <file>` on a fresh machine installs all plugins, adds sources, and applies preferences from the exported file
-  3. `apm import --diff <file>` shows what would change without making modifications
-  4. The export file is human-readable and manually editable — users can curate it like a Brewfile
-  5. Round-trip fidelity: export → import on a clean machine → export again produces an equivalent file
-**Plans**: TBD
+  1. `apm export` produces a compact `apm1://` portable string encoding installed plugins (with versions and pin status), configured sources, and user preferences
+  2. `apm import apm1://...` accepts the string directly or `apm import file.apmsetup` reads it from a file, then installs plugins, adds sources, and applies preferences
+  3. `apm import --dry-run apm1://...` shows a preview of what would change without making modifications
+  4. `apm import` shows a confirmation prompt before proceeding; `--yes` skips it for automation
+  5. Version conflicts default to keeping the newer installed version; legacy `--format toml` and `--format json` exports continue to work
+  6. Round-trip fidelity: export -> import on a clean machine -> export again produces an equivalent string
+**Plans**: 2 plans
 
 Plans:
-- [ ] 14-01: TBD
+- [ ] 14-01-PLAN.md — Portable encoding module (PortableSetup, encode/decode pipeline) and export command update
+- [ ] 14-02-PLAN.md — Import command overhaul (apm1:// decoding, preview/confirm, version reconciliation) and integration tests
 
 ## Progress
 
@@ -280,4 +282,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 | 11. Versioned Registry Model and Historical Install Surface | v2.1 | 1/1 | Complete | 2026-04-03 |
 | 12. Lifecycle Consistency for Historical Versions | v2.1 | 1/1 | Complete | 2026-04-03 |
 | 13. Install Reliability Audit and Registry Repair Loop | v2.1 | 1/1 | Complete | 2026-04-03 |
-| 14. Portable Setup (Import/Export) | v0.2 | 0/TBD | Not started | - |
+| 14. Portable Setup (Import/Export) | v0.2 | 0/2 | Not started | - |
