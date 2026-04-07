@@ -1,0 +1,22 @@
+slug        = "socalabs-delay"
+name        = "SocaLabs Delay"
+vendor      = "SocaLabs"
+version     = "1.1.0"
+description = "Free stereo delay with time or tempo sync, feedback, cross-channel feedback, and up to 120 seconds delay time."
+category    = "effects"
+subcategory = "delay"
+license     = "GPL-3.0"
+tags        = ["delay", "echo", "stereo", "tempo-sync", "free", "open-source"]
+homepage    = "https://socalabs.com/effects/delay/"
+
+[formats.vst3]
+url          = "https://socalabs.com/files/get.php?id=Delay_Mac.zip"
+sha256       = "13660104a3a888cee74ef660ec3d2256f960737a9e23a60fc427306f0969542e"
+install_type = "zip"
+bundle_path  = "vst3/Delay.vst3"
+
+[formats.au]
+url          = "https://socalabs.com/files/get.php?id=Delay_Mac.zip"
+sha256       = "13660104a3a888cee74ef660ec3d2256f960737a9e23a60fc427306f0969542e"
+install_type = "zip"
+bundle_path  = "au/Delay.component"

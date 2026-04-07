@@ -13,6 +13,7 @@ struct PluginInfoJson<'a> {
     name: &'a str,
     vendor: &'a str,
     version: &'a str,
+    available_versions: Vec<String>,
     category: &'a str,
     subcategory: Option<&'a str>,
     license: &'a str,
@@ -22,6 +23,10 @@ struct PluginInfoJson<'a> {
     formats: Vec<String>,
     installed: bool,
     installed_version: Option<String>,
+    is_paid: bool,
+    price_cents: Option<i64>,
+    currency: Option<&'a str>,
+    price_display: String,
 }
 
 pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
@@ -31,9 +36,7 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
         if json {
             println!("null");
         } else {
-            println!(
-                "Registry cache is empty. Run `apm sync` to download the plugin registry."
-            );
+            println!("Registry cache is empty. Run `apm sync` to download the plugin registry.");
         }
         return Ok(());
     }
@@ -64,6 +67,7 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
             name: &plugin.name,
             vendor: &plugin.vendor,
             version: &plugin.version,
+            available_versions: plugin.available_versions(),
             category: &plugin.category,
             subcategory: plugin.subcategory.as_deref(),
             license: &plugin.license,
@@ -73,6 +77,10 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
             formats,
             installed: installed.is_some(),
             installed_version: installed.map(|i| i.version.clone()),
+            is_paid: plugin.is_paid,
+            price_cents: plugin.price_cents,
+            currency: plugin.currency.as_deref(),
+            price_display: price_display(plugin),
         };
         println!("{}", serde_json::to_string_pretty(&info)?);
     } else {
@@ -91,6 +99,20 @@ fn print_plugin_info(p: &PluginDefinition, installed: Option<&apm_core::state::I
     println!("{:<13} {}", "Name:".dimmed(), p.name.bold());
     println!("{:<13} {}", "Vendor:".dimmed(), p.vendor);
     println!("{:<13} {}", "Version:".dimmed(), p.version.cyan());
+    let available_versions = p.available_versions();
+    if available_versions.len() > 1 {
+        println!(
+            "{:<13} {}",
+            "Versions:".dimmed(),
+            available_versions.join(", ")
+        );
+    }
+    println!(
+        "{:<13} {}",
+        "Type:".dimmed(),
+        if p.is_paid { "Paid" } else { "Free" }
+    );
+    println!("{:<13} {}", "Price:".dimmed(), price_display(p));
 
     // Category
     let cat = match &p.subcategory {
@@ -170,4 +192,19 @@ fn wrap_text(text: &str, width: usize) -> Vec<String> {
         lines.push(current);
     }
     lines
+}
+
+fn price_display(p: &PluginDefinition) -> String {
+    if !p.is_paid {
+        return "free".to_string();
+    }
+
+    match (p.price_cents, p.currency.as_deref()) {
+        (Some(cents), Some(currency)) => {
+            let major = cents / 100;
+            let minor = cents.abs() % 100;
+            format!("{} {}.{minor:02}", currency.to_uppercase(), major)
+        }
+        _ => "paid".to_string(),
+    }
 }

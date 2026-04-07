@@ -10,13 +10,13 @@ tags        = ["eq", "equalizer", "graphic-eq", "linear-phase", "mastering", "fr
 homepage    = "https://www.voxengo.com/product/marvelgeq/"
 
 [formats.vst3]
-url          = "https://www.voxengo.com/product/marvelgeq/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://www.voxengo.com/files/VoxengoMarvelGEQ_117_Mac_AU_AAX_VST_setup.dmg"
+sha256       = "10088c75129877881886ac9cf44b6a0bc869273b2762ad5a6e56d2071f12aad2"
 install_type = "dmg"
 bundle_path  = "VoxengoMarvelGEQ.vst3"
 
 [formats.au]
-url          = "https://www.voxengo.com/product/marvelgeq/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://www.voxengo.com/files/VoxengoMarvelGEQ_117_Mac_AU_AAX_VST_setup.dmg"
+sha256       = "10088c75129877881886ac9cf44b6a0bc869273b2762ad5a6e56d2071f12aad2"
 install_type = "dmg"
 bundle_path  = "VoxengoMarvelGEQ.component"

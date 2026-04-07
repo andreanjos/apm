@@ -45,10 +45,7 @@ pub enum ApmError {
         "Registry sync failed for source '{source_name}': {reason}\n\
          Hint: Check your network connection and verify the registry URL with `apm sources list`."
     )]
-    RegistrySync {
-        source_name: String,
-        reason: String,
-    },
+    RegistrySync { source_name: String, reason: String },
 
     // ── Download ─────────────────────────────────────────────────────────────
     #[error(
@@ -122,13 +119,14 @@ pub enum ApmError {
         source: std::io::Error,
         context: Option<String>,
     },
-
 }
-
 
 impl From<std::io::Error> for ApmError {
     fn from(e: std::io::Error) -> Self {
-        Self::Io { source: e, context: None }
+        Self::Io {
+            source: e,
+            context: None,
+        }
     }
 }
 
@@ -136,7 +134,10 @@ impl From<std::io::Error> for ApmError {
 impl From<reqwest::Error> for ApmError {
     fn from(e: reqwest::Error) -> Self {
         let reason = e.to_string();
-        let url = e.url().map(|u| u.to_string()).unwrap_or_else(|| "<unknown>".to_string());
+        let url = e
+            .url()
+            .map(|u| u.to_string())
+            .unwrap_or_else(|| "<unknown>".to_string());
         if e.is_connect() || e.is_timeout() {
             Self::Network { reason }
         } else {
@@ -144,4 +145,3 @@ impl From<reqwest::Error> for ApmError {
         }
     }
 }
-

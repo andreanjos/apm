@@ -92,7 +92,11 @@ fn clone_repo(dest: &Path, source: &Source) -> Result<()> {
 // ── Fetch + Reset ─────────────────────────────────────────────────────────────
 
 fn fetch_and_reset(dest: &Path, source: &Source) -> Result<()> {
-    debug!("Fetching updates for '{}' at {}", source.name, dest.display());
+    debug!(
+        "Fetching updates for '{}' at {}",
+        source.name,
+        dest.display()
+    );
 
     let repo = Repository::open(dest).map_err(|e| ApmError::RegistrySync {
         source_name: source.name.clone(),
@@ -116,10 +120,12 @@ fn fetch_and_reset(dest: &Path, source: &Source) -> Result<()> {
         let mut fetch_opts = FetchOptions::new();
         fetch_opts.remote_callbacks(callbacks);
 
-        let mut remote = repo.find_remote("origin").map_err(|e| ApmError::RegistrySync {
-            source_name: source.name.clone(),
-            reason: format!("Cannot find 'origin' remote: {e}"),
-        })?;
+        let mut remote = repo
+            .find_remote("origin")
+            .map_err(|e| ApmError::RegistrySync {
+                source_name: source.name.clone(),
+                reason: format!("Cannot find 'origin' remote: {e}"),
+            })?;
 
         remote
             .fetch(&["refs/heads/*:refs/remotes/origin/*"], Some(&mut fetch_opts), None)
@@ -159,15 +165,11 @@ fn fetch_and_reset(dest: &Path, source: &Source) -> Result<()> {
             reason: format!("Cannot resolve remote branch '{remote_ref}': {e}"),
         })?;
 
-    repo.reset(
-        commit.as_object(),
-        git2::ResetType::Hard,
-        None,
-    )
-    .map_err(|e| ApmError::RegistrySync {
-        source_name: source.name.clone(),
-        reason: format!("Failed to reset working tree: {e}"),
-    })?;
+    repo.reset(commit.as_object(), git2::ResetType::Hard, None)
+        .map_err(|e| ApmError::RegistrySync {
+            source_name: source.name.clone(),
+            reason: format!("Failed to reset working tree: {e}"),
+        })?;
 
     debug!("Reset to {} ({})", remote_ref, commit.id());
     Ok(())

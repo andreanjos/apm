@@ -1,0 +1,22 @@
+slug        = "socalabs-voc"
+name        = "SocaLabs Voc"
+vendor      = "SocaLabs"
+version     = "1.1.0"
+description = "Free vocal synthesizer emulating glottis and vocal tract shapes for speech and vocal synthesis."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "GPL-3.0"
+tags        = ["synth", "vocal", "voice", "speech", "formant", "free", "open-source"]
+homepage    = "https://socalabs.com/synths/voc-vocal-synth/"
+
+[formats.vst3]
+url          = "https://socalabs.com/files/get.php?id=Voc_Mac.zip"
+sha256       = "4f8b2bd83b2f6adfc7300cea1d8c26321f31429a8c57229b320c5e2878c5e51b"
+install_type = "zip"
+bundle_path  = "vst3/Voc.vst3"
+
+[formats.au]
+url          = "https://socalabs.com/files/get.php?id=Voc_Mac.zip"
+sha256       = "4f8b2bd83b2f6adfc7300cea1d8c26321f31429a8c57229b320c5e2878c5e51b"
+install_type = "zip"
+bundle_path  = "au/Voc.component"

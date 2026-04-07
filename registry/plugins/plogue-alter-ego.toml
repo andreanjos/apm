@@ -11,12 +11,12 @@ homepage    = "https://www.plogue.com/products/alter-ego.html"
 
 [formats.vst3]
 url          = "https://s3.amazonaws.com/palterego/MAC_AlterEgo_v1.981.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "8aaad78f7b98e531730d249b01d2b19a9370dc52f582539da7de579f100e1d64"
 install_type = "dmg"
 bundle_path  = "AlterEgo.vst3"
 
 [formats.au]
 url          = "https://s3.amazonaws.com/palterego/MAC_AlterEgo_v1.981.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "8aaad78f7b98e531730d249b01d2b19a9370dc52f582539da7de579f100e1d64"
 install_type = "dmg"
 bundle_path  = "AlterEgo.component"

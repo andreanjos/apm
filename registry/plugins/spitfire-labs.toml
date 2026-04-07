@@ -11,12 +11,12 @@ homepage    = "https://labs.spitfireaudio.com/"
 
 [formats.vst3]
 url          = "https://d1t3zg51rvnesz.cloudfront.net/p/files/lm/1770184800/mac/SpitfireAudio.Mac-3.4.17.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "f478d88e4b58eac983e2b481122305b7d91525a047616999d2889f974237ed3a"
 install_type = "dmg"
 bundle_path  = "LABS.vst3"
 
 [formats.au]
 url          = "https://d1t3zg51rvnesz.cloudfront.net/p/files/lm/1770184800/mac/SpitfireAudio.Mac-3.4.17.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "f478d88e4b58eac983e2b481122305b7d91525a047616999d2889f974237ed3a"
 install_type = "dmg"
 bundle_path  = "LABS.component"

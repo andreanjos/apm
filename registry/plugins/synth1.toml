@@ -1,0 +1,15 @@
+slug        = "synth1"
+name        = "Synth1"
+vendor      = "Daichi Laboratory"
+version     = "1.13-beta11"
+description = "Classic free subtractive synth modeled after the Nord Lead 2 with FM, ring mod, arpeggiator, and 32-voice polyphony."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "freeware"
+tags        = ["synth", "synthesizer", "subtractive", "analog", "classic", "free", "freeware"]
+homepage    = "https://daichilab.sakura.ne.jp/softsynth/index.html"
+[formats.au]
+url          = "https://daichilab.sakura.ne.jp/softsynth/Synth1macau113beta11.zip"
+sha256       = "abcbfbaabdb8c6a536011f20bc4dbf7eb3e4f29cbc1d9f3c496884ebdd4cc6f8"
+install_type = "zip"
+bundle_path  = "Synth1.component"

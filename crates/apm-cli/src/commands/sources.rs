@@ -99,11 +99,11 @@ pub async fn run_list(config: &Config) -> Result<()> {
         .unwrap_or(0)
         .max(HDR_URL.len());
 
+    println!("{:<w_name$}  {:<w_url$}  {}", HDR_NAME, HDR_URL, HDR_TYPE);
     println!(
-        "{:<w_name$}  {:<w_url$}  {}",
-        HDR_NAME, HDR_URL, HDR_TYPE
+        "{}",
+        "\u{2500}".repeat(w_name + 2 + w_url + 2 + HDR_TYPE.len())
     );
-    println!("{}", "\u{2500}".repeat(w_name + 2 + w_url + 2 + HDR_TYPE.len()));
 
     for source in &sources {
         let type_label = if source.is_default { "default" } else { "user" };

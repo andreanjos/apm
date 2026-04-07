@@ -166,6 +166,11 @@ impl Config {
         self.resolved_data_dir().join("backups")
     }
 
+    /// Returns the path to the local SQLite license cache.
+    pub fn license_cache_db_path(&self) -> PathBuf {
+        self.resolved_data_dir().join("licenses.sqlite3")
+    }
+
     /// Returns all configured sources, always including the default official
     /// registry first, followed by any user-added sources.
     pub fn sources(&self) -> Vec<Source> {

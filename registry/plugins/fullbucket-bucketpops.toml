@@ -1,0 +1,20 @@
+slug        = "fullbucket-bucketpops"
+name        = "Bucket Pops"
+vendor      = "Full Bucket Music"
+version     = "1.1.6"
+description = "Software drum machine emulating the KORG Mini Pops-7 with 20 rhythms and 15 modeled drum instruments."
+category    = "instruments"
+subcategory = "drums"
+license     = "freeware"
+tags        = ["drums", "drum-machine", "korg", "vintage", "free", "freeware"]
+homepage    = "https://www.fullbucket.de/music/bucketpops.html"
+
+[formats.vst3]
+url          = "https://fullbucket.de/music/dl.php?file=bucketpops_1_1_6_mac"
+sha256       = "fb3b35c8af0ac3506594f94281b7f9ca1ab607a010324c5c30fec36f3e9994f4"
+install_type = "pkg"
+
+[formats.au]
+url          = "https://fullbucket.de/music/dl.php?file=bucketpops_1_1_6_mac"
+sha256       = "fb3b35c8af0ac3506594f94281b7f9ca1ab607a010324c5c30fec36f3e9994f4"
+install_type = "pkg"

@@ -1,0 +1,21 @@
+slug        = "fullbucket-whispair"
+name        = "WhispAir"
+vendor      = "Full Bucket Music"
+version     = "1.1.5"
+description = "Physically-modeled wind instrument synthesizer inspired by the Yamaha VL1 with breath control."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "freeware"
+tags        = ["synth", "synthesizer", "physical-modeling", "wind", "acoustic", "free", "freeware"]
+homepage    = "https://www.fullbucket.de/music/whispair.html"
+[formats.vst3]
+url          = "https://www.fullbucket.de/music/dl.php?file=whispair_1_1_5_mac"
+sha256       = "79e710986d22c78b68cdd6e485819fdbc7957ece9dfc774f3cb6686042ea831f"
+install_type = "pkg"
+bundle_path  = "WhispAir.vst3"
+
+[formats.au]
+url          = "https://www.fullbucket.de/music/dl.php?file=whispair_1_1_5_mac"
+sha256       = "79e710986d22c78b68cdd6e485819fdbc7957ece9dfc774f3cb6686042ea831f"
+install_type = "pkg"
+bundle_path  = "WhispAir.component"

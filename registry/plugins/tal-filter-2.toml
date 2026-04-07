@@ -10,13 +10,13 @@ tags        = ["filter", "modulation", "tremolo", "trance-gate", "free", "host-s
 homepage    = "https://tal-software.com/products/tal-filter"
 
 [formats.vst3]
-url          = "https://tal-software.com/products/tal-filter"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url          = "https://tal-software.com/downloads/plugins/TAL-Filter-2-installer_macos.zip"
+sha256       = "678eeb3c5f01b6eb9448ebfba33051f2840d31eae056dab60946e1e33aff9429"
+install_type = "zip"
 bundle_path  = "TAL-Filter-2.vst3"
 
 [formats.au]
-url          = "https://tal-software.com/products/tal-filter"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url          = "https://tal-software.com/downloads/plugins/TAL-Filter-2-installer_macos.zip"
+sha256       = "678eeb3c5f01b6eb9448ebfba33051f2840d31eae056dab60946e1e33aff9429"
+install_type = "zip"
 bundle_path  = "TAL-Filter-2.component"

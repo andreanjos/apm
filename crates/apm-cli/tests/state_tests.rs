@@ -44,7 +44,9 @@ struct InstalledPlugin {
     pinned: bool,
 }
 
-fn default_schema_version() -> u32 { 1 }
+fn default_schema_version() -> u32 {
+    1
+}
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct InstallState {
@@ -91,11 +93,15 @@ impl InstallState {
     }
 
     fn find(&self, slug: &str) -> Option<&InstalledPlugin> {
-        self.plugins.iter().find(|p| p.name.eq_ignore_ascii_case(slug))
+        self.plugins
+            .iter()
+            .find(|p| p.name.eq_ignore_ascii_case(slug))
     }
 
     fn find_mut(&mut self, slug: &str) -> Option<&mut InstalledPlugin> {
-        self.plugins.iter_mut().find(|p| p.name.eq_ignore_ascii_case(slug))
+        self.plugins
+            .iter_mut()
+            .find(|p| p.name.eq_ignore_ascii_case(slug))
     }
 
     fn is_installed(&self, slug: &str) -> bool {
@@ -319,7 +325,9 @@ fn test_save_creates_parent_directories() {
     let nested_path = tmp.path().join("deep/nested/dir/state.toml");
 
     let state = InstallState::default();
-    state.save_to(&nested_path).expect("save should create parent dirs");
+    state
+        .save_to(&nested_path)
+        .expect("save should create parent dirs");
     assert!(nested_path.exists());
 }
 
@@ -419,5 +427,8 @@ fn test_state_atomic_write_succeeds() {
     state.save_to(&state_path).expect("save");
 
     let tmp_path = state_path.with_extension("toml.tmp");
-    assert!(!tmp_path.exists(), "temp file should be cleaned up after save");
+    assert!(
+        !tmp_path.exists(),
+        "temp file should be cleaned up after save"
+    );
 }

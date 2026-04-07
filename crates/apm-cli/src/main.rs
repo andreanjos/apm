@@ -1,7 +1,10 @@
+mod api;
+mod auth;
 mod backup;
 mod commands;
 mod download;
 mod install;
+mod license_cache;
 
 use std::path::PathBuf;
 
@@ -77,6 +80,14 @@ enum Commands {
         /// Filter results by vendor name (e.g. "Valhalla", "Fabfilter").
         #[arg(long)]
         vendor: Option<String>,
+
+        /// Show only paid plugins.
+        #[arg(long, conflicts_with = "free")]
+        paid: bool,
+
+        /// Show only free plugins.
+        #[arg(long, conflicts_with = "paid")]
+        free: bool,
     },
 
     /// Sync the local registry cache from the configured Git remote.
@@ -97,10 +108,15 @@ enum Commands {
     ///
     /// For plugins that require manual download (e.g. account signup), use
     /// --from-file to provide the downloaded archive directly (single plugin only).
+    #[command(disable_version_flag = true)]
     Install {
         /// Plugin name(s) or slug(s) to install (e.g. "tal-noisemaker").
         #[arg(required_unless_present = "from_file")]
         plugins: Vec<String>,
+
+        /// Install a specific registry version instead of the latest release.
+        #[arg(long = "version", value_name = "VERSION")]
+        install_version: Option<String>,
 
         /// Install only this format: "au" or "vst3".
         #[arg(long, short = 'f', value_name = "FORMAT")]
@@ -128,6 +144,10 @@ enum Commands {
         /// Bundles are curated plugin collections. See `apm bundles` for available bundles.
         #[arg(long, value_name = "BUNDLE")]
         bundle: Option<String>,
+
+        /// Internal-only restore path that bypasses manage-scope auth for trusted restore flows.
+        #[arg(long, hide = true)]
+        internal_restore: bool,
     },
 
     /// Remove a plugin installed by apm.
@@ -250,9 +270,11 @@ enum Commands {
         name: Option<String>,
     },
 
-    /// Restore a plugin to its most recent backed-up version.
+    /// Restore a plugin to its most recent local backed-up version.
     ///
     /// Backups are created automatically before each `apm upgrade`.
+    /// This restores a local backup snapshot, not an arbitrary registry version.
+    /// Use `apm install <plugin> --version <x.y.z>` for registry-backed historical installs.
     /// Use --list to see all available backups with their sizes.
     Rollback {
         /// Plugin name or slug to roll back (e.g. "valhalla-supermassive").
@@ -267,19 +289,66 @@ enum Commands {
     Buy {
         /// Plugin name or slug to purchase.
         plugin: String,
+
+        /// Explicitly confirm non-interactive agent purchase mode.
+        #[arg(long)]
+        confirm: bool,
+    },
+
+    /// Request a refund for a purchased plugin or order.
+    Refund {
+        /// Plugin slug with a local order record or a numeric order id.
+        target: String,
     },
 
     /// Log in to your apm account.
-    Login,
+    Login {
+        /// Account email address to use for device authorization.
+        #[arg(long, env = "APM_AUTH_EMAIL")]
+        email: String,
+
+        /// Account password to approve the device flow.
+        #[arg(long, env = "APM_AUTH_PASSWORD")]
+        password: String,
+    },
+
+    /// Create an account and log in immediately.
+    Signup {
+        /// Account email address to create.
+        #[arg(long, env = "APM_AUTH_EMAIL")]
+        email: String,
+
+        /// Account password to create and use for approval.
+        #[arg(long, env = "APM_AUTH_PASSWORD")]
+        password: String,
+    },
+
+    /// Remove all locally stored authentication credentials.
+    Logout,
+
+    /// Manage locally stored authentication credentials.
+    #[command(subcommand)]
+    Auth(AuthCommands),
 
     /// List your plugin licenses.
     Licenses,
+
+    /// Restore previously purchased plugins on this machine.
+    Restore,
 
     /// Show featured plugins and staff picks.
     Featured,
 
     /// Browse plugin categories and recommendations.
     Explore,
+
+    /// Compare two plugins side-by-side using storefront facts.
+    Compare {
+        /// Left-hand plugin slug.
+        left: String,
+        /// Right-hand plugin slug.
+        right: String,
+    },
 }
 
 #[derive(Subcommand, Debug)]
@@ -305,6 +374,26 @@ enum SourcesCommands {
 
     /// List all configured registry sources.
     List,
+}
+
+#[derive(Subcommand, Debug)]
+enum AuthCommands {
+    /// Store a named API key locally for automation use.
+    SetApiKey {
+        name: String,
+        key: String,
+        #[arg(long = "scope")]
+        scope: Vec<String>,
+    },
+
+    /// List locally stored API keys.
+    ListApiKeys,
+
+    /// Remove a locally stored API key.
+    RemoveApiKey { name: String },
+
+    /// Resolve and verify the active auth source against apm-server.
+    Status,
 }
 
 // ── Entry Point ───────────────────────────────────────────────────────────────
@@ -353,20 +442,37 @@ async fn run() -> Result<()> {
 
         Commands::Info { name } => commands::info::run(&config, name, json).await,
 
-        Commands::Search { query, category, vendor } => {
+        Commands::Search {
+            query,
+            category,
+            vendor,
+            paid,
+            free,
+        } => {
             let q = query.as_deref().unwrap_or("");
-            commands::search::run(&config, q, category.as_deref(), vendor.as_deref(), json).await
+            commands::search::run(
+                &config,
+                q,
+                category.as_deref(),
+                vendor.as_deref(),
+                *paid,
+                *free,
+                json,
+            )
+            .await
         }
 
         Commands::Sync => commands::sync_cmd::run(&config).await,
 
         Commands::Install {
             plugins,
+            install_version,
             format,
             system,
             from_file,
             dry_run,
             bundle,
+            internal_restore,
         } => {
             let plugin_format = match format.as_deref() {
                 Some("au") => Some(apm_core::registry::PluginFormat::Au),
@@ -385,14 +491,21 @@ async fn run() -> Result<()> {
             } else {
                 None
             };
-            commands::install::run(
+            let authorization = if *internal_restore {
+                commands::install::InstallAuthorization::Restore
+            } else {
+                commands::install::InstallAuthorization::Standard
+            };
+            commands::install::run_with_authorization(
                 &config,
                 plugins,
+                install_version.as_deref(),
                 plugin_format,
                 scope,
                 from_file.as_deref(),
                 *dry_run,
                 bundle.as_deref(),
+                authorization,
             )
             .await
         }
@@ -413,15 +526,11 @@ async fn run() -> Result<()> {
             SourcesCommands::Add { url, name } => {
                 commands::sources::run_add(&config, url, name.as_deref()).await
             }
-            SourcesCommands::Remove { name } => {
-                commands::sources::run_remove(&config, name).await
-            }
+            SourcesCommands::Remove { name } => commands::sources::run_remove(&config, name).await,
             SourcesCommands::List => commands::sources::run_list(&config).await,
         },
 
-        Commands::Completions { shell } => {
-            commands::completions::run(shell)
-        }
+        Commands::Completions { shell } => commands::completions::run(shell),
 
         Commands::Doctor => commands::doctor::run(&config),
 
@@ -433,26 +542,49 @@ async fn run() -> Result<()> {
             commands::import_cmd::run(&config, file, *dry_run).await
         }
 
-        Commands::Cleanup { dry_run } => {
-            commands::cleanup::run(&config, *dry_run).await
-        }
+        Commands::Cleanup { dry_run } => commands::cleanup::run(&config, *dry_run).await,
 
-        Commands::Bundles { name } => {
-            commands::bundles::run(&config, name.as_deref()).await
-        }
+        Commands::Bundles { name } => commands::bundles::run(&config, name.as_deref()).await,
 
         Commands::Rollback { plugin, list } => {
             commands::rollback::run(&config, plugin.as_deref(), *list).await
         }
 
-        Commands::Buy { plugin } => commands::buy::run(plugin, json).await,
+        Commands::Buy { plugin, confirm } => {
+            commands::buy::run(&config, plugin, *confirm, json).await
+        }
 
-        Commands::Login => commands::login::run(json).await,
+        Commands::Refund { target } => commands::refund::run(&config, target, json).await,
 
-        Commands::Licenses => commands::licenses::run(json).await,
+        Commands::Login { email, password } => {
+            commands::login::run(&config, email, password, false, json).await
+        }
+
+        Commands::Signup { email, password } => {
+            commands::login::run(&config, email, password, true, json).await
+        }
+
+        Commands::Logout => commands::logout::run(json).await,
+
+        Commands::Auth(subcommand) => match subcommand {
+            AuthCommands::SetApiKey { name, key, scope } => {
+                commands::auth::run_set_api_key(name, key, scope, json).await
+            }
+            AuthCommands::ListApiKeys => commands::auth::run_list_api_keys(json).await,
+            AuthCommands::RemoveApiKey { name } => {
+                commands::auth::run_remove_api_key(name, json).await
+            }
+            AuthCommands::Status => commands::auth::run_status(json).await,
+        },
+
+        Commands::Licenses => commands::licenses::run(&config, json).await,
+
+        Commands::Restore => commands::restore::run(&config, json).await,
 
         Commands::Featured => commands::featured::run(json).await,
 
         Commands::Explore => commands::explore::run(json).await,
+
+        Commands::Compare { left, right } => commands::compare::run(left, right, json).await,
     }
 }

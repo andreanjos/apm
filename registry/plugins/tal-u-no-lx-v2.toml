@@ -1,0 +1,21 @@
+slug        = "tal-u-no-lx-v2"
+name        = "TAL-U-NO-LX-V2"
+vendor      = "TAL Software"
+version     = "2.0.0"
+description = "Emulation of the Roland Juno-60 synthesizer with authentic analog sound, chorus, and arpeggiator."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "freeware"
+tags        = ["synth", "synthesizer", "analog", "juno", "roland", "free", "freeware"]
+homepage    = "https://tal-software.com/products/tal-u-no-lx"
+[formats.vst3]
+url          = "https://tal-software.com/downloads/plugins/TAL-U-NO-LX-V2-installer_macos.zip"
+sha256       = "3159d497aea3af058bd229d4cd6e57c4f6fba5df266be09976819d753b805189"
+install_type = "zip"
+bundle_path  = "TAL-U-NO-LX-V2.vst3"
+
+[formats.au]
+url          = "https://tal-software.com/downloads/plugins/TAL-U-NO-LX-V2-installer_macos.zip"
+sha256       = "3159d497aea3af058bd229d4cd6e57c4f6fba5df266be09976819d753b805189"
+install_type = "zip"
+bundle_path  = "TAL-U-NO-LX-V2.component"

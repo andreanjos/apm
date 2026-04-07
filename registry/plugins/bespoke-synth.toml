@@ -10,13 +10,13 @@ tags        = ["modular", "free", "open-source", "gpl", "sequencer", "synthesize
 homepage    = "https://www.bespokesynth.com"
 
 [formats.vst3]
-url          = "https://github.com/BespokeSynth/BespokeSynth/releases/tag/v1.3.0"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://github.com/BespokeSynth/BespokeSynth/releases/download/v1.3.0/BespokeSynth-Mac-1_3_0.dmg"
+sha256       = "f31f37593fb4e1981701775be8bc1b700608d1ce3ddbdc4da336615d5eff79b6"
 install_type = "dmg"
 bundle_path  = "BespokeSynth.vst3"
 
 [formats.au]
-url          = "https://github.com/BespokeSynth/BespokeSynth/releases/tag/v1.3.0"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://github.com/BespokeSynth/BespokeSynth/releases/download/v1.3.0/BespokeSynth-Mac-1_3_0.dmg"
+sha256       = "f31f37593fb4e1981701775be8bc1b700608d1ce3ddbdc4da336615d5eff79b6"
 install_type = "dmg"
 bundle_path  = "BespokeSynth.component"

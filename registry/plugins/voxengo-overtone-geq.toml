@@ -1,0 +1,21 @@
+slug        = "voxengo-overtone-geq"
+name        = "Voxengo Overtone GEQ"
+vendor      = "Voxengo"
+version     = "1.19"
+description = "Free 7-band graphic equalizer with harmonic overtone enhancement and up to 8x oversampling."
+category    = "effects"
+subcategory = "equalizer"
+license     = "freeware"
+tags        = ["eq", "equalizer", "graphic", "overtone", "free", "freeware"]
+homepage    = "https://www.voxengo.com/product/overtonegeq/"
+[formats.vst3]
+url          = "https://www.voxengo.com/files/VoxengoOvertoneGEQ_119_Mac_AU_AAX_VST_setup.dmg"
+sha256       = "30f49f1756a01c6998cb1f2ede83515d26f1206a39c7df8792e237bbc902f6d8"
+install_type = "dmg"
+bundle_path  = "VoxengoOvertoneGEQ.vst3"
+
+[formats.au]
+url          = "https://www.voxengo.com/files/VoxengoOvertoneGEQ_119_Mac_AU_AAX_VST_setup.dmg"
+sha256       = "30f49f1756a01c6998cb1f2ede83515d26f1206a39c7df8792e237bbc902f6d8"
+install_type = "dmg"
+bundle_path  = "VoxengoOvertoneGEQ.component"

@@ -1,0 +1,22 @@
+slug        = "socalabs-sampledelay"
+name        = "SocaLabs Sample Delay"
+vendor      = "SocaLabs"
+version     = "1.1.0"
+description = "Free mono/stereo delay measured in samples or milliseconds for precise timing adjustments."
+category    = "effects"
+subcategory = "delay"
+license     = "GPL-3.0"
+tags        = ["delay", "sample-delay", "utility", "timing", "free", "open-source"]
+homepage    = "https://socalabs.com/effects/sampledelay/"
+
+[formats.vst3]
+url          = "https://socalabs.com/files/get.php?id=SampleDelay_Mac.zip"
+sha256       = "58a809557f147cc7a8cefdef3f8a0b735dccd0a719bfd842f48a9e6441c4191b"
+install_type = "zip"
+bundle_path  = "vst3/SampleDelay.vst3"
+
+[formats.au]
+url          = "https://socalabs.com/files/get.php?id=SampleDelay_Mac.zip"
+sha256       = "58a809557f147cc7a8cefdef3f8a0b735dccd0a719bfd842f48a9e6441c4191b"
+install_type = "zip"
+bundle_path  = "au/SampleDelay.component"

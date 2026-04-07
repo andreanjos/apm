@@ -1,0 +1,22 @@
+slug        = "socalabs-piano"
+name        = "SocaLabs Piano"
+vendor      = "SocaLabs"
+version     = "1.0.0"
+description = "Free digital waveguide piano physical model with algorithm by Clayton Otey."
+category    = "instruments"
+subcategory = "piano"
+license     = "GPL-3.0"
+tags        = ["piano", "physical-model", "acoustic", "keys", "free", "open-source"]
+homepage    = "https://socalabs.com/synths/piano/"
+
+[formats.vst3]
+url          = "https://socalabs.com/files/get.php?id=Piano_Mac.zip"
+sha256       = "125b901f499f6bea94231820db07dc5b0bd952c713c856ecbe59844e32aa6308"
+install_type = "zip"
+bundle_path  = "vst3/Piano.vst3"
+
+[formats.au]
+url          = "https://socalabs.com/files/get.php?id=Piano_Mac.zip"
+sha256       = "125b901f499f6bea94231820db07dc5b0bd952c713c856ecbe59844e32aa6308"
+install_type = "zip"
+bundle_path  = "au/Piano.component"

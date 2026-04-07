@@ -1,0 +1,21 @@
+slug        = "meldaproduction-mpluginmanager"
+name        = "MeldaProduction MPluginManager"
+vendor      = "MeldaProduction"
+version     = "02.19"
+description = "Installer and manager for all MeldaProduction plugins including the MFreeFXBundle with 37 free effects."
+category    = "utility"
+subcategory = "installer"
+license     = "freeware"
+tags        = ["utility", "installer", "effects", "bundle", "free", "freeware"]
+homepage    = "https://www.meldaproduction.com/MFreeFXBundle"
+[formats.vst3]
+url          = "https://meldaproduction.b-cdn.net/download/mpluginmanager/MPluginManager_02_19_setupmac.zip"
+sha256       = "e36a0cb20db3efc63c13523926e08e07f86fd0daa210ccb30ed8b29b17bf270d"
+install_type = "zip"
+bundle_path  = "MPluginManager.vst3"
+
+[formats.au]
+url          = "https://meldaproduction.b-cdn.net/download/mpluginmanager/MPluginManager_02_19_setupmac.zip"
+sha256       = "e36a0cb20db3efc63c13523926e08e07f86fd0daa210ccb30ed8b29b17bf270d"
+install_type = "zip"
+bundle_path  = "MPluginManager.component"

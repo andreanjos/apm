@@ -1,0 +1,21 @@
+slug        = "tal-dub-x"
+name        = "TAL-Dub-X"
+vendor      = "TAL Software"
+version     = "1.0.0"
+description = "Free delay plugin with tape-style echoes, modulation, and ducking for dub and electronic music."
+category    = "effects"
+subcategory = "delay"
+license     = "freeware"
+tags        = ["delay", "dub", "tape", "echo", "free", "freeware"]
+homepage    = "https://tal-software.com/products/tal-dub-x"
+[formats.vst3]
+url          = "https://tal-software.com/downloads/plugins/TAL-Dub-X-installer_macos.zip"
+sha256       = "bc92759d1856722972ad15f6e7c393d28ad2857af3c8a0f64a23da4be6cdb59d"
+install_type = "zip"
+bundle_path  = "TAL-Dub-X.vst3"
+
+[formats.au]
+url          = "https://tal-software.com/downloads/plugins/TAL-Dub-X-installer_macos.zip"
+sha256       = "bc92759d1856722972ad15f6e7c393d28ad2857af3c8a0f64a23da4be6cdb59d"
+install_type = "zip"
+bundle_path  = "TAL-Dub-X.component"

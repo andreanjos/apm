@@ -13,10 +13,7 @@ use tracing::{debug, info};
 /// the bundle. Non-zero exit is treated as a warning (the attribute may simply
 /// not be present) rather than a hard error.
 pub fn remove_quarantine(path: &Path) -> Result<()> {
-    info!(
-        "Stripping com.apple.quarantine from {}",
-        path.display()
-    );
+    info!("Stripping com.apple.quarantine from {}", path.display());
 
     let output = std::process::Command::new("xattr")
         .args(["-rd", "com.apple.quarantine"])
@@ -25,10 +22,7 @@ pub fn remove_quarantine(path: &Path) -> Result<()> {
 
     match output {
         Ok(out) if out.status.success() => {
-            debug!(
-                "Quarantine xattr removed from {}",
-                path.display()
-            );
+            debug!("Quarantine xattr removed from {}", path.display());
         }
         Ok(out) => {
             // Non-zero exit — either the attribute was not present (harmless)

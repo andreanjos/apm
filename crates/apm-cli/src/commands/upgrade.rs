@@ -61,7 +61,8 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<(
             }
         };
 
-        let is_newer = is_version_newer(&installed.version, &registry_plugin.version);
+        let latest_release = registry_plugin.latest_release();
+        let is_newer = is_version_newer(&installed.version, &latest_release.version);
 
         if !is_newer {
             println!(
@@ -74,7 +75,7 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<(
         vec![UpgradeCandidate {
             slug: installed.name.clone(),
             installed_version: installed.version.clone(),
-            available_version: registry_plugin.version.clone(),
+            available_version: latest_release.version,
             pinned: installed.pinned,
         }]
     } else {
@@ -84,11 +85,12 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<(
             .iter()
             .filter_map(|installed| {
                 let reg = registry.find(&installed.name)?;
-                if is_version_newer(&installed.version, &reg.version) {
+                let latest_release = reg.latest_release();
+                if is_version_newer(&installed.version, &latest_release.version) {
                     Some(UpgradeCandidate {
                         slug: installed.name.clone(),
                         installed_version: installed.version.clone(),
-                        available_version: reg.version.clone(),
+                        available_version: latest_release.version,
                         pinned: installed.pinned,
                     })
                 } else {
@@ -157,11 +159,19 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<(
         let registry_plugin = match registry.find(&candidate.slug) {
             Some(p) => p,
             None => {
-                tracing::warn!("Plugin '{}' not found in registry, skipping", candidate.slug);
+                tracing::warn!(
+                    "Plugin '{}' not found in registry, skipping",
+                    candidate.slug
+                );
                 failed += 1;
                 continue;
             }
         };
+
+        let latest_release = registry_plugin.latest_release();
+        let mut selected_plugin = registry_plugin.clone();
+        selected_plugin.version = latest_release.version;
+        selected_plugin.formats = latest_release.formats;
 
         println!(
             "Upgrading {} {} -> {}...",
@@ -223,13 +233,17 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<(
         state.remove(&candidate.slug);
 
         // Install the new version (this records it in state and saves).
-        crate::install::install_plugin(registry_plugin, None, None, config, &mut state, None)
+        crate::install::install_plugin(&selected_plugin, None, None, config, &mut state, None)
             .await
             .map_err(|e| e.context(format!("Failed to upgrade '{}'", candidate.slug)))?;
 
         println!(
             "{}",
-            format!("Upgraded {} to v{}", candidate.slug, candidate.available_version).green()
+            format!(
+                "Upgraded {} to v{}",
+                candidate.slug, candidate.available_version
+            )
+            .green()
         );
         upgraded += 1;
     }

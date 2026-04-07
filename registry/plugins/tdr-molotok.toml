@@ -1,0 +1,21 @@
+slug        = "tdr-molotok"
+name        = "TDR Molotok"
+vendor      = "Tokyo Dawn Records"
+version     = "1.0.7"
+description = "Character compressor with musical transient handling inspired by vintage Soviet hardware designs."
+category    = "effects"
+subcategory = "compressor"
+license     = "freeware"
+tags        = ["compressor", "dynamics", "character", "free", "freeware"]
+homepage    = "https://www.tokyodawn.net/tdr-molotok/"
+[formats.vst3]
+url          = "https://www.tokyodawn.net/labs/Molotok/1.0.7/TDR%20Molotok.zip"
+sha256       = "29b65ea823f5b34f5d0e2d1e556b7f92a9889d07bf6fa20dbb40207ca50c288f"
+install_type = "zip"
+bundle_path  = "TDR Molotok.vst3"
+
+[formats.au]
+url          = "https://www.tokyodawn.net/labs/Molotok/1.0.7/TDR%20Molotok.zip"
+sha256       = "29b65ea823f5b34f5d0e2d1e556b7f92a9889d07bf6fa20dbb40207ca50c288f"
+install_type = "zip"
+bundle_path  = "TDR Molotok.component"

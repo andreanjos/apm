@@ -11,12 +11,12 @@ homepage    = "https://tal-software.com/products/tal-chorus-lx"
 
 [formats.vst3]
 url          = "https://tal-software.com/downloads/plugins/TAL-Chorus-LX-installer_macos.zip"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "36c0a0ef3fdaa35c86b48c1adab0d1a66032080d73f7276b9c69a5faa99ef3ca"
 install_type = "zip"
 bundle_path  = "TAL-Chorus-LX.vst3"
 
 [formats.au]
 url          = "https://tal-software.com/downloads/plugins/TAL-Chorus-LX-installer_macos.zip"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "36c0a0ef3fdaa35c86b48c1adab0d1a66032080d73f7276b9c69a5faa99ef3ca"
 install_type = "zip"
 bundle_path  = "TAL-Chorus-LX.component"

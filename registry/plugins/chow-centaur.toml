@@ -1,0 +1,21 @@
+slug        = "chow-centaur"
+name        = "ChowCentaur"
+vendor      = "Chowdhury DSP"
+version     = "1.4.0"
+description = "Neural network emulation of the Klon Centaur overdrive pedal with analog circuit modeling."
+category    = "effects"
+subcategory = "distortion"
+license     = "GPL-3.0"
+tags        = ["distortion", "overdrive", "guitar", "pedal", "analog", "free", "open-source"]
+homepage    = "https://github.com/jatinchowdhury18/KlonCentaur"
+[formats.vst3]
+url          = "https://github.com/jatinchowdhury18/KlonCentaur/releases/download/v1.4.0/ChowCentaur-Mac-1.4.0.dmg"
+sha256       = "8b8c876cc9429d1c9d51d25a08fa3513398370b6b527067cb5d3982ca988bf3e"
+install_type = "dmg"
+bundle_path  = "ChowCentaur.vst3"
+
+[formats.au]
+url          = "https://github.com/jatinchowdhury18/KlonCentaur/releases/download/v1.4.0/ChowCentaur-Mac-1.4.0.dmg"
+sha256       = "8b8c876cc9429d1c9d51d25a08fa3513398370b6b527067cb5d3982ca988bf3e"
+install_type = "dmg"
+bundle_path  = "ChowCentaur.component"

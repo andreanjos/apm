@@ -1,0 +1,22 @@
+slug        = "socalabs-tone-generator"
+name        = "SocaLabs Tone Generator"
+vendor      = "SocaLabs"
+version     = "1.1.0"
+description = "Free test tone generator supporting 30-10000 Hz with sine, saw, triangle, square, and noise waveforms."
+category    = "instruments"
+subcategory = "utility"
+license     = "GPL-3.0"
+tags        = ["tone", "generator", "test", "signal", "utility", "free", "open-source"]
+homepage    = "https://socalabs.com/developer-tools/tonegenerator/"
+
+[formats.vst3]
+url          = "https://socalabs.com/files/get.php?id=ToneGenerator_Mac.zip"
+sha256       = "624b74b06bc02d4ae0c2bf18e940730f2afc09d65970210f6c783ef3c215e08d"
+install_type = "zip"
+bundle_path  = "vst3/ToneGenerator.vst3"
+
+[formats.au]
+url          = "https://socalabs.com/files/get.php?id=ToneGenerator_Mac.zip"
+sha256       = "624b74b06bc02d4ae0c2bf18e940730f2afc09d65970210f6c783ef3c215e08d"
+install_type = "zip"
+bundle_path  = "au/ToneGenerator.component"

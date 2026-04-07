@@ -1,0 +1,21 @@
+slug        = "dragonfly-early-reflections"
+name        = "Dragonfly Early Reflections"
+vendor      = "Michael Willis"
+version     = "3.2.10"
+description = "Free early reflections reverb based on Moorer's model, part of the Dragonfly Reverb bundle."
+category    = "effects"
+subcategory = "reverb"
+license     = "GPL-3.0"
+tags        = ["reverb", "early-reflections", "room", "free", "open-source"]
+homepage    = "https://github.com/michaelwillis/dragonfly-reverb"
+[formats.vst3]
+url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg"
+sha256       = "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf"
+install_type = "dmg"
+bundle_path  = "DragonflyEarlyReflections.vst3"
+
+[formats.au]
+url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg"
+sha256       = "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf"
+install_type = "dmg"
+bundle_path  = "DragonflyEarlyReflections.component"

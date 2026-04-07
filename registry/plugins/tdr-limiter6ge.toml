@@ -1,0 +1,21 @@
+slug        = "tdr-limiter6ge"
+name        = "TDR Limiter 6 GE"
+vendor      = "Tokyo Dawn Records"
+version     = "1.3.0"
+description = "Multi-stage mastering limiter with six processing stages including compressor, clipper, and peak limiter."
+category    = "effects"
+subcategory = "limiter"
+license     = "freeware"
+tags        = ["limiter", "mastering", "dynamics", "compressor", "free", "freeware"]
+homepage    = "https://www.tokyodawn.net/tdr-limiter6-ge/"
+[formats.vst3]
+url          = "https://www.tokyodawn.net/labs/Limiter6GE/1.3.0/TDR%20Limiter%206%20GE%20(demo).zip"
+sha256       = "2688f3ba6b7539fc74c49fca77b27933c87c069680882ad55ea75b65ffb31508"
+install_type = "zip"
+bundle_path  = "TDR Limiter 6 GE.vst3"
+
+[formats.au]
+url          = "https://www.tokyodawn.net/labs/Limiter6GE/1.3.0/TDR%20Limiter%206%20GE%20(demo).zip"
+sha256       = "2688f3ba6b7539fc74c49fca77b27933c87c069680882ad55ea75b65ffb31508"
+install_type = "zip"
+bundle_path  = "TDR Limiter 6 GE.component"

@@ -1,0 +1,21 @@
+slug        = "tal-bitcrusher"
+name        = "TAL-Bitcrusher"
+vendor      = "TAL Software"
+version     = "1.0"
+description = "Free bitcrusher with adjustable bit-depth, sample rate divisor, and noise cross modulator."
+category    = "effects"
+subcategory = "distortion"
+license     = "freeware"
+tags        = ["bitcrusher", "distortion", "lo-fi", "free", "freeware"]
+homepage    = "https://tal-software.com/products/tal-bitcrusher"
+[formats.vst3]
+url          = "https://tal-software.com/downloads/plugins/TAL-Bitcrusher-installer_macos.zip"
+sha256       = "0c5641931c1c49ee3856ad8314a00bc1109d5cd9b58de65fb455cae58ea3d2e0"
+install_type = "zip"
+bundle_path  = "TAL-Bitcrusher.vst3"
+
+[formats.au]
+url          = "https://tal-software.com/downloads/plugins/TAL-Bitcrusher-installer_macos.zip"
+sha256       = "0c5641931c1c49ee3856ad8314a00bc1109d5cd9b58de65fb455cae58ea3d2e0"
+install_type = "zip"
+bundle_path  = "TAL-Bitcrusher.component"

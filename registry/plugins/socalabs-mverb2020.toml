@@ -1,0 +1,22 @@
+slug        = "socalabs-mverb2020"
+name        = "SocaLabs Mverb 2020"
+vendor      = "SocaLabs"
+version     = "1.1.0"
+description = "Free studio quality open-source reverb based on Dattorro's figure-of-eight reverb structure, updated from Martin Eastwood's original Mverb."
+category    = "effects"
+subcategory = "reverb"
+license     = "GPL-3.0"
+tags        = ["reverb", "algorithmic", "dattorro", "free", "open-source"]
+homepage    = "https://socalabs.com/effects/mverb2020/"
+
+[formats.vst3]
+url          = "https://socalabs.com/files/get.php?id=Mverb2020_Mac.zip"
+sha256       = "d81cae0dba240fc228502cc75fd7a487e52f468474f1eac1edbadc43c648ea64"
+install_type = "zip"
+bundle_path  = "vst3/Mverb2020.vst3"
+
+[formats.au]
+url          = "https://socalabs.com/files/get.php?id=Mverb2020_Mac.zip"
+sha256       = "d81cae0dba240fc228502cc75fd7a487e52f468474f1eac1edbadc43c648ea64"
+install_type = "zip"
+bundle_path  = "au/Mverb2020.component"

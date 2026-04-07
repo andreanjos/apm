@@ -10,13 +10,13 @@ tags        = ["filter", "modulation", "svf", "semi-modular", "free", "freeware"
 homepage    = "https://hy-plugins.com/product/hy-filter4/"
 
 [formats.vst3]
-url          = "https://hy-plugins.com/download/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://hy-plugins.com/wp-content/uploads/2022/HY-Filter4%20free.pkg.zip"
+sha256       = "6cb4aa62bce1d29d0c8874def6827b5e8ab7ee295c38d8d727d5e31ce47bd176"
 install_type = "zip"
 bundle_path  = "HY-Filter4Free.vst3"
 
 [formats.au]
-url          = "https://hy-plugins.com/download/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://hy-plugins.com/wp-content/uploads/2022/HY-Filter4%20free.pkg.zip"
+sha256       = "6cb4aa62bce1d29d0c8874def6827b5e8ab7ee295c38d8d727d5e31ce47bd176"
 install_type = "zip"
 bundle_path  = "HY-Filter4Free.component"

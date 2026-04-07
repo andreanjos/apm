@@ -1,0 +1,21 @@
+slug        = "dpf-plugins"
+name        = "DPF Plugins"
+vendor      = "DISTRHO"
+version     = "1.7"
+description = "Free collection of audio plugins including Kars string synth, MVerb reverb, and glBars visualizer."
+category    = "effects"
+subcategory = "multi-fx"
+license     = "MIT"
+tags        = ["effects", "synth", "reverb", "collection", "free", "open-source"]
+homepage    = "https://github.com/DISTRHO/DPF-Plugins"
+[formats.vst3]
+url          = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-macos-universal.dmg"
+sha256       = "94b996c898a7ba160561113d1c48c4700a6ef65d33f4092ea7289b1af44059e1"
+install_type = "dmg"
+bundle_path  = "DPF Plugins.vst3"
+
+[formats.au]
+url          = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-macos-universal.dmg"
+sha256       = "94b996c898a7ba160561113d1c48c4700a6ef65d33f4092ea7289b1af44059e1"
+install_type = "dmg"
+bundle_path  = "DPF Plugins.component"

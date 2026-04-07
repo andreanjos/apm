@@ -1,0 +1,21 @@
+slug        = "actuate"
+name        = "Actuate"
+vendor      = "Ardura"
+version     = "1.4.3"
+description = "Free open-source granular and sampler synthesizer built in Rust for creative sound design."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "GPL-3.0"
+tags        = ["synth", "synthesizer", "granular", "sampler", "rust", "free", "open-source"]
+homepage    = "https://github.com/ardura/Actuate"
+[formats.vst3]
+url          = "https://github.com/ardura/Actuate/releases/download/v1.4.3/Actuate_v143_macos_build.zip"
+sha256       = "c996c0a7ed5ec486c325ecba236dc4f80302ce9ec61c6f41beddbee435d81119"
+install_type = "zip"
+bundle_path  = "Actuate.vst3"
+
+[formats.au]
+url          = "https://github.com/ardura/Actuate/releases/download/v1.4.3/Actuate_v143_macos_build.zip"
+sha256       = "c996c0a7ed5ec486c325ecba236dc4f80302ce9ec61c6f41beddbee435d81119"
+install_type = "zip"
+bundle_path  = "Actuate.component"

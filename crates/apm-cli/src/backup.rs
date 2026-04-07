@@ -1,6 +1,5 @@
 // backup — copy plugin bundles before upgrading and restore them on rollback.
 
-
 use std::path::{Path, PathBuf};
 
 use anyhow::{Context, Result};
@@ -8,9 +7,9 @@ use chrono::{DateTime, Utc};
 use serde::{Deserialize, Serialize};
 use tracing::{debug, info};
 
-use apm_core::config::Config;
 use crate::install::quarantine;
-use apm_core::state::{InstalledFormat, InstalledPlugin, InstallState};
+use apm_core::config::Config;
+use apm_core::state::{InstallState, InstalledFormat, InstalledPlugin};
 
 // ── BackupEntry ───────────────────────────────────────────────────────────────
 
@@ -52,9 +51,8 @@ pub fn backup_plugin(plugin: &InstalledPlugin, config: &Config) -> Result<Backup
         .join(&plugin.name)
         .join(&plugin.version);
 
-    apm_core::config::ensure_dir(&backup_root).with_context(|| {
-        format!("Cannot create backup directory: {}", backup_root.display())
-    })?;
+    apm_core::config::ensure_dir(&backup_root)
+        .with_context(|| format!("Cannot create backup directory: {}", backup_root.display()))?;
 
     let mut backed_up_formats: Vec<String> = Vec::new();
 
@@ -145,10 +143,7 @@ pub fn restore_plugin(slug: &str, config: &Config, state: &mut InstallState) -> 
             let src = entry.backup_dir.join(bundle_name);
 
             if !src.exists() {
-                anyhow::bail!(
-                    "Backup bundle not found at {}",
-                    src.display()
-                );
+                anyhow::bail!("Backup bundle not found at {}", src.display());
             }
 
             // Remove current (possibly broken) bundle.
@@ -269,8 +264,7 @@ pub fn list_backups(config: &Config) -> Result<Vec<BackupEntry>> {
             Ok(entries) => entries,
             Err(_) => continue,
         };
-        for version_entry in version_entries.filter_map(|e| e.ok())
-        {
+        for version_entry in version_entries.filter_map(|e| e.ok()) {
             let version_path = version_entry.path();
             if !version_path.is_dir() {
                 continue;
@@ -346,8 +340,8 @@ fn copy_dir_all(src: &Path, dst: &Path) -> Result<()> {
 
     std::fs::create_dir_all(dst)?;
 
-    for entry in std::fs::read_dir(src)
-        .with_context(|| format!("Cannot read dir: {}", src.display()))?
+    for entry in
+        std::fs::read_dir(src).with_context(|| format!("Cannot read dir: {}", src.display()))?
     {
         let entry = entry?;
         let src_path = entry.path();

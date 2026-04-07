@@ -20,7 +20,8 @@ chrono = { workspace = true }
 # CLI-only deps (not shared with server)
 clap = { version = "4", features = ["derive", "env", "color"] }
 clap_complete = ">=4, <4.6"
-reqwest = { version = "0.12", features = ["rustls-tls", "stream"], default-features = false }
+keyring = "2.3.3"
+reqwest = { version = "0.12", features = ["json", "rustls-tls", "stream"], default-features = false }
 indicatif = "0.17"
 colored = "3"
 sha2 = "0.10"
@@ -37,8 +38,12 @@ semver = "1"
 walkdir = "2"
 dirs = "6"
 toml = { workspace = true }
+rusqlite = { version = "0.32.1", features = ["bundled", "chrono"] }
 
 [dev-dependencies]
 apm-core = { workspace = true }
 assert_cmd = "2"
 assert_fs = "1"
+axum = "=0.8.1"
+ed25519-dalek = { version = "2.2.0", features = ["rand_core"] }
+plist = { version = "=1.7.0", default-features = false }

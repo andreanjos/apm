@@ -1,0 +1,21 @@
+slug        = "tal-bassline-101"
+name        = "TAL-BassLine-101"
+vendor      = "TAL Software"
+version     = "3.0.0"
+description = "Emulation of the Roland SH-101 monosynth with accurate filter, arpeggiator, and sequencer."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "freeware"
+tags        = ["synth", "synthesizer", "bass", "mono", "analog", "sh-101", "free", "freeware"]
+homepage    = "https://tal-software.com/products/tal-bassline-101"
+[formats.vst3]
+url          = "https://tal-software.com/downloads/plugins/TAL-BassLine-101-installer_macos.zip"
+sha256       = "d3dba9e92a8c0c5a66c9c5911b390a8a3f8753008446f6e5bf3785166c45f5e5"
+install_type = "zip"
+bundle_path  = "TAL-BassLine-101.vst3"
+
+[formats.au]
+url          = "https://tal-software.com/downloads/plugins/TAL-BassLine-101-installer_macos.zip"
+sha256       = "d3dba9e92a8c0c5a66c9c5911b390a8a3f8753008446f6e5bf3785166c45f5e5"
+install_type = "zip"
+bundle_path  = "TAL-BassLine-101.component"

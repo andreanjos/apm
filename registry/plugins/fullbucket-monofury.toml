@@ -1,0 +1,21 @@
+slug        = "fullbucket-monofury"
+name        = "Mono/Fury"
+vendor      = "Full Bucket Music"
+version     = "2.3.2"
+description = "Monophonic bass synthesizer inspired by the Moog Prodigy with two oscillators and ladder filter."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "freeware"
+tags        = ["synth", "synthesizer", "bass", "mono", "analog", "moog", "free", "freeware"]
+homepage    = "https://www.fullbucket.de/music/monofury.html"
+[formats.vst3]
+url          = "https://www.fullbucket.de/music/dl.php?file=monofury_2_3_2_mac"
+sha256       = "6db5c7e3918d1f3b79add8728f7d10e88091b29e1938987842cba603343116d7"
+install_type = "pkg"
+bundle_path  = "MonoFury.vst3"
+
+[formats.au]
+url          = "https://www.fullbucket.de/music/dl.php?file=monofury_2_3_2_mac"
+sha256       = "6db5c7e3918d1f3b79add8728f7d10e88091b29e1938987842cba603343116d7"
+install_type = "pkg"
+bundle_path  = "MonoFury.component"

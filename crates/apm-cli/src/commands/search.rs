@@ -17,23 +17,44 @@ struct SearchResultJson {
     license: String,
     description: String,
     tags: Vec<String>,
+    is_paid: bool,
+    price_cents: Option<i64>,
+    currency: Option<String>,
+    price_display: String,
 }
 
-pub async fn run(config: &Config, query: &str, category: Option<&str>, vendor: Option<&str>, json: bool) -> Result<()> {
+pub async fn run(
+    config: &Config,
+    query: &str,
+    category: Option<&str>,
+    vendor: Option<&str>,
+    paid_only: bool,
+    free_only: bool,
+    json: bool,
+) -> Result<()> {
     let registry = registry::Registry::load_all_sources(config)?;
 
     if registry.is_empty() {
         if json {
             println!("[]");
         } else {
-            println!(
-                "Registry cache is empty. Run `apm sync` to download the plugin registry."
-            );
+            println!("Registry cache is empty. Run `apm sync` to download the plugin registry.");
         }
         return Ok(());
     }
 
-    let results = search::search(&registry, query, category, vendor);
+    let results: Vec<_> = search::search(&registry, query, category, vendor)
+        .into_iter()
+        .filter(|plugin| {
+            if paid_only && !plugin.is_paid {
+                return false;
+            }
+            if free_only && plugin.is_paid {
+                return false;
+            }
+            true
+        })
+        .collect();
 
     if results.is_empty() {
         if json {
@@ -69,6 +90,10 @@ pub async fn run(config: &Config, query: &str, category: Option<&str>, vendor: O
                 license: p.license.clone(),
                 description: p.description.clone(),
                 tags: p.tags.clone(),
+                is_paid: p.is_paid,
+                price_cents: p.price_cents,
+                currency: p.currency.clone(),
+                price_display: price_display(p),
             })
             .collect();
         println!("{}", serde_json::to_string_pretty(&json_results)?);
@@ -82,6 +107,7 @@ pub async fn run(config: &Config, query: &str, category: Option<&str>, vendor: O
     const HDR_VER: &str = "Version";
     const HDR_CAT: &str = "Category";
     const HDR_LIC: &str = "License";
+    const HDR_PRICE: &str = "Price";
 
     let w_name = results
         .iter()
@@ -118,28 +144,36 @@ pub async fn run(config: &Config, query: &str, category: Option<&str>, vendor: O
         .unwrap_or(0)
         .max(HDR_LIC.len());
 
+    let w_price = results
+        .iter()
+        .map(|p| price_display(p).len())
+        .max()
+        .unwrap_or(0)
+        .max(HDR_PRICE.len());
+
     // ── Header ────────────────────────────────────────────────────────────────
     println!(
         "{}",
         format!(
-            "{:<w_name$}  {:<w_vendor$}  {:<w_ver$}  {:<w_cat$}  {}",
-            HDR_NAME, HDR_VENDOR, HDR_VER, HDR_CAT, HDR_LIC,
+            "{:<w_name$}  {:<w_vendor$}  {:<w_ver$}  {:<w_cat$}  {:<w_lic$}  {}",
+            HDR_NAME, HDR_VENDOR, HDR_VER, HDR_CAT, HDR_LIC, HDR_PRICE,
         )
         .bold()
     );
 
-    let rule_len = w_name + 2 + w_vendor + 2 + w_ver + 2 + w_cat + 2 + w_lic;
+    let rule_len = w_name + 2 + w_vendor + 2 + w_ver + 2 + w_cat + 2 + w_lic + 2 + w_price;
     println!("{}", "\u{2500}".repeat(rule_len).dimmed());
 
     // ── Rows ──────────────────────────────────────────────────────────────────
     for p in &results {
         println!(
-            "{:<w_name$}  {:<w_vendor$}  {:<w_ver$}  {:<w_cat$}  {}",
+            "{:<w_name$}  {:<w_vendor$}  {:<w_ver$}  {:<w_cat$}  {:<w_lic$}  {}",
             p.slug.bold().to_string(),
             p.vendor,
             p.version.cyan().to_string(),
             category_display(p),
             p.license,
+            price_display(p),
         );
         // Description on an indented second line.
         if !p.description.is_empty() {
@@ -169,5 +203,20 @@ fn category_display(p: &apm_core::registry::PluginDefinition) -> String {
     match &p.subcategory {
         Some(sub) => format!("{} / {}", p.category, sub),
         None => p.category.clone(),
+    }
+}
+
+fn price_display(p: &apm_core::registry::PluginDefinition) -> String {
+    if !p.is_paid {
+        return "free".to_string();
+    }
+
+    match (p.price_cents, p.currency.as_deref()) {
+        (Some(cents), Some(currency)) => {
+            let major = cents / 100;
+            let minor = cents.abs() % 100;
+            format!("{} {}.{minor:02}", currency.to_uppercase(), major)
+        }
+        _ => "paid".to_string(),
     }
 }

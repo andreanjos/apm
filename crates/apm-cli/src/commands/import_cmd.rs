@@ -60,12 +60,7 @@ pub async fn run(config: &Config, file: &Path, dry_run: bool) -> Result<()> {
                 skipped += 1;
             }
             PluginOutcome::Failed(reason) => {
-                eprintln!(
-                    "  {} {}: {}",
-                    "FAILED".red().bold(),
-                    entry.name,
-                    reason
-                );
+                eprintln!("  {} {}: {}", "FAILED".red().bold(), entry.name, reason);
                 failed += 1;
             }
         }
@@ -103,37 +98,72 @@ async fn process_one(
     state: &mut InstallState,
     dry_run: bool,
 ) -> PluginOutcome {
-    // Already installed?
-    if state.is_installed(&entry.name) {
-        println!("  {} {} (already installed)", "skip".dimmed(), entry.name);
-        return PluginOutcome::Skipped;
+    if let Some(installed) = state.find(&entry.name) {
+        if installed.version == entry.version {
+            println!(
+                "  {} {} v{} (already installed)",
+                "skip".dimmed(),
+                entry.name,
+                entry.version
+            );
+            return PluginOutcome::Skipped;
+        }
     }
 
     // Look up in registry.
-    let plugin = match registry.find(&entry.name) {
+    let plugin = match registry
+        .find_in_source(&entry.source, &entry.name)
+        .or_else(|| registry.find(&entry.name))
+    {
         Some(p) => p,
         None => {
-            return PluginOutcome::Failed(
-                "not found in registry (try `apm sync`)".to_string()
-            );
+            return PluginOutcome::Failed("not found in registry (try `apm sync`)".to_string());
         }
     };
 
+    let release = match plugin.resolve_release(Some(&entry.version)) {
+        Some(release) => release,
+        None => {
+            let available = plugin.available_versions().join(", ");
+            return PluginOutcome::Failed(format!(
+                "version {} not found in registry (available: {})",
+                entry.version, available
+            ));
+        }
+    };
+
+    let mut selected_plugin = plugin.clone();
+    selected_plugin.version = release.version;
+    selected_plugin.formats = release.formats;
+
     if dry_run {
-        println!("  {} {} v{}", "would install".cyan(), entry.name, plugin.version);
+        println!(
+            "  {} {} v{}",
+            "would install".cyan(),
+            entry.name,
+            selected_plugin.version
+        );
         return PluginOutcome::Installed; // count as "would install"
     }
 
-    println!("  {} {} v{}...", "installing".cyan(), entry.name, plugin.version);
+    println!(
+        "  {} {} v{}...",
+        "installing".cyan(),
+        entry.name,
+        selected_plugin.version
+    );
 
-    match crate::install::install_plugin(plugin, None, None, config, state, None).await {
+    match crate::install::install_plugin(&selected_plugin, None, None, config, state, None).await {
         Ok(()) => {
-            println!("  {} {} v{}", "installed".green(), entry.name, plugin.version);
+            println!(
+                "  {} {} v{}",
+                "installed".green(),
+                entry.name,
+                selected_plugin.version
+            );
             PluginOutcome::Installed
         }
-        Err(e) => {
-            PluginOutcome::Failed(e.to_string())
-        }
+        Err(e) => PluginOutcome::Failed(e.to_string()),
     }
 }
 
@@ -161,6 +191,10 @@ fn load_export_file(path: &Path) -> Result<ExportDocument> {
     }
 
     // Fall back to JSON.
-    serde_json::from_str(&raw)
-        .with_context(|| format!("Failed to parse import file as TOML or JSON: {}", path.display()))
+    serde_json::from_str(&raw).with_context(|| {
+        format!(
+            "Failed to parse import file as TOML or JSON: {}",
+            path.display()
+        )
+    })
 }

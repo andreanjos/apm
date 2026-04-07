@@ -11,14 +11,15 @@ use std::process::Command;
 fn apm_bin() -> PathBuf {
     // CARGO_BIN_EXE_apm is set by Cargo when running integration tests against
     // a `[[bin]]` target in the same workspace.
-    let from_env = std::env::var("CARGO_BIN_EXE_apm");
-    if let Ok(p) = from_env {
+    if let Ok(p) = std::env::var("CARGO_BIN_EXE_apm") {
         return PathBuf::from(p);
     }
 
-    // Fallback: look in the debug target directory.
     let manifest = PathBuf::from(env!("CARGO_MANIFEST_DIR"));
     manifest
+        .parent()
+        .and_then(|path| path.parent())
+        .expect("workspace root from crate manifest")
         .join("target/debug/apm")
 }
 
@@ -66,9 +67,18 @@ fn test_help_mentions_apm() {
 #[test]
 fn test_subcommand_help_works() {
     let output = run_apm_isolated(&["scan", "--help"]);
+    assert!(output.status.success(), "apm scan --help should exit 0");
+}
+
+#[test]
+fn test_install_help_mentions_version_flag() {
+    let output = run_apm_isolated(&["install", "--help"]);
+    assert!(output.status.success(), "apm install --help should exit 0");
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
     assert!(
-        output.status.success(),
-        "apm scan --help should exit 0"
+        stdout.contains("--version"),
+        "install help should mention --version, got: {stdout}"
     );
 }
 
@@ -133,8 +143,8 @@ fn test_scan_json_outputs_valid_json() {
 fn test_scan_json_outputs_array() {
     let output = run_apm_isolated(&["--json", "scan"]);
     let stdout = String::from_utf8_lossy(&output.stdout);
-    let value: serde_json::Value = serde_json::from_str(stdout.trim())
-        .expect("should parse as JSON");
+    let value: serde_json::Value =
+        serde_json::from_str(stdout.trim()).expect("should parse as JSON");
     assert!(
         value.is_array(),
         "apm --json scan should output a JSON array, got: {stdout}"
@@ -189,8 +199,8 @@ fn test_list_json_outputs_valid_json() {
 fn test_list_json_empty_state_outputs_empty_array() {
     let output = run_apm_isolated(&["--json", "list"]);
     let stdout = String::from_utf8_lossy(&output.stdout);
-    let value: serde_json::Value = serde_json::from_str(stdout.trim())
-        .expect("should parse as JSON");
+    let value: serde_json::Value =
+        serde_json::from_str(stdout.trim()).expect("should parse as JSON");
     assert!(
         value.is_array() && value.as_array().unwrap().is_empty(),
         "empty state should produce empty JSON array, got: {stdout}"
@@ -263,8 +273,8 @@ fn test_search_with_fixture_registry() {
     assert!(output.status.success());
 
     let stdout = String::from_utf8_lossy(&output.stdout);
-    let value: serde_json::Value = serde_json::from_str(stdout.trim())
-        .expect("should be valid JSON");
+    let value: serde_json::Value =
+        serde_json::from_str(stdout.trim()).expect("should be valid JSON");
     let arr = value.as_array().expect("should be array");
     assert_eq!(arr.len(), 3, "should find all 3 fixture plugins");
 }
@@ -293,8 +303,7 @@ fn test_search_with_query_matches_fixture() {
     assert!(output.status.success());
 
     let stdout = String::from_utf8_lossy(&output.stdout);
-    let value: serde_json::Value = serde_json::from_str(stdout.trim())
-        .expect("valid JSON");
+    let value: serde_json::Value = serde_json::from_str(stdout.trim()).expect("valid JSON");
     let arr = value.as_array().expect("array");
 
     // At least test-reverb should appear.
@@ -306,6 +315,457 @@ fn test_search_with_query_matches_fixture() {
     assert!(
         slugs.contains(&"test-reverb"),
         "test-reverb should appear in results, got: {slugs:?}"
+    );
+}
+
+#[test]
+fn test_info_json_with_fixture_registry_includes_available_versions() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let fixtures_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures");
+    let official_dir = tmp_cache.path().join("apm/registries/official");
+    std::fs::create_dir_all(&official_dir).expect("create official dir");
+    copy_dir_recursive(&fixtures_dir.join("plugins"), &official_dir.join("plugins"))
+        .expect("copy plugins");
+
+    let output = Command::new(apm_bin())
+        .args(["--json", "info", "test-synth"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(output.status.success());
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    let value: serde_json::Value = serde_json::from_str(stdout.trim()).expect("valid JSON");
+    let versions = value["available_versions"]
+        .as_array()
+        .expect("available_versions should be an array");
+    let versions: Vec<_> = versions.iter().filter_map(|v| v.as_str()).collect();
+
+    assert_eq!(versions, vec!["2.1.0", "2.0.0", "1.5.0"]);
+}
+
+#[test]
+fn test_install_dry_run_with_fixture_registry_can_select_historical_version() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let fixtures_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures");
+    let official_dir = tmp_cache.path().join("apm/registries/official");
+    std::fs::create_dir_all(&official_dir).expect("create official dir");
+    copy_dir_recursive(&fixtures_dir.join("plugins"), &official_dir.join("plugins"))
+        .expect("copy plugins");
+
+    let output = Command::new(apm_bin())
+        .args(["install", "test-synth", "--version", "1.5.0", "--dry-run"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(
+        output.status.success(),
+        "historical dry-run should succeed; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("v1.5.0"),
+        "dry-run should show the requested historical version, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_install_dry_run_with_fixture_registry_rejects_unknown_version() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let fixtures_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures");
+    let official_dir = tmp_cache.path().join("apm/registries/official");
+    std::fs::create_dir_all(&official_dir).expect("create official dir");
+    copy_dir_recursive(&fixtures_dir.join("plugins"), &official_dir.join("plugins"))
+        .expect("copy plugins");
+
+    let output = Command::new(apm_bin())
+        .args(["install", "test-synth", "--version", "9.9.9", "--dry-run"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(!output.status.success(), "unknown version should fail");
+
+    let stderr = String::from_utf8_lossy(&output.stderr);
+    assert!(
+        stderr.contains("Available versions"),
+        "error should list available versions, got: {stderr}"
+    );
+}
+
+#[test]
+fn test_outdated_with_fixture_registry_reports_latest_against_installed_historical_version() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let fixtures_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures");
+    let official_dir = tmp_cache.path().join("apm/registries/official");
+    std::fs::create_dir_all(&official_dir).expect("create official dir");
+    copy_dir_recursive(&fixtures_dir.join("plugins"), &official_dir.join("plugins"))
+        .expect("copy plugins");
+
+    let apm_data_dir = tmp_data.path().join("apm");
+    std::fs::create_dir_all(&apm_data_dir).expect("create data dir");
+    std::fs::write(
+        apm_data_dir.join("state.toml"),
+        r#"
+version = 1
+
+[[plugins]]
+name = "test-synth"
+version = "1.5.0"
+vendor = "Synth Vendor"
+installed_at = "2026-04-03T00:00:00Z"
+source = "official"
+pinned = false
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/TestSynth.vst3"
+sha256 = "deadbeef"
+"#,
+    )
+    .expect("write state");
+
+    let output = Command::new(apm_bin())
+        .args(["--json", "outdated"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(output.status.success(), "outdated should succeed");
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    let value: serde_json::Value = serde_json::from_str(stdout.trim()).expect("valid JSON");
+    let arr = value.as_array().expect("array");
+    assert_eq!(arr.len(), 1, "expected one outdated plugin");
+    assert_eq!(arr[0]["name"], "test-synth");
+    assert_eq!(arr[0]["installed_version"], "1.5.0");
+    assert_eq!(arr[0]["available_version"], "2.1.0");
+}
+
+#[test]
+fn test_import_dry_run_with_fixture_registry_preserves_exported_version() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let fixtures_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures");
+    let official_dir = tmp_cache.path().join("apm/registries/official");
+    std::fs::create_dir_all(&official_dir).expect("create official dir");
+    copy_dir_recursive(&fixtures_dir.join("plugins"), &official_dir.join("plugins"))
+        .expect("copy plugins");
+
+    let import_file = tmp_data.path().join("import.toml");
+    std::fs::write(
+        &import_file,
+        r#"
+[[plugins]]
+name = "test-synth"
+version = "1.5.0"
+formats = ["vst3"]
+source = "official"
+"#,
+    )
+    .expect("write import");
+
+    let output = Command::new(apm_bin())
+        .args(["import", import_file.to_str().unwrap(), "--dry-run"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(output.status.success(), "import dry-run should succeed");
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("test-synth v1.5.0"),
+        "import dry-run should preserve exported version, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_import_dry_run_prefers_exported_source_when_slug_exists_in_multiple_registries() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let config_dir = tmp_config.path().join("apm");
+    std::fs::create_dir_all(&config_dir).expect("create config dir");
+    std::fs::write(
+        config_dir.join("config.toml"),
+        r#"
+[[sources]]
+name = "community"
+url = "https://example.com/community.git"
+"#,
+    )
+    .expect("write config");
+
+    let official_dir = tmp_cache.path().join("apm/registries/official/plugins");
+    let community_dir = tmp_cache.path().join("apm/registries/community/plugins");
+    std::fs::create_dir_all(&official_dir).expect("create official plugins");
+    std::fs::create_dir_all(&community_dir).expect("create community plugins");
+
+    std::fs::write(
+        official_dir.join("shared-plugin.toml"),
+        r#"
+slug = "shared-plugin"
+name = "Shared Plugin"
+vendor = "Official Vendor"
+version = "1.0.0"
+description = "Official source release"
+category = "effects"
+license = "freeware"
+
+[formats.vst3]
+url = "https://example.com/official.zip"
+sha256 = "manual"
+install_type = "zip"
+"#,
+    )
+    .expect("write official plugin");
+
+    std::fs::write(
+        community_dir.join("shared-plugin.toml"),
+        r#"
+slug = "shared-plugin"
+name = "Shared Plugin"
+vendor = "Community Vendor"
+version = "2.0.0"
+description = "Community override"
+category = "effects"
+license = "freeware"
+
+[formats.vst3]
+url = "https://example.com/community.zip"
+sha256 = "manual"
+install_type = "zip"
+"#,
+    )
+    .expect("write community plugin");
+
+    let import_file = tmp_data.path().join("import.toml");
+    std::fs::write(
+        &import_file,
+        r#"
+[[plugins]]
+name = "shared-plugin"
+version = "1.0.0"
+formats = ["vst3"]
+source = "official"
+"#,
+    )
+    .expect("write import");
+
+    let output = Command::new(apm_bin())
+        .args(["import", import_file.to_str().unwrap(), "--dry-run"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(output.status.success(), "import dry-run should succeed");
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("shared-plugin v1.0.0"),
+        "import should prefer the exported source over the merged override, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_upgrade_dry_run_with_fixture_registry_uses_latest_against_installed_historical_version() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let fixtures_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures");
+    let official_dir = tmp_cache.path().join("apm/registries/official");
+    std::fs::create_dir_all(&official_dir).expect("create official dir");
+    copy_dir_recursive(&fixtures_dir.join("plugins"), &official_dir.join("plugins"))
+        .expect("copy plugins");
+
+    let apm_data_dir = tmp_data.path().join("apm");
+    std::fs::create_dir_all(&apm_data_dir).expect("create data dir");
+    std::fs::write(
+        apm_data_dir.join("state.toml"),
+        r#"
+version = 1
+
+[[plugins]]
+name = "test-synth"
+version = "1.5.0"
+vendor = "Synth Vendor"
+installed_at = "2026-04-03T00:00:00Z"
+source = "official"
+pinned = false
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/TestSynth.vst3"
+sha256 = "deadbeef"
+"#,
+    )
+    .expect("write state");
+
+    let output = Command::new(apm_bin())
+        .args(["upgrade", "test-synth", "--dry-run"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(output.status.success(), "upgrade dry-run should succeed");
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("1.5.0") && stdout.contains("2.1.0"),
+        "upgrade dry-run should compare installed historical version against latest, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_doctor_warns_when_managed_bundle_is_missing_from_disk() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let apm_data_dir = tmp_data.path().join("apm");
+    std::fs::create_dir_all(&apm_data_dir).expect("create data dir");
+    std::fs::write(
+        apm_data_dir.join("state.toml"),
+        r#"
+version = 1
+
+[[plugins]]
+name = "ghost-plugin"
+version = "1.0.0"
+vendor = "Ghost Audio"
+installed_at = "2026-04-04T00:00:00Z"
+source = "official"
+pinned = false
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/does-not-exist/Ghost.vst3"
+sha256 = "deadbeef"
+"#,
+    )
+    .expect("write state");
+
+    let output = Command::new(apm_bin())
+        .args(["doctor"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(output.status.success(), "doctor should exit successfully");
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("Managed installs"),
+        "doctor output should include managed install verification, got: {stdout}"
+    );
+    assert!(
+        stdout.contains("ghost-plugin") && stdout.contains("missing on disk"),
+        "doctor should report missing managed bundles, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_doctor_warns_when_plugin_source_is_not_configured() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let apm_data_dir = tmp_data.path().join("apm");
+    std::fs::create_dir_all(&apm_data_dir).expect("create data dir");
+    std::fs::write(
+        apm_data_dir.join("state.toml"),
+        r#"
+version = 1
+
+[[plugins]]
+name = "source-lost"
+version = "1.0.0"
+vendor = "Ghost Audio"
+installed_at = "2026-04-04T00:00:00Z"
+source = "community"
+pinned = false
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/source-lost.vst3"
+sha256 = "deadbeef"
+"#,
+    )
+    .expect("write state");
+
+    let output = Command::new(apm_bin())
+        .args(["doctor"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(output.status.success(), "doctor should exit successfully");
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("Registry provenance"),
+        "doctor output should include provenance verification, got: {stdout}"
+    );
+    assert!(
+        stdout.contains("unknown source 'community'"),
+        "doctor should report missing configured sources, got: {stdout}"
     );
 }
 
@@ -342,16 +802,21 @@ fn test_scan_json_each_entry_has_expected_fields() {
     // If there are plugins found, each entry should have at least name and format.
     let output = run_apm_isolated(&["--json", "scan"]);
     let stdout = String::from_utf8_lossy(&output.stdout);
-    let value: serde_json::Value = serde_json::from_str(stdout.trim())
-        .expect("valid JSON");
+    let value: serde_json::Value = serde_json::from_str(stdout.trim()).expect("valid JSON");
     let arr = value.as_array().expect("array");
 
     // If we have any results, validate structure.
     for entry in arr {
         assert!(entry.get("name").is_some(), "each entry should have 'name'");
-        assert!(entry.get("format").is_some(), "each entry should have 'format'");
+        assert!(
+            entry.get("format").is_some(),
+            "each entry should have 'format'"
+        );
         assert!(entry.get("path").is_some(), "each entry should have 'path'");
-        assert!(entry.get("managed_by_apm").is_some(), "each entry should have 'managed_by_apm'");
+        assert!(
+            entry.get("managed_by_apm").is_some(),
+            "each entry should have 'managed_by_apm'"
+        );
     }
 }
 

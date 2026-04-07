@@ -1,0 +1,21 @@
+slug        = "aegean-music-doppler-dome"
+name        = "Doppler Dome"
+vendor      = "Aegean Music"
+version     = "1.0"
+description = "Free Doppler effect simulation recreating pitch, volume, and panning changes of a moving sound source."
+category    = "effects"
+subcategory = "modulation"
+license     = "freeware"
+tags        = ["doppler", "modulation", "spatial", "free", "freeware"]
+homepage    = "https://aegeanmusic.com/"
+[formats.vst3]
+url          = "https://aegeanmusic.com/sitedownload/Doppler-Dome-Mac.dmg"
+sha256       = "73bca5f1e716cc8e335bdd32136f89cc9b7892ee60ce49223f1b81ac308feefa"
+install_type = "dmg"
+bundle_path  = "Doppler Dome.vst3"
+
+[formats.au]
+url          = "https://aegeanmusic.com/sitedownload/Doppler-Dome-Mac.dmg"
+sha256       = "73bca5f1e716cc8e335bdd32136f89cc9b7892ee60ce49223f1b81ac308feefa"
+install_type = "dmg"
+bundle_path  = "Doppler Dome.component"

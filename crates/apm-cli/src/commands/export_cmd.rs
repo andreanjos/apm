@@ -27,11 +27,7 @@ pub struct ExportDocument {
 
 // ── Entry point ───────────────────────────────────────────────────────────────
 
-pub async fn run(
-    config: &Config,
-    output: Option<&PathBuf>,
-    format: &str,
-) -> Result<()> {
+pub async fn run(config: &Config, output: Option<&PathBuf>, format: &str) -> Result<()> {
     let state = InstallState::load(config)?;
 
     let entries: Vec<ExportedPlugin> = state
@@ -52,8 +48,9 @@ pub async fn run(
     let doc = ExportDocument { plugins: entries };
 
     let content = match format {
-        "json" => serde_json::to_string_pretty(&doc)
-            .context("Failed to serialize plugin list as JSON")?,
+        "json" => {
+            serde_json::to_string_pretty(&doc).context("Failed to serialize plugin list as JSON")?
+        }
         _ => {
             // TOML with header comment.
             let mut out = String::from("# apm plugin export\n");
@@ -62,11 +59,8 @@ pub async fn run(
                 out.push_str(&format!("name = {:?}\n", plugin.name));
                 out.push_str(&format!("version = {:?}\n", plugin.version));
                 // Render formats as a TOML array.
-                let fmt_array: Vec<String> = plugin
-                    .formats
-                    .iter()
-                    .map(|f| format!("{f:?}"))
-                    .collect();
+                let fmt_array: Vec<String> =
+                    plugin.formats.iter().map(|f| format!("{f:?}")).collect();
                 out.push_str(&format!("formats = [{}]\n", fmt_array.join(", ")));
                 out.push_str(&format!("source = {:?}\n", plugin.source));
             }
@@ -78,7 +72,11 @@ pub async fn run(
         Some(path) => {
             std::fs::write(path, &content)
                 .with_context(|| format!("Failed to write export to {}", path.display()))?;
-            println!("Exported {} plugin(s) to {}", doc.plugins.len(), path.display());
+            println!(
+                "Exported {} plugin(s) to {}",
+                doc.plugins.len(),
+                path.display()
+            );
         }
         None => {
             print!("{content}");

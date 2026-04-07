@@ -19,7 +19,7 @@ use tracing::{debug, info};
 use apm_core::config::{Config, InstallScope};
 use apm_core::error::ApmError;
 use apm_core::registry::{FormatSource, InstallType, PluginDefinition, PluginFormat};
-use apm_core::state::{InstalledFormat, InstalledPlugin, InstallState};
+use apm_core::state::{InstallState, InstalledFormat, InstalledPlugin};
 
 // ── SHA256 placeholder detection ──────────────────────────────────────────────
 
@@ -27,9 +27,7 @@ use apm_core::state::{InstalledFormat, InstalledPlugin, InstallState};
 /// be treated as "no checksum available".
 fn is_placeholder_sha256(sha256: &str) -> bool {
     let s = sha256.trim();
-    s.is_empty()
-        || s.eq_ignore_ascii_case("manual")
-        || s.chars().all(|c| c == '0')
+    s.is_empty() || s.eq_ignore_ascii_case("manual") || s.chars().all(|c| c == '0')
 }
 
 // ── Public entry point ────────────────────────────────────────────────────────
@@ -153,13 +151,19 @@ pub async fn install_plugin(
         vendor: plugin.vendor.clone(),
         formats,
         installed_at: Utc::now(),
-        source: "official".to_owned(),
+        source: plugin
+            .source_name
+            .clone()
+            .unwrap_or_else(|| "official".to_owned()),
         pinned: false,
     };
 
     state.record_install(record);
     state.save(config).with_context(|| {
-        format!("Failed to save install state after installing '{}'", plugin.slug)
+        format!(
+            "Failed to save install state after installing '{}'",
+            plugin.slug
+        )
     })?;
 
     info!("Recorded '{}' in install state", plugin.slug);
@@ -246,46 +250,39 @@ async fn install_one_format(ctx: FormatInstallCtx<'_>) -> Result<PathBuf> {
             config,
         )
         .await
-        .with_context(|| {
-            format!(
-                "Failed to download {} archive for '{}'",
-                fmt, plugin.slug
-            )
-        })?;
+        .with_context(|| format!("Failed to download {} archive for '{}'", fmt, plugin.slug))?;
 
         archive_path
     };
 
     // ── Step 2: Extract + place ───────────────────────────────────────────────
 
-    println!(
-        "    {}: {}",
-        fmt_label.cyan(),
-        "Extracting...".dimmed()
-    );
+    println!("    {}: {}", fmt_label.cyan(), "Extracting...".dimmed());
 
     let bundle_path = match source.install_type {
         InstallType::Dmg => {
             debug!("Using DMG installer");
-            dmg::install_from_dmg(&archive_path, &dest_dir, fmt)
+            dmg::install_from_dmg(&archive_path, &dest_dir, fmt, source.bundle_path.as_deref())
                 .with_context(|| format!("DMG install failed for '{}' ({})", plugin.slug, fmt))?
         }
         InstallType::Pkg => {
             debug!("Using PKG installer");
-            let paths = pkg::install_from_pkg(&archive_path).with_context(|| {
-                format!("PKG install failed for '{}' ({})", plugin.slug, fmt)
-            })?;
-            // PKG installs to system paths; track the first bundle we found.
-            paths.into_iter().next().ok_or_else(|| ApmError::Install {
-                plugin: plugin.slug.clone(),
-                reason: "PKG installer ran but no plugin bundle was located afterward".to_owned(),
-                hint: "Check ~/Library/Audio/Plug-Ins/ and /Library/Audio/Plug-Ins/ manually."
-                    .to_owned(),
-            })?
+            let paths = pkg::install_from_pkg(&archive_path)
+                .with_context(|| format!("PKG install failed for '{}' ({})", plugin.slug, fmt))?;
+            // PKG installs to system paths; select the bundle that matches the
+            // requested format or expected bundle path.
+            pkg::select_installed_bundle(paths, fmt, source.bundle_path.as_deref()).map_err(
+                |error| ApmError::Install {
+                    plugin: plugin.slug.clone(),
+                    reason: error.to_string(),
+                    hint: "Check ~/Library/Audio/Plug-Ins/ and /Library/Audio/Plug-Ins/ manually."
+                        .to_owned(),
+                },
+            )?
         }
         InstallType::Zip => {
             debug!("Using ZIP installer");
-            zip::install_from_zip(&archive_path, &dest_dir, fmt)
+            zip::install_from_zip(&archive_path, &dest_dir, fmt, source.bundle_path.as_deref())
                 .with_context(|| format!("ZIP install failed for '{}' ({})", plugin.slug, fmt))?
         }
     };
@@ -355,7 +352,10 @@ fn rollback(installed: &[(PluginFormat, PathBuf)], plugin_slug: &str) {
     if installed.is_empty() {
         return;
     }
-    eprintln!("  {}", format!("Rolling back partial install of '{plugin_slug}'...").yellow());
+    eprintln!(
+        "  {}",
+        format!("Rolling back partial install of '{plugin_slug}'...").yellow()
+    );
     for (fmt, path) in installed {
         if path.exists() {
             if let Err(e) = std::fs::remove_dir_all(path) {
@@ -395,11 +395,21 @@ fn archive_filename(plugin: &PluginDefinition, fmt: PluginFormat, source: &Forma
             InstallType::Zip => "zip",
         });
 
-    format!("{}-{}-{}.{}", plugin.slug, plugin.version, fmt.to_string().to_lowercase(), ext)
+    format!(
+        "{}-{}-{}.{}",
+        plugin.slug,
+        plugin.version,
+        fmt.to_string().to_lowercase(),
+        ext
+    )
 }
 
 /// Build a per-format progress bar attached to the multi-progress container.
-fn build_format_progress_bar(mp: &MultiProgress, fmt_label: &str, total: Option<u64>) -> ProgressBar {
+fn build_format_progress_bar(
+    mp: &MultiProgress,
+    fmt_label: &str,
+    total: Option<u64>,
+) -> ProgressBar {
     let pb = if let Some(n) = total {
         mp.add(ProgressBar::new(n))
     } else {

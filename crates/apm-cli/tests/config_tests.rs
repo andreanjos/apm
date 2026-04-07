@@ -55,11 +55,11 @@ impl Default for Config {
 
 impl Config {
     fn resolved_data_dir(&self) -> PathBuf {
-        self.data_dir.clone().unwrap_or_else(|| data_dir())
+        self.data_dir.clone().unwrap_or_else(data_dir)
     }
 
     fn resolved_cache_dir(&self) -> PathBuf {
-        self.cache_dir.clone().unwrap_or_else(|| cache_dir())
+        self.cache_dir.clone().unwrap_or_else(cache_dir)
     }
 
     fn state_file(&self) -> PathBuf {
@@ -103,15 +103,14 @@ fn cache_dir() -> PathBuf {
 }
 
 fn load_config(path: &std::path::Path) -> anyhow::Result<Config> {
-    let raw = std::fs::read_to_string(path)
-        .map_err(|e| anyhow::anyhow!("Cannot read config: {e}"))?;
+    let raw =
+        std::fs::read_to_string(path).map_err(|e| anyhow::anyhow!("Cannot read config: {e}"))?;
     toml::from_str(&raw).map_err(|e| anyhow::anyhow!("TOML error: {e}"))
 }
 
 fn ensure_dir(path: &std::path::Path) -> anyhow::Result<()> {
     if !path.exists() {
-        std::fs::create_dir_all(path)
-            .map_err(|e| anyhow::anyhow!("Cannot create dir: {e}"))?;
+        std::fs::create_dir_all(path).map_err(|e| anyhow::anyhow!("Cannot create dir: {e}"))?;
     }
     Ok(())
 }
@@ -193,8 +192,10 @@ url = "https://github.com/user/my-registry"
 #[test]
 fn test_config_state_file_path() {
     let tmp = tempfile::tempdir().expect("create temp dir");
-    let mut config = Config::default();
-    config.data_dir = Some(tmp.path().to_path_buf());
+    let config = Config {
+        data_dir: Some(tmp.path().to_path_buf()),
+        ..Config::default()
+    };
 
     let state_file = config.state_file();
     assert_eq!(state_file, tmp.path().join("state.toml"));
@@ -203,8 +204,10 @@ fn test_config_state_file_path() {
 #[test]
 fn test_config_registries_cache_dir() {
     let tmp = tempfile::tempdir().expect("create temp dir");
-    let mut config = Config::default();
-    config.cache_dir = Some(tmp.path().to_path_buf());
+    let config = Config {
+        cache_dir: Some(tmp.path().to_path_buf()),
+        ..Config::default()
+    };
 
     let cache = config.registries_cache_dir();
     assert_eq!(cache, tmp.path().join("registries"));
@@ -213,8 +216,10 @@ fn test_config_registries_cache_dir() {
 #[test]
 fn test_config_downloads_cache_dir() {
     let tmp = tempfile::tempdir().expect("create temp dir");
-    let mut config = Config::default();
-    config.cache_dir = Some(tmp.path().to_path_buf());
+    let config = Config {
+        cache_dir: Some(tmp.path().to_path_buf()),
+        ..Config::default()
+    };
 
     let cache = config.downloads_cache_dir();
     assert_eq!(cache, tmp.path().join("downloads"));
@@ -255,8 +260,10 @@ fn test_xdg_cache_home_is_respected() {
 #[test]
 fn test_resolved_data_dir_uses_config_override() {
     let tmp = tempfile::tempdir().expect("create temp dir");
-    let mut config = Config::default();
-    config.data_dir = Some(tmp.path().to_path_buf());
+    let config = Config {
+        data_dir: Some(tmp.path().to_path_buf()),
+        ..Config::default()
+    };
 
     assert_eq!(config.resolved_data_dir(), tmp.path());
 }
@@ -264,8 +271,10 @@ fn test_resolved_data_dir_uses_config_override() {
 #[test]
 fn test_resolved_cache_dir_uses_config_override() {
     let tmp = tempfile::tempdir().expect("create temp dir");
-    let mut config = Config::default();
-    config.cache_dir = Some(tmp.path().to_path_buf());
+    let config = Config {
+        cache_dir: Some(tmp.path().to_path_buf()),
+        ..Config::default()
+    };
 
     assert_eq!(config.resolved_cache_dir(), tmp.path());
 }
@@ -341,7 +350,10 @@ fn test_config_serialization_round_trip() {
     std::fs::write(&config_path, &serialized).expect("write");
 
     let loaded = load_config(&config_path).expect("reload");
-    assert_eq!(loaded.default_registry_url, "https://custom.example.com/registry");
+    assert_eq!(
+        loaded.default_registry_url,
+        "https://custom.example.com/registry"
+    );
     assert_eq!(loaded.install_scope, InstallScope::System);
     assert_eq!(loaded.sources.len(), 1);
     assert_eq!(loaded.sources[0].name, "extra");
@@ -353,8 +365,11 @@ fn test_config_missing_optional_fields_uses_defaults() {
     let config_path = tmp.path().join("config.toml");
 
     // Minimal config — only registry URL specified.
-    std::fs::write(&config_path, "default_registry_url = \"https://example.com\"\n")
-        .expect("write");
+    std::fs::write(
+        &config_path,
+        "default_registry_url = \"https://example.com\"\n",
+    )
+    .expect("write");
 
     let config = load_config(&config_path).expect("load");
     assert_eq!(config.install_scope, InstallScope::User);

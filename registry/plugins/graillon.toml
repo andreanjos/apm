@@ -10,13 +10,13 @@ tags        = ["vocal", "pitch-correction", "pitch-shifter", "voice-changer", "f
 homepage    = "https://www.auburnsounds.com/products/Graillon.html"
 
 [formats.vst3]
-url          = "https://www.auburnsounds.com/products/Graillon.html"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.2.zip"
+sha256       = "d9ed254bd6ac89d5c5e670383dec2cb1acf43a72c62ebf2e4401d039ff6bda18"
 install_type = "zip"
 bundle_path  = "Graillon.vst3"
 
 [formats.au]
-url          = "https://www.auburnsounds.com/products/Graillon.html"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.2.zip"
+sha256       = "d9ed254bd6ac89d5c5e670383dec2cb1acf43a72c62ebf2e4401d039ff6bda18"
 install_type = "zip"
 bundle_path  = "Graillon.component"

@@ -10,13 +10,13 @@ tags        = ["reverb", "algorithmic", "vintage", "plate", "hall", "room", "fre
 homepage    = "https://www.voxengo.com/product/oldskoolverb/"
 
 [formats.vst3]
-url          = "https://www.voxengo.com/product/oldskoolverb/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://www.voxengo.com/files/VoxengoOldSkoolVerb_214_Mac_AU_AAX_VST_setup.dmg"
+sha256       = "f6ba1416e31d16d52becf8df7a602d9da22c5c015419fdada0ad8282f4ad2008"
 install_type = "dmg"
 bundle_path  = "VoxengoOldSkoolVerb.vst3"
 
 [formats.au]
-url          = "https://www.voxengo.com/product/oldskoolverb/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://www.voxengo.com/files/VoxengoOldSkoolVerb_214_Mac_AU_AAX_VST_setup.dmg"
+sha256       = "f6ba1416e31d16d52becf8df7a602d9da22c5c015419fdada0ad8282f4ad2008"
 install_type = "dmg"
 bundle_path  = "VoxengoOldSkoolVerb.component"

@@ -59,7 +59,8 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
             continue;
         };
 
-        let registry_version = &registry_plugin.version;
+        let latest_release = registry_plugin.latest_release();
+        let registry_version = &latest_release.version;
 
         // Check if registry version is newer using semver; fall back to string
         // comparison when versions are not valid semver.
@@ -108,7 +109,12 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     }
 
     // Calculate column widths.
-    let col_name = outdated.iter().map(|e| e.name.len()).max().unwrap_or(6).max(6);
+    let col_name = outdated
+        .iter()
+        .map(|e| e.name.len())
+        .max()
+        .unwrap_or(6)
+        .max(6);
     let col_inst = outdated
         .iter()
         .map(|e| e.installed.len())
@@ -127,7 +133,9 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
         "{}",
         format!(
             "{:<col_name$}  {:<col_inst$}  {:<col_avail$}  Status",
-            "Plugin", "Installed", "Available",
+            "Plugin",
+            "Installed",
+            "Available",
             col_name = col_name,
             col_inst = col_inst,
             col_avail = col_avail,

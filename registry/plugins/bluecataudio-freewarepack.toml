@@ -1,0 +1,20 @@
+slug        = "bluecataudio-freewarepack"
+name        = "Blue Cat Freeware Pack"
+vendor      = "Blue Cat Audio"
+version     = "2024.09"
+description = "Bundle of 8 free plugins including Chorus, Flanger, Free Amp, FreqAnalyst, Gain Suite, Phaser, and Triple EQ."
+category    = "effects"
+subcategory = "bundle"
+license     = "freeware"
+tags        = ["bundle", "effects", "chorus", "flanger", "analyzer", "free", "freeware"]
+homepage    = "https://www.bluecataudio.com/Products/Bundle_FreewarePack/"
+
+[formats.vst3]
+url          = "https://www.bluecataudio.com/Vault/Products/Bundle_FreewarePack/BlueCatFreewarePackAU.dmg"
+sha256       = "5227014db9b7ecb7c04e5a3fe1dbe6d30890f1be1799fc7a83c7f1cc25743a55"
+install_type = "dmg"
+
+[formats.au]
+url          = "https://www.bluecataudio.com/Vault/Products/Bundle_FreewarePack/BlueCatFreewarePackAU.dmg"
+sha256       = "5227014db9b7ecb7c04e5a3fe1dbe6d30890f1be1799fc7a83c7f1cc25743a55"
+install_type = "dmg"

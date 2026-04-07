@@ -20,3 +20,33 @@ url = "https://example.com/test-synth-au.zip"
 sha256 = "def457"
 install_type = "zip"
 bundle_path = "TestSynth.component"
+
+[[releases]]
+version = "2.0.0"
+
+[releases.formats.vst3]
+url = "https://example.com/test-synth-2.0.0.zip"
+sha256 = "def400"
+install_type = "zip"
+bundle_path = "TestSynth.vst3"
+
+[releases.formats.au]
+url = "https://example.com/test-synth-2.0.0-au.zip"
+sha256 = "def401"
+install_type = "zip"
+bundle_path = "TestSynth.component"
+
+[[releases]]
+version = "1.5.0"
+
+[releases.formats.vst3]
+url = "https://example.com/test-synth-1.5.0.zip"
+sha256 = "def300"
+install_type = "zip"
+bundle_path = "TestSynth.vst3"
+
+[releases.formats.au]
+url = "https://example.com/test-synth-1.5.0-au.zip"
+sha256 = "def301"
+install_type = "zip"
+bundle_path = "TestSynth.component"

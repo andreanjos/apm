@@ -83,7 +83,10 @@ pub async fn run(config: &Config, name: Option<&str>, unpin: bool, list: bool) -
             p.pinned = true;
         }
         state.save(config)?;
-        println!("{}", format!("Pinned {} at v{}", plugin.name, plugin.version).yellow());
+        println!(
+            "{}",
+            format!("Pinned {} at v{}", plugin.name, plugin.version).yellow()
+        );
     }
 
     Ok(())

@@ -1,0 +1,21 @@
+slug        = "acon-digital-multiply"
+name        = "Acon Digital Multiply"
+vendor      = "Acon Digital"
+version     = "1.3.1"
+description = "Free chorus plugin with up to 6 voices and phase randomization to avoid comb filtering artifacts."
+category    = "effects"
+subcategory = "chorus"
+license     = "freeware"
+tags        = ["chorus", "modulation", "doubling", "free", "freeware"]
+homepage    = "https://acondigital.com/products/multiply/"
+[formats.vst3]
+url          = "https://acondigital.com/software/Multiply_macOS_1_3_1.pkg.zip"
+sha256       = "1b74270fb038381749d64996d92e6f9d95b13df855b75318405f0cc6e9b7f3ea"
+install_type = "zip"
+bundle_path  = "Multiply.vst3"
+
+[formats.au]
+url          = "https://acondigital.com/software/Multiply_macOS_1_3_1.pkg.zip"
+sha256       = "1b74270fb038381749d64996d92e6f9d95b13df855b75318405f0cc6e9b7f3ea"
+install_type = "zip"
+bundle_path  = "Multiply.component"

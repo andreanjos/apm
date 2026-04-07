@@ -38,7 +38,10 @@ pub async fn run(config: &Config) -> Result<()> {
                 );
             }
             Err(e) => {
-                eprintln!("{}", format!("Failed to sync registry '{}': {e}", source.name).red());
+                eprintln!(
+                    "{}",
+                    format!("Failed to sync registry '{}': {e}", source.name).red()
+                );
                 any_error = true;
             }
         }

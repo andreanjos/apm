@@ -1,0 +1,22 @@
+slug        = "socalabs-sn76489"
+name        = "SocaLabs SN76489"
+vendor      = "SocaLabs"
+version     = "1.1.0"
+description = "Free Sega Master System Texas Instruments SN76489 chip emulation with 3 square wave channels and 1 noise channel."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "GPL-3.0"
+tags        = ["synth", "retro", "chiptune", "sega", "8-bit", "free", "open-source"]
+homepage    = "https://socalabs.com/synths/sn76489/"
+
+[formats.vst3]
+url          = "https://socalabs.com/files/get.php?id=SN76489_Mac.zip"
+sha256       = "b483d3a98f458ae764464f4efd1e0a4832edc2c79c59419977ddbd569ba212fa"
+install_type = "zip"
+bundle_path  = "vst3/SN76489.vst3"
+
+[formats.au]
+url          = "https://socalabs.com/files/get.php?id=SN76489_Mac.zip"
+sha256       = "b483d3a98f458ae764464f4efd1e0a4832edc2c79c59419977ddbd569ba212fa"
+install_type = "zip"
+bundle_path  = "au/SN76489.component"

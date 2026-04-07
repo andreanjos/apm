@@ -1,0 +1,21 @@
+slug        = "fullbucket-scrooo"
+name        = "The Scrooo"
+vendor      = "Full Bucket Music"
+version     = "2.0.4"
+description = "Free spectral formant synthesizer with three formant generators, up to 64-voice polyphony, and micro-tuning support."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "freeware"
+tags        = ["synth", "synthesizer", "formant", "spectral", "free", "freeware"]
+homepage    = "https://www.fullbucket.de/music/scrooo.html"
+[formats.vst3]
+url          = "https://www.fullbucket.de/music/dl.php?file=scrooo_2_0_4_mac"
+sha256       = "53fbe9bb1bd84e2bbab3481334583e2b9e27c7d517fbf75bd16093aecf3b69de"
+install_type = "pkg"
+bundle_path  = "TheScrooo.vst3"
+
+[formats.au]
+url          = "https://www.fullbucket.de/music/dl.php?file=scrooo_2_0_4_mac"
+sha256       = "53fbe9bb1bd84e2bbab3481334583e2b9e27c7d517fbf75bd16093aecf3b69de"
+install_type = "pkg"
+bundle_path  = "TheScrooo.component"

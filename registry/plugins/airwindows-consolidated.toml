@@ -10,13 +10,13 @@ tags        = ["effects", "bundle", "console", "saturation", "vintage", "lo-fi",
 homepage    = "https://www.airwindows.com/consolidated/"
 
 [formats.vst3]
-url          = "https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/airwindows-consolidated-macOS-2026-03-30-335eb49.dmg"
+url          = "https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/airwindows-consolidated-macOS-2026-04-04-ad5e79d.dmg"
 sha256       = "3f52f6a60167036d9065d44149736066a956ce24c7c3a0d8dd7ab296eaeb9d1e"
 install_type = "dmg"
 bundle_path  = "AirwindowsConsolidated.vst3"
 
 [formats.au]
-url          = "https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/airwindows-consolidated-macOS-2026-03-30-335eb49.dmg"
+url          = "https://github.com/baconpaul/airwin2rack/releases/download/DAWPlugin/airwindows-consolidated-macOS-2026-04-04-ad5e79d.dmg"
 sha256       = "3f52f6a60167036d9065d44149736066a956ce24c7c3a0d8dd7ab296eaeb9d1e"
 install_type = "dmg"
 bundle_path  = "AirwindowsConsolidated.component"

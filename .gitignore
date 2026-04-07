@@ -1,1 +1,7 @@
 target/
+.env
+.env.*
+!.env.example
+.sqlx/
+.planning/
+autoresearch-results.tsv

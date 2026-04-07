@@ -11,12 +11,12 @@ homepage    = "https://valhalladsp.com/shop/delay/valhalla-freq-echo/"
 
 [formats.vst3]
 url          = "https://valhallaproduction.s3.us-west-2.amazonaws.com/freqecho/ValhallaFreqEchoOSX_1_2_8.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "7e8681bd90fe7c1ef5b82a87c5d90bd1051980c256b0bd9424ea9cbfc53a9bdc"
 install_type = "dmg"
 bundle_path  = "ValhallaFreqEcho.vst3"
 
 [formats.au]
 url          = "https://valhallaproduction.s3.us-west-2.amazonaws.com/freqecho/ValhallaFreqEchoOSX_1_2_8.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "7e8681bd90fe7c1ef5b82a87c5d90bd1051980c256b0bd9424ea9cbfc53a9bdc"
 install_type = "dmg"
 bundle_path  = "ValhallaFreqEcho.component"

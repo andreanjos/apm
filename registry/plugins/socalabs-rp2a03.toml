@@ -1,0 +1,22 @@
+slug        = "socalabs-rp2a03"
+name        = "SocaLabs RP2A03"
+vendor      = "SocaLabs"
+version     = "1.1.0"
+description = "Free NES Ricoh 2A03 chip emulation with 2 square wave channels, 1 triangle channel, 1 noise channel, and waveform display."
+category    = "instruments"
+subcategory = "synthesizer"
+license     = "GPL-3.0"
+tags        = ["synth", "retro", "chiptune", "nes", "nintendo", "8-bit", "free", "open-source"]
+homepage    = "https://socalabs.com/synths/rp2a03/"
+
+[formats.vst3]
+url          = "https://socalabs.com/files/get.php?id=RP2A03_Mac.zip"
+sha256       = "1d5611ec1c424c47943a1b8456722a40dc65871985dc868cc63cc5bdbc0eaf3f"
+install_type = "zip"
+bundle_path  = "vst3/RP2A03.vst3"
+
+[formats.au]
+url          = "https://socalabs.com/files/get.php?id=RP2A03_Mac.zip"
+sha256       = "1d5611ec1c424c47943a1b8456722a40dc65871985dc868cc63cc5bdbc0eaf3f"
+install_type = "zip"
+bundle_path  = "au/RP2A03.component"

@@ -89,7 +89,10 @@ impl InstallState {
     /// Load state from an explicit path.
     pub fn load_from(path: &Path) -> Result<Self> {
         if !path.exists() {
-            debug!("State file not found at {}; starting with empty state.", path.display());
+            debug!(
+                "State file not found at {}; starting with empty state.",
+                path.display()
+            );
             return Ok(Self::default());
         }
 
@@ -124,8 +127,8 @@ impl InstallState {
                 .with_context(|| format!("Cannot create data directory: {}", parent.display()))?;
         }
 
-        let content = toml::to_string_pretty(self)
-            .context("Failed to serialise install state to TOML")?;
+        let content =
+            toml::to_string_pretty(self).context("Failed to serialise install state to TOML")?;
 
         // Atomic write: write to a sibling temp file, then rename.
         let tmp_path = path.with_extension("toml.tmp");

@@ -99,9 +99,7 @@ fn sanitize_version(raw: &str) -> String {
 #[test]
 fn test_empty_directory_has_no_entries() {
     let tmp = tempfile::tempdir().expect("create temp dir");
-    let entries: Vec<_> = fs::read_dir(tmp.path())
-        .expect("read dir")
-        .collect();
+    let entries: Vec<_> = fs::read_dir(tmp.path()).expect("read dir").collect();
     assert!(entries.is_empty(), "temp dir should start empty");
 }
 
@@ -111,7 +109,12 @@ fn test_empty_directory_has_no_entries() {
 fn test_vst3_bundle_structure_with_valid_plist() {
     let tmp = tempfile::tempdir().expect("create temp dir");
     let bundle_dir = tmp.path().join("TestPlugin.vst3");
-    write_info_plist(&bundle_dir, "Test Plugin", "1.0.0", "com.testvendor.testplugin");
+    write_info_plist(
+        &bundle_dir,
+        "Test Plugin",
+        "1.0.0",
+        "com.testvendor.testplugin",
+    );
 
     assert!(bundle_dir.exists());
     assert!(bundle_dir.is_dir());
@@ -173,7 +176,10 @@ fn test_plist_can_be_parsed_with_expected_fields() {
     let value = plist::Value::from_file(&plist_path).expect("parse plist");
     let dict = value.as_dictionary().expect("plist should be a dict");
 
-    let name = dict.get("CFBundleName").and_then(|v| v.as_string()).unwrap_or("");
+    let name = dict
+        .get("CFBundleName")
+        .and_then(|v| v.as_string())
+        .unwrap_or("");
     assert_eq!(name, "My Plugin");
 
     let version = dict
@@ -267,7 +273,7 @@ fn test_au_plist_audio_components_name_without_colon_is_vendor() {
 "#;
     fs::write(contents_dir.join("Info.plist"), plist).expect("write");
 
-    let value = plist::Value::from_file(&contents_dir.join("Info.plist")).expect("parse");
+    let value = plist::Value::from_file(contents_dir.join("Info.plist")).expect("parse");
     let dict = value.as_dictionary().unwrap();
 
     let au_name = dict
@@ -403,7 +409,10 @@ fn test_bundle_with_plist_is_detected() {
     write_info_plist(&bundle_dir, "With Plist", "1.0.0", "com.test.withplist");
 
     let plist_path = bundle_dir.join("Contents/Info.plist");
-    assert!(plist_path.exists(), "Info.plist should exist in test bundle");
+    assert!(
+        plist_path.exists(),
+        "Info.plist should exist in test bundle"
+    );
 }
 
 // ── Directory walking ─────────────────────────────────────────────────────────
@@ -413,8 +422,18 @@ fn test_walk_dir_finds_vst3_bundles() {
     let tmp = tempfile::tempdir().expect("create temp dir");
 
     // Create two VST3 bundles and one non-plugin directory.
-    write_info_plist(&tmp.path().join("Alpha.vst3"), "Alpha", "1.0", "com.test.alpha");
-    write_info_plist(&tmp.path().join("Beta.vst3"), "Beta", "2.0", "com.test.beta");
+    write_info_plist(
+        &tmp.path().join("Alpha.vst3"),
+        "Alpha",
+        "1.0",
+        "com.test.alpha",
+    );
+    write_info_plist(
+        &tmp.path().join("Beta.vst3"),
+        "Beta",
+        "2.0",
+        "com.test.beta",
+    );
     fs::create_dir_all(tmp.path().join("not-a-plugin.app/Contents")).unwrap();
 
     let vst3_bundles: Vec<_> = walkdir::WalkDir::new(tmp.path())
@@ -423,9 +442,7 @@ fn test_walk_dir_finds_vst3_bundles() {
         .into_iter()
         .filter_map(|e| e.ok())
         .filter(|e| e.path().is_dir())
-        .filter(|e| {
-            e.path().extension().and_then(|x| x.to_str()) == Some("vst3")
-        })
+        .filter(|e| e.path().extension().and_then(|x| x.to_str()) == Some("vst3"))
         .collect();
 
     assert_eq!(vst3_bundles.len(), 2);
@@ -437,7 +454,11 @@ fn test_walk_dir_finds_component_bundles() {
 
     write_au_info_plist(
         &tmp.path().join("PlugA.component"),
-        "PlugA", "1.0", "com.test.pluga", "Vendor", "PlugA",
+        "PlugA",
+        "1.0",
+        "com.test.pluga",
+        "Vendor",
+        "PlugA",
     );
 
     let component_bundles: Vec<_> = walkdir::WalkDir::new(tmp.path())
@@ -446,9 +467,7 @@ fn test_walk_dir_finds_component_bundles() {
         .into_iter()
         .filter_map(|e| e.ok())
         .filter(|e| e.path().is_dir())
-        .filter(|e| {
-            e.path().extension().and_then(|x| x.to_str()) == Some("component")
-        })
+        .filter(|e| e.path().extension().and_then(|x| x.to_str()) == Some("component"))
         .collect();
 
     assert_eq!(component_bundles.len(), 1);
@@ -457,7 +476,12 @@ fn test_walk_dir_finds_component_bundles() {
 #[test]
 fn test_walk_dir_does_not_recurse_into_bundle_contents() {
     let tmp = tempfile::tempdir().expect("create temp dir");
-    write_info_plist(&tmp.path().join("Plugin.vst3"), "Plugin", "1.0", "com.test.plugin");
+    write_info_plist(
+        &tmp.path().join("Plugin.vst3"),
+        "Plugin",
+        "1.0",
+        "com.test.plugin",
+    );
 
     // At depth 1, we should only see Plugin.vst3, not its Contents/ subdir.
     let depth1_entries: Vec<_> = walkdir::WalkDir::new(tmp.path())
@@ -469,7 +493,10 @@ fn test_walk_dir_does_not_recurse_into_bundle_contents() {
 
     assert_eq!(depth1_entries.len(), 1);
     assert_eq!(
-        depth1_entries[0].path().file_name().and_then(|n| n.to_str()),
+        depth1_entries[0]
+            .path()
+            .file_name()
+            .and_then(|n| n.to_str()),
         Some("Plugin.vst3")
     );
 }

@@ -27,7 +27,10 @@ fn run_list(config: &Config) -> Result<()> {
 
     if entries.is_empty() {
         println!("No backups found.");
-        println!("Backups are created automatically during upgrades.");
+        println!("Backups are local snapshots created automatically during upgrades.");
+        println!(
+            "`apm rollback` restores the latest local backup, not an arbitrary registry version."
+        );
         return Ok(());
     }
 
@@ -47,7 +50,7 @@ fn run_list(config: &Config) -> Result<()> {
 
     println!();
     println!(
-        "Restore a backup with: {}",
+        "Restore the latest local backup with: {}",
         "apm rollback <plugin>".bold()
     );
 
@@ -63,11 +66,9 @@ async fn run_restore(config: &Config, slug: &str) -> Result<()> {
     let entry = match entry {
         Some(e) => e,
         None => {
-            println!(
-                "No backup found for '{}'.",
-                slug.bold()
-            );
-            println!("Backups are created automatically during upgrades.");
+            println!("No backup found for '{}'.", slug.bold());
+            println!("Backups are local snapshots created automatically during upgrades.");
+            println!("Use `apm install <plugin> --version <x.y.z>` for registry-backed historical installs.");
             return Ok(());
         }
     };

@@ -26,10 +26,7 @@ pub async fn run(config: &Config, dry_run: bool) -> Result<()> {
         .filter_map(|e| e.ok())
     {
         if entry.file_type().is_file() {
-            let len = entry
-                .metadata()
-                .map(|m| m.len())
-                .unwrap_or(0);
+            let len = entry.metadata().map(|m| m.len()).unwrap_or(0);
             total_bytes += len;
             files.push(entry.into_path());
         }
@@ -116,7 +113,10 @@ fn remove_empty_dirs(dir: &std::path::Path) {
 
     for d in dirs.into_iter().rev() {
         // Only remove if the directory is now empty.
-        if d.read_dir().map(|mut r| r.next().is_none()).unwrap_or(false) {
+        if d.read_dir()
+            .map(|mut r| r.next().is_none())
+            .unwrap_or(false)
+        {
             let _ = std::fs::remove_dir(&d);
         }
     }

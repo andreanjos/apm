@@ -34,6 +34,12 @@ struct FormatSource {
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
+struct PluginRelease {
+    version: String,
+    formats: HashMap<PluginFormat, FormatSource>,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
 struct PluginDefinition {
     slug: String,
     name: String,
@@ -46,6 +52,8 @@ struct PluginDefinition {
     #[serde(default)]
     tags: Vec<String>,
     formats: HashMap<PluginFormat, FormatSource>,
+    #[serde(default)]
+    releases: Vec<PluginRelease>,
     homepage: Option<String>,
 }
 
@@ -57,7 +65,9 @@ struct Registry {
 
 impl Registry {
     fn new() -> Self {
-        Self { plugins: HashMap::new() }
+        Self {
+            plugins: HashMap::new(),
+        }
     }
 
     fn load_from_cache(cache_dir: &Path) -> anyhow::Result<Self> {
@@ -87,7 +97,9 @@ impl Registry {
             return Some(p);
         }
         let lower = slug.to_lowercase();
-        self.plugins.values().find(|p| p.slug.to_lowercase() == lower)
+        self.plugins
+            .values()
+            .find(|p| p.slug.to_lowercase() == lower)
     }
 
     fn len(&self) -> usize {
@@ -166,24 +178,24 @@ fn fixtures_dir() -> PathBuf {
 
 #[test]
 fn test_load_registry_from_fixture_directory() {
-    let registry = Registry::load_from_cache(&fixtures_dir())
-        .expect("should load registry from fixtures");
+    let registry =
+        Registry::load_from_cache(&fixtures_dir()).expect("should load registry from fixtures");
     assert_eq!(registry.len(), 3, "expected 3 fixture plugins");
 }
 
 #[test]
 fn test_registry_not_empty_after_load() {
-    let registry = Registry::load_from_cache(&fixtures_dir())
-        .expect("should load registry");
+    let registry = Registry::load_from_cache(&fixtures_dir()).expect("should load registry");
     assert!(!registry.is_empty());
 }
 
 #[test]
 fn test_load_single_plugin_toml() {
-    let registry = Registry::load_from_cache(&fixtures_dir())
-        .expect("should load registry");
+    let registry = Registry::load_from_cache(&fixtures_dir()).expect("should load registry");
 
-    let plugin = registry.find("test-reverb").expect("test-reverb should exist");
+    let plugin = registry
+        .find("test-reverb")
+        .expect("test-reverb should exist");
     assert_eq!(plugin.slug, "test-reverb");
     assert_eq!(plugin.name, "Test Reverb");
     assert_eq!(plugin.vendor, "Test Vendor");
@@ -196,36 +208,56 @@ fn test_load_single_plugin_toml() {
 
 #[test]
 fn test_load_synth_plugin_has_two_formats() {
-    let registry = Registry::load_from_cache(&fixtures_dir())
-        .expect("should load registry");
+    let registry = Registry::load_from_cache(&fixtures_dir()).expect("should load registry");
 
-    let plugin = registry.find("test-synth").expect("test-synth should exist");
-    assert_eq!(plugin.formats.len(), 2, "test-synth should have VST3 and AU formats");
+    let plugin = registry
+        .find("test-synth")
+        .expect("test-synth should exist");
+    assert_eq!(
+        plugin.formats.len(),
+        2,
+        "test-synth should have VST3 and AU formats"
+    );
+}
+
+#[test]
+fn test_load_synth_plugin_release_history() {
+    let registry = Registry::load_from_cache(&fixtures_dir()).expect("should load registry");
+
+    let plugin = registry
+        .find("test-synth")
+        .expect("test-synth should exist");
+
+    assert_eq!(plugin.releases.len(), 2, "expected two historical releases");
+    assert_eq!(plugin.releases[0].version, "2.0.0");
+    assert_eq!(plugin.releases[1].version, "1.5.0");
 }
 
 #[test]
 fn test_load_compressor_plugin() {
-    let registry = Registry::load_from_cache(&fixtures_dir())
-        .expect("should load registry");
+    let registry = Registry::load_from_cache(&fixtures_dir()).expect("should load registry");
 
-    let plugin = registry.find("test-compressor").expect("test-compressor should exist");
+    let plugin = registry
+        .find("test-compressor")
+        .expect("test-compressor should exist");
     assert_eq!(plugin.vendor, "Dynamics Corp");
     assert_eq!(plugin.category, "effects");
 }
 
 #[test]
 fn test_registry_find_nonexistent_returns_none() {
-    let registry = Registry::load_from_cache(&fixtures_dir())
-        .expect("should load registry");
+    let registry = Registry::load_from_cache(&fixtures_dir()).expect("should load registry");
     assert!(registry.find("does-not-exist").is_none());
 }
 
 #[test]
 fn test_registry_find_case_insensitive() {
-    let registry = Registry::load_from_cache(&fixtures_dir())
-        .expect("should load registry");
+    let registry = Registry::load_from_cache(&fixtures_dir()).expect("should load registry");
     let plugin = registry.find("TEST-REVERB");
-    assert!(plugin.is_some(), "case-insensitive find should work for TEST-REVERB");
+    assert!(
+        plugin.is_some(),
+        "case-insensitive find should work for TEST-REVERB"
+    );
 }
 
 #[test]
@@ -234,8 +266,8 @@ fn test_load_empty_plugins_directory_returns_empty_registry() {
     // Create an empty plugins/ sub-directory (what load_from_cache expects).
     std::fs::create_dir(tmp.path().join("plugins")).unwrap();
 
-    let registry = Registry::load_from_cache(tmp.path())
-        .expect("should succeed even with empty dir");
+    let registry =
+        Registry::load_from_cache(tmp.path()).expect("should succeed even with empty dir");
     assert!(registry.is_empty());
     assert_eq!(registry.len(), 0);
 }
@@ -243,8 +275,7 @@ fn test_load_empty_plugins_directory_returns_empty_registry() {
 #[test]
 fn test_load_nonexistent_directory_returns_empty_registry() {
     let path = PathBuf::from("/tmp/apm-test-nonexistent-registry-dir-xyz");
-    let registry = Registry::load_from_cache(&path)
-        .expect("should succeed with nonexistent dir");
+    let registry = Registry::load_from_cache(&path).expect("should succeed with nonexistent dir");
     assert!(registry.is_empty());
 }
 
@@ -282,7 +313,10 @@ fn test_search_by_name() {
 fn test_search_by_vendor() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
     let results = search(&registry, "Dynamics Corp", None, None);
-    assert!(!results.is_empty(), "should find results for vendor 'Dynamics Corp'");
+    assert!(
+        !results.is_empty(),
+        "should find results for vendor 'Dynamics Corp'"
+    );
     assert!(results.iter().any(|p| p.slug == "test-compressor"));
 }
 
@@ -290,7 +324,10 @@ fn test_search_by_vendor() {
 fn test_search_by_tag() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
     let results = search(&registry, "synthesizer", None, None);
-    assert!(!results.is_empty(), "should find results for tag 'synthesizer'");
+    assert!(
+        !results.is_empty(),
+        "should find results for tag 'synthesizer'"
+    );
     assert!(results.iter().any(|p| p.slug == "test-synth"));
 }
 
@@ -314,7 +351,10 @@ fn test_search_with_category_filter_instruments() {
 fn test_search_no_results() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
     let results = search(&registry, "zyxwvutsrqponmlkjihgfedcba", None, None);
-    assert!(results.is_empty(), "should find no results for gibberish query");
+    assert!(
+        results.is_empty(),
+        "should find no results for gibberish query"
+    );
 }
 
 #[test]
@@ -323,7 +363,11 @@ fn test_search_case_insensitive() {
     let results_lower = search(&registry, "reverb", None, None);
     let results_upper = search(&registry, "REVERB", None, None);
     let results_mixed = search(&registry, "ReVerb", None, None);
-    assert_eq!(results_lower.len(), results_upper.len(), "search should be case-insensitive");
+    assert_eq!(
+        results_lower.len(),
+        results_upper.len(),
+        "search should be case-insensitive"
+    );
     assert_eq!(results_lower.len(), results_mixed.len());
 }
 
@@ -331,7 +375,11 @@ fn test_search_case_insensitive() {
 fn test_search_empty_query_returns_all() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
     let results = search(&registry, "", None, None);
-    assert_eq!(results.len(), registry.len(), "empty query should return all plugins");
+    assert_eq!(
+        results.len(),
+        registry.len(),
+        "empty query should return all plugins"
+    );
 }
 
 #[test]
@@ -361,7 +409,10 @@ fn test_search_by_subcategory() {
 fn test_reverb_plugin_vst3_format_has_correct_url() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
     let plugin = registry.find("test-reverb").unwrap();
-    let vst3 = plugin.formats.get(&PluginFormat::Vst3).expect("should have VST3 format");
+    let vst3 = plugin
+        .formats
+        .get(&PluginFormat::Vst3)
+        .expect("should have VST3 format");
     assert_eq!(vst3.url, "https://example.com/test-reverb.zip");
     assert_eq!(vst3.sha256, "abc123");
     assert_eq!(vst3.install_type, InstallType::Zip);

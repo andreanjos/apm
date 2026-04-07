@@ -11,12 +11,12 @@ homepage    = "https://xferrecords.com/freeware"
 
 [formats.vst3]
 url          = "https://xferrecords.com/product_downloads/24/freeware"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "fe1d10b79445c44a32f365fcbf2a420a2133ae205c8d75f09ba703c7dd42ec54"
 install_type = "dmg"
 bundle_path  = "OTT.vst3"
 
 [formats.au]
 url          = "https://xferrecords.com/product_downloads/24/freeware"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "fe1d10b79445c44a32f365fcbf2a420a2133ae205c8d75f09ba703c7dd42ec54"
 install_type = "dmg"
 bundle_path  = "OTT.component"

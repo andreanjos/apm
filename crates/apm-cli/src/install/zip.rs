@@ -10,12 +10,15 @@ use walkdir::WalkDir;
 use apm_core::error::ApmError;
 use apm_core::registry::PluginFormat;
 
+use super::pkg;
+
 /// Extract `zip_path`, find the `.component` or `.vst3` bundle for `format`,
 /// copy it to `dest_dir`, and return the path to the installed bundle.
 pub fn install_from_zip(
     zip_path: &Path,
     dest_dir: &Path,
     format: PluginFormat,
+    expected_bundle_path: Option<&str>,
 ) -> Result<PathBuf> {
     info!("Extracting ZIP: {}", zip_path.display());
 
@@ -46,6 +49,28 @@ pub fn install_from_zip(
         .collect();
 
     if bundles.is_empty() {
+        if let Some(pkg_path) = pkg::find_pkg_in_dir(tmp_dir.path()) {
+            let installed = pkg::install_from_pkg(&pkg_path).with_context(|| {
+                format!(
+                    "ZIP archive contained a PKG installer at {}",
+                    pkg_path.display()
+                )
+            })?;
+
+            return pkg::select_installed_bundle(installed, format, expected_bundle_path).map_err(
+                |error| {
+                    ApmError::Install {
+                        plugin: zip_path.display().to_string(),
+                        reason: error.to_string(),
+                        hint:
+                            "Check ~/Library/Audio/Plug-Ins/ and /Library/Audio/Plug-Ins/ manually."
+                                .to_owned(),
+                    }
+                    .into()
+                },
+            );
+        }
+
         return Err(ApmError::Install {
             plugin: zip_path.display().to_string(),
             reason: format!("No .{extension} bundle found inside the ZIP archive"),
@@ -101,9 +126,8 @@ fn extract_zip(zip_path: &Path, dest: &Path) -> Result<()> {
         let out_path = dest.join(&entry_path);
 
         if entry.is_dir() {
-            std::fs::create_dir_all(&out_path).with_context(|| {
-                format!("Cannot create directory: {}", out_path.display())
-            })?;
+            std::fs::create_dir_all(&out_path)
+                .with_context(|| format!("Cannot create directory: {}", out_path.display()))?;
         } else {
             if let Some(parent) = out_path.parent() {
                 std::fs::create_dir_all(parent)
@@ -149,9 +173,8 @@ fn copy_bundle(bundle_src: &Path, dest_dir: &Path) -> Result<PathBuf> {
 
     // Remove any existing bundle (upgrade path).
     if dest_bundle.exists() {
-        std::fs::remove_dir_all(&dest_bundle).with_context(|| {
-            format!("Cannot remove existing bundle: {}", dest_bundle.display())
-        })?;
+        std::fs::remove_dir_all(&dest_bundle)
+            .with_context(|| format!("Cannot remove existing bundle: {}", dest_bundle.display()))?;
     }
 
     debug!(

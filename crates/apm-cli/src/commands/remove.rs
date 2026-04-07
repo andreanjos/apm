@@ -26,8 +26,16 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
 
     // ── Show what will be removed ─────────────────────────────────────────────
 
-    let format_names: Vec<String> = plugin.formats.iter().map(|f| f.format.to_string()).collect();
-    println!("Removing {} v{}...", plugin.name.bold(), plugin.version.cyan());
+    let format_names: Vec<String> = plugin
+        .formats
+        .iter()
+        .map(|f| f.format.to_string())
+        .collect();
+    println!(
+        "Removing {} v{}...",
+        plugin.name.bold(),
+        plugin.version.cyan()
+    );
 
     // ── Delete each bundle from disk ──────────────────────────────────────────
 

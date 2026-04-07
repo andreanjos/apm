@@ -122,10 +122,13 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
         // Determine if this plugin was installed by apm: match by path (most
         // precise) or by name as a fallback.
         let is_managed = state.plugins.iter().any(|sp| {
-            sp.formats.iter().any(|f| f.path == p.path)
-                || sp.name.eq_ignore_ascii_case(&p.name)
+            sp.formats.iter().any(|f| f.path == p.path) || sp.name.eq_ignore_ascii_case(&p.name)
         });
-        let source_cell = if is_managed { "apm".green().to_string() } else { "-".dimmed().to_string() };
+        let source_cell = if is_managed {
+            "apm".green().to_string()
+        } else {
+            "-".dimmed().to_string()
+        };
 
         println!(
             "{:<w_name$}  {:<w_ver$}  {:<w_vendor$}  {:<w_fmt$}  {:<w_src$}  {}",
@@ -139,7 +142,10 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     }
 
     // ── Summary ───────────────────────────────────────────────────────────────
-    let n_au = plugins.iter().filter(|p| p.format == PluginFormat::Au).count();
+    let n_au = plugins
+        .iter()
+        .filter(|p| p.format == PluginFormat::Au)
+        .count();
     let n_vst3 = plugins
         .iter()
         .filter(|p| p.format == PluginFormat::Vst3)

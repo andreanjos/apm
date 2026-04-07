@@ -6,8 +6,10 @@ use std::path::{Path, PathBuf};
 
 use anyhow::{Context, Result};
 use tracing::{debug, info, warn};
+use walkdir::WalkDir;
 
 use apm_core::error::ApmError;
+use apm_core::registry::PluginFormat;
 
 /// Install a PKG file using `sudo installer -pkg <path> -target /`.
 ///
@@ -62,12 +64,7 @@ pub fn install_from_pkg(pkg_path: &Path) -> Result<Vec<PathBuf>> {
         .arg(pkg_path)
         .args(["-target", "/"])
         .status()
-        .with_context(|| {
-            format!(
-                "Cannot run `sudo installer` for {}",
-                pkg_path.display()
-            )
-        })?;
+        .with_context(|| format!("Cannot run `sudo installer` for {}", pkg_path.display()))?;
 
     if !status.success() {
         return Err(ApmError::Install {
@@ -93,6 +90,69 @@ pub fn install_from_pkg(pkg_path: &Path) -> Result<Vec<PathBuf>> {
     }
 
     Ok(installed)
+}
+
+/// Select the installed bundle that best matches the requested format and
+/// optional expected bundle path from the registry.
+pub fn select_installed_bundle(
+    bundles: Vec<PathBuf>,
+    format: PluginFormat,
+    expected_bundle_path: Option<&str>,
+) -> Result<PathBuf> {
+    if bundles.is_empty() {
+        anyhow::bail!("PKG installer ran but no plugin bundles were discovered afterward");
+    }
+
+    if let Some(expected) = expected_bundle_path.and_then(|path| Path::new(path).file_name()) {
+        if let Some(found) = bundles
+            .iter()
+            .find(|bundle| bundle.file_name() == Some(expected))
+        {
+            return Ok(found.clone());
+        }
+    }
+
+    let expected_ext = match format {
+        PluginFormat::Au => "component",
+        PluginFormat::Vst3 => "vst3",
+    };
+
+    if let Some(found) = bundles.iter().find(|bundle| {
+        bundle
+            .extension()
+            .and_then(|ext| ext.to_str())
+            .map(|ext| ext == expected_ext)
+            .unwrap_or(false)
+    }) {
+        return Ok(found.clone());
+    }
+
+    let mut bundles = bundles;
+    bundles.sort();
+    Ok(bundles.into_iter().next().expect("non-empty bundles"))
+}
+
+/// Find the first `.pkg` or `.mpkg` file under `root`, using deterministic sort
+/// order so archive probing behaves predictably.
+pub fn find_pkg_in_dir(root: &Path) -> Option<PathBuf> {
+    let mut packages: Vec<PathBuf> = WalkDir::new(root)
+        .min_depth(1)
+        .max_depth(6)
+        .into_iter()
+        .filter_map(|e| e.ok())
+        .filter_map(|entry| {
+            let path = entry.into_path();
+            let ext = path.extension().and_then(|e| e.to_str())?;
+            if ext == "pkg" || ext == "mpkg" {
+                Some(path)
+            } else {
+                None
+            }
+        })
+        .collect();
+
+    packages.sort();
+    packages.into_iter().next()
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -182,8 +242,6 @@ fn extract_bundle_paths_from_pkgutil(files_output: &str) -> Vec<PathBuf> {
 
 /// Last-resort scan of the four standard plugin directories.
 fn scan_standard_dirs_for_bundles() -> Vec<PathBuf> {
-    use walkdir::WalkDir;
-
     let dirs = [
         dirs::home_dir()
             .unwrap_or_default()
@@ -219,4 +277,63 @@ fn scan_standard_dirs_for_bundles() -> Vec<PathBuf> {
     }
 
     result
+}
+
+#[cfg(test)]
+mod tests {
+    use super::{find_pkg_in_dir, select_installed_bundle};
+    use apm_core::registry::PluginFormat;
+    use std::path::PathBuf;
+
+    #[test]
+    fn test_find_pkg_in_dir_finds_nested_pkg() {
+        let temp = tempfile::tempdir().expect("tempdir");
+        let nested = temp.path().join("Vendor/Installer");
+        std::fs::create_dir_all(&nested).expect("create nested dir");
+        let pkg = nested.join("Plugin.pkg");
+        std::fs::write(&pkg, b"pkg").expect("write pkg");
+
+        let found = find_pkg_in_dir(temp.path()).expect("expected pkg");
+        assert_eq!(found, pkg);
+    }
+
+    #[test]
+    fn test_find_pkg_in_dir_returns_none_without_pkg() {
+        let temp = tempfile::tempdir().expect("tempdir");
+        std::fs::write(temp.path().join("README.txt"), b"no pkg").expect("write readme");
+
+        assert!(find_pkg_in_dir(temp.path()).is_none());
+    }
+
+    #[test]
+    fn test_select_installed_bundle_prefers_expected_bundle_name() {
+        let bundles = vec![
+            PathBuf::from("/Library/Audio/Plug-Ins/VST3/Other.vst3"),
+            PathBuf::from("/Library/Audio/Plug-Ins/VST3/TestSynth.vst3"),
+        ];
+
+        let selected = select_installed_bundle(bundles, PluginFormat::Vst3, Some("TestSynth.vst3"))
+            .expect("selected bundle");
+
+        assert_eq!(
+            selected,
+            PathBuf::from("/Library/Audio/Plug-Ins/VST3/TestSynth.vst3")
+        );
+    }
+
+    #[test]
+    fn test_select_installed_bundle_prefers_requested_format_when_name_missing() {
+        let bundles = vec![
+            PathBuf::from("/Library/Audio/Plug-Ins/Components/TestSynth.component"),
+            PathBuf::from("/Library/Audio/Plug-Ins/VST3/TestSynth.vst3"),
+        ];
+
+        let selected =
+            select_installed_bundle(bundles, PluginFormat::Au, None).expect("selected bundle");
+
+        assert_eq!(
+            selected,
+            PathBuf::from("/Library/Audio/Plug-Ins/Components/TestSynth.component")
+        );
+    }
 }

@@ -14,7 +14,8 @@ use crate::config::Config;
 // phases can import them as `use apm::registry::PluginDefinition` etc. without
 // digging into the internal `types` submodule.
 pub use types::{
-    DownloadType, FormatSource, InstallType, PluginBundle, PluginDefinition, PluginFormat, Source,
+    DownloadType, FormatSource, InstallType, PluginBundle, PluginDefinition, PluginFormat,
+    PluginRelease, Source,
 };
 
 // ── Registry ──────────────────────────────────────────────────────────────────
@@ -26,6 +27,9 @@ pub struct Registry {
     /// All known plugins, keyed by slug (e.g. `"valhalla-supermassive"`).
     pub plugins: HashMap<String, PluginDefinition>,
 
+    /// Source-specific plugin views, keyed by source name then slug.
+    pub plugins_by_source: HashMap<String, HashMap<String, PluginDefinition>>,
+
     /// All known bundles (meta-packages), keyed by bundle slug.
     pub bundles: HashMap<String, PluginBundle>,
 }
@@ -35,6 +39,7 @@ impl Registry {
     pub fn new() -> Self {
         Self {
             plugins: HashMap::new(),
+            plugins_by_source: HashMap::new(),
             bundles: HashMap::new(),
         }
     }
@@ -58,7 +63,10 @@ impl Registry {
         }
 
         let entries = std::fs::read_dir(&plugins_dir).with_context(|| {
-            format!("Cannot read registry plugins directory: {}", plugins_dir.display())
+            format!(
+                "Cannot read registry plugins directory: {}",
+                plugins_dir.display()
+            )
         })?;
 
         for entry in entries {
@@ -104,7 +112,13 @@ impl Registry {
             );
 
             match Self::load_from_cache(&source_cache) {
-                Ok(registry) => {
+                Ok(mut registry) => {
+                    for plugin in registry.plugins.values_mut() {
+                        plugin.source_name = Some(source.name.clone());
+                    }
+                    merged
+                        .plugins_by_source
+                        .insert(source.name.clone(), registry.plugins.clone());
                     merged.plugins.extend(registry.plugins);
                 }
                 Err(e) => {
@@ -127,14 +141,20 @@ impl Registry {
         debug!("Loading bundles from {}", bundles_dir.display());
 
         if !bundles_dir.exists() {
-            debug!("Bundles directory does not exist: {}", bundles_dir.display());
+            debug!(
+                "Bundles directory does not exist: {}",
+                bundles_dir.display()
+            );
             return;
         }
 
         let entries = match std::fs::read_dir(&bundles_dir) {
             Ok(e) => e,
             Err(e) => {
-                tracing::warn!("Cannot read bundles directory {}: {e}", bundles_dir.display());
+                tracing::warn!(
+                    "Cannot read bundles directory {}: {e}",
+                    bundles_dir.display()
+                );
                 return;
             }
         };
@@ -182,6 +202,24 @@ impl Registry {
             .find(|p| p.slug.to_lowercase() == lower)
     }
 
+    /// Find a plugin by source name and slug (both case-insensitive).
+    pub fn find_in_source(&self, source_name: &str, slug: &str) -> Option<&PluginDefinition> {
+        let source = self
+            .plugins_by_source
+            .iter()
+            .find(|(name, _)| name.eq_ignore_ascii_case(source_name))
+            .map(|(_, plugins)| plugins)?;
+
+        if let Some(plugin) = source.get(slug) {
+            return Some(plugin);
+        }
+
+        let lower = slug.to_lowercase();
+        source
+            .values()
+            .find(|plugin| plugin.slug.to_lowercase() == lower)
+    }
+
     /// Total number of plugins in this registry.
     pub fn len(&self) -> usize {
         self.plugins.len()
@@ -221,4 +259,79 @@ fn load_bundle_toml(path: &Path) -> Result<PluginBundle> {
             e
         )
     })
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::config::{Config, SourceEntry};
+
+    fn write_plugin(cache_root: &Path, source: &str, slug: &str, name: &str, version: &str) {
+        let plugins_dir = cache_root
+            .join("apm/registries")
+            .join(source)
+            .join("plugins");
+        std::fs::create_dir_all(&plugins_dir).unwrap();
+        let body = format!(
+            r#"
+slug = "{slug}"
+name = "{name}"
+vendor = "Acme"
+version = "{version}"
+description = "Fixture plugin"
+category = "effect"
+license = "freeware"
+
+[formats.au]
+url = "https://example.com/{slug}.zip"
+sha256 = "manual"
+install_type = "zip"
+"#
+        );
+        std::fs::write(plugins_dir.join(format!("{slug}.toml")), body).unwrap();
+    }
+
+    #[test]
+    fn load_all_sources_tracks_source_specific_provenance() {
+        let temp = std::env::temp_dir().join(format!("apm-registry-test-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&temp);
+        std::fs::create_dir_all(&temp).unwrap();
+        let mut config = Config {
+            cache_dir: Some(temp.join("apm")),
+            ..Config::default()
+        };
+        config.sources.push(SourceEntry {
+            name: "community".to_string(),
+            url: "https://example.com/community.git".to_string(),
+        });
+
+        write_plugin(
+            &temp,
+            "official",
+            "shared-plugin",
+            "Official Shared",
+            "1.0.0",
+        );
+        write_plugin(
+            &temp,
+            "community",
+            "shared-plugin",
+            "Community Shared",
+            "2.0.0",
+        );
+
+        let registry = Registry::load_all_sources(&config).unwrap();
+
+        let merged = registry.find("shared-plugin").unwrap();
+        assert_eq!(merged.name, "Community Shared");
+        assert_eq!(merged.source_name.as_deref(), Some("community"));
+
+        let official = registry
+            .find_in_source("official", "shared-plugin")
+            .unwrap();
+        assert_eq!(official.name, "Official Shared");
+        assert_eq!(official.source_name.as_deref(), Some("official"));
+
+        std::fs::remove_dir_all(&temp).unwrap();
+    }
 }

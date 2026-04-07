@@ -11,6 +11,8 @@ use walkdir::WalkDir;
 use apm_core::error::ApmError;
 use apm_core::registry::PluginFormat;
 
+use super::pkg;
+
 // ── DmgGuard ─────────────────────────────────────────────────────────────────
 
 /// RAII guard that unmounts a DMG volume on drop, ensuring cleanup even on
@@ -104,18 +106,19 @@ impl Drop for DmgGuard {
 /// unmount, and return the path to the installed bundle.
 ///
 /// If the DMG contains a `.pkg` file instead of a bare bundle, this function
-/// will return an error directing the caller to use the PKG installer.
+/// will run the embedded PKG installer and select the matching installed bundle.
 pub fn install_from_dmg(
     dmg_path: &Path,
     dest_dir: &Path,
     format: PluginFormat,
+    expected_bundle_path: Option<&str>,
 ) -> Result<PathBuf> {
     info!("Mounting DMG: {}", dmg_path.display());
 
     let mountpoint = mount_dmg(dmg_path)?;
     let mut guard = DmgGuard::new(mountpoint.clone());
 
-    let result = find_and_copy_bundle(&mountpoint, dest_dir, format);
+    let result = find_and_copy_bundle(&mountpoint, dest_dir, format, expected_bundle_path);
 
     // Always detach — surface detach errors only if install succeeded.
     match guard.detach() {
@@ -154,10 +157,10 @@ fn mount_dmg(dmg_path: &Path) -> Result<PathBuf> {
     let output = std::process::Command::new("hdiutil")
         .args([
             "attach",
-            "-nobrowse",    // Don't open in Finder
-            "-noverify",    // Skip image verification (we already verified SHA256)
-            "-noautoopen",  // Don't auto-open any packages
-            "-quiet",       // Suppress progress output
+            "-nobrowse",   // Don't open in Finder
+            "-noverify",   // Skip image verification (we already verified SHA256)
+            "-noautoopen", // Don't auto-open any packages
+            "-quiet",      // Suppress progress output
             "-mountpoint",
         ])
         .arg(&mountpoint)
@@ -175,7 +178,8 @@ fn mount_dmg(dmg_path: &Path) -> Result<PathBuf> {
              Mount it manually with Finder, accept the license, then re-run apm install."
                 .to_owned()
         } else if stderr.contains("Permission denied") || stderr.contains("not permitted") {
-            "Permission denied mounting the DMG. Try running as your normal user (not root).".to_owned()
+            "Permission denied mounting the DMG. Try running as your normal user (not root)."
+                .to_owned()
         } else {
             format!("hdiutil stderr: {}", stderr.trim())
         };
@@ -198,6 +202,7 @@ fn find_and_copy_bundle(
     mountpoint: &Path,
     dest_dir: &Path,
     format: PluginFormat,
+    expected_bundle_path: Option<&str>,
 ) -> Result<PathBuf> {
     let extension = bundle_extension(format);
 
@@ -222,28 +227,23 @@ fn find_and_copy_bundle(
 
     if bundles.is_empty() {
         // Check whether the DMG contains a PKG instead.
-        let has_pkg = WalkDir::new(mountpoint)
-            .min_depth(1)
-            .max_depth(4)
-            .into_iter()
-            .filter_map(|e| e.ok())
-            .any(|e| {
-                e.path().extension().and_then(|x| x.to_str()) == Some("pkg")
-                    || e.path().extension().and_then(|x| x.to_str()) == Some("mpkg")
-            });
+        if let Some(pkg_path) = pkg::find_pkg_in_dir(mountpoint) {
+            let installed = pkg::install_from_pkg(&pkg_path).with_context(|| {
+                format!("DMG contained a PKG installer at {}", pkg_path.display())
+            })?;
 
-        if has_pkg {
-            return Err(ApmError::Install {
-                plugin: mountpoint.display().to_string(),
-                reason: format!(
-                    "DMG contains a PKG installer but the registry specifies install_type = dmg \
-                     for the {format} format"
-                ),
-                hint: "The registry entry for this plugin may need to be updated to \
-                       install_type = pkg."
-                    .to_owned(),
-            }
-            .into());
+            return pkg::select_installed_bundle(installed, format, expected_bundle_path).map_err(
+                |error| {
+                    ApmError::Install {
+                        plugin: mountpoint.display().to_string(),
+                        reason: error.to_string(),
+                        hint:
+                            "Check ~/Library/Audio/Plug-Ins/ and /Library/Audio/Plug-Ins/ manually."
+                                .to_owned(),
+                    }
+                    .into()
+                },
+            );
         }
 
         return Err(ApmError::Install {
@@ -287,12 +287,8 @@ fn copy_bundle(bundle_src: &Path, dest_dir: &Path) -> Result<PathBuf> {
 
     // Remove existing bundle if present (upgrade scenario).
     if dest_bundle.exists() {
-        std::fs::remove_dir_all(&dest_bundle).with_context(|| {
-            format!(
-                "Cannot remove existing bundle: {}",
-                dest_bundle.display()
-            )
-        })?;
+        std::fs::remove_dir_all(&dest_bundle)
+            .with_context(|| format!("Cannot remove existing bundle: {}", dest_bundle.display()))?;
     }
 
     debug!(

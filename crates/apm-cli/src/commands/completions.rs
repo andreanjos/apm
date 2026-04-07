@@ -12,9 +12,9 @@ pub fn run(shell_name: &str) -> Result<()> {
         "fish" => Shell::Fish,
         "elvish" => Shell::Elvish,
         "powershell" | "ps" => Shell::PowerShell,
-        other => bail!(
-            "Unknown shell '{other}'. Supported shells: bash, zsh, fish, elvish, powershell."
-        ),
+        other => {
+            bail!("Unknown shell '{other}'. Supported shells: bash, zsh, fish, elvish, powershell.")
+        }
     };
 
     let mut cmd = Cli::command();

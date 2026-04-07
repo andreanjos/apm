@@ -11,12 +11,12 @@ homepage    = "https://www.tokyodawn.net/tdr-kotelnikov/"
 
 [formats.vst3]
 url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.7/TDR%20Kotelnikov.zip"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "59e580a260fb66db6f608b92434c9cf9e426eb83734995b5d4633930783389da"
 install_type = "zip"
 bundle_path  = "TDR Kotelnikov.vst3"
 
 [formats.au]
 url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.7/TDR%20Kotelnikov.zip"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "59e580a260fb66db6f608b92434c9cf9e426eb83734995b5d4633930783389da"
 install_type = "zip"
 bundle_path  = "TDR Kotelnikov.component"

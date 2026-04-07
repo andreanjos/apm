@@ -11,10 +11,10 @@ homepage    = "https://www.discodsp.com/obxd/"
 
 [formats.vst3]
 url          = "https://download.discodsp.com/OB-Xd%203.17.pkg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "f1087234944e8eb3e494a9bbf63c6f1fefce29a2d86cf93c41c7c53a0c1c1540"
 install_type = "pkg"
 
 [formats.au]
 url          = "https://download.discodsp.com/OB-Xd%203.17.pkg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256       = "f1087234944e8eb3e494a9bbf63c6f1fefce29a2d86cf93c41c7c53a0c1c1540"
 install_type = "pkg"

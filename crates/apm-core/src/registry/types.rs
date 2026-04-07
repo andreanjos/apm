@@ -1,6 +1,7 @@
 // Registry types are the full TOML schema for the plugin registry.
 
 use serde::{Deserialize, Serialize};
+use std::cmp::Ordering;
 
 // ── Plugin Format ─────────────────────────────────────────────────────────────
 
@@ -87,6 +88,16 @@ pub struct FormatSource {
     pub download_type: DownloadType,
 }
 
+/// A specific published release of a plugin.
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct PluginRelease {
+    /// Version string for this historical release.
+    pub version: String,
+
+    /// Available formats and download metadata for this release.
+    pub formats: std::collections::HashMap<PluginFormat, FormatSource>,
+}
+
 // ── PluginDefinition ──────────────────────────────────────────────────────────
 
 /// A plugin definition as stored in the registry.
@@ -126,8 +137,78 @@ pub struct PluginDefinition {
     /// Available plugin formats and their download sources.
     pub formats: std::collections::HashMap<PluginFormat, FormatSource>,
 
+    /// Historical releases available for explicit install requests.
+    ///
+    /// The top-level `version` and `formats` remain the canonical latest
+    /// release for backwards compatibility with older registry entries and
+    /// existing callers.
+    #[serde(default)]
+    pub releases: Vec<PluginRelease>,
+
     /// Optional homepage or product page URL.
     pub homepage: Option<String>,
+
+    /// Whether this plugin requires purchase through apm-server.
+    #[serde(default)]
+    pub is_paid: bool,
+
+    /// Price in minor units (for example, cents) when the plugin is paid.
+    #[serde(default)]
+    pub price_cents: Option<i64>,
+
+    /// ISO currency code for `price_cents`.
+    #[serde(default)]
+    pub currency: Option<String>,
+
+    /// Registry source that supplied this definition after cache loading.
+    ///
+    /// This is runtime metadata, not part of registry TOML authoring.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub source_name: Option<String>,
+}
+
+impl PluginDefinition {
+    /// Return the latest release represented by the top-level plugin fields.
+    pub fn latest_release(&self) -> PluginRelease {
+        PluginRelease {
+            version: self.version.clone(),
+            formats: self.formats.clone(),
+        }
+    }
+
+    /// Resolve either the latest release (`None`) or a specific version.
+    pub fn resolve_release(&self, requested_version: Option<&str>) -> Option<PluginRelease> {
+        match requested_version {
+            None => Some(self.latest_release()),
+            Some(version) if version == self.version => Some(self.latest_release()),
+            Some(version) => self
+                .releases
+                .iter()
+                .find(|release| release.version == version)
+                .cloned(),
+        }
+    }
+
+    /// Return all known versions for this plugin, newest first.
+    pub fn available_versions(&self) -> Vec<String> {
+        let mut versions = vec![self.version.clone()];
+
+        for release in &self.releases {
+            if !versions.iter().any(|version| version == &release.version) {
+                versions.push(release.version.clone());
+            }
+        }
+
+        versions.sort_by(|left, right| compare_versions_desc(left, right));
+        versions
+    }
+}
+
+fn compare_versions_desc(left: &str, right: &str) -> Ordering {
+    match (semver::Version::parse(left), semver::Version::parse(right)) {
+        (Ok(l), Ok(r)) => r.cmp(&l),
+        _ => right.cmp(left),
+    }
 }
 
 // ── PluginBundle ──────────────────────────────────────────────────────────────

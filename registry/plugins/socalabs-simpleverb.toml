@@ -1,0 +1,22 @@
+slug        = "socalabs-simpleverb"
+name        = "SocaLabs Simple Verb"
+vendor      = "SocaLabs"
+version     = "1.0.0"
+description = "Free simple reverb effect with algorithm by Michael Gruhn."
+category    = "effects"
+subcategory = "reverb"
+license     = "GPL-3.0"
+tags        = ["reverb", "simple", "free", "open-source"]
+homepage    = "https://socalabs.com/effects/simpleverb/"
+
+[formats.vst3]
+url          = "https://socalabs.com/files/get.php?id=SimpleVerb_Mac.zip"
+sha256       = "2ecd27298dab196e58b99bdf6d5fb77a07a560ffc0d4c550790ad29e1f1204ed"
+install_type = "zip"
+bundle_path  = "vst3/SimpleVerb.vst3"
+
+[formats.au]
+url          = "https://socalabs.com/files/get.php?id=SimpleVerb_Mac.zip"
+sha256       = "2ecd27298dab196e58b99bdf6d5fb77a07a560ffc0d4c550790ad29e1f1204ed"
+install_type = "zip"
+bundle_path  = "au/SimpleVerb.component"

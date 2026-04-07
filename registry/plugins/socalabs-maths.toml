@@ -1,0 +1,22 @@
+slug        = "socalabs-maths"
+name        = "SocaLabs Maths"
+vendor      = "SocaLabs"
+version     = "1.1.0"
+description = "Free formula-based audio processing plugin with 33 built-in math functions, 14 operators, and 4 automatable parameters for creative signal manipulation."
+category    = "effects"
+subcategory = "utility"
+license     = "GPL-3.0"
+tags        = ["math", "formula", "utility", "creative", "experimental", "free", "open-source"]
+homepage    = "https://socalabs.com/developer-tools/maths/"
+
+[formats.vst3]
+url          = "https://socalabs.com/files/get.php?id=Maths_Mac.zip"
+sha256       = "389f73ed823f66b55eea5d814f8bb20068c5b10bf055775697e1ba9a9e644c92"
+install_type = "zip"
+bundle_path  = "vst3/Maths.vst3"
+
+[formats.au]
+url          = "https://socalabs.com/files/get.php?id=Maths_Mac.zip"
+sha256       = "389f73ed823f66b55eea5d814f8bb20068c5b10bf055775697e1ba9a9e644c92"
+install_type = "zip"
+bundle_path  = "au/Maths.component"

@@ -21,9 +21,7 @@ use apm_core::error::ApmError;
 /// not be used for caching or verification.
 fn is_placeholder_sha256(sha256: &str) -> bool {
     let s = sha256.trim();
-    s.is_empty()
-        || s.eq_ignore_ascii_case("manual")
-        || s.chars().all(|c| c == '0')
+    s.is_empty() || s.eq_ignore_ascii_case("manual") || s.chars().all(|c| c == '0')
 }
 
 // ── Public API ────────────────────────────────────────────────────────────────
@@ -41,11 +39,7 @@ fn is_placeholder_sha256(sha256: &str) -> bool {
 /// - On checksum mismatch: deletes the temp file and returns `ApmError::Checksum`.
 /// - On network error: retries once before surfacing the error.
 #[allow(dead_code)]
-pub async fn download_file(
-    url: &str,
-    dest: &Path,
-    expected_sha256: &str,
-) -> Result<()> {
+pub async fn download_file(url: &str, dest: &Path, expected_sha256: &str) -> Result<()> {
     let pb = build_standalone_progress_bar(None);
     download_file_with_progress(url, dest, expected_sha256, pb).await
 }
@@ -153,10 +147,7 @@ async fn download_file_with_progress_and_config(
                 return Err(first_err);
             }
 
-            tracing::warn!(
-                "Download failed ({}); retrying once…",
-                first_err
-            );
+            tracing::warn!("Download failed ({}); retrying once…", first_err);
 
             // Reset the bar for the retry.
             pb.set_position(0);
@@ -237,12 +228,7 @@ async fn attempt_download(
             s if s >= 500 => "Vendor server error. Try again later.".to_owned(),
             _ => "Check your network connection and try again.".to_owned(),
         };
-        anyhow::bail!(
-            "HTTP {} from {}\n  Hint: {}",
-            status,
-            url,
-            hint
-        );
+        anyhow::bail!("HTTP {} from {}\n  Hint: {}", status, url, hint);
     }
 
     // Determine whether the server accepted our Range request.
@@ -257,12 +243,15 @@ async fn attempt_download(
             .append(true)
             .open(&part_path)
             .await
-            .with_context(|| format!("Cannot open .part file for appending: {}", part_path.display()))?;
+            .with_context(|| {
+                format!(
+                    "Cannot open .part file for appending: {}",
+                    part_path.display()
+                )
+            })?;
 
         // Update progress bar to show resumed state.
-        let total = response
-            .content_length()
-            .map(|cl| cl + resume_offset);
+        let total = response.content_length().map(|cl| cl + resume_offset);
         if let Some(total) = total {
             pb.set_length(total);
         }

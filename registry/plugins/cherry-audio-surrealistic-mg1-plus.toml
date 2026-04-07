@@ -10,13 +10,13 @@ tags        = ["synth", "synthesizer", "moog", "analog", "free", "vintage", "80s
 homepage    = "https://cherryaudio.com/products/surrealistic-mg-1-plus"
 
 [formats.vst3]
-url          = "https://store.cherryaudio.com/software/surrealistic-mg-1-plus-macos-installer"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://store.cherryaudio.com/downloads/surrealistic-mg-1-plus-macos-installer"
+sha256       = "322de958f423c9de499ab609f5f1df15468f67596066a34505da5436afa74d99"
 install_type = "pkg"
 bundle_path  = "Surrealistic MG-1 Plus.vst3"
 
 [formats.au]
-url          = "https://store.cherryaudio.com/software/surrealistic-mg-1-plus-macos-installer"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
+url          = "https://store.cherryaudio.com/downloads/surrealistic-mg-1-plus-macos-installer"
+sha256       = "322de958f423c9de499ab609f5f1df15468f67596066a34505da5436afa74d99"
 install_type = "pkg"
 bundle_path  = "Surrealistic MG-1 Plus.component"
