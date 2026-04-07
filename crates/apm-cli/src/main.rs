@@ -110,6 +110,10 @@ enum Commands {
         /// Show only free plugins.
         #[arg(long, conflicts_with = "paid")]
         free: bool,
+
+        /// Maximum number of results to show.
+        #[arg(long, short = 'l')]
+        limit: Option<usize>,
     },
 
     /// Sync the local registry cache from the configured Git remote.
@@ -348,6 +352,9 @@ enum Commands {
     #[command(alias = "st")]
     Stats,
 
+    /// Print the apm version.
+    #[command(alias = "v")]
+    Version,
 }
 
 #[derive(Subcommand, Debug)]
@@ -436,6 +443,7 @@ async fn run() -> Result<()> {
             vendor,
             paid,
             free,
+            limit,
         } => {
             let q = query.as_deref().unwrap_or("");
             commands::search::run(
@@ -445,6 +453,7 @@ async fn run() -> Result<()> {
                 vendor.as_deref(),
                 *paid,
                 *free,
+                *limit,
                 json,
             )
             .await
@@ -502,7 +511,7 @@ async fn run() -> Result<()> {
         }
 
         Commands::Pin { name, unpin, list } => {
-            commands::pin::run(&config, name.as_deref(), *unpin, *list).await
+            commands::pin::run(&config, name.as_deref(), *unpin, *list, json).await
         }
 
         Commands::Sources(sub) => match sub {
@@ -538,6 +547,21 @@ async fn run() -> Result<()> {
         }
 
         Commands::Stats => commands::stats::run(&config, json).await,
+
+        Commands::Version => {
+            let version = env!("CARGO_PKG_VERSION");
+            if json {
+                let target = format!("{}-apple-{}", std::env::consts::ARCH, std::env::consts::OS);
+                let obj = serde_json::json!({
+                    "version": version,
+                    "target": target,
+                });
+                println!("{}", serde_json::to_string_pretty(&obj)?);
+            } else {
+                println!("apm {version}");
+            }
+            Ok(())
+        }
 
     }
 }

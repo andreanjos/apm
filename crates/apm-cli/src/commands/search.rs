@@ -25,6 +25,7 @@ struct SearchResultJson {
     price_display: String,
 }
 
+#[allow(clippy::too_many_arguments)]
 pub async fn run(
     config: &Config,
     query: &str,
@@ -32,6 +33,7 @@ pub async fn run(
     vendor: Option<&str>,
     paid_only: bool,
     free_only: bool,
+    limit: Option<usize>,
     json: bool,
 ) -> Result<()> {
     let registry = registry::Registry::load_all_sources(config)?;
@@ -62,6 +64,8 @@ pub async fn run(
         })
         .collect();
 
+    let total_matches = results.len();
+
     if results.is_empty() {
         if json {
             println!("[]");
@@ -69,22 +73,33 @@ pub async fn run(
         }
         let mut filter_msg = String::new();
         if let Some(c) = category {
-            filter_msg.push_str(&format!(" in category '{c}'"));
+            filter_msg.push_str(&format!(" in category \"{c}\""));
         }
         if let Some(v) = vendor {
-            filter_msg.push_str(&format!(" by vendor '{v}'"));
+            filter_msg.push_str(&format!(" by vendor \"{v}\""));
         }
         if query.is_empty() {
             println!("No plugins found{filter_msg}.");
         } else {
-            println!("No plugins found matching '{query}'{filter_msg}.");
+            println!("No plugins found matching \"{query}\"{filter_msg}.");
         }
+        println!(
+            "{}",
+            "Hint: Try a broader search, or run `apm sync` to update the registry.".dimmed()
+        );
         return Ok(());
     }
 
+    // Apply limit.
+    let display_results: Vec<_> = if let Some(n) = limit {
+        results.into_iter().take(n).collect()
+    } else {
+        results
+    };
+
     // ── JSON output ───────────────────────────────────────────────────────────
     if json {
-        let json_results: Vec<SearchResultJson> = results
+        let json_results: Vec<SearchResultJson> = display_results
             .iter()
             .map(|p| SearchResultJson {
                 slug: p.slug.clone(),
@@ -115,42 +130,42 @@ pub async fn run(
     const HDR_LIC: &str = "License";
     const HDR_PRICE: &str = "Price";
 
-    let w_name = results
+    let w_name = display_results
         .iter()
         .map(|p| p.slug.len())
         .max()
         .unwrap_or(0)
         .max(HDR_NAME.len());
 
-    let w_vendor = results
+    let w_vendor = display_results
         .iter()
         .map(|p| p.vendor.len())
         .max()
         .unwrap_or(0)
         .max(HDR_VENDOR.len());
 
-    let w_ver = results
+    let w_ver = display_results
         .iter()
         .map(|p| p.version.len())
         .max()
         .unwrap_or(0)
         .max(HDR_VER.len());
 
-    let w_cat = results
+    let w_cat = display_results
         .iter()
         .map(|p| format_category(&p.category, p.subcategory.as_deref()).len())
         .max()
         .unwrap_or(0)
         .max(HDR_CAT.len());
 
-    let w_lic = results
+    let w_lic = display_results
         .iter()
         .map(|p| p.license.len())
         .max()
         .unwrap_or(0)
         .max(HDR_LIC.len());
 
-    let w_price = results
+    let w_price = display_results
         .iter()
         .map(|p| format_price(p.price_cents, p.currency.as_deref(), p.is_paid).len())
         .max()
@@ -171,7 +186,7 @@ pub async fn run(
     println!("{}", "\u{2500}".repeat(rule_len).dimmed());
 
     // ── Rows ──────────────────────────────────────────────────────────────────
-    for p in &results {
+    for p in &display_results {
         println!(
             "{:<w_name$}  {:<w_vendor$}  {:<w_ver$}  {:<w_cat$}  {:<w_lic$}  {}",
             p.slug.bold().to_string(),
@@ -189,16 +204,40 @@ pub async fn run(
 
     // ── Summary ───────────────────────────────────────────────────────────────
     println!();
-    println!(
-        "{}",
-        format!(
-            "Found {} plugin{}",
-            results.len(),
-            if results.len() == 1 { "" } else { "s" }
-        )
-        .dimmed()
-    );
+
+    // Build a descriptive footer: "Found 5 free plugins matching "reverb" in category "effects""
+    let price_qualifier = if free_only {
+        " free"
+    } else if paid_only {
+        " paid"
+    } else {
+        ""
+    };
+    let plugin_word = if total_matches == 1 {
+        "plugin"
+    } else {
+        "plugins"
+    };
+
+    let mut footer = format!("Found {total_matches}{price_qualifier} {plugin_word}");
+
+    if !query.is_empty() {
+        footer.push_str(&format!(" matching \"{query}\""));
+    }
+    if let Some(c) = category {
+        footer.push_str(&format!(" in category \"{c}\""));
+    }
+    if let Some(v) = vendor {
+        footer.push_str(&format!(" by vendor \"{v}\""));
+    }
+
+    // If limit truncated results, note how many are shown.
+    let displayed = display_results.len();
+    if displayed < total_matches {
+        footer.push_str(&format!(" (showing {displayed})"));
+    }
+
+    println!("{}", footer.dimmed());
 
     Ok(())
 }
-
