@@ -19,3 +19,42 @@ url          = "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.3.0/B
 sha256       = "997a0508b00a583d8563eb0e330c7e318fe43e7f4f3b06ba3d389221aeb7254a"
 install_type = "dmg"
 bundle_path  = "BYOD.component"
+
+[[releases]]
+version = "1.2.0"
+
+[releases.formats.vst3]
+url          = "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.2.0/BYOD-Mac-1.2.0.dmg"
+sha256       = "39b675a0f38158d9a64d2b3a84ddeb88bb25510ff75c095b64cdd15217be6952"
+install_type = "dmg"
+
+[releases.formats.au]
+url          = "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.2.0/BYOD-Mac-1.2.0.dmg"
+sha256       = "39b675a0f38158d9a64d2b3a84ddeb88bb25510ff75c095b64cdd15217be6952"
+install_type = "dmg"
+
+[[releases]]
+version = "1.1.3"
+
+[releases.formats.vst3]
+url          = "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.1.3/BYOD-Mac-1.1.3.dmg"
+sha256       = "16e1a63cf2deb5847c0a38752c9832fd59c3ad0d335511378a6ce60c71b7bd4f"
+install_type = "dmg"
+
+[releases.formats.au]
+url          = "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.1.3/BYOD-Mac-1.1.3.dmg"
+sha256       = "16e1a63cf2deb5847c0a38752c9832fd59c3ad0d335511378a6ce60c71b7bd4f"
+install_type = "dmg"
+
+[[releases]]
+version = "1.1.0"
+
+[releases.formats.vst3]
+url          = "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.1.0/BYOD-Mac-1.1.0.dmg"
+sha256       = "7112dd103341c468e9934ff21450642d225901bc53e98543f36d1e568a35fde9"
+install_type = "dmg"
+
+[releases.formats.au]
+url          = "https://github.com/Chowdhury-DSP/BYOD/releases/download/v1.1.0/BYOD-Mac-1.1.0.dmg"
+sha256       = "7112dd103341c468e9934ff21450642d225901bc53e98543f36d1e568a35fde9"
+install_type = "dmg"

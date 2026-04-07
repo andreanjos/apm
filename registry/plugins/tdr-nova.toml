@@ -20,3 +20,42 @@ url          = "https://www.tokyodawn.net/labs/Nova/2.2.2/TDR%20Nova.zip"
 sha256       = "fce66850d17a089c4cebd96076aa98421f12f5eef605d991867f4207bdaf11fa"
 install_type = "zip"
 bundle_path  = "TDR Nova.component"
+
+[[releases]]
+version = "2.2.1"
+
+[releases.formats.vst3]
+url          = "https://www.tokyodawn.net/labs/Nova/2.2.1/TDR%20Nova.zip"
+sha256       = "3f52e024b3aa49c75ce55c2c0fc18363ef4caac0dca0df60277372f66de9297b"
+install_type = "zip"
+
+[releases.formats.au]
+url          = "https://www.tokyodawn.net/labs/Nova/2.2.1/TDR%20Nova.zip"
+sha256       = "3f52e024b3aa49c75ce55c2c0fc18363ef4caac0dca0df60277372f66de9297b"
+install_type = "zip"
+
+[[releases]]
+version = "2.2.0"
+
+[releases.formats.vst3]
+url          = "https://www.tokyodawn.net/labs/Nova/2.2.0/TDR%20Nova.zip"
+sha256       = "f2ad2c8bdf779a70de471021045458517bbc1e9608a509d3c585d97dd4007158"
+install_type = "zip"
+
+[releases.formats.au]
+url          = "https://www.tokyodawn.net/labs/Nova/2.2.0/TDR%20Nova.zip"
+sha256       = "f2ad2c8bdf779a70de471021045458517bbc1e9608a509d3c585d97dd4007158"
+install_type = "zip"
+
+[[releases]]
+version = "2.1.5"
+
+[releases.formats.vst3]
+url          = "https://www.tokyodawn.net/labs/Nova/2.1.5/TDR%20Nova.zip"
+sha256       = "0471edca6a0b8943a104d948a6870be74066847c4224afd31853bb4ab33460aa"
+install_type = "zip"
+
+[releases.formats.au]
+url          = "https://www.tokyodawn.net/labs/Nova/2.1.5/TDR%20Nova.zip"
+sha256       = "0471edca6a0b8943a104d948a6870be74066847c4224afd31853bb4ab33460aa"
+install_type = "zip"

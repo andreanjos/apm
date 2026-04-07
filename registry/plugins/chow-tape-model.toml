@@ -20,3 +20,42 @@ url          = "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/dow
 sha256       = "9b37e2b6cb6c0a839ee9c65e1a958834ca647b3edfc4bd144115c483b4d64f82"
 install_type = "dmg"
 bundle_path  = "CHOWTapeModel.component"
+
+[[releases]]
+version = "2.11.3"
+
+[releases.formats.vst3]
+url          = "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.3/ChowTapeModel-Mac-2.11.3.dmg"
+sha256       = "7e0708147138642c31b9a950b288e3dae181db47fdb8a75d2532c367c4dcc35e"
+install_type = "dmg"
+
+[releases.formats.au]
+url          = "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.3/ChowTapeModel-Mac-2.11.3.dmg"
+sha256       = "7e0708147138642c31b9a950b288e3dae181db47fdb8a75d2532c367c4dcc35e"
+install_type = "dmg"
+
+[[releases]]
+version = "2.11.1"
+
+[releases.formats.vst3]
+url          = "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.1/ChowTapeModel-Mac-2.11.1.dmg"
+sha256       = "e18b47e41e02c4b3831d30a0f1f9b324fe2154203198bd5d4ea5076659c78e8e"
+install_type = "dmg"
+
+[releases.formats.au]
+url          = "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.1/ChowTapeModel-Mac-2.11.1.dmg"
+sha256       = "e18b47e41e02c4b3831d30a0f1f9b324fe2154203198bd5d4ea5076659c78e8e"
+install_type = "dmg"
+
+[[releases]]
+version = "2.11.0"
+
+[releases.formats.vst3]
+url          = "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.0/ChowTapeModel-Mac-2.11.0.dmg"
+sha256       = "8901b3c7d51972c9802ff76cbf10e864aba64aae2be3096ab473b18a0a6f085f"
+install_type = "dmg"
+
+[releases.formats.au]
+url          = "https://github.com/jatinchowdhury18/AnalogTapeModel/releases/download/v2.11.0/ChowTapeModel-Mac-2.11.0.dmg"
+sha256       = "8901b3c7d51972c9802ff76cbf10e864aba64aae2be3096ab473b18a0a6f085f"
+install_type = "dmg"

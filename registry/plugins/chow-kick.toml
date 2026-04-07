@@ -19,3 +19,42 @@ url          = "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.2
 sha256       = "de1833ac2bfd7f9d74ba61cb64f3fb7c600de348cba6b46d9c05c8df14d158f7"
 install_type = "dmg"
 bundle_path  = "ChowKick.component"
+
+[[releases]]
+version = "1.1.1"
+
+[releases.formats.vst3]
+url          = "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.1.1/ChowKick-Mac-1.1.1.dmg"
+sha256       = "4c370c5d18708277f5da0fa8797338a16dd4f424aafe4738bd28eaca3af05efe"
+install_type = "dmg"
+
+[releases.formats.au]
+url          = "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.1.1/ChowKick-Mac-1.1.1.dmg"
+sha256       = "4c370c5d18708277f5da0fa8797338a16dd4f424aafe4738bd28eaca3af05efe"
+install_type = "dmg"
+
+[[releases]]
+version = "1.1.0"
+
+[releases.formats.vst3]
+url          = "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.1.0/ChowKick-Mac-1.1.0.dmg"
+sha256       = "17647f7b23e09f43c79a6116be8717ba73514bd126239e6b5b91adb2bc3c57a2"
+install_type = "dmg"
+
+[releases.formats.au]
+url          = "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.1.0/ChowKick-Mac-1.1.0.dmg"
+sha256       = "17647f7b23e09f43c79a6116be8717ba73514bd126239e6b5b91adb2bc3c57a2"
+install_type = "dmg"
+
+[[releases]]
+version = "1.0.0"
+
+[releases.formats.vst3]
+url          = "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.0.0/ChowKick-Mac-1.0.0.dmg"
+sha256       = "f2bedeb4d7232ca9241c41a91f9ad7d4cb52115220d624b6e17acbb1071c9755"
+install_type = "dmg"
+
+[releases.formats.au]
+url          = "https://github.com/Chowdhury-DSP/ChowKick/releases/download/v1.0.0/ChowKick-Mac-1.0.0.dmg"
+sha256       = "f2bedeb4d7232ca9241c41a91f9ad7d4cb52115220d624b6e17acbb1071c9755"
+install_type = "dmg"
