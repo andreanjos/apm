@@ -207,6 +207,16 @@ enum Commands {
     #[command(alias = "od")]
     Outdated,
 
+    /// Open a plugin's homepage in the default browser.
+    ///
+    /// Looks up the plugin in the registry and, if a homepage URL is listed,
+    /// opens it with macOS `open`. Handy for checking a plugin's page before
+    /// installing.
+    Open {
+        /// Plugin name or slug to look up (e.g. "vital").
+        name: String,
+    },
+
     /// Upgrade one or all plugins to the latest registry version.
     ///
     /// Without an argument, upgrades all outdated plugins except those that
@@ -393,6 +403,18 @@ enum Commands {
     #[command(alias = "st")]
     Stats,
 
+    /// Show plugin install history sorted by date (most recent first).
+    ///
+    /// Lists all installed plugins in chronological order based on their
+    /// install timestamp. Useful for reviewing what was recently installed
+    /// or upgraded.
+    #[command(alias = "log")]
+    History {
+        /// Maximum number of entries to show.
+        #[arg(long, short = 'l')]
+        limit: Option<usize>,
+    },
+
     /// Print the apm version.
     #[command(alias = "v")]
     Version,
@@ -571,6 +593,8 @@ async fn run() -> Result<()> {
 
         Commands::Outdated => commands::outdated::run(&config, json).await,
 
+        Commands::Open { name } => commands::open::run(&config, name).await,
+
         Commands::Upgrade { name, dry_run } => {
             commands::upgrade::run(&config, name.as_deref(), *dry_run, json).await
         }
@@ -623,6 +647,8 @@ async fn run() -> Result<()> {
         }
 
         Commands::Stats => commands::stats::run(&config, json).await,
+
+        Commands::History { limit } => commands::history::run(&config, *limit, json).await,
 
         Commands::Version => {
             let version = env!("CARGO_PKG_VERSION");
