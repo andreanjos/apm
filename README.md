@@ -1,139 +1,140 @@
 # apm — Audio Plugin Manager
 
-apt-style package manager for macOS AU and VST3 audio plugins.
+A package manager for macOS audio plugins. Install, update, remove, and discover
+AU and VST3 plugins from the command line.
 
-apm lets you install, update, remove, and search free audio plugins from the
-command line. It pulls plugin definitions from Git-backed registries, verifies
-SHA256 checksums before installing, and tracks everything in a local state file.
+apm pulls plugin definitions from Git-backed registries (560+ plugins and
+growing), verifies SHA256 checksums before installing, and tracks everything in a
+local state file. Think `apt` or `brew`, but for your DAW.
 
 ## Installation
 
-**From source (recommended during development):**
+Requires **Rust 1.70+**. Install Rust via [rustup.rs](https://rustup.rs/).
 
 ```sh
+# Install from source
+cargo install --path crates/apm-cli
+
+# Or build without installing
 cargo build --release
-# Binary will be at ./target/release/apm
+# Binary: ./target/release/apm
 ```
 
-**Install system-wide via Cargo:**
+Enable shell completions (optional):
 
 ```sh
-cargo install --path .
+# Bash
+apm completions bash > ~/.local/share/bash-completion/completions/apm
+
+# Zsh
+apm completions zsh > ~/.zfunc/_apm
+
+# Fish
+apm completions fish > ~/.config/fish/completions/apm.fish
 ```
 
-Requires Rust 1.70 or later. Install Rust via [rustup.rs](https://rustup.rs/).
-
-## Usage
-
-### Sync the registry
-
-Pull the latest plugin definitions from the configured registry sources.
-Run this first, and periodically to get new plugin versions.
+## Quick start
 
 ```sh
-apm sync
+apm sync                        # Pull latest plugin definitions
+apm search reverb               # Find plugins by keyword
+apm info valhalla-supermassive  # View plugin details
+apm install tal-noisemaker      # Install a plugin
+apm list                        # See what's installed
+apm outdated                    # Check for updates
+apm upgrade                     # Upgrade everything
 ```
 
-### Search for plugins
+## Commands
+
+### Sync and search
 
 ```sh
-# Search by keyword (name, vendor, description, tags)
-apm search reverb
-
-# Filter by category
-apm search --category instruments
-
-# List all available plugins
-apm search
+apm sync                              # Pull latest registry
+apm search reverb                     # Search by keyword
+apm search --category instruments     # Filter by category
+apm search --vendor "Valhalla DSP"    # Filter by vendor
+apm info surge-xt                     # Plugin details
 ```
 
-### Get plugin details
+### Install and remove
 
 ```sh
-apm info valhalla-supermassive
-apm info surge-xt
+apm install tal-noisemaker                    # Install (AU + VST3)
+apm install tal-noisemaker --format vst3      # VST3 only
+apm install tal-noisemaker --version 4.3.2    # Specific version
+sudo apm install tal-noisemaker --system      # System-wide (/Library/)
+apm install --from-file plugins.toml          # Batch install from file
+apm install --dry-run surge-xt                # Preview without installing
+
+apm remove tal-noisemaker                     # Remove a plugin
 ```
 
-### Install a plugin
+Plugins install to `~/Library/Audio/Plug-Ins/` by default.
+
+### Updates and versioning
 
 ```sh
-# Install all available formats (AU + VST3)
-apm install tal-noisemaker
+apm outdated            # List plugins with newer versions
+apm upgrade             # Upgrade all
+apm upgrade surge-xt    # Upgrade one
 
-# Install only VST3
-apm install tal-noisemaker --format vst3
-
-# Install to system directory (/Library/Audio/Plug-Ins/) — requires sudo
-sudo apm install tal-noisemaker --system
+apm pin vital           # Pin to current version (skip upgrades)
+apm pin vital --unpin   # Unpin
+apm pin --list          # List pinned plugins
 ```
 
-Plugins are installed to `~/Library/Audio/Plug-Ins/` by default.
-
-### List installed plugins
+### Discovery
 
 ```sh
-# List plugins installed by apm
-apm list
-
-# Scan all AU/VST3 plugins on the system (apm-managed and unmanaged)
-apm scan
+apm explore                   # Browse categories and recommendations
+apm featured                  # Staff picks and featured plugins
+apm compare surge-xt vital    # Side-by-side comparison
 ```
 
-### Remove a plugin
+### System and diagnostics
 
 ```sh
-apm remove tal-noisemaker
+apm list                # apm-managed plugins
+apm scan                # All AU/VST3 on the system
+apm doctor              # Run diagnostic checks
+apm cleanup             # Clear download cache
+apm rollback <slug>     # Restore from pre-upgrade backup
+apm export > list.toml  # Export installed plugins
+apm import list.toml    # Import and install from a list
 ```
 
-### Check for updates
+### Registry sources
+
+apm supports multiple Git-backed registries.
 
 ```sh
-# Show outdated plugins
-apm outdated
-
-# Upgrade all outdated plugins
-apm upgrade
-
-# Upgrade a specific plugin
-apm upgrade surge-xt
-```
-
-### Pin a plugin
-
-Pinned plugins are skipped by `apm upgrade`.
-
-```sh
-# Pin a plugin to its current version
-apm pin vital
-
-# Unpin a plugin
-apm pin vital --unpin
-
-# List all pinned plugins
-apm pin --list
-```
-
-### Manage registry sources
-
-apm supports multiple Git-backed registry sources, similar to apt's sources.list.
-
-```sh
-# List configured sources
 apm sources list
-
-# Add a custom registry
 apm sources add https://github.com/your-org/apm-registry --name my-registry
-
-# Remove a source
 apm sources remove my-registry
+```
+
+### Accounts and purchasing
+
+apm has built-in support for purchasing paid plugins through an optional account
+system.
+
+```sh
+apm login                   # Authenticate
+apm logout                  # Remove credentials
+apm auth status             # Check auth state
+apm auth set-api-key        # Manage API keys
+
+apm buy <slug>              # Purchase a plugin
+apm licenses                # List your licenses
+apm restore <slug>          # Re-download a purchased plugin
+apm refund <slug>           # Request a refund
 ```
 
 ## Registry format
 
-Plugin definitions are TOML files stored in `registry/plugins/`. Each file
-describes one plugin and its download locations for each format.
-
-Example (`registry/plugins/valhalla-supermassive.toml`):
+Plugin definitions are TOML files in `registry/plugins/`. Each file describes
+one plugin and its download locations per format.
 
 ```toml
 slug        = "valhalla-supermassive"
@@ -144,7 +145,7 @@ description = "Massive reverb and delay with lush modulation."
 category    = "effects"
 subcategory = "reverb"
 license     = "freeware"
-tags        = ["reverb", "delay", "free", "freeware"]
+tags        = ["reverb", "delay", "free"]
 homepage    = "https://valhalladsp.com/shop/reverb/valhalla-supermassive/"
 
 [formats.vst3]
@@ -160,37 +161,58 @@ install_type = "dmg"
 bundle_path  = "ValhallaSupermassive.component"
 ```
 
-**Fields:**
-
 | Field | Required | Description |
 |-------|----------|-------------|
 | `slug` | yes | Unique identifier used in CLI commands |
 | `name` | yes | Display name |
-| `vendor` | yes | Plugin developer or company |
+| `vendor` | yes | Developer or company |
 | `version` | yes | Semver or freeform version string |
 | `description` | yes | One or two sentence description |
 | `category` | yes | `"instruments"` or `"effects"` |
 | `subcategory` | yes | e.g. `"reverb"`, `"synthesizer"`, `"eq"` |
 | `license` | yes | SPDX identifier or `"freeware"` |
-| `tags` | yes | Array of search keywords |
+| `tags` | yes | Search keywords |
 | `homepage` | yes | Official product page URL |
-| `[formats.vst3]` or `[formats.au]` | at least one | Format-specific download info |
+| `formats.vst3` / `formats.au` | at least one | Format-specific download info |
 | `url` | yes | Direct download URL |
-| `sha256` | yes | Hex SHA256 of the downloaded file |
+| `sha256` | yes | SHA256 hex digest of the download |
 | `install_type` | yes | `"dmg"`, `"pkg"`, or `"zip"` |
-| `bundle_path` | for zip | Path inside archive to the plugin bundle |
+| `bundle_path` | for dmg/zip | Path inside the archive to the plugin bundle |
+
+## Architecture
+
+apm is a Rust workspace with three crates:
+
+```
+crates/
+  apm-core/     # Shared library — registry types, config, state, license verification
+  apm-cli/      # Command-line tool — clap-based, installs dmg/pkg/zip
+  apm-server/   # REST API — Axum, PostgreSQL, Stripe, JWT auth, license signing
+```
+
+The CLI works standalone for free plugins. The server is only needed for account
+features (auth, purchasing, licenses).
+
+### Server setup (development)
+
+```sh
+cp .env.example .env          # Edit with your values
+createdb apm_dev              # Create Postgres database
+cargo run -p apm-server       # Runs migrations automatically on startup
+```
+
+See `.env.example` for required environment variables (database URL, JWT secret,
+Stripe keys, license signing key).
 
 ## Contributing plugins
 
-To add a plugin to the official registry:
-
-1. Fork this repository.
+1. Fork this repo.
 2. Create `registry/plugins/<slug>.toml` following the format above.
-3. Download the macOS installer and compute the real SHA256:
+3. Compute the SHA256 of the macOS installer:
    ```sh
    shasum -a 256 /path/to/installer.dmg
    ```
-4. Open a pull request. CI will validate the TOML structure.
+4. Open a pull request.
 
 Guidelines:
 - Only include plugins that are genuinely free (no time-limited trials).
@@ -200,4 +222,4 @@ Guidelines:
 
 ## License
 
-MIT
+[MIT](LICENSE)
