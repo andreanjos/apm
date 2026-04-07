@@ -1,9 +1,11 @@
 // doctor command — run diagnostic checks and report apm health.
 
 use std::path::Path;
+use std::time::SystemTime;
 
 use anyhow::Result;
 use colored::Colorize;
+use serde::Serialize;
 
 use apm_core::config::{self, Config};
 use apm_core::registry::Registry;
@@ -52,20 +54,69 @@ impl Check {
     }
 }
 
+// ── JSON output types ────────────────────────────────────────────────────────
+
+#[derive(Serialize)]
+struct CheckJson {
+    name: String,
+    status: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    detail: Option<String>,
+}
+
+#[derive(Serialize)]
+struct SummaryJson {
+    ok: usize,
+    warnings: usize,
+    failures: usize,
+}
+
+#[derive(Serialize)]
+struct DoctorJson {
+    checks: Vec<CheckJson>,
+    summary: SummaryJson,
+}
+
+impl CheckJson {
+    fn from_check(check: &Check) -> Self {
+        match &check.status {
+            CheckStatus::Ok(d) => Self {
+                name: check.label.clone(),
+                status: "ok".to_string(),
+                detail: if d.is_empty() { None } else { Some(d.clone()) },
+            },
+            CheckStatus::Warn(d) => Self {
+                name: check.label.clone(),
+                status: "warning".to_string(),
+                detail: if d.is_empty() { None } else { Some(d.clone()) },
+            },
+            CheckStatus::Fail(d) => Self {
+                name: check.label.clone(),
+                status: "failure".to_string(),
+                detail: if d.is_empty() { None } else { Some(d.clone()) },
+            },
+        }
+    }
+}
+
 // ── Public entry point ────────────────────────────────────────────────────────
 
-pub fn run(config: &Config) -> Result<()> {
-    println!("apm doctor");
-    println!("{}", "\u{2550}".repeat(35));
-    println!();
-
+pub fn run(config: &Config, json: bool) -> Result<()> {
     let mut all_checks: Vec<Check> = Vec::new();
     let mut failures = 0usize;
     let mut warnings = 0usize;
 
+    if !json {
+        println!("apm doctor");
+        println!("{}", "\u{2550}".repeat(35));
+        println!();
+    }
+
     // ── Plugin directories ────────────────────────────────────────────────────
 
-    println!("Checking plugin directories...");
+    if !json {
+        println!("Checking plugin directories...");
+    }
 
     let dirs = vec![
         (
@@ -92,80 +143,114 @@ pub fn run(config: &Config) -> Result<()> {
 
     for (path, label, check_writable) in dirs {
         let check = check_plugin_dir(&path, label, check_writable);
-        print_check(&check);
-        match &check.status {
-            CheckStatus::Fail(_) => failures += 1,
-            CheckStatus::Warn(_) => warnings += 1,
-            CheckStatus::Ok(_) => {}
+        if !json {
+            print_check(&check);
         }
+        tally(&check.status, &mut failures, &mut warnings);
         all_checks.push(check);
     }
 
-    println!();
+    if !json {
+        println!();
+    }
 
     // ── Quarantine checks ─────────────────────────────────────────────────────
 
-    println!("Checking for quarantined plugins...");
-    let quarantine_check = check_quarantine(config);
-    print_check(&quarantine_check);
-    match &quarantine_check.status {
-        CheckStatus::Fail(_) => failures += 1,
-        CheckStatus::Warn(_) => warnings += 1,
-        CheckStatus::Ok(_) => {}
+    if !json {
+        println!("Checking for quarantined plugins...");
     }
+    let quarantine_check = check_quarantine(config);
+    if !json {
+        print_check(&quarantine_check);
+    }
+    tally(&quarantine_check.status, &mut failures, &mut warnings);
     all_checks.push(quarantine_check);
-    println!();
+    if !json {
+        println!();
+    }
 
     // ── Configuration ─────────────────────────────────────────────────────────
 
-    println!("Checking configuration...");
+    if !json {
+        println!("Checking configuration...");
+    }
 
     let config_check = check_config_file();
-    print_check(&config_check);
-    match &config_check.status {
-        CheckStatus::Fail(_) => failures += 1,
-        CheckStatus::Warn(_) => warnings += 1,
-        CheckStatus::Ok(_) => {}
+    if !json {
+        print_check(&config_check);
     }
+    tally(&config_check.status, &mut failures, &mut warnings);
     all_checks.push(config_check);
 
     let state_check = check_state_file(config);
-    print_check(&state_check);
-    match &state_check.status {
-        CheckStatus::Fail(_) => failures += 1,
-        CheckStatus::Warn(_) => warnings += 1,
-        CheckStatus::Ok(_) => {}
+    if !json {
+        print_check(&state_check);
     }
+    tally(&state_check.status, &mut failures, &mut warnings);
     all_checks.push(state_check);
 
     let managed_install_check = check_managed_installs(config);
-    print_check(&managed_install_check);
-    match &managed_install_check.status {
-        CheckStatus::Fail(_) => failures += 1,
-        CheckStatus::Warn(_) => warnings += 1,
-        CheckStatus::Ok(_) => {}
+    if !json {
+        print_check(&managed_install_check);
     }
+    tally(&managed_install_check.status, &mut failures, &mut warnings);
     all_checks.push(managed_install_check);
 
     let provenance_check = check_registry_provenance(config);
-    print_check(&provenance_check);
-    match &provenance_check.status {
-        CheckStatus::Fail(_) => failures += 1,
-        CheckStatus::Warn(_) => warnings += 1,
-        CheckStatus::Ok(_) => {}
+    if !json {
+        print_check(&provenance_check);
     }
+    tally(&provenance_check.status, &mut failures, &mut warnings);
     all_checks.push(provenance_check);
 
     let registry_check = check_registry_cache(config);
-    print_check(&registry_check);
-    match &registry_check.status {
-        CheckStatus::Fail(_) => failures += 1,
-        CheckStatus::Warn(_) => warnings += 1,
-        CheckStatus::Ok(_) => {}
+    if !json {
+        print_check(&registry_check);
     }
+    tally(&registry_check.status, &mut failures, &mut warnings);
     all_checks.push(registry_check);
 
-    println!();
+    // ── Registry freshness ────────────────────────────────────────────────────
+
+    let freshness_check = check_registry_freshness(config);
+    if !json {
+        print_check(&freshness_check);
+    }
+    tally(&freshness_check.status, &mut failures, &mut warnings);
+    all_checks.push(freshness_check);
+
+    // ── Orphaned state entries ────────────────────────────────────────────────
+
+    let orphan_check = check_orphaned_state_entries(config);
+    if !json {
+        print_check(&orphan_check);
+    }
+    tally(&orphan_check.status, &mut failures, &mut warnings);
+    all_checks.push(orphan_check);
+
+    if !json {
+        println!();
+    }
+
+    // ── JSON output ───────────────────────────────────────────────────────────
+
+    if json {
+        let ok_count = all_checks
+            .iter()
+            .filter(|c| matches!(c.status, CheckStatus::Ok(_)))
+            .count();
+
+        let output = DoctorJson {
+            checks: all_checks.iter().map(CheckJson::from_check).collect(),
+            summary: SummaryJson {
+                ok: ok_count,
+                warnings,
+                failures,
+            },
+        };
+        println!("{}", serde_json::to_string_pretty(&output)?);
+        return Ok(());
+    }
 
     // ── Hints for failed/warned checks ────────────────────────────────────────
 
@@ -212,6 +297,16 @@ pub fn run(config: &Config) -> Result<()> {
     }
 
     Ok(())
+}
+
+// ── Tally helper ──────────────────────────────────────────────────────────────
+
+fn tally(status: &CheckStatus, failures: &mut usize, warnings: &mut usize) {
+    match status {
+        CheckStatus::Fail(_) => *failures += 1,
+        CheckStatus::Warn(_) => *warnings += 1,
+        CheckStatus::Ok(_) => {}
+    }
 }
 
 // ── Individual checks ─────────────────────────────────────────────────────────
@@ -544,6 +639,139 @@ fn check_registry_cache(config: &Config) -> Check {
             "Run `apm sync` to rebuild the registry cache.",
         ),
     }
+}
+
+/// Check that the registry cache is not stale (>30 days since last sync).
+///
+/// Examines the mtime of the "official" source directory under the registries
+/// cache. If it hasn't been updated in more than 30 days, emits a warning.
+fn check_registry_freshness(config: &Config) -> Check {
+    let registries_dir = config.registries_cache_dir();
+    let official_dir = registries_dir.join("official");
+
+    if !official_dir.exists() {
+        return Check::warn(
+            "Registry freshness",
+            "registry cache does not exist",
+            "Run `apm sync` to download the plugin registry.",
+        );
+    }
+
+    // Use the plugins/ subdirectory mtime as a proxy for last sync time,
+    // since `apm sync` resets the working tree which updates the directory.
+    // Fall back to the source root if plugins/ is absent.
+    let probe = {
+        let plugins_dir = official_dir.join("plugins");
+        if plugins_dir.exists() {
+            plugins_dir
+        } else {
+            official_dir.clone()
+        }
+    };
+
+    let mtime = match std::fs::metadata(&probe).and_then(|m| m.modified()) {
+        Ok(t) => t,
+        Err(_) => {
+            return Check::warn(
+                "Registry freshness",
+                "could not determine registry cache age",
+                "Run `apm sync` to refresh the registry.",
+            );
+        }
+    };
+
+    let age = SystemTime::now()
+        .duration_since(mtime)
+        .unwrap_or_default();
+    let age_days = age.as_secs() / 86400;
+
+    if age_days > 30 {
+        Check::warn(
+            "Registry freshness",
+            format!("registry cache is {} days old", age_days),
+            "Run `apm sync` to update.",
+        )
+    } else {
+        Check::ok(
+            "Registry freshness",
+            format!("synced {} day{} ago", age_days, if age_days == 1 { "" } else { "s" }),
+        )
+    }
+}
+
+/// Check for plugins in the install state whose bundle paths no longer exist
+/// on disk. These are "orphaned" state entries that reference deleted files.
+fn check_orphaned_state_entries(config: &Config) -> Check {
+    let state = match InstallState::load(config) {
+        Ok(state) => state,
+        Err(error) => {
+            return Check::fail(
+                "Orphaned state entries",
+                format!("could not load install state: {error}"),
+                "Fix the state file first, then rerun `apm doctor`.",
+            )
+        }
+    };
+
+    if state.plugins.is_empty() {
+        return Check::ok("Orphaned state entries", "no managed plugins to verify");
+    }
+
+    // Collect plugins where ALL format bundles are missing (fully orphaned).
+    let mut orphaned: Vec<(String, Vec<String>)> = Vec::new();
+
+    for plugin in &state.plugins {
+        let missing_paths: Vec<String> = plugin
+            .formats
+            .iter()
+            .filter(|f| !f.path.exists())
+            .map(|f| display_path(&f.path))
+            .collect();
+
+        // Consider a plugin orphaned if it has at least one missing bundle.
+        if !missing_paths.is_empty() {
+            orphaned.push((plugin.name.clone(), missing_paths));
+        }
+    }
+
+    if orphaned.is_empty() {
+        return Check::ok(
+            "Orphaned state entries",
+            "all installed plugins have bundles on disk",
+        );
+    }
+
+    // Build detail lines: "  - plugin-name: path missing"
+    let mut lines = Vec::new();
+    for (name, paths) in &orphaned {
+        for path in paths {
+            lines.push(format!("{}: {} missing", name, path));
+        }
+    }
+
+    let preview = lines
+        .iter()
+        .take(5)
+        .cloned()
+        .collect::<Vec<_>>()
+        .join(", ");
+    let suffix = if lines.len() > 5 {
+        format!(" (+{} more)", lines.len() - 5)
+    } else {
+        String::new()
+    };
+
+    Check::warn(
+        "Orphaned state entries",
+        format!(
+            "{} installed plugin{} with missing bundles: {}{}",
+            orphaned.len(),
+            if orphaned.len() == 1 { "" } else { "s" },
+            preview,
+            suffix,
+        ),
+        "Run `apm remove <plugin>` to clean stale state entries, or reinstall with `apm install <plugin>`.",
+    )
 }
 
 // ── Display helpers ───────────────────────────────────────────────────────────

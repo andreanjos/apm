@@ -648,7 +648,7 @@ async fn run() -> Result<()> {
 
         Commands::Completions { shell } => commands::completions::run(shell),
 
-        Commands::Doctor => commands::doctor::run(&config),
+        Commands::Doctor => commands::doctor::run(&config, json),
 
         Commands::Export { output, format } => {
             commands::export_cmd::run(&config, output.as_ref(), format).await
