@@ -820,6 +820,346 @@ fn test_scan_json_each_entry_has_expected_fields() {
     }
 }
 
+// ── Portable export/import round-trip tests ─────────────────────────────────
+
+/// Helper: set up isolated temp dirs with a fixture registry and optional state.
+/// Returns (tmp_config, tmp_data, tmp_cache) TempDirs. Caller must keep them alive.
+fn setup_fixture_env_with_state(
+    state_toml: Option<&str>,
+) -> (tempfile::TempDir, tempfile::TempDir, tempfile::TempDir) {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let fixtures_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures");
+    let official_dir = tmp_cache.path().join("apm/registries/official");
+    std::fs::create_dir_all(&official_dir).expect("create official dir");
+    copy_dir_recursive(&fixtures_dir.join("plugins"), &official_dir.join("plugins"))
+        .expect("copy plugins");
+
+    if let Some(state) = state_toml {
+        let apm_data_dir = tmp_data.path().join("apm");
+        std::fs::create_dir_all(&apm_data_dir).expect("create data dir");
+        std::fs::write(apm_data_dir.join("state.toml"), state).expect("write state");
+    }
+
+    (tmp_config, tmp_data, tmp_cache)
+}
+
+/// Helper: run apm with custom env dirs.
+fn run_apm_with_env(
+    args: &[&str],
+    config: &tempfile::TempDir,
+    data: &tempfile::TempDir,
+    cache: &tempfile::TempDir,
+) -> std::process::Output {
+    Command::new(apm_bin())
+        .args(args)
+        .env("XDG_CONFIG_HOME", config.path())
+        .env("XDG_DATA_HOME", data.path())
+        .env("XDG_CACHE_HOME", cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("failed to run apm binary")
+}
+
+#[test]
+fn test_export_default_produces_portable_string() {
+    let state = r#"
+version = 1
+
+[[plugins]]
+name = "test-synth"
+version = "2.1.0"
+vendor = "Synth Vendor"
+installed_at = "2026-04-03T00:00:00Z"
+source = "official"
+pinned = false
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/TestSynth.vst3"
+sha256 = "deadbeef"
+"#;
+    let (cfg, data, cache) = setup_fixture_env_with_state(Some(state));
+
+    let output = run_apm_with_env(&["export"], &cfg, &data, &cache);
+    assert!(
+        output.status.success(),
+        "apm export should succeed; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.trim().starts_with("apm1://"),
+        "default export should produce apm1:// string, got: {}",
+        &stdout[..stdout.len().min(80)]
+    );
+    assert!(
+        !stdout.contains("[[plugins]]"),
+        "default export should NOT produce TOML format"
+    );
+}
+
+#[test]
+fn test_export_format_toml_produces_legacy_output() {
+    let state = r#"
+version = 1
+
+[[plugins]]
+name = "test-synth"
+version = "2.1.0"
+vendor = "Synth Vendor"
+installed_at = "2026-04-03T00:00:00Z"
+source = "official"
+pinned = false
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/TestSynth.vst3"
+sha256 = "deadbeef"
+"#;
+    let (cfg, data, cache) = setup_fixture_env_with_state(Some(state));
+
+    let output = run_apm_with_env(&["export", "--format", "toml"], &cfg, &data, &cache);
+    assert!(output.status.success());
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("# apm plugin export"),
+        "toml export should contain header comment, got: {stdout}"
+    );
+    assert!(
+        stdout.contains("[[plugins]]"),
+        "toml export should contain [[plugins]], got: {stdout}"
+    );
+}
+
+#[test]
+fn test_export_format_json_produces_legacy_output() {
+    let state = r#"
+version = 1
+
+[[plugins]]
+name = "test-synth"
+version = "2.1.0"
+vendor = "Synth Vendor"
+installed_at = "2026-04-03T00:00:00Z"
+source = "official"
+pinned = false
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/TestSynth.vst3"
+sha256 = "deadbeef"
+"#;
+    let (cfg, data, cache) = setup_fixture_env_with_state(Some(state));
+
+    let output = run_apm_with_env(&["export", "--format", "json"], &cfg, &data, &cache);
+    assert!(output.status.success());
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("plugins"),
+        "json export should contain 'plugins' key, got: {stdout}"
+    );
+    let parsed: Result<serde_json::Value, _> = serde_json::from_str(stdout.trim());
+    assert!(
+        parsed.is_ok(),
+        "json export should produce valid JSON, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_export_to_file_writes_portable_string() {
+    let state = r#"
+version = 1
+
+[[plugins]]
+name = "test-synth"
+version = "2.1.0"
+vendor = "Synth Vendor"
+installed_at = "2026-04-03T00:00:00Z"
+source = "official"
+pinned = false
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/TestSynth.vst3"
+sha256 = "deadbeef"
+"#;
+    let (cfg, data, cache) = setup_fixture_env_with_state(Some(state));
+
+    let out_file = data.path().join("test_export.apmsetup");
+    let out_path = out_file.to_str().unwrap();
+
+    let output = run_apm_with_env(&["export", "-o", out_path], &cfg, &data, &cache);
+    assert!(
+        output.status.success(),
+        "apm export -o should succeed; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let content = std::fs::read_to_string(&out_file).expect("read exported file");
+    assert!(
+        content.trim().starts_with("apm1://"),
+        "exported file should start with apm1://, got: {}",
+        &content[..content.len().min(80)]
+    );
+}
+
+#[test]
+fn test_import_portable_string_dry_run() {
+    // First, export to get a valid apm1:// string
+    let state = r#"
+version = 1
+
+[[plugins]]
+name = "test-synth"
+version = "1.5.0"
+vendor = "Synth Vendor"
+installed_at = "2026-04-03T00:00:00Z"
+source = "official"
+pinned = false
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/TestSynth.vst3"
+sha256 = "deadbeef"
+"#;
+    let (cfg, data, cache) = setup_fixture_env_with_state(Some(state));
+
+    // Export to get the portable string
+    let export_output = run_apm_with_env(&["export"], &cfg, &data, &cache);
+    assert!(export_output.status.success());
+    let apm1_string = String::from_utf8_lossy(&export_output.stdout).trim().to_string();
+    assert!(apm1_string.starts_with("apm1://"));
+
+    // Now import with --dry-run on a "fresh" environment (no state file)
+    let (cfg2, data2, cache2) = setup_fixture_env_with_state(None);
+
+    let output = run_apm_with_env(
+        &["import", "--dry-run", "--yes", &apm1_string],
+        &cfg2,
+        &data2,
+        &cache2,
+    );
+    assert!(
+        output.status.success(),
+        "import --dry-run should succeed; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("Preview") || stdout.contains("install"),
+        "dry-run should show preview, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_import_file_path_dry_run() {
+    // Export to a file, then import from that file
+    let state = r#"
+version = 1
+
+[[plugins]]
+name = "test-synth"
+version = "1.5.0"
+vendor = "Synth Vendor"
+installed_at = "2026-04-03T00:00:00Z"
+source = "official"
+pinned = false
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/TestSynth.vst3"
+sha256 = "deadbeef"
+"#;
+    let (cfg, data, cache) = setup_fixture_env_with_state(Some(state));
+
+    // Export to file
+    let export_file = data.path().join("setup.apmsetup");
+    let export_path = export_file.to_str().unwrap();
+    let export_output = run_apm_with_env(&["export", "-o", export_path], &cfg, &data, &cache);
+    assert!(export_output.status.success());
+
+    // Import from file with --dry-run on fresh env
+    let (cfg2, data2, cache2) = setup_fixture_env_with_state(None);
+
+    let output = run_apm_with_env(
+        &["import", "--dry-run", "--yes", export_path],
+        &cfg2,
+        &data2,
+        &cache2,
+    );
+    assert!(
+        output.status.success(),
+        "import from file --dry-run should succeed; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("Preview") || stdout.contains("install"),
+        "file import dry-run should show preview, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_import_invalid_input_fails() {
+    let output = run_apm_isolated(&["import", "--dry-run", "garbage-not-a-file-or-string"]);
+
+    assert!(
+        !output.status.success(),
+        "import with invalid input should fail"
+    );
+
+    let stderr = String::from_utf8_lossy(&output.stderr);
+    assert!(
+        stderr.contains("apm1://"),
+        "error should mention apm1://, got: {stderr}"
+    );
+}
+
+#[test]
+fn test_import_legacy_toml_still_works_with_yes_flag() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+
+    let import_file = data.path().join("import.toml");
+    std::fs::write(
+        &import_file,
+        r#"
+[[plugins]]
+name = "test-synth"
+version = "1.5.0"
+formats = ["vst3"]
+source = "official"
+"#,
+    )
+    .expect("write import file");
+
+    let output = run_apm_with_env(
+        &["import", "--dry-run", import_file.to_str().unwrap()],
+        &cfg,
+        &data,
+        &cache,
+    );
+    assert!(
+        output.status.success(),
+        "legacy TOML import should still work; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("test-synth"),
+        "legacy import should process the plugin, got: {stdout}"
+    );
+}
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 /// Recursively copy a directory tree from `src` to `dst`.
