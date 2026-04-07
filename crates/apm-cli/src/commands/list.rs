@@ -10,11 +10,20 @@ use apm_core::{
 use crate::utils::display_path;
 
 #[derive(Serialize)]
+struct FormatJson {
+    format: String,
+    path: String,
+}
+
+#[derive(Serialize)]
 struct InstalledPluginJson {
-    name: String,
+    slug: String,
     version: String,
-    formats: Vec<String>,
-    paths: Vec<String>,
+    vendor: String,
+    formats: Vec<FormatJson>,
+    installed_at: String,
+    source: String,
+    pinned: bool,
 }
 
 pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) -> Result<()> {
@@ -80,18 +89,20 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
         let results: Vec<InstalledPluginJson> = plugins
             .iter()
             .map(|plugin| InstalledPluginJson {
-                name: plugin.name.clone(),
+                slug: plugin.name.clone(),
                 version: plugin.version.clone(),
+                vendor: plugin.vendor.clone(),
                 formats: plugin
                     .formats
                     .iter()
-                    .map(|f| f.format.to_string())
+                    .map(|f| FormatJson {
+                        format: f.format.to_string().to_lowercase(),
+                        path: f.path.to_string_lossy().into_owned(),
+                    })
                     .collect(),
-                paths: plugin
-                    .formats
-                    .iter()
-                    .map(|f| f.path.to_string_lossy().into_owned())
-                    .collect(),
+                installed_at: plugin.installed_at.to_rfc3339(),
+                source: plugin.source.clone(),
+                pinned: plugin.pinned,
             })
             .collect();
         println!("{}", serde_json::to_string_pretty(&results)?);
