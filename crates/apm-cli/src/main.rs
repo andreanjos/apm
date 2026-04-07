@@ -337,6 +337,14 @@ enum Commands {
         name: Option<String>,
     },
 
+    /// List all plugin categories and subcategories with plugin counts.
+    ///
+    /// Shows a tree of categories from the synced registry, with the number
+    /// of plugins in each category and subcategory. Useful for discovering
+    /// what kinds of plugins are available before searching.
+    #[command(alias = "cats")]
+    Categories,
+
     /// Verify the integrity of an installed plugin.
     ///
     /// Checks that each installed format bundle exists on disk at the
@@ -654,6 +662,8 @@ async fn run() -> Result<()> {
 
         Commands::Bundles { name } => commands::bundles::run(&config, name.as_deref(), json).await,
 
+        Commands::Categories => commands::categories::run(&config, json).await,
+
         Commands::Check { name } => commands::check::run(&config, name, json).await,
 
         Commands::Count { available } => commands::count::run(&config, json, *available).await,
@@ -673,6 +683,8 @@ async fn run() -> Result<()> {
         Commands::Stats => commands::stats::run(&config, json).await,
 
         Commands::History { limit } => commands::history::run(&config, *limit, json).await,
+
+        Commands::Tags => commands::tags::run(&config, json).await,
 
         Commands::Vendors => commands::vendors::run(&config, json).await,
 
