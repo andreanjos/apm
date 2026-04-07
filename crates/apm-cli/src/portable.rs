@@ -662,4 +662,290 @@ mod tests {
             .iter()
             .any(|c| c.contains("install_scope")));
     }
+
+    #[test]
+    fn test_encode_decode_with_sources() {
+        let setup = PortableSetup {
+            v: 1,
+            p: vec![PortablePlugin {
+                n: "vital".to_string(),
+                v: "1.5.5".to_string(),
+                p: false,
+                s: "official".to_string(),
+            }],
+            s: vec![
+                (
+                    "community".to_string(),
+                    "https://github.com/example/community-registry".to_string(),
+                ),
+                (
+                    "private-lab".to_string(),
+                    "https://git.internal.example.com/audio/plugins".to_string(),
+                ),
+            ],
+            c: PortableConfig::default(),
+        };
+
+        let encoded = encode(&setup).unwrap();
+        let decoded = decode(&encoded).unwrap();
+
+        assert_eq!(decoded.s.len(), 2, "expected 2 sources after round-trip");
+        assert_eq!(decoded.s[0].0, "community");
+        assert_eq!(
+            decoded.s[0].1,
+            "https://github.com/example/community-registry"
+        );
+        assert_eq!(decoded.s[1].0, "private-lab");
+        assert_eq!(
+            decoded.s[1].1,
+            "https://git.internal.example.com/audio/plugins"
+        );
+    }
+
+    #[test]
+    fn test_encode_decode_with_pins() {
+        let setup = PortableSetup {
+            v: 1,
+            p: vec![
+                PortablePlugin {
+                    n: "vital".to_string(),
+                    v: "1.5.5".to_string(),
+                    p: true,
+                    s: "official".to_string(),
+                },
+                PortablePlugin {
+                    n: "surge-xt".to_string(),
+                    v: "1.3.1".to_string(),
+                    p: false,
+                    s: "official".to_string(),
+                },
+                PortablePlugin {
+                    n: "dexed".to_string(),
+                    v: "0.9.7".to_string(),
+                    p: true,
+                    s: "community".to_string(),
+                },
+            ],
+            s: vec![],
+            c: PortableConfig::default(),
+        };
+
+        let encoded = encode(&setup).unwrap();
+        let decoded = decode(&encoded).unwrap();
+
+        assert_eq!(decoded.p.len(), 3, "expected 3 plugins after round-trip");
+        assert!(decoded.p[0].p, "vital should be pinned");
+        assert!(!decoded.p[1].p, "surge-xt should not be pinned");
+        assert!(decoded.p[2].p, "dexed should be pinned");
+
+        // Also verify that names survived the round-trip
+        assert_eq!(decoded.p[0].n, "vital");
+        assert_eq!(decoded.p[1].n, "surge-xt");
+        assert_eq!(decoded.p[2].n, "dexed");
+    }
+
+    #[test]
+    fn test_encode_decode_with_preferences() {
+        let setup = PortableSetup {
+            v: 1,
+            p: vec![],
+            s: vec![],
+            c: PortableConfig {
+                sc: Some("system".to_string()),
+                reg: Some("https://private-registry.example.com/audio".to_string()),
+            },
+        };
+
+        let encoded = encode(&setup).unwrap();
+        let decoded = decode(&encoded).unwrap();
+
+        assert_eq!(
+            decoded.c.sc,
+            Some("system".to_string()),
+            "install_scope should be 'system' after round-trip"
+        );
+        assert_eq!(
+            decoded.c.reg,
+            Some("https://private-registry.example.com/audio".to_string()),
+            "registry_url should survive round-trip"
+        );
+    }
+
+    #[test]
+    fn test_decode_rejects_invalid_prefix() {
+        // "apm2://" is a different (non-existent) version prefix
+        let result = decode("apm2://abc");
+        assert!(
+            result.is_err(),
+            "apm2:// should be rejected as invalid prefix"
+        );
+        let err = result.unwrap_err().to_string();
+        assert!(
+            err.contains("apm1://"),
+            "Error should mention the expected 'apm1://' prefix, got: {err}"
+        );
+    }
+
+    #[test]
+    fn test_decode_rejects_garbage() {
+        // Valid prefix but the payload is not valid base64url-encoded deflated JSON
+        let result = decode("apm1://this-is-not-valid!!base64@@data");
+        assert!(
+            result.is_err(),
+            "Garbage payload after apm1:// should fail gracefully"
+        );
+        // Should not panic — any error type is acceptable
+    }
+
+    #[test]
+    fn test_encode_produces_reasonably_short_string() {
+        let slugs = [
+            "vital",
+            "surge-xt",
+            "dexed",
+            "helm",
+            "odin2",
+            "diva",
+            "serum",
+            "massive-x",
+            "pigments",
+            "phaseplant",
+            "spire",
+            "sylenth1",
+            "analog-lab",
+            "omnisphere",
+            "kontakt",
+            "zebra2",
+            "repro",
+            "hive2",
+            "fm8",
+            "reaktor",
+        ];
+        assert_eq!(slugs.len(), 20, "sanity: should have 20 plugin slugs");
+
+        let plugins: Vec<PortablePlugin> = slugs
+            .iter()
+            .map(|s| PortablePlugin {
+                n: s.to_string(),
+                v: "1.0.0".to_string(),
+                p: false,
+                s: "official".to_string(),
+            })
+            .collect();
+
+        let setup = PortableSetup {
+            v: 1,
+            p: plugins,
+            s: vec![],
+            c: PortableConfig::default(),
+        };
+
+        let encoded = encode(&setup).unwrap();
+        assert!(
+            encoded.len() < 1500,
+            "Encoded string for 20 plugins should be under 1500 chars, got {} chars",
+            encoded.len()
+        );
+    }
+
+    #[test]
+    fn test_build_preview_new_outdated_current() {
+        // Three distinct categories:
+        // - "synth-new" 2.0.0: not installed at all -> to_install (new)
+        // - "synth-outdated" 3.0.0: installed at 2.0.0 (older) -> to_install (outdated)
+        // - "synth-current" 1.0.0: installed at 1.0.0 (same) -> to_skip_same (current)
+        let setup = PortableSetup {
+            v: 1,
+            p: vec![
+                PortablePlugin {
+                    n: "synth-new".to_string(),
+                    v: "2.0.0".to_string(),
+                    p: false,
+                    s: "official".to_string(),
+                },
+                PortablePlugin {
+                    n: "synth-outdated".to_string(),
+                    v: "3.0.0".to_string(),
+                    p: false,
+                    s: "official".to_string(),
+                },
+                PortablePlugin {
+                    n: "synth-current".to_string(),
+                    v: "1.0.0".to_string(),
+                    p: false,
+                    s: "official".to_string(),
+                },
+            ],
+            s: vec![],
+            c: PortableConfig::default(),
+        };
+
+        let state = InstallState {
+            version: 1,
+            plugins: vec![
+                InstalledPlugin {
+                    name: "synth-outdated".to_string(),
+                    version: "2.0.0".to_string(),
+                    vendor: "Test Vendor".to_string(),
+                    formats: vec![],
+                    installed_at: Utc::now(),
+                    source: "official".to_string(),
+                    pinned: false,
+                },
+                InstalledPlugin {
+                    name: "synth-current".to_string(),
+                    version: "1.0.0".to_string(),
+                    vendor: "Test Vendor".to_string(),
+                    formats: vec![],
+                    installed_at: Utc::now(),
+                    source: "official".to_string(),
+                    pinned: false,
+                },
+            ],
+        };
+
+        let config = Config {
+            default_registry_url: "https://github.com/apm-pm/registry".to_string(),
+            install_scope: InstallScope::User,
+            data_dir: None,
+            cache_dir: None,
+            sources: vec![],
+        };
+
+        let preview = build_preview(&setup, &state, &config);
+
+        // "synth-new" (not installed) and "synth-outdated" (import 3.0.0 > installed 2.0.0)
+        assert_eq!(
+            preview.to_install.len(),
+            2,
+            "to_install: expected new + outdated = 2"
+        );
+        assert!(
+            preview.to_install.iter().any(|(n, v, _)| n == "synth-new" && v == "2.0.0"),
+            "synth-new should be in to_install"
+        );
+        assert!(
+            preview
+                .to_install
+                .iter()
+                .any(|(n, v, _)| n == "synth-outdated" && v == "3.0.0"),
+            "synth-outdated should be in to_install"
+        );
+
+        // "synth-current" (same version)
+        assert_eq!(
+            preview.to_skip_same.len(),
+            1,
+            "to_skip_same: expected current = 1"
+        );
+        assert_eq!(preview.to_skip_same[0], "synth-current");
+
+        // Nothing should be in skip_newer, pin, or unpin
+        assert!(
+            preview.to_skip_newer.is_empty(),
+            "to_skip_newer should be empty"
+        );
+        assert!(preview.to_pin.is_empty(), "to_pin should be empty");
+        assert!(preview.to_unpin.is_empty(), "to_unpin should be empty");
+    }
 }
