@@ -107,3 +107,296 @@ fn relevance_score(p: &PluginDefinition, query: &str) -> u8 {
     }
     4
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::collections::HashMap;
+
+    /// Build a minimal `PluginDefinition` with the given fields; everything
+    /// else gets sensible defaults so tests stay concise.
+    fn make_plugin(
+        slug: &str,
+        name: &str,
+        vendor: &str,
+        description: &str,
+        category: &str,
+        subcategory: Option<&str>,
+        tags: Vec<&str>,
+    ) -> PluginDefinition {
+        PluginDefinition {
+            slug: slug.to_string(),
+            name: name.to_string(),
+            vendor: vendor.to_string(),
+            version: "1.0.0".to_string(),
+            description: description.to_string(),
+            category: category.to_string(),
+            subcategory: subcategory.map(|s| s.to_string()),
+            license: "Freeware".to_string(),
+            tags: tags.into_iter().map(|t| t.to_string()).collect(),
+            formats: HashMap::new(),
+            releases: Vec::new(),
+            homepage: None,
+            is_paid: false,
+            price_cents: None,
+            currency: None,
+            source_name: None,
+        }
+    }
+
+    /// Build a `Registry` from a vec of `PluginDefinition`s.
+    fn make_registry(plugins: Vec<PluginDefinition>) -> Registry {
+        let mut map = HashMap::new();
+        for p in plugins {
+            map.insert(p.slug.clone(), p);
+        }
+        Registry {
+            plugins: map,
+            plugins_by_source: HashMap::new(),
+            bundles: HashMap::new(),
+        }
+    }
+
+    #[test]
+    fn test_exact_slug_match_ranks_first() {
+        let registry = make_registry(vec![
+            make_plugin(
+                "surge-xt-effects",
+                "Surge XT Effects",
+                "Surge Synth Team",
+                "Effect plugins from the Surge project",
+                "effect",
+                None,
+                vec![],
+            ),
+            make_plugin(
+                "surge-xt",
+                "Surge XT",
+                "Surge Synth Team",
+                "Open-source hybrid synthesizer",
+                "instrument",
+                Some("synth"),
+                vec![],
+            ),
+        ]);
+
+        let results = search(&registry, "surge-xt", None, None);
+
+        assert!(
+            results.len() >= 2,
+            "Expected at least 2 results, got {}",
+            results.len()
+        );
+        assert_eq!(
+            results[0].slug, "surge-xt",
+            "Exact slug match should rank first"
+        );
+        assert_eq!(results[1].slug, "surge-xt-effects");
+    }
+
+    #[test]
+    fn test_name_match_ranks_above_description() {
+        let registry = make_registry(vec![
+            make_plugin(
+                "delay-machine",
+                "Delay Machine",
+                "Acme Audio",
+                "Delay effect with a lush reverb tail",
+                "effect",
+                Some("delay"),
+                vec![],
+            ),
+            make_plugin(
+                "super-reverb",
+                "Super Reverb",
+                "Acme Audio",
+                "A pristine algorithmic effect",
+                "effect",
+                Some("reverb"),
+                vec![],
+            ),
+        ]);
+
+        let results = search(&registry, "reverb", None, None);
+
+        assert!(
+            results.len() >= 2,
+            "Expected at least 2 results, got {}",
+            results.len()
+        );
+        assert_eq!(
+            results[0].slug, "super-reverb",
+            "Plugin with 'reverb' in name should rank above one with 'reverb' only in description"
+        );
+    }
+
+    #[test]
+    fn test_vendor_filter_works() {
+        let registry = make_registry(vec![
+            make_plugin(
+                "tal-noisemaker",
+                "TAL-NoiseMaker",
+                "TAL Software",
+                "Virtual analog synthesizer",
+                "instrument",
+                Some("synth"),
+                vec![],
+            ),
+            make_plugin(
+                "vital",
+                "Vital",
+                "Matt Tytel",
+                "Spectral warping wavetable synth",
+                "instrument",
+                Some("synth"),
+                vec![],
+            ),
+            make_plugin(
+                "tal-reverb",
+                "TAL-Reverb",
+                "TAL Software",
+                "Plate reverb effect",
+                "effect",
+                Some("reverb"),
+                vec![],
+            ),
+        ]);
+
+        let results = search(&registry, "", None, Some("TAL Software"));
+
+        assert_eq!(results.len(), 2, "Should return only TAL Software plugins");
+        for p in &results {
+            assert_eq!(
+                p.vendor, "TAL Software",
+                "All results should be from TAL Software"
+            );
+        }
+    }
+
+    #[test]
+    fn test_category_filter_works() {
+        let registry = make_registry(vec![
+            make_plugin(
+                "dexed",
+                "Dexed",
+                "Digital Suburban",
+                "DX7 FM synthesizer",
+                "instrument",
+                Some("synth"),
+                vec![],
+            ),
+            make_plugin(
+                "dragonfly-reverb",
+                "Dragonfly Reverb",
+                "Michael Willis",
+                "Algorithmic reverb",
+                "effect",
+                Some("reverb"),
+                vec![],
+            ),
+            make_plugin(
+                "odin2",
+                "Odin 2",
+                "The Wave Warden",
+                "Semi-modular synthesizer",
+                "instrument",
+                Some("synth"),
+                vec![],
+            ),
+        ]);
+
+        let results = search(&registry, "", Some("instrument"), None);
+
+        assert_eq!(results.len(), 2, "Should return only instruments");
+        for p in &results {
+            assert_eq!(
+                p.category, "instrument",
+                "All results should be instruments"
+            );
+        }
+    }
+
+    #[test]
+    fn test_empty_query_returns_all() {
+        let registry = make_registry(vec![
+            make_plugin(
+                "plugin-a",
+                "Plugin A",
+                "Vendor A",
+                "First plugin",
+                "effect",
+                None,
+                vec![],
+            ),
+            make_plugin(
+                "plugin-b",
+                "Plugin B",
+                "Vendor B",
+                "Second plugin",
+                "instrument",
+                None,
+                vec![],
+            ),
+            make_plugin(
+                "plugin-c",
+                "Plugin C",
+                "Vendor C",
+                "Third plugin",
+                "effect",
+                Some("reverb"),
+                vec![],
+            ),
+        ]);
+
+        let results = search(&registry, "", None, None);
+
+        assert_eq!(
+            results.len(),
+            3,
+            "Empty query with no filters should return all plugins"
+        );
+    }
+
+    #[test]
+    fn test_case_insensitive_search() {
+        let registry = make_registry(vec![
+            make_plugin(
+                "tal-noisemaker",
+                "TAL-NoiseMaker",
+                "TAL Software",
+                "Virtual analog synthesizer",
+                "instrument",
+                Some("synth"),
+                vec![],
+            ),
+            make_plugin(
+                "vital",
+                "Vital",
+                "Matt Tytel",
+                "Spectral warping wavetable synth",
+                "instrument",
+                Some("synth"),
+                vec![],
+            ),
+        ]);
+
+        let upper = search(&registry, "TAL", None, None);
+        let lower = search(&registry, "tal", None, None);
+
+        assert_eq!(
+            upper.len(),
+            lower.len(),
+            "Case should not affect number of results"
+        );
+        assert!(
+            !upper.is_empty(),
+            "Should find at least one result for 'TAL'"
+        );
+        let upper_slugs: Vec<&str> = upper.iter().map(|p| p.slug.as_str()).collect();
+        let lower_slugs: Vec<&str> = lower.iter().map(|p| p.slug.as_str()).collect();
+        assert_eq!(
+            upper_slugs, lower_slugs,
+            "Results should be identical regardless of query case"
+        );
+    }
+}
