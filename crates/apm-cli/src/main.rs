@@ -188,6 +188,14 @@ enum Commands {
         dry_run: bool,
     },
 
+    /// Compare installed plugins against the registry.
+    ///
+    /// Shows a full picture: outdated plugins with available upgrades,
+    /// plugins no longer in any registry, and plugins that are up to date.
+    /// A superset of `apm outdated` that includes all three categories.
+    #[command(alias = "d")]
+    Diff,
+
     /// List installed plugins that have newer versions available in the registry.
     ///
     /// Compares installed versions from the local state file against the
@@ -226,6 +234,14 @@ enum Commands {
         #[arg(long, short = 'l')]
         list: bool,
     },
+
+    /// View apm configuration.
+    ///
+    /// Show current configuration values and paths. Use `config show` for
+    /// all settings, or `config path` to print the config file location
+    /// (useful for `$EDITOR $(apm config path)`).
+    #[command(subcommand, alias = "cfg")]
+    Config(ConfigCommands),
 
     /// Manage registry sources.
     ///
@@ -358,6 +374,20 @@ enum Commands {
 }
 
 #[derive(Subcommand, Debug)]
+enum ConfigCommands {
+    /// Show current configuration values.
+    ///
+    /// Displays the registry URL, install scope, config file path, data and
+    /// cache directories, and configured sources.
+    Show,
+
+    /// Print the config file path.
+    ///
+    /// Useful for quick editing: `$EDITOR $(apm config path)`
+    Path,
+}
+
+#[derive(Subcommand, Debug)]
 enum SourcesCommands {
     /// Add a new registry source.
     ///
@@ -386,6 +416,12 @@ enum SourcesCommands {
 
 #[tokio::main]
 async fn main() {
+    // Respect the NO_COLOR standard (https://no-color.org/).
+    // When set, disable all colored output — useful in CI and piped contexts.
+    if std::env::var("NO_COLOR").is_ok() {
+        colored::control::set_override(false);
+    }
+
     if let Err(e) = run().await {
         eprintln!("error: {e}");
         // Walk the error chain for additional context.
@@ -504,6 +540,8 @@ async fn run() -> Result<()> {
             commands::remove::run(&config, name, json, *dry_run).await
         }
 
+        Commands::Diff => commands::diff::run(&config, json).await,
+
         Commands::Outdated => commands::outdated::run(&config, json).await,
 
         Commands::Upgrade { name, dry_run } => {
@@ -513,6 +551,11 @@ async fn run() -> Result<()> {
         Commands::Pin { name, unpin, list } => {
             commands::pin::run(&config, name.as_deref(), *unpin, *list, json).await
         }
+
+        Commands::Config(sub) => match sub {
+            ConfigCommands::Show => commands::config_cmd::run_show(&config, json),
+            ConfigCommands::Path => commands::config_cmd::run_path(json),
+        },
 
         Commands::Sources(sub) => match sub {
             SourcesCommands::Add { url, name } => {

@@ -1,7 +1,9 @@
 pub mod bundles;
 pub mod cleanup;
 pub mod completions;
+pub mod config_cmd;
 pub mod count;
+pub mod diff;
 pub mod doctor;
 pub mod export_cmd;
 pub mod import_cmd;
