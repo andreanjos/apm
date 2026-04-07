@@ -15,9 +15,9 @@ use crate::registry::Source;
 /// Check whether a source URL refers to a local filesystem path rather than
 /// a remote Git URL. Returns the resolved path if local, `None` otherwise.
 pub fn local_path(url: &str) -> Option<PathBuf> {
-    let expanded = if url.starts_with('~') {
+    let expanded = if let Some(stripped) = url.strip_prefix('~') {
         if let Some(home) = dirs::home_dir() {
-            home.join(&url[1..].trim_start_matches('/'))
+            home.join(stripped.trim_start_matches('/'))
         } else {
             return None;
         }
