@@ -9,15 +9,15 @@ local state file. Think `apt` or `brew`, but for your DAW.
 
 ## Installation
 
-Requires **Rust 1.70+**. Install Rust via [rustup.rs](https://rustup.rs/).
+```sh
+brew tap andreanjos/apm https://github.com/andreanjos/apm
+brew install apm
+```
+
+Or build from source (requires Rust 1.70+):
 
 ```sh
-# Install from source
 cargo install --path crates/apm-cli
-
-# Or build without installing
-cargo build --release
-# Binary: ./target/release/apm
 ```
 
 Enable shell completions (optional):
@@ -84,14 +84,6 @@ apm pin vital --unpin   # Unpin
 apm pin --list          # List pinned plugins
 ```
 
-### Discovery
-
-```sh
-apm explore                   # Browse categories and recommendations
-apm featured                  # Staff picks and featured plugins
-apm compare surge-xt vital    # Side-by-side comparison
-```
-
 ### System and diagnostics
 
 ```sh
@@ -112,23 +104,6 @@ apm supports multiple Git-backed registries.
 apm sources list
 apm sources add https://github.com/your-org/apm-registry --name my-registry
 apm sources remove my-registry
-```
-
-### Accounts and purchasing
-
-apm has built-in support for purchasing paid plugins through an optional account
-system.
-
-```sh
-apm login                   # Authenticate
-apm logout                  # Remove credentials
-apm auth status             # Check auth state
-apm auth set-api-key        # Manage API keys
-
-apm buy <slug>              # Purchase a plugin
-apm licenses                # List your licenses
-apm restore <slug>          # Re-download a purchased plugin
-apm refund <slug>           # Request a refund
 ```
 
 ## Registry format
@@ -178,31 +153,6 @@ bundle_path  = "ValhallaSupermassive.component"
 | `sha256` | yes | SHA256 hex digest of the download |
 | `install_type` | yes | `"dmg"`, `"pkg"`, or `"zip"` |
 | `bundle_path` | for dmg/zip | Path inside the archive to the plugin bundle |
-
-## Architecture
-
-apm is a Rust workspace with three crates:
-
-```
-crates/
-  apm-core/     # Shared library — registry types, config, state, license verification
-  apm-cli/      # Command-line tool — clap-based, installs dmg/pkg/zip
-  apm-server/   # REST API — Axum, PostgreSQL, Stripe, JWT auth, license signing
-```
-
-The CLI works standalone for free plugins. The server is only needed for account
-features (auth, purchasing, licenses).
-
-### Server setup (development)
-
-```sh
-cp .env.example .env          # Edit with your values
-createdb apm_dev              # Create Postgres database
-cargo run -p apm-server       # Runs migrations automatically on startup
-```
-
-See `.env.example` for required environment variables (database URL, JWT secret,
-Stripe keys, license signing key).
 
 ## Contributing plugins
 

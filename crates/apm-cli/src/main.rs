@@ -286,6 +286,7 @@ enum Commands {
     },
 
     /// Purchase a paid plugin from the apm store.
+    #[command(hide = true)]
     Buy {
         /// Plugin name or slug to purchase.
         plugin: String,
@@ -296,12 +297,14 @@ enum Commands {
     },
 
     /// Request a refund for a purchased plugin or order.
+    #[command(hide = true)]
     Refund {
         /// Plugin slug with a local order record or a numeric order id.
         target: String,
     },
 
     /// Log in to your apm account.
+    #[command(hide = true)]
     Login {
         /// Account email address to use for device authorization.
         #[arg(long, env = "APM_AUTH_EMAIL")]
@@ -313,6 +316,7 @@ enum Commands {
     },
 
     /// Create an account and log in immediately.
+    #[command(hide = true)]
     Signup {
         /// Account email address to create.
         #[arg(long, env = "APM_AUTH_EMAIL")]
@@ -324,25 +328,31 @@ enum Commands {
     },
 
     /// Remove all locally stored authentication credentials.
+    #[command(hide = true)]
     Logout,
 
     /// Manage locally stored authentication credentials.
-    #[command(subcommand)]
+    #[command(subcommand, hide = true)]
     Auth(AuthCommands),
 
     /// List your plugin licenses.
+    #[command(hide = true)]
     Licenses,
 
     /// Restore previously purchased plugins on this machine.
+    #[command(hide = true)]
     Restore,
 
     /// Show featured plugins and staff picks.
+    #[command(hide = true)]
     Featured,
 
     /// Browse plugin categories and recommendations.
+    #[command(hide = true)]
     Explore,
 
     /// Compare two plugins side-by-side using storefront facts.
+    #[command(hide = true)]
     Compare {
         /// Left-hand plugin slug.
         left: String,
