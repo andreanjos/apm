@@ -136,7 +136,7 @@ pub async fn run(config: &Config, plugin: &str, confirm: bool, json: bool) -> Re
                 println!("Starting plugin install...");
                 crate::commands::install::run(
                     config,
-                    &[order.plugin_slug.clone()],
+                    std::slice::from_ref(&order.plugin_slug),
                     None,
                     None,
                     None,
