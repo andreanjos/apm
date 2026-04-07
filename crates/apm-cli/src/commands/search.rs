@@ -1,9 +1,12 @@
+use std::collections::HashSet;
+
 use anyhow::Result;
 use colored::Colorize;
 use serde::Serialize;
 
 use apm_core::config::Config;
 use apm_core::registry::{self, search};
+use apm_core::state::InstallState;
 
 use crate::utils::{format_category, format_price};
 
@@ -35,6 +38,7 @@ pub async fn run(
     free_only: bool,
     tag: Option<&str>,
     limit: Option<usize>,
+    installed: bool,
     json: bool,
 ) -> Result<()> {
     let registry = registry::Registry::load_all_sources(config)?;
@@ -52,6 +56,14 @@ pub async fn run(
         return Ok(());
     }
 
+    // When --installed is set, load the install state and build a lookup set.
+    let installed_slugs: Option<HashSet<String>> = if installed {
+        let state = InstallState::load(config).unwrap_or_default();
+        Some(state.plugins.iter().map(|p| p.name.clone()).collect())
+    } else {
+        None
+    };
+
     let results: Vec<_> = search::search(&registry, query, category, vendor, tag)
         .into_iter()
         .filter(|plugin| {
@@ -60,6 +72,11 @@ pub async fn run(
             }
             if free_only && plugin.is_paid {
                 return false;
+            }
+            if let Some(ref slugs) = installed_slugs {
+                if !slugs.contains(&plugin.slug) {
+                    return false;
+                }
             }
             true
         })
@@ -73,6 +90,9 @@ pub async fn run(
             return Ok(());
         }
         let mut filter_msg = String::new();
+        if installed {
+            filter_msg.push_str(" among installed plugins");
+        }
         if let Some(c) = category {
             filter_msg.push_str(&format!(" in category \"{c}\""));
         }
@@ -217,13 +237,14 @@ pub async fn run(
     } else {
         ""
     };
+    let installed_qualifier = if installed { " installed" } else { "" };
     let plugin_word = if total_matches == 1 {
         "plugin"
     } else {
         "plugins"
     };
 
-    let mut footer = format!("Found {total_matches}{price_qualifier} {plugin_word}");
+    let mut footer = format!("Found {total_matches}{price_qualifier}{installed_qualifier} {plugin_word}");
 
     if !query.is_empty() {
         footer.push_str(&format!(" matching \"{query}\""));
