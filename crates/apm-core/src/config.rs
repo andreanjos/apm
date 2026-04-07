@@ -166,11 +166,6 @@ impl Config {
         self.resolved_data_dir().join("backups")
     }
 
-    /// Returns the path to the local SQLite license cache.
-    pub fn license_cache_db_path(&self) -> PathBuf {
-        self.resolved_data_dir().join("licenses.sqlite3")
-    }
-
     /// Returns all configured sources, always including the default official
     /// registry first, followed by any user-added sources.
     pub fn sources(&self) -> Vec<Source> {
@@ -290,4 +285,121 @@ pub fn ensure_dir(path: &Path) -> Result<()> {
         debug!("Created directory: {}", path.display());
     }
     Ok(())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_default_config_has_official_source() {
+        let cfg = Config::default();
+        let sources = cfg.sources();
+        assert!(!sources.is_empty(), "sources should not be empty");
+        assert!(
+            sources.iter().any(|s| s.name == "official"),
+            "sources should contain an entry named 'official'"
+        );
+    }
+
+    #[test]
+    fn test_sources_includes_custom() {
+        let mut cfg = Config::default();
+        cfg.sources.push(SourceEntry {
+            name: "my-registry".to_string(),
+            url: "https://example.com/registry".to_string(),
+        });
+
+        let sources = cfg.sources();
+        assert!(
+            sources.iter().any(|s| s.name == "official"),
+            "official source should still be present"
+        );
+        assert!(
+            sources.iter().any(|s| s.name == "my-registry"),
+            "custom source should be present"
+        );
+        assert_eq!(sources.len(), 2, "should have exactly 2 sources");
+    }
+
+    #[test]
+    fn test_resolved_data_dir_with_override() {
+        let cfg = Config {
+            data_dir: Some(PathBuf::from("/tmp/custom-apm-data")),
+            ..Config::default()
+        };
+        assert_eq!(cfg.resolved_data_dir(), PathBuf::from("/tmp/custom-apm-data"));
+    }
+
+    #[test]
+    fn test_resolved_data_dir_default() {
+        let cfg = Config::default();
+        let resolved = cfg.resolved_data_dir();
+        // Without override, it should fall back to XDG-based data_dir().
+        // We cannot hardcode the exact path because it depends on the user's
+        // home directory and XDG_DATA_HOME, but it must end with "apm".
+        assert!(
+            resolved.ends_with("apm"),
+            "default resolved_data_dir should end with 'apm', got: {}",
+            resolved.display()
+        );
+    }
+
+    #[test]
+    fn test_load_config_with_missing_fields_uses_defaults() {
+        let dir = tempfile::tempdir().expect("failed to create temp dir");
+        let path = dir.path().join("config.toml");
+        std::fs::write(
+            &path,
+            "default_registry_url = \"https://example.com/reg\"\n",
+        )
+        .expect("failed to write minimal config");
+
+        let cfg = load_config(&path).expect("load_config should succeed with minimal TOML");
+        assert_eq!(cfg.default_registry_url, "https://example.com/reg");
+        // Fields not present in the file should get their defaults.
+        assert_eq!(cfg.install_scope, InstallScope::User);
+        assert!(cfg.data_dir.is_none());
+        assert!(cfg.cache_dir.is_none());
+        assert!(cfg.sources.is_empty());
+    }
+
+    #[test]
+    fn test_load_config_with_invalid_toml_gives_actionable_error() {
+        let dir = tempfile::tempdir().expect("failed to create temp dir");
+        let path = dir.path().join("bad.toml");
+        std::fs::write(&path, "this is not = = valid toml").expect("failed to write bad config");
+
+        let err = load_config(&path).expect_err("load_config should fail on invalid TOML");
+        let msg = format!("{:#}", err);
+        assert!(
+            msg.contains(&path.display().to_string()),
+            "error should contain the file path, got: {msg}"
+        );
+    }
+
+    #[test]
+    fn test_config_save_roundtrip() {
+        let dir = tempfile::tempdir().expect("failed to create temp dir");
+        let path = dir.path().join("roundtrip.toml");
+
+        let original = Config {
+            default_registry_url: "https://example.com/rt".to_string(),
+            install_scope: InstallScope::System,
+            data_dir: None,
+            cache_dir: None,
+            sources: vec![SourceEntry {
+                name: "extra".to_string(),
+                url: "https://extra.example.com".to_string(),
+            }],
+        };
+
+        write_config(&path, &original).expect("write_config should succeed");
+        let loaded = load_config(&path).expect("load_config should succeed after save");
+
+        assert_eq!(loaded.default_registry_url, original.default_registry_url);
+        assert_eq!(loaded.install_scope, original.install_scope);
+        assert_eq!(loaded.sources.len(), original.sources.len());
+        assert_eq!(loaded.sources, original.sources);
+    }
 }
