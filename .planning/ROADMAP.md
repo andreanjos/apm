@@ -282,4 +282,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 | 11. Versioned Registry Model and Historical Install Surface | v2.1 | 1/1 | Complete | 2026-04-03 |
 | 12. Lifecycle Consistency for Historical Versions | v2.1 | 1/1 | Complete | 2026-04-03 |
 | 13. Install Reliability Audit and Registry Repair Loop | v2.1 | 1/1 | Complete | 2026-04-03 |
-| 14. Portable Setup (Import/Export) | v0.2 | 2/2 | Complete   | 2026-04-07 |
+| 14. Portable Setup (Import/Export) | v0.2 | 2/2 | Complete    | 2026-04-07 |
