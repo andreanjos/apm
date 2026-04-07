@@ -351,4 +351,53 @@ install_type = "zip"
 
         std::fs::remove_dir_all(&temp).unwrap();
     }
+
+    #[test]
+    fn test_find_case_insensitive() {
+        let mut registry = Registry::new();
+        registry.plugins.insert(
+            "tal-noisemaker".to_string(),
+            PluginDefinition {
+                slug: "tal-noisemaker".to_string(),
+                name: "TAL-NoiseMaker".to_string(),
+                vendor: "TAL Software".to_string(),
+                version: "1.0.0".to_string(),
+                description: "Virtual analog synth".to_string(),
+                category: "instrument".to_string(),
+                subcategory: None,
+                license: "freeware".to_string(),
+                tags: vec![],
+                formats: std::collections::HashMap::new(),
+                releases: vec![],
+                homepage: None,
+                is_paid: false,
+                price_cents: None,
+                currency: None,
+                source_name: None,
+            },
+        );
+
+        // Upper-case lookup should still find the lower-case keyed plugin.
+        let found = registry.find("TAL-NOISEMAKER");
+        assert!(found.is_some(), "case-insensitive find should match");
+        assert_eq!(found.unwrap().slug, "tal-noisemaker");
+    }
+
+    #[test]
+    fn test_load_from_empty_dir() {
+        let temp = std::env::temp_dir().join(format!("apm-empty-dir-test-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&temp);
+
+        // Create the cache directory with an empty plugins/ subdirectory.
+        let plugins_dir = temp.join("plugins");
+        std::fs::create_dir_all(&plugins_dir).unwrap();
+
+        let registry = Registry::load_from_cache(&temp).unwrap();
+        assert!(
+            registry.plugins.is_empty(),
+            "registry loaded from empty plugins dir should have no plugins"
+        );
+
+        std::fs::remove_dir_all(&temp).unwrap();
+    }
 }

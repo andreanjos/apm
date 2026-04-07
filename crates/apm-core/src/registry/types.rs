@@ -240,6 +240,96 @@ pub struct PluginBundle {
     pub plugins: Vec<String>,
 }
 
+// ── Tests ────────────────────────────────────────────────────────────────────
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::collections::HashMap;
+
+    /// Build a minimal `PluginDefinition` for testing, with the latest version
+    /// set to `latest_ver` and `releases` populated from the given list.
+    fn make_plugin(latest_ver: &str, release_versions: &[&str]) -> PluginDefinition {
+        let dummy_format_source = FormatSource {
+            url: "https://example.com/plugin.zip".to_string(),
+            sha256: "abc123".to_string(),
+            install_type: InstallType::Zip,
+            bundle_path: None,
+            download_type: DownloadType::Direct,
+        };
+        let mut formats = HashMap::new();
+        formats.insert(PluginFormat::Vst3, dummy_format_source.clone());
+
+        let releases: Vec<PluginRelease> = release_versions
+            .iter()
+            .map(|v| PluginRelease {
+                version: v.to_string(),
+                formats: formats.clone(),
+            })
+            .collect();
+
+        PluginDefinition {
+            slug: "test-plugin".to_string(),
+            name: "Test Plugin".to_string(),
+            vendor: "Test Vendor".to_string(),
+            version: latest_ver.to_string(),
+            description: "A test plugin".to_string(),
+            category: "effect".to_string(),
+            subcategory: None,
+            license: "freeware".to_string(),
+            tags: vec![],
+            formats,
+            releases,
+            homepage: None,
+            is_paid: false,
+            price_cents: None,
+            currency: None,
+            source_name: None,
+        }
+    }
+
+    #[test]
+    fn test_plugin_available_versions_deduplicates() {
+        // latest = "2.0.0", and releases includes "2.0.0" plus "1.0.0"
+        let plugin = make_plugin("2.0.0", &["2.0.0", "1.0.0"]);
+        let versions = plugin.available_versions();
+
+        // "2.0.0" must appear exactly once even though it is both
+        // the top-level version AND present in releases.
+        assert_eq!(
+            versions.iter().filter(|v| v.as_str() == "2.0.0").count(),
+            1,
+            "2.0.0 should appear exactly once, got: {versions:?}"
+        );
+        assert_eq!(versions, vec!["2.0.0", "1.0.0"]);
+    }
+
+    #[test]
+    fn test_plugin_resolve_release_latest() {
+        let plugin = make_plugin("3.0.0", &["2.0.0", "1.0.0"]);
+        let release = plugin.resolve_release(None).expect("should resolve latest");
+        assert_eq!(release.version, "3.0.0");
+    }
+
+    #[test]
+    fn test_plugin_resolve_release_specific() {
+        let plugin = make_plugin("3.0.0", &["2.0.0", "1.0.0"]);
+        let release = plugin
+            .resolve_release(Some("1.0.0"))
+            .expect("should find 1.0.0 in releases");
+        assert_eq!(release.version, "1.0.0");
+    }
+
+    #[test]
+    fn test_plugin_resolve_release_missing() {
+        let plugin = make_plugin("3.0.0", &["2.0.0", "1.0.0"]);
+        assert!(
+            plugin.resolve_release(Some("9.9.9")).is_none(),
+            "non-existent version should return None"
+        );
+    }
+}
+
 // ── Source ────────────────────────────────────────────────────────────────────
 
 /// A configured registry source (mirrors `apt`'s `sources.list` entry).
