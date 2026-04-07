@@ -467,11 +467,15 @@ sha256 = "deadbeef"
 
     let stdout = String::from_utf8_lossy(&output.stdout);
     let value: serde_json::Value = serde_json::from_str(stdout.trim()).expect("valid JSON");
-    let arr = value.as_array().expect("array");
+    let obj = value.as_object().expect("top-level object");
+    let arr = obj["outdated"].as_array().expect("outdated array");
     assert_eq!(arr.len(), 1, "expected one outdated plugin");
     assert_eq!(arr[0]["name"], "test-synth");
-    assert_eq!(arr[0]["installed_version"], "1.5.0");
-    assert_eq!(arr[0]["available_version"], "2.1.0");
+    assert_eq!(arr[0]["installed"], "1.5.0");
+    assert_eq!(arr[0]["available"], "2.1.0");
+    assert_eq!(arr[0]["pinned"], false);
+    assert!(obj["up_to_date_count"].is_number(), "up_to_date_count should be a number");
+    assert!(obj["pinned_count"].is_number(), "pinned_count should be a number");
 }
 
 #[test]

@@ -10,12 +10,31 @@ use apm_core::config::Config;
 use apm_core::registry::Registry;
 use apm_core::state::InstallState;
 
-/// JSON-serializable view of an outdated plugin.
+// ── JSON types ───────────────────────────────────────────────────────────────
+
+/// Top-level JSON output for the outdated command.
+#[derive(Serialize)]
+struct OutdatedResultJson {
+    outdated: Vec<OutdatedPluginJson>,
+    up_to_date_count: usize,
+    pinned_count: usize,
+}
+
+/// JSON-serializable view of a single outdated plugin.
 #[derive(Serialize)]
 struct OutdatedPluginJson {
     name: String,
-    installed_version: String,
-    available_version: String,
+    installed: String,
+    available: String,
+    pinned: bool,
+}
+
+// ── Internal types ───────────────────────────────────────────────────────────
+
+struct OutdatedEntry {
+    name: String,
+    installed: String,
+    available: String,
     pinned: bool,
 }
 
@@ -26,7 +45,12 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
     if state.plugins.is_empty() {
         if json {
-            println!("[]");
+            let empty = OutdatedResultJson {
+                outdated: vec![],
+                up_to_date_count: 0,
+                pinned_count: 0,
+            };
+            println!("{}", serde_json::to_string_pretty(&empty)?);
         } else {
             println!("No plugins installed via apm.");
         }
@@ -44,14 +68,8 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
     // ── Compare installed vs registry versions ────────────────────────────────
 
-    struct OutdatedEntry {
-        name: String,
-        installed: String,
-        available: String,
-        pinned: bool,
-    }
-
     let mut outdated: Vec<OutdatedEntry> = Vec::new();
+    let mut up_to_date_count: usize = 0;
 
     for installed in &state.plugins {
         let Some(registry_plugin) = registry.find(&installed.name) else {
@@ -79,34 +97,49 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
                 available: registry_version.clone(),
                 pinned: installed.pinned,
             });
+        } else {
+            up_to_date_count += 1;
         }
     }
+
+    let pinned_count = outdated.iter().filter(|e| e.pinned).count();
 
     // ── Display results ───────────────────────────────────────────────────────
 
     if outdated.is_empty() {
         if json {
-            println!("[]");
+            let result = OutdatedResultJson {
+                outdated: vec![],
+                up_to_date_count,
+                pinned_count: 0,
+            };
+            println!("{}", serde_json::to_string_pretty(&result)?);
         } else {
-            println!("All plugins are up to date.");
+            println!("All {} plugins are up to date.", up_to_date_count);
         }
         return Ok(());
     }
 
     // ── JSON output ───────────────────────────────────────────────────────────
     if json {
-        let json_results: Vec<OutdatedPluginJson> = outdated
-            .iter()
-            .map(|e| OutdatedPluginJson {
-                name: e.name.clone(),
-                installed_version: e.installed.clone(),
-                available_version: e.available.clone(),
-                pinned: e.pinned,
-            })
-            .collect();
-        println!("{}", serde_json::to_string_pretty(&json_results)?);
+        let result = OutdatedResultJson {
+            outdated: outdated
+                .iter()
+                .map(|e| OutdatedPluginJson {
+                    name: e.name.clone(),
+                    installed: e.installed.clone(),
+                    available: e.available.clone(),
+                    pinned: e.pinned,
+                })
+                .collect(),
+            up_to_date_count,
+            pinned_count,
+        };
+        println!("{}", serde_json::to_string_pretty(&result)?);
         return Ok(());
     }
+
+    // ── Human-readable table ─────────────────────────────────────────────────
 
     // Calculate column widths.
     let col_name = outdated
@@ -165,11 +198,27 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
         );
     }
 
-    // Summary.
-    let upgradeable = outdated.iter().filter(|e| !e.pinned).count();
+    // ── Summary ──────────────────────────────────────────────────────────────
+
+    let upgradeable = outdated.len() - pinned_count;
+
+    let mut summary_parts: Vec<String> = Vec::new();
+    summary_parts.push(format!(
+        "{} outdated, {} up to date",
+        outdated.len(),
+        up_to_date_count
+    ));
+    if pinned_count > 0 {
+        summary_parts.push(format!(
+            "{} pinned",
+            pinned_count
+        ));
+    }
+    println!("\n{}", summary_parts.join(", ").dimmed());
+
     if upgradeable > 0 {
         println!(
-            "\n{}",
+            "{}",
             format!(
                 "{} plugin(s) can be upgraded. Run 'apm upgrade' to upgrade all.",
                 upgradeable
@@ -177,7 +226,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
             .yellow()
         );
     } else {
-        println!("\n{}", "All upgradeable plugins are pinned.".yellow());
+        println!("{}", "All outdated plugins are pinned.".yellow());
     }
 
     Ok(())
