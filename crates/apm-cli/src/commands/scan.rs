@@ -24,7 +24,7 @@ struct ScannedPluginJson {
     managed_by_apm: bool,
 }
 
-pub async fn run(config: &Config, json: bool) -> Result<()> {
+pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) -> Result<()> {
     let plugins = scanner::scan_plugins(config);
 
     if plugins.is_empty() {
@@ -40,22 +40,46 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     // A missing or unreadable state file is treated as empty (no managed plugins).
     let state = InstallState::load(config).unwrap_or_default();
 
+    // Helper: determine whether a scanned plugin is managed by apm.
+    let is_managed = |p: &scanner::ScannedPlugin| -> bool {
+        state.plugins.iter().any(|sp| {
+            sp.formats.iter().any(|f| f.path == p.path)
+                || sp.name.eq_ignore_ascii_case(&p.name)
+        })
+    };
+
+    // Apply --managed / --unmanaged filter.
+    let plugins: Vec<_> = if managed {
+        plugins.into_iter().filter(&is_managed).collect()
+    } else if unmanaged {
+        plugins.into_iter().filter(|p| !is_managed(p)).collect()
+    } else {
+        plugins
+    };
+
+    if plugins.is_empty() {
+        if json {
+            println!("[]");
+        } else if managed {
+            println!("No apm-managed plugins found.");
+        } else if unmanaged {
+            println!("No unmanaged (third-party) plugins found.");
+        }
+        return Ok(());
+    }
+
     // ── JSON output ───────────────────────────────────────────────────────────
     if json {
         let results: Vec<ScannedPluginJson> = plugins
             .iter()
             .map(|p| {
-                let is_managed = state.plugins.iter().any(|sp| {
-                    sp.formats.iter().any(|f| f.path == p.path)
-                        || sp.name.eq_ignore_ascii_case(&p.name)
-                });
                 ScannedPluginJson {
                     name: p.name.clone(),
                     version: p.version.clone(),
                     vendor: p.vendor.clone(),
                     format: p.format.to_string(),
                     path: p.path.to_string_lossy().into_owned(),
-                    managed_by_apm: is_managed,
+                    managed_by_apm: is_managed(p),
                 }
             })
             .collect();
@@ -123,10 +147,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
         // Determine if this plugin was installed by apm: match by path (most
         // precise) or by name as a fallback.
-        let is_managed = state.plugins.iter().any(|sp| {
-            sp.formats.iter().any(|f| f.path == p.path) || sp.name.eq_ignore_ascii_case(&p.name)
-        });
-        let source_cell = if is_managed {
+        let source_cell = if is_managed(p) {
             "apm".green().to_string()
         } else {
             "-".dimmed().to_string()
