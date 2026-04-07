@@ -3,12 +3,12 @@
 use std::path::Path;
 
 use anyhow::Result;
+use colored::Colorize;
 
 use apm_core::config::{self, Config};
 use apm_core::registry::Registry;
 use apm_core::state::InstallState;
 
-use crate::license_cache::LicenseCache;
 use crate::utils::display_path;
 
 // ── Check result ──────────────────────────────────────────────────────────────
@@ -156,15 +156,6 @@ pub fn run(config: &Config) -> Result<()> {
     }
     all_checks.push(provenance_check);
 
-    let license_check = check_paid_license_cache(config);
-    print_check(&license_check);
-    match &license_check.status {
-        CheckStatus::Fail(_) => failures += 1,
-        CheckStatus::Warn(_) => warnings += 1,
-        CheckStatus::Ok(_) => {}
-    }
-    all_checks.push(license_check);
-
     let registry_check = check_registry_cache(config);
     print_check(&registry_check);
     match &registry_check.status {
@@ -196,16 +187,27 @@ pub fn run(config: &Config) -> Result<()> {
     // ── Summary ───────────────────────────────────────────────────────────────
 
     if failures == 0 && warnings == 0 {
-        println!("Summary: All checks passed. apm is ready to use.");
+        println!(
+            "{}",
+            "Summary: All checks passed. apm is ready to use.".green()
+        );
     } else if failures == 0 {
         println!(
-            "Summary: {} warning(s) found. apm should work, but review the hints above.",
-            warnings
+            "{}",
+            format!(
+                "Summary: {} warning(s) found. apm should work, but review the hints above.",
+                warnings
+            )
+            .yellow()
         );
     } else {
         println!(
-            "Summary: {} failure(s), {} warning(s) found. See hints above to resolve issues.",
-            failures, warnings
+            "{}",
+            format!(
+                "Summary: {} failure(s), {} warning(s) found. See hints above to resolve issues.",
+                failures, warnings
+            )
+            .red()
         );
     }
 
@@ -521,113 +523,6 @@ fn check_registry_provenance(config: &Config) -> Check {
     )
 }
 
-fn check_paid_license_cache(config: &Config) -> Check {
-    let state = match InstallState::load(config) {
-        Ok(state) => state,
-        Err(error) => {
-            return Check::fail(
-                "Paid license cache",
-                format!("could not load install state: {error}"),
-                "Fix the state file first, then rerun `apm doctor`.",
-            )
-        }
-    };
-
-    if state.plugins.is_empty() {
-        return Check::ok("Paid license cache", "no managed plugins to verify");
-    }
-
-    let registry = match Registry::load_all_sources(config) {
-        Ok(registry) => registry,
-        Err(_) => {
-            return Check::ok(
-                "Paid license cache",
-                "registry unavailable; skipping paid-license verification",
-            )
-        }
-    };
-
-    let paid_plugins = state
-        .plugins
-        .iter()
-        .filter(|plugin| {
-            registry
-                .find_in_source(&plugin.source, &plugin.name)
-                .or_else(|| registry.find(&plugin.name))
-                .map(|entry| entry.is_paid)
-                .unwrap_or(false)
-        })
-        .collect::<Vec<_>>();
-
-    if paid_plugins.is_empty() {
-        return Check::ok(
-            "Paid license cache",
-            "no installed paid plugins require cached licenses",
-        );
-    }
-
-    if !config.license_cache_db_path().exists() {
-        return Check::warn(
-            "Paid license cache",
-            format!(
-                "{} paid plugin{} installed but no local license cache exists",
-                paid_plugins.len(),
-                if paid_plugins.len() == 1 { "" } else { "s" }
-            ),
-            "Run `apm licenses` or `apm restore` after authenticating to repopulate the local license cache.",
-        );
-    }
-
-    let cache = match LicenseCache::open(config) {
-        Ok(cache) => cache,
-        Err(error) => {
-            return Check::fail(
-                "Paid license cache",
-                format!("could not open license cache: {error}"),
-                "Repair or delete the local license cache, then resync licenses.",
-            )
-        }
-    };
-
-    let mut issues = Vec::new();
-    for plugin in paid_plugins {
-        match cache.load_license(&plugin.name) {
-            Ok(Some(license)) if license.status == "active" => {}
-            Ok(Some(license)) => issues.push(format!(
-                "{} (license status: {})",
-                plugin.name, license.status
-            )),
-            Ok(None) => issues.push(format!("{} (no cached license)", plugin.name)),
-            Err(error) => issues.push(format!("{} ({error})", plugin.name)),
-        }
-    }
-
-    if issues.is_empty() {
-        return Check::ok(
-            "Paid license cache",
-            "all installed paid plugins have active cached licenses",
-        );
-    }
-
-    let preview = issues
-        .iter()
-        .take(3)
-        .cloned()
-        .collect::<Vec<_>>()
-        .join(", ");
-    let suffix = if issues.len() > 3 {
-        format!(" (+{} more)", issues.len() - 3)
-    } else {
-        String::new()
-    };
-
-    Check::warn(
-        "Paid license cache",
-        format!("{} paid-license issue(s): {}{}", issues.len(), preview, suffix),
-        "Run `apm licenses` or `apm restore` to refresh license state, or reinstall affected paid plugins.",
-    )
-}
-
 fn check_registry_cache(config: &Config) -> Check {
     match Registry::load_all_sources(config) {
         Ok(registry) if registry.is_empty() => Check::warn(
@@ -654,12 +549,17 @@ fn check_registry_cache(config: &Config) -> Check {
 // ── Display helpers ───────────────────────────────────────────────────────────
 
 fn print_check(check: &Check) {
-    let (symbol, detail) = match &check.status {
-        CheckStatus::Ok(d) => ("\u{2713}", d.as_str()),
-        CheckStatus::Warn(d) => ("!", d.as_str()),
-        CheckStatus::Fail(d) => ("\u{2717}", d.as_str()),
-    };
-    println!("  {:<45}  {} {}", check.label, symbol, detail);
+    match &check.status {
+        CheckStatus::Ok(d) => {
+            println!("  {:<45}  {} {}", check.label, "\u{2713}".green(), d);
+        }
+        CheckStatus::Warn(d) => {
+            println!("  {:<45}  {} {}", check.label, "!".yellow(), d.yellow());
+        }
+        CheckStatus::Fail(d) => {
+            println!("  {:<45}  {} {}", check.label, "\u{2717}".red(), d.red());
+        }
+    }
 }
 
 fn is_writable(path: &Path) -> bool {

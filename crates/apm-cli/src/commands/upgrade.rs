@@ -332,7 +332,8 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, json: bool)
                 })?;
             } else if !json {
                 eprintln!(
-                    "Warning: old {} bundle not found at {} (already removed?)",
+                    "{} old {} bundle not found at {} (already removed?)",
+                    "Warning:".yellow(),
                     fmt.format,
                     path.display()
                 );
