@@ -618,6 +618,10 @@ async fn run() -> Result<()> {
             commands::rollback::run(&config, plugin.as_deref(), *list, json).await
         }
 
+        Commands::Random { category } => {
+            commands::random::run(&config, category.as_deref(), json).await
+        }
+
         Commands::Stats => commands::stats::run(&config, json).await,
 
         Commands::Version => {
