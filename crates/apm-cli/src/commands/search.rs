@@ -40,7 +40,11 @@ pub async fn run(
         if json {
             println!("[]");
         } else {
-            println!("Registry cache is empty. Run `apm sync` to download the plugin registry.");
+            println!("No plugins found. The registry cache is empty.");
+            println!();
+            println!("To get started:");
+            println!("  apm sync    Download the plugin registry");
+            println!("  apm search  Then search for plugins");
         }
         return Ok(());
     }

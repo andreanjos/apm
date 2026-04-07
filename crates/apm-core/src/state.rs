@@ -102,10 +102,12 @@ impl InstallState {
 
         toml::from_str(&raw).map_err(|e| {
             anyhow::anyhow!(
-                "TOML parse error in {}:\n  {}\nHint: The state file may be corrupt. \
-                 Back it up and delete it to reset, then run `apm install` again.",
+                "TOML parse error in {}:\n  {}\n\
+                 Hint: Back up {} and delete it to reset.\n      \
+                 Installed plugins will still be on disk — run `apm scan` to find them.",
                 path.display(),
-                e
+                e,
+                path.display()
             )
         })
     }
