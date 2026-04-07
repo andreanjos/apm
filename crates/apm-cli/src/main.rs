@@ -213,28 +213,33 @@ enum Commands {
         dry_run: bool,
     },
 
-    /// Compare installed plugins against the registry.
+    /// Compare installed plugins against the registry and show a full diff.
     ///
-    /// Shows a full picture: outdated plugins with available upgrades,
-    /// plugins no longer in any registry, and plugins that are up to date.
-    /// A superset of `apm outdated` that includes all three categories.
+    /// Shows three categories side by side: plugins with newer versions
+    /// available (upgradeable), plugins no longer found in any configured
+    /// registry (orphaned), and plugins that are already up to date.
+    /// A superset of `apm outdated` -- use that command if you only care
+    /// about available upgrades.
     #[command(alias = "d")]
     Diff,
 
     /// List installed plugins that have newer versions available in the registry.
     ///
     /// Compares installed versions from the local state file against the
-    /// current registry. Pinned plugins are shown but marked as pinned.
+    /// current registry. Pinned plugins are shown but marked as pinned and
+    /// will not be touched by `apm upgrade`. Run `apm sync` first to ensure
+    /// version data is current.
     #[command(alias = "od")]
     Outdated,
 
     /// Open a plugin's homepage in the default browser.
     ///
     /// Looks up the plugin in the registry and, if a homepage URL is listed,
-    /// opens it with macOS `open`. Handy for checking a plugin's page before
-    /// installing.
+    /// launches it with macOS `open` in your default browser. Handy for
+    /// checking documentation, download pages, or changelogs before installing
+    /// or upgrading.
     Open {
-        /// Plugin name or slug to look up (e.g. "vital").
+        /// Plugin name or slug to open (e.g. "vital").
         name: String,
     },
 
@@ -310,6 +315,13 @@ enum Commands {
     /// populated. Also scans for quarantined plugin bundles in user directories.
     Doctor,
 
+    /// Print apm environment info for bug reports.
+    ///
+    /// Displays apm version, OS, architecture, and all relevant directory
+    /// paths (config, data, cache, plugin directories). Useful for including
+    /// in bug reports or verifying your setup.
+    Env,
+
     /// Export the list of installed plugins to a file or stdout.
     ///
     /// Produces a portable setup string (apm1://) or legacy TOML/JSON file
@@ -370,25 +382,31 @@ enum Commands {
     #[command(alias = "cats")]
     Categories,
 
-    /// Verify the integrity of an installed plugin.
+    /// Verify the integrity of an installed plugin on disk.
     ///
-    /// Checks that each installed format bundle exists on disk at the
-    /// recorded path and is not quarantined by macOS Gatekeeper.
-    /// Reports a per-format status table and an overall health verdict.
+    /// Checks that each installed format bundle (AU, VST3) still exists at
+    /// the recorded path, has not been moved or deleted, and is not
+    /// quarantined by macOS Gatekeeper. Reports a per-format status table
+    /// and an overall health verdict (healthy / degraded / broken).
     #[command(alias = "verify")]
     Check {
-        /// Plugin name or slug to check (e.g. "tal-noisemaker").
+        /// Plugin name or slug to verify (e.g. "tal-noisemaker").
         name: String,
     },
 
-    /// Print plugin counts (for scripting and shell prompts).
+    /// Print a plugin count as a plain integer (for scripting and prompts).
     ///
-    /// With no flags, prints the number of installed plugins as a plain integer.
-    /// With --available, prints the number of plugins in the registry.
+    /// Outputs a single number with no decoration, ideal for shell prompts,
+    /// scripts, or CI checks. With no flags, prints the installed count.
+    /// With --available, prints the registry count instead.
     /// With --json, outputs both counts as a JSON object.
+    ///
+    /// Examples:
+    ///   echo "$(apm count) plugins installed"
+    ///   PS1="[apm:$(apm count)] $ "
     #[command(alias = "c")]
     Count {
-        /// Show available plugins in registry instead of installed.
+        /// Count available registry plugins instead of installed plugins.
         #[arg(long)]
         available: bool,
     },
@@ -698,6 +716,8 @@ async fn run() -> Result<()> {
         Commands::Completions { shell } => commands::completions::run(shell),
 
         Commands::Doctor => commands::doctor::run(&config, json),
+
+        Commands::Env => commands::env_cmd::run(json),
 
         Commands::Export { output, format } => {
             commands::export_cmd::run(&config, output.as_ref(), format).await

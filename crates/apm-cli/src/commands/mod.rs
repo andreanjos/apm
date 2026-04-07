@@ -7,6 +7,7 @@ pub mod config_cmd;
 pub mod count;
 pub mod diff;
 pub mod doctor;
+pub mod env_cmd;
 pub mod export_cmd;
 pub mod history;
 pub mod import_cmd;
