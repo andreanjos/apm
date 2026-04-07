@@ -13,15 +13,6 @@ use apm_core::error::ApmError;
 use apm_core::registry::{DownloadType, PluginFormat, Registry};
 use apm_core::state::InstallState;
 
-use crate::auth::credential::{CredentialStore, ResolvedCredential};
-use crate::license_cache::LicenseCache;
-
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub(crate) enum InstallAuthorization {
-    Standard,
-    Restore,
-}
-
 #[allow(clippy::too_many_arguments)]
 pub async fn run(
     config: &Config,
@@ -33,34 +24,6 @@ pub async fn run(
     dry_run: bool,
     bundle: Option<&str>,
 ) -> Result<()> {
-    run_with_authorization(
-        config,
-        plugins,
-        version,
-        format,
-        scope,
-        from_file,
-        dry_run,
-        bundle,
-        InstallAuthorization::Standard,
-    )
-    .await
-}
-
-#[allow(clippy::too_many_arguments)]
-pub(crate) async fn run_with_authorization(
-    config: &Config,
-    plugins: &[String],
-    version: Option<&str>,
-    format: Option<PluginFormat>,
-    scope: Option<InstallScope>,
-    from_file: Option<&Path>,
-    dry_run: bool,
-    bundle: Option<&str>,
-    authorization: InstallAuthorization,
-) -> Result<()> {
-    ensure_manage_scope_for_local_mutation(authorization, dry_run)?;
-
     // ── Validate --from-file with multiple plugins ────────────────────────────
 
     if from_file.is_some() && plugins.len() > 1 {
@@ -105,6 +68,27 @@ pub(crate) async fn run_with_authorization(
             )
         })?;
 
+        // Warn about plugins in the bundle that aren't in the registry.
+        let missing: Vec<&String> = b
+            .plugins
+            .iter()
+            .filter(|slug| registry.find(slug).is_none())
+            .collect();
+
+        if !missing.is_empty() {
+            eprintln!(
+                "{} {} plugin{} in this bundle {} not in the registry (will be skipped):",
+                "⚠".yellow(),
+                missing.len(),
+                if missing.len() == 1 { "" } else { "s" },
+                if missing.len() == 1 { "is" } else { "are" }
+            );
+            for slug in &missing {
+                eprintln!("  - {slug}");
+            }
+            eprintln!();
+        }
+
         println!(
             "Installing bundle '{}' ({} plugins)...",
             b.name,
@@ -112,7 +96,7 @@ pub(crate) async fn run_with_authorization(
         );
 
         let bundle_plugins: Vec<String> = b.plugins.clone();
-        return Box::pin(run_with_authorization(
+        return Box::pin(run(
             config,
             &bundle_plugins,
             None,
@@ -121,7 +105,6 @@ pub(crate) async fn run_with_authorization(
             None,
             dry_run,
             None,
-            authorization,
         ))
         .await;
     }
@@ -191,43 +174,6 @@ pub(crate) async fn run_with_authorization(
     Ok(())
 }
 
-fn ensure_manage_scope_for_local_mutation(
-    authorization: InstallAuthorization,
-    dry_run: bool,
-) -> Result<()> {
-    if dry_run || authorization == InstallAuthorization::Restore {
-        return Ok(());
-    }
-
-    let store = CredentialStore::from_env();
-    match store.resolve_credential()? {
-        Some(ResolvedCredential::StoredApiKey(api_key)) => {
-            if api_key.scopes.iter().any(|scope| scope == "manage") {
-                Ok(())
-            } else {
-                anyhow::bail!(
-                    "Local install requires an API key with the 'manage' scope.\nHint: create or store a manage-scoped key before running mutating commands under API-key auth."
-                )
-            }
-        }
-        Some(ResolvedCredential::EnvApiKey(_)) => {
-            let scopes = std::env::var("APM_API_KEY_SCOPES").unwrap_or_default();
-            let has_manage = scopes
-                .split(',')
-                .map(|scope| scope.trim())
-                .any(|scope| scope == "manage");
-            if has_manage {
-                Ok(())
-            } else {
-                anyhow::bail!(
-                    "Local install requires an API key with the 'manage' scope.\nHint: set APM_API_KEY_SCOPES=manage when using env-based API-key automation."
-                )
-            }
-        }
-        _ => Ok(()),
-    }
-}
-
 // ── Single-plugin installation ────────────────────────────────────────────────
 
 #[allow(clippy::too_many_arguments)]
@@ -243,11 +189,41 @@ async fn run_single(
 ) -> Result<()> {
     // ── Look up the plugin ────────────────────────────────────────────────────
 
-    let plugin = registry
-        .find(name)
-        .ok_or_else(|| ApmError::PluginNotFound {
-            name: name.to_owned(),
-        })?;
+    let plugin = registry.find(name).ok_or_else(|| {
+        // Build "did you mean?" suggestions from registry slugs.
+        let query_lower = name.to_lowercase();
+        let prefix = if query_lower.len() >= 3 {
+            &query_lower[..3]
+        } else {
+            &query_lower
+        };
+
+        let mut suggestions: Vec<&str> = registry
+            .plugins
+            .keys()
+            .filter(|slug| {
+                let slug_lower = slug.to_lowercase();
+                slug_lower.starts_with(prefix) || slug_lower.contains(&query_lower)
+            })
+            .map(|s| s.as_str())
+            .collect();
+        suggestions.sort();
+        suggestions.truncate(3);
+
+        if suggestions.is_empty() {
+            anyhow::anyhow!(ApmError::PluginNotFound {
+                name: name.to_owned(),
+            })
+        } else {
+            let suggestion_list = suggestions.join("', '");
+            anyhow::anyhow!(
+                "Plugin '{}' not found.\nHint: Did you mean '{}'? Try `apm search {}`.",
+                name,
+                suggestion_list,
+                prefix
+            )
+        }
+    })?;
 
     let selected_release = plugin
         .resolve_release(requested_version)
@@ -265,18 +241,6 @@ async fn run_single(
     let mut selected_plugin = plugin.clone();
     selected_plugin.version = selected_release.version;
     selected_plugin.formats = selected_release.formats;
-
-    if plugin.is_paid {
-        let cache = LicenseCache::open(config)?;
-        cache.verify_active_license(&plugin.slug).map_err(|error| {
-            anyhow::anyhow!(
-                "Paid plugin '{}' requires a valid cached license before install.\nHint: complete `apm buy {}` or sync licenses first.\nDetails: {}",
-                plugin.slug,
-                plugin.slug,
-                error
-            )
-        })?;
-    }
 
     // ── Check if already installed ────────────────────────────────────────────
 

@@ -71,14 +71,35 @@ fn run_info(registry: &Registry, name: &str) -> Result<()> {
     println!("  Slug:        {}", bundle.slug.cyan());
     println!("  Description: {}", bundle.description);
     println!("  Plugins ({}):", bundle.plugins.len());
+
+    let mut missing: Vec<&str> = Vec::new();
+
     for plugin in &bundle.plugins {
         // Try to enrich with registry info.
         let label = match registry.find(plugin) {
             Some(def) => format!("{} — {} v{}", plugin.cyan(), def.vendor, def.version),
-            None => format!("{} {}", plugin.cyan(), "(not in registry cache)".dimmed()),
+            None => {
+                missing.push(plugin);
+                format!("{} {}", plugin.cyan(), "(not in registry cache)".dimmed())
+            }
         };
         println!("    - {label}");
     }
+
+    if !missing.is_empty() {
+        println!();
+        println!(
+            "  {} {} plugin{} in this bundle {} not in the registry:",
+            "⚠".yellow(),
+            missing.len(),
+            if missing.len() == 1 { "" } else { "s" },
+            if missing.len() == 1 { "is" } else { "are" }
+        );
+        for slug in &missing {
+            println!("    - {slug}");
+        }
+    }
+
     println!();
     println!(
         "Install this bundle with: {}",
