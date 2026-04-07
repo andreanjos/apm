@@ -7,7 +7,7 @@ use serde_json;
 use apm_core::config::Config;
 use apm_core::state::InstallState;
 
-pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
+pub async fn run(config: &Config, name: &str, json: bool, dry_run: bool) -> Result<()> {
     // ── Load state ────────────────────────────────────────────────────────────
 
     let mut state = InstallState::load(config)?;
@@ -28,6 +28,46 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
             return Ok(());
         }
     };
+
+    // ── Dry-run: show what would be removed and exit ─────────────────────────
+
+    if dry_run {
+        if json {
+            let format_entries: Vec<serde_json::Value> = plugin
+                .formats
+                .iter()
+                .map(|f| {
+                    serde_json::json!({
+                        "format": f.format.to_string(),
+                        "path": f.path.display().to_string(),
+                    })
+                })
+                .collect();
+            println!(
+                "{}",
+                serde_json::json!({
+                    "dry_run": true,
+                    "would_remove": true,
+                    "plugin": plugin.name,
+                    "version": plugin.version,
+                    "formats": format_entries,
+                })
+            );
+        } else {
+            println!(
+                "[dry-run] Would remove {} v{}",
+                plugin.name.bold(),
+                plugin.version.cyan()
+            );
+            let format_details: Vec<String> = plugin
+                .formats
+                .iter()
+                .map(|f| format!("{} ({})", f.format, f.path.display()))
+                .collect();
+            println!("          Formats: {}", format_details.join(", "));
+        }
+        return Ok(());
+    }
 
     // ── Show what will be removed ─────────────────────────────────────────────
 

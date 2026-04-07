@@ -3,12 +3,28 @@
 use anyhow::Result;
 use colored::Colorize;
 use semver::Version;
+use serde::Serialize;
 
 use apm_core::config::Config;
 use apm_core::registry::Registry;
 use apm_core::state::InstallState;
 
-pub async fn run(config: &Config, name: Option<&str>, dry_run: bool) -> Result<()> {
+#[derive(Serialize)]
+#[allow(dead_code)] // Scaffolded for upcoming JSON output support.
+struct UpgradeResult {
+    upgraded: Vec<UpgradeEntry>,
+    skipped: Vec<UpgradeEntry>,
+    failed: Vec<UpgradeEntry>,
+}
+
+#[derive(Serialize)]
+#[allow(dead_code)] // Scaffolded for upcoming JSON output support.
+struct UpgradeEntry {
+    name: String,
+    version: String,
+}
+
+pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, _json: bool) -> Result<()> {
     // ── Load state and registry ───────────────────────────────────────────────
 
     let mut state = InstallState::load(config)?;

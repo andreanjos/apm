@@ -1160,6 +1160,34 @@ source = "official"
     );
 }
 
+// ── remove --dry-run ─────────────────────────────────────────────────────────
+
+#[test]
+fn test_remove_dry_run_nonexistent_plugin() {
+    let output = run_apm_isolated(&["remove", "nonexistent-plugin", "--dry-run"]);
+    assert!(
+        output.status.success(),
+        "apm remove --dry-run should exit 0 for nonexistent plugin; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("not installed") || stdout.contains("Nothing to remove"),
+        "remove --dry-run on nonexistent plugin should say not installed, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_remove_dry_run_help_shows_flag() {
+    let output = run_apm_isolated(&["remove", "--help"]);
+    assert!(output.status.success(), "apm remove --help should exit 0");
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("--dry-run"),
+        "remove help should mention --dry-run, got: {stdout}"
+    );
+}
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 /// Recursively copy a directory tree from `src` to `dst`.

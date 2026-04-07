@@ -432,7 +432,9 @@ async fn run() -> Result<()> {
             .await
         }
 
-        Commands::Remove { name } => commands::remove::run(&config, name, json).await,
+        Commands::Remove { name, dry_run } => {
+            commands::remove::run(&config, name, json, *dry_run).await
+        }
 
         Commands::Outdated => commands::outdated::run(&config, json).await,
 
