@@ -260,7 +260,7 @@ Plans:
 
 Plans:
 - [x] 14-01-PLAN.md — Portable encoding module (PortableSetup, encode/decode pipeline) and export command update
-- [ ] 14-02-PLAN.md — Import command overhaul (apm1:// decoding, preview/confirm, version reconciliation) and integration tests
+- [x] 14-02-PLAN.md — Import command overhaul (apm1:// decoding, preview/confirm, version reconciliation) and integration tests
 
 ## Progress
 
@@ -282,4 +282,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 | 11. Versioned Registry Model and Historical Install Surface | v2.1 | 1/1 | Complete | 2026-04-03 |
 | 12. Lifecycle Consistency for Historical Versions | v2.1 | 1/1 | Complete | 2026-04-03 |
 | 13. Install Reliability Audit and Registry Repair Loop | v2.1 | 1/1 | Complete | 2026-04-03 |
-| 14. Portable Setup (Import/Export) | v0.2 | 1/2 | In Progress|  |
+| 14. Portable Setup (Import/Export) | v0.2 | 2/2 | Complete   | 2026-04-07 |
