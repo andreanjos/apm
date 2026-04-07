@@ -471,7 +471,7 @@ async fn run() -> Result<()> {
         Commands::Bundles { name } => commands::bundles::run(&config, name.as_deref()).await,
 
         Commands::Rollback { plugin, list } => {
-            commands::rollback::run(&config, plugin.as_deref(), *list).await
+            commands::rollback::run(&config, plugin.as_deref(), *list, json).await
         }
 
     }

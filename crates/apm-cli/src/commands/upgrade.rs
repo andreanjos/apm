@@ -10,7 +10,6 @@ use apm_core::registry::Registry;
 use apm_core::state::InstallState;
 
 #[derive(Serialize)]
-#[allow(dead_code)] // Scaffolded for upcoming JSON output support.
 struct UpgradeResult {
     upgraded: Vec<UpgradeEntry>,
     skipped: Vec<UpgradeEntry>,
@@ -18,19 +17,27 @@ struct UpgradeResult {
 }
 
 #[derive(Serialize)]
-#[allow(dead_code)] // Scaffolded for upcoming JSON output support.
 struct UpgradeEntry {
     name: String,
     version: String,
 }
 
-pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, _json: bool) -> Result<()> {
+pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, json: bool) -> Result<()> {
     // ── Load state and registry ───────────────────────────────────────────────
 
     let mut state = InstallState::load(config)?;
 
     if state.plugins.is_empty() {
-        println!("No plugins installed via apm.");
+        if json {
+            let result = UpgradeResult {
+                upgraded: vec![],
+                skipped: vec![],
+                failed: vec![],
+            };
+            println!("{}", serde_json::to_string_pretty(&result)?);
+        } else {
+            println!("No plugins installed via apm.");
+        }
         return Ok(());
     }
 
@@ -58,10 +65,19 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, _json: bool
         let installed = match state.find(target) {
             Some(p) => p.clone(),
             None => {
-                println!(
-                    "Plugin '{}' is not installed via apm. Install it with `apm install {}`.",
-                    target, target
-                );
+                if json {
+                    let result = UpgradeResult {
+                        upgraded: vec![],
+                        skipped: vec![],
+                        failed: vec![],
+                    };
+                    println!("{}", serde_json::to_string_pretty(&result)?);
+                } else {
+                    println!(
+                        "Plugin '{}' is not installed via apm. Install it with `apm install {}`.",
+                        target, target
+                    );
+                }
                 return Ok(());
             }
         };
@@ -81,10 +97,19 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, _json: bool
         let is_newer = is_version_newer(&installed.version, &latest_release.version);
 
         if !is_newer {
-            println!(
-                "{} v{} is already up to date.",
-                installed.name, installed.version
-            );
+            if json {
+                let result = UpgradeResult {
+                    upgraded: vec![],
+                    skipped: vec![],
+                    failed: vec![],
+                };
+                println!("{}", serde_json::to_string_pretty(&result)?);
+            } else {
+                println!(
+                    "{} v{} is already up to date.",
+                    installed.name, installed.version
+                );
+            }
             return Ok(());
         }
 
@@ -117,56 +142,112 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, _json: bool
     };
 
     if candidates.is_empty() {
-        println!("All plugins are up to date.");
+        if json {
+            let result = UpgradeResult {
+                upgraded: vec![],
+                skipped: vec![],
+                failed: vec![],
+            };
+            println!("{}", serde_json::to_string_pretty(&result)?);
+        } else {
+            println!("All plugins are up to date.");
+        }
         return Ok(());
     }
 
     // ── Dry-run: show what would be upgraded ──────────────────────────────────
 
     if dry_run {
-        println!("[dry-run] The following plugins would be upgraded:");
+        if !json {
+            println!("[dry-run] The following plugins would be upgraded:");
+        }
+        let mut dry_upgraded = Vec::new();
+        let mut dry_skipped = Vec::new();
         for candidate in &candidates {
             if candidate.pinned {
-                println!(
-                    "  {} {} -> {} {}",
-                    candidate.slug.bold(),
-                    candidate.installed_version.cyan(),
-                    candidate.available_version.cyan(),
-                    "(pinned — would be skipped)".dimmed()
-                );
+                if !json {
+                    println!(
+                        "  {} {} -> {} {}",
+                        candidate.slug.bold(),
+                        candidate.installed_version.cyan(),
+                        candidate.available_version.cyan(),
+                        "(pinned — would be skipped)".dimmed()
+                    );
+                }
+                dry_skipped.push(UpgradeEntry {
+                    name: candidate.slug.clone(),
+                    version: candidate.installed_version.clone(),
+                });
             } else {
-                println!(
-                    "  {} {} -> {}",
-                    candidate.slug.bold(),
-                    candidate.installed_version.cyan(),
-                    candidate.available_version.cyan()
-                );
+                if !json {
+                    println!(
+                        "  {} {} -> {}",
+                        candidate.slug.bold(),
+                        candidate.installed_version.cyan(),
+                        candidate.available_version.cyan()
+                    );
+                }
+                dry_upgraded.push(UpgradeEntry {
+                    name: candidate.slug.clone(),
+                    version: candidate.available_version.clone(),
+                });
             }
+        }
+        if json {
+            let result = UpgradeResult {
+                upgraded: dry_upgraded,
+                skipped: dry_skipped,
+                failed: vec![],
+            };
+            println!("{}", serde_json::to_string_pretty(&result)?);
         }
         return Ok(());
     }
 
     // ── Process each candidate ────────────────────────────────────────────────
 
-    let mut upgraded = 0usize;
-    let mut failed = 0usize;
+    let mut upgraded_count = 0usize;
+    let mut failed_count = 0usize;
+    let mut upgraded_entries = Vec::new();
+    let mut skipped_entries = Vec::new();
+    let mut failed_entries = Vec::new();
 
     for candidate in &candidates {
         // Handle pinned plugins.
         if candidate.pinned {
             if name.is_some() {
                 // Specific plugin requested — error out clearly.
-                println!(
-                    "Plugin '{}' is pinned at v{}. Use 'apm pin --unpin {}' to unpin it first.",
-                    candidate.slug, candidate.installed_version, candidate.slug
-                );
+                if !json {
+                    println!(
+                        "Plugin '{}' is pinned at v{}. Use 'apm pin --unpin {}' to unpin it first.",
+                        candidate.slug, candidate.installed_version, candidate.slug
+                    );
+                }
+                skipped_entries.push(UpgradeEntry {
+                    name: candidate.slug.clone(),
+                    version: candidate.installed_version.clone(),
+                });
+                if json {
+                    let result = UpgradeResult {
+                        upgraded: upgraded_entries,
+                        skipped: skipped_entries,
+                        failed: failed_entries,
+                    };
+                    println!("{}", serde_json::to_string_pretty(&result)?);
+                }
                 return Ok(());
             } else {
                 // Bulk upgrade — skip pinned plugins with a message.
-                println!(
-                    "Skipping {} (pinned at v{})",
-                    candidate.slug, candidate.installed_version
-                );
+                if !json {
+                    println!(
+                        "Skipping {} (pinned at v{})",
+                        candidate.slug, candidate.installed_version
+                    );
+                }
+                skipped_entries.push(UpgradeEntry {
+                    name: candidate.slug.clone(),
+                    version: candidate.installed_version.clone(),
+                });
                 continue;
             }
         }
@@ -179,7 +260,11 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, _json: bool
                     "Plugin '{}' not found in registry, skipping",
                     candidate.slug
                 );
-                failed += 1;
+                failed_count += 1;
+                failed_entries.push(UpgradeEntry {
+                    name: candidate.slug.clone(),
+                    version: candidate.available_version.clone(),
+                });
                 continue;
             }
         };
@@ -189,37 +274,47 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, _json: bool
         selected_plugin.version = latest_release.version;
         selected_plugin.formats = latest_release.formats;
 
-        println!(
-            "Upgrading {} {} -> {}...",
-            candidate.slug.bold(),
-            candidate.installed_version.cyan(),
-            candidate.available_version.cyan()
-        );
+        if !json {
+            println!(
+                "Upgrading {} {} -> {}...",
+                candidate.slug.bold(),
+                candidate.installed_version.cyan(),
+                candidate.available_version.cyan()
+            );
+        }
 
         // Back up the current version before overwriting.
         let installed = match state.find(&candidate.slug).cloned() {
             Some(p) => p,
             None => {
                 tracing::warn!("Plugin '{}' not in install state, skipping", candidate.slug);
-                failed += 1;
+                failed_count += 1;
+                failed_entries.push(UpgradeEntry {
+                    name: candidate.slug.clone(),
+                    version: candidate.available_version.clone(),
+                });
                 continue;
             }
         };
         match crate::backup::backup_plugin(&installed, config) {
             Ok(entry) => {
-                println!(
-                    "  {} v{} backed up to {}",
-                    candidate.slug,
-                    candidate.installed_version,
-                    entry.backup_dir.display()
-                );
+                if !json {
+                    println!(
+                        "  {} v{} backed up to {}",
+                        candidate.slug,
+                        candidate.installed_version,
+                        entry.backup_dir.display()
+                    );
+                }
             }
             Err(e) => {
-                eprintln!(
-                    "  {} Could not back up '{}' before upgrade: {e} (continuing anyway)",
-                    "Warning:".yellow(),
-                    candidate.slug
-                );
+                if !json {
+                    eprintln!(
+                        "  {} Could not back up '{}' before upgrade: {e} (continuing anyway)",
+                        "Warning:".yellow(),
+                        candidate.slug
+                    );
+                }
             }
         }
 
@@ -235,7 +330,7 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, _json: bool
                         e
                     )
                 })?;
-            } else {
+            } else if !json {
                 eprintln!(
                     "Warning: old {} bundle not found at {} (already removed?)",
                     fmt.format,
@@ -253,28 +348,48 @@ pub async fn run(config: &Config, name: Option<&str>, dry_run: bool, _json: bool
             .await
             .map_err(|e| e.context(format!("Failed to upgrade '{}'", candidate.slug)))?;
 
-        println!(
-            "{}",
-            format!(
-                "Upgraded {} to v{}",
-                candidate.slug, candidate.available_version
-            )
-            .green()
-        );
-        upgraded += 1;
+        if !json {
+            println!(
+                "{}",
+                format!(
+                    "Upgraded {} to v{}",
+                    candidate.slug, candidate.available_version
+                )
+                .green()
+            );
+        }
+        upgraded_count += 1;
+        upgraded_entries.push(UpgradeEntry {
+            name: candidate.slug.clone(),
+            version: candidate.available_version.clone(),
+        });
     }
 
     // ── Summary ───────────────────────────────────────────────────────────────
 
-    if upgraded == 0 && failed == 0 {
+    if json {
+        let result = UpgradeResult {
+            upgraded: upgraded_entries,
+            skipped: skipped_entries,
+            failed: failed_entries,
+        };
+        println!("{}", serde_json::to_string_pretty(&result)?);
+    } else if upgraded_count == 0 && failed_count == 0 {
         println!("{}", "Nothing was upgraded.".dimmed());
-    } else if failed > 0 {
+    } else if failed_count > 0 {
         println!(
             "\n{}",
-            format!("Upgraded {} plugin(s), {} failed.", upgraded, failed).yellow()
+            format!(
+                "Upgraded {} plugin(s), {} failed.",
+                upgraded_count, failed_count
+            )
+            .yellow()
         );
     } else {
-        println!("\n{}", format!("Upgraded {} plugin(s).", upgraded).green());
+        println!(
+            "\n{}",
+            format!("Upgraded {} plugin(s).", upgraded_count).green(),
+        );
     }
 
     Ok(())
