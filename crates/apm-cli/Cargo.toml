@@ -34,6 +34,8 @@ zip = { version = "2", default-features = false, features = ["deflate"] }
 # edition2024 (not available on Rust 1.84).
 tempfile = ">=3, <3.15"
 futures-util = "0.3"
+flate2 = "1.1"
+base64 = "0.22"
 semver = "1"
 walkdir = "2"
 dirs = "6"

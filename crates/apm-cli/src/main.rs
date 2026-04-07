@@ -5,6 +5,7 @@ mod commands;
 mod download;
 mod install;
 mod license_cache;
+mod portable;
 
 use std::path::PathBuf;
 
