@@ -1,12 +1,13 @@
 slug = "renaissance-vox"
 name = "Renaissance Vox"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Upward and downward compressor/expander designed for natural-sounding vocal dynamics."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/renaissance-vox"
 is_paid = true
 
 [formats.vst3]

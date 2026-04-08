@@ -1,11 +1,12 @@
 slug = "brauer-motion"
 name = "Brauer Motion"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Autopanning and motion plugin inspired by Michael Brauer's cinematic stereo techniques."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/brauer-motion"
 is_paid = true
 
 [formats.vst3]

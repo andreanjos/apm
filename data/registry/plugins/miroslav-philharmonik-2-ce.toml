@@ -1,12 +1,13 @@
 slug = "miroslav-philharmonik-2-ce"
 name = "Miroslav Philharmonik 2 CE"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Compact edition of Miroslav Philharmonik 2 with a 10 GB library of 733 orchestral instruments."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/philharmonik2ce/"
 is_paid = true
 
 [formats.vst3]

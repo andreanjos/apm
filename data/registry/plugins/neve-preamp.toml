@@ -1,11 +1,12 @@
 slug = "neve-preamp"
 name = "Neve Preamp"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Neve 1073 preamp section for LUNA Recording System."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/channel-strips/neve-preamp.html"
 is_paid = true
 
 [formats.vst3]

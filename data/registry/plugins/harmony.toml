@@ -1,12 +1,13 @@
 slug = "harmony"
 name = "Harmony"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Real-time vocal harmony processor creating up to four pitch-shifted harmony voices."
 category = "effects"
 subcategory = "harmonizer"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/harmony"
 is_paid = true
 
 [formats.vst3]

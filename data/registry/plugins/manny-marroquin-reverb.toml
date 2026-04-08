@@ -1,11 +1,12 @@
 slug = "manny-marroquin-reverb"
 name = "Manny Marroquin Reverb"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature reverb plugin delivering Manny Marroquin's lush, warm reverb character."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/manny-marroquin-reverb"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "transform-bundle"
 name = "Transform Bundle"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of creative transformation plugins for advanced sound design and special effects."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/transform-bundle"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "v-eq3"
 name = "V-EQ3"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the vintage Neve 1073 three-band console EQ for classic analog character."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/v-eq3"
 is_paid = true
 
 [formats.vst3]

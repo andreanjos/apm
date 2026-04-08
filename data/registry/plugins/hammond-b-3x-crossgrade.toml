@@ -1,12 +1,13 @@
 slug = "hammond-b-3x-crossgrade"
 name = "Hammond B-3X Crossgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Crossgrade to Hammond B-3X, IK's comprehensive virtual Hammond organ with rotary and amp simulations."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/hammondb3x/"
 is_paid = true
 
 [formats.vst3]

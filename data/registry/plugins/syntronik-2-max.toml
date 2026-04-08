@@ -1,12 +1,13 @@
 slug = "syntronik-2-max"
 name = "Syntronik 2 MAX"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Syntronik 2 MAX — the complete virtual synth collection with 34 legendary instruments and 5,000+ presets."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/syntronik2/"
 is_paid = true
 
 [formats.vst3]

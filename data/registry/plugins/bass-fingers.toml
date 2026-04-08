@@ -1,12 +1,13 @@
 slug = "bass-fingers"
 name = "Bass Fingers"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Virtual fingered electric bass instrument with expressive playing articulations."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/bass-fingers"
 is_paid = true
 
 [formats.vst3]

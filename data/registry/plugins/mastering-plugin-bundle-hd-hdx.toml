@@ -2,11 +2,12 @@ slug = "mastering-plugin-bundle-hd-hdx"
 name = "Mastering Plugin Bundle – HD/HDX"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Sonnox Mastering Bundle HD/HDX including Oxford EQ, Dynamics, Inflator, Limiter, and Fraunhofer Pro-Codec."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/sonnox-mastering-bundle"
 is_paid = true
 
 [formats.vst3]

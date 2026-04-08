@@ -1,12 +1,13 @@
 slug = "rs56-abbey-road-eq"
 name = "RS56 Abbey Road EQ"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the passive RS56 Presence Equalizer used extensively at Abbey Road Studios."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/rs56-abbey-road-eq"
 is_paid = true
 
 [formats.vst3]

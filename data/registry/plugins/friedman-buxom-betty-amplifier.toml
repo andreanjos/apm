@@ -1,12 +1,13 @@
 slug = "friedman-buxom-betty-amplifier"
 name = "Friedman Buxom Betty Amplifier"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Friedman Buxom Betty boutique rock guitar amplifier."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/friedman-buxom-betty-amplifier.html"
 is_paid = true
 
 [formats.vst3]

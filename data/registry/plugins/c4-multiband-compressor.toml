@@ -1,12 +1,13 @@
 slug = "c4-multiband-compressor"
 name = "C4 Multiband Compressor"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Four-band multiband dynamics processor for transparent spectral compression and expansion."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/c4-multiband-compressor"
 is_paid = true
 
 [formats.vst3]

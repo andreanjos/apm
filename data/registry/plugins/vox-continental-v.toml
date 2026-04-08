@@ -1,12 +1,13 @@
 slug = "vox-continental-v"
 name = "Vox Continental V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "2.5.0"
+description = "Virtual recreation of the classic Vox Continental transistor combo organ from the 1960s."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/vox-continental-v/overview"
 is_paid = true
 
 [formats.vst3]

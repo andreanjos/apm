@@ -1,11 +1,12 @@
 slug = "pre-trida"
 name = "Pre TridA"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Channel strip emulation based on the classic Trident console preamp and EQ circuitry."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/trida-pre/overview"
 is_paid = true
 
 [formats.vst3]

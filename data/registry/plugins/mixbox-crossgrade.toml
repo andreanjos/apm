@@ -1,14 +1,14 @@
 slug = "mixbox-crossgrade"
 name = "MixBox Crossgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Crossgrade to MixBox, the all-in-one virtual rack of 70+ mixing processors and creative effects."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.ikmultimedia.com/products/mixbox/"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "center"
 name = "Center"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Center/sides stereo processor for separately controlling mid and side signal elements."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/center"
 is_paid = true
 
 [formats.vst3]

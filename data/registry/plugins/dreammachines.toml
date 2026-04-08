@@ -1,12 +1,13 @@
 slug = "dreammachines"
 name = "DreamMachines"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Drum machine sample pack with nearly 500 samples and creative processing for MDrummer and MSoundFactory."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/DreamMachines"
 is_paid = true
 
 [formats.vst3]

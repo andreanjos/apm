@@ -1,12 +1,13 @@
 slug = "kramer-pie-compressor"
 name = "Kramer PIE Compressor"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the classic Pye compressor as used by Eddie Kramer on legendary recordings."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/kramer-pie-compressor"
 is_paid = true
 
 [formats.vst3]

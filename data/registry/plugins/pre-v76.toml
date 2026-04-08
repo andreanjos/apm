@@ -1,11 +1,12 @@
 slug = "pre-v76"
 name = "Pre V76"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Vintage channel strip combining the German V76 tube preamp and V612 EQ in one plugin."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/v76-pre/overview"
 is_paid = true
 
 [formats.vst3]

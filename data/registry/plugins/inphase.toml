@@ -1,12 +1,13 @@
 slug = "inphase"
 name = "InPhase"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Advanced phase alignment plugin for precise timing correction between multiple tracks."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/inphase"
 is_paid = true
 
 [formats.vst3]

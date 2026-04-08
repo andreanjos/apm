@@ -1,11 +1,12 @@
 slug = "sonnox-oxford-envolution"
 name = "Sonnox Oxford Envolution"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Sonnox Oxford Envolution is a transient shaper with frequency-selective attack and sustain control."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/dynamics/sonnox-oxford-envolution.html"
 is_paid = true
 
 [formats.vst3]

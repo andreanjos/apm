@@ -2,11 +2,12 @@ slug = "mega-bundle-perpetual"
 name = "MEGA Bundle Perpetual"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Legacy Plugin Alliance all-access subscription bundle offering perpetual licenses alongside full plugin access."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/en/products/pa-mega-bundle.html"
 is_paid = true
 
 [formats.vst3]

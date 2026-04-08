@@ -1,12 +1,13 @@
 slug = "element-2"
 name = "Element 2"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Advanced virtual analog synthesizer with dual oscillators and full modulation matrix."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/element-2"
 is_paid = true
 
 [formats.vst3]

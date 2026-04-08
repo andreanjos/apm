@@ -1,12 +1,13 @@
 slug = "filter-mini"
 name = "Filter MINI"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Analog filter plugin modeled on the classic Moog Minimoog transistor ladder filter circuit."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/filter-mini/overview"
 is_paid = true
 
 [formats.vst3]

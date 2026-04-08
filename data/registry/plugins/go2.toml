@@ -1,12 +1,13 @@
 slug = "go2"
 name = "Go2"
 vendor = "Rob Papen"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Simple yet powerful virtual synthesizer with all controls visible at once, designed for instant inspiration."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/go2.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "renaissance-compressor"
 name = "Renaissance Compressor"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Musical vintage-style compressor for warm, natural-sounding dynamics control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/renaissance-compressor"
 is_paid = true
 
 [formats.vst3]

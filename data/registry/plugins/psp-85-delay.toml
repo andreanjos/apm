@@ -2,11 +2,12 @@ slug = "psp-85-delay"
 name = "PSP 85 Delay"
 vendor = "PSP Audioware"
 version = "1.0.0"
-description = ""
+description = "Delay plugin harnessing variable sample rate lines for a wide range of creative delay and modulation effects."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-85"
 is_paid = true
 
 [formats.vst3]

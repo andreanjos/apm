@@ -1,12 +1,13 @@
 slug = "mtotalfxbundle"
 name = "MTotalFXBundle"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Ultimate collection of 108+ production effects covering composition, mixing, and mastering with free lifetime updates."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MTotalFXBundle"
 is_paid = true
 
 [formats.vst3]

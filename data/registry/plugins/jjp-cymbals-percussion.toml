@@ -1,11 +1,12 @@
 slug = "jjp-cymbals-percussion"
 name = "JJP Cymbals & Percussion"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature cymbal and percussion processor based on JJP's overhead and room techniques."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/jjp-cymbals-percussion"
 is_paid = true
 
 [formats.vst3]

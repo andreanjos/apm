@@ -1,12 +1,13 @@
 slug = "total-studio-se"
 name = "Total Studio SE"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "5.0"
+description = "Total Studio SE — IK Multimedia's entry-level production bundle with SE versions of core applications."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/ts5/"
 is_paid = true
 
 [formats.vst3]

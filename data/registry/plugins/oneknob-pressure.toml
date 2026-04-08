@@ -1,12 +1,13 @@
 slug = "oneknob-pressure"
 name = "OneKnob Pressure"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Single-knob compressor that applies dynamic pressure for instant punch and cohesion."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/oneknob-pressure"
 is_paid = true
 
 [formats.vst3]

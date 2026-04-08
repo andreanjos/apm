@@ -1,12 +1,13 @@
 slug = "messentialsfxbundle"
 name = "MEssentialsFXBundle"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Essential production tools: 10 plugins for mixing, mastering, and music creation with modern sound quality."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MEssentialsFXBundle"
 is_paid = true
 
 [formats.vst3]

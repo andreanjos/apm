@@ -1,12 +1,13 @@
 slug = "musicians-bundle-2"
 name = "Musicians Bundle 2"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Second volume of essential plugins tailored for musicians during recording and production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/musicians-bundle-2"
 is_paid = true
 
 [formats.vst3]

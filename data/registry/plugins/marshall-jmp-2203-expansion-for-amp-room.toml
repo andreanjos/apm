@@ -1,12 +1,13 @@
 slug = "marshall-jmp-2203-expansion-for-amp-room"
 name = "Marshall JMP 2203 Expansion for Amp Room"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Marshall JMP 2203 amp model expansion for the Amp Room platform with authentic British tone."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-jmp-2203"
 is_paid = true
 
 [formats.vst3]

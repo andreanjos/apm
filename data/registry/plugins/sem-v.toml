@@ -1,12 +1,13 @@
 slug = "sem-v"
 name = "SEM V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "3.5.0"
+description = "Virtual recreation of the Oberheim SEM (Synthesizer Expander Module) analog voice module."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/semv/overview"
 is_paid = true
 
 [formats.vst3]

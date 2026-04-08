@@ -1,11 +1,12 @@
 slug = "ir1"
 name = "IR1"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Waves IR1 convolution reverb with comprehensive impulse response processing capabilities."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/ir1"
 is_paid = true
 
 [formats.vst3]

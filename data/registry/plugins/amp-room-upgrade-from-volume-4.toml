@@ -1,12 +1,13 @@
 slug = "amp-room-upgrade-from-volume-4"
 name = "Amp Room Upgrade from Volume 4"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Upgrade from Volume 4 bundle to full Amp Room, adding all amp suites and studio processing."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/amp-room"
 is_paid = true
 
 [formats.vst3]

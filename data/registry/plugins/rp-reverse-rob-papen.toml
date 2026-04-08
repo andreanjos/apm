@@ -2,10 +2,11 @@ slug = "rp-reverse-rob-papen"
 name = "RP-Reverse"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Creative FX plugin reversing incoming audio with tempo sync, analog-modeled filters, comb filter, and LFO."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/rp-reverse.html"
 is_paid = true
 
 [formats.vst3]

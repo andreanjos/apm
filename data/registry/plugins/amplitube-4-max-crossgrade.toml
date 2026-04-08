@@ -1,12 +1,13 @@
 slug = "amplitube-4-max-crossgrade"
 name = "AmpliTube 4 MAX Crossgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "4.0"
+description = "Crossgrade to AmpliTube 4 MAX, the complete guitar and bass amp simulation suite with 400+ gear models."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/amplitube5/"
 is_paid = true
 
 [formats.vst3]

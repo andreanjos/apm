@@ -1,11 +1,12 @@
 slug = "cla-mixhub"
 name = "CLA MixHub"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Mixing environment plugin replicating Chris Lord-Alge's SSL console workflow and sound."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/cla-mixhub"
 is_paid = true
 
 [formats.vst3]

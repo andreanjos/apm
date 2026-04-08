@@ -1,12 +1,13 @@
 slug = "manny-marroquin-tone-shaper"
 name = "Manny Marroquin Tone Shaper"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Multiband transient and tone shaping plugin from Manny Marroquin's signature series."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/manny-marroquin-tone-shaper"
 is_paid = true
 
 [formats.vst3]

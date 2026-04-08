@@ -1,11 +1,12 @@
 slug = "t-racks-tape-machine-440"
 name = "T-RackS Tape Machine 440"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "T-RackS Tape Machine 440 — model of the iconic Ampex AG440B adding warm vintage tape character."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trtapemac440/"
 is_paid = true
 
 [formats.vst3]

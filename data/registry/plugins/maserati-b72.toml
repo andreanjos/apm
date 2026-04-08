@@ -1,11 +1,12 @@
 slug = "maserati-b72"
 name = "Maserati B72"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature bass processor from Tony Maserati for punchy, defined bass in any mix."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/maserati-b72"
 is_paid = true
 
 [formats.vst3]

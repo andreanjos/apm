@@ -1,12 +1,13 @@
 slug = "mdrumreplacer"
 name = "MDrumReplacer"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Replace poor-quality drum recordings with hi-end kit samples using MDrummer's powerful sound engine."
 category = "tools"
 subcategory = "drum tools"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MDrumReplacer"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/80-Drum-Tools/7163-MDrumReplacer"
 

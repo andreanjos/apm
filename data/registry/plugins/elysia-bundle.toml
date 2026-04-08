@@ -2,11 +2,12 @@ slug = "elysia-bundle"
 name = "elysia Bundle"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Complete collection of elysia's precision analog-modeled dynamics and mastering plugins for professional audio work."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/en/products/elysia-bundle-monthly.html"
 is_paid = true
 
 [formats.vst3]

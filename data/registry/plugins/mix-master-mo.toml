@@ -2,11 +2,12 @@ slug = "mix-master-mo"
 name = "MIX & MASTER/mo"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Monthly MIX & MASTER subscription giving full access to Plugin Alliance's professional mixing and mastering plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-monthly.html"
 is_paid = true
 
 [formats.vst3]

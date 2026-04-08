@@ -1,12 +1,13 @@
 slug = "precision-k-stereo-ambience-recovery"
 name = "Precision K-Stereo Ambience Recovery"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "UA's K-Stereo recovers natural ambience from stereo mix recordings for spatial enhancement."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/precision-k-stereo-ambience-recovery.html"
 is_paid = true
 
 [formats.vst3]

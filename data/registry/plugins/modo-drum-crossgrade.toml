@@ -1,12 +1,13 @@
 slug = "modo-drum-crossgrade"
 name = "MODO Drum Crossgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "Crossgrade to MODO DRUM, the breakthrough physically modeled acoustic drum virtual instrument."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/mododrum/"
 is_paid = true
 
 [formats.vst3]

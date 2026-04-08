@@ -1,11 +1,12 @@
 slug = "t-racks-tape-machine-80"
 name = "T-RackS Tape Machine 80"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "T-RackS Tape Machine 80 — model of the legendary Studer A80 MkII professional multi-track recorder."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trtapemac/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "paradise-guitar-studio-amplifier-and-effects-plug-in-crossgrade-from-uad-guitar-amp-plug-in-bundle"
 name = "Paradise Guitar Studio Amplifier and Effects Plug-in – Crossgrade from UAD Guitar Amp Plug-in Bundle"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Paradise Guitar Studio crossgrade from UAD Guitar Amp bundle, featuring amp and effects models."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/paradise-guitar-studio.html"
 is_paid = true
 
 [formats.vst3]

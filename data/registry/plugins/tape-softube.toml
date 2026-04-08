@@ -1,11 +1,12 @@
 slug = "tape-softube"
 name = "Tape"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Analog tape machine saturation plugin with three tape types and controls for warmth and glue."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/tape"
 is_paid = true
 
 [formats.vst3]

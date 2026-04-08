@@ -1,12 +1,13 @@
 slug = "tube-tech-compressor-collection-upgrade-from-cl1b"
 name = "Tube-Tech Compressor Collection Upgrade from CL1B"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Upgrade to the full Tube-Tech Compressor Collection from the CL 1B opto-compressor plugin."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
 is_paid = true
 
 [formats.vst3]

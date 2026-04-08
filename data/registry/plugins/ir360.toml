@@ -1,11 +1,12 @@
 slug = "ir360"
 name = "IR360"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Surround convolution reverb using true stereo impulse responses for immersive sound."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/ir360"
 is_paid = true
 
 [formats.vst3]

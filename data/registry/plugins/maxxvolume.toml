@@ -1,12 +1,13 @@
 slug = "maxxvolume"
 name = "MaxxVolume"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Intelligent multi-stage leveler and gate for consistent, polished dynamics control."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/maxxvolume"
 is_paid = true
 
 [formats.vst3]

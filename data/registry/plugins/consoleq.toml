@@ -1,12 +1,13 @@
 slug = "consoleq"
 name = "ConsoleQ"
 vendor = "PSP Audioware"
-version = "1.0.0"
-description = ""
+version = "2.0.3"
+description = "British console-style equalizer delivering analog EQ character for tracking and mixing."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-consoleq"
 is_paid = true
 
 [formats.vst3]

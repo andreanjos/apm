@@ -1,12 +1,13 @@
 slug = "manley-variable-mu-limiter-compressor"
 name = "Manley® Variable Mu Limiter Compressor"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Manley Variable Mu tube limiter compressor used for mastering and bus compression."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/manley-variable-mu-limiter-compressor.html"
 is_paid = true
 
 [formats.vst3]

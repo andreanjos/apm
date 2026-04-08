@@ -2,13 +2,13 @@ slug = "oxford-eq-native"
 name = "Oxford EQ Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford EQ Native — 5-band parametric EQ modelled on the OXF-R3 console with professional transparency and flexibility."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.sonnox.com/products/oxford-eq"
 
 [formats.vst3]
 url = ""

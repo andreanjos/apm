@@ -1,12 +1,13 @@
 slug = "ssl-g-equalizer"
 name = "SSL G-Equalizer"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Standalone emulation of the SSL G-Series four-band parametric console equalizer."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/ssl-g-equalizer"
 is_paid = true
 
 [formats.vst3]

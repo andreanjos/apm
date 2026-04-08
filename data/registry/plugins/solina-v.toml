@@ -1,12 +1,13 @@
 slug = "solina-v"
 name = "Solina V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.5.0"
+description = "Virtual emulation of the classic ARP/Solina String Ensemble analog string synthesizer."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/solina-v/overview"
 is_paid = true
 
 [formats.vst3]

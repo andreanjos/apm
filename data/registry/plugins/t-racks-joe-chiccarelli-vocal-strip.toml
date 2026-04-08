@@ -1,12 +1,13 @@
 slug = "t-racks-joe-chiccarelli-vocal-strip"
 name = "T-RackS Joe Chiccarelli Vocal Strip"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "T-RackS vocal strip co-designed with producer Joe Chiccarelli for unparalleled vocal processing."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trchiccarelli/"
 is_paid = true
 
 [formats.vst3]

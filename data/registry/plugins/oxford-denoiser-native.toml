@@ -2,11 +2,12 @@ slug = "oxford-denoiser-native"
 name = "Oxford DeNoiser Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford DeNoiser Native reduces broadband noise and hiss from recordings while preserving source integrity."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/"
 is_paid = true
 
 [formats.vst3]

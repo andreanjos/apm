@@ -2,11 +2,12 @@ slug = "broadcast-plugin-bundle-hd-hdx"
 name = "Broadcast Plugin Bundle – HD/HDX"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Sonnox Broadcast Bundle HD/HDX with Oxford Dynamics, EQ, Inflator, and Limiter for broadcast clarity."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/sonnox-broadcast-bundle"
 is_paid = true
 
 [formats.vst3]

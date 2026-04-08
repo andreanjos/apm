@@ -1,12 +1,13 @@
 slug = "ampeg-heritage-bass-amp-bundle"
 name = "Ampeg Heritage Bass Amp Bundle"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Bundle of emulations of classic Ampeg bass amplifiers including the B-15N, SVT-VR, and SVT-3 Pro."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/ampeg-heritage-bass-amp-bundle.html"
 is_paid = true
 
 [formats.vst3]

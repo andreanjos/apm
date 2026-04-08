@@ -1,12 +1,13 @@
 slug = "meldwaygrand"
 name = "MeldwayGrand"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Beautifully realistic, customizable software grand piano with 7 microphones and 25 algorithmic reverbs."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MeldwayGrand"
 is_paid = true
 
 [formats.vst3]

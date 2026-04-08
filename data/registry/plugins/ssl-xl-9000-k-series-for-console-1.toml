@@ -1,12 +1,13 @@
 slug = "ssl-xl-9000-k-series-for-console-1"
 name = "SSL XL 9000 K-Series for Console 1"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "SSL XL 9000 K-Series channel strip plugin optimized for use with Softube Console 1 hardware."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/ssl-xl-9000-k-series"
 is_paid = true
 
 [formats.vst3]

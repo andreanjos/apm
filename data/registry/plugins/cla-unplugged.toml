@@ -1,11 +1,12 @@
 slug = "cla-unplugged"
 name = "CLA Unplugged"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Acoustic instrument processing plugin with CLA's signature EQ, comp, and reverb chain."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/cla-unplugged"
 is_paid = true
 
 [formats.vst3]

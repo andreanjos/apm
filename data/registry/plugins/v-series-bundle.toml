@@ -1,12 +1,13 @@
 slug = "v-series-bundle"
 name = "V-Series Bundle"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of Waves V-Series Neve console emulations including V-EQ3, V-EQ4, and V-Comp."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/v-series-bundle"
 is_paid = true
 
 [formats.vst3]

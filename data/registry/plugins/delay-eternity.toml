@@ -1,12 +1,13 @@
 slug = "delay-eternity"
 name = "Delay Eternity"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Versatile stereo delay with extensive modulation, filtering, and creative routing options."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/delay-eternity/overview"
 is_paid = true
 
 [formats.vst3]

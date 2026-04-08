@@ -1,11 +1,12 @@
 slug = "replika-xt"
 name = "Replika XT"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.4"
+description = "Creative multi-mode delay plugin with five vivid delay modes and advanced modulation options."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/replika-xt/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "kaleidoscopes"
 name = "Kaleidoscopes"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Modulated multi-effect plugin combining chorus, flanger, tremolo, and vibrato."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/kaleidoscopes"
 is_paid = true
 
 [formats.vst3]

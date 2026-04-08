@@ -1,12 +1,13 @@
 slug = "ampex-atr-102-mastering-tape-recorder"
 name = "Ampex ATR 102 Mastering Tape Recorder"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Ampex ATR-102 mastering tape recorder with selectable speeds and bias."
 category = "effects"
 subcategory = "tape emulation"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/recording/ampex-atr-102-mastering-tape-recorder.html"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/12716-Ampex-ATR-102-Mastering-Tape-Recorder"
 

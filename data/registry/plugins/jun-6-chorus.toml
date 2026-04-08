@@ -1,12 +1,13 @@
 slug = "jun-6-chorus"
 name = "JUN-6 Chorus"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Standalone recreation of the beloved Roland Juno-6 analog ensemble chorus effect."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/chorus-jun-6/overview"
 is_paid = true
 
 [formats.vst3]

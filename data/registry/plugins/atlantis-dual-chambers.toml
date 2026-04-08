@@ -1,11 +1,12 @@
 slug = "atlantis-dual-chambers"
 name = "Atlantis Dual Chambers"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Dual reverb chamber plugin modeled on the legendary Atlantis Studios in Stockholm, Sweden."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/atlantis-dual-chambers"
 is_paid = true
 
 [formats.vst3]

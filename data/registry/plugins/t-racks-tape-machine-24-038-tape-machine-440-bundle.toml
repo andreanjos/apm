@@ -1,14 +1,14 @@
 slug = "t-racks-tape-machine-24-038-tape-machine-440-bundle"
 name = "T-RackS Tape Machine 24 &#038; Tape Machine 440 Bundle"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle of T-RackS Tape Machine 24 (MCI JH24) and Tape Machine 440 (Ampex AG440B) tape simulators."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.ikmultimedia.com/products/trtapemac/"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "oxford-enhance-bundle-native"
 name = "Oxford Enhance Bundle Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Enhance Bundle Native with Oxford Inflator, Limiter, and TransMod for loudness, punch, and clarity."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/sonnox-enhance-bundle"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "weiss-compressor-limiter"
 name = "Weiss Compressor/Limiter"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Mastering compressor/limiter plugin modeled on the Weiss DS1-MK3 for transparent, precise dynamics."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mastering/weiss-compressor-limiter"
 is_paid = true
 
 [formats.vst3]

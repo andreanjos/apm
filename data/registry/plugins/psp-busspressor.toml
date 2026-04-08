@@ -1,12 +1,13 @@
 slug = "psp-busspressor"
 name = "PSP BussPressor"
 vendor = "PSP Audioware"
-version = "1.0.0"
-description = ""
+version = "2.0.0"
+description = "VCA-style compressor optimized for group and master buss processing with wide tuning range."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-busspressor"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/397-PSP-BussPressor"
 

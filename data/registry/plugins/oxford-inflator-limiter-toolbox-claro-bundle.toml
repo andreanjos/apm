@@ -2,11 +2,12 @@ slug = "oxford-inflator-limiter-toolbox-claro-bundle"
 name = "Oxford Inflator, Limiter & Toolbox Claro Bundle"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Three-plugin bundle with Oxford Inflator, Limiter, and Claro EQ for enhancement, loudness control, and equalisation."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-inflator"
 is_paid = true
 
 [formats.vst3]

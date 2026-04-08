@@ -1,12 +1,13 @@
 slug = "ssl-g-channel"
 name = "SSL G-Channel"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the SSL 4000 G Series console channel strip with its distinctive sound."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/ssl-g-channel"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "cla-3a-compressor-limiter"
 name = "CLA-3A Compressor Limiter"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the UA LA-3A solid-state optical limiter modeled from CLA's personal unit."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/cla-3a-compressor-limiter"
 is_paid = true
 
 [formats.vst3]

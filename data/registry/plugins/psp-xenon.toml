@@ -1,12 +1,13 @@
 slug = "psp-xenon"
 name = "PSP Xenon"
 vendor = "PSP Audioware"
-version = "1.0.0"
-description = ""
+version = "1.6.2"
+description = "Full-band dual-stage limiter with integrated leveler, K-System metering, and 64-bit processing up to 192kHz."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-xenon"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/11021-PSP-Xenon"
 

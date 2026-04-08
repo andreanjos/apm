@@ -1,11 +1,12 @@
 slug = "eddie-kramer-vocal-channel"
 name = "Eddie Kramer Vocal Channel"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature vocal channel strip based on Eddie Kramer's vocal processing techniques."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/eddie-kramer-vocal-channel"
 is_paid = true
 
 [formats.vst3]

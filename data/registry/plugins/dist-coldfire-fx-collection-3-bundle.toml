@@ -2,11 +2,12 @@ slug = "dist-coldfire-fx-collection-3-bundle"
 name = "Dist COLDFIRE + FX Collection 3 Bundle"
 vendor = "Arturia"
 version = "1.0.0"
-description = ""
+description = "Bundle combining the Dist COLDFIRE dual-engine distortion with Arturia's FX Collection 3."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
 is_paid = true
 
 [formats.vst3]

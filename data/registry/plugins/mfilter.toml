@@ -1,12 +1,13 @@
 slug = "mfilter"
 name = "MFilter"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "A filter that can do more than you'd think, with integrated modulation options for adding movement to sounds."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MFilter"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/75-MFilter"
 

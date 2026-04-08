@@ -1,12 +1,13 @@
 slug = "f6"
 name = "F6"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Six-band floating equalizer with dynamic EQ capability for surgical frequency correction."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/f6"
 is_paid = true
 
 [formats.vst3]

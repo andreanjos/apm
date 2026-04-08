@@ -1,12 +1,13 @@
 slug = "v-collection-9"
 name = "V Collection 9"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "9.0.0"
+description = "Arturia's comprehensive bundle of 33 virtual instrument emulations of classic synths and keyboards."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/v-collection/overview"
 is_paid = true
 
 [formats.vst3]

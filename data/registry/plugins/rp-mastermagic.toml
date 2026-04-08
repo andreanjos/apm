@@ -2,11 +2,12 @@ slug = "rp-mastermagic"
 name = "RP-MasterMagic"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Mastering plugin with stereo/mono bass control, AIR function, and limiter for polishing the final mix output."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/MasterMagic.html"
 is_paid = true
 
 [formats.vst3]

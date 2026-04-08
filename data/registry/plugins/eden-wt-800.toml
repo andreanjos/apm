@@ -1,12 +1,13 @@
 slug = "eden-wt-800"
 name = "Eden WT-800"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Bass amplifier simulator modeled on the legendary Eden WT-800 head for rich, professional bass tones."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/guitar-bass/eden-wt800"
 is_paid = true
 
 [formats.vst3]

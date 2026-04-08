@@ -1,12 +1,13 @@
 slug = "definitive-piano-collection"
 name = "Definitive Piano Collection"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle of three premium sampled grand and upright pianos: The Grandeur, The Maverick, and The Gentleman."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/keys/definitive-piano-collection/"
 is_paid = true
 
 [formats.vst3]

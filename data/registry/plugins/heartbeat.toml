@@ -1,12 +1,13 @@
 slug = "heartbeat"
 name = "Heartbeat"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Analog-modeled drum synthesizer with eight channels, layering machine, reverb, and dynamics processing."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/synthesizers/heartbeat"
 is_paid = true
 
 [formats.vst3]

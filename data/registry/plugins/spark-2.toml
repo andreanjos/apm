@@ -1,12 +1,13 @@
 slug = "spark-2"
 name = "Spark 2"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "2.1.0"
+description = "Creative drum machine and sequencer combining synthesized and sampled drums in one instrument."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/drums/spark2/overview"
 is_paid = true
 
 [formats.vst3]

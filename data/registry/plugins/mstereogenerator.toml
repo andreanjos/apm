@@ -1,11 +1,12 @@
 slug = "mstereogenerator"
 name = "MStereoGenerator"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Expand mono to stereo naturally with this unique mono-to-stereo expander plugin."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MStereoGenerator"
 is_paid = true
 
 [formats.vst3]

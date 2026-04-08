@@ -1,12 +1,13 @@
 slug = "tonelux-tilt"
 name = "Tonelux Tilt"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Tilt EQ plugin modeled on the Tonelux Tilt hardware for simple, broad-spectrum tone adjustment."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/tonelux-tilt"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "t-racks-csr-hall-reverb"
 name = "T-RackS CSR Hall Reverb"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "5.0"
+description = "T-RackS CSR Hall Reverb — convolution reverb module simulating the acoustics of concert halls."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/tr5/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "analog-lab"
 name = "Analog Lab"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "4.2.4"
+description = "Classic preset browser and performance tool for Arturia's virtual instrument library."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/analoglab/overview"
 is_paid = true
 
 [formats.vst3]

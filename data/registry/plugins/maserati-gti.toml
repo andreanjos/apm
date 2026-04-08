@@ -1,11 +1,12 @@
 slug = "maserati-gti"
 name = "Maserati GTi"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature guitar processor from Tony Maserati for refined, polished electric guitar tones."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/maserati-gti"
 is_paid = true
 
 [formats.vst3]

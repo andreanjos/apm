@@ -1,12 +1,13 @@
 slug = "bss-dpr-402"
 name = "BSS DPR-402"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the BSS DPR-402 frequency-conscious compressor/limiter/de-esser."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/bss-dpr-402"
 is_paid = true
 
 [formats.vst3]

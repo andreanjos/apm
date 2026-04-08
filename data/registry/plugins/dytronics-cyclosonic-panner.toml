@@ -1,11 +1,12 @@
 slug = "dytronics-cyclosonic-panner"
 name = "Dytronics® Cyclosonic Panner"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Dytronics Cyclosonic Panner for rotating, swirling stereo effects."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/modulation/dytronics-cyclosonic-panner.html"
 is_paid = true
 
 [formats.vst3]

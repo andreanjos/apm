@@ -1,12 +1,13 @@
 slug = "neve-1081-1081se-classic-console-eq"
 name = "Neve 1081 / 1081SE Classic Console EQ"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Neve 1081 four-band parametric console EQ and preamp module."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/neve-1081-classic-console-eq.html"
 is_paid = true
 
 [formats.vst3]

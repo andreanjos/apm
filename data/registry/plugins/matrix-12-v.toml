@@ -1,12 +1,13 @@
 slug = "matrix-12-v"
 name = "Matrix 12 V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "2.5.0"
+description = "Faithful emulation of the Oberheim Matrix-12, one of the most powerful analog polyphonic synths ever made."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/matrix12v/overview"
 is_paid = true
 
 [formats.vst3]

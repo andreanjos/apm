@@ -1,11 +1,12 @@
 slug = "emt-140-classic-plate-reverberator"
 name = "EMT® 140 Classic Plate Reverberator"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the legendary EMT 140 electromechanical plate reverb used on countless classic records."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/reverbs/emt-140-plate-reverberator.html"
 is_paid = true
 
 [formats.vst3]

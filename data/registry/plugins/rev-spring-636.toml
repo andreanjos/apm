@@ -1,11 +1,12 @@
 slug = "rev-spring-636"
 name = "Rev SPRING-636"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Spring reverb emulation based on the classic Grampian 636, beloved in reggae and dub production."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/rev-spring636/overview"
 is_paid = true
 
 [formats.vst3]

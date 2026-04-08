@@ -1,12 +1,13 @@
 slug = "total-studio-3-5-max-upgrade"
 name = "Total Studio 3.5 MAX Upgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "3.5"
+description = "Upgrade to Total Studio 3.5 MAX, adding IK's latest instruments and effects to your existing bundle."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/ts3/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "h-comp"
 name = "H-Comp"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Hybrid compressor combining analog-style character with precise modern compression control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/h-comp"
 is_paid = true
 
 [formats.vst3]

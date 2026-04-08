@@ -1,11 +1,12 @@
 slug = "rp-verb"
 name = "RP-Verb"
 vendor = "Rob Papen"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Musical reverb plugin delivering unmatched dimension and fullness, with creative distortion and transparent processing."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/rp-verb.html"
 is_paid = true
 
 [formats.vst3]

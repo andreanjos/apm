@@ -1,12 +1,13 @@
 slug = "h-delay"
 name = "H-Delay"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Hybrid delay plugin offering classic bucket-brigade delay with modern precision and sync."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/h-delay"
 is_paid = true
 
 [formats.vst3]

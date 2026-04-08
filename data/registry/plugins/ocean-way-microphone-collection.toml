@@ -1,12 +1,13 @@
 slug = "ocean-way-microphone-collection"
 name = "Ocean Way® Microphone Collection"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Microphone modeling collection capturing the world's greatest vintage mic characters."
 category = "effects"
 subcategory = "mic modeling"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/recording/ocean-way-microphone-collection.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "pianoverb-2"
 name = "PianoVerb 2"
 vendor = "PSP Audioware"
-version = "1.0.0"
-description = ""
+version = "2.5.5"
+description = "Creative resonant reverb plugin using twelve piano string-inspired resonant filters for distinctive reverberation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-pianoverb2"
 is_paid = true
 
 [formats.vst3]

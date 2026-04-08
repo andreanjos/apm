@@ -1,12 +1,13 @@
 slug = "l2-ultramaximizer"
 name = "L2 Ultramaximizer"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Advanced peak limiter with look-ahead processing for transparent mastering limiting."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/l2-ultramaximizer"
 is_paid = true
 
 [formats.vst3]

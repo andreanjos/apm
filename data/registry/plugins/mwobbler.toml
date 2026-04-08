@@ -1,11 +1,12 @@
 slug = "mwobbler"
 name = "MWobbler"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Distorting filter plugin designed to create wobbling bass effects with advanced modulation capabilities."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MWobbler"
 is_paid = true
 
 [formats.vst3]

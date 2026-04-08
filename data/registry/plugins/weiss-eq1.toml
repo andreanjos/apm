@@ -1,12 +1,13 @@
 slug = "weiss-eq1"
 name = "Weiss EQ1"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Professional mastering EQ plugin based on Weiss Engineering hardware for transparent tone shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
 is_paid = true
 
 [formats.vst3]

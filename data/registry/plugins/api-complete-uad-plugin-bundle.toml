@@ -1,12 +1,13 @@
 slug = "api-complete-uad-plugin-bundle"
 name = "API Complete UAD Plugin Bundle"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Complete bundle of all UAD API plug-in emulations including Vision, 2500, and 500-series EQs."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/bundles/api-complete-uad-plugin-bundle.html"
 is_paid = true
 
 [formats.vst3]

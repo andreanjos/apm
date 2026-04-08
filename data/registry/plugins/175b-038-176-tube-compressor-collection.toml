@@ -1,14 +1,14 @@
 slug = "175b-038-176-tube-compressor-collection"
 name = "175B &#038; 176 Tube Compressor Collection"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Authentic emulations of the UA 175B and 176 vintage tube compressors."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/175b-and-176-tube-compressor.html"
 
 [formats.vst3]
 url = ""

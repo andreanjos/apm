@@ -1,11 +1,12 @@
 slug = "loair"
 name = "LoAir"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Sub-harmonic synthesizer that adds powerful, deep low end to bass and kick sources."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/loair"
 is_paid = true
 
 [formats.vst3]

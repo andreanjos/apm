@@ -1,12 +1,13 @@
 slug = "blade-2"
 name = "Blade 2"
 vendor = "Rob Papen"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Advanced virtual synthesizer with Harmolator and Additive modes, XY pad, wave analyser, and 32 filter types."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/BLADE-2.html"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7019-Blade-2"
 

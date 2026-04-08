@@ -2,11 +2,12 @@ slug = "voxdoubler"
 name = "VoxDoubler"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Vocal doubling plugin that adds rich, natural-sounding doubles using Thicken and Widen modes for fuller, lush harmonies."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/voxdoubler"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/5373-VoxDoubler"
 

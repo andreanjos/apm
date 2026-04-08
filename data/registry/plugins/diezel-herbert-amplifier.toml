@@ -1,12 +1,13 @@
 slug = "diezel-herbert-amplifier"
 name = "Diezel Herbert Amplifier"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Diezel Herbert high-gain three-channel guitar amplifier."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/diezel-herbert-amplifier.html"
 is_paid = true
 
 [formats.vst3]

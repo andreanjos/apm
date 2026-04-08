@@ -1,12 +1,13 @@
 slug = "total-studio-3-se"
 name = "Total Studio 3 SE"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Total Studio 3 SE — entry-level production bundle with SE editions of AmpliTube 5, SampleTank 4, and more."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/ts5/"
 is_paid = true
 
 [formats.vst3]

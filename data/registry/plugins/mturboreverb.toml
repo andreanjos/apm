@@ -1,11 +1,12 @@
 slug = "mturboreverb"
 name = "MTurboReverb"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Algorithmic reverb plugin featuring about 100 superb-sounding reverbs with the ability to design your own algorithms."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MTurboReverb"
 is_paid = true
 
 [formats.vst3]

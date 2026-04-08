@@ -1,12 +1,13 @@
 slug = "ua-610-tube-preamp-eq-collection"
 name = "UA 610 Tube Preamp & EQ Collection"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulations of the classic UA 610 tube modular recording console preamp and EQ."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/ua-610-tube-preamp-and-eq-collection.html"
 is_paid = true
 
 [formats.vst3]

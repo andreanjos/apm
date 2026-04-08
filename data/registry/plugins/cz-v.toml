@@ -1,12 +1,13 @@
 slug = "cz-v"
 name = "CZ V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.5.0"
+description = "Virtual recreation of the Casio CZ series phase distortion synthesizers from the 1980s."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/cz-v/overview"
 is_paid = true
 
 [formats.vst3]

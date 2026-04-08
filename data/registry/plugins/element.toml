@@ -1,12 +1,13 @@
 slug = "element"
 name = "Element"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Virtual analog synthesizer delivering fat basses, warm pads, and cutting leads."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/element"
 is_paid = true
 
 [formats.vst3]

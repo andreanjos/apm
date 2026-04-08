@@ -1,12 +1,13 @@
 slug = "spl-twintube-processor"
 name = "SPL® TwinTube Processor"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the SPL TwinTube Processor, which adds harmonic saturation via tube simulation."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/spl-twintube-processor.html"
 is_paid = true
 
 [formats.vst3]

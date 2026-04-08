@@ -1,12 +1,13 @@
 slug = "t-racks-tape-echo"
 name = "T-RackS Tape Echo"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "T-RackS Tape Echo — faithful recreation of the classic Echoplex EP3 tape delay from 1969."
 category = "effects"
 subcategory = "echo"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trtapeecho/"
 is_paid = true
 
 [formats.vst3]

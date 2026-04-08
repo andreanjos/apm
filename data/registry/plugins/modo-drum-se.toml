@@ -1,12 +1,13 @@
 slug = "modo-drum-se"
 name = "MODO DRUM SE"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "MODO DRUM SE — entry-level version of the physically modeled acoustic drum virtual instrument."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/mododrum/"
 is_paid = true
 
 [formats.vst3]

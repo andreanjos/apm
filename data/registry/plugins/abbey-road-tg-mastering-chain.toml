@@ -1,12 +1,13 @@
 slug = "abbey-road-tg-mastering-chain"
 name = "Abbey Road TG Mastering Chain"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the EMI TG12410 Transfer Console used for mastering at Abbey Road."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/abbey-road-tg-mastering-chain"
 is_paid = true
 
 [formats.vst3]

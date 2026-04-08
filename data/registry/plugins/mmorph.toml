@@ -1,11 +1,12 @@
 slug = "mmorph"
 name = "MMorph"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "A unique morphing tool that lets you morph between two audio materials for creative sound design."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MMorph"
 is_paid = true
 
 [formats.vst3]

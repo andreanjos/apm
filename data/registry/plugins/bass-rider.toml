@@ -1,12 +1,13 @@
 slug = "bass-rider"
 name = "Bass Rider"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Automatic bass level rider that keeps bass tracks at a consistent, even volume."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/bass-rider"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "l1-ultramaximizer"
 name = "L1 Ultramaximizer"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Classic peak limiter and loudness maximizer for transparent brick-wall limiting."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/l1-ultramaximizer"
 is_paid = true
 
 [formats.vst3]

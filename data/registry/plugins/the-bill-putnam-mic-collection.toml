@@ -1,12 +1,13 @@
 slug = "the-bill-putnam-mic-collection"
 name = "The Bill Putnam Mic Collection"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Mic modeling collection recreating the sound of Bill Putnam's personal vintage microphones."
 category = "effects"
 subcategory = "mic modeling"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/recording/bill-putnam-mic-collection.html"
 is_paid = true
 
 [formats.vst3]

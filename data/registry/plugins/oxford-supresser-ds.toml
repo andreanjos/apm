@@ -2,11 +2,12 @@ slug = "oxford-supresser-ds"
 name = "Oxford SuprEsser DS"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Real-time de-esser with sub-2ms latency and AAX-DSP support, offering precise control from 1kHz to 20kHz."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-supresser-ds"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/2244-Oxford-SuprEsser-DS-"
 

@@ -2,11 +2,12 @@ slug = "oxford-essential-bundle-native"
 name = "Oxford Essential Bundle Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Essential Bundle Native — four-plugin suite with EQ, Dynamics, Reverb, and SuprEsser for every stage of mixing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/sonnox-essential-bundle"
 is_paid = true
 
 [formats.vst3]

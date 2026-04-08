@@ -1,12 +1,13 @@
 slug = "cla-classic-compressors"
 name = "CLA Classic Compressors"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of three CLA compressor emulations: LA-2A, LA-3A, and 1176 models."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/cla-classic-compressors"
 is_paid = true
 
 [formats.vst3]

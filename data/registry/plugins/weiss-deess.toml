@@ -1,12 +1,13 @@
 slug = "weiss-deess"
 name = "Weiss Deess"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Mastering de-esser plugin based on Weiss engineering for surgical, transparent sibilance control."
 category = "effects"
 subcategory = "de-esser"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mastering/weiss-deess"
 is_paid = true
 
 [formats.vst3]

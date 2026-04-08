@@ -1,12 +1,13 @@
 slug = "metafilter"
 name = "MetaFilter"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Modulated multi-filter plugin for sweeping, resonant filter effects and sound design."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/metafilter"
 is_paid = true
 
 [formats.vst3]

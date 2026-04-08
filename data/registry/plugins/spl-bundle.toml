@@ -2,11 +2,12 @@ slug = "spl-bundle"
 name = "SPL Bundle"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Complete collection of SPL Analog Code plugins covering EQ, compression, saturation, transient shaping, and mastering."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/en/products/spl-bundle-monthly.html"
 is_paid = true
 
 [formats.vst3]

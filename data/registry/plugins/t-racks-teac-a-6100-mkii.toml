@@ -1,11 +1,12 @@
 slug = "t-racks-teac-a-6100-mkii"
 name = "T-RackS TEAC A-6100 MKII"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "T-RackS TEAC A-6100 MKII — officially certified model of the TEAC A-6100 MKII professional tape recorder."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trteaca6100/"
 is_paid = true
 
 [formats.vst3]

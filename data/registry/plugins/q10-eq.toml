@@ -1,12 +1,13 @@
 slug = "q10-eq"
 name = "Q10 EQ"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Ten-band parametric equalizer for precise and musical frequency sculpting."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/q10-eq"
 is_paid = true
 
 [formats.vst3]

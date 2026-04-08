@@ -1,12 +1,13 @@
 slug = "solid-bus-compressor"
 name = "Solid Bus Compressor"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.4"
+description = "SSL-style bus compressor emulation that glues mixes together with punch, clarity, and cohesion."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/solid-bus-comp/"
 is_paid = true
 
 [formats.vst3]

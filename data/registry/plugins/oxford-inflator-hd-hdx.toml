@@ -2,11 +2,12 @@ slug = "oxford-inflator-hd-hdx"
 name = "Oxford Inflator HD/HDX"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Inflator HD/HDX adds presence, warmth, and loudness to tracks without compromising dynamic range or clarity."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-inflator"
 is_paid = true
 
 [formats.vst3]

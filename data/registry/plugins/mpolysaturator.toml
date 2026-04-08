@@ -1,11 +1,12 @@
 slug = "mpolysaturator"
 name = "MPolySaturator"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "A harmonic enhancer exploiting the spectral domain for polyphonic material."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MPolySaturator"
 is_paid = true
 
 [formats.vst3]

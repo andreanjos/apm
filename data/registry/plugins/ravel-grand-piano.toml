@@ -1,12 +1,13 @@
 slug = "ravel-grand-piano"
 name = "Ravel Grand Piano"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "UA's Ravel Grand Piano is a richly sampled concert grand piano instrument."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/instruments/ravel-grand-piano.html"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10191-Ravel-Grand-Piano"
 

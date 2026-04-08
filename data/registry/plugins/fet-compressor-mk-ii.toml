@@ -1,12 +1,13 @@
 slug = "fet-compressor-mk-ii"
 name = "FET Compressor MK II"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Updated FET-style compressor plugin with enhanced analog modeling for punchy, fast compression."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/fet-compressor-mk-ii"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "v-eq4"
 name = "V-EQ4"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the vintage Neve 1081 four-band console EQ for musical analog tone shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/v-eq4"
 is_paid = true
 
 [formats.vst3]

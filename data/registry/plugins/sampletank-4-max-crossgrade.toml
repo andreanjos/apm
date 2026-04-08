@@ -1,14 +1,14 @@
 slug = "sampletank-4-max-crossgrade"
 name = "SampleTank 4 MAX Crossgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "4.0"
+description = "Crossgrade to SampleTank 4 MAX, the 250+ GB ultimate sound and groove workstation with 19,000+ presets."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.ikmultimedia.com/products/st4/"
 
 [formats.vst3]
 url = ""

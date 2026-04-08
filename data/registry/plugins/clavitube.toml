@@ -1,12 +1,13 @@
 slug = "clavitube"
 name = "Clavitube"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Comprehensive Hohner Clavinet collection for SampleTank with 250+ presets covering the full tonal range."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/stclavitube/"
 is_paid = true
 
 [formats.vst3]

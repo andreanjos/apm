@@ -1,12 +1,13 @@
 slug = "codex-wavetable-synth"
 name = "Codex Wavetable Synth"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Dual-engine wavetable synthesizer for rich pads, leads, and evolving textures."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/codex-wavetable-synth"
 is_paid = true
 
 [formats.vst3]

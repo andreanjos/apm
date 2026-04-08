@@ -1,12 +1,13 @@
 slug = "mellotron-v"
 name = "Mellotron V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "2.5.0"
+description = "Virtual recreation of the legendary Mellotron tape-replay keyboard instrument."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/mellotron-v/overview"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "nx-ocean-way-nashville"
 name = "Nx Ocean Way Nashville"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Virtual monitoring environment modeled on the legendary Ocean Way Nashville control room."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/nx-ocean-way-nashville"
 is_paid = true
 
 [formats.vst3]

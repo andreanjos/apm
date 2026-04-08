@@ -1,12 +1,13 @@
 slug = "dbx-160-compressor-limiter-universal-audio"
 name = "dbx® 160 Compressor/Limiter"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the dbx 160 VCA compressor/limiter known for aggressive, punchy dynamics control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/dbx-160-compressor-limiter.html"
 is_paid = true
 
 [formats.vst3]

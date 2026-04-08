@@ -1,12 +1,13 @@
 slug = "precision-limiter"
 name = "Precision Limiter"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "UA's Precision Limiter is a transparent brick-wall limiter for mastering applications."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/precision-limiter.html"
 is_paid = true
 
 [formats.vst3]

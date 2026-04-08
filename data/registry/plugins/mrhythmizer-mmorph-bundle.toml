@@ -1,12 +1,13 @@
 slug = "mrhythmizer-mmorph-bundle"
 name = "MRhythmizer + MMorph Bundle"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Bundle combining MRhythmizer time-manipulation gating and MMorph audio morphing for creative sound design."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/bundles"
 is_paid = true
 
 [formats.vst3]

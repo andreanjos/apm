@@ -1,11 +1,12 @@
 slug = "mphatik"
 name = "MPhatik"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Dynamic multi-effect plugin that enhances audio warmth through amp, convolution, and compression."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MPhatik"
 is_paid = true
 
 [formats.vst3]

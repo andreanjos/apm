@@ -1,12 +1,13 @@
 slug = "amplitube-fender-collection"
 name = "AmpliTube Fender Collection"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Officially certified Fender guitar amp and effects collection for AmpliTube."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/fender/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/14357-AmpliTube-Fender-Collection"
 

@@ -1,12 +1,13 @@
 slug = "submarine"
 name = "Submarine"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Sub-harmonic enhancer and distortion plugin for adding deep sub frequencies."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/submarine"
 is_paid = true
 
 [formats.vst3]

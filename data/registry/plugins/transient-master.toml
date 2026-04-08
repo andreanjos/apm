@@ -1,12 +1,13 @@
 slug = "transient-master"
 name = "Transient Master"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.4"
+description = "Dynamics processor for shaping transients — powerfully simple, extremely useful for drums and percussion."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/transient-master/"
 is_paid = true
 
 [formats.vst3]

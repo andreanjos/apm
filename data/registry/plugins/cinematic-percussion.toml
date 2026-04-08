@@ -1,12 +1,13 @@
 slug = "cinematic-percussion"
 name = "Cinematic Percussion"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Cinematic percussion library for SampleTank with master-performed grooves for film and TV scoring."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/st3cinematic/"
 is_paid = true
 
 [formats.vst3]

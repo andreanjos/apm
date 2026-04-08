@@ -1,12 +1,13 @@
 slug = "vitamin"
 name = "Vitamin"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Multiband harmonic enhancer adding brightness, warmth, and presence across five bands."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/vitamin"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "mstereospread"
 name = "MStereoSpread"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Stereo expansion plugin that makes tracks wider and tighter using psychoacoustics while maintaining natural sound."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MStereoSpread"
 is_paid = true
 
 [formats.vst3]

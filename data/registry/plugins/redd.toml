@@ -1,12 +1,13 @@
 slug = "redd"
 name = "REDD"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the vintage EMI REDD.37 and REDD.51 tube console equalizers from Abbey Road."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/redd"
 is_paid = true
 
 [formats.vst3]

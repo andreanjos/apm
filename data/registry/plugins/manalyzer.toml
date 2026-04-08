@@ -1,12 +1,13 @@
 slug = "manalyzer"
 name = "MAnalyzer"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Advanced spectral analyzer and sonogram with smoothing, normalization, super-resolution, and loudness metering."
 category = "effects"
 subcategory = "spectral analysis"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MAnalyzer"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/295-MAnalyzer"
 

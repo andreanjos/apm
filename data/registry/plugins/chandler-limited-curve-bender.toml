@@ -1,12 +1,13 @@
 slug = "chandler-limited-curve-bender"
 name = "Chandler Limited Curve Bender"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Analog EQ plugin modeled on Chandler Limited's acclaimed passive mastering equalizer hardware."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mastering/chandler-limited-curve-bender"
 is_paid = true
 
 [formats.vst3]

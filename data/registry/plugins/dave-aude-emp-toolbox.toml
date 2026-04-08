@@ -1,12 +1,13 @@
 slug = "dave-aude-emp-toolbox"
 name = "Dave Aude EMP Toolbox"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Dave Aude's signature collection of electronic music production tools and processors."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/dave-aude-emp-toolbox"
 is_paid = true
 
 [formats.vst3]

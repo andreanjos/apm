@@ -2,11 +2,12 @@ slug = "musician-bundle-mo"
 name = "MUSICIAN Bundle/mo"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Monthly subscription bundle tailored for guitarists, synth lovers, and producers needing amp sims and creative tools."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/en/products/pa-mega-bundle.html"
 is_paid = true
 
 [formats.vst3]

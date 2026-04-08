@@ -1,12 +1,13 @@
 slug = "msoundfactoryle"
 name = "MSoundFactoryLE"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "A modular virtual instrument offering all MSoundFactory sounds with limited customization at an affordable price."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MSoundFactoryLE"
 is_paid = true
 
 [formats.vst3]

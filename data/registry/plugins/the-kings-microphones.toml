@@ -1,11 +1,12 @@
 slug = "the-kings-microphones"
 name = "The King’s Microphones"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the vintage Neumann U67 and AKG C12 microphones used at Abbey Road."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/the-kings-microphones"
 is_paid = true
 
 [formats.vst3]

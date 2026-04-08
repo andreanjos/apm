@@ -1,12 +1,13 @@
 slug = "infected-mushroom-pusher"
 name = "Infected Mushroom Pusher"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Multi-effect plugin designed by Infected Mushroom for powerful sound enhancement and push."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/infected-mushroom-pusher"
 is_paid = true
 
 [formats.vst3]

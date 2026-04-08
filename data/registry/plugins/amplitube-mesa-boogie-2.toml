@@ -1,12 +1,13 @@
 slug = "amplitube-mesa-boogie-2"
 name = "AmpliTube MESA/Boogie 2"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Officially certified MESA/Boogie Collection 2 for AmpliTube adding 4 more iconic MESA amps and 5 cabs."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/mesa2/"
 is_paid = true
 
 [formats.vst3]

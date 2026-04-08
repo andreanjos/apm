@@ -1,12 +1,13 @@
 slug = "chorus-dimension-d"
 name = "Chorus DIMENSION-D"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Emulation of the Roland Dimension D rack chorus unit, renowned for its lush, spatial sound."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/chorus-dimension-d/overview"
 is_paid = true
 
 [formats.vst3]

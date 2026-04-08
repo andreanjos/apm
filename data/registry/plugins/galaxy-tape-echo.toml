@@ -1,12 +1,13 @@
 slug = "galaxy-tape-echo"
 name = "Galaxy Tape Echo"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "UA's Galaxy Tape Echo is an emulation of the Roland RE-201 Space Echo tape delay."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/delays/galaxy-tape-echo.html"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/10170-Galaxy-Tape-Echo"
 

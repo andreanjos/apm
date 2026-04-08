@@ -1,12 +1,13 @@
 slug = "marshall-murder-one-lemmy-signature"
 name = "Marshall Murder One Lemmy Signature"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Amp simulator based on Lemmy Kilmister's iconic Marshall Murder One stack for thunderous bass tones."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-murder-one-lemmy-signature"
 is_paid = true
 
 [formats.vst3]

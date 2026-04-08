@@ -1,12 +1,13 @@
 slug = "miroslav-philharmonik-2-crossgrade"
 name = "Miroslav Philharmonik 2 Crossgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Crossgrade to Miroslav Philharmonik 2, the 58 GB orchestral virtual instrument with 2,700+ instruments."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/philharmonik2/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "icons-the-compressor-collection"
 name = "Icons: The Compressor Collection"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Bundle of three iconic compressor types: FET, VCA, and OPTO, covering all classic compression styles."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/icons-the-compressor-collection"
 is_paid = true
 
 [formats.vst3]

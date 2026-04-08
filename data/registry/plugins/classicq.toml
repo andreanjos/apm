@@ -2,11 +2,12 @@ slug = "classicq"
 name = "ClassicQ"
 vendor = "PSP Audioware"
 version = "1.0.0"
-description = ""
+description = "British-style EQ inspired by classic Neve designs with simulated Class A circuitry and transformer coloration."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-classicq"
 is_paid = true
 
 [formats.vst3]

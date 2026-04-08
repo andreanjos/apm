@@ -2,13 +2,13 @@ slug = "oxford-dynamics-native"
 name = "Oxford Dynamics Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Dynamics Native — gate, expander, compressor, limiter, side-chain EQ, and warmth in one processor."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.sonnox.com/products/oxford-dynamics"
 
 [formats.vst3]
 url = ""

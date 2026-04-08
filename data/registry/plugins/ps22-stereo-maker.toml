@@ -1,11 +1,12 @@
 slug = "ps22-stereo-maker"
 name = "PS22 Stereo Maker"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Stereo enhancement plugin converting mono sources to natural-sounding stereo."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/ps22-stereo-maker"
 is_paid = true
 
 [formats.vst3]

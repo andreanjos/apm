@@ -1,12 +1,13 @@
 slug = "a-da-std-1-stereo-tapped-delay"
 name = "A/DA STD-1 Stereo Tapped Delay"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the A/DA STD-1 Stereo Tapped Delay analog delay unit."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/delays/a-da-std-1-stereo-tapped-delay.html"
 is_paid = true
 
 [formats.vst3]

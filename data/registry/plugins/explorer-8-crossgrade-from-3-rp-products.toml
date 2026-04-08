@@ -2,11 +2,12 @@ slug = "explorer-8-crossgrade-from-3-rp-products"
 name = "eXplorer-8 Crossgrade from 3 RP Products"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Crossgrade to the eXplorer 8 bundle for owners of three existing Rob Papen products."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/explorer-8.html"
 is_paid = true
 
 [formats.vst3]

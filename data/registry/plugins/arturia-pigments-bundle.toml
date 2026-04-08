@@ -1,12 +1,13 @@
 slug = "arturia-pigments-bundle"
 name = "Arturia Pigments Bundle"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "7.0.0"
+description = "Bundle combining Arturia Pigments with curated expansion packs and additional presets."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/pigments/overview"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/13340-Arturia-Pigments-Bundle"
 

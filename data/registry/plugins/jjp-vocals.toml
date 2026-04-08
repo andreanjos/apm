@@ -1,11 +1,12 @@
 slug = "jjp-vocals"
 name = "JJP Vocals"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature vocal processing plugin delivering Jack Joseph Puig's vocal mixing sound."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/jjp-vocals"
 is_paid = true
 
 [formats.vst3]

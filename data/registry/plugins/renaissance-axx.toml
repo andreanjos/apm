@@ -1,12 +1,13 @@
 slug = "renaissance-axx"
 name = "Renaissance Axx"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Simple one-knob compressor optimized for guitars with instant results."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/renaissance-axx"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "explorer-7-bundle"
 name = "eXplorer 7 Bundle"
 vendor = "Rob Papen"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Complete Rob Papen plugin collection with 27 synthesizers, effects, and sound design tools plus Prisma."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/eXplorer-7.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "empirical-labs-complete-collection-upgrade-from-empirical-labs-trak-pak-for-console-1"
 name = "Empirical Labs Complete Collection Upgrade from Empirical Labs Trak Pak for Console 1"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Upgrade to full Empirical Labs Complete Collection from the Trak Pak for Console 1."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-complete-collection-2"
 is_paid = true
 
 [formats.vst3]

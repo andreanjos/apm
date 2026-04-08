@@ -1,12 +1,13 @@
 slug = "mspectraldynamicsle"
 name = "MSpectralDynamicsLE"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Spectral dynamics processor that flattens frequency response, prevents track collisions, and removes noise."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MSpectralDynamicsLE"
 is_paid = true
 
 [formats.vst3]

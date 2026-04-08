@@ -1,12 +1,13 @@
 slug = "comp-vca-65"
 name = "Comp VCA-65"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Modern VCA compressor inspired by contemporary units like the Overstayer Modular Channel."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/comp-vca-65/overview"
 is_paid = true
 
 [formats.vst3]

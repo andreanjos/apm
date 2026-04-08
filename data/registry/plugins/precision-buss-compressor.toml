@@ -1,12 +1,13 @@
 slug = "precision-buss-compressor"
 name = "Precision Buss Compressor"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "UA's Precision Buss Compressor is an original transparent VCA compressor for bus and master."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/precision-buss-compressor.html"
 is_paid = true
 
 [formats.vst3]

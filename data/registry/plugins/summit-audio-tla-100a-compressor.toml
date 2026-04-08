@@ -1,12 +1,13 @@
 slug = "summit-audio-tla-100a-compressor"
 name = "Summit Audio TLA-100A Compressor"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Tube leveling amplifier plugin modeled on Summit Audio's TLA-100A for smooth, vintage compression."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/summit-audio-tla-100a"
 is_paid = true
 
 [formats.vst3]

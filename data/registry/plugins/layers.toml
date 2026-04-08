@@ -1,12 +1,13 @@
 slug = "layers"
 name = "Layers"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Stereo width and spatial enhancement plugin for adding depth and dimension to mixes."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/layers"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/13427-Layers"
 

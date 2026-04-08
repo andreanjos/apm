@@ -1,12 +1,13 @@
 slug = "music-production-suite-5-universal-edition"
 name = "MUSIC PRODUCTION SUITE 5 UNIVERSAL EDITION"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "5.0"
+description = "iZotope Music Production Suite 5 bundle with tools for mixing, mastering, repair, and music production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/soundwide-partners/izotope/music-production-suite-5-universal-edition/"
 is_paid = true
 
 [formats.vst3]

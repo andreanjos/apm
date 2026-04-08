@@ -1,11 +1,12 @@
 slug = "vocoder-v"
 name = "Vocoder V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.5.0"
+description = "Vintage vocoder emulation combining classic voice synthesis with modern synthesis capabilities."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/vocoder-v/overview"
 is_paid = true
 
 [formats.vst3]

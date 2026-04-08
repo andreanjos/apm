@@ -2,11 +2,12 @@ slug = "explorer-7-upgrade-from-any-version-of-explorer"
 name = "eXplorer 7 Upgrade from Any Version of eXplorer"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Upgrade license to eXplorer 7 from any previous version of the eXplorer bundle."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/eXplorer-7.html"
 is_paid = true
 
 [formats.vst3]

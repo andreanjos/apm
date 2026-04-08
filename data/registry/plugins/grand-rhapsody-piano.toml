@@ -1,12 +1,13 @@
 slug = "grand-rhapsody-piano"
 name = "Grand Rhapsody Piano"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Virtual grand piano instrument with rich, detailed sampling for expressive performances."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/grand-rhapsody-piano"
 is_paid = true
 
 [formats.vst3]

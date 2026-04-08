@@ -2,13 +2,13 @@ slug = "oxford-supresser-native"
 name = "Oxford SuprEsser Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford SuprEsser Native — adaptive de-esser with automatic level tracking and three precision processing modes."
 category = "effects"
 subcategory = "de-esser"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.sonnox.com/products/oxford-supresser"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "the-resonator"
 name = "The Resonator"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Ultra-expressive dobro resonator guitar for SampleTank by Indiginus, deeply sampled with a metal slide."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/stresonator/"
 is_paid = true
 
 [formats.vst3]

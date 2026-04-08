@@ -1,12 +1,13 @@
 slug = "townsend-labs-sphere"
 name = "Townsend Labs Sphere"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Townsend Labs Sphere L22 microphone modeling system for transforming any mic into legendary mics."
 category = "effects"
 subcategory = "mic modeling"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/recording/townsend-labs-sphere.html"
 is_paid = true
 
 [formats.vst3]

@@ -2,12 +2,12 @@ slug = "oxford-reverb-native"
 name = "Oxford Reverb Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Reverb Native — highly flexible algorithmic reverb with precise control over every aspect of spatial design."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.sonnox.com/products/oxford-reverb"
 
 [formats.vst3]
 url = ""

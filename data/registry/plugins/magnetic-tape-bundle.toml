@@ -1,12 +1,13 @@
 slug = "magnetic-tape-bundle"
 name = "Magnetic Tape Bundle"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Bundle of UAD tape emulation plug-ins including Studer A800, Ampex ATR-102, and Oxide."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/bundles/magnetic-tape-bundle.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "api-500-series-eq-collection"
 name = "API 500 Series EQ Collection"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Collection emulating API's 500-series modular EQ modules including the 550A, 550B, and 560."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/api-500-series-eq-collection.html"
 is_paid = true
 
 [formats.vst3]

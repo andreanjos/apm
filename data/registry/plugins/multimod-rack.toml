@@ -1,11 +1,12 @@
 slug = "multimod-rack"
 name = "MultiMod Rack"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Modular rack of modulation effects combining chorus, flanging, and rotary effects."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/multimod-rack"
 is_paid = true
 
 [formats.vst3]

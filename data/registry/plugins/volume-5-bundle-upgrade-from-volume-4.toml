@@ -1,12 +1,13 @@
 slug = "volume-5-bundle-upgrade-from-volume-4"
 name = "Volume 5 Bundle Upgrade from Volume 4"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Upgrade from Volume 4 to the Volume 5 Bundle collection of Softube mixing and effects plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins"
 is_paid = true
 
 [formats.vst3]

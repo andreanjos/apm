@@ -2,11 +2,12 @@ slug = "rp-delay-rob-papen"
 name = "RP-Delay"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Feature-rich delay with 6 delay lines, 8 multi-mode filters, sound reverser, tape modeling, and 4 modulation sequencers."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/rp-delay.html"
 is_paid = true
 
 [formats.vst3]

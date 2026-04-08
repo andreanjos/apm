@@ -1,12 +1,13 @@
 slug = "manley-complete-bundle"
 name = "Manley Complete Bundle"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Complete bundle of all UAD Manley plug-in emulations including VOXBOX, Vari Mu, and Massive Passive."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/bundles/manley-complete-bundle.html"
 is_paid = true
 
 [formats.vst3]

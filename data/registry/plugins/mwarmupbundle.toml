@@ -1,12 +1,13 @@
 slug = "mwarmupbundle"
 name = "MWarmUpBundle"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Bundle of eight saturation and distortion plugins with multiband processing for creative sound design."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MWarmUpBundle"
 is_paid = true
 
 [formats.vst3]

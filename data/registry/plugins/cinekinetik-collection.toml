@@ -1,12 +1,13 @@
 slug = "cinekinetik-collection"
 name = "Cinekinetik Collection"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Modern cinematic SampleTank collection with 4 evocative libraries including Shipwreck Piano and Malletopia."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/stcinekinetik/"
 is_paid = true
 
 [formats.vst3]

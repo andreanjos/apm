@@ -1,11 +1,12 @@
 slug = "rc-24"
 name = "RC 24"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Faithful emulation of a classic 1980s digital reverb unit with three ultra-flexible hall algorithms."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/rc-24/"
 is_paid = true
 
 [formats.vst3]

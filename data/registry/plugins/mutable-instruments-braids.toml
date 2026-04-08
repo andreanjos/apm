@@ -1,11 +1,12 @@
 slug = "mutable-instruments-braids"
 name = "Mutable Instruments Braids"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Digital macro-oscillator module for Softube Modular based on Mutable Instruments Braids hardware."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/synthesizers/mutable-instruments-braids"
 is_paid = true
 
 [formats.vst3]

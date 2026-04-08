@@ -1,12 +1,13 @@
 slug = "brandenburg-piano"
 name = "Brandenburg Piano"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Deeply sampled, studio-quality Bechstein grand piano for SampleTank with rich, concert-hall realism."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/st3brandenburgpiano/"
 is_paid = true
 
 [formats.vst3]

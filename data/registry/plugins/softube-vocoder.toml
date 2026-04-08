@@ -1,11 +1,12 @@
 slug = "softube-vocoder"
 name = "Softube Vocoder"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Softube's Vocoder plug-in for UAD delivers classic and modern vocoder and talk-box effects."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/modulation/softube-vocoder.html"
 is_paid = true
 
 [formats.vst3]

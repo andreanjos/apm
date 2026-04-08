@@ -2,13 +2,13 @@ slug = "mix-038-master-yr"
 name = "MIX &#038; MASTER/yr"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Annual subscription bundle giving access to Plugin Alliance's comprehensive mix and mastering plugin collection."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-yearly.html"
 
 [formats.vst3]
 url = ""

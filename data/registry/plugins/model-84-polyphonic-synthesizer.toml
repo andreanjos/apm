@@ -1,12 +1,13 @@
 slug = "model-84-polyphonic-synthesizer"
 name = "Model 84 Polyphonic Synthesizer"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Polyphonic synthesizer plugin inspired by classic 1980s analog polysynth architecture."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/synthesizers/model-84-polyphonic-synthesizer"
 is_paid = true
 
 [formats.vst3]

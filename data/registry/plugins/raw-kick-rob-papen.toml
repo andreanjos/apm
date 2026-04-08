@@ -2,11 +2,12 @@ slug = "raw-kick-rob-papen"
 name = "RAW-Kick"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Virtual kick drum synthesizer with three synthesis layers and sample loading, co-developed with DJ Free-K and DJ Promo."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/RAW-Kick.html"
 is_paid = true
 
 [formats.vst3]

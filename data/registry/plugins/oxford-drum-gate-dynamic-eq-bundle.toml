@@ -2,11 +2,12 @@ slug = "oxford-drum-gate-dynamic-eq-bundle"
 name = "Oxford Drum Gate & Dynamic EQ Bundle"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Bundle pairing Oxford Drum Gate 2 and Dynamic EQ for intelligent drum gating and frequency-dependent dynamics."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-drum-gate-2"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "filter-m12"
 name = "Filter M12"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Analog filter emulation based on the famous Oberheim Matrix-12 multimode filter design."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/filter-m12/overview"
 is_paid = true
 
 [formats.vst3]

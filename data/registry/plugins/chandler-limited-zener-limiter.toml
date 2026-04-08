@@ -1,12 +1,13 @@
 slug = "chandler-limited-zener-limiter"
 name = "Chandler Limited Zener Limiter"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Limiter plugin modeled on Chandler Limited's Zener Limiter for transparent peak control."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-limiter"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "signature-series-bass-and-drums-collection"
 name = "Signature Series Bass and Drums Collection"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of signature bass and drum processing plugins from top Waves artists."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/signature-series-bass-and-drums-collection"
 is_paid = true
 
 [formats.vst3]

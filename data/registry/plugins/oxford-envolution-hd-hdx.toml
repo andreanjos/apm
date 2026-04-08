@@ -2,11 +2,12 @@ slug = "oxford-envolution-hd-hdx"
 name = "Oxford Envolution HD/HDX"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Envolution HD/HDX — frequency-dependent envelope shaper for precise attack and sustain control."
 category = "effects"
 subcategory = "envelope shaper"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-envolution"
 is_paid = true
 
 [formats.vst3]

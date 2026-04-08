@@ -1,11 +1,12 @@
 slug = "abbey-road-j37-tape"
 name = "Abbey Road J37 Tape"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the Studer J37 tape machine used for countless iconic Abbey Road recordings."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/abbey-road-j37-tape"
 is_paid = true
 
 [formats.vst3]

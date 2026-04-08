@@ -1,12 +1,13 @@
 slug = "pigments-3"
 name = "Pigments 3"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "3.0.3"
+description = "Earlier version of Arturia's wavetable/virtual analog/granular polychrome software synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/pigments/overview"
 is_paid = true
 
 [formats.vst3]

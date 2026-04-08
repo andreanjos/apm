@@ -1,12 +1,13 @@
 slug = "fx-collection-2-efx-fragments-bundle"
 name = "FX Collection 2 + Efx FRAGMENTS Bundle"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "2.0.0"
+description = "Bundle combining Arturia's FX Collection 2 effects suite with the Efx FRAGMENTS granular plugin."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/fx-collection/overview"
 is_paid = true
 
 [formats.vst3]

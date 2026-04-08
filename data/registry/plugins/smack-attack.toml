@@ -1,11 +1,12 @@
 slug = "smack-attack"
 name = "Smack Attack"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Transient shaper plugin for precise control of attack and sustain on any sound."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/smack-attack"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "mdrumleveler"
 name = "MDrumLeveler"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Balance your drummer's performance by leveling drum hit volumes and removing leakage."
 category = "effects"
 subcategory = "dynamics processor"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MDrumLeveler"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/1347-MDrumLeveler"
 

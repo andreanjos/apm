@@ -2,11 +2,12 @@ slug = "rp-distort-2-upgrade-from-rp-distort-1"
 name = "RP-Distort 2 Upgrade from RP-Distort 1"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Upgrade from RP-Distort 1 to version 2, adding dual wave shapers, Disrupt Sphere, and expanded modulation."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/rp-distort-2.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "eddie-kramer-artist-signature-collection"
 name = "Eddie Kramer Artist Signature Collection"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of channel strip plugins modeled on Eddie Kramer's personal hardware collection."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/eddie-kramer-artist-signature-collection"
 is_paid = true
 
 [formats.vst3]

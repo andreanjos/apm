@@ -2,11 +2,12 @@ slug = "punch-bd-rob-papen"
 name = "Punch-BD"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Dedicated bass drum synthesizer module that stacks up to 6 kick drums with per-pad EQ, distortion, and FX."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/Punch-BD.html"
 is_paid = true
 
 [formats.vst3]

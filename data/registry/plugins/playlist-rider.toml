@@ -1,12 +1,13 @@
 slug = "playlist-rider"
 name = "Playlist Rider"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Automatic volume leveler for maintaining consistent playback levels across a playlist."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/playlist-rider"
 is_paid = true
 
 [formats.vst3]

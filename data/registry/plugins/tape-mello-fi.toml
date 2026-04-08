@@ -1,11 +1,12 @@
 slug = "tape-mello-fi"
 name = "Tape MELLO-FI"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Lo-fi tape effect derived from Mellotron V, imparting vintage Mellotron character to any audio."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/tape-mello-fi/overview"
 is_paid = true
 
 [formats.vst3]

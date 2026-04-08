@@ -1,12 +1,13 @@
 slug = "t-racks-deesser"
 name = "T-RackS DeEsser"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "5.0"
+description = "T-RackS De-Esser module for transparent sibilance control in mixing and mastering applications."
 category = "effects"
 subcategory = "de-esser"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/tr5/"
 is_paid = true
 
 [formats.vst3]

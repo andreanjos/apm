@@ -1,12 +1,13 @@
 slug = "manny-marroquin-eq"
 name = "Manny Marroquin EQ"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature EQ plugin capturing Manny Marroquin's harmonic EQ processing approach."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/manny-marroquin-eq"
 is_paid = true
 
 [formats.vst3]

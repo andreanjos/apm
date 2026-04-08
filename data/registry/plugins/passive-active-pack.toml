@@ -1,12 +1,13 @@
 slug = "passive-active-pack"
 name = "Passive-Active Pack"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Dual-EQ plugin bundle featuring modeled passive and active equalizer circuits for tone shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/passive-active-pack"
 is_paid = true
 
 [formats.vst3]

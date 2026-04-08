@@ -1,12 +1,13 @@
 slug = "electric-200-piano"
 name = "Electric 200 Piano"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Virtual instrument recreation of the classic Wurlitzer 200 electric piano."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/electric-200-piano"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "mvocoder"
 name = "MVocoder"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Vocoder with ultimate audio quality supporting up to 100 bands for robotic voices and morphing effects."
 category = "effects"
 subcategory = "vocoder"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MVocoder"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/818-MVocoder"
 

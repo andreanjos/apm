@@ -1,12 +1,13 @@
 slug = "primary-source-expander"
 name = "Primary Source Expander"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Intelligent expander that reduces bleed and leakage around the primary instrument source."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/primary-source-expander"
 is_paid = true
 
 [formats.vst3]

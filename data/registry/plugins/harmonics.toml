@@ -1,11 +1,12 @@
 slug = "harmonics"
 name = "Harmonics"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Analog saturation processor with Dynamic Transient Control to add harmonic richness without losing punch."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/harmonics-analog-saturation-processor"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "listenhub"
 name = "ListenHub"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Mix referencing tool that lets you compare your mixes to Spotify, Apple Music, YouTube, or local files in real time."
 category = "tools"
 subcategory = "referencing tools"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/listenhub"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/8815-ListenHub"
 

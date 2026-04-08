@@ -1,12 +1,13 @@
 slug = "mcabinet"
 name = "MCabinet"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "A revolutionary cabinet simulator for guitars and bass with creative sound design capabilities."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MCabinet"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "the-giant"
 name = "The Giant"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Sampled from the world's largest upright piano, the Klavins 370i — piercing, direct, and unforgettable."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/keys/the-giant/"
 is_paid = true
 
 [formats.vst3]

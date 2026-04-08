@@ -1,12 +1,13 @@
 slug = "retro-fi"
 name = "Retro Fi"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Lo-fi effect combining vintage tape, vinyl, and radio degradation for nostalgic textures."
 category = "effects"
 subcategory = "echo"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/retro-fi"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "nx-virtual-studio-collection"
 name = "Nx Virtual Studio Collection"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Collection of Nx virtual studio monitoring environments for accurate headphone mixing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/nx-virtual-studio-collection"
 is_paid = true
 
 [formats.vst3]

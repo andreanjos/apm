@@ -2,11 +2,12 @@ slug = "b-scanner"
 name = "B-Scanner"
 vendor = "PSP Audioware"
 version = "1.0.0"
-description = ""
+description = "Emulation of the analog scanner vibrato/chorus effect found in vintage Hammond tonewheel organs."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-b-scanner"
 is_paid = true
 
 [formats.vst3]

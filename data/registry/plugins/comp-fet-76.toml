@@ -1,12 +1,13 @@
 slug = "comp-fet-76"
 name = "Comp FET-76"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Emulation of the classic UREI 1176 FET limiting amplifier for punchy transient control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/comp-fet76/overview"
 is_paid = true
 
 [formats.vst3]

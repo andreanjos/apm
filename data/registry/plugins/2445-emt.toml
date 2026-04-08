@@ -1,11 +1,12 @@
 slug = "2445-emt"
 name = "2445 EMT"
 vendor = "PSP Audioware"
-version = "1.0.0"
-description = ""
+version = "1.3.12"
+description = "Reverb plugin inspired by the legendary EMT 244 and EMT 245 early digital reverberators."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-2445-emt"
 is_paid = true
 
 [formats.vst3]

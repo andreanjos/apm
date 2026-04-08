@@ -1,14 +1,14 @@
 slug = "dbx-160-compressor-limiter-waves"
 name = "dbx 160 Compressor Limiter"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the classic dbx 160 VCA compressor known for fast, punchy dynamics control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.waves.com/plugins/dbx-160-compressor-limiter"
 
 [formats.vst3]
 url = ""

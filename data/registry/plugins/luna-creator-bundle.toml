@@ -1,12 +1,13 @@
 slug = "luna-creator-bundle"
 name = "LUNA Creator Bundle"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Bundle of LUNA instruments, effects, and extensions designed for music creators and producers."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/bundles/luna-creator-bundle.html"
 is_paid = true
 
 [formats.vst3]

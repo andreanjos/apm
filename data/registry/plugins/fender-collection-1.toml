@@ -1,12 +1,13 @@
 slug = "fender-collection-1"
 name = "Fender Collection 1"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Officially certified Fender Collection 1 for AmpliTube featuring classic Fender amp and effect models."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/fender/"
 is_paid = true
 
 [formats.vst3]

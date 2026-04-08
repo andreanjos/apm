@@ -1,12 +1,13 @@
 slug = "berzerk-distortion"
 name = "Berzerk Distortion"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Extreme multi-mode distortion and saturation plugin for bold creative sound design."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/berzerk-distortion"
 is_paid = true
 
 [formats.vst3]

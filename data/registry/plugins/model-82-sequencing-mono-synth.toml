@@ -1,12 +1,13 @@
 slug = "model-82-sequencing-mono-synth"
 name = "Model 82 Sequencing Mono Synth"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Monophonic synthesizer with built-in step sequencer, modeled on classic analog mono synth designs."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/synthesizers/model-82-sequencing-mono-synth"
 is_paid = true
 
 [formats.vst3]

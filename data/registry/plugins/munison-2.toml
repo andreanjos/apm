@@ -1,11 +1,12 @@
 slug = "munison-2"
 name = "MUnison 2"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Create harmonies with up to 50 voices using smart pitch detection and per-voice modulation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MUnison"
 is_paid = true
 
 [formats.vst3]

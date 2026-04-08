@@ -1,12 +1,13 @@
 slug = "x-fdbk"
 name = "X-FDBK"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Feedback suppressor plugin for eliminating microphone feedback in live sound situations."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/x-fdbk"
 is_paid = true
 
 [formats.vst3]

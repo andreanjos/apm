@@ -1,12 +1,13 @@
 slug = "mspectraldelay"
 name = "MSpectralDelay"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Creative delay plugin that processes individual frequencies in the spectral domain for unique sound transformations."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MSpectralDelay"
 is_paid = true
 
 [formats.vst3]

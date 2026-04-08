@@ -1,12 +1,13 @@
 slug = "neve-88rs-channel-strip-collection"
 name = "Neve 88RS Channel Strip Collection"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Neve 88RS large-format analog console channel strip with EQ and dynamics."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/channel-strips/neve-88rs-channel-strip-collection.html"
 is_paid = true
 
 [formats.vst3]

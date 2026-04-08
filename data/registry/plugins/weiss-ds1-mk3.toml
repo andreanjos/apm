@@ -1,12 +1,13 @@
 slug = "weiss-ds1-mk3"
 name = "Weiss DS1-MK3"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Complete mastering processor plugin modeled on the Weiss DS1-MK3 with compression, limiting, and de-ess."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mastering/weiss-ds1-mk3"
 is_paid = true
 
 [formats.vst3]

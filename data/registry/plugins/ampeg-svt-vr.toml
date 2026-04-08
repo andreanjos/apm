@@ -2,11 +2,12 @@ slug = "ampeg-svt-vr"
 name = "Ampeg SVT VR"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Plugin recreation of Ampeg's iconic 300-watt SVT-VR bass amp with full preamp, power section, and cabinet modeling."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/en/products/ampeg_svtvr.html"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/11338-Ampeg-SVT-VR"
 

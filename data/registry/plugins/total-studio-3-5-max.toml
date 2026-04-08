@@ -1,12 +1,13 @@
 slug = "total-studio-3-5-max"
 name = "Total Studio 3.5 MAX"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "3.5"
+description = "Total Studio 3.5 MAX — comprehensive production bundle with 143 products and over 470 GB of content."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/ts3/"
 is_paid = true
 
 [formats.vst3]

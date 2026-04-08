@@ -1,12 +1,13 @@
 slug = "marshall-kerry-king-signature"
 name = "Marshall Kerry King Signature"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Signature amp simulator based on Kerry King's custom Marshall setup for extreme metal tones."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/guitar-bass/amp-room-metal-suite"
 is_paid = true
 
 [formats.vst3]

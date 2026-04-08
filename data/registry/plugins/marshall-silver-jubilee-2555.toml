@@ -1,12 +1,13 @@
 slug = "marshall-silver-jubilee-2555"
 name = "Marshall® Silver Jubilee 2555"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Marshall Silver Jubilee 2555, a versatile 100-watt guitar amplifier."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-silver-jubilee-2555.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "oneknob-brighter"
 name = "OneKnob Brighter"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Single-knob air and brightness enhancer for adding instant clarity and sparkle."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/oneknob-brighter"
 is_paid = true
 
 [formats.vst3]

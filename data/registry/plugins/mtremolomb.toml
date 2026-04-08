@@ -1,11 +1,12 @@
 slug = "mtremolomb"
 name = "MTremoloMB"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "The most flexible tremolo in the world with 6 bands, custom shapes, and advanced modulation capabilities."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MTremoloMB"
 is_paid = true
 
 [formats.vst3]

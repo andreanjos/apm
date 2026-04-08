@@ -1,12 +1,13 @@
 slug = "passive-eq"
 name = "Passive EQ"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Tube-modelled passive EQ by Softube capturing the warm, musical tone of vintage passive hardware."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/premium-tube-series/"
 is_paid = true
 
 [formats.vst3]

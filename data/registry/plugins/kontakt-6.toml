@@ -1,12 +1,13 @@
 slug = "kontakt-6"
 name = "Kontakt 6"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "6.8"
+description = "Industry-standard sampler and scripting platform powering thousands of virtual instruments."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/"
 is_paid = true
 
 [formats.vst3]

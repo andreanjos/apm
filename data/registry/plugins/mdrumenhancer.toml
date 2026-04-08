@@ -1,12 +1,13 @@
 slug = "mdrumenhancer"
 name = "MDrumEnhancer"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Synthesizes additional drum signals using samples to enhance drum tracks without traditional drum replacement issues."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MDrumEnhancer"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/1655-MDrumEnhancer"
 

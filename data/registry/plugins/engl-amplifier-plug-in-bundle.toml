@@ -1,12 +1,13 @@
 slug = "engl-amplifier-plug-in-bundle"
 name = "ENGL® Amplifier Plug-In Bundle"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Bundle of ENGL guitar amplifier emulations including the Savage 120, E765, and E646 VS."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/bundles/engl-amplifier-plug-in-bundle.html"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "rocoder"
 name = "RoCoder"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Muscular 32-band vocoder with additive, noise, and comb modes, stereo panning per band, and extensive modulation matrix."
 category = "effects"
 subcategory = "vocoder"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/RoCoder.html"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/8300-RoCoder"
 

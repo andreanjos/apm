@@ -1,12 +1,13 @@
 slug = "korg-sdd-3000-digital-delay"
 name = "Korg® SDD-3000 Digital Delay"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Korg SDD-3000 digital delay made famous by The Edge of U2."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/delays/korg-sdd-3000-digital-delay.html"
 is_paid = true
 
 [formats.vst3]

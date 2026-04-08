@@ -1,11 +1,12 @@
 slug = "doubler"
 name = "Doubler"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Stereo doubling effect that creates lush, wide layered textures from a single mono source."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/doubler"
 is_paid = true
 
 [formats.vst3]

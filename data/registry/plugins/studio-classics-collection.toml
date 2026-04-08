@@ -1,12 +1,13 @@
 slug = "studio-classics-collection"
 name = "Studio Classics Collection"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of classic analog hardware emulations including V-EQ, V-Comp, and API units."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/studio-classics-collection"
 is_paid = true
 
 [formats.vst3]

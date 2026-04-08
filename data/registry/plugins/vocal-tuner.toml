@@ -1,12 +1,13 @@
 slug = "vocal-tuner"
 name = "Vocal Tuner"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Real-time pitch correction plugin for natural-sounding vocal tuning in recording and live settings."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/vocal-tuner"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/14612-Vocal-Tuner"
 

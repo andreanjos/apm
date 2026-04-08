@@ -1,12 +1,13 @@
 slug = "amp-room"
 name = "Amp Room"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Comprehensive guitar and bass amp simulation platform with amps, cabs, mics, and studio effects."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/amp-room"
 is_paid = true
 
 [formats.vst3]

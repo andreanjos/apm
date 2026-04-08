@@ -1,12 +1,13 @@
 slug = "massenburg-mdweq5-parametric-eq"
 name = "Massenburg® MDWEQ5 Parametric EQ"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Massenburg MDWEQ5 high-precision parametric equalizer."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/massenburg-mdweq5-parametric-eq.html"
 is_paid = true
 
 [formats.vst3]

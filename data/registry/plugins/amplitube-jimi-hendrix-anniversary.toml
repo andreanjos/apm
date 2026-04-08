@@ -1,12 +1,13 @@
 slug = "amplitube-jimi-hendrix-anniversary"
 name = "AmpliTube Jimi Hendrix Anniversary"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Jimi Hendrix Anniversary Collection for AmpliTube with 7 amps, 7 cabs, and 11 stomps from his iconic rig."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/hendrix/"
 is_paid = true
 
 [formats.vst3]

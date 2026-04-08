@@ -1,12 +1,13 @@
 slug = "marshall-silver-jubilee-2555-softube"
 name = "Marshall Silver Jubilee 2555"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Amp simulator based on the Marshall Silver Jubilee 2555 for versatile clean to high-gain tones."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-silver-jubilee-2555"
 is_paid = true
 
 [formats.vst3]

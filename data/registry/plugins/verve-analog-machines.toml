@@ -1,12 +1,13 @@
 slug = "verve-analog-machines"
 name = "Verve Analog Machines"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "UA's Verve Analog Machines adds tape saturation and analog warmth to any track or mix."
 category = "effects"
 subcategory = "tape emulation"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/recording/verve-analog-machines.html"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/12074-Verve-Analog-Machines"
 

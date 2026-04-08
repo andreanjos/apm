@@ -1,12 +1,13 @@
 slug = "sonnox-oxford-supresser-ds"
 name = "Sonnox Oxford SuprEsser DS"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Sonnox Oxford SuprEsser DS is a dynamic de-esser with frequency-selective compression."
 category = "effects"
 subcategory = "de-esser"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/dynamics/sonnox-oxford-supresser-ds.html"
 is_paid = true
 
 [formats.vst3]

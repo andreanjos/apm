@@ -1,12 +1,13 @@
 slug = "suhr-se100-amplifier"
 name = "Suhr SE100 Amplifier"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Suhr SE100 high-gain boutique guitar amplifier."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/suhr-se100-amplifier.html"
 is_paid = true
 
 [formats.vst3]

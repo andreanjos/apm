@@ -1,12 +1,13 @@
 slug = "tube-tech-cl-1b-mkii-compressor"
 name = "Tube-Tech CL 1B MkII Compressor"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Tube-Tech CL 1B MkII opto-compressor, a studio vocal and bus compressor."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/tube-tech-cl-1b-compressor.html"
 is_paid = true
 
 [formats.vst3]

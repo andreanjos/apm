@@ -1,12 +1,13 @@
 slug = "a-da-flanger"
 name = "A/DA Flanger"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the iconic A/DA analog flanger pedal from the late 1970s."
 category = "effects"
 subcategory = "flanger"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/modulation/a-da-flanger.html"
 is_paid = true
 
 [formats.vst3]

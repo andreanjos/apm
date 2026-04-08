@@ -1,12 +1,13 @@
 slug = "cs-80-v"
 name = "CS-80 V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "4.5.0"
+description = "Authentic emulation of the legendary Yamaha CS-80 polyphonic analog synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/cs80v/overview"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "t-racks-csr-plate-reverb"
 name = "T-RackS CSR Plate Reverb"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "5.0"
+description = "T-RackS CSR Plate Reverb — convolution reverb module emulating classic plate reverb units."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/tr5/"
 is_paid = true
 
 [formats.vst3]

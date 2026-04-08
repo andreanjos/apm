@@ -1,12 +1,13 @@
 slug = "delay-tape-201"
 name = "Delay TAPE-201"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Emulation of the iconic Roland RE-201 Space Echo tape delay unit with spring reverb."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/delay-tape201/overview"
 is_paid = true
 
 [formats.vst3]

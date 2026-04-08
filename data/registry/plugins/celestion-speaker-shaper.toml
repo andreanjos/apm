@@ -1,12 +1,13 @@
 slug = "celestion-speaker-shaper"
 name = "Celestion Speaker Shaper"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Speaker cabinet simulator featuring authentic Celestion speaker impulse responses for guitar tones."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/guitar-bass/celestion-speaker-shaper"
 is_paid = true
 
 [formats.vst3]

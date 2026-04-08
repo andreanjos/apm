@@ -1,11 +1,12 @@
 slug = "cla-mixdown"
 name = "CLA MixDown"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Master bus processing plugin with CLA's signature glue, excitement, and stereo widening."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/cla-mixdown"
 is_paid = true
 
 [formats.vst3]

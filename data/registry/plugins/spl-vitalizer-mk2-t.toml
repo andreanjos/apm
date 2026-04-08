@@ -1,12 +1,13 @@
 slug = "spl-vitalizer-mk2-t"
 name = "SPL® Vitalizer MK2-T"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the SPL Vitalizer MK2-T psychoacoustic enhancer for stereo width and clarity."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/spl-vitalizer-mk2-t.html"
 is_paid = true
 
 [formats.vst3]

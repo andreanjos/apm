@@ -1,11 +1,12 @@
 slug = "mcharacter"
 name = "MCharacter"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Control the harmonics of monophonic audio directly for vocals, bass, and instruments."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MCharacter"
 is_paid = true
 
 [formats.vst3]

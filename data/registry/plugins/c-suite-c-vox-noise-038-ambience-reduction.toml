@@ -1,14 +1,14 @@
 slug = "c-suite-c-vox-noise-038-ambience-reduction"
 name = "C-Suite C-Vox Noise &#038; Ambience Reduction"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "C-Vox reduces noise and ambience from vocal recordings using intelligent processing."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.uaudio.com/uad-plugins/dynamics/c-suite-c-vox-noise-and-ambience-reduction.html"
 
 [formats.vst3]
 url = ""

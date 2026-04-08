@@ -1,12 +1,13 @@
 slug = "modo-bass-2-upgrade"
 name = "MODO BASS 2 Upgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Upgrade from MODO BASS 1 to MODO BASS 2 with 22 modeled bass guitars and expanded customization."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/modobass2/"
 is_paid = true
 
 [formats.vst3]

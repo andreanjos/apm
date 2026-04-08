@@ -1,11 +1,12 @@
 slug = "maserati-drm"
 name = "Maserati DRM"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature drum processor from Tony Maserati for powerful, punchy drum sounds."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/maserati-drm"
 is_paid = true
 
 [formats.vst3]

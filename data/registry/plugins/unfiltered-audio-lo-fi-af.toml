@@ -2,11 +2,12 @@ slug = "unfiltered-audio-lo-fi-af"
 name = "Unfiltered Audio LO FI AF"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Lo-fi degradation plugin recreating artifacts from MP3, CD, vinyl, tape cassette, and other vintage formats."
 category = "effects"
 subcategory = "tape emulation"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/products/lo-fi-af"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/14931-Unfiltered-Audio-LO-FI-AF"
 

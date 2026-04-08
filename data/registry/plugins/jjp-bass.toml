@@ -1,11 +1,12 @@
 slug = "jjp-bass"
 name = "JJP Bass"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature bass processing plugin capturing Jack Joseph Puig's bass mixing approach."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/jjp-bass"
 is_paid = true
 
 [formats.vst3]

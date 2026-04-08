@@ -1,11 +1,12 @@
 slug = "enigma-modulation"
 name = "Enigma Modulation"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Creative multi-effect modulation plugin combining notch filters, resonators, and flanging."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/enigma-modulation"
 is_paid = true
 
 [formats.vst3]

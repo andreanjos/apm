@@ -1,12 +1,13 @@
 slug = "c1-compressor"
 name = "C1 Compressor"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Versatile parametric compressor and gate with sidechain filtering capabilities."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/c1-compressor"
 is_paid = true
 
 [formats.vst3]

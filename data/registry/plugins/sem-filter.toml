@@ -1,12 +1,13 @@
 slug = "sem-filter"
 name = "SEM-Filter"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Standalone filter effect based on the Oberheim SEM state-variable multimode filter."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/filter-sem/overview"
 is_paid = true
 
 [formats.vst3]

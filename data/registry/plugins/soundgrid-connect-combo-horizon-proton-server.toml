@@ -1,12 +1,13 @@
 slug = "soundgrid-connect-combo-horizon-proton-server"
 name = "SoundGrid Connect Combo: Horizon + Proton Server"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle combining the Horizon plugin bundle with a Waves Proton SoundGrid server."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/soundgrid-connect-combo-horizon-proton-server"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "um225-um226"
 name = "UM225 / UM226"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Mono-to-stereo and stereo upmixing utility plugins for broadcast and post-production."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/um225-um226"
 is_paid = true
 
 [formats.vst3]

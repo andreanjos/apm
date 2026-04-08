@@ -1,12 +1,13 @@
 slug = "mini-v"
 name = "Mini V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "4.0.4"
+description = "Virtual emulation of the iconic Moog Minimoog Model D monophonic analog synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/miniv/overview"
 is_paid = true
 
 [formats.vst3]

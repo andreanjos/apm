@@ -1,12 +1,13 @@
 slug = "mturbodelay"
 name = "MTurboDelay"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "41 delay plugins in a single beast — comprehensive delay covering diverse analog and digital-inspired algorithms."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MTurboDelay"
 is_paid = true
 
 [formats.vst3]

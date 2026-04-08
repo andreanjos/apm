@@ -1,12 +1,13 @@
 slug = "mturboamp"
 name = "MTurboAmp"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "A mighty collection of guitar amps and distortion pedals with unlimited customization."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MTurboAmp"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "total-studio-3-se-crossgrade"
 name = "Total Studio 3 SE Crossgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Crossgrade to Total Studio 3 SE, IK's entry production bundle with SE editions of 7 core applications."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/ts5/"
 is_paid = true
 
 [formats.vst3]

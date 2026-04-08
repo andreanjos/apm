@@ -1,12 +1,13 @@
 slug = "chandler-limited-curve-bender-mastering-eq"
 name = "Chandler Limited Curve Bender Mastering EQ"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Chandler Limited Curve Bender mastering-grade passive EQ."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/chandler-limited-curve-bender-mastering-eq.html"
 is_paid = true
 
 [formats.vst3]

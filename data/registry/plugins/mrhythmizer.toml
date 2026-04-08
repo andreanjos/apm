@@ -1,12 +1,13 @@
 slug = "mrhythmizer"
 name = "MRhythmizer"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "A unique time manipulation effect with integrated sequencer for gating, glitching, and creative audio effects."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MRhythmizer"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/119-MRhythmizer"
 

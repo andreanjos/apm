@@ -1,14 +1,14 @@
 slug = "broadcast-038-production-bundle"
 name = "Broadcast &#038; Production Bundle"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Comprehensive bundle of audio processing tools for broadcast and production workflows."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.waves.com/plugins/broadcast-038-production-bundle"
 
 [formats.vst3]
 url = ""

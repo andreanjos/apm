@@ -1,11 +1,12 @@
 slug = "uad-dream-65-reverb-amp"
 name = "UAD Dream ’65 Reverb Amp"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the classic Fender '65 Deluxe Reverb combo amplifier with tube-warm spring reverb."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/dream-65-reverb-amp.html"
 is_paid = true
 
 [formats.vst3]

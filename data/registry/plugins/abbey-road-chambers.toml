@@ -1,11 +1,12 @@
 slug = "abbey-road-chambers"
 name = "Abbey Road Chambers"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the legendary echo chambers at Abbey Road Studios for authentic reverb."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/abbey-road-chambers"
 is_paid = true
 
 [formats.vst3]

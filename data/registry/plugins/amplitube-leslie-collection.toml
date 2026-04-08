@@ -1,12 +1,13 @@
 slug = "amplitube-leslie-collection"
 name = "AmpliTube Leslie Collection"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Official Leslie rotary speaker collection for AmpliTube with multiple modeled Leslie amp and cabinet combos."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/atleslie/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "manley-massive-passive"
 name = "Manley Massive Passive"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Manley Massive Passive, a mastering-grade passive tube EQ."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/manley-massive-passive-eq.html"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11498-Manley-Massive-Passive"
 

@@ -2,12 +2,12 @@ slug = "rp-verb-2-038-rp-delay"
 name = "RP-VERB 2 &#038; RP-Delay"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Bundle of RP-VERB 2 and RP-Delay — a reverb with reverser section and a multi-line creative delay."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.robpapen.com/rp-verb2.html"
 
 [formats.vst3]
 url = ""

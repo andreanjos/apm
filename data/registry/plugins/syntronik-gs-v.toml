@@ -1,12 +1,13 @@
 slug = "syntronik-gs-v"
 name = "Syntronik GS-V"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Syntronik instrument recreating the ultra-rare Yamaha GS1 FM synthesizer from 1981."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/syngsv/"
 is_paid = true
 
 [formats.vst3]

@@ -2,10 +2,11 @@ slug = "nexcellence"
 name = "Nexcellence"
 vendor = "PSP Audioware"
 version = "1.0.0"
-description = ""
+description = "Rich-sounding spring reverb emulation inspired by classic necklace-type reverb units."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-nexcellence"
 is_paid = true
 
 [formats.vst3]

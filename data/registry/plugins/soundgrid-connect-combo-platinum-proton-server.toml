@@ -1,12 +1,13 @@
 slug = "soundgrid-connect-combo-platinum-proton-server"
 name = "SoundGrid Connect Combo: Platinum + Proton Server"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle combining the Platinum plugin bundle with a Waves Proton SoundGrid server."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/soundgrid-connect-combo-platinum-proton-server"
 is_paid = true
 
 [formats.vst3]

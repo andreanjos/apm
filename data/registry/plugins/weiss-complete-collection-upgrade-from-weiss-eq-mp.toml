@@ -1,12 +1,13 @@
 slug = "weiss-complete-collection-upgrade-from-weiss-eq-mp"
 name = "Weiss Complete Collection Upgrade from Weiss EQ MP"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Upgrade to full Weiss Complete Collection from the Weiss EQ MP mastering equalizer plugin."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mastering/weiss-complete-collection-3"
 is_paid = true
 
 [formats.vst3]

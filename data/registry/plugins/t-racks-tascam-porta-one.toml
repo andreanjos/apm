@@ -1,11 +1,12 @@
 slug = "t-racks-tascam-porta-one"
 name = "T-RackS TASCAM Porta One"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "T-RackS TASCAM Porta One — certified model of the iconic TASCAM Portastudio cassette 4-track recorder."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trtascamportaone/"
 is_paid = true
 
 [formats.vst3]

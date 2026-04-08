@@ -1,12 +1,13 @@
 slug = "mmultianalyzer"
 name = "MMultiAnalyzer"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Multi-track spectrum, loudness, and stereo analyzer that detects frequency collisions in mixes."
 category = "effects"
 subcategory = "spectral analysis"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MMultiAnalyzer"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/841-MMultiAnalyzer"
 

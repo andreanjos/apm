@@ -1,12 +1,13 @@
 slug = "arp-2600-v"
 name = "ARP 2600 V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "3.13.4"
+description = "Virtual recreation of the iconic ARP 2600 semi-modular analog synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/arp2600v/overview"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "rise-hit"
 name = "Rise & Hit"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Cinematic Kontakt instrument for huge, impactful rises and hits using orchestral and hybrid sound design."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/cinematic/rise-hit/"
 is_paid = true
 
 [formats.vst3]

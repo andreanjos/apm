@@ -1,12 +1,13 @@
 slug = "precision-multiband"
 name = "Precision Multiband"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "UA's Precision Multiband is a five-band compressor for mastering-grade dynamic control."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/precision-multiband.html"
 is_paid = true
 
 [formats.vst3]

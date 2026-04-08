@@ -1,12 +1,13 @@
 slug = "curves-resolve"
 name = "Curves Resolve"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Utility plugin for converting between dB and linear scales in audio workflows."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/curves-resolve"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16661-Curves-Resolve"
 

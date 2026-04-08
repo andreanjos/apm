@@ -1,12 +1,13 @@
 slug = "summit-audio-grand-channel"
 name = "Summit Audio Grand Channel"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Full channel strip plugin based on Summit Audio Grand Channel with tube EQ, compression, and limiting."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/summit-audio-grand-channel"
 is_paid = true
 
 [formats.vst3]

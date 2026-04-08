@@ -2,11 +2,12 @@ slug = "oxford-broadcast-bundle-native"
 name = "Oxford Broadcast Bundle Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Broadcast Bundle Native with Dynamics, EQ, Inflator, and Limiter for polished broadcast and dialogue work."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/sonnox-broadcast-bundle"
 is_paid = true
 
 [formats.vst3]

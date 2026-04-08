@@ -1,12 +1,13 @@
 slug = "tube-delay-2"
 name = "Tube Delay 2"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Tube-driven delay plugin with warm analog character and multiple delay modes for creative echo."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/tube-delay"
 is_paid = true
 
 [formats.vst3]

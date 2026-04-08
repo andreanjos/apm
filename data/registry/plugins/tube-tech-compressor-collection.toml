@@ -1,12 +1,13 @@
 slug = "tube-tech-compressor-collection"
 name = "Tube-Tech Compressor Collection"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Bundle of modeled Tube-Tech compressor plugins for warm, tube-driven dynamics control."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
 is_paid = true
 
 [formats.vst3]

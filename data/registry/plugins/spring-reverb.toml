@@ -1,11 +1,12 @@
 slug = "spring-reverb"
 name = "Spring Reverb"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Authentic spring reverb plugin with component-modeled spring tank simulation for vintage character."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/spring-reverb"
 is_paid = true
 
 [formats.vst3]

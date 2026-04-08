@@ -1,12 +1,13 @@
 slug = "piano-v"
 name = "Piano V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "3.5.0"
+description = "Physical modeling acoustic grand piano instrument with detailed resonance and expression controls."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/pianov/overview"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "ams-neve-dfc-channel-strip"
 name = "AMS Neve DFC Channel Strip"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the AMS Neve DFC digital film console channel strip with EQ and dynamics."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/channel-strips/ams-neve-dfc-channel-strip.html"
 is_paid = true
 
 [formats.vst3]

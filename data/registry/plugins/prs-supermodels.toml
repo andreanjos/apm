@@ -1,12 +1,13 @@
 slug = "prs-supermodels"
 name = "PRS SuperModels"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Guitar amp simulator featuring four PRS amplifier models with authentic tonal character."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/prs-supermodels"
 is_paid = true
 
 [formats.vst3]

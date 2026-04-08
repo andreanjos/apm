@@ -1,11 +1,12 @@
 slug = "clarity-vx-dereverb"
 name = "Clarity Vx DeReverb"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "AI-powered plugin that removes reverb from vocal recordings quickly and transparently."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/clarity-vx-dereverb"
 is_paid = true
 
 [formats.vst3]

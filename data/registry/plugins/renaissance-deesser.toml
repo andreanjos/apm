@@ -1,12 +1,13 @@
 slug = "renaissance-deesser"
 name = "Renaissance DeEsser"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Transparent de-esser for removing harsh sibilance from vocals and other sources."
 category = "effects"
 subcategory = "de-esser"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/renaissance-deesser"
 is_paid = true
 
 [formats.vst3]

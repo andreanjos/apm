@@ -1,12 +1,13 @@
 slug = "mv2"
 name = "MV2"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Intelligent two-knob compressor simultaneously controlling soft and loud audio elements."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/mv2"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "psp-flare"
 name = "PSP Flare"
 vendor = "PSP Audioware"
-version = "1.0.0"
-description = ""
+version = "1.0.3"
+description = "Psycho-acoustic compressor providing exceptional volume consistency without the usual audible compression artifacts."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-flare"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/12278-PSP-Flare"
 

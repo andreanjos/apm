@@ -2,13 +2,13 @@ slug = "oxford-drum-gate-native"
 name = "Oxford Drum Gate Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Drum Gate Native — intelligent drum detection gate with phase-locked alignment for clean, mix-ready drums."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.sonnox.com/products/oxford-drum-gate-2"
 
 [formats.vst3]
 url = ""

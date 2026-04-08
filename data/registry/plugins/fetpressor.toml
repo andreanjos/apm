@@ -1,12 +1,13 @@
 slug = "fetpressor"
 name = "FETpressor"
 vendor = "PSP Audioware"
-version = "1.0.0"
-description = ""
+version = "1.2.2"
+description = "FET feedback compressor delivering fast, characterful compression inspired by classic 1970s FET designs."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-fetpressor"
 is_paid = true
 
 [formats.vst3]

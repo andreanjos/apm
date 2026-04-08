@@ -1,12 +1,13 @@
 slug = "mharmonizermb"
 name = "MHarmonizerMB"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Pitch-shifter and multi-voice harmonizer that creates harmonies, widens recordings, and adds sub-harmonics."
 category = "effects"
 subcategory = "pitch shifter"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MHarmonizerMB"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/88-MHarmonizerMB"
 

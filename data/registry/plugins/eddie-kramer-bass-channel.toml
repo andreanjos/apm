@@ -1,11 +1,12 @@
 slug = "eddie-kramer-bass-channel"
 name = "Eddie Kramer Bass Channel"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature bass channel strip based on Eddie Kramer's bass processing techniques."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/eddie-kramer-bass-channel"
 is_paid = true
 
 [formats.vst3]

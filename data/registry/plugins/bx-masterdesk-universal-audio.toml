@@ -1,12 +1,13 @@
 slug = "bx-masterdesk-universal-audio"
 name = "bx_masterdesk"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Brainworx bx_masterdesk is a complete analog mastering chain in a single plug-in."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/channel-strips/bx-masterdesk.html"
 is_paid = true
 
 [formats.vst3]

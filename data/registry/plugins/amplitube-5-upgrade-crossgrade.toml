@@ -1,12 +1,13 @@
 slug = "amplitube-5-upgrade-crossgrade"
 name = "AmpliTube 5 Upgrade/Crossgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "5.0"
+description = "Upgrade or crossgrade path to AmpliTube 5, IK's flagship guitar and bass tone workstation."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/amplitube5/"
 is_paid = true
 
 [formats.vst3]

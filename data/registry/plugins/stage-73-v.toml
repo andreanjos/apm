@@ -1,12 +1,13 @@
 slug = "stage-73-v"
 name = "Stage-73 V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "2.5.0"
+description = "Authentic emulation of the classic Fender Rhodes Stage 73 electric piano."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/stage73v/overview"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "bass-amp-room"
 name = "Bass Amp Room"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Dedicated bass guitar amp simulator with authentic models of classic bass amplifiers and cabinets."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/guitar-bass/amp-room-bass-suite"
 is_paid = true
 
 [formats.vst3]

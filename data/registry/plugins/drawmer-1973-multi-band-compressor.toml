@@ -1,12 +1,13 @@
 slug = "drawmer-1973-multi-band-compressor"
 name = "Drawmer 1973 Multi-Band Compressor"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Three-band parallel compressor plugin modeled on the classic Drawmer 1973 hardware unit."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mastering/drawmer-1973-multi-band-compressor"
 is_paid = true
 
 [formats.vst3]

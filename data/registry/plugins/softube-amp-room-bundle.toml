@@ -1,12 +1,13 @@
 slug = "softube-amp-room-bundle"
 name = "Softube® Amp Room Bundle"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Bundle of Softube guitar amp emulations for UAD including Marshall, Mesa/Boogie, and more."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/bundles/softube-amp-room-bundle.html"
 is_paid = true
 
 [formats.vst3]

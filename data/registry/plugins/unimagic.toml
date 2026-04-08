@@ -2,11 +2,12 @@ slug = "unimagic"
 name = "UniMagic"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Minimalist unison/chorus effect that thickens vocals and instruments with a ribbon controller for preset adjustments."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/UniMagic.html"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/12415-UniMagic"
 

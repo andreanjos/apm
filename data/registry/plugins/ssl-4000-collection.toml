@@ -1,12 +1,13 @@
 slug = "ssl-4000-collection"
 name = "SSL 4000 Collection"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of SSL 4000 console emulations including E-Channel, G-Channel, and G-Master Buss."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/ssl-4000-collection"
 is_paid = true
 
 [formats.vst3]

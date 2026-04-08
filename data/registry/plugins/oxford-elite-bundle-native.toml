@@ -2,11 +2,12 @@ slug = "oxford-elite-bundle-native"
 name = "Oxford Elite Bundle Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Elite Bundle Native — seven plugins covering EQ, dynamics, reverb, inflator, limiter, TransMod, and SuprEsser."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/sonnox-elite-bundle"
 is_paid = true
 
 [formats.vst3]

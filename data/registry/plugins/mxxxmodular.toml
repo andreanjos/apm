@@ -1,11 +1,12 @@
 slug = "mxxxmodular"
 name = "MXXXModular"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Build an effect chain any way you want — a modular plugin containing 70+ processors and 500+ active presets."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MXXX"
 is_paid = true
 
 [formats.vst3]

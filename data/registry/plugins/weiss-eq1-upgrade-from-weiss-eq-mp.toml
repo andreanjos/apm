@@ -1,12 +1,13 @@
 slug = "weiss-eq1-upgrade-from-weiss-eq-mp"
 name = "Weiss EQ1 Upgrade from Weiss EQ MP"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Upgrade to the full Weiss EQ1 mastering equalizer from the Weiss EQ MP plugin."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
 is_paid = true
 
 [formats.vst3]

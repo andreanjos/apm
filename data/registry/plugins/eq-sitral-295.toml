@@ -1,12 +1,13 @@
 slug = "eq-sitral-295"
 name = "EQ SITRAL-295"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Analog EQ emulation based on the warm, musical Siemens Sitral broadcast console modules."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/eq-sitral-295/overview"
 is_paid = true
 
 [formats.vst3]

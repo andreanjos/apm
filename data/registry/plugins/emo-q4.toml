@@ -1,12 +1,13 @@
 slug = "emo-q4"
 name = "eMo Q4"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Four-band parametric equalizer designed for transparent and musical mixing tasks."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/emo-q4"
 is_paid = true
 
 [formats.vst3]

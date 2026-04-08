@@ -1,12 +1,13 @@
 slug = "amplitube-4-max"
 name = "AmpliTube 4 MAX"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "4.0"
+description = "Complete guitar and bass amp simulation suite with 400+ amps, cabs, stomps, and rack effects."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/amplitube5/"
 is_paid = true
 
 [formats.vst3]

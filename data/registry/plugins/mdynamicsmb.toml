@@ -1,12 +1,13 @@
 slug = "mdynamicsmb"
 name = "MDynamicsMB"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Multiband dynamic processor with six frequency bands for compression, expansion, gating, and creative processing."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MDynamicsMB"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/85-MDynamicsMB"
 

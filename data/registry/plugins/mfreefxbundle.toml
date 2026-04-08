@@ -1,12 +1,13 @@
 slug = "mfreefxbundle"
 name = "MFreeFXBundle"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "The biggest and most powerful free plugin pack available, containing 38 audio effects at no cost."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MFreeFXBundle"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "oxford-inflator-dynamic-eq-bundle"
 name = "Oxford Inflator & Dynamic EQ Bundle"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Bundle pairing Oxford Inflator and Dynamic EQ for loudness enhancement and frequency-dependent dynamics control."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-inflator"
 is_paid = true
 
 [formats.vst3]

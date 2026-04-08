@@ -1,12 +1,13 @@
 slug = "precision-enhancer-khz"
 name = "Precision Enhancer kHz"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "UA's Precision Enhancer kHz adds harmonic detail and air to high-frequency content."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/precision-enhancer-khz.html"
 is_paid = true
 
 [formats.vst3]

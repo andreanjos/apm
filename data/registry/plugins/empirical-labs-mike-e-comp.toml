@@ -1,12 +1,13 @@
 slug = "empirical-labs-mike-e-comp"
 name = "Empirical Labs Mike-E Comp"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Compressor plugin modeled on Empirical Labs' Mike-E hardware for transparent, musical dynamics."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-mike-e-comp"
 is_paid = true
 
 [formats.vst3]

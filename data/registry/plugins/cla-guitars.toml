@@ -1,11 +1,12 @@
 slug = "cla-guitars"
 name = "CLA Guitars"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Single-knob guitar processing plugin capturing CLA's signature guitar mixing approach."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/cla-guitars"
 is_paid = true
 
 [formats.vst3]

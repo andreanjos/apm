@@ -1,12 +1,13 @@
 slug = "gold-bundle-upgrade"
 name = "Gold Bundle Upgrade"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Upgrade path to the Waves Gold Bundle from a lower-tier bundle."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/gold-bundle-upgrade"
 is_paid = true
 
 [formats.vst3]

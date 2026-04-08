@@ -1,12 +1,13 @@
 slug = "modo-bass-1-se"
 name = "MODO BASS 1 SE"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "MODO BASS 1 SE — starter version of the physically modeled electric bass virtual instrument."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/modobass2/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "volume-5-upgrade-from-volume-2"
 name = "Volume 5 Upgrade from Volume 2"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Upgrade from Volume 2 to Volume 5 plugin collection with expanded mixing and processing tools."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins"
 is_paid = true
 
 [formats.vst3]

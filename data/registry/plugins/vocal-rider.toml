@@ -1,12 +1,13 @@
 slug = "vocal-rider"
 name = "Vocal Rider"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Automatic vocal level rider that maintains consistent vocal presence throughout a track."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/vocal-rider"
 is_paid = true
 
 [formats.vst3]

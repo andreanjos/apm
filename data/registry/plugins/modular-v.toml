@@ -1,12 +1,13 @@
 slug = "modular-v"
 name = "Modular V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "3.5.0"
+description = "Virtual Moog modular synthesizer system emulation with patchable modules and signal routing."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/modular-v/overview"
 is_paid = true
 
 [formats.vst3]

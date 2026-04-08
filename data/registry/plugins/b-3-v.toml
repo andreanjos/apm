@@ -1,12 +1,13 @@
 slug = "b-3-v"
 name = "B-3 V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "3.4.0"
+description = "Faithful emulation of the Hammond B-3 tonewheel organ with Leslie cabinet simulation."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/b3v/overview"
 is_paid = true
 
 [formats.vst3]

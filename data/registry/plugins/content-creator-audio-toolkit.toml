@@ -1,11 +1,12 @@
 slug = "content-creator-audio-toolkit"
 name = "Content Creator Audio Toolkit"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "All-in-one audio toolkit for streamers and content creators to sound professional instantly."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/content-creator-audio-toolkit"
 is_paid = true
 
 [formats.vst3]

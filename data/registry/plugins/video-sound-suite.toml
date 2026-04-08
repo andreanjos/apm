@@ -1,12 +1,13 @@
 slug = "video-sound-suite"
 name = "Video Sound Suite"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of audio processing tools optimized for video production and post-production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/video-sound-suite"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "chandler-limited-gav19t-amplifier"
 name = "Chandler Limited GAV19T Amplifier"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Chandler Limited GAV19T all-tube guitar amplifier."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/chandler-limited-germanium-drive.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "jjp-guitars"
 name = "JJP Guitars"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature guitar processing plugin capturing Jack Joseph Puig's guitar tone techniques."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/jjp-guitars"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "scheps-omni-channel"
 name = "Scheps Omni Channel"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Full-featured channel strip with EQ, compression, and parallel processing by Andrew Scheps."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/scheps-omni-channel"
 is_paid = true
 
 [formats.vst3]

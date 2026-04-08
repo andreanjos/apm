@@ -1,12 +1,13 @@
 slug = "weiss-eq-mp"
 name = "Weiss EQ MP"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Mastering parametric EQ plugin modeled on the Weiss EQ MP for precise, transparent equalization."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mastering/weiss-eq-mp"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,13 @@ slug = "oxford-dynamic-eq-native"
 name = "Oxford Dynamic EQ Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Dynamic EQ Native — per-band compression and expansion with unique detection modes and flexible sidechaining."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.sonnox.com/products/oxford-dynamic-eq"
 
 [formats.vst3]
 url = ""

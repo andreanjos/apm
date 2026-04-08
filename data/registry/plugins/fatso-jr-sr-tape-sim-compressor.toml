@@ -1,12 +1,13 @@
 slug = "fatso-jr-sr-tape-sim-compressor"
 name = "FATSO™ Jr./Sr. Tape Sim. & Compressor"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Empirical Labs FATSO Jr./Sr., a tape and transformer saturation and compressor unit."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/fatso-jr-sr-tape-sim-and-compressor.html"
 is_paid = true
 
 [formats.vst3]

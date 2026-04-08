@@ -2,11 +2,12 @@ slug = "oxford-drum-gate-limiter-bundle"
 name = "Oxford Drum Gate & Limiter Bundle"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Bundle pairing Oxford Drum Gate 2 and Oxford Limiter for intelligent drum detection and transparent loudness control."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-drum-gate-2"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "t-racks-leslie"
 name = "T-RackS Leslie"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "T-RackS Leslie module with 5 amp and 6 cabinet models using Dynamic Interaction Modeling technology."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trleslie/"
 is_paid = true
 
 [formats.vst3]

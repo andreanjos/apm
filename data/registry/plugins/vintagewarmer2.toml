@@ -1,11 +1,12 @@
 slug = "vintagewarmer2"
 name = "VintageWarmer2"
 vendor = "PSP Audioware"
-version = "1.0.0"
-description = ""
+version = "2.10.6"
+description = "Digital simulation of an analog-style single or multi-band compressor/limiter with warm analog character."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-vintagewarmer2"
 is_paid = true
 
 [formats.vst3]

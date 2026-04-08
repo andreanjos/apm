@@ -1,12 +1,13 @@
 slug = "mautovolume"
 name = "MAutoVolume"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Automatic volume leveling plugin that keeps vocals and instruments consistently on top of the mix."
 category = "tools"
 subcategory = "gain"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MAutoVolume"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/47-Gain/840-MAutoVolume"
 

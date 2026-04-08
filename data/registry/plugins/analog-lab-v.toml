@@ -1,12 +1,13 @@
 slug = "analog-lab-v"
 name = "Analog Lab V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "5.11.0"
+description = "Massive preset browser giving instant access to sounds from all Arturia V Collection instruments."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/analoglab/overview"
 is_paid = true
 
 [formats.vst3]

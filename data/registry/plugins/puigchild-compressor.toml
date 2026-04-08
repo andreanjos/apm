@@ -1,12 +1,13 @@
 slug = "puigchild-compressor"
 name = "PuigChild Compressor"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the rare Fairchild 660/670 tube compressor as used by Jack Joseph Puig."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/puigchild-compressor"
 is_paid = true
 
 [formats.vst3]

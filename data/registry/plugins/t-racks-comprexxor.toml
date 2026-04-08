@@ -1,12 +1,13 @@
 slug = "t-racks-comprexxor"
 name = "T-RackS Comprexxor"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "T-RackS Comprexxor — a versatile Swiss Army knife compressor module with multiple compression modes."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trcomprexxor/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,13 @@ slug = "oxford-envolution-native"
 name = "Oxford Envolution Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Envolution Native — frequency-dependent envelope shaper for precise attack and sustain control."
 category = "effects"
 subcategory = "envelope shaper"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.sonnox.com/products/oxford-envolution"
 
 [formats.vst3]
 url = ""

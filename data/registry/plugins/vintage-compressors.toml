@@ -1,12 +1,13 @@
 slug = "vintage-compressors"
 name = "VINTAGE COMPRESSORS"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Bundle of three studio-classic compressor emulations: VC 76, VC 2A, and VC 160 by NI and Softube."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/vintage-compressors/"
 is_paid = true
 
 [formats.vst3]

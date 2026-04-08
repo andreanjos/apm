@@ -1,12 +1,13 @@
 slug = "amp-room-upgrade-from-amp-room-bundle"
 name = "Amp Room Upgrade from Amp Room Bundle"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Upgrade path to full Amp Room from the legacy Amp Room Bundle, adding amps, cabs, and effects."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/amp-room"
 is_paid = true
 
 [formats.vst3]

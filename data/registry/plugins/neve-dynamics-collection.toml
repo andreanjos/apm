@@ -1,12 +1,13 @@
 slug = "neve-dynamics-collection"
 name = "Neve Dynamics Collection"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Collection of UAD emulations of Neve console dynamics modules including 33609 and 2254."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/neve-dynamics-collection.html"
 is_paid = true
 
 [formats.vst3]

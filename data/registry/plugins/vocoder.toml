@@ -1,11 +1,12 @@
 slug = "vocoder"
 name = "Vocoder"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Classic vocoder plugin for robotic voice effects and spectral speech synthesis on any audio source."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/vocoder"
 is_paid = true
 
 [formats.vst3]

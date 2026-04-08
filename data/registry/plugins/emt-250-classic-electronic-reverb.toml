@@ -1,11 +1,12 @@
 slug = "emt-250-classic-electronic-reverb"
 name = "EMT® 250 Classic Electronic Reverb"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the EMT 250 Electronic Reverberator, one of the first digital reverbs."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/reverbs/emt-250-electronic-reverb.html"
 is_paid = true
 
 [formats.vst3]

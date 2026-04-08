@@ -1,12 +1,13 @@
 slug = "mtransientmb"
 name = "MTransientMB"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "A multiband transient shaper that brings attack and punch to drums and rhythmic tracks."
 category = "effects"
 subcategory = "transient shaper"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MTransientMB"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/112-MTransientMB-"
 

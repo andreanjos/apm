@@ -1,12 +1,13 @@
 slug = "t-racks-master-eq-432"
 name = "T-RackS Master EQ 432"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "T-RackS Master EQ 432 — a precision mastering EQ module with smooth, musical equalization curves."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trmastereq432/"
 is_paid = true
 
 [formats.vst3]

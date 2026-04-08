@@ -1,12 +1,13 @@
 slug = "wurli-v"
 name = "Wurli V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "3.5.0"
+description = "Authentic emulation of the classic Wurlitzer electric piano with detailed mechanical modeling."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/wurliv/overview"
 is_paid = true
 
 [formats.vst3]

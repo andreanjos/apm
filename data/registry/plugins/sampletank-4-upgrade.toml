@@ -1,12 +1,13 @@
 slug = "sampletank-4-upgrade"
 name = "SampleTank 4 Upgrade"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "4.0"
+description = "Upgrade path to unlock additional SampleTank 4 content beyond the SE or standard edition."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/st4/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "elysia-mpressor"
 name = "elysia• mpressor"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the elysia mpressor, a modern VCA compressor with anti-log release and GainReduction Limiter."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/elysia-mpressor.html"
 is_paid = true
 
 [formats.vst3]

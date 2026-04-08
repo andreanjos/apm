@@ -1,12 +1,13 @@
 slug = "vc-76"
 name = "VC 76"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "FET compressor emulation with fast attack and punchy presence — workhorse for drums, vocals, and limiting."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/vintage-compressors/"
 is_paid = true
 
 [formats.vst3]

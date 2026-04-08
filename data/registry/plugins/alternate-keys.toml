@@ -1,12 +1,13 @@
 slug = "alternate-keys"
 name = "Alternate Keys"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Unconventional keyboard collection for SampleTank with accordion, harmonium, toy piano, and harpsichord."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/stalternatekeys/"
 is_paid = true
 
 [formats.vst3]

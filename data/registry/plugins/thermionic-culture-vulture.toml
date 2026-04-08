@@ -1,12 +1,13 @@
 slug = "thermionic-culture-vulture"
 name = "Thermionic Culture Vulture"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Thermionic Culture Vulture, a tube distortion unit with unique sonic character."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/distortion/thermionic-culture-vulture.html"
 is_paid = true
 
 [formats.vst3]

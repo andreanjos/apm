@@ -2,11 +2,12 @@ slug = "oxford-restore-bundle-native"
 name = "Oxford Restore Bundle Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Restore Bundle Native combines DeBuzzer, DeClicker, and DeNoiser for comprehensive audio restoration and cleanup."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/"
 is_paid = true
 
 [formats.vst3]

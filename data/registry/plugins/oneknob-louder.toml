@@ -1,12 +1,13 @@
 slug = "oneknob-louder"
 name = "OneKnob Louder"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Single-knob loudness maximizer for quickly increasing perceived volume."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/oneknob-louder"
 is_paid = true
 
 [formats.vst3]

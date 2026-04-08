@@ -1,14 +1,14 @@
 slug = "amplitube-fender-collection-2"
 name = "AmpliTube Fender Collection 2"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Officially certified Fender Collection 2 for AmpliTube adding more legendary Fender amps and effects."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.ikmultimedia.com/products/fender2/"
 
 [formats.vst3]
 url = ""

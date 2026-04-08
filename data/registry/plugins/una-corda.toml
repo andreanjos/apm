@@ -1,12 +1,13 @@
 slug = "una-corda"
 name = "Una Corda"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Custom one-string-per-key piano by David Klavins, captured intimately in collaboration with Nils Frahm."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/keys/una-corda/"
 is_paid = true
 
 [formats.vst3]

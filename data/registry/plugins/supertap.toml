@@ -1,12 +1,13 @@
 slug = "supertap"
 name = "SuperTap"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Six-tap delay plugin with individual control over time, pan, and amplitude per tap."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/supertap"
 is_paid = true
 
 [formats.vst3]

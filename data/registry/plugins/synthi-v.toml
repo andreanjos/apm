@@ -1,12 +1,13 @@
 slug = "synthi-v"
 name = "Synthi V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.5.0"
+description = "Virtual emulation of the rare EMS Synthi AKS briefcase analog synthesizer and sequencer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/synthi-v/overview"
 is_paid = true
 
 [formats.vst3]

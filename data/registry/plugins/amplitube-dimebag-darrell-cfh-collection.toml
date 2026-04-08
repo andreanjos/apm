@@ -1,12 +1,13 @@
 slug = "amplitube-dimebag-darrell-cfh-collection"
 name = "AmpliTube Dimebag Darrell CFH Collection"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Official Dimebag Darrell CFH Collection for AmpliTube with his signature amps, cabs, and stomps."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/dimebag/"
 is_paid = true
 
 [formats.vst3]

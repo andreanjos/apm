@@ -1,12 +1,13 @@
 slug = "komplete-14-collectors-edition-ugrade-from-ultimate"
 name = "Komplete 14 Collectors Edition Ugrade from Ultimate"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "14"
+description = "Upgrade from Komplete 14 Ultimate to Collector's Edition, unlocking every instrument and expansion."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-collectors-edition/"
 is_paid = true
 
 [formats.vst3]

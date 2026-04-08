@@ -1,11 +1,12 @@
 slug = "phaser-bi-tron"
 name = "Phaser BI-TRON"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Phaser effect modeled on the Bi-Phase pedal, featuring dual phaser circuits and sweep generators."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/phaser-bi-tron/overview"
 is_paid = true
 
 [formats.vst3]

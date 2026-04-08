@@ -2,11 +2,12 @@ slug = "oxford-inflator-drum-gate-toolbox-claro-bundle"
 name = "Oxford Inflator, Drum Gate & Toolbox Claro Bundle"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Three-plugin bundle with Oxford Inflator, Drum Gate 2, and Claro EQ for enhancement, gating, and equalisation."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-inflator"
 is_paid = true
 
 [formats.vst3]

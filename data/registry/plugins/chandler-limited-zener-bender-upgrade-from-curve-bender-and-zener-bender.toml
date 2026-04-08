@@ -1,12 +1,13 @@
 slug = "chandler-limited-zener-bender-upgrade-from-curve-bender-and-zener-bender"
 name = "Chandler Limited Zener-Bender Upgrade from Curve Bender and Zener-Bender"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Upgrade path to Chandler Limited Zener-Bender from both Curve Bender and original Zener-Bender."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-bender"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "clavinet-v"
 name = "Clavinet V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.5.0"
+description = "Virtual emulation of the classic Hohner Clavinet electro-mechanical keyboard instrument."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/clav-v/overview"
 is_paid = true
 
 [formats.vst3]

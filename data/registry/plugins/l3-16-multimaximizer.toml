@@ -1,12 +1,13 @@
 slug = "l3-16-multimaximizer"
 name = "L3-16 Multimaximizer"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "16-band multiband peak limiter for ultra-transparent loudness maximization."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/l3-16-multimaximizer"
 is_paid = true
 
 [formats.vst3]

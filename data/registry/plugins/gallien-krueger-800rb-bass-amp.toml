@@ -1,12 +1,13 @@
 slug = "gallien-krueger-800rb-bass-amp"
 name = "Gallien-Krueger 800RB Bass Amp"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Gallien-Krueger 800RB solid-state bass amplifier, a studio and touring standard."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/gallien-krueger-800rb-bass-amplifier.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "mstereoprocessor"
 name = "MStereoProcessor"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Advanced multiband stereo analyzer and enhancer for controlling stereo image across four frequency bands."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MStereoProcessor"
 is_paid = true
 
 [formats.vst3]

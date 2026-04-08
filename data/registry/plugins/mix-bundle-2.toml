@@ -1,12 +1,13 @@
 slug = "mix-bundle-2"
 name = "Mix Bundle 2"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Comprehensive mixing plugin bundle featuring multiple processors for complete mix workflows."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins"
 is_paid = true
 
 [formats.vst3]

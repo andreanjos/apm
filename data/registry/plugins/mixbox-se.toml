@@ -1,12 +1,13 @@
 slug = "mixbox-se"
 name = "MixBox SE"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "MixBox SE — entry-level version of the all-in-one mixing rack plugin with a curated set of processors."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/mixbox/"
 is_paid = true
 
 [formats.vst3]

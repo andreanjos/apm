@@ -1,12 +1,13 @@
 slug = "fulltone-collection"
 name = "Fulltone Collection"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Official Fulltone pedal effects collection for AmpliTube with faithful models of Fulltone's classic stomps."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/fulltone/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/12959-Fulltone-Collection"
 

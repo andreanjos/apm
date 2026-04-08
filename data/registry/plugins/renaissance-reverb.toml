@@ -1,11 +1,12 @@
 slug = "renaissance-reverb"
 name = "Renaissance Reverb"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Versatile algorithmic reverb with natural-sounding room, hall, and plate algorithms."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/renaissance-reverb"
 is_paid = true
 
 [formats.vst3]

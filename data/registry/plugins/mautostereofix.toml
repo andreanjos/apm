@@ -1,11 +1,12 @@
 slug = "mautostereofix"
 name = "MAutoStereoFix"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Automatically fixes stereo recording problems by matching volume, timing, spectrum, and phase between channels."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MAutoStereoFix"
 is_paid = true
 
 [formats.vst3]

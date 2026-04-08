@@ -1,12 +1,13 @@
 slug = "emt-classic-reverb-bundle"
 name = "EMT® Classic Reverb Bundle"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Bundle containing emulations of the EMT 140 plate reverb and EMT 250 electronic reverb."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/bundles/emt-classic-reverb-bundle.html"
 is_paid = true
 
 [formats.vst3]

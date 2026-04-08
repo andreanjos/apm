@@ -1,12 +1,13 @@
 slug = "oneknob-driver"
 name = "OneKnob Driver"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Single-knob overdrive and distortion processor for adding gritty analog drive."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/oneknob-driver"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "augmented-bundle"
 name = "Augmented BUNDLE"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "2.0.0"
+description = "Collection of Arturia's Augmented hybrid sampling/synthesis instruments in one bundle."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/augmented"
 is_paid = true
 
 [formats.vst3]

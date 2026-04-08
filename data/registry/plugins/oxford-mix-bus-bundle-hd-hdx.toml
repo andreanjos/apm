@@ -2,11 +2,12 @@ slug = "oxford-mix-bus-bundle-hd-hdx"
 name = "Oxford Mix Bus Bundle HD/HDX"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Mix Bus Bundle HD/HDX — a curated set of Oxford plugins optimised for mix bus processing in Pro Tools HDX."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/"
 is_paid = true
 
 [formats.vst3]

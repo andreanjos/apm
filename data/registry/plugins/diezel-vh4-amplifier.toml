@@ -1,12 +1,13 @@
 slug = "diezel-vh4-amplifier"
 name = "Diezel VH4 Amplifier"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Diezel VH4 four-channel high-gain guitar amplifier."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/diezel-vh4-amplifier.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "amplitube-orange"
 name = "AmpliTube Orange"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Official Orange amp and effects collection for AmpliTube with modeled Orange amps and cabs."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/orangecs/"
 is_paid = true
 
 [formats.vst3]

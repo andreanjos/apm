@@ -1,12 +1,13 @@
 slug = "luna-spitfire-bundle"
 name = "LUNA Spitfire Bundle"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "LUNA bundle with Spitfire Audio orchestral and cinematic instrument libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/bundles/luna-spitfire-bundle.html"
 is_paid = true
 
 [formats.vst3]

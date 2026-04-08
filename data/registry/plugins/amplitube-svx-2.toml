@@ -1,12 +1,13 @@
 slug = "amplitube-svx-2"
 name = "AmpliTube SVX 2"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "AmpliTube Ampeg SVX 2 — expanded Ampeg bass amp simulation with 3 new amp models for AmpliTube."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/svx2/"
 is_paid = true
 
 [formats.vst3]

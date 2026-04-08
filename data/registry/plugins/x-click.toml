@@ -1,12 +1,13 @@
 slug = "x-click"
 name = "X-Click"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Automatic click and pop removal plugin for cleaning up vinyl recordings and old tape."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/x-click"
 is_paid = true
 
 [formats.vst3]

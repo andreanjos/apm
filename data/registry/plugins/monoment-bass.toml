@@ -1,12 +1,13 @@
 slug = "monoment-bass"
 name = "Monoment Bass"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Professional bass synthesizer plugin with boutique hardware-derived sounds optimized for mixing."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/synthesizers/monoment-bass"
 is_paid = true
 
 [formats.vst3]

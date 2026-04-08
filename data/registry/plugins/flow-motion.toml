@@ -1,12 +1,13 @@
 slug = "flow-motion"
 name = "Flow Motion"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "FM synthesizer delivering expressive, evolving tones with an intuitive modulation system."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/flow-motion"
 is_paid = true
 
 [formats.vst3]

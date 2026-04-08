@@ -1,11 +1,12 @@
 slug = "sunset-sound-studio-reverb"
 name = "Sunset Sound Studio Reverb"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Reverb plugin recreating the iconic acoustic spaces of the legendary Sunset Sound recording studios."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trsunsetsound/"
 is_paid = true
 
 [formats.vst3]

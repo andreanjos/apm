@@ -1,12 +1,13 @@
 slug = "acoustic-feedback"
 name = "Acoustic Feedback"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Guitar amp simulator with authentic acoustic feedback modeling for electric and resonator guitars."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/guitar-bass/acoustic-feedback"
 is_paid = true
 
 [formats.vst3]

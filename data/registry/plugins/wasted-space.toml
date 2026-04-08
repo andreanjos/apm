@@ -1,11 +1,12 @@
 slug = "wasted-space"
 name = "Wasted Space"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Lo-fi digital reverb plugin with variable sample rate and authentic aliasing artifacts."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/wasted-space"
 is_paid = true
 
 [formats.vst3]

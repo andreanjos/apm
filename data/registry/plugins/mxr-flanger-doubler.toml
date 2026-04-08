@@ -1,12 +1,13 @@
 slug = "mxr-flanger-doubler"
 name = "MXR® Flanger/Doubler"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the MXR Flanger/Doubler rack unit, a classic studio and stage modulation effect."
 category = "effects"
 subcategory = "flanger"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/modulation/mxr-flanger-doubler.html"
 is_paid = true
 
 [formats.vst3]

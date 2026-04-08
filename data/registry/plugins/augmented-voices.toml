@@ -1,12 +1,13 @@
 slug = "augmented-voices"
 name = "Augmented Voices"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "2.0.0"
+description = "Hybrid instrument fusing detailed vocal samples with synthesis for a wide palette of vocal textures."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/augmented-voices/overview"
 is_paid = true
 
 [formats.vst3]

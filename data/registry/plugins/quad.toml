@@ -2,11 +2,12 @@ slug = "quad"
 name = "Quad"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Four-oscillator synthesizer with phase distortion, WaveShaper, dual XY pads, analog-modeled filters, and 830+ presets."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/Quad-vst.html"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/6330-Quad"
 

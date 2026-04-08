@@ -2,11 +2,12 @@ slug = "rp-eq-rob-papen"
 name = "RP-EQ"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Sophisticated equalizer with Mid/Side mode, mono/stereo split filter, Air section, and an XY pad for dynamic shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/rp-eq.html"
 is_paid = true
 
 [formats.vst3]

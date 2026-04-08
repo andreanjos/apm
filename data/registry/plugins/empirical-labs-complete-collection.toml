@@ -1,12 +1,13 @@
 slug = "empirical-labs-complete-collection"
 name = "Empirical Labs Complete Collection"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Bundle of all Empirical Labs plugins including Lil FrEQ, Mike-E Comp, and Trak Pak."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-complete-collection-2"
 is_paid = true
 
 [formats.vst3]

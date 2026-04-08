@@ -1,12 +1,13 @@
 slug = "t-racks-bus-compressor"
 name = "T-RackS Bus Compressor"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "5.0"
+description = "T-RackS analog-modeled bus compressor module for gluing mix elements with classic hardware character."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/tr5/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "oxford-live-bundle"
 name = "Oxford Live Bundle"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Live sound bundle for Avid VENUE consoles including Oxford EQ, Dynamics, Inflator, TransMod, Reverb, and SuprEsser DS."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/sonnox-live-bundle"
 is_paid = true
 
 [formats.vst3]

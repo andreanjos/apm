@@ -1,12 +1,13 @@
 slug = "mutronics-mutator"
 name = "Mutronics Mutator"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Analog filter and envelope follower plugin modeled on the classic Mutronics Mutator hardware unit."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/mutronics-mutator"
 is_paid = true
 
 [formats.vst3]

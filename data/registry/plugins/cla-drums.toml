@@ -1,11 +1,12 @@
 slug = "cla-drums"
 name = "CLA Drums"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Single-knob drum processing plugin based on Chris Lord-Alge's drum mixing techniques."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/cla-drums"
 is_paid = true
 
 [formats.vst3]

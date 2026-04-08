@@ -1,12 +1,13 @@
 slug = "sd7-pro-show"
 name = "SD7 Pro Show"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Comprehensive live sound processing bundle for DiGiCo SD7 console users."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/sd7-pro-show"
 is_paid = true
 
 [formats.vst3]

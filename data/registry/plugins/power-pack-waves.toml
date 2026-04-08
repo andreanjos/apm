@@ -1,12 +1,13 @@
 slug = "power-pack-waves"
 name = "Power Pack"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Essential bundle of Waves processing tools for everyday mixing and production needs."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/power-pack"
 is_paid = true
 
 [formats.vst3]

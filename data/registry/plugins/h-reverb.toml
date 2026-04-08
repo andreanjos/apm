@@ -1,11 +1,12 @@
 slug = "h-reverb"
 name = "H-Reverb"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Hybrid reverb processor combining impulse response accuracy with algorithmic flexibility."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/h-reverb"
 is_paid = true
 
 [formats.vst3]

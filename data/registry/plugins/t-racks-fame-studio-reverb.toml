@@ -1,11 +1,12 @@
 slug = "t-racks-fame-studio-reverb"
 name = "T-RackS FAME Studio Reverb"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "T-RackS reverb suite capturing the historic acoustic spaces of Muscle Shoals' FAME Studios."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/trfame/"
 is_paid = true
 
 [formats.vst3]

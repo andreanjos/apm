@@ -1,12 +1,13 @@
 slug = "genesis-bundle"
 name = "Genesis Bundle"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Comprehensive mixing bundle combining Waves' most popular processing and creative tools."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/genesis-bundle"
 is_paid = true
 
 [formats.vst3]

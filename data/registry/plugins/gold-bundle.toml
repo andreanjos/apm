@@ -1,12 +1,13 @@
 slug = "gold-bundle"
 name = "Gold Bundle"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Classic Waves bundle featuring essential mixing and mastering tools for professional use."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/gold-bundle"
 is_paid = true
 
 [formats.vst3]

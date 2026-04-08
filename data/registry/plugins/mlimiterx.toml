@@ -1,12 +1,13 @@
 slug = "mlimiterx"
 name = "MLimiterX"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "A powerful brickwall limiter with transparent sound for mixing and mastering."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MLimiterX"
 is_paid = true
 
 [formats.vst3]

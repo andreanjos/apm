@@ -2,11 +2,12 @@ slug = "fraunhofer-pro-codec"
 name = "Fraunhofer Pro Codec"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Real-time codec audition plugin supporting AAC, mp3, HE-AAC and more with up to 5 simultaneous encoding streams."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-fraunhofer-pro-codec"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/493-Fraunhofer-Pro-Codec"
 

@@ -2,11 +2,12 @@ slug = "oxford-inflator-native"
 name = "Oxford Inflator (Native)"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Inflator Native adds presence, warmth, and loudness to tracks without compromising dynamic range or clarity."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-inflator"
 is_paid = true
 
 [formats.vst3]

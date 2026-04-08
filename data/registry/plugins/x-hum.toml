@@ -1,12 +1,13 @@
 slug = "x-hum"
 name = "X-Hum"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Hum and buzz removal plugin eliminating 50/60 Hz electrical interference from recordings."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/x-hum"
 is_paid = true
 
 [formats.vst3]

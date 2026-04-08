@@ -1,12 +1,13 @@
 slug = "komplete-14-collectors-edition-update-from-12-13"
 name = "Komplete 14 Collectors Edition Update from 12-13"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "14"
+description = "Update to Komplete 14 Collector's Edition from Komplete versions 12 or 13."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-collectors-edition/"
 is_paid = true
 
 [formats.vst3]

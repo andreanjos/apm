@@ -2,11 +2,12 @@ slug = "oxford-dynamics-hd-hdx"
 name = "Oxford Dynamics HD/HDX"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Dynamics HD/HDX — gate, expander, compressor, limiter, side-chain EQ, and warmth in one processor."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-dynamics"
 is_paid = true
 
 [formats.vst3]

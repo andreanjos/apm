@@ -1,12 +1,13 @@
 slug = "t-racks-5-se"
 name = "T-RackS 5 SE"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "5.0"
+description = "T-RackS 5 SE — free entry-level edition of IK's professional mixing and mastering workstation."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/tr5/"
 is_paid = true
 
 [formats.vst3]

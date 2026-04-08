@@ -1,12 +1,13 @@
 slug = "dangerous-bax-eq-collection"
 name = "Dangerous BAX EQ Collection"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Dangerous Music BAX EQ mastering equalizer with low and high shelves."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/dangerous-bax-eq.html"
 is_paid = true
 
 [formats.vst3]

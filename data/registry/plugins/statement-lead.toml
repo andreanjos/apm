@@ -1,12 +1,13 @@
 slug = "statement-lead"
 name = "Statement Lead"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Polyphonic lead synthesizer built from rare synth recordings with advanced filter and modulation."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/synthesizers/statement-lead"
 is_paid = true
 
 [formats.vst3]

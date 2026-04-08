@@ -1,11 +1,12 @@
 slug = "torque"
 name = "Torque"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Drum tone shifter that changes the pitch and resonance of drum hits non-destructively."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/torque"
 is_paid = true
 
 [formats.vst3]

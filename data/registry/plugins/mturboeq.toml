@@ -1,12 +1,13 @@
 slug = "mturboeq"
 name = "MTurboEQ"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "12 vintage-style equalizers in one plugin for fast, professional equalization."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MTurboEQ"
 is_paid = true
 
 [formats.vst3]

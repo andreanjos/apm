@@ -1,12 +1,13 @@
 slug = "c-suite-c-axe-guitar-noise-suppressor"
 name = "C-Suite C-Axe™ Guitar Noise Suppressor"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "C-Axe is an intelligent noise suppressor and gate designed specifically for guitar signals."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/dynamics/c-suite-c-axe-guitar-noise-suppressor.html"
 is_paid = true
 
 [formats.vst3]

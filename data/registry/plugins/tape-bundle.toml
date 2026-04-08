@@ -1,12 +1,13 @@
 slug = "tape-bundle"
 name = "Tape Bundle"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Softube Tape plugin bundle offering analog tape machine saturation and warmth simulation."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/tape"
 is_paid = true
 
 [formats.vst3]

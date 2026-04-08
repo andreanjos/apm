@@ -1,12 +1,13 @@
 slug = "trident-a-range"
 name = "Trident A-Range"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Console EQ plugin modeled on the legendary Trident A-Range console for classic British character."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/trident-a-range"
 is_paid = true
 
 [formats.vst3]

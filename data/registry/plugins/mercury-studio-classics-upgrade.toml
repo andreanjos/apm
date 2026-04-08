@@ -1,12 +1,13 @@
 slug = "mercury-studio-classics-upgrade"
 name = "Mercury + Studio Classics Upgrade"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Upgrade bundle adding Studio Classics plugins to the Mercury Bundle."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/mercury-studio-classics-upgrade"
 is_paid = true
 
 [formats.vst3]

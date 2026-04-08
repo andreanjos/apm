@@ -2,11 +2,12 @@ slug = "mastering-bundle-1"
 name = "Mastering Bundle 1"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Curated Plugin Alliance bundle of Brainworx mastering tools for professional-grade mix bus and mastering workflows."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/en/products.html"
 is_paid = true
 
 [formats.vst3]

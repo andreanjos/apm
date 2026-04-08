@@ -1,12 +1,13 @@
 slug = "amplitube-tonex-standard"
 name = "Amplitube TONEX Standard"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "5.0"
+description = "AmpliTube TONEX Standard bundle combining AmpliTube 5 with TONEX Standard AI amp modeling software."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/amplitube5/"
 is_paid = true
 
 [formats.vst3]

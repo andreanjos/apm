@@ -1,12 +1,13 @@
 slug = "fix-flanger-and-doubler"
 name = "Fix Flanger and Doubler"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Classic analog flanger and doubler effects plugin for chorus-like modulation and thickening."
 category = "effects"
 subcategory = "flanger"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/fix-flanger-and-doubler"
 is_paid = true
 
 [formats.vst3]

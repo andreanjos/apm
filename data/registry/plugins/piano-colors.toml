@@ -1,12 +1,13 @@
 slug = "piano-colors"
 name = "Piano Colors"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.1"
+description = "Avant-garde Kontakt piano blending inventive playing techniques with a dynamic processing engine."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/keys/piano-colors/"
 is_paid = true
 
 [formats.vst3]

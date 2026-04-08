@@ -1,12 +1,13 @@
 slug = "bx-subsynth-subharmonic-synth"
 name = "bx_subsynth Subharmonic Synth"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Brainworx bx_subsynth generates and controls sub frequencies to add weight to bass."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/instruments/bx-subsynth-subharmonic-synth.html"
 is_paid = true
 
 [formats.vst3]

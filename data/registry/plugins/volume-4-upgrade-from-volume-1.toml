@@ -1,12 +1,13 @@
 slug = "volume-4-upgrade-from-volume-1"
 name = "Volume 4 Upgrade from Volume 1"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Upgrade from Volume 1 to Volume 4 plugin bundle, adding new processors and channel strips."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "masters-bundle"
 name = "Masters Bundle"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of professional mastering tools including limiters, EQ, and multiband processing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/masters-bundle"
 is_paid = true
 
 [formats.vst3]

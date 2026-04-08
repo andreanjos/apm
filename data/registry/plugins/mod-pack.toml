@@ -1,12 +1,13 @@
 slug = "mod-pack"
 name = "Mod Pack"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "Three innovative modulation effects — Choral, Flair, and Phasis — for chorus, flanging, and phasing."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/effects-series-mod-pack/"
 is_paid = true
 
 [formats.vst3]

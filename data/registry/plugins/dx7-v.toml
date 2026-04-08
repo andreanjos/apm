@@ -1,12 +1,13 @@
 slug = "dx7-v"
 name = "DX7 V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "3.5.0"
+description = "Faithful virtual recreation of the iconic Yamaha DX7 FM synthesizer with expanded capabilities."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/dx7v/overview"
 is_paid = true
 
 [formats.vst3]

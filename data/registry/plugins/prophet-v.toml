@@ -1,12 +1,13 @@
 slug = "prophet-v"
 name = "Prophet V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "3.5.0"
+description = "Combined emulation of the Sequential Circuits Prophet-5 and Prophet-VS hybrid synthesizers."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/prophetv/overview"
 is_paid = true
 
 [formats.vst3]

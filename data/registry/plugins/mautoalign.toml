@@ -1,12 +1,13 @@
 slug = "mautoalign"
 name = "MAutoAlign"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Automatically aligns multi-microphone recordings by finding ideal delays and polarity inversions."
 category = "effects"
 subcategory = "phaser"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MAutoAlign"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/68-MAutoAlign"
 

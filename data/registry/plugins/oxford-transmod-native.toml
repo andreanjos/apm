@@ -2,12 +2,12 @@ slug = "oxford-transmod-native"
 name = "Oxford TransMod Native"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford TransMod Native — transient modulation plugin for precise sculpting of attack and sustain on any audio source."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.sonnox.com/products/oxford-transmod"
 
 [formats.vst3]
 url = ""

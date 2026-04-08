@@ -1,11 +1,12 @@
 slug = "dirty-tape"
 name = "Dirty Tape"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Lo-fi tape saturation plugin with Dirt and Drive controls for warm, vintage analog character."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/dirty-tape"
 is_paid = true
 
 [formats.vst3]

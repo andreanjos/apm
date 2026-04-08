@@ -2,11 +2,12 @@ slug = "explorer-7-crossgrade"
 name = "eXplorer 7 Crossgrade"
 vendor = "Rob Papen"
 version = "1.0.0"
-description = ""
+description = "Crossgrade license to the complete eXplorer 7 Rob Papen plugin bundle."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.robpapen.com/eXplorer-7.html"
 is_paid = true
 
 [formats.vst3]

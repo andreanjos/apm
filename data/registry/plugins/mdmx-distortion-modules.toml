@@ -1,12 +1,13 @@
 slug = "mdmx-distortion-modules"
 name = "MDMX Distortion Modules"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Three-module distortion suite offering screamer, overdrive, and fuzz character."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/mdmx-distortion-modules"
 is_paid = true
 
 [formats.vst3]

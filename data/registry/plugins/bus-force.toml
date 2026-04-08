@@ -1,11 +1,12 @@
 slug = "bus-force"
 name = "Bus FORCE"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.1"
+description = "Parallel bus processor combining filter, EQ, compression, and saturation with flexible routing."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/bus-force/overview"
 is_paid = true
 
 [formats.vst3]

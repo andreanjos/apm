@@ -1,11 +1,12 @@
 slug = "4ms-pingable-envelope-generator-peg"
 name = "4ms Pingable Envelope Generator (PEG)"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Eurorack-style pingable envelope generator module for Softube Modular with tempo-synced envelopes."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/synthesizers/4ms-pingable-envelope-generator-peg"
 is_paid = true
 
 [formats.vst3]

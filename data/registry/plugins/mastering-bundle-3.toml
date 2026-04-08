@@ -2,11 +2,12 @@ slug = "mastering-bundle-3"
 name = "Mastering Bundle 3"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Third curated Plugin Alliance mastering bundle featuring bx_dynEQ V2, bx_hybrid V2, bx_limiter, and Vertigo VSM-3."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/en/products.html"
 is_paid = true
 
 [formats.vst3]

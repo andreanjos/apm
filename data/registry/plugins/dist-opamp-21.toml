@@ -1,12 +1,13 @@
 slug = "dist-opamp-21"
 name = "Dist OPAMP-21"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Gritty op-amp distortion emulation inspired by classic Muff-style pedal circuits."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/dist-opamp21/overview"
 is_paid = true
 
 [formats.vst3]

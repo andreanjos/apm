@@ -1,12 +1,13 @@
 slug = "amplitube-fulltone-collection"
 name = "AmpliTube FullTone Collection"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Official Fulltone effects collection for AmpliTube with precisely modeled Fulltone pedals."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/fulltone/"
 is_paid = true
 
 [formats.vst3]

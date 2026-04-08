@@ -1,12 +1,13 @@
 slug = "stellar-bundle"
 name = "Stellar Bundle"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "A promotional bundle of MeldaProduction plugins offering exceptional value for music producers."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/bundles"
 is_paid = true
 
 [formats.vst3]

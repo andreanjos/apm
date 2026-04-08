@@ -1,13 +1,13 @@
 slug = "jjp-strings-038-keys"
 name = "JJP Strings &#038; Keys"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Signature strings and keys processor based on JJP's approach to orchestral mixing."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.waves.com/plugins/jjp-strings-038-keys"
 
 [formats.vst3]
 url = ""

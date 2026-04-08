@@ -1,12 +1,13 @@
 slug = "mdrumstrip"
 name = "MDrumStrip"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "All-in-one drum mixing plugin combining EQ, compression, reverb, and gating for professional results quickly."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MDrumStrip"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/10655-MDrumStrip"
 

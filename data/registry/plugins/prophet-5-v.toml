@@ -1,12 +1,13 @@
 slug = "prophet-5-v"
 name = "Prophet-5 V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "2.5.0"
+description = "Faithful emulation of the iconic Sequential Circuits Prophet-5 analog polyphonic synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/prophet-5v/overview"
 is_paid = true
 
 [formats.vst3]

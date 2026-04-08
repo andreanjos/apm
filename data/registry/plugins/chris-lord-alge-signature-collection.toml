@@ -1,12 +1,13 @@
 slug = "chris-lord-alge-signature-collection"
 name = "Chris Lord-Alge Signature Collection"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of signature processing plugins modeled on Chris Lord-Alge's personal hardware."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/chris-lord-alge-signature-collection"
 is_paid = true
 
 [formats.vst3]

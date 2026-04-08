@@ -2,11 +2,12 @@ slug = "mega-bundle-yr"
 name = "MEGA Bundle/yr"
 vendor = "Plugin Alliance"
 version = "1.0.0"
-description = ""
+description = "Annual Plugin Alliance MEGA Bundle subscription providing full access to 100+ plugins from 28+ partner brands."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/en/products/pa-mega-bundle.html"
 is_paid = true
 
 [formats.vst3]

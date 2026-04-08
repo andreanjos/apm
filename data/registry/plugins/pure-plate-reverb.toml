@@ -1,11 +1,12 @@
 slug = "pure-plate-reverb"
 name = "Pure Plate Reverb"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "UA's Pure Plate is an original analog-modeled plate reverb with a clean, natural sound."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/reverbs/pure-plate-reverb.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "mcombmb"
 name = "MCombMB"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Multi-comb filter plugin for creating unique moving textures and rhythmic pads with smart randomization."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MCombMB"
 is_paid = true
 
 [formats.vst3]

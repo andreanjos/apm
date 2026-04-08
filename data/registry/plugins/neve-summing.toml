@@ -1,11 +1,12 @@
 slug = "neve-summing"
 name = "Neve Summing"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Neve analog summing bus emulation for LUNA to add console-quality depth to mixes."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/channel-strips/neve-summing.html"
 is_paid = true
 
 [formats.vst3]

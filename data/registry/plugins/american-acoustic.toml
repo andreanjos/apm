@@ -1,12 +1,13 @@
 slug = "american-acoustic"
 name = "American Acoustic"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Audiophile acoustic guitar library for SampleTank featuring a deeply sampled vintage Martin D28."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/st3americanacoustic/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "nx-virtual-mix-room-nx-head-tracker"
 name = "Nx Virtual Mix Room + Nx Head Tracker"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Bundle of the Nx Virtual Mix Room headphone mixing plugin with Nx Head Tracker."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/nx-virtual-mix-room-nx-head-tracker"
 is_paid = true
 
 [formats.vst3]

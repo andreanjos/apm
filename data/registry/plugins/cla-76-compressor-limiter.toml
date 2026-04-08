@@ -1,12 +1,13 @@
 slug = "cla-76-compressor-limiter"
 name = "CLA-76 Compressor Limiter"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Emulation of the UA 1176 FET compressor modeled from Chris Lord-Alge's personal units."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/cla-76-compressor-limiter"
 is_paid = true
 
 [formats.vst3]

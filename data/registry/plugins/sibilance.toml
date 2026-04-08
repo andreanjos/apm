@@ -1,12 +1,13 @@
 slug = "sibilance"
 name = "Sibilance"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Intelligent real-time de-esser using spectral splitting for transparent sibilance control."
 category = "effects"
 subcategory = "de-esser"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/sibilance"
 is_paid = true
 
 [formats.vst3]

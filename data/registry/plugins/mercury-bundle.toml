@@ -1,14 +1,14 @@
 slug = "mercury-bundle"
 name = "Mercury Bundle"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Waves' ultimate bundle with every plugin for professional mixing and music production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.waves.com/plugins/mercury-bundle"
 
 [formats.vst3]
 url = ""

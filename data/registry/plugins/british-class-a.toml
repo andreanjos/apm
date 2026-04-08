@@ -1,12 +1,13 @@
 slug = "british-class-a"
 name = "British Class A"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Vintage British Class A console channel strip with preamp, EQ, and compressor sections."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/british-class-a"
 is_paid = true
 
 [formats.vst3]

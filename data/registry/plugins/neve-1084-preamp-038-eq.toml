@@ -1,14 +1,14 @@
 slug = "neve-1084-preamp-038-eq"
 name = "Neve® 1084™ Preamp &#038; EQ"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Neve 1084 four-band console preamp and EQ module."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/neve-1084-preamp-and-eq.html"
 
 [formats.vst3]
 url = ""

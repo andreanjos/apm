@@ -1,12 +1,13 @@
 slug = "dytronics-tri-stereo-chorus"
 name = "Dytronics® Tri-Stereo Chorus"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Dytronics Tri-Stereo Chorus, a lush analog chorus from the '70s."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/modulation/dytronics-tri-stereo-chorus.html"
 is_paid = true
 
 [formats.vst3]

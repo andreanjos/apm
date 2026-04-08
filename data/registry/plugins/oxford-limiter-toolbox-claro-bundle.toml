@@ -2,11 +2,12 @@ slug = "oxford-limiter-toolbox-claro-bundle"
 name = "Oxford Limiter & Toolbox Claro Bundle"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Bundle pairing Oxford Limiter and Claro EQ for transparent loudness control combined with advanced equalisation."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/products/oxford-limiter"
 is_paid = true
 
 [formats.vst3]

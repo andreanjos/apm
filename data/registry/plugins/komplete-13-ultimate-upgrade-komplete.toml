@@ -1,12 +1,13 @@
 slug = "komplete-13-ultimate-upgrade-komplete"
 name = "Komplete 13 Ultimate Upgrade Komplete"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "13"
+description = "Upgrade from Komplete 13 Standard to Komplete 13 Ultimate, adding hundreds of instruments and sounds."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-13-ultimate/"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "lexicon-224-dig-reverb-native"
 name = "Lexicon 224 Dig. Reverb Native"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Lexicon 224 digital reverb, a landmark studio reverb from the 1970s."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/reverbs/lexicon-224-digital-reverb.html"
 is_paid = true
 
 [formats.vst3]

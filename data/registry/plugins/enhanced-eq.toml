@@ -1,12 +1,13 @@
 slug = "enhanced-eq"
 name = "Enhanced EQ"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Tube-modelled equalizer by Softube with the rich, musical sound of vintage hardware EQ circuitry."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/premium-tube-series/"
 is_paid = true
 
 [formats.vst3]

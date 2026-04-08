@@ -1,11 +1,12 @@
 slug = "oneknob-wetter"
 name = "OneKnob Wetter"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Single-knob reverb processor for quickly adding ambience and space to any track."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/oneknob-wetter"
 is_paid = true
 
 [formats.vst3]

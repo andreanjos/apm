@@ -1,12 +1,13 @@
 slug = "fet-compressor"
 name = "FET Compressor"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "FET-style compressor plugin modeled on classic American solid-state hardware compressors."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/mixing/icons-the-compressor-collection"
 is_paid = true
 
 [formats.vst3]

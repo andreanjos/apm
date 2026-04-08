@@ -2,11 +2,12 @@ slug = "oxford-post-bundle-hd-hdx"
 name = "Oxford Post Bundle HD/HDX"
 vendor = "Sonnox"
 version = "1.0.0"
-description = ""
+description = "Oxford Post Bundle HD/HDX — Oxford plugins optimised for post-production dialogue, dynamics, and restoration."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonnox.com/"
 is_paid = true
 
 [formats.vst3]

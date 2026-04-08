@@ -1,12 +1,13 @@
 slug = "paz-analyzer"
 name = "PAZ Analyzer"
 vendor = "Waves"
-version = "1.0.0"
-description = ""
+version = "14.0"
+description = "Stereo position and level analyzer displaying stereo field, spectrum, and peak metering."
 category = "effects"
 subcategory = "metering"
 license = "commercial"
 tags = []
+homepage = "https://www.waves.com/plugins/paz-analyzer"
 is_paid = true
 
 [formats.vst3]

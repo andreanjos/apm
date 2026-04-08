@@ -1,12 +1,13 @@
 slug = "jun-6-v"
 name = "Jun-6 V"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.5.0"
+description = "Virtual emulation of the classic Roland Juno-6 DCO-based analog polysynth."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-instruments/jun-6-v/overview"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "amplitube-tonex-se"
 name = "AmpliTube TONEX SE"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "5.0"
+description = "AmpliTube TONEX SE bundle pairing AmpliTube 5 SE with TONEX SE AI-powered amp capture software."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/amplitube5/"
 is_paid = true
 
 [formats.vst3]

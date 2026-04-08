@@ -1,12 +1,13 @@
 slug = "time-and-tone-plus"
 name = "Time and Tone Plus"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "FX plugin bundle combining time-based effects and tone-shaping processors for mixing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins"
 is_paid = true
 
 [formats.vst3]

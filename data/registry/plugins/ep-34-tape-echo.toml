@@ -1,11 +1,12 @@
 slug = "ep-34-tape-echo"
 name = "EP-34 Tape Echo"
 vendor = "Universal Audio"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Emulation of the Echoplex EP-34 tape echo unit beloved by guitarists since the 1970s."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uaudio.com/uad-plugins/delays/ep-34-tape-echo.html"
 is_paid = true
 
 [formats.vst3]

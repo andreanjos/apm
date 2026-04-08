@@ -1,11 +1,12 @@
 slug = "raum"
 name = "Raum"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Creative reverb plugin for sculpting spaces from tight rooms to vast granular textures and bloom."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/raum/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "mcq"
 name = "McQ"
 vendor = "PSP Audioware"
 version = "1.0.0"
-description = ""
+description = "Console-inspired equalizer combining classic analog sound with adjustable filters and saturation."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.pspaudioware.com/products/psp-mcq"
 is_paid = true
 
 [formats.vst3]

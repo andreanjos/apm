@@ -1,12 +1,13 @@
 slug = "efx-fragments"
 name = "Efx FRAGMENTS"
 vendor = "Arturia"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Granular effect processor for creating glitchy stutters, ambient textures, and experimental sounds."
 category = "effects"
 subcategory = "granular"
 license = "commercial"
 tags = []
+homepage = "https://www.arturia.com/products/software-effects/efx-fragments/overview"
 is_paid = true
 
 [formats.vst3]

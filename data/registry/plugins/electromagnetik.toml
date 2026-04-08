@@ -1,12 +1,13 @@
 slug = "electromagnetik"
 name = "Electromagnetik"
 vendor = "IK Multimedia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Four electromagnetic stage piano libraries for SampleTank: Wurly 120, Stage 73, Electric Grand, and EP Bass."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.ikmultimedia.com/products/stelectromagnetik/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "playbox"
 name = "Playbox"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sample and chord generator with 900+ samples and 200+ chord sets for instant harmonic inspiration."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/synths/playbox/"
 is_paid = true
 
 [formats.vst3]

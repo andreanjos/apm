@@ -1,12 +1,13 @@
 slug = "supercharger-gt"
 name = "Supercharger GT"
 vendor = "Native Instruments"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Advanced tube compressor plugin with superior control, saturation modes, and sonic sculpting tools."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.native-instruments.com/en/products/komplete/effects/supercharger-gt/"
 is_paid = true
 
 [formats.vst3]

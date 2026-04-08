@@ -1,12 +1,13 @@
 slug = "intellijel-korgasmatron-ii"
 name = "Intellijel Korgasmatron II"
 vendor = "Softube"
-version = "1.0.0"
-description = ""
+version = "2.6"
+description = "Dual filter module for Softube Modular modeled on the Intellijel Korgasmatron II Eurorack filter."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.softube.com/us/plug-ins/synthesizers/intellijel-korgasmatron-ii"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "mwaveshapermb"
 name = "MWaveShaperMB"
 vendor = "MeldaProduction"
-version = "1.0.0"
-description = ""
+version = "17.07"
+description = "Draw custom waveshaping curves across 6 separate frequency bands for unique, versatile distortion effects."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.meldaproduction.com/MWaveShaperMB"
 is_paid = true
 
 [formats.vst3]
