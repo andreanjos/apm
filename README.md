@@ -33,6 +33,14 @@ apm completions zsh > ~/.zfunc/_apm
 apm completions fish > ~/.config/fish/completions/apm.fish
 ```
 
+Add the Claude Code skill (optional):
+
+```sh
+cp -r .claude/skills/apm ~/.claude/skills/
+```
+
+Then use `/apm search reverb` or `/apm install surge-xt` directly in Claude Code.
+
 ## Quick start
 
 ```sh
@@ -170,26 +178,6 @@ bundle_path  = "ValhallaSupermassive.component"
 | `sha256` | yes | SHA256 hex digest of the download |
 | `install_type` | yes | `"dmg"`, `"pkg"`, or `"zip"` |
 | `bundle_path` | for dmg/zip | Path inside the archive to the plugin bundle |
-
-## Claude Code integration
-
-apm ships with a Claude Code skill. Add it to get plugin management inside Claude:
-
-```sh
-# Copy the skill to your Claude Code skills directory
-cp -r .claude/skills/apm ~/.claude/skills/
-```
-
-Then use `/apm` in Claude Code:
-
-```
-/apm search reverb
-/apm install valhalla-supermassive
-/apm list
-```
-
-Claude will also auto-detect when you're talking about audio plugins and offer
-to help with apm commands.
 
 ## Contributing plugins
 
