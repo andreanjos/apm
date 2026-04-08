@@ -1,0 +1,24 @@
+slug = "neoverb-crossgrade-from-any-paid-izotope-or-exponential-audio-product"
+name = "Neoverb Crossgrade from Any Paid iZotope or Exponential Audio Product"
+vendor = "iZotope"
+version = "1.0.0"
+description = ""
+category = "effects"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,25 @@
+slug = "max-038-neo-bundle"
+name = "Max &#038; Neo Bundle"
+vendor = "Muze"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "bundle"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

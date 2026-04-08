@@ -1,0 +1,24 @@
+slug = "emt-140-classic-plate-reverberator"
+name = "EMT® 140 Classic Plate Reverberator"
+vendor = "Universal Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

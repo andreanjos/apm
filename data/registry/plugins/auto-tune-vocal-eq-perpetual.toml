@@ -1,0 +1,24 @@
+slug = "auto-tune-vocal-eq-perpetual"
+name = "Auto-Tune Vocal EQ Perpetual"
+vendor = "Antares"
+version = "1.0.0"
+description = ""
+category = "effects"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

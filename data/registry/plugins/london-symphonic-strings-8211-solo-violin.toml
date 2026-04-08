@@ -1,0 +1,25 @@
+slug = "london-symphonic-strings-8211-solo-violin"
+name = "London Symphonic Strings &#8211; Solo Violin"
+vendor = "Aria Sounds"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "kontakt full"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,25 @@
+slug = "superior-drummer-3-crossgrade-from-ezdrummer-2"
+name = "Superior Drummer 3 Crossgrade from EZDrummer 2"
+vendor = "Toontrack"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "percussion"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

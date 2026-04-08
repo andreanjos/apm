@@ -1,0 +1,25 @@
+slug = "gold-renmaxx-bundle-upgrade-from-gold"
+name = "Gold + RenMaxx Bundle Upgrade from Gold"
+vendor = "Waves"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "fx plugin bundle"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

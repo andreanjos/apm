@@ -1,0 +1,25 @@
+slug = "weiss-complete-collection-upgrade-from-weiss-mm-1-mastering-maximizer"
+name = "Weiss Complete Collection Upgrade from Weiss MM-1 Mastering Maximizer"
+vendor = "Softube"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "fx plugin bundle"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

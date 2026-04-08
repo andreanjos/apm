@@ -1,0 +1,25 @@
+slug = "otd-2-analog-bucket-brigade-tapped-delay"
+name = "OTD-2: Analog Bucket-Brigade Tapped Delay"
+vendor = "Overloud"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "delay"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,24 @@
+slug = "beastverb-vst3-au"
+name = "BeastVerb (VST3/AU)"
+vendor = "Beastsamples"
+version = "1.0.0"
+description = ""
+category = "effects"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,25 @@
+slug = "model-82-sequencing-mono-synth"
+name = "Model 82 Sequencing Mono Synth"
+vendor = "Softube"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "plugin"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

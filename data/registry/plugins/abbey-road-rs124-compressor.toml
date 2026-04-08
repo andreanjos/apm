@@ -1,0 +1,25 @@
+slug = "abbey-road-rs124-compressor"
+name = "Abbey Road RS124 Compressor"
+vendor = "Waves"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

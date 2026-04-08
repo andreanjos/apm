@@ -1,0 +1,25 @@
+slug = "aas-strum-gs-2-upgrade-from-strum-gs-1"
+name = "AAS Strum GS-2 Upgrade from Strum GS-1"
+vendor = "Applied Acoustics Systems"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "guitar"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -157,6 +157,11 @@ pub struct PluginDefinition {
     /// Optional homepage or product page URL.
     pub homepage: Option<String>,
 
+    /// Optional direct purchase URL (e.g. a Plugin Boutique product page).
+    /// When set, `apm buy` opens this URL instead of a search fallback.
+    #[serde(default)]
+    pub purchase_url: Option<String>,
+
     /// Whether this plugin requires purchase through apm-server.
     #[serde(default)]
     pub is_paid: bool,
@@ -281,6 +286,7 @@ mod tests {
             formats,
             releases,
             homepage: None,
+            purchase_url: None,
             is_paid: false,
             price_cents: None,
             currency: None,

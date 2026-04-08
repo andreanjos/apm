@@ -370,6 +370,7 @@ install_type = "zip"
                 formats: std::collections::HashMap::new(),
                 releases: vec![],
                 homepage: None,
+                purchase_url: None,
                 is_paid: false,
                 price_cents: None,
                 currency: None,

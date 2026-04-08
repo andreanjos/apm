@@ -1,0 +1,24 @@
+slug = "mix-038-master-bundle-advanced-upgrade-from-any-advanced-product-or-neoverb"
+name = "Mix &#038; Master Bundle Advanced Upgrade from any Advanced Product or Neoverb"
+vendor = "iZotope"
+version = "1.0.0"
+description = ""
+category = "effects"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,25 @@
+slug = "rhymes-with-rogue-8211-leads-analog-synths-for-kontakt-live-reason-zampler"
+name = "Rhymes with Rogue &#8211; Leads (Analog Synths for Kontakt, Live, Reason, Zampler)"
+vendor = "New Loops"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "kontakt full"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,25 @@
+slug = "virtual-sandberg-basic-ken-taylor-rw-4"
+name = "Virtual Sandberg Basic Ken Taylor RW 4"
+vendor = "Pfundstein Audio Plugins"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "bass"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

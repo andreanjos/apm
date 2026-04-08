@@ -151,6 +151,7 @@ mod tests {
             formats: HashMap::new(),
             releases: Vec::new(),
             homepage: None,
+            purchase_url: None,
             is_paid: false,
             price_cents: None,
             currency: None,

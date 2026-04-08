@@ -1,0 +1,25 @@
+slug = "reiya-ultimate-midi-library-3-bundle"
+name = "Reiya + Ultimate MIDI Library 3 Bundle"
+vendor = "New Nation"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "pads"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

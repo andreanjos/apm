@@ -1,0 +1,25 @@
+slug = "modo-bass-2-modo-drum-1-5-bundle-upgrade"
+name = "MODO BASS 2 + MODO DRUM 1.5 Bundle Upgrade"
+vendor = "IK Multimedia"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "bass"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

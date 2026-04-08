@@ -1,0 +1,24 @@
+slug = "repitch-crossgrade-from-any-synchro-arts-product"
+name = "RePitch Crossgrade from any Synchro Arts Product"
+vendor = "Synchro Arts"
+version = "1.0.0"
+description = ""
+category = "effects"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

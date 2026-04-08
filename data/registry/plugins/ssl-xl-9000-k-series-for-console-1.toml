@@ -1,0 +1,25 @@
+slug = "ssl-xl-9000-k-series-for-console-1"
+name = "SSL XL 9000 K-Series for Console 1"
+vendor = "Softube"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "channel strip"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

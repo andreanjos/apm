@@ -1,0 +1,25 @@
+slug = "sound-particles-indie-perpetual"
+name = "Sound Particles Indie Perpetual"
+vendor = "Sound Particles"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "fx plugin bundle"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

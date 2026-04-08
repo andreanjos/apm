@@ -1,0 +1,25 @@
+slug = "tape-038-tape-echoes-bundle"
+name = "Tape &#038; Tape Echoes Bundle"
+vendor = "Softube"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "fx plugin bundle"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

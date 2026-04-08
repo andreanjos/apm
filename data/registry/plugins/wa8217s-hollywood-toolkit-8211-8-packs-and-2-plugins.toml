@@ -1,0 +1,24 @@
+slug = "wa8217s-hollywood-toolkit-8211-8-packs-and-2-plugins"
+name = "WA&#8217;s Hollywood Toolkit &#8211; 8 Packs and 2 Plugins!"
+vendor = "WA Production"
+version = "1.0.0"
+description = ""
+category = "effects"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

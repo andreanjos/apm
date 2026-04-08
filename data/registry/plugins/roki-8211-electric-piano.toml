@@ -1,0 +1,25 @@
+slug = "roki-8211-electric-piano"
+name = "ro•ki &#8211; Electric Piano"
+vendor = "Sonuscore"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "keys"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

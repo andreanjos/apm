@@ -1,0 +1,25 @@
+slug = "cinematique-instruments-volume-1-bundle"
+name = "Cinematique Instruments Volume 1 Bundle"
+vendor = "Cinematique Instruments"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "bundle"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

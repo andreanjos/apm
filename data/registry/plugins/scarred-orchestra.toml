@@ -1,0 +1,25 @@
+slug = "scarred-orchestra"
+name = "Scarred Orchestra"
+vendor = "infinit essentials"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "orchestral"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

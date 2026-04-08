@@ -245,6 +245,16 @@ enum Commands {
         name: String,
     },
 
+    /// Open the purchase page for a paid plugin.
+    ///
+    /// Looks up the plugin in the registry and opens the best purchase link
+    /// in your default browser. For free plugins, suggests `apm install`
+    /// instead.
+    Buy {
+        /// Plugin name or slug to purchase (e.g. "fabfilter-pro-q3").
+        name: String,
+    },
+
     /// Upgrade one or all plugins to the latest registry version.
     ///
     /// Without an argument, upgrades all outdated plugins except those that
@@ -715,6 +725,8 @@ async fn run() -> Result<()> {
         Commands::Outdated => commands::outdated::run(&config, json).await,
 
         Commands::Open { name } => commands::open::run(&config, name).await,
+
+        Commands::Buy { name } => commands::buy::run(&config, name).await,
 
         Commands::Upgrade { name, dry_run, yes } => {
             commands::upgrade::run(&config, name.as_deref(), *dry_run, json, *yes).await

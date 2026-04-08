@@ -1,0 +1,24 @@
+slug = "fink-8211-signatures-acoustic-guitar"
+name = "Fink &#8211; Signatures Acoustic Guitar"
+vendor = "Spitfire Audio"
+version = "1.0.0"
+description = ""
+category = "instruments"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

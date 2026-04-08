@@ -1,0 +1,25 @@
+slug = "efektor-dl3606-delay"
+name = "EFEKTOR DL3606 Delay"
+vendor = "Kuassa"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "delay"
+license = "commercial"
+tags = []
+is_paid = true
+homepage = ""
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

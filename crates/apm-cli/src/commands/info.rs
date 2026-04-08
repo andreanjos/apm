@@ -130,6 +130,14 @@ fn print_plugin_info(
         println!("{:<13} {}", "Homepage:".dimmed(), hp);
     }
 
+    if p.is_paid {
+        println!(
+            "{:<13} {}",
+            "Buy:".dimmed(),
+            format!("apm buy {}", p.slug).bold()
+        );
+    }
+
     // Tags
     if !p.tags.is_empty() {
         println!("{:<13} {}", "Tags:".dimmed(), p.tags.join(", "));
