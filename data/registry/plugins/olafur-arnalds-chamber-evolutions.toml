@@ -1,12 +1,13 @@
 slug = "olafur-arnalds-chamber-evolutions"
 name = "Olafur Arnalds Chamber Evolutions"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "4-3-3-3-3 British chamber ensemble curated by BAFTA-winning composer Ólafur Arnalds, recorded at AIR Studios."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/olafur-arnalds-chamber-evolutions"
 is_paid = true
 
 [formats.vst3]

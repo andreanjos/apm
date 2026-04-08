@@ -1,12 +1,13 @@
 slug = "wave-box"
 name = "Wave Box"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.5.3"
+description = "Distortion and waveshaping plugin with multiple saturation modes for aggressive tonal coloring."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/wave-box/"
 is_paid = true
 
 [formats.vst3]

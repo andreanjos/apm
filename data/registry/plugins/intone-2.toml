@@ -1,11 +1,12 @@
 slug = "intone-2"
 name = "inTone 2"
 vendor = "Audified"
-version = "1.0.0"
-description = ""
+version = "2.0.0"
+description = "Guitar effect rack plugin offering amp simulation, effects chain, and tuner in one integrated environment."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/intone-2/"
 is_paid = true
 
 [formats.vst3]

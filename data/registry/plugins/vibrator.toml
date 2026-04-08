@@ -1,11 +1,12 @@
 slug = "vibrator"
 name = "Vibrator"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Vibrato effect plugin delivering classic pitch modulation for guitar, organ, and any audio source."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p2495-Vibrator/"
 is_paid = true
 
 [formats.vst3]

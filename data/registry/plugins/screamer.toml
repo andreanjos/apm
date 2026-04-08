@@ -1,12 +1,13 @@
 slug = "screamer"
 name = "Screamer"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Overdrive distortion plugin emulating classic tube screamer pedal tones for guitar and bass."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1156-Screamer/"
 is_paid = true
 
 [formats.vst3]

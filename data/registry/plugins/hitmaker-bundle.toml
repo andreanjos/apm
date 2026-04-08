@@ -1,12 +1,13 @@
 slug = "hitmaker-bundle"
 name = "Hitmaker Bundle"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Curated UJAM plugin bundle aimed at crafting commercial, chart-ready hit songs."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/store/"
 is_paid = true
 
 [formats.vst3]

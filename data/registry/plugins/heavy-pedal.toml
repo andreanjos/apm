@@ -2,11 +2,12 @@ slug = "heavy-pedal"
 name = "Heavy Pedal"
 vendor = "Audiority"
 version = "1.0.0"
-description = ""
+description = "Analog modeled vintage Swedish Chainsaw distortion stompbox plug-in for extreme metal tones."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/heavy-pedal/"
 is_paid = true
 
 [formats.vst3]

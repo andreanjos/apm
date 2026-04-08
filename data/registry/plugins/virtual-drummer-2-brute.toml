@@ -1,12 +1,13 @@
 slug = "virtual-drummer-2-brute"
 name = "Virtual Drummer 2 Brute"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Second-generation brutal rock and punk drummer plugin with mean, powerful drum performances."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/drummer/brute/"
 is_paid = true
 
 [formats.vst3]

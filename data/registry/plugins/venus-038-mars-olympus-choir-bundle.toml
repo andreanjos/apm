@@ -1,14 +1,14 @@
 slug = "venus-038-mars-olympus-choir-bundle"
 name = "Venus &#038; Mars Olympus Choir Bundle"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle combining the Venus women's and Mars men's symphonic choral Kontakt libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://soundiron.com/products/venus-mars-olympus-choir-bundle"
 
 [formats.vst3]
 url = ""

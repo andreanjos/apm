@@ -1,14 +1,14 @@
 slug = "luminoso-8211-live-violin-phrases"
 name = "Luminoso &#8211; Live Violin Phrases"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Thousands of pre-recorded 6-bar violin phrases that layer to create realistic string arrangements with playback control."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://zero-g.co.uk/products/luminoso"
 
 [formats.vst3]
 url = ""

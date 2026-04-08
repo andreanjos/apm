@@ -2,11 +2,12 @@ slug = "microfx-filter"
 name = "MicroFX Filter"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Compact multimode dual filter plugin with an animatable XY pad engine for dynamic, modulating filter effects."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/microfx-filter"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/13152-MicroFX-Filter"
 

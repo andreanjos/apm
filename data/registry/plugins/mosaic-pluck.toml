@@ -2,11 +2,12 @@ slug = "mosaic-pluck"
 name = "Mosaic Pluck"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Cinematic pluck instrument with sources ranging from thumb pianos to synths, harps, and processed chimes."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/mosaic-pluck"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "harmonieq"
 name = "HarmoniEQ"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "2.2"
+description = "Harmonically-enhanced parametric equalizer with dynamic modes for mixing and mastering."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/harmonieq/"
 is_paid = true
 
 [formats.vst3]

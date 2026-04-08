@@ -1,12 +1,13 @@
 slug = "destructor"
 name = "Destructor"
 vendor = "Blue Cat Audio"
-version = "1.0.0"
-description = ""
+version = "2.04"
+description = "Distortion and amp simulator replicating a wide range of distortion styles and guitar amp sounds."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.bluecataudio.com/Products/Product_Destructor/"
 is_paid = true
 
 [formats.vst3]

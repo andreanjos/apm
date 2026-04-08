@@ -2,11 +2,12 @@ slug = "e-graphic-eq"
 name = "E-Graphic EQ"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Graphic equalizer plugin from the E-Series providing detailed band-by-band spectral control."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

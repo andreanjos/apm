@@ -2,11 +2,12 @@ slug = "kontakt-bundle"
 name = "Kontakt Bundle"
 vendor = "AudioThing"
 version = "1.0.0"
-description = ""
+description = "Bundle of all AudioThing Kontakt instruments including percussion, keys, synths, and soundscape libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/"
 is_paid = true
 
 [formats.vst3]

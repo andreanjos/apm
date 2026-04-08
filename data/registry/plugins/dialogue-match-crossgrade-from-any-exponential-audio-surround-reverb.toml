@@ -1,11 +1,12 @@
 slug = "dialogue-match-crossgrade-from-any-exponential-audio-surround-reverb"
 name = "Dialogue Match Crossgrade from ANY Exponential Audio Surround Reverb"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "1.3.0"
+description = "Crossgrade to Dialogue Match for Pro Tools, matching reverb, EQ, and ambience between dialogue recordings."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products/dialogue-match"
 is_paid = true
 
 [formats.vst3]

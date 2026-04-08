@@ -1,12 +1,13 @@
 slug = "olafur-arnalds-composer-toolkit"
 name = "Olafur Arnalds Composer Toolkit"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Composer toolkit by BAFTA-winning Ólafur Arnalds for creating intimate, emotional cinematic soundscapes."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/olafur-arnalds-composer-toolkit/"
 is_paid = true
 
 [formats.vst3]

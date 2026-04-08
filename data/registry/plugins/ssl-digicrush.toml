@@ -2,11 +2,12 @@ slug = "ssl-digicrush"
 name = "SSL DigiCrush"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "Lo-fi bitcrusher plugin delivering gritty digital distortion with adjustable bit depth and sample rate reduction."
 category = "effects"
 subcategory = "bit crusher"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/digicrush"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/14131-SSL-DigiCrush"
 

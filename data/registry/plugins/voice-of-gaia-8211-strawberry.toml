@@ -1,14 +1,14 @@
 slug = "voice-of-gaia-8211-strawberry"
 name = "Voice of Gaia &#8211; Strawberry"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Solo female voice Kontakt library featuring the singer Strawberry with sweet, pure vocal tones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://soundiron.com/products/voice-of-gaia-strawberry"
 
 [formats.vst3]
 url = ""

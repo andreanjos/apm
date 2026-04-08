@@ -2,11 +2,12 @@ slug = "retromod-106"
 name = "RetroMod 106"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "RetroMod instrument plugin capturing the lush, warm sound of the classic Roland Juno-106 synthesizer."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/retromod"
 is_paid = true
 
 [formats.vst3]

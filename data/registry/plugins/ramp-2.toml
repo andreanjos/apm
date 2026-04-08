@@ -1,12 +1,13 @@
 slug = "ramp-2"
 name = "Ramp 2"
 vendor = "BeatSkillz"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Volume shaper plugin with tempo-synced envelopes for creating rhythmic gating and sidechain effects."
 category = "effects"
 subcategory = "envelope shaper"
 license = "commercial"
 tags = []
+homepage = "https://www.beatskillz.com/shop/ramp/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/9403-Ramp-2"
 

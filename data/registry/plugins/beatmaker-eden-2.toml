@@ -1,12 +1,13 @@
 slug = "beatmaker-eden-2"
 name = "Beatmaker EDEN 2"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "EDM and dance-focused drum machine plugin delivering electronic club-ready beats."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/beatmaker/eden/"
 is_paid = true
 
 [formats.vst3]

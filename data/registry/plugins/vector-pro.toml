@@ -2,11 +2,12 @@ slug = "vector-pro"
 name = "Vector Pro"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Vector synthesis collection inspired by the Sequential Prophet VS and Yamaha SY22 in three instruments."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/vector-pro"
 is_paid = true
 
 [formats.vst3]

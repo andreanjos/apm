@@ -2,11 +2,12 @@ slug = "retromod-lead"
 name = "RetroMod Lead"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "RetroMod Lead synthesizer plugin delivering cutting lead synth tones from classic analog hardware."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/retromod"
 is_paid = true
 
 [formats.vst3]

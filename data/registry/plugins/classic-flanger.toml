@@ -1,12 +1,13 @@
 slug = "classic-flanger"
 name = "Classic Flanger"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Classic flanger effect plugin delivering vintage jet-flanging and metallic modulation tones."
 category = "effects"
 subcategory = "flanger"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p884-Classic-Flanger/"
 is_paid = true
 
 [formats.vst3]

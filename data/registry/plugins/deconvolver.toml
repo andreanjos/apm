@@ -1,11 +1,12 @@
 slug = "deconvolver"
 name = "Deconvolver"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "1.93"
+description = "Utility tool for extracting impulse responses through deconvolution of audio recordings."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/deconvolver/"
 is_paid = true
 
 [formats.vst3]

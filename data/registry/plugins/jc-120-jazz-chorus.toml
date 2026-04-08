@@ -1,12 +1,13 @@
 slug = "jc-120-jazz-chorus"
 name = "JC 120 Jazz Chorus"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Software model of Roland's legendary JC-120 Jazz Chorus amp with pristine clean tone and stereo chorus."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/products/rc_jc-120/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/15323-JC-120-Jazz-Chorus"
 

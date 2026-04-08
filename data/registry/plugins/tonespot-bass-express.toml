@@ -2,10 +2,11 @@ slug = "tonespot-bass-express"
 name = "ToneSpot Bass Express"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Bass mixing plugin with 134 presets covering rock, jazz, electronic, and genre-specific bass techniques."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/tonespot-bass-express/"
 is_paid = true
 
 [formats.vst3]

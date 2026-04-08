@@ -1,12 +1,13 @@
 slug = "finisher-dynamo"
 name = "Finisher Dynamo"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Creative FX plugin described as a magical movement machine for dynamic audio processing."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/finisher/dynamo/"
 is_paid = true
 
 [formats.vst3]

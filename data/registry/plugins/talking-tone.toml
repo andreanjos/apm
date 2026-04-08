@@ -1,11 +1,12 @@
 slug = "talking-tone"
 name = "Talking Tone"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Formant filter plugin delivering vocal-like talking tone effects and creative filter modulation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1158-Talking-Tone/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "d-50"
 name = "D 50"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Software recreation of Roland's landmark 1987 D-50 linear arithmetic synthesizer with LA synthesis."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/products/rc_d-50/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15264-D-50"
 

@@ -1,12 +1,13 @@
 slug = "spitfire-symphonic-strings-evolutions"
 name = "Spitfire Symphonic Strings Evolutions"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Endless textural string layers using the full Spitfire symphonic string section for evolving cinematic beds."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/spitfire-symphonic-strings-evolutions/"
 is_paid = true
 
 [formats.vst3]

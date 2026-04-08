@@ -1,12 +1,13 @@
 slug = "chillhop-bundle-crossgrade-from-phat-2"
 name = "Chillhop Bundle Crossgrade from PHAT 2"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Crossgrade bundle of chillhop-focused UJAM plugins from Virtual Drummer PHAT 2."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/store/"
 is_paid = true
 
 [formats.vst3]

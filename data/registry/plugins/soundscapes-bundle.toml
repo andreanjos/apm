@@ -2,13 +2,13 @@ slug = "soundscapes-bundle"
 name = "Soundscapes Bundle"
 vendor = "AudioThing"
 version = "1.0.0"
-description = ""
+description = "Bundle of Soundscapes Vol.1 and Vol.2, providing ambient textures and soundscape Kontakt instruments."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiothing.net/instruments/"
 
 [formats.vst3]
 url = ""

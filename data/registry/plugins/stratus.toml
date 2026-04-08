@@ -1,11 +1,12 @@
 slug = "stratus"
 name = "Stratus"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "3.1.0"
+description = "Exponential Audio Stratus stereo algorithmic reverb delivering lush, highly detailed ambience."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products"
 is_paid = true
 
 [formats.vst3]

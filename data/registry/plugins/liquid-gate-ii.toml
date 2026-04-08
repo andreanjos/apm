@@ -1,12 +1,13 @@
 slug = "liquid-gate-ii"
 name = "Liquid Gate II"
 vendor = "Nomad Factory"
-version = "1.0.0"
-description = ""
+version = "3.0.1"
+description = "Analog-modeled gate plugin from the Liquid II series for precise noise reduction and transient control."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p747-Liquid-Gate/"
 is_paid = true
 
 [formats.vst3]

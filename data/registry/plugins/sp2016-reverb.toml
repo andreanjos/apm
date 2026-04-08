@@ -2,11 +2,12 @@ slug = "sp2016-reverb"
 name = "SP2016 Reverb"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Lush classic stereo reverb emulating the vintage SP2016 hardware with Room, Stereo Room, and Plate algorithms."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/sp2016-reverb/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/4747-SP2016-Reverb"
 

@@ -1,12 +1,13 @@
 slug = "urban-legend"
 name = "Urban Legend"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Massive hip-hop and R&B sample library with nearly 8,000 samples including construction kits and live instrumentation."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/urban-legend"
 is_paid = true
 
 [formats.vst3]

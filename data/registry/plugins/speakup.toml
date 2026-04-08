@@ -2,10 +2,11 @@ slug = "speakup"
 name = "SpeakUp"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Auto-ducking plugin that automatically lowers background music when a voice signal is detected."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/speakup/"
 is_paid = true
 
 [formats.vst3]

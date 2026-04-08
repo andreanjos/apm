@@ -1,12 +1,13 @@
 slug = "acoustic-saz"
 name = "Acoustic Saz"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Detailed Kontakt library of the Turkish acoustic saz with multiple articulations and playing styles."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/acoustic-saz"
 is_paid = true
 
 [formats.vst3]

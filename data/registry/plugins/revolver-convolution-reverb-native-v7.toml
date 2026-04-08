@@ -1,12 +1,13 @@
 slug = "revolver-convolution-reverb-native-v7"
 name = "Revolver Convolution Reverb Native v7"
 vendor = "McDSP"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Native v7 of McDSP Revolver, a convolution reverb engine with extensive impulse response library."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://mcdsp.com/plugin-index/revolver/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/8960-Revolver-Convolution-Reverb-Native-v7"
 

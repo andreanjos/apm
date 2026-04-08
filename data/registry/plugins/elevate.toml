@@ -2,11 +2,12 @@ slug = "elevate"
 name = "Elevate"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Advanced mastering bundle featuring an adaptive 26-band limiter, auditory EQ, saturation, and transient shaping."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/elevate-mastering-bundle/"
 is_paid = true
 
 [formats.vst3]

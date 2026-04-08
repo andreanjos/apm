@@ -1,12 +1,13 @@
 slug = "antidrum-3"
 name = "Antidrum 3"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Third volume of the Antidrum series of experimental Kontakt percussion instruments."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/antidrum-3"
 is_paid = true
 
 [formats.vst3]

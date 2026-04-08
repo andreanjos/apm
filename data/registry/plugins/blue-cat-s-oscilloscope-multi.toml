@@ -1,12 +1,13 @@
 slug = "blue-cat-s-oscilloscope-multi"
 name = "Blue Cat s Oscilloscope Multi"
 vendor = "Blue Cat Audio"
-version = "1.0.0"
-description = ""
+version = "2.44"
+description = "Multi-track waveform renderer and comparator with X-Y visualization for analyzing audio signals."
 category = "effects"
 subcategory = "spectral analysis"
 license = "commercial"
 tags = []
+homepage = "https://www.bluecataudio.com/Products/Product_OscilloscopeMulti/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/261-Blue-Cat-s-Oscilloscope-Multi"
 

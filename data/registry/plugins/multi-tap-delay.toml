@@ -1,12 +1,13 @@
 slug = "multi-tap-delay"
 name = "Multi-Tap Delay"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Multi-tap delay plugin with independent tap controls for complex, rhythmic delay patterns."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1691-Multi-Tap-Delay/"
 is_paid = true
 
 [formats.vst3]

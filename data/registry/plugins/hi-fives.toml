@@ -1,12 +1,13 @@
 slug = "hi-fives"
 name = "Hi Fives"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Percussive Kontakt instrument built entirely from hand claps, slaps, and body percussion."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/hi-fives"
 is_paid = true
 
 [formats.vst3]

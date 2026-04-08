@@ -1,12 +1,13 @@
 slug = "tr-707"
 name = "TR 707"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Software recreation of Roland's 1984 TR-707 digital rhythm composer drum machine."
 category = "instruments"
 subcategory = "drum machine"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/products/rc_tr-707/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/15313-TR-707"
 

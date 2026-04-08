@@ -1,12 +1,13 @@
 slug = "tablas"
 name = "Tablas"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Detailed Indian tabla Kontakt library with traditional strokes, tuning, and rhythmic articulations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/tablas"
 is_paid = true
 
 [formats.vst3]

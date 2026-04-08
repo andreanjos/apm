@@ -1,12 +1,13 @@
 slug = "virtual-pianist-vogue"
 name = "Virtual Pianist Vogue"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Big-stage entertainer piano plugin with expressive, performance-ready piano sounds."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/pianist/vogue/"
 is_paid = true
 
 [formats.vst3]

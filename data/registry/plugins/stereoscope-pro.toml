@@ -1,11 +1,12 @@
 slug = "stereoscope-pro"
 name = "StereoScope Pro"
 vendor = "Blue Cat Audio"
-version = "1.0.0"
-description = ""
+version = "2.14"
+description = "Real-time stereo field analyzer with 3D visualization and MIDI/automation output capabilities."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.bluecataudio.com/Products/Product_StereoScopePro/"
 is_paid = true
 
 [formats.vst3]

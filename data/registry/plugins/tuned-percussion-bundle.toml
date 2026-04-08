@@ -1,12 +1,13 @@
 slug = "tuned-percussion-bundle"
 name = "Tuned Percussion Bundle"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle of Soundiron's tuned percussion Kontakt libraries including bells, marimbas, and more."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/tuned-percussion-bundle"
 is_paid = true
 
 [formats.vst3]

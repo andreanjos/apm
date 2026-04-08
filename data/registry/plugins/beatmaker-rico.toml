@@ -1,12 +1,13 @@
 slug = "beatmaker-rico"
 name = "Beatmaker RICO"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Reggaeton drum machine plugin with authentic Latin percussion rhythms and patterns."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/beatmaker/rico/"
 is_paid = true
 
 [formats.vst3]

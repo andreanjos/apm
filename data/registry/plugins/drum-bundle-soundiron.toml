@@ -1,12 +1,13 @@
 slug = "drum-bundle-soundiron"
 name = "Drum Bundle"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Comprehensive bundle of Soundiron drum and percussion Kontakt libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/drum-bundle"
 is_paid = true
 
 [formats.vst3]

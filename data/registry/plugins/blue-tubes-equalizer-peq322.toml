@@ -2,11 +2,12 @@ slug = "blue-tubes-equalizer-peq322"
 name = "Blue Tubes Equalizer PEQ322"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "3-band parametric EQ plugin from the Blue Tubes series for smooth analog-style frequency adjustment."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p436-Blue-Tubes-Equalizer-PEQ322/"
 is_paid = true
 
 [formats.vst3]

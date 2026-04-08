@@ -1,12 +1,13 @@
 slug = "dusty-roads"
 name = "Dusty Roads"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Vintage Americana keyboard Kontakt instrument with dusty, road-worn character and warmth."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/dusty-roads"
 is_paid = true
 
 [formats.vst3]

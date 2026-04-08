@@ -2,11 +2,12 @@ slug = "ultrachannel"
 name = "UltraChannel"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "High-precision channel strip with routable Gate, Parametric EQ, dual Compressors, Delay, and Pitch Shift."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/ultrachannel/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/3064-UltraChannel"
 

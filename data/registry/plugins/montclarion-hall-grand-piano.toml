@@ -1,12 +1,13 @@
 slug = "montclarion-hall-grand-piano"
 name = "Montclarion Hall Grand Piano"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Richly sampled concert grand piano recorded in Montclarion Hall with lush, full-bodied tone."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/montclarion-hall-grand-piano"
 is_paid = true
 
 [formats.vst3]

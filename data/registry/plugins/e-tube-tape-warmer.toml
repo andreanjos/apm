@@ -2,10 +2,11 @@ slug = "e-tube-tape-warmer"
 name = "E-Tube Tape Warmer"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Tube and tape saturation plugin adding analog warmth, harmonic distortion, and vintage coloration."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

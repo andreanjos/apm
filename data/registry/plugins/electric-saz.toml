@@ -1,12 +1,13 @@
 slug = "electric-saz"
 name = "Electric Saz"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Detailed Kontakt library of the Turkish electric saz with pickup-driven articulations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/electric-saz"
 is_paid = true
 
 [formats.vst3]

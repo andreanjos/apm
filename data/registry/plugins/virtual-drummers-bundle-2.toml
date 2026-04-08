@@ -1,12 +1,13 @@
 slug = "virtual-drummers-bundle-2"
 name = "Virtual Drummers Bundle 2"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Second-generation bundle of all UJAM Virtual Drummer instruments for complete coverage."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/drummer/"
 is_paid = true
 
 [formats.vst3]

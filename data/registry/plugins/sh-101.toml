@@ -1,12 +1,13 @@
 slug = "sh-101"
 name = "SH 101"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "ACB-modeled software recreation of Roland's iconic 1982 SH-101 monophonic synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/products/rc_sh-101/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15278-SH-101"
 

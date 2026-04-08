@@ -1,12 +1,13 @@
 slug = "f-59-classic-guitar-amp"
 name = "F 59 Classic Guitar Amp"
 vendor = "Fuse Audio Labs"
-version = "1.0.0"
-description = ""
+version = "2.7"
+description = "Classic guitar amplifier emulation plugin modeled after a vintage American combo amp."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://fuseaudiolabs.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/13881-F-59-Classic-Guitar-Amp"
 

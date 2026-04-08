@@ -1,14 +1,14 @@
 slug = "acoustic-038-electric-saz-bundle"
 name = "Acoustic &#038; Electric Saz Bundle"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle combining acoustic and electric saz sample libraries for Kontakt."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://soundiron.com/products/acoustic-electric-saz-collection"
 
 [formats.vst3]
 url = ""

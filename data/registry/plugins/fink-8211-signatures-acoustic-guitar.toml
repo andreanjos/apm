@@ -1,13 +1,13 @@
 slug = "fink-8211-signatures-acoustic-guitar"
 name = "Fink &#8211; Signatures Acoustic Guitar"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Definitive acoustic guitar toolkit by singer-songwriter Fink, full of character and sonic depth."
 category = "instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.spitfireaudio.com/shop/a-z/fink-signatures/"
 
 [formats.vst3]
 url = ""

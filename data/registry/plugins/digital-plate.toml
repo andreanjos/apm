@@ -1,11 +1,12 @@
 slug = "digital-plate"
 name = "Digital Plate"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Digital plate reverb plugin delivering classic studio plate reverb tones for vocals and instruments."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p886-Digital-Plate/"
 is_paid = true
 
 [formats.vst3]

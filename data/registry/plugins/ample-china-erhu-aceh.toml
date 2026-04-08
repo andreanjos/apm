@@ -1,12 +1,13 @@
 slug = "ample-china-erhu-aceh"
 name = "Ample China Erhu ACEH"
 vendor = "Ample Sound"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "Chinese erhu two-string fiddle virtual instrument capturing expressive bowing articulations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

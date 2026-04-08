@@ -1,12 +1,13 @@
 slug = "sa-3-spectral-processor"
 name = "SA 3 Spectral Processor"
 vendor = "McDSP"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "McDSP SA-3 Spectral Processor for advanced spectral audio analysis and processing."
 category = "effects"
 subcategory = "spectral analysis"
 license = "commercial"
 tags = []
+homepage = "https://mcdsp.com/plugin-index/sa-3/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/11638-SA-3-Spectral-Processor"
 

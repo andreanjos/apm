@@ -1,12 +1,13 @@
 slug = "ample-guitar-sc"
 name = "Ample Guitar SC"
 vendor = "Ample Sound"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "Electric guitar virtual instrument based on a Fender Stratocaster for bright single-coil tones."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/pro-pd.asp?id=2"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15098-Ample-Guitar-SC"
 

@@ -2,11 +2,12 @@ slug = "fusion-hf-compressor"
 name = "Fusion HF Compressor"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "Plugin emulation of the SSL Fusion high-frequency compressor for smooth tape-like HF roll-off."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-hf-compressor-plug-in"
 is_paid = true
 
 [formats.vst3]

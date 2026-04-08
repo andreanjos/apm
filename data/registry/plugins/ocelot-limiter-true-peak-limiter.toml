@@ -1,12 +1,13 @@
 slug = "ocelot-limiter-true-peak-limiter"
 name = "OCELOT Limiter True Peak Limiter"
 vendor = "Fuse Audio Labs"
-version = "1.0.0"
-description = ""
+version = "2.7"
+description = "True peak brickwall limiter plugin for broadcast-compliant loudness maximization in mastering."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://fuseaudiolabs.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/14144-OCELOT-Limiter-True-Peak-Limiter"
 

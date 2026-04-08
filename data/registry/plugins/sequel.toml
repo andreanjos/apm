@@ -2,11 +2,12 @@ slug = "sequel"
 name = "Sequel"
 vendor = "BeatSkillz"
 version = "1.0.0"
-description = ""
+description = "Vintage drum machine plugin recreating classic drum machine workflow with authentic sampled sounds."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.beatskillz.com/shop/sequel2/"
 is_paid = true
 
 [formats.vst3]

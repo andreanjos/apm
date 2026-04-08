@@ -1,12 +1,13 @@
 slug = "petroglyph"
 name = "Petroglyph"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Ancient-inspired Kontakt instrument with prehistoric, stone-carved tonal textures and atmosphere."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/petroglyph"
 is_paid = true
 
 [formats.vst3]

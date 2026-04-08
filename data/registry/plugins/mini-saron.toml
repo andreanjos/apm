@@ -1,12 +1,13 @@
 slug = "mini-saron"
 name = "Mini Saron"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt library of the mini saron, a small Javanese gamelan metallophone with bright tones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/mini-saron"
 is_paid = true
 
 [formats.vst3]

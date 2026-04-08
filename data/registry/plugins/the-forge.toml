@@ -2,11 +2,12 @@ slug = "the-forge"
 name = "The Forge"
 vendor = "Audiority"
 version = "1.0.0"
-description = ""
+description = "Powerful Kontakt sample library for film/TV/games composers with acoustic, designed, and synthetic drums."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/the-forge/"
 is_paid = true
 
 [formats.vst3]

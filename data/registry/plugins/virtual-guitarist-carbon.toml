@@ -1,12 +1,13 @@
 slug = "virtual-guitarist-carbon"
 name = "Virtual Guitarist CARBON"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Heavy electric guitar plugin delivering tough, aggressive tones and powerful riffs."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/guitarist/carbon/"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "sta-preamp"
 name = "STA Preamp"
 vendor = "Audified"
-version = "1.0.0"
-description = ""
+version = "2.1.0"
+description = "Tube preamp simulator using STA summing tube amp technology for subtle, musical valve saturation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/sta-preamp/"
 is_paid = true
 
 [formats.vst3]

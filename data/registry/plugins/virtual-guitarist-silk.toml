@@ -1,12 +1,13 @@
 slug = "virtual-guitarist-silk"
 name = "Virtual Guitarist Silk"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Smooth and elegant acoustic guitar plugin delivering refined, expressive performances."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/guitarist/silk/"
 is_paid = true
 
 [formats.vst3]

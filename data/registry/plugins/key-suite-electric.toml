@@ -2,11 +2,12 @@ slug = "key-suite-electric"
 name = "Key Suite Electric"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Essential electric keys with 63 instruments including tines, reeds, clavs, and analog EP emulations."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/key-suite-electric"
 is_paid = true
 
 [formats.vst3]

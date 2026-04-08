@@ -2,11 +2,12 @@ slug = "sequel-upgrade-from-retrohit-synthwave-drums-or-breakdance-drums"
 name = "Sequel Upgrade from RetroHit, Synthwave Drums or Breakdance Drums"
 vendor = "BeatSkillz"
 version = "1.0.0"
-description = ""
+description = "Upgrade path to Sequel for existing RetroHit, Synthwave Drums, or Breakdance Drums owners."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.beatskillz.com/store/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "organetta"
 name = "Organetta"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument sampling a 1950s Hohner portable reed organ with condenser and piezo microphones."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/organetta/"
 is_paid = true
 
 [formats.vst3]

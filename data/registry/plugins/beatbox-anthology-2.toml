@@ -2,11 +2,12 @@ slug = "beatbox-anthology-2"
 name = "BeatBox Anthology 2"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Massive hardware drum machine collection with over 11,000 samples from 111 vintage and modern drum machines."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/beatbox-anthology-2"
 is_paid = true
 
 [formats.vst3]

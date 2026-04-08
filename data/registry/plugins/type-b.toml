@@ -1,12 +1,13 @@
 slug = "type-b"
 name = "Type B"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Harmonic exciter plugin adding presence and high-frequency sheen inspired by vintage analog hardware."
 category = "effects"
 subcategory = "exciter"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/type-b/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "eko-panda"
 name = "Eko Panda"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Vintage Eko Panda keyboard Kontakt instrument with retro, characterful analog tones."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/eko-panda"
 is_paid = true
 
 [formats.vst3]

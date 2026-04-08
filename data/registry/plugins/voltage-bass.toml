@@ -1,12 +1,13 @@
 slug = "voltage-bass"
 name = "Voltage Bass"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Electric bass guitar Kontakt library with voltage-driven, powerful low-end tone and articulations."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/voltage-bass"
 is_paid = true
 
 [formats.vst3]

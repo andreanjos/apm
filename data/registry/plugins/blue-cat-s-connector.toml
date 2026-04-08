@@ -1,12 +1,13 @@
 slug = "blue-cat-s-connector"
 name = "Blue Cat s Connector"
 vendor = "Blue Cat Audio"
-version = "1.0.0"
-description = ""
+version = "1.43"
+description = "Real-time audio and MIDI streaming plug-in for sharing audio between computers or applications with minimal latency."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.bluecataudio.com/Products/Product_Connector/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/8606-Blue-Cat-s-Connector"
 

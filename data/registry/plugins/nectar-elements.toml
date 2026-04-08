@@ -1,11 +1,12 @@
 slug = "nectar-elements"
 name = "Nectar Elements"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Entry-level iZotope vocal processing plugin with AI-powered Vocal Assistant for quick, polished vocals."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products/nectar"
 is_paid = true
 
 [formats.vst3]

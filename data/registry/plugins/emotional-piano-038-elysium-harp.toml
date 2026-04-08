@@ -1,14 +1,14 @@
 slug = "emotional-piano-038-elysium-harp"
 name = "Emotional Piano &#038; Elysium Harp"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle pairing the Emotional Piano and Elysium Harp Kontakt libraries at a discounted price."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://soundiron.com/products/emotional-piano-elysium-harp"
 
 [formats.vst3]
 url = ""

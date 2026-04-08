@@ -2,11 +2,12 @@ slug = "ssl-sourcerer"
 name = "SSL Sourcerer"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "Highly optimized expander plugin that reduces mic bleed in live and studio recordings without gating artifacts."
 category = "effects"
 subcategory = "expander"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/sourcerer"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/37-Expander/12556-SSL-Sourcerer"
 

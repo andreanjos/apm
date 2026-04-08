@@ -2,11 +2,12 @@ slug = "forzo-modern-brass"
 name = "FORZO: Modern Brass"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "26-piece brass orchestra with 100+ articulations, hybrid design engine, and 400+ tempo-synced loops for modern scoring."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/forzo"
 is_paid = true
 
 [formats.vst3]

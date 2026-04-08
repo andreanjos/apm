@@ -1,11 +1,12 @@
 slug = "transcontrol"
 name = "Transcontrol"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Transient designer plugin for independently shaping the attack and sustain of any audio signal."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p877-Transcontrol/"
 is_paid = true
 
 [formats.vst3]

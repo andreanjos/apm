@@ -2,11 +2,12 @@ slug = "retromod-complete-collection"
 name = "Retromod Complete Collection"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "Complete collection of all RetroMod synth plugins covering Wired, Classic, and Modern hardware emulations."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/retromod"
 is_paid = true
 
 [formats.vst3]

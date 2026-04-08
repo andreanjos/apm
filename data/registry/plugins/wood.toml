@@ -1,12 +1,13 @@
 slug = "wood"
 name = "Wood"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument with sampled wooden percussion including claves, bowls, castanets, and wooden drum hits."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/wood/"
 is_paid = true
 
 [formats.vst3]

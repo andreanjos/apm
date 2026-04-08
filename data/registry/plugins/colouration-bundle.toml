@@ -2,11 +2,12 @@ slug = "colouration-bundle"
 name = "Colouration Bundle"
 vendor = "Voxengo"
 version = "1.0.0"
-description = ""
+description = "Bundle of Voxengo coloration plugins including HarmoniEQ, LF Max Punch, TransGainer, and VariSaturator."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "sound-particles-6fx-bundle"
 name = "Sound Particles 6FX Bundle"
 vendor = "Sound Particles"
 version = "1.0.0"
-description = ""
+description = "Bundle of six Sound Particles FX plugins for comprehensive immersive audio processing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products"
 is_paid = true
 
 [formats.vst3]

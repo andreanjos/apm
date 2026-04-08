@@ -1,12 +1,13 @@
 slug = "ambient-guitars"
 name = "Ambient Guitars"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Lush, atmospheric guitar library crafted for cinematic ambience and evolving textural soundscapes."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/ambient-guitars/"
 is_paid = true
 
 [formats.vst3]

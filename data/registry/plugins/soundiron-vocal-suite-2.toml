@@ -1,12 +1,13 @@
 slug = "soundiron-vocal-suite-2"
 name = "SOUNDIRON VOCAL SUITE 2"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt Player vocal suite bundle featuring multiple voice libraries for cinematic scoring."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/soundiron-vocal-suite-2"
 is_paid = true
 
 [formats.vst3]

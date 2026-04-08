@@ -1,12 +1,13 @@
 slug = "chorus-ensembler"
 name = "Chorus Ensembler"
 vendor = "Audiority"
-version = "1.0.0"
-description = ""
+version = "1.1.2"
+description = "Vintage BBD chorus/vibrato plug-in emulating classic ensemble chorus bucket-brigade circuits."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/chorus-ensembler/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/9169-Chorus-Ensembler"
 

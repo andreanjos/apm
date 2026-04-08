@@ -1,12 +1,13 @@
 slug = "spirit-of-raga"
 name = "Spirit of Raga"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Classical Indian vocal samples featuring Hindustani and Carnatic styles with devotional and traditional music elements."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/spirit-of-raga"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "contemporary-drama-toolkit"
 name = "Contemporary Drama Toolkit"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Broadcast-ready scoring toolkit by Samuel Sim blending synths, vocalisations, guitar, and electric strings."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/contemporary-drama-toolkit/"
 is_paid = true
 
 [formats.vst3]

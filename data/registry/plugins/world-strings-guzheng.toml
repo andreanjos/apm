@@ -1,12 +1,13 @@
 slug = "world-strings-guzheng"
 name = "World Strings Guzheng"
 vendor = "Evolution Series"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "18 GB Kontakt library of the Chinese Guzheng zither with extensive articulations and round robins."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.evolutionseries.com/product/world-strings-guzheng-2-0/"
 is_paid = true
 
 [formats.vst3]

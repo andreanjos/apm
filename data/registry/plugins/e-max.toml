@@ -1,12 +1,13 @@
 slug = "e-max"
 name = "E-Max"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Maximizing EQ plugin combining equalization and limiting for punchy, loud mixes."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p827-E-Max/"
 is_paid = true
 
 [formats.vst3]

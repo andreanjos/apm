@@ -2,11 +2,12 @@ slug = "ssl-essentials-bundle"
 name = "SSL Essentials Bundle"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "Bundle of essential SSL Native plugins for professional mixing and processing in the studio."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-essentials-bundle-"
 is_paid = true
 
 [formats.vst3]

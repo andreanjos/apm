@@ -1,12 +1,13 @@
 slug = "chorus-ensemble"
 name = "Chorus Ensemble"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Classic chorus ensemble effect plugin with lush, shimmering modulation inspired by vintage hardware."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p879-Chorus-Ensemble/"
 is_paid = true
 
 [formats.vst3]

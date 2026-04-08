@@ -2,11 +2,12 @@ slug = "urban-x"
 name = "Urban X"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "3-layer sample-synth for modern urban music styles with 6,000+ sounds covering hip-hop, EDM, pop, and sound design."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/urban-x"
 is_paid = true
 
 [formats.vst3]

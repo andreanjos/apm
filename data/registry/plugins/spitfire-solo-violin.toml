@@ -1,12 +1,13 @@
 slug = "spitfire-solo-violin"
 name = "Spitfire Solo Violin"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Expressive solo violin performed by virtuoso Jack Liebeck in The Hall at AIR Studios."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/en-us/products/spitfire-solo-violin"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "sick-5"
 name = "Sick 5"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Fifth volume of the Sick series — malformed and corrupted Kontakt sound design instrument."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/sick-5"
 is_paid = true
 
 [formats.vst3]

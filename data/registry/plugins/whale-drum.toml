@@ -1,12 +1,13 @@
 slug = "whale-drum"
 name = "Whale Drum"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument built from a whale drum steel tongue instrument with deep, oceanic resonance."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/whale-drum"
 is_paid = true
 
 [formats.vst3]

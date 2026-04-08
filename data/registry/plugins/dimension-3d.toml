@@ -1,11 +1,12 @@
 slug = "dimension-3d"
 name = "Dimension 3D"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Stereo widening and 3D spatial enhancement plugin for adding depth and width to any audio."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p872-Dimension-3D/"
 is_paid = true
 
 [formats.vst3]

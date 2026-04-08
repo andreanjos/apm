@@ -1,12 +1,13 @@
 slug = "hopkin-instrumentarium-tines-echoes"
 name = "Hopkin Instrumentarium: Tines & Echoes"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt Player library of tine and echo instruments from custom builder Bart Hopkin."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/hopkin-instrumentarium-tines-echoes"
 is_paid = true
 
 [formats.vst3]

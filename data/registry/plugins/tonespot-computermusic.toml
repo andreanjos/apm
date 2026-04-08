@@ -2,10 +2,11 @@ slug = "tonespot-computermusic"
 name = "ToneSpot ComputerMusic"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "ToneSpot edition created for Computer Music magazine with curated presets for music production."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/tonespot-computermusic/"
 is_paid = true
 
 [formats.vst3]

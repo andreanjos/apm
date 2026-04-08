@@ -2,11 +2,12 @@ slug = "daw-essentials-collection"
 name = "DAW Essentials Collection"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "Bundle of 16 contemporary FX plugins covering EQ, dynamics, reverb, delay, and modulation for any DAW."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/daw-essentials-collection"
 is_paid = true
 
 [formats.vst3]

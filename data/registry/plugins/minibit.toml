@@ -1,12 +1,13 @@
 slug = "minibit"
 name = "miniBit"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.8"
+description = "8-bit/chiptune synthesizer emulating 80s game consoles with 18 waveforms and a step sequencer."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/minibit/"
 is_paid = true
 
 [formats.vst3]

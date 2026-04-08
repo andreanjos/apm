@@ -2,11 +2,12 @@ slug = "retromod-lofreq-classic"
 name = "RetroMod LoFreq Classic"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "RetroMod Classic bass synthesizer plugin recreating deep, classic low-frequency analog mono synth tones."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/retromod"
 is_paid = true
 
 [formats.vst3]

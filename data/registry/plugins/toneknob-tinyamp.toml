@@ -1,12 +1,13 @@
 slug = "toneknob-tinyamp"
 name = "ToneKnob TinyAmp"
 vendor = "Audified"
-version = "1.0.0"
-description = ""
+version = "1.0.0.23"
+description = "Single-knob guitar amp tone plugin delivering classic amp character with minimal controls."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/toneknob-ultimate-bundle/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/15241-ToneKnob-TinyAmp"
 

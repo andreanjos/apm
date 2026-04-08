@@ -2,11 +2,12 @@ slug = "ircam-prepared-piano-2"
 name = "IRCAM Prepared Piano 2"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Avant-garde prepared piano with 45 preparation techniques and 12,000+ samples recorded at the IRCAM Institute in Paris."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/ircam-prepared-piano-2"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "blue-tubes-equalizer-geq12"
 name = "Blue Tubes Equalizer GEQ12"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "12-band graphic equalizer plugin from the Blue Tubes series for detailed spectral control."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p434-Blue-Tubes-Equalizer-GEQ12/"
 is_paid = true
 
 [formats.vst3]

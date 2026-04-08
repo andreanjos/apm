@@ -1,12 +1,13 @@
 slug = "scraped-percussion"
 name = "Scraped Percussion"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Unusual scraped orchestral percussion library offering gritty, unconventional textures for cinematic scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/scraped-percussion/"
 is_paid = true
 
 [formats.vst3]

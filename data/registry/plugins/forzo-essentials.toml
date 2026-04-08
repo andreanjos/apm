@@ -2,11 +2,12 @@ slug = "forzo-essentials"
 name = "FORZO Essentials"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Condensed modern brass engine with 2.9GB of epic horns, trumpets, tubas, and trombones for cinematic scoring."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/forzo-essentials"
 is_paid = true
 
 [formats.vst3]

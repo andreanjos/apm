@@ -1,12 +1,13 @@
 slug = "ultramaxit"
 name = "Ultramaxit"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Expander and noise gate plugin for dynamic range expansion and noise floor reduction."
 category = "effects"
 subcategory = "expander"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p876-Ultramaxit/"
 is_paid = true
 
 [formats.vst3]

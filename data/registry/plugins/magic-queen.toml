@@ -1,12 +1,13 @@
 slug = "magic-queen"
 name = "Magic Queen"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Amp simulator plugin emulating a classic high-wattage British amp for bold, powerful guitar tones."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p914-Magic-Queen/"
 is_paid = true
 
 [formats.vst3]

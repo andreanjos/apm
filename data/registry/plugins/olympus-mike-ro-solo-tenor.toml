@@ -1,12 +1,13 @@
 slug = "olympus-mike-ro-solo-tenor"
 name = "Olympus Mike-Ro Solo Tenor"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Solo tenor vocal Kontakt library from the Olympus Collection with expressive lyrical phrasing."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/olympus-mike-ro-solo-tenor"
 is_paid = true
 
 [formats.vst3]

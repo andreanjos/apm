@@ -1,12 +1,13 @@
 slug = "marimba-swarm"
 name = "Marimba Swarm"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Nine marimbas placed all over The Hall at AIR Studios delivering infectious hits and transfixing tremolando patches."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/marimba-swarm/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "beatmaker-berserk-crossgrade"
 name = "Beatmaker BERSERK Crossgrade"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Crossgrade license for Beatmaker BERSERK, the aggressive dubstep drum machine plugin."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/beatmaker/berserk/"
 is_paid = true
 
 [formats.vst3]

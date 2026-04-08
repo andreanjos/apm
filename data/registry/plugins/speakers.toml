@@ -1,12 +1,13 @@
 slug = "speakers"
 name = "Speakers"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.3.2"
+description = "Speaker and amp simulator plugin modeling various loudspeaker cabinets for tonal coloring and lo-fi effects."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/speakers/"
 is_paid = true
 
 [formats.vst3]

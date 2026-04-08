@@ -1,14 +1,14 @@
 slug = "synthwave-drums-v2"
 name = "Synthwave Drums V2"
 vendor = "BeatSkillz"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Synthwave drum plugin with retro 80s sounds for synthwave, vaporwave, and nu-disco production."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.beatskillz.com/shop/synthwave-drums-/"
 
 [formats.vst3]
 url = ""

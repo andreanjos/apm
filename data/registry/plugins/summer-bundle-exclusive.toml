@@ -2,11 +2,12 @@ slug = "summer-bundle-exclusive"
 name = "Summer Bundle (Exclusive)"
 vendor = "Audiority"
 version = "1.0.0"
-description = ""
+description = "Exclusive Audiority bundle of effect plug-ins offered as a limited summer promotion."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "deeva"
 name = "Deeva"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt instrument featuring 650+ female vocal samples for dance and R&B production with phrase manipulation."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/deeva"
 is_paid = true
 
 [formats.vst3]

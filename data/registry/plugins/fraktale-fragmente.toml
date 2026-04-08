@@ -1,12 +1,13 @@
 slug = "fraktale-fragmente"
 name = "Fraktale Fragmente"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Experimental multi-format sound library of handmade electronic signals for Kontakt and additional formats."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/fraktale-fragmente"
 is_paid = true
 
 [formats.vst3]

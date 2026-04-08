@@ -1,12 +1,13 @@
 slug = "canjo"
 name = "Canjo"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt library of the canjo, a one-string guitar made from a tin can with folk character."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/canjo"
 is_paid = true
 
 [formats.vst3]

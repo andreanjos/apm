@@ -2,11 +2,12 @@ slug = "ample-7in1-bass-bundle"
 name = "Ample 7in1 Bass Bundle"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Bundle of seven Ample Sound electric and acoustic bass virtual instruments."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

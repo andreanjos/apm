@@ -1,12 +1,13 @@
 slug = "abbey-road-one-orchestral-foundations"
 name = "Abbey Road One: Orchestral Foundations"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Full 90-piece symphonic orchestra recorded at Abbey Road Studios with strings, brass, woodwinds, and percussion."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/abbey-road-one-orchestral-foundations/"
 is_paid = true
 
 [formats.vst3]

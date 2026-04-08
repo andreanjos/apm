@@ -2,11 +2,12 @@ slug = "percussion-store"
 name = "Percussion Store"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "World percussion library with 150+ instruments delivering 6,000+ single-shot samples at 24-bit/96kHz."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/percussion-store"
 is_paid = true
 
 [formats.vst3]

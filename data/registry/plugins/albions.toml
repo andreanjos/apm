@@ -1,12 +1,13 @@
 slug = "albions"
 name = "Albions"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle collection of the acclaimed Albion orchestral series of cinematic scoring libraries."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/albions"
 is_paid = true
 
 [formats.vst3]

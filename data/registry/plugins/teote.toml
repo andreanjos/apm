@@ -1,11 +1,12 @@
 slug = "teote"
 name = "TEOTE"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "1.15"
+description = "Automatic spectral balancer plugin for tonal balance correction during mixing and mastering."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/teote/"
 is_paid = true
 
 [formats.vst3]

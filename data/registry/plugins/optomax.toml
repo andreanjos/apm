@@ -1,12 +1,13 @@
 slug = "optomax"
 name = "OptoMax"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Optical compressor plugin emulating smooth, musical opto-cell dynamic control for classic compression."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p826-OptoMax/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "jazzistic"
 name = "Jazzistic"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Jazz production toolkit with multi-sampled instruments, 1,000+ loops, and real-time band performance tools."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/jazzistic"
 is_paid = true
 
 [formats.vst3]

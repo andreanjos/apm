@@ -1,14 +1,14 @@
 slug = "iron-pack-5-8211-baritone-guitar"
 name = "Iron Pack 5 &#8211; Baritone Guitar"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Iron Pack Vol.5 — a baritone guitar Kontakt library with deep, resonant low-end character."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://soundiron.com/products/iron-pack-5-baritone-guitar"
 
 [formats.vst3]
 url = ""

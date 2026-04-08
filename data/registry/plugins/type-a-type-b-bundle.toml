@@ -2,11 +2,12 @@ slug = "type-a-type-b-bundle"
 name = "Type A & Type B Bundle"
 vendor = "AudioThing"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Type A optical compressor and Type B harmonic exciter plugins from AudioThing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/"
 is_paid = true
 
 [formats.vst3]

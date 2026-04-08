@@ -1,12 +1,13 @@
 slug = "skydust-3d"
 name = "SkyDust 3D"
 vendor = "Sound Particles"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "Sound Particles world-first spatial synthesizer with 8 oscillators per voice and full 3D audio support."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products/skydust"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10471-SkyDust-3D"
 

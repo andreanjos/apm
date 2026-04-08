@@ -1,12 +1,13 @@
 slug = "bowed-harp"
 name = "Bowed Harp"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument sampling an autoharp played with a pick and EBow for unique plucked and pad sounds."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/bowed-harp/"
 is_paid = true
 
 [formats.vst3]

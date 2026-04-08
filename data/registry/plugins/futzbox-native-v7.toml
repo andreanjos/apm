@@ -1,12 +1,13 @@
 slug = "futzbox-native-v7"
 name = "FutzBox Native v7"
 vendor = "McDSP"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Native v7 of McDSP FutzBox, a distortion and noise generator for lo-fi audio degradation effects."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://mcdsp.com/plugin-index/futzbox/"
 is_paid = true
 
 [formats.vst3]

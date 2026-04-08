@@ -1,12 +1,13 @@
 slug = "shudder"
 name = "Shudder"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Unsettling Kontakt instrument with trembling, shivering textures suited for dark cinematic scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/shudder"
 is_paid = true
 
 [formats.vst3]

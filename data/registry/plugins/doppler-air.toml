@@ -1,12 +1,13 @@
 slug = "doppler-air"
 name = "Doppler Air"
 vendor = "Sound Particles"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sound Particles bundle combining Doppler movement simulation with the Air distance attenuation plugin."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products/doppler"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/6419-Doppler-Air"
 

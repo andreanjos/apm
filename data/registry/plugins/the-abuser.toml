@@ -2,11 +2,12 @@ slug = "the-abuser"
 name = "The Abuser"
 vendor = "Audiority"
 version = "1.0.0"
-description = ""
+description = "Aggressive distortion plug-in for extreme and experimental high-gain saturation effects."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "jp-legacy"
 name = "JP Legacy"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Four-instrument suite with deep-sampled sounds from the iconic Roland Jupiter-4, 6, 8, and MKS-80 synthesizers."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/jp-legacy"
 is_paid = true
 
 [formats.vst3]

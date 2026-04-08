@@ -1,12 +1,13 @@
 slug = "animato"
 name = "Animato"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Uniquely realistic orchestral effects library with string and flute sounds from the Royal Liverpool Philharmonic."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/animato"
 is_paid = true
 
 [formats.vst3]

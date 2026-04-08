@@ -2,11 +2,12 @@ slug = "s12x"
 name = "S12X"
 vendor = "BeatSkillz"
 version = "1.0.0"
-description = ""
+description = "Bit-crusher plugin emulating vintage sampler degradation with variable sample rate and bit-depth control."
 category = "effects"
 subcategory = "bit crusher"
 license = "commercial"
 tags = []
+homepage = "https://www.beatskillz.com/shop/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/11769-S12X"
 

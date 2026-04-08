@@ -1,12 +1,13 @@
 slug = "ample-bass-p"
 name = "Ample Bass P"
 vendor = "Ample Sound"
-version = "1.0.0"
-description = ""
+version = "4.1"
+description = "Electric bass virtual instrument based on a Fender Precision Bass with extensive articulations."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/pro-pd.asp?id=9"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15128-Ample-Bass-P"
 

@@ -1,12 +1,13 @@
 slug = "voxformer"
 name = "Voxformer"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "2.22"
+description = "Multi-functional vocal channel strip plugin combining compression, EQ, de-essing, and saturation."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/voxformer/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "invalve-effects"
 name = "inValve Effects"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Tube preamp simulator plugin providing authentic valve warmth and harmonic saturation for any signal."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/invalve-effects/"
 is_paid = true
 
 [formats.vst3]

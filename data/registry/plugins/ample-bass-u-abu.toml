@@ -1,12 +1,13 @@
 slug = "ample-bass-u-abu"
 name = "Ample Bass U – ABU"
 vendor = "Ample Sound"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "Upright double bass virtual instrument capturing the iconic soulful jazz bass sound."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/pro-pd.asp?id=21"
 is_paid = true
 
 [formats.vst3]

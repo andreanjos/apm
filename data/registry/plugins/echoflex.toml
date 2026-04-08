@@ -1,12 +1,13 @@
 slug = "echoflex"
 name = "Echoflex"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Flexible delay plugin offering multiple delay modes, analog warmth, and versatile modulation options."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p887-Echoflex/"
 is_paid = true
 
 [formats.vst3]

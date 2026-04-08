@@ -2,11 +2,12 @@ slug = "ensemble-drums-collection"
 name = "Ensemble Drums Collection"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Master Sessions curated collection of taikos, roto toms, bass drums, and snares performed by 5-player ensembles."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/ms-ensembledrums"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "lute"
 name = "Lute"
 vendor = "Cinematique Instruments"
 version = "1.0.0"
-description = ""
+description = "Renaissance lute Kontakt instrument with authentic plucked string articulations for early music."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://cinematique-instruments.com/"
 is_paid = true
 
 [formats.vst3]

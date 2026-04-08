@@ -1,12 +1,13 @@
 slug = "aeolian-fan-harp"
 name = "Aeolian Fan Harp"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument capturing the ethereal resonances of a wind-driven fan harp."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/aeolian-fan-harp"
 is_paid = true
 
 [formats.vst3]

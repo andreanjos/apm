@@ -1,12 +1,13 @@
 slug = "mandolin-v1-5-cinematique-instruments"
 name = "Mandolin v1.5"
 vendor = "Cinematique Instruments"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "Mandolin Kontakt instrument with detailed articulations for authentic folk and classical mandolin sounds."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://cinematique-instruments.com/"
 is_paid = true
 
 [formats.vst3]

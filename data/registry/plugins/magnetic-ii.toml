@@ -2,10 +2,11 @@ slug = "magnetic-ii"
 name = "Magnetic II"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Tape emulation plugin modeling analog magnetic tape saturation, compression, and frequency response."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p897-Magnetic/"
 is_paid = true
 
 [formats.vst3]

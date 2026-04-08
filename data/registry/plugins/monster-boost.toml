@@ -1,12 +1,13 @@
 slug = "monster-boost"
 name = "Monster Boost"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Signal boost and enhancement plugin for adding energy, punch, and loudness to any audio source."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p894-Monster-Boost/"
 is_paid = true
 
 [formats.vst3]

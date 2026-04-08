@@ -1,11 +1,12 @@
 slug = "stereolizer"
 name = "Stereolizer"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Stereo widening plugin for expanding and enhancing the stereo image of mono or narrow sources."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1157-Stereolizer/"
 is_paid = true
 
 [formats.vst3]

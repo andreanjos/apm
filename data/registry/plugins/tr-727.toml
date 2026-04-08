@@ -1,12 +1,13 @@
 slug = "tr-727"
 name = "TR 727"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Software recreation of Roland's 1985 TR-727 Rhythm Composer featuring Latin percussion sounds."
 category = "instruments"
 subcategory = "drum machine"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/products/rc_tr-727/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/15314-TR-727"
 

@@ -1,12 +1,13 @@
 slug = "jewel-runner-49"
 name = "Jewel Runner 49"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Vintage 49-key keyboard Kontakt instrument with a jewel-like, sparkling tonal palette."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/jewel-runner-49"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "bronze-bin"
 name = "Bronze Bin"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument made from deeply sampled bronze bin resonances and metallic tones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/bronze-bin"
 is_paid = true
 
 [formats.vst3]

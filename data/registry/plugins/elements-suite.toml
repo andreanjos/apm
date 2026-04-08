@@ -1,12 +1,13 @@
 slug = "elements-suite"
 name = "Elements Suite"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "11"
+description = "Entry-level iZotope bundle of Elements editions for audio repair, mixing, mastering, and vocal processing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products/elements-suite"
 is_paid = true
 
 [formats.vst3]

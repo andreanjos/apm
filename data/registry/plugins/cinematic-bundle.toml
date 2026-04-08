@@ -1,12 +1,13 @@
 slug = "cinematic-bundle"
 name = "Cinematic Bundle"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Collection of UJAM cinematic virtual instruments for scoring and epic music production."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/store/"
 is_paid = true
 
 [formats.vst3]

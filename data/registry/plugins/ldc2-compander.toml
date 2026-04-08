@@ -1,12 +1,13 @@
 slug = "ldc2-compander"
 name = "LDC2 Compander"
 vendor = "Audiority"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Analog modeled optical compressor and expander plug-in for transparent dynamic control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/ldc2-compander/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/5074-LDC2-Compander"
 

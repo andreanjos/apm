@@ -1,12 +1,13 @@
 slug = "aluphone"
 name = "Aluphone"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Rare aluminium bell instrument delivering shimmering, resonant tones for unique cinematic textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/aluphone/"
 is_paid = true
 
 [formats.vst3]

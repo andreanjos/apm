@@ -2,11 +2,12 @@ slug = "ha-noi"
 name = "Ha Noi"
 vendor = "MNTRA Instruments"
 version = "1.0.0"
-description = ""
+description = "Virtual instrument featuring traditional Vietnamese instruments for cinematic and world music."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.mntra.io/product/ha-noi/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/11092-Ha-Noi"
 

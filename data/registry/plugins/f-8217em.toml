@@ -2,13 +2,13 @@ slug = "f-8217em"
 name = "f.&#8217;em"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "Powerful 11-operator FM synthesizer with freely configurable matrix supporting FM, VA, and sample synthesis."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.tracktion.com/products/f-em"
 
 [formats.vst3]
 url = ""

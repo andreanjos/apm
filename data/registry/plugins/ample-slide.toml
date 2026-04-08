@@ -1,12 +1,13 @@
 slug = "ample-slide"
 name = "Ample Slide"
 vendor = "Ample Sound"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "Slide guitar virtual instrument for expressive bottleneck and lap steel style guitar performances."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

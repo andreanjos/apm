@@ -2,11 +2,12 @@ slug = "egp-hybrid-electric-grand-piano"
 name = "EGP Hybrid Electric Grand Piano"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Hybrid electric grand piano combining acoustic and electric piano sources in a single deeply sampled instrument."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/egp"
 is_paid = true
 
 [formats.vst3]

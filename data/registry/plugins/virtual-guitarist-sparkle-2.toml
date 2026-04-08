@@ -1,12 +1,13 @@
 slug = "virtual-guitarist-sparkle-2"
 name = "Virtual Guitarist Sparkle 2"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Catchy electric rhythm guitar plugin with punchy, groove-forward performances."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/guitarist/sparkle/"
 is_paid = true
 
 [formats.vst3]

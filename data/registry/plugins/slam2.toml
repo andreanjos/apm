@@ -1,12 +1,13 @@
 slug = "slam2"
 name = "SLAM2"
 vendor = "BeatSkillz"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Channel strip plugin adding low-end punch, sub-bass harmonics, and saturation with minimal controls."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.beatskillz.com/shop/slam2/"
 is_paid = true
 
 [formats.vst3]

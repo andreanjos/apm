@@ -1,12 +1,13 @@
 slug = "panner-collection"
 name = "Panner Collection"
 vendor = "Sound Particles"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sound Particles bundle combining Energy Panner and Brightness Panner for intelligent auto-panning."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products"
 is_paid = true
 
 [formats.vst3]

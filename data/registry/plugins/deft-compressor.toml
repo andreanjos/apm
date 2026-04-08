@@ -2,11 +2,12 @@ slug = "deft-compressor"
 name = "Deft Compressor"
 vendor = "Voxengo"
 version = "1.0.0"
-description = ""
+description = "Musical compressor plugin with S-curve approach delivering warmth and natural-sounding dynamics."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/deftcomp/"
 is_paid = true
 
 [formats.vst3]

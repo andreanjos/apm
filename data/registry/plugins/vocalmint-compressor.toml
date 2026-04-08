@@ -2,11 +2,12 @@ slug = "vocalmint-compressor"
 name = "VocalMint Compressor"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Vocal-focused compressor plugin designed for transparent, musical dynamic control on voice tracks."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/vocalmint-compressor/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "tube-lab"
 name = "Tube Lab"
 vendor = "Fuse Audio Labs"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Vintage channel strip plugin with multi-tube preamp, Baxandall EQ, and optical compressor."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://fuseaudiolabs.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/17093-Tube-Lab"
 

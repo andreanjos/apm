@@ -1,11 +1,12 @@
 slug = "neoverb-crossgrade"
 name = "Neoverb Crossgrade"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Crossgrade offer to iZotope Neoverb, an intelligent reverb plugin with AI-assisted blend controls."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products/neoverb"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "ob-la-wah"
 name = "Ob La Wah"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Auto-wah filter plugin emulating classic envelope-triggered wah and funky filter effects."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1153-Ob-La-Wah/"
 is_paid = true
 
 [formats.vst3]

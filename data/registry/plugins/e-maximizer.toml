@@ -2,11 +2,12 @@ slug = "e-maximizer"
 name = "E-Maximizer"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Loudness maximizer plugin from the E-Series for transparent peak limiting and loudness optimization."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

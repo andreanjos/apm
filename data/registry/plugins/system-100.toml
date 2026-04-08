@@ -1,12 +1,13 @@
 slug = "system-100"
 name = "SYSTEM 100"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Software recreation of Roland's modular 1975 SYSTEM-100 semi-modular synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/products/rc_system-100/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15282-SYSTEM-100"
 

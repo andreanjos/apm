@@ -2,11 +2,12 @@ slug = "dawesome-chop-suey"
 name = "Dawesome Chop Suey"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "Sample sequencer plugin that chains samples in sequence rather than layers for efficient rhythmic playback."
 category = "instruments"
 subcategory = "generator"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/chop-suey"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/9236-Dawesome-Chop-Suey"
 

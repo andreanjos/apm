@@ -1,12 +1,13 @@
 slug = "sonespheres-3-current"
 name = "Sonespheres 3 – Current"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Third Sonespheres Kontakt volume featuring flowing, current-driven atmospheric soundscapes."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/sonespheres-3-current"
 is_paid = true
 
 [formats.vst3]

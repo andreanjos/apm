@@ -2,10 +2,11 @@ slug = "analog-studio-rack"
 name = "Analog Studio Rack"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Virtual analog studio rack bundle combining multiple processors for complete analog signal chain emulation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

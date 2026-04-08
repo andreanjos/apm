@@ -2,11 +2,12 @@ slug = "ample-2in1-ethno-bundle"
 name = "Ample 2in1 Ethno Bundle"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Bundle of two Ample Sound ethnic instrument virtual instruments for world music production."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

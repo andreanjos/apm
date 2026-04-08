@@ -1,12 +1,13 @@
 slug = "usynth-core-loyalty-crossgrade"
 name = "Usynth CORE Loyalty Crossgrade"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Loyalty crossgrade license for Usynth CORE all-purpose studio synthesizer plugin."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/usynth/core/"
 is_paid = true
 
 [formats.vst3]

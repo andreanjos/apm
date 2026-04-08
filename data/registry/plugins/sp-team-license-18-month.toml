@@ -2,11 +2,12 @@ slug = "sp-team-license-18-month"
 name = "SP Team License 18 month"
 vendor = "Sound Particles"
 version = "1.0.0"
-description = ""
+description = "18-month team license for Sound Particles software suite for collaborative immersive audio workflows."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products"
 is_paid = true
 
 [formats.vst3]

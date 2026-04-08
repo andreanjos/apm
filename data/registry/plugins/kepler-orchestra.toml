@@ -1,12 +1,13 @@
 slug = "kepler-orchestra"
 name = "Kepler Orchestra"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Interlocking orchestral rhythms inspired by Glass, Reich, Riley, and Adams, recorded at AIR Studio One."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/kepler-orchestra/"
 is_paid = true
 
 [formats.vst3]

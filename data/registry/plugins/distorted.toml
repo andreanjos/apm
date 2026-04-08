@@ -1,12 +1,13 @@
 slug = "distorted"
 name = "Distorted"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Classic distortion plugin emulating analog overdrive and high-gain distortion circuit tones."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p874-Distorted/"
 is_paid = true
 
 [formats.vst3]

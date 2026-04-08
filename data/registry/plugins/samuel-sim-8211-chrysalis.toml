@@ -1,14 +1,14 @@
 slug = "samuel-sim-8211-chrysalis"
 name = "Samuel Sim &#8211; Chrysalis"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Hybrid scoring instrument by BAFTA-winning composer Samuel Sim combining organic and electronic textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.spitfireaudio.com/shop/a-z/samuel-sim-chrysalis/"
 
 [formats.vst3]
 url = ""

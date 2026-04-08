@@ -1,14 +1,14 @@
 slug = "biotek-2"
 name = "BioTek 2"
 vendor = "Tracktion"
-version = "1.0.0"
-description = ""
+version = "2.x"
+description = "Multi-synthesis organic synthesizer combining virtual analog, FM, granular, and sample-based synthesis."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.tracktion.com/products/biotek"
 
 [formats.vst3]
 url = ""

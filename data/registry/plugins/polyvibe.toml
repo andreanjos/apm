@@ -1,11 +1,12 @@
 slug = "polyvibe"
 name = "PolyVibe"
 vendor = "Blue Cat Audio"
-version = "1.0.0"
-description = ""
+version = "1.04"
+description = "Complete vintage vibe pedal recreation simulating vibes, chorus, phaser, rotary, and wah effects."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.bluecataudio.com/Products/Product_PolyVibe/"
 is_paid = true
 
 [formats.vst3]

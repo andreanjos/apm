@@ -2,11 +2,12 @@ slug = "octamorph-fe"
 name = "Octamorph FE"
 vendor = "Audiority"
 version = "1.0.0"
-description = ""
+description = "8-layer cross-morphing Kontakt instrument for complex soundscapes, morphing drones, and risers."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/octamorph-fe/"
 is_paid = true
 
 [formats.vst3]

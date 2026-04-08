@@ -2,11 +2,12 @@ slug = "essential-studio-suite"
 name = "Essential Studio Suite"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Bundle of essential studio plugins covering EQ, dynamics, reverb, and modulation processing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

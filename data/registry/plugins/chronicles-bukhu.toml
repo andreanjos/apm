@@ -2,11 +2,12 @@ slug = "chronicles-bukhu"
 name = "Chronicles Bukhu"
 vendor = "Evolution Series"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of Mongolian throat singing and Morin Khuur with tempo-synced motion articulations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.evolutionseries.com/product/chronicles-bukhu/"
 is_paid = true
 
 [formats.vst3]

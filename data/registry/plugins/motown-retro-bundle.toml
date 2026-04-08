@@ -2,11 +2,12 @@ slug = "motown-retro-bundle"
 name = "Motown Retro Bundle"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Bundle of vintage Motown-inspired EQ and dynamics plugins recreating classic soul and R&B console sounds."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

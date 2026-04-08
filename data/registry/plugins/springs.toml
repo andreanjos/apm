@@ -1,11 +1,12 @@
 slug = "springs"
 name = "Springs"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.3.5"
+description = "Vintage spring reverb plugin emulating the mechanical resonance and character of classic spring reverb tanks."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/springs/"
 is_paid = true
 
 [formats.vst3]

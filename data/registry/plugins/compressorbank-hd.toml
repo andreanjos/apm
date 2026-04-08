@@ -1,12 +1,13 @@
 slug = "compressorbank-hd"
 name = "CompressorBank HD"
 vendor = "McDSP"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Pro Tools HD version of McDSP CompressorBank with three pro-quality compressor models."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://mcdsp.com/plugin-index/compressorbank/"
 is_paid = true
 
 [formats.vst3]

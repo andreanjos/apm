@@ -2,10 +2,11 @@ slug = "fusion-transformer"
 name = "Fusion Transformer"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "Plugin capturing the unique mojo of an analogue transformer from the SSL Fusion hardware processor."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-transformer"
 is_paid = true
 
 [formats.vst3]

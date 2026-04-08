@@ -1,12 +1,13 @@
 slug = "ample-bass-yinyang"
 name = "Ample Bass Yinyang"
 vendor = "Ample Sound"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "Electric bass virtual instrument based on a Fodera Yinyang Bass with 13 articulations and 5.1 GB samples."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/pro-pd.asp?id=23"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15126-Ample-Bass-Yinyang"
 

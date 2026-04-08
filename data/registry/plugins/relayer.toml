@@ -2,11 +2,12 @@ slug = "relayer"
 name = "ReLayer"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Multi-tap creative delay with up to 32 delay lines, per-tap modulation, and IR convolution tones."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/relayer"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/15556-ReLayer"
 

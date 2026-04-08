@@ -2,11 +2,12 @@ slug = "ample-6in1-china-bundle"
 name = "Ample 6in1 China Bundle"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Bundle of six Ample Sound Chinese traditional instrument virtual instruments."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

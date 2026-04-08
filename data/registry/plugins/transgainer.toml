@@ -1,11 +1,12 @@
 slug = "transgainer"
 name = "TransGainer"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "1.15"
+description = "Transient and sustain envelope adjustment plugin for dynamic shaping of audio signals."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/transgainer/"
 is_paid = true
 
 [formats.vst3]

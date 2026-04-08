@@ -1,12 +1,13 @@
 slug = "liquid-compressor-ii"
 name = "Liquid Compressor II"
 vendor = "Nomad Factory"
-version = "1.0.0"
-description = ""
+version = "3.0.1"
+description = "Vintage-modeled compressor plugin from the Liquid II series with smooth analog character."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p745-Liquid-Compressor/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "tonespot-express-bundle"
 name = "ToneSpot Express Bundle"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Bundle of all ToneSpot Express plugins covering acoustic, bass, drum, electric, and voice mixing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/tonespot-express-bundle/"
 is_paid = true
 
 [formats.vst3]

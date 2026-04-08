@@ -1,12 +1,13 @@
 slug = "rust-1"
 name = "Rust 1"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "First volume of the Rust series — industrial Kontakt instrument built from corroded metal objects."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/rust-1"
 is_paid = true
 
 [formats.vst3]

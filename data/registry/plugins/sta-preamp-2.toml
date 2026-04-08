@@ -1,11 +1,12 @@
 slug = "sta-preamp-2"
 name = "STA Preamp 2"
 vendor = "Audified"
-version = "1.0.0"
-description = ""
+version = "2.1.0"
+description = "Second-generation tube preamp simulator providing authentic valve warmth and harmonic saturation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/sta-preamp-2/"
 is_paid = true
 
 [formats.vst3]

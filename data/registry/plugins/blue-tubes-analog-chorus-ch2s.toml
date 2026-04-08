@@ -2,11 +2,12 @@ slug = "blue-tubes-analog-chorus-ch2s"
 name = "Blue Tubes Analog Chorus CH2S"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Analog chorus plugin from the Blue Tubes series delivering warm, lush modulation effects."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p426-Blue-Tubes-Analog-Chorus-CH2S/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,13 @@ slug = "mix-038-master-bundle-advanced-crossgrade-from-any-izotope-product-inc-f
 name = "Mix &#038; Master Bundle Advanced Crossgrade from ANY iZotope product (inc. Free and Elements)"
 vendor = "iZotope"
 version = "1.0.0"
-description = ""
+description = "Crossgrade to Mix & Master Bundle Advanced (Ozone, Neutron, Nectar, Neoverb) from any iZotope product."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.izotope.com/en/products"
 
 [formats.vst3]
 url = ""

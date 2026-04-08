@@ -1,14 +1,14 @@
 slug = "theremin-soundiron"
 name = "Theremin+"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Expressive theremin Kontakt instrument with authentic pitch and dynamics control."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://soundiron.com/products/theremin"
 
 [formats.vst3]
 url = ""

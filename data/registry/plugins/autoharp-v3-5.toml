@@ -1,12 +1,13 @@
 slug = "autoharp-v3-5"
 name = "Autoharp v3 5"
 vendor = "Cinematique Instruments"
-version = "1.0.0"
-description = ""
+version = "3.5"
+description = "Kontakt instrument featuring all 36 strings of the autoharp recorded with legato chords and round robin."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://cinematique-instruments.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8860-Autoharp-v3-5"
 

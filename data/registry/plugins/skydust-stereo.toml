@@ -1,12 +1,13 @@
 slug = "skydust-stereo"
 name = "SkyDust Stereo"
 vendor = "Sound Particles"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "Sound Particles SkyDust in stereo format, delivering 8-oscillator granular synthesis without 3D output."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products/skydust"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10470-SkyDust-Stereo"
 

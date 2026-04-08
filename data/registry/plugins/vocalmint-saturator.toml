@@ -2,10 +2,11 @@ slug = "vocalmint-saturator"
 name = "VocalMint Saturator"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Vocal saturation plugin adding subtle harmonic richness and presence to voice recordings."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/vocalmint-saturator/"
 is_paid = true
 
 [formats.vst3]

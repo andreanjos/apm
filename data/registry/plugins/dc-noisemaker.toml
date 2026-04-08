@@ -1,12 +1,13 @@
 slug = "dc-noisemaker"
 name = "DC Noisemaker"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Esoteric instruments toolkit centred on the musical saw, produced by Martyn Ware and David Coulter."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/dc-noisemaker"
 is_paid = true
 
 [formats.vst3]

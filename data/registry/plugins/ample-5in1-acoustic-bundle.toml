@@ -2,11 +2,12 @@ slug = "ample-5in1-acoustic-bundle"
 name = "Ample 5in1 Acoustic Bundle"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Bundle of five Ample Sound acoustic guitar virtual instruments for varied acoustic tones."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

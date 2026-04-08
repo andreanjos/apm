@@ -1,14 +1,14 @@
 slug = "things-8211-flip-eq"
 name = "Things &#8211; Flip EQ"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.2.1"
+description = "Creative EQ plugin with an unconventional approach to frequency shaping for unique tonal results."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiothing.net/effects/things-flip-eq/"
 
 [formats.vst3]
 url = ""

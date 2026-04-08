@@ -1,12 +1,13 @@
 slug = "cube"
 name = "Cube"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Geometric sound design Kontakt instrument with angular, structured tonal and percussive content."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/cube"
 is_paid = true
 
 [formats.vst3]

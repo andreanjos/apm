@@ -1,12 +1,13 @@
 slug = "outer-space-crossgrade-from-the-orb-or-wave-box"
 name = "Outer Space Crossgrade from The Orb or Wave Box"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "2.2.1"
+description = "Crossgrade to Outer Space 2, a vintage tape echo plugin with authentic analog delay character."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/outer-space/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "cosmos-nomad-factory"
 name = "Cosmos"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Harmonic exciter plugin adding air, presence, and analogue-style enhancement to any signal."
 category = "effects"
 subcategory = "exciter"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p1340-Cosmos/"
 is_paid = true
 
 [formats.vst3]

@@ -2,10 +2,11 @@ slug = "daw-essentials-reverber8"
 name = "DAW Essentials – Reverber8"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "Reverb plugin from the DAW Essentials Collection delivering natural room and hall reverb effects."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/daw-essentials-collection"
 is_paid = true
 
 [formats.vst3]

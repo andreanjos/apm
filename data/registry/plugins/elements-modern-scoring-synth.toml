@@ -1,12 +1,13 @@
 slug = "elements-modern-scoring-synth"
 name = "Elements – Modern Scoring Synth"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A 23GB Kontakt library with 8,500+ samples for contemporary film scores with hybrid synths and 500+ presets."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/elements-modern-scoring-synth"
 is_paid = true
 
 [formats.vst3]

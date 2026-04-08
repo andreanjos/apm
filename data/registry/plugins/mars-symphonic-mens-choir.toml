@@ -1,12 +1,13 @@
 slug = "mars-symphonic-mens-choir"
 name = "Mars Symphonic Men’s Choir"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "30-voice professional male choral library designed for film, TV and symphonic scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/mars-symphonic-mens-choir"
 is_paid = true
 
 [formats.vst3]

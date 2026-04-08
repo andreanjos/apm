@@ -2,11 +2,12 @@ slug = "aspire-modern-mallets"
 name = "ASPIRE: Modern Mallets"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Deep-sampled, heavily effected marimba and vibraphone instrument for modern cinematic mallet sound design."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/aspire"
 is_paid = true
 
 [formats.vst3]

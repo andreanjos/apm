@@ -2,11 +2,12 @@ slug = "orchestral-suite"
 name = "Orchestral Suite"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Essential symphonic collection with 60+ classical instruments, strings, brass, woodwinds, choir, and convolution reverb."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/orchestral-suite"
 is_paid = true
 
 [formats.vst3]

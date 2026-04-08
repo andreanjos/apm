@@ -2,12 +2,12 @@ slug = "spring-eventide"
 name = "Spring"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Authentic spring reverb emulation with two tank sizes, tube-amp tremolo, and independent damping controls."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.eventideaudio.com/plug-ins/spring/"
 
 [formats.vst3]
 url = ""

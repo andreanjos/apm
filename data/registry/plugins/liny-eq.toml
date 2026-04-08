@@ -1,12 +1,13 @@
 slug = "liny-eq"
 name = "Liny EQ"
 vendor = "Blue Cat Audio"
-version = "1.0.0"
-description = ""
+version = "5.24"
+description = "Eight-band linear phase equalizer with under-3ms latency and no phase distortion."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.bluecataudio.com/Products/Product_LinyEQ/"
 is_paid = true
 
 [formats.vst3]

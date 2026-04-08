@@ -1,12 +1,13 @@
 slug = "aztec-death-whistle"
 name = "Aztec Death Whistle"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Chilling Kontakt library of the ancient Aztec death whistle with its haunting screaming tones."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/aztec-death-whistle"
 is_paid = true
 
 [formats.vst3]

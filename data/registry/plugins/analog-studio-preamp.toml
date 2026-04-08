@@ -2,10 +2,11 @@ slug = "analog-studio-preamp"
 name = "Analog Studio Preamp"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Analog preamp plugin modeling vintage tube and transformer-based circuit coloration and warmth."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

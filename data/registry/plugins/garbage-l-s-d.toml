@@ -2,10 +2,11 @@ slug = "garbage-l-s-d"
 name = "Garbage L.S.D."
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Creative destruction plugin with lethal modules for distortion, mangling, warping convolution, and junk EQs."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

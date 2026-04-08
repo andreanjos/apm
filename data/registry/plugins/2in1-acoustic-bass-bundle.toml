@@ -2,11 +2,12 @@ slug = "2in1-acoustic-bass-bundle"
 name = "2in1 Acoustic Bass Bundle"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Bundle of two Ample Sound acoustic bass virtual instruments for realistic bass production."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

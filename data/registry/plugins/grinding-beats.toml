@@ -1,12 +1,13 @@
 slug = "grinding-beats"
 name = "Grinding Beats"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Hip-hop construction kits and samples with fat kicks, guitar loops, Rhodes, scratches, and string phrases."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "deess"
 name = "DeEss"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "SSL de-esser plugin for taming harsh sibilance in vocal and instrument recordings."
 category = "effects"
 subcategory = "de-esser"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-deess"
 is_paid = true
 
 [formats.vst3]

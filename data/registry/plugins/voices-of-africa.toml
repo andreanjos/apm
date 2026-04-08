@@ -1,12 +1,13 @@
 slug = "voices-of-africa"
 name = "Voices of Africa"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "African vocal and percussion sample library featuring authentic singing styles, chants, and rhythms from across Africa."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk"
 is_paid = true
 
 [formats.vst3]

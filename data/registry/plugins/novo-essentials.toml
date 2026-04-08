@@ -2,11 +2,12 @@ slug = "novo-essentials"
 name = "NOVO Essentials"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Condensed modern strings engine delivering a curated selection of orchestral string sounds for cinematic scoring."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/novo-essentials"
 is_paid = true
 
 [formats.vst3]

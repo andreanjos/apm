@@ -1,12 +1,13 @@
 slug = "spitfire-studio-strings-professional"
 name = "Spitfire Studio Strings Professional"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Professional edition of Spitfire Studio Strings, an incredibly versatile pro dry-stage string library."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-strings-professional/"
 is_paid = true
 
 [formats.vst3]

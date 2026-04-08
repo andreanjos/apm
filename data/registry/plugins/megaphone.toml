@@ -1,11 +1,12 @@
 slug = "megaphone"
 name = "Megaphone"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.5.5"
+description = "Effect plugin that simulates the lo-fi, distorted sound of megaphones and bullhorns."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/megaphone/"
 is_paid = true
 
 [formats.vst3]

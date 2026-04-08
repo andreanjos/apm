@@ -2,10 +2,11 @@ slug = "tonespot-acoustic-pro"
 name = "ToneSpot Acoustic Pro"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Professional acoustic instrument mixing plugin with advanced EQ, dynamics, and effects for strings and piano."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/tonespot-acoustic-pro/"
 is_paid = true
 
 [formats.vst3]

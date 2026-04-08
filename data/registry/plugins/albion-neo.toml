@@ -1,12 +1,13 @@
 slug = "albion-neo"
 name = "Albion NEO"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Modern cinematic orchestral instrument with a small, intimate ensemble delivering definition and intense emotion."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/albion-neo/"
 is_paid = true
 
 [formats.vst3]

@@ -2,10 +2,11 @@ slug = "physion"
 name = "Physion"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Original transient/tonal audio splitting plug-in with independent effects chains for each component."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/physion/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "stamina"
 name = "Stamina"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument with drums, loops, melodies, breaks, risers, and effects to help songwriters develop musical ideas."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/stamina-production-toolkit"
 is_paid = true
 
 [formats.vst3]

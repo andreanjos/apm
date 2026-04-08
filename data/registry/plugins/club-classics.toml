@@ -1,12 +1,13 @@
 slug = "club-classics"
 name = "Club Classics"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A 3.3GB sample library of authentic 70s and 80s disco, funk, and soul loops, kits, and one-shots for dance producers."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/club-classics"
 is_paid = true
 
 [formats.vst3]

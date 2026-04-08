@@ -1,12 +1,13 @@
 slug = "4020-retro-eq-hd"
 name = "4020 Retro EQ HD"
 vendor = "McDSP"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Pro Tools HD version of McDSP's 4020 Retro EQ with vintage analog-modeled equalization character."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://mcdsp.com/plugin-index/4020/"
 is_paid = true
 
 [formats.vst3]

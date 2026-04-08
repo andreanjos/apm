@@ -1,12 +1,13 @@
 slug = "woodwind-evolutions"
 name = "Woodwind Evolutions"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Evolving woodwind textures in a standalone plugin for cinematic and contemporary orchestral scoring."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/woodwind-evolutions/"
 is_paid = true
 
 [formats.vst3]

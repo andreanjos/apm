@@ -1,12 +1,13 @@
 slug = "jd-800"
 name = "JD 800"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Software recreation of Roland's 1991 JD-800 digital synthesizer with hands-on controls and LA synthesis."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/products/rc_jd-800/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15315-JD-800"
 

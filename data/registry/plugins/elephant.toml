@@ -1,12 +1,13 @@
 slug = "elephant"
 name = "Elephant"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "5.8"
+description = "Transparent mastering limiter with multiple modes, dithering, oversampling, and loudness statistics."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/elephant/"
 is_paid = true
 
 [formats.vst3]

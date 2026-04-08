@@ -1,14 +1,14 @@
 slug = "collective"
 name = "Collective"
 vendor = "Tracktion"
-version = "1.0.0"
-description = ""
+version = "1.x"
+description = "Sample-based playback and synthesis platform combining real-world samples with deep synthesis capabilities."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.tracktion.com/products/collective"
 
 [formats.vst3]
 url = ""

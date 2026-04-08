@@ -1,12 +1,13 @@
 slug = "beatmaker-rico-crossgrade-from-any-beatmaker-plugin"
 name = "Beatmaker RICO Crossgrade from any Beatmaker Plugin"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Crossgrade to Beatmaker RICO reggaeton drum plugin from any Beatmaker title."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/beatmaker/rico/"
 is_paid = true
 
 [formats.vst3]

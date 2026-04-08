@@ -1,12 +1,13 @@
 slug = "cinematic-idm"
 name = "Cinematic IDM"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Over 3GB of complex intense rhythms and emotional textures designed for cinematic and dance music production."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/cinematic-idm"
 is_paid = true
 
 [formats.vst3]

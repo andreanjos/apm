@@ -2,10 +2,11 @@ slug = "neoverb-r2-bundle-exclusive"
 name = "Neoverb + R2 Bundle (Exclusive)"
 vendor = "iZotope"
 version = "1.0.0"
-description = ""
+description = "Exclusive bundle of iZotope Neoverb intelligent reverb and Exponential Audio R2 Stereo reverb."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products/neoverb"
 is_paid = true
 
 [formats.vst3]

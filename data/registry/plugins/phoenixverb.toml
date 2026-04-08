@@ -1,11 +1,12 @@
 slug = "phoenixverb"
 name = "PhoenixVerb"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "7.1.0"
+description = "Exponential Audio algorithmic reverb plugin offering lush stereo room, hall, and plate reverb sounds."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products"
 is_paid = true
 
 [formats.vst3]

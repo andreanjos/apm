@@ -1,12 +1,13 @@
 slug = "ddly-dynamic-delay"
 name = "DDLY Dynamic Delay"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "1.2.0"
+description = "Dynamic delay plugin that splits audio by threshold to send transients and sustain to separate delay lines."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products/ddly"
 is_paid = true
 
 [formats.vst3]

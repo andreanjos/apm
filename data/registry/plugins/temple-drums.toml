@@ -1,12 +1,13 @@
 slug = "temple-drums"
 name = "Temple Drums"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Powerful ceremonial temple drum Kontakt library with deep, resonant sacred percussive tones."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/temple-drums"
 is_paid = true
 
 [formats.vst3]

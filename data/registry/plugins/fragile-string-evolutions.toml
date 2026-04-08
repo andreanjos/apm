@@ -1,12 +1,13 @@
 slug = "fragile-string-evolutions"
 name = "Fragile String Evolutions"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Delicate and haunting evolving chamber string textures in a standalone plugin for cinematic scoring."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/fragile-string-evolutions/"
 is_paid = true
 
 [formats.vst3]

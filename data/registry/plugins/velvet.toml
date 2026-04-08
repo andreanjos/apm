@@ -2,11 +2,12 @@ slug = "velvet"
 name = "Velvet"
 vendor = "iZotope"
 version = "1.0.0"
-description = ""
+description = "Intelligent de-esser that splits sibilance and tonal channels for precise, natural-sounding de-essing."
 category = "effects"
 subcategory = "de esser"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products/velvet"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/14847-Velvet"
 

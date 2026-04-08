@@ -1,12 +1,13 @@
 slug = "cacophony"
 name = "Cacophony"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Chaotic and textural Kontakt instrument built from dissonant, layered sound design sources."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/cacophony"
 is_paid = true
 
 [formats.vst3]

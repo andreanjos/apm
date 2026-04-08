@@ -1,12 +1,13 @@
 slug = "albion-iv-uist"
 name = "Albion IV Uist"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Cinematic orchestral library with 800 unique atonal articulations, warped hybrids, and textures for thrillers."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/albion-iv-uist/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "master-sessions-bundle"
 name = "Master Sessions Bundle"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Complete Master Sessions bundle covering Ensemble Drums, Metals, Woods, and Ethnic Drums for cinematic percussion."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/"
 is_paid = true
 
 [formats.vst3]

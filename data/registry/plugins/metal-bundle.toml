@@ -1,12 +1,13 @@
 slug = "metal-bundle"
 name = "Metal Bundle"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle of Soundiron's metallic and industrial Kontakt percussion and texture libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/metal-bundle"
 is_paid = true
 
 [formats.vst3]

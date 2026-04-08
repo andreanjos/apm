@@ -1,12 +1,13 @@
 slug = "bamblong"
 name = "Bamblong"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Unique Kontakt instrument combining bamboo and handpan-like tonal qualities."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/bamblong"
 is_paid = true
 
 [formats.vst3]

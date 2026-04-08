@@ -1,12 +1,13 @@
 slug = "spitfire-studio-woodwinds-professional"
 name = "Spitfire Studio Woodwinds Professional"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Professional edition with 11 woodwind instruments and 143 articulations recorded at AIR Studio One."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/spitfire-studio-woodwinds-professional"
 is_paid = true
 
 [formats.vst3]

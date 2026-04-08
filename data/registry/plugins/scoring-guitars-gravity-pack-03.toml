@@ -2,11 +2,12 @@ slug = "scoring-guitars-gravity-pack-03"
 name = "Scoring Guitars Gravity Pack 03"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Cinematic electric guitar library with guitar pads, performance palettes, and tempo-synced loops."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/scoring-guitars"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "dark-kz"
 name = "Dark KZ"
 vendor = "BeatSkillz"
 version = "1.0.0"
-description = ""
+description = "Dark cinematic synth plugin with 50 presets inspired by composers like John Carpenter and Jan Hammer."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.beatskillz.com/shop/darkkz/"
 is_paid = true
 
 [formats.vst3]

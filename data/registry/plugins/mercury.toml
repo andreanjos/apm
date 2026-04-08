@@ -1,14 +1,14 @@
 slug = "mercury"
 name = "Mercury"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "14 unique acoustic sculptures by Hollywood instrument designer Chas Smith, fused in the Solar eDNA synthesiser."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.spitfireaudio.com/mercury"
 
 [formats.vst3]
 url = ""

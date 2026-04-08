@@ -1,12 +1,13 @@
 slug = "blue-cat-s-patchwork"
 name = "Blue Cat s PatchWork"
 vendor = "Blue Cat Audio"
-version = "1.0.0"
-description = ""
+version = "2.77"
+description = "Universal plug-ins patchbay hosting up to 64 VST/VST3/AU plug-ins with serial and parallel routing."
 category = "tools"
 subcategory = "virtual patchbay"
 license = "commercial"
 tags = []
+homepage = "https://www.bluecataudio.com/Products/Product_PatchWork/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/67-Virtual-Patchbay/792-Blue-Cat-s-PatchWork"
 

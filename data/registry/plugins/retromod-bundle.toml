@@ -2,11 +2,12 @@ slug = "retromod-bundle"
 name = "Retromod Bundle"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "Bundle of RetroMod synth plugins recreating 44 years of classic analog mono synthesizers."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/retromod"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "spitfire-studio-brass"
 name = "Spitfire Studio Brass"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Dry-stage studio brass library recorded at AIR Studio One for punchy, clear, versatile brass sounds."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-brass/"
 is_paid = true
 
 [formats.vst3]

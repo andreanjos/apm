@@ -2,11 +2,12 @@ slug = "tracktion-everything-bundle"
 name = "Tracktion Everything Bundle"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "Complete Tracktion software bundle including Waveform Pro, all synths, effects, and expansion content."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/waveform-pro"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "spitfire-harp"
 name = "Spitfire Harp"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Concert harp recorded at AIR Studios providing full range of articulations for orchestral and cinematic scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/spitfire-harp/"
 is_paid = true
 
 [formats.vst3]

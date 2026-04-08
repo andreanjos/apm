@@ -2,11 +2,12 @@ slug = "clockworks-bundle"
 name = "Clockworks Bundle"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Six classic Eventide hardware emulations including Instant Phaser Mk II, Omnipressor, H910, H949, and SP2016."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins-bundles/"
 is_paid = true
 
 [formats.vst3]

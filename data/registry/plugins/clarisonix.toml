@@ -1,12 +1,13 @@
 slug = "clarisonix"
 name = "Clarisonix"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Clarity and definition enhancer plugin for adding focus and presence to audio signals."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p873-Clarisonix/"
 is_paid = true
 
 [formats.vst3]

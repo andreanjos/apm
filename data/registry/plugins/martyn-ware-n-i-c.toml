@@ -1,12 +1,13 @@
 slug = "martyn-ware-n-i-c"
 name = "Martyn Ware N.I.C."
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sonic design instrument by Human League and Heaven 17 co-founder Martyn Ware for experimental sound creation."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/martyn-ware-n-i-c/"
 is_paid = true
 
 [formats.vst3]

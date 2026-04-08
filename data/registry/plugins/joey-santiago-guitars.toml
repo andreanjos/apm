@@ -1,12 +1,13 @@
 slug = "joey-santiago-guitars"
 name = "Joey Santiago Guitars"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Monstrous distorted guitar library from Pixies guitarist Joey Santiago for experimental and rock scoring."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/joey-santiago-guitars/"
 is_paid = true
 
 [formats.vst3]

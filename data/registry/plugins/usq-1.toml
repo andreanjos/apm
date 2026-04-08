@@ -2,11 +2,12 @@ slug = "usq-1"
 name = "USQ-1"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Virtual instrument based on the Ensoniq ESQ-1 with 400 patches and a dual-layer 268-wave architecture."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/usq-1"
 is_paid = true
 
 [formats.vst3]

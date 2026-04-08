@@ -2,11 +2,12 @@ slug = "kymera"
 name = "Kymera"
 vendor = "MNTRA Instruments"
 version = "1.0.0"
-description = ""
+description = "Horror-focused virtual instrument built from haunted sounds for video game and film sound design."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.mntra.io/product/kymera/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/8278-Kymera"
 

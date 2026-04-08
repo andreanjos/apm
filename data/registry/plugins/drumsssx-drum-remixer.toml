@@ -1,12 +1,13 @@
 slug = "drumsssx-drum-remixer"
 name = "DrumsSSX Drum Remixer"
 vendor = "Fuse Audio Labs"
-version = "1.0.0"
-description = ""
+version = "2.7"
+description = "Drum source separator plugin for remixing acoustic drum recordings without individual multitrack stems."
 category = "effects"
 subcategory = "drum fx"
 license = "commercial"
 tags = []
+homepage = "https://fuseaudiolabs.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/13-Drum-FX/13896-DrumsSSX-Drum-Remixer"
 

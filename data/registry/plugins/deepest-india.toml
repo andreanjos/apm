@@ -1,12 +1,13 @@
 slug = "deepest-india"
 name = "Deepest India"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Indian vocals, instruments, and orchestras recorded on location in India for authentic South Asian music production."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk"
 is_paid = true
 
 [formats.vst3]

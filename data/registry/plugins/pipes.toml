@@ -1,12 +1,13 @@
 slug = "pipes"
 name = "Pipes"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument made from sampled cardboard tubes, PVC pipes, and spray cans tuned into playable instruments."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/pipes/"
 is_paid = true
 
 [formats.vst3]

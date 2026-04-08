@@ -1,12 +1,13 @@
 slug = "jv-1080"
 name = "JV 1080"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Software recreation of Roland's iconic 1994 JV-1080 64-voice PCM synthesizer module."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/products/rc_jv-1080/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15268-JV-1080"
 

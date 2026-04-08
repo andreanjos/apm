@@ -1,12 +1,13 @@
 slug = "beatmaker-kandy"
 name = "BeatMaker Kandy"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Sweet and edgy pop drum machine plugin with experimental percussive elements."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/beatmaker/kandy/"
 is_paid = true
 
 [formats.vst3]

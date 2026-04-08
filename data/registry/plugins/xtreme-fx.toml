@@ -2,13 +2,13 @@ slug = "xtreme-fx"
 name = "Xtreme FX"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Sound effect and foley library with thousands of sounds from combat to sci-fi, with XY performance controls."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.uvi.net/xtreme-fx-2"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "bizarre-sitar"
 name = "Bizarre Sitar"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt library of the Indian sitar with deeply sampled resonance and extended techniques."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/bizarre-sitar"
 is_paid = true
 
 [formats.vst3]

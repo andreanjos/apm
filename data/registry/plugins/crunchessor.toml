@@ -2,11 +2,12 @@ slug = "crunchessor"
 name = "Crunchessor"
 vendor = "Voxengo"
 version = "1.0.0"
-description = ""
+description = "Versatile compressor plugin with parallel saturation options and musical dynamic control for mixing."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/crunchessor/"
 is_paid = true
 
 [formats.vst3]

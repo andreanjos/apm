@@ -2,11 +2,12 @@ slug = "intimate-textures"
 name = "Intimate Textures"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Cinematic texture instrument featuring intimate, close-mic recordings for subtle and nuanced scoring moments."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/intimate-textures"
 is_paid = true
 
 [formats.vst3]

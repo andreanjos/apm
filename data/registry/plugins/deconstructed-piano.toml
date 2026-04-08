@@ -2,11 +2,12 @@ slug = "deconstructed-piano"
 name = "Deconstructed Piano"
 vendor = "Cinematique Instruments"
 version = "1.0.0"
-description = ""
+description = "Experimental Kontakt piano instrument featuring deconstructed, prepared and unconventional piano sounds."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://cinematique-instruments.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/3298-Deconstructed-Piano"
 

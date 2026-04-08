@@ -1,14 +1,14 @@
 slug = "brad-hoyt8217s-harp-guitar"
 name = "Brad Hoyt&#8217;s Harp Guitar"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt library of Brad Hoyt's custom harp guitar with warm, resonant multi-string tones."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://soundiron.com/products/brad-hoyts-harp-guitar"
 
 [formats.vst3]
 url = ""

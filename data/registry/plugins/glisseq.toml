@@ -1,12 +1,13 @@
 slug = "glisseq"
 name = "GlissEQ"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "3.14"
+description = "Parametric equalizer plugin with dynamic equalization modes for professional music production."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/glisseq/"
 is_paid = true
 
 [formats.vst3]

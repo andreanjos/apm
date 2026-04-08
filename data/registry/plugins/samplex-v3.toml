@@ -1,12 +1,13 @@
 slug = "samplex-v3"
 name = "SampleX V3"
 vendor = "BeatSkillz"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Advanced sampler emulator with ladder filters, dynamic convolution, and vintage sampler machine IRs."
 category = "effects"
 subcategory = "bit crusher"
 license = "commercial"
 tags = []
+homepage = "https://www.beatskillz.com/shop/samplex-v3/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/6464-SampleX-V3"
 

@@ -1,12 +1,13 @@
 slug = "energy-panner"
 name = "Energy Panner"
 vendor = "Sound Particles"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sound Particles auto-panner that uses input signal amplitude to create organic stereo/3D movement."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products/energypanner"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/7223-Energy-Panner"
 

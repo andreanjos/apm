@@ -1,12 +1,13 @@
 slug = "ae400-active-eq-hd"
 name = "AE400 Active EQ HD"
 vendor = "McDSP"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Pro Tools HD version of McDSP's AE400 Active EQ with 4 overlapping bands of active equalization."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://mcdsp.com/plugin-index/ae400/"
 is_paid = true
 
 [formats.vst3]

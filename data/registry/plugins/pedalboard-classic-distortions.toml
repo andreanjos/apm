@@ -2,11 +2,12 @@ slug = "pedalboard-classic-distortions"
 name = "Pedalboard: Classic Distortions"
 vendor = "Audiority"
 version = "1.0.0"
-description = ""
+description = "Bundle of five analog modeled vintage distortion pedal plug-ins including Big Goat, Blue Face, and Heavy Pedal."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/pedalboard-classic-distortions/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,14 @@
 slug = "things-8211-texture"
 name = "Things &#8211; Texture"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.1.2"
+description = "Granular texture effect plugin for creating ambient pads and ethereal soundscapes from any audio source."
 category = "effects"
 subcategory = "granular"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiothing.net/effects/things-texture/"
 
 [formats.vst3]
 url = ""

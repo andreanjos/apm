@@ -2,10 +2,11 @@ slug = "stereo-reverb-bundle"
 name = "Stereo Reverb Bundle"
 vendor = "iZotope"
 version = "1.0.0"
-description = ""
+description = "Bundle of Exponential Audio stereo algorithmic reverb plugins for music and post-production."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products"
 is_paid = true
 
 [formats.vst3]

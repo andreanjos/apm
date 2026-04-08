@@ -1,12 +1,13 @@
 slug = "urban-life"
 name = "Urban Life"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Over 1.5GB of hip-hop and urban music loops with live instrumentation and programming for production."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/urban-life"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "goldfinger-percussion"
 name = "Goldfinger Percussion"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Cinematic percussion library offering powerful orchestral and hybrid drums for epic film and game scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/goldfinger-percussion/"
 is_paid = true
 
 [formats.vst3]

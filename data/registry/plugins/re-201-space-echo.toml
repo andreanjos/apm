@@ -1,12 +1,13 @@
 slug = "re-201-space-echo"
 name = "RE 201 Space Echo"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Software recreation of Roland's classic RE-201 Space Echo tape delay and reverb effect unit."
 category = "effects"
 subcategory = "echo"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/products/rc_re-201/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/15321-RE-201-Space-Echo"
 

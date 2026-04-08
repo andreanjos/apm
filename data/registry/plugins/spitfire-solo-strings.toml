@@ -1,12 +1,13 @@
 slug = "spitfire-solo-strings"
 name = "Spitfire Solo Strings"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Expressive solo violin, viola, cello, and double bass recorded by world-class players at AIR Studios."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/en-us/products/spitfire-solo-strings"
 is_paid = true
 
 [formats.vst3]

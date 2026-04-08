@@ -2,10 +2,11 @@ slug = "exponential-audio-3d-reverb-bundle"
 name = "Exponential Audio 3D Reverb Bundle"
 vendor = "iZotope"
 version = "1.0.0"
-description = ""
+description = "Stereo and 3D algorithmic reverb bundle from Exponential Audio featuring Stratus 3D and Symphony 3D."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products"
 is_paid = true
 
 [formats.vst3]

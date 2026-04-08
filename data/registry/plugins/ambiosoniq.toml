@@ -1,12 +1,13 @@
 slug = "ambiosoniq"
 name = "Ambiosoniq"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "3D EQ plugin for spatial audio mixing, offering frequency shaping across multiple sound field axes."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1147-Ambiosoniq/"
 is_paid = true
 
 [formats.vst3]

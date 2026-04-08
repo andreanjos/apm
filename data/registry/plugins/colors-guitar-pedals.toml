@@ -2,11 +2,12 @@ slug = "colors-guitar-pedals"
 name = "Colors: Guitar Pedals"
 vendor = "Cinematique Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument featuring guitar pedal-processed sounds for creative pad and texture production."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
 is_paid = true
 
 [formats.vst3]

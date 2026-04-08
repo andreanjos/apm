@@ -1,12 +1,13 @@
 slug = "usynth-euphoria"
 name = "Usynth Euphoria"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Electronic dance synthesizer plugin with club-ready sounds and energetic textures."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/usynth/euphoria/"
 is_paid = true
 
 [formats.vst3]

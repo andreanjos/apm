@@ -2,11 +2,12 @@ slug = "daw-essentials-equaliser"
 name = "DAW Essentials – Equaliser"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "Equalizer plugin from the DAW Essentials Collection for precise spectral control in any DAW."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/daw-essentials-collection"
 is_paid = true
 
 [formats.vst3]

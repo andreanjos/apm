@@ -2,11 +2,12 @@ slug = "effect-bundle"
 name = "Effect Bundle"
 vendor = "AudioThing"
 version = "1.0.0"
-description = ""
+description = "Collection of AudioThing's creative effect plugins spanning distortion, modulation, reverb, and delay."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/"
 is_paid = true
 
 [formats.vst3]

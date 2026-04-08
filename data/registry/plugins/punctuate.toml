@@ -2,10 +2,11 @@ slug = "punctuate"
 name = "Punctuate"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Transient shaper for mixing and mastering that controls attack and sustain on drums, vocals, guitar, and more."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/punctuate/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "vocal-colors-bronte"
 name = "Vocal Colors Bronte"
 vendor = "Evolution Series"
 version = "1.0.0"
-description = ""
+description = "Kontakt vocal library of emotive indie-cinematic performances by singer-songwriter Bronte Horder."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.evolutionseries.com/product/vocal-colors-bronte/"
 is_paid = true
 
 [formats.vst3]

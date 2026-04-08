@@ -1,12 +1,13 @@
 slug = "alpha-organ"
 name = "Alpha Organ"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Vintage-style organ Kontakt instrument with warm, classic tonewheel character."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/alpha-organ"
 is_paid = true
 
 [formats.vst3]

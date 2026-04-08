@@ -1,11 +1,12 @@
 slug = "fog-convolver-1"
 name = "Fog Convolver 1"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Convolution reverb plugin with spectral processing and morphing for creative and realistic spaces."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/fog-convolver/"
 is_paid = true
 
 [formats.vst3]

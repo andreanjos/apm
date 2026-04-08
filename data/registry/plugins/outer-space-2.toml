@@ -1,12 +1,13 @@
 slug = "outer-space-2"
 name = "Outer Space 2"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "2.2.1"
+description = "Vintage tape echo plugin emulating analog delay with tape degradation, wow, and flutter character."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/outer-space/"
 is_paid = true
 
 [formats.vst3]

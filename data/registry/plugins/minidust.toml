@@ -1,12 +1,13 @@
 slug = "minidust"
 name = "MiniDust"
 vendor = "Sound Particles"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sound Particles streamlined granular synthesizer delivering SkyDust-style spatial audio in a simpler form."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products/minidust"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/14963-MiniDust"
 

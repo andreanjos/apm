@@ -1,12 +1,13 @@
 slug = "olympus-symphonic-choir"
 name = "Olympus Symphonic Choir"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "Industry-leading symphonic choir Kontakt library with unrivaled sonic power and detailed articulations."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/olympus-symphonic-choir"
 is_paid = true
 
 [formats.vst3]

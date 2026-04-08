@@ -1,12 +1,13 @@
 slug = "beatmaker-glory"
 name = "Beatmaker GLORY"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Hybrid trap and pop drum machine plugin blending modern rhythms for chart-ready tracks."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/beatmaker/glory/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "angular-string-evolutions"
 name = "Angular String Evolutions"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Evolving angular string textures presented as a standalone plugin for cinematic and contemporary scoring."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/angular-string-evolutions/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "prime-8"
 name = "Prime 8+"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Virtual TR-808 drum machine with 140+ preset kits, 1,100+ patterns, and a built-in step sequencer."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/prime-8-plus"
 is_paid = true
 
 [formats.vst3]

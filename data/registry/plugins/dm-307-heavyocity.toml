@@ -2,11 +2,12 @@ slug = "dm-307-heavyocity"
 name = "DM-307"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Modern groove designer Kontakt instrument with 3,600+ sounds and an 8-voice Grid sequencer."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/dm-307"
 is_paid = true
 
 [formats.vst3]

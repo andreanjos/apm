@@ -2,11 +2,12 @@ slug = "peridot-pro"
 name = "Peridot Pro"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Full-featured Peridot bass amp emulation plugin with extended amp, cabinet, and microphone options."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/peridot-pro/"
 is_paid = true
 
 [formats.vst3]

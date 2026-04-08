@@ -2,13 +2,13 @@ slug = "quadra-muted-038-harmonics"
 name = "Quadra: Muted &#038; Harmonics"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "4-part multi-instrument sequence designer with muted and harmonic sources and a 64-step sequencer."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.uvi.net/quadra-muted-and-harmonics"
 
 [formats.vst3]
 url = ""

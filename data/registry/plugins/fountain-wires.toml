@@ -1,12 +1,13 @@
 slug = "fountain-wires"
 name = "Fountain Wires"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Atmospheric Kontakt instrument made from bowed and plucked wire springs and tension sounds."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/fountain-wires"
 is_paid = true
 
 [formats.vst3]

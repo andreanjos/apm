@@ -2,11 +2,12 @@ slug = "lmc"
 name = "LMC+"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "Improved emulation of the classic SSL Listen Mic Compressor from the SL 4000E console center section."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-lmc"
 is_paid = true
 
 [formats.vst3]

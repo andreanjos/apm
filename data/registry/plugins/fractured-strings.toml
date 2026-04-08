@@ -1,12 +1,13 @@
 slug = "fractured-strings"
 name = "Fractured Strings"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Experimental eight-piece string ensemble with intervallic performances and modal colours recorded at AIR Lyndhurst Hall."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/fractured-strings"
 is_paid = true
 
 [formats.vst3]

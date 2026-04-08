@@ -2,11 +2,12 @@ slug = "precision-time-align"
 name = "Precision Time Align"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "High-precision sub-sample delay for sliding tracks forward or backward in time to correct phase issues."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/precision-time-align/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/3403-Precision-Time-Align"
 

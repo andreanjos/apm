@@ -2,11 +2,12 @@ slug = "chronicles-miyabi"
 name = "Chronicles Miyabi"
 vendor = "Evolution Series"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of Japanese ethnic instruments with textural and motion-based articulations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.evolutionseries.com/portfolio/chronicles-miyabi/"
 is_paid = true
 
 [formats.vst3]

@@ -2,10 +2,11 @@ slug = "exponential-audio-reverb-pack"
 name = "Exponential Audio: Reverb Pack"
 vendor = "iZotope"
 version = "1.0.0"
-description = ""
+description = "Collection of Exponential Audio reverb plugins including PhoenixVerb, Stratus, and Symphony."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products"
 is_paid = true
 
 [formats.vst3]

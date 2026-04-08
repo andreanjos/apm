@@ -1,12 +1,13 @@
 slug = "full-bundle-ujam"
 name = "Full Bundle"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Complete UJAM plugin bundle covering all virtual instruments and effect plugins."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/store/"
 is_paid = true
 
 [formats.vst3]

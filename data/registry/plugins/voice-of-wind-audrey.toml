@@ -1,12 +1,13 @@
 slug = "voice-of-wind-audrey"
 name = "Voice of Wind: Audrey"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt Player solo female voice library featuring singer Audrey with gentle, airy vocal character."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/voice-of-wind-audrey"
 is_paid = true
 
 [formats.vst3]

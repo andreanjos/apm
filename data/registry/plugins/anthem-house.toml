@@ -1,12 +1,13 @@
 slug = "anthem-house"
 name = "Anthem House"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A 1.4GB library of euphoric dance anthems with construction kits, beats, and synth loops for EDM production."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/anthem-house"
 is_paid = true
 
 [formats.vst3]

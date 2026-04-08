@@ -1,12 +1,13 @@
 slug = "whoosh-designer"
 name = "Whoosh Designer"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument combining raw sounds with customizable attack, peak, and decay to create millions of whoosh variations."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/whoosh-designer"
 is_paid = true
 
 [formats.vst3]

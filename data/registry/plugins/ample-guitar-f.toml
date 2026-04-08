@@ -2,11 +2,12 @@ slug = "ample-guitar-f"
 name = "Ample Guitar F"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Electric guitar virtual instrument based on a Fender Stratocaster with detailed sample articulations."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

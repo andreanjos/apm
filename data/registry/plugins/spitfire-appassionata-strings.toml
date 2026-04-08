@@ -1,12 +1,13 @@
 slug = "spitfire-appassionata-strings"
 name = "Spitfire Appassionata Strings"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Passionate string library using Impulse Legato technology for expressive, emotional orchestral writing."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/spitfire-appassionata-strings"
 is_paid = true
 
 [formats.vst3]

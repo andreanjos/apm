@@ -1,12 +1,13 @@
 slug = "liquid-mod-ii"
 name = "Liquid Mod II"
 vendor = "Nomad Factory"
-version = "1.0.0"
-description = ""
+version = "3.0.1"
+description = "Chorus and modulation plugin from the Liquid II series delivering lush analog-style modulation effects."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p748-Liquid-Mod/"
 is_paid = true
 
 [formats.vst3]

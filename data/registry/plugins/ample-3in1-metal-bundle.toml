@@ -2,11 +2,12 @@ slug = "ample-3in1-metal-bundle"
 name = "Ample 3in1 Metal Bundle"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Bundle of three Ample Sound metal guitar virtual instruments for heavy music production."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

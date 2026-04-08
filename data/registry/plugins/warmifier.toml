@@ -1,11 +1,12 @@
 slug = "warmifier"
 name = "Warmifier"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "2.8"
+description = "Harmonic enhancer plugin adding analog tube warmth and saturation to audio signals."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/warmifier/"
 is_paid = true
 
 [formats.vst3]

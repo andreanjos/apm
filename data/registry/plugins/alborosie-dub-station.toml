@@ -1,12 +1,13 @@
 slug = "alborosie-dub-station"
 name = "Alborosie Dub Station"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.1"
+description = "Vintage rack plugin recreating King Tubby's iconic filter, tape echo, and spring reverb from Jamaican dub."
 category = "effects"
 subcategory = "echo"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/alborosie-dub-station/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "glass-and-steel"
 name = "Glass and Steel"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Unique tuned percussion library delivering otherworldly tonal colours from glass and steel instruments."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/glass-and-steel/"
 is_paid = true
 
 [formats.vst3]

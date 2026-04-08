@@ -2,11 +2,12 @@ slug = "rasa"
 name = "Rasa"
 vendor = "MNTRA Instruments"
 version = "1.0.0"
-description = ""
+description = "Free virtual instrument featuring samples from Tibetan horns, Morin Khuur, volcanic rocks, and death whistle."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.mntra.io/product/rasa/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/8007-Rasa"
 

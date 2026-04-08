@@ -1,12 +1,13 @@
 slug = "voice-of-gaia-bryn"
 name = "Voice of Gaia – Bryn"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Solo female voice Kontakt library featuring singer Bryn with expressive, ethereal vocal character."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/voice-of-gaia-bryn"
 is_paid = true
 
 [formats.vst3]

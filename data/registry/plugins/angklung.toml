@@ -1,12 +1,13 @@
 slug = "angklung"
 name = "Angklung"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Detailed Kontakt sampling of the Indonesian angklung bamboo shaker instrument."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/angklung"
 is_paid = true
 
 [formats.vst3]

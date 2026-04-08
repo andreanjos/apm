@@ -2,11 +2,12 @@ slug = "daw-essentials-delay-studio"
 name = "DAW Essentials – Delay Studio"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "Delay plugin from the DAW Essentials Collection with multiple delay modes and tempo sync."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/daw-essentials-collection"
 is_paid = true
 
 [formats.vst3]

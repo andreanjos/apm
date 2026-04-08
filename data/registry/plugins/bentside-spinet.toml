@@ -1,12 +1,13 @@
 slug = "bentside-spinet"
 name = "Bentside Spinet"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Meticulously sampled 17th-century bentside spinet harpsichord for Kontakt."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/bentside-spinet"
 is_paid = true
 
 [formats.vst3]

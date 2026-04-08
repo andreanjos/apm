@@ -1,12 +1,13 @@
 slug = "ethera-gold-atlantis"
 name = "Ethera Gold Atlantis"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "3.5"
+description = "Professional vocal library with 34GB of samples featuring 6 cinematic singers and 11 True Legato instruments."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/ethera-gold-atlantis-3-5"
 is_paid = true
 
 [formats.vst3]

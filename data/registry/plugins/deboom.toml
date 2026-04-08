@@ -2,11 +2,12 @@ slug = "deboom"
 name = "DeBoom"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "One-knob low-frequency EQ that removes boom and muddiness without sacrificing impact."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/deboom/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11691-DeBoom"
 

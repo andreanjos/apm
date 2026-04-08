@@ -1,12 +1,13 @@
 slug = "retro-compressor"
 name = "Retro Compressor"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Vintage-style compressor plugin emulating classic analog dynamic control for warm, punchy results."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p870-Retro-Compressor/"
 is_paid = true
 
 [formats.vst3]

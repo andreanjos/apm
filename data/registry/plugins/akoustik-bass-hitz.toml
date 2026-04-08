@@ -1,12 +1,13 @@
 slug = "akoustik-bass-hitz"
 name = "Akoustik Bass Hitz"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Acoustic bass and drum loops with NYC-style jazz, funk, and diverse genre construction kits in WAV and REX formats."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/akoustik-bass-hitz"
 is_paid = true
 
 [formats.vst3]

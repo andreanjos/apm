@@ -1,12 +1,13 @@
 slug = "spitfire-studio-orchestra-professional"
 name = "Spitfire Studio Orchestra Professional"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Professional complete dry-stage studio orchestra — strings, brass, woodwinds, and percussion at AIR Studio One."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-orchestra-professional/"
 is_paid = true
 
 [formats.vst3]

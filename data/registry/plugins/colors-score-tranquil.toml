@@ -2,11 +2,12 @@ slug = "colors-score-tranquil"
 name = "Colors: Score Tranquil"
 vendor = "Cinematique Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument featuring tranquil, scored pad textures for peaceful cinematic music composition."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
 is_paid = true
 
 [formats.vst3]

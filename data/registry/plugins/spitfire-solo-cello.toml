@@ -1,12 +1,13 @@
 slug = "spitfire-solo-cello"
 name = "Spitfire Solo Cello"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Advanced solo cello performed by concert cellist Richard Harwood, recorded in The Hall at AIR Studios."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/en-us/products/spitfire-solo-cello"
 is_paid = true
 
 [formats.vst3]

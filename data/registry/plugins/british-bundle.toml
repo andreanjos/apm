@@ -1,12 +1,13 @@
 slug = "british-bundle"
 name = "British Bundle"
 vendor = "Nomad Factory"
-version = "1.0.0"
-description = ""
+version = "2.1.1"
+description = "Bundle of British-style compressor plugins modeled on classic UK console dynamics hardware."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "bernard-herrmann-composer-toolkit"
 name = "Bernard Herrmann Composer Toolkit"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Dry scoring stage ensembles inspired by the legendary composer of Psycho, Vertigo, and Citizen Kane."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/bernard-herrmann-composer-toolkit"
 is_paid = true
 
 [formats.vst3]

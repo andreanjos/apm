@@ -1,12 +1,13 @@
 slug = "jupiter-4"
 name = "JUPITER 4"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "ACB-modeled software recreation of Roland's 1978 JUPITER-4, the synth that launched a dynasty."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/products/rc_jupiter-4/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15319-JUPITER-4"
 

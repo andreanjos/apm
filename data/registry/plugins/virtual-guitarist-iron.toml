@@ -1,12 +1,13 @@
 slug = "virtual-guitarist-iron"
 name = "Virtual Guitarist Iron"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Rock electric guitar plugin for hard-hitting riffs and powerful rhythm guitar parts."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/guitarist/iron/"
 is_paid = true
 
 [formats.vst3]

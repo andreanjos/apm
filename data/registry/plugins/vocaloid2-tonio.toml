@@ -1,12 +1,13 @@
 slug = "vocaloid2-tonio"
 name = "Vocaloid2 Tonio"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Virtual vocalist modeled on a professional male classical singer with baritone-tenor range for synthesized singing."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/tonio-vocaloid-2"
 is_paid = true
 
 [formats.vst3]

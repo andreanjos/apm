@@ -1,12 +1,13 @@
 slug = "brightness"
 name = "Brightness"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "High-frequency enhancement plugin for adding air and sparkle to any audio signal."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p869-Brightness/"
 is_paid = true
 
 [formats.vst3]

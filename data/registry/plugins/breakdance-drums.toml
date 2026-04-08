@@ -2,11 +2,12 @@ slug = "breakdance-drums"
 name = "Breakdance Drums"
 vendor = "BeatSkillz"
 version = "1.0.0"
-description = ""
+description = "80s breakdance drum plugin sampled through vintage hardware like the SP-1200, MPC 60, and EMAX."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.beatskillz.com/shop/breakdance-drums/"
 is_paid = true
 
 [formats.vst3]

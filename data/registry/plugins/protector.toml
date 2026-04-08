@@ -1,12 +1,13 @@
 slug = "protector"
 name = "Protector"
 vendor = "Blue Cat Audio"
-version = "1.0.0"
-description = ""
+version = "2.34"
+description = "Stereo brickwall limiter protecting the master bus from overshoot with transparent frequency response."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.bluecataudio.com/Products/Product_Protector/"
 is_paid = true
 
 [formats.vst3]

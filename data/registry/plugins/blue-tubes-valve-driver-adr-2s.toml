@@ -2,10 +2,11 @@ slug = "blue-tubes-valve-driver-adr-2s"
 name = "Blue Tubes Valve Driver ADR-2S"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Valve overdrive plugin from the Blue Tubes series adding tube-style saturation and harmonic warmth."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p431-Blue-Tubes-Valve-Driver-ADR2S/"
 is_paid = true
 
 [formats.vst3]

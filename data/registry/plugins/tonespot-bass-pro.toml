@@ -2,10 +2,11 @@ slug = "tonespot-bass-pro"
 name = "ToneSpot Bass Pro"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Professional bass mixing plugin with sub bass generator, octaver, auto-wah, and multi-genre presets."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/tonespot-bass-pro/"
 is_paid = true
 
 [formats.vst3]

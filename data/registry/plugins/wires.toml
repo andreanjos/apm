@@ -1,12 +1,13 @@
 slug = "wires"
 name = "Wires"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.2.5"
+description = "Echo effect plugin emulating the distinctive sound of vintage wire recorders and magnetic wire delay units."
 category = "effects"
 subcategory = "echo"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/wires/"
 is_paid = true
 
 [formats.vst3]

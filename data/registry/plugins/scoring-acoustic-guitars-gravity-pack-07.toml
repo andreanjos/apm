@@ -2,11 +2,12 @@ slug = "scoring-acoustic-guitars-gravity-pack-07"
 name = "Scoring Acoustic Guitars Gravity Pack 07"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Cinematic acoustic guitar instrument with pads, phrases, and scoring content powered by Heavyocity's GRAVITY engine."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/scoring-acoustic-guitars"
 is_paid = true
 
 [formats.vst3]

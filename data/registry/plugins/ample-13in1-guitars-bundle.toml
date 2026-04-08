@@ -2,11 +2,12 @@ slug = "ample-13in1-guitars-bundle"
 name = "Ample 13in1 Guitars Bundle"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Comprehensive Ample Sound bundle of 13 guitar virtual instruments across multiple styles."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "groovemate-one-crossgrade-from-phat-2"
 name = "Groovemate ONE Crossgrade from PHAT 2"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Crossgrade to Groovemate ONE percussion plugin from Virtual Drummer PHAT 2."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/groovemate/one/"
 is_paid = true
 
 [formats.vst3]

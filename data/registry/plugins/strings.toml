@@ -1,12 +1,13 @@
 slug = "strings"
 name = "Strings"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument featuring sampled string instruments including autoharp, ukulele, toy harp, and violin."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/strings/"
 is_paid = true
 
 [formats.vst3]

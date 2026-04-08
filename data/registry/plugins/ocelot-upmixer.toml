@@ -1,12 +1,13 @@
 slug = "ocelot-upmixer"
 name = "OCELOT Upmixer"
 vendor = "Fuse Audio Labs"
-version = "1.0.0"
-description = ""
+version = "2.7"
+description = "Stereo sculptor plugin for widening mono signals and enhancing stereo depth in mixes."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://fuseaudiolabs.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/14651-OCELOT-Upmixer"
 

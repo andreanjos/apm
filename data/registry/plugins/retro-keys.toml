@@ -2,11 +2,12 @@ slug = "retro-keys"
 name = "Retro Keys"
 vendor = "BeatSkillz"
 version = "1.0.0"
-description = ""
+description = "Virtual instrument rompler with 80s soundtrack sounds sampled from original vintage synths and samplers."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.beatskillz.com/shop/retro-keys/"
 is_paid = true
 
 [formats.vst3]

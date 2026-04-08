@@ -1,11 +1,12 @@
 slug = "plugn-script"
 name = "Plug’n Script"
 vendor = "Blue Cat Audio"
-version = "1.0.0"
-description = ""
+version = "3.6"
+description = "Audio and MIDI scripting plug-in for building custom effects and virtual instruments within any DAW."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.bluecataudio.com/Products/Product_PlugNScript/"
 is_paid = true
 
 [formats.vst3]

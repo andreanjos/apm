@@ -2,11 +2,12 @@ slug = "analog-studio-bus-comp"
 name = "Analog Studio Bus Comp"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Bus compressor plugin modeled on classic analog SSL-style glue compressors for mix bus control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

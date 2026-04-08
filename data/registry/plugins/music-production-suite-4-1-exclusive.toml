@@ -1,12 +1,13 @@
 slug = "music-production-suite-4-1-exclusive"
 name = "Music Production Suite 4.1 (Exclusive)"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "4.1"
+description = "Exclusive iZotope bundle with Ozone 9 Advanced, Neutron 3 Advanced, RX 9 Standard, Neoverb, and more."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products/music-production-suite"
 is_paid = true
 
 [formats.vst3]

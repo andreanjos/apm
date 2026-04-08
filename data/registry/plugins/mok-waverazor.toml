@@ -1,12 +1,13 @@
 slug = "mok-waverazor"
 name = "MOK Waverazor"
 vendor = "Tracktion"
-version = "1.0.0"
-description = ""
+version = "2.7.0"
+description = "Wave-slicing synthesizer with 3 oscillators, 160 waveforms, and 30 filter types for futuristic sound design."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/waverazor"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/8144-MOK-Waverazor-"
 

@@ -2,11 +2,12 @@ slug = "augmented-piano"
 name = "Augmented Piano"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Creative prepared piano instrument featuring 24 unique preparations recorded on a vintage 1909 Pleyel grand piano."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/augmented-piano"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "aeon-melodic"
 name = "AEON Melodic"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Melodic instrument with 315 presets of evolving textures, multisampled synths, and hybrid instruments with arpeggiation."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://heavyocity.com/products/aeon-melodic"
 is_paid = true
 
 [formats.vst3]

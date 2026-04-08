@@ -1,12 +1,13 @@
 slug = "abbey-road-two-iconic-strings"
 name = "Abbey Road Two: Iconic Strings"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Iconic string library recorded at Abbey Road Studios capturing the legendary Studio Two string sound."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/abbey-road-two-iconic-strings/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "subways-streetcars"
 name = "Subways & Streetcars"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument featuring ambient recordings from subways and streetcars for cinematic texture."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/subways-streetcars"
 is_paid = true
 
 [formats.vst3]

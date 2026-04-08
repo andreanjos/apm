@@ -2,10 +2,11 @@ slug = "x-phase"
 name = "X-Phase"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "SSL phase alignment plugin for correcting microphone phase issues and signal timing in recordings."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-phase"
 is_paid = true
 
 [formats.vst3]

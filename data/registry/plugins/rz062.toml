@@ -1,12 +1,13 @@
 slug = "rz062"
 name = "RZ062"
 vendor = "Audified"
-version = "1.0.0"
-description = ""
+version = "2.0.0"
+description = "Vintage German broadcast console EQ emulation delivering smooth, musical frequency shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/rz062-equalizer/"
 is_paid = true
 
 [formats.vst3]

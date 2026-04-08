@@ -2,11 +2,12 @@ slug = "rock-amp-legends"
 name = "Rock Amp Legends"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Guitar amp simulator plugin co-designed with Jimmy Crespo to capture classic rock guitar tones."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

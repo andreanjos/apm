@@ -1,12 +1,13 @@
 slug = "ifx-midget-gems"
 name = "iFX Midget Gems"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Over 2000 samples for multimedia and web designers featuring button pushes, clicks, wipes, and sound effects."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/ifx-midget-gems"
 is_paid = true
 
 [formats.vst3]

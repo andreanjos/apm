@@ -1,12 +1,13 @@
 slug = "iron-pack-9-fat-analog"
 name = "Iron Pack 9 – Fat Analog"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Iron Pack Vol.9 — fat analog synthesizer Kontakt instrument with warm, thick electronic tones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/iron-pack-9-fat-analog"
 is_paid = true
 
 [formats.vst3]

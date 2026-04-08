@@ -2,11 +2,12 @@ slug = "lap-harp"
 name = "Lap Harp"
 vendor = "Cinematique Instruments"
 version = "1.0.0"
-description = ""
+description = "Lap harp Kontakt instrument capturing intimate plucked string tones for folk and world music."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://cinematique-instruments.com/"
 is_paid = true
 
 [formats.vst3]

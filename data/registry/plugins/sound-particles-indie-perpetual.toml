@@ -1,12 +1,13 @@
 slug = "sound-particles-indie-perpetual"
 name = "Sound Particles Indie Perpetual"
 vendor = "Sound Particles"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Perpetual license for Sound Particles Indie, an immersive audio workstation for indie creators."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products"
 is_paid = true
 
 [formats.vst3]

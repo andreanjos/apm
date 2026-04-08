@@ -1,11 +1,12 @@
 slug = "tnt-voice-executor"
 name = "TNT Voice Executor"
 vendor = "Audified"
-version = "1.0.0"
-description = ""
+version = "1.1.0"
+description = "One-click vocal processing plugin delivering instant professional voice treatment with minimal controls."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/tnt-voice-executor/"
 is_paid = true
 
 [formats.vst3]

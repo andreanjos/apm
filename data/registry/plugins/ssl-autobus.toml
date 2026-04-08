@@ -2,11 +2,12 @@ slug = "ssl-autobus"
 name = "SSL autoBUS"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "AI-assisted SSL 4000 G Bus Compressor plugin with sonible AI analysis for intelligent mix bus compression."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/autobus"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16623-SSL-autoBUS"
 

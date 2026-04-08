@@ -2,11 +2,12 @@ slug = "retromod-fat"
 name = "RetroMod FAT"
 vendor = "Tracktion"
 version = "1.0.0"
-description = ""
+description = "RetroMod FAT synthesizer plugin delivering thick, fat analog mono synth sounds from classic hardware."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.tracktion.com/products/retromod"
 is_paid = true
 
 [formats.vst3]

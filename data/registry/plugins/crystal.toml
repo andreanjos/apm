@@ -1,12 +1,13 @@
 slug = "crystal"
 name = "Crystal"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Shimmering Kontakt instrument built from crystal singing bowls and glass resonance recordings."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/crystal"
 is_paid = true
 
 [formats.vst3]

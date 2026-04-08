@@ -1,12 +1,13 @@
 slug = "6030-ultimate-compressor-v6-native"
 name = "6030 Ultimate Compressor v6 Native"
 vendor = "McDSP"
-version = "1.0.0"
-description = ""
+version = "6.0"
+description = "Native v6 of McDSP's 6030 Ultimate Compressor with multi-mode dynamic compression."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://mcdsp.com/plugin-index/6030/"
 is_paid = true
 
 [formats.vst3]

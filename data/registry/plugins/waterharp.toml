@@ -1,12 +1,13 @@
 slug = "waterharp"
 name = "Waterharp"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument made from water-bowed strings and submerged resonators with fluid tones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/waterharp"
 is_paid = true
 
 [formats.vst3]

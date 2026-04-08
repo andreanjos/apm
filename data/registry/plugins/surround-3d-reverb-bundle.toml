@@ -2,10 +2,11 @@ slug = "surround-3d-reverb-bundle"
 name = "Surround 3D Reverb Bundle"
 vendor = "iZotope"
 version = "1.0.0"
-description = ""
+description = "Bundle of Exponential Audio surround and 3D algorithmic reverb plugins for immersive audio work."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products"
 is_paid = true
 
 [formats.vst3]

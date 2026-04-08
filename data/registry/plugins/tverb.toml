@@ -2,11 +2,12 @@ slug = "tverb"
 name = "Tverb"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Tony Visconti signature reverb with movable mics inspired by the David Bowie Heroes recording session."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/tverb/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/2916-Tverb"
 

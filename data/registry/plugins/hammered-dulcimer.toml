@@ -2,13 +2,13 @@ slug = "hammered-dulcimer"
 name = "Hammered Dulcimer"
 vendor = "Cinematique Instruments"
 version = "1.0.0"
-description = ""
+description = "Hammered dulcimer Kontakt instrument with shimmering string sounds for film scores and ethnic music."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://cinematique-instruments.com/sites2025/instr_hammdulc.php"
 
 [formats.vst3]
 url = ""

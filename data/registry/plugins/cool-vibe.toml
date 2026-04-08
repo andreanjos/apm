@@ -1,11 +1,12 @@
 slug = "cool-vibe"
 name = "Cool-vibe"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Rotary speaker simulator plugin emulating the swirling Leslie cabinet effect for organ and guitar."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p880-Cool-vibe/"
 is_paid = true
 
 [formats.vst3]

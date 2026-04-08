@@ -1,12 +1,13 @@
 slug = "kinderklavier"
 name = "Kinderklavier"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Charming child's toy piano Kontakt instrument with delicate, innocent bell-like tones."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/kinderklavier"
 is_paid = true
 
 [formats.vst3]

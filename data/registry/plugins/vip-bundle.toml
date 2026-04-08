@@ -1,12 +1,13 @@
 slug = "vip-bundle"
 name = "VIP Bundle"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Complete set of 50 streamlined Plug & Mix plugins covering EQ, dynamics, reverb, delay, and more."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/b888-P-M-VIP-Bundle/"
 is_paid = true
 
 [formats.vst3]

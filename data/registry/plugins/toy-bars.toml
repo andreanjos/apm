@@ -1,12 +1,13 @@
 slug = "toy-bars"
 name = "Toy Bars"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument sampling a vintage toy glockenspiel with condenser and binaural microphones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/toy-bars/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "olafur-arnalds-stratus"
 name = "Olafur Arnalds Stratus"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Ólafur Arnalds' signature piano library fusing organic beauty and technology for intimate emotional scoring."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/olafur-arnalds-stratus/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "x-dyneq"
 name = "X DynEQ"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "SSL dynamic EQ plugin combining equalization and compression for frequency-specific dynamic control."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/x-dyneq"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/12266-X-DynEQ"
 

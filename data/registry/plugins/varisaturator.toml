@@ -1,11 +1,12 @@
 slug = "varisaturator"
 name = "VariSaturator"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "2.7"
+description = "Versatile saturation and overdrive plugin with multiple saturation modes for coloring audio."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/varisaturator/"
 is_paid = true
 
 [formats.vst3]

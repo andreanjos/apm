@@ -1,11 +1,12 @@
 slug = "crtiv-tape-bus"
 name = "CRTIV Tape Bus"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "1.8"
+description = "Tape bus saturation plugin recreating the characteristic reel-to-reel tape sound for mix buses."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/crtivtapebus/"
 is_paid = true
 
 [formats.vst3]

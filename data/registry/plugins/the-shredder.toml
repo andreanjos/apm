@@ -2,11 +2,12 @@ slug = "the-shredder"
 name = "The Shredder"
 vendor = "Audiority"
 version = "1.0.0"
-description = ""
+description = "Analog modeled simulation of the vintage Marshall Shredmaster high-gain distortion pedal."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/the-british-tanks-collection/"
 is_paid = true
 
 [formats.vst3]

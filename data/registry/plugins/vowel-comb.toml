@@ -1,12 +1,13 @@
 slug = "vowel-comb"
 name = "Vowel Comb"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Comb filter plugin with vowel-shaped resonances for creative formant filtering and vocal-like tones."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1693-Vowel-Comb/"
 is_paid = true
 
 [formats.vst3]

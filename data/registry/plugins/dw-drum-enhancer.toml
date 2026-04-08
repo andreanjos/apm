@@ -2,11 +2,12 @@ slug = "dw-drum-enhancer"
 name = "DW Drum Enhancer"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Drum enhancement plugin for shaping and adding punch, depth, and presence to drum recordings."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/dw-drum-enhancer/"
 is_paid = true
 
 [formats.vst3]

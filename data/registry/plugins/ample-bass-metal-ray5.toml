@@ -1,12 +1,13 @@
 slug = "ample-bass-metal-ray5"
 name = "Ample Bass Metal Ray5"
 vendor = "Ample Sound"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "Metal-focused 5-string bass virtual instrument based on a Music Man StingRay 5 for heavy music."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

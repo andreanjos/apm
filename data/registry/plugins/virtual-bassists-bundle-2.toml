@@ -1,12 +1,13 @@
 slug = "virtual-bassists-bundle-2"
 name = "Virtual Bassists Bundle 2"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Second-generation collection of UJAM Virtual Bassist plugins for complete bass coverage."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/bassist/"
 is_paid = true
 
 [formats.vst3]

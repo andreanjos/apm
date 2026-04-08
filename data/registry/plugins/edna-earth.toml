@@ -1,12 +1,13 @@
 slug = "edna-earth"
 name = "EDNA Earth"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Epic synthesised orchestral instrument built from organic recordings manipulated beyond recognition for film and games."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/edna-earth/"
 is_paid = true
 
 [formats.vst3]

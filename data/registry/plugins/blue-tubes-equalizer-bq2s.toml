@@ -2,11 +2,12 @@ slug = "blue-tubes-equalizer-bq2s"
 name = "Blue Tubes Equalizer BQ2S"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Analog parametric EQ plugin from the Blue Tubes series with classic 4-band frequency shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p432-Blue-Tubes-Equalizer-BQ2S/"
 is_paid = true
 
 [formats.vst3]

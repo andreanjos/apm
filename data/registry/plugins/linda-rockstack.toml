@@ -2,11 +2,12 @@ slug = "linda-rockstack"
 name = "Linda RockStack"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Three-channel guitar amp and cabinet simulator with clean, rock, and metal channels plus chorus and delay."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/linda-rockstack/"
 is_paid = true
 
 [formats.vst3]

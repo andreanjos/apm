@@ -1,12 +1,13 @@
 slug = "electro-optical"
 name = "Electro Optical"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Opto-style compressor plugin emulating the smooth, musical response of classic optical compressors."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p875-Electro-Optical/"
 is_paid = true
 
 [formats.vst3]

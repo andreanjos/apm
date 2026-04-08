@@ -2,13 +2,13 @@ slug = "gravity"
 name = "Gravity"
 vendor = "Heavyocity"
 version = "1.0.0"
-description = ""
+description = "Cinematic scoring tool delivering tempo-synced swells, rhythmic pulses, and hybrid textures for film and TV."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://heavyocity.com/products/gravity"
 
 [formats.vst3]
 url = ""

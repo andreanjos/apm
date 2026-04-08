@@ -2,11 +2,12 @@ slug = "e-compressor"
 name = "E-Compressor"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Analog-style compressor plugin from Nomad Factory's E-Series for versatile dynamic range control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

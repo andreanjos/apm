@@ -1,14 +1,14 @@
 slug = "falcon-2"
 name = "Falcon 2"
 vendor = "UVI"
-version = "1.0.0"
-description = ""
+version = "2026"
+description = "Advanced hybrid synthesizer workstation with 24 oscillator types, 90+ effects, and deep modulation."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.uvi.net/falcon"
 
 [formats.vst3]
 url = ""

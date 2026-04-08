@@ -1,12 +1,13 @@
 slug = "harmonic-maximizer"
 name = "Harmonic Maximizer"
 vendor = "Audiority"
-version = "1.0.0"
-description = ""
+version = "1.3.1"
+description = "Multi-band exciter and loudness maximizer plug-in for adding harmonic richness and presence."
 category = "effects"
 subcategory = "exciter"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/harmonic-maximizer/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/62-Exciter/3440-Harmonic-Maximizer"
 

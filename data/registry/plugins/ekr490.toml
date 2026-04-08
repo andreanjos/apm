@@ -1,12 +1,13 @@
 slug = "ekr490"
 name = "EKR490"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Emulation of the classic 1970s Elka Rhapsody 490 Italian strings machine with lush analog string sounds."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/ekr490/"
 is_paid = true
 
 [formats.vst3]

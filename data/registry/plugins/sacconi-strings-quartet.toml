@@ -1,12 +1,13 @@
 slug = "sacconi-strings-quartet"
 name = "Sacconi Strings Quartet"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Award-winning Sacconi Quartet sampled at Wigmore Hall delivering exceptional chamber string blend and character."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/sacconi-strings-quartet/"
 is_paid = true
 
 [formats.vst3]

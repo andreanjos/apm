@@ -1,12 +1,13 @@
 slug = "tension-vectors"
 name = "Tension Vectors"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Blockbuster cinematic sound effects with 500 elements conveying suspense and emotional impact for film and game scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/tension-vectors"
 is_paid = true
 
 [formats.vst3]

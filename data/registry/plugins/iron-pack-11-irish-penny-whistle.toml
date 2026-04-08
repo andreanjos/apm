@@ -1,12 +1,13 @@
 slug = "iron-pack-11-irish-penny-whistle"
 name = "Iron Pack 11 – Irish Penny Whistle"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Iron Pack Vol.11 — an Irish penny whistle Kontakt library with folk articulations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/iron-pack-11-irish-penny-whistle"
 is_paid = true
 
 [formats.vst3]

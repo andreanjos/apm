@@ -2,10 +2,11 @@ slug = "physion-mk-ii-crossgrade"
 name = "Physion Mk II Crossgrade"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Crossgrade to Physion Mk II, a transient/tonal splitter with multi-effects per stream for sound design and mixing."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/physion-mk-ii/"
 is_paid = true
 
 [formats.vst3]

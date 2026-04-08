@@ -1,12 +1,13 @@
 slug = "ae600-active-eq-v6-native"
 name = "AE600 Active EQ V6 Native"
 vendor = "McDSP"
-version = "1.0.0"
-description = ""
+version = "6.0"
+description = "Native v6 of McDSP's AE600 next-generation active equalizer with independent band controls."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://mcdsp.com/plugin-index/ae600/"
 is_paid = true
 
 [formats.vst3]

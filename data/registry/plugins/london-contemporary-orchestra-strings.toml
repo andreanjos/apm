@@ -1,12 +1,13 @@
 slug = "london-contemporary-orchestra-strings"
 name = "London Contemporary Orchestra Strings"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Tight, dry studio string ensemble — 6 violins, 4 violas, 3 cellos, 2 basses — recorded at Spitfire HQ."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/london-contemporary-orchestra-strings"
 is_paid = true
 
 [formats.vst3]

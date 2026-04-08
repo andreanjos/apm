@@ -2,11 +2,12 @@ slug = "colors-vintage-synth"
 name = "Colors: Vintage Synth"
 vendor = "Cinematique Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument featuring vintage synthesizer sounds for retro-inspired pad and texture production."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
 is_paid = true
 
 [formats.vst3]

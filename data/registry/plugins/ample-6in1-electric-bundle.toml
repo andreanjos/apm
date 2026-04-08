@@ -2,11 +2,12 @@ slug = "ample-6in1-electric-bundle"
 name = "Ample 6in1 Electric Bundle"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Bundle of six Ample Sound electric guitar virtual instruments covering a wide range of styles."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

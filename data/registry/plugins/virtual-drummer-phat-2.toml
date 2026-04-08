@@ -1,12 +1,13 @@
 slug = "virtual-drummer-phat-2"
 name = "Virtual Drummer PHAT 2"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Funk and groove drummer plugin with hip-hop and urban music drum performances."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/drummer/phat/"
 is_paid = true
 
 [formats.vst3]

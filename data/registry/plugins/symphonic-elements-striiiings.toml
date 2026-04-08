@@ -1,12 +1,13 @@
 slug = "symphonic-elements-striiiings"
 name = "Symphonic Elements STRIIIINGS"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Lush Hollywood string ensemble plugin designed to evoke deep cinematic emotion."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/symphonic-elements/striiiings/"
 is_paid = true
 
 [formats.vst3]

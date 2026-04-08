@@ -1,12 +1,13 @@
 slug = "hg2o"
 name = "Hg2O"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Hybrid orchestral water-based instrument library delivering experimental aquatic and resonant textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/hg2o/"
 is_paid = true
 
 [formats.vst3]

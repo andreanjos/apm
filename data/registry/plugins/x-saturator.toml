@@ -2,10 +2,11 @@ slug = "x-saturator"
 name = "X-Saturator"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "SSL saturation plugin adding warm harmonic distortion and analog coloring to tracks and buses."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-saturator"
 is_paid = true
 
 [formats.vst3]

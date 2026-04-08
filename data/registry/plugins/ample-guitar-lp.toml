@@ -1,12 +1,13 @@
 slug = "ample-guitar-lp"
 name = "Ample Guitar LP"
 vendor = "Ample Sound"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "Electric guitar virtual instrument based on a Gibson Les Paul 1958 Reissue for classic rock tones."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/pro-pd.asp?id=1"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15099-Ample-Guitar-LP"
 

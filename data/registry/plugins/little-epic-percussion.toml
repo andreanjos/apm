@@ -1,12 +1,13 @@
 slug = "little-epic-percussion"
 name = "Little Epic Percussion"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Compact epic percussion Kontakt instrument with cinematic power in a small sample footprint."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/little-epic-percussion"
 is_paid = true
 
 [formats.vst3]

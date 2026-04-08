@@ -1,12 +1,13 @@
 slug = "breaker"
 name = "Breaker"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Heavy cinematic Kontakt instrument built from industrial breaking and crashing sound sources."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/breaker"
 is_paid = true
 
 [formats.vst3]

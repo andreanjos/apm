@@ -2,11 +2,12 @@ slug = "massive-dubstep"
 name = "Massive Dubstep"
 vendor = "Audiority"
 version = "1.0.0"
-description = ""
+description = "64 NI Massive presets crafted for dubstep, grime, trap, and drum & bass with performance controls."
 category = "instruments"
 subcategory = "presets"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/massive-dubstep/"
 is_paid = true
 
 [formats.vst3]

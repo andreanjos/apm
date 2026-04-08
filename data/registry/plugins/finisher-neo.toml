@@ -1,12 +1,13 @@
 slug = "finisher-neo"
 name = "Finisher NEO"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Creative FX plugin offering infinite instant inspiration for spontaneous sound design."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/finisher/neo/"
 is_paid = true
 
 [formats.vst3]

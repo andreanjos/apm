@@ -2,11 +2,12 @@ slug = "4in1-electric-bass-bundle"
 name = "4in1 Electric Bass Bundle"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Bundle of four Ample Sound electric bass virtual instruments for comprehensive bass production."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

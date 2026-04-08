@@ -2,13 +2,13 @@ slug = "minibit-038-miniverb-bundle"
 name = "miniBit &#038; miniVerb Bundle"
 vendor = "AudioThing"
 version = "1.0.0"
-description = ""
+description = "Bundle combining the miniBit chiptune synthesizer and miniVerb compact reverb effect plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiothing.net/effects/"
 
 [formats.vst3]
 url = ""

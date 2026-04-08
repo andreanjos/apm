@@ -1,12 +1,13 @@
 slug = "soundscapes-vol-2"
 name = "Soundscapes Vol 2"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument with binaural, concrete, inductor, and piezo ambient soundscapes from global recordings."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/soundscapes-vol-2/"
 is_paid = true
 
 [formats.vst3]

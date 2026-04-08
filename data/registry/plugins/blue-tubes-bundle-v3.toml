@@ -1,12 +1,13 @@
 slug = "blue-tubes-bundle-v3"
 name = "Blue Tubes Bundle V3"
 vendor = "Nomad Factory"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Comprehensive bundle of all Blue Tubes analog-modeled plugins covering dynamics, EQ, and modulation effects."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

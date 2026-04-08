@@ -2,11 +2,12 @@ slug = "ample-guitar-g"
 name = "Ample Guitar G"
 vendor = "Ample Sound"
 version = "1.0.0"
-description = ""
+description = "Electric guitar virtual instrument based on a Gibson Les Paul for warm, classic rock tones."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.amplesound.net/en/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "albion-iii-iceni"
 name = "Albion III Iceni"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Epic hybrid orchestral library with low brass, cellos, basses, and atonal aleatoric articulations for dark scores."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/albion-iceni"
 is_paid = true
 
 [formats.vst3]

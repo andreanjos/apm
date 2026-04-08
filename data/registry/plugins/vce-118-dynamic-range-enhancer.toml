@@ -1,12 +1,13 @@
 slug = "vce-118-dynamic-range-enhancer"
 name = "VCE 118 Dynamic Range Enhancer"
 vendor = "Fuse Audio Labs"
-version = "1.0.0"
-description = ""
+version = "2.7"
+description = "Dynamic range enhancer combining compression and expansion based on early 70s VCA technology."
 category = "effects"
 subcategory = "dynamics processor"
 license = "commercial"
 tags = []
+homepage = "https://fuseaudiolabs.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/13882-VCE-118-Dynamic-Range-Enhancer"
 

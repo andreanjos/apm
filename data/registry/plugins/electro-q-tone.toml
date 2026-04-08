@@ -1,12 +1,13 @@
 slug = "electro-q-tone"
 name = "Electro Q Tone"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Resonant filter plugin combining EQ and tone-shaping for creative sound design and mixing."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1149-Electro-Q-Tone/"
 is_paid = true
 
 [formats.vst3]

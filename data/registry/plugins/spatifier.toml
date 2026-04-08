@@ -1,12 +1,13 @@
 slug = "spatifier"
 name = "Spatifier"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "1.10"
+description = "Mono-to-stereo spatial enhancer plugin for creating wide stereo images from mono sources."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/spatifier/"
 is_paid = true
 
 [formats.vst3]

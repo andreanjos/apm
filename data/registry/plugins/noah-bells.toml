@@ -1,12 +1,13 @@
 slug = "noah-bells"
 name = "Noah Bells"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sonorous bell Kontakt instrument with deep, rich resonance and layered harmonic complexity."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/noah-bells"
 is_paid = true
 
 [formats.vst3]

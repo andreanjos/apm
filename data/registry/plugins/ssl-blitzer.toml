@@ -2,11 +2,12 @@ slug = "ssl-blitzer"
 name = "SSL Blitzer"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "Multi-character compressor inspired by classic hardware, ranging from soft saturation to brick-wall limiting."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/blitzer"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10384-SSL-Blitzer"
 

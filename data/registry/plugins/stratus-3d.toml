@@ -1,11 +1,12 @@
 slug = "stratus-3d"
 name = "Stratus 3D"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "3.1.0"
+description = "Exponential Audio Stratus 3D algorithmic reverb for immersive audio with binaural and Atmos support."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products"
 is_paid = true
 
 [formats.vst3]

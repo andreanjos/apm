@@ -1,12 +1,13 @@
 slug = "spitfire-studio-strings"
 name = "Spitfire Studio Strings"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Versatile pro-end dry stage string library recorded in AIR Studio One — the first of the Studio range."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-strings/"
 is_paid = true
 
 [formats.vst3]

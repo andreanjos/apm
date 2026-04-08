@@ -1,12 +1,13 @@
 slug = "vinylizer"
 name = "Vinylizer"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Vinyl simulation plugin adding record crackle, noise, and lo-fi analog warmth to digital recordings."
 category = "effects"
 subcategory = "lo-fi"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1159-Vinylizer/"
 is_paid = true
 
 [formats.vst3]

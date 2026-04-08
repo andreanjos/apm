@@ -1,12 +1,13 @@
 slug = "6030-ultimate-compressor-native-v7"
 name = "6030 Ultimate Compressor Native v7"
 vendor = "McDSP"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Native v7 version of McDSP's 6030 Ultimate Compressor professional dynamics processor."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://mcdsp.com/plugin-index/6030/"
 is_paid = true
 
 [formats.vst3]

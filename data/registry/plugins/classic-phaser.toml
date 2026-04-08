@@ -1,11 +1,12 @@
 slug = "classic-phaser"
 name = "Classic Phaser"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Classic phaser effect plugin with swooping, vintage-style phase modulation inspired by iconic hardware."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p883-Classic-Phaser/"
 is_paid = true
 
 [formats.vst3]

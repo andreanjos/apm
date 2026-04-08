@@ -2,10 +2,11 @@ slug = "exponential-audio-surround-reverb-bundle"
 name = "Exponential Audio: Surround Reverb Bundle"
 vendor = "iZotope"
 version = "1.0.0"
-description = ""
+description = "Bundle of Exponential Audio surround algorithmic reverbs including PhoenixVerb Surround and R2 Surround."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products"
 is_paid = true
 
 [formats.vst3]

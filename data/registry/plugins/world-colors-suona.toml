@@ -2,11 +2,12 @@ slug = "world-colors-suona"
 name = "World Colors Suona"
 vendor = "Evolution Series"
 version = "1.0.0"
-description = ""
+description = "Textural Kontakt library of the Chinese Suona horn with expressive articulations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.evolutionseries.com/portfolio/world-colors-suona/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "octaplexer"
 name = "Octaplexer"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Frequency shifter plugin delivering octave shifting, ring modulation, and pitch transposition effects."
 category = "effects"
 subcategory = "frequency shifter"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1154-Octaplexer/"
 is_paid = true
 
 [formats.vst3]

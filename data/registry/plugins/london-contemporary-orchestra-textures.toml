@@ -1,12 +1,13 @@
 slug = "london-contemporary-orchestra-textures"
 name = "London Contemporary Orchestra Textures"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Evolving orchestral textures and soundscapes from the London Contemporary Orchestra, for experimental scoring."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/london-contemporary-orchestra-textures"
 is_paid = true
 
 [formats.vst3]

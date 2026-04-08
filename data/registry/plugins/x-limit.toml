@@ -2,11 +2,12 @@ slug = "x-limit"
 name = "X-Limit"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "SSL transparent limiter plugin for peak control and loudness maximization in mixing and mastering."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-x-limit"
 is_paid = true
 
 [formats.vst3]

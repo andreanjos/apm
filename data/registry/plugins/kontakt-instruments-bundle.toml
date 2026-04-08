@@ -2,11 +2,12 @@ slug = "kontakt-instruments-bundle"
 name = "Kontakt Instruments Bundle"
 vendor = "Audiority"
 version = "1.0.0"
-description = ""
+description = "Audiority's cinematic Kontakt instrument bundle including The Forge, Maliki, and Octamorph FE."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.audiority.com/shop/"
 is_paid = true
 
 [formats.vst3]

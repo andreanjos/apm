@@ -1,11 +1,12 @@
 slug = "oldskoolverb-plus"
 name = "OldSkoolVerb Plus"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "2.13"
+description = "Algorithmic reverb plugin delivering classic vintage reverb sounds for mixing applications."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/oldskoolverb/"
 is_paid = true
 
 [formats.vst3]

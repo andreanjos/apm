@@ -2,11 +2,12 @@ slug = "invigorate"
 name = "Invigorate"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Versatile compressor, limiter, and overdrive distortion from Newfangled Audio designed to add life to any mix element."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/invigorate/"
 is_paid = true
 
 [formats.vst3]

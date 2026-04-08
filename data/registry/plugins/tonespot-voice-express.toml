@@ -2,10 +2,11 @@ slug = "tonespot-voice-express"
 name = "ToneSpot Voice Express"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Vocal mixing plugin with 90 genre-spanning presets for quick, professional vocal treatment."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/tonespot-voice-express/"
 is_paid = true
 
 [formats.vst3]

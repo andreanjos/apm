@@ -1,12 +1,13 @@
 slug = "oddball"
 name = "Oddball"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Eclectic Kontakt instrument built from odd and unusual sound sources in an unexpected combination."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/oddball"
 is_paid = true
 
 [formats.vst3]

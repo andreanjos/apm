@@ -1,12 +1,13 @@
 slug = "ifx-matinee"
 name = "iFX Matinee"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Over 1500 samples covering ambient SFX, atmos loops, button pushes, and whooshes for website audio interactivity."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/ifx-matinee"
 is_paid = true
 
 [formats.vst3]

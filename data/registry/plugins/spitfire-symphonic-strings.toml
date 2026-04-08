@@ -1,12 +1,13 @@
 slug = "spitfire-symphonic-strings"
 name = "Spitfire Symphonic Strings"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "60-player string orchestra with 175+ articulations recorded at The Hall at AIR Studios, London."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/spitfire-symphonic-strings/"
 is_paid = true
 
 [formats.vst3]

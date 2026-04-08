@@ -1,12 +1,13 @@
 slug = "bbc-symphony-orchestra-professional"
 name = "BBC Symphony Orchestra Professional"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Professional edition of the BBC Symphony Orchestra with the full range of articulations and microphone positions."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/bbc-symphony-orchestra-professional"
 is_paid = true
 
 [formats.vst3]

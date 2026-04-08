@@ -1,12 +1,13 @@
 slug = "soundiron-collection-2"
 name = "SOUNDIRON COLLECTION 2"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Curated bundle collection of premium Soundiron Kontakt instruments from across the catalog."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/soundiron-collection-2"
 is_paid = true
 
 [formats.vst3]

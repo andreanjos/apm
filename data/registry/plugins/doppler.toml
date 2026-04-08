@@ -1,12 +1,13 @@
 slug = "doppler"
 name = "Doppler"
 vendor = "Sound Particles"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sound Particles Doppler accurately simulates pitch, level, and EQ changes of moving sound sources."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products/doppler"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9961-Doppler"
 

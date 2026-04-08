@@ -2,11 +2,12 @@ slug = "ssl-fusion-stereo-image"
 name = "SSL Fusion Stereo Image"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "SSL Fusion stereo image plugin using mid-side processing to widen and enhance stereo depth."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-stereo-image"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/8679-SSL-Fusion-Stereo-Image"
 

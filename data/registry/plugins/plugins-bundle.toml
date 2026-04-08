@@ -2,11 +2,12 @@ slug = "plugins-bundle"
 name = "Plugins Bundle"
 vendor = "AudioThing"
 version = "1.0.0"
-description = ""
+description = "Comprehensive bundle of all AudioThing VST/AU/AAX effect and instrument plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/"
 is_paid = true
 
 [formats.vst3]

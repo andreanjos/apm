@@ -2,11 +2,12 @@ slug = "blue-tubes-effects-pack"
 name = "Blue Tubes Effects Pack"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Bundle of Blue Tubes effects plugins including chorus, phaser, oilcan echo, and stereo imager."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

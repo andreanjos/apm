@@ -1,12 +1,13 @@
 slug = "tube-exciter"
 name = "Tube Exciter"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Tube exciter plugin adding harmonic saturation and high-frequency presence to dull or flat recordings."
 category = "effects"
 subcategory = "exciter"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p825-Tube-Exciter/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "x-comp"
 name = "X-Comp"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "SSL transparent compressor plugin with analogue-modelled circuit for precise and musical dynamic control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-comp"
 is_paid = true
 
 [formats.vst3]

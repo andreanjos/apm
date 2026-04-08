@@ -1,11 +1,12 @@
 slug = "symphony"
 name = "Symphony"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "3.1.0"
+description = "Exponential Audio Symphony stereo algorithmic reverb with cinematic, spacious soundscapes."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products"
 is_paid = true
 
 [formats.vst3]

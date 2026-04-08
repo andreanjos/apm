@@ -1,12 +1,13 @@
 slug = "delphi-piano-1-autumn-1958"
 name = "Delphi Piano #1: Autumn 1958"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Vintage 1958 upright piano Kontakt instrument with warm, aged character and intimate tone."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/delphi-piano-1-autumn-1958"
 is_paid = true
 
 [formats.vst3]

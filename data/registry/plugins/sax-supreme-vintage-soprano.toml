@@ -1,12 +1,13 @@
 slug = "sax-supreme-vintage-soprano"
 name = "Sax Supreme: Vintage Soprano"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Vintage soprano saxophone recorded in an anechoic chamber as a Kontakt instrument with over 1200 samples."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/sax-supreme"
 is_paid = true
 
 [formats.vst3]

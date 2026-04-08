@@ -1,12 +1,13 @@
 slug = "cylindrum"
 name = "Cylindrum"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument made from cylindrical metal objects producing unique resonant drum tones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/cylindrum"
 is_paid = true
 
 [formats.vst3]

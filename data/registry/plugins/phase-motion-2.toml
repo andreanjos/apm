@@ -1,11 +1,12 @@
 slug = "phase-motion-2"
 name = "Phase Motion 2"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "2.1.1"
+description = "Phaser effect plugin with organic modulation delivering vintage analog phase shifting sounds."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/phase-motion/"
 is_paid = true
 
 [formats.vst3]

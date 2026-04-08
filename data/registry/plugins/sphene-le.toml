@@ -2,11 +2,12 @@ slug = "sphene-le"
 name = "Sphene LE"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Entry-level Sphene bass amp emulation plugin based on boutique bass amplifier modeling."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/sphene-le/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "musique-box"
 name = "Musique Box"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Enchanting Kontakt instrument made from music box mechanisms with delicate, nostalgic tones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/musique-box"
 is_paid = true
 
 [formats.vst3]

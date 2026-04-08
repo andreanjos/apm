@@ -1,12 +1,13 @@
 slug = "little-pump-reeds"
 name = "Little Pump Reeds"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument of a small pump reed organ with charming, vintage tonal character."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/little-pump-reeds"
 is_paid = true
 
 [formats.vst3]

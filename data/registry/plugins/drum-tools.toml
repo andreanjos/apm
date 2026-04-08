@@ -2,11 +2,12 @@ slug = "drum-tools"
 name = "Drum Tools"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Drum channel strip plugin combining transient shaping, EQ, and dynamic processing for drum tracks."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

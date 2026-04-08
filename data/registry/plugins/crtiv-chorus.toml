@@ -1,12 +1,13 @@
 slug = "crtiv-chorus"
 name = "CRTIV Chorus"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "1.4"
+description = "Stereo chorus plugin with four modulated delay operators per channel for lush vintage-style modulation."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/crtivchorus/"
 is_paid = true
 
 [formats.vst3]

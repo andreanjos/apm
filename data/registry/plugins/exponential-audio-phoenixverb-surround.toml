@@ -1,11 +1,12 @@
 slug = "exponential-audio-phoenixverb-surround"
 name = "Exponential Audio: PhoenixVerb Surround"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "7.1.0"
+description = "Surround version of Exponential Audio's PhoenixVerb algorithmic reverb with up to 7.1 channel support."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products"
 is_paid = true
 
 [formats.vst3]

@@ -2,10 +2,11 @@ slug = "tonespot-drum-pro"
 name = "ToneSpot Drum Pro"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Professional drum mixing plugin with drum-type detection and multi-module processing for world-class results."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/tonespot-drum-pro/"
 is_paid = true
 
 [formats.vst3]

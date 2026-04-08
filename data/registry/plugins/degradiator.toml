@@ -1,12 +1,13 @@
 slug = "degradiator"
 name = "Degradiator"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Bit crusher and sample rate reduction plugin for creative lo-fi and digital degradation effects."
 category = "effects"
 subcategory = "bit crusher"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p893-Degradiator/"
 is_paid = true
 
 [formats.vst3]

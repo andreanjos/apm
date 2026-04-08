@@ -2,13 +2,13 @@ slug = "things-bundle"
 name = "Things Bundle"
 vendor = "AudioThing"
 version = "1.0.0"
-description = ""
+description = "Bundle of all AudioThing Things micro-effect plugins including Crusher, Motor, Texture, Flip EQ, and more."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiothing.net/effects/"
 
 [formats.vst3]
 url = ""

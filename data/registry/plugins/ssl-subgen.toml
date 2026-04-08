@@ -2,11 +2,12 @@ slug = "ssl-subgen"
 name = "SSL SubGen"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "Sub-bass harmonic synthesizer plugin generating frequencies an octave lower than source for added power."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/subgen"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10383-SSL-SubGen"
 

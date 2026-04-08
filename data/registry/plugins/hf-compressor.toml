@@ -2,11 +2,12 @@ slug = "hf-compressor"
 name = "HF Compressor"
 vendor = "Solid State Logic"
 version = "1.0.0"
-description = ""
+description = "SSL high-frequency compressor plugin for taming harsh, brittle highs with analog-style HF rounding."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-hf-compressor-plug-in"
 is_paid = true
 
 [formats.vst3]

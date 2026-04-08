@@ -1,12 +1,13 @@
 slug = "cymbology"
 name = "Cymbology"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Comprehensive Kontakt library of deeply sampled cymbals with extensive articulations and textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/cymbology"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "virtual-drummer-2-solid"
 name = "Virtual Drummer 2 Solid"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Gold-standard session drummer plugin offering versatile beats for any music genre."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/drummer/solid/"
 is_paid = true
 
 [formats.vst3]

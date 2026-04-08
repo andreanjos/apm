@@ -2,10 +2,11 @@ slug = "physion-mk-ii"
 name = "Physion Mk II"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Transient/tonal audio splitter with independent multi-effects per stream for creative mixing and sound design."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/physion-mk-ii/"
 is_paid = true
 
 [formats.vst3]

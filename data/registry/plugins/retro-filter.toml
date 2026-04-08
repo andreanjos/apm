@@ -1,12 +1,13 @@
 slug = "retro-filter"
 name = "Retro Filter"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Vintage-style filter plugin with analog circuit modeling for musical filter sweeps and tone shaping."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p878-Retro-Filter/"
 is_paid = true
 
 [formats.vst3]

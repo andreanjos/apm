@@ -1,12 +1,13 @@
 slug = "sunroom-upright-piano"
 name = "Sunroom Upright Piano"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bright, airy upright piano Kontakt instrument with sunlit, intimate room character."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/sunroom-upright-piano"
 is_paid = true
 
 [formats.vst3]

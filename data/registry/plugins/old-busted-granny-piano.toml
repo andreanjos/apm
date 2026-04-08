@@ -1,12 +1,13 @@
 slug = "old-busted-granny-piano"
 name = "Old Busted Granny Piano"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Worn, detuned old upright piano Kontakt instrument with charming lo-fi character."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/old-busted-granny-piano"
 is_paid = true
 
 [formats.vst3]

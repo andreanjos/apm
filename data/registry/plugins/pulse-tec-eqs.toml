@@ -2,11 +2,12 @@ slug = "pulse-tec-eqs"
 name = "Pulse-Tec EQs"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Bundle of Pulse-Tec style EQ plugins modeled on vintage British console equalizers."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p402-Pulse-Tec-EQs/"
 is_paid = true
 
 [formats.vst3]

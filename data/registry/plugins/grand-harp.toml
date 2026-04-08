@@ -2,11 +2,12 @@ slug = "grand-harp"
 name = "Grand Harp"
 vendor = "Cinematique Instruments"
 version = "1.0.0"
-description = ""
+description = "Concert harp Kontakt instrument with 6 articulations including plucked, harmonics, and prepared techniques."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://cinematique-instruments.com/pages_instr/inst_grandharp.php"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/3369-Grand-Harp"
 

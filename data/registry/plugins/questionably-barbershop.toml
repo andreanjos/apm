@@ -1,12 +1,13 @@
 slug = "questionably-barbershop"
 name = "Questionably Barbershop"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Humorous barbershop quartet Kontakt instrument with close-harmony vocal character."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/questionably-barbershop"
 is_paid = true
 
 [formats.vst3]

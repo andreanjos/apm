@@ -1,12 +1,13 @@
 slug = "srx-piano-ii"
 name = "SRX PIANO II"
 vendor = "Roland"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Roland Cloud software instrument with an expanded collection of premium acoustic piano samples."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.roland.com/us/categories/roland_cloud/srx/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15301-SRX-PIANO-II"
 

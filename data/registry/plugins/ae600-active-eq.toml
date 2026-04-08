@@ -1,12 +1,13 @@
 slug = "ae600-active-eq"
 name = "AE600 Active EQ"
 vendor = "McDSP"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "McDSP's AE600 Active EQ with 6 overlapping bands, multiple EQ modes, and ultra-low latency."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://mcdsp.com/plugin-index/ae600/"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "crtiv-reverb-2"
 name = "CRTIV Reverb 2"
 vendor = "Voxengo"
-version = "1.0.0"
-description = ""
+version = "2.4"
+description = "Algorithmic reverb plugin offering lush, rich reverb tails for professional music production."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.voxengo.com/product/crtivreverb/"
 is_paid = true
 
 [formats.vst3]

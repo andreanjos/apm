@@ -2,10 +2,11 @@ slug = "blue-tubes-analog-phaser-aph2s"
 name = "Blue Tubes Analog Phaser APH2S"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Analog phaser plugin from the Blue Tubes series with vintage-style phase shifting and modulation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p427-Blue-Tubes-Analog-Phaser-APH2S/"
 is_paid = true
 
 [formats.vst3]

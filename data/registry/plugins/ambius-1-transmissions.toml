@@ -1,12 +1,13 @@
 slug = "ambius-1-transmissions"
 name = "Ambius 1: Transmissions"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Atmospheric Kontakt instrument featuring evolving pads and textural soundscapes for cinematic scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/ambius-1-transmissions"
 is_paid = true
 
 [formats.vst3]

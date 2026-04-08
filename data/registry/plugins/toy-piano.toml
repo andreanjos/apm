@@ -1,12 +1,13 @@
 slug = "toy-piano"
 name = "Toy Piano"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument sampling a 2-octave upright toy piano with multiple articulations and ambient pads."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/toy-piano/"
 is_paid = true
 
 [formats.vst3]

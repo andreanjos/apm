@@ -2,11 +2,12 @@ slug = "sheen-machine"
 name = "Sheen Machine"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "One-knob high-frequency EQ that adds air and tonal brilliance without boosting transients or adding harshness."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/sheen-machine/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11692-Sheen-Machine"
 

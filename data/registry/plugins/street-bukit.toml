@@ -1,12 +1,13 @@
 slug = "street-bukit"
 name = "Street Bukit"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument built from street-found bukit percussion with urban, raw character."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/street-bukit"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "gatevador"
 name = "Gatevador"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Noise gate plugin for eliminating unwanted background noise and controlling signal bleed."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p2492-Gatevador/"
 is_paid = true
 
 [formats.vst3]

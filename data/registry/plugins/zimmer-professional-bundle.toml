@@ -1,12 +1,13 @@
 slug = "zimmer-professional-bundle"
 name = "Zimmer Professional Bundle"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Professional bundle of all Hans Zimmer Spitfire collaborations — percussion, strings, piano, and drums."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/zimmer-professional/"
 is_paid = true
 
 [formats.vst3]

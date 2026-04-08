@@ -2,11 +2,12 @@ slug = "borealis-le"
 name = "BOREALIS LE"
 vendor = "MNTRA Instruments"
 version = "1.0.0"
-description = ""
+description = "Free lite version of BOREALIS, a cinematic reverb plugin for immersive spatial sound design."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://www.mntra.io/fx-plugins/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/12732-BOREALIS-LE"
 

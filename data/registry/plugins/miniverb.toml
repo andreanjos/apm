@@ -1,11 +1,12 @@
 slug = "miniverb"
 name = "miniVerb"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Compact reverb effect plugin with a simple interface for adding natural or creative room sounds."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/miniverb/"
 is_paid = true
 
 [formats.vst3]

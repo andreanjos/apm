@@ -1,12 +1,13 @@
 slug = "moogy-filter"
 name = "Moogy Filter"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Moog-style ladder filter plugin delivering classic analog filter sweeps and resonant bass tones."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p1690-Moogy-Filter/"
 is_paid = true
 
 [formats.vst3]

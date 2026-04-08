@@ -1,12 +1,13 @@
 slug = "sound-dust-vol-2"
 name = "Sound Dust Vol. 2"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Volume 2 of experimental sound design instruments continuing the hybrid texture and cinematic sound palette."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/sound-dust-vol-2/"
 is_paid = true
 
 [formats.vst3]

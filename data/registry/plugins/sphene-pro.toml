@@ -2,11 +2,12 @@ slug = "sphene-pro"
 name = "Sphene Pro"
 vendor = "Audified"
 version = "1.0.0"
-description = ""
+description = "Full-featured Sphene boutique bass amp emulation with extended cabinet and microphone control."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://audified.com/products/sphene-pro/"
 is_paid = true
 
 [formats.vst3]

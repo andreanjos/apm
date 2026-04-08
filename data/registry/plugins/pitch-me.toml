@@ -1,11 +1,12 @@
 slug = "pitch-me"
 name = "Pitch Me"
 vendor = "Plug & Mix"
-version = "1.0.0"
-description = ""
+version = "4.1.0"
+description = "Pitch shift plugin for transposing audio by semitones or cents with adjustable quality settings."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.plugandmix.com/products/p2493-Pitch-Me/"
 is_paid = true
 
 [formats.vst3]

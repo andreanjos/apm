@@ -2,11 +2,12 @@ slug = "spatial-music-bundle"
 name = "Spatial Music Bundle"
 vendor = "Sound Particles"
 version = "1.0.0"
-description = ""
+description = "Sound Particles bundle of spatial synthesizers and FX plugins for immersive music production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://soundparticles.com/products"
 is_paid = true
 
 [formats.vst3]

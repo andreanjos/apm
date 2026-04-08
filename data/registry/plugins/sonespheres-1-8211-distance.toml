@@ -1,14 +1,14 @@
 slug = "sonespheres-1-8211-distance"
 name = "Sonespheres 1 &#8211; Distance"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Atmospheric Kontakt instrument drawing from acoustic and vocal sources crafted into evolving pads."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://soundiron.com/products/sonespheres-1-distance"
 
 [formats.vst3]
 url = ""

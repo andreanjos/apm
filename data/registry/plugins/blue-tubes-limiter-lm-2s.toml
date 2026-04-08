@@ -2,11 +2,12 @@ slug = "blue-tubes-limiter-lm-2s"
 name = "Blue Tubes Limiter LM-2S"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Classic-style limiter plugin from the Blue Tubes series for transparent loudness control."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/p425-Blue-Tubes-Limiter-LM2S/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "apocalypse-percussion-ensemble"
 name = "Apocalypse Percussion Ensemble"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Industry-leading epic percussion library with 25,000+ samples, 40+ drums, and 400 MIDI grooves."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/apocalypse-percussion"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "zitherette"
 name = "Zitherette"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Delicate zitherette Kontakt library with plucked string resonance and folk melodic character."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/zitherette"
 is_paid = true
 
 [formats.vst3]

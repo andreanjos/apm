@@ -2,11 +2,12 @@ slug = "blue-tubes-dynamics-pack"
 name = "Blue Tubes Dynamics Pack"
 vendor = "Nomad Factory"
 version = "1.0.0"
-description = ""
+description = "Bundle of Blue Tubes dynamics plugins including compressor, limiter, gate, expander, and de-esser."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.nomadfactory.com/products/"
 is_paid = true
 
 [formats.vst3]

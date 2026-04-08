@@ -1,12 +1,13 @@
 slug = "virtual-bassist-rowdy"
 name = "Virtual Bassist ROWDY"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Rock bass plugin delivering rough, distorted, and aggressive electric bass performances."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/bassist/rowdy/"
 is_paid = true
 
 [formats.vst3]

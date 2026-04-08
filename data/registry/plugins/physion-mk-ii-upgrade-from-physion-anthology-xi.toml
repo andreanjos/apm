@@ -2,10 +2,11 @@ slug = "physion-mk-ii-upgrade-from-physion-anthology-xi"
 name = "Physion MK II Upgrade from Physion / Anthology XI"
 vendor = "Eventide"
 version = "1.0.0"
-description = ""
+description = "Upgrade path to Physion Mk II from Physion or Anthology XI for existing Eventide customers."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.eventideaudio.com/plug-ins/physion-mk-ii/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "lounge-factory-downbeat-business"
 name = "Lounge Factory – Downbeat Business"
 vendor = "Zero-G"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Over 5.6GB of lounge, downbeat, and nu-jazz sounds including vintage keys, basslines, strings, and construction kits."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zero-g.co.uk/products/lounge-factory-downbeat-business"
 is_paid = true
 
 [formats.vst3]

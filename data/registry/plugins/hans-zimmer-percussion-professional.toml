@@ -1,12 +1,13 @@
 slug = "hans-zimmer-percussion-professional"
 name = "Hans Zimmer Percussion Professional"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Professional edition of Hans Zimmer's epic cinematic percussion with expanded articulations and mic positions."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-percussion-professional"
 is_paid = true
 
 [formats.vst3]

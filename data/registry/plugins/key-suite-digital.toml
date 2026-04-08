@@ -2,11 +2,12 @@ slug = "key-suite-digital"
 name = "Key Suite Digital"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Vintage digital keys collection featuring 10 instruments from the early era of sampling and digital synthesis."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/key-suite-digital"
 is_paid = true
 
 [formats.vst3]

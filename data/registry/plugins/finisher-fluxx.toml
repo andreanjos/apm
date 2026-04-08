@@ -1,12 +1,13 @@
 slug = "finisher-fluxx"
 name = "Finisher FLUXX"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Creative multi-FX plugin with evil-genius sound manipulation for experimental production."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/finisher/fluxx/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "the-grange"
 name = "The Grange"
 vendor = "Spitfire Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Legendary drums from Chad Smith, Roger Taylor, and Andy Gangadeen recorded at Headley Grange studio."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.spitfireaudio.com/the-grange"
 is_paid = true
 
 [formats.vst3]

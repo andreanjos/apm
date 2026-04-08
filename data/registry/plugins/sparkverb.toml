@@ -1,11 +1,12 @@
 slug = "sparkverb"
 name = "Sparkverb"
 vendor = "UVI"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "Algorithmic reverb plugin delivering luminous spatial depth with a revamped UI and redesigned preset library."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/sparkverb"
 is_paid = true
 
 [formats.vst3]

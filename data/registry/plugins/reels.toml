@@ -1,12 +1,13 @@
 slug = "reels"
 name = "Reels"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.5.4"
+description = "Lo-fi tape effect plugin simulating the warmth, saturation, and degradation of vintage reel-to-reel machines."
 category = "effects"
 subcategory = "lo-fi"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/effects/reels/"
 is_paid = true
 
 [formats.vst3]

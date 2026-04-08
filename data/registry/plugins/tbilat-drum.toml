@@ -1,12 +1,13 @@
 slug = "tbilat-drum"
 name = "Tbilat Drum"
 vendor = "Soundiron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt library of the Moroccan tbilat drum with North African rhythmic articulations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://soundiron.com/products/tbilat-drum"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "vea"
 name = "VEA"
 vendor = "iZotope"
-version = "1.0.0"
-description = ""
+version = "1.1.0"
+description = "AI-powered voice enhancement plugin that cleans and polishes spoken-word recordings automatically."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://www.izotope.com/en/products/vea"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/11847-VEA"
 

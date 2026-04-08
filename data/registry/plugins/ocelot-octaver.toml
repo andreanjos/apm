@@ -1,12 +1,13 @@
 slug = "ocelot-octaver"
 name = "OCELOT Octaver"
 vendor = "Fuse Audio Labs"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Dual octave engine plugin for adding sub and upper octave harmonics to instrument signals."
 category = "effects"
 subcategory = "pitch shifter"
 license = "commercial"
 tags = []
+homepage = "https://fuseaudiolabs.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/15108-OCELOT-Octaver"
 

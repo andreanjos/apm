@@ -1,12 +1,13 @@
 slug = "headbanger-bundle"
 name = "Headbanger Bundle"
 vendor = "UJAM"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Bundle of UJAM instruments tailored for rock, metal, and heavy music production."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.ujam.com/store/"
 is_paid = true
 
 [formats.vst3]

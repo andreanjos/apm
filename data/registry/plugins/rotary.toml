@@ -2,11 +2,12 @@ slug = "rotary"
 name = "Rotary"
 vendor = "UVI"
 version = "1.0.0"
-description = ""
+description = "Rotary speaker emulation with independent horn and drum control, dual-mic positioning, and circuit modeling."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.uvi.net/rotary"
 is_paid = true
 
 [formats.vst3]

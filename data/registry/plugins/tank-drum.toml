@@ -1,12 +1,13 @@
 slug = "tank-drum"
 name = "Tank Drum"
 vendor = "AudioThing"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument sampling a steel tongue drum tuned in E minor pentatonic played with hands and mallets."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audiothing.net/instruments/tank-drum/"
 is_paid = true
 
 [formats.vst3]
