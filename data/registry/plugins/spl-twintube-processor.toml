@@ -1,5 +1,5 @@
 slug = "spl-twintube-processor"
-name = "SPL®  TwinTube Processor"
+name = "SPL® TwinTube Processor"
 vendor = "Universal Audio"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,6 @@ subcategory = "enhancer"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
 
 [formats.vst3]
 url = ""

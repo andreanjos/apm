@@ -1,0 +1,25 @@
+slug = "serum-expansion-pack-quest"
+name = "Serum Expansion Pack Quest"
+vendor = "Plugin Boutique Presets"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "synth presets"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/10516-Serum-Expansion-Pack-Quest"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

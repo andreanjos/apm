@@ -1,13 +1,14 @@
 slug = "lx480-dual-engine-reverb-v4"
-name = "LX480 Dual-Engine Reverb V4"
+name = "LX480 Dual Engine Reverb V4"
 vendor = "Relab Development"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "reverb"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/8017-LX480-Dual-Engine-Reverb-V4"
 
 [formats.vst3]
 url = ""

@@ -4,10 +4,11 @@ vendor = "Mellowmuse"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "preamp"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/6690-CS1V-Console-Channel"
 
 [formats.vst3]
 url = ""

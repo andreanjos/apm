@@ -1,14 +1,14 @@
 slug = "fly-tape-ii"
 name = "Fly Tape II"
-vendor = "Air Music Tech"
+vendor = "AIR Music Technology"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "distortion"
+subcategory = "tape emulation"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/15711-Fly-Tape-II"
 
 [formats.vst3]
 url = ""

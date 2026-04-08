@@ -1,5 +1,5 @@
 slug = "voltage-modular-core-electro-drums"
-name = "Voltage Modular Core + Electro Drums"
+name = "Voltage Modular Core Electro Drums"
 vendor = "Cherry Audio"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/5033-Voltage-Modular-Core-Electro-Drums"
 
 [formats.vst3]
 url = ""

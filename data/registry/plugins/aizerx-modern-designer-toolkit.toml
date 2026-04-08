@@ -1,14 +1,14 @@
 slug = "aizerx-modern-designer-toolkit"
-name = "AizerX: Modern Designer Toolkit"
+name = "AizerX Modern Designer Toolkit"
 vendor = "Keepforest"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "kontakt full"
+subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7783-AizerX-Modern-Designer-Toolkit"
 
 [formats.vst3]
 url = ""

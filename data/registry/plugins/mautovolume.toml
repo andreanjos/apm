@@ -3,12 +3,12 @@ name = "MAutoVolume"
 vendor = "MeldaProduction"
 version = "1.0.0"
 description = ""
-category = "effects"
-subcategory = "dynamic processor"
+category = "tools"
+subcategory = "gain"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/47-Gain/840-MAutoVolume"
 
 [formats.vst3]
 url = ""

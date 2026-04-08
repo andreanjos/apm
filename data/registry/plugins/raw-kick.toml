@@ -1,14 +1,14 @@
 slug = "raw-kick"
-name = "RAW-Kick"
+name = "RAW Kick"
 vendor = "Rob Papen"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "percussion"
+subcategory = "generator"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/4787-RAW-Kick"
 
 [formats.vst3]
 url = ""

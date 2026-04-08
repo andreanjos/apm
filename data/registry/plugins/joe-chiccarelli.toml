@@ -4,11 +4,11 @@ vendor = "Leapwing Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "mixing"
+subcategory = "multi effect"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9651-Joe-Chiccarelli"
 
 [formats.vst3]
 url = ""

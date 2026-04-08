@@ -4,11 +4,11 @@ vendor = "510k"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "arpeggiator"
+subcategory = "sequencer"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/24-Sequencer/9931-SEQUND"
 
 [formats.vst3]
 url = ""

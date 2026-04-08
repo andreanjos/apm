@@ -1,0 +1,24 @@
+slug = "continuo-1-cinematic-guitar-orchestra"
+name = "Continuo 1 – Cinematic Guitar Orchestra"
+vendor = "Karanyi Sounds"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "guitar"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

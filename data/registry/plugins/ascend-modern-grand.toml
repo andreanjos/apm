@@ -1,14 +1,14 @@
 slug = "ascend-modern-grand"
-name = "ASCEND: Modern Grand"
+name = "ASCEND Modern Grand"
 vendor = "Heavyocity"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "keys"
+subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/5714-ASCEND-Modern-Grand"
 
 [formats.vst3]
 url = ""

@@ -4,11 +4,11 @@ vendor = "Boz Digital Labs"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "eq"
+subcategory = "dynamics processor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/3393-Big-Beautiful-Door"
 
 [formats.vst3]
 url = ""

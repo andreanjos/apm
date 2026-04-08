@@ -1,0 +1,24 @@
+slug = "ams-dmx-digital-delay-pitch-shifter"
+name = "AMS DMX Digital Delay & Pitch Shifter"
+vendor = "Universal Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "delay"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

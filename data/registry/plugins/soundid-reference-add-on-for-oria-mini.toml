@@ -1,0 +1,25 @@
+slug = "soundid-reference-add-on-for-oria-mini"
+name = "SoundID Reference Add on for ORIA Mini"
+vendor = "Sonarworks"
+version = "1.0.0"
+description = ""
+category = "tools"
+subcategory = "referencing tools"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/15717-SoundID-Reference-Add-on-for-ORIA-Mini"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

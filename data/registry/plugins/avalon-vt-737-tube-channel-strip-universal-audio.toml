@@ -1,0 +1,24 @@
+slug = "avalon-vt-737-tube-channel-strip-universal-audio"
+name = "Avalon VT-737 Tube Channel Strip"
+vendor = "Universal Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "channel strip"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

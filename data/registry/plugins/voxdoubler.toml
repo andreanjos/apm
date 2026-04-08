@@ -4,10 +4,11 @@ vendor = "Sonnox"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "vocal processing"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/5373-VoxDoubler"
 
 [formats.vst3]
 url = ""

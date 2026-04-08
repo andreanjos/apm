@@ -1,13 +1,14 @@
 slug = "ds-10-drum-shaper"
-name = "DS-10 Drum Shaper"
+name = "DS 10 Drum Shaper"
 vendor = "XLN Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "transient shaper"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/1812-DS-10-Drum-Shaper"
 
 [formats.vst3]
 url = ""

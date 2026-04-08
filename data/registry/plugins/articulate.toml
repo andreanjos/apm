@@ -1,0 +1,25 @@
+slug = "articulate"
+name = "Articulate"
+vendor = "Newfangled Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "transient shaper"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/14711-Articulate"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

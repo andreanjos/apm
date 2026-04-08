@@ -1,14 +1,14 @@
 slug = "pdq-bass"
 name = "PDQ Bass"
-vendor = "Lamprey"
+vendor = "Iamlamprey"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "guitar"
+subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8087-PDQ-Bass"
 
 [formats.vst3]
 url = ""

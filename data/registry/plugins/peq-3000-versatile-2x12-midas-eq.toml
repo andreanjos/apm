@@ -1,0 +1,25 @@
+slug = "peq-3000-versatile-2x12-midas-eq"
+name = "PEQ 3000 Versatile 2x12 Midas EQ"
+vendor = "TC Electronic"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "eq"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14583-PEQ-3000-Versatile-2x12-Midas-EQ"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

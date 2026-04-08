@@ -1,14 +1,14 @@
 slug = "ownthd"
 name = "OwnTHD"
-vendor = "Three-Body Technology"
+vendor = "Three Body Technology"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "distortion"
+subcategory = "saturation"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/14733-OwnTHD"
 
 [formats.vst3]
 url = ""

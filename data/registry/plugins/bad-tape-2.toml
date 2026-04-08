@@ -1,14 +1,14 @@
 slug = "bad-tape-2"
 name = "Bad Tape 2"
-vendor = "denise"
+vendor = "Denise Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "lo-fi"
+subcategory = "saturation"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/9112-Bad-Tape-2"
 
 [formats.vst3]
 url = ""

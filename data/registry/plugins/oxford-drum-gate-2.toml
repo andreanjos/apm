@@ -1,0 +1,25 @@
+slug = "oxford-drum-gate-2"
+name = "Oxford Drum Gate 2"
+vendor = "Sonnox"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "gate"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/16865-Oxford-Drum-Gate-2"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

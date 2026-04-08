@@ -1,0 +1,24 @@
+slug = "plugin-boutique-scaler-2-songwish-remidi-2-bundle"
+name = "Plugin Boutique Scaler 2 & SongWish reMIDI 2 Bundle"
+vendor = "Plugin Boutique Exclusive Bundles+"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "fx plugin bundle"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

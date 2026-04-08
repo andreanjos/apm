@@ -3,12 +3,12 @@ name = "Egoist"
 vendor = "Sugar Bytes"
 version = "1.0.0"
 description = ""
-category = "effects"
-subcategory = "drum tools"
+category = "instruments"
+subcategory = "groovebox"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/6-Groovebox/1013-Egoist"
 
 [formats.vst3]
 url = ""

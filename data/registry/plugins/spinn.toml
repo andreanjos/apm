@@ -4,10 +4,11 @@ vendor = "Klevgrand"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "modulator"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/8724-Spinn"
 
 [formats.vst3]
 url = ""

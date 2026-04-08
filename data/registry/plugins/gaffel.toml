@@ -3,12 +3,12 @@ name = "Gaffel"
 vendor = "Klevgrand"
 version = "1.0.0"
 description = ""
-category = "effects"
-subcategory = "eq"
+category = "tools"
+subcategory = "utility"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/8704-Gaffel"
 
 [formats.vst3]
 url = ""

@@ -1,14 +1,14 @@
 slug = "distinct"
-name = "Distinct!"
+name = "Distinct"
 vendor = "Kiive Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "distortion"
+subcategory = "saturation"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/8430-Distinct-"
 
 [formats.vst3]
 url = ""

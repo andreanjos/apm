@@ -1,0 +1,25 @@
+slug = "hypercyclic"
+name = "Hypercyclic"
+vendor = "Mucoder"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "midi arp"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/14-MIDI-Arp/1813-Hypercyclic"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

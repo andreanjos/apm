@@ -1,13 +1,12 @@
 slug = "vibrator"
 name = "Vibrator"
-vendor = "Plug &amp; Mix"
+vendor = "Plug & Mix"
 version = "1.0.0"
 description = ""
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
 
 [formats.vst3]
 url = ""

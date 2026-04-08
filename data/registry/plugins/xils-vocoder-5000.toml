@@ -1,0 +1,25 @@
+slug = "xils-vocoder-5000"
+name = "XILS Vocoder 5000"
+vendor = "XILS Lab"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "vocoder"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/1697-XILS-Vocoder-5000"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

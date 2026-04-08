@@ -1,6 +1,6 @@
 slug = "ls-rotator"
 name = "Ls Rotator"
-vendor = "Plug &amp; Mix"
+vendor = "Plug & Mix"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,6 @@ subcategory = "amp simulator"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
 
 [formats.vst3]
 url = ""

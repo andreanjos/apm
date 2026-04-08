@@ -1,5 +1,5 @@
 slug = "harrison-32c-32c-se-channel-eq"
-name = "Harrison® 32C / 32C SE  Channel EQ"
+name = "Harrison® 32C / 32C SE Channel EQ"
 vendor = "Universal Audio"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,6 @@ subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
 
 [formats.vst3]
 url = ""

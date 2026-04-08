@@ -1,5 +1,5 @@
 slug = "eve-at-bundle"
-name = "EVE-AT Bundle"
+name = "EVE AT Bundle"
 vendor = "Kuassa"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/1984-EVE-AT-Bundle"
 
 [formats.vst3]
 url = ""

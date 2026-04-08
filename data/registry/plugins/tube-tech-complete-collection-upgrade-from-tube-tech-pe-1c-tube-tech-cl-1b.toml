@@ -1,0 +1,24 @@
+slug = "tube-tech-complete-collection-upgrade-from-tube-tech-pe-1c-tube-tech-cl-1b"
+name = "Tube-Tech Complete Collection Upgrade from Tube-Tech PE 1C & Tube-Tech CL 1B"
+vendor = "Softube"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "channel strip"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

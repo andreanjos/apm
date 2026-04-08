@@ -1,5 +1,5 @@
 slug = "eve-at1"
-name = "EVE-AT1"
+name = "EVE AT1"
 vendor = "Kuassa"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/4054-EVE-AT1"
 
 [formats.vst3]
 url = ""

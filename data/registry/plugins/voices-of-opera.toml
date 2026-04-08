@@ -1,14 +1,14 @@
 slug = "voices-of-opera"
 name = "Voices Of Opera"
-vendor = "EastWest"
+vendor = "EastWest Sounds"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "plugin"
+subcategory = "virtual instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15639-Voices-Of-Opera"
 
 [formats.vst3]
 url = ""

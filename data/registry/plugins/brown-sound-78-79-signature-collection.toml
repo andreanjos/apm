@@ -1,0 +1,25 @@
+slug = "brown-sound-78-79-signature-collection"
+name = "Brown Sound 78 79 Signature Collection"
+vendor = "IK Multimedia"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "amp simulator"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/14909-Brown-Sound-78-79-Signature-Collection"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

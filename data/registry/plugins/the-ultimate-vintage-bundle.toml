@@ -1,0 +1,25 @@
+slug = "the-ultimate-vintage-bundle"
+name = "The Ultimate Vintage Bundle"
+vendor = "Big Fish Audio"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "complete collection"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/12420-The-Ultimate-Vintage-Bundle"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

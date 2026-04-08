@@ -1,0 +1,25 @@
+slug = "megurine-luka-v4x"
+name = "MEGURINE LUKA V4X"
+vendor = "Crypton Future Media"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "vocal synth"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/16425-MEGURINE-LUKA-V4X"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

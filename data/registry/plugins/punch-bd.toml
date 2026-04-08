@@ -1,14 +1,14 @@
 slug = "punch-bd"
-name = "Punch-BD"
+name = "Punch BD"
 vendor = "Rob Papen"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "percussion"
+subcategory = "generator"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/1199-Punch-BD"
 
 [formats.vst3]
 url = ""

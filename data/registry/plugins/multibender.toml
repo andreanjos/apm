@@ -1,14 +1,14 @@
 slug = "multibender"
 name = "MultiBender"
-vendor = "WA Production"
+vendor = "W A Production"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "delay"
+subcategory = "echo"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/8335-MultiBender"
 
 [formats.vst3]
 url = ""

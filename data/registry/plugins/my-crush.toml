@@ -1,6 +1,6 @@
 slug = "my-crush"
 name = "My Crush"
-vendor = "denise"
+vendor = "Denise Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,7 @@ subcategory = "bit crusher"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/8382-My-Crush"
 
 [formats.vst3]
 url = ""

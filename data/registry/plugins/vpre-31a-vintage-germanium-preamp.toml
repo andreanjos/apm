@@ -1,0 +1,25 @@
+slug = "vpre-31a-vintage-germanium-preamp"
+name = "VPRE 31A Vintage Germanium Preamp"
+vendor = "Fuse Audio Labs"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "preamp"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/13639-VPRE-31A-Vintage-Germanium-Preamp"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

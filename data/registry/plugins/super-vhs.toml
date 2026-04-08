@@ -4,11 +4,11 @@ vendor = "Baby Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "lo-fi"
+subcategory = "multi effect"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/5900-Super-VHS"
 
 [formats.vst3]
 url = ""

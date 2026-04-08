@@ -1,5 +1,5 @@
 slug = "rift-2-0"
-name = "Rift 2.0"
+name = "Rift 2 0"
 vendor = "Minimal Audio"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "distortion"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/7803-Rift-2-0"
 
 [formats.vst3]
 url = ""

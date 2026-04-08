@@ -4,10 +4,11 @@ vendor = "Audiority"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "modulator"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/4123-Tube-Modulator"
 
 [formats.vst3]
 url = ""

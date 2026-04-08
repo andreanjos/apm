@@ -4,10 +4,11 @@ vendor = "D16 Group"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "reverb"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/3837-Toraverb-2"
 
 [formats.vst3]
 url = ""

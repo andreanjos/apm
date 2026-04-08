@@ -1,6 +1,6 @@
 slug = "echoes"
 name = "Echoes"
-vendor = "Nomad Factory"
+vendor = "Softube"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,7 @@ subcategory = "delay"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/14114-Echoes"
 
 [formats.vst3]
 url = ""

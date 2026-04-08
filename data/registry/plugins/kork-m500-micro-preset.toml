@@ -1,0 +1,25 @@
+slug = "kork-m500-micro-preset"
+name = "Kork M500 Micro Preset"
+vendor = "Tronsonic"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "kontakt instrument"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/714-Kork-M500-Micro-Preset"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

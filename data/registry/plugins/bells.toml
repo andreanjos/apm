@@ -1,14 +1,14 @@
 slug = "bells"
 name = "Bells"
-vendor = "AudioThing"
+vendor = "Thenatan Audio"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "kontakt full"
+subcategory = "virtual instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15907-Bells"
 
 [formats.vst3]
 url = ""

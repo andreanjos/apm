@@ -1,0 +1,25 @@
+slug = "tal-dac"
+name = "TAL DAC"
+vendor = "TAL"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "multi effect"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9678-TAL-DAC"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

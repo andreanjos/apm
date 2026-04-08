@@ -1,0 +1,25 @@
+slug = "vpre-2c-vintage-tube-booster"
+name = "VPRE 2C Vintage Tube Booster"
+vendor = "Fuse Audio Labs"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/13620-VPRE-2C-Vintage-Tube-Booster"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

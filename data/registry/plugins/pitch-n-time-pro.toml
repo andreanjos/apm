@@ -1,0 +1,25 @@
+slug = "pitch-n-time-pro"
+name = "Pitch N Time Pro"
+vendor = "Serato"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "pitch shifter"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/5098-Pitch-N-Time-Pro"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

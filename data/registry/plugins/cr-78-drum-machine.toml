@@ -1,0 +1,25 @@
+slug = "cr-78-drum-machine"
+name = "CR 78 Drum Machine"
+vendor = "Cherry Audio"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "drum machine"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/11908-CR-78-Drum-Machine"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

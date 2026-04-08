@@ -1,13 +1,14 @@
 slug = "reformer-pro"
 name = "Reformer Pro"
-vendor = "Krotos Audio"
+vendor = "Krotos"
 version = "1.0.0"
 description = ""
-category = "effects"
+category = "tools"
+subcategory = "audio editor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/5367-Reformer-Pro"
 
 [formats.vst3]
 url = ""

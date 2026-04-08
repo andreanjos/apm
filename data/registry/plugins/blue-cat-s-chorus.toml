@@ -1,0 +1,25 @@
+slug = "blue-cat-s-chorus"
+name = "Blue Cat s Chorus"
+vendor = "Blue Cat Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "chorus"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/271-Blue-Cat-s-Chorus"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

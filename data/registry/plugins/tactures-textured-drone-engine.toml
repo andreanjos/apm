@@ -1,0 +1,24 @@
+slug = "tactures-textured-drone-engine"
+name = "Tactures – Textured Drone Engine"
+vendor = "New Nation"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "plugin"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

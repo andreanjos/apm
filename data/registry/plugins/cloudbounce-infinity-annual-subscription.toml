@@ -1,0 +1,24 @@
+slug = "cloudbounce-infinity-annual-subscription"
+name = "Cloudbounce – Infinity Annual Subscription"
+vendor = "CloudBounce"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "mastering"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

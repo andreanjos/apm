@@ -1,14 +1,14 @@
 slug = "emulation-ii"
-name = "Emulation II+"
+name = "Emulation II"
 vendor = "UVI"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "plugin"
+subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15847-Emulation-II-"
 
 [formats.vst3]
 url = ""

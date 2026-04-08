@@ -1,14 +1,14 @@
 slug = "arca"
 name = "Arca"
-vendor = "MNTRA"
+vendor = "MNTRA Instruments"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "plugin"
+subcategory = "virtual instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/8110-Arca"
 
 [formats.vst3]
 url = ""

@@ -1,13 +1,14 @@
 slug = "rp-reverse"
-name = "RP-Reverse"
+name = "RP Reverse"
 vendor = "Rob Papen"
 version = "1.0.0"
 description = ""
-category = "effects"
+category = "tools"
+subcategory = "utility"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/5228-RP-Reverse"
 
 [formats.vst3]
 url = ""

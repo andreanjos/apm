@@ -1,0 +1,25 @@
+slug = "vibratotremolo"
+name = "VibratoTremolo"
+vendor = "Thenatan Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "vibrato"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/41-Vibrato/15840-VibratoTremolo"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

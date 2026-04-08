@@ -1,14 +1,14 @@
 slug = "nordic-noir"
 name = "Nordic Noir"
-vendor = "Zero-G"
+vendor = "Cinematique Instruments"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "kontakt full"
+subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/14730-Nordic-Noir-"
 
 [formats.vst3]
 url = ""

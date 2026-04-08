@@ -1,0 +1,25 @@
+slug = "bx-xl-v2"
+name = "bx XL V2"
+vendor = "Brainworx"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "mastering"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/10316-bx-XL-V2"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

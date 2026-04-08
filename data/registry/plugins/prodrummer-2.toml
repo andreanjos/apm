@@ -1,14 +1,14 @@
 slug = "prodrummer-2"
 name = "ProDrummer 2"
-vendor = "EastWest"
+vendor = "EastWest Sounds"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "percussion"
+subcategory = "virtual instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15607-ProDrummer-2"
 
 [formats.vst3]
 url = ""

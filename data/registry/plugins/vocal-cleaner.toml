@@ -1,13 +1,14 @@
 slug = "vocal-cleaner"
 name = "Vocal Cleaner"
-vendor = "WA Production"
+vendor = "W A Production"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "vocal processing"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/6705-Vocal-Cleaner"
 
 [formats.vst3]
 url = ""

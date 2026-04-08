@@ -1,14 +1,14 @@
 slug = "violence"
 name = "Violence"
-vendor = "Vir2"
+vendor = "Vir2 Instruments"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "kontakt player"
+subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8466-Violence"
 
 [formats.vst3]
 url = ""

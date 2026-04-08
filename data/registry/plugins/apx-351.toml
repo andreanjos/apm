@@ -1,0 +1,25 @@
+slug = "apx-351"
+name = "APX 351"
+vendor = "Tone Empire"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "preamp"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/11173-APX-351"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

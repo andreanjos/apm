@@ -1,0 +1,25 @@
+slug = "chord-prism-2"
+name = "Chord Prism 2"
+vendor = "Mozaic Beats"
+version = "1.0.0"
+description = ""
+category = "tools"
+subcategory = "music theory tools"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6273-Chord-Prism-2"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

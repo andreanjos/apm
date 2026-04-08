@@ -3,12 +3,12 @@ name = "Whoosh FX"
 vendor = "UVI"
 version = "1.0.0"
 description = ""
-category = "instruments"
-subcategory = "plugin"
+category = "effects"
+subcategory = "multi effect"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/16937-Whoosh-FX"
 
 [formats.vst3]
 url = ""

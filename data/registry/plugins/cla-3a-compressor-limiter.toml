@@ -1,5 +1,5 @@
 slug = "cla-3a-compressor-limiter"
-name = "CLA-3A  Compressor Limiter"
+name = "CLA-3A Compressor Limiter"
 vendor = "Waves"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,6 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
 
 [formats.vst3]
 url = ""

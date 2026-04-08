@@ -4,10 +4,11 @@ vendor = "MeldaProduction"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "spectral analysis"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/841-MMultiAnalyzer"
 
 [formats.vst3]
 url = ""

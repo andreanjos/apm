@@ -1,0 +1,25 @@
+slug = "lindell-audio-80-series"
+name = "Lindell Audio 80 Series"
+vendor = "Plugin Alliance"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "mastering"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/14090-Lindell-Audio-80-Series"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,24 @@
+slug = "things-texture"
+name = "Things – Texture"
+vendor = "AudioThing"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "granular"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

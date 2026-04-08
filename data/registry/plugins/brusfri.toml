@@ -3,12 +3,12 @@ name = "Brusfri"
 vendor = "Klevgrand"
 version = "1.0.0"
 description = ""
-category = "effects"
+category = "tools"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/8694-Brusfri"
 
 [formats.vst3]
 url = ""

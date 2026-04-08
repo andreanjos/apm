@@ -1,0 +1,25 @@
+slug = "paragon"
+name = "Paragon"
+vendor = "NUGEN Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "reverb"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/6979-Paragon"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,25 @@
+slug = "basslinien-expansion-pack-for-attracktive"
+name = "Basslinien Expansion Pack for Attracktive"
+vendor = "Tracktion"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "expansion packs"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/16837-Basslinien-Expansion-Pack-for-Attracktive-"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

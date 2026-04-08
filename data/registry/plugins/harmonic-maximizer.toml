@@ -4,11 +4,11 @@ vendor = "Audiority"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "dynamic processor"
+subcategory = "exciter"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/62-Exciter/3440-Harmonic-Maximizer"
 
 [formats.vst3]
 url = ""

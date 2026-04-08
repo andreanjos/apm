@@ -4,11 +4,11 @@ vendor = "Sound Yeti"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "kontakt player"
+subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/6120-Method-1"
 
 [formats.vst3]
 url = ""

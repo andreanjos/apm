@@ -1,13 +1,14 @@
 slug = "flamingo-verb"
 name = "Flamingo Verb"
-vendor = "Safari Pedals"
+vendor = "Safari Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "reverb"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/15365-Flamingo-Verb"
 
 [formats.vst3]
 url = ""

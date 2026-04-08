@@ -1,0 +1,25 @@
+slug = "re-201-space-echo"
+name = "RE 201 Space Echo"
+vendor = "Roland"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "echo"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/15321-RE-201-Space-Echo"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

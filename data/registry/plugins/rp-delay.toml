@@ -1,5 +1,5 @@
 slug = "rp-delay"
-name = "RP-Delay"
+name = "RP Delay"
 vendor = "Rob Papen"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "delay"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/459-RP-Delay"
 
 [formats.vst3]
 url = ""

@@ -1,0 +1,25 @@
+slug = "cabal-8-elements-hi-gain"
+name = "Cabal 8 Elements Hi Gain"
+vendor = "Wavelet Audio"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "kontakt instrument"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/5929-Cabal-8-Elements-Hi-Gain"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

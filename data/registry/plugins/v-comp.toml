@@ -1,6 +1,6 @@
 slug = "v-comp"
-name = "V-Comp"
-vendor = "Waves"
+name = "V Comp"
+vendor = "Kiive Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/12903-V-Comp"
 
 [formats.vst3]
 url = ""

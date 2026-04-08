@@ -1,0 +1,25 @@
+slug = "color-drive"
+name = "Color Drive"
+vendor = "Relab Development"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "saturation"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/16607-Color-Drive"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -4,11 +4,11 @@ vendor = "Cherry Audio"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "synth"
+subcategory = "expansion packs"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/6477-Vector-Bundle"
 
 [formats.vst3]
 url = ""

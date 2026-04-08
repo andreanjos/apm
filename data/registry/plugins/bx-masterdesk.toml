@@ -1,14 +1,14 @@
 slug = "bx-masterdesk"
-name = "bx_masterdesk"
-vendor = "Universal Audio"
+name = "bx masterdesk"
+vendor = "Brainworx"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "channel strip"
+subcategory = "mastering"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/10269-bx-masterdesk"
 
 [formats.vst3]
 url = ""

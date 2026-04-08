@@ -1,0 +1,25 @@
+slug = "ha-81a-eq"
+name = "HA 81A EQ"
+vendor = "Heritage Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "eq"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/16266-HA-81A-EQ"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

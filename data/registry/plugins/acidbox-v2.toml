@@ -1,14 +1,14 @@
 slug = "acidbox-v2"
-name = "AcidBox v2"
+name = "AcidBox V2"
 vendor = "Audio Blast"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "bass"
+subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10477-AcidBox-V2"
 
 [formats.vst3]
 url = ""

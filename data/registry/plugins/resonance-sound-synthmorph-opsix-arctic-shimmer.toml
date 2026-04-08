@@ -1,0 +1,25 @@
+slug = "resonance-sound-synthmorph-opsix-arctic-shimmer"
+name = "Resonance Sound Synthmorph Opsix Arctic Shimmer"
+vendor = "Resonance Sound"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "synth presets"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/13335-Resonance-Sound-Synthmorph-Opsix-Arctic-Shimmer"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

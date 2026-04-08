@@ -1,14 +1,14 @@
 slug = "ripple"
 name = "Ripple"
-vendor = "Capsule Audio"
+vendor = "PROCESS AUDIO"
 version = "1.0.0"
 description = ""
-category = "instruments"
-subcategory = "brass"
+category = "effects"
+subcategory = "delay"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/13927-Ripple"
 
 [formats.vst3]
 url = ""

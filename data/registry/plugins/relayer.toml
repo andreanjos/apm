@@ -1,5 +1,5 @@
 slug = "relayer"
-name = "Relayer"
+name = "ReLayer"
 vendor = "UVI"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "delay"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/15556-ReLayer"
 
 [formats.vst3]
 url = ""

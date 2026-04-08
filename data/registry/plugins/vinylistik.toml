@@ -4,11 +4,11 @@ vendor = "BeatSkillz"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "percussion"
+subcategory = "drum machine"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/8781-Vinylistik"
 
 [formats.vst3]
 url = ""

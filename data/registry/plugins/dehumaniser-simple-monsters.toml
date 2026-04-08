@@ -1,13 +1,14 @@
 slug = "dehumaniser-simple-monsters"
 name = "Dehumaniser Simple Monsters"
-vendor = "Krotos Audio"
+vendor = "Krotos"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "vocal processing"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/5365-Dehumaniser-Simple-Monsters"
 
 [formats.vst3]
 url = ""

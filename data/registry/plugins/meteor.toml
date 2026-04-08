@@ -4,11 +4,11 @@ vendor = "UVI"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "plugin"
+subcategory = "generator"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/16940-Meteor"
 
 [formats.vst3]
 url = ""

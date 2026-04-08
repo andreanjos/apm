@@ -4,10 +4,11 @@ vendor = "NUGEN Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "stereo width"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/2310-Halo-Upmix-with-3D-Immersive-Extension"
 
 [formats.vst3]
 url = ""

@@ -1,0 +1,25 @@
+slug = "bleass-fusion"
+name = "BLEASS Fusion"
+vendor = "BLEASS"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "distortion"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/11235-BLEASS-Fusion"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

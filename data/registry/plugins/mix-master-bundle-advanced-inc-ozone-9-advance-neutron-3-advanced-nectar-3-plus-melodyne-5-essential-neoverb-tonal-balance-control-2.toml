@@ -1,0 +1,23 @@
+slug = "mix-master-bundle-advanced-inc-ozone-9-advance-neutron-3-advanced-nectar-3-plus-melodyne-5-essential-neoverb-tonal-balance-control-2"
+name = "Mix & Master Bundle Advanced (inc. Ozone 9 Advance, Neutron 3 Advanced, Nectar 3 Plus (+ Melodyne 5 Essential), Neoverb, Tonal Balance Control 2)"
+vendor = "iZotope"
+version = "1.0.0"
+description = ""
+category = "effects"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -4,11 +4,11 @@ vendor = "Iceberg Audio"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "bass"
+subcategory = "expansion packs"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/8042-The-Sub-All-Expansions-Bundle"
 
 [formats.vst3]
 url = ""

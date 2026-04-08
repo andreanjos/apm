@@ -1,5 +1,5 @@
 slug = "elka-x"
-name = "Elka-X"
+name = "Elka X"
 vendor = "Cherry Audio"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/9504-Elka-X"
 
 [formats.vst3]
 url = ""

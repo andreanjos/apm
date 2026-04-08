@@ -1,14 +1,14 @@
 slug = "orakle-x"
 name = "Orakle X"
-vendor = "MNTRA"
+vendor = "MNTRA Instruments"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "ethnic"
+subcategory = "virtual instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/8117-Orakle-X"
 
 [formats.vst3]
 url = ""

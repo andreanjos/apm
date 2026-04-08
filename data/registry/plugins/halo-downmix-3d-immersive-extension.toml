@@ -4,10 +4,11 @@ vendor = "NUGEN Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "surround tools"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/38-Surround-Tools/4483-Halo-Downmix-3D-Immersive-Extension"
 
 [formats.vst3]
 url = ""

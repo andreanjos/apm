@@ -1,14 +1,14 @@
 slug = "aizerx-classic-trailer-toolkit"
-name = "AizerX: Classic Trailer Toolkit"
+name = "AizerX Classic Trailer Toolkit"
 vendor = "Keepforest"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "kontakt full"
+subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7781-AizerX-Classic-Trailer-Toolkit"
 
 [formats.vst3]
 url = ""

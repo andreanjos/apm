@@ -1,0 +1,25 @@
+slug = "polyllop"
+name = "POLYLLOP"
+vendor = "510k"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "sequencer"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/24-Sequencer/14957-POLYLLOP"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

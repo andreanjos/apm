@@ -1,14 +1,14 @@
 slug = "fractured-prepared-acoustic-guitar"
-name = "Fractured: Prepared Acoustic Guitar"
-vendor = "Vir2"
+name = "Fractured Prepared Acoustic Guitar"
+vendor = "Vir2 Instruments"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "guitar"
+subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/810-Fractured-Prepared-Acoustic-Guitar"
 
 [formats.vst3]
 url = ""

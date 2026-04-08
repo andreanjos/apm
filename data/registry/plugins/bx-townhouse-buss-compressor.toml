@@ -1,5 +1,5 @@
 slug = "bx-townhouse-buss-compressor"
-name = "bx_townhouse Buss Compressor"
+name = "bx townhouse Buss Compressor"
 vendor = "Brainworx"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10314-bx-townhouse-Buss-Compressor"
 
 [formats.vst3]
 url = ""

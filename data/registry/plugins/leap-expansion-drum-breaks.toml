@@ -1,0 +1,25 @@
+slug = "leap-expansion-drum-breaks"
+name = "Leap Expansion Drum Breaks"
+vendor = "Native Instruments"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "expansion packs"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/15731-Leap-Expansion-Drum-Breaks"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

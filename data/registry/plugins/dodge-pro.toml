@@ -1,6 +1,6 @@
 slug = "dodge-pro"
 name = "Dodge Pro"
-vendor = "WA Production"
+vendor = "W A Production"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,7 @@ subcategory = "envelope shaper"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/6117-Dodge-Pro"
 
 [formats.vst3]
 url = ""

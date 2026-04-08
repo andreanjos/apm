@@ -1,14 +1,14 @@
 slug = "solo"
-name = "Solo"
-vendor = "Audio Imperia"
+name = "SOLO"
+vendor = "TAQS IM"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "kontakt player"
+subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16573-SOLO"
 
 [formats.vst3]
 url = ""

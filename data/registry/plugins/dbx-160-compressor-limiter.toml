@@ -1,5 +1,5 @@
 slug = "dbx-160-compressor-limiter"
-name = "dbx® 160 Compressor/Limiter"
+name = "dbx 160 Compressor Limiter"
 vendor = "Universal Audio"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11176-dbx-160-Compressor-Limiter-"
 
 [formats.vst3]
 url = ""

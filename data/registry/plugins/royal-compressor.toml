@@ -1,6 +1,6 @@
 slug = "royal-compressor"
 name = "Royal Compressor"
-vendor = "Soundevice Digital"
+vendor = "United Plugins"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6233-Royal-Compressor"
 
 [formats.vst3]
 url = ""

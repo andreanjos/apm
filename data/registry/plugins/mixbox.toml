@@ -4,11 +4,11 @@ vendor = "IK Multimedia"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "channel strip"
+subcategory = "multi effect"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/12451-MixBox"
 
 [formats.vst3]
 url = ""

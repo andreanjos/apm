@@ -1,0 +1,25 @@
+slug = "beat-magazine-225-september-2024"
+name = "Beat Magazine 225 September 2024"
+vendor = "Beat"
+version = "1.0.0"
+description = ""
+category = "tools"
+subcategory = "ebook"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/94-eBook/13134-Beat-Magazine-225-September-2024"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

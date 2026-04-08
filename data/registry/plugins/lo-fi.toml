@@ -1,14 +1,14 @@
 slug = "lo-fi"
-name = "Lo-Fi"
-vendor = "Plug &amp; Mix"
+name = "Lo Fi"
+vendor = "EastWest Sounds"
 version = "1.0.0"
 description = ""
-category = "effects"
-subcategory = "lo-fi"
+category = "instruments"
+subcategory = "virtual instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15600-Lo-Fi"
 
 [formats.vst3]
 url = ""

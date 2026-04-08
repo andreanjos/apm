@@ -1,0 +1,25 @@
+slug = "jens-bogren-signature-ir-pack-lead-clean"
+name = "Jens Bogren Signature IR Pack Lead Clean"
+vendor = "Bogren Digital"
+version = "1.0.0"
+description = ""
+category = "tools"
+subcategory = "impulse response"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/9179-Jens-Bogren-Signature-IR-Pack-Lead-Clean"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

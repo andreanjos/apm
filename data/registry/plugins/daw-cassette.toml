@@ -4,10 +4,11 @@ vendor = "Klevgrand"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "tape emulation"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/8697-DAW-Cassette"
 
 [formats.vst3]
 url = ""

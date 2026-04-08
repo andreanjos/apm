@@ -1,14 +1,14 @@
 slug = "addiction-synth"
 name = "Addiction Synth"
-vendor = "Stagecraft"
+vendor = "Stagecraft Software"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "plugin"
+subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1240-Addiction-Synth"
 
 [formats.vst3]
 url = ""

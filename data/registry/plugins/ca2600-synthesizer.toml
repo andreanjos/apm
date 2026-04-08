@@ -1,0 +1,25 @@
+slug = "ca2600-synthesizer"
+name = "CA2600 Synthesizer"
+vendor = "Cherry Audio"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "synth"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7033-CA2600-Synthesizer"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

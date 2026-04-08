@@ -1,0 +1,25 @@
+slug = "morph-3-pro"
+name = "MORPH 3 PRO"
+vendor = "Zynaptiq"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "modulator"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/12205-MORPH-3-PRO"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

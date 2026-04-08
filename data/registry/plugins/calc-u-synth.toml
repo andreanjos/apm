@@ -1,14 +1,14 @@
 slug = "calc-u-synth"
-name = "Calc-U-Synth"
+name = "Calc U Synth"
 vendor = "Heavyocity"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "kontakt full"
+subcategory = "reaktor ensemble"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/60-Reaktor-Ensemble/3805-Calc-U-Synth"
 
 [formats.vst3]
 url = ""

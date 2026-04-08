@@ -1,0 +1,25 @@
+slug = "fuser"
+name = "FUSER"
+vendor = "Mastering The Mix"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "dynamics processor"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/11102-FUSER"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,25 @@
+slug = "visco-2-0"
+name = "Visco 2 0"
+vendor = "Forever 89"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "drum machine"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/12201-Visco-2-0"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

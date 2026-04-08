@@ -1,5 +1,5 @@
 slug = "tricerachorus"
-name = "Tricerachorus"
+name = "TriceraChorus"
 vendor = "Eventide"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "chorus"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/6931-TriceraChorus"
 
 [formats.vst3]
 url = ""

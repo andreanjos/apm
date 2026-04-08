@@ -1,6 +1,6 @@
 slug = "sub-generator"
 name = "Sub Generator"
-vendor = "denise"
+vendor = "Denise Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,7 @@ subcategory = "enhancer"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/7098-Sub-Generator"
 
 [formats.vst3]
 url = ""

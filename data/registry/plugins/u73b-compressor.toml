@@ -1,5 +1,5 @@
 slug = "u73b-compressor"
-name = "u73b Compressor"
+name = "U73b Compressor"
 vendor = "Audified"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/2908-U73b-Compressor"
 
 [formats.vst3]
 url = ""

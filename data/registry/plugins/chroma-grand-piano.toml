@@ -1,14 +1,14 @@
 slug = "chroma-grand-piano"
-name = "Chroma Grand Piano"
+name = "CHROMA Grand Piano"
 vendor = "Sonuscore"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "keys"
+subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9652-CHROMA-Grand-Piano"
 
 [formats.vst3]
 url = ""

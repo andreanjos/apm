@@ -1,0 +1,25 @@
+slug = "sound-pack-bundle-sdz001-150"
+name = "Sound Pack Bundle SDZ001 150"
+vendor = "Roland"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "synth presets"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/16531-Sound-Pack-Bundle-SDZ001-150"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

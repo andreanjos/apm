@@ -1,14 +1,14 @@
 slug = "dawn"
 name = "Dawn"
-vendor = "Ecliptiq Audio"
+vendor = "Wave Alchemy"
 version = "1.0.0"
 description = ""
-category = "instruments"
-subcategory = "kontakt full"
+category = "effects"
+subcategory = "reverb"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/12155-Dawn"
 
 [formats.vst3]
 url = ""

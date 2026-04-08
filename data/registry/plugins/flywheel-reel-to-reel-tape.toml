@@ -1,0 +1,25 @@
+slug = "flywheel-reel-to-reel-tape"
+name = "FLYWHEEL Reel To Reel Tape"
+vendor = "Fuse Audio Labs"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "tape emulation"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/13838-FLYWHEEL-Reel-To-Reel-Tape"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

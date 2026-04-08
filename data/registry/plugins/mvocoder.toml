@@ -4,10 +4,11 @@ vendor = "MeldaProduction"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "vocoder"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/818-MVocoder"
 
 [formats.vst3]
 url = ""

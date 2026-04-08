@@ -1,0 +1,25 @@
+slug = "clearmountain-s-spaces"
+name = "Clearmountain s Spaces"
+vendor = "Apogee"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "reverb"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/8835-Clearmountain-s-Spaces"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

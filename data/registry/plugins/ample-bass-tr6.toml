@@ -1,0 +1,25 @@
+slug = "ample-bass-tr6"
+name = "Ample Bass TR6"
+vendor = "Ample Sound"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "virtual instruments"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15115-Ample-Bass-TR6"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

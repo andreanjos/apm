@@ -1,5 +1,5 @@
 slug = "bx-2098-eq"
-name = "bx_2098 EQ"
+name = "bx 2098 EQ"
 vendor = "Brainworx"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/10228-bx-2098-EQ"
 
 [formats.vst3]
 url = ""

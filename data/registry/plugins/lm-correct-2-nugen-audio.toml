@@ -1,0 +1,24 @@
+slug = "lm-correct-2-nugen-audio"
+name = "LM-Correct 2"
+vendor = "NUGEN Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "mastering"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

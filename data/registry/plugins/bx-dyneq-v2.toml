@@ -1,5 +1,5 @@
 slug = "bx-dyneq-v2"
-name = "bx_dynEQ V2"
+name = "bx dynEQ V2"
 vendor = "Brainworx"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/10256-bx-dynEQ-V2"
 
 [formats.vst3]
 url = ""

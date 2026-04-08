@@ -4,10 +4,11 @@ vendor = "D16 Group"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "phaser"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/4711-Fazortan-2"
 
 [formats.vst3]
 url = ""

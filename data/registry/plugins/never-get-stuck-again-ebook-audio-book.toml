@@ -1,0 +1,25 @@
+slug = "never-get-stuck-again-ebook-audio-book"
+name = "Never Get Stuck Again eBook Audio Book"
+vendor = "Mastering The Mix"
+version = "1.0.0"
+description = ""
+category = "tools"
+subcategory = "ebook"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/94-eBook/4817-Never-Get-Stuck-Again-eBook-Audio-Book"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

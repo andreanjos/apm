@@ -1,13 +1,14 @@
 slug = "xils-v"
-name = "XILS V+"
+name = "XILS V"
 vendor = "XILS Lab"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "vocoder"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/1698-XILS-V-"
 
 [formats.vst3]
 url = ""

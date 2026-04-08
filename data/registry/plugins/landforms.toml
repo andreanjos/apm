@@ -1,6 +1,6 @@
 slug = "landforms"
 name = "Landforms"
-vendor = "Slate &amp; Ash"
+vendor = "Slate & Ash"
 version = "1.0.0"
 description = ""
 category = "instruments"
@@ -8,7 +8,6 @@ subcategory = "keys"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
 
 [formats.vst3]
 url = ""

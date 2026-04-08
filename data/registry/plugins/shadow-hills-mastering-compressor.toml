@@ -1,6 +1,6 @@
 slug = "shadow-hills-mastering-compressor"
 name = "Shadow Hills Mastering Compressor"
-vendor = "Universal Audio"
+vendor = "Plugin Alliance"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10209-Shadow-Hills-Mastering-Compressor"
 
 [formats.vst3]
 url = ""

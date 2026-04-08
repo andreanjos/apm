@@ -4,11 +4,11 @@ vendor = "Leapwing Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "mastering"
+subcategory = "multi effect"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7329-Al-Schmitt"
 
 [formats.vst3]
 url = ""

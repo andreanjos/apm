@@ -4,11 +4,11 @@ vendor = "MeldaProduction"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "dynamic processor"
+subcategory = "dynamics processor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/1347-MDrumLeveler"
 
 [formats.vst3]
 url = ""

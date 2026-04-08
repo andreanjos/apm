@@ -1,14 +1,14 @@
 slug = "oberheim-ob-e"
-name = "Oberheim OB-E"
+name = "Oberheim OB E"
 vendor = "GForce Software"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "plugin"
+subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12017-Oberheim-OB-E"
 
 [formats.vst3]
 url = ""

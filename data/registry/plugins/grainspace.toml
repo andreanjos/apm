@@ -4,11 +4,11 @@ vendor = "Audiority"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "granular"
+subcategory = "reverb"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/3439-GrainSpace"
 
 [formats.vst3]
 url = ""

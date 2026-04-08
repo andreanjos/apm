@@ -1,0 +1,25 @@
+slug = "drum-bass-ultra-pack-4"
+name = "Drum Bass Ultra Pack 4"
+vendor = "Singomakers Sounds"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "synth presets"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/7280-Drum-Bass-Ultra-Pack-4"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

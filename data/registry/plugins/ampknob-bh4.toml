@@ -1,0 +1,25 @@
+slug = "ampknob-bh4"
+name = "AmpKnob BH4"
+vendor = "Bogren Digital"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "amp simulator"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/16891-AmpKnob-BH4"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

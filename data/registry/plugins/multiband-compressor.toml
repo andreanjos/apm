@@ -1,6 +1,6 @@
 slug = "multiband-compressor"
 name = "Multiband Compressor"
-vendor = "Vengeance Sound"
+vendor = "Harrison Consoles"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/7613-Multiband-Compressor"
 
 [formats.vst3]
 url = ""

@@ -1,5 +1,5 @@
 slug = "avalon-vt-737-tube-channel-strip"
-name = "Avalon VT-737 Tube Channel Strip"
+name = "Avalon VT 737 Tube Channel Strip"
 vendor = "Universal Audio"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "channel strip"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/11495-Avalon-VT-737-Tube-Channel-Strip"
 
 [formats.vst3]
 url = ""

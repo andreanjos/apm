@@ -1,0 +1,25 @@
+slug = "synsonic-bd-808"
+name = "Synsonic BD 808"
+vendor = "Synsonic Instruments"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "drum machine"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/3553-Synsonic-BD-808"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

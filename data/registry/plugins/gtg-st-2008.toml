@@ -1,0 +1,25 @@
+slug = "gtg-st-2008"
+name = "GTG ST 2008"
+vendor = "GTG Synths"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "synth"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/323-GTG-ST-2008"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

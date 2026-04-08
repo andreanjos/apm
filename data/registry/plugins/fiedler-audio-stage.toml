@@ -1,0 +1,25 @@
+slug = "fiedler-audio-stage"
+name = "fiedler audio stage"
+vendor = "Plugin Alliance"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "stereo width"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/14921-fiedler-audio-stage"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

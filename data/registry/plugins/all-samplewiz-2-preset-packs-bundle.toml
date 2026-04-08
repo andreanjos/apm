@@ -1,0 +1,25 @@
+slug = "all-samplewiz-2-preset-packs-bundle"
+name = "All SampleWiz 2 Preset Packs Bundle"
+vendor = "BLEASS"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "synth presets"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11030-All-SampleWiz-2-Preset-Packs-Bundle"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

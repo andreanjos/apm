@@ -1,0 +1,25 @@
+slug = "echobode"
+name = "Echobode"
+vendor = "Sonic Charge"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "frequency shifter"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/28-Frequency-Shifter/1601-Echobode"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

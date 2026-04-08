@@ -1,0 +1,25 @@
+slug = "korg-gadget-3-for-mac"
+name = "KORG Gadget 3 for Mac"
+vendor = "KORG"
+version = "1.0.0"
+description = ""
+category = "tools"
+subcategory = "daw"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/13034-KORG-Gadget-3-for-Mac"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

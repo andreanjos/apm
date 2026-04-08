@@ -1,5 +1,5 @@
 slug = "tri-comp-multiband-compressor"
-name = "Tri-Comp Multiband Compressor"
+name = "Tri Comp Multiband Compressor"
 vendor = "Minimal System Group"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/292-Tri-Comp-Multiband-Compressor"
 
 [formats.vst3]
 url = ""

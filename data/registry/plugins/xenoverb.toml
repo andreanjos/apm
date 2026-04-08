@@ -4,10 +4,11 @@ vendor = "Audiority"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "reverb"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/3780-XenoVerb"
 
 [formats.vst3]
 url = ""

@@ -3,12 +3,12 @@ name = "Lowtility 2"
 vendor = "Venomode"
 version = "1.0.0"
 description = ""
-category = "effects"
-subcategory = "filter"
+category = "tools"
+subcategory = "utility"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/5587-Lowtility-2"
 
 [formats.vst3]
 url = ""

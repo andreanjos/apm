@@ -1,14 +1,14 @@
 slug = "voices-of-passion"
 name = "Voices Of Passion"
-vendor = "EastWest"
+vendor = "EastWest Sounds"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "ethnic"
+subcategory = "virtual instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15627-Voices-Of-Passion"
 
 [formats.vst3]
 url = ""

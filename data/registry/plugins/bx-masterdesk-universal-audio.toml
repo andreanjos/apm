@@ -1,0 +1,24 @@
+slug = "bx-masterdesk-universal-audio"
+name = "bx_masterdesk"
+vendor = "Universal Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "channel strip"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

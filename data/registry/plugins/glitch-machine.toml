@@ -1,13 +1,14 @@
 slug = "glitch-machine"
 name = "Glitch Machine"
-vendor = "Stagecraft"
+vendor = "Stagecraft Software"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "multi effect"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/2349-Glitch-Machine"
 
 [formats.vst3]
 url = ""

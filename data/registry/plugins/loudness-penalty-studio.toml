@@ -1,0 +1,25 @@
+slug = "loudness-penalty-studio"
+name = "Loudness Penalty Studio"
+vendor = "MeterPlugs"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "spectral analysis"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/12279-Loudness-Penalty-Studio"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

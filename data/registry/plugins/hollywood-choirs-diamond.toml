@@ -1,14 +1,14 @@
 slug = "hollywood-choirs-diamond"
 name = "Hollywood Choirs Diamond"
-vendor = "EastWest"
+vendor = "EastWest Sounds"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "plugin"
+subcategory = "virtual instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15579-Hollywood-Choirs-Diamond"
 
 [formats.vst3]
 url = ""

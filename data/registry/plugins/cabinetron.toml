@@ -1,0 +1,25 @@
+slug = "cabinetron"
+name = "Cabinetron"
+vendor = "Three Body Technology"
+version = "1.0.0"
+description = ""
+category = "tools"
+subcategory = "impulse response"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/14732-Cabinetron"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

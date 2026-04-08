@@ -1,0 +1,25 @@
+slug = "emergent-drums-2"
+name = "Emergent Drums 2"
+vendor = "Audialab"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "drum synth"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/139-Drum-Synth/11378-Emergent-Drums-2"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

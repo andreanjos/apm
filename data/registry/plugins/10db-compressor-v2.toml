@@ -1,5 +1,5 @@
 slug = "10db-compressor-v2"
-name = "+10db Compressor V2"
+name = "10db Compressor V2"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10069--10db-Compressor-V2"
 
 [formats.vst3]
 url = ""

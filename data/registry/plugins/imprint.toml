@@ -1,13 +1,14 @@
 slug = "imprint"
 name = "Imprint"
-vendor = "WA Production"
+vendor = "W A Production"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "transient shaper"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/5450-Imprint"
 
 [formats.vst3]
 url = ""

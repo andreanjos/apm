@@ -4,11 +4,11 @@ vendor = "Ample Sound"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "guitar"
+subcategory = "virtual instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15068-Ample-Ethno-Ukulele"
 
 [formats.vst3]
 url = ""

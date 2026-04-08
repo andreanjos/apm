@@ -1,5 +1,5 @@
 slug = "neve-31102-31102se-classic-console-eqs"
-name = "Neve 31102 / 31102SE  Classic Console EQs"
+name = "Neve 31102 / 31102SE Classic Console EQs"
 vendor = "Universal Audio"
 version = "1.0.0"
 description = ""
@@ -8,7 +8,6 @@ subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
 
 [formats.vst3]
 url = ""

@@ -1,14 +1,14 @@
 slug = "devil-loc-deluxe"
-name = "Devil-Loc Deluxe"
+name = "Devil Loc Deluxe"
 vendor = "Soundtoys"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "compressor"
+subcategory = "limiter"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/1803-Devil-Loc-Deluxe"
 
 [formats.vst3]
 url = ""

@@ -4,10 +4,11 @@ vendor = "NUGEN Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
+subcategory = "stereo width"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/3335-Halo-Downmix"
 
 [formats.vst3]
 url = ""

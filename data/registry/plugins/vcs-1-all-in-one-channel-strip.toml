@@ -1,0 +1,25 @@
+slug = "vcs-1-all-in-one-channel-strip"
+name = "VCS 1 All In One Channel Strip"
+vendor = "Fuse Audio Labs"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "channel strip"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/13612-VCS-1-All-In-One-Channel-Strip"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

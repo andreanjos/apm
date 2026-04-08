@@ -1,0 +1,25 @@
+slug = "origins-vol-5-ukulele-muted-piano"
+name = "Origins Vol 5 Ukulele Muted Piano"
+vendor = "Sonuscore"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "kontakt instrument"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7964-Origins-Vol-5-Ukulele-Muted-Piano"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

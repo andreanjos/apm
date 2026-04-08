@@ -1,0 +1,25 @@
+slug = "synthesizer-v-studio-2-pro-6-voices"
+name = "Synthesizer V Studio 2 Pro 6 Voices"
+vendor = "Dreamtonics"
+version = "1.0.0"
+description = ""
+category = "instruments"
+subcategory = "vocal synth"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/14979-Synthesizer-V-Studio-2-Pro-6-Voices"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

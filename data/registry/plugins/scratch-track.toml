@@ -1,0 +1,25 @@
+slug = "scratch-track"
+name = "Scratch Track"
+vendor = "Stagecraft Software"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "dj tools"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/73-DJ-Tools/1241-Scratch-Track"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,25 @@
+slug = "veq-4k-orange"
+name = "VEQ 4K ORANGE"
+vendor = "Antelope Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "eq"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/16085-VEQ-4K-ORANGE"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

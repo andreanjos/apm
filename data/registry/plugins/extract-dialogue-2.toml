@@ -1,0 +1,25 @@
+slug = "extract-dialogue-2"
+name = "Extract Dialogue 2"
+vendor = "Acon Digital"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "vocal processing"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/16511-Extract-Dialogue-2"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

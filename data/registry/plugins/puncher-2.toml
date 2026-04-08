@@ -1,6 +1,6 @@
 slug = "puncher-2"
 name = "Puncher 2"
-vendor = "WA Production"
+vendor = "W A Production"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/4589-Puncher-2"
 
 [formats.vst3]
 url = ""

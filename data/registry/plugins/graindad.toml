@@ -4,11 +4,11 @@ vendor = "Sugar Bytes"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "granular"
+subcategory = "granular fx"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/9699-Graindad"
 
 [formats.vst3]
 url = ""

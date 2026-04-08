@@ -1,14 +1,14 @@
 slug = "ultrasonic-death-whistle"
 name = "Ultrasonic Death Whistle"
-vendor = "MNTRA"
+vendor = "MNTRA Instruments"
 version = "1.0.0"
 description = ""
 category = "instruments"
-subcategory = "ethnic"
+subcategory = "virtual instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/8109-Ultrasonic-Death-Whistle"
 
 [formats.vst3]
 url = ""

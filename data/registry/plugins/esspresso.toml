@@ -4,11 +4,11 @@ vendor = "Klevgrand"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "de-esser"
+subcategory = "de esser"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/8702-Esspresso"
 
 [formats.vst3]
 url = ""

@@ -1,0 +1,25 @@
+slug = "launchcraft"
+name = "LaunchCraft"
+vendor = "Stagecraft Software"
+version = "1.0.0"
+description = ""
+category = "tools"
+subcategory = "utility"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/1947-LaunchCraft"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

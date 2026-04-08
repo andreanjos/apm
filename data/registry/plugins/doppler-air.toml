@@ -1,14 +1,14 @@
 slug = "doppler-air"
-name = "Doppler + Air"
+name = "Doppler Air"
 vendor = "Sound Particles"
 version = "1.0.0"
 description = ""
 category = "effects"
-subcategory = "fx plugin bundle"
+subcategory = "multi effect"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/6419-Doppler-Air"
 
 [formats.vst3]
 url = ""

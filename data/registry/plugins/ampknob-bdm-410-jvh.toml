@@ -1,0 +1,25 @@
+slug = "ampknob-bdm-410-jvh"
+name = "Ampknob BDM 410 JVH"
+vendor = "Bogren Digital"
+version = "1.0.0"
+description = ""
+category = "effects"
+subcategory = "amp simulator"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/14859-Ampknob-BDM-410-JVH"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

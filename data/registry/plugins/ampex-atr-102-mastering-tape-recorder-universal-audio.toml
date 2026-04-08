@@ -1,0 +1,23 @@
+slug = "ampex-atr-102-mastering-tape-recorder-universal-audio"
+name = "Ampex® ATR-102 Mastering Tape Recorder"
+vendor = "Universal Audio"
+version = "1.0.0"
+description = ""
+category = "effects"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

@@ -1,0 +1,25 @@
+slug = "bute-loudness-analyser-2-surround"
+name = "BUTE Loudness Analyser 2 Surround"
+vendor = "Signum Audio"
+version = "1.0.0"
+description = ""
+category = "tools"
+subcategory = "metering"
+license = "commercial"
+tags = []
+is_paid = true
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/5195-BUTE-Loudness-Analyser-2-Surround-"
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

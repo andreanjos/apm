@@ -1,0 +1,23 @@
+slug = "40s-very-own-keys"
+name = "40’s Very Own Keys"
+vendor = "Native Instruments"
+version = "1.0.0"
+description = ""
+category = "instruments"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"

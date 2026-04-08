@@ -1,6 +1,6 @@
 slug = "equivocate"
 name = "EQuivocate"
-vendor = "Eventide"
+vendor = "Newfangled Audio"
 version = "1.0.0"
 description = ""
 category = "effects"
@@ -8,7 +8,7 @@ subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8435-EQuivocate"
 
 [formats.vst3]
 url = ""

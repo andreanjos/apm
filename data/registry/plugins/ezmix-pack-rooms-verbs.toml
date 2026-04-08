@@ -1,0 +1,23 @@
+slug = "ezmix-pack-rooms-verbs"
+name = "EZmix Pack: Rooms & Verbs"
+vendor = "Toontrack"
+version = "1.0.0"
+description = ""
+category = "effects"
+license = "commercial"
+tags = []
+is_paid = true
+
+[formats.vst3]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
+
+[formats.au]
+url = ""
+sha256 = ""
+install_type = "zip"
+bundle_path = ""
+download_type = "manual"
