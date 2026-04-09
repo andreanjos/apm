@@ -2,13 +2,13 @@ slug = "super-bundle"
 name = "SUPER Bundle"
 vendor = "MIA Laboratories"
 version = "1.0.0"
-description = ""
+description = "MIA Laboratories SUPER Bundle combining Super Fat, Super Thin, and Super Muscle EQ plugins."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://mialaboratories.com/product/super-bundle/"
 
 [formats.vst3]
 url = ""

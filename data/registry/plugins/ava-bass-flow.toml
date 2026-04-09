@@ -2,11 +2,12 @@ slug = "ava-bass-flow"
 name = "AVA Bass Flow"
 vendor = "Harrison Consoles"
 version = "1.0.0"
-description = ""
+description = "All-in-one bass processing suite with pitch-tracking EQ, spectral compressor, LegacyQ, and chorus."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://store.harrisonaudio.com/ava/ava-bass-flow"
 is_paid = true
 
 [formats.vst3]

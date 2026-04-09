@@ -2,11 +2,12 @@ slug = "desert-winds"
 name = "Desert Winds"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Solo wind instrument library featuring Armenian Duduk, Persian Ney, Turkish Ney, and Zourna with true legato."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/desert_winds.html"
 is_paid = true
 
 [formats.vst3]

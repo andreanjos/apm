@@ -2,11 +2,12 @@ slug = "mellotron"
 name = "Mellotron"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Virtual Mellotron instrument plugin reproducing the iconic tape-replay keyboard sounds."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/mellotron"
 is_paid = true
 
 [formats.vst3]

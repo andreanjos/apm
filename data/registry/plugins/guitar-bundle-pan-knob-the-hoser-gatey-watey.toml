@@ -2,11 +2,12 @@ slug = "guitar-bundle-pan-knob-the-hoser-gatey-watey"
 name = "Guitar Bundle: Pan Knob + The Hoser + Gatey Watey"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "Bundle of three Boz Digital Labs plugins tailored for guitar recording and mixing workflows."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/guitar-bundle/"
 is_paid = true
 
 [formats.vst3]

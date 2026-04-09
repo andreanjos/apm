@@ -2,11 +2,12 @@ slug = "chris-hein-horns-compact-crossgrade"
 name = "Chris Hein Horns Compact Crossgrade"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Crossgrade to Chris Hein Horns Compact, a powerful brass and woodwind library with 54 solo instruments."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/chris_hein_horns_compact_crossgrade.html"
 is_paid = true
 
 [formats.vst3]

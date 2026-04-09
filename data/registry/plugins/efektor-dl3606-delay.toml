@@ -2,11 +2,12 @@ slug = "efektor-dl3606-delay"
 name = "EFEKTOR DL3606 Delay"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Guitar delay plugin with five types: Digital, Analog, Lo-Fi, Tape, and Reverse."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/efektor-dl3606/"
 is_paid = true
 
 [formats.vst3]

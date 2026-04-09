@@ -2,11 +2,12 @@ slug = "synth-stack-2"
 name = "Synth Stack 2"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Bundle collection of multiple Cherry Audio synthesizer plugins at a discounted price."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products"
 is_paid = true
 
 [formats.vst3]

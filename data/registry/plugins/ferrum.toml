@@ -2,11 +2,12 @@ slug = "ferrum"
 name = "Ferrum"
 vendor = "Keepforest"
 version = "1.0.0"
-description = ""
+description = "Keepforest modern trailer percussion Kontakt Player library with step sequencer and multiple mic positions."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://keep-forest.com/store/libraries/225185"
 is_paid = true
 
 [formats.vst3]

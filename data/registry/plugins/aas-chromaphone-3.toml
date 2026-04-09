@@ -1,12 +1,13 @@
 slug = "aas-chromaphone-3"
 name = "AAS Chromaphone 3"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "AAS two-voice synthesizer based on physical modeling of acoustic resonators for unique timbres."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/chromaphone-3/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "bassynth"
 name = "Bassynth"
 vendor = "Wave Alchemy"
 version = "1.0.0"
-description = ""
+description = "Hybrid bass synthesizer merging 11GB of multi-samples with wavetable synthesis for organic bass sounds."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.wavealchemy.co.uk/product/bassynth/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/5694-Bassynth"
 

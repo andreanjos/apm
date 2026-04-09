@@ -2,11 +2,12 @@ slug = "big-clipper"
 name = "Big Clipper"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "Brickwall clipper for maximizing loudness with minimal coloration by hard-clipping peaks above threshold."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/big-clipper/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "efektor-fz3603-fuzz"
 name = "EFEKTOR FZ3603 Fuzz"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Guitar fuzz plugin with five vintage-style models including Big, Sustainer, and Zepp Fuzz."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/efektor-fz3603/"
 is_paid = true
 
 [formats.vst3]

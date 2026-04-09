@@ -2,11 +2,12 @@ slug = "gem-comp670"
 name = "GEM Comp670"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Precise emulation of the iconic Fairchild 670 tube compressor-limiter with modern enhancements."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/gems"
 is_paid = true
 
 [formats.vst3]

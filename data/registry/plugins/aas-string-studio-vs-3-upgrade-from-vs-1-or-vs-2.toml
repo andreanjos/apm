@@ -1,12 +1,13 @@
 slug = "aas-string-studio-vs-3-upgrade-from-vs-1-or-vs-2"
 name = "AAS String Studio VS-3 Upgrade from VS-1 or VS-2"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Upgrade path to String Studio VS-3 string modeling synthesizer from VS-1 or VS-2."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/string-studio-vs-3/"
 is_paid = true
 
 [formats.vst3]

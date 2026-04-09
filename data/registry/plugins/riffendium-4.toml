@@ -1,12 +1,13 @@
 slug = "riffendium-4"
 name = "Riffendium 4"
 vendor = "Audiofier"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt guitar loops library with 44 editable performances in main, REV, amped and DI versions."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.audiofier.co.uk/riffendium-4/"
 is_paid = true
 
 [formats.vst3]

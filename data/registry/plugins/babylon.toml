@@ -1,12 +1,13 @@
 slug = "babylon"
 name = "Babylon"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "1.0.5"
+description = "A single-page polyphonic synthesizer with 257 waveforms, 2,300+ presets, and built-in effects."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/babylon"
 is_paid = true
 
 [formats.vst3]

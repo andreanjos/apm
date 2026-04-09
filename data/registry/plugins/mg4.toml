@@ -2,11 +2,12 @@ slug = "mg4"
 name = "MG4"
 vendor = "Antelope Audio"
 version = "1.0.0"
-description = ""
+description = "6-band EQ plugin inspired by a Series 500 module with a signature 'Sky Band' for polished high-end sheen."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://en.antelopeaudio.com/products/mg4plus/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/16044-MG4-"
 

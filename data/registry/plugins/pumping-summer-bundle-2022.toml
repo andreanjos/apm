@@ -2,11 +2,12 @@ slug = "pumping-summer-bundle-2022"
 name = "Pumping Summer Bundle 2022"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A summer 2022 promotional bundle of W.A. Production FX plugins for music production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles"
 is_paid = true
 
 [formats.vst3]

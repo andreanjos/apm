@@ -2,11 +2,12 @@ slug = "groundshaker"
 name = "Groundshaker"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Randomizable Kontakt groovebox with 1,000 drum sounds, 45 factory kits, and MIDI export."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/groundshaker/"
 is_paid = true
 
 [formats.vst3]

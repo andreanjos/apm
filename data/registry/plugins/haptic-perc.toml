@@ -2,11 +2,12 @@ slug = "haptic-perc"
 name = "Haptic Perc"
 vendor = "Sampleson"
 version = "1.0.0"
-description = ""
+description = "Microphone-driven physical percussion modeler that turns any object into a playable percussion instrument."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://sampleson.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/11911-Haptic-Perc"
 

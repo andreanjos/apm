@@ -2,10 +2,11 @@ slug = "venom"
 name = "Venom"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A spectral processor that transforms audio from subtle granular movements to unrecognisable soundscapes."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/venom"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "keepforest-complete-bundle"
 name = "Keepforest Complete Bundle"
 vendor = "Keepforest"
 version = "1.0.0"
-description = ""
+description = "Keepforest complete collection of all cinematic and trailer sound libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://keep-forest.com/store"
 is_paid = true
 
 [formats.vst3]

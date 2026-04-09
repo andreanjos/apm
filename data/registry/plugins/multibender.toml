@@ -1,12 +1,13 @@
 slug = "multibender"
 name = "MultiBender"
 vendor = "W A Production"
-version = "1.0.0"
-description = ""
+version = "1.6.0"
+description = "Multiband delay plugin with three frequency bands, saturation, bitcrush, detuning, and HAAS stereo control."
 category = "effects"
 subcategory = "echo"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/multibender"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/8335-MultiBender"
 

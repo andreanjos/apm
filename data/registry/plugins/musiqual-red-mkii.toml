@@ -1,12 +1,13 @@
 slug = "musiqual-red-mkii"
 name = "Musiqual Red MKII"
 vendor = "MIA Laboratories"
-version = "1.0.0"
-description = ""
+version = "MKII"
+description = "MIA Laboratories Tube-style EQ, harmonic distortion, and compressor in one analog-flavored unit."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://mialaboratories.com/product/musiqual-red-mkii/"
 is_paid = true
 
 [formats.vst3]

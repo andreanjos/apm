@@ -2,11 +2,12 @@ slug = "air-essential-synths-pack"
 name = "Air Essential Synths Pack"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Bundle of essential synthesizer plugins from Air Music Tech's catalog."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com"
 is_paid = true
 
 [formats.vst3]

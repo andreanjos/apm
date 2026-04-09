@@ -2,11 +2,12 @@ slug = "omnidrums"
 name = "Omnidrums"
 vendor = "Have Audio"
 version = "1.0.0"
-description = ""
+description = "Comprehensive 20GB acoustic drum Kontakt library with up to 12 dynamics and hybrid sound design mode."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://haveaudio.com/collections/virtual-instruments"
 is_paid = true
 
 [formats.vst3]

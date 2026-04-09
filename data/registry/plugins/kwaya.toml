@@ -2,11 +2,12 @@ slug = "kwaya"
 name = "KWAYA"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "African vocal choir library featuring the Ugandan group Aba Taano for authentic African vocal performances."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/kwaya.html"
 is_paid = true
 
 [formats.vst3]

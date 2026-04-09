@@ -2,11 +2,12 @@ slug = "ava-live"
 name = "AVA Live"
 vendor = "Harrison Consoles"
 version = "1.0.0"
-description = ""
+description = "All-in-one zero-latency plugin combining processing tools designed for live DAW mixing performance."
 category = "effects"
 subcategory = "de-esser"
 license = "commercial"
 tags = []
+homepage = "https://store.harrisonaudio.com/ava/ava-live"
 is_paid = true
 
 [formats.vst3]

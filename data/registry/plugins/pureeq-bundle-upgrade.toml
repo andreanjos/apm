@@ -2,11 +2,12 @@ slug = "pureeq-bundle-upgrade"
 name = "pure:EQ Bundle Upgrade"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Upgrade pricing to the full pure:EQ bundle for existing sonible customers."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/pureeq/"
 is_paid = true
 
 [formats.vst3]

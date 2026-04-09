@@ -2,11 +2,12 @@ slug = "ds-2-synthesizer"
 name = "DS 2 Synthesizer"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Virtual recreation of the 1978 Crumar DS-2, combining digital oscillator control with analog filtering."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/ds-2-synthesizer"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/17088-DS-2-Synthesizer"
 

@@ -1,12 +1,13 @@
 slug = "aas-ultra-analog-va-3-upgrade-from-1-or-2"
 name = "AAS Ultra Analog VA-3 Upgrade from 1 or 2"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Upgrade path to Ultra Analog VA-3 analog synthesizer from version 1 or 2."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/ultra-analog-va-3/"
 is_paid = true
 
 [formats.vst3]

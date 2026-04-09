@@ -1,12 +1,13 @@
 slug = "lm-correct-2"
 name = "LM Correct 2"
 vendor = "NUGEN Audio"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "An automated loudness correction plugin with multi-territory specifications and one-click compliance."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/lm-correct/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/1690-LM-Correct-2"
 

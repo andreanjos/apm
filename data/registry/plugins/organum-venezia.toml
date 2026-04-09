@@ -2,11 +2,12 @@ slug = "organum-venezia"
 name = "Organum Venezia"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Virtual French romantic pipe organ recorded near Venice capturing the authentic sound and ambience of the church."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/organum_venezia.html"
 is_paid = true
 
 [formats.vst3]

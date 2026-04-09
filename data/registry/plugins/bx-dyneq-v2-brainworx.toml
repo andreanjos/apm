@@ -2,11 +2,12 @@ slug = "bx-dyneq-v2-brainworx"
 name = "bx_dynEQ V2"
 vendor = "Brainworx"
 version = "1.0.0"
-description = ""
+description = "Dynamic equalizer with frequency-selective compression and expansion for precise spectral shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/products/bx_dynEQ-v2"
 is_paid = true
 
 [formats.vst3]

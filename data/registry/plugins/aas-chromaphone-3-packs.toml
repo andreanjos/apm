@@ -1,12 +1,13 @@
 slug = "aas-chromaphone-3-packs"
 name = "AAS Chromaphone 3 + Packs"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "AAS Chromaphone 3 acoustic object synthesizer bundled with additional sound expansion packs."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/chromaphone-3/"
 is_paid = true
 
 [formats.vst3]

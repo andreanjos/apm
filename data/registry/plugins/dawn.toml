@@ -1,12 +1,13 @@
 slug = "dawn"
 name = "Dawn"
 vendor = "Wave Alchemy"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Emulation of the legendary 1976 EMT 250, the world's first digital reverb, with modern enhancements."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://www.wavealchemy.co.uk/product/dawn/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/12155-Dawn"
 

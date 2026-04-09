@@ -1,12 +1,13 @@
 slug = "tines"
 name = "Tines"
 vendor = "Klevgrand"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "An electric piano emulation with stereo tremolo, multiband distortion, and a subtle built-in reverb."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://klevgrand.com/products/tines"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/3362-Tines"
 

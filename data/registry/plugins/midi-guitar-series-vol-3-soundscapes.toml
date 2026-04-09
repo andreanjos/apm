@@ -2,11 +2,12 @@ slug = "midi-guitar-series-vol-3-soundscapes"
 name = "Midi Guitar Series Vol 3 Soundscapes"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "PLAY-powered library of 72 spacey, ethereal pads and textures optimized for MIDI guitar."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/guitars-and-bass/ghostwriter"
 is_paid = true
 
 [formats.vst3]

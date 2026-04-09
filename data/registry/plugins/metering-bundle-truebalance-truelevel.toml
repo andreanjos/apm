@@ -2,11 +2,12 @@ slug = "metering-bundle-truebalance-truelevel"
 name = "Metering Bundle: true:balance + true:level"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Bundle of true:balance and true:level for precise stereo balance and loudness metering."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/meteringbundle/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "amplifikation-vermilion"
 name = "Amplifikation Vermilion"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Best-selling vintage combo guitar amp simulator with built-in tremolo and spring reverb."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/amplifikation-vermilion/"
 is_paid = true
 
 [formats.vst3]

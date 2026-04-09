@@ -2,11 +2,12 @@ slug = "ql-forbidden-planet"
 name = "QL Forbidden Planet"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest's retro sci-fi synthesizer instrument inspired by classic electronic movie scores."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/synth-and-effects/forbidden-planet"
 is_paid = true
 
 [formats.vst3]

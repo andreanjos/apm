@@ -2,10 +2,11 @@ slug = "cryostasis"
 name = "Cryostasis"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "Spectral inertia plugin that progressively freezes audio with pitch shifting, bit reduction, and wash effects."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com/Cryostasis/"
 is_paid = true
 
 [formats.vst3]

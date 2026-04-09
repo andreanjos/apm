@@ -2,11 +2,12 @@ slug = "vtines-mk1"
 name = "VTines MK1"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Hybrid sampling and modeling electric piano instrument based on real tine samples for authentic vintage tones."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/vtines-mk1"
 is_paid = true
 
 [formats.vst3]

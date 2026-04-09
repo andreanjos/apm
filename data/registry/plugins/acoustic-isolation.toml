@@ -2,11 +2,12 @@ slug = "acoustic-isolation"
 name = "Acoustic Isolation"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Loop-based Kontakt instrument with 200 kits of drum, percussion, piano, strings, and synth loops."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/acoustic-isolation/"
 is_paid = true
 
 [formats.vst3]

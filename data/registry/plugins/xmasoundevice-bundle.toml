@@ -2,11 +2,12 @@ slug = "xmasoundevice-bundle"
 name = "XmaSounDevice Bundle"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "United Plugins Christmas-themed bundle featuring a curated selection of audio effect plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com"
 is_paid = true
 
 [formats.vst3]

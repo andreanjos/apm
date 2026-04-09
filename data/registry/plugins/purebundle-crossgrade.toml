@@ -2,11 +2,12 @@ slug = "purebundle-crossgrade"
 name = "pure:bundle Crossgrade"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Crossgrade pricing for the pure:bundle suite of AI-powered mixing and mastering plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/purebundle/"
 is_paid = true
 
 [formats.vst3]

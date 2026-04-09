@@ -1,12 +1,13 @@
 slug = "chorus"
 name = "Chorus"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "BLEASS stereo chorus effect from subtle classic modulations to wide creative textures."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/chorus/"
 is_paid = true
 
 [formats.vst3]

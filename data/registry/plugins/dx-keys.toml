@@ -1,12 +1,13 @@
 slug = "dx-keys"
 name = "DX Keys"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt instrument capturing the iconic FM tones of the Yamaha DX series synthesizers."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/dx-keys"
 is_paid = true
 
 [formats.vst3]

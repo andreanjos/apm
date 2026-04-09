@@ -2,11 +2,12 @@ slug = "hollywood-orchestra-opus-edition-diamond-version"
 name = "Hollywood Orchestra Opus Edition Diamond Version"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest's flagship orchestral library with 130+ GB of recordings powered by the OPUS engine."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/orchestras/hollywood-orchestra-opus-edition"
 is_paid = true
 
 [formats.vst3]

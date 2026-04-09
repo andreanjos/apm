@@ -2,11 +2,12 @@ slug = "mixboss"
 name = "MixBoss"
 vendor = "W A Production"
 version = "1.0.0"
-description = ""
+description = "Top-down mixing plugin with multiband compressor, character modes, Push EQ, and speaker simulations."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/mixboss"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/14862-MixBoss"
 

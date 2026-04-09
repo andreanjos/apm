@@ -2,11 +2,12 @@ slug = "super-ii"
 name = "Super II"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Dual-manual VOX Super Continental organ from 1965 recreated as an authentic sample-based virtual instrument."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/super-ii"
 is_paid = true
 
 [formats.vst3]

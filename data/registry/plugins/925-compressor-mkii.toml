@@ -1,12 +1,13 @@
 slug = "925-compressor-mkii"
 name = "925 Compressor MKII"
 vendor = "MIA Laboratories"
-version = "1.0.0"
-description = ""
+version = "MkII"
+description = "MIA Laboratories main-mix compressor based on physical modeling of classic feed-back topology."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://mialaboratories.com/product/925-compressor/"
 is_paid = true
 
 [formats.vst3]

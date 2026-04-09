@@ -1,11 +1,12 @@
 slug = "helper-saturator-2"
 name = "Helper Saturator 2"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "A dual-mode tube and tape saturator adding analog warmth to drums, bass, vocals, and full mixes."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/helper-saturator"
 is_paid = true
 
 [formats.vst3]

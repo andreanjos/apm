@@ -2,11 +2,12 @@ slug = "zed-80-vol-2"
 name = "ZED 80 Vol 2"
 vendor = "Synth Magic"
 version = "1.0.0"
-description = ""
+description = "Vol 2 Kontakt library continuing the Casio FZ-1 sampled 1980s hardware sounds with additional content."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://synthmagic.co.uk/zed-80-vol-2/"
 is_paid = true
 
 [formats.vst3]

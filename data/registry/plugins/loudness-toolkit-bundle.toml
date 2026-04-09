@@ -2,11 +2,12 @@ slug = "loudness-toolkit-bundle"
 name = "Loudness Toolkit Bundle"
 vendor = "NUGEN Audio"
 version = "1.0.0"
-description = ""
+description = "A complete loudness compliance suite including VisLM, LM-Correct, and ISL with DynApt extension."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/loudnesstoolkit/"
 is_paid = true
 
 [formats.vst3]

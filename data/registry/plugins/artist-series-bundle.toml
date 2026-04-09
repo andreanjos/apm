@@ -2,11 +2,12 @@ slug = "artist-series-bundle"
 name = "Artist Series Bundle"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A curated collection of W.A. Production artist-collaboration FX plugins in one bundle."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles"
 is_paid = true
 
 [formats.vst3]

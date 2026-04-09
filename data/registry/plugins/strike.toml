@@ -1,12 +1,13 @@
 slug = "strike"
 name = "Strike"
 vendor = "Air Music Tech"
-version = "1.0.0"
-description = ""
+version = "1"
+description = "Acoustic drum instrument plugin with realistic performance dynamics and groove programming."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/strike"
 is_paid = true
 
 [formats.vst3]

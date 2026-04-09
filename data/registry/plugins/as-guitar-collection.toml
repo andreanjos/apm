@@ -2,11 +2,12 @@ slug = "as-guitar-collection"
 name = "AS Guitar Collection"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Four deeply sampled classic guitars covering an extensive range of genres in a single bundle."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/guitar-collection"
 is_paid = true
 
 [formats.vst3]

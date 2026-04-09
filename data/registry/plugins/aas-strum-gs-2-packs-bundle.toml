@@ -1,12 +1,13 @@
 slug = "aas-strum-gs-2-packs-bundle"
 name = "AAS Strum GS-2 + Packs Bundle"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "AAS Strum GS-2 guitar synthesizer bundled with additional acoustic and electric guitar sound packs."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/strum-gs-2/"
 is_paid = true
 
 [formats.vst3]

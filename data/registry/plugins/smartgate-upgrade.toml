@@ -2,11 +2,12 @@ slug = "smartgate-upgrade"
 name = "smart:gate Upgrade"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Upgrade pricing to smart:gate for existing sonible plugin customers."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/smartgate/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "ql-silk"
 name = "QL Silk"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest virtual instrument featuring authentic Eastern strings and traditional Asian instruments."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/world-and-traditional/silk"
 is_paid = true
 
 [formats.vst3]

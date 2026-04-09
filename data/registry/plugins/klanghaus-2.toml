@@ -1,12 +1,13 @@
 slug = "klanghaus-2"
 name = "Klanghaus 2"
 vendor = "Best Service"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Unique instrument collection invented and constructed by Ferdinand Foersch featuring exotic handmade instruments."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/klanghaus_2.html"
 is_paid = true
 
 [formats.vst3]

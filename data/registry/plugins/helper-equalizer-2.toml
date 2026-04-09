@@ -1,12 +1,13 @@
 slug = "helper-equalizer-2"
 name = "Helper Equalizer 2"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "A simple 3-knob equalizer with 5 EQ shapes for quick, intuitive frequency shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/helper-equalizer"
 is_paid = true
 
 [formats.vst3]

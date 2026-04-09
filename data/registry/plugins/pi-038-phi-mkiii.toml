@@ -1,14 +1,14 @@
 slug = "pi-038-phi-mkiii"
 name = "Pi &#038; Phi MKIII"
 vendor = "MIA Laboratories"
-version = "1.0.0"
-description = ""
+version = "MKIII"
+description = "MIA Laboratories Pi & Phi MKIII stereo enhancer with advanced width and harmonic control."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://mialaboratories.com/product/piandphi/"
 
 [formats.vst3]
 url = ""

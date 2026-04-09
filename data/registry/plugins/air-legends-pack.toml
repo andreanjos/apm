@@ -2,11 +2,12 @@ slug = "air-legends-pack"
 name = "AIR Legends Pack"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Collection of legendary Air Music Tech virtual instruments in one bundle."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "things-crusher"
 name = "Things – Crusher"
 vendor = "Sampleson"
 version = "1.0.0"
-description = ""
+description = "Crusher expansion for the Things synthesizer adding destructive processing and bit-crushing capabilities."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://sampleson.com/"
 is_paid = true
 
 [formats.vst3]

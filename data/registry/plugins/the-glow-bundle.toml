@@ -2,11 +2,12 @@ slug = "the-glow-bundle"
 name = "The Glow Bundle"
 vendor = "Sonuscore"
 version = "1.0.0"
-description = ""
+description = "Bundle of three Glow Series Kontakt instruments: felt piano, concert harp, and vintage electric piano."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://sonuscore.com/shop/the-glow-bundle/"
 is_paid = true
 
 [formats.vst3]

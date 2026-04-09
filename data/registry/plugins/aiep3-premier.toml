@@ -2,11 +2,12 @@ slug = "aiep3-premier"
 name = "AIEP3 Premier"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Premier bundle collection of Air Music Tech virtual instruments and creative tools."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com"
 is_paid = true
 
 [formats.vst3]

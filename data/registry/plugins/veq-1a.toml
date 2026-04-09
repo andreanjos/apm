@@ -2,11 +2,12 @@ slug = "veq-1a"
 name = "VEQ 1A"
 vendor = "Antelope Audio"
 version = "1.0.0"
-description = ""
+description = "Two-band tube EQ plugin based on the classic Pultec EQP-1A passive program equalizer."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://en.antelopeaudio.com/products/veq-1a/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/16081-VEQ-1A"
 

@@ -2,11 +2,12 @@ slug = "arabic-oud-crossgrade"
 name = "Arabic Oud Crossgrade"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Crossgrade to Arabic Oud, a virtual oud library with 39 articulations and authentic oriental microtunings."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/arabic_oud_crossgrade.html"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "special-eq-bundle"
 name = "Special EQ Bundle"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "EQ bundle combining frei:raum's three layers as individual plugins: smart:EQ, proximity:EQ+, entropy:EQ+."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/shop/"
 is_paid = true
 
 [formats.vst3]

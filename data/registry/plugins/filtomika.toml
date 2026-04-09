@@ -2,11 +2,12 @@ slug = "filtomika"
 name = "Filtomika"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Filter effect emulating the wild filter section of the 1980s Soviet Polivoks synthesizer."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/filtomika-filter"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/14150-Filtomika"
 

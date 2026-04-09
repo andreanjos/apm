@@ -2,11 +2,12 @@ slug = "ql-ghostwriter"
 name = "QL Ghostwriter"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest progressive rock and horror instrument with 800+ guitars, basses, drums, and FX."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/guitars-and-bass/ghostwriter"
 is_paid = true
 
 [formats.vst3]

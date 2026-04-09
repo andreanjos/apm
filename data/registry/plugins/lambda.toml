@@ -1,12 +1,13 @@
 slug = "lambda"
 name = "Lambda"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A meticulous Kontakt recreation of the Korg Lambda ES50 polyphonic ensemble synthesizer."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/lambda"
 is_paid = true
 
 [formats.vst3]

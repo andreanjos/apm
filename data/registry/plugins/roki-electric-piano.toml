@@ -2,11 +2,12 @@ slug = "roki-electric-piano"
 name = "ro•ki – Electric Piano"
 vendor = "Sonuscore"
 version = "1.0.0"
-description = ""
+description = "Vintage 1970s electric piano Kontakt instrument with Glow slider and 20 velocity layers."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://sonuscore.com/shop/roki-electric-piano/"
 is_paid = true
 
 [formats.vst3]

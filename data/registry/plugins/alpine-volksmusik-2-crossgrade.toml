@@ -1,12 +1,13 @@
 slug = "alpine-volksmusik-2-crossgrade"
 name = "Alpine Volksmusik 2 Crossgrade"
 vendor = "Best Service"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Crossgrade to Alpine Volksmusik 2 adding 42 patches for Swiss Folk, Austrian Stubenmusik, and German March."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/alpine_volksmusik_2.html"
 is_paid = true
 
 [formats.vst3]

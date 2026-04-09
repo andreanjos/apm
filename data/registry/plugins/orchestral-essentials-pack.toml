@@ -2,11 +2,12 @@ slug = "orchestral-essentials-pack"
 name = "Orchestral Essentials Pack"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Orchestral Essentials 1 and 2 for a complete cinematic orchestral toolkit."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/"
 is_paid = true
 
 [formats.vst3]

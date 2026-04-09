@@ -1,12 +1,13 @@
 slug = "squashit"
 name = "SquashIt"
 vendor = "Klevgrand"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A three-band distortion filter that ranges from subtle saturation to extreme frequency mangling."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://klevgrand.com/products/squashit"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/8726-SquashIt"
 

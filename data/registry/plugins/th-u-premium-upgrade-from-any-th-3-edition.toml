@@ -1,12 +1,13 @@
 slug = "th-u-premium-upgrade-from-any-th-3-edition"
 name = "TH-U Premium Upgrade from any TH-3 Edition"
 vendor = "Overloud"
-version = "1.0.0"
-description = ""
+version = "2.0.9"
+description = "Upgrade license from any TH-3 edition to TH-U Premium with full modeling, capturing and Fluid IR processing."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/products/th-u"
 is_paid = true
 
 [formats.vst3]

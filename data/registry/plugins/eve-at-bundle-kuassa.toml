@@ -2,11 +2,12 @@ slug = "eve-at-bundle-kuassa"
 name = "EVE-AT Bundle"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Bundle combining EVE-AT1 and EVE-AT4 Neve-inspired equalizers for versatile studio EQ work."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/eve-at-bundle/"
 is_paid = true
 
 [formats.vst3]

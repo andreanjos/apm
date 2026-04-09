@@ -2,11 +2,12 @@ slug = "absolute-vocal-bundle"
 name = "Absolute Vocal Bundle"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A vocal FX bundle including Outlaw, Screamo, Mutant Delay, Mutant Reverb, and Vocal Splitter."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles/view/absolute-vocal-bundle"
 is_paid = true
 
 [formats.vst3]

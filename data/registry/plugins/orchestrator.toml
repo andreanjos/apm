@@ -2,11 +2,12 @@ slug = "orchestrator"
 name = "Orchestrator"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Orchestral chords library with real legato transitions for strings with choir and brass with woodwinds."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/colours-orchestrator/"
 is_paid = true
 
 [formats.vst3]

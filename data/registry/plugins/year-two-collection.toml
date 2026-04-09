@@ -2,11 +2,12 @@ slug = "year-two-collection"
 name = "Year Two Collection"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Bundle of Cherry Audio's second-year synthesizer and expansion pack releases in one collection."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products"
 is_paid = true
 
 [formats.vst3]

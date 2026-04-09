@@ -2,11 +2,12 @@ slug = "the-riser"
 name = "The Riser"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Creative synthesis plugin designed for building tension, risers, and dramatic transitions."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/the-riser"
 is_paid = true
 
 [formats.vst3]

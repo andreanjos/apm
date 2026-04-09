@@ -2,10 +2,11 @@ slug = "punchy-worm"
 name = "Punchy Worm"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A one-knob punch and saturation processor combining transient shaping with harmonic enhancement."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/punchy-worm"
 is_paid = true
 
 [formats.vst3]

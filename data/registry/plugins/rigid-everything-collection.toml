@@ -2,11 +2,12 @@ slug = "rigid-everything-collection"
 name = "Rigid Everything Collection"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Complete collection of all Rigid Audio Kontakt instruments in one comprehensive bundle."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/shop/"
 is_paid = true
 
 [formats.vst3]

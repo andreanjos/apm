@@ -2,11 +2,12 @@ slug = "purecomp-crossgrade"
 name = "pure:comp Crossgrade"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Crossgrade pricing for pure:comp, sonible's AI-powered spectro-dynamic compressor for creators."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/purecomp/"
 is_paid = true
 
 [formats.vst3]

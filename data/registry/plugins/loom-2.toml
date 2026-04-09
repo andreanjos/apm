@@ -1,12 +1,13 @@
 slug = "loom-2"
 name = "Loom 2"
 vendor = "Air Music Tech"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Additive synthesis plugin with morphing wavetables and an intuitive modulation grid."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/loom-2"
 is_paid = true
 
 [formats.vst3]

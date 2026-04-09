@@ -2,13 +2,13 @@ slug = "pandora-038-adaptive-runs-pack"
 name = "Pandora &#038; Adaptive Runs Pack"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "ProjectSAM bundle combining Symphobia 4: Pandora and Colours: Adaptive Runs libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://projectsam.com/libraries/"
 
 [formats.vst3]
 url = ""

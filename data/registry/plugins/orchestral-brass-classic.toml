@@ -2,11 +2,12 @@ slug = "orchestral-brass-classic"
 name = "Orchestral Brass Classic"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Re-issue of the acclaimed SAM Horns, Trombones, Trumpets, and Solo Sessions brass library."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/orchestral-brass-classic/"
 is_paid = true
 
 [formats.vst3]

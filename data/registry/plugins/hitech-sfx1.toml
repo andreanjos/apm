@@ -2,11 +2,12 @@ slug = "hitech-sfx1"
 name = "Hitech SFX1"
 vendor = "Eplex7 DSP"
 version = "1.0.0"
-description = ""
+description = "Hitech and psycore SFX plugin with synthesizers, explosions, risers, and alien sounds."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.eplex7.com/hitech-sfx1-plugin-instrument/"
 is_paid = true
 
 [formats.vst3]

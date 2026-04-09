@@ -2,11 +2,12 @@ slug = "composers-dream-bundle"
 name = "Composers Dream Bundle"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Rigid Audio bundle of Kontakt instruments curated for cinematic and film music composition."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/shop/"
 is_paid = true
 
 [formats.vst3]

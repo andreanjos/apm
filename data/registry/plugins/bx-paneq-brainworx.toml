@@ -2,11 +2,12 @@ slug = "bx-paneq-brainworx"
 name = "bx_panEQ"
 vendor = "Brainworx"
 version = "1.0.0"
-description = ""
+description = "Panoramic EQ allowing independent frequency shaping of any portion of the stereo field."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/products/bx_panEQ"
 is_paid = true
 
 [formats.vst3]

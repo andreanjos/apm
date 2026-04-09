@@ -2,11 +2,12 @@ slug = "expanse-3d"
 name = "Expanse 3D"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "Spatial audio plugin adding stereo width, depth, and height dimensions to recordings and mixes."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com/Expanse3D/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/7594-Expanse-3D"
 

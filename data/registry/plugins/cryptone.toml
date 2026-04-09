@@ -1,12 +1,13 @@
 slug = "cryptone"
 name = "Cryptone"
 vendor = "Tone Empire"
-version = "1.0.0"
-description = ""
+version = "1.0.5"
+description = "Neural network saturation plugin with 96kHz models, SSL-style compression, and auto-oversampling."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.tone-empire.com/cryptone/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/15995-Cryptone"
 

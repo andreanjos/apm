@@ -1,12 +1,13 @@
 slug = "spherecomp"
 name = "SphereComp"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "1.5.0"
+description = "A dual-mode Peak/RMS compressor with tube saturation, soft clipping, and parallel compression support."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/spherecomp"
 is_paid = true
 
 [formats.vst3]

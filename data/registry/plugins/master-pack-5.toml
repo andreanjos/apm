@@ -2,11 +2,12 @@ slug = "master-pack-5"
 name = "Master Pack 5"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Comprehensive ProjectSAM bundle of orchestral libraries for film, TV, and game scoring."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/"
 is_paid = true
 
 [formats.vst3]

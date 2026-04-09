@@ -2,11 +2,12 @@ slug = "ql-goliath"
 name = "QL Goliath"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "Massive EastWest collection of 180 instruments spanning percussion, orchestra, guitars, and world."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/drums-and-percussion/goliath"
 is_paid = true
 
 [formats.vst3]

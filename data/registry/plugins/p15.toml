@@ -1,12 +1,13 @@
 slug = "p15"
 name = "P15"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt instrument sampled from the EKO P15 analogue monosynth with a unique and quirky tonality."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/p15"
 is_paid = true
 
 [formats.vst3]

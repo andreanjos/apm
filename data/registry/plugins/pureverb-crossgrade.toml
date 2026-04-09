@@ -2,10 +2,11 @@ slug = "pureverb-crossgrade"
 name = "pure:verb Crossgrade"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Crossgrade pricing for pure:verb, sonible's intelligent reverb that matches your audio's character."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/pureverb/"
 is_paid = true
 
 [formats.vst3]

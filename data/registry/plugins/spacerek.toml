@@ -1,12 +1,13 @@
 slug = "spacerek"
 name = "Spacerek"
 vendor = "D16 Group"
-version = "1.0.0"
-description = ""
+version = "1.2.3"
+description = "Virtual space reverb with 114 models combining acoustic early reflections with a hybrid late algorithm."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://d16.pl/spacerek"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/6978-Spacerek"
 

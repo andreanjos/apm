@@ -2,11 +2,12 @@ slug = "galactic-reverb"
 name = "Galactic Reverb"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Algorithmic reverb plugin emulating classic hardware digital reverbs with up to 35-second decay time."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/galactic-reverb"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/9260-Galactic-Reverb"
 

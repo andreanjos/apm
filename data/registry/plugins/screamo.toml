@@ -1,12 +1,13 @@
 slug = "screamo"
 name = "Screamo"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "2.2.0"
+description = "A talk-box/screamer hybrid distortion with tempo-synced modulation and three drive styles."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/screamo"
 is_paid = true
 
 [formats.vst3]

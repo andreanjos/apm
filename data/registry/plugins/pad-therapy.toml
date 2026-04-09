@@ -2,11 +2,12 @@ slug = "pad-therapy"
 name = "Pad Therapy"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument with 128 morphing pads and textures, featuring drag-and-drop sample import."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/pad-therapy/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "ht6000"
 name = "HT6000"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt instrument recreating the idiosyncratic Casio HT-6000 with expanded polyphonic versatility."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/ht6000"
 is_paid = true
 
 [formats.vst3]

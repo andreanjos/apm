@@ -2,11 +2,12 @@ slug = "difix"
 name = "DIFIX"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "Plugin that fixes direct-input guitar and bass recordings by adding proper impedance and analogue saturation."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com/DIFIX/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/7144-DIFIX"
 

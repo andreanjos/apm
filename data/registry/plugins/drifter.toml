@@ -2,11 +2,12 @@ slug = "drifter"
 name = "Drifter"
 vendor = "W A Production"
 version = "1.0.0"
-description = ""
+description = "Multi-parameter modulation plugin that adds organic movement to audio with evolving LFO-style modulators."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/drifter"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/15729-Drifter"
 

@@ -2,11 +2,12 @@ slug = "space-ii"
 name = "Space II"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument with 100 dark spacey looping textures and drones for movie scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/space-ii/"
 is_paid = true
 
 [formats.vst3]

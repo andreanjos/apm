@@ -2,13 +2,13 @@ slug = "royal-compressor-united-plugins"
 name = "Royal Compressor"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "Vintage-inspired compression plugin emulating classic British 1960s hardware with three circuit models."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://unitedplugins.com/RoyalCompressor/"
 
 [formats.vst3]
 url = ""

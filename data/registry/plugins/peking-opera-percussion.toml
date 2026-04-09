@@ -2,11 +2,12 @@ slug = "peking-opera-percussion"
 name = "Peking Opera Percussion"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Collection of high-quality drum and percussion instruments from traditional Chinese Peking Opera and Kunqu Opera."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/peking_opera_percussion.html"
 is_paid = true
 
 [formats.vst3]

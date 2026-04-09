@@ -1,11 +1,12 @@
 slug = "revoice-pro-4-subscription"
 name = "Revoice Pro 4 Subscription"
 vendor = "Synchro Arts"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "Subscription license for Revoice Pro 4, the industry-standard professional vocal processing suite."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://synchroarts.com/products/revoice-pro"
 is_paid = true
 
 [formats.vst3]

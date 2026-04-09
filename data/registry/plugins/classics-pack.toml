@@ -2,11 +2,12 @@ slug = "classics-pack"
 name = "Classics Pack"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "ProjectSAM bundle of classic libraries including Orchestral Brass Classic, True Strike, and Organ Mystique."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/classics-pack/"
 is_paid = true
 
 [formats.vst3]

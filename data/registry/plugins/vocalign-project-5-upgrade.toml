@@ -1,11 +1,12 @@
 slug = "vocalign-project-5-upgrade"
 name = "VocALign Project 5 Upgrade"
 vendor = "Synchro Arts"
-version = "1.0.0"
-description = ""
+version = "5"
+description = "Upgrade license to VocAlign Project 5 with improved vocal timing alignment features."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://synchroarts.com/products/vocalign-pro"
 is_paid = true
 
 [formats.vst3]

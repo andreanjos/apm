@@ -2,11 +2,12 @@ slug = "efektor-ds3603-distortion"
 name = "Efektor DS3603 Distortion"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Guitar distortion plugin with five models including Lead, Heavy, Metal, Classic, and Pro."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/efektor-ds3603/"
 is_paid = true
 
 [formats.vst3]

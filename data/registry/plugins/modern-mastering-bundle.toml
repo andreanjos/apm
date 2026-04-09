@@ -2,11 +2,12 @@ slug = "modern-mastering-bundle"
 name = "Modern Mastering Bundle"
 vendor = "NUGEN Audio"
 version = "1.0.0"
-description = ""
+description = "A mastering bundle from NUGEN Audio including Visualizer, ISLst, and MasterCheck for streamlined workflows."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/modernmastering/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "knorr"
 name = "Knorr"
 vendor = "Klevgrand"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A bass exciter that adds overtones to low-frequency sources in ways that ordinary distortion cannot."
 category = "effects"
 subcategory = "exciter"
 license = "commercial"
 tags = []
+homepage = "https://klevgrand.com/products/knorr"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/62-Exciter/8709-Knorr"
 

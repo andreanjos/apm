@@ -2,11 +2,12 @@ slug = "djfx"
 name = "DJFX"
 vendor = "W A Production"
 version = "1.0.0"
-description = ""
+description = "Multi-effect DJ processor with six stackable effect modules including sweep, riser, echo, and bitgrind."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/djfx"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/15045-DJFX"
 

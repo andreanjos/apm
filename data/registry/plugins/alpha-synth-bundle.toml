@@ -1,12 +1,13 @@
 slug = "alpha-synth-bundle"
 name = "Alpha Synth Bundle"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "BLEASS Alpha synthesizer bundle with additional preset packs for the virtual analog poly synth."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/alpha/"
 is_paid = true
 
 [formats.vst3]

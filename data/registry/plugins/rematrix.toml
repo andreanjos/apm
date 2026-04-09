@@ -2,11 +2,12 @@ slug = "rematrix"
 name = "REmatrix"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Unique parallel IR processor with five simultaneous convolvers for composing custom hybrid reverbs."
 category = "effects"
 subcategory = "impulse response"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/products/rematrix"
 is_paid = true
 
 [formats.vst3]

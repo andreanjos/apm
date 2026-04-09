@@ -2,10 +2,11 @@ slug = "ava-vocal-flow"
 name = "AVA Vocal Flow"
 vendor = "Harrison Consoles"
 version = "1.0.0"
-description = ""
+description = "Comprehensive vocal processing suite with 7 routable elements including pitch-tracking EQ and de-esser."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://store.harrisonaudio.com/ava/ava-vocal-flow"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "mystical-halloween-bundle"
 name = "Mystical Halloween Bundle"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A Halloween-themed W.A. Production bundle of spooky and experimental FX plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles"
 is_paid = true
 
 [formats.vst3]

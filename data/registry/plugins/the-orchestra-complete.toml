@@ -1,12 +1,13 @@
 slug = "the-orchestra-complete"
 name = "The Orchestra Complete"
 vendor = "Sonuscore"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "Fully-featured virtual orchestra with 1,150+ arrangements, 80-piece ensemble engine for modern composers."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://sonuscore.com/shop/the-orchestra-complete/"
 is_paid = true
 
 [formats.vst3]

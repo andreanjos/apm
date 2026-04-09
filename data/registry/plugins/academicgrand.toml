@@ -2,11 +2,12 @@ slug = "academicgrand"
 name = "AcademicGrand"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "A 1963 Steinway D concert grand from the University of Arkansas with a classic American Steinway sound."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/academicgrand"
 is_paid = true
 
 [formats.vst3]

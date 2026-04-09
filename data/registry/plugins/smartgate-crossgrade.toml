@@ -2,11 +2,12 @@ slug = "smartgate-crossgrade"
 name = "smart:gate Crossgrade"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Crossgrade pricing for smart:gate, sonible's AI-powered content-aware noise gate."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/smartgate/"
 is_paid = true
 
 [formats.vst3]

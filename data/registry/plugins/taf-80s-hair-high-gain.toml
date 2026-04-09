@@ -2,11 +2,12 @@ slug = "taf-80s-hair-high-gain"
 name = "TAF 80s Hair High Gain"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "TH-U rig library capturing high-gain 80s hair metal guitar tones with multiple amp and cab configurations."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/products"
 is_paid = true
 
 [formats.vst3]

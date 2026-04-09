@@ -2,11 +2,12 @@ slug = "colours-animator"
 name = "Colours: Animator"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Kontakt library for cartoon and animation scoring with laughing clarinets and trombone slides."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/colours-animator/"
 is_paid = true
 
 [formats.vst3]

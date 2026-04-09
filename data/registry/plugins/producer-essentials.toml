@@ -1,12 +1,13 @@
 slug = "producer-essentials"
 name = "Producer Essentials"
 vendor = "Karanyi Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Three-instrument Kontakt bundle with synth classics, cinematic pads, and sci-fi soundscapes."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://karanyisounds.com/product/producer-essentials/"
 is_paid = true
 
 [formats.vst3]

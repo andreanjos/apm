@@ -1,12 +1,13 @@
 slug = "trivox"
 name = "TriVox"
 vendor = "W A Production"
-version = "1.0.0"
-description = ""
+version = "1.0.2"
+description = "Harmonizer plugin creating three harmony voices with 20 scales and Super Unison mode for thick effects."
 category = "effects"
 subcategory = "harmonizer"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/trivox"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/91-Harmonizer/10677-TriVox"
 

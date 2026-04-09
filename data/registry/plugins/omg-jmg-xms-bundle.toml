@@ -2,11 +2,12 @@ slug = "omg-jmg-xms-bundle"
 name = "OMG JMG XMS Bundle"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "United Plugins bundle combining OMG, JMG, and XMS audio processing plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com"
 is_paid = true
 
 [formats.vst3]

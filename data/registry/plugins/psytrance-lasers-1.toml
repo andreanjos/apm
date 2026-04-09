@@ -2,11 +2,12 @@ slug = "psytrance-lasers-1"
 name = "Psytrance Lasers 1"
 vendor = "Eplex7 DSP"
 version = "1.0.0"
-description = ""
+description = "Plugin instrument with psychedelic laser, space gun, and psy shot sound effects."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.eplex7.com/psytrance-lasers-1-sound-effects-instrument-plugin/"
 is_paid = true
 
 [formats.vst3]

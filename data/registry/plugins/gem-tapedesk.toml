@@ -2,10 +2,11 @@ slug = "gem-tapedesk"
 name = "GEM Tapedesk"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Console and tape machine emulation recreating a full-analog mixing workflow with warmth and character."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/gems"
 is_paid = true
 
 [formats.vst3]

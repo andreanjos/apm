@@ -2,10 +2,11 @@ slug = "ql-spaces-ii"
 name = "QL Spaces II"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest convolution reverb with 1,020+ reverbs from churches, concert halls, and unique spaces."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/synth-and-effects/spaces-ii"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "lm-correct"
 name = "LM-Correct"
 vendor = "NUGEN Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A loudness correction plugin providing a fast, hassle-free route to loudness-compliant audio."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/lm-correct/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "prototype-ep"
 name = "Prototype EP"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt instrument sampled from a crusty, clunky East German electric piano prototype."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/prototype-ep"
 is_paid = true
 
 [formats.vst3]

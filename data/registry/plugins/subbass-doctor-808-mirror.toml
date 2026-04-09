@@ -2,11 +2,12 @@ slug = "subbass-doctor-808-mirror"
 name = "SubBass Doctor 808 + Mirror"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "United Plugins bundle combining SubBass Doctor 808 enhancer and Mirror reverse delay plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com"
 is_paid = true
 
 [formats.vst3]

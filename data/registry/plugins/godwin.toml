@@ -1,12 +1,13 @@
 slug = "godwin"
 name = "Godwin"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A sampled Godwin String Concert analogue ensemble synth with smooth, warm strings and chorus control."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/godwin"
 is_paid = true
 
 [formats.vst3]

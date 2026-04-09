@@ -2,11 +2,12 @@ slug = "gem-sculptube"
 name = "GEM Sculptube"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Tube saturation and distortion plugin for adding warmth and harmonic richness to any audio source."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/gems"
 is_paid = true
 
 [formats.vst3]

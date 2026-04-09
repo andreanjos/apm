@@ -2,10 +2,11 @@ slug = "vocalign-ultra-update-from-vocaalign-pro-4"
 name = "VocALign Ultra Update from VocaAlign Pro 4"
 vendor = "Synchro Arts"
 version = "1.0.0"
-description = ""
+description = "Update to VocAlign Ultra for existing VocAlign Pro 4 license holders."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://synchroarts.com/products/vocalign-pro"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "ql-gypsy"
 name = "QL Gypsy"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest world instrument library featuring authentic Romani and flamenco instruments."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/world-and-traditional/gypsy"
 is_paid = true
 
 [formats.vst3]

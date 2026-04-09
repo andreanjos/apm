@@ -1,12 +1,13 @@
 slug = "logan"
 name = "Logan"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt instrument sampled from the classic Logan String Melody II string synthesizer."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/logan"
 is_paid = true
 
 [formats.vst3]

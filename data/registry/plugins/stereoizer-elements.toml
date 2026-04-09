@@ -1,12 +1,13 @@
 slug = "stereoizer-elements"
 name = "Stereoizer Elements"
 vendor = "NUGEN Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A lite stereo enhancement plugin for natural mono-to-stereo widening and spatial expansion."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/stereoizer-elements/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/7536-Stereoizer-Elements"
 

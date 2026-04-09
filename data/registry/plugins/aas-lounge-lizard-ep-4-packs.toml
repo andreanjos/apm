@@ -1,12 +1,13 @@
 slug = "aas-lounge-lizard-ep-4-packs"
 name = "AAS Lounge Lizard EP-4 + Packs"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "AAS Lounge Lizard EP-4 electric piano synthesizer bundled with additional sound packs."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/lounge-lizard-ep-4/"
 is_paid = true
 
 [formats.vst3]

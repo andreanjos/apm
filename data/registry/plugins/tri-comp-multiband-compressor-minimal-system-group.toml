@@ -2,11 +2,12 @@ slug = "tri-comp-multiband-compressor-minimal-system-group"
 name = "Tri-Comp Multiband Compressor"
 vendor = "Minimal System Group"
 version = "1.0.0"
-description = ""
+description = "Three-band multiband compressor with three 1176-emulated compressors and M/S processing per band."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/products/292"
 is_paid = true
 
 [formats.vst3]

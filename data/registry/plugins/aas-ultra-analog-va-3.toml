@@ -1,12 +1,13 @@
 slug = "aas-ultra-analog-va-3"
 name = "AAS Ultra Analog VA-3"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "AAS versatile physically modeled analog synthesizer capable of creating virtually any synth tone."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/ultra-analog-va-3/"
 is_paid = true
 
 [formats.vst3]

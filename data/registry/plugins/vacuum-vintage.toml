@@ -2,11 +2,12 @@ slug = "vacuum-vintage"
 name = "Vacuum Vintage"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Retro tube synthesizer plugin capturing the character of classic vacuum-tube analog circuits."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/vacuum"
 is_paid = true
 
 [formats.vst3]

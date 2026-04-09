@@ -2,11 +2,12 @@ slug = "sh-max"
 name = "SH MAX"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Virtual synthesizer blending three classic Roland SH-series monosynths into one expanded instrument."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/sh-max-synthesizer"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16799-SH-MAX"
 

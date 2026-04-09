@@ -2,11 +2,12 @@ slug = "solina"
 name = "Solina"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Virtual string ensemble plugin modeled after the classic Solina String Ensemble hardware."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/solina"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "ava-legacyq"
 name = "AVA LegacyQ"
 vendor = "Harrison Consoles"
 version = "1.0.0"
-description = ""
+description = "Harrison's first full-featured digital EQ plugin featuring 5 bands and 2 filters based on the 1975 32C console."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://store.harrisonaudio.com/ava/ava-legacyq"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "vstplug-smoothlord"
 name = "VSTplug smoothlord"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Smooth-sounding EQ plugin designed for gentle, musical frequency adjustments in any context."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

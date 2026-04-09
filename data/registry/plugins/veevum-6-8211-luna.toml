@@ -1,14 +1,14 @@
 slug = "veevum-6-8211-luna"
 name = "Veevum 6 &#8211; Luna"
 vendor = "Audiofier"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Ambient Kontakt instrument in the Veevum Series with 100 unique sound sources for cinematic music."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiofier.co.uk/veevum-luna/"
 
 [formats.vst3]
 url = ""

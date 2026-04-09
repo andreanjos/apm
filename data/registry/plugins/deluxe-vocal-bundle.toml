@@ -2,11 +2,12 @@ slug = "deluxe-vocal-bundle"
 name = "Deluxe Vocal Bundle"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A W.A. Production bundle of vocal processing plugins including compressor, limiter, and reverb."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles/view/deluxe-vocal-bundle"
 is_paid = true
 
 [formats.vst3]

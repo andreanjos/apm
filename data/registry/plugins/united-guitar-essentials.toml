@@ -2,11 +2,12 @@ slug = "united-guitar-essentials"
 name = "United Guitar Essentials"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "Essential United Plugins bundle of guitar processing tools for recording and mixing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com"
 is_paid = true
 
 [formats.vst3]

@@ -2,10 +2,11 @@ slug = "vstplug-reverb"
 name = "VSTplug reverb"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Simple reverb plugin for adding natural room ambience and spatial depth to audio tracks."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

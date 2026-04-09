@@ -1,12 +1,13 @@
 slug = "lm-correct-2-with-dynapt-extension"
 name = "LM-Correct 2 with DynApt Extension"
 vendor = "NUGEN Audio"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "LM-Correct 2 bundled with the DynApt Extension for dynamic loudness adaptation in broadcast workflows."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/lm-correct/"
 is_paid = true
 
 [formats.vst3]

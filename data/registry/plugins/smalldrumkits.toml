@@ -2,11 +2,12 @@ slug = "smalldrumkits"
 name = "SmallDrumKits"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Collection of small, intimate acoustic drum kits with multiple mic perspectives and natural dynamics."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/smalldrumkits"
 is_paid = true
 
 [formats.vst3]

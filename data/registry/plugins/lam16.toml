@@ -1,12 +1,13 @@
 slug = "lam16"
 name = "LAM16"
 vendor = "Tone Empire"
-version = "1.0.0"
-description = ""
+version = "1.0.2"
+description = "Class-A transformer-balanced preamp plugin emulating the Langevin AM16 with 96kHz oversampling."
 category = "effects"
 subcategory = "preamp"
 license = "commercial"
 tags = []
+homepage = "https://www.tone-empire.com/lam16/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/16396-LAM16"
 

@@ -1,12 +1,13 @@
 slug = "swing"
 name = "Swing!"
 vendor = "ProjectSAM"
-version = "1.0.0"
-description = ""
+version = "1.1"
+description = "Golden age jazz ensemble Kontakt library with big band, solos, and tempo-synced grooves."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/swing/"
 is_paid = true
 
 [formats.vst3]

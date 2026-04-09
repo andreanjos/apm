@@ -1,12 +1,13 @@
 slug = "aas-lounge-lizard-ep-4-upgrade-from-lounge-lizard-sessions-3-or-4"
 name = "AAS Lounge Lizard EP-4 Upgrade from Lounge Lizard Sessions 3 or 4"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "Upgrade to Lounge Lizard EP-4 electric piano synthesizer from Lounge Lizard Sessions 3 or 4."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/lounge-lizard-ep-4/"
 is_paid = true
 
 [formats.vst3]

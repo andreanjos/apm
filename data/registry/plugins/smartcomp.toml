@@ -2,11 +2,12 @@ slug = "smartcomp"
 name = "smart:comp"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Intelligent compressor using AI to automatically apply content-aware dynamic processing."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/smartcomp3/"
 is_paid = true
 
 [formats.vst3]

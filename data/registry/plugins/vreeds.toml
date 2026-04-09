@@ -2,11 +2,12 @@ slug = "vreeds"
 name = "VReeds"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Hybrid synthesis and sampling Wurlitzer electric piano combining two models (200 and 200A) in 70 MB."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/vreeds"
 is_paid = true
 
 [formats.vst3]

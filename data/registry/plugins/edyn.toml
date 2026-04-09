@@ -1,12 +1,13 @@
 slug = "edyn"
 name = "EDYN"
 vendor = "Tone Empire"
-version = "1.0.0"
-description = ""
+version = "1.02"
+description = "Discrete transistor preamp plugin modeled after a classic American console for bold harmonic richness."
 category = "effects"
 subcategory = "preamp"
 license = "commercial"
 tags = []
+homepage = "https://www.tone-empire.com/edyn/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/14969-EDYN"
 

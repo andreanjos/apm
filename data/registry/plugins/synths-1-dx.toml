@@ -1,12 +1,13 @@
 slug = "synths-1-dx"
 name = "Synths 1 DX"
 vendor = "Karanyi Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument with DX-style synth sounds for cinematic atmospheres, sci-fi pads, and ambient music."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://karanyisounds.com/product/synths-1-dx/"
 is_paid = true
 
 [formats.vst3]

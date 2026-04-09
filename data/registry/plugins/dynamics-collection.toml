@@ -2,11 +2,12 @@ slug = "dynamics-collection"
 name = "Dynamics Collection"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "Bundle of Boz Digital Labs dynamics processors including compressor, limiter, gate, and transient shaper."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/dynamics-collection/"
 is_paid = true
 
 [formats.vst3]

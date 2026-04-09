@@ -2,11 +2,12 @@ slug = "essential-pianos-pack"
 name = "Essential Pianos Pack"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Bundle of premium piano instruments covering grand, upright, and electric piano sounds."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "swing-bundle"
 name = "Swing! Bundle"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Swing! and Swing More! jazz and big band Kontakt libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/"
 is_paid = true
 
 [formats.vst3]

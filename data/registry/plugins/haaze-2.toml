@@ -1,12 +1,13 @@
 slug = "haaze-2"
 name = "Haaze 2"
 vendor = "Klevgrand"
-version = "1.0.0"
-description = ""
+version = "2.0.4"
+description = "A stereo widener using delay and filtering to position sounds naturally across the stereo field."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://klevgrand.com/products/haaze"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/3363-Haaze-2"
 

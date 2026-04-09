@@ -2,11 +2,12 @@ slug = "viego"
 name = "Viego"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt library with 256 cinematic pads combining sampled waveforms and wavetable synthesis."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/viego/"
 is_paid = true
 
 [formats.vst3]

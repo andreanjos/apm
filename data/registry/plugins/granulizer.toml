@@ -1,14 +1,14 @@
 slug = "granulizer"
 name = "Granulizer"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "BLEASS granular texture effect with randomization and mesmerizing 3D visualizer."
 category = "effects"
 subcategory = "granular"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.bleass.com/product/bleass-granulizer-desktop-plugin/"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "bx-bassdude-brainworx"
 name = "bx_bassdude"
 vendor = "Brainworx"
 version = "1.0.0"
-description = ""
+description = "Faithful emulation of a legendary American bass amp that defined generations of rock amplifier design."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.plugin-alliance.com/products/bx_bassdude"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "memory-cat-brigade"
 name = "Memory Cat Brigade"
 vendor = "Antelope Audio"
 version = "1.0.0"
-description = ""
+description = "Bucket-brigade analog delay plugin modeled after the classic Electro-Harmonix Deluxe Memory Man."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://en.antelopeaudio.com/products/memory-cat-brigade/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/16043-Memory-Cat-Brigade"
 

@@ -2,10 +2,11 @@ slug = "vocalign-ultra-crossgrade-from-revoice-pro-4"
 name = "VocAlign Ultra Crossgrade from Revoice Pro 4"
 vendor = "Synchro Arts"
 version = "1.0.0"
-description = ""
+description = "Crossgrade to VocAlign Ultra advanced vocal alignment for Revoice Pro 4 owners."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://synchroarts.com/products/vocalign-pro"
 is_paid = true
 
 [formats.vst3]

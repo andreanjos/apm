@@ -2,11 +2,12 @@ slug = "voyager-drums-le"
 name = "Voyager Drums LE"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Limited edition version of Voyager Drums delivering punchy drum kits for Pop, Rock, Jazz, and Funk production."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/voyager_drums_le.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "synths-3-polyscape"
 name = "Synths 3 Polyscape"
 vendor = "Karanyi Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt synth instrument combining Polyscape-style pads with the Synths engine for cinematic music."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://karanyisounds.com/"
 is_paid = true
 
 [formats.vst3]

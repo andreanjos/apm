@@ -1,11 +1,12 @@
 slug = "vocalign-project-5-crossgrade"
 name = "VocALign Project 5 Crossgrade"
 vendor = "Synchro Arts"
-version = "1.0.0"
-description = ""
+version = "5"
+description = "Crossgrade license to VocAlign Project 5 for users of other Synchro Arts products."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://synchroarts.com/products/vocalign-pro"
 is_paid = true
 
 [formats.vst3]

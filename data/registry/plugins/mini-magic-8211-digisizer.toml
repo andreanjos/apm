@@ -2,13 +2,13 @@ slug = "mini-magic-8211-digisizer"
 name = "Mini Magic &#8211; Digisizer"
 vendor = "Synth Magic"
 version = "1.0.0"
-description = ""
+description = "Fun and easy-to-use Kontakt synth with a wide variety of presets in the Mini Magic format."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://synthmagic.co.uk/mini-magic-digisizer/"
 
 [formats.vst3]
 url = ""

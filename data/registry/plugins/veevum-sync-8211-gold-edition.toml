@@ -1,14 +1,14 @@
 slug = "veevum-sync-8211-gold-edition"
 name = "Veevum Sync &#8211; Gold Edition"
 vendor = "Audiofier"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Premium tempo-synced ambient Kontakt instrument using audio loops in the Veevum honeycomb engine."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiofier.co.uk/veevum-sync-gold-edition/"
 
 [formats.vst3]
 url = ""

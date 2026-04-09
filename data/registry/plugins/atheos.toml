@@ -2,11 +2,12 @@ slug = "atheos"
 name = "Atheos"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Timestretching cinematic soundscape machine for Kontakt with 260 cinematic instruments."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/atheos/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "prodrummer-vol-1"
 name = "ProDrummer Vol 1"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest's professional acoustic drum instrument with detailed multi-sampled kits."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
 is_paid = true
 
 [formats.vst3]

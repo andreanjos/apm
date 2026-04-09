@@ -1,12 +1,13 @@
 slug = "bleass-granulizer"
 name = "BLEASS Granulizer"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Granular texture effect with randomization, four multi-bus audio inputs, and a 3D visualizer."
 category = "effects"
 subcategory = "granular fx"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/product/bleass-granulizer-desktop-plugin/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/7767-BLEASS-Granulizer"
 

@@ -1,12 +1,13 @@
 slug = "bleass-samplewiz-2"
 name = "BLEASS SampleWiz 2"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Sample-and-synthesis instrument with granular engine designed by Jordan Rudess and BLEASS."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/samplewiz2/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11029-BLEASS-SampleWiz-2"
 

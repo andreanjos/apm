@@ -2,11 +2,12 @@ slug = "analogue-drum-machine-bundle"
 name = "Analogue Drum Machine Bundle"
 vendor = "Rhythmic Robot"
 version = "1.0.0"
-description = ""
+description = "A Rhythmic Robot bundle of multiple sampled vintage analogue drum machines for Kontakt."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/products"
 is_paid = true
 
 [formats.vst3]

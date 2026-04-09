@@ -1,12 +1,13 @@
 slug = "isl-2st"
 name = "ISL 2st"
 vendor = "NUGEN Audio"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "A stereo-only ISL 2 variant providing intelligent True Peak limiting for music and stereo production."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/isl/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/1787-ISL-2st"
 

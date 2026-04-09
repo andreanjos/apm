@@ -2,11 +2,12 @@ slug = "ql-pianos-platinum"
 name = "QL Pianos Platinum"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest QL Pianos Platinum bundle featuring four world-class grand pianos with full mic options."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/pianos-and-keys/pianos"
 is_paid = true
 
 [formats.vst3]

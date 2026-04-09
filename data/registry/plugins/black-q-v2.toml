@@ -1,14 +1,14 @@
 slug = "black-q-v2"
 name = "Black Q V2"
 vendor = "Tone Empire"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Four-band analog-modeled tube equalizer with Sowter and Lundahl transformer emulation."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.tone-empire.com/black-q/"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "damaged-drums"
 name = "Damaged Drums"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A broken vintage drum machine Kontakt instrument with controllable damage effects for lo-fi beats."
 category = "instruments"
 subcategory = "electronic drums"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/damaged-drums"
 is_paid = true
 
 [formats.vst3]

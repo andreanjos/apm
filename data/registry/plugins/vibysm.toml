@@ -2,11 +2,12 @@ slug = "vibysm"
 name = "VibysM"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "3.5-octave Musser concert vibraphone sampled with soft mallets for smooth, resonant vibraphone tones."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/vibysm"
 is_paid = true
 
 [formats.vst3]

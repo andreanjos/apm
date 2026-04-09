@@ -2,11 +2,12 @@ slug = "acousticsamples-bass-collection"
 name = "AcousticSamples Bass Collection"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Bundle of six Acousticsamples bass guitar instruments covering electric, fretless, and upright styles."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/as-bass-collection"
 is_paid = true
 
 [formats.vst3]

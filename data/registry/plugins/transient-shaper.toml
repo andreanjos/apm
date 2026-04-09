@@ -2,11 +2,12 @@ slug = "transient-shaper"
 name = "Transient Shaper"
 vendor = "Slate Digital"
 version = "1.0.0"
-description = ""
+description = "Zero-latency transient shaping plugin with a Focus feature for frequency-targeted sound sculpting."
 category = "effects"
 subcategory = "transient shaper"
 license = "commercial"
 tags = []
+homepage = "https://slatedigital.com/transient-shaper-plugin/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/15810-Transient-Shaper"
 

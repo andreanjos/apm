@@ -2,11 +2,12 @@ slug = "balani"
 name = "Balani"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "A 2.5-octave balafon with small calabash resonators, sampled from a traditional Guinean instrument."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/balani"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "tomofon"
 name = "Tomofon"
 vendor = "Klevgrand"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "An expressive audio synth using an Audio Model format with thousands of waves extracted from real audio."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://klevgrand.com/products/tomofon"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10064-Tomofon"
 

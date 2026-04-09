@@ -2,11 +2,12 @@ slug = "smt-100a"
 name = "SMT 100A"
 vendor = "Antelope Audio"
 version = "1.0.0"
-description = ""
+description = "Tube compressor plugin emulating the Summit Audio TLA-100A for smooth optical-style limiting."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://en.antelopeaudio.com/products/smt-100a/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16066-SMT-100A"
 

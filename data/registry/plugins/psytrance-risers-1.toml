@@ -2,11 +2,12 @@ slug = "psytrance-risers-1"
 name = "Psytrance Risers 1"
 vendor = "Eplex7 DSP"
 version = "1.0.0"
-description = ""
+description = "Psytrance risers and uplifters plugin with twisted psychedelic effects for track energy builds."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.eplex7.com/psytrance-risers-1-plug-in-instrument/"
 is_paid = true
 
 [formats.vst3]

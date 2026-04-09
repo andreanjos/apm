@@ -2,11 +2,12 @@ slug = "bat-eq"
 name = "bat EQ"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Precision EQ plugin designed for clean, fast frequency shaping in mixing and mastering workflows."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

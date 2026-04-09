@@ -2,11 +2,12 @@ slug = "guitar-pickup-selector"
 name = "Guitar Pickup Selector"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "Free utility plugin simulating guitar pickup switching for tone sculpting without re-recording."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/guitar-pickup-selector/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/2761-Guitar-Pickup-Selector"
 

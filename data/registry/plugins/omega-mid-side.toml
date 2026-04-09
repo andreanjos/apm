@@ -2,10 +2,11 @@ slug = "omega-mid-side"
 name = "omega mid side"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Mid-side stereo enhancer plugin for expanding or tightening the stereo image with M/S processing."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "focus-bundle"
 name = "Focus Bundle"
 vendor = "NUGEN Audio"
 version = "1.0.0"
-description = ""
+description = "A stereo production bundle combining Stereoizer, Monofilter, and Stereoplacer from NUGEN Audio."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/focus/"
 is_paid = true
 
 [formats.vst3]

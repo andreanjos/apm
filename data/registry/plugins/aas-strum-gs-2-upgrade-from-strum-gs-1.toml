@@ -1,12 +1,13 @@
 slug = "aas-strum-gs-2-upgrade-from-strum-gs-1"
 name = "AAS Strum GS-2 Upgrade from Strum GS-1"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Upgrade path to Strum GS-2 acoustic and electric guitar synthesizer from Strum GS-1."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/strum-gs-2/"
 is_paid = true
 
 [formats.vst3]

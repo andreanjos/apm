@@ -2,11 +2,12 @@ slug = "loki-felt-piano"
 name = "lo•ki – Felt Piano"
 vendor = "Sonuscore"
 version = "1.0.0"
-description = ""
+description = "Soulful felt piano Kontakt instrument with Glow slider for transforming notes into ethereal soundscapes."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://sonuscore.com/shop/"
 is_paid = true
 
 [formats.vst3]

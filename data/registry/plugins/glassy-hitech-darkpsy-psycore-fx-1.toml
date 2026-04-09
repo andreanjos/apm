@@ -2,11 +2,12 @@ slug = "glassy-hitech-darkpsy-psycore-fx-1"
 name = "Glassy hitech darkpsy psycore FX 1"
 vendor = "Eplex7 DSP"
 version = "1.0.0"
-description = ""
+description = "Multi-octave plugin with glassy atmospheric FX sounds for hitech, darkpsy, and psycore music."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.eplex7.com/glassy-hitech-darkpsy-psycore-fx-1-plug-in-instrument/"
 is_paid = true
 
 [formats.vst3]

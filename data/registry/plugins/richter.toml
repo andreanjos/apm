@@ -1,12 +1,13 @@
 slug = "richter"
 name = "Richter"
 vendor = "Klevgrand"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A tectonic compressor designed for heavy compression with minimal artifacts and simple controls."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://klevgrand.com/products/richter"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10643-Richter"
 

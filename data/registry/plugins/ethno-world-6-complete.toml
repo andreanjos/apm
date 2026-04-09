@@ -1,12 +1,13 @@
 slug = "ethno-world-6-complete"
 name = "Ethno World 6 Complete"
 vendor = "Best Service"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Complete edition of Ethno World 6 with 320 world instruments and voices from over a dozen global traditions."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/ethno_world_6_complete.html"
 is_paid = true
 
 [formats.vst3]

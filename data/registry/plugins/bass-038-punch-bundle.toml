@@ -2,13 +2,13 @@ slug = "bass-038-punch-bundle"
 name = "Bass &#038; Punch Bundle"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "United Plugins bundle combining bass and punch-focused audio processing plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://unitedplugins.com"
 
 [formats.vst3]
 url = ""

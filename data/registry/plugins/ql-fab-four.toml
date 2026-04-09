@@ -2,11 +2,12 @@ slug = "ql-fab-four"
 name = "QL Fab Four"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest virtual instrument recreating the iconic guitar and bass tones of 1960s British rock."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/guitars-and-bass/fab-four"
 is_paid = true
 
 [formats.vst3]

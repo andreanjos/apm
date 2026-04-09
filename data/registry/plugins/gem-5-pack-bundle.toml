@@ -2,11 +2,12 @@ slug = "gem-5-pack-bundle"
 name = "GEM 5 Pack Bundle"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Flexible bundle license to choose any five GEM studio plug-in emulations from Overloud's catalog."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/products/bundle-5-gems"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "telematic"
 name = "Telematic"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Thoroughly sampled Fender Telecaster with multiple articulations and a realistic strumming engine."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/telematic"
 is_paid = true
 
 [formats.vst3]

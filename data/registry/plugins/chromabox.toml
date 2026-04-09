@@ -2,11 +2,12 @@ slug = "chromabox"
 name = "ChromaBox"
 vendor = "W A Production"
 version = "1.0.0"
-description = ""
+description = "Spectrum exciter with 32 color profiles for saturation, frequency shaping, and stereo enhancement."
 category = "effects"
 subcategory = "exciter"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/chromabox"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/62-Exciter/12118-ChromaBox"
 

@@ -2,11 +2,12 @@ slug = "vocal-gate"
 name = "vocal gate"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Noise gate plugin optimized for vocal tracks to cleanly remove unwanted background noise."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,13 +1,13 @@
 slug = "imprint-8211-take-shape"
 name = "Imprint &#8211; Take Shape"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "2.2.0"
+description = "A multiband transient designer with three frequency bands, real-time waveform display, and 20+ presets."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.waproduction.com/plugins/view/imprint"
 
 [formats.vst3]
 url = ""

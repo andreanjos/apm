@@ -1,12 +1,13 @@
 slug = "sequi2r-synth"
 name = "SEQui2R Synth"
 vendor = "Audiofier"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Dual-engine analog live-input step sequencer for Kontakt with organic and synth sound sources."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audiofier.co.uk/sequi2r-synth/"
 is_paid = true
 
 [formats.vst3]

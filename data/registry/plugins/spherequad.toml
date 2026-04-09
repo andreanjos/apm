@@ -1,11 +1,12 @@
 slug = "spherequad"
 name = "SphereQuad"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "1.5.0"
+description = "A semi-modular multi-effect with flanger, phaser, chorus, stereo filter, and a 16-step sequencer."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/spherequad"
 is_paid = true
 
 [formats.vst3]

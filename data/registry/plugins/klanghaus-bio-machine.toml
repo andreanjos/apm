@@ -2,11 +2,12 @@ slug = "klanghaus-bio-machine"
 name = "Klanghaus Bio Machine"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Rhythmic instrument library featuring bizarre percussion, thunderous cymbals, and never-heard-before strings."
 category = "instruments"
 subcategory = "pads"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/klanghaus_bio_machine.html"
 is_paid = true
 
 [formats.vst3]

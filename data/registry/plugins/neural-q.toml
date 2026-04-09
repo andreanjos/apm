@@ -1,14 +1,14 @@
 slug = "neural-q"
 name = "Neural Q"
 vendor = "Tone Empire"
-version = "1.0.0"
-description = ""
+version = "1"
+description = "Neural network equalizer plugin delivering analog-modeled tonal shaping with transparent processing."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.tone-empire.com"
 
 [formats.vst3]
 url = ""

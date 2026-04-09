@@ -2,11 +2,12 @@ slug = "morphverb"
 name = "MorphVerb"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "Reverb plugin offering smooth crossfading between eight reverb types with built-in spectral EQ and compression."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com/MorphVerb/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/6366-MorphVerb"
 

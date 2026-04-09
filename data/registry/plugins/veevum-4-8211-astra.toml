@@ -1,14 +1,14 @@
 slug = "veevum-4-8211-astra"
 name = "Veevum 4 &#8211; Astra"
 vendor = "Audiofier"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Ambient Kontakt instrument with 100 evolving and mutating sound sources for unpredictable textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiofier.co.uk/veevum-astra/"
 
 [formats.vst3]
 url = ""

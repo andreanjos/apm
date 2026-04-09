@@ -1,12 +1,13 @@
 slug = "platter"
 name = "Platter"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A vinyl-based three-oscillator Kontakt synth with 1910/1960s waveforms and valve saturation."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/platter"
 is_paid = true
 
 [formats.vst3]

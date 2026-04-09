@@ -2,10 +2,11 @@ slug = "efektor-rv3604-reverb"
 name = "EFEKTOR RV3604 Reverb"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Guitar reverb plugin with Room, Hall, Plate, Spring, and Shimmer reverb types."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/efektor-rv3604/"
 is_paid = true
 
 [formats.vst3]

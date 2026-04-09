@@ -1,12 +1,13 @@
 slug = "black-widow-mkii"
 name = "Black Widow MKII"
 vendor = "Synth Magic"
-version = "1.0.0"
-description = ""
+version = "MKII"
+description = "Original Synth Magic-designed Kontakt synth with new features and samples for dark, atmospheric sound design."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://synthmagic.co.uk/black-widow/"
 is_paid = true
 
 [formats.vst3]

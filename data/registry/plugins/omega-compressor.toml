@@ -2,11 +2,12 @@ slug = "omega-compressor"
 name = "omega compressor"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Analogue-inspired compressor plugin for transparent and musical dynamic control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

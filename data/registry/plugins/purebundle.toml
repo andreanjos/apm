@@ -2,11 +2,12 @@ slug = "purebundle"
 name = "pure:bundle"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "AI-powered bundle including pure:EQ, pure:comp, pure:limit, pure:verb, and more creator tools."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/purebundle/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "learnlimit"
 name = "Learn:limit"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "AI-guided limiter that teaches users optimal limiting decisions through interactive feedback."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/learnbundle/"
 is_paid = true
 
 [formats.vst3]

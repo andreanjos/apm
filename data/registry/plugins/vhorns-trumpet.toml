@@ -2,11 +2,12 @@ slug = "vhorns-trumpet"
 name = "VHorns Trumpet"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Dedicated trumpet virtual instrument from the VHorns VSeries with expressive sampling and modeling."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/vhornstrumpet"
 is_paid = true
 
 [formats.vst3]

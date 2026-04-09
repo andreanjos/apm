@@ -2,10 +2,11 @@ slug = "pureverb"
 name = "pure:verb"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Intelligent reverb that matches spectral and temporal characteristics of the input signal automatically."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/pureverb/"
 is_paid = true
 
 [formats.vst3]

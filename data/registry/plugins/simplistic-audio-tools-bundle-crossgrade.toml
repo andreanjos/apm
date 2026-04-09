@@ -2,11 +2,12 @@ slug = "simplistic-audio-tools-bundle-crossgrade"
 name = "Simplistic Audio Tools Bundle Crossgrade"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "Crossgrade option to the Simplistic Audio Tools Bundle of streamlined W.A. Production FX plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles"
 is_paid = true
 
 [formats.vst3]

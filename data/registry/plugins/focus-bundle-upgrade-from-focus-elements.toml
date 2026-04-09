@@ -2,11 +2,12 @@ slug = "focus-bundle-upgrade-from-focus-elements"
 name = "Focus Bundle Upgrade from Focus Elements"
 vendor = "NUGEN Audio"
 version = "1.0.0"
-description = ""
+description = "Upgrade from Focus Elements to the full NUGEN Audio Focus Bundle with Stereoizer, Monofilter, and Stereoplacer."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/focus/"
 is_paid = true
 
 [formats.vst3]

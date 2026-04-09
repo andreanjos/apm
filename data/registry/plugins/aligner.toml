@@ -1,12 +1,13 @@
 slug = "aligner"
 name = "Aligner"
 vendor = "NUGEN Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "An automatic phase and polarity alignment utility to speed up daily audio engineering workflows."
 category = "tools"
 subcategory = "sound editor"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/aligner/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/22-Sound-Editor/10619-Aligner"
 

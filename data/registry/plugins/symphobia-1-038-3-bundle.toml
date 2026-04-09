@@ -2,13 +2,13 @@ slug = "symphobia-1-038-3-bundle"
 name = "Symphobia 1 &#038; 3 Bundle"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Symphobia 1 and Symphobia 3: Lumina cinematic orchestral Kontakt libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://projectsam.com/libraries/"
 
 [formats.vst3]
 url = ""

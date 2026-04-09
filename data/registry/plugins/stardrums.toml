@@ -2,11 +2,12 @@ slug = "stardrums"
 name = "StarDrums"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Tama Starclassic drum kit with nine world-renowned instruments sampled from three microphone positions."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/stardrums"
 is_paid = true
 
 [formats.vst3]

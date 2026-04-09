@@ -1,11 +1,12 @@
 slug = "revoice-pro-4-licence-for-vocalign-ultra-owners"
 name = "Revoice Pro 4 Licence for VocALign Ultra Owners"
 vendor = "Synchro Arts"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "License for Revoice Pro 4 advanced vocal production for existing VocAlign Ultra owners."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://synchroarts.com/products/revoice-pro"
 is_paid = true
 
 [formats.vst3]

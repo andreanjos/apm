@@ -1,12 +1,13 @@
 slug = "102200"
 name = "102200"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt instrument sampled from the Hammond 102200, the brand's first and only analogue synthesizer."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/keyboard-vault"
 is_paid = true
 
 [formats.vst3]

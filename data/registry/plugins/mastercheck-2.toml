@@ -1,12 +1,13 @@
 slug = "mastercheck-2"
 name = "MasterCheck 2"
 vendor = "NUGEN Audio"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "A codec and loudness preview plugin with surround support up to 7.1.4 and expanded streaming templates."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/mastercheck/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/16645-MasterCheck-2"
 

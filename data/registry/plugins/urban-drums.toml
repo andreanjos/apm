@@ -2,11 +2,12 @@ slug = "urban-drums"
 name = "Urban Drums"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Hybrid drum kit blending acoustic elements with synthesized drum samples for modern urban production."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/urbandrums"
 is_paid = true
 
 [formats.vst3]

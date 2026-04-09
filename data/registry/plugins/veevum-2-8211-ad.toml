@@ -1,14 +1,14 @@
 slug = "veevum-2-8211-ad"
 name = "Veevum 2 &#8211; AD"
 vendor = "Audiofier"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Ambient Kontakt instrument with 100 analog and digital synth sound sources in the Veevum engine."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiofier.co.uk/veevum-a-d/"
 
 [formats.vst3]
 url = ""

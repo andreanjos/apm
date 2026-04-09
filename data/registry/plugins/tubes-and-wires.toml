@@ -1,12 +1,13 @@
 slug = "tubes-and-wires"
 name = "Tubes and Wires"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A huge Kontakt polysynth built from sampled vintage valve signal generators with warm, crusty character."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/tubes-and-wires"
 is_paid = true
 
 [formats.vst3]

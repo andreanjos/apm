@@ -1,11 +1,12 @@
 slug = "slow-machine"
 name = "Slow Machine"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "BLEASS audio effect that slows down and mutates beats or melodies with tape-stop precision."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/slow-machine/"
 is_paid = true
 
 [formats.vst3]

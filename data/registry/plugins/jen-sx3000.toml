@@ -2,11 +2,12 @@ slug = "jen-sx3000"
 name = "JEN SX3000"
 vendor = "Synth Magic"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of the rare Jen SX3000 analog synthesizer capturing its warm Italian vintage character."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://synthmagic.co.uk/jen-sx3000/"
 is_paid = true
 
 [formats.vst3]

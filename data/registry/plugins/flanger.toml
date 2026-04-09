@@ -1,14 +1,14 @@
 slug = "flanger"
 name = "Flanger"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "BLEASS rich flanging effect with dual LFOs, three modulation stages, and beat synchronization."
 category = "effects"
 subcategory = "flanger"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.bleass.com/flanger/"
 
 [formats.vst3]
 url = ""

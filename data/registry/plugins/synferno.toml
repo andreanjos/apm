@@ -2,11 +2,12 @@ slug = "synferno"
 name = "Synferno"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Cinematic Kontakt sound module with 300 kits across Bass, Synth, Ambient, and Groove categories."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/synferno/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "colours-pack"
 name = "Colours Pack"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Bundle of all ProjectSAM Colours series libraries including Animator, Orchestrator, and Adaptive Runs."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/"
 is_paid = true
 
 [formats.vst3]

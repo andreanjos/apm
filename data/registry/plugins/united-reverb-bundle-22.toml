@@ -2,10 +2,11 @@ slug = "united-reverb-bundle-22"
 name = "United Reverb Bundle 22"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "United Plugins 2022 bundle collection of reverb effect plugins."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com"
 is_paid = true
 
 [formats.vst3]

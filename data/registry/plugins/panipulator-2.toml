@@ -1,12 +1,13 @@
 slug = "panipulator-2"
 name = "Panipulator 2"
 vendor = "Boz Digital Labs"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Free mix-check utility for testing mono compatibility, phase issues, speaker polarity, and stereo isolation."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/panipulator/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/2157-Panipulator-2"
 

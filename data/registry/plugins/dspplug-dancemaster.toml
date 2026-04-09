@@ -2,11 +2,12 @@ slug = "dspplug-dancemaster"
 name = "DSPPlug dancemaster"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Compressor designed to make dry mixes sound nice and organic with natural-sounding dynamics."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

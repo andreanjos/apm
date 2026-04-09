@@ -2,11 +2,12 @@ slug = "symphobia-colours-pack"
 name = "Symphobia Colours Pack"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "ProjectSAM bundle combining Symphobia series and Colours series orchestral libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/"
 is_paid = true
 
 [formats.vst3]

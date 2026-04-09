@@ -2,11 +2,12 @@ slug = "felicity"
 name = "Felicity"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Wavetable-based Kontakt instrument delivering 900 soundscapes, atmospheres, and textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/felicity/"
 is_paid = true
 
 [formats.vst3]

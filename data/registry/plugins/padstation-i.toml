@@ -2,11 +2,12 @@ slug = "padstation-i"
 name = "Padstation I"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Dual-layer Kontakt pad ROMpler with 200 cinematic hybrid synthesizer pad sounds."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/padstation-i/"
 is_paid = true
 
 [formats.vst3]

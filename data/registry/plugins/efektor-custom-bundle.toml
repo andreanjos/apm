@@ -2,11 +2,12 @@ slug = "efektor-custom-bundle"
 name = "Efektor Custom Bundle"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Customizable bundle of Kuassa Efektor guitar effects plugins at a discounted price."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/efektor/"
 is_paid = true
 
 [formats.vst3]

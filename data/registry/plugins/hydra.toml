@@ -2,11 +2,12 @@ slug = "hydra"
 name = "hydra"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Doubler/harmonizer plugin for creating rich, layered harmonic textures from any audio source."
 category = "effects"
 subcategory = "harmonizer"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

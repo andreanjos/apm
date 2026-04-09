@@ -2,11 +2,12 @@ slug = "minimode"
 name = "Minimode"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Virtual analog emulation of the classic Minimoog Model D synthesizer from 1971."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/miniverse"
 is_paid = true
 
 [formats.vst3]

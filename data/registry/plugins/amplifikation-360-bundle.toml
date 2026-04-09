@@ -2,11 +2,12 @@ slug = "amplifikation-360-bundle"
 name = "Amplifikation 360 Bundle"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Modular guitar amp platform combining Kuassa amp simulators, pedals, and cabinets in one system."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/amplifikation-360/"
 is_paid = true
 
 [formats.vst3]

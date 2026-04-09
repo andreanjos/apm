@@ -2,10 +2,11 @@ slug = "vstplug-volume"
 name = "VSTplug volume+"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Volume utility plugin providing precise gain control and metering for any audio signal."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

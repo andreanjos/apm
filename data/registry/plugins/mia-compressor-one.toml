@@ -2,11 +2,12 @@ slug = "mia-compressor-one"
 name = "Mia Compressor ONE"
 vendor = "MIA Laboratories"
 version = "1.0.0"
-description = ""
+description = "MIA Laboratories Compressor ONE, a transparent and easy-to-use compressor plugin."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://mialaboratories.com/"
 is_paid = true
 
 [formats.vst3]

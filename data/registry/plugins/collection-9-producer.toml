@@ -1,12 +1,13 @@
 slug = "collection-9-producer"
 name = "Collection 9 Producer"
 vendor = "Karanyi Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Producer-tier Karanyi Sounds bundle with nine Kontakt synth and cinematic instrument libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://karanyisounds.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "vintage-choirs"
 name = "Vintage Choirs"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt choral instrument blending acoustic and synthetic voices with a Vintage knob for aging character."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/vintage-choirs"
 is_paid = true
 
 [formats.vst3]

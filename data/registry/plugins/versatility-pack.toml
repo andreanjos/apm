@@ -2,11 +2,12 @@ slug = "versatility-pack"
 name = "Versatility Pack"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "ProjectSAM bundle of versatile orchestral libraries covering a broad range of scoring needs."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/"
 is_paid = true
 
 [formats.vst3]

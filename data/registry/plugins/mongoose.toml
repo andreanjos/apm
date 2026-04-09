@@ -2,11 +2,12 @@ slug = "mongoose"
 name = "Mongoose"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "Mid-side plugin that solidifies the low end by collapsing bass frequencies to mono for a firmer mix."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/mongoose/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/2145-Mongoose"
 

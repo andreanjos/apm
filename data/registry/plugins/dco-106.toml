@@ -2,11 +2,12 @@ slug = "dco-106"
 name = "DCO-106"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Polyphonic synthesizer faithfully recreating the iconic Roland Juno-106 80s polysynth with modern features."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/dco-106"
 is_paid = true
 
 [formats.vst3]

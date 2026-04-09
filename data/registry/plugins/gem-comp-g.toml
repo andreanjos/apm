@@ -2,11 +2,12 @@ slug = "gem-comp-g"
 name = "GEM Comp G"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Emulation of the legendary British VCA master bus compressor, beyond the original hardware."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/gems"
 is_paid = true
 
 [formats.vst3]

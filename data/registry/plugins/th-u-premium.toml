@@ -1,12 +1,13 @@
 slug = "th-u-premium"
 name = "TH-U Premium"
 vendor = "Overloud"
-version = "1.0.0"
-description = ""
+version = "2.0.9"
+description = "Comprehensive guitar/bass modeler with 249 premium models, capturing technology and 32,000+ rigs."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/products/th-u"
 is_paid = true
 
 [formats.vst3]

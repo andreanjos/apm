@@ -2,11 +2,12 @@ slug = "memorymode"
 name = "Memorymode"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Software emulation of the classic Memorymoog (1982) with three-oscillator voice architecture and 600+ presets."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/memorymode"
 is_paid = true
 
 [formats.vst3]

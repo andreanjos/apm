@@ -2,11 +2,12 @@ slug = "master-pack-4"
 name = "Master Pack 4"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Large ProjectSAM bundle combining multiple orchestral libraries for comprehensive scoring."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/"
 is_paid = true
 
 [formats.vst3]

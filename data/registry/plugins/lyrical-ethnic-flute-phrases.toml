@@ -2,11 +2,12 @@ slug = "lyrical-ethnic-flute-phrases"
 name = "Lyrical Ethnic Flute Phrases"
 vendor = "Sonuscore"
 version = "1.0.0"
-description = ""
+description = "Lyrical ethnic flute phrase library combining emotive performances with Sonuscore's phrase engine."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://sonuscore.com/shop/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "arabic-e-oud"
 name = "Arabic E-Oud"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Virtual electric oud instrument with 25 articulations and authentic oriental microtunings for the Engine Player."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/arabic_e-oud.html"
 is_paid = true
 
 [formats.vst3]

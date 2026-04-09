@@ -1,12 +1,13 @@
 slug = "imperfect"
 name = "ImPerfect"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "1.6.0"
+description = "An analog-inspired synth with detuned oscillators, Wacky/Cracky/Shaky modulation sliders, and arpeggiator."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/imperfect"
 is_paid = true
 
 [formats.vst3]

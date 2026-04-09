@@ -2,13 +2,13 @@ slug = "prodrummer-volumes-1-038-2-bundle"
 name = "ProDrummer Volumes 1 &#038; 2 Bundle"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "Bundle of EastWest ProDrummer Vol 1 and Vol 2 professional acoustic drum instruments."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
 
 [formats.vst3]
 url = ""

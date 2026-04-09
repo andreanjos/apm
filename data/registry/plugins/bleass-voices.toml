@@ -1,12 +1,13 @@
 slug = "bleass-voices"
 name = "BLEASS Voices"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Flexible vocal processor for pitching, transforming, doubling, and harmonizing monophonic sources."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/product/bleass-voices/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/10791-BLEASS-Voices"
 

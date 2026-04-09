@@ -2,11 +2,12 @@ slug = "vocal-cleaner"
 name = "Vocal Cleaner"
 vendor = "W A Production"
 version = "1.0.0"
-description = ""
+description = "Vocal processing plugin that cleans up recordings by removing noise, pops, and unwanted artifacts."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/vocal-cleaner"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/6705-Vocal-Cleaner"
 

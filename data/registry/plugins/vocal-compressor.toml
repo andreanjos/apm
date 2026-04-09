@@ -1,12 +1,13 @@
 slug = "vocal-compressor"
 name = "Vocal Compressor"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "1.2.0"
+description = "A three-stage vocal compressor delivering transparent dynamics, balance, and subtle saturation."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/vocal-compressor"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "silverhawk"
 name = "Silverhawk"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Smooth-sounding analogue-modelled EQ designed for fast, reliable frequency shaping in any context."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

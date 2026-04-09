@@ -2,10 +2,11 @@ slug = "vstplug-mono-to-stereo"
 name = "VSTplug mono to stereo"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Utility plugin that converts mono audio signals into a stereo output for wider mixes."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

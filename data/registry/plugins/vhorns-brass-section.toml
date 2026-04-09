@@ -2,11 +2,12 @@ slug = "vhorns-brass-section"
 name = "VHorns Brass Section"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Sampling and modeling hybrid brass library with two trumpets, two flugelhorns, and two trombones."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/vhorns"
 is_paid = true
 
 [formats.vst3]

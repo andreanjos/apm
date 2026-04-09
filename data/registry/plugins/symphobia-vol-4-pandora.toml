@@ -2,11 +2,12 @@ slug = "symphobia-vol-4-pandora"
 name = "Symphobia Vol 4: Pandora"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Cinematic Kontakt library for action and horror scores with Adaptive Sync risers and impacts."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/symphobia-4-pandora/"
 is_paid = true
 
 [formats.vst3]

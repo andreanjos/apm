@@ -2,11 +2,12 @@ slug = "firepreamp"
 name = "FirePreAmp"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "Complete signal chain preamp plugin with automatic gain staging, intelligent gating, and transient shaping."
 category = "effects"
 subcategory = "preamp"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com/FirePreamp/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/16896-FirePreAmp"
 

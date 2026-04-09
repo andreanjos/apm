@@ -2,11 +2,12 @@ slug = "gem-dopamine"
 name = "GEM Dopamine"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Tape encoding-based harmonic enhancer that dynamically balances existing harmonics in any audio."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/gems"
 is_paid = true
 
 [formats.vst3]

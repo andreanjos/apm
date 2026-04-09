@@ -1,11 +1,12 @@
 slug = "mutant-reverb"
 name = "Mutant Reverb"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "2.1.0"
+description = "A mono-to-stereo algorithmic reverb with built-in ducker for clear vocals and percussion."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/mutant-reverb"
 is_paid = true
 
 [formats.vst3]

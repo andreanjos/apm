@@ -2,11 +2,12 @@ slug = "vhorns-saxophones"
 name = "VHorns Saxophones"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Sampling and modeling hybrid of eight saxophones: two each of soprano, alto, tenor, and baritone."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/vhornssaxophones"
 is_paid = true
 
 [formats.vst3]

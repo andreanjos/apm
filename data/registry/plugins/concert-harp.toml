@@ -2,11 +2,12 @@ slug = "concert-harp"
 name = "Concert Harp"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Detailed concert harp Kontakt library with flageolets, glissandos, and four dynamic levels per note."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/orchestral-brass-classic/"
 is_paid = true
 
 [formats.vst3]

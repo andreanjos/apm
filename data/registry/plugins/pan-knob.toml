@@ -2,11 +2,12 @@ slug = "pan-knob"
 name = "Pan Knob"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "Stereo panning plugin using a frequency-dependent algorithm that keeps lows centered while panning highs."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/pan-knob/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/4802-Pan-Knob"
 

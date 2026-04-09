@@ -2,11 +2,12 @@ slug = "simplistic-audio-tools-bundle"
 name = "Simplistic Audio Tools Bundle"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A bundle of W.A. Production's streamlined one-knob and simple-interface audio processing plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles"
 is_paid = true
 
 [formats.vst3]

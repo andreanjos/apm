@@ -1,12 +1,13 @@
 slug = "sh-studio"
 name = "SH Studio"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A polyphonic Kontakt analogue synth station built from the Roland SH-7 with four envelopes and three LFOs."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/sh-studio"
 is_paid = true
 
 [formats.vst3]

@@ -2,10 +2,11 @@ slug = "gem-modula"
 name = "GEM Modula"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Three modulation processors in one plugin: Dimension, Ensemble and Symphonic chorus effects."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/gems"
 is_paid = true
 
 [formats.vst3]

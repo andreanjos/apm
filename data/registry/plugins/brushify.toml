@@ -2,11 +2,12 @@ slug = "brushify"
 name = "Brushify"
 vendor = "Sampleson"
 version = "1.0.0"
-description = ""
+description = "Brushed drum instrument for recreating realistic brush percussion techniques on any MIDI controller."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://sampleson.com/"
 is_paid = true
 
 [formats.vst3]

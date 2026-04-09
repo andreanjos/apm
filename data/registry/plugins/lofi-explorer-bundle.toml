@@ -2,11 +2,12 @@ slug = "lofi-explorer-bundle"
 name = "Lofi Explorer Bundle"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Rigid Audio bundle of lo-fi inspired Kontakt instruments for chill and retro production."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/shop/"
 is_paid = true
 
 [formats.vst3]

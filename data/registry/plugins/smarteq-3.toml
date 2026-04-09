@@ -1,12 +1,13 @@
 slug = "smarteq-3"
 name = "smart:EQ 3"
 vendor = "sonible"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "AI-driven EQ that analyzes audio and compensates spectral imbalances with content-aware processing."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/smarteq4/"
 is_paid = true
 
 [formats.vst3]

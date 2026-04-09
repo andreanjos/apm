@@ -1,12 +1,13 @@
 slug = "drumulator-plus"
 name = "Drumulator Plus"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt recreation of the EMU Drumulator including original, Fairlight, Electro, and Custom EPROM banks."
 category = "instruments"
 subcategory = "electronic drums"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/drumulator-plus"
 is_paid = true
 
 [formats.vst3]

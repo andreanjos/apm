@@ -2,11 +2,12 @@ slug = "bass-bundle"
 name = "Bass Bundle"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "Bundle of Boz Digital Labs bass-focused plugins for low-end shaping, enhancement, and control."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/bass-bundle/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "omega-presence"
 name = "omega presence"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Presence enhancer plugin for adding clarity, air and definition to any audio signal."
 category = "effects"
 subcategory = "exciter"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

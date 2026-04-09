@@ -2,11 +2,12 @@ slug = "power-pack"
 name = "Power Pack"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Value bundle of Air Music Tech plugins covering instruments and effects for production."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com"
 is_paid = true
 
 [formats.vst3]

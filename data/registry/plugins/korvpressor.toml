@@ -1,12 +1,13 @@
 slug = "korvpressor"
 name = "Korvpressor"
 vendor = "Klevgrand"
-version = "1.0.0"
-description = ""
+version = "2.0.3"
+description = "An adaptive compressor/limiter with a super-simple UI and a physical visual take on dynamic control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://klevgrand.com/products/korvpressor"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/8710-Korvpressor"
 

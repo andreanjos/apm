@@ -2,11 +2,12 @@ slug = "stormdrum-2-pro-bundle"
 name = "StormDrum 2 Pro Bundle"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest StormDrum 2 Pro Bundle featuring world percussion and cinematic drum content."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/drums-and-percussion/sd2"
 is_paid = true
 
 [formats.vst3]

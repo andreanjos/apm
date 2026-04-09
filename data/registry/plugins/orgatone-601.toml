@@ -1,12 +1,13 @@
 slug = "orgatone-601"
 name = "Orgatone 601"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt recreation of the Casiotone 601 home organ with built-in rhythms and preset pulse waveforms."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/orgatone-601"
 is_paid = true
 
 [formats.vst3]

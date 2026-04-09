@@ -2,13 +2,13 @@ slug = "kantele-bundle"
 name = "Kantele Bundle"
 vendor = "Have Audio"
 version = "1.0.0"
-description = ""
+description = "Deep-sampled Finnish kantele bundle with playable articulations and cinematic textures."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://haveaudio.com/products/kantele-bundle"
 
 [formats.vst3]
 url = ""

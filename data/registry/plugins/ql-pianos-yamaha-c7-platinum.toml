@@ -2,11 +2,12 @@ slug = "ql-pianos-yamaha-c7-platinum"
 name = "QL Pianos Yamaha C7 Platinum"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest deeply sampled Yamaha C7 grand piano, Platinum edition."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/pianos-and-keys/pianos"
 is_paid = true
 
 [formats.vst3]

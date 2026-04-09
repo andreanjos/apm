@@ -1,12 +1,13 @@
 slug = "transfuser-1"
 name = "Transfuser 1"
 vendor = "Air Music Tech"
-version = "1.0.0"
-description = ""
+version = "1"
+description = "Loop-based instrument and remixing plugin for real-time audio manipulation and performance."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/transfuser"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,13 @@ slug = "10db-compressor"
 name = "+10db Compressor"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "VCA-style compressor designed to add punch and density while retaining natural-sounding dynamics."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.bozdigitallabs.com/product/10db-compressor/"
 
 [formats.vst3]
 url = ""

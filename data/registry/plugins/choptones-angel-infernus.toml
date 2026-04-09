@@ -2,11 +2,12 @@ slug = "choptones-angel-infernus"
 name = "Choptones Angel Infernus"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "TH-U rig library capturing an Engl E766 Inferno Marty Friedman signature head with multiple cabs."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/products/choptones-angel-infernus"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "loc-ness-2"
 name = "Loc-Ness 2"
 vendor = "Tone Empire"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Analog-modeled bus compressor plugin inspired by classic British console compressor designs."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.tone-empire.com"
 is_paid = true
 
 [formats.vst3]

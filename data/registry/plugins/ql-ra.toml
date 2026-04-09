@@ -2,11 +2,12 @@ slug = "ql-ra"
 name = "QL RA"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest world instrument library featuring 30+ ethnic instruments from the Middle East and Asia."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/world-and-traditional/ra"
 is_paid = true
 
 [formats.vst3]

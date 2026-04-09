@@ -1,12 +1,13 @@
 slug = "polyscape"
 name = "Polyscape"
 vendor = "Karanyi Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Synth pad Kontakt instrument inspired by 90s liquid electronic and 80s film score aesthetics."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://karanyisounds.com/product/polyscape/"
 is_paid = true
 
 [formats.vst3]

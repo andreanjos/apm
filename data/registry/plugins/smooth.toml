@@ -2,11 +2,12 @@ slug = "smooth"
 name = "smooth"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Transparent limiter plugin designed for smooth peak control without coloration or distortion."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

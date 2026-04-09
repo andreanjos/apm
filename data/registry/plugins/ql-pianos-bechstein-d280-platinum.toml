@@ -2,11 +2,12 @@ slug = "ql-pianos-bechstein-d280-platinum"
 name = "QL Pianos Bechstein D280 Platinum"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest deeply sampled Bechstein D-280 concert grand piano, Platinum edition."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/pianos-and-keys/pianos"
 is_paid = true
 
 [formats.vst3]

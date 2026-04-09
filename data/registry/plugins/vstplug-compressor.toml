@@ -2,11 +2,12 @@ slug = "vstplug-compressor"
 name = "VSTplug compressor"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Straightforward compressor plugin for dynamic control across any audio source or mix bus."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

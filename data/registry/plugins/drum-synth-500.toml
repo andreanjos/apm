@@ -2,11 +2,12 @@ slug = "drum-synth-500"
 name = "Drum Synth 500"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Synthesized drum instrument plugin with analog-style drum synthesis engines."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/drum-synth-500"
 is_paid = true
 
 [formats.vst3]

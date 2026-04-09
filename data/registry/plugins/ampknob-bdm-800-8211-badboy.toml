@@ -2,13 +2,13 @@ slug = "ampknob-bdm-800-8211-badboy"
 name = "Ampknob BDM 800 &#8211; Badboy"
 vendor = "Bogren Digital"
 version = "1.0.0"
-description = ""
+description = "Single-knob amp sim of the Marshall JCM 800 'Badboy' with military-grade tubes and Finnish custom transformer."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://bogrendigital.com/products/ampknob-bdm-800-badboy"
 
 [formats.vst3]
 url = ""

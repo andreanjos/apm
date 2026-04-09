@@ -2,11 +2,12 @@ slug = "elka-x-cherry-audio"
 name = "Elka-X"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Virtual synthesizer based on the legendary ELKA Synthex Italian analog synth of the early 1980s."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/elka-x"
 is_paid = true
 
 [formats.vst3]

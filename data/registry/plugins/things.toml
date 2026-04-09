@@ -2,11 +2,12 @@ slug = "things"
 name = "Things"
 vendor = "Sampleson"
 version = "1.0.0"
-description = ""
+description = "Intuitive multi-synthesis virtual instrument blending granular, wavetable, and sample-based sound design."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://sampleson.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/6969-Things"
 

@@ -1,12 +1,13 @@
 slug = "memory-rhythm-sr88"
 name = "Memory Rhythm SR88"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt recreation of the Sound Master SR88 all-analogue drum machine with full tone-range sampling."
 category = "instruments"
 subcategory = "electronic drums"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/sr88"
 is_paid = true
 
 [formats.vst3]

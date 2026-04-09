@@ -2,11 +2,12 @@ slug = "mercury-8"
 name = "Mercury 8"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Comprehensive emulation of the Roland JP-8 (1981) with circuit modeling and SysEx hardware compatibility."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/mercury-8"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16443-Mercury-8"
 

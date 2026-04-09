@@ -2,11 +2,12 @@ slug = "best-seller-bundle"
 name = "Best Seller Bundle"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A collection of W.A. Production's top-selling instrument plugins in one package."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles"
 is_paid = true
 
 [formats.vst3]

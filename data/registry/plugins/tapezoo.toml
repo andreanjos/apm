@@ -2,11 +2,12 @@ slug = "tapezoo"
 name = "TapeZoo"
 vendor = "Tone Empire"
 version = "1.0.0"
-description = ""
+description = "Passive tape emulator plugin delivering analog warmth, harmonic saturation, and tape compression."
 category = "effects"
 subcategory = "tape emulation"
 license = "commercial"
 tags = []
+homepage = "https://www.tone-empire.com/tapezoo/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/14763-TapeZoo"
 

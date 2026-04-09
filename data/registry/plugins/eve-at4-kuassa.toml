@@ -2,11 +2,12 @@ slug = "eve-at4-kuassa"
 name = "EVE-AT4"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "3-band EQ inspired by the Neve 1084, delivering strong character and classic 1970s tones."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/eve-at-bundle/"
 is_paid = true
 
 [formats.vst3]

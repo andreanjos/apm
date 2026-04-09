@@ -2,11 +2,12 @@ slug = "clavi-d9"
 name = "Clavi D9"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Sample-based virtual clavinet instrument capturing the iconic percussive, funky tone of the classic electric keyboard."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/clavi-d9"
 is_paid = true
 
 [formats.vst3]

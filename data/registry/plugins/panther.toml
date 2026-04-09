@@ -2,10 +2,11 @@ slug = "panther"
 name = "Panther"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "Stereo manipulation plugin with independent per-channel EQ, gain, pan, delay, and M/S processing."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/panther/"
 is_paid = true
 
 [formats.vst3]

@@ -2,10 +2,11 @@ slug = "vstplug-stereo-width"
 name = "VSTplug stereo width"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Stereo width utility plugin for simple and effective control over the stereo spread of a signal."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

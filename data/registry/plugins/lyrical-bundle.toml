@@ -2,11 +2,12 @@ slug = "lyrical-bundle"
 name = "Lyrical Bundle"
 vendor = "Sonuscore"
 version = "1.0.0"
-description = ""
+description = "Bundle of Lyrical Violin, Vocal, and Cello Phrases Kontakt instruments for emotional cinematic composition."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://sonuscore.com/shop/lyrical-bundle/"
 is_paid = true
 
 [formats.vst3]

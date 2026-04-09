@@ -1,12 +1,13 @@
 slug = "xpand-2"
 name = "Xpand! 2"
 vendor = "Air Music Tech"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Multitimbral workstation plugin with four instrument slots, arpeggiation, and 2500+ presets."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/xpand2"
 is_paid = true
 
 [formats.vst3]

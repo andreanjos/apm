@@ -2,11 +2,12 @@ slug = "vikings-bundle"
 name = "Vikings Bundle"
 vendor = "Keepforest"
 version = "1.0.0"
-description = ""
+description = "Keepforest bundle of Vikings Cinematic Hybrid and Vikings Expansion Metal Cinematic libraries."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://keep-forest.com/store"
 is_paid = true
 
 [formats.vst3]

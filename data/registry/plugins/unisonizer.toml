@@ -2,11 +2,12 @@ slug = "unisonizer"
 name = "Unisonizer"
 vendor = "Eplex7 DSP"
 version = "1.0.0"
-description = ""
+description = "Real-time unison effect plugin adding fatness and width to synths, bass, and pads."
 category = "effects"
 subcategory = "harmonizer"
 license = "commercial"
 tags = []
+homepage = "https://www.eplex7.com/unisonizer-real-time-unison-effect-plugin-vst/"
 is_paid = true
 
 [formats.vst3]

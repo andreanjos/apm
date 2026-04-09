@@ -2,11 +2,12 @@ slug = "mpc-compressor"
 name = "MPC Compressor"
 vendor = "Harrison Consoles"
 version = "1.0.0"
-description = ""
+description = "Post-production compressor plugin derived from Harrison's MPC large-format analog console circuitry."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://store.harrisonaudio.com/post/mpc-compressor"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11986-MPC-Compressor"
 

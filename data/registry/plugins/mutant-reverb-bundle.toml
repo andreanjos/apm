@@ -2,11 +2,12 @@ slug = "mutant-reverb-bundle"
 name = "Mutant Reverb Bundle"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A bundle featuring Mutant Reverb with a built-in ducker for vocals and mix clarity."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles/view/mutant-reverb-bundle"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "goliath-v2"
 name = "Goliath V2"
 vendor = "Tone Empire"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Analog channel strip with four saturation modes, FET compressor, and 3-band EQ in one plugin."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.tone-empire.com/goliath/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/7197-Goliath-V2"
 

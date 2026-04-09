@@ -2,11 +2,12 @@ slug = "analog-power-bundle"
 name = "Analog Power Bundle"
 vendor = "Tone Empire"
 version = "1.0.0"
-description = ""
+description = "Bundle of Tone Empire analog-modeled plugins for saturation, compression, and tonal shaping."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.tone-empire.com"
 is_paid = true
 
 [formats.vst3]

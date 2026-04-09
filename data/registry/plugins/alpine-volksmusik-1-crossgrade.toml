@@ -1,12 +1,13 @@
 slug = "alpine-volksmusik-1-crossgrade"
 name = "Alpine Volksmusik 1 Crossgrade"
 vendor = "Best Service"
-version = "1.0.0"
-description = ""
+version = "1"
+description = "Crossgrade to the Alpine Volksmusik 1 collection of Swiss, Austrian, and German folk instrument patches."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/alpine_volksmusik_1.html"
 is_paid = true
 
 [formats.vst3]

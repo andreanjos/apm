@@ -2,11 +2,12 @@ slug = "cerberus-bass-amplifikation"
 name = "Cerberus Bass Amplifikation"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Three-channel bass amplifier plugin with Valve, FET, and Drive modes for professional bass tones."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/cerberus-bass-amplifikation/"
 is_paid = true
 
 [formats.vst3]

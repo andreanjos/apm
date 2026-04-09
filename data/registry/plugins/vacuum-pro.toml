@@ -2,11 +2,12 @@ slug = "vacuum-pro"
 name = "Vacuum Pro"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Advanced tube synthesizer with expanded modulation, multiple oscillators, and filter options."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/vacuum-pro"
 is_paid = true
 
 [formats.vst3]

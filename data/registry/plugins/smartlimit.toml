@@ -2,11 +2,12 @@ slug = "smartlimit"
 name = "smart:limit"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Content-aware mastering limiter with intelligent automatic loudness targeting and stream-ready metering."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/smartlimit/"
 is_paid = true
 
 [formats.vst3]

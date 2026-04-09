@@ -2,11 +2,12 @@ slug = "oberheim-expander"
 name = "Oberheim Expander"
 vendor = "Synth Magic"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of the Oberheim Xpander synthesizer capturing its rich, powerful analog polyphonic tones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://synthmagic.co.uk/oberheim-expander/"
 is_paid = true
 
 [formats.vst3]

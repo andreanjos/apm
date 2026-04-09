@@ -2,11 +2,12 @@ slug = "spherum-fx-re-synthesizer"
 name = "Spherum FX RE-Synthesizer"
 vendor = "Eplex7 DSP"
 version = "1.0.0"
-description = ""
+description = "Re-synthesizer plugin generating FX sounds, lasers, and sci-fi effects from 40+ oscillators."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.eplex7.com/spherum-fx-re-synthesizer-vsti-plugin/"
 is_paid = true
 
 [formats.vst3]

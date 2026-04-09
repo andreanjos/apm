@@ -2,11 +2,12 @@ slug = "hollywood-choirs-gold"
 name = "Hollywood Choirs Gold"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "Award-winning virtual choir library with professional ensemble recordings for film scoring."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/vocals/hollywood-choirs"
 is_paid = true
 
 [formats.vst3]

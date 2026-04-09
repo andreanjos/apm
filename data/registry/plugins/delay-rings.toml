@@ -2,11 +2,12 @@ slug = "delay-rings"
 name = "Delay Rings"
 vendor = "W A Production"
 version = "1.0.0"
-description = ""
+description = "Dynamic delay plugin with two circular delay engines sweeping the stereo field independently."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/delay-rings"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/16445-Delay-Rings"
 

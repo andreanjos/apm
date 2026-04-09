@@ -1,12 +1,13 @@
 slug = "dodge-pro"
 name = "Dodge Pro"
 vendor = "W A Production"
-version = "1.0.0"
-description = ""
+version = "1.1.3"
+description = "Multiband volume automation plugin for sidechain ducking with MIDI-triggered scenes and line editor."
 category = "effects"
 subcategory = "envelope shaper"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/dodge-pro"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/6117-Dodge-Pro"
 

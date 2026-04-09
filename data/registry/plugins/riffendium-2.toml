@@ -1,12 +1,13 @@
 slug = "riffendium-2"
 name = "Riffendium 2"
 vendor = "Audiofier"
-version = "1.0.0"
-description = ""
+version = "1.01"
+description = "Second volume of editable electric guitar riff loops for Kontakt with amped and DI versions."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.audiofier.co.uk/riffendium-2/"
 is_paid = true
 
 [formats.vst3]

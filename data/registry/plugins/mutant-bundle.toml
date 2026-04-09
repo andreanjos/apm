@@ -2,11 +2,12 @@ slug = "mutant-bundle"
 name = "Mutant Bundle"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A bundle combining Mutant Reverb and Mutant Delay for ducked, dynamic reverb and delay processing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles/view/mutant-bundle"
 is_paid = true
 
 [formats.vst3]

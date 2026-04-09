@@ -2,11 +2,12 @@ slug = "ultimate-modular-collection"
 name = "Ultimate Modular Collection"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Comprehensive bundle of modules for Cherry Audio's Voltage Modular software modular platform."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/voltage-modular"
 is_paid = true
 
 [formats.vst3]

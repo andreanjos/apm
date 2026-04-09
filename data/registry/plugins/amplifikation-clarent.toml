@@ -2,11 +2,12 @@ slug = "amplifikation-clarent"
 name = "Amplifikation Clarent"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Orange-inspired guitar amp simulator delivering British heaviness with three amp types."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/amplifikation-clarent/"
 is_paid = true
 
 [formats.vst3]

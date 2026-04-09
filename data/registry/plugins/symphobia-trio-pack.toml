@@ -2,11 +2,12 @@ slug = "symphobia-trio-pack"
 name = "Symphobia Trio Pack"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Symphobia volumes 1, 2, and 3: Lumina cinematic orchestral libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/"
 is_paid = true
 
 [formats.vst3]

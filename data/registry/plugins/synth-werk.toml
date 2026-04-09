@@ -2,11 +2,12 @@ slug = "synth-werk"
 name = "SYNTH-WERK"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Modular sample-based synth with 2,800 sounds, 8GB+ of samples, and 46 effects inspired by German synthesists."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/synth-werk.html"
 is_paid = true
 
 [formats.vst3]

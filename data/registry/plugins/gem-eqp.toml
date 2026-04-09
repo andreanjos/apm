@@ -2,11 +2,12 @@ slug = "gem-eqp"
 name = "GEM EQP"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Passive Pultec-style EQ emulation delivering warm, musical tone beyond the original hardware."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/gems"
 is_paid = true
 
 [formats.vst3]

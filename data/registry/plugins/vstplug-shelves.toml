@@ -2,11 +2,12 @@ slug = "vstplug-shelves"
 name = "VSTplug shelves"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Shelving EQ plugin with high and low shelf filters for broad tonal shaping of any audio signal."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

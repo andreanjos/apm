@@ -1,12 +1,13 @@
 slug = "bleass-tides"
 name = "BLEASS Tides"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Delay plugin with adjustable times, tonal filter shaping, 11 feedback effects, and stereo modulation."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/tides/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/14663-BLEASS-Tides"
 

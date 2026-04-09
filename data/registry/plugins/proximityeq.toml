@@ -2,11 +2,12 @@ slug = "proximityeq"
 name = "proximity:EQ+"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Distance-aware EQ that adjusts frequency response to place sounds closer or further in a mix."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/proximityeq/"
 is_paid = true
 
 [formats.vst3]

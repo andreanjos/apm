@@ -1,12 +1,13 @@
 slug = "music-box"
 name = "Music Box"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt alt-Victorian steampunk style musical box instrument with characterful mechanical tones."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/music-box"
 is_paid = true
 
 [formats.vst3]

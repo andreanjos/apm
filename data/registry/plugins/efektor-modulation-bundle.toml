@@ -2,11 +2,12 @@ slug = "efektor-modulation-bundle"
 name = "Efektor Modulation Bundle"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Bundle of Kuassa's Efektor modulation guitar effect plugins including chorus, flanger, and phaser."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/efektor/"
 is_paid = true
 
 [formats.vst3]

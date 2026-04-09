@@ -2,11 +2,12 @@ slug = "replikorp-2249"
 name = "Replikorp 2249"
 vendor = "Eplex7 DSP"
 version = "1.0.0"
-description = ""
+description = "Retro-futuristic instrument plugin with vintage sci-fi analog sounds and modular atmospheres."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.eplex7.com/replikorp-2249-plugin-retro-futuristic-instrument/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "mini-grand"
 name = "Mini Grand"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Compact grand piano plugin offering realistic acoustic piano tones with simple controls."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/mini-grand"
 is_paid = true
 
 [formats.vst3]

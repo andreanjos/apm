@@ -1,12 +1,13 @@
 slug = "budapest-abstract-marimba"
 name = "Budapest Abstract Marimba"
 vendor = "Karanyi Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Modern-sounding Kontakt marimba designed for fast sequences and cinematic tremolo beds."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://karanyisounds.com/product/budapest-abstract-marimba/"
 is_paid = true
 
 [formats.vst3]

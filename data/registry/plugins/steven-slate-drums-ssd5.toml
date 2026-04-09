@@ -1,12 +1,13 @@
 slug = "steven-slate-drums-ssd5"
 name = "Steven Slate Drums SSD5"
 vendor = "Slate Digital"
-version = "1.0.0"
-description = ""
+version = "5.5"
+description = "Professional virtual drum instrument with Groove AI and an extensive library of mix-ready kits."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://stevenslatedrums.com/ssd5/"
 is_paid = true
 
 [formats.vst3]

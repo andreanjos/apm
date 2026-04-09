@@ -2,11 +2,12 @@ slug = "efektor-wf3607-wah-filter"
 name = "EFEKTOR WF3607 Wah Filter"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Wah filter plugin emulating Cry Baby and Mu-Tron-style envelope filters with MIDI control."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/efektor-wf3607/"
 is_paid = true
 
 [formats.vst3]

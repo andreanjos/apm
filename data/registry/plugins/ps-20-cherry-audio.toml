@@ -2,11 +2,12 @@ slug = "ps-20-cherry-audio"
 name = "PS-20"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Polyphonic synthesizer reimagining the Korg MS-20 with 16-voice polyphony and modular patch panel."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/ps-20"
 is_paid = true
 
 [formats.vst3]

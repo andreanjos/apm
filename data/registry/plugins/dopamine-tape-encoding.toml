@@ -2,10 +2,11 @@ slug = "dopamine-tape-encoding"
 name = "Dopamine Tape Encoding"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Emulation of two classic tape encoding processors used as dynamic harmonic enhancers."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/products/dopamine"
 is_paid = true
 
 [formats.vst3]

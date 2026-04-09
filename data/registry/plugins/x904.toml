@@ -2,11 +2,12 @@ slug = "x904"
 name = "x904"
 vendor = "Antelope Audio"
 version = "1.0.0"
-description = ""
+description = "VCA gate plugin for noise reduction and transient shaping with precise threshold and range controls."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
+homepage = "https://en.antelopeaudio.com/products/x904/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/16115-x904"
 

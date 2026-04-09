@@ -1,12 +1,13 @@
 slug = "bleass-phase-mutant"
 name = "BLEASS Phase Mutant"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "FM-based phase distortion effect combining an oscillator with the input signal for unique distortions."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/phase-mutant/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/8859-BLEASS-Phase-Mutant"
 

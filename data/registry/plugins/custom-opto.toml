@@ -2,11 +2,12 @@ slug = "custom-opto"
 name = "Custom Opto"
 vendor = "Slate Digital"
 version = "1.0.0"
-description = ""
+description = "Classic vintage optical compressor recreation with additional tone shaping and timing controls."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://slatedigital.com/custom-opto/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/15771-Custom-Opto"
 

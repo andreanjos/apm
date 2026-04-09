@@ -2,11 +2,12 @@ slug = "cardiam-d-142k"
 name = "Cardiam D-142k"
 vendor = "Eplex7 DSP"
 version = "1.0.0"
-description = ""
+description = "Boutique vacuum tube passive parametric EQ inspired by classic American coil equalizers."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.eplex7.com/product/cardiam-d-142k/"
 is_paid = true
 
 [formats.vst3]

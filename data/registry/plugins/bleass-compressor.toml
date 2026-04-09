@@ -1,12 +1,13 @@
 slug = "bleass-compressor"
 name = "BLEASS Compressor"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Comprehensive compressor with external sidechain, input filters, and real-time visualization."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/compressor/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/9300-BLEASS-Compressor"
 

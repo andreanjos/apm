@@ -1,13 +1,13 @@
 slug = "transgressor-2"
 name = "Transgressor 2"
 vendor = "Boz Digital Labs"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Transient shaper plugin with independent control over attack and sustain for dynamic punch shaping."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.bozdigitallabs.com/transgressor/"
 
 [formats.vst3]
 url = ""

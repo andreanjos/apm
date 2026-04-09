@@ -2,11 +2,12 @@ slug = "psychedelic-fm-superesonator"
 name = "Psychedelic FM Superesonator"
 vendor = "Eplex7 DSP"
 version = "1.0.0"
-description = ""
+description = "FM synthesizer plugin with 128-drawbar additive oscillators for psytrance and darkpsy music."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.eplex7.com/product/psychedelic-fm-superesonator/"
 is_paid = true
 
 [formats.vst3]

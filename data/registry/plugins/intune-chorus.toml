@@ -2,11 +2,12 @@ slug = "intune-chorus"
 name = "InTune Chorus"
 vendor = "Antelope Audio"
 version = "1.0.0"
-description = ""
+description = "Real-time vocal chorus generator that adds a choir of five voices with variable detune and delay."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://en.antelopeaudio.com/products/intune-chorus/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/16033-InTune-Chorus"
 

@@ -1,12 +1,13 @@
 slug = "bleass-motion-eq"
 name = "BLEASS Motion EQ"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Dynamic EQ tool that splits and moves frequency bands to bring motion and movement to any signal."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/motion-eq/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/9299-BLEASS-Motion-EQ"
 

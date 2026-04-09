@@ -2,11 +2,12 @@ slug = "purelimit-crossgrade"
 name = "pure:limit Crossgrade"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Crossgrade pricing for pure:limit, sonible's AI-powered limiter for creators."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/purelimit/"
 is_paid = true
 
 [formats.vst3]

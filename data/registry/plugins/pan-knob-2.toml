@@ -1,13 +1,13 @@
 slug = "pan-knob-2"
 name = "Pan Knob 2"
 vendor = "Boz Digital Labs"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Updated stereo panning plugin with frequency-dependent panning to keep low frequencies centered."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.bozdigitallabs.com/pan-knob/"
 
 [formats.vst3]
 url = ""

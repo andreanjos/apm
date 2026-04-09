@@ -1,12 +1,13 @@
 slug = "smartcomp-2"
 name = "smart:comp 2"
 vendor = "sonible"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "AI-powered spectro-dynamic compressor with content-aware processing and streaming loudness guidance."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/smartcomp3/"
 is_paid = true
 
 [formats.vst3]

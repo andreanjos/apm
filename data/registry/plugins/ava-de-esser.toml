@@ -2,11 +2,12 @@ slug = "ava-de-esser"
 name = "AVA De-Esser"
 vendor = "Harrison Consoles"
 version = "1.0.0"
-description = ""
+description = "Intelligent 4th-generation de-esser detecting and eliminating harsh sibilance in real time with ultra-low latency."
 category = "effects"
 subcategory = "de-esser"
 license = "commercial"
 tags = []
+homepage = "https://store.harrisonaudio.com/ava/ava-de-esser"
 is_paid = true
 
 [formats.vst3]

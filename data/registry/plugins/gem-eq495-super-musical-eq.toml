@@ -2,11 +2,12 @@ slug = "gem-eq495-super-musical-eq"
 name = "GEM EQ495 Super-Musical EQ"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Emulation of the EQ495 super-musical equalizer, the secret weapon of many award-winning engineers."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/gems"
 is_paid = true
 
 [formats.vst3]

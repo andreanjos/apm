@@ -1,12 +1,13 @@
 slug = "loopscape"
 name = "Loopscape"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt tape-loop synthesizer inspired by Brian Eno, creating evolving soundscapes from raw waveforms."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/loopscape"
 is_paid = true
 
 [formats.vst3]

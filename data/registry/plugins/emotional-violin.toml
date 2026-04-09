@@ -2,11 +2,12 @@ slug = "emotional-violin"
 name = "Emotional Violin"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Expressive solo violin library for Kontakt Player with detailed articulations and innovative rebowing techniques."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/emotional_violin.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "aas-lounge-lizard-ep-4"
 name = "AAS Lounge Lizard EP-4"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "4"
+description = "AAS physically modeled electric piano delivering authentic Rhodes and Wurlitzer-style sounds."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/lounge-lizard-ep-4/"
 is_paid = true
 
 [formats.vst3]

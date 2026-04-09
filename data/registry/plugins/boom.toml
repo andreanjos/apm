@@ -2,11 +2,12 @@ slug = "boom"
 name = "Boom"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Versatile drum machine plugin with multiple kits and beat-programming capabilities."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/boom"
 is_paid = true
 
 [formats.vst3]

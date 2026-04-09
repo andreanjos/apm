@@ -2,11 +2,12 @@ slug = "drumtastebrush"
 name = "DrumTasteBrush"
 vendor = "Acousticsamples"
 version = "1.0.0"
-description = ""
+description = "Brush drum kit featuring world-class instruments recorded with up to three mic positions for a jazz feel."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.acousticsamples.net/drumtastebrush"
 is_paid = true
 
 [formats.vst3]

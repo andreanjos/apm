@@ -1,12 +1,13 @@
 slug = "polyscape-2"
 name = "Polyscape 2"
 vendor = "Karanyi Sounds"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Hybrid Kontakt instrument merging cello recordings and synths for cinematic tension and movement."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://karanyisounds.com/product/polyscape-2/"
 is_paid = true
 
 [formats.vst3]

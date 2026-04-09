@@ -1,14 +1,14 @@
 slug = "velvet-2"
 name = "Velvet 2"
 vendor = "Air Music Tech"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Electric piano plugin with detailed multisampled vintage keyboards and realistic tone controls."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.airmusictech.com/product/velvet"
 
 [formats.vst3]
 url = ""

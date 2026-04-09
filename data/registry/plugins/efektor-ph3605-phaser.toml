@@ -2,10 +2,11 @@ slug = "efektor-ph3605-phaser"
 name = "EFEKTOR PH3605 Phaser"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Guitar phaser plugin with Phase One, Dual Phase, and Multi Phase modulation models."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/efektor-ph3605/"
 is_paid = true
 
 [formats.vst3]

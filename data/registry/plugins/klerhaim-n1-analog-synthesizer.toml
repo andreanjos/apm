@@ -2,11 +2,12 @@ slug = "klerhaim-n1-analog-synthesizer"
 name = "Klerhaim N1 analog synthesizer"
 vendor = "Eplex7 DSP"
 version = "1.0.0"
-description = ""
+description = "Monophonic analog synthesizer plugin with virtual circuit emulation for warm vintage tones."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.eplex7.com/product/klerhaim-n1-analog-synthesizer/"
 is_paid = true
 
 [formats.vst3]

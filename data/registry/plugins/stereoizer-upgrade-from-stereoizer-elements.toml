@@ -2,10 +2,11 @@ slug = "stereoizer-upgrade-from-stereoizer-elements"
 name = "Stereoizer Upgrade from Stereoizer Elements"
 vendor = "NUGEN Audio"
 version = "1.0.0"
-description = ""
+description = "Upgrade from Stereoizer Elements to full Stereoizer for complete stereo widening capabilities."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/stereoizer/"
 is_paid = true
 
 [formats.vst3]

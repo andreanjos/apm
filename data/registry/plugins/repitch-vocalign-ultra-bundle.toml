@@ -2,11 +2,12 @@ slug = "repitch-vocalign-ultra-bundle"
 name = "RePitch & VocAlign Ultra Bundle"
 vendor = "Synchro Arts"
 version = "1.0.0"
-description = ""
+description = "Bundle pairing RePitch vocal tuning and VocAlign Ultra alignment for complete vocal production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://synchroarts.com/products"
 is_paid = true
 
 [formats.vst3]

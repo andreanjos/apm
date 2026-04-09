@@ -2,11 +2,12 @@ slug = "gem-comp76-compressor-limiter"
 name = "GEM COMP76 Compressor-Limiter"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "FET compressor-limiter emulation based on the classic 1176 circuit, beyond the original hardware."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/gems"
 is_paid = true
 
 [formats.vst3]

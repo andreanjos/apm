@@ -1,12 +1,13 @@
 slug = "essential-fx-bundle"
 name = "Essential FX Bundle"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Nine-plugin BLEASS bundle including chorus, compressor, delay, filter, flanger, phaser, and more."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/product/essential-fxs-bundle/"
 is_paid = true
 
 [formats.vst3]

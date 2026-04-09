@@ -2,11 +2,12 @@ slug = "zhega"
 name = "ZHEGA"
 vendor = "Antelope Audio"
 version = "1.0.0"
-description = ""
+description = "Distortion and saturation plugin delivering analog-style overdrive, fuzz, and tonal grit."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://en.antelopeaudio.com/products/zhega/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/16032-ZHEGA"
 

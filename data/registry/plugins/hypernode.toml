@@ -2,11 +2,12 @@ slug = "hypernode"
 name = "Hypernode"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Comprehensive Kontakt production system for creating complete songs with 64 simultaneous sequencers."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/hypernode/"
 is_paid = true
 
 [formats.vst3]

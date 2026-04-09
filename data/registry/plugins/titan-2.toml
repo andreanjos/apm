@@ -1,12 +1,13 @@
 slug = "titan-2"
 name = "TITAN 2"
 vendor = "Best Service"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Massive synthesizer emulating 266 hardware synths with 12,800 presets covering 45 years of synthesis history."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/titan_2.html"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "evolution-bundle-2022"
 name = "Evolution Bundle 2022"
 vendor = "Keepforest"
-version = "1.0.0"
-description = ""
+version = "2022"
+description = "Keepforest 2022 bundle of Evolution: Devastator Breakout Pro, Warzone, and Deathmatch libraries."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://keep-forest.com/store"
 is_paid = true
 
 [formats.vst3]

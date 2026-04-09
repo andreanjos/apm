@@ -1,11 +1,12 @@
 slug = "vocalign-project-5"
 name = "VocAlign Project 5"
 vendor = "Synchro Arts"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Vocal timing alignment plugin that synchronizes the timing of vocal performances automatically."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://synchroarts.com/products/vocalign-pro"
 is_paid = true
 
 [formats.vst3]

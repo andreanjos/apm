@@ -2,11 +2,12 @@ slug = "gem-comp-la"
 name = "GEM Comp LA"
 vendor = "Overloud"
 version = "1.0.0"
-description = ""
+description = "Optical compressor emulation combining the classic LA-2A and LA-3A with modern extensions."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.overloud.com/gems"
 is_paid = true
 
 [formats.vst3]

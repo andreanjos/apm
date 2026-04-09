@@ -1,12 +1,13 @@
 slug = "budapest-abstract-mallets"
 name = "Budapest Abstract Mallets"
 vendor = "Karanyi Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Contemporary Kontakt mallet instrument with transient-rich sounds and synth sublayers for modern music."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://karanyisounds.com/product/budapest-abstract-mallets/"
 is_paid = true
 
 [formats.vst3]

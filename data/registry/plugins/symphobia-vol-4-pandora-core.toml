@@ -2,11 +2,12 @@ slug = "symphobia-vol-4-pandora-core"
 name = "Symphobia Vol 4: Pandora Core"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Free introductory version of Symphobia 4: Pandora with cinematic effects and Adaptive Sync."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/symphobia-4-pandora/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "ql-pianos-gold-steinway-d"
 name = "QL Pianos Gold Steinway D"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest deeply sampled Steinway D concert grand piano, Gold edition."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/pianos-and-keys/pianos"
 is_paid = true
 
 [formats.vst3]

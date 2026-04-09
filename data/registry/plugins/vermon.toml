@@ -2,11 +2,12 @@ slug = "vermon"
 name = "Vermon"
 vendor = "Synth Magic"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of a Vermona Piano Strings synth with clean, valve-processed, and VHS tape-saturated samples."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://synthmagic.co.uk/vermon/"
 is_paid = true
 
 [formats.vst3]

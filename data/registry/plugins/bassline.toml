@@ -2,11 +2,12 @@ slug = "bassline"
 name = "Bassline"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Analog-style bass synthesizer plugin inspired by classic 303-type bass machines."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/bassline"
 is_paid = true
 
 [formats.vst3]

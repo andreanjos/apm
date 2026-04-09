@@ -2,11 +2,12 @@ slug = "smartbundle"
 name = "smart:bundle"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Bundle of six smart plugins: smart:limit, smart:EQ 4, smart:reverb 2, smart:comp 3, smart:deess, smart:gate."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/smartbundle/"
 is_paid = true
 
 [formats.vst3]

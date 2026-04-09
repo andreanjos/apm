@@ -2,11 +2,12 @@ slug = "ultimate-firesonic-bundle"
 name = "Ultimate FireSonic Bundle"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "Complete collection of all FireSonic audio plugins available through United Plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com"
 is_paid = true
 
 [formats.vst3]

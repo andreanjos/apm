@@ -2,10 +2,11 @@ slug = "storch-filter-multi-fx-filter"
 name = "Storch Filter Multi-FX Filter"
 vendor = "Slate Digital"
 version = "1.0.0"
-description = ""
+description = "Creative multi-FX filter plugin by Scott Storch with reverb, chorus, saturation, phaser, and autofilter."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://slatedigital.com/storch-filter/"
 is_paid = true
 
 [formats.vst3]

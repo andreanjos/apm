@@ -2,13 +2,13 @@ slug = "ampknob-038-bassknob"
 name = "Ampknob &#038; BassKnob"
 vendor = "Bogren Digital"
 version = "1.0.0"
-description = ""
+description = "Bundle pairing AmpKnob and BassKnob single-knob amp sims for instant album-ready guitar and bass tones."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://bogrendigital.com/collections/ampknob"
 
 [formats.vst3]
 url = ""

@@ -2,13 +2,13 @@ slug = "shruti-box-bundle"
 name = "Shruti Box Bundle"
 vendor = "Have Audio"
 version = "1.0.0"
-description = ""
+description = "Indian shruti box bundle with Essential, Extended, and Harmonic Kontakt instrument blends."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://haveaudio.com/products/shruti-box-bundle"
 
 [formats.vst3]
 url = ""

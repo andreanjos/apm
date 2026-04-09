@@ -1,12 +1,13 @@
 slug = "delay-dt-mkii"
 name = "Delay dt MKII"
 vendor = "MIA Laboratories"
-version = "1.0.0"
-description = ""
+version = "MKII"
+description = "MIA Laboratories analog-character delay plugin with warm, musical timing control."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://mialaboratories.com/product/miadelay-dt/"
 is_paid = true
 
 [formats.vst3]

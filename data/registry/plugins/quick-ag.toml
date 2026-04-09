@@ -2,10 +2,11 @@ slug = "quick-ag"
 name = "Quick AG"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "All-in-one acoustic guitar mixing plugin with instrument-specific presets, EQ, compression, and reverb."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com/QuickAG/"
 is_paid = true
 
 [formats.vst3]

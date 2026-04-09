@@ -1,12 +1,13 @@
 slug = "aas-strum-gs-2"
 name = "AAS Strum GS-2"
 vendor = "Applied Acoustics Systems"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "AAS guitar synthesizer with automatic chord recognition, strumming, MIDI riffs, and guitar amps."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/strum-gs-2/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "phobos-interstellar-fantasy-mkii"
 name = "Phobos Interstellar Fantasy MKII"
 vendor = "Synth Magic"
-version = "1.0.0"
-description = ""
+version = "MKII"
+description = "Expanded Kontakt ambient synth with 3-layer system, spacey presets, and updated filter/res sequencer."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://synthmagic.co.uk/phobos-ii/"
 is_paid = true
 
 [formats.vst3]

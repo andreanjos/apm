@@ -2,11 +2,12 @@ slug = "sem"
 name = "SEM"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Free virtual recreation of the 1974 Oberheim Synthesizer Expander Module with multi-mode filter."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/synthesizer-expander-module"
 is_paid = true
 
 [formats.vst3]

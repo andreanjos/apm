@@ -1,12 +1,13 @@
 slug = "imprint"
 name = "Imprint"
 vendor = "W A Production"
-version = "1.0.0"
-description = ""
+version = "2.2.0"
+description = "Multiband transient designer with three-band crossover, real-time waveform display, and width controls."
 category = "effects"
 subcategory = "transient shaper"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/imprint"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/5450-Imprint"
 

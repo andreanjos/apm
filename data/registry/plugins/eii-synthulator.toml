@@ -1,12 +1,13 @@
 slug = "eii-synthulator"
 name = "EII Synthulator"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt synth based on the Emulator II, splicing short attack samples onto synthesised sustain waveforms."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/eii-synthulator"
 is_paid = true
 
 [formats.vst3]

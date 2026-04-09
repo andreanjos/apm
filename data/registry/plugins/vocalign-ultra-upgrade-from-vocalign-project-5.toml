@@ -2,10 +2,11 @@ slug = "vocalign-ultra-upgrade-from-vocalign-project-5"
 name = "VocAlign Ultra Upgrade from VocALign Project 5"
 vendor = "Synchro Arts"
 version = "1.0.0"
-description = ""
+description = "Upgrade from VocAlign Project 5 to VocAlign Ultra with enhanced alignment features."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://synchroarts.com/products/vocalign-pro"
 is_paid = true
 
 [formats.vst3]

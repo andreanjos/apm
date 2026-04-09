@@ -2,11 +2,12 @@ slug = "10db-eq"
 name = "+10db EQ"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "Equalizer plugin paired with the +10dB compressor for tracking and mixing tone shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/10db-eq/"
 is_paid = true
 
 [formats.vst3]

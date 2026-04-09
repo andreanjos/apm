@@ -1,11 +1,12 @@
 slug = "vocal-limiter"
 name = "Vocal Limiter"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "2.1.0"
+description = "A dedicated vocal limiter with four release modes designed as the final step in vocal processing chains."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/vocal-limiter"
 is_paid = true
 
 [formats.vst3]

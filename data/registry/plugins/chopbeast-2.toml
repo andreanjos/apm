@@ -2,11 +2,12 @@ slug = "chopbeast-2"
 name = "ChopBeast 2"
 vendor = "W A Production"
 version = "1.0.0"
-description = ""
+description = "Audio chopping plugin that slices audio into up to 32 chops with per-slice pitch and effects control."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/chopbeast-2"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/16998-ChopBeast-2"
 

@@ -1,12 +1,13 @@
 slug = "luxe"
 name = "LUXE"
 vendor = "Klevgrand"
-version = "1.0.0"
-description = ""
+version = "1.1.2"
+description = "An audio enhancer that applies subtle, musical compression and saturation for warmth and presence."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://klevgrand.com/products/luxe"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/8712-LUXE"
 

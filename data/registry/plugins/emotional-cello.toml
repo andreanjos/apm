@@ -2,11 +2,12 @@ slug = "emotional-cello"
 name = "Emotional Cello"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Expressive solo cello library for Kontakt Player with an impressive range of articulations and play techniques."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/emotional_cello.html"
 is_paid = true
 
 [formats.vst3]

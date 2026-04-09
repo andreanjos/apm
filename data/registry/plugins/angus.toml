@@ -2,11 +2,12 @@ slug = "angus"
 name = "Angus"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Full-featured wavetable-based Kontakt synthesizer with 800 instruments across 16 categories."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/angus/"
 is_paid = true
 
 [formats.vst3]

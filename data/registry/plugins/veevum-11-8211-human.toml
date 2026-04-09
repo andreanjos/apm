@@ -1,14 +1,14 @@
 slug = "veevum-11-8211-human"
 name = "Veevum 11 &#8211; Human"
 vendor = "Audiofier"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Ambient Kontakt instrument with 100 vocal texture sound sources for cinematic soundscapes."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiofier.co.uk/veevum-human/"
 
 [formats.vst3]
 url = ""

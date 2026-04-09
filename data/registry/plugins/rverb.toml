@@ -1,12 +1,13 @@
 slug = "rverb"
 name = "Røverb"
 vendor = "Klevgrand"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A hybrid reverb/delay built from up to 50 individual delay lines with per-delay volume and feedback control."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://klevgrand.com/products/rverb"
 is_paid = true
 
 [formats.vst3]

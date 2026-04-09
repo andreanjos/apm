@@ -1,12 +1,13 @@
 slug = "heat-2"
 name = "HEAT 2"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "2.1.0"
+description = "A dual distortion processor with 10 saturation types, twin filters, and blend control for creative tone shaping."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/heat-2"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "shruti-box-sax-fury"
 name = "Shruti Box + Sax Fury"
 vendor = "Have Audio"
 version = "1.0.0"
-description = ""
+description = "Combined bundle of Have Audio's Shruti Box and Sax Fury ethnic instrument libraries."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://haveaudio.com/collections/all-products"
 is_paid = true
 
 [formats.vst3]

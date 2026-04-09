@@ -1,12 +1,13 @@
 slug = "10db-compressor-v2"
 name = "10db Compressor V2"
 vendor = "Boz Digital Labs"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Updated compressor with a Dry Passthrough knob making parallel compression simple without extra routing."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/10db-compressor-v2/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10069--10db-Compressor-V2"
 

@@ -2,13 +2,13 @@ slug = "toys-bundle"
 name = "Toys Bundle"
 vendor = "Have Audio"
 version = "1.0.0"
-description = ""
+description = "Bundle of three toy-inspired Kontakt instruments: Acoustic, Electronic, and Dystopian versions."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://haveaudio.com/products/toys-3-blends-bundle"
 
 [formats.vst3]
 url = ""

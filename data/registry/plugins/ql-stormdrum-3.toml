@@ -2,11 +2,12 @@ slug = "ql-stormdrum-3"
 name = "QL Stormdrum 3"
 vendor = "EastWest"
 version = "1.0.0"
-description = ""
+description = "EastWest cinematic drum library featuring massive world percussion from Mickey Hart's collection."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.soundsonline.com/drums-and-percussion/sd3"
 is_paid = true
 
 [formats.vst3]

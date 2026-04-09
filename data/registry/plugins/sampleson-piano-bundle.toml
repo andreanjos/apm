@@ -2,11 +2,12 @@ slug = "sampleson-piano-bundle"
 name = "Sampleson Piano Bundle"
 vendor = "Sampleson"
 version = "1.0.0"
-description = ""
+description = "Bundle of Sampleson's spectral-modeled electric piano instruments including Suit73, Reed200, and more."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://sampleson.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "plethora-rigid-audio"
 name = "Plethora"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Cinematic loop module for Kontakt with 350 kits and drag-and-drop custom sample import."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/plethora/"
 is_paid = true
 
 [formats.vst3]

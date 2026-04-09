@@ -2,11 +2,12 @@ slug = "mastering-bundle"
 name = "Mastering Bundle"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A W.A. Production bundle of mastering tools including The King 2, Helper EQ, SphereComp, and more."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles/view/mastering-bundle"
 is_paid = true
 
 [formats.vst3]

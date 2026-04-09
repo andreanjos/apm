@@ -1,12 +1,13 @@
 slug = "musiqual-red-se"
 name = "Musiqual RED SE"
 vendor = "MIA Laboratories"
-version = "1.0.0"
-description = ""
+version = "SE"
+description = "MIA Laboratories Musiqual RED Special Edition, a tube-character EQ and harmonic enhancer."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://mialaboratories.com/"
 is_paid = true
 
 [formats.vst3]

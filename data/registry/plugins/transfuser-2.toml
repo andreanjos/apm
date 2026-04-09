@@ -1,12 +1,13 @@
 slug = "transfuser-2"
 name = "Transfuser 2"
 vendor = "Air Music Tech"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Advanced loop remixing instrument with audio engine, step sequencer, and live performance tools."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com/product/transfuser-2"
 is_paid = true
 
 [formats.vst3]

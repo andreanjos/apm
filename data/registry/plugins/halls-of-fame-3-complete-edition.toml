@@ -1,11 +1,12 @@
 slug = "halls-of-fame-3-complete-edition"
 name = "Halls of Fame 3 – Complete Edition"
 vendor = "Best Service"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Complete edition combining 13 legendary hardware reverbs from the last 50 years in a single plugin."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/halls_of_fame_3_complete_edition.html"
 is_paid = true
 
 [formats.vst3]

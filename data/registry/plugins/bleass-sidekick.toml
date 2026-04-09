@@ -1,12 +1,13 @@
 slug = "bleass-sidekick"
 name = "BLEASS Sidekick"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kick drum synth, 16-step sequencer, and ducker combination for rhythmic sidechain dynamics."
 category = "tools"
 subcategory = "drum tools"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/product/bleass-sidekick/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/80-Drum-Tools/9638-BLEASS-Sidekick"
 

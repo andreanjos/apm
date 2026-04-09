@@ -2,11 +2,12 @@ slug = "smart-deess"
 name = "smart deess"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Content-aware AI de-esser that automatically detects and reduces sibilance with minimal effort."
 category = "effects"
 subcategory = "de esser"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/smartdeess/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/11480-smart-deess"
 

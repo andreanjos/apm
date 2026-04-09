@@ -2,11 +2,12 @@ slug = "the-wall"
 name = "The Wall"
 vendor = "Boz Digital Labs"
 version = "1.0.0"
-description = ""
+description = "Brickwall limiter plugin designed for final-stage limiting with transparent, loudness-maximizing performance."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.bozdigitallabs.com/product/the-wall/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/2822-The-Wall"
 

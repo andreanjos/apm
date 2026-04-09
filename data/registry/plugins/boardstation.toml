@@ -2,11 +2,12 @@ slug = "boardstation"
 name = "boardstation"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Mastering EQ plugin featuring 40 bands of automatable, fast-operating frequency controls."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

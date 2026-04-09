@@ -1,13 +1,13 @@
 slug = "mongoose-2"
 name = "Mongoose 2"
 vendor = "Boz Digital Labs"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Updated mid-side mono bass plugin that collapses low frequencies to mono for a tighter, focused mix."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.bozdigitallabs.com/product/mongoose/"
 
 [formats.vst3]
 url = ""

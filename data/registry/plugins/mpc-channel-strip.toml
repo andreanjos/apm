@@ -2,11 +2,12 @@ slug = "mpc-channel-strip"
 name = "MPC Channel Strip"
 vendor = "Harrison Consoles"
 version = "1.0.0"
-description = ""
+description = "Large-format post-production channel strip plugin modeled on Harrison's MPC console with 8-band EQ."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://store.harrisonaudio.com/post/mpc-channel-strip"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/11835-MPC-Channel-Strip"
 

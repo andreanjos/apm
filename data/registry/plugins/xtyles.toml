@@ -1,12 +1,13 @@
 slug = "xtyles"
 name = "Xtyles"
 vendor = "Audiofier"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt rhythms and loops combinator with 640 loops in 20 categories adaptable to any key and scale."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audiofier.co.uk/xtyles/"
 is_paid = true
 
 [formats.vst3]

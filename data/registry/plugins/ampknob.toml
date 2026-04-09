@@ -2,11 +2,12 @@ slug = "ampknob"
 name = "AmpKnob"
 vendor = "Bogren Digital"
 version = "1.0.0"
-description = ""
+description = "Single-knob amp simulator series from Bogren Digital delivering album-ready guitar tones with low latency."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://bogrendigital.com/collections/ampknob"
 is_paid = true
 
 [formats.vst3]

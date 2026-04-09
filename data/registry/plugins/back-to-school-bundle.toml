@@ -2,11 +2,12 @@ slug = "back-to-school-bundle"
 name = "Back to School Bundle"
 vendor = "WA Production"
 version = "1.0.0"
-description = ""
+description = "A W.A. Production bundle of instrument plugins ideal for producers getting started."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/bundles"
 is_paid = true
 
 [formats.vst3]

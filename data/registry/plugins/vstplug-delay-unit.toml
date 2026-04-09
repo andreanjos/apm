@@ -2,11 +2,12 @@ slug = "vstplug-delay-unit"
 name = "VSTplug delay unit"
 vendor = "DSPplug"
 version = "1.0.0"
-description = ""
+description = "Lightweight delay plugin for classic echo and tape-style repeats in any mix context."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://dspplug.com/"
 is_paid = true
 
 [formats.vst3]

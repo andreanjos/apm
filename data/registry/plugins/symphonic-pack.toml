@@ -2,11 +2,12 @@ slug = "symphonic-pack"
 name = "Symphonic Pack"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "ProjectSAM bundle of symphonic orchestral Kontakt libraries for film and game scoring."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/"
 is_paid = true
 
 [formats.vst3]

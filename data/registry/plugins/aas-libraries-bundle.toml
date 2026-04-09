@@ -2,11 +2,12 @@ slug = "aas-libraries-bundle"
 name = "AAS Libraries Bundle"
 vendor = "Applied Acoustics Systems"
 version = "1.0.0"
-description = ""
+description = "Applied Acoustics Systems bundle of all sound library expansion packs for their instruments."
 category = "instruments"
 subcategory = "complete collection"
 license = "commercial"
 tags = []
+homepage = "https://www.applied-acoustics.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/7272-AAS-Libraries-Bundle"
 

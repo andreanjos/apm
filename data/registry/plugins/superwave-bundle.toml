@@ -1,12 +1,13 @@
 slug = "superwave-bundle"
 name = "Superwave Bundle"
 vendor = "Karanyi Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle combining Karanyi Sounds Wavesynth and Vapor Keys for bold basslines and lo-fi electric pianos."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://karanyisounds.com/product/superwave-bundle/"
 is_paid = true
 
 [formats.vst3]

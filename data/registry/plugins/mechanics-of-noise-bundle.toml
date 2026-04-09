@@ -2,13 +2,13 @@ slug = "mechanics-of-noise-bundle"
 name = "Mechanics of Noise Bundle"
 vendor = "Have Audio"
 version = "1.0.0"
-description = ""
+description = "Bundle of three noise-texture libraries: Acoustic, Dystopian, and Electronic for cinematic scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://haveaudio.com/products/bundle-mechanics-of-noise"
 
 [formats.vst3]
 url = ""

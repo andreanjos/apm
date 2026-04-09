@@ -2,11 +2,12 @@ slug = "miniverse"
 name = "Miniverse"
 vendor = "Cherry Audio"
 version = "1.0.0"
-description = ""
+description = "Painstaking virtual emulation of the Minimoog Model D synthesizer from 1971 with MPE support."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://cherryaudio.com/products/miniverse"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/9030-Miniverse"
 

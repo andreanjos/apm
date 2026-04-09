@@ -1,11 +1,12 @@
 slug = "repitch"
 name = "RePitch"
 vendor = "Synchro Arts"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Vocal pitch correction plugin delivering natural-sounding tuning, formant shifting, and scale quantization."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://synchroarts.com/products/repitch"
 is_paid = true
 
 [formats.vst3]

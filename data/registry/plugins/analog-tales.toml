@@ -1,12 +1,13 @@
 slug = "analog-tales"
 name = "Analog Tales"
 vendor = "Karanyi Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Vintage analog synth designer for Kontakt featuring sounds from five classic and modern synthesizers."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://karanyisounds.com/product/analog-tales/"
 is_paid = true
 
 [formats.vst3]

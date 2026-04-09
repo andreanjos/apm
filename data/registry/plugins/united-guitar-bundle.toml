@@ -2,11 +2,12 @@ slug = "united-guitar-bundle"
 name = "United Guitar Bundle"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "United Plugins bundle of guitar amp simulation and processing plugins for electric guitar."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com"
 is_paid = true
 
 [formats.vst3]

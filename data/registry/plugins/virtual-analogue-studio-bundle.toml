@@ -2,11 +2,12 @@ slug = "virtual-analogue-studio-bundle"
 name = "Virtual Analogue Studio Bundle"
 vendor = "Tone Empire"
 version = "1.0.0"
-description = ""
+description = "Bundle of Tone Empire virtual analog studio plugins for complete signal-chain processing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.tone-empire.com"
 is_paid = true
 
 [formats.vst3]

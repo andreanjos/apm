@@ -2,11 +2,12 @@ slug = "detroubler"
 name = "Detroubler"
 vendor = "W A Production"
 version = "1.0.0"
-description = ""
+description = "Psychoacoustic EQ plugin that targets six problematic frequency bands including muddy and harsh ranges."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/detroubler"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14551-Detroubler"
 

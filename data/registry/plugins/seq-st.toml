@@ -1,12 +1,13 @@
 slug = "seq-st"
 name = "SEQ ST"
 vendor = "NUGEN Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A stereo parametric EQ plugin from NUGEN Audio for precise music and post-production frequency shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://nugenaudio.com/seq-s/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/1899-SEQ-ST"
 

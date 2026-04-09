@@ -1,12 +1,13 @@
 slug = "bleass-omega-synth-bundle"
 name = "BLEASS Omega Synth Bundle"
 vendor = "BLEASS"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle featuring the BLEASS Omega FM synthesizer with curated preset packs from top sound designers."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.bleass.com/omega/"
 is_paid = true
 
 [formats.vst3]

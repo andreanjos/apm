@@ -2,11 +2,12 @@ slug = "akoustic"
 name = "Akoustic"
 vendor = "Sampleson"
 version = "1.0.0"
-description = ""
+description = "Spectral synthesizer using an additive synthesis engine built on acoustic spectral models."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://sampleson.com/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/6959-Akoustic"
 

@@ -2,11 +2,12 @@ slug = "mirror"
 name = "Mirror"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "Reverse delay plugin creating the world's first reverse negative delay using DAW latency compensation."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com/Mirror/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/8658-Mirror"
 

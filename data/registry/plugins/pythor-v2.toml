@@ -1,12 +1,13 @@
 slug = "pythor-v2"
 name = "Pythor V2"
 vendor = "Tone Empire"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "PWM compressor plugin with pulse-width modulation topology and 2-band parametric EQ."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.tone-empire.com/pythor/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/13136-Pythor-V2"
 

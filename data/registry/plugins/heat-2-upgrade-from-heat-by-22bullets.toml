@@ -1,12 +1,13 @@
 slug = "heat-2-upgrade-from-heat-by-22bullets"
 name = "HEAT 2 Upgrade from Heat by 22Bullets"
 vendor = "WA Production"
-version = "1.0.0"
-description = ""
+version = "2.1.0"
+description = "Upgrade path to HEAT 2 dual distortion processor for existing Heat by 22Bullets owners."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.waproduction.com/plugins/view/heat-2"
 is_paid = true
 
 [formats.vst3]

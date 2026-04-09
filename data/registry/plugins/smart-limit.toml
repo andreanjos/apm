@@ -2,11 +2,12 @@ slug = "smart-limit"
 name = "smart limit"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Content-aware limiter with automatic parametrization, loudness monitoring, and sound-shaping tools."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/smartlimit/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/8476-smart-limit"
 

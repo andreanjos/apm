@@ -2,11 +2,12 @@ slug = "pureeq-crossgrade"
 name = "pure:EQ Crossgrade"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Crossgrade pricing for pure:EQ, sonible's AI-powered equalizer for creators."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/pureeq/"
 is_paid = true
 
 [formats.vst3]

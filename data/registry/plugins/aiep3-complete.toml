@@ -2,11 +2,12 @@ slug = "aiep3-complete"
 name = "AIEP3 Complete"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Complete bundle of all Air Music Tech virtual instruments and effects plugins."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com"
 is_paid = true
 
 [formats.vst3]

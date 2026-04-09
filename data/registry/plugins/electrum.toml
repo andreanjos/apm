@@ -2,11 +2,12 @@ slug = "electrum"
 name = "Electrum"
 vendor = "United Plugins"
 version = "1.0.0"
-description = ""
+description = "All-in-one guitar amp plugin with 5 amplifiers, 300+ cabinet simulations, and comprehensive effects."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com/Electrum/"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/7746-Electrum"
 

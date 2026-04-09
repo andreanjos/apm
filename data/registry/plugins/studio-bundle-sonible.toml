@@ -2,11 +2,12 @@ slug = "studio-bundle-sonible"
 name = "Studio Bundle"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Comprehensive bundle of all sonible plugins including smart, pure, and metering series."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/studiobundle/"
 is_paid = true
 
 [formats.vst3]

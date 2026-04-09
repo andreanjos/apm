@@ -1,12 +1,13 @@
 slug = "t-organ"
 name = "T-Organ"
 vendor = "Rhythmic Robot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "A Kontakt instrument sampled from a vintage Weltmeister transistor organ for Vox-style tones."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.rhythmicrobot.com/product/t-organ-kontakt-instrument"
 is_paid = true
 
 [formats.vst3]

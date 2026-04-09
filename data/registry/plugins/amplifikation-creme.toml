@@ -2,11 +2,12 @@ slug = "amplifikation-creme"
 name = "Amplifikation Creme"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "Modern high-gain and metal guitar amp simulator with darker, fuller, heavier sound."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/amplifikation-creme/"
 is_paid = true
 
 [formats.vst3]

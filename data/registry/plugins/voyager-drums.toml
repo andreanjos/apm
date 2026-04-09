@@ -2,11 +2,12 @@ slug = "voyager-drums"
 name = "Voyager Drums"
 vendor = "Best Service"
 version = "1.0.0"
-description = ""
+description = "Two power drum kits with a punchy sound and 360 MIDI grooves for Pop, Rock, Jazz, and Funk production."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/voyager_drums.html"
 is_paid = true
 
 [formats.vst3]

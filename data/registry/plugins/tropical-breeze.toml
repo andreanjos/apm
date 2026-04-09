@@ -2,11 +2,12 @@ slug = "tropical-breeze"
 name = "Tropical Breeze"
 vendor = "Rigid Audio"
 version = "1.0.0"
-description = ""
+description = "Tropical house Kontakt instrument with 86 multisampled sounds and Triquencer sequencer."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.rigid-audio.com/product/tropical-breeze/"
 is_paid = true
 
 [formats.vst3]

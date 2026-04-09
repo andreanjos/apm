@@ -1,12 +1,13 @@
 slug = "baervaag"
 name = "Baervaag"
 vendor = "Klevgrand"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "An FM synthesizer with one carrier and one modulator, LP filter, chorus, and 50+ expressive presets."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://klevgrand.com/products/baervaag"
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/3359-Baervaag"
 

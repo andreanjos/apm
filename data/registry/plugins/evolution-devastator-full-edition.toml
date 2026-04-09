@@ -2,11 +2,12 @@ slug = "evolution-devastator-full-edition"
 name = "Evolution: Devastator Full Edition"
 vendor = "Keepforest"
 version = "1.0.0"
-description = ""
+description = "Keepforest Evolution: Devastator Full Edition, a hybrid industrial toolkit for Kontakt Player."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://keep-forest.com/store"
 is_paid = true
 
 [formats.vst3]

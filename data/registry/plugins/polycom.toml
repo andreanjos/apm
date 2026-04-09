@@ -2,11 +2,12 @@ slug = "polycom"
 name = "Polycom"
 vendor = "Synth Magic"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of the Polymoog 203a delivering authentic, deep analog Polymoog tones and textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://synthmagic.co.uk/polycom-and-zom-zom/"
 is_paid = true
 
 [formats.vst3]

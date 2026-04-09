@@ -2,11 +2,12 @@ slug = "air-super-synth-pack"
 name = "Air Super Synth Pack"
 vendor = "Air Music Tech"
 version = "1.0.0"
-description = ""
+description = "Bundle of Air Music Tech's top synthesizer plugins for modern music production."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.airmusictech.com"
 is_paid = true
 
 [formats.vst3]

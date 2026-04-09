@@ -2,11 +2,12 @@ slug = "amplifikation-caliburn"
 name = "Amplifikation Caliburn"
 vendor = "Kuassa"
 version = "1.0.0"
-description = ""
+description = "British-style guitar amp simulator inspired by Marshall JTM45, JCM800, and JCM900 models."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.kuassa.com/products/amplifikation-caliburn/"
 is_paid = true
 
 [formats.vst3]

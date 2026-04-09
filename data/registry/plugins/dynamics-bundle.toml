@@ -2,11 +2,12 @@ slug = "dynamics-bundle"
 name = "Dynamics Bundle"
 vendor = "sonible"
 version = "1.0.0"
-description = ""
+description = "Bundle of sonible's AI-powered dynamics processors for compression, gating, and limiting."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonible.com/dynamicsbundle/"
 is_paid = true
 
 [formats.vst3]

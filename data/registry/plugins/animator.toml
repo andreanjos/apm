@@ -2,11 +2,12 @@ slug = "animator"
 name = "Animator"
 vendor = "ProjectSAM"
 version = "1.0.0"
-description = ""
+description = "Kontakt library for cartoon and animation scoring with characterful whimsical instruments."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://projectsam.com/libraries/colours-animator/"
 is_paid = true
 
 [formats.vst3]
