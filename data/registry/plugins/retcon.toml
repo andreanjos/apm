@@ -2,11 +2,12 @@ slug = "retcon"
 name = "Retcon"
 vendor = "AudioWarp"
 version = "1.0.0"
-description = ""
+description = "Boards of Canada-inspired Kontakt library with lo-fi modulated pads, leads, and keys."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/developer/audiowarp"
 is_paid = true
 
 [formats.vst3]

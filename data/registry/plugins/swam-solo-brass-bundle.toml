@@ -1,12 +1,13 @@
 slug = "swam-solo-brass-bundle"
 name = "SWAM Solo Brass Bundle"
 vendor = "Audio Modeling"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Bundle of all SWAM Solo Brass — trumpets, trombones, and horns/tubas — using physical modeling technology."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://audiomodeling.com/swam-bundle/"
 is_paid = true
 
 [formats.vst3]

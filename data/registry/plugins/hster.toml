@@ -2,11 +2,12 @@ slug = "hster"
 name = "Hster"
 vendor = "Karoryfer Samples"
 version = "1.0.0"
-description = ""
+description = "Opera mezzosoprano vocal library singing in reconstructed Proto-Indo-European language with true legato."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://shop.karoryfer.com/products/hster"
 is_paid = true
 
 [formats.vst3]

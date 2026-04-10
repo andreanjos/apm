@@ -2,11 +2,12 @@ slug = "arco-solista"
 name = "Arco Solista"
 vendor = "Capsule Audio"
 version = "1.0.0"
-description = ""
+description = "Capsule solo violin and cello library with multiple articulations, round robins, and two mic positions."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.capsule.audio/"
 is_paid = true
 
 [formats.vst3]

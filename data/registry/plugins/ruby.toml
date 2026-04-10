@@ -1,14 +1,15 @@
 slug = "ruby"
 name = "Ruby"
 vendor = "Ear Candy Technologies"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Creative delay plugin with warm character and extensive modulation from Ear Candy Technologies."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.earcandytechnologies.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/9528-Ruby"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/9528-Ruby?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

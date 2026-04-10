@@ -2,13 +2,14 @@ slug = "minilooper"
 name = "MiniLooper"
 vendor = "Audio Blast"
 version = "1.0.0"
-description = ""
+description = "Compact real-time audio looper with time and pitch manipulation for creative drum effects."
 category = "effects"
 subcategory = "drum fx"
 license = "commercial"
 tags = []
+homepage = "https://www.audioblast.me/product/minilooper/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/13-Drum-FX/11464-MiniLooper"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/13-Drum-FX/11464-MiniLooper?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

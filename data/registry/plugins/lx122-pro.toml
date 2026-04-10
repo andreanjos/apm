@@ -1,14 +1,15 @@
 slug = "lx122-pro"
 name = "LX122 Pro"
 vendor = "XILS Lab"
-version = "1.0.0"
-description = ""
+version = "1.0.3"
+description = "Professional Leslie rotating speaker emulation for keyboards with tube amp and surround capabilities."
 category = "effects"
 subcategory = "surround tools"
 license = "commercial"
 tags = []
+homepage = "https://www.xils-lab.com/store/lx122/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/38-Surround-Tools/1705-LX122-Pro"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/38-Surround-Tools/1705-LX122-Pro?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

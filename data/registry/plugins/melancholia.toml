@@ -2,11 +2,12 @@ slug = "melancholia"
 name = "Melancholia"
 vendor = "Sketch Sampling"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of processed electric guitar, sound design instruments, and enveloping ambiences."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sketchsampling.ru/melancholia/"
 is_paid = true
 
 [formats.vst3]

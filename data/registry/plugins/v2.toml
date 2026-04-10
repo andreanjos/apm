@@ -1,12 +1,13 @@
 slug = "v2"
 name = "V2"
 vendor = "AudioCipher"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "AudioCipher V2 converts text into MIDI chord progressions for instant music composition."
 category = "effects"
 subcategory = "midi"
 license = "commercial"
 tags = []
+homepage = "https://audiocipher.com/"
 is_paid = true
 
 [formats.vst3]

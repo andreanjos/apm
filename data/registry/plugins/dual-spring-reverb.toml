@@ -2,10 +2,11 @@ slug = "dual-spring-reverb"
 name = "Dual Spring Reverb"
 vendor = "Physical Audio"
 version = "1.0.0"
-description = ""
+description = "Physical model of helical spring vibration recreating classic spring reverb using real physics."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://physicalaudio.co.uk/products/dual-spring-reverb/"
 is_paid = true
 
 [formats.vst3]

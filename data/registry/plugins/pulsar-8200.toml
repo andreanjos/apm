@@ -2,13 +2,14 @@ slug = "pulsar-8200"
 name = "Pulsar 8200"
 vendor = "Pulsar Audio"
 version = "1.0.0"
-description = ""
+description = "Class-A analog EQ emulation modelled on the GML 8200 master bus equalizer."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://pulsar.audio/8200/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/10532-Pulsar-8200"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/10532-Pulsar-8200?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

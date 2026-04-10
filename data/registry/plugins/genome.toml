@@ -2,13 +2,14 @@ slug = "genome"
 name = "GENOME"
 vendor = "Two Notes Audio Engineering"
 version = "1.0.0"
-description = ""
+description = "Pro-grade amp, pedal, and studio FX software suite with DynIR cabinet engine for end-to-end tone."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.two-notes.com/en/genome/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/11868-GENOME"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/11868-GENOME?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

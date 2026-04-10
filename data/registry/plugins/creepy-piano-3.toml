@@ -1,12 +1,13 @@
 slug = "creepy-piano-3"
 name = "Creepy Piano 3"
 vendor = "Electronik Sound Lab"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Lo-fi morphing piano instrument with processed samples from Steinway and Yamaha grand pianos."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://electroniksoundlab.com/"
 is_paid = true
 
 [formats.vst3]

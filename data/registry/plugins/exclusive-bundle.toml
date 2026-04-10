@@ -2,11 +2,12 @@ slug = "exclusive-bundle"
 name = "Exclusive Bundle"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Sonokinetic exclusive bundle combining multiple orchestral Kontakt libraries at a discounted price."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/bundles/"
 is_paid = true
 
 [formats.vst3]

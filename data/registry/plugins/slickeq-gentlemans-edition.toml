@@ -1,12 +1,13 @@
 slug = "slickeq-gentlemans-edition"
 name = "SlickEQ Gentleman’s Edition"
 vendor = "Tokyo Dawn Labs"
-version = "1.0.0"
-description = ""
+version = "1.3.9"
+description = "Gentleman's Edition musical equalizer with three filter types, output saturation and M/S processing."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.tokyodawn.net/tdr-vos-slickeq-ge/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "krotos-everything-bundle"
 name = "Krotos Everything Bundle"
 vendor = "Krotos Audio"
 version = "1.0.0"
-description = ""
+description = "Complete Krotos bundle of sound design plugins including Dehumaniser, Weaponiser, and Igniter."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.krotosaudio.com/products/"
 is_paid = true
 
 [formats.vst3]

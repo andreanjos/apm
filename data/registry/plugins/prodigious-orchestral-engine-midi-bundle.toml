@@ -2,11 +2,12 @@ slug = "prodigious-orchestral-engine-midi-bundle"
 name = "Prodigious Orchestral Engine + MIDI Bundle"
 vendor = "New Nation"
 version = "1.0.0"
-description = ""
+description = "Prodigious Orchestral Engine bundled with an Ultimate MIDI Library for cinematic composition."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://nnaud.io/"
 is_paid = true
 
 [formats.vst3]

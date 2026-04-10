@@ -2,10 +2,11 @@ slug = "cube-lunacy-audio"
 name = "CUBE"
 vendor = "Lunacy Audio"
 version = "1.0.0"
-description = ""
+description = "Advanced sample-based synthesizer with 300+ multi-sampled sound sources and 1000+ presets."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://lunacy.audio/products/cube/"
 is_paid = true
 
 [formats.vst3]

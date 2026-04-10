@@ -1,12 +1,13 @@
 slug = "realrick"
 name = "RealRick"
 vendor = "MusicLab"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Virtual Rickenbacker guitar instrument capturing the classic jangle and unique tone of the Rick."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.musiclab.com/"
 is_paid = true
 
 [formats.vst3]

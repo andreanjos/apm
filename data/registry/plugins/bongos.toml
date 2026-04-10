@@ -1,12 +1,13 @@
 slug = "bongos"
 name = "Bongos"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "1.1.2"
+description = "Professionally recorded Kontakt bongo library with 850 samples, single hits, and Brazilian rhythmic loops."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/"
 is_paid = true
 
 [formats.vst3]

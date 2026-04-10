@@ -2,11 +2,12 @@ slug = "cracklefield"
 name = "Cracklefield"
 vendor = "SzcZ"
 version = "1.0.0"
-description = ""
+description = "Advanced generative Kontakt sequencer with cellular automaton-inspired multi-directional patterns."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/szcz/Cracklefield"
 is_paid = true
 
 [formats.vst3]

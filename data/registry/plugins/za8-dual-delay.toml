@@ -2,13 +2,14 @@ slug = "za8-dual-delay"
 name = "ZA8 Dual Delay"
 vendor = "7air Media"
 version = "1.0.0"
-description = ""
+description = "Free dual delay plugin with echo and ping pong modes, optimized for dub and reggae productions."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/product/2-Effects/10-Delay/33-ZA8-Dual-Delay"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/33-ZA8-Dual-Delay"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/33-ZA8-Dual-Delay?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,13 +2,14 @@ slug = "phasethree"
 name = "PhaseThree"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Six-stage phaser modulation effect with tempo sync and stereo operation for classic phase sounds."
 category = "effects"
 subcategory = "phaser"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/products/ad048-phasethree"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/8852-PhaseThree"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/8852-PhaseThree?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

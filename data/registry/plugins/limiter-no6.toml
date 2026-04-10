@@ -1,14 +1,15 @@
 slug = "limiter-no6"
 name = "Limiter No6"
 vendor = "VladgSound"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Free multiband limiter plugin by VladgSound with six independent limiting stages."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://vladgsound.wordpress.com/plugins/limiter6/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/338-Limiter-No6"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/338-Limiter-No6?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

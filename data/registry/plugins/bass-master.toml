@@ -2,11 +2,12 @@ slug = "bass-master"
 name = "Bass Master"
 vendor = "Loopmasters Plugins"
 version = "1.0.0"
-description = ""
+description = "Bass synthesizer with 217 curated waveforms and 350+ mix-ready presets for any genre."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instrument/4412-Bass-Master-"
 is_paid = true
 
 [formats.vst3]

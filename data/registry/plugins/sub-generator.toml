@@ -2,13 +2,14 @@ slug = "sub-generator"
 name = "Sub Generator"
 vendor = "Denise Audio"
 version = "1.0.0"
-description = ""
+description = "Sub-bass enhancer plugin that generates clean, powerful sub-frequencies below any source."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.deniseaudio.com/plugins/sub-generator"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/7098-Sub-Generator"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/7098-Sub-Generator?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

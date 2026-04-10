@@ -2,11 +2,12 @@ slug = "cassette-mallets-01-multi-format-bundle"
 name = "Cassette Mallets.01 – Multi-Format Bundle"
 vendor = "THEPHONOLOOP"
 version = "1.0.0"
-description = ""
+description = "Multi-format bundle of Cassette Mallets.01 — three lo-fi bell/mallet instruments recorded on cassette."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://thephonoloop.com/products/cassette-mallets-01"
 is_paid = true
 
 [formats.vst3]

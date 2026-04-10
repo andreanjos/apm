@@ -1,12 +1,13 @@
 slug = "ezdrummer-3-bundle"
 name = "EZdrummer 3 Bundle"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "3.1.2"
+description = "EZdrummer 3 bundle combining the flagship drum instrument with additional expansion content."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/ezdrummer-3/"
 is_paid = true
 
 [formats.vst3]

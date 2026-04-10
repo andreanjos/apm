@@ -1,12 +1,13 @@
 slug = "swam-all-in-bundle"
 name = "SWAM All In Bundle"
 vendor = "Audio Modeling"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Complete SWAM collection of physically modeled solo woodwinds, brass, and strings instruments."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://audiomodeling.com/swam-bundle/"
 is_paid = true
 
 [formats.vst3]

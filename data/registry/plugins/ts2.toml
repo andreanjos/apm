@@ -1,12 +1,13 @@
 slug = "ts2"
 name = "TS2"
 vendor = "IrcamLab"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "IrcamLab TS2 offers high-quality time-stretching and pitch-shifting with transient preservation."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.ircamlab.com/products/p2119-TS2/"
 is_paid = true
 
 [formats.vst3]

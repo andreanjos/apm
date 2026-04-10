@@ -2,11 +2,12 @@ slug = "exclusive-choir-bundle"
 name = "Exclusive Choir Bundle"
 vendor = "Strezov Sampling"
 version = "1.0.0"
-description = ""
+description = "Premium Kontakt choir bundle with SATB true polyphonic legato and 30 GB of pristine vocal samples."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.strezov-sampling.com/bundles/"
 is_paid = true
 
 [formats.vst3]

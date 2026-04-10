@@ -1,12 +1,13 @@
 slug = "clips"
 name = "Clips"
 vendor = "Sixth Sample"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sixth Sample Clips is a transient-responsive compressor with intuitive visual feedback."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.sixthsample.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "orchestral-bundle"
 name = "Orchestral Bundle"
 vendor = "Musical Sampling"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Orchestral Kontakt library bundle from Musical Sampling combining key brass and strings sample libraries."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://musicalsampling.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "naturaliser"
 name = "Naturaliser"
 vendor = "Rast Sound"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Micro-variation effect plugin adding subtle human-like fluctuations across spectral, transient, and noise dimensions."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/naturaliser/"
 is_paid = true
 
 [formats.vst3]

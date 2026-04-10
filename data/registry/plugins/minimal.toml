@@ -2,11 +2,12 @@ slug = "minimal"
 name = "Minimal"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Minimalist pattern-based orchestral phrases Kontakt library for understated cinematic writing."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/classical/minimal/"
 is_paid = true
 
 [formats.vst3]

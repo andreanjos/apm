@@ -2,13 +2,14 @@ slug = "wurlitzer-by-rhodes"
 name = "Wurlitzer by Rhodes"
 vendor = "Rhodes"
 version = "1.0.0"
-description = ""
+description = "Official virtual recreation of the classic Wurlitzer electric piano by Rhodes Music."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://rhodesmusic.com/software/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/14971-Wurlitzer-by-Rhodes"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/14971-Wurlitzer-by-Rhodes?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

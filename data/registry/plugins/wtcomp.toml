@@ -1,14 +1,15 @@
 slug = "wtcomp"
 name = "WTComp"
 vendor = "Plektron"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Waveform-transparent compressor plugin by Plektron for musical dynamic control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.plektron.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/631-WTComp"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/631-WTComp?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

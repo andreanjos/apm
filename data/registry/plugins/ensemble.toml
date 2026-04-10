@@ -1,12 +1,13 @@
 slug = "ensemble"
 name = "Ensemble"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Ensemble chorus Snapin that thickens and widens sounds with modulated detuning."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/ensemble"
 is_paid = true
 
 [formats.vst3]

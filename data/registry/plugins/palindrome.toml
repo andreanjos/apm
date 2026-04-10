@@ -1,11 +1,12 @@
 slug = "palindrome"
 name = "Palindrome"
 vendor = "Glitchmachines"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Glitch and stutter effects plugin with generative sequencing for forward-thinking sound design."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://glitchmachines.com/products/palindrome/"
 is_paid = true
 
 [formats.vst3]

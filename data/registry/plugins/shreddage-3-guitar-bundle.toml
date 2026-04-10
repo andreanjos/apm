@@ -2,11 +2,12 @@ slug = "shreddage-3-guitar-bundle"
 name = "Shreddage 3 Guitar Bundle"
 vendor = "Impact Soundworks"
 version = "1.0.0"
-description = ""
+description = "Bundled collection of Shreddage 3 electric guitar instruments for professional virtual guitar production."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://impactsoundworks.com/product/shreddage-3-bundle/"
 is_paid = true
 
 [formats.vst3]

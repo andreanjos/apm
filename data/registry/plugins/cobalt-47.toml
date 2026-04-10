@@ -2,11 +2,12 @@ slug = "cobalt-47"
 name = "Cobalt 47"
 vendor = "Sampletrip"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of carefully sampled vintage synthesizer sounds with expressive playability."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/cobalt-47-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "rift-filter-lite"
 name = "Rift Filter Lite"
 vendor = "Minimal Audio"
 version = "1.0.0"
-description = ""
+description = "Free lite filter plugin with morphing filter modes drawn from the Rift distortion engine."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.minimal.audio/products/rift-filter-lite"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/7806-Rift-Filter-Lite"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/7806-Rift-Filter-Lite?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

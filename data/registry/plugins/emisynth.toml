@@ -1,14 +1,15 @@
 slug = "emisynth"
 name = "EMISYNTH"
 vendor = "Strix Instruments"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "EMI-inspired synthesizer Kontakt instrument by Strix Instruments with vintage analog character."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://strixinstruments.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7599-EMISYNTH"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7599-EMISYNTH?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

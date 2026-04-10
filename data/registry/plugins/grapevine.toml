@@ -2,11 +2,12 @@ slug = "grapevine"
 name = "Grapevine"
 vendor = "Capsule Audio"
 version = "1.0.0"
-description = ""
+description = "Capsule vintage electric piano based on the Wurlitzer 140B with a warm, dusty 60s and 70s feel."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.capsule.audio/"
 is_paid = true
 
 [formats.vst3]

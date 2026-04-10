@@ -2,13 +2,14 @@ slug = "kstrip"
 name = "KStrip"
 vendor = "Kiive Audio"
 version = "1.0.0"
-description = ""
+description = "Channel strip combining the character of three world-renowned large-format consoles in one plugin."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.kiiveaudio.com/products/kstrip"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/14793-KStrip"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/14793-KStrip?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

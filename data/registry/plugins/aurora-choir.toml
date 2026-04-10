@@ -2,11 +2,12 @@ slug = "aurora-choir"
 name = "Aurora Choir"
 vendor = "Aria Sounds"
 version = "1.0.0"
-description = ""
+description = "Soprano and alto choir Kontakt library with detailed legato and syllable sequencing for cinematic scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://ariasounds.com/product/aurora-choir/"
 is_paid = true
 
 [formats.vst3]

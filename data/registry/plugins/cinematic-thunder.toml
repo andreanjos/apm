@@ -2,11 +2,12 @@ slug = "cinematic-thunder"
 name = "Cinematic Thunder"
 vendor = "Vir2"
 version = "1.0.0"
-description = ""
+description = "Epic orchestral tom Kontakt instrument designed for cinematic trailers and action cues."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.vir2.com/instruments/"
 is_paid = true
 
 [formats.vst3]

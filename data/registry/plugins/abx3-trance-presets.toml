@@ -2,13 +2,14 @@ slug = "abx3-trance-presets"
 name = "Abx3 Trance Presets"
 vendor = "Audio Blast"
 version = "1.0.0"
-description = ""
+description = "Trance-focused preset pack expansion for the Abx3 bassline synthesizer by Audio Blast."
 category = "instruments"
 subcategory = "expansion packs"
 license = "commercial"
 tags = []
+homepage = "https://www.audioblast.me/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/14561-Abx3-Trance-Presets"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/14561-Abx3-Trance-Presets?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

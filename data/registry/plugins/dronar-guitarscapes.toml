@@ -2,11 +2,12 @@ slug = "dronar-guitarscapes"
 name = "Dronar Guitarscapes"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument turning guitar recordings into lush atmospheric pads and textures."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/dronar-guitarscapes"
 is_paid = true
 
 [formats.vst3]

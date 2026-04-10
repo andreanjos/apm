@@ -2,11 +2,12 @@ slug = "complete-bundle-xhun-audio"
 name = "Complete Bundle"
 vendor = "Xhun Audio"
 version = "1.0.0"
-description = ""
+description = "All Xhun Audio plugins in one bundle: LittleOne, IronAxe, ResonHeart, ShineVerb, FilterCult, ZeroBox, and more."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.xhun-audio.com/site/xhun.php?page=shop"
 is_paid = true
 
 [formats.vst3]

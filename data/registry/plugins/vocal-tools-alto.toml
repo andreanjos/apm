@@ -2,11 +2,12 @@ slug = "vocal-tools-alto"
 name = "Vocal Tools Alto"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Female alto soloist Kontakt library with phrase-based legato scripting for realistic vocal melodies."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/vocal-tools-alto/"
 is_paid = true
 
 [formats.vst3]

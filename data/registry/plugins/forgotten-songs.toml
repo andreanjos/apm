@@ -1,12 +1,13 @@
 slug = "forgotten-songs"
 name = "Forgotten Songs"
 vendor = "unEarthed Sampling"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt instrument built from time-stretched and mangled public domain vinyl recordings from the 1930s."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.unearthedsampling.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "theqorange"
 name = "thEQorange"
 vendor = "MAAT"
 version = "1.0.0"
-description = ""
+description = "Time-domain linear phase EQ ideal for surgical corrective mastering work."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.maat.digital/theqorange/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11570-thEQorange"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11570-thEQorange?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

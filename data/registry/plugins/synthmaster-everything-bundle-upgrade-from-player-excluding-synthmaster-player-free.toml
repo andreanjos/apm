@@ -2,11 +2,12 @@ slug = "synthmaster-everything-bundle-upgrade-from-player-excluding-synthmaster-
 name = "SynthMaster Everything Bundle Upgrade from Player (Excluding SynthMaster Player FREE)"
 vendor = "KV331 Audio"
 version = "1.0.0"
-description = ""
+description = "Upgrade to the SynthMaster Everything Bundle from the Player edition, including all synths and expansions."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.kv331audio.com/"
 is_paid = true
 
 [formats.vst3]

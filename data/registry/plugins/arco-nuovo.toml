@@ -2,11 +2,12 @@ slug = "arco-nuovo"
 name = "Arco Nuovo"
 vendor = "Capsule Audio"
 version = "1.0.0"
-description = ""
+description = "Capsule orchestral strings library that layers acoustic and synthesized elements for contemporary atmospheres."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.capsule.audio/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "substance"
 name = "Substance"
 vendor = "Output"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt Player bass instrument delivering deep, evolving low-end tones for electronic and cinematic music."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://output.com/products/substance"
 is_paid = true
 
 [formats.vst3]

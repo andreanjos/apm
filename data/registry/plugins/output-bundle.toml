@@ -1,12 +1,13 @@
 slug = "output-bundle"
 name = "Output Bundle"
 vendor = "Output"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Collection of Output's core instrument plugins including EXHALE, Signal, REV, Substance, and Analog series."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://output.com/products"
 is_paid = true
 
 [formats.vst3]

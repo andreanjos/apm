@@ -1,14 +1,14 @@
 slug = "bad-tape"
 name = "Bad Tape"
 vendor = "denise"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Free tape emulation plugin wrapping tracks in the warmth and warble of analog tape."
 category = "effects"
 subcategory = "lo-fi"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.deniseaudio.com/plugins/bad-tape"
 
 [formats.vst3]
 url = ""

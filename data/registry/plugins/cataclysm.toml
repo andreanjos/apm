@@ -2,13 +2,14 @@ slug = "cataclysm"
 name = "Cataclysm"
 vendor = "Aberrant DSP"
 version = "1.0.0"
-description = ""
+description = "Signal destruction machine with unconventional drive circuits and analog-inspired multi-effects."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://aberrantdsp.com/plugins/cataclysm/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/16143-Cataclysm"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/16143-Cataclysm?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

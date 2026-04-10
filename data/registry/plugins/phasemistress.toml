@@ -1,14 +1,15 @@
 slug = "phasemistress"
 name = "PhaseMistress"
 vendor = "Soundtoys"
-version = "1.0.0"
-description = ""
+version = "5.5"
+description = "Analog-style phaser plugin with multiple modulation sources for classic and modern phasing effects."
 category = "effects"
 subcategory = "phaser"
 license = "commercial"
 tags = []
+homepage = "https://www.soundtoys.com/product/phasemistress/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/1808-PhaseMistress"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/1808-PhaseMistress?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

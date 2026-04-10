@@ -2,11 +2,12 @@ slug = "fold"
 name = "Fold"
 vendor = "Delta Sound Labs"
 version = "1.0.0"
-description = ""
+description = "Wavefolding distortion plugin delivering rich harmonic saturation with tape delay and LFO modulation."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.deltasoundlabs.com/"
 is_paid = true
 
 [formats.vst3]

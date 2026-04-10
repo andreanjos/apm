@@ -1,12 +1,13 @@
 slug = "antique-metal-percussion"
 name = "Antique Metal Percussion"
 vendor = "unEarthed Sampling"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Unique Kontakt percussion library sampled from antique metal objects including WWII artefacts and vintage items."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.unearthedsampling.com/antique-metal-percussion"
 is_paid = true
 
 [formats.vst3]

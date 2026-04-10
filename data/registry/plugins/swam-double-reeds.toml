@@ -1,12 +1,13 @@
 slug = "swam-double-reeds"
 name = "SWAM Double Reeds"
 vendor = "Audio Modeling"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Four physically modeled woodwinds — oboe, English horn, bassoon, and contrabassoon — with real-time expression."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://audiomodeling.com/swam-engine/solo-woodwinds/swam-double-reeds/"
 is_paid = true
 
 [formats.vst3]

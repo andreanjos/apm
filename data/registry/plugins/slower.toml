@@ -2,13 +2,14 @@ slug = "slower"
 name = "Slower"
 vendor = "e instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument of 65 sound sources recorded to four tape machines and pitched down an octave."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://e-instruments.com/instruments/tape/slower/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13161-Slower"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13161-Slower?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

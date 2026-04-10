@@ -2,10 +2,11 @@ slug = "true-iron"
 name = "True Iron"
 vendor = "Kazrog"
 version = "1.0.0"
-description = ""
+description = "Analog transformer saturation plugin emulating 6 legendary line transformers for weight and girth."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://kazrog.com/collections/audio-plugins/products/true-iron"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "realphones-2-standard"
 name = "Realphones 2 Standard"
 vendor = "dSONIQ"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Standard headphone monitoring correction plugin by dSONIQ for improved mix translation."
 category = "tools"
 subcategory = "referencing tools"
 license = "commercial"
 tags = []
+homepage = "https://dsoniq.com/realphones/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/11807-Realphones-2-Standard"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/11807-Realphones-2-Standard?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "synthmaster-2"
 name = "Synthmaster 2"
 vendor = "KV331 Audio"
-version = "1.0.0"
-description = ""
+version = "2.9.12"
+description = "Semi-modular synthesizer with dual-layer architecture, wavetable and analogue synthesis and extensive modulation."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.kv331audio.com/synthmaster.aspx"
 is_paid = true
 
 [formats.vst3]

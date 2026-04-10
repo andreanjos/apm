@@ -2,11 +2,12 @@ slug = "power-synth-electric-pianos"
 name = "Power Synth Electric Pianos"
 vendor = "Q Up Arts"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of electric piano sounds sourced from analog, digital, and vintage keyboard instruments."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.quparts.com/products/power-synth-keyboards"
 is_paid = true
 
 [formats.vst3]

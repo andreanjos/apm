@@ -2,11 +2,12 @@ slug = "the-lofi-bundle"
 name = "The LoFi Bundle"
 vendor = "Yum Audio"
 version = "1.0.0"
-description = ""
+description = "Yum Audio bundle of lo-fi effect plugins including Flux Machine, Flux Light, Playtime, and more."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.yum-audio.com/The-LoFi-Bundle/"
 is_paid = true
 
 [formats.vst3]

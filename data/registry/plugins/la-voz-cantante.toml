@@ -1,14 +1,15 @@
 slug = "la-voz-cantante"
 name = "La Voz Cantante"
 vendor = "MV s Plugins"
-version = "1.0.0"
-description = ""
+version = "6.4"
+description = "MV's Plugins La Voz Cantante is a vocoder plugin for robotic and harmonic vocal effects."
 category = "effects"
 subcategory = "vocoder"
 license = "commercial"
 tags = []
+homepage = "https://www.mvplugins.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/8469-La-Voz-Cantante"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/8469-La-Voz-Cantante?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

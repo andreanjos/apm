@@ -2,11 +2,12 @@ slug = "capriccio"
 name = "Capriccio"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Vigorous phrase-based orchestral Kontakt library — Sonokinetic's largest collection yet."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/classical/capriccio/"
 is_paid = true
 
 [formats.vst3]

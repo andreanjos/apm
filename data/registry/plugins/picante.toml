@@ -2,13 +2,14 @@ slug = "picante"
 name = "Picante"
 vendor = "Stagecraft Software"
 version = "1.0.0"
-description = ""
+description = "Multiband graphical EQ plugin with intuitive resonance controls for detailed spectral shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/picante/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/4333-Picante"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/4333-Picante?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

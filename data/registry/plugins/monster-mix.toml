@@ -2,11 +2,12 @@ slug = "monster-mix"
 name = "Monster Mix"
 vendor = "DUY"
 version = "1.0.0"
-description = ""
+description = "Automatic dynamics and EQ optimizer that adds a professional final touch to any musical mix."
 category = "effects"
 subcategory = "mixing"
 license = "commercial"
 tags = []
+homepage = "https://duy.com/product/monster-mix/"
 is_paid = true
 
 [formats.vst3]

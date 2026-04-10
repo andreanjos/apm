@@ -2,11 +2,12 @@ slug = "afflatus-chapter-i-strings"
 name = "Afflatus Chapter I Strings"
 vendor = "Strezov Sampling"
 version = "1.0.0"
-description = ""
+description = "Epic orchestral strings library for Kontakt Player with true polyphonic legato and Velocity Dynamics."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.strezov-sampling.com/products/view/afflatus-chapter-i.html"
 is_paid = true
 
 [formats.vst3]

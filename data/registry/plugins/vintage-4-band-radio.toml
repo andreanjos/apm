@@ -2,11 +2,12 @@ slug = "vintage-4-band-radio"
 name = "Vintage 4 Band Radio"
 vendor = "Alden Nulden Productions"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument emulating the character and tone coloring of a vintage 4-band radio."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "http://aldennuldenproductions.com/product/vintage-4-band-radio-kontakt-version/"
 is_paid = true
 
 [formats.vst3]

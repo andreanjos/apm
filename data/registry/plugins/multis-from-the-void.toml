@@ -2,11 +2,12 @@ slug = "multis-from-the-void"
 name = "Multis from the Void"
 vendor = "Beautiful Void Audio"
 version = "1.0.0"
-description = ""
+description = "Large Kontakt collection of unusual sound design multis crafted from Beautiful Void Audio's previous releases."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.beautifulvoidaudio.com/"
 is_paid = true
 
 [formats.vst3]

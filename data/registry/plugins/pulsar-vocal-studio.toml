@@ -2,13 +2,14 @@ slug = "pulsar-vocal-studio"
 name = "Pulsar Vocal Studio"
 vendor = "Pulsar Audio"
 version = "1.0.0"
-description = ""
+description = "All-in-one vocal mixing plugin with preamp, compression, EQ, de-esser and effects."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://pulsar.audio/vocal-studio/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15002-Pulsar-Vocal-Studio"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15002-Pulsar-Vocal-Studio?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

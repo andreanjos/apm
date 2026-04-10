@@ -2,13 +2,14 @@ slug = "perception-ab"
 name = "Perception AB"
 vendor = "MeterPlugs"
 version = "1.0.0"
-description = ""
+description = "A/B comparison plugin that auto-matches loudness to eliminate loudness deception in mixing."
 category = "tools"
 subcategory = "metering"
 license = "commercial"
 tags = []
+homepage = "https://www.meterplugs.com/perception-ab"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/7561-Perception-AB"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/7561-Perception-AB?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

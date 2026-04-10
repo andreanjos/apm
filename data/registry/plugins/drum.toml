@@ -2,11 +2,12 @@ slug = "drum"
 name = "DRUM"
 vendor = "Loopcloud Plugins"
 version = "1.0.0"
-description = ""
+description = "16-pad drum sampler and sequencer connected to Loopcloud's library of premium percussion sounds."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.loopcloud.com/cloud/plugins"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "us-rack"
 name = "US Rack"
 vendor = "Three Body Technology"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "US-style channel strip emulation combining preamp, line-driver, and EQ for musical analog richness."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.threebodytech.com/en/products/deepvintage"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/14721-US-Rack"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/14721-US-Rack?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

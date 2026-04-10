@@ -2,11 +2,12 @@ slug = "sarod"
 name = "Sarod"
 vendor = "RDGAudio"
 version = "1.0.0"
-description = ""
+description = "AU/VST3 virtual instrument plugin faithfully capturing the Indian plucked lute Sarod."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rdgaudio.com/product/sarod/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "synthesizer-v-studio-2-pro-6-voices"
 name = "Synthesizer V Studio 2 Pro 6 Voices"
 vendor = "Dreamtonics"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Synthesizer V Studio 2 Pro by Dreamtonics with 6 voice slots for AI vocal generation."
 category = "instruments"
 subcategory = "vocal synth"
 license = "commercial"
 tags = []
+homepage = "https://dreamtonics.com/en/synthesizerv/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/14979-Synthesizer-V-Studio-2-Pro-6-Voices"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/14979-Synthesizer-V-Studio-2-Pro-6-Voices?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

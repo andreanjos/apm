@@ -2,11 +2,12 @@ slug = "power-synth-moog-synth"
 name = "Power Synth Moog Synth"
 vendor = "Q Up Arts"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of Moog-style synthesizer sounds from classic analog and vintage keyboard instruments."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.quparts.com/products/power-synth-keyboards"
 is_paid = true
 
 [formats.vst3]

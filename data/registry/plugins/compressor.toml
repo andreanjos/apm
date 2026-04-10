@@ -2,13 +2,14 @@ slug = "compressor"
 name = "Compressor"
 vendor = "Stagecraft Software"
 version = "1.0.0"
-description = ""
+description = "Feature-rich compressor plugin with a refined interface and professional-grade dynamics control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/compressor/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/5349-Compressor"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/5349-Compressor?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

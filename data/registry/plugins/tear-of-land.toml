@@ -1,12 +1,13 @@
 slug = "tear-of-land"
 name = "Tear of Land"
 vendor = "Three-Body Technology"
-version = "1.0.0"
-description = ""
+version = "1.6.0"
+description = "Deeply sampled ancient Chinese Xun ocarina virtual instrument for ethnic compositions."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.threebodytech.com/en/products/tearofland"
 is_paid = true
 
 [formats.vst3]

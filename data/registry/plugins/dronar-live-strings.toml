@@ -2,11 +2,12 @@ slug = "dronar-live-strings"
 name = "Dronar Live Strings"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt module transforming live string recordings into evolving atmospheric pads and drones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/dronar-live-strings"
 is_paid = true
 
 [formats.vst3]

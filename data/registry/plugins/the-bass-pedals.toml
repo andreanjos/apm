@@ -2,11 +2,12 @@ slug = "the-bass-pedals"
 name = "The Bass Pedals"
 vendor = "Bad Cat Samples"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument delivering sub-bass and sharp-toned bass pedal sounds."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://bad-cat-media-group.myshopify.com/collections/kontakt-virtual-instruments"
 is_paid = true
 
 [formats.vst3]

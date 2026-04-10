@@ -2,11 +2,12 @@ slug = "scarred-orchestra"
 name = "Scarred Orchestra"
 vendor = "infinit essentials"
 version = "1.0.0"
-description = ""
+description = "Dark trap orchestral VSTi with strings, violins, brass, and choirs for cinematic productions."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
+homepage = "https://infinit-essentials.com/products/scarred-orchestra-vsti"
 is_paid = true
 
 [formats.vst3]

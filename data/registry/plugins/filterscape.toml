@@ -2,13 +2,14 @@ slug = "filterscape"
 name = "Filterscape"
 vendor = "u he"
 version = "1.0.0"
-description = ""
+description = "Multi-talent filter plugin combining filters, EQ, waveshaping, and delay in one creative tool."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://u-he.com/products/filterscape/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/11231-Filterscape"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/11231-Filterscape?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

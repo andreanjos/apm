@@ -1,14 +1,15 @@
 slug = "trinity"
 name = "TRINITY"
 vendor = "KORG"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Software recreation of the KORG TRINITY DRS music workstation synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.korg.com/us/products/software/korg_collection/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16097-TRINITY"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16097-TRINITY?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

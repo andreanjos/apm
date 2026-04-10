@@ -1,12 +1,13 @@
 slug = "ezkeys-dream-machine"
 name = "EZKeys Dream Machine"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.1.5"
+description = "EZkeys expansion featuring hybrid synth and acoustic sounds ideal for modern pop, ambient and soundtrack work."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/dream-machine-ekx/"
 is_paid = true
 
 [formats.vst3]

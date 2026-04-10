@@ -1,14 +1,15 @@
 slug = "odin-2"
 name = "Odin 2"
 vendor = "TheWaveWarden"
-version = "1.0.0"
-description = ""
+version = "2.4"
+description = "TheWaveWarden Odin 2 is a free open-source 24-voice semi-modular synthesizer plugin."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://thewavewarden.com/pages/odin-2"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7226-Odin-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7226-Odin-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

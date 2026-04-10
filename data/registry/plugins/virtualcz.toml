@@ -1,12 +1,13 @@
 slug = "virtualcz"
 name = "VirtualCZ"
 vendor = "Plugin Boutique"
-version = "1.0.0"
-description = ""
+version = "1.3.1"
+description = "Phase distortion synthesizer inspired by Casio CZ-series digital synths of the 1980s."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/7-Plugin-Boutique"
 is_paid = true
 
 [formats.vst3]

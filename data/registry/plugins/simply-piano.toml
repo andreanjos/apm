@@ -2,11 +2,12 @@ slug = "simply-piano"
 name = "Simply Piano"
 vendor = "RDGAudio"
 version = "1.0.0"
-description = ""
+description = "Piano plugin with 10 studio-sampled piano models and 16 additional pads and string sounds."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://rdgaudio.com/product/simply-piano/"
 is_paid = true
 
 [formats.vst3]

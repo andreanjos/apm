@@ -1,12 +1,13 @@
 slug = "concept-2"
 name = "Concept 2"
 vendor = "Krotos Audio"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Powerfully simple synthesizer with an intuitive interface for fast, expressive sound design."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.krotosaudio.com/concept/"
 is_paid = true
 
 [formats.vst3]

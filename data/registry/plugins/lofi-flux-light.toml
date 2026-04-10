@@ -2,11 +2,12 @@ slug = "lofi-flux-light"
 name = "LoFi Flux Light"
 vendor = "Yum Audio"
 version = "1.0.0"
-description = ""
+description = "Simplified tape flux plugin for adding subtle pitch warble and slow instability to audio signals."
 category = "effects"
 subcategory = "lo-fi"
 license = "commercial"
 tags = []
+homepage = "https://www.yum-audio.com/"
 is_paid = true
 
 [formats.vst3]

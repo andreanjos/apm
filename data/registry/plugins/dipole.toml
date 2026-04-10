@@ -1,14 +1,15 @@
 slug = "dipole"
 name = "Dipole"
 vendor = "Sinevibes"
-version = "1.0.0"
-description = ""
+version = "2.1.3"
+description = "Through-zero flanger plugin creating classic jet-like flanging and chorus effects with deep modulation."
 category = "effects"
 subcategory = "flanger"
 license = "commercial"
 tags = []
+homepage = "https://www.sinevibes.com/dipole/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/4198-Dipole"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/4198-Dipole?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

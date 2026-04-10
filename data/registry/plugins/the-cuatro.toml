@@ -1,12 +1,13 @@
 slug = "the-cuatro"
 name = "The Cuatro"
 vendor = "Guareschi"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Authentic Venezuelan/Puerto Rican cuatro guitar instrument by Guareschi for Kontakt."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://guareschi.com/"
 is_paid = true
 
 [formats.vst3]

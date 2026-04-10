@@ -1,14 +1,15 @@
 slug = "map"
 name = "MAP"
 vendor = "GForce Software"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Polyphonic synthesizer inspired by classic analogue architecture with an intuitive, performance-focused interface."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.gforcesoftware.com/product/map/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16099-MAP"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16099-MAP?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

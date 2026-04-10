@@ -2,13 +2,14 @@ slug = "slice"
 name = "Slice"
 vendor = "Lese"
 version = "1.0.0"
-description = ""
+description = "Dynamic granular slicer plugin for creating evolving, layered looping structures from any audio."
 category = "effects"
 subcategory = "granular fx"
 license = "commercial"
 tags = []
+homepage = "https://lese.io/plugins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/14653-Slice"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/14653-Slice?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

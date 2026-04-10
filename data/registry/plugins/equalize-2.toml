@@ -1,14 +1,14 @@
 slug = "equalize-2"
 name = "Equalize 2"
 vendor = "Acon Digital"
-version = "1.0.0"
-description = ""
+version = "2.2.2"
+description = "Parametric EQ plugin with up to 12 bands, eight filter types, and mixed phase mode for precise sound shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://acondigital.com/products/equalize"
 
 [formats.vst3]
 url = ""

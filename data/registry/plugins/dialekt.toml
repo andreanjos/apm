@@ -2,13 +2,14 @@ slug = "dialekt"
 name = "Dialekt"
 vendor = "Sugar Bytes"
 version = "1.0.0"
-description = ""
+description = "8-track groovebox with 28 sound engines, song sequencer, and diverse synthesis methods for beat making."
 category = "instruments"
 subcategory = "groovebox"
 license = "commercial"
 tags = []
+homepage = "https://sugar-bytes.de/dialekt"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/6-Groovebox/14669-Dialekt"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/6-Groovebox/14669-Dialekt?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

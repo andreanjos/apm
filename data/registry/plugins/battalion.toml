@@ -2,11 +2,12 @@ slug = "battalion"
 name = "Battalion"
 vendor = "Hidden Path Audio"
 version = "1.0.0"
-description = ""
+description = "Orchestral brass Kontakt library recorded in three microphone positions for depth and power."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://www.hiddenpathaudio.com/"
 is_paid = true
 
 [formats.vst3]

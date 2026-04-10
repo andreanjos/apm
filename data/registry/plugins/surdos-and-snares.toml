@@ -2,11 +2,12 @@ slug = "surdos-and-snares"
 name = "Surdos and Snares"
 vendor = "Aria Sounds"
 version = "1.0.0"
-description = ""
+description = "Surdo and snare drum ensemble Kontakt library with over 6 GB of samples and 127 dynamic layers."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://ariasounds.com/product/surdos-and-snares/"
 is_paid = true
 
 [formats.vst3]

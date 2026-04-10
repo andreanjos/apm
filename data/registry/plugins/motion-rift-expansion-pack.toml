@@ -2,13 +2,14 @@ slug = "motion-rift-expansion-pack"
 name = "Motion Rift Expansion Pack"
 vendor = "Minimal Audio"
 version = "1.0.0"
-description = ""
+description = "Expansion pack for Current synthesizer featuring motion-inspired sounds and atmospheric textures."
 category = "instruments"
 subcategory = "expansion packs"
 license = "commercial"
 tags = []
+homepage = "https://www.minimal.audio/products/motion-rift-expansion-pack"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/8451-Motion-Rift-Expansion-Pack-"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/8451-Motion-Rift-Expansion-Pack-?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

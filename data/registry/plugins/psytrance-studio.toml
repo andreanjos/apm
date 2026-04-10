@@ -2,11 +2,12 @@ slug = "psytrance-studio"
 name = "Psytrance Studio"
 vendor = "G-Sonique"
 version = "1.0.0"
-description = ""
+description = "All-in-one virtual instrument plugin designed for creating professional psytrance music."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.g-sonique.com/shop.html"
 is_paid = true
 
 [formats.vst3]

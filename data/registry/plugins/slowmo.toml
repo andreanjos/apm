@@ -2,10 +2,11 @@ slug = "slowmo"
 name = "SlowMo"
 vendor = "Initial Audio"
 version = "1.0.0"
-description = ""
+description = "Multiband halftime and reverse effect plugin for real-time tempo and pitch manipulation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://initialaudio.com/slowmo2-halftime-effect-plugin/"
 is_paid = true
 
 [formats.vst3]

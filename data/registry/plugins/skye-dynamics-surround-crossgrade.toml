@@ -2,13 +2,13 @@ slug = "skye-dynamics-surround-crossgrade"
 name = "SKYE Dynamics Surround Crossgrade"
 vendor = "Signum Audio"
 version = "1.0.0"
-description = ""
+description = "Crossgrade pricing for SKYE Dynamics Surround supporting up to 7.1.4 Atmos channel configurations."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.signumaudio.com/skye-dynamics"
 
 [formats.vst3]
 url = ""

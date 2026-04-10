@@ -1,14 +1,15 @@
 slug = "emergent-drums-2"
 name = "Emergent Drums 2"
 vendor = "Audialab"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Audialab Emergent Drums 2 uses AI to generate unique royalty-free drum samples on demand."
 category = "instruments"
 subcategory = "drum synth"
 license = "commercial"
 tags = []
+homepage = "https://audialab.com/emergent-drums/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/139-Drum-Synth/11378-Emergent-Drums-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/139-Drum-Synth/11378-Emergent-Drums-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

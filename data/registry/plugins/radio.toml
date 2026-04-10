@@ -2,13 +2,14 @@ slug = "radio"
 name = "Radio"
 vendor = "Plugin Boutique"
 version = "1.0.0"
-description = ""
+description = "Utility plugin for streaming and sampling from internet radio stations directly inside your DAW."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/7-Plugin-Boutique"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/3941-Radio"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/3941-Radio?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

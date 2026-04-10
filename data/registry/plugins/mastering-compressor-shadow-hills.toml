@@ -1,12 +1,13 @@
 slug = "mastering-compressor-shadow-hills"
 name = "Mastering Compressor"
 vendor = "Shadow Hills"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Plugin emulation of the Shadow Hills Mastering Compressor with optical and discrete stages."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://shadowhillsindustries.com/"
 is_paid = true
 
 [formats.vst3]

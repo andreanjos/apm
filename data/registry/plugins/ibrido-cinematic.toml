@@ -2,11 +2,12 @@ slug = "ibrido-cinematic"
 name = "Ibrido Cinematic"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Hybrid cinematic sound design Kontakt instrument for creative scoring and sound manipulation."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/"
 is_paid = true
 
 [formats.vst3]

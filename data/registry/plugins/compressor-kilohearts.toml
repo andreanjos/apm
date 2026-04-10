@@ -1,14 +1,14 @@
 slug = "compressor-kilohearts"
 name = "Compressor"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Versatile compressor Snapin with standard controls for transparent dynamic range reduction."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://kilohearts.com/products/compressor"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "mellowmuse-complete-bundle"
 name = "Mellowmuse Complete Bundle"
 vendor = "Mellowmuse"
 version = "1.0.0"
-description = ""
+description = "Complete collection of all Mellowmuse compressors, EQs, limiter, reverb, and utility plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.mellowmuse.com/"
 is_paid = true
 
 [formats.vst3]

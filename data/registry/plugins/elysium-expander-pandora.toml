@@ -2,13 +2,14 @@ slug = "elysium-expander-pandora"
 name = "ELYSIUM Expander Pandora"
 vendor = "Wide Blue Sound"
 version = "1.0.0"
-description = ""
+description = "PANDORA expansion for ELYSIUM with 62 inspirational hybrid instruments and unique sound sources."
 category = "instruments"
 subcategory = "expansion packs"
 license = "commercial"
 tags = []
+homepage = "https://www.widebluesound.com/elysium/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/8143-ELYSIUM-Expander-Pandora"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/8143-ELYSIUM-Expander-Pandora?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

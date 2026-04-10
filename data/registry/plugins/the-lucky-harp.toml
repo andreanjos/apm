@@ -2,11 +2,12 @@ slug = "the-lucky-harp"
 name = "The Lucky Harp"
 vendor = "Bad Cat Samples"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of a 26-string diatonic Celtic harp sampled in the key of C major."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://bad-cat-media-group.myshopify.com/collections/kontakt-virtual-instruments"
 is_paid = true
 
 [formats.vst3]

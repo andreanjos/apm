@@ -2,11 +2,12 @@ slug = "ghosts-of-autumn"
 name = "Ghosts of Autumn"
 vendor = "Atom Hub"
 version = "1.0.0"
-description = ""
+description = "Atmospheric Kontakt instrument evoking autumnal moods through textural environmental samples."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://atomhub.net/Libraries.html"
 is_paid = true
 
 [formats.vst3]

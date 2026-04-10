@@ -2,13 +2,14 @@ slug = "pultec-eqp-1a"
 name = "Pultec EQP 1A"
 vendor = "Apogee"
 version = "1.0.0"
-description = ""
+description = "Pultec EQP-1A program equalizer plugin developed with Pulse Techniques for precise circuit accuracy."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://apogeedigital.com/product/pultec-eqp-1a-program-equalizer/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8841-Pultec-EQP-1A"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8841-Pultec-EQP-1A?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

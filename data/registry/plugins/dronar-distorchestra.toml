@@ -2,11 +2,12 @@ slug = "dronar-distorchestra"
 name = "Dronar Distorchestra"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt drone instrument blending distorted orchestral sounds into evolving cinematic textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/dronar-distorchestra"
 is_paid = true
 
 [formats.vst3]

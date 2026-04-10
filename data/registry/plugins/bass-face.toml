@@ -2,13 +2,14 @@ slug = "bass-face"
 name = "BASS FACE"
 vendor = "DHPlugins"
 version = "1.0.0"
-description = ""
+description = "Bass enhancement plugin adding presence, warmth, and low-end punch to bass tracks."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://dhplugins.com/product/bass-face/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/12659-BASS-FACE"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/12659-BASS-FACE?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

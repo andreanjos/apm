@@ -2,13 +2,14 @@ slug = "parallel-aggressor"
 name = "Parallel Aggressor"
 vendor = "Baby Audio"
 version = "1.0.0"
-description = ""
+description = "Parallel processing plugin combining a punchy compression engine and analog saturation in one interface."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://babyaud.io/parallel-aggressor-plugin"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6639-Parallel-Aggressor"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6639-Parallel-Aggressor?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

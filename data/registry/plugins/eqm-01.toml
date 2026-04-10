@@ -2,11 +2,12 @@ slug = "eqm-01"
 name = "EQM-01"
 vendor = "Lamprey"
 version = "1.0.0"
-description = ""
+description = "Analog-modeled EQ plugin with custom filter shapes, even-order saturation and transient shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://iamlamprey.com/"
 is_paid = true
 
 [formats.vst3]

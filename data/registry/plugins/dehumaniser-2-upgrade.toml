@@ -1,11 +1,12 @@
 slug = "dehumaniser-2-upgrade"
 name = "Dehumaniser 2 Upgrade"
 vendor = "Krotos Audio"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Upgrade path to Dehumaniser 2 from a previous version for creature and monster vocal sound design."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.krotosaudio.com/dehumaniser2/"
 is_paid = true
 
 [formats.vst3]

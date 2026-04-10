@@ -2,11 +2,12 @@ slug = "the-sub-analog-heat-expansion"
 name = "The Sub + Analog Heat Expansion"
 vendor = "Iceberg Audio"
 version = "1.0.0"
-description = ""
+description = "Bundle of The Sub bass plugin combined with the Analog Heat expansion pack of vintage analog subs."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://icebergaudio.com/shop/"
 is_paid = true
 
 [formats.vst3]

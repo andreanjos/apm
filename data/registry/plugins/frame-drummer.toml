@@ -2,11 +2,12 @@ slug = "frame-drummer"
 name = "Frame Drummer"
 vendor = "RDGAudio"
 version = "1.0.0"
-description = ""
+description = "Sample-based frame drum instrument plugin with authentic Middle Eastern and world percussion."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rdgaudio.com/frame-drummer/"
 is_paid = true
 
 [formats.vst3]

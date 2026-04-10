@@ -1,14 +1,15 @@
 slug = "immerse-virtual-studio-alan-meyerson"
 name = "Immerse Virtual Studio Alan Meyerson"
 vendor = "Embody"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Headphone mixing tool with Alan Meyerson's studio profile for realistic speaker translation."
 category = "tools"
 subcategory = "referencing tools"
 license = "commercial"
 tags = []
+homepage = "https://embody.co/products/immerse-virtual-studio"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/9092-Immerse-Virtual-Studio-Alan-Meyerson"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/9092-Immerse-Virtual-Studio-Alan-Meyerson?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

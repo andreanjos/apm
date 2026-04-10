@@ -2,11 +2,12 @@ slug = "s-vx"
 name = "S-VX"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument blending sonic fingerprints of the Minimoog, ARP Omni-2, and Novachord."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

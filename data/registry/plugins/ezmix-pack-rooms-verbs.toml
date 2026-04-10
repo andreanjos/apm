@@ -2,10 +2,11 @@ slug = "ezmix-pack-rooms-verbs"
 name = "EZmix Pack: Rooms & Verbs"
 vendor = "Toontrack"
 version = "1.0.0"
-description = ""
+description = "EZmix expansion pack with room and reverb presets for adding natural acoustic spaces to your mix."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product-category/ezmix-packs/"
 is_paid = true
 
 [formats.vst3]

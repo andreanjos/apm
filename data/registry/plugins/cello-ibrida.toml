@@ -1,12 +1,13 @@
 slug = "cello-ibrida"
 name = "Cello Ibrida"
 vendor = "Pulsesetter Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Hybrid cello Kontakt library by Pulsesetter Sounds blending acoustic and processed tones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.pulsesettersounds.com/"
 is_paid = true
 
 [formats.vst3]

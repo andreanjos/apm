@@ -2,11 +2,12 @@ slug = "cryptar-eternal-light"
 name = "Cryptar – Eternal Light"
 vendor = "Atom Hub"
 version = "1.0.0"
-description = ""
+description = "Dark ambient Kontakt instrument combining atmospheric guitar and piano with designed noises."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.atomhub.net/Free_Cryptar.html"
 is_paid = true
 
 [formats.vst3]

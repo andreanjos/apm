@@ -2,13 +2,14 @@ slug = "primavera"
 name = "Primavera"
 vendor = "Pulsar Audio"
 version = "1.0.0"
-description = ""
+description = "Six-in-one spring reverb plugin precisely emulating classic spring tank hardware units."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://pulsar.audio/primavera/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/12011-Primavera"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/12011-Primavera?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

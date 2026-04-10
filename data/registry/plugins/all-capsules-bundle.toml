@@ -2,11 +2,12 @@ slug = "all-capsules-bundle"
 name = "All Capsules Bundle"
 vendor = "Capsule Audio"
 version = "1.0.0"
-description = ""
+description = "Complete collection of all Capsule Audio virtual instrument libraries in a single discounted bundle."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.capsule.audio/"
 is_paid = true
 
 [formats.vst3]

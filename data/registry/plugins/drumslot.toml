@@ -1,12 +1,13 @@
 slug = "drumslot"
 name = "DRUMSLOT"
 vendor = "Vegas Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Drum sampler and sequencer plugin by Vegas Audio for slot-machine-style beat generation."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://vegasaudio.com/"
 is_paid = true
 
 [formats.vst3]

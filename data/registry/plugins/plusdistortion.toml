@@ -1,14 +1,15 @@
 slug = "plusdistortion"
 name = "Plusdistortion"
 vendor = "Distorque"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Free VST distortion emulating the MXR Distortion+ pedal with extended tone controls."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "http://distorqueaudio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/355-Plusdistortion"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/355-Plusdistortion?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

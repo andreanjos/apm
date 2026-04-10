@@ -2,13 +2,13 @@ slug = "lo-fi-bundle"
 name = "Lo-Fi Bundle"
 vendor = "denise"
 version = "1.0.0"
-description = ""
+description = "Lo-fi effects bundle combining Bad Tape and other vintage-inspired degradation plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.deniseaudio.com/"
 
 [formats.vst3]
 url = ""

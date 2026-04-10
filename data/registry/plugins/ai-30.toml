@@ -2,11 +2,12 @@ slug = "ai-30"
 name = "AI-30"
 vendor = "Sampletrip"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of meticulously sampled sounds from an AI-30 analog synthesizer module."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/ai-30-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "xo"
 name = "XO"
 vendor = "XLN Audio"
-version = "1.0.0"
-description = ""
+version = "1.8.4"
+description = "Drum machine that uses AI to map and explore your sample library in an interactive visual interface."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.xlnaudio.com/products/plugins/xo"
 is_paid = true
 
 [formats.vst3]

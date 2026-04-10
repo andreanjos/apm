@@ -2,10 +2,11 @@ slug = "perfect-plate-xl"
 name = "Perfect Plate XL"
 vendor = "denise"
 version = "1.0.0"
-description = ""
+description = "Supernatural plate reverb plugin with refined control over depth, size, and character."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.deniseaudio.com/plugins/perfect-plate-xl"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "osiris-xt"
 name = "Osiris XT"
 vendor = "B Serrano"
 version = "1.0.0"
-description = ""
+description = "Free dual wave file player/synthesizer with two stereo 16/24-bit wave players."
 category = "instruments"
 subcategory = "sampler"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/522-Osiris-XT"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/522-Osiris-XT?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

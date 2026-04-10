@@ -2,11 +2,12 @@ slug = "radio-tape"
 name = "Radio Tape"
 vendor = "Beautiful Void Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument with 82 samples and 28 NKI patches exploring radio and tape-processed sonic textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.beautifulvoidaudio.com/"
 is_paid = true
 
 [formats.vst3]

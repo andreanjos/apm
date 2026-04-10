@@ -1,12 +1,13 @@
 slug = "drum-leveler"
 name = "Drum Leveler"
 vendor = "Soundradix"
-version = "1.0.0"
-description = ""
+version = "1.2.2"
+description = "Beat detection-based compressor/expander that levels individual drum hits without affecting bleed."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.soundradix.com/products/drum-leveler/"
 is_paid = true
 
 [formats.vst3]

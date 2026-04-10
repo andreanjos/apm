@@ -1,12 +1,13 @@
 slug = "brazil-series-repinique"
 name = "Brazil Series: Repinique"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "1.3.1"
+description = "Kontakt library of the Repinique samba drum with 80+ loops and single hits at 160 BPM."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/repinique/"
 is_paid = true
 
 [formats.vst3]

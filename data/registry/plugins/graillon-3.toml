@@ -1,14 +1,15 @@
 slug = "graillon-3"
 name = "Graillon 3"
 vendor = "Auburn Sounds"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Advanced pitch-correction and vocal transformation plugin for standard and edgy vocal processing."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://www.auburnsounds.com/products/Graillon.html"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/11929-Graillon-3"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/11929-Graillon-3?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

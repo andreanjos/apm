@@ -2,11 +2,12 @@ slug = "cyclone"
 name = "Cyclone"
 vendor = "SoundSpot"
 version = "1.0.0"
-description = ""
+description = "Compressor plugin from SoundSpot for transparent and musical dynamic control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "stradivarious-eko"
 name = "Stradivarious EKO"
 vendor = "Loot Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt recreation of the rare 1970s EKO Stradivarius string synthesizer used by Vangelis."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/synthmagic/stradivarius-eko-string-synthesizer-kontakt"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9792-Stradivarious-EKO"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9792-Stradivarious-EKO?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

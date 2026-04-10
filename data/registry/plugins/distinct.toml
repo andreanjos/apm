@@ -2,13 +2,14 @@ slug = "distinct"
 name = "Distinct"
 vendor = "Kiive Audio"
 version = "1.0.0"
-description = ""
+description = "Tube saturation plugin offering analog coloration and harmonic enhancement for tracks and mix buses."
 category = "effects"
 subcategory = "saturation"
 license = "commercial"
 tags = []
+homepage = "https://www.kiiveaudio.com/products/distinct"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/8430-Distinct-"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/8430-Distinct-?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

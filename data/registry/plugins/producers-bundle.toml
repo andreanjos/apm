@@ -2,11 +2,12 @@ slug = "producers-bundle"
 name = "Producers Bundle"
 vendor = "SoundSpot"
 version = "1.0.0"
-description = ""
+description = "SoundSpot bundle of essential mixing and production effects plugins for producers."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

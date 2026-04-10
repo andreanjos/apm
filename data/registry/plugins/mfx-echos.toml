@@ -2,13 +2,14 @@ slug = "mfx-echos"
 name = "MFX Echos"
 vendor = "ALM Busy Circuits"
 version = "1.0.0"
-description = ""
+description = "Pair of digital and analog-inspired echo plugins (Digi-PCM and Tape-Tech) from the MFX module."
 category = "effects"
 subcategory = "echo"
 license = "commercial"
 tags = []
+homepage = "https://busycircuits.com/mfx-echos"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/14815-MFX-Echos"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/14815-MFX-Echos?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

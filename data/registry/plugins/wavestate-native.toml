@@ -2,13 +2,14 @@ slug = "wavestate-native"
 name = "wavestate native"
 vendor = "KORG"
 version = "1.0.0"
-description = ""
+description = "Wave Sequencing 2.0 synthesizer plugin with 64-voice polyphony, based on the KORG wavestate."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.korg.com/us/products/software/wavestate_native/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11217-wavestate-native"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11217-wavestate-native?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

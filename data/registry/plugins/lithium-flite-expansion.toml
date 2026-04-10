@@ -2,13 +2,14 @@ slug = "lithium-flite-expansion"
 name = "Lithium Flite Expansion"
 vendor = "Wavea"
 version = "1.0.0"
-description = ""
+description = "Flite expansion with IDM and cinematic presets from Korg MS-20, UDO-6, and Jupiter-6 samples."
 category = "instruments"
 subcategory = "expansion packs"
 license = "commercial"
 tags = []
+homepage = "https://www.wavea.co/store/flite/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/14949-Lithium-Flite-Expansion-"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/14949-Lithium-Flite-Expansion-?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

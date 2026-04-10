@@ -2,11 +2,12 @@ slug = "bohemian"
 name = "Bohemian"
 vendor = "Sample Logic"
 version = "1.0.0"
-description = ""
+description = "Kontakt library with 800+ ethnic instruments from hang drums to didgeridoos with morphing capabilities."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.samplelogic.com/products/bohemian/"
 is_paid = true
 
 [formats.vst3]

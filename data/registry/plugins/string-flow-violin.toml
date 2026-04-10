@@ -2,13 +2,14 @@ slug = "string-flow-violin"
 name = "String Flow Violin"
 vendor = "Ben Osterhouse"
 version = "1.0.0"
-description = ""
+description = "Kontakt violin library capturing energetic bow-roll chordal textures across the strings."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://osterhousesounds.com/products/string-flow-violin"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7368-String-Flow-Violin"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7368-String-Flow-Violin?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

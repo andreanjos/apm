@@ -2,13 +2,13 @@ slug = "melody-sauce-2-038-play-bundle"
 name = "Melody Sauce 2 &#038; Play Bundle"
 vendor = "Loopcloud Plugins"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Melody Sauce 2 melodic assistant and Loopcloud PLAY sampler instrument."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.loopcloud.com/cloud/plugins"
 
 [formats.vst3]
 url = ""

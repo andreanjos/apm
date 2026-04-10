@@ -2,11 +2,12 @@ slug = "the-music-box"
 name = "The Music Box"
 vendor = "Bad Cat Samples"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument capturing the delicate, nostalgic tones of a music box."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://bad-cat-media-group.myshopify.com/collections/kontakt-virtual-instruments"
 is_paid = true
 
 [formats.vst3]

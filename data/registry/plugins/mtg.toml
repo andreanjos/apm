@@ -2,13 +2,14 @@ slug = "mtg"
 name = "MtG"
 vendor = "MAAT"
 version = "1.0.0"
-description = ""
+description = "Automatic dialog editing assistant plugin from MAAT for dialogue and post-production work."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.maat.digital/mtg/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/7524-MtG"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/7524-MtG?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

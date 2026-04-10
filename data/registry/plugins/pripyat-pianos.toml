@@ -1,14 +1,15 @@
 slug = "pripyat-pianos"
 name = "PRIPYAT Pianos"
 vendor = "Strix Instruments"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Abandoned Chernobyl piano Kontakt library by Strix Instruments with haunting, aged tone."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://strixinstruments.com/pripyat-pianos/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7597-PRIPYAT-Pianos"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7597-PRIPYAT-Pianos?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

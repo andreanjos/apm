@@ -1,14 +1,15 @@
 slug = "speccraft"
 name = "SpecCraft"
 vendor = "Three Body Technology"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Dynamic resonance suppressor, spectrum compressor, and smart EQ for eliminating unwanted resonances."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.threebodytech.com/en/products/speccraft"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14724-SpecCraft"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14724-SpecCraft?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

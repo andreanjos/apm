@@ -1,12 +1,13 @@
 slug = "sscs15d"
 name = "SSCS15D"
 vendor = "SyrinxSamples"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "SyrinxSamples SSCS15D is a Kontakt instrument based on the classic Yamaha CS15D synthesizer."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://syrinxsamples.com/sscs15d"
 is_paid = true
 
 [formats.vst3]

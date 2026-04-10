@@ -2,11 +2,12 @@ slug = "synth-warmer"
 name = "Synth Warmer"
 vendor = "Kazrog"
 version = "1.0.0"
-description = ""
+description = "Filter plugin designed to warm and saturate synthesizer sounds with analog character."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://kazrog.com/collections/audio-plugins"
 is_paid = true
 
 [formats.vst3]

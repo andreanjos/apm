@@ -2,11 +2,12 @@ slug = "immersive-essentials-bundle"
 name = "Immersive Essentials Bundle"
 vendor = "Flux"
 version = "1.0.0"
-description = ""
+description = "Bundle of Flux's core immersive audio processing tools for spatial and surround sound production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.flux.audio/products/"
 is_paid = true
 
 [formats.vst3]

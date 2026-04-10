@@ -1,12 +1,13 @@
 slug = "excalibur"
 name = "Excalibur"
 vendor = "Noise Art"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Keyboard instrument plugin by Noise Art with powerful synthesis and expressive playability."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://noiseartplugins.com/"
 is_paid = true
 
 [formats.vst3]

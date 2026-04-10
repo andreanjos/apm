@@ -1,14 +1,15 @@
 slug = "pitchshift-pro"
 name = "PITCHSHIFT PRO"
 vendor = "Zynaptiq"
-version = "1.0.0"
-description = ""
+version = "1.2.0"
+description = "Professional high-quality pitch shifting plugin with ZTX time-stretching technology and advanced controls."
 category = "effects"
 subcategory = "pitch shifter"
 license = "commercial"
 tags = []
+homepage = "https://www.zynaptiq.com/pitchshift/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/13378-PITCHSHIFT-PRO"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/13378-PITCHSHIFT-PRO?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

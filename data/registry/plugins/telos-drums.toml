@@ -1,14 +1,15 @@
 slug = "telos-drums"
 name = "Telos Drums"
 vendor = "Black Salt Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "All-in-one drum mixing plugin delivering punch, energy, and edge to drum tracks with a simple interface."
 category = "tools"
 subcategory = "drum tools"
 license = "commercial"
 tags = []
+homepage = "https://www.blacksaltaudio.com/telos-drums/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/80-Drum-Tools/14792-Telos-Drums"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/80-Drum-Tools/14792-Telos-Drums?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

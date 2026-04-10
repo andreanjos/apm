@@ -2,11 +2,12 @@ slug = "protogon-horizon-lite"
 name = "Protogon Horizon LITE"
 vendor = "Sick Noise Instruments"
 version = "1.0.0"
-description = ""
+description = "Lite version of Protogon Horizon: a dark industrial cinematic Kontakt library."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sicknoiseinstruments.com/"
 is_paid = true
 
 [formats.vst3]

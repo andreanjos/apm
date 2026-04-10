@@ -2,11 +2,12 @@ slug = "post-production-bundle"
 name = "Post Production Bundle"
 vendor = "Accentize"
 version = "1.0.0"
-description = ""
+description = "Complete bundle of Accentize's dialogue restoration and audio enhancement plugins for post-production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.accentize.com/"
 is_paid = true
 
 [formats.vst3]

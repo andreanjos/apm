@@ -2,13 +2,13 @@ slug = "axon-2"
 name = "Axon 2"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Neural network-based drum sequencer that generates evolving, organic rhythmic patterns."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.audiodamage.com/products/ad042-axon-2"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "addictive-keys-duo-bundle"
 name = "Addictive Keys: Duo Bundle"
 vendor = "XLN Audio"
-version = "1.0.0"
-description = ""
+version = "1.7.3"
+description = "Bundle of two Addictive Keys instruments offering world-class sampled keyboard and piano sounds."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.xlnaudio.com/products/addictive_keys"
 is_paid = true
 
 [formats.vst3]

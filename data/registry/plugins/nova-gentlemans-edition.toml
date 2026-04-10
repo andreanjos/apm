@@ -1,12 +1,13 @@
 slug = "nova-gentlemans-edition"
 name = "Nova Gentleman’s Edition"
 vendor = "Tokyo Dawn Labs"
-version = "1.0.0"
-description = ""
+version = "2.2.2"
+description = "Gentleman's Edition parallel dynamic equalizer with a full-featured dynamics section per band."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.tokyodawn.net/tdr-nova-ge/"
 is_paid = true
 
 [formats.vst3]

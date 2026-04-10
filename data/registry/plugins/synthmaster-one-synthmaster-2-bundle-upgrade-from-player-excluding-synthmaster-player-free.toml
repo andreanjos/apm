@@ -2,11 +2,12 @@ slug = "synthmaster-one-synthmaster-2-bundle-upgrade-from-player-excluding-synth
 name = "SynthMaster One + SynthMaster 2 Bundle Upgrade from Player (Excluding SynthMaster Player FREE)"
 vendor = "KV331 Audio"
 version = "1.0.0"
-description = ""
+description = "Upgrade to the SynthMaster One + SynthMaster 2 Bundle from the Player edition."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.kv331audio.com/synthmasterone.aspx"
 is_paid = true
 
 [formats.vst3]

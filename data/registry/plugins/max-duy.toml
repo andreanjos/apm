@@ -2,11 +2,12 @@ slug = "max-duy"
 name = "Max Duy"
 vendor = "DUY"
 version = "1.0.0"
-description = ""
+description = "Loudness maximizer using DUY's ILO algorithm for seamless limiting with zero harmonic distortion."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://duy.com/"
 is_paid = true
 
 [formats.vst3]

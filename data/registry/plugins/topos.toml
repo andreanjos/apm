@@ -1,14 +1,15 @@
 slug = "topos"
 name = "Topos"
 vendor = "Forever 89"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Saturation and drive plugin by Forever 89 with harmonic enhancement for warming audio."
 category = "effects"
 subcategory = "saturation"
 license = "commercial"
 tags = []
+homepage = "https://forever89.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/14572-Topos"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/14572-Topos?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

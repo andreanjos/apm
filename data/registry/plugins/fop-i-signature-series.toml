@@ -1,12 +1,13 @@
 slug = "fop-i-signature-series"
 name = "FOP I (Signature Series)"
 vendor = "Chango Studios"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Chango Studios FOP I Kontakt instrument inspired by classic analog synth orchestrations."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://changostudios.com/"
 is_paid = true
 
 [formats.vst3]

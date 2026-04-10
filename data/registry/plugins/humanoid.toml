@@ -1,14 +1,15 @@
 slug = "humanoid"
 name = "Humanoid"
 vendor = "Baby Audio"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Vocal transformer with hard-tuning, MIDI pitch control, formant shifting, and wavetable resynthesis."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://babyaud.io/humanoid"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/12582-Humanoid"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/12582-Humanoid?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

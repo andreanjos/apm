@@ -2,11 +2,12 @@ slug = "nashville-scoring-strings"
 name = "Nashville Scoring Strings"
 vendor = "Audio Ollie"
 version = "1.0.0"
-description = ""
+description = "String library recorded at Ocean Way Studios Nashville with true-performance articulations."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audioollie.com/nashville-scoring-strings"
 is_paid = true
 
 [formats.vst3]

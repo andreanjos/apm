@@ -2,10 +2,11 @@ slug = "lifeline-expanse-upgrade-from-lite"
 name = "Lifeline Expanse Upgrade from Lite"
 vendor = "Excite Audio"
 version = "1.0.0"
-description = ""
+description = "Upgrade path from Lifeline Expanse Lite to the full Lifeline Expanse spatial effects plugin."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.excite-audio.com/lifeline-modules"
 is_paid = true
 
 [formats.vst3]

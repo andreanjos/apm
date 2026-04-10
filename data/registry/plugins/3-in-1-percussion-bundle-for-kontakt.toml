@@ -1,12 +1,13 @@
 slug = "3-in-1-percussion-bundle-for-kontakt"
 name = "3-in-1 Percussion Bundle for Kontakt"
 vendor = "Glitchedtones"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle of three Glitchedtones percussion Kontakt libraries for diverse rhythmic programming."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://glitchedtones.com/"
 is_paid = true
 
 [formats.vst3]

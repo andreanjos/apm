@@ -2,11 +2,12 @@ slug = "orchestra-enigmatica"
 name = "Orchestra Enigmatica"
 vendor = "SzcZ"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument based on samples from a vintage Siel Orchestra analog synthesizer from 1979."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/szcz/orchestra-enigmatica-kontakt"
 is_paid = true
 
 [formats.vst3]

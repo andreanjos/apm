@@ -2,13 +2,14 @@ slug = "filkchannel-strip"
 name = "FilkChannel Strip"
 vendor = "Kiive Audio"
 version = "1.0.0"
-description = ""
+description = "Analog-modeled channel strip based on vintage 1970s Danner Cassette Modules for warmth and character."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.kiiveaudio.com/products/filkchannel"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/8289-FilkChannel-Strip"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/8289-FilkChannel-Strip?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

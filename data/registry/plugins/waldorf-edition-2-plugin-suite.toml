@@ -1,12 +1,13 @@
 slug = "waldorf-edition-2-plugin-suite"
 name = "Waldorf Edition 2 Plugin Suite"
 vendor = "Waldorf"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "FX plugin suite from Waldorf Music bundling multiple effects from the Waldorf Edition 2 collection."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://waldorfmusic.com/waldorf-edition-2-en/"
 is_paid = true
 
 [formats.vst3]

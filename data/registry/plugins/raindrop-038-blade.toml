@@ -1,14 +1,14 @@
 slug = "raindrop-038-blade"
 name = "Raindrop &#038; Blade"
 vendor = "Three-Body Technology"
-version = "1.0.0"
-description = ""
+version = "1.6.0"
+description = "Deeply sampled ancient Chinese Yangqin hammered dulcimer virtual instrument."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.threebodytech.com/en/products/raindropsandblade"
 
 [formats.vst3]
 url = ""

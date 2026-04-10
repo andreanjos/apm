@@ -1,14 +1,15 @@
 slug = "dime-ms"
 name = "dime ms"
 vendor = "time off audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Mid-side stereo width processor for precise spatial control of your audio signal."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://timeoffaudio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/14937-dime-ms-"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/14937-dime-ms-?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

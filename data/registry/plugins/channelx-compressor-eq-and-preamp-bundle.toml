@@ -1,11 +1,12 @@
 slug = "channelx-compressor-eq-and-preamp-bundle"
 name = "ChannelX Compressor, EQ, and Preamp Bundle"
 vendor = "Lindell Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Lindell Audio ChannelX bundle of modeled vintage compressor, EQ, and preamp plugins."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://lindellplugins.com/"
 is_paid = true
 
 [formats.vst3]

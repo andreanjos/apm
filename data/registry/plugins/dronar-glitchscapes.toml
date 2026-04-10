@@ -2,11 +2,12 @@ slug = "dronar-glitchscapes"
 name = "Dronar Glitchscapes"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt module creating glitchy, processed atmospheric pads and evolving drone soundscapes."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/dronar-glitchscapes"
 is_paid = true
 
 [formats.vst3]

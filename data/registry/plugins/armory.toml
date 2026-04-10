@@ -2,13 +2,14 @@ slug = "armory"
 name = "Armory"
 vendor = "Stagecraft Software"
 version = "1.0.0"
-description = ""
+description = "Comprehensive drum sound library VST plugin with all the drum samples you need for any production."
 category = "instruments"
 subcategory = "drum machine"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/armory/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/6340-Armory"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/6340-Armory?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,10 +2,11 @@ slug = "cassette-keys-02-multi-format-bundle"
 name = "Cassette Keys.02 – Multi-Format Bundle"
 vendor = "THEPHONOLOOP"
 version = "1.0.0"
-description = ""
+description = "Multi-format bundle of Cassette Keys.02 — two classic 80s FM synth-inspired instruments recorded on cassette."
 category = "instruments"
 license = "commercial"
 tags = []
+homepage = "https://thephonoloop.com/products/cassette-keys-02"
 is_paid = true
 
 [formats.vst3]

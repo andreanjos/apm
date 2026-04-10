@@ -2,10 +2,11 @@ slug = "s-quick-strip-kiive-audio"
 name = "S-Quick Strip"
 vendor = "Kiive Audio"
 version = "1.0.0"
-description = ""
+description = "Compact console-style insert combining saturation, two-band EQ, single-knob compression, and transient design."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.kiiveaudio.com/products/s-quick"
 is_paid = true
 
 [formats.vst3]

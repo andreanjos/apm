@@ -1,12 +1,13 @@
 slug = "fat-2"
 name = "FAT 2"
 vendor = "SoundSpot"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Filter plugin from SoundSpot offering rich analog-style frequency shaping."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

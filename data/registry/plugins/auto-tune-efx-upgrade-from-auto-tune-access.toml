@@ -2,10 +2,11 @@ slug = "auto-tune-efx-upgrade-from-auto-tune-access"
 name = "Auto-Tune EFX+ Upgrade from Auto-Tune Access"
 vendor = "Antares"
 version = "1.0.0"
-description = ""
+description = "Upgrade path from Auto-Tune Access to EFX+ adding vocal effects, doubling and vocoding."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.antarestech.com/products/auto-tune/efx-plus"
 is_paid = true
 
 [formats.vst3]

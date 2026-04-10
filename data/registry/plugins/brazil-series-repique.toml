@@ -1,12 +1,13 @@
 slug = "brazil-series-repique"
 name = "Brazil Series: Repique"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "1.3.1"
+description = "Kontakt library of the Repique de Anel Brazilian samba drum with loops and single hits."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/repique/"
 is_paid = true
 
 [formats.vst3]

@@ -2,10 +2,11 @@ slug = "dynamic-plate-reverb"
 name = "Dynamic Plate Reverb"
 vendor = "Physical Audio"
 version = "1.0.0"
-description = ""
+description = "Lush plate reverb with dynamic response for smooth depth and spaciousness on any source."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://physicalaudio.co.uk/products/"
 is_paid = true
 
 [formats.vst3]

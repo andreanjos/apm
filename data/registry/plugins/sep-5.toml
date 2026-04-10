@@ -2,11 +2,12 @@ slug = "sep-5"
 name = "SEP-5"
 vendor = "Sampletrip"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of vintage digital electric piano sounds from the mid-1980s era."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/sep-5-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

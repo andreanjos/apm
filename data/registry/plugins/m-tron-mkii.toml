@@ -1,12 +1,13 @@
 slug = "m-tron-mkii"
 name = "M-Tron MkII"
 vendor = "GForce Software"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Virtual Mellotron instrument emulating the MkII tape-based keyboard beloved by classic rock and art-rock artists."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.gforcesoftware.com/product/m-tron-mkii/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "delay"
 name = "Delay"
 vendor = "Stagecraft Software"
 version = "1.0.0"
-description = ""
+description = "Free quantizing dual-band delay plugin designed for EDM music with spectrum response visualization."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/delay/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/1242-Delay"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/1242-Delay?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

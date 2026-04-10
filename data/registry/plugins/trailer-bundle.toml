@@ -1,12 +1,13 @@
 slug = "trailer-bundle"
 name = "Trailer Bundle"
 vendor = "Musical Sampling"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle pairing Musical Sampling's Trailer Brass and Trailer Strings Kontakt libraries for epic media scoring."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://musicalsampling.com/trailer-bundle/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "serato-hex-fx"
 name = "Serato Hex FX"
 vendor = "Serato"
-version = "1.0.0"
-description = ""
+version = "1.2.0"
+description = "All-in-one multi-FX plugin with 50 chainable effects and 200+ presets for music production."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://serato.com/hex-fx"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/14121-Serato-Hex-FX"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/14121-Serato-Hex-FX?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

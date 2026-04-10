@@ -1,12 +1,13 @@
 slug = "formant-filter"
 name = "Formant Filter"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Formant filter Snapin that shapes audio into vowel-like tones using resonant bandpass filters."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/formant_filter"
 is_paid = true
 
 [formats.vst3]

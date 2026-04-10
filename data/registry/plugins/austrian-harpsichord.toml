@@ -2,11 +2,12 @@ slug = "austrian-harpsichord"
 name = "Austrian Harpsichord"
 vendor = "Realsamples"
 version = "1.0.0"
-description = ""
+description = "Detailed sample library of a 1671 Prague harpsichord by Johann Anton Miklis for Kontakt."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.realsamples.de/en_GB"
 is_paid = true
 
 [formats.vst3]

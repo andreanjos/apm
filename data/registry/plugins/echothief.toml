@@ -2,11 +2,12 @@ slug = "echothief"
 name = "EchoThief"
 vendor = "Stagecraft"
 version = "1.0.0"
-description = ""
+description = "Convolution reverb plugin using the EchoThief impulse response library of real-world spaces."
 category = "effects"
 subcategory = "echo"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/effects/"
 is_paid = true
 
 [formats.vst3]

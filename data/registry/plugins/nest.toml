@@ -2,13 +2,14 @@ slug = "nest"
 name = "Nest"
 vendor = "Sugar Bytes"
 version = "1.0.0"
-description = ""
+description = "DIY semi-modular sequencer plugin with patching environment for generative and custom step sequences."
 category = "effects"
 subcategory = "sequencer"
 license = "commercial"
 tags = []
+homepage = "https://sugar-bytes.de/nest"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/24-Sequencer/8135-Nest"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/24-Sequencer/8135-Nest?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

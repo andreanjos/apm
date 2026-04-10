@@ -1,14 +1,15 @@
 slug = "bassroom"
 name = "BASSROOM"
 vendor = "Mastering The Mix"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Low-end EQ plugin that analyses your mix and visually guides you to clear, punchy bass that translates everywhere."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.masteringthemix.com/products/bassroom"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/5408-BASSROOM"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/5408-BASSROOM?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

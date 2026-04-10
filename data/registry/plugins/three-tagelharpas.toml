@@ -2,11 +2,12 @@ slug = "three-tagelharpas"
 name = "Three Tagelharpas"
 vendor = "Karoryfer Samples"
 version = "1.0.0"
-description = ""
+description = "Sample library of three medieval European bowed lyres — tagelharpa, strakharpa, and bass tagelharpa."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://shop.karoryfer.com/products/three-tagelharpas"
 is_paid = true
 
 [formats.vst3]

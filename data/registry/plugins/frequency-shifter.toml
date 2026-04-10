@@ -1,12 +1,13 @@
 slug = "frequency-shifter"
 name = "Frequency Shifter"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Frequency shifter Snapin that offsets all partials by a fixed Hz amount for inharmonic effects."
 category = "effects"
 subcategory = "frequency shifter"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/frequency_shifter"
 is_paid = true
 
 [formats.vst3]

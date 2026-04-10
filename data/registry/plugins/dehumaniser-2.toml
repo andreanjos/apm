@@ -1,11 +1,12 @@
 slug = "dehumaniser-2"
 name = "Dehumaniser 2"
 vendor = "Krotos Audio"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Modular vocal processor for designing creature, monster, and robot sound effects with 100 presets."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.krotosaudio.com/dehumaniser2/"
 is_paid = true
 
 [formats.vst3]

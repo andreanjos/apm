@@ -1,12 +1,13 @@
 slug = "opto-3a-apogee-digital"
 name = "Opto-3A"
 vendor = "Apogee Digital"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Apogee FX Rack Opto-3A is an optical compressor plugin modeled on the classic LA-3A."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://apogeedigital.com/product/opto-3a/"
 is_paid = true
 
 [formats.vst3]

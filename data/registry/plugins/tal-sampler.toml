@@ -1,14 +1,15 @@
 slug = "tal-sampler"
 name = "TAL Sampler"
 vendor = "TAL"
-version = "1.0.0"
-description = ""
+version = "4.8.5"
+description = "Analog-modeled synthesizer combined with a sampler engine featuring vintage DAC emulation and multiple filter types."
 category = "instruments"
 subcategory = "sampler"
 license = "commercial"
 tags = []
+homepage = "https://tal-software.com/products/tal-sampler"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/9675-TAL-Sampler"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/9675-TAL-Sampler?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

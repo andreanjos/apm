@@ -1,14 +1,15 @@
 slug = "oberheim-sem"
 name = "Oberheim SEM"
 vendor = "GForce Software"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Officially endorsed virtual recreation of the Oberheim Synthesizer Expander Module developed with Tom Oberheim."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.gforcesoftware.com/product/oberheim-sem/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12018-Oberheim-SEM"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12018-Oberheim-SEM?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

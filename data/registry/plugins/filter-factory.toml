@@ -2,13 +2,14 @@ slug = "filter-factory"
 name = "Filter Factory"
 vendor = "PROCESS AUDIO"
 version = "1.0.0"
-description = ""
+description = "Multi-effect filter plugin for creative sound shaping and frequency manipulation."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://process.audio/en"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/15569-Filter-Factory"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/15569-Filter-Factory?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

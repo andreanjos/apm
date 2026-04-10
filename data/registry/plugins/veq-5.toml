@@ -1,14 +1,15 @@
 slug = "veq-5"
 name = "VEQ 5"
 vendor = "Black Rooster Audio"
-version = "1.0.0"
-description = ""
+version = "3.0.0"
+description = "Mid-range passive EQ focusing on the 200 Hz to 7 kHz spectrum for precise tonal sculpting."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://blackroosteraudio.com/en/products/veq-5"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11371-VEQ-5"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11371-VEQ-5?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

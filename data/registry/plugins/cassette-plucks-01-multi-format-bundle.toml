@@ -2,11 +2,12 @@ slug = "cassette-plucks-01-multi-format-bundle"
 name = "Cassette Plucks.01 – Multi-Format Bundle"
 vendor = "THEPHONOLOOP"
 version = "1.0.0"
-description = ""
+description = "Multi-format bundle of two oriental-inspired pluck instruments blending physical modelling and sampling on cassette."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://thephonoloop.com/products/cassette-plucks-01"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "sublab"
 name = "SubLab"
 vendor = "Future Audio Workshop"
 version = "1.0.0"
-description = ""
+description = "Sub-bass synthesizer with X-Sub psychoacoustic engine for crafting deep 808 bass sounds."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://futureaudioworkshop.com/product/sublab/"
 is_paid = true
 
 [formats.vst3]

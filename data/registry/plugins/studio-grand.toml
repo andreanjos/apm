@@ -1,11 +1,12 @@
 slug = "studio-grand"
 name = "Studio Grand"
 vendor = "XLN Audio"
-version = "1.0.0"
-description = ""
+version = "1.7.3"
+description = "Premium studio grand piano instrument for Addictive Keys delivering world-class concert grand tones."
 category = "instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.xlnaudio.com/products/addictive_keys/instrument/studio_grand"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "sublab-xl-crossgrade-from-sublab"
 name = "SubLab XL Crossgrade from SubLab"
 vendor = "Future Audio Workshop"
 version = "1.0.0"
-description = ""
+description = "Crossgrade offer to upgrade from SubLab to SubLab XL with expanded features and presets."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://futureaudioworkshop.com/product/sublab-xl/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "youlean-loudness-meter"
 name = "Youlean Loudness Meter"
 vendor = "Youlean"
-version = "1.0.0"
-description = ""
+version = "2.5.11"
+description = "Youlean Loudness Meter is a free LUFS loudness analyzer plugin for mixing and mastering."
 category = "tools"
 subcategory = "metering"
 license = "commercial"
 tags = []
+homepage = "https://youlean.co/youlean-loudness-meter/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/4960-Youlean-Loudness-Meter"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/4960-Youlean-Loudness-Meter?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

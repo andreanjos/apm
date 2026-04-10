@@ -2,11 +2,12 @@ slug = "choir-collection"
 name = "Choir Collection"
 vendor = "Strezov Sampling"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Strezov's full SATB, Epic, Children, and Ethnic Choir libraries for Kontakt."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.strezov-sampling.com/bundles/view/CHOIR-Collection.html"
 is_paid = true
 
 [formats.vst3]

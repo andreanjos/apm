@@ -1,11 +1,12 @@
 slug = "de-verb-plus"
 name = "De-Verb Plus"
 vendor = "SPL"
-version = "1.0.0"
-description = ""
+version = "1.1"
+description = "SPL De-Verb Plus reduces room reverb and ambience from recorded audio with surgical precision."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://spl.audio/en/spl-produkt/de-verb-plus/"
 is_paid = true
 
 [formats.vst3]

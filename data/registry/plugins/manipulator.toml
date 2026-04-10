@@ -2,13 +2,14 @@ slug = "manipulator"
 name = "Manipulator"
 vendor = "Polyverse"
 version = "1.0.0"
-description = ""
+description = "Granular vocal pitch and timbre manipulation plugin with dramatic transformation capabilities."
 category = "effects"
 subcategory = "pitch shifter"
 license = "commercial"
 tags = []
+homepage = "https://polyversemusic.com/products/manipulator/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/5127-Manipulator"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/5127-Manipulator?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

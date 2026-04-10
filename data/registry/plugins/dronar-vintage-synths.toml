@@ -2,11 +2,12 @@ slug = "dronar-vintage-synths"
 name = "Dronar Vintage Synths"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt module creating rich atmospheric pads from sampled vintage synthesizers."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/dronar-vintage-synths"
 is_paid = true
 
 [formats.vst3]

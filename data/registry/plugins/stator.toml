@@ -1,14 +1,15 @@
 slug = "stator"
 name = "Stator"
 vendor = "Sinevibes"
-version = "1.0.0"
-description = ""
+version = "1.0.2"
+description = "Tape wobble simulator replicating wow, flutter and scrape flutter from uneven tape transport mechanics."
 category = "effects"
 subcategory = "saturation"
 license = "commercial"
 tags = []
+homepage = "https://www.sinevibes.com/stator/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/9164-Stator"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/9164-Stator?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

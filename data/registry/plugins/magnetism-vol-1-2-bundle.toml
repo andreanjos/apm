@@ -2,11 +2,12 @@ slug = "magnetism-vol-1-2-bundle"
 name = "Magnetism Vol 1 + 2 Bundle"
 vendor = "Sonora Cinematic"
 version = "1.0.0"
-description = ""
+description = "Bundle of Magnetism Vol. 1 (bright textures) and Vol. 2 (dark textures) Kontakt libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/magnetism-vol-1-2-bundle"
 is_paid = true
 
 [formats.vst3]

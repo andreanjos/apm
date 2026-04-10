@@ -1,14 +1,15 @@
 slug = "punch"
 name = "PUNCH"
 vendor = "Zynaptiq"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Intelligent dynamics contouring plugin adding organic punch and impact to sounds, stems, or mixes."
 category = "effects"
 subcategory = "transient shaper"
 license = "commercial"
 tags = []
+homepage = "https://www.zynaptiq.com/punch/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/14224-PUNCH"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/14224-PUNCH?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

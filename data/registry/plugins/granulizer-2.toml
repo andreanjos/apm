@@ -1,14 +1,15 @@
 slug = "granulizer-2"
 name = "Granulizer 2"
 vendor = "Inertia Sound Systems"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Granular sampler plugin by Inertia Sound Systems for real-time granular sound manipulation."
 category = "instruments"
 subcategory = "sampler"
 license = "commercial"
 tags = []
+homepage = "https://www.inertiasoundsystems.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/7776-Granulizer-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/7776-Granulizer-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

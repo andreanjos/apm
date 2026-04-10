@@ -1,11 +1,12 @@
 slug = "convology-xt-complete"
 name = "Convology XT Complete"
 vendor = "Wave Arts"
-version = "1.0.0"
-description = ""
+version = "1.34"
+description = "Professional convolution reverb with an extensive IR library, developed in collaboration with Impulse Record."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://wavearts.com/products/plugins/convology"
 is_paid = true
 
 [formats.vst3]

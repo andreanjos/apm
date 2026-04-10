@@ -1,12 +1,13 @@
 slug = "ihny-2-baby-audio"
 name = "IHNY-2"
 vendor = "Baby Audio"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Advanced parallel compressor with XY pad interface and Tweak Panel for weight and punch on drums and masters."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://babyaud.io/ihny-2"
 is_paid = true
 
 [formats.vst3]

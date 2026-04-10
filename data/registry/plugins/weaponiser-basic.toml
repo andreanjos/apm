@@ -2,10 +2,11 @@ slug = "weaponiser-basic"
 name = "Weaponiser Basic"
 vendor = "Krotos Audio"
 version = "1.0.0"
-description = ""
+description = "Sound design sampler for quickly creating weapon sound effects with drag-and-drop and preset workflow."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.krotosaudio.com/weaponiser/"
 is_paid = true
 
 [formats.vst3]

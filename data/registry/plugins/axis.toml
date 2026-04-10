@@ -1,11 +1,12 @@
 slug = "axis"
 name = "Axis"
 vendor = "SoundSpot"
-version = "1.0.0"
-description = ""
+version = "1.0.1"
+description = "Multiband compressor plugin from SoundSpot for precise dynamic control across frequency bands."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

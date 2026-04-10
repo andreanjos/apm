@@ -2,13 +2,14 @@ slug = "gtg-ms-2008"
 name = "GTG MS 2008"
 vendor = "GTG Synths"
 version = "1.0.0"
-description = ""
+description = "Free classic analog-style synth with modulation envelope, chorus, and delay."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.gtgsynths.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/321-GTG-MS-2008"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/321-GTG-MS-2008?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

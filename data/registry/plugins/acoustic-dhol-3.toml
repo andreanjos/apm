@@ -1,12 +1,13 @@
 slug = "acoustic-dhol-3"
 name = "Acoustic Dhol 3"
 vendor = "RDGAudio"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Sample-based plugin of the Indian Dhol drum with round-robin sampling and effects."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rdgaudio.com/product/acoustic-dhol-3/"
 is_paid = true
 
 [formats.vst3]

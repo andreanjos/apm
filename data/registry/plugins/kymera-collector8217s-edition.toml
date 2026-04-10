@@ -2,13 +2,13 @@ slug = "kymera-collector8217s-edition"
 name = "Kymera (Collector&#8217;s Edition)"
 vendor = "MNTRA"
 version = "1.0.0"
-description = ""
+description = "Collector's edition of MNTRA's Kymera, a Musique concrète-inspired virtual instrument."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.mntra.io/"
 
 [formats.vst3]
 url = ""

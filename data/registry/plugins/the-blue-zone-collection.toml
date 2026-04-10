@@ -2,11 +2,12 @@ slug = "the-blue-zone-collection"
 name = "The Blue Zone Collection"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument collection from Hideaway Studio featuring vintage synthesizer-based tonal colors."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

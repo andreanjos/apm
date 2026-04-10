@@ -1,14 +1,15 @@
 slug = "motion-filter"
 name = "Motion Filter"
 vendor = "Denise Audio"
-version = "1.0.0"
-description = ""
+version = "1.4"
+description = "Dynamic filter plugin that adds constant motion and movement to any audio signal."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.deniseaudio.com/plugins/motion-filter"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/12171-Motion-Filter"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/12171-Motion-Filter?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

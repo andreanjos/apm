@@ -1,12 +1,13 @@
 slug = "whisper-of-loong"
 name = "Whisper of Loong"
 vendor = "Three-Body Technology"
-version = "1.0.0"
-description = ""
+version = "1.6.0"
+description = "Deeply sampled ancient Chinese Dizi bamboo flute virtual instrument."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.threebodytech.com/en/products/whisperofloong"
 is_paid = true
 
 [formats.vst3]

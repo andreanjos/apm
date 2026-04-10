@@ -2,11 +2,12 @@ slug = "synthmaster-one-synthmaster-2-bundle"
 name = "Synthmaster One & Synthmaster 2 Bundle"
 vendor = "KV331 Audio"
 version = "1.0.0"
-description = ""
+description = "Bundle combining SynthMaster One wavetable synth with SynthMaster 2 dual-layer synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.kv331audio.com/synthmasterone.aspx"
 is_paid = true
 
 [formats.vst3]

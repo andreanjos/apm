@@ -1,14 +1,15 @@
 slug = "landr-voxverb"
 name = "LANDR VoxVerb"
 vendor = "LANDR"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Reverb plugin designed specifically for vocals to add space, depth, and professional studio ambience."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://www.landr.com/plugins/landr-vocal-plugin-bundle"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/15205-LANDR-VoxVerb"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/15205-LANDR-VoxVerb?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

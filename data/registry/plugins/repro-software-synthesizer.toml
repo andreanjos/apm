@@ -1,12 +1,13 @@
 slug = "repro-software-synthesizer"
 name = "Repro Software Synthesizer"
 vendor = "u-he"
-version = "1.0.0"
-description = ""
+version = "1.4"
+description = "u-he Repro is a component-level model of two classic analogue synthesizers, Repro-1 and Repro-5."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://u-he.com/products/repro/"
 is_paid = true
 
 [formats.vst3]

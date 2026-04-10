@@ -2,11 +2,12 @@ slug = "vs-kalimba"
 name = "Vs Kalimba"
 vendor = "Versus Audio"
 version = "1.0.0"
-description = ""
+description = "Ethnic kalimba Kontakt instrument sampled for natural thumb-piano tones and overtones."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://versusaudio.com/"
 is_paid = true
 
 [formats.vst3]

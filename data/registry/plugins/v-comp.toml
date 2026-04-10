@@ -2,13 +2,14 @@ slug = "v-comp"
 name = "V Comp"
 vendor = "Kiive Audio"
 version = "1.0.0"
-description = ""
+description = "Vari-mu tube compressor with seven onboard tubes and iron transformer delivering musical, gentle-knee compression."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.kiiveaudio.com/products/v-comp"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/12903-V-Comp"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/12903-V-Comp?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

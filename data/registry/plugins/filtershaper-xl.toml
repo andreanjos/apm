@@ -2,13 +2,14 @@ slug = "filtershaper-xl"
 name = "FilterShaper XL"
 vendor = "Cableguys"
 version = "1.0.0"
-description = ""
+description = "Massively modulatable dual filter plugin for unconventional sound design and complex filter movements."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.cableguys.com/products"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/11111-FilterShaper-XL"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/11111-FilterShaper-XL?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

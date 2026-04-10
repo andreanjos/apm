@@ -2,13 +2,14 @@ slug = "soft-limit"
 name = "Soft Limit"
 vendor = "Apogee"
 version = "1.0.0"
-description = ""
+description = "Subtle analog-style limiter plugin emulating Apogee's classic Soft Limit hardware circuit."
 category = "effects"
 subcategory = "tape emulation"
 license = "commercial"
 tags = []
+homepage = "https://apogeedigital.com/shop/plugins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/12163-Soft-Limit"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/12163-Soft-Limit?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "syndrum"
 name = "Syndrum"
 vendor = "Iconic Instruments"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Electronic drum synthesizer plugin recreating the classic Synare-style synth drum sounds."
 category = "instruments"
 subcategory = "electronic drums"
 license = "commercial"
 tags = []
+homepage = "https://iconicpluginsinstruments.com/"
 is_paid = true
 
 [formats.vst3]

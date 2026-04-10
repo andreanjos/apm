@@ -2,13 +2,14 @@ slug = "pitchshaper"
 name = "PitchShaper"
 vendor = "Cableguys"
 version = "1.0.0"
-description = ""
+description = "Pitch-shifting plugin with four algorithms for smooth transpositions, formant shifts, and rhythmic pitch effects."
 category = "effects"
 subcategory = "pitch shifter"
 license = "commercial"
 tags = []
+homepage = "https://www.cableguys.com/products"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/15914-PitchShaper"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/15914-PitchShaper?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

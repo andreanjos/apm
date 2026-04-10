@@ -1,12 +1,13 @@
 slug = "imposcar2"
 name = "ImpOSCar2"
 vendor = "GForce Software"
-version = "1.0.0"
-description = ""
+version = "2.8"
+description = "Virtual synthesizer recreation of the classic OSCar hardware synth with extended polyphony and modern features."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.gforcesoftware.com/product/imposcar2/"
 is_paid = true
 
 [formats.vst3]

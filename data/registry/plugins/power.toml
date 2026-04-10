@@ -2,11 +2,12 @@ slug = "power"
 name = "Power"
 vendor = "DUY"
 version = "1.0.0"
-description = ""
+description = "Automatic dynamics processor that adjusts thresholds, ratios, attack and release with no manual tweaking."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://duy.com/"
 is_paid = true
 
 [formats.vst3]

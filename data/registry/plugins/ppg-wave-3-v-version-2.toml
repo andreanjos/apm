@@ -1,14 +1,15 @@
 slug = "ppg-wave-3-v-version-2"
 name = "PPG Wave 3 V Version 2"
 vendor = "Waldorf"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Major version 2 release of the PPG Wave 3.V software synthesizer with wavetable editor and resizable interface."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://waldorfmusic.com/produkt/ppg-wave-3-v-version-2/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15601-PPG-Wave-3-V-Version-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15601-PPG-Wave-3-V-Version-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

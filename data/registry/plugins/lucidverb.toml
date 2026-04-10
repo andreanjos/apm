@@ -2,10 +2,11 @@ slug = "lucidverb"
 name = "LucidVerb"
 vendor = "DUY"
 version = "1.0.0"
-description = ""
+description = "Hybrid convolution reverb featuring a proprietary sonic DNA modeler for unique reverb textures."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://duy.com/"
 is_paid = true
 
 [formats.vst3]

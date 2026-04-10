@@ -1,14 +1,15 @@
 slug = "ms-20"
 name = "MS 20"
 vendor = "KORG"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Software recreation of the iconic 1978 KORG MS-20 semi-modular analog synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.korg.com/us/products/software/korg_collection/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11192-MS-20"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11192-MS-20?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

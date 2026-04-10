@@ -1,14 +1,15 @@
 slug = "poseidon"
 name = "Poseidon"
 vendor = "Pulsar Audio"
-version = "1.0.0"
-description = ""
+version = "1.1.11"
+description = "High-fidelity analog-modelled EQ plugin with broad, musical tone-shaping curves."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://pulsar.audio/poseidon/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/13148-Poseidon"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/13148-Poseidon?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,14 +1,15 @@
 slug = "carve-eq"
 name = "Carve EQ"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "31-band graphic equalizer Snapin with stereo L/R and Mid/Side processing modes."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/carve_eq"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/3914-Carve-EQ"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/3914-Carve-EQ?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

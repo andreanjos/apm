@@ -1,14 +1,15 @@
 slug = "tal-noisemaker"
 name = "TAL NoiseMaker"
 vendor = "TAL"
-version = "1.0.0"
-description = ""
+version = "5.0.6"
+description = "Virtual analog synth with low CPU usage, three oscillators, multiple filter types, dual LFOs, and built-in effects."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://tal-software.com/products/tal-noisemaker"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/429-TAL-NoiseMaker"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/429-TAL-NoiseMaker?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

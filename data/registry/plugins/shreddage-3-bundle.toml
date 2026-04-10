@@ -2,11 +2,12 @@ slug = "shreddage-3-bundle"
 name = "Shreddage 3 Bundle"
 vendor = "Impact Soundworks"
 version = "1.0.0"
-description = ""
+description = "Complete Shreddage 3 bundle including 10 guitars and 5 basses for rock, metal, funk, jazz, and pop."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://impactsoundworks.com/product/shreddage-3-bundle/"
 is_paid = true
 
 [formats.vst3]

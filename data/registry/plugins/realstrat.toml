@@ -1,12 +1,13 @@
 slug = "realstrat"
 name = "RealStrat"
 vendor = "MusicLab"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Virtual Fender Stratocaster guitar instrument with ultra-realistic playing techniques and dynamics."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.musiclab.com/"
 is_paid = true
 
 [formats.vst3]

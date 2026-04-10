@@ -2,11 +2,12 @@ slug = "sketch-guitar-rebuilt"
 name = "Sketch Guitar Rebuilt"
 vendor = "Sketch Sampling"
 version = "1.0.0"
-description = ""
+description = "Rebuilt Kontakt guitar library with expressive acoustic guitar samples and articulations."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://sketchsampling.ru/sketch-guitar-rebuilt/"
 is_paid = true
 
 [formats.vst3]

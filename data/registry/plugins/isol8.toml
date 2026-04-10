@@ -1,14 +1,15 @@
 slug = "isol8"
 name = "ISOL8"
 vendor = "TBProAudio"
-version = "1.0.0"
-description = ""
+version = "2.9.1"
+description = "Free mix monitoring tool for isolating frequency bands during mixing and mastering."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.tbproaudio.de/products/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/15892-ISOL8"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/15892-ISOL8?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

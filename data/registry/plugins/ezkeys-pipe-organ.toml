@@ -1,12 +1,13 @@
 slug = "ezkeys-pipe-organ"
 name = "EZKeys Pipe Organ"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.1.5"
+description = "EZkeys expansion featuring a sampled pipe organ for classical and contemporary keyboard compositions."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/pipe-organ-ekx/"
 is_paid = true
 
 [formats.vst3]

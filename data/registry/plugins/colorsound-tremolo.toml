@@ -2,10 +2,11 @@ slug = "colorsound-tremolo"
 name = "Colorsound Tremolo"
 vendor = "Martinic"
 version = "1.0.0"
-description = ""
+description = "Precise recreation of the 1974 Colorsound Tremolo pedal based on the VOX AC30 tremolo circuit."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.martinic.com/en/products/colorsound-tremolo"
 is_paid = true
 
 [formats.vst3]

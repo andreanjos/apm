@@ -2,11 +2,12 @@ slug = "reiya-ultimate-midi-library-3-bundle"
 name = "Reiya + Ultimate MIDI Library 3 Bundle"
 vendor = "New Nation"
 version = "1.0.0"
-description = ""
+description = "Reiya layered sampler instrument bundled with Ultimate MIDI Library 3 for pads and sound design."
 category = "instruments"
 subcategory = "pads"
 license = "commercial"
 tags = []
+homepage = "https://nnaud.io/"
 is_paid = true
 
 [formats.vst3]

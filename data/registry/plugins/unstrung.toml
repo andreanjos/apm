@@ -2,11 +2,12 @@ slug = "unstrung"
 name = "Unstrung"
 vendor = "Fallout Music"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of live solo string horror and tension FX—screeches, knocks, plucks, and dives."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://falloutmusicgroup.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "shreddage-3-abyss"
 name = "Shreddage 3 Abyss"
 vendor = "Impact Soundworks"
 version = "1.0.0"
-description = ""
+description = "Kontakt 6-string bass virtual instrument with 10,000+ samples covering rock, metal, and extended range styles."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://impactsoundworks.com/product/shreddage-3-abyss/"
 is_paid = true
 
 [formats.vst3]

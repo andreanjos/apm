@@ -2,11 +2,12 @@ slug = "analogy"
 name = "Analogy"
 vendor = "Sampletrip"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of analog and hybrid synth sounds with vector and subtractive synthesis engine."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/analogy-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "infinity-synth-addiction-synth-bundle"
 name = "Infinity Synth + Addiction Synth Bundle"
 vendor = "Stagecraft"
-version = "1.0.0"
-description = ""
+version = "9"
+description = "Bundle combining Infinity Synth sample-based and Addiction Synth subtractive synthesizers."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/synths/"
 is_paid = true
 
 [formats.vst3]

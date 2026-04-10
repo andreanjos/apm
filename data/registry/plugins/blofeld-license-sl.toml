@@ -1,14 +1,15 @@
 slug = "blofeld-license-sl"
 name = "Blofeld License SL"
 vendor = "Waldorf"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "SL expansion license for the Waldorf Blofeld synthesizer plugin adding additional sound content and waveforms."
 category = "instruments"
 subcategory = "expansion packs"
 license = "commercial"
 tags = []
+homepage = "https://waldorfmusic.com/blofeld-plugin/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/12449-Blofeld-License-SL"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/12449-Blofeld-License-SL?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

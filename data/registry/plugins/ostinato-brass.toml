@@ -2,11 +2,12 @@ slug = "ostinato-brass"
 name = "Ostinato Brass"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Perpetual cinematic orchestral brass ostinato Kontakt library for rhythmic scoring beds."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/instruments/ostinato-brass/"
 is_paid = true
 
 [formats.vst3]

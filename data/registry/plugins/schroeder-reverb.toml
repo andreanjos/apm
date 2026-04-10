@@ -1,11 +1,12 @@
 slug = "schroeder-reverb"
 name = "Schroeder Reverb"
 vendor = "DiscoDSP"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Digital reverb plugin based on Schroeder comb/all-pass filter topology with 8x oversampling."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.discodsp.com/fx/"
 is_paid = true
 
 [formats.vst3]

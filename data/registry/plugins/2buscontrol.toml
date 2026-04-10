@@ -2,13 +2,14 @@ slug = "2buscontrol"
 name = "2BusControl"
 vendor = "MAAT"
 version = "1.0.0"
-description = ""
+description = "Free monitor controller plugin with channel routing, balance, and goniometer metering."
 category = "tools"
 subcategory = "metering"
 license = "commercial"
 tags = []
+homepage = "https://www.maat.digital/2buscontrol/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/3900-2BusControl"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/3900-2BusControl?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

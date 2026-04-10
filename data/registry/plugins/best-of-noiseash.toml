@@ -2,11 +2,12 @@ slug = "best-of-noiseash"
 name = "Best of NoiseAsh"
 vendor = "NoiseAsh"
 version = "1.0.0"
-description = ""
+description = "Curated bundle of NoiseAsh's most popular mixing and mastering plugins at a discounted price."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/best-of-noiseash/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "synth-ai"
 name = "Synth AI"
 vendor = "Sample Logic"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument fusing cinematic synthesis with multi-sampled analog and digital instruments."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.samplelogic.com/products/synth-ai/"
 is_paid = true
 
 [formats.vst3]

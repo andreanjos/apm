@@ -2,13 +2,14 @@ slug = "flamingo-verb"
 name = "Flamingo Verb"
 vendor = "Safari Audio"
 version = "1.0.0"
-description = ""
+description = "Four wild reverb algorithms combined in one versatile reverb plugin."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://safariaudio.com/products/flamingo-verb"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/15365-Flamingo-Verb"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/15365-Flamingo-Verb?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

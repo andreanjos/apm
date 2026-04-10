@@ -1,14 +1,15 @@
 slug = "transperc"
 name = "Transperc"
 vendor = "Apisonic Labs"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Transient shaper plugin by Apisonic Labs optimized for percussion attack and sustain control."
 category = "effects"
 subcategory = "transient shaper"
 license = "commercial"
 tags = []
+homepage = "https://apisoniclabs.com/transperc/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/8073-Transperc"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/8073-Transperc?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "rp-86"
 name = "RP-86"
 vendor = "Sampletrip"
 version = "1.0.0"
-description = ""
+description = "Kontakt library inspired by 1980s Roland digital piano modules with authentic FM character."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/rp-86-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

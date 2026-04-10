@@ -1,12 +1,13 @@
 slug = "oberheim-ob-e-gforce-software"
 name = "Oberheim OB-E"
 vendor = "GForce Software"
-version = "1.0.0"
-description = ""
+version = "2.1"
+description = "Tom Oberheim-endorsed virtual recreation of the legendary Oberheim 8-Voice polyphonic synthesizer."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.gforcesoftware.com/product/ob-e/"
 is_paid = true
 
 [formats.vst3]

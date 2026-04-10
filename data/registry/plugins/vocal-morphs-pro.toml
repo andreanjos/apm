@@ -2,11 +2,12 @@ slug = "vocal-morphs-pro"
 name = "Vocal Morphs PRO"
 vendor = "Rast Sound"
 version = "1.0.0"
-description = ""
+description = "Vocal design Kontakt tool for combining and morphing unique vocal performances across thousands of combinations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/vocal-morphs-pro/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "pro-tools-studio-1-year-subscription-renew"
 name = "Pro Tools Studio 1 Year Subscription Renew"
 vendor = "Avid"
-version = "1.0.0"
-description = ""
+version = "2025.12.2"
+description = "One-year renewal subscription for Pro Tools Studio, Avid's mid-tier professional DAW."
 category = "tools"
 subcategory = "daw"
 license = "commercial"
 tags = []
+homepage = "https://www.avid.com/pro-tools"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12675-Pro-Tools-Studio-1-Year-Subscription-Renew-"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12675-Pro-Tools-Studio-1-Year-Subscription-Renew-?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,10 +2,11 @@ slug = "loopmix"
 name = "Loopmix"
 vendor = "Audiomodern"
 version = "1.0.0"
-description = ""
+description = "Dynamic loop remix tool that chops and rearranges audio loops to add fresh character to tracks."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://audiomodern.com/products/"
 is_paid = true
 
 [formats.vst3]

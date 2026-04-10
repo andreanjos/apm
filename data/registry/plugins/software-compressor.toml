@@ -2,11 +2,12 @@ slug = "software-compressor"
 name = "Software Compressor"
 vendor = "Stagecraft"
 version = "1.0.0"
-description = ""
+description = "General-purpose software compressor plugin from Stagecraft Software with an intuitive interface."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/"
 is_paid = true
 
 [formats.vst3]

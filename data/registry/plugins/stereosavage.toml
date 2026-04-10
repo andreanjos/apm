@@ -2,10 +2,11 @@ slug = "stereosavage"
 name = "StereoSavage"
 vendor = "Plugin Boutique"
 version = "1.0.0"
-description = ""
+description = "Stereo imaging and width enhancement plugin offering a suite of stereo manipulation tools."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/7-Plugin-Boutique"
 is_paid = true
 
 [formats.vst3]

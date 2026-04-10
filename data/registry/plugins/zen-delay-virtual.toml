@@ -1,14 +1,15 @@
 slug = "zen-delay-virtual"
 name = "Zen Delay Virtual"
 vendor = "Liquid Sky"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Liquid Sky Zen Delay Virtual is the software version of the Erica Synths hardware delay unit."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://liquidskyeurope.com/products/ninja-tune-erica-synths-zen-delay-virtual-the-experimental-cult-delay-vst"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/10200-Zen-Delay-Virtual"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/10200-Zen-Delay-Virtual?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

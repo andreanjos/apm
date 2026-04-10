@@ -2,11 +2,12 @@ slug = "drum-sculpting-bundle"
 name = "Drum Sculpting Bundle"
 vendor = "SoundSpot"
 version = "1.0.0"
-description = ""
+description = "SoundSpot bundle of effects plugins for sculpting and shaping drum sounds."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

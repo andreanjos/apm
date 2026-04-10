@@ -2,11 +2,12 @@ slug = "pyro"
 name = "Pyro"
 vendor = "Ecliptiq Audio"
 version = "1.0.0"
-description = ""
+description = "Wavetable synthesizer Kontakt instrument with fiery, energetic sound design capabilities."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/label/Ecliptiq-Audio"
 is_paid = true
 
 [formats.vst3]

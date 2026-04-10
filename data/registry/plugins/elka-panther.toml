@@ -2,11 +2,12 @@ slug = "elka-panther"
 name = "Elka Panther"
 vendor = "Martinic"
 version = "1.0.0"
-description = ""
+description = "Faithful emulation of the Elka Panther 300, a classic Italian combo organ from the 1960s."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.martinic.com/en/products/elka-panther"
 is_paid = true
 
 [formats.vst3]

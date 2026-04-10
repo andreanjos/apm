@@ -1,12 +1,13 @@
 slug = "brazilian-series-drums"
 name = "Brazilian Series: Drums"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "1.6.1"
+description = "Large Kontakt Brazilian drum kit library with 14,927 samples, jazz grooves, and 10 channel buses."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/drums/"
 is_paid = true
 
 [formats.vst3]

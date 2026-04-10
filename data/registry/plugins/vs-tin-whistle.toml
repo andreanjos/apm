@@ -2,11 +2,12 @@ slug = "vs-tin-whistle"
 name = "Vs Tin Whistle"
 vendor = "Versus Audio"
 version = "1.0.0"
-description = ""
+description = "Tin whistle Kontakt instrument sampled for expressive Irish and folk music performance."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://versusaudio.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "superior-drummer-3-crossgrade-from-ezdrummer-2"
 name = "Superior Drummer 3 Crossgrade from EZDrummer 2"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "3.4.4"
+description = "Crossgrade from EZdrummer 2 to Superior Drummer 3, Toontrack's most powerful virtual drum production suite."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/superior-drummer-3/"
 is_paid = true
 
 [formats.vst3]

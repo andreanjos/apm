@@ -1,14 +1,15 @@
 slug = "mvmeter2"
 name = "mvMeter2"
 vendor = "TBProAudio"
-version = "1.0.0"
-description = ""
+version = "2.7.0"
+description = "Free multi-variable meter supporting RMS, EBU R128, VU, and PPM measurement modes."
 category = "tools"
 subcategory = "metering"
 license = "commercial"
 tags = []
+homepage = "https://www.tbproaudio.de/products/mvmeter2"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/15893-mvMeter2"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/15893-mvMeter2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

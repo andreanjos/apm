@@ -2,11 +2,12 @@ slug = "pachamama-pan-flutes"
 name = "Pachamama Pan Flutes"
 vendor = "Marcos Ciscar"
 version = "1.0.0"
-description = ""
+description = "Kontakt pan flute library with three flutes, 10 articulations, natural vibrato, and glissando."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.marcosciscar.com"
 is_paid = true
 
 [formats.vst3]

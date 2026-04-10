@@ -2,13 +2,14 @@ slug = "glitch-machine"
 name = "Glitch Machine"
 vendor = "Stagecraft Software"
 version = "1.0.0"
-description = ""
+description = "Stutter effect plugin with precise probability controls for creating glitch and rhythmic artifacts."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/glitchmachine/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/2349-Glitch-Machine"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/2349-Glitch-Machine?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "maleventum"
 name = "Maleventum"
 vendor = "Silence And Other Sounds"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument collection of ethnic flutes, whistles, and horns for cinematic sound design."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://silenceandothersounds.com/products/maleventum/"
 is_paid = true
 
 [formats.vst3]

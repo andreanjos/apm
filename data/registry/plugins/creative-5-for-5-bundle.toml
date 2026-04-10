@@ -2,11 +2,12 @@ slug = "creative-5-for-5-bundle"
 name = "Creative 5 for 5 Bundle"
 vendor = "SoundSpot"
 version = "1.0.0"
-description = ""
+description = "SoundSpot bundle of 5 creative effects plugins offered at an introductory price."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

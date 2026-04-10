@@ -1,12 +1,13 @@
 slug = "grand-glass-marimba-2"
 name = "Grand Glass Marimba 2"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "2.2"
+description = "Kontakt glass marimba library with 6 stick types, 6,419 samples, motifs, chords, and arpeggios."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/grandglassmarimba2/"
 is_paid = true
 
 [formats.vst3]

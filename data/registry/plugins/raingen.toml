@@ -1,11 +1,12 @@
 slug = "raingen"
 name = "RainGen"
 vendor = "SirenFX"
-version = "1.0.0"
-description = ""
+version = "1.1.0"
+description = "Sample-free rain sound synthesizer generating realistic and customizable rain ambiences."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/raingen-by-sirenfx"
 is_paid = true
 
 [formats.vst3]

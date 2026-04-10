@@ -2,13 +2,14 @@ slug = "theremin"
 name = "Theremin"
 vendor = "Stagecraft Software"
 version = "1.0.0"
-description = ""
+description = "Virtual theremin instrument plugin for creating experimental and expressive electronic sounds."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/theremin/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/5452-Theremin"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/5452-Theremin?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

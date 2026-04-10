@@ -1,11 +1,12 @@
 slug = "neo-reverb-standard-version"
 name = "Neo Reverb Standard Version"
 vendor = "Sound Magic"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sound Magic Neo Reverb combines convolution and algorithmic reverb for hybrid spatial effects."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://neovst.com/product/neo-reverb/"
 is_paid = true
 
 [formats.vst3]

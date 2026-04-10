@@ -2,13 +2,14 @@ slug = "binvert"
 name = "Binvert"
 vendor = "Noisebud"
 version = "1.0.0"
-description = ""
+description = "Free utility plugin that splits audio into two bands with independent phase inversion per band."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.noisebud.se/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/2692-Binvert"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/2692-Binvert?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

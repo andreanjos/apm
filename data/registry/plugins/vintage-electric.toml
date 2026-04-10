@@ -2,11 +2,12 @@ slug = "vintage-electric"
 name = "Vintage Electric"
 vendor = "Psound"
 version = "1.0.0"
-description = ""
+description = "UVI-based virtual vintage electric keyboard instrument with authentic sampled character."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.psound.it/"
 is_paid = true
 
 [formats.vst3]

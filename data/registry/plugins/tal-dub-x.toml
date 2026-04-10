@@ -1,14 +1,15 @@
 slug = "tal-dub-x"
 name = "TAL Dub X"
 vendor = "TAL"
-version = "1.0.0"
-description = ""
+version = "2.2.8"
+description = "Advanced delay effect with multiple echo modes, resonance filter, saturation stage, and LFO modulation."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://tal-software.com/products/tal-dub-x"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/9677-TAL-Dub-X"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/9677-TAL-Dub-X?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

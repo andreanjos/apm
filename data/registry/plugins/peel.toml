@@ -2,13 +2,14 @@ slug = "peel"
 name = "PEEL"
 vendor = "zplane"
 version = "1.0.0"
-description = ""
+description = "Flexible spectral and spatial audio isolation plugin for frequency and stereo separation."
 category = "tools"
 subcategory = "audio editor"
 license = "commercial"
 tags = []
+homepage = "https://products.zplane.de/products/peel"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/7190-PEEL"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/7190-PEEL?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

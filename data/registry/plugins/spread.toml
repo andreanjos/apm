@@ -2,10 +2,11 @@ slug = "spread"
 name = "Spread"
 vendor = "Yum Audio"
 version = "1.0.0"
-description = ""
+description = "Stereo width control plugin for adjusting and shaping the stereo image of any audio signal."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.yum-audio.com/"
 is_paid = true
 
 [formats.vst3]

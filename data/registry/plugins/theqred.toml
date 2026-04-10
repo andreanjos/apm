@@ -2,13 +2,14 @@ slug = "theqred"
 name = "thEQred"
 vendor = "MAAT"
 version = "1.0.0"
-description = ""
+description = "Frequency-domain linear phase EQ for artistic, aesthetic equalization in mastering."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.maat.digital/theqred/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11571-thEQred"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11571-thEQred?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

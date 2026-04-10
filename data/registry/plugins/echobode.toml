@@ -1,14 +1,15 @@
 slug = "echobode"
 name = "Echobode"
 vendor = "Sonic Charge"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Frequency-shifting delay plugin combining Bode-style shifting with rich echo modulation."
 category = "effects"
 subcategory = "frequency shifter"
 license = "commercial"
 tags = []
+homepage = "https://soniccharge.com/echobode"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/28-Frequency-Shifter/1601-Echobode"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/28-Frequency-Shifter/1601-Echobode?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

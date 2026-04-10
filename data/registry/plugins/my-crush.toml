@@ -2,13 +2,14 @@ slug = "my-crush"
 name = "My Crush"
 vendor = "Denise Audio"
 version = "1.0.0"
-description = ""
+description = "Creative bit crusher plugin for lo-fi digital texture and crunchy sound design."
 category = "effects"
 subcategory = "bit crusher"
 license = "commercial"
 tags = []
+homepage = "https://www.deniseaudio.com/plugins/my-crush"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/8382-My-Crush"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/8382-My-Crush?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

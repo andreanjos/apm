@@ -2,11 +2,12 @@ slug = "maximo"
 name = "Maximo"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Action-packed and powerful phrase-based orchestral Kontakt library for epic scoring."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/classical/maximo/"
 is_paid = true
 
 [formats.vst3]

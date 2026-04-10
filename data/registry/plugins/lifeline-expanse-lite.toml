@@ -2,10 +2,11 @@ slug = "lifeline-expanse-lite"
 name = "Lifeline Expanse Lite"
 vendor = "Excite Audio"
 version = "1.0.0"
-description = ""
+description = "Entry-level version of Lifeline Expanse for adding character, space, and width to sounds."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.excite-audio.com/lifeline-modules"
 is_paid = true
 
 [formats.vst3]

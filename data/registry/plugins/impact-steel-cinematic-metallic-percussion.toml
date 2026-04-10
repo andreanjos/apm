@@ -1,12 +1,13 @@
 slug = "impact-steel-cinematic-metallic-percussion"
 name = "Impact Steel: Cinematic Metallic Percussion"
 vendor = "Impact Soundworks"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Kontakt metallic percussion library with 73 articulations including metal hits, scrapes, rolls, and FX patches."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://impactsoundworks.com/product/impact-steel/"
 is_paid = true
 
 [formats.vst3]

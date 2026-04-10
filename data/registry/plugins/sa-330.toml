@@ -2,11 +2,12 @@ slug = "sa-330"
 name = "SA-330"
 vendor = "Sampletrip"
 version = "1.0.0"
-description = ""
+description = "Kontakt library inspired by the Roland P-330 digital piano module released in 1988."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/sa-330-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

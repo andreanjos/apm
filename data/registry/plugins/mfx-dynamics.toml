@@ -2,13 +2,14 @@ slug = "mfx-dynamics"
 name = "MFX Dynamics"
 vendor = "ALM Busy Circuits"
 version = "1.0.0"
-description = ""
+description = "Pair of DAW plugins from MFX: a unique compressor/expander and a feature-rich auto-panner."
 category = "effects"
 subcategory = "dynamics processor"
 license = "commercial"
 tags = []
+homepage = "https://busycircuits.com/collections/mfx-plugs"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/14822-MFX-Dynamics"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/14822-MFX-Dynamics?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,13 +2,14 @@ slug = "pulse-box"
 name = "Pulse Box"
 vendor = "Wavelet Audio"
 version = "1.0.0"
-description = ""
+description = "Free Kontakt Player library featuring 30 dynamic cinematic pulses for trailer and film scoring."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://wavelet-audio.com/pulse-box/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/12191-Pulse-Box"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/12191-Pulse-Box?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

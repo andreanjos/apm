@@ -2,13 +2,13 @@ slug = "cloudbounce-bouncecast-8211-annual-subscription"
 name = "Cloudbounce+ BounceCast &#8211; Annual Subscription"
 vendor = "CloudBounce"
 version = "1.0.0"
-description = ""
+description = "Annual bundle subscription combining CloudBounce music mastering and BounceCast podcast mastering services."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://cloudbounce.com/"
 
 [formats.vst3]
 url = ""

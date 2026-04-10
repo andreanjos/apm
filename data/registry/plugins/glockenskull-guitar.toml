@@ -2,11 +2,12 @@ slug = "glockenskull-guitar"
 name = "Glockenskull Guitar"
 vendor = "Karoryfer Samples"
 version = "1.0.0"
-description = ""
+description = "Soviet-era Styeua-R guitar sample library with over 5100 samples including unique percussive and noise techniques."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://shop.karoryfer.com/products/glockenskull-guitar"
 is_paid = true
 
 [formats.vst3]

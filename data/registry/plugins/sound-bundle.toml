@@ -2,11 +2,12 @@ slug = "sound-bundle"
 name = "Sound Bundle"
 vendor = "Minimal Audio"
 version = "1.0.0"
-description = ""
+description = "Minimal Audio sound and software bundle combining plugins with expansion sound content."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.minimal.audio/t/bundles"
 is_paid = true
 
 [formats.vst3]

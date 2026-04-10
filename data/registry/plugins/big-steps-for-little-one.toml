@@ -2,11 +2,12 @@ slug = "big-steps-for-little-one"
 name = "Big Steps for Little One"
 vendor = "Xhun Audio"
 version = "1.0.0"
-description = ""
+description = "LittleOne expansion pack with big, bold synthesizer presets for the Xhun Audio LittleOne."
 category = "instruments"
 subcategory = "presets"
 license = "commercial"
 tags = []
+homepage = "https://www.xhun-audio.com/site/xhun.php?page=expansions"
 is_paid = true
 
 [formats.vst3]

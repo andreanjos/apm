@@ -2,10 +2,11 @@ slug = "god-mode-free-bass-xl"
 name = "God Mode + Free Bass XL"
 vendor = "denise"
 version = "1.0.0"
-description = ""
+description = "God Mode saturation plugin bundled with the free Bass XL bass enhancer."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.deniseaudio.com/"
 is_paid = true
 
 [formats.vst3]

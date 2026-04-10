@@ -2,13 +2,13 @@ slug = "cloudbounce-8211-lifetime-plan"
 name = "Cloudbounce &#8211; Lifetime Plan"
 vendor = "CloudBounce"
 version = "1.0.0"
-description = ""
+description = "Lifetime access plan to CloudBounce's AI mastering service with unlimited track masters and format support."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://cloudbounce.com/"
 
 [formats.vst3]
 url = ""

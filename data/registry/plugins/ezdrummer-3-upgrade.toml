@@ -1,12 +1,13 @@
 slug = "ezdrummer-3-upgrade"
 name = "EZdrummer 3 Upgrade"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "3.1.2"
+description = "Upgrade path to EZdrummer 3 for existing Toontrack drum instrument owners."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/ezdrummer-3/"
 is_paid = true
 
 [formats.vst3]

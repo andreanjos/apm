@@ -1,12 +1,13 @@
 slug = "blowfish"
 name = "Blowfish"
 vendor = "Soundspear"
-version = "1.0.0"
-description = ""
+version = "1.0.2"
+description = "Distortion plugin focused on enhancing and enriching the high-frequency sparkle of audio."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://soundspear.com/product/blowfish"
 is_paid = true
 
 [formats.vst3]

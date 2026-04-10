@@ -1,14 +1,15 @@
 slug = "acidbox-v2"
 name = "AcidBox V2"
 vendor = "Audio Blast"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "303-inspired bassline synthesizer with 16–64 step sequencer and built-in effects."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.audioblast.me/product/acidbox/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10477-AcidBox-V2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10477-AcidBox-V2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

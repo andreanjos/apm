@@ -1,14 +1,14 @@
 slug = "swam-horns-038-tubas"
 name = "SWAM Horns &#038; Tubas"
 vendor = "Audio Modeling"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Physically modeled French horns and tubas with real-time expression and Ambiente room simulation."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://audiomodeling.com/swam-engine/solo-brass/"
 
 [formats.vst3]
 url = ""

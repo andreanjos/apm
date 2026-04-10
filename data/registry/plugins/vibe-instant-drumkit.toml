@@ -2,11 +2,12 @@ slug = "vibe-instant-drumkit"
 name = "VIBE Instant Drumkit"
 vendor = "Strezov Sampling"
 version = "1.0.0"
-description = ""
+description = "Kontakt drum library with 145 performances by Michael Schack, 19 GB of one-shot samples."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.strezov-sampling.com/products/view/Vibe.html"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "true-keys-pianos-bundle"
 name = "True Keys Pianos Bundle"
 vendor = "ViLabs"
 version = "1.0.0"
-description = ""
+description = "Bundle of three deeply sampled True Keys concert grands: American, German, and Italian."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.vilabsaudio.com/truekeyspianos"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "dad-vinyl"
 name = "DaD Vinyl"
 vendor = "DUY"
 version = "1.0.0"
-description = ""
+description = "Vinyl and vintage record simulator replicating the sound of records from various eras and materials."
 category = "effects"
 subcategory = "mixing"
 license = "commercial"
 tags = []
+homepage = "https://duy.com/"
 is_paid = true
 
 [formats.vst3]

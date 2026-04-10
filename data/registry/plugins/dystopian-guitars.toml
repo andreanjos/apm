@@ -1,12 +1,13 @@
 slug = "dystopian-guitars"
 name = "Dystopian Guitars"
 vendor = "Pulsesetter Sounds"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Dark, processed guitar Kontakt library by Pulsesetter Sounds for cinematic and moody textures."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.pulsesettersounds.com/"
 is_paid = true
 
 [formats.vst3]

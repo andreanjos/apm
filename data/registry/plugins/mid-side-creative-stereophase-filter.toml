@@ -2,11 +2,12 @@ slug = "mid-side-creative-stereophase-filter"
 name = "Mid-Side: Creative stereophase filter+"
 vendor = "G-Sonique"
 version = "1.0.0"
-description = ""
+description = "Mid/side creative stereo phase filter for advanced stereo field manipulation and sound design."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.g-sonique.com/shop.html"
 is_paid = true
 
 [formats.vst3]

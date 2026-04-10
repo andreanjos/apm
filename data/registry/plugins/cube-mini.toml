@@ -2,10 +2,11 @@ slug = "cube-mini"
 name = "CUBE Mini"
 vendor = "Lunacy Audio"
 version = "1.0.0"
-description = ""
+description = "Compact free version of Lunacy Audio's CUBE synth focusing on highest-impact features and sounds."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://lunacy.audio/products/cube-mini/"
 is_paid = true
 
 [formats.vst3]

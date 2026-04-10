@@ -1,11 +1,12 @@
 slug = "power-suite"
 name = "Power Suite"
 vendor = "Wave Arts"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Complete bundle of Wave Arts professional audio plugins including TrackPlug, FinalPlug, MasterVerb, and more."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://wavearts.com/products/"
 is_paid = true
 
 [formats.vst3]

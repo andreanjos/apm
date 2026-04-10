@@ -2,11 +2,12 @@ slug = "psi-vibraphone"
 name = "PSI Vibraphone"
 vendor = "Paper Stone Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt vibraphone instrument sampled with precision for expressive melodic and harmonic performance."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
 is_paid = true
 
 [formats.vst3]

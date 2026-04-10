@@ -1,14 +1,15 @@
 slug = "tonespace"
 name = "Tonespace"
 vendor = "Mucoder"
-version = "1.0.0"
-description = ""
+version = "2.5"
+description = "Free chord generator and MIDI tool by Mucoder for exploring harmonic progressions visually."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.mucoder.net/en/tonespace/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/1854-Tonespace"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/1854-Tonespace?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

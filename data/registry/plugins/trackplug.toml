@@ -1,12 +1,13 @@
 slug = "trackplug"
 name = "TrackPlug"
 vendor = "Wave Arts"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Full-featured channel strip combining 10-band EQ, gate, compressor, transient shaper, and tube saturation."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://wavearts.com/products/plugins/trackplug-7"
 is_paid = true
 
 [formats.vst3]

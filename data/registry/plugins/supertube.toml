@@ -1,12 +1,13 @@
 slug = "supertube"
 name = "Supertube"
 vendor = "Soundspear"
-version = "1.0.0"
-description = ""
+version = "1.0.1"
+description = "Customizable tube compressor plugin for warm analog compression coloration."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://soundspear.com/product/supertube"
 is_paid = true
 
 [formats.vst3]

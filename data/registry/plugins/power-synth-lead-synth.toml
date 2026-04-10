@@ -2,11 +2,12 @@ slug = "power-synth-lead-synth"
 name = "Power Synth Lead Synth"
 vendor = "Q Up Arts"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of lead synthesizer sounds from classic analog, digital, and vintage synths."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.quparts.com/products/power-synth-keyboards"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "real-sitar-factory-expansion"
 name = "Real Sitar Factory Expansion"
 vendor = "RDGAudio"
 version = "1.0.0"
-description = ""
+description = "Expansion pack adding additional articulations and presets for the RealSitar instrument."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rdgaudio.com/product/real-sitar-factory-expansion/"
 is_paid = true
 
 [formats.vst3]

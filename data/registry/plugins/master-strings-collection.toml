@@ -2,11 +2,12 @@ slug = "master-strings-collection"
 name = "Master Strings Collection"
 vendor = "Rast Sound"
 version = "1.0.0"
-description = ""
+description = "Bundle of Master Koto, Master Tanbur, and Master Kanun world string Kontakt libraries."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/master-strings-collection/"
 is_paid = true
 
 [formats.vst3]

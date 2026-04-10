@@ -2,10 +2,11 @@ slug = "session-analyzer"
 name = "Session Analyzer"
 vendor = "Flux"
 version = "1.0.0"
-description = ""
+description = "Real-time audio analysis plugin for metering, frequency, and loudness monitoring in sessions."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.flux.audio/products/"
 is_paid = true
 
 [formats.vst3]

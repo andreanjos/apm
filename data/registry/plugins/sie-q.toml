@@ -1,14 +1,15 @@
 slug = "sie-q"
 name = "Sie Q"
 vendor = "Soundtoys"
-version = "1.0.0"
-description = ""
+version = "5.5"
+description = "EQ plugin modeled on the Sievert passive tube equalizer delivering spacious highs and smooth lows."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.soundtoys.com/product/sie-q/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/4717-Sie-Q"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/4717-Sie-Q?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

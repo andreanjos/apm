@@ -2,11 +2,12 @@ slug = "kinetic-percussion-motion-engine"
 name = "Kinetic Percussion Motion Engine"
 vendor = "Kirk Hunter Studios"
 version = "1.0.0"
-description = ""
+description = "Orchestral percussion Kontakt instrument with timeline-based motion engine sequencing."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.kirkhunterstudios.com/"
 is_paid = true
 
 [formats.vst3]

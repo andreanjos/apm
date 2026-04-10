@@ -1,11 +1,12 @@
 slug = "vocoder-5000"
 name = "Vocoder 5000"
 vendor = "XILS Lab"
-version = "1.0.0"
-description = ""
+version = "1.1.3"
+description = "Emulation of the 1976 EMS 5000 flagship vocoder with 22-band filter bank and dual synthesis cores."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.xils-lab.com/store/"
 is_paid = true
 
 [formats.vst3]

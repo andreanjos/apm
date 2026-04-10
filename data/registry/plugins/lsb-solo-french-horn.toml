@@ -2,11 +2,12 @@ slug = "lsb-solo-french-horn"
 name = "LSB Solo French Horn"
 vendor = "Aria Sounds"
 version = "1.0.0"
-description = ""
+description = "Solo French horn Kontakt library with true legato at three dynamic layers and four mic positions."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://ariasounds.com/product/lsb-solo-french-horn/"
 is_paid = true
 
 [formats.vst3]

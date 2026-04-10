@@ -2,11 +2,12 @@ slug = "sordino-strings"
 name = "Sordino Strings"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Muted orchestral strings Kontakt library with con sordino sustains, staccato, and legato."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/classical/sordino-strings/"
 is_paid = true
 
 [formats.vst3]

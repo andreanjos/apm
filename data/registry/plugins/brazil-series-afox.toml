@@ -1,12 +1,13 @@
 slug = "brazil-series-afox"
 name = "Brazil Series: Afoxé"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "1.4"
+description = "Kontakt library featuring two Afoxé recordings with single hits and traditional Brazilian rhythmic loops."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/afoxe/"
 is_paid = true
 
 [formats.vst3]

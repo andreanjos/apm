@@ -2,13 +2,14 @@ slug = "halo-2-expansion-bass-bundle"
 name = "HALO 2 Expansion Bass Bundle"
 vendor = "DHPlugins"
 version = "1.0.0"
-description = ""
+description = "Expansion pack bundle for HALO 2 focusing on bass sounds for the hybrid synth/sampler."
 category = "instruments"
 subcategory = "expansion packs"
 license = "commercial"
 tags = []
+homepage = "https://dhplugins.com/halo-2/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/12040-HALO-2-Expansion-Bass-Bundle"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/12040-HALO-2-Expansion-Bass-Bundle?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

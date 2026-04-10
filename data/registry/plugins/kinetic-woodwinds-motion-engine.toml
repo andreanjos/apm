@@ -2,11 +2,12 @@ slug = "kinetic-woodwinds-motion-engine"
 name = "Kinetic Woodwinds Motion Engine"
 vendor = "Kirk Hunter Studios"
 version = "1.0.0"
-description = ""
+description = "Full woodwind section Kontakt instrument with 14 instruments and motion engine sequencing."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.kirkhunterstudios.com/"
 is_paid = true
 
 [formats.vst3]

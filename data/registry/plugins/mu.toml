@@ -2,11 +2,12 @@ slug = "mu"
 name = "Mu"
 vendor = "Pulsar Audio"
 version = "1.0.0"
-description = ""
+description = "Variable-mu tube compressor emulation delivering glue, warmth and analog character."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://pulsar.audio/mu/"
 is_paid = true
 
 [formats.vst3]

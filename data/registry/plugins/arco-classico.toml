@@ -2,11 +2,12 @@ slug = "arco-classico"
 name = "Arco Classico"
 vendor = "Capsule Audio"
 version = "1.0.0"
-description = ""
+description = "Classical string ensemble Capsule with two mic positions and ten orchestral articulations, no sound design."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.capsule.audio/"
 is_paid = true
 
 [formats.vst3]

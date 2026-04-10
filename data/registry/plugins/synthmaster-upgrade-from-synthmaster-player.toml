@@ -1,12 +1,13 @@
 slug = "synthmaster-upgrade-from-synthmaster-player"
 name = "SynthMaster Upgrade from SynthMaster Player"
 vendor = "KV331 Audio"
-version = "1.0.0"
-description = ""
+version = "2.9.12"
+description = "Upgrade from SynthMaster Player to the full SynthMaster, unlocking complete synthesis and editing capabilities."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.kv331audio.com/synthmaster.aspx"
 is_paid = true
 
 [formats.vst3]

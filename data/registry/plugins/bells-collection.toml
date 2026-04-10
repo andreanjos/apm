@@ -2,13 +2,13 @@ slug = "bells-collection"
 name = "Bells Collection"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Four-library Kontakt bundle of carillon, chimes, singing bowls, and sleigh bells by Sonokinetic."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.sonokinetic.net/products/instruments/ams/bells-collection/"
 
 [formats.vst3]
 url = ""

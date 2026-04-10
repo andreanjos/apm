@@ -2,13 +2,14 @@ slug = "tape-vibe"
 name = "Tape Vibe"
 vendor = "Three Body Technology"
 version = "1.0.0"
-description = ""
+description = "Mild-to-moderate tape saturation plugin adding vintage character with Drive, Tone, and Thick controls."
 category = "effects"
 subcategory = "tape emulation"
 license = "commercial"
 tags = []
+homepage = "https://www.threebodytech.com/en/products/tapevibe"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/16997-Tape-Vibe"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/16997-Tape-Vibe?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

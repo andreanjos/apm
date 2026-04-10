@@ -1,12 +1,13 @@
 slug = "ezkeys-hybrid-harp"
 name = "EZKeys Hybrid Harp"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.1.5"
+description = "EZkeys expansion combining acoustic harp with hybrid electronic textures for cinematic and modern music."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/hybrid-harp-ekx/"
 is_paid = true
 
 [formats.vst3]

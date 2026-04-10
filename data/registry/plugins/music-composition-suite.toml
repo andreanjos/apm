@@ -2,11 +2,12 @@ slug = "music-composition-suite"
 name = "Music Composition Suite"
 vendor = "Audiomodern"
 version = "1.0.0"
-description = ""
+description = "Bundle of Audiomodern's composition-focused plugins including Riffer, Panflow, and Filterstep."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://audiomodern.com/products/"
 is_paid = true
 
 [formats.vst3]

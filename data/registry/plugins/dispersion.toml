@@ -1,14 +1,15 @@
 slug = "dispersion"
 name = "Dispersion"
 vendor = "Sinevibes"
-version = "1.0.0"
-description = ""
+version = "2.0.3"
+description = "Bouncing-ball delay plugin modeling an exponentially accelerating series of decaying echo repeats."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.sinevibes.com/dispersion/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/8050-Dispersion"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/8050-Dispersion?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

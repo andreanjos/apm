@@ -2,11 +2,12 @@ slug = "bundle"
 name = "Bundle"
 vendor = "PLUGINS THAT KNOCK"
 version = "1.0.0"
-description = ""
+description = "Complete bundle of all PLUGINS THAT KNOCK effects plugins for drum and mix processing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://pluginsthatknock.com/"
 is_paid = true
 
 [formats.vst3]

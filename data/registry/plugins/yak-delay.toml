@@ -2,13 +2,14 @@ slug = "yak-delay"
 name = "Yak Delay"
 vendor = "Safari Audio"
 version = "1.0.0"
-description = ""
+description = "Wild creative delay plugin designed with Dan Mayo for rhythmic and experimental delay effects."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://safariaudio.com/products/yak-delay"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/15345-Yak-Delay"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/15345-Yak-Delay?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

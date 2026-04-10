@@ -2,11 +2,12 @@ slug = "vs-harmonica"
 name = "Vs Harmonica"
 vendor = "Versus Audio"
 version = "1.0.0"
-description = ""
+description = "Expressive harmonica Kontakt instrument sampled for authentic blues and folk performance."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://versusaudio.com/"
 is_paid = true
 
 [formats.vst3]

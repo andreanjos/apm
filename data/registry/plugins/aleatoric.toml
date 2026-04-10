@@ -2,11 +2,12 @@ slug = "aleatoric"
 name = "Aleatoric"
 vendor = "Ergo Kukke"
 version = "1.0.0"
-description = ""
+description = "Multilayered Kontakt instrument with tonal, ambient, and textural sounds for sound design."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/ergo_kukke.html"
 is_paid = true
 
 [formats.vst3]

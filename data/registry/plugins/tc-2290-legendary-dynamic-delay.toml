@@ -2,13 +2,14 @@ slug = "tc-2290-legendary-dynamic-delay"
 name = "TC 2290 Legendary Dynamic Delay"
 vendor = "TC Electronic"
 version = "1.0.0"
-description = ""
+description = "Software recreation of TC Electronic's legendary 1985 TC 2290 Dynamic Digital Delay."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://store.tcelectronic.com/products/native-plug-ins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/14603-TC-2290-Legendary-Dynamic-Delay"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/14603-TC-2290-Legendary-Dynamic-Delay?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

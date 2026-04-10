@@ -1,12 +1,13 @@
 slug = "siege-drum"
 name = "Siege Drum"
 vendor = "unEarthed Sampling"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Heavy cinematic percussion Kontakt instrument sampled from large siege and war drums for epic scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.unearthedsampling.com/"
 is_paid = true
 
 [formats.vst3]

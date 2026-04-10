@@ -2,11 +2,12 @@ slug = "filtercult"
 name = "FilterCult"
 vendor = "Xhun Audio"
 version = "1.0.0"
-description = ""
+description = "Analog-modeled transistor ladder filter plugin for creative signal filtering and aggressive sound coloration."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.xhun-audio.com/site/xhun.php?page=filtercult"
 is_paid = true
 
 [formats.vst3]

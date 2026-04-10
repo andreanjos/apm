@@ -2,10 +2,11 @@ slug = "ezmix-pack-ambient-reverbs"
 name = "EZmix-Pack Ambient Reverbs"
 vendor = "Toontrack"
 version = "1.0.0"
-description = ""
+description = "EZmix expansion pack featuring ambient reverb presets for atmospheric and spatial mixing."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product-category/ezmix-packs/"
 is_paid = true
 
 [formats.vst3]

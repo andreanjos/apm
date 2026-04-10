@@ -1,14 +1,15 @@
 slug = "xils-dees"
 name = "XILS DeeS"
 vendor = "XILS Lab"
-version = "1.0.0"
-description = ""
+version = "2.0.1"
+description = "Professional de-esser plugin with three-channel processing separating voice, plosives, and sibilants."
 category = "effects"
 subcategory = "de esser"
 license = "commercial"
 tags = []
+homepage = "https://www.xils-lab.com/store/dees/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/1706-XILS-DeeS"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/1706-XILS-DeeS?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

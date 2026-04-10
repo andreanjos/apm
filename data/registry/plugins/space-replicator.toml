@@ -1,14 +1,15 @@
 slug = "space-replicator"
 name = "Space Replicator"
 vendor = "LEWITT"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "LEWITT Space Replicator converts headphone monitoring to accurate studio speaker simulation."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.lewitt-audio.com/space-replicator"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/14799-Space-Replicator"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/14799-Space-Replicator?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

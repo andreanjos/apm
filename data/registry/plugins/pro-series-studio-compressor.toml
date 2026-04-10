@@ -2,11 +2,12 @@ slug = "pro-series-studio-compressor"
 name = "Pro Series Studio Compressor"
 vendor = "Positive Grid"
 version = "1.0.0"
-description = ""
+description = "Analog-modeled compressor suite emulating tube, optical, and FET compressor hardware classics."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.positivegrid.com/collections/bias-legacy-software"
 is_paid = true
 
 [formats.vst3]

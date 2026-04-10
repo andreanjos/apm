@@ -2,13 +2,14 @@ slug = "grind"
 name = "Grind"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Multi-mode distortion plugin covering everything from subtle saturation to aggressive destruction."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/pages/free-and-legacy"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/5646-Grind"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/5646-Grind?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

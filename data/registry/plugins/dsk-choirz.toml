@@ -2,13 +2,14 @@ slug = "dsk-choirz"
 name = "DSK ChoirZ"
 vendor = "DSK Music"
 version = "1.0.0"
-description = ""
+description = "Free choirs and pads sound module with 3 layers and 32 choir and pad sounds."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.dskmusic.com/dsk-choirz/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/554-DSK-ChoirZ"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/554-DSK-ChoirZ?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

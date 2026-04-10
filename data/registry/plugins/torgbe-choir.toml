@@ -2,11 +2,12 @@ slug = "torgbe-choir"
 name = "Torgbe Choir"
 vendor = "Karoryfer Samples"
 version = "1.0.0"
-description = ""
+description = "Male choir recorded in Ghana with six vowels and thirteen playable phrases in Ewe, Akan, and Ga-Adangbe."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://shop.karoryfer.com/products/torgbe"
 is_paid = true
 
 [formats.vst3]

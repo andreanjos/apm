@@ -1,12 +1,13 @@
 slug = "swam-solo-strings-bundle"
 name = "SWAM Solo Strings Bundle"
 vendor = "Audio Modeling"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Complete set of four physically modeled solo strings — violin, viola, cello, and double bass."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://audiomodeling.com/strings/swam-solo-strings-bundle/"
 is_paid = true
 
 [formats.vst3]

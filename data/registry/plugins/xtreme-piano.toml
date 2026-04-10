@@ -2,11 +2,12 @@ slug = "xtreme-piano"
 name = "Xtreme Piano"
 vendor = "AudioXpression"
 version = "1.0.0"
-description = ""
+description = "Hybrid piano Kontakt instrument redefining traditional piano sound with synthesized layers."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.audioxpression.com/xtreme-piano"
 is_paid = true
 
 [formats.vst3]

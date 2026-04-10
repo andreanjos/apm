@@ -2,13 +2,14 @@ slug = "backmask"
 name = "BACKMASK"
 vendor = "Freakshow Industries"
 version = "1.0.0"
-description = ""
+description = "Experimental multi-effect plugin specializing in reverse audio effects and sonic manipulation."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://freakshowindustries.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/6593-BACKMASK"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/6593-BACKMASK?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

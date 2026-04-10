@@ -2,11 +2,12 @@ slug = "creative-effects-bundle"
 name = "Creative Effects Bundle"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Audio Damage bundle collecting creative and experimental effects plugins at a discounted price."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/collections/all"
 is_paid = true
 
 [formats.vst3]

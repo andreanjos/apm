@@ -2,13 +2,14 @@ slug = "hy-delay4"
 name = "HY Delay4"
 vendor = "HY Plugins"
 version = "1.0.0"
-description = ""
+description = "Creative multi-FX delay unit with modulation, filtering, and complex routing options."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://hy-plugins.com/product/hy-delay4/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/7933-HY-Delay4"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/7933-HY-Delay4?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

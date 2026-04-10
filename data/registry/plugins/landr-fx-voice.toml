@@ -1,14 +1,15 @@
 slug = "landr-fx-voice"
 name = "LANDR FX Voice"
 vendor = "LANDR"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Multi-effects vocal plugin with EQ, compression, de-essing, and reverb tailored for professional vocal sounds."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://www.landr.com/plugins/landr-fx-voice"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/12955-LANDR-FX-Voice"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/12955-LANDR-FX-Voice?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

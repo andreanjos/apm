@@ -1,14 +1,15 @@
 slug = "maselec-mea-2"
 name = "Maselec MEA 2"
 vendor = "Relab Development"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Officially endorsed software recreation of the Maselec MEA-2 precision stereo mastering EQ."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://relabdevelopment.com/mea-2/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/15049-Maselec-MEA-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/15049-Maselec-MEA-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

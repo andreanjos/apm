@@ -2,11 +2,12 @@ slug = "true-dynamics"
 name = "True Dynamics"
 vendor = "Kazrog"
 version = "1.0.0"
-description = ""
+description = "Analog-modeled compressor plugin for natural dynamic control in mixing and mastering."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://kazrog.com/collections/audio-plugins"
 is_paid = true
 
 [formats.vst3]

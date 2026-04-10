@@ -2,11 +2,12 @@ slug = "complete-bundle"
 name = "Complete Bundle"
 vendor = "Baby Audio"
 version = "1.0.0"
-description = ""
+description = "Bundle of all Baby Audio plugins saving 80% off individual prices, including all effects and instruments."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://babyaud.io/complete-bundle"
 is_paid = true
 
 [formats.vst3]

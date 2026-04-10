@@ -2,13 +2,14 @@ slug = "dubstation-2"
 name = "Dubstation 2"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Dub-style analog delay emulation with saturation, filtering, and tempo-sync for classic echo effects."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/products/ad036-dubstation-2"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/4631-Dubstation-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/4631-Dubstation-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

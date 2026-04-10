@@ -2,13 +2,14 @@ slug = "millidelay"
 name = "Millidelay"
 vendor = "Bass Gnomes"
 version = "1.0.0"
-description = ""
+description = "Free delay effect plugin offering short to medium delay times with clean results."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://bassgnomes.wordpress.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/510-Millidelay"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/510-Millidelay?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

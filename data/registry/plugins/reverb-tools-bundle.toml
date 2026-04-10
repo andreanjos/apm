@@ -2,11 +2,12 @@ slug = "reverb-tools-bundle"
 name = "Reverb Tools Bundle"
 vendor = "Accentize"
 version = "1.0.0"
-description = ""
+description = "Bundle of Accentize's reverb-related tools including DeRoom and Chameleon plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.accentize.com/"
 is_paid = true
 
 [formats.vst3]

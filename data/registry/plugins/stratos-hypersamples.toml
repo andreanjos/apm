@@ -1,12 +1,13 @@
 slug = "stratos-hypersamples"
 name = "Stratos"
 vendor = "Hypersamples"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Hypersamples Stratos is an atmospheric strings Kontakt library for cinematic compositions."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hypersamples.com/"
 is_paid = true
 
 [formats.vst3]

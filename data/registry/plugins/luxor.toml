@@ -1,11 +1,12 @@
 slug = "luxor"
 name = "Luxor"
 vendor = "Soundspear"
-version = "1.0.0"
-description = ""
+version = "1.0.1"
+description = "Tape spatializer combining Haas spatialization and tape saturation to enhance stereo presence."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://soundspear.com/product/luxor"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "analog-vocoders-bundle"
 name = "Analog Vocoders Bundle"
 vendor = "XILS Lab"
 version = "1.0.0"
-description = ""
+description = "Bundle of two classic vocoder emulations — XILS 5000 and XILS 201 — in a single license."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.xils-lab.com/store/"
 is_paid = true
 
 [formats.vst3]

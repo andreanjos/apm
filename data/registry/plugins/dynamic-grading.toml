@@ -1,12 +1,13 @@
 slug = "dynamic-grading"
 name = "Dynamic Grading"
 vendor = "Playfair Audio"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Playfair Audio Dynamic Grading applies film-inspired dynamic range grading to audio signals."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://www.playfairaudio.com/dynamic-grading"
 is_paid = true
 
 [formats.vst3]

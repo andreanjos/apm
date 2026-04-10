@@ -2,11 +2,12 @@ slug = "hattricks"
 name = "Hattricks"
 vendor = "Diginoiz"
 version = "1.0.0"
-description = ""
+description = "Hi-hat pattern synthesizer plugin for quick trap, R&B, and hip-hop hi-hat rhythm programming."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://diginoiz.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "drop-pad-2-rhythmic-edition"
 name = "Drop Pad 2 – Rhythmic Edition"
 vendor = "Soundtrax"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Rhythmic edition of Drop Pad 2 for Kontakt with dynamic sample blending and sequencing."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundtrax-kontakt.bandcamp.com/"
 is_paid = true
 
 [formats.vst3]

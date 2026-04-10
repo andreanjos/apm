@@ -1,14 +1,15 @@
 slug = "prophecy"
 name = "Prophecy"
 vendor = "KORG"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Software recreation of the KORG Prophecy solo synthesizer with advanced physical modeling."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.korg.com/us/products/software/korg_collection/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11210-Prophecy"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11210-Prophecy?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

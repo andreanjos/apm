@@ -2,13 +2,14 @@ slug = "acid-zone-retro"
 name = "Acid Zone Retro"
 vendor = "SonicXTC"
 version = "1.0.0"
-description = ""
+description = "Free monophonic single-oscillator acid synthesizer for classic bassline sounds."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/73-SonicXTC"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/871-Acid-Zone-Retro"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/871-Acid-Zone-Retro?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,13 +2,14 @@ slug = "knock-clipper"
 name = "KNOCK Clipper"
 vendor = "PLUGINS THAT KNOCK"
 version = "1.0.0"
-description = ""
+description = "Transparent soft clipper/limiter plugin designed to add controlled harmonic saturation and loudness."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://pluginsthatknock.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/9860-KNOCK-Clipper"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/9860-KNOCK-Clipper?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

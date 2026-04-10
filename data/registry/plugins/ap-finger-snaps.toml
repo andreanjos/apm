@@ -2,11 +2,12 @@ slug = "ap-finger-snaps"
 name = "AP Finger Snaps"
 vendor = "Audio Perception Music"
 version = "1.0.0"
-description = ""
+description = "Kontakt finger snap library with natural, human-feel performances for easy MIDI programming."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://audioperceptionmusic.com/shop/sounds/ap-finger-snaps/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,13 @@ slug = "noisy"
 name = "Noisy"
 vendor = "Expressive E"
 version = "1.0.0"
-description = ""
+description = "MPE synthesizer blending acoustic resonance and analog character for expressive keyboard performance."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.expressivee.com/"
 
 [formats.vst3]
 url = ""

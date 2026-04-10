@@ -1,14 +1,15 @@
 slug = "grainferno"
 name = "Grainferno"
 vendor = "Baby Audio"
-version = "1.0.0"
-description = ""
+version = "1.0.2"
+description = "Advanced granular synthesizer with dual-sample morphing, per-grain effects, and 325 presets."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://babyaud.io/grainferno"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16951-Grainferno"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16951-Grainferno?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "black-friday-bundle"
 name = "Black Friday Bundle"
 vendor = "Baby Audio"
 version = "1.0.0"
-description = ""
+description = "Limited Baby Audio Black Friday bundle offering multiple plugins at a significant discount."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://babyaud.io/all-products"
 is_paid = true
 
 [formats.vst3]

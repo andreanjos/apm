@@ -1,12 +1,13 @@
 slug = "realsitar3"
 name = "RealSitar3"
 vendor = "RDGAudio"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Indian sitar virtual instrument with 3-layer dynamic round robin and 250 articulations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rdgaudio.com/realsitar3/"
 is_paid = true
 
 [formats.vst3]

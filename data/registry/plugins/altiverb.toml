@@ -1,11 +1,12 @@
 slug = "altiverb"
 name = "Altiverb"
 vendor = "Audioease"
-version = "1.0.0"
-description = ""
+version = "8.0"
+description = "Audioease Altiverb is an industry-standard convolution reverb with real-space IR library."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.audioease.com/altiverb/"
 is_paid = true
 
 [formats.vst3]

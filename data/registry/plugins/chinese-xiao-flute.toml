@@ -2,11 +2,12 @@ slug = "chinese-xiao-flute"
 name = "Chinese Xiao Flute"
 vendor = "Aria Sounds"
 version = "1.0.0"
-description = ""
+description = "Traditional Chinese xiao end-blown flute Kontakt library with authentic playing articulations."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://ariasounds.com/product/chinese-xiao-flute/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "instaber"
 name = "InStaber"
 vendor = "Audio Blast"
 version = "1.0.0"
-description = ""
+description = "128-preset bass, lead, FX and stab expansion pack for Rave Generator 3."
 category = "instruments"
 subcategory = "expansion packs"
 license = "commercial"
 tags = []
+homepage = "https://www.audioblast.me/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/15752-InStaber"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/15752-InStaber?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

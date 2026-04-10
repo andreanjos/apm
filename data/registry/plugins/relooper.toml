@@ -1,14 +1,15 @@
 slug = "relooper"
 name = "Relooper"
 vendor = "2321"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Real-time loop remix engine with 64 groove patterns, 64 FX, and 120 modulation modes."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://unitedplugins.com/relooper"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/17077-Relooper"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/17077-Relooper?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

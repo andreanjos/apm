@@ -2,13 +2,14 @@ slug = "crystalline"
 name = "Crystalline"
 vendor = "Baby Audio"
 version = "1.0.0"
-description = ""
+description = "State-of-the-art algorithmic reverb with 300+ presets and deep parameter control over lush, pristine reflections."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://babyaud.io/crystalline"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/8900-Crystalline"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/8900-Crystalline?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

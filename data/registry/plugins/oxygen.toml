@@ -1,14 +1,15 @@
 slug = "oxygen"
 name = "Oxygen"
 vendor = "Black Salt Audio"
-version = "1.0.0"
-description = ""
+version = "1.3.2"
+description = "High-frequency exciter plugin using a unique process to enhance and control top-end with musical character."
 category = "effects"
 subcategory = "exciter"
 license = "commercial"
 tags = []
+homepage = "https://www.blacksaltaudio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/62-Exciter/9060-Oxygen"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/62-Exciter/9060-Oxygen?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

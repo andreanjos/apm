@@ -1,14 +1,15 @@
 slug = "modnetic"
 name = "Modnetic"
 vendor = "Surreal Machines"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Tape echo and modulation delay plugin inspired by vintage magnetic tape delay units."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.surrealmachines.com/modnetic/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/4407-Modnetic"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/4407-Modnetic?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

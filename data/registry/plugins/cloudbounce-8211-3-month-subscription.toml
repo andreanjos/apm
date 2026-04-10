@@ -2,13 +2,13 @@ slug = "cloudbounce-8211-3-month-subscription"
 name = "Cloudbounce &#8211; 3-Month Subscription"
 vendor = "CloudBounce"
 version = "1.0.0"
-description = ""
+description = "3-month subscription to CloudBounce's AI-powered online mastering service with unlimited masters."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://cloudbounce.com/"
 
 [formats.vst3]
 url = ""

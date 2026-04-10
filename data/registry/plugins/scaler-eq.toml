@@ -2,13 +2,14 @@ slug = "scaler-eq"
 name = "Scaler EQ"
 vendor = "Scaler Music"
 version = "1.0.0"
-description = ""
+description = "Musical EQ plugin that enhances note frequencies in key and reduces out-of-key frequencies."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://scalermusic.com/products/scaler-eq/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11473-Scaler-EQ"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11473-Scaler-EQ?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

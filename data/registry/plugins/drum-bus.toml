@@ -1,14 +1,15 @@
 slug = "drum-bus"
 name = "Drum Bus"
 vendor = "Black Salt Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Ultra-simple drum bus plugin delivering punch, energy, and edge to make drums stand out in any mix."
 category = "effects"
 subcategory = "drum fx"
 license = "commercial"
 tags = []
+homepage = "https://www.blacksaltaudio.com/drum-bus/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/13-Drum-FX/13289-Drum-Bus"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/13-Drum-FX/13289-Drum-Bus?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

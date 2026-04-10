@@ -1,14 +1,15 @@
 slug = "dsr"
 name = "DSR"
 vendor = "Black Salt Audio"
-version = "1.0.0"
-description = ""
+version = "1.0.6"
+description = "Transparent and musical de-esser plugin fine-tuned for smooth, natural-sounding sibilance control."
 category = "effects"
 subcategory = "de esser"
 license = "commercial"
 tags = []
+homepage = "https://www.blacksaltaudio.com/dsr/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/12329-DSR"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/12329-DSR?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

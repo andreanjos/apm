@@ -2,11 +2,12 @@ slug = "full-bundle"
 name = "Full Bundle"
 vendor = "Mathew Lane"
 version = "1.0.0"
-description = ""
+description = "Complete collection of all Mathew Lane effects plugins in one discounted bundle."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.mathewlane.com/"
 is_paid = true
 
 [formats.vst3]

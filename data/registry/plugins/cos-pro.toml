@@ -1,14 +1,15 @@
 slug = "cos-pro"
 name = "COS Pro"
 vendor = "AYAIC"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Professional EQ plugin by AYAIC with cosine-shaped filter curves for smooth equalization."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.ayaic.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/10545-COS-Pro"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/10545-COS-Pro?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

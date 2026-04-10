@@ -2,13 +2,13 @@ slug = "mdr-8211-maquina-de-ritmo"
 name = "MDR &#8211; Maquina de ritmo"
 vendor = "Zyvenhaal"
 version = "1.0.0"
-description = ""
+description = "Kontakt drum machine instrument inspired by vintage rhythm machines."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://zyvenhaal.com/products/mdr-maquina-de-ritmo"
 
 [formats.vst3]
 url = ""

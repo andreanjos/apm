@@ -1,12 +1,13 @@
 slug = "the-bosque-piano"
 name = "The Bosque Piano"
 vendor = "unEarthed Sampling"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Intimate and characterful prepared-style piano Kontakt instrument from unEarthed Sampling."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.unearthedsampling.com/"
 is_paid = true
 
 [formats.vst3]

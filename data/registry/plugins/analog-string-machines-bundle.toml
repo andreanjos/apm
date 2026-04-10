@@ -2,11 +2,12 @@ slug = "analog-string-machines-bundle"
 name = "Analog String Machines Bundle"
 vendor = "XILS Lab"
 version = "1.0.0"
-description = ""
+description = "Bundle of two vintage string machine emulations — XILS V+ and XILS 505 — in a single license."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.xils-lab.com/store/stringmachines/"
 is_paid = true
 
 [formats.vst3]

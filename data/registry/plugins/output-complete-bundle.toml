@@ -1,14 +1,15 @@
 slug = "output-complete-bundle"
 name = "Output Complete Bundle"
 vendor = "Output"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Output's complete collection of all instruments and FX plugins for comprehensive sound design coverage."
 category = "instruments"
 subcategory = "complete collection"
 license = "commercial"
 tags = []
+homepage = "https://output.com/products"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/7518-Output-Complete-Bundle"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/7518-Output-Complete-Bundle?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

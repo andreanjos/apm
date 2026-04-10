@@ -1,12 +1,13 @@
 slug = "nonlinear-filter"
 name = "Nonlinear Filter"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Nonlinear filter Snapin that adds harmonic coloration through internal circuit nonlinearities."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/nonlinear_filter"
 is_paid = true
 
 [formats.vst3]

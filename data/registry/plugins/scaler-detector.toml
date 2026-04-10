@@ -2,13 +2,14 @@ slug = "scaler-detector"
 name = "Scaler Detector"
 vendor = "Scaler Music"
 version = "1.0.0"
-description = ""
+description = "Key and scale detection plugin that instantly identifies the key, scale, and chords of any track."
 category = "tools"
 subcategory = "music theory tools"
 license = "commercial"
 tags = []
+homepage = "https://scalermusic.com/products/scaler-detector/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/15928-Scaler-Detector"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/15928-Scaler-Detector?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

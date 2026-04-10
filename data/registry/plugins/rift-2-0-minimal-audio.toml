@@ -1,12 +1,13 @@
 slug = "rift-2-0-minimal-audio"
 name = "Rift 2.0"
 vendor = "Minimal Audio"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Cutting-edge hybrid distortion with 30 algorithms, morphing filters, feedback, and multiband processing."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.minimal.audio/products/rift"
 is_paid = true
 
 [formats.vst3]

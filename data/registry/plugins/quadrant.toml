@@ -1,11 +1,12 @@
 slug = "quadrant"
 name = "Quadrant"
 vendor = "Glitchmachines"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Multi-effects processor for generating vivid electronic tones and processing drums and synths."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://glitchmachines.com/"
 is_paid = true
 
 [formats.vst3]

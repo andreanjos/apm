@@ -1,14 +1,15 @@
 slug = "polysix"
 name = "Polysix"
 vendor = "KORG"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Software recreation of the classic 1981 KORG Polysix polyphonic analog synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.korg.com/us/products/software/korg_collection/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11195-Polysix"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11195-Polysix?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

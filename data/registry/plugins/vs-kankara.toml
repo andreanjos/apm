@@ -2,11 +2,12 @@ slug = "vs-kankara"
 name = "Vs Kankara"
 vendor = "Versus Audio"
 version = "1.0.0"
-description = ""
+description = "Sampled kankara ethnic string instrument Kontakt library for West African musical textures."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://versusaudio.com/"
 is_paid = true
 
 [formats.vst3]

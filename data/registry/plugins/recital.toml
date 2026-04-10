@@ -2,11 +2,12 @@ slug = "recital"
 name = "Recital"
 vendor = "Capsule Audio"
 version = "1.0.0"
-description = ""
+description = "Capsule electric grand piano sampled from a Yamaha CP-80M with bright, punchy tone for pop and soul."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.capsule.audio/"
 is_paid = true
 
 [formats.vst3]

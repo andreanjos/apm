@@ -2,11 +2,12 @@ slug = "modern-mixing-bundle"
 name = "Modern Mixing Bundle"
 vendor = "Plugin Boutique Exclusive Bundles+"
 version = "1.0.0"
-description = ""
+description = "Plugin Boutique exclusive bundle of modern mixing and mastering effects plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
 is_paid = true
 
 [formats.vst3]

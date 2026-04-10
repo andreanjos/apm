@@ -2,11 +2,12 @@ slug = "kick-factory"
 name = "Kick Factory"
 vendor = "RDGAudio"
 version = "1.0.0"
-description = ""
+description = "Kick drum synthesizer plugin for designing deep, punchy kick sounds for music production."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://rdgaudio.com/product/kick-factory/"
 is_paid = true
 
 [formats.vst3]

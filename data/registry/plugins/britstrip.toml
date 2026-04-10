@@ -2,13 +2,14 @@ slug = "britstrip"
 name = "BritStrip"
 vendor = "Heritage Audio"
 version = "1.0.0"
-description = ""
+description = "Channel strip plugin faithfully emulating the Heritage Audio BritStrip 73-style console strip."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://users.heritageaudio.com/product/britstrip/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/14373-BritStrip"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/14373-BritStrip?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,13 +2,14 @@ slug = "gtg-fm4"
 name = "GTG FM4"
 vendor = "GTG Synths"
 version = "1.0.0"
-description = ""
+description = "Free 3-operator FM synthesizer for creating classic FM tones and digital textures."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.gtgsynths.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/318-GTG-FM4"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/318-GTG-FM4?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

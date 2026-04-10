@@ -2,10 +2,11 @@ slug = "bittersweet-pro"
 name = "BitterSweet Pro"
 vendor = "Flux"
 version = "1.0.0"
-description = ""
+description = "Transient designer with frequency-dependent transient processing for targeted dynamic shaping."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.flux.audio/products/"
 is_paid = true
 
 [formats.vst3]

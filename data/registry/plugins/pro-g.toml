@@ -1,12 +1,13 @@
 slug = "pro-g"
 name = "Pro-G"
 vendor = "FabFilter"
-version = "1.0.0"
-description = ""
+version = "1.41"
+description = "Professional gate and expander with six gate styles, lookahead, and a large interactive display."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
+homepage = "https://www.fabfilter.com/products/pro-g-gate-expander-plug-in"
 is_paid = true
 
 [formats.vst3]

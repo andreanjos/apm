@@ -2,11 +2,12 @@ slug = "complete-bundle-sampletrip"
 name = "Complete Bundle"
 vendor = "Sampletrip"
 version = "1.0.0"
-description = ""
+description = "Complete bundle of all Sampletrip Kontakt libraries with over 38 GB of sampled sounds."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/complete-bundle-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

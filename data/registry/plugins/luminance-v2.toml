@@ -1,14 +1,15 @@
 slug = "luminance-v2"
 name = "Luminance v2"
 vendor = "Sinevibes"
-version = "1.0.0"
-description = ""
+version = "2.1.4"
+description = "Shimmer reverb plugin blending pitch-shifted feedback into an evolving, harmonic reverberation tail."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://www.sinevibes.com/luminance/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/7455-Luminance-v2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/7455-Luminance-v2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "time-dilation"
 name = "Time Dilation"
 vendor = "Beautiful Void Audio"
 version = "1.0.0"
-description = ""
+description = "Omnisphere 2 preset library exploring stretched, temporal, and ambient sound design textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.beautifulvoidaudio.com/"
 is_paid = true
 
 [formats.vst3]

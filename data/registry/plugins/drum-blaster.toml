@@ -2,13 +2,14 @@ slug = "drum-blaster"
 name = "Drum Blaster"
 vendor = "Audio Blast"
 version = "1.0.0"
-description = ""
+description = "Drum production plugin with 16 channels, 11 FX processors, and a 4000-sample library."
 category = "instruments"
 subcategory = "drum machine"
 license = "commercial"
 tags = []
+homepage = "https://www.audioblast.me/product/drum-blaster-beat-generator-plugin/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/16595-Drum-Blaster"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/16595-Drum-Blaster?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

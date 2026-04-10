@@ -2,13 +2,14 @@ slug = "lcast-stereo"
 name = "LCAST Stereo"
 vendor = "MeterPlugs"
 version = "1.0.0"
-description = ""
+description = "Stereo broadcast loudness meter supporting ATSC A/85, ITU BS.1770, and EBU R128 standards."
 category = "tools"
 subcategory = "metering"
 license = "commercial"
 tags = []
+homepage = "https://www.meterplugs.com/lcast"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/1379-LCAST-Stereo"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/1379-LCAST-Stereo?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

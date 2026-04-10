@@ -2,11 +2,12 @@ slug = "drums-bundle"
 name = "Drums Bundle"
 vendor = "SoundSpot"
 version = "1.0.0"
-description = ""
+description = "SoundSpot collection of drum-focused effects plugins in one bundle."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

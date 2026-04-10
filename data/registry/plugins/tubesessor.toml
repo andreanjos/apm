@@ -2,13 +2,14 @@ slug = "tubesessor"
 name = "TUBESESSOR"
 vendor = "Heritage Audio"
 version = "1.0.0"
-description = ""
+description = "Optical tube compressor plugin offering Heritage Audio's take on classic opto compression."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://users.heritageaudio.com/plugins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/15841-TUBESESSOR"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/15841-TUBESESSOR?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

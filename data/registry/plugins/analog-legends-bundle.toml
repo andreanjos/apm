@@ -2,11 +2,12 @@ slug = "analog-legends-bundle"
 name = "Analog Legends Bundle"
 vendor = "NoiseAsh"
 version = "1.0.0"
-description = ""
+description = "Bundle of NoiseAsh analog-modeled classic British console EQ and preamp plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/analog-legends-bundle/"
 is_paid = true
 
 [formats.vst3]

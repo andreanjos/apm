@@ -2,13 +2,14 @@ slug = "theutility"
 name = "TheUtility"
 vendor = "TheZhe"
 version = "1.0.0"
-description = ""
+description = "Free dry/wet blending utility plugin for mixing wet processed and dry original audio signals."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/developer/thezhe"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/9064-TheUtility"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/9064-TheUtility?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

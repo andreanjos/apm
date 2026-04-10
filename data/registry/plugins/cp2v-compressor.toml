@@ -1,14 +1,15 @@
 slug = "cp2v-compressor"
 name = "CP2V Compressor"
 vendor = "Mellowmuse"
-version = "1.0.0"
-description = ""
+version = "3.6.0"
+description = "Vintage-styled character compressor plugin with analogue-modelled multi-stage saturation."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.mellowmuse.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6688-CP2V-Compressor"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6688-CP2V-Compressor?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

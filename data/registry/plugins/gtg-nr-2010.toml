@@ -2,13 +2,14 @@ slug = "gtg-nr-2010"
 name = "GTG NR 2010"
 vendor = "GTG Synths"
 version = "1.0.0"
-description = ""
+description = "Free analog polysynth with a 24dB filter, snappy envelopes, and modulation effects."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.gtgsynths.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/325-GTG-NR-2010"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/325-GTG-NR-2010?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

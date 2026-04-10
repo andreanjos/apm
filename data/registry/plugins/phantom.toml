@@ -1,12 +1,13 @@
 slug = "phantom"
 name = "Phantom"
 vendor = "DiscoDSP"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Classic PM/FM synthesizer with 8-voice polyphony, 4 operators, and Yamaha DX SysEx import."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.discodsp.com/phantom/"
 is_paid = true
 
 [formats.vst3]

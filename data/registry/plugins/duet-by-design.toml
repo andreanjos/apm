@@ -2,11 +2,12 @@ slug = "duet-by-design"
 name = "Duet by design"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Kontakt library featuring a male and female youth vocal duet with sustained and phrase-based articulations."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/duet-by-design/"
 is_paid = true
 
 [formats.vst3]

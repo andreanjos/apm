@@ -2,11 +2,12 @@ slug = "epia"
 name = "Epia"
 vendor = "Hoss Audio"
 version = "1.0.0"
-description = ""
+description = "Deeply sampled flexible Rhodes Stage 73 Kontakt library with 9 effects and amp simulation."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.hadihosri.com/h%C3%96ss-audio"
 is_paid = true
 
 [formats.vst3]

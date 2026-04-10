@@ -1,11 +1,12 @@
 slug = "glitch"
 name = "Glitch"
 vendor = "SoundSpot"
-version = "1.0.0"
-description = ""
+version = "1.0.1"
+description = "Creative glitch effects plugin from SoundSpot for experimental sound manipulation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "intensity-2"
 name = "INTENSITY 2"
 vendor = "Zynaptiq"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Detail, clarity, density, and loudness processor using AI-based signal enhancement technology."
 category = "effects"
 subcategory = "dynamics processor"
 license = "commercial"
 tags = []
+homepage = "https://www.zynaptiq.com/intensity/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/14846-INTENSITY-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/14846-INTENSITY-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

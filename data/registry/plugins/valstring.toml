@@ -2,11 +2,12 @@ slug = "valstring"
 name = "Valstring"
 vendor = "Zyvenhaal"
 version = "1.0.0"
-description = ""
+description = "Kontakt string synthesizer instrument with a lush, vintage analog string sound."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zyvenhaal.com/products/valstring"
 is_paid = true
 
 [formats.vst3]

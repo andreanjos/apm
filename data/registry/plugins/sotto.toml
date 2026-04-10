@@ -2,11 +2,12 @@ slug = "sotto"
 name = "Sotto"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Delicate phrase-based orchestral Kontakt library for intimate and subtle cinematic moments."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/classical/sotto/"
 is_paid = true
 
 [formats.vst3]

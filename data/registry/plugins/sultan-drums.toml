@@ -2,11 +2,12 @@ slug = "sultan-drums"
 name = "Sultan Drums"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Middle Eastern percussion Kontakt library with 20+ instruments, multi-articulated and multi-dynamic."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/ethnic/sultan-drums/"
 is_paid = true
 
 [formats.vst3]

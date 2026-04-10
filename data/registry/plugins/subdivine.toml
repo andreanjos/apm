@@ -2,13 +2,14 @@ slug = "subdivine"
 name = "Subdivine"
 vendor = "Diginoiz"
 version = "1.0.0"
-description = ""
+description = "808 and bass synthesizer plugin designed for trap, R&B, hip-hop, and pop music production."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://diginoiz.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/5932-Subdivine"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/5932-Subdivine?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "need-84-console-eq"
 name = "NEED 84 Console Eq"
 vendor = "NoiseAsh"
 version = "1.0.0"
-description = ""
+description = "British console EQ modeled on the Neve 8048 module for classic mixing desk character."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/need-84-console-eq/"
 is_paid = true
 
 [formats.vst3]

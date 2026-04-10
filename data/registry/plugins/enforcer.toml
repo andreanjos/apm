@@ -1,14 +1,15 @@
 slug = "enforcer"
 name = "ENFORCER"
 vendor = "Boom"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bass enhancement plugin by BOOM Library adding irresistible punch, body, and rigorous low-end to samples."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://www.boomlibrary.com/sound-effects/enforcer/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7978-ENFORCER"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7978-ENFORCER?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

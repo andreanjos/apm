@@ -2,11 +2,12 @@ slug = "bias-complete"
 name = "BIAS Complete"
 vendor = "Positive Grid"
 version = "1.0.0"
-description = ""
+description = "Complete bundle of Positive Grid BIAS amp and effects plugins for guitar and studio production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.positivegrid.com/collections/bias-legacy-software"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "poly-flanger"
 name = "Poly Flanger"
 vendor = "Minimal Audio"
 version = "1.0.0"
-description = ""
+description = "Intelligent flanger with up to 8 voices that snap to musical intervals and scale-based voicing modes."
 category = "effects"
 subcategory = "flanger"
 license = "commercial"
 tags = []
+homepage = "https://www.minimal.audio/products/poly-flanger"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/16880-Poly-Flanger"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/16880-Poly-Flanger?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

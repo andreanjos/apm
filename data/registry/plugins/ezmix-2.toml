@@ -1,12 +1,13 @@
 slug = "ezmix-2"
 name = "EZMix 2"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.2.0"
+description = "Mixing and mastering plugin with hundreds of one-knob signal chain presets for professional sound shaping."
 category = "effects"
 subcategory = "mixing"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/ezmix-2/"
 is_paid = true
 
 [formats.vst3]

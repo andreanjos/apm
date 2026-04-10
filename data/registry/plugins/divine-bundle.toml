@@ -2,11 +2,12 @@ slug = "divine-bundle"
 name = "Divine Bundle"
 vendor = "denise"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Perfect Room, Perfect Plate XL, and God Mode for reverb and saturation."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.deniseaudio.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,11 +1,12 @@
 slug = "m4l-the-drummer"
 name = "M4L The Drummer"
 vendor = "smaolab"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Max for Live drummer device by smaolab for generative and AI-assisted drum patterns."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://smaolab.org/"
 is_paid = true
 
 [formats.vst3]

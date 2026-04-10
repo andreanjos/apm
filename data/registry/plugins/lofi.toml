@@ -2,13 +2,14 @@ slug = "lofi"
 name = "LoFi"
 vendor = "DopeSONIX"
 version = "1.0.0"
-description = ""
+description = "Lo-fi virtual instrument plugin for creating nostalgic, degraded, and vintage-sounding music."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.dopesonix.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/4939-LoFi"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/4939-LoFi?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

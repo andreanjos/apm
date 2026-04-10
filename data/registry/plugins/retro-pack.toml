@@ -1,12 +1,13 @@
 slug = "retro-pack"
 name = "Retro Pack"
 vendor = "Martinic"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Bundle of six vintage instrument and effect plugins including Elka Panther, Lem Echo, and more."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.martinic.com/en/products/retro-pack"
 is_paid = true
 
 [formats.vst3]

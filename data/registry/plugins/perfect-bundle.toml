@@ -2,11 +2,12 @@ slug = "perfect-bundle"
 name = "Perfect Bundle"
 vendor = "denise"
 version = "1.0.0"
-description = ""
+description = "Bundle of denise's reverb plugins including Perfect Room and Perfect Plate."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.deniseaudio.com/"
 is_paid = true
 
 [formats.vst3]

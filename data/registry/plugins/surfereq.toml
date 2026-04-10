@@ -1,12 +1,13 @@
 slug = "surfereq"
 name = "SurferEQ"
 vendor = "Soundradix"
-version = "1.0.0"
-description = ""
+version = "2.1.2"
+description = "Pitch-tracking equalizer that dynamically moves EQ bands in real time with the source pitch."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.soundradix.com/products/surfereq/"
 is_paid = true
 
 [formats.vst3]

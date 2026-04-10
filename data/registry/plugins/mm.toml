@@ -1,12 +1,13 @@
 slug = "mm"
 name = "MM+"
 vendor = "Sounds Divine"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Detailed Kontakt recreation of the classic Minimoog Model D synthesizer by Sounds Divine."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sounds-divine.com/"
 is_paid = true
 
 [formats.vst3]

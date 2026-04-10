@@ -2,11 +2,12 @@ slug = "xtreme-harp"
 name = "Xtreme Harp"
 vendor = "AudioXpression"
 version = "1.0.0"
-description = ""
+description = "Hybrid harp Kontakt instrument combining traditional harp samples with innovative synthesized tones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audioxpression.com/products"
 is_paid = true
 
 [formats.vst3]

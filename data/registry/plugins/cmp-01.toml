@@ -2,11 +2,12 @@ slug = "cmp-01"
 name = "CMP-01"
 vendor = "Lamprey"
 version = "1.0.0"
-description = ""
+description = "Analog-modeled FET-style compressor with fast attack/release and saturation circuit options."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://iamlamprey.com/"
 is_paid = true
 
 [formats.vst3]

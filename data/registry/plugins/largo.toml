@@ -1,14 +1,14 @@
 slug = "largo"
 name = "Largo"
 vendor = "Waldorf"
-version = "1.0.0"
-description = ""
+version = "1.9"
+description = "Original Waldorf wavetable synthesizer plugin with Blofeld-inspired architecture and rich Waldorf sound character."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://waldorfmusic.com/"
 
 [formats.vst3]
 url = ""

@@ -1,11 +1,12 @@
 slug = "halcyon"
 name = "Halcyon"
 vendor = "SoundSpot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Saturation plugin from SoundSpot for adding harmonic warmth and analog character."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

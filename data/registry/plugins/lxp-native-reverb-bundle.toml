@@ -2,10 +2,11 @@ slug = "lxp-native-reverb-bundle"
 name = "LXP Native Reverb Bundle"
 vendor = "Lexicon"
 version = "1.0.0"
-description = ""
+description = "Bundle of four algorithm-based reverb plugins with 220+ studio presets based on the Lexicon LXP."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://lexiconpro.com/en-US/products/lxp-native-reverb-plug-in-bundle"
 is_paid = true
 
 [formats.vst3]

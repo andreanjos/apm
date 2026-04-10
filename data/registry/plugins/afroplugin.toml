@@ -1,14 +1,15 @@
 slug = "afroplugin"
 name = "Afroplugin"
 vendor = "Afroplug"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "African percussion and instrument plugin by Afroplug with authentic ethnic sounds."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://afroplug.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/7675-Afroplugin"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/7675-Afroplugin?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

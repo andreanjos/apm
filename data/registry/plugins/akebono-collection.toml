@@ -2,11 +2,12 @@ slug = "akebono-collection"
 name = "Akebono Collection"
 vendor = "Icebreaker Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt recreation of the SUIKO SK-10 Akebono Koto Synth, a 1980s Japanese suitcase instrument."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://icebreaker-audio.com/"
 is_paid = true
 
 [formats.vst3]

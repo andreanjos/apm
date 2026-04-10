@@ -2,11 +2,12 @@ slug = "lunchbox-amp"
 name = "Lunchbox Amp"
 vendor = "Kiive Audio"
 version = "1.0.0"
-description = ""
+description = "Plugin emulation of a classic 1960s British valve amp with cabinet IRs, drive, delay, and reverb."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://www.kiiveaudio.com/products/lunchbox-amp"
 is_paid = true
 
 [formats.vst3]

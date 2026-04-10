@@ -1,14 +1,15 @@
 slug = "diva"
 name = "Diva"
 vendor = "u he"
-version = "1.0.0"
-description = ""
+version = "1.4.8"
+description = "Analog synthesizer plugin with CPU-intensive circuit-level emulation of classic hardware synths."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://u-he.com/products/diva/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1396-Diva"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1396-Diva?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

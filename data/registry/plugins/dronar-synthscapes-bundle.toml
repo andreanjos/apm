@@ -2,11 +2,12 @@ slug = "dronar-synthscapes-bundle"
 name = "Dronar Synthscapes Bundle"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Bundle of Dronar synth-based Kontakt modules for creating evolving synthetic soundscapes."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/collections/all"
 is_paid = true
 
 [formats.vst3]

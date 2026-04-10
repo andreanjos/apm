@@ -1,12 +1,13 @@
 slug = "saturate"
 name = "Saturate"
 vendor = "Newfangled Audio"
-version = "1.0.0"
-description = ""
+version = "1.10"
+description = "Spectral clipper and overdrive plugin offering up to 24 dB of overdrive without tonal imbalance."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.newfangledaudio.com/saturate"
 is_paid = true
 
 [formats.vst3]

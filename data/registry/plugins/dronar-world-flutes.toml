@@ -2,11 +2,12 @@ slug = "dronar-world-flutes"
 name = "Dronar World Flutes"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt drone instrument turning world flute recordings into lush atmospheric textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/dronar-world-flutes"
 is_paid = true
 
 [formats.vst3]

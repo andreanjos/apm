@@ -2,11 +2,12 @@ slug = "psi-cymbals"
 name = "PSI Cymbals"
 vendor = "Paper Stone Instruments"
 version = "1.0.0"
-description = ""
+description = "Detailed Kontakt cymbal library with 40 velocity layers covering hi-hats, rides, crashes, and more."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
 is_paid = true
 
 [formats.vst3]

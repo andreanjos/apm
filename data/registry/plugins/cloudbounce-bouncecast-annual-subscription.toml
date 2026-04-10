@@ -2,11 +2,12 @@ slug = "cloudbounce-bouncecast-annual-subscription"
 name = "Cloudbounce+ BounceCast – Annual Subscription"
 vendor = "CloudBounce"
 version = "1.0.0"
-description = ""
+description = "Annual bundle combining CloudBounce AI music mastering and BounceCast podcast audio mastering."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://cloudbounce.com/"
 is_paid = true
 
 [formats.vst3]

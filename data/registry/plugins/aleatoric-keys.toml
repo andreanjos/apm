@@ -2,11 +2,12 @@ slug = "aleatoric-keys"
 name = "Aleatoric Keys"
 vendor = "Ergo Kukke"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument blending synthesizer and real-life recordings into four morphable sound sources."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/ergo_kukke.html"
 is_paid = true
 
 [formats.vst3]

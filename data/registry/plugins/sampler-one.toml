@@ -1,12 +1,13 @@
 slug = "sampler-one"
 name = "Sampler One"
 vendor = "Soundtrax"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Kontakt instrument emulating early digital hardware samplers with drag-and-drop sample import."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundtrax-kontakt.bandcamp.com/"
 is_paid = true
 
 [formats.vst3]

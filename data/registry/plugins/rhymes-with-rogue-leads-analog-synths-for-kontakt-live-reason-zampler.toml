@@ -2,11 +2,12 @@ slug = "rhymes-with-rogue-leads-analog-synths-for-kontakt-live-reason-zampler"
 name = "Rhymes with Rogue – Leads (Analog Synths for Kontakt, Live, Reason, Zampler)"
 vendor = "New Loops"
 version = "1.0.0"
-description = ""
+description = "Moog hardware synth multi-sample library with 2730 samples for Kontakt, Live, Reason, and Zampler."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://newloops.com/collections/kontakt-libraries/products/rhymes-with-rogue-leads"
 is_paid = true
 
 [formats.vst3]

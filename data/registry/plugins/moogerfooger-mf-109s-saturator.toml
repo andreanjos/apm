@@ -2,13 +2,14 @@ slug = "moogerfooger-mf-109s-saturator"
 name = "Moogerfooger MF 109S Saturator"
 vendor = "Moog"
 version = "1.0.0"
-description = ""
+description = "Software recreation of the Moogerfooger MF-109 analog saturation and distortion effect."
 category = "effects"
 subcategory = "saturation"
 license = "commercial"
 tags = []
+homepage = "https://software.moogmusic.com/store"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/10279-Moogerfooger-MF-109S-Saturator"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/10279-Moogerfooger-MF-109S-Saturator?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,14 +1,15 @@
 slug = "attack-3"
 name = "Attack 3"
 vendor = "Waldorf"
-version = "1.0.0"
-description = ""
+version = "3.0.1"
+description = "Classic drum synthesizer plugin rebuilt for 2026 with analogue sound engines and modern workflow improvements."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://waldorfmusic.com/produkt/attack-3/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16854-Attack-3"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16854-Attack-3?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

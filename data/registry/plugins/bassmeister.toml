@@ -2,11 +2,12 @@ slug = "bassmeister"
 name = "Bassmeister"
 vendor = "SzcZ"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument sampled from a rare vintage East German bass piano lamellophone."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/szcz/Bassmeister"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "echoboy"
 name = "EchoBoy"
 vendor = "Soundtoys"
-version = "1.0.0"
-description = ""
+version = "5.5"
+description = "Classic echo modeling plugin spanning decades of hardware echo devices in a single versatile tool."
 category = "effects"
 subcategory = "echo"
 license = "commercial"
 tags = []
+homepage = "https://www.soundtoys.com/product/echoboy/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/1798-EchoBoy"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/1798-EchoBoy?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

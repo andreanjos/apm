@@ -2,11 +2,12 @@ slug = "union"
 name = "Union"
 vendor = "SoundSpot"
 version = "1.0.0"
-description = ""
+description = "Next-generation wavetable synthesizer with 96-voice unison engine and 9 built-in FX."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/5824-Union"
 is_paid = true
 
 [formats.vst3]

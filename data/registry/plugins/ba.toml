@@ -2,13 +2,14 @@ slug = "ba"
 name = "BA"
 vendor = "ZAK Sound"
 version = "1.0.0"
-description = ""
+description = "Sound design instrument featuring 67 instruments and 104 presets derived from Buenos Aires soundscapes."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://zaksound.com/ba/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15965-BA"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15965-BA?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

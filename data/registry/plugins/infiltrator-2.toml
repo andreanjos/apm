@@ -1,14 +1,15 @@
 slug = "infiltrator-2"
 name = "Infiltrator 2"
 vendor = "Devious Machines"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Expanded multi-effects sequencer with twice the effects, presets, and modulation of the original."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://deviousmachines.com/product/infiltrator/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7627-Infiltrator-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7627-Infiltrator-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

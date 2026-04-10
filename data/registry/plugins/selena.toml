@@ -2,13 +2,14 @@ slug = "selena"
 name = "Selena"
 vendor = "B Serrano"
 version = "1.0.0"
-description = ""
+description = "Free 32-voice string machine synth with 2 oscillators, phaser, delay, and chorus."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1101-Selena"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1101-Selena?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

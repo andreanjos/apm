@@ -2,11 +2,12 @@ slug = "union-bundle"
 name = "Union Bundle"
 vendor = "SoundSpot"
 version = "1.0.0"
-description = ""
+description = "Bundle including the SoundSpot Union wavetable synthesizer and related expansion content."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

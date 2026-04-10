@@ -1,12 +1,13 @@
 slug = "pure-dcompressor-v3"
 name = "Pure DCompressor v3"
 vendor = "Flux"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Version 3 of Flux's Pure DCompressor for clean, precise downward dynamic compression."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.flux.audio/products/"
 is_paid = true
 
 [formats.vst3]

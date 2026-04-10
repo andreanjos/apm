@@ -2,13 +2,14 @@ slug = "maatgo"
 name = "MAATgo"
 vendor = "MAAT"
 version = "1.0.0"
-description = ""
+description = "Channel routing and blending plugin with authentic analog oscilloscope-style goniometer."
 category = "effects"
 subcategory = "spectral analysis"
 license = "commercial"
 tags = []
+homepage = "https://www.maat.digital/maatgo/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/7525-MAATgo"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/7525-MAATgo?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

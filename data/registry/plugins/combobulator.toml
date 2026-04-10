@@ -1,14 +1,15 @@
 slug = "combobulator"
 name = "Combobulator"
 vendor = "DataMind Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Granular effects plugin by DataMind Audio for real-time audio granulation and manipulation."
 category = "effects"
 subcategory = "granular fx"
 license = "commercial"
 tags = []
+homepage = "https://datamindaudio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/15913-Combobulator-"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/15913-Combobulator-?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

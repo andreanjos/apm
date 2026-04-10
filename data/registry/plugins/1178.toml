@@ -1,12 +1,13 @@
 slug = "1178"
 name = "1178"
 vendor = "Pulsar Audio"
-version = "1.0.0"
-description = ""
+version = "1.5.11"
+description = "FET compressor emulation modelled on the classic stereo 1178 hardware unit."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://pulsar.audio/1178/"
 is_paid = true
 
 [formats.vst3]

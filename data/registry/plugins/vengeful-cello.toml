@@ -2,11 +2,12 @@ slug = "vengeful-cello"
 name = "Vengeful Cello"
 vendor = "Karoryfer Samples"
 version = "1.0.0"
-description = ""
+description = "Aggressive solo cello library with wild articulations from warm sul tasto to scratchy col legno and harmonics."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://shop.karoryfer.com/products/vengeful-cello"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "pro-l-2"
 name = "Pro-L 2"
 vendor = "FabFilter"
-version = "1.0.0"
-description = ""
+version = "2.25"
+description = "True peak mastering limiter with eight limiting algorithms, audition clipping, and ISP detection."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in"
 is_paid = true
 
 [formats.vst3]

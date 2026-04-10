@@ -2,11 +2,12 @@ slug = "the-grand-glass-marimba"
 name = "The Grand Glass Marimba"
 vendor = "Muletone Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument featuring a Brazilian glass marimba with multiple stick types and melodic patterns."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/"
 is_paid = true
 
 [formats.vst3]

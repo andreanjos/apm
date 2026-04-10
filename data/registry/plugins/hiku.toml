@@ -1,11 +1,12 @@
 slug = "hiku"
 name = "Hiku"
 vendor = "SoundSpot"
-version = "1.0.0"
-description = ""
+version = "1.0.1"
+description = "Mastering tool plugin from SoundSpot for loudness maximization and final polish."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

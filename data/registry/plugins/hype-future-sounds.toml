@@ -2,13 +2,14 @@ slug = "hype-future-sounds"
 name = "Hype Future Sounds"
 vendor = "DopeSONIX"
 version = "1.0.0"
-description = ""
+description = "Virtual instrument featuring modern and futuristic production sounds for electronic music."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.dopesonix.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/7081-Hype-Future-Sounds"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/7081-Hype-Future-Sounds?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

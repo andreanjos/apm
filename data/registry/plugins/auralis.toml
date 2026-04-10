@@ -2,13 +2,14 @@ slug = "auralis"
 name = "Auralis"
 vendor = "ZAK Sound"
 version = "1.0.0"
-description = ""
+description = "Texture and pad instrument built from natural environment recordings — waterfalls, birds, ocean, and rain."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://zaksound.com/auralis/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15230-Auralis"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15230-Auralis?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

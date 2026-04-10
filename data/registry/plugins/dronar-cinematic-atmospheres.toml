@@ -2,11 +2,12 @@ slug = "dronar-cinematic-atmospheres"
 name = "Dronar Cinematic Atmospheres"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt drone instrument using environmental recordings for evocative cinematic atmospheres."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/dronar-cinematic-atmospheres"
 is_paid = true
 
 [formats.vst3]

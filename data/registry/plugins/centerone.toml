@@ -2,13 +2,14 @@ slug = "centerone"
 name = "CenterOne"
 vendor = "Leapwing Audio"
 version = "1.0.0"
-description = ""
+description = "Center channel processor to adjust phantom center without affecting panorama or spectral characteristics."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://www.leapwingaudio.com/product/centerone/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/5252-CenterOne"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/5252-CenterOne?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

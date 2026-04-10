@@ -2,10 +2,11 @@ slug = "quatromod"
 name = "QuatroMod"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Four-voice modulation effect combining chorus, flanger, phaser, and tremolo in one plugin."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/pages/free-and-legacy"
 is_paid = true
 
 [formats.vst3]

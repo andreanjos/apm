@@ -1,14 +1,15 @@
 slug = "pcm2612-retro-decimator-unit"
 name = "PCM2612 Retro Decimator Unit"
 vendor = "Inphonik"
-version = "1.0.0"
-description = ""
+version = "1.0.2"
+description = "Free bitcrusher effect plugin based on RYM2612 technology for retro lo-fi sound degradation."
 category = "effects"
 subcategory = "bit crusher"
 license = "commercial"
 tags = []
+homepage = "https://www.inphonik.com/products/pcm2612-retro-decimator-unit/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/7405-PCM2612-Retro-Decimator-Unit"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/7405-PCM2612-Retro-Decimator-Unit?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

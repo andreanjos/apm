@@ -1,12 +1,13 @@
 slug = "mastering-compressor"
 name = "Mastering Compressor"
 vendor = "Shadow Hills Industries"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Shadow Hills Industries Mastering Compressor plugin emulating the iconic hardware unit."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://shadowhillsindustries.com/"
 is_paid = true
 
 [formats.vst3]

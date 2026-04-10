@@ -2,10 +2,11 @@ slug = "pretube"
 name = "PreTube"
 vendor = "Accentize"
 version = "1.0.0"
-description = ""
+description = "Machine-learning tube preamp emulation adding analog warmth and saturation to any signal."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.accentize.com/"
 is_paid = true
 
 [formats.vst3]

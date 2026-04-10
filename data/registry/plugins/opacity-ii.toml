@@ -2,11 +2,12 @@ slug = "opacity-ii"
 name = "Opacity II"
 vendor = "Audiomodern"
 version = "1.0.0"
-description = ""
+description = "Second volume of Audiomodern's Opacity Kontakt Player instrument with expanded atmospheric sounds."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://audiomodern.com/products/"
 is_paid = true
 
 [formats.vst3]

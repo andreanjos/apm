@@ -2,13 +2,13 @@ slug = "blaque-038-numb-bundle"
 name = "Blaque &#038; Numb Bundle"
 vendor = "New Nation"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Blaque dark electric guitar and Numb dark acoustic guitar sampled instruments."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://nnaud.io/"
 
 [formats.vst3]
 url = ""

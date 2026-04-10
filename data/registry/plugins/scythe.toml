@@ -1,14 +1,15 @@
 slug = "scythe"
 name = "Scythe"
 vendor = "Plastaq Software"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Plastaq Scythe is a free virtual synthesizer with analog and digital waveforms and modulation."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.plastaq.com/scythe_vst"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/346-Scythe"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/346-Scythe?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

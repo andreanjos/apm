@@ -2,13 +2,14 @@ slug = "sub-cut"
 name = "Sub Cut"
 vendor = "Iceberg Audio"
 version = "1.0.0"
-description = ""
+description = "Precision low-cut EQ for frequencies under 220Hz with AUTO mode that follows the notes of source material."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://icebergaudio.com/products/subcut/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/9728-Sub-Cut"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/9728-Sub-Cut?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

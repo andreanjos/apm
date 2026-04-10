@@ -2,13 +2,14 @@ slug = "common-image"
 name = "Common Image"
 vendor = "Bass Gnomes"
 version = "1.0.0"
-description = ""
+description = "Free stereo width plugin for controlling and adjusting the stereo image of audio signals."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://bassgnomes.wordpress.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/506-Common-Image"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/506-Common-Image?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

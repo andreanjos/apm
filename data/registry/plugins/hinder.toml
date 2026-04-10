@@ -1,14 +1,15 @@
 slug = "hinder"
 name = "Hinder"
 vendor = "Inertia Sound Systems"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Experimental delay plugin by Inertia Sound Systems with unique degradation and glitch modes."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.inertiasoundsystems.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/9653-Hinder"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/9653-Hinder?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

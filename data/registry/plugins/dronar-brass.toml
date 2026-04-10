@@ -2,11 +2,12 @@ slug = "dronar-brass"
 name = "Dronar Brass"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument generating evolving brass-based atmospheric pads, drones and soundscapes."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/dronar-brass"
 is_paid = true
 
 [formats.vst3]

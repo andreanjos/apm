@@ -1,14 +1,15 @@
 slug = "green-ad"
 name = "Green AD"
 vendor = "Three Body Technology"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "AD/DA converter emulation bringing analog warmth and harmonic richness into digital workflows."
 category = "effects"
 subcategory = "saturation"
 license = "commercial"
 tags = []
+homepage = "https://www.threebodytech.com/en/products/deepvintage"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/14718-Green-AD"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/14718-Green-AD?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

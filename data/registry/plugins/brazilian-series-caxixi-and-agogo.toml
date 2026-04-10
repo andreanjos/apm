@@ -2,11 +2,12 @@ slug = "brazilian-series-caxixi-and-agogo"
 name = "Brazilian Series: Caxixi and Agogo"
 vendor = "Muletone Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt library pairing Caxixi and Agogô percussion with 30+ rhythmic cells and traditional Brazilian grooves."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "ep-1"
 name = "EP 1"
 vendor = "KORG"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Software recreation of a classic electric piano delivering vintage tonewheel and tine piano sounds."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.korg.com/us/products/software/korg_collection/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12715-EP-1"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12715-EP-1?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

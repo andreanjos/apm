@@ -2,11 +2,12 @@ slug = "darkpsy-fx466"
 name = "DarkPsy FX466"
 vendor = "G-Sonique"
 version = "1.0.0"
-description = ""
+description = "Virtual instrument synthesizer tailored for dark psytrance, forest, and psycore music production."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.g-sonique.com/darkpsyfx466-vst-au-plug-in-instrument.html"
 is_paid = true
 
 [formats.vst3]

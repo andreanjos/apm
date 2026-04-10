@@ -1,11 +1,12 @@
 slug = "masterverb"
 name = "MasterVerb"
 vendor = "Wave Arts"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Pristine-sounding reverb plugin featuring Hall and Plate algorithms for spaces from intimate rooms to concert halls."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://wavearts.com/products/plugins/masterverb-7"
 is_paid = true
 
 [formats.vst3]

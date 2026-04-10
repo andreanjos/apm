@@ -2,10 +2,11 @@ slug = "cryogen"
 name = "Cryogen"
 vendor = "Glitchmachines"
 version = "1.0.0"
-description = ""
+description = "Dual buffer effects plugin with dual filters and bit crushers for stunning signal mutations."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://glitchmachines.com/"
 is_paid = true
 
 [formats.vst3]

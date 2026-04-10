@@ -2,11 +2,12 @@ slug = "seism"
 name = "Seism"
 vendor = "Ecliptiq Audio"
 version = "1.0.0"
-description = ""
+description = "Massive Kontakt drum library with 780 production-ready samples for every genre."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.adsrsounds.com/product/presets/seism/"
 is_paid = true
 
 [formats.vst3]

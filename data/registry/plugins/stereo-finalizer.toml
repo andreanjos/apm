@@ -1,11 +1,12 @@
 slug = "stereo-finalizer"
 name = "Stereo Finalizer"
 vendor = "NoiseAsh"
-version = "1.0.0"
-description = ""
+version = "1.3.9"
+description = "Stereo bus processor combining EQ, stereo widening, and enhancement based on the NEED 73 circuit."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/stereo-finalizer/"
 is_paid = true
 
 [formats.vst3]

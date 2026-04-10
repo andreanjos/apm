@@ -2,13 +2,14 @@ slug = "twangstr-m"
 name = "Twangstr m"
 vendor = "u he"
 version = "1.0.0"
-description = ""
+description = "Spring reverb plugin modeling the characteristic twang of analog spring reverb tanks."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://u-he.com/products/twangstrom/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/5024-Twangstr-m"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/5024-Twangstr-m?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "rubber-band-compressor-v2"
 name = "Rubber Band Compressor V2"
 vendor = "Mixland"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Mixland Rubber Band Compressor V2 delivers a unique floating-ratio compression with analog drive."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://mixland.io/products/rubber-band-compressor-v2"
 is_paid = true
 
 [formats.vst3]

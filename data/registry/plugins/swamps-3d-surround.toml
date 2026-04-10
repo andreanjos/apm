@@ -1,14 +1,15 @@
 slug = "swamps-3d-surround"
 name = "SWAMPS 3D Surround"
 vendor = "Boom"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Surround version of BOOM Library's SWAMPS, a field-recorded wetlands ambience instrument for immersive audio."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.boomlibrary.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/16526-SWAMPS-3D-Surround"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/16526-SWAMPS-3D-Surround?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

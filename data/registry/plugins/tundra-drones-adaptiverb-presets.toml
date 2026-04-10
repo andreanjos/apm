@@ -1,11 +1,12 @@
 slug = "tundra-drones-adaptiverb-presets"
 name = "Tundra Drones – Adaptiverb Presets"
 vendor = "Spektralisk"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Tundra Drones Adaptiverb presets by Spektralisk for cold, evolving atmospheric textures."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.spektralisk.com/"
 is_paid = true
 
 [formats.vst3]

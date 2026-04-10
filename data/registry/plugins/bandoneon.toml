@@ -2,11 +2,12 @@ slug = "bandoneon"
 name = "Bandoneon"
 vendor = "Psound"
 version = "1.0.0"
-description = ""
+description = "UVI-based virtual bandoneon instrument with deeply sampled Argentine tango accordion sound."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.psound.it/"
 is_paid = true
 
 [formats.vst3]

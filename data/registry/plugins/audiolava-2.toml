@@ -1,12 +1,13 @@
 slug = "audiolava-2"
 name = "AudioLava 2"
 vendor = "Acon Digital"
-version = "1.0.0"
-description = ""
+version = "2.0.2"
+description = "Audio restoration and LP/tape-to-digital software for removing hiss, hum, clicks, and crackle."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://acondigital.com/products/audiolava/"
 is_paid = true
 
 [formats.vst3]

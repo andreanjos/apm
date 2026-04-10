@@ -1,12 +1,13 @@
 slug = "pro-c-2-compressor"
 name = "Pro-C 2 Compressor"
 vendor = "FabFilter"
-version = "1.0.0"
-description = ""
+version = "3.01"
+description = "Versatile compressor with eight compression styles, a large interactive display, and transparent processing."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.fabfilter.com/products/pro-c-2-compressor-plug-in"
 is_paid = true
 
 [formats.vst3]

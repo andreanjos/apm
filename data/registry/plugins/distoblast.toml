@@ -2,13 +2,14 @@ slug = "distoblast"
 name = "DistoBlast"
 vendor = "Audio Blast"
 version = "1.0.0"
-description = ""
+description = "Multi-algorithm distortion plugin with 9 modes, pre/post filtering, and full parameter control."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.audioblast.me/product/distoblast/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/15390-DistoBlast"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/15390-DistoBlast?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

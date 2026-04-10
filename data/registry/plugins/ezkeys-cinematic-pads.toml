@@ -1,12 +1,13 @@
 slug = "ezkeys-cinematic-pads"
 name = "EZKeys Cinematic Pads"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.1.5"
+description = "EZkeys expansion of hybrid ambient pads built from analogue synths, vintage piano and bowed electric guitar."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/cinematic-pads-ekx/"
 is_paid = true
 
 [formats.vst3]

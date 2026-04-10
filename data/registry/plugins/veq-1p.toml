@@ -1,14 +1,15 @@
 slug = "veq-1p"
 name = "VEQ 1P"
 vendor = "Black Rooster Audio"
-version = "1.0.0"
-description = ""
+version = "3.0.0"
+description = "Vintage passive program equalizer inspired by classic studio hardware for gentle musical tone shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://blackroosteraudio.com/en/products/veq-1p"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11385-VEQ-1P"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11385-VEQ-1P?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

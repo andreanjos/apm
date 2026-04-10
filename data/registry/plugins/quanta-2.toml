@@ -2,11 +2,12 @@ slug = "quanta-2"
 name = "Quanta 2"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Full-featured granular synthesizer with enhanced grain engine, expanded modulation, and new interface."
 category = "effects"
 subcategory = "granular"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/products/ad055-quanta-2"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "chow-klon-centaur-model"
 name = "CHOW Klon Centaur Model"
 vendor = "ChowDSP"
-version = "1.0.0"
-description = ""
+version = "1.4.0"
+description = "Neural and circuit-modeled emulation of the Klon Centaur guitar overdrive pedal."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://chowdsp.com/products.html"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/7322-CHOW-Klon-Centaur-Model"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/7322-CHOW-Klon-Centaur-Model?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,13 +2,14 @@ slug = "comp-two"
 name = "COMP TWO"
 vendor = "PROCESS AUDIO"
 version = "1.0.0"
-description = ""
+description = "Analog-modeled tube compressor emulation with character, punch and a modern workflow."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://process.audio/en"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10873-COMP-TWO"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10873-COMP-TWO?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

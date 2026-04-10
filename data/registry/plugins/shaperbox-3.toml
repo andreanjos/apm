@@ -1,12 +1,13 @@
 slug = "shaperbox-3"
 name = "ShaperBox 3"
 vendor = "Cableguys"
-version = "1.0.0"
-description = ""
+version = "3.6.2"
+description = "11-effect LFO-driven plugin bundle for rhythmic volume, filter, drive, reverb, pitch, and time shaping."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.cableguys.com/shaperbox"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "interakt"
 name = "Interakt"
 vendor = "Digital Brain Instruments"
 version = "1.0.0"
-description = ""
+description = "Multi-sampler plugin for creating and manipulating high-quality sound effects and samples."
 category = "instruments"
 subcategory = "sampler"
 license = "commercial"
 tags = []
+homepage = "https://www.digitalbrain-instruments.com/interakt"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/9377-Interakt"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/9377-Interakt?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

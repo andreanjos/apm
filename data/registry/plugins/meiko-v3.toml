@@ -1,14 +1,15 @@
 slug = "meiko-v3"
 name = "MEIKO V3"
 vendor = "Crypton Future Media"
-version = "1.0.0"
-description = ""
+version = "V3"
+description = "MEIKO V3 VOCALOID female singing synthesizer voicebank by Crypton Future Media."
 category = "instruments"
 subcategory = "vocal synth"
 license = "commercial"
 tags = []
+homepage = "https://sonicwire.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/16427-MEIKO-V3"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/16427-MEIKO-V3?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

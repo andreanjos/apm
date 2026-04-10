@@ -1,14 +1,15 @@
 slug = "color-play"
 name = "Color Play"
 vendor = "NEST Acoustics"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Synthesizer plugin by NEST Acoustics with colorful tonal palette and expressive controls."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://nestacoustics.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/17058-Color-Play"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/17058-Color-Play?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

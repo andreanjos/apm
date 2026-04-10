@@ -2,13 +2,13 @@ slug = "compressor-stagecraft"
 name = "Compressor"
 vendor = "Stagecraft"
 version = "1.0.0"
-description = ""
+description = "Straightforward dynamics compressor plugin from Stagecraft Software for transparent gain control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.stagecraftsoftware.com/products/"
 
 [formats.vst3]
 url = ""

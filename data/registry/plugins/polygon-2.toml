@@ -1,11 +1,12 @@
 slug = "polygon-2"
 name = "Polygon 2"
 vendor = "Glitchmachines"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Advanced multi-effects plugin with modular architecture for complex electronic sound design."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://glitchmachines.com/products/polygon/"
 is_paid = true
 
 [formats.vst3]

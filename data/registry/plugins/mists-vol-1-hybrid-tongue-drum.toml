@@ -2,11 +2,12 @@ slug = "mists-vol-1-hybrid-tongue-drum"
 name = "Mists Vol 1 – Hybrid Tongue Drum"
 vendor = "Beautiful Void Audio"
 version = "1.0.0"
-description = ""
+description = "Hybrid Kontakt tongue drum instrument blending acoustic and processed tones for atmospheric composition."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.beautifulvoidaudio.com/"
 is_paid = true
 
 [formats.vst3]

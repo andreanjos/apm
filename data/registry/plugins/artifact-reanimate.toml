@@ -2,11 +2,12 @@ slug = "artifact-reanimate"
 name = "Artifact Reanimate"
 vendor = "Audio Imperia"
 version = "1.0.0"
-description = ""
+description = "Kontakt Player instrument with percussive kits and construction loops for trailer sound design."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.audioimperia.com/product/artifact-reanimate/"
 is_paid = true
 
 [formats.vst3]

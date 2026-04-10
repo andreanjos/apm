@@ -1,12 +1,13 @@
 slug = "percmod"
 name = "percMOD"
 vendor = "Pornofonic Instruments"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Pornofonic Instruments percMOD is a 26-instrument found percussion library for Kontakt."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://pfonic.com/"
 is_paid = true
 
 [formats.vst3]

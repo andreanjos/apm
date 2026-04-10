@@ -1,14 +1,15 @@
 slug = "vs-visual-synthesizer-2"
 name = "VS Visual Synthesizer 2"
 vendor = "Imaginando"
-version = "1.0.0"
-description = ""
+version = "2.0.5"
+description = "Visual synthesizer that creates real-time audio-reactive visuals powered by your sound."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.imaginando.pt/products/vs-visual-synthesizer"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15721-VS-Visual-Synthesizer-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15721-VS-Visual-Synthesizer-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,14 +1,15 @@
 slug = "mixcraft-10-6-pro-studio"
 name = "Mixcraft 10 6 Pro Studio"
 vendor = "Acoustica"
-version = "1.0.0"
-description = ""
+version = "10.6"
+description = "Acoustica Mixcraft Pro Studio 10.6 is a full-featured DAW with virtual instruments and mixing."
 category = "tools"
 subcategory = "daw"
 license = "commercial"
 tags = []
+homepage = "https://acoustica.com/mixcraft"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/11405-Mixcraft-10-6-Pro-Studio"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/11405-Mixcraft-10-6-Pro-Studio?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "addictive-trigger-drum-vault-bundle"
 name = "Addictive Trigger + Drum Vault Bundle"
 vendor = "XLN Audio"
-version = "1.0.0"
-description = ""
+version = "1.3.9"
+description = "Bundle combining Addictive Trigger drum replacement tool with the Drum Vault sample expansion library."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.xlnaudio.com/products/addictive_trigger"
 is_paid = true
 
 [formats.vst3]

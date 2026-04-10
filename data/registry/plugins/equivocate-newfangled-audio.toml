@@ -2,13 +2,13 @@ slug = "equivocate-newfangled-audio"
 name = "EQuivocate"
 vendor = "Newfangled Audio"
 version = "1.0.0"
-description = ""
+description = "Graphic EQ with 26 bands matched to the human auditory system for natural tonal shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.newfangledaudio.com/equivocate"
 
 [formats.vst3]
 url = ""

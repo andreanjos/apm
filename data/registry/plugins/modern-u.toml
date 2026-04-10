@@ -2,11 +2,12 @@ slug = "modern-u"
 name = "Modern U"
 vendor = "ViLabs"
 version = "1.0.0"
-description = ""
+description = "Deeply sampled upright piano virtual instrument with an intimate, modern sound character."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.vilabsaudio.com/"
 is_paid = true
 
 [formats.vst3]

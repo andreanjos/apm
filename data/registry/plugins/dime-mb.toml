@@ -1,14 +1,15 @@
 slug = "dime-mb"
 name = "dime mb"
 vendor = "time off audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Multiband dynamics processor by time off audio for precise frequency-specific compression."
 category = "effects"
 subcategory = "dynamics processor"
 license = "commercial"
 tags = []
+homepage = "https://timeoffaudio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/16943-dime-mb-"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/16943-dime-mb-?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

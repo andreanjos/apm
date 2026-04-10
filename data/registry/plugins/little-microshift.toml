@@ -1,12 +1,13 @@
 slug = "little-microshift"
 name = "Little MicroShift"
 vendor = "Soundtoys"
-version = "1.0.0"
-description = ""
+version = "5.5"
+description = "Simplified stereo widening plugin modeled on the Eventide H3000 and AMS DMX 15-80s pitch shifters."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.soundtoys.com/product/little-microshift/"
 is_paid = true
 
 [formats.vst3]

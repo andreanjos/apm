@@ -1,14 +1,15 @@
 slug = "the-function"
 name = "The Function"
 vendor = "Arctican Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Stereo width and imaging plugin by Arctican Audio for expanding the stereo field."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://arcticanaudio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/592-The-Function"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/592-The-Function?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

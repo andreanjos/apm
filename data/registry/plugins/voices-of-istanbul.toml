@@ -2,11 +2,12 @@ slug = "voices-of-istanbul"
 name = "Voices of Istanbul"
 vendor = "Q Up Arts"
 version = "1.0.0"
-description = ""
+description = "Richly detailed Turkish instrument library recorded in Istanbul with Ney, Ud, Darbuka, Kemence, and more."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://quparts.com/products/voices-of-istanbu"
 is_paid = true
 
 [formats.vst3]

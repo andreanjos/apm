@@ -1,12 +1,13 @@
 slug = "ezkeys-studio-grand"
 name = "EZKeys Studio Grand"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.1.5"
+description = "EZkeys expansion delivering a studio-recorded concert grand piano with a polished, mix-ready sound."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/studio-grand-ekx/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "schlap"
 name = "Schlap"
 vendor = "Caelum Audio"
 version = "1.0.0"
-description = ""
+description = "Aggressive program-dependent RMS compressor with colorful, punchy character for drums and buses."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.caelum-audio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/7711-Schlap"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/7711-Schlap?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

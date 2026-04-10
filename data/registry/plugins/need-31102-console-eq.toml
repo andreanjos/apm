@@ -2,11 +2,12 @@ slug = "need-31102-console-eq"
 name = "Need 31102 Console EQ"
 vendor = "NoiseAsh"
 version = "1.0.0"
-description = ""
+description = "British Class-A console EQ modeled on the Neve 31102 module for punchy, musical equalization."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/need-31102-console-eq/"
 is_paid = true
 
 [formats.vst3]

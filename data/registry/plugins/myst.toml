@@ -1,12 +1,13 @@
 slug = "myst"
 name = "Myst"
 vendor = "Soundspear"
-version = "1.0.0"
-description = ""
+version = "1.0.2"
+description = "Thickness enhancer plugin that adds body and density to thin-sounding audio sources."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://soundspear.com/product/myst"
 is_paid = true
 
 [formats.vst3]

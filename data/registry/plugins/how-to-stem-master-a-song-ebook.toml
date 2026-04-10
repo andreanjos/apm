@@ -2,13 +2,14 @@ slug = "how-to-stem-master-a-song-ebook"
 name = "How To Stem Master A Song eBook"
 vendor = "Mastering The Mix"
 version = "1.0.0"
-description = ""
+description = "eBook guide by Mastering The Mix explaining the stem mastering process step by step."
 category = "tools"
 subcategory = "ebook"
 license = "commercial"
 tags = []
+homepage = "https://www.masteringthemix.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/94-eBook/11115-How-To-Stem-Master-A-Song-eBook"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/94-eBook/11115-How-To-Stem-Master-A-Song-eBook?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

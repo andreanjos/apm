@@ -2,11 +2,12 @@ slug = "swift-guitar"
 name = "Swift Guitar"
 vendor = "Sketch Sampling"
 version = "1.0.0"
-description = ""
+description = "Affordable and playable acoustic guitar Kontakt instrument with natural articulations."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://sketchsampling.ru/"
 is_paid = true
 
 [formats.vst3]

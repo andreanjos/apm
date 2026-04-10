@@ -2,13 +2,13 @@ slug = "prodigious-8211-orchestral-engine"
 name = "Prodigious &#8211; Orchestral Engine"
 vendor = "New Nation"
 version = "1.0.0"
-description = ""
+description = "Orchestral rompler with 32 sampled instruments including strings, brass, woodwinds, and vocals."
 category = "instruments"
 subcategory = "orchestral"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://nnaud.io/"
 
 [formats.vst3]
 url = ""

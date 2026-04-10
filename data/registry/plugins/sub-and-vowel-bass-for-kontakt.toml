@@ -2,11 +2,12 @@ slug = "sub-and-vowel-bass-for-kontakt"
 name = "Sub and Vowel Bass for Kontakt"
 vendor = "New Loops"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of 100 sub and vowel formant bass sounds for electronic music production."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://newloops.com/products/sub-and-vowel-bass"
 is_paid = true
 
 [formats.vst3]

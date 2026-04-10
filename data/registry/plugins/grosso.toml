@@ -2,11 +2,12 @@ slug = "grosso"
 name = "Grosso"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Grandiose full orchestral phrase-based Kontakt library for powerful cinematic scoring."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/classical/grosso/"
 is_paid = true
 
 [formats.vst3]

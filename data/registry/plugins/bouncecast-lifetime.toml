@@ -2,11 +2,12 @@ slug = "bouncecast-lifetime"
 name = "BounceCast Lifetime"
 vendor = "CloudBounce"
 version = "1.0.0"
-description = ""
+description = "Lifetime access plan for BounceCast, the AI-powered mastering and enhancement tool for podcast and video audio."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://cloudbounce.com/"
 is_paid = true
 
 [formats.vst3]

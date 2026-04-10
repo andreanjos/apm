@@ -1,12 +1,13 @@
 slug = "universe-of-sounds-master-studio-collection-eiii-v1"
 name = "Universe of Sounds Master Studio Collection EIII V1"
 vendor = "Q Up Arts"
-version = "1.0.0"
-description = ""
+version = "1"
+description = "Volume 1 of the OMI Universe of Sounds EIII collection with diverse pianos, guitars, percussion, and orchestral sounds."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.quparts.com/"
 is_paid = true
 
 [formats.vst3]

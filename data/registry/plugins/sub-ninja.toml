@@ -1,14 +1,15 @@
 slug = "sub-ninja"
 name = "Sub Ninja"
 vendor = "The Him DSP"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Sub bass spectral analysis and shaping plugin by The Him DSP for clean low end control."
 category = "effects"
 subcategory = "spectral analysis"
 license = "commercial"
 tags = []
+homepage = "https://thehimdsp.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/13437-Sub-Ninja"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/13437-Sub-Ninja?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

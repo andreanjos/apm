@@ -2,11 +2,12 @@ slug = "elevate-mastering-bundle"
 name = "Elevate Mastering Bundle"
 vendor = "Newfangled Audio"
 version = "1.0.0"
-description = ""
+description = "Mastering bundle including Elevate limiter, EQuivocate EQ, Saturate clipper, and Punctuate."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.newfangledaudio.com/elevatemasteringbundle"
 is_paid = true
 
 [formats.vst3]

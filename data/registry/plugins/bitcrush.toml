@@ -1,12 +1,13 @@
 slug = "bitcrush"
 name = "Bitcrush"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Bit crusher Snapin that reduces sample rate and bit depth for lo-fi digital distortion effects."
 category = "effects"
 subcategory = "bit crusher"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/bitcrush"
 is_paid = true
 
 [formats.vst3]

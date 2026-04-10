@@ -2,11 +2,12 @@ slug = "khords"
 name = "KHORDS"
 vendor = "Loopmasters Plugins"
 version = "1.0.0"
-description = ""
+description = "Chord instrument with 550 presets, real-time audio warping, and 12 filter types for harmony."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instrument/4998-KHORDS"
 is_paid = true
 
 [formats.vst3]

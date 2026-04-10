@@ -1,12 +1,13 @@
 slug = "bfd3"
 name = "BFD3"
 vendor = "FXpansion"
-version = "1.0.0"
-description = ""
+version = "3.4"
+description = "BFD3 by FXpansion is a professional acoustic drum virtual instrument with deep sampling."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.bfddrums.com/products/bfd3"
 is_paid = true
 
 [formats.vst3]

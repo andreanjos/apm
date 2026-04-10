@@ -2,13 +2,14 @@ slug = "cubby"
 name = "Cubby"
 vendor = "Safari Audio"
 version = "1.0.0"
-description = ""
+description = "Virtual instrument plugin from Safari Audio for creative sound design and music production."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://safariaudio.com/products/cubby"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/16836-Cubby"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/16836-Cubby?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

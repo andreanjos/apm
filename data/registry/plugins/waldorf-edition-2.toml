@@ -1,14 +1,15 @@
 slug = "waldorf-edition-2"
 name = "Waldorf Edition 2"
 vendor = "Waldorf"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Complete Waldorf software instrument collection bundling Attack, Largo, PPG Wave 3.V, Lector, and more."
 category = "instruments"
 subcategory = "complete collection"
 license = "commercial"
 tags = []
+homepage = "https://waldorfmusic.com/waldorf-edition-2-en/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/12437-Waldorf-Edition-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/12437-Waldorf-Edition-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

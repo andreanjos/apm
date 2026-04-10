@@ -2,11 +2,12 @@ slug = "lss-solo-strings-bundle"
 name = "LSS Solo Strings Bundle"
 vendor = "Aria Sounds"
 version = "1.0.0"
-description = ""
+description = "Bundle of solo violin, viola, cello, and double bass Kontakt libraries recorded in a concert hall."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://ariasounds.com/product/lss-solo-strings-bundle/"
 is_paid = true
 
 [formats.vst3]

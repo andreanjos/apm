@@ -2,11 +2,12 @@ slug = "orchestral-strings"
 name = "Orchestral Strings"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Divisi orchestral strings Kontakt library with full articulation range and expressive legato."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/classical/orchestral-strings/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "the-pilgrim"
 name = "The Pilgrim"
 vendor = "Arctican Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Creative filter plugin by Arctican Audio with resonant and morphing filter modes."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://arcticanaudio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/593-The-Pilgrim"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/593-The-Pilgrim?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "ultrasonic-death-whistle-collectors-edition"
 name = "Ultrasonic Death Whistle (Collectors Edition)"
 vendor = "MNTRA"
 version = "1.0.0"
-description = ""
+description = "Aztec death whistle virtual instrument powered by MNTRA's MNDALA 2 acoustic synthesis engine."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.mntra.io/product/udw/"
 is_paid = true
 
 [formats.vst3]

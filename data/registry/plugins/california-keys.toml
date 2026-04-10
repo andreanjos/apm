@@ -2,11 +2,12 @@ slug = "california-keys"
 name = "California Keys"
 vendor = "Q Up Arts"
 version = "1.0.0"
-description = ""
+description = "Fazioli grand piano plus vintage electric pianos and organs recorded at 192kHz/24-bit with 8,000+ samples."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.quparts.com/products/california-keys"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "the-oberheim-bundle"
 name = "The Oberheim Bundle"
 vendor = "GForce Software"
 version = "1.0.0"
-description = ""
+description = "Bundle of GForce's officially endorsed Oberheim synthesizer and drum machine emulations."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.gforcesoftware.com/products/"
 is_paid = true
 
 [formats.vst3]

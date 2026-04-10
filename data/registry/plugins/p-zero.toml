@@ -2,11 +2,12 @@ slug = "p-zero"
 name = "P-Zero"
 vendor = "Sampletrip"
 version = "1.0.0"
-description = ""
+description = "Digital grand piano library for Kontakt 5 inspired by late-1980s digital piano modules."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/p-zero-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

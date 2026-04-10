@@ -1,12 +1,13 @@
 slug = "volcano-3"
 name = "Volcano 3"
 vendor = "FabFilter"
-version = "1.0.0"
-description = ""
+version = "3.08"
+description = "Powerful filter plugin with four linked multimode filters, modulation, and 27 filter types per band."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.fabfilter.com/products/volcano-3-filter-plug-in"
 is_paid = true
 
 [formats.vst3]

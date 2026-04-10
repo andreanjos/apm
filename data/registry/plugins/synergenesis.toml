@@ -2,11 +2,12 @@ slug = "synergenesis"
 name = "Synergenesis"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument inspired by the Bell Labs digital synthesizer (Alles Machine) from the 1970s."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

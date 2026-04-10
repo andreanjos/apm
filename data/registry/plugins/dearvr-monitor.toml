@@ -1,12 +1,13 @@
 slug = "dearvr-monitor"
 name = "dearVR MONITOR"
 vendor = "Dear Reality"
-version = "1.0.0"
-description = ""
+version = "1.16.0"
+description = "Binaural headphone monitoring plugin for accurate stereo and spatial mix referencing."
 category = "effects"
 subcategory = "mixing"
 license = "commercial"
 tags = []
+homepage = "https://www.dear-reality.com/collections/all"
 is_paid = true
 
 [formats.vst3]

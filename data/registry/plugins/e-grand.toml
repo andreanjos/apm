@@ -2,11 +2,12 @@ slug = "e-grand"
 name = "E-Grand"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument capturing the sound of a classic electric grand piano with vintage tonal character."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "sea-sampler"
 name = "Sea Sampler"
 vendor = "Ben Osterhouse"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument transforming samples into vibrant soundscapes through a unique fish-school UI."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://osterhousesounds.com/products/sea-sampler"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10972-Sea-Sampler"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10972-Sea-Sampler?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

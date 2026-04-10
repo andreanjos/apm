@@ -1,12 +1,13 @@
 slug = "heat-up-3"
 name = "Heat Up 3"
 vendor = "Initial Audio"
-version = "1.0.0"
-description = ""
+version = "3.6.3"
+description = "Sample-based synthesizer plugin with 60+ expansion packs and over 13,000 production presets."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://initialaudio.com/heat-up-3/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "dyn-3000-midas-channel-dynamics"
 name = "DYN 3000 Midas Channel Dynamics"
 vendor = "TC Electronic"
 version = "1.0.0"
-description = ""
+description = "Channel dynamics plugin based on Midas Heritage consoles with compressor, gate and EQ."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://store.tcelectronic.com/products/native-plug-ins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14590-DYN-3000-Midas-Channel-Dynamics"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14590-DYN-3000-Midas-Channel-Dynamics?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

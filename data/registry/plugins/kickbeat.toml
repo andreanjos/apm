@@ -2,11 +2,12 @@ slug = "kickbeat"
 name = "KickBeat"
 vendor = "Xhun Audio"
 version = "1.0.0"
-description = ""
+description = "Hybrid electronic bass drum synthesizer using late-90s 16-bit digital techniques with analog-modeled saturation."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.xhun-audio.com/site/xhun.php?page=kickbeat"
 is_paid = true
 
 [formats.vst3]

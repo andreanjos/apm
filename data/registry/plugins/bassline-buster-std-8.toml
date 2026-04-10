@@ -2,11 +2,12 @@ slug = "bassline-buster-std-8"
 name = "BassLine Buster Std 8"
 vendor = "Pfundstein Audio Plugins"
 version = "1.0.0"
-description = ""
+description = "Virtual 8-string octave bass guitar plugin with sampled bass and MIDI playability."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://pfundstein-audio-plugins.de/?product=8-string-virtual-bass-plugin-vst3"
 is_paid = true
 
 [formats.vst3]

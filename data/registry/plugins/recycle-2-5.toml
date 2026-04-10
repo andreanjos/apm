@@ -1,14 +1,15 @@
 slug = "recycle-2-5"
 name = "ReCycle 2 5"
 vendor = "Reason Studios"
-version = "1.0.0"
-description = ""
+version = "2.5"
+description = "Free classic loop slicer and sample editor for slicing audio loops to individual slices."
 category = "tools"
 subcategory = "audio editor"
 license = "commercial"
 tags = []
+homepage = "https://www.reasonstudios.com/recycle"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/5833-ReCycle-2-5"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/5833-ReCycle-2-5?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

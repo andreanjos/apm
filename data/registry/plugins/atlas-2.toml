@@ -1,14 +1,14 @@
 slug = "atlas-2"
 name = "Atlas 2"
 vendor = "Rast Sound"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "World music engine for Kontakt featuring 22 cultures with 2000+ samples and pattern-based playback."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://rastsound.com/downloads/atlas/"
 
 [formats.vst3]
 url = ""

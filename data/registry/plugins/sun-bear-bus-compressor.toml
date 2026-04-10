@@ -2,13 +2,14 @@ slug = "sun-bear-bus-compressor"
 name = "Sun Bear Bus Compressor"
 vendor = "Safari Audio"
 version = "1.0.0"
-description = ""
+description = "Mastering-grade bus compressor plugin delivering transparent to colorful glue compression."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://safariaudio.com/products/sun-bear-bus-compressor"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/15342-Sun-Bear-Bus-Compressor"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/15342-Sun-Bear-Bus-Compressor?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

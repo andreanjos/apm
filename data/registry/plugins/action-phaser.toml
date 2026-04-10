@@ -1,11 +1,12 @@
 slug = "action-phaser"
 name = "Action Phaser"
 vendor = "NoiseAsh"
-version = "1.0.0"
-description = ""
+version = "1.3.9"
+description = "Stereo phaser modulation plugin with advanced wave-based modulation for dynamic phase effects."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/action-phaser/"
 is_paid = true
 
 [formats.vst3]

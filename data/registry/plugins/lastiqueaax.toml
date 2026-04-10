@@ -2,13 +2,14 @@ slug = "lastiqueaax"
 name = "lastiqueAAX"
 vendor = "zplane"
 version = "1.0.0"
-description = ""
+description = "Professional time and pitch manipulation tool for Pro Tools using the élastiquePro V3 engine."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://products.zplane.de/products/elastique-aax"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/4184--lastiqueAAX"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/4184--lastiqueAAX?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

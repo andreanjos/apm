@@ -2,11 +2,12 @@ slug = "lunacy-audio-everything-bundle"
 name = "Lunacy Audio Everything Bundle"
 vendor = "Lunacy Audio"
 version = "1.0.0"
-description = ""
+description = "Complete bundle of all Lunacy Audio instruments including CUBE and all expansion packs."
 category = "instruments"
 subcategory = "pads"
 license = "commercial"
 tags = []
+homepage = "https://lunacy.audio/products/everything-bundle/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "nuendo-15-update-from-nuendo-14"
 name = "Nuendo 15 Update from Nuendo 14"
 vendor = "Steinberg"
-version = "1.0.0"
-description = ""
+version = "15"
+description = "Paid update to Nuendo 15 professional post-production DAW from Nuendo 14 with 35+ new features."
 category = "tools"
 subcategory = "daw"
 license = "commercial"
 tags = []
+homepage = "https://www.steinberg.net/nuendo/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/17081-Nuendo-15-Update-from-Nuendo-14"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/17081-Nuendo-15-Update-from-Nuendo-14?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,14 +1,15 @@
 slug = "mix-monolith"
 name = "Mix Monolith"
 vendor = "AYAIC"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Mastering plugin by AYAIC combining EQ, compression, and limiting in a streamlined interface."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.ayaic.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/10547-Mix-Monolith"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/10547-Mix-Monolith?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

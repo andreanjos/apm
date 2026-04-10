@@ -2,11 +2,12 @@ slug = "ax-chorus"
 name = "AX Chorus"
 vendor = "Martinic"
 version = "1.0.0"
-description = ""
+description = "Faithful recreation of the unique chorus fx from the vintage AX73 and AX60 synthesizers."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.martinic.com/en/products/ax-chorus"
 is_paid = true
 
 [formats.vst3]

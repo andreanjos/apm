@@ -2,11 +2,12 @@ slug = "the-orbitone-collection-i-and-ii"
 name = "The Orbitone Collection I and II"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of complex warm textures from a 1972 Eminent 310U, Polymoog Resonator, and Minimoog."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

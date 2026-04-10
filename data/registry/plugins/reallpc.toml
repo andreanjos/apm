@@ -1,12 +1,13 @@
 slug = "reallpc"
 name = "RealLPC"
 vendor = "MusicLab"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Virtual Les Paul Custom guitar instrument with realistic fingering and strumming techniques."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.musiclab.com/"
 is_paid = true
 
 [formats.vst3]

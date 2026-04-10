@@ -2,11 +2,12 @@ slug = "the-string-collection-ii"
 name = "The String Collection II"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Cinematic synth strings Kontakt library captured from vintage synthesizers including the Novachord and Eminent 310U."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

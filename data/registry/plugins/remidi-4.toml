@@ -1,14 +1,15 @@
 slug = "remidi-4"
 name = "reMIDI 4"
 vendor = "SongWish"
-version = "1.0.0"
-description = ""
+version = "4.5"
+description = "SongWish reMIDI 4 is an advanced MIDI sampler for chopping, rearranging, and playing MIDI files."
 category = "tools"
 subcategory = "music theory tools"
 license = "commercial"
 tags = []
+homepage = "https://songwish.ca/products/remidi-4"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/11756-reMIDI-4"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/11756-reMIDI-4?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

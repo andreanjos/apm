@@ -2,13 +2,14 @@ slug = "limitone"
 name = "LimitOne"
 vendor = "Leapwing Audio"
 version = "1.0.0"
-description = ""
+description = "Spectral limiter and clipper that preserves transient detail while achieving competitive loudness."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://leapwingaudio.com/product/limitone/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/13298-LimitOne"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/13298-LimitOne?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

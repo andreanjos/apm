@@ -2,11 +2,12 @@ slug = "radical-bundle-3"
 name = "Radical Bundle 3"
 vendor = "Soundradix"
 version = "1.0.0"
-description = ""
+description = "Bundle of five Sound Radix studio plugins: Auto-Align, SurferEQ, Pi, Drum Leveler, and POWAIR."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.soundradix.com/products/radical-bundle/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "stringache"
 name = "Stringache"
 vendor = "Silence And Other Sounds"
 version = "1.0.0"
-description = ""
+description = "Cinematic Kontakt string library with dark, expressive textures for media scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://silenceandothersounds.com/products/"
 is_paid = true
 
 [formats.vst3]

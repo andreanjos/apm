@@ -2,10 +2,11 @@ slug = "the-sauce"
 name = "The Sauce"
 vendor = "DJ Swivel"
 version = "1.0.0"
-description = ""
+description = "All-in-one vocal transformation plugin with essential creative processing ingredients."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://swivel-audio.com/the-sauce"
 is_paid = true
 
 [formats.vst3]

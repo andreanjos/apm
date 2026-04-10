@@ -2,10 +2,11 @@ slug = "life-xo-bundle-exclusive"
 name = "Life & XO Bundle (Exclusive)"
 vendor = "XLN Audio"
 version = "1.0.0"
-description = ""
+description = "Exclusive bundle combining XLN Audio's Life beat-maker and XO drum sample explorer instruments."
 category = "instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.xlnaudio.com/products"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "4u-goniometer-korrelator"
 name = "4U Goniometer Korrelator"
 vendor = "HOFA Plugins"
 version = "1.0.0"
-description = ""
+description = "Free goniometer and correlation meter plugin for stereo field monitoring and analysis."
 category = "tools"
 subcategory = "metering"
 license = "commercial"
 tags = []
+homepage = "https://hofa-plugins.de/en/freeware-en/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/5044-4U-Goniometer-Korrelator"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/5044-4U-Goniometer-Korrelator?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

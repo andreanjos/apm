@@ -2,11 +2,12 @@ slug = "shreddage-3-legacy"
 name = "Shreddage 3 Legacy"
 vendor = "Impact Soundworks"
 version = "1.0.0"
-description = ""
+description = "Kontakt drop-Bb tuned 6-string electric guitar built for heavy metal chugs and aggressive rhythm parts."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://impactsoundworks.com/product/shreddage-3-legacy/"
 is_paid = true
 
 [formats.vst3]

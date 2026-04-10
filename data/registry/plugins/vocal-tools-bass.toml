@@ -2,11 +2,12 @@ slug = "vocal-tools-bass"
 name = "Vocal Tools Bass"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Bass soloist Kontakt library with sustained and chromatic vocal movements for deep vocal lines."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/vocal-tools-bass/"
 is_paid = true
 
 [formats.vst3]

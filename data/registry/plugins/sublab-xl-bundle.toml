@@ -2,11 +2,12 @@ slug = "sublab-xl-bundle"
 name = "SubLab XL+ Bundle"
 vendor = "Future Audio Workshop"
 version = "1.0.0"
-description = ""
+description = "SubLab XL+ bundle combining the expanded sub-bass synth with additional sound packs."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://futureaudioworkshop.com/product/sublab-xl/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "polivox"
 name = "Polivox"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Kontakt library faithfully sampled from a Soviet Polivoks synthesizer (1982–1990) with 845 samples."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

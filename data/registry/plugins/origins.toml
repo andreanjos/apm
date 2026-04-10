@@ -2,11 +2,12 @@ slug = "origins"
 name = "Origins"
 vendor = "Rast Sound"
 version = "1.0.0"
-description = ""
+description = "Rare acoustic world grooves Kontakt library with authentic rhythms from diverse global cultures."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/origins/"
 is_paid = true
 
 [formats.vst3]

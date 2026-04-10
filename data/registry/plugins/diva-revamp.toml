@@ -2,11 +2,12 @@ slug = "diva-revamp"
 name = "Diva Revamp"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Female operatic soprano Kontakt library remastered with extended range and advanced scripting."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/diva-revamp/"
 is_paid = true
 
 [formats.vst3]

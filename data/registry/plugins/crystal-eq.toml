@@ -2,13 +2,14 @@ slug = "crystal-eq"
 name = "Crystal EQ"
 vendor = "Singomakers"
 version = "1.0.0"
-description = ""
+description = "Crystal-clear EQ plugin for precise frequency shaping and tonal sculpting."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "http://www.singomakers.net/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/5867-Crystal-EQ"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/5867-Crystal-EQ?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

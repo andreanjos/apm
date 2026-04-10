@@ -2,11 +2,12 @@ slug = "lofi-playtime"
 name = "LoFi Playtime"
 vendor = "Yum Audio"
 version = "1.0.0"
-description = ""
+description = "Tape deck pitch effect plugin emulating two decks at different playback speeds for lo-fi pitch shifts."
 category = "effects"
 subcategory = "lo-fi"
 license = "commercial"
 tags = []
+homepage = "https://www.yum-audio.com/"
 is_paid = true
 
 [formats.vst3]

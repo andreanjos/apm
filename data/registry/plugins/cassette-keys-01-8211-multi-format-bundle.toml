@@ -1,13 +1,13 @@
 slug = "cassette-keys-01-8211-multi-format-bundle"
 name = "Cassette Keys.01 &#8211; Multi-Format Bundle"
 vendor = "THEPHONOLOOP"
-version = "1.0.0"
-description = ""
+version = "1.1"
+description = "Multi-format bundle of Cassette Keys.01 — a lo-fi FM/physical modelling keyboard instrument recorded on cassette."
 category = "instruments"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://thephonoloop.com/products/cassette-keys-01"
 
 [formats.vst3]
 url = ""

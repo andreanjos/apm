@@ -1,12 +1,13 @@
 slug = "addictive-keys-trio-bundle"
 name = "Addictive Keys: Trio Bundle"
 vendor = "XLN Audio"
-version = "1.0.0"
-description = ""
+version = "1.7.3"
+description = "Bundle of three Addictive Keys instruments covering a wide range of keyboard and piano styles."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.xlnaudio.com/products/addictive_keys"
 is_paid = true
 
 [formats.vst3]

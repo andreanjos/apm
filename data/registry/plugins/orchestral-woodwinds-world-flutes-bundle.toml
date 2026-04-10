@@ -2,11 +2,12 @@ slug = "orchestral-woodwinds-world-flutes-bundle"
 name = "Orchestral Woodwinds & World Flutes Bundle"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Dronar Orchestral Woodwinds and World Flutes Kontakt modules."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/collections/all"
 is_paid = true
 
 [formats.vst3]

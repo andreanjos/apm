@@ -2,13 +2,14 @@ slug = "pnch"
 name = "PNCH"
 vendor = "UnplugRed"
 version = "1.0.0"
-description = ""
+description = "Free transient punch gate for tightening and enhancing drum and percussive hits."
 category = "effects"
 subcategory = "gate"
 license = "commercial"
 tags = []
+homepage = "https://vst.unplug.red/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/16544-PNCH"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/16544-PNCH?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

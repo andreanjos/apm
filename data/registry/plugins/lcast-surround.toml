@@ -2,13 +2,14 @@ slug = "lcast-surround"
 name = "LCAST Surround"
 vendor = "MeterPlugs"
 version = "1.0.0"
-description = ""
+description = "Surround broadcast loudness meter with CSV export and multi-channel peak measurement."
 category = "tools"
 subcategory = "metering"
 license = "commercial"
 tags = []
+homepage = "https://www.meterplugs.com/lcast"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/1380-LCAST-Surround"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/1380-LCAST-Surround?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

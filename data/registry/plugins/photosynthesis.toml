@@ -2,11 +2,12 @@ slug = "photosynthesis"
 name = "Photosynthesis"
 vendor = "Audio Imperia"
 version = "1.0.0"
-description = ""
+description = "Kontakt Player instrument with ambient soundscapes, pads, growling basses, and bowed metals."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.audioimperia.com/product/photosynthesis/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "vacs2"
 name = "VACS2"
 vendor = "Noizefield"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Virtual analog synthesizer by Noizefield with classic subtractive synthesis architecture."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.noizefield.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1565-VACS2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1565-VACS2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

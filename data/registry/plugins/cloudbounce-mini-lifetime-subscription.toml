@@ -2,11 +2,12 @@ slug = "cloudbounce-mini-lifetime-subscription"
 name = "Cloudbounce – Mini – Lifetime Subscription"
 vendor = "CloudBounce"
 version = "1.0.0"
-description = ""
+description = "Entry-level lifetime subscription to CloudBounce giving permanent access to AI-powered track mastering."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://cloudbounce.com/"
 is_paid = true
 
 [formats.vst3]

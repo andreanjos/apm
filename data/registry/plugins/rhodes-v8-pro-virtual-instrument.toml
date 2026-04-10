@@ -2,13 +2,14 @@ slug = "rhodes-v8-pro-virtual-instrument"
 name = "Rhodes V8 Pro Virtual Instrument"
 vendor = "Rhodes"
 version = "1.0.0"
-description = ""
+description = "Pro edition of the hyper-realistic Rhodes MK8 electric piano virtual instrument."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://rhodesmusic.com/rhodes-v8-plugin/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10331-Rhodes-V8-Pro-Virtual-Instrument"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10331-Rhodes-V8-Pro-Virtual-Instrument?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

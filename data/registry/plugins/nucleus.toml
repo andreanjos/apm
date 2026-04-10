@@ -2,11 +2,12 @@ slug = "nucleus"
 name = "Nucleus"
 vendor = "Audio Imperia"
 version = "1.0.0"
-description = ""
+description = "Entry-level full orchestral library for Kontakt Player covering all major sections."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.audioimperia.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "toybreaker-collection"
 name = "Toybreaker Collection"
 vendor = "Icebreaker Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt recreations of three 1980s toy keyboards including Casio VL-Tone and Yamaha PortaSound."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://icebreaker-audio.com/"
 is_paid = true
 
 [formats.vst3]

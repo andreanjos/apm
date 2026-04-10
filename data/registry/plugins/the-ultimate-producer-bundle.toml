@@ -2,11 +2,12 @@ slug = "the-ultimate-producer-bundle"
 name = "The Ultimate Producer Bundle"
 vendor = "Stagecraft"
 version = "1.0.0"
-description = ""
+description = "Comprehensive bundle of all Stagecraft Software instruments and effects for full music production."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/"
 is_paid = true
 
 [formats.vst3]

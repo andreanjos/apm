@@ -2,11 +2,12 @@ slug = "fuse-compressor-2-free-sample-packs"
 name = "Fuse Compressor + 2 FREE Sample Packs"
 vendor = "Minimal Audio"
 version = "1.0.0"
-description = ""
+description = "Transparent and musical compressor plugin bundled with two free sample packs."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.minimal.audio/products/fuse-compressor"
 is_paid = true
 
 [formats.vst3]

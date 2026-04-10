@@ -1,12 +1,13 @@
 slug = "interplanetary"
 name = "Interplanetary"
 vendor = "unEarthed Sampling"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Cinematic Kontakt instrument from unEarthed Sampling featuring otherworldly synthesized and processed textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.unearthedsampling.com/"
 is_paid = true
 
 [formats.vst3]

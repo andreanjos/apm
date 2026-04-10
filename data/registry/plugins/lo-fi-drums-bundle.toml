@@ -2,11 +2,12 @@ slug = "lo-fi-drums-bundle"
 name = "Lo-Fi Drums Bundle"
 vendor = "Excite Audio"
 version = "1.0.0"
-description = ""
+description = "Exclusive bundle pairing Lifeline Console with lo-fi drum samples for vintage beat production."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.excite-audio.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "audio-plugin-union-colorfx-suite"
 name = "Audio Plugin Union colorFX Suite"
 vendor = "MAGIX"
 version = "1.0.0"
-description = ""
+description = "Suite of color and saturation effect plugins for adding tonal character to tracks and masters."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.magix.com/int/music/audio-plugin-union/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "808-fusion"
 name = "808 Fusion"
 vendor = "Electronik Sound Lab"
 version = "1.0.0"
-description = ""
+description = "Expansion pack of 50 sounds designed specifically for the 808 Bass Module 5 instrument."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://electroniksoundlab.com/808-fusion/"
 is_paid = true
 
 [formats.vst3]

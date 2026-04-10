@@ -1,14 +1,15 @@
 slug = "gsat"
 name = "GSat"
 vendor = "TBProAudio"
-version = "1.0.0"
-description = ""
+version = "1.3.10"
+description = "Free saturation plugin with VU meters, clip protection, and an analog-sounding algorithm."
 category = "effects"
 subcategory = "saturation"
 license = "commercial"
 tags = []
+homepage = "https://www.tbproaudio.de/products/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/15889-GSat-"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/15889-GSat-?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

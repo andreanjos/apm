@@ -1,12 +1,13 @@
 slug = "ezkeys-retro-electrics"
 name = "EZKeys Retro Electrics"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.1.5"
+description = "EZkeys expansion capturing vintage electric piano and keyboard tones from classic retro instruments."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/retro-electrics-ekx/"
 is_paid = true
 
 [formats.vst3]

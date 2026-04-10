@@ -1,14 +1,15 @@
 slug = "transformer-x"
 name = "Transformer X"
 vendor = "Three Body Technology"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Vintage transformer color box emulation adding warmth, body, and low-end girth via APNN 2.0."
 category = "effects"
 subcategory = "saturation"
 license = "commercial"
 tags = []
+homepage = "https://www.threebodytech.com/en/products/deepvintage"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/14719-Transformer-X"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/14719-Transformer-X?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "elevate-newfangled-audio"
 name = "Elevate"
 vendor = "Newfangled Audio"
 version = "1.0.0"
-description = ""
+description = "Adaptive 26-band mastering limiter that independently controls gain, speed, and transients per band."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.newfangledaudio.com/elevate"
 is_paid = true
 
 [formats.vst3]

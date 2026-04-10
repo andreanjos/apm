@@ -1,12 +1,13 @@
 slug = "eminence"
 name = "EMINENCE"
 vendor = "AVA Music Group"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Epic orchestral Kontakt library by AVA Music Group delivering powerful cinematic brass."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.avamusicgroup.com/"
 is_paid = true
 
 [formats.vst3]

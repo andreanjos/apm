@@ -2,11 +2,12 @@ slug = "aliasonix"
 name = "Aliasonix"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument emulating early soft synthesizer sounds from 30-year-old home computer demoscene technology."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

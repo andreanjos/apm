@@ -1,11 +1,12 @@
 slug = "auto-tune-pro"
 name = "Auto-Tune Pro"
 vendor = "Antares"
-version = "1.0.0"
-description = ""
+version = "11.0"
+description = "Industry-standard pitch correction plugin with Auto Mode, Graph Mode and 4-part harmony."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.antarestech.com/products/auto-tune/pro"
 is_paid = true
 
 [formats.vst3]

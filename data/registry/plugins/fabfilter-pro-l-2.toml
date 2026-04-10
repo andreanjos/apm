@@ -1,14 +1,15 @@
 slug = "fabfilter-pro-l-2"
 name = "FabFilter Pro L 2"
 vendor = "FabFilter"
-version = "1.0.0"
-description = ""
+version = "2.25"
+description = "True peak mastering limiter with eight limiting algorithms, audition clipping, and ISP detection."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/3955-FabFilter-Pro-L-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/3955-FabFilter-Pro-L-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

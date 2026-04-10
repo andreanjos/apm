@@ -2,10 +2,11 @@ slug = "dynamic-eq"
 name = "Dynamic Eq"
 vendor = "Initial Audio"
 version = "1.0.0"
-description = ""
+description = "Dynamic EQ plugin for frequency-specific gain reduction and boosting that responds to audio."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://initialaudio.com/product/dynamic-eq/"
 is_paid = true
 
 [formats.vst3]

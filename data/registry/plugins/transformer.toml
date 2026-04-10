@@ -2,13 +2,14 @@ slug = "transformer"
 name = "Transformer"
 vendor = "Digital Brain Instruments"
 version = "1.0.0"
-description = ""
+description = "Creative audio morphing and editing tool for redesigning and transforming sound libraries."
 category = "tools"
 subcategory = "audio editor"
 license = "commercial"
 tags = []
+homepage = "https://www.digitalbrain-instruments.com/transformer"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/5052-Transformer"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/5052-Transformer?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

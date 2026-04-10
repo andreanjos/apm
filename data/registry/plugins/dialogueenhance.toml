@@ -2,10 +2,11 @@ slug = "dialogueenhance"
 name = "DialogueEnhance"
 vendor = "Accentize"
 version = "1.0.0"
-description = ""
+description = "Intelligent speech processing plugin with noise reduction, auto EQ, dynamic recovery, and volume modules."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.accentize.com/"
 is_paid = true
 
 [formats.vst3]

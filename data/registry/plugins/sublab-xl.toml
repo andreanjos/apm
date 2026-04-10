@@ -1,12 +1,13 @@
 slug = "sublab-xl"
 name = "SubLab XL"
 vendor = "Future Audio Workshop"
-version = "1.0.0"
-description = ""
+version = "1.0.1"
+description = "Expanded sub-bass synthesizer with more FX, modulation, macros, and 100+ new presets."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://futureaudioworkshop.com/product/sublab-xl/"
 is_paid = true
 
 [formats.vst3]

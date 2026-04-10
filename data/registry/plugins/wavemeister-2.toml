@@ -1,12 +1,13 @@
 slug = "wavemeister-2"
 name = "Wavemeister 2"
 vendor = "Soundtrax"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Two-oscillator wavetable synthesizer for Kontakt with deep modulation and sound design options."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundtrax-kontakt.bandcamp.com/"
 is_paid = true
 
 [formats.vst3]

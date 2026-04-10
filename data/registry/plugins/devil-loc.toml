@@ -1,12 +1,13 @@
 slug = "devil-loc"
 name = "Devil-Loc"
 vendor = "Soundtoys"
-version = "1.0.0"
-description = ""
+version = "5.5"
+description = "Simplified version of the Devil-Loc extreme compressor based on the Shure Level-Loc hardware."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.soundtoys.com/product/devil-loc/"
 is_paid = true
 
 [formats.vst3]

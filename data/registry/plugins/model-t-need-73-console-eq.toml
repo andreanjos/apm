@@ -2,11 +2,12 @@ slug = "model-t-need-73-console-eq"
 name = "Model T + Need 73 Console EQ"
 vendor = "NoiseAsh"
 version = "1.0.0"
-description = ""
+description = "Bundle combining the Model T tube preamp and NEED 73 British console EQ plugins."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/model-t-need-73-console-eq/"
 is_paid = true
 
 [formats.vst3]

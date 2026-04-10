@@ -2,13 +2,13 @@ slug = "apollo-cinematic-guitars-bundle"
 name = "Apollo: Cinematic Guitars Bundle"
 vendor = "Vir2"
 version = "1.0.0"
-description = ""
+description = "Cinematic guitar Kontakt bundle capturing ambient, processed, and sound-designed guitar textures."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.vir2.com/instruments/"
 
 [formats.vst3]
 url = ""

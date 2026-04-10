@@ -1,12 +1,13 @@
 slug = "boom-bap"
 name = "Boom-Bap"
 vendor = "Noise Art"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Hip-hop style drum machine plugin by Noise Art for classic boom-bap beat production."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://noiseartplugins.com/"
 is_paid = true
 
 [formats.vst3]

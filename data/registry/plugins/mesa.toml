@@ -1,14 +1,15 @@
 slug = "mesa"
 name = "Mesa"
 vendor = "Venomode"
-version = "1.0.0"
-description = ""
+version = "1"
+description = "Multi-mode clipper plugin with soft, hard, and curve clipping for mastering and mixing."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://venomode.com/plugins"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/16307-Mesa"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/16307-Mesa?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

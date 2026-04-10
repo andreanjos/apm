@@ -2,11 +2,12 @@ slug = "strings-boutique"
 name = "Strings Boutique"
 vendor = "Rast Sound"
 version = "1.0.0"
-description = ""
+description = "Dual-layer hybrid string engine Kontakt library blending organic recordings with electronic textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/strings-boutique/"
 is_paid = true
 
 [formats.vst3]

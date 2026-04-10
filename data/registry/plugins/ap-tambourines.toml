@@ -2,11 +2,12 @@ slug = "ap-tambourines"
 name = "AP Tambourines"
 vendor = "Audio Perception Music"
 version = "1.0.0"
-description = ""
+description = "Kontakt tambourine library with five distinct tonalities, each based on real performance recordings."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://audioperceptionmusic.com/sounds/"
 is_paid = true
 
 [formats.vst3]

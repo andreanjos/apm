@@ -2,13 +2,14 @@ slug = "mpc-expansion-glitterball"
 name = "MPC Expansion Glitterball"
 vendor = "AKAI"
 version = "1.0.0"
-description = ""
+description = "MPC expansion with authentic disco rhythms and instruments inspired by Nile Rodgers/Chic."
 category = "instruments"
 subcategory = "expansion packs"
 license = "commercial"
 tags = []
+homepage = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/11220-MPC-Expansion-Glitterball"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/11220-MPC-Expansion-Glitterball?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

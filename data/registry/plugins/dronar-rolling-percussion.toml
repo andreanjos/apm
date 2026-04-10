@@ -2,11 +2,12 @@ slug = "dronar-rolling-percussion"
 name = "Dronar Rolling Percussion"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt drone instrument turning percussion recordings into rhythmic cinematic textures and pads."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/dronar-rolling-percussion"
 is_paid = true
 
 [formats.vst3]

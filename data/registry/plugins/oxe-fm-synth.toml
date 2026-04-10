@@ -1,14 +1,15 @@
 slug = "oxe-fm-synth"
 name = "Oxe FM Synth"
 vendor = "Oxe"
-version = "1.0.0"
-description = ""
+version = "1.3.5"
+description = "Oxe FM Synth is a free open-source 8-operator FM synthesizer for Windows, Mac, and Linux."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://oxesoft.wordpress.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/375-Oxe-FM-Synth"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/375-Oxe-FM-Synth?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

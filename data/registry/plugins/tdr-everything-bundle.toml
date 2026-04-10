@@ -2,11 +2,12 @@ slug = "tdr-everything-bundle"
 name = "TDR Everything Bundle"
 vendor = "Tokyo Dawn Labs"
 version = "1.0.0"
-description = ""
+description = "Complete bundle of all Tokyo Dawn Labs paid plugins for mixing and mastering at a discounted price."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.tokyodawn.net/tdr-everything-bundle/"
 is_paid = true
 
 [formats.vst3]

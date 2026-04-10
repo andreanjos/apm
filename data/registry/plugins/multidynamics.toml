@@ -1,12 +1,13 @@
 slug = "multidynamics"
 name = "MultiDynamics"
 vendor = "Wave Arts"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Multiband dynamics processor combining compression, expansion, and limiting across up to six frequency bands."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://wavearts.com/products/"
 is_paid = true
 
 [formats.vst3]

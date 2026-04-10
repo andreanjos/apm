@@ -1,12 +1,13 @@
 slug = "vibraphone"
 name = "Vibraphone"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "1.6"
+description = "Kontakt Musser M-55 Pro vibraphone library with two stick types, 180+ rhythmic phrases, and vibrato control."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/vibraphone/"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "yggdras"
 name = "YGGDRAS"
 vendor = "Robert Ianni Music"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Extended range guitar Kontakt instrument by Robert Ianni Music with heavy metal articulations."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.robertiannimusic.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "devil-loc-deluxe"
 name = "Devil Loc Deluxe"
 vendor = "Soundtoys"
-version = "1.0.0"
-description = ""
+version = "5.5"
+description = "Extreme compressor/limiter plugin inspired by the Shure Level-Loc for punishing dynamic control."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.soundtoys.com/product/devil-loc-deluxe/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/1803-Devil-Loc-Deluxe"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/1803-Devil-Loc-Deluxe?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

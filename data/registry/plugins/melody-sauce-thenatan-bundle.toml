@@ -2,11 +2,12 @@ slug = "melody-sauce-thenatan-bundle"
 name = "Melody Sauce & Thenatan Bundle"
 vendor = "EVAbeat"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Melody Sauce melody generator with Thenatan's creative plugin tools."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.evabeat.com/"
 is_paid = true
 
 [formats.vst3]

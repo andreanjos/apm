@@ -2,13 +2,14 @@ slug = "enigma"
 name = "Enigma"
 vendor = "Muze"
 version = "1.0.0"
-description = ""
+description = "Innovative cinematic Kontakt instrument designed to inspire film composers with new sonic possibilities."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://www.muze.shop/en/index.php?route=product/product&product_id=67"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10103-Enigma"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10103-Enigma?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

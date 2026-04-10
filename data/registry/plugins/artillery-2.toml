@@ -1,11 +1,12 @@
 slug = "artillery-2"
 name = "Artillery 2"
 vendor = "Sugar Bytes"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Creative multi-effect plugin playable like a keyboard with 28 effects assigned across keyboard zones."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://sugar-bytes.de/artillery2"
 is_paid = true
 
 [formats.vst3]

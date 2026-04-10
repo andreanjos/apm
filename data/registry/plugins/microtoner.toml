@@ -1,14 +1,15 @@
 slug = "microtoner"
 name = "MicroToner"
 vendor = "TAQS IM"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Microtonal MIDI utility plugin by TAQS.IM for exploring and playing alternative tuning systems."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://taqs.im/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16574-MicroToner"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16574-MicroToner?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

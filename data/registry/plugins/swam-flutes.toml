@@ -1,12 +1,13 @@
 slug = "swam-flutes"
 name = "SWAM Flutes"
 vendor = "Audio Modeling"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Bundle of four physically modeled flutes — flute, alto, bass, and piccolo — with breath-controlled dynamics."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://audiomodeling.com/swam-engine/solo-woodwinds/swam-flutes/"
 is_paid = true
 
 [formats.vst3]

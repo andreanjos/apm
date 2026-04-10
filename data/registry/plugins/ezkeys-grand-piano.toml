@@ -1,12 +1,13 @@
 slug = "ezkeys-grand-piano"
 name = "EZKeys Grand Piano"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.1.5"
+description = "EZkeys expansion delivering a classic grand piano sound with chord and song creation tools."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/grand-piano-ekx/"
 is_paid = true
 
 [formats.vst3]

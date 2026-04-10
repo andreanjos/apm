@@ -2,11 +2,12 @@ slug = "paravox-x"
 name = "Paravox X"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Ambient vocal design Kontakt library with evolving pads, sustained phrases, and atmospheric textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/paravox-x/"
 is_paid = true
 
 [formats.vst3]

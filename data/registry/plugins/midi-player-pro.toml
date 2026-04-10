@@ -2,13 +2,14 @@ slug = "midi-player-pro"
 name = "Midi Player Pro"
 vendor = "Digital Brain Instruments"
 version = "1.0.0"
-description = ""
+description = "Standalone MIDI file player utility with advanced playback and routing controls."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.digitalbrain-instruments.com/midiplayerpro"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/14709-Midi-Player-Pro"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/14709-Midi-Player-Pro?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

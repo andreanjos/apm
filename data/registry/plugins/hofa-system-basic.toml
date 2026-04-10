@@ -2,13 +2,14 @@ slug = "hofa-system-basic"
 name = "HOFA System Basic"
 vendor = "HOFA Plugins"
 version = "1.0.0"
-description = ""
+description = "Free modular channel strip with 30 flexible routing modules for mixing and effects processing."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://hofa-plugins.de/en/hofa-system-plugin-bundle-free/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/5490-HOFA-System-Basic"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/5490-HOFA-System-Basic?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

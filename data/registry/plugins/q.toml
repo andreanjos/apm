@@ -2,13 +2,14 @@ slug = "q"
 name = "Q"
 vendor = "Vir2 Instruments"
 version = "1.0.0"
-description = ""
+description = "Massive sound design and scoring Kontakt library with 2,000 patches and 16 GB of content."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://www.vir2.com/instruments/q/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8591-Q"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8591-Q?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

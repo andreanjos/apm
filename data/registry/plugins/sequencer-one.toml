@@ -2,11 +2,12 @@ slug = "sequencer-one"
 name = "Sequencer One"
 vendor = "Soundtrax"
 version = "1.0.0"
-description = ""
+description = "Kontakt sequencer instrument combining step-sequenced playback with flexible sound design."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundtrax-kontakt.bandcamp.com/"
 is_paid = true
 
 [formats.vst3]

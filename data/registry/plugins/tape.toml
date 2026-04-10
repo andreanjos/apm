@@ -2,10 +2,11 @@ slug = "tape"
 name = "Tape"
 vendor = "DUY"
 version = "1.0.0"
-description = ""
+description = "Physical-modeling analog tape simulator emulating four classic tape recorder machines."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://duy.com/"
 is_paid = true
 
 [formats.vst3]

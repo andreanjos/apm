@@ -1,14 +1,15 @@
 slug = "unchirp"
 name = "UNCHIRP"
 vendor = "Zynaptiq"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Codec artifact removal plugin for eliminating chirp artifacts from lossy audio encoding."
 category = "effects"
 subcategory = "transient shaper"
 license = "commercial"
 tags = []
+homepage = "https://www.zynaptiq.com/unchirp/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/2703-UNCHIRP"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/2703-UNCHIRP?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

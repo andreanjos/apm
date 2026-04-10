@@ -1,12 +1,13 @@
 slug = "basscomputer8"
 name = "Basscomputer8"
 vendor = "Synth Kiiwi"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "8-voice bass synthesizer plugin by Synth Kiiwi for deep and punchy bass sound design."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.synthkiiwi.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "varazuvi-bongos"
 name = "Varazuvi Bongos"
 vendor = "Varazuvi"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bongo drum synthesizer plugin by Varazuvi with authentic Afro-Latin percussion sounds."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://varazuvi.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/694-Varazuvi-Bongos"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/694-Varazuvi-Bongos?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

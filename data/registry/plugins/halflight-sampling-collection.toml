@@ -2,11 +2,12 @@ slug = "halflight-sampling-collection"
 name = "Halflight Sampling Collection"
 vendor = "Beautiful Void Audio"
 version = "1.0.0"
-description = ""
+description = "Massive Kontakt collection of 19 sound design libraries from Halflight Sampling with 37 patches and 7 multis."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.beautifulvoidaudio.com/"
 is_paid = true
 
 [formats.vst3]

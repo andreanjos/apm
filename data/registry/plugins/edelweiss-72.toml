@@ -1,14 +1,15 @@
 slug = "edelweiss-72"
 name = "Edelweiss 72"
 vendor = "Black Rooster Audio"
-version = "1.0.0"
-description = ""
+version = "3.0.0"
+description = "Vintage channel strip with expander, five-band EQ, and compressor/limiter in one plugin."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://blackroosteraudio.com/en/products/edelweiss_72"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/11390-Edelweiss-72"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/11390-Edelweiss-72?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

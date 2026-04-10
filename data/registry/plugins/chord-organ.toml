@@ -2,11 +2,12 @@ slug = "chord-organ"
 name = "Chord Organ"
 vendor = "Beautiful Void Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument built from a worn Magnus Chord Organ suited for ambient, cinematic, and vintage sounds."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.beautifulvoidaudio.com/"
 is_paid = true
 
 [formats.vst3]

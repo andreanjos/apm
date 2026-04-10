@@ -2,13 +2,14 @@ slug = "filterstation2"
 name = "Filterstation2"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Dual filter plugin with FSU mode offering serial, parallel, and stereo filter configurations."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/products/ad043-filterstation2"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/5645-Filterstation2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/5645-Filterstation2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

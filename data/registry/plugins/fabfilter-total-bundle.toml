@@ -2,13 +2,14 @@ slug = "fabfilter-total-bundle"
 name = "FabFilter Total Bundle"
 vendor = "FabFilter"
 version = "1.0.0"
-description = ""
+description = "Complete collection of all FabFilter professional mixing, mastering, and creative effect plugins."
 category = "instruments"
 subcategory = "complete collection"
 license = "commercial"
 tags = []
+homepage = "https://www.fabfilter.com/products/total-bundle"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/16649-FabFilter-Total-Bundle"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/16649-FabFilter-Total-Bundle?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

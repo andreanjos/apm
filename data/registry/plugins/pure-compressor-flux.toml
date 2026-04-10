@@ -2,11 +2,12 @@ slug = "pure-compressor-flux"
 name = "Pure Compressor"
 vendor = "Flux"
 version = "1.0.0"
-description = ""
+description = "Clean, versatile compressor ranging from transparent processing to heavy classic pumping effects."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.flux.audio/products/"
 is_paid = true
 
 [formats.vst3]

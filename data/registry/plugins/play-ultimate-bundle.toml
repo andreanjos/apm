@@ -2,11 +2,12 @@ slug = "play-ultimate-bundle"
 name = "PLAY + Ultimate Bundle"
 vendor = "Loopcloud Plugins"
 version = "1.0.0"
-description = ""
+description = "Comprehensive Loopcloud PLAY bundle with the sampler instrument and ultimate sound library."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.loopcloud.com/cloud/plugins"
 is_paid = true
 
 [formats.vst3]

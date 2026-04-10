@@ -2,13 +2,14 @@ slug = "ratshack-reverb-3"
 name = "Ratshack Reverb 3"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Detailed emulation of the Realistic Electronic Reverb spring/analog delay unit with vintage quirks."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/products/ad047-ratshack-reverb-3"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/8851-Ratshack-Reverb-3"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/8851-Ratshack-Reverb-3?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

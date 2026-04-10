@@ -2,11 +2,12 @@ slug = "chefs-menu"
 name = "Chef’s Menu"
 vendor = "Yum Audio"
 version = "1.0.0"
-description = ""
+description = "Yum Audio mid-tier bundle with 10 lo-fi and stereo effect plugins for creative audio processing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.yum-audio.com/"
 is_paid = true
 
 [formats.vst3]

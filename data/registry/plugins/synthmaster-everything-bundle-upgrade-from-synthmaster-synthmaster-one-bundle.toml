@@ -2,11 +2,12 @@ slug = "synthmaster-everything-bundle-upgrade-from-synthmaster-synthmaster-one-b
 name = "SynthMaster Everything Bundle Upgrade from SynthMaster + SynthMaster One Bundle"
 vendor = "KV331 Audio"
 version = "1.0.0"
-description = ""
+description = "Upgrade to the SynthMaster Everything Bundle from the SynthMaster + SynthMaster One combo bundle."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.kv331audio.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "quake"
 name = "Quake"
 vendor = "Fallout Music"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument for creating downers, booms, and whoosh effects for trailer music production."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://falloutmusicgroup.com/products/quake"
 is_paid = true
 
 [formats.vst3]

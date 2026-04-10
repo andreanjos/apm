@@ -1,12 +1,13 @@
 slug = "ezmix-2-lite"
 name = "EZmix 2 Lite"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.2.0"
+description = "Streamlined version of EZmix 2 offering a curated set of one-knob mixing and mastering chain presets."
 category = "effects"
 subcategory = "mixing"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/ezmix-2/"
 is_paid = true
 
 [formats.vst3]

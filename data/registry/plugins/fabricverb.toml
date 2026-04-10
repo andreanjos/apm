@@ -1,11 +1,12 @@
 slug = "fabricverb"
 name = "Fabricverb"
 vendor = "Vegas Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Fabric-inspired reverb plugin by Vegas Audio with unique textured spatial effects."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://vegasaudio.com/"
 is_paid = true
 
 [formats.vst3]

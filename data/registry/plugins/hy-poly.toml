@@ -2,13 +2,14 @@ slug = "hy-poly"
 name = "HY POLY"
 vendor = "HY Plugins"
 version = "1.0.0"
-description = ""
+description = "Polyphonic synthesizer plugin with expressive controls for pads and melodic content."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://hy-plugins.com/product/hy-poly/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7929-HY-POLY"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7929-HY-POLY?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

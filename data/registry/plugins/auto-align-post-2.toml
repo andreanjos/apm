@@ -1,11 +1,12 @@
 slug = "auto-align-post-2"
 name = "Auto-Align Post 2"
 vendor = "Soundradix"
-version = "1.0.0"
-description = ""
+version = "2.3.3"
+description = "Adaptive time-alignment plugin that corrects phase issues in location microphones for post-production."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.soundradix.com/products/auto-align-post/"
 is_paid = true
 
 [formats.vst3]

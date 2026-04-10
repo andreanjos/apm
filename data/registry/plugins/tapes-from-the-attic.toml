@@ -2,11 +2,12 @@ slug = "tapes-from-the-attic"
 name = "Tapes From The Attic"
 vendor = "Beautiful Void Audio"
 version = "1.0.0"
-description = ""
+description = "Omnisphere 2 preset library drawing on tape-warped, lo-fi sounds for atmospheric and cinematic production."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.beautifulvoidaudio.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "church-pipe-organ"
 name = "Church Pipe Organ"
 vendor = "Aria Sounds"
 version = "1.0.0"
-description = ""
+description = "Magnificent church pipe organ Kontakt library with pullable stops and combination tuti selections."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://ariasounds.com/product/church-pipe-organ/"
 is_paid = true
 
 [formats.vst3]

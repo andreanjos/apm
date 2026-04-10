@@ -1,12 +1,13 @@
 slug = "thrillme"
 name = "ThrillMe"
 vendor = "DiscoDSP"
-version = "1.0.0"
-description = ""
+version = "3.1"
+description = "Four-band multiband compressor with internal 16x oversampling and adaptive crossover filtering."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.discodsp.com/thrillme/"
 is_paid = true
 
 [formats.vst3]

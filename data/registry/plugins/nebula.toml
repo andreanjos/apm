@@ -1,11 +1,12 @@
 slug = "nebula"
 name = "Nebula"
 vendor = "SoundSpot"
-version = "1.0.0"
-description = ""
+version = "1.0.2"
+description = "Modulation multi-effects plugin from SoundSpot for rich chorusing, phasing, and movement."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

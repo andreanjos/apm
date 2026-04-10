@@ -2,10 +2,11 @@ slug = "convex"
 name = "Convex"
 vendor = "Glitchmachines"
 version = "1.0.0"
-description = ""
+description = "Multi-effects processor combining multimode filter, pitch shifter, and delay for contorted artifacts."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://glitchmachines.com/"
 is_paid = true
 
 [formats.vst3]

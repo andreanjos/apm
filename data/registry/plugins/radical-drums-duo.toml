@@ -2,11 +2,12 @@ slug = "radical-drums-duo"
 name = "Radical Drums Duo"
 vendor = "Soundradix"
 version = "1.0.0"
-description = ""
+description = "Bundle of Auto-Align 2 and Drum Leveler for professional drum recording and mixing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.soundradix.com/products/radical-drums-duo/"
 is_paid = true
 
 [formats.vst3]

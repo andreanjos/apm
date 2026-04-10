@@ -1,11 +1,12 @@
 slug = "reverb-kilohearts"
 name = "Reverb"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Algorithmic reverb Snapin delivering smooth, lush room and hall sounds with simple controls."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/reverb"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "dj-swivel-mix-templates"
 name = "DJ Swivel Mix Templates"
 vendor = "DJ Swivel"
 version = "1.0.0"
-description = ""
+description = "Professional mix session templates from Grammy-winning producer/engineer DJ Swivel."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://swivel-audio.com/all-plugins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/6807-DJ-Swivel-Mix-Templates"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/6807-DJ-Swivel-Mix-Templates?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

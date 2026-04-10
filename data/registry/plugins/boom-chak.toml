@@ -2,13 +2,14 @@ slug = "boom-chak"
 name = "Boom Chak"
 vendor = "Loot Audio"
 version = "1.0.0"
-description = ""
+description = "Classic analog-style percussion synth Kontakt instrument with six drum sounds and programmable sequencer."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/soundtrax/boom-chak"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9518-Boom-Chak"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9518-Boom-Chak?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

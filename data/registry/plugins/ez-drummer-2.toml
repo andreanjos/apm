@@ -1,12 +1,13 @@
 slug = "ez-drummer-2"
 name = "EZ DRUMMER 2"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.2.3"
+description = "Virtual drum instrument with a vast sound library and song and groove browser for realistic acoustic drum tracks."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/ezdrummer-2/"
 is_paid = true
 
 [formats.vst3]

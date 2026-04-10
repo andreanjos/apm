@@ -1,12 +1,13 @@
 slug = "polykb-iii-ii"
 name = "PolyKB III & II"
 vendor = "XILS Lab"
-version = "1.0.0"
-description = ""
+version = "3.6.4"
+description = "Bundle of PolyKB III virtual analog synthesizer plus the previous-generation PolyKB II in a single license."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.xils-lab.com/store/polykb/"
 is_paid = true
 
 [formats.vst3]

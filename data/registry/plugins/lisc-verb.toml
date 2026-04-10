@@ -1,14 +1,15 @@
 slug = "lisc-verb"
 name = "Lisc Verb"
 vendor = "Saltline"
-version = "1.0.0"
-description = ""
+version = "1.0.5"
+description = "Free reverb plugin with a simple, musical character suited to ambient and creative use."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/developer/saltline"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/741-Lisc-Verb"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/741-Lisc-Verb?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

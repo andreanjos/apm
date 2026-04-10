@@ -1,14 +1,15 @@
 slug = "fabfilter-one"
 name = "FabFilter One"
 vendor = "FabFilter"
-version = "1.0.0"
-description = ""
+version = "3.51"
+description = "Simple synthesizer with an aliasing-free oscillator, ultra-smooth analog-style filter, and 10-voice polyphony."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.fabfilter.com/products/one-synthesizer-plug-in"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/929-FabFilter-One"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/929-FabFilter-One?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

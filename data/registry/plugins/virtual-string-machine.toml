@@ -1,12 +1,13 @@
 slug = "virtual-string-machine"
 name = "Virtual String Machine"
 vendor = "GForce Software"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Virtual string machine synthesizer capturing the lush, warm ensemble pad sounds of classic hardware."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.gforcesoftware.com/product/vsm/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "squash"
 name = "Squash"
 vendor = "Minimal Audio"
 version = "1.0.0"
-description = ""
+description = "Free OTT-style multi-band upward and downward compressor for dense, modern sound design."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.minimal.audio/products/squash"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14398-Squash"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14398-Squash?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

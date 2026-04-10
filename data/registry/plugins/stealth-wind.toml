@@ -1,12 +1,13 @@
 slug = "stealth-wind"
 name = "Stealth Wind"
 vendor = "unEarthed Sampling"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Ethnic wind instrument Kontakt library from unEarthed Sampling for subtle and stealth cinematic cues."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.unearthedsampling.com/"
 is_paid = true
 
 [formats.vst3]

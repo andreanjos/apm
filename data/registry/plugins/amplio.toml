@@ -1,14 +1,15 @@
 slug = "amplio"
 name = "Amplio"
 vendor = "VSTZone"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Multi-effect plugin by VSTZone combining amplification, filtering, and modulation."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://vstzone.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/2953-Amplio"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/2953-Amplio?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "sanjo-gayageum"
 name = "Sanjo Gayageum"
 vendor = "Icebreaker Audio"
 version = "1.0.0"
-description = ""
+description = "Multi-sampled Kontakt recreation of the traditional Korean 12-string Sanjo Gayageum instrument."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://icebreaker-audio.com/"
 is_paid = true
 
 [formats.vst3]

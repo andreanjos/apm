@@ -2,11 +2,12 @@ slug = "silence"
 name = "Silence"
 vendor = "DUY"
 version = "1.0.0"
-description = ""
+description = "Noise reduction plugin for quickly removing background noise or taking granular control over it."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://duy.com/"
 is_paid = true
 
 [formats.vst3]

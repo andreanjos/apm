@@ -2,11 +2,12 @@ slug = "gothic-sister"
 name = "Gothic Sister"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Dark operatic soprano Kontakt library designed for cinematic and gothic vocal textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/gothic-sister/"
 is_paid = true
 
 [formats.vst3]

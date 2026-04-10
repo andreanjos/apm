@@ -1,14 +1,15 @@
 slug = "varazuvi-indian-flute"
 name = "Varazuvi Indian Flute"
 vendor = "Varazuvi"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Indian bansuri flute synthesizer plugin by Varazuvi with expressive articulation control."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://varazuvi.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/693-Varazuvi-Indian-Flute"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/693-Varazuvi-Indian-Flute?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

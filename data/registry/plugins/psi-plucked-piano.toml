@@ -2,11 +2,12 @@ slug = "psi-plucked-piano"
 name = "PSI Plucked Piano"
 vendor = "Paper Stone Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt piano library capturing plucked string techniques for a uniquely textured keyboard sound."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
 is_paid = true
 
 [formats.vst3]

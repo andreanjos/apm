@@ -2,11 +2,12 @@ slug = "shreddage-3-jupiter"
 name = "Shreddage 3 Jupiter"
 vendor = "Impact Soundworks"
 version = "1.0.0"
-description = ""
+description = "Kontakt ultra-heavy drop-A 7-string electric guitar instrument tuned for dark, heavy rock and metal riffs."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://impactsoundworks.com/product/shreddage-3-jupiter/"
 is_paid = true
 
 [formats.vst3]

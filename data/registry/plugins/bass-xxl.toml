@@ -1,14 +1,15 @@
 slug = "bass-xxl"
 name = "Bass XXL"
 vendor = "Denise Audio"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Bass enhancer that generates harmonics above the root frequency for thick, consistent low end."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://www.deniseaudio.com/plugins/bass-xxl"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/11763-Bass-XXL"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/11763-Bass-XXL?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

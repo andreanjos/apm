@@ -1,12 +1,13 @@
 slug = "pure-compressor"
 name = "Pure Compressor"
 vendor = "Flux Audio"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Flux Audio Pure Compressor delivers transparent and precise dynamic control for mixing."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://fluxhome.com/product/pure-compressor/"
 is_paid = true
 
 [formats.vst3]

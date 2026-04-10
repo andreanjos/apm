@@ -1,14 +1,15 @@
 slug = "x-stream"
 name = "X Stream"
 vendor = "Steinberg"
-version = "1.0.0"
-description = ""
+version = "1"
+description = "Free monophonic spectral synthesizer for HALion with unique spectral sound design capabilities."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.steinberg.net/vst-instruments/x-stream/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/14149-X-Stream"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/14149-X-Stream?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

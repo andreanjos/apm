@@ -1,14 +1,14 @@
 slug = "maximal-2"
 name = "Maximal 2"
 vendor = "Venomode"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Loudness maximizer plugin offering transparent limiting and loudness metering."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://venomode.com/plugins"
 
 [formats.vst3]
 url = ""

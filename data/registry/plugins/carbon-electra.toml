@@ -2,11 +2,12 @@ slug = "carbon-electra"
 name = "Carbon Electra"
 vendor = "Plugin Boutique"
 version = "1.0.0"
-description = ""
+description = "Four-oscillator subtractive synthesizer designed as an accessible yet powerful learning tool."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/7-Plugin-Boutique"
 is_paid = true
 
 [formats.vst3]

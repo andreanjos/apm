@@ -2,11 +2,12 @@ slug = "diamond-jazz-orchestra"
 name = "Diamond Jazz Orchestra"
 vendor = "Strezov Sampling"
 version = "1.0.0"
-description = ""
+description = "Full jazz orchestra Kontakt library with polyphonic true legato and Velocity Dynamic Influencer."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.strezov-sampling.com/products/view/Diamond-jazz-orchestra.html"
 is_paid = true
 
 [formats.vst3]

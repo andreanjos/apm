@@ -2,13 +2,14 @@ slug = "cobra-fuzz"
 name = "Cobra Fuzz"
 vendor = "Safari Audio"
 version = "1.0.0"
-description = ""
+description = "Vintage fuzz distortion plugin delivering venomous, classic fuzz pedal tones."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://safariaudio.com/products/cobra-fuzz"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/15357-Cobra-Fuzz"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/15357-Cobra-Fuzz?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

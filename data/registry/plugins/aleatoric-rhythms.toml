@@ -2,11 +2,12 @@ slug = "aleatoric-rhythms"
 name = "Aleatoric Rhythms"
 vendor = "Ergo Kukke"
 version = "1.0.0"
-description = ""
+description = "Kontakt rhythm instrument with 200 samples ranging from bass riffs to ambient percussion loops."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.bestservice.com/en/aleatoric_rhythms.html"
 is_paid = true
 
 [formats.vst3]

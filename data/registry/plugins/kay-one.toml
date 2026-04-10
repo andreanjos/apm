@@ -2,11 +2,12 @@ slug = "kay-one"
 name = "KAY-ONE"
 vendor = "Sampletrip"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of carefully sampled Kawai synthesizer sounds with expressive playability."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/kay-one-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "oliver-codd-12-string"
 name = "Oliver Codd 12 String"
 vendor = "Audio Ollie"
 version = "1.0.0"
-description = ""
+description = "Experimental 12-string Kontakt instrument with all strings tuned in unison for ensemble richness."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.audioollie.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "cloud-chorus"
 name = "Cloud Chorus"
 vendor = "Signalsmith Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Signalsmith Audio Cloud Chorus offers rich, natural chorus with floating grain-based modulation."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://signalsmith-audio.co.uk/code/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/8735-Cloud-Chorus"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/8735-Cloud-Chorus?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

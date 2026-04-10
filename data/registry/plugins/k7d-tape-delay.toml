@@ -1,14 +1,15 @@
 slug = "k7d-tape-delay"
 name = "K7D Tape Delay"
 vendor = "Imaginando"
-version = "1.0.0"
-description = ""
+version = "1.4.4"
+description = "Tape delay effect plugin combining warm analog delay character with creative modulation."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.imaginando.pt/products/k7d-tape-delay"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/9050-K7D-Tape-Delay"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/9050-K7D-Tape-Delay?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

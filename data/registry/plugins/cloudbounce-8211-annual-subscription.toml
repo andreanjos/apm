@@ -2,13 +2,13 @@ slug = "cloudbounce-8211-annual-subscription"
 name = "Cloudbounce &#8211; Annual Subscription"
 vendor = "CloudBounce"
 version = "1.0.0"
-description = ""
+description = "Annual subscription to CloudBounce offering unlimited AI-mastered tracks in all available audio formats."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://cloudbounce.com/"
 
 [formats.vst3]
 url = ""

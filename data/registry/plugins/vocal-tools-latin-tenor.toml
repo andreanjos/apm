@@ -2,11 +2,12 @@ slug = "vocal-tools-latin-tenor"
 name = "Vocal Tools Latin Tenor"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Latin tenor soloist Kontakt library with expressive vocal phrases and sustained articulations."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/vocal-tools-latin-tenor/"
 is_paid = true
 
 [formats.vst3]

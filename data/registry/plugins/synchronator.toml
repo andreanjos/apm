@@ -1,14 +1,15 @@
 slug = "synchronator"
 name = "SynchroNator"
 vendor = "Klangmanipulation"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Synthesizer plugin by Klangmanipulation with sync modulation and harmonic generation."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://klangmanipulation.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/352-SynchroNator"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/352-SynchroNator?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

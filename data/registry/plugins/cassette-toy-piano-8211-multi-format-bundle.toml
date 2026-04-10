@@ -2,13 +2,13 @@ slug = "cassette-toy-piano-8211-multi-format-bundle"
 name = "Cassette Toy Piano &#8211; Multi-Format Bundle"
 vendor = "THEPHONOLOOP"
 version = "1.0.0"
-description = ""
+description = "Multi-format bundle of five toy piano variations recorded through cassette, spring reverb, and granular synthesis."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://thephonoloop.com/products/cassette-toy-piano"
 
 [formats.vst3]
 url = ""

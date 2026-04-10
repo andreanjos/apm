@@ -2,13 +2,14 @@ slug = "flux-pro"
 name = "Flux Pro"
 vendor = "Caelum Audio"
 version = "1.0.0"
-description = ""
+description = "Multi-FX modulation plugin that transforms sounds into colorful, characterful, and dynamic tracks."
 category = "effects"
 subcategory = "modulator"
 license = "commercial"
 tags = []
+homepage = "https://www.caelum-audio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/9051-Flux-Pro"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/9051-Flux-Pro?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

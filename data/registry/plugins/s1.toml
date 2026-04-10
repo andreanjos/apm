@@ -1,11 +1,12 @@
 slug = "s1"
 name = "S1"
 vendor = "Soundspear"
-version = "1.0.0"
-description = ""
+version = "1.0.2"
+description = "Stereo dynamics mastering rack with VCA detection, imaging algorithms, and subtle compression."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://soundspear.com/product/s1"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "sweet-spot"
 name = "Sweet Spot"
 vendor = "infinit essentials"
 version = "1.0.0"
-description = ""
+description = "Modern Pop/R&B VSTi with 66 presets and a unique Sweet effect knob for instant inspiration."
 category = "instruments"
 subcategory = "multi instrument"
 license = "commercial"
 tags = []
+homepage = "https://infinit-essentials.com/products/sweet-spot-vsti"
 is_paid = true
 
 [formats.vst3]

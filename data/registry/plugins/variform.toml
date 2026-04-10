@@ -1,12 +1,13 @@
 slug = "variform"
 name = "Variform"
 vendor = "Soundspear"
-version = "1.0.0"
-description = ""
+version = "1.0.1"
+description = "Cutting-edge distortion plugin offering advanced waveshaping and harmonic saturation."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://soundspear.com/product/variform"
 is_paid = true
 
 [formats.vst3]

@@ -1,13 +1,13 @@
 slug = "infiltrator-1"
 name = "Infiltrator 1"
 vendor = "Devious Machines"
-version = "1.0.0"
-description = ""
+version = "1"
+description = "Multi-effects sequencer plugin with 24 effect modules and deep modulation routing."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://deviousmachines.com/product/infiltrator/"
 
 [formats.vst3]
 url = ""

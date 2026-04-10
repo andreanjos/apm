@@ -1,11 +1,12 @@
 slug = "effect-rack-5"
 name = "Effect Rack 5"
 vendor = "Soundtoys"
-version = "1.0.0"
-description = ""
+version = "5.5"
+description = "Creative multi-effects rack featuring 14 essential Soundtoys effects in one integrated plugin."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.soundtoys.com/product/soundtoys-5/"
 is_paid = true
 
 [formats.vst3]

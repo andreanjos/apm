@@ -2,11 +2,12 @@ slug = "gensis-pads-in-motion"
 name = "Gensis – Pads in Motion"
 vendor = "Sample Logic"
 version = "1.0.0"
-description = ""
+description = "Advanced pad instrument for Kontakt that streamlines silky-smooth pad creation with motion."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.samplelogic.com/products/genesis-pads-in-motion/"
 is_paid = true
 
 [formats.vst3]

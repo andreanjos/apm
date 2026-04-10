@@ -1,12 +1,13 @@
 slug = "distortion"
 name = "Distortion"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Distortion Snapin offering multiple clipping modes for harmonic saturation and overdrive."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/distortion"
 is_paid = true
 
 [formats.vst3]

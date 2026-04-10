@@ -2,11 +2,12 @@ slug = "audio-blast-bundle"
 name = "Audio Blast Bundle"
 vendor = "Audio Blast"
 version = "1.0.0"
-description = ""
+description = "Complete bundle of all Audio Blast instruments and effects plugins."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.audioblast.me/product/complete-bundle/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "audio-imperia-collection-2"
 name = "Audio Imperia Collection 2"
 vendor = "Audio Imperia"
 version = "1.0.0"
-description = ""
+description = "Bundle of Audio Imperia cinematic Kontakt Player virtual instruments."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.audioimperia.com/collections/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "l-w"
 name = "L W"
 vendor = "BEATSURFING"
 version = "1.0.0"
-description = ""
+description = "Low-end synth instrument designed for bass-heavy electronic music production."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://beatsurfing.com/audio-plugins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16473-L-W"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16473-L-W?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "felt-54"
 name = "Felt 54"
 vendor = "Hoss Audio"
 version = "1.0.0"
-description = ""
+description = "Intimate felt piano Kontakt library sampled from a modified felt upright Yamaha U3 (1975)."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.hadihosri.com/h%C3%96ss-audio"
 is_paid = true
 
 [formats.vst3]

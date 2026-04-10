@@ -2,11 +2,12 @@ slug = "discodsp-bundle"
 name = "discoDSP Bundle"
 vendor = "DiscoDSP"
 version = "1.0.0"
-description = ""
+description = "Bundle of discoDSP synthesizers and effects including Discovery Pro, OB-Xd, and more."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.discodsp.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "od-deedger"
 name = "OD DeEdger"
 vendor = "Tokyo Dawn Labs"
-version = "1.0.0"
-description = ""
+version = "1.3.4"
+description = "Threshold-free plugin that transparently smooths and reduces hardness in audio signals."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.tokyodawn.net/od-deedger/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/4659-OD-DeEdger"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/4659-OD-DeEdger?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

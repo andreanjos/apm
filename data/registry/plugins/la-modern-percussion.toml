@@ -2,11 +2,12 @@ slug = "la-modern-percussion"
 name = "LA Modern Percussion"
 vendor = "Audio Ollie"
 version = "1.0.0"
-description = ""
+description = "Modern orchestral percussion library recorded at Warner Bros Eastwood Stage in Los Angeles."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.audioollie.com/la-modern-percussion"
 is_paid = true
 
 [formats.vst3]

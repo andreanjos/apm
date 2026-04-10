@@ -2,11 +2,12 @@ slug = "lifeline-console-upgrade-from-lite"
 name = "Lifeline Console Upgrade from Lite"
 vendor = "Excite Audio"
 version = "1.0.0"
-description = ""
+description = "Upgrade path from Lifeline Console Lite to the full Lifeline Console analog channel strip."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
+homepage = "https://www.excite-audio.com/lifeline-modules"
 is_paid = true
 
 [formats.vst3]

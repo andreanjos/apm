@@ -1,12 +1,13 @@
 slug = "firefly"
 name = "FireFly"
 vendor = "SoundSpot"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bus compressor plugin from SoundSpot for glue and cohesion on mix buses."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

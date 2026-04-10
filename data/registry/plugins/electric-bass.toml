@@ -1,14 +1,15 @@
 slug = "electric-bass"
 name = "Electric Bass"
 vendor = "Steinberg"
-version = "1.0.0"
-description = ""
+version = "1"
+description = "HALion-powered electric bass instrument with seven articulations including fingerstyle, slap, and muted."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.steinberg.net/vst-instruments/electric-bass/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15180-Electric-Bass"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15180-Electric-Bass?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

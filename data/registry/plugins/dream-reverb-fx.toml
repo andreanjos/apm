@@ -1,11 +1,12 @@
 slug = "dream-reverb-fx"
 name = "Dream Reverb FX"
 vendor = "Dream Audio Lab"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Dream Audio Lab Dream Reverb FX is a creative reverb plugin for atmospheric and lush spaces."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://dreamaudiolab.com/"
 is_paid = true
 
 [formats.vst3]

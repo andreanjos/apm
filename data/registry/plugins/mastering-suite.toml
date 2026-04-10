@@ -1,12 +1,13 @@
 slug = "mastering-suite"
 name = "Mastering Suite"
 vendor = "Acon Digital"
-version = "1.0.0"
-description = ""
+version = "1.5.2"
+description = "Six-plugin mastering suite including dynamics, EQ, limiter, reverb, and dither for professional signal transparency."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://acondigital.com/products/mastering-suite"
 is_paid = true
 
 [formats.vst3]

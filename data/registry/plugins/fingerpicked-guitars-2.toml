@@ -1,12 +1,13 @@
 slug = "fingerpicked-guitars-2"
 name = "Fingerpicked Guitars 2"
 vendor = "Marcos Ciscar"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Studio-grade Kontakt fingerstyle acoustic guitar library with natural nuance and articulations."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.marcosciscar.com"
 is_paid = true
 
 [formats.vst3]

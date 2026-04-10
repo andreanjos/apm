@@ -2,12 +2,12 @@ slug = "effectrix"
 name = "Effectrix"
 vendor = "Sugar Bytes"
 version = "1.0.0"
-description = ""
+description = "Professional multi-effect sequencer with 14 expressive tools for rhythmic audio manipulation."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://sugar-bytes.de/effectrix"
 
 [formats.vst3]
 url = ""

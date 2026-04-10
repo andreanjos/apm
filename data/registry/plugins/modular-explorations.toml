@@ -2,11 +2,12 @@ slug = "modular-explorations"
 name = "Modular Explorations"
 vendor = "Sonora Cinematic"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of modular synthesizer-derived textures and experimental soundscapes."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/modular-explorations-by-sonora-cinematic"
 is_paid = true
 
 [formats.vst3]

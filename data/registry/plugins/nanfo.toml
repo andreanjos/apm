@@ -2,11 +2,12 @@ slug = "nanfo"
 name = "Nanfo"
 vendor = "Karoryfer Samples"
 version = "1.0.0"
-description = ""
+description = "West African instrument collection recorded in Ghana including koras, seperewas, xylophones, and flutes."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://shop.karoryfer.com/products/nanfo"
 is_paid = true
 
 [formats.vst3]

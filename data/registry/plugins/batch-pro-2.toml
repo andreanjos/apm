@@ -1,14 +1,15 @@
 slug = "batch-pro-2"
 name = "Batch Pro 2"
 vendor = "Digital Brain Instruments"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Batch audio processing utility for applying DSP operations to multiple files at once."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.digitalbrain-instruments.com/batchpro"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/8742-Batch-Pro-2"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/8742-Batch-Pro-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

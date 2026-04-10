@@ -2,13 +2,14 @@ slug = "pitch-monster"
 name = "Pitch Monster"
 vendor = "Devious Machines"
 version = "1.0.0"
-description = ""
+description = "Pitch shifter and vocoder effects plugin for creating extreme pitch and harmony transformations."
 category = "effects"
 subcategory = "pitch shifter"
 license = "commercial"
 tags = []
+homepage = "https://deviousmachines.com/shop/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/5744-Pitch-Monster"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/5744-Pitch-Monster?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

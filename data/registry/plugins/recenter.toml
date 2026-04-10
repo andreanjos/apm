@@ -1,14 +1,15 @@
 slug = "recenter"
 name = "RECENTER"
 vendor = "Boom"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Stereo center repair plugin that automatically corrects off-center stereo recordings while preserving width."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://www.boomlibrary.com/sound-effects/recenter/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/7980-RECENTER"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/7980-RECENTER?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

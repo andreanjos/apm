@@ -2,11 +2,12 @@ slug = "dearvr-pro"
 name = "dearVR PRO"
 vendor = "Dear Reality"
 version = "1.0.0"
-description = ""
+description = "Professional immersive audio panning plugin supporting binaural, Ambisonics, and surround formats."
 category = "effects"
 subcategory = "mixing"
 license = "commercial"
 tags = []
+homepage = "https://www.dear-reality.com/collections/all"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "magic-stereo"
 name = "Magic Stereo"
 vendor = "Singomakers"
 version = "1.0.0"
-description = ""
+description = "Stereo widening plugin for expanding and enhancing the stereo image of any signal."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "http://www.singomakers.net/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/2169-Magic-Stereo"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/2169-Magic-Stereo?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

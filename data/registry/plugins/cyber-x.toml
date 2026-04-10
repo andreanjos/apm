@@ -2,11 +2,12 @@ slug = "cyber-x"
 name = "Cyber X"
 vendor = "Rast Sound"
 version = "1.0.0"
-description = ""
+description = "Cinematic electronic keyboard Kontakt instrument blending organic and synthetic textures."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/cyber-x/"
 is_paid = true
 
 [formats.vst3]

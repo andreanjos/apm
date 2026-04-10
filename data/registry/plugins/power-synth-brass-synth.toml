@@ -2,11 +2,12 @@ slug = "power-synth-brass-synth"
 name = "Power Synth Brass Synth"
 vendor = "Q Up Arts"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of brass synth sounds from curated analog, digital, and vintage synthesizers."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.quparts.com/products/power-synth-keyboards"
 is_paid = true
 
 [formats.vst3]

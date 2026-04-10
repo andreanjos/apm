@@ -2,11 +2,12 @@ slug = "eternity-church-organ"
 name = "Eternity Church Organ"
 vendor = "Marcos Ciscar"
 version = "1.0.0"
-description = ""
+description = "Kontakt church organ library with 14 original stops and 10 curated combination patches."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.marcosciscar.com"
 is_paid = true
 
 [formats.vst3]

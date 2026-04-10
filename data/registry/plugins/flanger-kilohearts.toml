@@ -1,14 +1,14 @@
 slug = "flanger-kilohearts"
 name = "Flanger"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Flanger Snapin that produces classic jet and whoosh modulation effects via comb filtering."
 category = "effects"
 subcategory = "flanger"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://kilohearts.com/products/flanger"
 
 [formats.vst3]
 url = ""

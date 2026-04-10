@@ -2,11 +2,12 @@ slug = "bayan"
 name = "Bayan"
 vendor = "Psound"
 version = "1.0.0"
-description = ""
+description = "UVI-based virtual bayan instrument sampled from a Bugari Bayan Prime chromatic button accordion."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.psound.it/bayan.html"
 is_paid = true
 
 [formats.vst3]

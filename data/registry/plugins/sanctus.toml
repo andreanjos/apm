@@ -2,11 +2,12 @@ slug = "sanctus"
 name = "Sanctus"
 vendor = "Capsule Audio"
 version = "1.0.0"
-description = ""
+description = "Capsule 24-voice male and female choir with sung syllables, sustains, and staccato articulations."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.capsule.audio/"
 is_paid = true
 
 [formats.vst3]

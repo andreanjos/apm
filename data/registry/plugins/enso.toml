@@ -2,13 +2,14 @@ slug = "enso"
 name = "Enso"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Loop-based multi-effect processor combining looping, granular playback, and creative audio manipulation."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/products/ad049-enso"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/5132-Enso"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/5132-Enso?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

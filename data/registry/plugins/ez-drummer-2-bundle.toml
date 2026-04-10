@@ -1,12 +1,13 @@
 slug = "ez-drummer-2-bundle"
 name = "EZ Drummer 2 Bundle"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.2.3"
+description = "EZdrummer 2 bundle combining the drum instrument with expansion content for realistic acoustic drum production."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/ezdrummer-2/"
 is_paid = true
 
 [formats.vst3]

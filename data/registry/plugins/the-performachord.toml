@@ -2,11 +2,12 @@ slug = "the-performachord"
 name = "The Performachord"
 vendor = "Bad Cat Samples"
 version = "1.0.0"
-description = ""
+description = "Playable Kontakt keyboard instrument designed for expressive chord performance."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://bad-cat-media-group.myshopify.com/collections/kontakt-virtual-instruments"
 is_paid = true
 
 [formats.vst3]

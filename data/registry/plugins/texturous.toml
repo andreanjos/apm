@@ -2,11 +2,12 @@ slug = "texturous"
 name = "Texturous"
 vendor = "Sketch Sampling"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of rich textural pads and evolving sound design layers."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sketchsampling.ru/texturous/"
 is_paid = true
 
 [formats.vst3]

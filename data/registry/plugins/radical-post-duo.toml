@@ -2,11 +2,12 @@ slug = "radical-post-duo"
 name = "Radical Post Duo"
 vendor = "Soundradix"
 version = "1.0.0"
-description = ""
+description = "Bundle of Auto-Align Post 2 and POWAIR for post-production dialogue alignment and dynamics."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.soundradix.com/products/radical-post-duo/"
 is_paid = true
 
 [formats.vst3]

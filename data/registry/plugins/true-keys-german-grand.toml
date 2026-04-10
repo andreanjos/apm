@@ -2,11 +2,12 @@ slug = "true-keys-german-grand"
 name = "True Keys German Grand"
 vendor = "ViLabs"
 version = "1.0.0"
-description = ""
+description = "Deeply sampled German concert grand piano virtual instrument for the UVI player."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.vilabsaudio.com/truekeyspianos"
 is_paid = true
 
 [formats.vst3]

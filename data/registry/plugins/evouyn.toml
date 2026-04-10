@@ -2,13 +2,14 @@ slug = "evouyn"
 name = "Evouyn"
 vendor = "Noisebud"
 version = "1.0.0"
-description = ""
+description = "Free metering plugin that measures low-end frequency correlation for mix and mastering decisions."
 category = "tools"
 subcategory = "metering"
 license = "commercial"
 tags = []
+homepage = "https://www.noisebud.se/vst-plugins/evouyn/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/1509-Evouyn"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/1509-Evouyn?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

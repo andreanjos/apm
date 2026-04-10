@@ -1,14 +1,15 @@
 slug = "crystallizer"
 name = "Crystallizer"
 vendor = "Soundtoys"
-version = "1.0.0"
-description = ""
+version = "5.5"
+description = "Granular pitch-shifting echo synthesizer based on the Eventide H3000 Reverse Shift algorithm."
 category = "effects"
 subcategory = "echo"
 license = "commercial"
 tags = []
+homepage = "https://www.soundtoys.com/product/crystallizer/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/1799-Crystallizer"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/1799-Crystallizer?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

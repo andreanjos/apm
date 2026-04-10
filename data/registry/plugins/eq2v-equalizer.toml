@@ -1,14 +1,15 @@
 slug = "eq2v-equalizer"
 name = "EQ2V Equalizer"
 vendor = "Mellowmuse"
-version = "1.0.0"
-description = ""
+version = "3.2.0"
+description = "Vintage-style parametric equalizer plugin with warm analogue character and musical curves."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.mellowmuse.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/6692-EQ2V-Equalizer"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/6692-EQ2V-Equalizer?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

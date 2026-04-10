@@ -1,14 +1,15 @@
 slug = "nasty-channel"
 name = "Nasty Channel"
 vendor = "Imperial Dust"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Imperial Dust Nasty Channel is a channel strip for adding grit, saturation, and noise layers."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://imperialdust.com/products/nasty-channel"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/13525-Nasty-Channel"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/13525-Nasty-Channel?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

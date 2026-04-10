@@ -2,11 +2,12 @@ slug = "beefowulf-bass"
 name = "Beefowulf Bass"
 vendor = "Karoryfer Samples"
 version = "1.0.0"
-description = ""
+description = "Virtual bass guitar sampled from a jazz-style Killer Simmony with flatwound strings tuned in fifths."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://shop.karoryfer.com/products/beefowulf-bass"
 is_paid = true
 
 [formats.vst3]

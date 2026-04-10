@@ -1,12 +1,13 @@
 slug = "discovery"
 name = "Discovery"
 vendor = "DiscoDSP"
-version = "1.0.0"
-description = ""
+version = "6.4"
+description = "Nord Lead 2-inspired virtual analog synthesizer with 8 oscillators and zero-delay feedback filters."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.discodsp.com/discovery/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "wave-shifter"
 name = "Wave Shifter"
 vendor = "Minimal Audio"
 version = "1.0.0"
-description = ""
+description = "Warped frequency modulator combining frequency shifting and ring modulation with oscillator-style controls."
 category = "effects"
 subcategory = "frequency shifter"
 license = "commercial"
 tags = []
+homepage = "https://www.minimal.audio/products/wave-shifter"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/28-Frequency-Shifter/14370-Wave-Shifter"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/28-Frequency-Shifter/14370-Wave-Shifter?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

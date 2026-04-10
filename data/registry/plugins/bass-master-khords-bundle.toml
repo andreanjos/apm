@@ -2,11 +2,12 @@ slug = "bass-master-khords-bundle"
 name = "Bass Master & KHORDS Bundle"
 vendor = "Loopmasters Plugins"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Bass Master synth engine and KHORDS chord instrument for bass and harmony."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/product/81-Bundles/58-Instrument-Bundles/6698-Bass-Master-KHORDS-Bundle"
 is_paid = true
 
 [formats.vst3]

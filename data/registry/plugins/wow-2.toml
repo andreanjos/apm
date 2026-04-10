@@ -1,14 +1,15 @@
 slug = "wow-2"
 name = "WOW 2"
 vendor = "Sugar Bytes"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Creative multi-mode filter plugin with warm, juicy character and expressive filter modulation."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://sugar-bytes.de/wow2"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/690-WOW-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/690-WOW-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

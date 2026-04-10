@@ -1,12 +1,13 @@
 slug = "alpha-compressor"
 name = "alpha compressor"
 vendor = "elysia"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "elysia alpha compressor plugin emulates the high-end Class A hardware mastering compressor."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://elysia.com/alpha-compressor/"
 is_paid = true
 
 [formats.vst3]

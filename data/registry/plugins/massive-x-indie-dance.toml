@@ -2,13 +2,14 @@ slug = "massive-x-indie-dance"
 name = "Massive X Indie Dance"
 vendor = "LP24 Audio"
 version = "1.0.0"
-description = ""
+description = "Indie dance preset pack for Native Instruments Massive X synthesizer."
 category = "instruments"
 subcategory = "synth presets"
 license = "commercial"
 tags = []
+homepage = "https://lp24audio.com/shop/software-presets"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/7241-Massive-X-Indie-Dance"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/7241-Massive-X-Indie-Dance?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

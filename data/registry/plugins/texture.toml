@@ -2,10 +2,11 @@ slug = "texture"
 name = "Texture"
 vendor = "Devious Machines"
 version = "1.0.0"
-description = ""
+description = "Sound layering effect plugin that adds noise, character, or completely transforms any signal."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://deviousmachines.com/product/texture/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "palm-mute-piano"
 name = "Palm Mute Piano"
 vendor = "Paper Stone Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt grand piano library recorded with finger dampening in three articulations for unique tones."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
 is_paid = true
 
 [formats.vst3]

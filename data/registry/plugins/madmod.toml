@@ -2,10 +2,11 @@ slug = "madmod"
 name = "MadMod"
 vendor = "Stagecraft"
 version = "1.0.0"
-description = ""
+description = "Multi-effect plugin combining delay, bit crusher, and ring modulator for creative sound design."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/madmod/"
 is_paid = true
 
 [formats.vst3]

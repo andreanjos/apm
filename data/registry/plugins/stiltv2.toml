@@ -1,14 +1,15 @@
 slug = "stiltv2"
 name = "sTiltV2"
 vendor = "TBProAudio"
-version = "1.0.0"
-description = ""
+version = "2.3.12"
+description = "Free tilt EQ plugin with linear phase, natural phase, and IIR filter modes."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.tbproaudio.de/products/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/15890-sTiltV2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/15890-sTiltV2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

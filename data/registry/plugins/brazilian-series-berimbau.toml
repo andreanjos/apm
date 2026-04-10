@@ -1,12 +1,13 @@
 slug = "brazilian-series-berimbau"
 name = "Brazilian Series: Berimbau"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Kontakt instrument capturing Gunga, Médio, and Viola Berimbau types with 203 samples."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/brazilian-series-berimbau/"
 is_paid = true
 
 [formats.vst3]

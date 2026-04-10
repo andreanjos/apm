@@ -2,11 +2,12 @@ slug = "liminal-reeds"
 name = "Liminal: Reeds"
 vendor = "Crocus Soundware"
 version = "1.0.0"
-description = ""
+description = "Intimate clarinet, oboe, English horn, and bassoon Kontakt library with expressive evolving articulations."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.crocussoundware.com/"
 is_paid = true
 
 [formats.vst3]

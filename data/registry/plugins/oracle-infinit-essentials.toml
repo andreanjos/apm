@@ -2,13 +2,13 @@ slug = "oracle-infinit-essentials"
 name = "Oracle"
 vendor = "infinit essentials"
 version = "1.0.0"
-description = ""
+description = "Trap virtual instrument with 34 unique instruments, 88 presets, and a built-in texture knob."
 category = "instruments"
 subcategory = "multi instrument"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://infinit-essentials.com/products/oracle-multikit-plugin"
 
 [formats.vst3]
 url = ""

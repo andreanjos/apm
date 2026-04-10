@@ -1,11 +1,12 @@
 slug = "tactic"
 name = "Tactic"
 vendor = "Glitchmachines"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Phrase generator with 8 sample slots, trigger sequencer with per-step probability, and dual parameter sequencers."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://glitchmachines.com/products/tactic/"
 is_paid = true
 
 [formats.vst3]

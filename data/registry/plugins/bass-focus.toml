@@ -2,13 +2,14 @@ slug = "bass-focus"
 name = "Bass Focus"
 vendor = "Devious Machines"
 version = "1.0.0"
-description = ""
+description = "Bass enhancer plugin for adding clarity, punch, and presence to low-end frequencies."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://deviousmachines.com/product/bassfocus/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/12335-Bass-Focus"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/12335-Bass-Focus?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "catalyst"
 name = "Catalyst"
 vendor = "Aria Sounds"
 version = "1.0.0"
-description = ""
+description = "Cinematic percussion Kontakt library with powerful, dramatic hits and layers for film scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://ariasounds.com/product/catalyst/"
 is_paid = true
 
 [formats.vst3]

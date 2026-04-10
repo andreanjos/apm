@@ -2,11 +2,12 @@ slug = "ostinato-noir"
 name = "Ostinato Noir"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Noir-styled perpetual orchestra Kontakt library blending strings, woodwinds, and brass."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/instruments/ostinato-noir/"
 is_paid = true
 
 [formats.vst3]

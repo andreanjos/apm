@@ -2,13 +2,13 @@ slug = "drum-038-play-bundle"
 name = "DRUM &#038; PLAY Bundle"
 vendor = "Loopcloud Plugins"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Loopcloud DRUM and PLAY instruments for beat-making and melody creation."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.loopcloud.com/cloud/plugins"
 
 [formats.vst3]
 url = ""

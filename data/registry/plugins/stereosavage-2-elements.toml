@@ -1,11 +1,12 @@
 slug = "stereosavage-2-elements"
 name = "StereoSavage 2 Elements"
 vendor = "Plugin Boutique"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Entry-level stereo width and imaging plugin with classic and modern stereo processing tools."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/7-Plugin-Boutique"
 is_paid = true
 
 [formats.vst3]

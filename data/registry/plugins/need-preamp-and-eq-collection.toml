@@ -2,11 +2,12 @@ slug = "need-preamp-and-eq-collection"
 name = "NEED Preamp and Eq Collection"
 vendor = "NoiseAsh"
 version = "1.0.0"
-description = ""
+description = "Collection of seven Neve-inspired British preamp and EQ plugins for classic analog console tone."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/need-preamp-and-eq-collection/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "dronar-orchestral-woodwinds"
 name = "Dronar Orchestral Woodwinds"
 vendor = "Gothic Instruments"
 version = "1.0.0"
-description = ""
+description = "Kontakt module crafting evolving atmospheric pads from orchestral woodwind recordings."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/dronar-orchestral-woodwinds"
 is_paid = true
 
 [formats.vst3]

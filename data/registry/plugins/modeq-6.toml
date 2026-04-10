@@ -2,13 +2,14 @@ slug = "modeq-6"
 name = "ModEQ 6"
 vendor = "Apogee"
 version = "1.0.0"
-description = ""
+description = "Six-band precision EQ plugin with hi/lo pass filters, shelves, and peak/notch bands."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://apogeedigital.com/shop/plugins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8845-ModEQ-6"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8845-ModEQ-6?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

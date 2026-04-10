@@ -1,14 +1,15 @@
 slug = "sibelius-artist-1-year-subscription"
 name = "Sibelius Artist 1 Year Subscription"
 vendor = "Avid"
-version = "1.0.0"
-description = ""
+version = "2026.2"
+description = "One-year subscription for Sibelius Artist, Avid's entry-level professional music notation software."
 category = "tools"
 subcategory = "daw"
 license = "commercial"
 tags = []
+homepage = "https://www.avid.com/sibelius"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12161-Sibelius-Artist-1-Year-Subscription"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12161-Sibelius-Artist-1-Year-Subscription?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

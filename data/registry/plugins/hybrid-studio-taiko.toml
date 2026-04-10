@@ -2,11 +2,12 @@ slug = "hybrid-studio-taiko"
 name = "Hybrid Studio Taiko"
 vendor = "Fallout Music"
 version = "1.0.0"
-description = ""
+description = "Close, punchy taiko drum Kontakt Player library focused on modern cinematic action compositions."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://falloutmusicgroup.com/products/hybrid-studio-taiko"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,13 @@ slug = "chef8217s-appetizers"
 name = "Chef&#8217;s Appetizers"
 vendor = "Yum Audio"
 version = "1.0.0"
-description = ""
+description = "Yum Audio starter bundle including LoFi Flux Machine, Spread, and LoFi Playtime effect plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.yum-audio.com/"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "ezkeys-cinematic-grand"
 name = "EZKeys Cinematic Grand"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.1.5"
+description = "EZkeys expansion featuring a Bösendorfer grand piano recorded with bowed, plucked, harmonic and damped techniques."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/cinematic-grand-ekx/"
 is_paid = true
 
 [formats.vst3]

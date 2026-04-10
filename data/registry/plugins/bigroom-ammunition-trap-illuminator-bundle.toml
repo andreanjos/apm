@@ -2,11 +2,12 @@ slug = "bigroom-ammunition-trap-illuminator-bundle"
 name = "Bigroom Ammunition + Trap Illuminator Bundle"
 vendor = "G-Sonique"
 version = "1.0.0"
-description = ""
+description = "Bundle pairing Bigroom Ammunition EDM synth with Trap Illuminator hip-hop/trap instrument."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.g-sonique.com/shop.html"
 is_paid = true
 
 [formats.vst3]

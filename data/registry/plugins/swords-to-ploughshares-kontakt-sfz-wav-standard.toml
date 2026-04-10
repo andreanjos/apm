@@ -1,14 +1,15 @@
 slug = "swords-to-ploughshares-kontakt-sfz-wav-standard"
 name = "Swords to Ploughshares Kontakt SFZ WAV Standard"
 vendor = "Mask Movement"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Standard Kontakt SFZ and WAV instrument by Mask Movement with processed metal textures."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://maskmovement.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13372-Swords-to-Ploughshares-Kontakt-SFZ-WAV-Standard"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13372-Swords-to-Ploughshares-Kontakt-SFZ-WAV-Standard?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

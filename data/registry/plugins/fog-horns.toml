@@ -2,11 +2,12 @@ slug = "fog-horns"
 name = "Fog Horns"
 vendor = "SzcZ"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument library built from sampled fog horn sounds for atmospheric drones."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/szcz/foghorns"
 is_paid = true
 
 [formats.vst3]

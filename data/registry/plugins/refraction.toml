@@ -2,13 +2,14 @@ slug = "refraction"
 name = "Refraction"
 vendor = "Sonora Cinematic"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument based on close-mic'd felt-prepared upright piano with processing tools."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://sonoracinematic.com/products/refraction-by-sonora-cinematic"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/16580-Refraction"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/16580-Refraction?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,14 +1,15 @@
 slug = "flite-play"
 name = "Flite Play"
 vendor = "Wavea"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Free multi-sampler plugin with 2.5 GB of classic synth samples and basic playback features."
 category = "instruments"
 subcategory = "sampler"
 license = "commercial"
 tags = []
+homepage = "https://www.wavea.co/store/flite/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/13493-Flite-Play"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/13493-Flite-Play?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

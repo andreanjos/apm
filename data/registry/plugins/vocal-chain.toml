@@ -1,14 +1,15 @@
 slug = "vocal-chain"
 name = "Vocal Chain"
 vendor = "Tuned Plugins"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Complete vocal processing chain plugin by Tuned Plugins for polished vocal production."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://tunedplugins.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/13766-Vocal-Chain"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/13766-Vocal-Chain?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

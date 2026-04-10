@@ -2,11 +2,12 @@ slug = "vocal-production-bundle"
 name = "Vocal Production Bundle"
 vendor = "SoundSpot"
 version = "1.0.0"
-description = ""
+description = "SoundSpot complete bundle of tools for professional vocal production and mixing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

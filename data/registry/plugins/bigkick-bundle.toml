@@ -2,11 +2,12 @@ slug = "bigkick-bundle"
 name = "BigKick+ Bundle"
 vendor = "Plugin Boutique"
 version = "1.0.0"
-description = ""
+description = "Bundle combining BigKick kick drum synthesizer with additional content and presets."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/879-BigKick"
 is_paid = true
 
 [formats.vst3]

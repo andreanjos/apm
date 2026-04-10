@@ -1,14 +1,15 @@
 slug = "dorico-se-6"
 name = "Dorico SE 6"
 vendor = "Steinberg"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Free entry-level music notation software for beginners learning score writing and composition."
 category = "tools"
 subcategory = "daw"
 license = "commercial"
 tags = []
+homepage = "https://www.steinberg.net/dorico/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/14821-Dorico-SE-6"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/14821-Dorico-SE-6?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

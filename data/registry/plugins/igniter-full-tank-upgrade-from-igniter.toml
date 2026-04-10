@@ -2,10 +2,11 @@ slug = "igniter-full-tank-upgrade-from-igniter"
 name = "Igniter Full Tank Upgrade from Igniter"
 vendor = "Krotos Audio"
 version = "1.0.0"
-description = ""
+description = "Upgrade from Igniter to Igniter Full Tank, adding expanded vehicle sound libraries and features."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.krotosaudio.com/igniter/"
 is_paid = true
 
 [formats.vst3]

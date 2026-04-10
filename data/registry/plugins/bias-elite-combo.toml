@@ -2,11 +2,12 @@ slug = "bias-elite-combo"
 name = "BIAS Elite Combo"
 vendor = "Positive Grid"
 version = "1.0.0"
-description = ""
+description = "Elite combination bundle of Positive Grid BIAS amp simulation and effects plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.positivegrid.com/collections/bias-legacy-software"
 is_paid = true
 
 [formats.vst3]

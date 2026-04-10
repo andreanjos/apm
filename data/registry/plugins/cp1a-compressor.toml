@@ -1,14 +1,15 @@
 slug = "cp1a-compressor"
 name = "CP1A Compressor"
 vendor = "Mellowmuse"
-version = "1.0.0"
-description = ""
+version = "3.8.0"
+description = "Clean, low-distortion compressor plugin suited for subtle dynamics taming to creative shaping."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.mellowmuse.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6687-CP1A-Compressor"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6687-CP1A-Compressor?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

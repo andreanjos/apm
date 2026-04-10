@@ -2,13 +2,14 @@ slug = "tubetizer"
 name = "Tubetizer"
 vendor = "Kiive Audio"
 version = "1.0.0"
-description = ""
+description = "Tube saturation color box with three modeled circuits and built-in compression for density and character."
 category = "effects"
 subcategory = "saturation"
 license = "commercial"
 tags = []
+homepage = "https://www.kiiveaudio.com/products/tubetizer"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/14436-Tubetizer"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/14436-Tubetizer?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

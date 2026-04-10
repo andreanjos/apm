@@ -1,13 +1,13 @@
 slug = "chameleon-2"
 name = "Chameleon 2"
 vendor = "Accentize"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "AI-powered reverb matching plugin that captures real room acoustics for post-production use."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.accentize.com/product/chameleon/"
 
 [formats.vst3]
 url = ""

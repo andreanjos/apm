@@ -1,12 +1,13 @@
 slug = "discovery-pro"
 name = "Discovery Pro"
 vendor = "DiscoDSP"
-version = "1.0.0"
-description = ""
+version = "8.16"
+description = "Nord Lead-inspired virtual analog and wave synthesizer with 4 layers and 8 oscillators."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.discodsp.com/discoverypro/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "corrosion-v2"
 name = "Corrosion v2"
 vendor = "Sinevibes"
-version = "1.0.0"
-description = ""
+version = "2.0.4"
+description = "Multi-algorithm distortion plugin offering a range of saturation and degradation processing styles."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.sinevibes.com/corrosion/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/7891-Corrosion-v2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/7891-Corrosion-v2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

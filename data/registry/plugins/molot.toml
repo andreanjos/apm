@@ -1,14 +1,15 @@
 slug = "molot"
 name = "Molot"
 vendor = "VladgSound"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Free Russian-style bus compressor plugin by VladgSound with aggressive character and punch."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://vladgsound.wordpress.com/plugins/molot/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/339-Molot"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/339-Molot?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

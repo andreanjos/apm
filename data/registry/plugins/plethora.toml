@@ -2,11 +2,12 @@ slug = "plethora"
 name = "Plethora"
 vendor = "Sampletrip"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument combining vector and subtractive synthesis for rich pads and soundscapes."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/plethora-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "compu78"
 name = "Compu78"
 vendor = "Forgotten Keys"
 version = "1.0.0"
-description = ""
+description = "Kontakt library simulating the sounds and rhythms of the Roland CR-78 vintage drum machine."
 category = "instruments"
 subcategory = "electronic drums"
 license = "commercial"
 tags = []
+homepage = "https://www.forgottenkeys.co.uk/"
 is_paid = true
 
 [formats.vst3]

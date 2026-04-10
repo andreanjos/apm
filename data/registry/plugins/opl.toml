@@ -1,12 +1,13 @@
 slug = "opl"
 name = "OPL"
 vendor = "DiscoDSP"
-version = "1.0.0"
-description = ""
+version = "2.7"
+description = "Yamaha OPL2 chip emulator with 4-operator FM synthesis and over 2000 presets."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.discodsp.com/opl/"
 is_paid = true
 
 [formats.vst3]

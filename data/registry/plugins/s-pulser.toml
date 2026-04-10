@@ -1,14 +1,15 @@
 slug = "s-pulser"
 name = "S Pulser"
 vendor = "SoliderSound"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "SoliderSound S Pulser is a free mid-side tremolo plugin with square-LFO pulse control."
 category = "effects"
 subcategory = "tremolo"
 license = "commercial"
 tags = []
+homepage = "https://solidersound.com/plugins/s-pulser/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/40-Tremolo/10850-S-Pulser"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/40-Tremolo/10850-S-Pulser?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

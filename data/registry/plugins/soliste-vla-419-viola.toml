@@ -2,13 +2,14 @@ slug = "soliste-vla-419-viola"
 name = "Soliste VLA 419 Viola"
 vendor = "Expressive E"
 version = "1.0.0"
-description = ""
+description = "Physically modeled solo viola instrument designed for real-time expressive MPE and MIDI performance."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.expressivee.com/139-soliste"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15158-Soliste-VLA-419-Viola"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15158-Soliste-VLA-419-Viola?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,13 +2,14 @@ slug = "rsphaseshifter"
 name = "RSPhaseShifter"
 vendor = "MAAT"
 version = "1.0.0"
-description = ""
+description = "Digital recreation of the analog Roger Schult W2324 phase shifter hardware unit."
 category = "effects"
 subcategory = "phaser"
 license = "commercial"
 tags = []
+homepage = "https://www.maat.digital/rsphaseshifter/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/3903-RSPhaseShifter"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/3903-RSPhaseShifter?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

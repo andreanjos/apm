@@ -1,11 +1,12 @@
 slug = "voxpat-2"
 name = "Voxpat 2"
 vendor = "Digital Brain Instruments"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Standalone tool for creating monster, creature and robotic voice effects for games and film."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.digitalbrain-instruments.com/voxpat"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "oberheim-ob-x"
 name = "Oberheim OB X"
 vendor = "GForce Software"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "World's first officially endorsed emulation of the iconic Oberheim OB-X polyphonic analogue synthesizer."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.gforcesoftware.com/product/ob-x/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12021-Oberheim-OB-X"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12021-Oberheim-OB-X?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

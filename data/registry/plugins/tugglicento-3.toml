@@ -1,14 +1,15 @@
 slug = "tugglicento-3"
 name = "TugGlicento 3"
 vendor = "2Rule"
-version = "1.0.0"
-description = ""
+version = "3.0"
+description = "Multi-effect plugin by 2Rule combining modulation, filtering, and creative sound shaping."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://2rule.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9702-TugGlicento-3"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9702-TugGlicento-3?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,14 +1,15 @@
 slug = "roli-studio"
 name = "ROLI Studio"
 vendor = "ROLI"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "ROLI Studio is a software suite combining MPE synthesizers and 500+ presets for ROLI hardware."
 category = "instruments"
 subcategory = "complete collection"
 license = "commercial"
 tags = []
+homepage = "https://roli.com/us/product/roli-studio"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/6561-ROLI-Studio"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/6561-ROLI-Studio?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

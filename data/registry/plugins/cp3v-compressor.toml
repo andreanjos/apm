@@ -1,14 +1,15 @@
 slug = "cp3v-compressor"
 name = "CP3V Compressor"
 vendor = "Mellowmuse"
-version = "1.0.0"
-description = ""
+version = "2.6.0"
+description = "Third-generation vintage compressor plugin with smooth analogue-modelled gain reduction."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.mellowmuse.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6689-CP3V-Compressor"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6689-CP3V-Compressor?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

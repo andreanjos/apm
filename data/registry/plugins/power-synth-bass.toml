@@ -2,11 +2,12 @@ slug = "power-synth-bass"
 name = "Power Synth Bass"
 vendor = "Q Up Arts"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of handpicked analog, digital, and vintage synthesizer bass sounds from the Power Synth series."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.quparts.com/products/power-synth-keyboards"
 is_paid = true
 
 [formats.vst3]

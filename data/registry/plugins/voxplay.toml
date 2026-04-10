@@ -2,11 +2,12 @@ slug = "voxplay"
 name = "VoxPlay"
 vendor = "Rast Sound"
 version = "1.0.0"
-description = ""
+description = "Contemporary playable vocals Kontakt library from 20 performers for melodic and harmonic vocal lines."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/voxplay/"
 is_paid = true
 
 [formats.vst3]

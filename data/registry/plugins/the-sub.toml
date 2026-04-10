@@ -2,13 +2,14 @@ slug = "the-sub"
 name = "The Sub"
 vendor = "Iceberg Audio"
 version = "1.0.0"
-description = ""
+description = "Focused sub bass synthesizer with 50+ presets, ADSR, glide, drive, and a 14-day fully functional trial."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://icebergaudio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7240-The-Sub"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7240-The-Sub?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

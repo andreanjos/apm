@@ -1,12 +1,13 @@
 slug = "focus"
 name = "Focus"
 vendor = "SoundSpot"
-version = "1.0.0"
-description = ""
+version = "1.0.1"
+description = "Mastering-grade processing plugin from SoundSpot for polishing final mixes."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

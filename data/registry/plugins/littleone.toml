@@ -1,12 +1,13 @@
 slug = "littleone"
 name = "LittleOne"
 vendor = "Xhun Audio"
-version = "1.0.0"
-description = ""
+version = "4.x"
+description = "Analog synthesizer emulation with ACS physical modeling, 16-step sequencer, and 400+ factory presets."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.xhun-audio.com/site/xhun.php?page=littleone"
 is_paid = true
 
 [formats.vst3]

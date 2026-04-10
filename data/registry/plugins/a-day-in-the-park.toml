@@ -2,11 +2,12 @@ slug = "a-day-in-the-park"
 name = "A Day in the Park"
 vendor = "Atom Hub"
 version = "1.0.0"
-description = ""
+description = "Field-recording-based Kontakt instrument capturing the ambient sounds of a day outdoors."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://atomhub.net/Libraries.html"
 is_paid = true
 
 [formats.vst3]

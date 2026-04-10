@@ -1,14 +1,15 @@
 slug = "rc-20-retro-color"
 name = "RC 20 Retro Color"
 vendor = "XLN Audio"
-version = "1.0.0"
-description = ""
+version = "1.5.1"
+description = "Retro color effect plugin adding analogue warmth, noise, and lo-fi character to any audio track."
 category = "effects"
 subcategory = "saturation"
 license = "commercial"
 tags = []
+homepage = "https://www.xlnaudio.com/products/plugins/rc-20_retro_color"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/3016-RC-20-Retro-Color"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/3016-RC-20-Retro-Color?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

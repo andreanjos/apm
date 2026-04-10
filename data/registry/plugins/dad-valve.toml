@@ -2,10 +2,11 @@ slug = "dad-valve"
 name = "DaD Valve"
 vendor = "DUY"
 version = "1.0.0"
-description = ""
+description = "Physical-modeling tube simulator featuring triode, tetrode, and pentode valve emulation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://duy.com/"
 is_paid = true
 
 [formats.vst3]

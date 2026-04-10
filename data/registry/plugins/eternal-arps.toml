@@ -2,13 +2,14 @@ slug = "eternal-arps"
 name = "Eternal Arps"
 vendor = "Pitch Innovations"
 version = "1.0.0"
-description = ""
+description = "Arpeggiator MIDI FX that transforms input into musical, non-robotic arp patterns."
 category = "effects"
 subcategory = "midi arp"
 license = "commercial"
 tags = []
+homepage = "https://www.pitchinnovations.com/products/eternal-arps"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/14-MIDI-Arp/13924-Eternal-Arps"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/14-MIDI-Arp/13924-Eternal-Arps?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

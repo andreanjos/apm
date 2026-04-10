@@ -2,11 +2,12 @@ slug = "magiceq"
 name = "MagicEQ"
 vendor = "DUY"
 version = "1.0.0"
-description = ""
+description = "Intelligent parametric EQ plugin offering smart frequency management for fast, musical results."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://duy.com/"
 is_paid = true
 
 [formats.vst3]

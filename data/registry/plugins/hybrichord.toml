@@ -2,11 +2,12 @@ slug = "hybrichord"
 name = "Hybrichord"
 vendor = "Aria Sounds"
 version = "1.0.0"
-description = ""
+description = "Experimental prepared piano Kontakt library using magnets, wiring, and electric current for cinematic textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://ariasounds.com/product/hybrichord/"
 is_paid = true
 
 [formats.vst3]

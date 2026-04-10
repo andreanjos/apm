@@ -1,14 +1,15 @@
 slug = "mpc-2"
 name = "MPC 2"
 vendor = "AKAI"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "MPC 2 software DAW/production suite that mirrors the workflow of AKAI MPC hardware."
 category = "tools"
 subcategory = "daw"
 license = "commercial"
 tags = []
+homepage = "https://www.akaipro.com/mpc-software"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/7759-MPC-2"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/7759-MPC-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

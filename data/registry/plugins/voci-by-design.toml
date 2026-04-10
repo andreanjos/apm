@@ -2,11 +2,12 @@ slug = "voci-by-design"
 name = "VOCI by Design"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Ethereal vocal Kontakt library with atmospheric sustained tones for cinematic and ambient scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/voci-by-design/"
 is_paid = true
 
 [formats.vst3]

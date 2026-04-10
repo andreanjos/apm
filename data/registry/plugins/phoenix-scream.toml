@@ -1,12 +1,13 @@
 slug = "phoenix-scream"
 name = "Phoenix Scream"
 vendor = "Three-Body Technology"
-version = "1.0.0"
-description = ""
+version = "1.6.0"
+description = "Deeply sampled ancient Chinese Suona instrument for authentic ethnic music production."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://www.threebodytech.com/en/products/phoenixscream"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "action-delay"
 name = "Action Delay"
 vendor = "NoiseAsh"
-version = "1.0.0"
-description = ""
+version = "1.3.9"
+description = "Four-in-one effect combining analog delay, chorus, reverb, and lo-fi distortion processors."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/action-delay/"
 is_paid = true
 
 [formats.vst3]

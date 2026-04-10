@@ -1,14 +1,14 @@
 slug = "volumeshaper-6"
 name = "VolumeShaper 6"
 vendor = "Cableguys"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Volume LFO plugin for sculpting amplitude in precise detail across three independent frequency bands."
 category = "effects"
 subcategory = "envelope shaper"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.cableguys.com/volumeshaper"
 
 [formats.vst3]
 url = ""

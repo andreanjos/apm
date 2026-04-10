@@ -2,11 +2,12 @@ slug = "phantom-voice"
 name = "Phantom Voice"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Gregorian-style chamber choir Kontakt instrument with sustained non-verbal vocal elements."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/phantom-voice/"
 is_paid = true
 
 [formats.vst3]

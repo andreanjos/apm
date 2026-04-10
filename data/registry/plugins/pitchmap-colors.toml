@@ -1,14 +1,15 @@
 slug = "pitchmap-colors"
 name = "PITCHMAP COLORS"
 vendor = "Zynaptiq"
-version = "1.0.0"
-description = ""
+version = "1.9.2"
+description = "PITCHMAP edition with additional color-coded harmonic processing and enhanced workflow features."
 category = "effects"
 subcategory = "vocoder"
 license = "commercial"
 tags = []
+homepage = "https://www.zynaptiq.com/pitchmap/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/11467-PITCHMAP-COLORS"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/11467-PITCHMAP-COLORS?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

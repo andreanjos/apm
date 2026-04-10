@@ -1,14 +1,15 @@
 slug = "open-compressor"
 name = "Open Compressor"
 vendor = "Woodstock Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Woodstock Audio Open Compressor is a versatile visualized compressor from the Mastering.com team."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://woodstockaudio.com/products/compressor"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16138-Open-Compressor"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16138-Open-Compressor?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,13 +2,14 @@ slug = "bute-loudness-normaliser"
 name = "BUTE Loudness Normaliser"
 vendor = "Signum Audio"
 version = "1.0.0"
-description = ""
+description = "AudioSuite loudness normaliser for offline processing to meet broadcast and streaming delivery standards."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://www.signumaudio.com/bute-loudness-suite"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/5194-BUTE-Loudness-Normaliser"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/5194-BUTE-Loudness-Normaliser?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

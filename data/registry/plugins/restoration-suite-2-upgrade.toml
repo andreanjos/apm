@@ -1,12 +1,13 @@
 slug = "restoration-suite-2-upgrade"
 name = "Restoration Suite 2 Upgrade"
 vendor = "Acon Digital"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Upgrade license to Restoration Suite 2 for existing Restoration Suite 1 owners."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://acondigital.com/products/restoration-suite"
 is_paid = true
 
 [formats.vst3]

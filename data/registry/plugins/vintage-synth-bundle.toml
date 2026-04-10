@@ -2,11 +2,12 @@ slug = "vintage-synth-bundle"
 name = "Vintage Synth Bundle"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Bundle of four Hideaway Studio Kontakt instruments: S-VX, Bass Machine, Polivox, and Micro-5K."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

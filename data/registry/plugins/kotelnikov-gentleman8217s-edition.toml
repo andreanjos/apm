@@ -1,14 +1,14 @@
 slug = "kotelnikov-gentleman8217s-edition"
 name = "Kotelnikov Gentleman&#8217;s Edition"
 vendor = "Tokyo Dawn Labs"
-version = "1.0.0"
-description = ""
+version = "1.6.5"
+description = "Gentleman's Edition wideband dynamics processor combining high-fidelity dynamic control with musical flexibility."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.tokyodawn.net/tdr-kotelnikov-ge/"
 
 [formats.vst3]
 url = ""

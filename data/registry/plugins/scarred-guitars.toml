@@ -2,11 +2,12 @@ slug = "scarred-guitars"
 name = "Scarred Guitars"
 vendor = "infinit essentials"
 version = "1.0.0"
-description = ""
+description = "Guitar VSTi sampling Spanish, Nylon, Ukulele, and Mandolin with reverb and vinyl effects."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://infinit-essentials.com/products/scarred-guitars-vsti"
 is_paid = true
 
 [formats.vst3]

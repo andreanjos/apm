@@ -2,12 +2,12 @@ slug = "perfect-room"
 name = "Perfect Room"
 vendor = "denise"
 version = "1.0.0"
-description = ""
+description = "Natural room reverb plugin known for its clean, lush sound using TXVerb technology."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.deniseaudio.com/"
 
 [formats.vst3]
 url = ""

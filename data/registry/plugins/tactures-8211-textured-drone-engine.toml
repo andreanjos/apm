@@ -2,13 +2,13 @@ slug = "tactures-8211-textured-drone-engine"
 name = "Tactures &#8211; Textured Drone Engine"
 vendor = "New Nation"
 version = "1.0.0"
-description = ""
+description = "Textured drone engine for creating evolving ambient soundscapes and atmospheric textures."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://nnaud.io/"
 
 [formats.vst3]
 url = ""

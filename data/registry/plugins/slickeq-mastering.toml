@@ -1,12 +1,13 @@
 slug = "slickeq-mastering"
 name = "SlickEQ Mastering"
 vendor = "Tokyo Dawn Labs"
-version = "1.0.0"
-description = ""
+version = "2.1.1"
+description = "Mastering-grade equalizer with stepped controls, linear and minimum phase modes and output saturation."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.tokyodawn.net/tdr-slickeq-m/"
 is_paid = true
 
 [formats.vst3]

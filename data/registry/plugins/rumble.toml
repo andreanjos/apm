@@ -1,12 +1,13 @@
 slug = "rumble"
 name = "Rumble"
 vendor = "Soundspear"
-version = "1.0.0"
-description = ""
+version = "1.0.1"
+description = "Techno kick rumble generator for adding deep sub-bass energy to electronic music."
 category = "effects"
 subcategory = "enhancer"
 license = "commercial"
 tags = []
+homepage = "https://soundspear.com/product/rumble"
 is_paid = true
 
 [formats.vst3]

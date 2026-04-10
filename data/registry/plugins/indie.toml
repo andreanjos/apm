@@ -2,11 +2,12 @@ slug = "indie"
 name = "Indie"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Small orchestral ensemble phrase-based Kontakt library for intimate cinematic writing."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/instruments/indie/"
 is_paid = true
 
 [formats.vst3]

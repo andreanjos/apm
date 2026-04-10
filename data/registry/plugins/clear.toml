@@ -1,14 +1,15 @@
 slug = "clear"
 name = "CLEAR"
 vendor = "Supertone"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "AI vocal clarity and noise reduction plugin by Supertone for clean vocal recordings."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://supertone.ai/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/11830-CLEAR"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/11830-CLEAR?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,11 +1,12 @@
 slug = "micro-digital-reverberator"
 name = "Micro Digital Reverberator"
 vendor = "Korneff Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Korneff Audio Micro Digital Reverberator is a free compact reverb plugin with clean ambience."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.korneffaudio.com/"
 is_paid = true
 
 [formats.vst3]

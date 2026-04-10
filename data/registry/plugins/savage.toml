@@ -2,13 +2,14 @@ slug = "savage"
 name = "Savage"
 vendor = "Muze"
 version = "1.0.0"
-description = ""
+description = "Synthetic Kontakt instrument with fat analog basses, rich synths, and 3200+ ready-to-use presets."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://www.muze.shop/en/index.php?route=product/product&product_id=77"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10108-Savage"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10108-Savage?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,13 +2,14 @@ slug = "opto-3a"
 name = "Opto 3A"
 vendor = "Apogee"
 version = "1.0.0"
-description = ""
+description = "Vintage optical compressor/limiter plugin modeled on classic opto-electronic circuit designs."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://apogeedigital.com/shop/plugins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/8844-Opto-3A"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/8844-Opto-3A?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

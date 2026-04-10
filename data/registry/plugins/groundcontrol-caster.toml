@@ -1,14 +1,15 @@
 slug = "groundcontrol-caster"
 name = "GroundControl CASTER"
 vendor = "Ginger Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "GroundControl CASTER by Ginger Audio sends stems and mixes directly to podcast platforms."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.gingeraudio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/9366-GroundControl-CASTER"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/9366-GroundControl-CASTER?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

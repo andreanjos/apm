@@ -1,14 +1,15 @@
 slug = "session-keys-grand-s"
 name = "Session Keys Grand S"
 vendor = "e instruments"
-version = "1.0.0"
-description = ""
+version = "1.1"
+description = "Deeply sampled Steinway grand piano virtual instrument for Kontakt and Kontakt Player."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://e-instruments.com/instruments/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/6293-Session-Keys-Grand-S"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/6293-Session-Keys-Grand-S?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

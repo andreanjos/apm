@@ -1,12 +1,13 @@
 slug = "spectralayers-elements"
 name = "SpectraLayers Elements"
 vendor = "Steinberg"
-version = "1.0.0"
-description = ""
+version = "11"
+description = "Entry-level spectral audio editor for visual audio repair, restoration, and stem separation."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.steinberg.net/spectralayers/"
 is_paid = true
 
 [formats.vst3]

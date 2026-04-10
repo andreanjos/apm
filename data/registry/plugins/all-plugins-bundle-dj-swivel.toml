@@ -2,11 +2,12 @@ slug = "all-plugins-bundle-dj-swivel"
 name = "All Plugins Bundle"
 vendor = "DJ Swivel"
 version = "1.0.0"
-description = ""
+description = "Bundle of all DJ Swivel plugins: BDE, The Sauce, and Spread in one package."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://swivel-audio.com/all-plugins/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "massive"
 name = "Massive"
 vendor = "Pulsar Audio"
 version = "1.0.0"
-description = ""
+description = "Emulation of the Manley Massive Passive boutique passive EQ for musical tone shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://pulsar.audio/massive/"
 is_paid = true
 
 [formats.vst3]

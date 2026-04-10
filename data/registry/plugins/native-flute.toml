@@ -2,11 +2,12 @@ slug = "native-flute"
 name = "Native Flute"
 vendor = "infinit essentials"
 version = "1.0.0"
-description = ""
+description = "Sampled Native American flute VSTi with 7 articulations suited for trap and cinematic music."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://infinit-essentials.com/products/native-flute-vsti"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,14 @@
 slug = "drop-pad-2-0"
 name = "Drop Pad 2.0"
 vendor = "Soundtrax"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Drag-and-drop Kontakt instrument for blending four sound sources into morphing layered pads."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://soundtrax-kontakt.bandcamp.com/"
 
 [formats.vst3]
 url = ""

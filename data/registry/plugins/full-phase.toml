@@ -2,13 +2,14 @@ slug = "full-phase"
 name = "Full Phase"
 vendor = "Bass Gnomes"
 version = "1.0.0"
-description = ""
+description = "Free phaser effect using channel phase inversion to isolate and enhance stereo characteristics."
 category = "effects"
 subcategory = "phaser"
 license = "commercial"
 tags = []
+homepage = "https://bassgnomes.wordpress.com/full-phase-vst/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/508-Full-Phase"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/508-Full-Phase?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

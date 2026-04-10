@@ -2,13 +2,14 @@ slug = "equivocate"
 name = "EQuivocate"
 vendor = "Newfangled Audio"
 version = "1.0.0"
-description = ""
+description = "Graphic EQ with 26 bands matched to the human auditory system for natural tonal shaping."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.newfangledaudio.com/equivocate"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8435-EQuivocate"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8435-EQuivocate?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

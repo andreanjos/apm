@@ -1,12 +1,13 @@
 slug = "prism"
 name = "PRISM"
 vendor = "AVA Music Group"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Electronic drum instrument by AVA Music Group with multi-layered modern drum programming."
 category = "instruments"
 subcategory = "electronic drums"
 license = "commercial"
 tags = []
+homepage = "https://www.avamusicgroup.com/"
 is_paid = true
 
 [formats.vst3]

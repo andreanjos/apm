@@ -1,12 +1,13 @@
 slug = "adventure-bundle"
 name = "Adventure Bundle"
 vendor = "Musical Sampling"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Bundle combining Musical Sampling's Adventure Brass and Adventure Strings Kontakt libraries."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://musicalsampling.com/"
 is_paid = true
 
 [formats.vst3]

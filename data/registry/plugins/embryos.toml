@@ -2,11 +2,12 @@ slug = "embryos"
 name = "Embryos"
 vendor = "Soundethers"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of urban field recordings and organic evolving textures for sound design."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundethers.wixsite.com/soundethers"
 is_paid = true
 
 [formats.vst3]

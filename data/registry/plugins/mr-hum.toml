@@ -1,12 +1,13 @@
 slug = "mr-hum"
 name = "MR Hum"
 vendor = "Wave Arts"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Adaptive hum removal plugin that eliminates electrical interference and buzz from audio recordings."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://wavearts.com/products/"
 is_paid = true
 
 [formats.vst3]

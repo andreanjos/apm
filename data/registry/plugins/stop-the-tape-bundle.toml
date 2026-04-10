@@ -2,11 +2,12 @@ slug = "stop-the-tape-bundle"
 name = "Stop The Tape Bundle"
 vendor = "Yum Audio"
 version = "1.0.0"
-description = ""
+description = "Yum Audio bundle focused on tape-stop and tape-motion effects including LoFi Tapestop plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.yum-audio.com/"
 is_paid = true
 
 [formats.vst3]

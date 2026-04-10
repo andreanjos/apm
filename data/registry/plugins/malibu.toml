@@ -1,14 +1,15 @@
 slug = "malibu"
 name = "Malibu"
 vendor = "VZtec"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "VZtec Malibu combines reverb, tremolo, and modulation effects for dreamy vintage sounds."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://vztec.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/12178-Malibu"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/12178-Malibu?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,11 +2,12 @@ slug = "klassik-106"
 name = "Klassik 106"
 vendor = "Hoss Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt virtual analog synth inspired by the Juno-106, built with Kontakt's wavetable engine."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.hadihosri.com/h%C3%96ss-audio"
 is_paid = true
 
 [formats.vst3]

@@ -2,10 +2,11 @@ slug = "formula-3-year-subscription"
 name = "Formula 3 Year Subscription"
 vendor = "Soundspear"
 version = "1.0.0"
-description = ""
+description = "3-year subscription to Formula, Soundspear's free open-source audio effects development plugin."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://soundspear.com/product/formula"
 is_paid = true
 
 [formats.vst3]

@@ -1,12 +1,13 @@
 slug = "chorx"
 name = "Chor’X"
 vendor = "XILS Lab"
-version = "1.0.0"
-description = ""
+version = "2.0.3"
+description = "Vintage chorus plugin combining four BBD-based algorithms: Synthex, Dim-D, CS-80, and VP-330."
 category = "effects"
 subcategory = "chorus"
 license = "commercial"
 tags = []
+homepage = "https://www.xils-lab.com/store/chorx/"
 is_paid = true
 
 [formats.vst3]

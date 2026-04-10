@@ -2,11 +2,12 @@ slug = "pearl-concert-grand"
 name = "Pearl Concert Grand"
 vendor = "Impact Soundworks"
 version = "1.0.0"
-description = ""
+description = "Flagship Kontakt Yamaha C7 grand piano with 14,000+ samples across four microphone perspectives."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://impactsoundworks.com/product/pearl-concert-grand/"
 is_paid = true
 
 [formats.vst3]

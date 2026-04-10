@@ -2,11 +2,12 @@ slug = "blast"
 name = "Blast"
 vendor = "Ecliptiq Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt library with 200 cinematic SFX including impacts, sub booms, metallic hits, and rises."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.adsrsounds.com/product/software/blast/"
 is_paid = true
 
 [formats.vst3]

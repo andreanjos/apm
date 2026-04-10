@@ -1,12 +1,13 @@
 slug = "synthetic-materials"
 name = "Synthetic Materials"
 vendor = "Waverley Instruments"
-version = "1.0.0"
-description = ""
+version = "1.1"
+description = "Waverley Instruments Synthetic Materials is a Kontakt Player library of analog synth sounds with sequencer."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9405-Synthetic-Materials"
 is_paid = true
 
 [formats.vst3]

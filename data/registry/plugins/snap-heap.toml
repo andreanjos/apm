@@ -1,14 +1,15 @@
 slug = "snap-heap"
 name = "Snap Heap"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Modular multi-effects host with serial and parallel Snapin chains and deep modulation routing."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/snap_heap"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/2397-Snap-Heap"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/2397-Snap-Heap?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

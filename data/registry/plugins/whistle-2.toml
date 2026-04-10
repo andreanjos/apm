@@ -1,12 +1,13 @@
 slug = "whistle-2"
 name = "Whistle 2"
 vendor = "Rast Sound"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Solo whistle Kontakt library with extended range, multiple styles, phrase play, and improved mono legato."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/whistle/"
 is_paid = true
 
 [formats.vst3]

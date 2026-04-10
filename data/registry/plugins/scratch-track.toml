@@ -2,13 +2,14 @@ slug = "scratch-track"
 name = "Scratch Track"
 vendor = "Stagecraft Software"
 version = "1.0.0"
-description = ""
+description = "Turntable simulation plugin supporting timecoded vinyl and MIDI platters for DJ-style scratching in DAWs."
 category = "effects"
 subcategory = "dj tools"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/scratchtrack/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/73-DJ-Tools/1241-Scratch-Track"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/73-DJ-Tools/1241-Scratch-Track?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "ezkeys-electric-grand"
 name = "EZKeys Electric Grand"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.1.5"
+description = "EZkeys expansion featuring a meticulously sampled Yamaha CP-80 electric grand piano."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/electric-grand-ekx/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "dulcitone-celesta"
 name = "Dulcitone Celesta"
 vendor = "Realsamples"
 version = "1.0.0"
-description = ""
+description = "Virtual tuning-fork piano from circa 1910 with nearly 1,500 single samples for Kontakt Player."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.realsamples.de/Dulcitone-Celesta-Edition-Beurmann/en"
 is_paid = true
 
 [formats.vst3]

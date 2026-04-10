@@ -2,10 +2,11 @@ slug = "ar1-algorithmic-reverb"
 name = "AR1 Algorithmic Reverb"
 vendor = "Initial Audio"
 version = "1.0.0"
-description = ""
+description = "Algorithmic reverb plugin delivering natural-sounding reverb tails for any instrument."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://initialaudio.com/product/ar1-reverb-effect-plugin/"
 is_paid = true
 
 [formats.vst3]

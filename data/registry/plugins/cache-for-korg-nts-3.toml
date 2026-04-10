@@ -2,13 +2,14 @@ slug = "cache-for-korg-nts-3"
 name = "Cache for KORG NTS 3"
 vendor = "Sinevibes"
 version = "1.0.0"
-description = ""
+description = "Multi-effect expansion for the KORG NTS-3 combining filtering, saturation and delay in one module."
 category = "effects"
 subcategory = "expansion packs"
 license = "commercial"
 tags = []
+homepage = "https://www.sinevibes.com/korgcache/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/14168-Cache-for-KORG-NTS-3"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/14168-Cache-for-KORG-NTS-3?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

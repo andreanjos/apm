@@ -1,12 +1,13 @@
 slug = "master-studio-collection-v2"
 name = "Master Studio Collection V2"
 vendor = "Q Up Arts"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "500+ instruments from the OMI EIII Universe of Sounds V2 collection including synths, piano, and orchestral sounds."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.quparts.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "cycles-and-auras-bundle"
 name = "Cycles and Auras Bundle"
 vendor = "Slate & Ash"
 version = "1.0.0"
-description = ""
+description = "Bundle combining Slate & Ash's Cycles loop granular engine and Auras expressive texture instrument."
 category = "instruments"
 subcategory = "bundle"
 license = "commercial"
 tags = []
+homepage = "https://slateandash.com/"
 is_paid = true
 
 [formats.vst3]

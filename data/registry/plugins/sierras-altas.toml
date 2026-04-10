@@ -2,13 +2,13 @@ slug = "sierras-altas"
 name = "Sierras Altas"
 vendor = "ZAK Sound"
 version = "1.0.0"
-description = ""
+description = "Cinematic keys and pad instrument with dual-layer engine designed for inspiring and ambient soundscapes."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://zaksound.com/sierras-altas/"
 
 [formats.vst3]
 url = ""

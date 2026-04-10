@@ -1,12 +1,13 @@
 slug = "808-studio-2"
 name = "808 Studio 2"
 vendor = "Initial Audio"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Bass synthesizer plugin designed for crafting deep, warm and hard-hitting 808 bass sounds."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://initialaudio.com/808-studio-2-bass-synthesizer/"
 is_paid = true
 
 [formats.vst3]

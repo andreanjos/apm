@@ -2,11 +2,12 @@ slug = "liminal-winds"
 name = "Liminal: Winds"
 vendor = "Crocus Soundware"
 version = "1.0.0"
-description = ""
+description = "Closely recorded hand-crafted flutes Kontakt library ranging from fife to contra-bass flute."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.crocussoundware.com/"
 is_paid = true
 
 [formats.vst3]

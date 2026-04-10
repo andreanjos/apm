@@ -2,11 +2,12 @@ slug = "nevo"
 name = "NEVO"
 vendor = "SoundSpot"
 version = "1.0.0"
-description = ""
+description = "Limiter plugin from SoundSpot for transparent brickwall limiting and loudness control."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

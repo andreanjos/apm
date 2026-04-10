@@ -2,13 +2,14 @@ slug = "splineeq-free"
 name = "SplineEQ FREE"
 vendor = "Photosounder"
 version = "1.0.0"
-description = ""
+description = "Free linear phase EQ plugin allowing filter creation using flexible Bézier spline curves."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://photosounder.com/splineeq/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/1360-SplineEQ-FREE"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/1360-SplineEQ-FREE?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

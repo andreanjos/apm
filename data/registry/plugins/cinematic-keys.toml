@@ -2,11 +2,12 @@ slug = "cinematic-keys"
 name = "Cinematic Keys"
 vendor = "Sample Logic"
 version = "1.0.0"
-description = ""
+description = "Kontakt Player instrument with 850+ cinematic keyboard and mutilated keys sounds."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.samplelogic.com/products/"
 is_paid = true
 
 [formats.vst3]

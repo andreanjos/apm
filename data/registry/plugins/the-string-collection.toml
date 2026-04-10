@@ -2,11 +2,12 @@ slug = "the-string-collection"
 name = "The String Collection"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Kontakt string ensemble library based on the ARP Omni and Eminent 310U vintage synthesizers."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

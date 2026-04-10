@@ -2,11 +2,12 @@ slug = "the-tom-thumb-piano"
 name = "The Tom Thumb Piano"
 vendor = "Q Up Arts"
 version = "1.0.0"
-description = ""
+description = "Raw and trashy toy piano Kontakt instrument with a uniquely lo-fi and unconventional character."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.quparts.com/"
 is_paid = true
 
 [formats.vst3]

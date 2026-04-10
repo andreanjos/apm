@@ -2,13 +2,14 @@ slug = "gainstage-pro"
 name = "GainStage Pro"
 vendor = "Hertz Instruments"
 version = "1.0.0"
-description = ""
+description = "Gain staging utility plugin providing visual feedback on signal levels for clean, balanced recordings."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://hertzinstruments.com/plugins/gainstage-pro/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/13561-GainStage-Pro"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/13561-GainStage-Pro?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "hammers-waves"
 name = "Hammers + Waves"
 vendor = "Skybox Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Skybox Audio Hammers + Waves is a prepared piano Kontakt library with textural tones."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.skyboxaudio.com/"
 is_paid = true
 
 [formats.vst3]

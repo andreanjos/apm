@@ -1,11 +1,12 @@
 slug = "panorama"
 name = "Panorama"
 vendor = "Wave Arts"
-version = "1.0.0"
-description = ""
+version = "7.0"
+description = "Advanced panning and 3D audio positioning plugin for stereo and surround sound placement."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://wavearts.com/products/"
 is_paid = true
 
 [formats.vst3]

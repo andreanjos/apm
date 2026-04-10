@@ -1,14 +1,15 @@
 slug = "landr-voxtune"
 name = "LANDR VoxTune"
 vendor = "LANDR"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Pitch correction plugin built for vocals with natural-sounding automatic tuning and scale correction."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://www.landr.com/plugins/landr-vocal-plugin-bundle"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15202-LANDR-VoxTune"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15202-LANDR-VoxTune?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

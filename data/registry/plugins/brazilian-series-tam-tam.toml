@@ -1,12 +1,13 @@
 slug = "brazilian-series-tam-tam"
 name = "Brazilian Series: Tam Tam"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "Kontakt library of the Brazilian Tantã cylindrical drum with traditional rhythms and grooves."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/tam-tam/"
 is_paid = true
 
 [formats.vst3]

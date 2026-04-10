@@ -2,11 +2,12 @@ slug = "ezcety"
 name = "Ezcety"
 vendor = "Zyvenhaal"
 version = "1.0.0"
-description = ""
+description = "Dystopian synthesizer Kontakt library with dark atmospheric and industrial textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://zyvenhaal.com/"
 is_paid = true
 
 [formats.vst3]

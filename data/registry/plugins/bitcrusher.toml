@@ -2,13 +2,14 @@ slug = "bitcrusher"
 name = "BitCrusher"
 vendor = "Stagecraft Software"
 version = "1.0.0"
-description = ""
+description = "Free bitcrusher plugin with control over bit rate, rate reduction, and stereo spread."
 category = "effects"
 subcategory = "bit crusher"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/bitcrusher/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/1736-BitCrusher"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/1736-BitCrusher?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

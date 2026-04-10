@@ -2,11 +2,12 @@ slug = "micro-5k"
 name = "Micro-5K"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument with 595 samples from a 1986 Hybrid Technology MUSIC 5000 synth module for BBC Micro."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

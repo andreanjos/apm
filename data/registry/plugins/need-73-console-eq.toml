@@ -2,11 +2,12 @@ slug = "need-73-console-eq"
 name = "NEED 73 Console Eq"
 vendor = "NoiseAsh"
 version = "1.0.0"
-description = ""
+description = "British Class-A preamp/EQ modeled on the iconic Neve 1073 console module."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/need-73-console-eq/"
 is_paid = true
 
 [formats.vst3]

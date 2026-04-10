@@ -2,11 +2,12 @@ slug = "native-voice-complete"
 name = "Native Voice Complete"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Complete bundle of all four Native Voice Kontakt solo vocal libraries: SORA, MAYA, AIZA, and EIRA."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/native-voice-complete/"
 is_paid = true
 
 [formats.vst3]

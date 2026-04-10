@@ -1,14 +1,15 @@
 slug = "fabfilter-micro"
 name = "FabFilter Micro"
 vendor = "FabFilter"
-version = "1.0.0"
-description = ""
+version = "1.31"
+description = "Lightweight single filter plugin with the classic FabFilter analog-sounding filter and envelope follower."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.fabfilter.com/products/micro-filter-plug-in"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/931-FabFilter-Micro"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/931-FabFilter-Micro?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

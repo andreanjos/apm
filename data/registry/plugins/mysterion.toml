@@ -2,13 +2,14 @@ slug = "mysterion"
 name = "Mysterion"
 vendor = "Piano Vintage"
 version = "1.0.0"
-description = ""
+description = "Free virtual analog synthesizer with two oscillators, filter, LFO, and delay effects."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/371-Mysterion"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/371-Mysterion"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/371-Mysterion?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

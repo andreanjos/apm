@@ -2,11 +2,12 @@ slug = "ap-sleighbells"
 name = "AP Sleighbells"
 vendor = "Audio Perception Music"
 version = "1.0.0"
-description = ""
+description = "Kontakt sleigh bell library with shake and drone elements for holiday music production."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://audioperceptionmusic.com/sounds/"
 is_paid = true
 
 [formats.vst3]

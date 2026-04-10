@@ -1,14 +1,15 @@
 slug = "wider-2"
 name = "Wider 2"
 vendor = "Polyverse"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Free stereo widening plugin that expands the stereo image up to 200% without phasing issues."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://polyversemusic.com/products/wider/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/11052-Wider-2-"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/11052-Wider-2-?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

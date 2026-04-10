@@ -2,11 +2,12 @@ slug = "everything-bundle-yum-audio"
 name = "Everything Bundle"
 vendor = "Yum Audio"
 version = "1.0.0"
-description = ""
+description = "Complete collection of all Yum Audio plugins including all lo-fi, stereo, and creative effect tools."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.yum-audio.com/The-Complete-Bundle/"
 is_paid = true
 
 [formats.vst3]

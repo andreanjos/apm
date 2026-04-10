@@ -1,14 +1,15 @@
 slug = "dynameter-2"
 name = "Dynameter 2"
 vendor = "MeterPlugs"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Dynamics metering plugin measuring PLR and PSR to visualize the dynamic range of your music."
 category = "tools"
 subcategory = "metering"
 license = "commercial"
 tags = []
+homepage = "https://www.meterplugs.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/15305-Dynameter-2"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/15305-Dynameter-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

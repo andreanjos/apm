@@ -1,12 +1,13 @@
 slug = "frms"
 name = "FRMS"
 vendor = "Imaginando"
-version = "1.0.0"
-description = ""
+version = "1.11.0"
+description = "Granular synthesizer with exquisite layered grain manipulation and an expressive interface."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.imaginando.pt/products/frms-granular-synthesizer"
 is_paid = true
 
 [formats.vst3]

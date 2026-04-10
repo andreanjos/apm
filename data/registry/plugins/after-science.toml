@@ -2,11 +2,12 @@ slug = "after-science"
 name = "After Science"
 vendor = "Beautiful Void Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt preset pack for The Legend VST inspired by Brian Eno, geared toward sci-fi and ambient work."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.beautifulvoidaudio.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "trailer-box"
 name = "Trailer Box"
 vendor = "Wavelet Audio"
 version = "1.0.0"
-description = ""
+description = "Cinematic trailer sound design toolkit with twisted organic sounds and powerful guitar recordings for Kontakt."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://wavelet-audio.com/trailer-box/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7324-Trailer-Box"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7324-Trailer-Box?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

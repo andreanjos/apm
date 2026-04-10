@@ -2,11 +2,12 @@ slug = "frankensnare"
 name = "Frankensnare"
 vendor = "Karoryfer Samples"
 version = "1.0.0"
-description = ""
+description = "Customizable snare instrument built from over 3500 acoustic snare, clap, and tambourine samples."
 category = "instruments"
 subcategory = "percussion"
 license = "commercial"
 tags = []
+homepage = "https://shop.karoryfer.com/pages/free-frankensnare"
 is_paid = true
 
 [formats.vst3]

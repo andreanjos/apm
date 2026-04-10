@@ -1,14 +1,15 @@
 slug = "mastering-console-2"
 name = "Mastering Console 2"
 vendor = "Fiedler Audio"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "One-stop Dolby Atmos and stereo mastering suite with gapless playback and OBAM support."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://fiedler-audio.com/products/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/15838-Mastering-Console-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/15838-Mastering-Console-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

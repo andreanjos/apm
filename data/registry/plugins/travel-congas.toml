@@ -1,12 +1,13 @@
 slug = "travel-congas"
 name = "Travel Congas"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "Kontakt compact conga library with single hits in round robin and synchronized Brazilian rhythmic loops."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/travel-congas/"
 is_paid = true
 
 [formats.vst3]

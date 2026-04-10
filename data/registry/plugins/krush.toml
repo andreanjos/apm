@@ -1,14 +1,15 @@
 slug = "krush"
 name = "Krush"
 vendor = "Tritik"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Tritik Krush is a free bit-crusher and modulation plugin for lo-fi and glitchy sound design."
 category = "effects"
 subcategory = "bit crusher"
 license = "commercial"
 tags = []
+homepage = "https://www.tritik.com/products/krush/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/2225-Krush"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/2225-Krush?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

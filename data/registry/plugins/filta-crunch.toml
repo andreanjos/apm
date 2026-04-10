@@ -2,13 +2,14 @@ slug = "filta-crunch"
 name = "Filta Crunch"
 vendor = "SonicXTC"
 version = "1.0.0"
-description = ""
+description = "Free distortion filter plugin combining overdrive and filtering for crunchy textures."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/73-SonicXTC"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/574-Filta-Crunch"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/574-Filta-Crunch?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

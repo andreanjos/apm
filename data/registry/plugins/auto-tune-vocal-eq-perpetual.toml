@@ -2,10 +2,11 @@ slug = "auto-tune-vocal-eq-perpetual"
 name = "Auto-Tune Vocal EQ Perpetual"
 vendor = "Antares"
 version = "1.0.0"
-description = ""
+description = "Perpetual license for the vocal-optimized EQ plugin from Antares Audio."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.antarestech.com/products/vocal-tools/vocal-eq"
 is_paid = true
 
 [formats.vst3]

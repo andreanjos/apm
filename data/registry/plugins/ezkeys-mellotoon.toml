@@ -1,12 +1,13 @@
 slug = "ezkeys-mellotoon"
 name = "EZKeys Mellotoon"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "2.1.5"
+description = "EZkeys expansion recreating the iconic Mellotron tape-based keyboard sounds for retro and cinematic genres."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/mellotoon-ekx/"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "articulate"
 name = "Articulate"
 vendor = "Newfangled Audio"
 version = "1.0.0"
-description = ""
+description = "Audio ADSR plugin with four-band envelope shaping for attack, decay, sustain, and release."
 category = "effects"
 subcategory = "transient shaper"
 license = "commercial"
 tags = []
+homepage = "https://www.newfangledaudio.com/articulate"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/14711-Articulate"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/14711-Articulate?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

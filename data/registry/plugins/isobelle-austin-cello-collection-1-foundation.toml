@@ -1,12 +1,13 @@
 slug = "isobelle-austin-cello-collection-1-foundation"
 name = "Isobelle Austin Cello Collection 1 – Foundation"
 vendor = "Inlet Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Isobelle Austin cello collection foundation Kontakt library by Inlet Audio for solo cello."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://inletaudio.com/"
 is_paid = true
 
 [formats.vst3]

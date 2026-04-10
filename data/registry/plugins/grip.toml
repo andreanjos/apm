@@ -1,14 +1,15 @@
 slug = "grip"
 name = "GRIP"
 vendor = "Boom"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Vehicle tire screech and chassis sound design plugin with 650 MB of source recordings for custom vehicle audio."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.boomlibrary.com/sound-effects/grip/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/11024-GRIP"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/11024-GRIP?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

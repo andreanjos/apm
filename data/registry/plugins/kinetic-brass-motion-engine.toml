@@ -2,11 +2,12 @@ slug = "kinetic-brass-motion-engine"
 name = "Kinetic Brass Motion Engine"
 vendor = "Kirk Hunter Studios"
 version = "1.0.0"
-description = ""
+description = "Full orchestral brass section Kontakt instrument with individual timelines for each section."
 category = "instruments"
 subcategory = "brass"
 license = "commercial"
 tags = []
+homepage = "https://www.kirkhunterstudios.com/products/kinetic-brass-motion-engine/"
 is_paid = true
 
 [formats.vst3]

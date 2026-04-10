@@ -1,14 +1,15 @@
 slug = "hy-mbmfx3"
 name = "HY MBMFX3"
 vendor = "HY Plugins"
-version = "1.0.0"
-description = ""
+version = "1.0.2"
+description = "Multiband multi-effects plugin with up to 3 frequency bands and 41 FX processor types."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://hy-plugins.com/product/hy-mbmfx3/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7932-HY-MBMFX3"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7932-HY-MBMFX3?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

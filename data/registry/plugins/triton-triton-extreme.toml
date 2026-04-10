@@ -1,14 +1,15 @@
 slug = "triton-triton-extreme"
 name = "TRITON TRITON Extreme"
 vendor = "KORG"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Software recreation of the KORG TRITON and TRITON Extreme music workstation synthesizers."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.korg.com/us/products/software/kc_triton/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11203-TRITON-TRITON-Extreme"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11203-TRITON-TRITON-Extreme?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

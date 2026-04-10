@@ -2,13 +2,14 @@ slug = "smile"
 name = "Smile"
 vendor = "Noisebud"
 version = "1.0.0"
-description = ""
+description = "Free transient shaper plugin for sculpting the attack and sustain of percussive signals."
 category = "effects"
 subcategory = "transient shaper"
 license = "commercial"
 tags = []
+homepage = "https://www.noisebud.se/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/2502-Smile"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/2502-Smile?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

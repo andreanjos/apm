@@ -1,12 +1,13 @@
 slug = "spectralayers-pro-8"
 name = "SpectraLayers Pro 8"
 vendor = "Steinberg"
-version = "1.0.0"
-description = ""
+version = "8"
+description = "Professional spectral audio editor for advanced audio repair, restoration, and sound design."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.steinberg.net/spectralayers/"
 is_paid = true
 
 [formats.vst3]

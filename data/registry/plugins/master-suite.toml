@@ -2,11 +2,12 @@ slug = "master-suite"
 name = "Master Suite"
 vendor = "Initial Audio"
 version = "1.0.0"
-description = ""
+description = "All-in-one mastering plugin with EQ, compression, limiting, stereo width, and LUFS metering."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://initialaudio.com/product/mastering-plugin-master-suite/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "plugin-boutique-10th-anniversary-bundle"
 name = "Plugin Boutique 10th Anniversary Bundle"
 vendor = "Plugin Boutique Exclusive Bundles+"
 version = "1.0.0"
-description = ""
+description = "Plugin Boutique 10th anniversary celebratory bundle of curated audio plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,13 @@ slug = "ultravox"
 name = "UltraVox"
 vendor = "Leapwing Audio"
 version = "1.0.0"
-description = ""
+description = "Channel strip vocal processor combining EQ, compression, and enhancement tools for vocals."
 category = "effects"
 subcategory = "channel strip"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://leapwingaudio.com/product/ultravox/"
 
 [formats.vst3]
 url = ""

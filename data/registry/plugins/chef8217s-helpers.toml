@@ -2,13 +2,13 @@ slug = "chef8217s-helpers"
 name = "Chef&#8217;s Helpers"
 vendor = "Yum Audio"
 version = "1.0.0"
-description = ""
+description = "Yum Audio bundle of subtle effect tools including LoFi Flux Light and Spread Light plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.yum-audio.com/"
 
 [formats.vst3]
 url = ""

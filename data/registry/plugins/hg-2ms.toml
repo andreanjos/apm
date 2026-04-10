@@ -1,11 +1,12 @@
 slug = "hg-2ms"
 name = "HG-2MS"
 vendor = "Black Box Analog Design"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Mid-side version of the Black Box HG-2 pentode saturation with independent M/S processing."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.blackboxanalogdesign.com/"
 is_paid = true
 
 [formats.vst3]

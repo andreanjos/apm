@@ -2,10 +2,11 @@ slug = "tape-face"
 name = "Tape Face"
 vendor = "Kiive Audio"
 version = "1.0.0"
-description = ""
+description = "Tape simulation plugin with three tape modes — pumpy, smooth calibrated, and dark lo-fi — plus stereo width and noise."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.kiiveaudio.com/products/tapeface"
 is_paid = true
 
 [formats.vst3]

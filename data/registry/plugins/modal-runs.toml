@@ -2,11 +2,12 @@ slug = "modal-runs"
 name = "Modal Runs"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Orchestral strings and woodwinds runs Kontakt library with any-key modal scale support."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/instruments/modal-runs/"
 is_paid = true
 
 [formats.vst3]

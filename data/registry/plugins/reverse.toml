@@ -2,10 +2,11 @@ slug = "reverse"
 name = "Reverse"
 vendor = "Initial Audio"
 version = "1.0.0"
-description = ""
+description = "Effect plugin that reverses audio in real-time for creative reverse effects and transitions."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://initialaudio.com/product/reverse-plugin/"
 is_paid = true
 
 [formats.vst3]

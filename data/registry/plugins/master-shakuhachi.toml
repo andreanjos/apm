@@ -1,12 +1,13 @@
 slug = "master-shakuhachi"
 name = "Master Shakuhachi"
 vendor = "Rast Sound"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Japanese shakuhachi flute Kontakt library recorded with Master Fukuda Teruhisa with seven articulations."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/master-shakuhachi/"
 is_paid = true
 
 [formats.vst3]

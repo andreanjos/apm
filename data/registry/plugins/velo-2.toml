@@ -1,12 +1,13 @@
 slug = "velo-2"
 name = "Velo 2"
 vendor = "SoundSpot"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Limiter plugin from SoundSpot providing transparent brickwall limiting for mastering and mixing."
 category = "effects"
 subcategory = "limiter"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

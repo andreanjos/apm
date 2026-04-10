@@ -1,14 +1,14 @@
 slug = "saturn-2"
 name = "Saturn 2"
 vendor = "FabFilter"
-version = "1.0.0"
-description = ""
+version = "2.12"
+description = "Multiband saturation and distortion plugin with six processing modes and full per-band modulation."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in"
 
 [formats.vst3]
 url = ""

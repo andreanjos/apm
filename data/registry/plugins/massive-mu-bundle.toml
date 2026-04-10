@@ -2,11 +2,12 @@ slug = "massive-mu-bundle"
 name = "Massive & Mu Bundle"
 vendor = "Pulsar Audio"
 version = "1.0.0"
-description = ""
+description = "Bundle pairing the Massive passive EQ and Mu variable-mu compressor plugins from Pulsar Audio."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://pulsar.audio/complete-bundle/"
 is_paid = true
 
 [formats.vst3]

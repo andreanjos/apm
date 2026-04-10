@@ -2,11 +2,12 @@ slug = "shape"
 name = "Shape"
 vendor = "DUY"
 version = "1.0.0"
-description = ""
+description = "Sound enhancer with 3-band smooth filters and three independent user-defined shapers."
 category = "effects"
 subcategory = "dynamic processor"
 license = "commercial"
 tags = []
+homepage = "https://duy.com/"
 is_paid = true
 
 [formats.vst3]

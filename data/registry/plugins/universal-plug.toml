@@ -2,13 +2,14 @@ slug = "universal-plug"
 name = "Universal Plug"
 vendor = "Stagecraft Software"
 version = "1.0.0"
-description = ""
+description = "Plugin wrapper utility that allows loading any VST/VST3/AU plugin in any compatible DAW host."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/universalplug/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/3751-Universal-Plug"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/3751-Universal-Plug?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

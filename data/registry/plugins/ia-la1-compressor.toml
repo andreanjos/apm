@@ -2,11 +2,12 @@ slug = "ia-la1-compressor"
 name = "IA-LA1 Compressor"
 vendor = "Initial Audio"
 version = "1.0.0"
-description = ""
+description = "Simple, fast-workflow compressor plugin modelled on classic LA-style optical leveling amplifiers."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://initialaudio.com/product/ia-la1-compressor-plugin/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "african-vocals"
 name = "African Vocals"
 vendor = "Rast Sound"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of authentic African chants, patterns, and songs with playable solo instruments."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/african-vocals/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "airspace"
 name = "Airspace"
 vendor = "ModeAudio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Atmospheric reverb plugin by ModeAudio delivering spacious room and hall ambience."
 category = "effects"
 subcategory = "reverb"
 license = "commercial"
 tags = []
+homepage = "https://www.modeaudio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/14865-Airspace"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/14865-Airspace?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

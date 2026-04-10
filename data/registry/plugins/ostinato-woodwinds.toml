@@ -2,11 +2,12 @@ slug = "ostinato-woodwinds"
 name = "Ostinato Woodwinds"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Perpetual cinematic orchestral woodwinds ostinato Kontakt library for minimalist rhythmic beds."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/instruments/ostinato-woodwinds/"
 is_paid = true
 
 [formats.vst3]

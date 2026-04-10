@@ -1,11 +1,12 @@
 slug = "algoreverb"
 name = "AlgoReverb"
 vendor = "2nd Sense Audio"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Algorithmic reverb plugin by 2nd Sense Audio with flexible room modeling and diffusion."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.2ndsenseaudio.com/"
 is_paid = true
 
 [formats.vst3]

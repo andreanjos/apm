@@ -2,13 +2,14 @@ slug = "914-mk-2"
 name = "914 MK 2"
 vendor = "Audio Damage"
 version = "1.0.0"
-description = ""
+description = "Fixed filter bank emulation inspired by the Moog 914 module for complex spectral shaping."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/products/ad041-914-mk-2"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/5644-914-MK-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/5644-914-MK-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

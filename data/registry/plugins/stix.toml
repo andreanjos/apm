@@ -2,11 +2,12 @@ slug = "stix"
 name = "Stix"
 vendor = "Fallout Music"
 version = "1.0.0"
-description = ""
+description = "Kontakt percussion library of stick and trash sounds for adding rhythmic texture to productions."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://falloutmusicgroup.com/"
 is_paid = true
 
 [formats.vst3]

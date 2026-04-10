@@ -2,11 +2,12 @@ slug = "elixer-prepared-tape"
 name = "Elixer – Prepared Tape"
 vendor = "Beautiful Void Audio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument built from prepared and tape-processed sound sources with an experimental character."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.beautifulvoidaudio.com/"
 is_paid = true
 
 [formats.vst3]

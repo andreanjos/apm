@@ -1,12 +1,13 @@
 slug = "fmeral"
 name = "FMeral"
 vendor = "Sampletrip"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Kontakt library of FM synthesizer sounds with detailed FM-synthesis engine for Kontakt."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.kvraudio.com/product/fmeral-by-sampletrip"
 is_paid = true
 
 [formats.vst3]

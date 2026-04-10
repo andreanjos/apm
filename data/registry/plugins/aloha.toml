@@ -2,11 +2,12 @@ slug = "aloha"
 name = "Aloha"
 vendor = "Soundspear"
 version = "1.0.0"
-description = ""
+description = "Vintage tape emulation plugin recreating the character of pre-1950s tape recorders."
 category = "effects"
 subcategory = "lo-fi"
 license = "commercial"
 tags = []
+homepage = "https://soundspear.com/product/aloha"
 is_paid = true
 
 [formats.vst3]

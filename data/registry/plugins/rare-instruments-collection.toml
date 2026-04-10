@@ -2,11 +2,12 @@ slug = "rare-instruments-collection"
 name = "Rare Instruments Collection"
 vendor = "Rast Sound"
 version = "1.0.0"
-description = ""
+description = "12 rare world instrument Kontakt libraries from 30+ countries spanning percussion, strings, and winds."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/rare-instruments-bundle/"
 is_paid = true
 
 [formats.vst3]

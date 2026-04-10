@@ -2,11 +2,12 @@ slug = "the-cosmic-music-box"
 name = "The Cosmic Music Box"
 vendor = "Hideaway Studio"
 version = "1.0.0"
-description = ""
+description = "Kontakt instrument combining disassembled music box tines with 1960s tube sine waves through a Minimoog filter."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://hideawaystudio.net/"
 is_paid = true
 
 [formats.vst3]

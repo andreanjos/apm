@@ -1,14 +1,15 @@
 slug = "stageone-2"
 name = "StageOne 2"
 vendor = "Leapwing Audio"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Advanced stereo soundstage enhancer with five algorithms for width, depth, and mono spread."
 category = "effects"
 subcategory = "stereo width"
 license = "commercial"
 tags = []
+homepage = "https://leapwingaudio.com/product/stageone2/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/10913-StageOne-2-"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/10913-StageOne-2-?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

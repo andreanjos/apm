@@ -2,11 +2,12 @@ slug = "ampcraft-1992"
 name = "AmpCraft – 1992"
 vendor = "Kazrog"
 version = "1.0.0"
-description = ""
+description = "Analog guitar amp simulator plugin modeled after a classic 1992 amp circuit."
 category = "effects"
 subcategory = "amp simulator"
 license = "commercial"
 tags = []
+homepage = "https://kazrog.com/collections/audio-plugins/products/ampcraft-1992"
 is_paid = true
 
 [formats.vst3]

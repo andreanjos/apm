@@ -2,11 +2,12 @@ slug = "ethereal-keys"
 name = "Ethereal Keys"
 vendor = "Marcos Ciscar"
 version = "1.0.0"
-description = ""
+description = "Kontakt keyboard library blending church organ, Hammond, harmonium, synths, and choir layers."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.marcosciscar.com"
 is_paid = true
 
 [formats.vst3]

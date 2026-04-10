@@ -2,11 +2,12 @@ slug = "tranzform"
 name = "Tranzform"
 vendor = "Hidden Path Audio"
 version = "1.0.0"
-description = ""
+description = "Cinematic Kontakt instrument with pulsing textures, growling basses, and transformative sound design."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.hiddenpathaudio.com/tranzform"
 is_paid = true
 
 [formats.vst3]

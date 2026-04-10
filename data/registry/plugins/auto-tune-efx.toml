@@ -1,11 +1,12 @@
 slug = "auto-tune-efx"
 name = "Auto-Tune EFX"
 vendor = "Antares"
-version = "1.0.0"
-description = ""
+version = "10.0"
+description = "Pitch correction plugin with vocal effects including doubling, vocoding and tube saturation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.antarestech.com/products/auto-tune/efx-plus"
 is_paid = true
 
 [formats.vst3]

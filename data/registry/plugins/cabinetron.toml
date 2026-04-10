@@ -2,13 +2,14 @@ slug = "cabinetron"
 name = "Cabinetron"
 vendor = "Three Body Technology"
 version = "1.0.0"
-description = ""
+description = "Guitar cabinet simulator and IR loader with 400+ presets, EQ, mic positioning, and tone matching."
 category = "tools"
 subcategory = "impulse response"
 license = "commercial"
 tags = []
+homepage = "https://www.threebodytech.com/en/products/cabinetron"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/14732-Cabinetron"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/14732-Cabinetron?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

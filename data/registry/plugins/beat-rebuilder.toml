@@ -2,13 +2,14 @@ slug = "beat-rebuilder"
 name = "Beat ReBuilder"
 vendor = "Stagecraft Software"
 version = "1.0.0"
-description = ""
+description = "Drum FX plugin that decomposes beats into constituent parts for creative manipulation and remixing."
 category = "effects"
 subcategory = "drum fx"
 license = "commercial"
 tags = []
+homepage = "https://www.stagecraftsoftware.com/products/beatrebuilder/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/13-Drum-FX/11891-Beat-ReBuilder"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/13-Drum-FX/11891-Beat-ReBuilder?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

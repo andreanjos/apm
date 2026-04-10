@@ -2,11 +2,12 @@ slug = "opalescence"
 name = "Opalescence"
 vendor = "Hoss Audio"
 version = "1.0.0"
-description = ""
+description = "Cinematic pad designer for Kontakt with 22 sequencer-based effects for evolving hybrid pads."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.hadihosri.com/h%C3%96ss-audio"
 is_paid = true
 
 [formats.vst3]

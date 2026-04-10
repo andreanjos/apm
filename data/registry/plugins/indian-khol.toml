@@ -2,11 +2,12 @@ slug = "indian-khol"
 name = "Indian Khol"
 vendor = "RDGAudio"
 version = "1.0.0"
-description = ""
+description = "Synthesizer engine for the Indian Khol drum with dynamic round-robin sampling."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rdgaudio.com/product/indian-khol/"
 is_paid = true
 
 [formats.vst3]

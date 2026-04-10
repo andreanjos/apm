@@ -1,14 +1,15 @@
 slug = "dopesonix-crate-digger"
 name = "DopeSONIX Crate Digger"
 vendor = "DopeSONIX"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "VST/AU sampler with 800 royalty-free vinyl-style hip-hop samples across 50 patches."
 category = "instruments"
 subcategory = "virtual instruments"
 license = "commercial"
 tags = []
+homepage = "https://www.dopesonix.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/1419-DopeSONIX-Crate-Digger"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/1419-DopeSONIX-Crate-Digger?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

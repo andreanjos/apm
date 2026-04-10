@@ -2,11 +2,12 @@ slug = "osterhouse-collection"
 name = "Osterhouse Collection"
 vendor = "Ben Osterhouse"
 version = "1.0.0"
-description = ""
+description = "Complete bundle of all Ben Osterhouse Kontakt string libraries in one package."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://osterhousesounds.com/collections/all"
 is_paid = true
 
 [formats.vst3]

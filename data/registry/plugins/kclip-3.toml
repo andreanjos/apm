@@ -1,12 +1,13 @@
 slug = "kclip-3"
 name = "KClip 3"
 vendor = "Kazrog"
-version = "1.0.0"
-description = ""
+version = "3"
+description = "Mastering clipper plugin with multiple clipping modes for transparent peak limiting."
 category = "effects"
 subcategory = "mastering"
 license = "commercial"
 tags = []
+homepage = "https://kazrog.com/collections/audio-plugins/products/kclip-3"
 is_paid = true
 
 [formats.vst3]

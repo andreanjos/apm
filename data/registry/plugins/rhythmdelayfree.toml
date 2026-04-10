@@ -2,13 +2,14 @@ slug = "rhythmdelayfree"
 name = "RhythmDelayFree"
 vendor = "D10Labo"
 version = "1.0.0"
-description = ""
+description = "Free multi-tap delay plugin designed to create musical rhythmic echo patterns."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://labo.different10.com/product/rhythmdelayfree/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/7394-RhythmDelayFree"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/7394-RhythmDelayFree?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

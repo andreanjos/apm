@@ -1,12 +1,13 @@
 slug = "hammer-on"
 name = "Hammer On"
 vendor = "unEarthed Sampling"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Percussive guitar Kontakt instrument from unEarthed Sampling capturing hammer-on and tap guitar techniques."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.unearthedsampling.com/"
 is_paid = true
 
 [formats.vst3]

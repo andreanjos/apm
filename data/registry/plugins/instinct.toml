@@ -1,14 +1,15 @@
 slug = "instinct"
 name = "Instinct"
 vendor = "Inertia Sound Systems"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Distortion plugin by Inertia Sound Systems delivering aggressive harmonic saturation."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://www.inertiasoundsystems.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/7777-Instinct"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/7777-Instinct?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,14 +1,15 @@
 slug = "tal-filter-2"
 name = "TAL Filter 2"
 vendor = "TAL"
-version = "1.0.0"
-description = ""
+version = "3.1.2"
+description = "Host-synced filter with multiple filter types, panorama and volume modulation for tremolo and trance gate effects."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://tal-software.com/products/tal-filter"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/432-TAL-Filter-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/432-TAL-Filter-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

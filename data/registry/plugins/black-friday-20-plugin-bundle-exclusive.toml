@@ -2,11 +2,12 @@ slug = "black-friday-20-plugin-bundle-exclusive"
 name = "Black Friday $20 Plugin Bundle (Exclusive)"
 vendor = "Plugin Boutique Exclusive Bundles+"
 version = "1.0.0"
-description = ""
+description = "Plugin Boutique exclusive Black Friday bundle of multiple plugins for $20."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
 is_paid = true
 
 [formats.vst3]

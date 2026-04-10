@@ -1,12 +1,13 @@
 slug = "tico"
 name = "TiCo"
 vendor = "Mathew Lane"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Transient-sensitive compressor by Mathew Lane offering musical dynamic control."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.mathewlane.com/tico/"
 is_paid = true
 
 [formats.vst3]

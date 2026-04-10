@@ -1,12 +1,13 @@
 slug = "synthmaster-one-crossgrade-from-synthmaster-player"
 name = "SynthMaster One Crossgrade from SynthMaster Player"
 vendor = "KV331 Audio"
-version = "1.0.0"
-description = ""
+version = "1.6"
+description = "Crossgrade to SynthMaster One from SynthMaster Player, enabling full wavetable synthesis capabilities."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.kv331audio.com/synthmasterone.aspx"
 is_paid = true
 
 [formats.vst3]

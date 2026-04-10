@@ -1,14 +1,15 @@
 slug = "sound-assistant-basic-pack"
 name = "Sound Assistant Basic Pack"
 vendor = "Jamahook"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Jamahook Sound Assistant Basic Pack provides AI-powered music tagging and search tools."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://jamahook.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/11874-Sound-Assistant-Basic-Pack"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/11874-Sound-Assistant-Basic-Pack?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

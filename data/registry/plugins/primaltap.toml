@@ -1,14 +1,15 @@
 slug = "primaltap"
 name = "PrimalTap"
 vendor = "Soundtoys"
-version = "1.0.0"
-description = ""
+version = "5.5"
+description = "Vintage digital delay plugin inspired by the 1978 Prime Time for creative echo and warped delay effects."
 category = "effects"
 subcategory = "delay"
 license = "commercial"
 tags = []
+homepage = "https://www.soundtoys.com/product/primaltap/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/1857-PrimalTap"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/1857-PrimalTap?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

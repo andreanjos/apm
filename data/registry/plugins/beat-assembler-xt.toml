@@ -2,11 +2,12 @@ slug = "beat-assembler-xt"
 name = "Beat Assembler XT"
 vendor = "SzcZ"
 version = "1.0.0"
-description = ""
+description = "Experimental Kontakt drum computer using randomly or manually generated pattern models."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/szcz/beat-assembler-drum-machine-kontakt"
 is_paid = true
 
 [formats.vst3]

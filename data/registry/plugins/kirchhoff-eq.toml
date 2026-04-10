@@ -1,12 +1,13 @@
 slug = "kirchhoff-eq"
 name = "Kirchhoff-EQ"
 vendor = "Three-Body Technology"
-version = "1.0.0"
-description = ""
+version = "1.7.1"
+description = "32-band parametric EQ with dynamic processing, 15 filter types, and 32 vintage EQ models."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.threebodytech.com/en/products/kirchhoffeq"
 is_paid = true
 
 [formats.vst3]

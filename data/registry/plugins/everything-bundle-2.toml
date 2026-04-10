@@ -2,11 +2,12 @@ slug = "everything-bundle-2"
 name = "Everything Bundle 2"
 vendor = "Krotos Audio"
 version = "1.0.0"
-description = ""
+description = "Krotos bundle combining Dehumaniser 2, Reformer Pro, Weaponiser, and Igniter sound design plugins."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.krotosaudio.com/products/"
 is_paid = true
 
 [formats.vst3]

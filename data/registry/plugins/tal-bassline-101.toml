@@ -1,14 +1,15 @@
 slug = "tal-bassline-101"
 name = "TAL BassLine 101"
 vendor = "TAL"
-version = "1.0.0"
-description = ""
+version = "4.0.2"
+description = "Accurate emulation of the Roland SH-101 with 24dB low-pass filter, sequencer, arpeggiator, and MPE support."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://tal-software.com/products/tal-bassline-101"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/716-TAL-BassLine-101"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/716-TAL-BassLine-101?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

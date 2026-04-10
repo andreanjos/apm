@@ -2,11 +2,12 @@ slug = "neurofunker-xg6-technotron-sd422-bundle"
 name = "Neurofunker XG6 & Technotron SD422 Bundle"
 vendor = "G-Sonique"
 version = "1.0.0"
-description = ""
+description = "Bundle of Neurofunker XG6 neurofunk synth and Technotron SD422 techno instrument plugin."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.g-sonique.com/shop.html"
 is_paid = true
 
 [formats.vst3]

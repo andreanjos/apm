@@ -1,11 +1,12 @@
 slug = "haloverb"
 name = "HaloVerb"
 vendor = "Metric Halo"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Metric Halo HaloVerb is a reverb plugin with pristine quality and flexible room design."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://mh-audio.com/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "continua"
 name = "Continua"
 vendor = "Audio Damage"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Virtual analog synthesizer with morphable oscillators, built-in effects, and comprehensive modulation."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.audiodamage.com/products/ad051-continua"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/6069-Continua"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/6069-Continua?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -2,13 +2,14 @@ slug = "tectonic"
 name = "Tectonic"
 vendor = "Aberrant DSP"
 version = "1.0.0"
-description = ""
+description = "Multi-band channel strip combining EQ, stereo imaging, and dynamics for comprehensive toneshaping."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://aberrantdsp.com/plugins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/10570-Tectonic"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/10570-Tectonic?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

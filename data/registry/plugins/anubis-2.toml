@@ -2,13 +2,14 @@ slug = "anubis-2"
 name = "Anubis 2"
 vendor = "B Serrano"
 version = "1.0.0"
-description = ""
+description = "Free hybrid subtractive/FM synth with 32-voice polyphony and up to 8-voice unison."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1673-Anubis-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1673-Anubis-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

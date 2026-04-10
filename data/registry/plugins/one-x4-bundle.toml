@@ -2,11 +2,12 @@ slug = "one-x4-bundle"
 name = "One x4 Bundle"
 vendor = "Leapwing Audio"
 version = "1.0.0"
-description = ""
+description = "Bundle of four Leapwing One-series processors: CenterOne, DynOne, LimitOne, and RootOne."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.leapwingaudio.com/"
 is_paid = true
 
 [formats.vst3]

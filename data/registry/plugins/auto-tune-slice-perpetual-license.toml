@@ -2,10 +2,11 @@ slug = "auto-tune-slice-perpetual-license"
 name = "Auto-Tune Slice Perpetual License"
 vendor = "Antares"
 version = "1.0.0"
-description = ""
+description = "Perpetual license for Auto-Tune Slice, a loop-slicing and vocal processing plugin."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.antarestech.com/"
 is_paid = true
 
 [formats.vst3]

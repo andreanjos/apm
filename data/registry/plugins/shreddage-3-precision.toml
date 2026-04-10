@@ -2,11 +2,12 @@ slug = "shreddage-3-precision"
 name = "Shreddage 3 Precision"
 vendor = "Impact Soundworks"
 version = "1.0.0"
-description = ""
+description = "Kontakt 5-string precision bass with flatwound strings and warm analog tone for rock and studio production."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://impactsoundworks.com/product/shreddage-3-precision/"
 is_paid = true
 
 [formats.vst3]

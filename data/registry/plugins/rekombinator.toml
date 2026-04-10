@@ -2,11 +2,12 @@ slug = "rekombinator"
 name = "ReKombinator"
 vendor = "SzcZ"
 version = "1.0.0"
-description = ""
+description = "Original granular sample recycler for Kontakt, predecessor to the acclaimed ReKombinator II."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/szcz/rekombinator"
 is_paid = true
 
 [formats.vst3]

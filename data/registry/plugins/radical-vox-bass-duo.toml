@@ -2,11 +2,12 @@ slug = "radical-vox-bass-duo"
 name = "Radical Vox & Bass Duo"
 vendor = "Soundradix"
 version = "1.0.0"
-description = ""
+description = "Bundle of SurferEQ 2 and POWAIR for vocals and bass processing."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.soundradix.com/products/radical-vox-bass-duo/"
 is_paid = true
 
 [formats.vst3]

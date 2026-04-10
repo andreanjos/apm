@@ -1,14 +1,15 @@
 slug = "sierras-altas-2"
 name = "Sierras Altas 2"
 vendor = "ZAK Sound"
-version = "1.0.0"
-description = ""
+version = "2"
+description = "Cinematic instrument with dual-layer engine, 69 sound layers, dual arpeggiators, and 89 ambient/orchestral presets."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://zaksound.com/sierras-altas/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12614-Sierras-Altas-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12614-Sierras-Altas-2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

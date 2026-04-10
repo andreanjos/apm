@@ -2,13 +2,14 @@ slug = "beatgrader"
 name = "Beatgrader"
 vendor = "Iceberg Audio"
 version = "1.0.0"
-description = ""
+description = "Lo-fi processor using resampling algorithms to deliver a unique lo-fi underwater sound with saturation control."
 category = "effects"
 subcategory = "multi effect"
 license = "commercial"
 tags = []
+homepage = "https://icebergaudio.com/shop/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8275-Beatgrader"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8275-Beatgrader?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

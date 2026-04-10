@@ -2,11 +2,12 @@ slug = "vengeful-viola"
 name = "Vengeful Viola"
 vendor = "Karoryfer Samples"
 version = "1.0.0"
-description = ""
+description = "Unconventionally aggressive viola library featuring bright sul ponticello, noises, and extended techniques."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://shop.karoryfer.com/products/vengeful-viola"
 is_paid = true
 
 [formats.vst3]

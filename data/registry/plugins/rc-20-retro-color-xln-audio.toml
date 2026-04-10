@@ -1,12 +1,13 @@
 slug = "rc-20-retro-color-xln-audio"
 name = "RC-20 Retro Color"
 vendor = "XLN Audio"
-version = "1.0.0"
-description = ""
+version = "1.5.1"
+description = "Retro color effect plugin adding analogue warmth, noise, and lo-fi character to any audio track."
 category = "effects"
 subcategory = "lo-fi"
 license = "commercial"
 tags = []
+homepage = "https://www.xlnaudio.com/products/plugins/rc-20_retro_color"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "equalize"
 name = "Equalize"
 vendor = "Acon Digital"
-version = "1.0.0"
-description = ""
+version = "1.2.2"
+description = "Parametric equalizer plugin with adjustable bands and graphical frequency response visualization."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://acondigital.com/products/equalize"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/1287-Equalize"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/1287-Equalize?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

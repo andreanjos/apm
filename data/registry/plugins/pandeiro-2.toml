@@ -1,12 +1,13 @@
 slug = "pandeiro-2"
 name = "Pandeiro 2"
 vendor = "Muletone Audio"
-version = "1.0.0"
-description = ""
+version = "2.3.1"
+description = "Kontakt Brazilian pandeiro library with 160+ loops and 5 pandeiro instruments performed by Robson Batata."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.muletoneaudio.com/pandeiro2/"
 is_paid = true
 
 [formats.vst3]

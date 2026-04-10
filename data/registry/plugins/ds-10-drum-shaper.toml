@@ -1,14 +1,15 @@
 slug = "ds-10-drum-shaper"
 name = "DS 10 Drum Shaper"
 vendor = "XLN Audio"
-version = "1.0.0"
-description = ""
+version = "1.3.6"
+description = "Drum shaping plugin that enhances kick and snare punch and tone with a single intuitive knob."
 category = "effects"
 subcategory = "transient shaper"
 license = "commercial"
 tags = []
+homepage = "https://www.xlnaudio.com/products/plugins/ds-10_drum_shaper"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/1812-DS-10-Drum-Shaper"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/1812-DS-10-Drum-Shaper?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

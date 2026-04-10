@@ -2,11 +2,12 @@ slug = "rdgstring"
 name = "RDGString"
 vendor = "RDGAudio"
 version = "1.0.0"
-description = ""
+description = "String instrument plugin offering realistic orchestral string sounds for AU and VST3."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://rdgaudio.com/product/rdgstring/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "maleventum-2"
 name = "Maleventum 2"
 vendor = "Silence And Other Sounds"
 version = "1.0.0"
-description = ""
+description = "Kontakt library featuring arcane flutes and Native American wind instruments for cinematic scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://silenceandothersounds.com/products/maleventum-2-arcane-flutes-native-america/"
 is_paid = true
 
 [formats.vst3]

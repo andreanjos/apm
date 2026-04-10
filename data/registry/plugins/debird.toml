@@ -1,14 +1,15 @@
 slug = "debird"
 name = "DEBIRD"
 vendor = "Boom"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Automatic bird noise removal plugin that detects and surgically removes bird sounds from field recordings."
 category = "tools"
 subcategory = "audio editor"
 license = "commercial"
 tags = []
+homepage = "https://www.boomlibrary.com/sound-effects/debird/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/11033-DEBIRD"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/11033-DEBIRD?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

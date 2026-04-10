@@ -1,14 +1,15 @@
 slug = "solo"
 name = "SOLO"
 vendor = "TAQS IM"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Monophonic synthesizer plugin by TAQS.IM designed for expressive melodic lead playing."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://taqs.im/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16573-SOLO"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16573-SOLO?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

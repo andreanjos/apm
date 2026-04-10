@@ -1,14 +1,15 @@
 slug = "unveil"
 name = "UNVEIL"
 vendor = "Zynaptiq"
-version = "1.0.0"
-description = ""
+version = "1.9.0"
+description = "Real-time de-reverberation and signal focusing plugin for attenuating or boosting reverb in mixed audio."
 category = "tools"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.zynaptiq.com/unveil/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/2702-UNVEIL"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/2702-UNVEIL?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

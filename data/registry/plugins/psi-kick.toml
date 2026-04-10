@@ -2,11 +2,12 @@ slug = "psi-kick"
 name = "PSI Kick"
 vendor = "Paper Stone Instruments"
 version = "1.0.0"
-description = ""
+description = "Meticulously sampled Kontakt kick drum library with multiple mic positions and velocity layers."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
 is_paid = true
 
 [formats.vst3]

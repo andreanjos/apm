@@ -2,13 +2,14 @@ slug = "effects"
 name = "Effects"
 vendor = "Muze"
 version = "1.0.0"
-description = ""
+description = "Creative effects and processed sound Kontakt instrument library for music and sound design."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://www.muze.shop/en/index.php?route=product/category&path=72"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7838-Effects"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7838-Effects?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

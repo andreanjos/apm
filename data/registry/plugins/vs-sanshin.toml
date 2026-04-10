@@ -2,11 +2,12 @@ slug = "vs-sanshin"
 name = "Vs Sanshin"
 vendor = "Versus Audio"
 version = "1.0.0"
-description = ""
+description = "Clear, firm-toned Okinawan sanshin Kontakt instrument for traditional Japanese music."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://versusaudio.com/"
 is_paid = true
 
 [formats.vst3]

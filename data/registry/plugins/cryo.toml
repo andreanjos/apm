@@ -2,11 +2,12 @@ slug = "cryo"
 name = "Cryo"
 vendor = "Ecliptiq Audio"
 version = "1.0.0"
-description = ""
+description = "Dystopian Kontakt instrument featuring drones, haunting plucks, hits, and frightening growls."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/ecliptiq-audio/cryo"
 is_paid = true
 
 [formats.vst3]

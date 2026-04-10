@@ -2,13 +2,14 @@ slug = "meaw-assist-ai-assistant"
 name = "Meaw Assist AI Assistant"
 vendor = "Safari Audio"
 version = "1.0.0"
-description = ""
+description = "AI-powered DAW assistant offering mixing help, music theory guidance and plugin suggestions."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://safariaudio.com/products/meaw-assist"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16966-Meaw-Assist-AI-Assistant"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16966-Meaw-Assist-AI-Assistant?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

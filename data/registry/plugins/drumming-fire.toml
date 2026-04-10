@@ -2,11 +2,12 @@ slug = "drumming-fire"
 name = "Drumming Fire"
 vendor = "Atom Hub"
 version = "1.0.0"
-description = ""
+description = "Percussive and textural Kontakt instrument built from drumming and fire-based recordings."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://atomhub.net/Libraries.html"
 is_paid = true
 
 [formats.vst3]

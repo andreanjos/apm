@@ -2,11 +2,12 @@ slug = "vs-music-box"
 name = "Vs Music Box"
 vendor = "Versus Audio"
 version = "1.0.0"
-description = ""
+description = "Delicate music box Kontakt instrument with a warm, nostalgic mechanical tone."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://versusaudio.com/"
 is_paid = true
 
 [formats.vst3]

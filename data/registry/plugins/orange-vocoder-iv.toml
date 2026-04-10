@@ -1,14 +1,15 @@
 slug = "orange-vocoder-iv"
 name = "ORANGE VOCODER IV"
 vendor = "Zynaptiq"
-version = "1.0.0"
-description = ""
+version = "4.0"
+description = "Ultimate vocoder plugin with 24 algorithms, laser pitch control, and powerful synthesizer engine."
 category = "effects"
 subcategory = "vocoder"
 license = "commercial"
 tags = []
+homepage = "https://www.zynaptiq.com/orangevocoder/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/10533-ORANGE-VOCODER-IV"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/10533-ORANGE-VOCODER-IV?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

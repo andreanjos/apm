@@ -2,11 +2,12 @@ slug = "drums-processing-bundle"
 name = "Drums Processing Bundle"
 vendor = "SoundSpot"
 version = "1.0.0"
-description = ""
+description = "SoundSpot bundle of processing tools for comprehensive drum treatment and enhancement."
 category = "effects"
 subcategory = "fx plugin bundle"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
 is_paid = true
 
 [formats.vst3]

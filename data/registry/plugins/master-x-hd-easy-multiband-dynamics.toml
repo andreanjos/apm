@@ -2,13 +2,14 @@ slug = "master-x-hd-easy-multiband-dynamics"
 name = "MASTER X HD Easy Multiband Dynamics"
 vendor = "TC Electronic"
 version = "1.0.0"
-description = ""
+description = "Multiband dynamics plugin combining expansion, compression, and limiting per band."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://store.tcelectronic.com/products/native-plug-ins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14591-MASTER-X-HD-Easy-Multiband-Dynamics"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14591-MASTER-X-HD-Easy-Multiband-Dynamics?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

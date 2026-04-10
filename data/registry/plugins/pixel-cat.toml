@@ -2,13 +2,14 @@ slug = "pixel-cat"
 name = "Pixel Cat"
 vendor = "Safari Audio"
 version = "1.0.0"
-description = ""
+description = "Bit crusher plugin for lo-fi digital degradation and creative sample-rate reduction effects."
 category = "effects"
 subcategory = "bit crusher"
 license = "commercial"
 tags = []
+homepage = "https://safariaudio.com/products/pixel-cat"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/16408-Pixel-Cat"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/16408-Pixel-Cat?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

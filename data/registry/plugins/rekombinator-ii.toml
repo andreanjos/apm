@@ -2,11 +2,12 @@ slug = "rekombinator-ii"
 name = "ReKombinator II"
 vendor = "SzcZ"
 version = "1.0.0"
-description = ""
+description = "Granular sample recycler for Kontakt with cult status among sound designers."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/szcz"
 is_paid = true
 
 [formats.vst3]

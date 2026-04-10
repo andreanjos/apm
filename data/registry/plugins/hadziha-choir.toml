@@ -2,11 +2,12 @@ slug = "hadziha-choir"
 name = "Hadziha Choir"
 vendor = "Karoryfer Samples"
 version = "1.0.0"
-description = ""
+description = "Female choir sample library recorded in Ghana with vowels, syllables, and legato for the free Sforzando sampler."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://shop.karoryfer.com/products/hadziha"
 is_paid = true
 
 [formats.vst3]

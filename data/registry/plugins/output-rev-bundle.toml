@@ -2,13 +2,14 @@ slug = "output-rev-bundle"
 name = "Output REV Bundle"
 vendor = "Exclusive Bundles"
 version = "1.0.0"
-description = ""
+description = "Bundle version of Output's REV reverse-engine Kontakt instrument with additional content."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/1520-SIGNAL-REV-Bundle"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7519-Output-REV-Bundle"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7519-Output-REV-Bundle?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

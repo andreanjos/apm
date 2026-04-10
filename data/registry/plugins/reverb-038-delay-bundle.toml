@@ -1,13 +1,13 @@
 slug = "reverb-038-delay-bundle"
 name = "Reverb &#038; Delay Bundle"
 vendor = "Black Rooster Audio"
-version = "1.0.0"
-description = ""
+version = "3.0.0"
+description = "Bundle combining the RO-140 plate reverb, RO-SPR spring reverb, and TD-201 tape delay plugins."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://blackroosteraudio.com/en/products/reverb-delay-bundle"
 
 [formats.vst3]
 url = ""

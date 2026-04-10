@@ -1,12 +1,13 @@
 slug = "minimonsta"
 name = "Minimonsta"
 vendor = "GForce Software"
-version = "1.0.0"
-description = ""
+version = "1.6"
+description = "Virtual Minimoog emulation with extended polyphony, expanded modulation options and vintage analogue character."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.gforcesoftware.com/product/minimonsta/"
 is_paid = true
 
 [formats.vst3]

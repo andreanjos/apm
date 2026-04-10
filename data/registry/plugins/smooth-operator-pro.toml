@@ -1,14 +1,15 @@
 slug = "smooth-operator-pro"
 name = "Smooth Operator Pro"
 vendor = "Baby Audio"
-version = "1.0.0"
-description = ""
+version = "1.2"
+description = "Spectral signal balancer for removing harsh resonances, mud, and masking with surgical per-band control."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://babyaud.io/smooth-operator-plugin"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14607-Smooth-Operator-Pro"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14607-Smooth-Operator-Pro?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

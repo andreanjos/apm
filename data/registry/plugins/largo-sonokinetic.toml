@@ -2,13 +2,13 @@ slug = "largo-sonokinetic"
 name = "Largo"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Majestic phrase-based orchestral Kontakt library evoking classic film score styles."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.sonokinetic.net/products/instruments/largo/"
 
 [formats.vst3]
 url = ""

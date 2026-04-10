@@ -2,13 +2,14 @@ slug = "lens"
 name = "Lens"
 vendor = "Auburn Sounds"
 version = "1.0.0"
-description = ""
+description = "Spectral dynamics processor for precise frequency-aware compression and shaping."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.auburnsounds.com/products/Lens.html"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11931-Lens"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11931-Lens?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

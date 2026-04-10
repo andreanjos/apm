@@ -1,14 +1,15 @@
 slug = "audacity"
 name = "Audacity"
 vendor = "Audacity"
-version = "1.0.0"
-description = ""
+version = "3.7"
+description = "Free open-source audio editor and recorder for multitrack editing and audio processing."
 category = "tools"
 subcategory = "daw"
 license = "commercial"
 tags = []
+homepage = "https://www.audacityteam.org/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/385-Audacity"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/385-Audacity?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

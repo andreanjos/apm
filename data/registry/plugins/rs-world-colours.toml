@@ -2,11 +2,12 @@ slug = "rs-world-colours"
 name = "RS World Colours"
 vendor = "Rast Sound"
 version = "1.0.0"
-description = ""
+description = "Bundle of 10 Rast Sound world libraries covering vocals, solo instruments, rhythms, and cinematic engines."
 category = "instruments"
 subcategory = "ethnic"
 license = "commercial"
 tags = []
+homepage = "https://rastsound.com/downloads/world-colours/"
 is_paid = true
 
 [formats.vst3]

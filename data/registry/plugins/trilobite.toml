@@ -1,14 +1,15 @@
 slug = "trilobite"
 name = "Trilobite"
 vendor = "Darwin Arts"
-version = "1.0.0"
-description = ""
+version = "1.4"
+description = "Darwin Arts Trilobite is a modular synthesizer with patch-breeding via Darwinian evolution."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.darwinarts.com/trilobite/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1075-Trilobite"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1075-Trilobite?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

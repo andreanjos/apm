@@ -1,12 +1,13 @@
 slug = "metropolis-ark-1"
 name = "Metropolis Ark 1"
 vendor = "Orchestral Tools"
-version = "1.0.0"
-description = ""
+version = "1.3"
+description = "Epic orchestral Kontakt Player library by Orchestral Tools featuring massive ensemble brass."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.orchestraltools.com/metropolis-ark-1"
 is_paid = true
 
 [formats.vst3]

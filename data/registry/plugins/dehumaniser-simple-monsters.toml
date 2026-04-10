@@ -1,14 +1,15 @@
 slug = "dehumaniser-simple-monsters"
 name = "Dehumaniser Simple Monsters"
 vendor = "Krotos"
-version = "1.0.0"
-description = ""
+version = "1.5"
+description = "Krotos voice transformation plugin for creating creature and monster vocal effects."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://www.krotosaudio.com/dehumaniser-simple-monsters/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/5365-Dehumaniser-Simple-Monsters"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/5365-Dehumaniser-Simple-Monsters?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

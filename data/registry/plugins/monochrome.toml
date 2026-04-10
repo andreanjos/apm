@@ -2,11 +2,12 @@ slug = "monochrome"
 name = "Monochrome"
 vendor = "Capsule Audio"
 version = "1.0.0"
-description = ""
+description = "Capsule bass and pad library with 64 presets including menacing bass layers for trap, hip-hop, and DNB."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.capsule.audio/"
 is_paid = true
 
 [formats.vst3]

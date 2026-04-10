@@ -2,13 +2,14 @@ slug = "md3-legendary-multiband-dynamics"
 name = "MD3 Legendary Multiband Dynamics"
 vendor = "TC Electronic"
 version = "1.0.0"
-description = ""
+description = "Core TC Electronic multiband dynamics plugin with 3-band compander, EQ, and True-Peak limiting."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://store.tcelectronic.com/products/native-plug-ins/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14578-MD3-Legendary-Multiband-Dynamics"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14578-MD3-Legendary-Multiband-Dynamics?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

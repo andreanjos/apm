@@ -1,14 +1,15 @@
 slug = "filter-table"
 name = "Filter Table"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Wavetable-driven filter Snapin that scans through table frames to create sweeping filter effects."
 category = "effects"
 subcategory = "filter"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/filter_table"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/14112-Filter-Table"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/14112-Filter-Table?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

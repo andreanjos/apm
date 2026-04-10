@@ -2,10 +2,11 @@ slug = "voxpat-player"
 name = "Voxpat Player"
 vendor = "Digital Brain Instruments"
 version = "1.0.0"
-description = ""
+description = "Free player version of Voxpat for triggering and auditioning creature voice effect presets."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.digitalbrain-instruments.com/voxpat"
 is_paid = true
 
 [formats.vst3]

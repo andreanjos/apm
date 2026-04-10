@@ -2,11 +2,12 @@ slug = "world-musette"
 name = "World Musette"
 vendor = "Psound"
 version = "1.0.0"
-description = ""
+description = "UVI-based musette accordion library with 7 programs and 20 different global musette sounds."
 category = "instruments"
 subcategory = "keys"
 license = "commercial"
 tags = []
+homepage = "https://www.psound.it/world_musette.html"
 is_paid = true
 
 [formats.vst3]

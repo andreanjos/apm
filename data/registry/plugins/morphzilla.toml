@@ -1,12 +1,13 @@
 slug = "morphzilla"
 name = "Morphzilla"
 vendor = "Micromorph"
-version = "1.0.0"
-description = ""
+version = "2.0"
+description = "Micromorph Morphzilla is a dual-layer Kontakt granular library of organic and found sound textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://johnrushtonmusic.com/micromorph"
 is_paid = true
 
 [formats.vst3]

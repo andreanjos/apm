@@ -1,14 +1,15 @@
 slug = "vla-3a"
 name = "VLA 3A"
 vendor = "Black Rooster Audio"
-version = "1.0.0"
-description = ""
+version = "3.0.0"
+description = "Optoelectronic hybrid compressor combining optical sensing with discrete solid-state circuitry."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://blackroosteraudio.com/en/products/vla-3a"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11333-VLA-3A"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11333-VLA-3A?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

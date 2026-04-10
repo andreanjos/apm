@@ -2,11 +2,12 @@ slug = "silk-piano"
 name = "Silk Piano"
 vendor = "Aria Sounds"
 version = "1.0.0"
-description = ""
+description = "Warm and lush Fazioli concert grand piano Kontakt library with a silky, intimate tone."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://ariasounds.com/product/silk-piano/"
 is_paid = true
 
 [formats.vst3]

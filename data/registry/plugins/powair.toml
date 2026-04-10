@@ -1,12 +1,13 @@
 slug = "powair"
 name = "POWAIR"
 vendor = "Soundradix"
-version = "1.0.0"
-description = ""
+version = "1.1.4"
+description = "Dual-stage loudness leveler and transparent compressor powered by K-weighted auto-leveling."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://www.soundradix.com/products/powair/"
 is_paid = true
 
 [formats.vst3]

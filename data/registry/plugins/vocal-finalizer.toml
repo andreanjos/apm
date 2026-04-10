@@ -1,11 +1,12 @@
 slug = "vocal-finalizer"
 name = "Vocal Finalizer"
 vendor = "NoiseAsh"
-version = "1.0.0"
-description = ""
+version = "1.3.9"
+description = "All-in-one vocal processor with compression, de-esser, delay, reverb, EQ, and doubler in one plugin."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://noiseash.com/vocal-finalizer/"
 is_paid = true
 
 [formats.vst3]

@@ -1,14 +1,15 @@
 slug = "eternal-v2"
 name = "Eternal v2"
 vendor = "Sinevibes"
-version = "1.0.0"
-description = ""
+version = "2.2.0"
+description = "Barber-pole flanger creating endlessly rising or falling flange sweeps using Bode frequency-shifting."
 category = "effects"
 subcategory = "flanger"
 license = "commercial"
 tags = []
+homepage = "https://www.sinevibes.com/eternal/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/3912-Eternal-v2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/3912-Eternal-v2?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

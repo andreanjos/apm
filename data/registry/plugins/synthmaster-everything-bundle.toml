@@ -2,11 +2,12 @@ slug = "synthmaster-everything-bundle"
 name = "SynthMaster Everything Bundle"
 vendor = "KV331 Audio"
 version = "1.0.0"
-description = ""
+description = "Complete KV331 Audio bundle including SynthMaster, SynthMaster One, SynthMaster 3 and all expansion packs."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.kv331audio.com/"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "indian-bansuri-flute"
 name = "Indian Bansuri Flute"
 vendor = "Aria Sounds"
 version = "1.0.0"
-description = ""
+description = "Traditional Indian bamboo bansuri flute Kontakt library with legato, vibrato, and expressive articulations."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://ariasounds.com/product/indian-bansuri-flute/"
 is_paid = true
 
 [formats.vst3]

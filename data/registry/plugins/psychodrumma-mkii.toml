@@ -2,11 +2,12 @@ slug = "psychodrumma-mkii"
 name = "Psychodrumma MKII"
 vendor = "SzcZ"
 version = "1.0.0"
-description = ""
+description = "Neo-retro fantasy Kontakt drum machine with extended randomization and auto pattern generation."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.lootaudio.com/category/kontakt-instruments/szcz/psychodrumma-mkii"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "formant"
 name = "Formant"
 vendor = "Minimal Audio"
 version = "1.0.0"
-description = ""
+description = "Effortless vocal tone shaper plugin for sculpting formant characteristics in voice and instrument tracks."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://www.minimal.audio/products/formant"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15630-Formant"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15630-Formant?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

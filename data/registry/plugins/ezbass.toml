@@ -1,12 +1,13 @@
 slug = "ezbass"
 name = "EZbass"
 vendor = "Toontrack"
-version = "1.0.0"
-description = ""
+version = "1.3.2"
+description = "Virtual bass instrument with intelligent fretboard engine and MIDI groove library for realistic bass performances."
 category = "instruments"
 subcategory = "bass"
 license = "commercial"
 tags = []
+homepage = "https://www.toontrack.com/product/ezbass/"
 is_paid = true
 
 [formats.vst3]

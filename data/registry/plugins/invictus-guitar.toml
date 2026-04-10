@@ -1,12 +1,13 @@
 slug = "invictus-guitar"
 name = "Invictus Guitar"
 vendor = "Martin Britz"
-version = "1.0.0"
-description = ""
+version = "1.4"
+description = "Martin Britz Invictus Guitar is a detailed Kontakt guitar library with expressive articulations."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.martinbritz.com/"
 is_paid = true
 
 [formats.vst3]

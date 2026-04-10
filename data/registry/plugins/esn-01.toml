@@ -2,10 +2,11 @@ slug = "esn-01"
 name = "ESN-01"
 vendor = "Lamprey"
 version = "1.0.0"
-description = ""
+description = "Essence sculptor plugin with low/high frequency sections, custom filters and saturation."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://iamlamprey.com/"
 is_paid = true
 
 [formats.vst3]

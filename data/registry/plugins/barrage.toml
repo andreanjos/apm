@@ -2,11 +2,12 @@ slug = "barrage"
 name = "Barrage"
 vendor = "Hidden Path Audio"
 version = "1.0.0"
-description = ""
+description = "Cinematic percussion designer Kontakt library for creating epic hits, rhythms, and sound-designed chaos."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.hiddenpathaudio.com/"
 is_paid = true
 
 [formats.vst3]

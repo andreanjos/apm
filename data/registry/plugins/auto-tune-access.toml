@@ -1,11 +1,12 @@
 slug = "auto-tune-access"
 name = "Auto-Tune Access"
 vendor = "Antares"
-version = "1.0.0"
-description = ""
+version = "10.0"
+description = "Entry-level real-time pitch correction plugin based on Antares Auto-Tune technology."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.antarestech.com/products/auto-tune/access"
 is_paid = true
 
 [formats.vst3]

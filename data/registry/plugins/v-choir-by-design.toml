@@ -2,11 +2,12 @@ slug = "v-choir-by-design"
 name = "V Choir by Design"
 vendor = "Bela D Media"
 version = "1.0.0"
-description = ""
+description = "Full mixed choir Kontakt library designed for expressive choral arrangements and cinematic scoring."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://beladmedia.com/v-choir-by-design/"
 is_paid = true
 
 [formats.vst3]

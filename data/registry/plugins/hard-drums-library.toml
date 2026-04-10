@@ -2,13 +2,14 @@ slug = "hard-drums-library"
 name = "Hard Drums Library"
 vendor = "Wavelet Audio"
 version = "1.0.0"
-description = ""
+description = "Hard-hitting acoustic drum sample library for Kontakt built for metal and rock music production."
 category = "instruments"
 subcategory = "kontakt instrument"
 license = "commercial"
 tags = []
+homepage = "https://wavelet-audio.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/5025-Hard-Drums-Library"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/5025-Hard-Drums-Library?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

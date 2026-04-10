@@ -2,13 +2,13 @@ slug = "deep-conjuring-2-8211-specters"
 name = "Deep Conjuring 2 &#8211; Specters"
 vendor = "Beautiful Void Audio"
 version = "1.0.0"
-description = ""
+description = "Experimental Kontakt sound design library featuring strange and beautiful soundscapes, drones, and tonal textures."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.beautifulvoidaudio.com/"
 
 [formats.vst3]
 url = ""

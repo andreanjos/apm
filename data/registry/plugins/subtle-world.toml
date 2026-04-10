@@ -2,11 +2,12 @@ slug = "subtle-world"
 name = "Subtle World"
 vendor = "Soundethers"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of ambient fields, texture pads, loops, and rhythmic elements with MIDI CC automation."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://soundethers.wixsite.com/soundethers"
 is_paid = true
 
 [formats.vst3]

@@ -2,13 +2,14 @@ slug = "multiband-x6"
 name = "Multiband X6"
 vendor = "Devious Machines"
 version = "1.0.0"
-description = ""
+description = "Advanced multiband compressor with six bands designed for precise mixing and mastering work."
 category = "effects"
 subcategory = "compressor"
 license = "commercial"
 tags = []
+homepage = "https://deviousmachines.com/product/x6/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10750-Multiband-X6"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10750-Multiband-X6?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

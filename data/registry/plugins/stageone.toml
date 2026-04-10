@@ -2,12 +2,12 @@ slug = "stageone"
 name = "StageOne"
 vendor = "Leapwing Audio"
 version = "1.0.0"
-description = ""
+description = "Stereo soundstage enhancement plugin for widening mixes and bringing mono sources to life."
 category = "effects"
 license = "commercial"
 tags = []
 is_paid = true
-homepage = ""
+homepage = "https://www.leapwingaudio.com/"
 
 [formats.vst3]
 url = ""

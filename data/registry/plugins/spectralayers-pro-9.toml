@@ -1,12 +1,13 @@
 slug = "spectralayers-pro-9"
 name = "SpectraLayers Pro 9"
 vendor = "Steinberg"
-version = "1.0.0"
-description = ""
+version = "9"
+description = "Professional spectral audio editor with AI-powered unmixing and advanced spectral manipulation tools."
 category = "effects"
 subcategory = "audio restoration"
 license = "commercial"
 tags = []
+homepage = "https://www.steinberg.net/spectralayers/"
 is_paid = true
 
 [formats.vst3]

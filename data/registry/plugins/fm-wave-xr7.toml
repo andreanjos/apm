@@ -2,11 +2,12 @@ slug = "fm-wave-xr7"
 name = "FM Wave XR7"
 vendor = "G-Sonique"
 version = "1.0.0"
-description = ""
+description = "Wave-drawing FM synthesizer for crafting vintage FM, analog-style, and sci-fi sound design."
 category = "instruments"
 subcategory = "plugin"
 license = "commercial"
 tags = []
+homepage = "https://www.g-sonique.com/fmwavexr7wavedrawingsynthesizer.html"
 is_paid = true
 
 [formats.vst3]

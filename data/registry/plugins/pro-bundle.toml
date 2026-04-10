@@ -2,10 +2,11 @@ slug = "pro-bundle"
 name = "Pro Bundle"
 vendor = "FabFilter"
 version = "1.0.0"
-description = ""
+description = "Bundle of FabFilter's professional mixing and mastering plugins including Pro-Q 4, Pro-C 3, Pro-L 2, and more."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://www.fabfilter.com/products/total-bundle"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "zerobox"
 name = "ZeroBox"
 vendor = "Xhun Audio"
 version = "1.0.0"
-description = ""
+description = "Analog-modeled bassline synthesizer emulating a legendary sequencer-driven acid machine with ACS technology."
 category = "instruments"
 subcategory = "synth"
 license = "commercial"
 tags = []
+homepage = "https://www.xhun-audio.com/site/xhun.php?page=zerobox"
 is_paid = true
 
 [formats.vst3]

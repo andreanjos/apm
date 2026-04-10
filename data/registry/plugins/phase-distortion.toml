@@ -1,12 +1,13 @@
 slug = "phase-distortion"
 name = "Phase Distortion"
 vendor = "Kilohearts"
-version = "1.0.0"
-description = ""
+version = "2.4.6"
+description = "Phase distortion Snapin that warps audio through phase manipulation for gritty tonal effects."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://kilohearts.com/products/phase_distortion"
 is_paid = true
 
 [formats.vst3]

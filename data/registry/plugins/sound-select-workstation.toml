@@ -2,11 +2,12 @@ slug = "sound-select-workstation"
 name = "Sound Select Workstation"
 vendor = "infinit essentials"
 version = "1.0.0"
-description = ""
+description = "Multi-instrument VSTi with 484 presets and two customizable sound layers for modern production."
 category = "instruments"
 subcategory = "multi instrument"
 license = "commercial"
 tags = []
+homepage = "https://infinit-essentials.com/products/sound-select-workstation-vsti"
 is_paid = true
 
 [formats.vst3]

@@ -2,11 +2,12 @@ slug = "lf-r-lo-fi-rhythms"
 name = "LF_R Lo-Fi Rhythms"
 vendor = "Sketch Sampling"
 version = "1.0.0"
-description = ""
+description = "Lo-fi rhythm sample library for Kontakt with organic percussion and vintage drum character."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://sketchsampling.ru/lf_r/"
 is_paid = true
 
 [formats.vst3]

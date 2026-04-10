@@ -2,13 +2,14 @@ slug = "trapdrive"
 name = "TrapDrive"
 vendor = "Diginoiz"
 version = "1.0.0"
-description = ""
+description = "Distortion plugin tailored for the heavy, aggressive tones of trap music and related genres."
 category = "effects"
 subcategory = "distortion"
 license = "commercial"
 tags = []
+homepage = "https://diginoiz.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/6124-TrapDrive"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/6124-TrapDrive?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,12 +1,13 @@
 slug = "realeight"
 name = "RealEight"
 vendor = "MusicLab"
-version = "1.0.0"
-description = ""
+version = "6"
+description = "Virtual 8-string electric guitar instrument delivering realistic playing techniques and tones."
 category = "instruments"
 subcategory = "guitar"
 license = "commercial"
 tags = []
+homepage = "https://www.musiclab.com/products/realeight/info.html"
 is_paid = true
 
 [formats.vst3]

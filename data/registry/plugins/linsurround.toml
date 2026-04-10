@@ -2,13 +2,14 @@ slug = "linsurround"
 name = "LINSurround"
 vendor = "MAAT"
 version = "1.0.0"
-description = ""
+description = "Channel-count agnostic surround re-dithering plugin supporting up to 128 channels of output."
 category = "tools"
 subcategory = "utility"
 license = "commercial"
 tags = []
+homepage = "https://www.maat.digital/linsurround/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/6946-LINSurround"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/6946-LINSurround?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

@@ -1,14 +1,15 @@
 slug = "eq3v-equalizer"
 name = "EQ3V Equalizer"
 vendor = "Mellowmuse"
-version = "1.0.0"
-description = ""
+version = "2.2.0"
+description = "Third-generation vintage equalizer plugin combining analogue modelling with flexible band control."
 category = "effects"
 subcategory = "eq"
 license = "commercial"
 tags = []
+homepage = "https://www.mellowmuse.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/6693-EQ3V-Equalizer"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/6693-EQ3V-Equalizer?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

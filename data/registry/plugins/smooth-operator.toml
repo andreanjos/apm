@@ -2,10 +2,11 @@ slug = "smooth-operator"
 name = "Smooth Operator"
 vendor = "Baby Audio"
 version = "1.0.0"
-description = ""
+description = "Spectral signal balancer combining resonance suppression, spectral compression, and EQ in one workflow."
 category = "effects"
 license = "commercial"
 tags = []
+homepage = "https://babyaud.io/smooth-operator-plugin"
 is_paid = true
 
 [formats.vst3]

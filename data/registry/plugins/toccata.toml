@@ -2,11 +2,12 @@ slug = "toccata"
 name = "Toccata"
 vendor = "Sonokinetic"
 version = "1.0.0"
-description = ""
+description = "Large pipe church organ multi-sampled Kontakt library for classical and cinematic organ sounds."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://www.sonokinetic.net/products/instruments/toccata/"
 is_paid = true
 
 [formats.vst3]

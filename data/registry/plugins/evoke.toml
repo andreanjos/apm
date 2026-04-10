@@ -2,13 +2,14 @@ slug = "evoke"
 name = "Evoke"
 vendor = "Minimal Audio"
 version = "1.0.0"
-description = ""
+description = "Hypermodern vocal effect plugin for creative vocal processing and transformation."
 category = "effects"
 subcategory = "vocal processing"
 license = "commercial"
 tags = []
+homepage = "https://www.minimal.audio/products/evoke"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15793-Evoke"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15793-Evoke?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

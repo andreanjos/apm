@@ -2,11 +2,12 @@ slug = "power-synth-polysynth"
 name = "Power Synth PolySynth"
 vendor = "Q Up Arts"
 version = "1.0.0"
-description = ""
+description = "Kontakt library of polyphonic synthesizer sounds from classic analog, digital, and vintage synths."
 category = "instruments"
 subcategory = "kontakt full"
 license = "commercial"
 tags = []
+homepage = "https://www.quparts.com/products/power-synth-keyboards"
 is_paid = true
 
 [formats.vst3]

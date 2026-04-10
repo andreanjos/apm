@@ -1,14 +1,15 @@
 slug = "giada"
 name = "Giada"
 vendor = "Giada"
-version = "1.0.0"
-description = ""
+version = "0.18"
+description = "Giada is a free, open-source loop machine and sampler for live performance and production."
 category = "instruments"
 subcategory = "sampler"
 license = "commercial"
 tags = []
+homepage = "https://giadamusic.com/"
 is_paid = true
-purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/666-Giada"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/666-Giada?a_aid=69d5e87c5f2e9"
 
 [formats.vst3]
 url = ""

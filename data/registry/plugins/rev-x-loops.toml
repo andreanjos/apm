@@ -1,12 +1,13 @@
 slug = "rev-x-loops"
 name = "Rev X-Loops"
 vendor = "Output"
-version = "1.0.0"
-description = ""
+version = "1.0"
+description = "Kontakt Player instrument featuring reversed and processed loops for cinematic and electronic music production."
 category = "instruments"
 subcategory = "kontakt player"
 license = "commercial"
 tags = []
+homepage = "https://output.com/products/rev"
 is_paid = true
 
 [formats.vst3]
