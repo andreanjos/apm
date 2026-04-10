@@ -4,5 +4,7 @@ target/
 !.env.example
 .sqlx/
 .planning/
+.claude/
+scripts/
+data/
 autoresearch-results.tsv
-data/msd-sample.json
