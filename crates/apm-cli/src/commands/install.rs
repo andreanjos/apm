@@ -396,19 +396,12 @@ async fn run_single(
         if is_manual {
             let homepage = plugin.homepage.as_deref().unwrap_or("(no homepage listed)");
 
+            println!("{} requires manual installation.\n", plugin.name.bold());
+            println!("Opening the download page: {}", homepage.cyan());
             println!(
-                "{} requires manual download (account signup needed).\n",
-                plugin.name.bold()
-            );
-            println!("1. Download the installer from: {}", homepage.cyan());
-            println!("   (Opening in your browser...)\n");
-            println!(
-                "2. Once downloaded, run:\n   {}",
-                format!(
-                    "apm install {} --from-file ~/Downloads/<installer>",
-                    plugin.slug
-                )
-                .bold()
+                "After installing {}, run {} to track it in apm.",
+                plugin.name.bold(),
+                "apm scan".bold()
             );
 
             // Try to open the homepage in the default browser (macOS `open`).
@@ -584,9 +577,10 @@ fn handle_managed_install(
             .spawn()
             .map_err(|e| anyhow::anyhow!("Failed to launch {}: {e}", installer.name))?;
         println!(
-            "Use {} to download and activate {}.",
+            "Use {} to download and activate {}. Then run {} to track it in apm.",
             installer.name.bold(),
-            plugin.name.bold()
+            plugin.name.bold(),
+            "apm scan".bold()
         );
         return Ok(());
     }
@@ -602,9 +596,10 @@ fn handle_managed_install(
         .spawn()
         .map_err(|e| anyhow::anyhow!("Failed to open browser: {e}"))?;
     println!(
-        "After installing {}, run `apm install {}` again.",
+        "After installing {}, use it to install {}. Then run {} to track it in apm.",
         installer.name.bold(),
-        plugin.slug.bold()
+        plugin.name.bold(),
+        "apm scan".bold()
     );
     Ok(())
 }

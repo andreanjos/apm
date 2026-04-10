@@ -152,8 +152,8 @@ enum Commands {
     /// Multiple plugins can be installed in one command:
     ///   apm install vital surge-xt dexed
     ///
-    /// For plugins that require manual download (e.g. account signup), use
-    /// --from-file to provide the downloaded archive directly (single plugin only).
+    /// For plugins that require manual or vendor-managed installation, apm opens
+    /// the vendor page/app. After installing externally, run `apm scan` to track it.
     #[command(alias = "i", disable_version_flag = true)]
     Install {
         /// Plugin name(s) or slug(s) to install (e.g. "tal-noisemaker").
@@ -181,11 +181,10 @@ enum Commands {
         #[arg(long)]
         system: bool,
 
-        /// Install from a local file instead of downloading.
+        /// Install from a local archive instead of downloading.
         ///
-        /// Skips the download step and uses the provided archive path directly.
-        /// SHA256 is still verified if the registry has a known checksum.
-        /// Only valid when installing a single plugin.
+        /// Escape hatch for direct archive installs. Normal manual/vendor flows
+        /// should install externally and then run `apm scan`.
         #[arg(long)]
         from_file: Option<PathBuf>,
 

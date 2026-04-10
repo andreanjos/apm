@@ -12,6 +12,31 @@ use tracing::debug;
 use crate::config::Config;
 use crate::registry::PluginFormat;
 
+// ── InstallOrigin ────────────────────────────────────────────────────────────
+
+/// How apm learned about this installed plugin.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "lowercase")]
+pub enum InstallOrigin {
+    /// Installed directly by apm from an archive.
+    Apm,
+    /// Installed outside apm and reconciled later by `apm scan`.
+    External,
+}
+
+impl std::fmt::Display for InstallOrigin {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            Self::Apm => write!(f, "apm"),
+            Self::External => write!(f, "external"),
+        }
+    }
+}
+
+fn default_install_origin() -> InstallOrigin {
+    InstallOrigin::Apm
+}
+
 // ── InstalledFormat ───────────────────────────────────────────────────────────
 
 /// A single installed bundle (one per format) for a managed plugin.
@@ -53,6 +78,10 @@ pub struct InstalledPlugin {
     /// If true, `apm upgrade` will skip this plugin.
     #[serde(default)]
     pub pinned: bool,
+
+    /// Whether apm installed this directly or discovered it from disk.
+    #[serde(default = "default_install_origin")]
+    pub origin: InstallOrigin,
 }
 
 // ── InstallState ──────────────────────────────────────────────────────────────
@@ -218,6 +247,7 @@ mod tests {
             installed_at: Utc::now(),
             source: "official".to_string(),
             pinned: false,
+            origin: InstallOrigin::Apm,
         }
     }
 

@@ -5,7 +5,7 @@ use colored::Colorize;
 use serde_json;
 
 use apm_core::config::Config;
-use apm_core::state::InstallState;
+use apm_core::state::{InstallOrigin, InstallState};
 
 pub async fn run(config: &Config, name: &str, json: bool, dry_run: bool) -> Result<()> {
     // ── Load state ────────────────────────────────────────────────────────────
@@ -31,6 +31,26 @@ pub async fn run(config: &Config, name: &str, json: bool, dry_run: bool) -> Resu
             return Ok(());
         }
     };
+
+    if plugin.origin == InstallOrigin::External {
+        if json {
+            println!(
+                "{}",
+                serde_json::json!({
+                    "removed": false,
+                    "plugin": plugin.name,
+                    "reason": "external install",
+                })
+            );
+        } else {
+            println!(
+                "{} was discovered by `apm scan`; apm will not delete externally installed files.",
+                plugin.name.bold()
+            );
+            println!("Remove it with the vendor installer or Finder, then run `apm scan` again.");
+        }
+        return Ok(());
+    }
 
     // ── Dry-run: show what would be removed and exit ─────────────────────────
 

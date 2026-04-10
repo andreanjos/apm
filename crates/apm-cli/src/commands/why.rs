@@ -22,6 +22,8 @@ struct WhyJson {
     #[serde(skip_serializing_if = "Option::is_none")]
     source: Option<String>,
     #[serde(skip_serializing_if = "Option::is_none")]
+    origin: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
     pinned: Option<bool>,
     #[serde(skip_serializing_if = "Option::is_none")]
     formats: Option<Vec<FormatJson>>,
@@ -46,6 +48,7 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
                     installed_at: None,
                     version: None,
                     source: None,
+                    origin: None,
                     pinned: None,
                     formats: None,
                 };
@@ -77,6 +80,7 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
             installed_at: Some(plugin.installed_at.format("%Y-%m-%dT%H:%M:%SZ").to_string()),
             version: Some(plugin.version.clone()),
             source: Some(plugin.source.clone()),
+            origin: Some(plugin.origin.to_string()),
             pinned: Some(plugin.pinned),
             formats: Some(formats),
         };
@@ -95,6 +99,7 @@ fn print_why(plugin: &apm_core::state::InstalledPlugin) {
     println!("  {:<12}{}", "Installed:".dimmed(), timestamp);
     println!("  {:<12}{}", "Version:".dimmed(), plugin.version.cyan());
     println!("  {:<12}{}", "Source:".dimmed(), plugin.source);
+    println!("  {:<12}{}", "Origin:".dimmed(), plugin.origin);
     println!(
         "  {:<12}{}",
         "Pinned:".dimmed(),

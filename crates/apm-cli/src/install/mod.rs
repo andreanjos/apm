@@ -19,7 +19,7 @@ use tracing::{debug, info};
 use apm_core::config::{Config, InstallScope};
 use apm_core::error::ApmError;
 use apm_core::registry::{FormatSource, InstallType, PluginDefinition, PluginFormat};
-use apm_core::state::{InstallState, InstalledFormat, InstalledPlugin};
+use apm_core::state::{InstallOrigin, InstallState, InstalledFormat, InstalledPlugin};
 
 // ── SHA256 placeholder detection ──────────────────────────────────────────────
 
@@ -156,6 +156,7 @@ pub async fn install_plugin(
             .clone()
             .unwrap_or_else(|| "official".to_owned()),
         pinned: false,
+        origin: InstallOrigin::Apm,
     };
 
     state.record_install(record);

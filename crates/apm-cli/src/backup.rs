@@ -9,7 +9,7 @@ use tracing::{debug, info};
 
 use crate::install::quarantine;
 use apm_core::config::Config;
-use apm_core::state::{InstallState, InstalledFormat, InstalledPlugin};
+use apm_core::state::{InstallOrigin, InstallState, InstalledFormat, InstalledPlugin};
 
 // ── BackupEntry ───────────────────────────────────────────────────────────────
 
@@ -231,6 +231,7 @@ pub fn restore_plugin(slug: &str, config: &Config, state: &mut InstallState) -> 
             installed_at: entry.created_at,
             source: "backup".to_owned(),
             pinned: false,
+            origin: InstallOrigin::Apm,
         });
     }
 

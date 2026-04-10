@@ -59,7 +59,6 @@ apm install tal-noisemaker                    # Install (AU + VST3)
 apm install tal-noisemaker --format vst3      # VST3 only (also supports au/app)
 apm install tal-noisemaker --version 4.3.2    # Specific version
 sudo apm install tal-noisemaker --system      # System-wide (/Library/)
-apm install tal-noisemaker --from-file ~/Downloads/TAL-NoiseMaker.pkg
 printf "vital\nsurge-xt\n" | apm install --stdin
 apm install --dry-run surge-xt                # Preview without installing
 apm install massive-x                         # Opens Native Access when required
@@ -73,7 +72,8 @@ entries install to `~/Applications/` unless `--system` is used.
 Some commercial plugins are handled through vendor installer apps such as
 Native Access, Arturia Software Center, Waves Central, or UA Connect. For
 those entries, `apm install <plugin>` opens the required vendor manager or its
-download page instead of trying to fetch the archive directly.
+download page instead of trying to fetch the archive directly. After installing
+through the vendor flow, run `apm scan` to track the installed plugin in apm.
 
 ### Updates and versioning
 
@@ -110,7 +110,7 @@ need an editable file instead of the portable `apm1://...` string.
 
 ```sh
 apm list                # apm-managed plugins
-apm scan                # All AU/VST3 on the system
+apm scan                # All AU/VST3 on the system; tracks matched external installs
 apm doctor              # Run diagnostic checks
 apm cleanup             # Clear download cache
 apm rollback <slug>     # Restore from pre-upgrade backup

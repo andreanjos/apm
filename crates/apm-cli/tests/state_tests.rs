@@ -25,6 +25,17 @@ impl std::fmt::Display for PluginFormat {
     }
 }
 
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "lowercase")]
+enum InstallOrigin {
+    Apm,
+    External,
+}
+
+fn default_install_origin() -> InstallOrigin {
+    InstallOrigin::Apm
+}
+
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct InstalledFormat {
     format: PluginFormat,
@@ -42,6 +53,8 @@ struct InstalledPlugin {
     source: String,
     #[serde(default)]
     pinned: bool,
+    #[serde(default = "default_install_origin")]
+    origin: InstallOrigin,
 }
 
 fn default_schema_version() -> u32 {
@@ -145,6 +158,7 @@ fn make_plugin(name: &str, version: &str) -> InstalledPlugin {
         installed_at: Utc::now(),
         source: "official".to_string(),
         pinned: false,
+        origin: InstallOrigin::Apm,
     }
 }
 
@@ -371,6 +385,7 @@ fn test_save_and_reload_preserves_multiple_formats() {
         installed_at: Utc::now(),
         source: "official".to_string(),
         pinned: false,
+        origin: InstallOrigin::Apm,
     };
     state.record_install(plugin);
 

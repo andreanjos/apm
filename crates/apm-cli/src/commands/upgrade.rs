@@ -7,7 +7,7 @@ use serde::Serialize;
 
 use apm_core::config::Config;
 use apm_core::registry::Registry;
-use apm_core::state::InstallState;
+use apm_core::state::{InstallOrigin, InstallState};
 
 #[derive(Serialize)]
 struct UpgradeResult {
@@ -64,6 +64,7 @@ pub async fn run(
         installed_version: String,
         available_version: String,
         pinned: bool,
+        origin: InstallOrigin,
     }
 
     let candidates: Vec<UpgradeCandidate> = if let Some(target) = name {
@@ -124,6 +125,7 @@ pub async fn run(
             installed_version: installed.version.clone(),
             available_version: latest_release.version,
             pinned: installed.pinned,
+            origin: installed.origin,
         }]
     } else {
         // Bulk upgrade — find all outdated, unpinned plugins.
@@ -139,6 +141,7 @@ pub async fn run(
                         installed_version: installed.version.clone(),
                         available_version: latest_release.version,
                         pinned: installed.pinned,
+                        origin: installed.origin,
                     })
                 } else {
                     None
@@ -170,14 +173,19 @@ pub async fn run(
         let mut dry_upgraded = Vec::new();
         let mut dry_skipped = Vec::new();
         for candidate in &candidates {
-            if candidate.pinned {
+            if candidate.pinned || candidate.origin == InstallOrigin::External {
+                let reason = if candidate.pinned {
+                    "pinned — would be skipped"
+                } else {
+                    "external install — would be skipped"
+                };
                 if !json {
                     println!(
                         "  {} {} -> {} {}",
                         candidate.slug.bold(),
                         candidate.installed_version.cyan(),
                         candidate.available_version.cyan(),
-                        "(pinned — would be skipped)".dimmed()
+                        format!("({reason})").dimmed()
                     );
                 }
                 dry_skipped.push(UpgradeEntry {
@@ -217,12 +225,12 @@ pub async fn run(
         // Compute alignment: find the longest slug among non-pinned candidates.
         let max_name = candidates
             .iter()
-            .filter(|c| !c.pinned)
+            .filter(|c| !c.pinned && c.origin == InstallOrigin::Apm)
             .map(|c| c.slug.len())
             .max()
             .unwrap_or(0);
         for candidate in &candidates {
-            if candidate.pinned {
+            if candidate.pinned || candidate.origin == InstallOrigin::External {
                 continue;
             }
             println!(
@@ -233,12 +241,19 @@ pub async fn run(
                 width = max_name,
             );
         }
-        let upgradable = candidates.iter().filter(|c| !c.pinned).count();
+        let upgradable = candidates
+            .iter()
+            .filter(|c| !c.pinned && c.origin == InstallOrigin::Apm)
+            .count();
         let pinned = candidates.iter().filter(|c| c.pinned).count();
-        if pinned > 0 {
+        let external = candidates
+            .iter()
+            .filter(|c| c.origin == InstallOrigin::External)
+            .count();
+        if pinned > 0 || external > 0 {
             print!(
-                "\n{} plugin(s) to upgrade ({} pinned, skipped). ",
-                upgradable, pinned
+                "\n{} plugin(s) to upgrade ({} pinned, {} external, skipped). ",
+                upgradable, pinned, external
             );
         } else {
             print!("\n{} plugin(s) to upgrade. ", upgradable);
@@ -302,6 +317,20 @@ pub async fn run(
                 });
                 continue;
             }
+        }
+
+        if candidate.origin == InstallOrigin::External {
+            if !json {
+                println!(
+                    "Skipping {} (external install; update it with the vendor installer or manually, then run `apm scan`)",
+                    candidate.slug
+                );
+            }
+            skipped_entries.push(UpgradeEntry {
+                name: candidate.slug.clone(),
+                version: candidate.installed_version.clone(),
+            });
+            continue;
         }
 
         // Look up the full registry definition.

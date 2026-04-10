@@ -24,6 +24,7 @@ struct InstalledPluginJson {
     installed_at: String,
     source: String,
     pinned: bool,
+    origin: String,
 }
 
 pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) -> Result<()> {
@@ -107,6 +108,7 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
                 installed_at: plugin.installed_at.to_rfc3339(),
                 source: plugin.source.clone(),
                 pinned: plugin.pinned,
+                origin: plugin.origin.to_string(),
             })
             .collect();
         println!("{}", serde_json::to_string_pretty(&results)?);
@@ -116,6 +118,7 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
     const HDR_NAME: &str = "Name";
     const HDR_VER: &str = "Version";
     const HDR_FMT: &str = "Format";
+    const HDR_ORIGIN: &str = "Origin";
     const HDR_PATH: &str = "Path";
 
     let rows: Vec<_> = plugins
@@ -141,17 +144,23 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
         .max()
         .unwrap_or(0)
         .max(HDR_FMT.len());
+    let w_origin = rows
+        .iter()
+        .map(|(plugin, _)| plugin.origin.to_string().len())
+        .max()
+        .unwrap_or(0)
+        .max(HDR_ORIGIN.len());
 
     println!(
         "{}",
         format!(
-            "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {}",
-            HDR_NAME, HDR_VER, HDR_FMT, HDR_PATH,
+            "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {:<w_origin$}  {}",
+            HDR_NAME, HDR_VER, HDR_FMT, HDR_ORIGIN, HDR_PATH,
         )
         .bold()
     );
 
-    let rule_len = w_name + 2 + w_ver + 2 + w_fmt + 2 + HDR_PATH.len();
+    let rule_len = w_name + 2 + w_ver + 2 + w_fmt + 2 + w_origin + 2 + HDR_PATH.len();
     println!("{}", "\u{2500}".repeat(rule_len).dimmed());
 
     for (plugin, fmt_label) in &rows {
@@ -163,10 +172,11 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
             .unwrap_or_default();
 
         println!(
-            "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {}",
+            "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {:<w_origin$}  {}",
             plugin.name.bold().to_string(),
             plugin.version.cyan().to_string(),
             fmt_label,
+            plugin.origin.to_string(),
             path_str.dimmed(),
         );
     }
@@ -175,7 +185,7 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
     println!(
         "{}",
         format!(
-            "{} plugin{} managed by apm.",
+            "{} plugin{} tracked by apm.",
             plugins.len(),
             if plugins.len() == 1 { "" } else { "s" }
         )

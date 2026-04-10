@@ -282,7 +282,7 @@ pub fn build_preview(
 mod tests {
     use super::*;
     use apm_core::config::{Config, InstallScope, SourceEntry};
-    use apm_core::state::{InstallState, InstalledPlugin};
+    use apm_core::state::{InstallOrigin, InstallState, InstalledPlugin};
     use chrono::Utc;
 
     fn sample_setup() -> PortableSetup {
@@ -578,6 +578,7 @@ mod tests {
                     installed_at: Utc::now(),
                     source: "official".to_string(),
                     pinned: false,
+                    origin: InstallOrigin::Apm,
                 },
                 InstalledPlugin {
                     name: "surge-xt".to_string(),
@@ -587,6 +588,7 @@ mod tests {
                     installed_at: Utc::now(),
                     source: "official".to_string(),
                     pinned: false,
+                    origin: InstallOrigin::Apm,
                 },
                 InstalledPlugin {
                     name: "helm".to_string(),
@@ -596,6 +598,7 @@ mod tests {
                     installed_at: Utc::now(),
                     source: "official".to_string(),
                     pinned: false,
+                    origin: InstallOrigin::Apm,
                 },
             ],
         };
@@ -885,6 +888,7 @@ mod tests {
                     installed_at: Utc::now(),
                     source: "official".to_string(),
                     pinned: false,
+                    origin: InstallOrigin::Apm,
                 },
                 InstalledPlugin {
                     name: "synth-current".to_string(),
@@ -894,6 +898,7 @@ mod tests {
                     installed_at: Utc::now(),
                     source: "official".to_string(),
                     pinned: false,
+                    origin: InstallOrigin::Apm,
                 },
             ],
         };
