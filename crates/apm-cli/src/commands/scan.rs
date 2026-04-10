@@ -113,10 +113,17 @@ pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) ->
         });
     }
 
-    // Persist any newly learned bundle IDs.
+    // Persist any newly learned bundle IDs locally.
     if learned > 0 {
         if let Some(ref store) = bid_store {
             let _ = store.save();
+        }
+        // Submit learned mappings to the server in the background.
+        if let Some(ref store) = bid_store {
+            let mappings = store.all_mappings().into_iter()
+                .map(|(prefix, slug)| (prefix.to_string(), slug.to_string()))
+                .collect::<Vec<_>>();
+            tokio::spawn(submit_bundle_ids(mappings));
         }
     }
 
@@ -241,4 +248,52 @@ pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) ->
     );
 
     Ok(())
+}
+
+/// Submit learned bundle ID mappings to the apm server. Fire-and-forget —
+/// failures are silently ignored since this is best-effort telemetry.
+async fn submit_bundle_ids(mappings: Vec<(String, String)>) {
+    let server_url = std::env::var("APM_SERVER_URL")
+        .unwrap_or_else(|_| "https://api.apm-pm.dev".to_string());
+
+    let reporter_hash = machine_hash();
+
+    let body = serde_json::json!({
+        "mappings": mappings.iter().map(|(prefix, slug)| {
+            serde_json::json!({
+                "bundle_id_prefix": prefix,
+                "registry_slug": slug,
+            })
+        }).collect::<Vec<_>>(),
+        "reporter_hash": reporter_hash,
+    });
+
+    let _ = reqwest::Client::new()
+        .post(format!("{server_url}/api/bundle-ids"))
+        .json(&body)
+        .timeout(std::time::Duration::from_secs(5))
+        .send()
+        .await;
+}
+
+/// Generate a stable anonymous hash for this machine using the macOS
+/// hardware UUID. Produces a consistent identifier without leaking PII.
+fn machine_hash() -> String {
+    use std::collections::hash_map::DefaultHasher;
+    use std::hash::{Hash, Hasher};
+
+    let mut hasher = DefaultHasher::new();
+
+    if let Ok(output) = std::process::Command::new("ioreg")
+        .args(["-rd1", "-c", "IOPlatformExpertDevice"])
+        .output()
+    {
+        if let Ok(stdout) = String::from_utf8(output.stdout) {
+            if let Some(line) = stdout.lines().find(|l| l.contains("IOPlatformUUID")) {
+                line.hash(&mut hasher);
+            }
+        }
+    }
+
+    format!("{:016x}", hasher.finish())
 }
