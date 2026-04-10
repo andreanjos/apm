@@ -131,9 +131,15 @@ fn print_random_pick(p: &PluginDefinition, category_filter: Option<&str>) {
     println!("   {:<11} {}", "Version:".dimmed(), p.version.cyan());
     println!(
         "   {:<11} {}",
-        "License:".dimmed(),
+        "Type:".dimmed(),
+        if p.is_paid { "Paid" } else { "Free" }
+    );
+    println!(
+        "   {:<11} {}",
+        "Price:".dimmed(),
         format_price(p.price_cents, p.currency.as_deref(), p.is_paid)
     );
+    println!("   {:<11} {}", "License:".dimmed(), p.license);
 
     if !p.description.is_empty() {
         println!();

@@ -56,6 +56,27 @@ pub async fn run(
         );
     }
 
+    if bundle.is_some() && !plugins.is_empty() {
+        anyhow::bail!(
+            "--bundle cannot be combined with positional plugin names.\n\
+             Hint: Use either `apm install --bundle <name>` or `apm install <plugin> ...`."
+        );
+    }
+
+    if bundle.is_some() && stdin {
+        anyhow::bail!(
+            "--bundle cannot be combined with --stdin.\n\
+             Hint: Use `apm install --bundle <name>` by itself for bundle installs."
+        );
+    }
+
+    if bundle.is_some() && from_file.is_some() {
+        anyhow::bail!(
+            "--bundle cannot be combined with --from-file.\n\
+             Hint: `--from-file` only applies to single-plugin archive installs."
+        );
+    }
+
     if version.is_some() && plugins.len() > 1 {
         anyhow::bail!(
             "--version can only be used when installing a single plugin.\n\

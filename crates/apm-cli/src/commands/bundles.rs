@@ -69,10 +69,7 @@ fn run_list(registry: &Registry, json: bool) -> Result<()> {
         "Install a bundle with: {}",
         "apm install --bundle <name>".bold()
     );
-    println!(
-        "Show bundle details with: {}",
-        "apm bundles info <name>".bold()
-    );
+    println!("Show bundle details with: {}", "apm bundles <name>".bold());
 
     Ok(())
 }

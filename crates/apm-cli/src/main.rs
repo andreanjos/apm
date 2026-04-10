@@ -100,7 +100,7 @@ enum Commands {
         /// Search query (e.g. "reverb", "tal", "free synth"). Omit to list all.
         query: Option<String>,
 
-        /// Filter results by category (e.g. "instrument", "effect", "reverb").
+        /// Filter results by category (e.g. "instruments", "effects", "reverb").
         #[arg(long, short = 'c')]
         category: Option<String>,
 
@@ -157,7 +157,7 @@ enum Commands {
     #[command(alias = "i", disable_version_flag = true)]
     Install {
         /// Plugin name(s) or slug(s) to install (e.g. "tal-noisemaker").
-        #[arg(required_unless_present_any = ["from_file", "stdin"])]
+        #[arg(required_unless_present_any = ["from_file", "stdin", "bundle"])]
         plugins: Vec<String>,
 
         /// Read plugin names from stdin (one per line or space-separated).
@@ -459,7 +459,7 @@ enum Commands {
     /// discovering plugins you might not have found through search. Optionally
     /// filter by category to narrow the suggestion to instruments, effects, etc.
     Random {
-        /// Limit to a category (e.g. "instrument", "effect", "reverb").
+        /// Limit to a category (e.g. "instruments", "effects", "reverb").
         #[arg(long, short = 'c')]
         category: Option<String>,
     },
@@ -518,7 +518,7 @@ enum Commands {
     /// left to try. Optionally filter by category or cap the output.
     #[command(alias = "available")]
     Uninstalled {
-        /// Filter by category (e.g. "instrument", "effect", "reverb").
+        /// Filter by category (e.g. "instruments", "effects", "reverb").
         #[arg(long, short = 'c')]
         category: Option<String>,
 
