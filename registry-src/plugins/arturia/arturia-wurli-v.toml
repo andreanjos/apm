@@ -1,0 +1,25 @@
+slug = "arturia-wurli-v"
+name = "Wurli V"
+vendor = "arturia"
+version = "3.0.4"
+description = "Wurlitzer 200 electric piano emulation using Phi physical modeling with 4 FX slots and 16 FX types."
+category = "instruments"
+subcategory = "keys"
+license = "commercial"
+tags = ["wurlitzer", "electric-piano", "keys", "vintage", "v-collection"]
+installer = "arturia-software-center"
+homepage = "https://www.arturia.com/products/software-instruments/wurli-v/overview"
+
+[formats.vst3]
+url = "https://www.arturia.com/support/downloads-manuals"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Wurli V3.vst3"
+
+[formats.au]
+url = "https://www.arturia.com/support/downloads-manuals"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Wurli V3.component"

@@ -1,0 +1,25 @@
+slug = "uad-neve-2254e"
+name = "Neve 2254 E"
+vendor = "universal-audio"
+version = "1.0"
+description = "Compressor/limiter from the Neve 2254 with its warm, musical character"
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = ["compressor", "limiter", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Neve 2254 E.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Neve 2254 E.component"

@@ -1,0 +1,22 @@
+slug = "socalabs-midi-looper"
+name = "SocaLabs MIDI Looper"
+vendor = "socalabs"
+version = "1.0.0"
+description = "Free MIDI player plugin for testing synthesizer plugins during development."
+category = "effects"
+subcategory = "utility"
+license = "GPL-3.0"
+tags = ["midi", "looper", "testing", "developer", "utility", "free", "open-source"]
+homepage = "https://socalabs.com/developer-tools/midilooper/"
+
+[formats.vst3]
+url = "https://socalabs.com/files/get.php?id=MidiLooper_Mac.zip"
+sha256 = "3682307720b1b93e87a1d1f573ad802b46abec3faed2d00d897e12ab15ff46e5"
+install_type = "zip"
+bundle_path = "vst3/MidiLooper.vst3"
+
+[formats.au]
+url = "https://socalabs.com/files/get.php?id=MidiLooper_Mac.zip"
+sha256 = "3682307720b1b93e87a1d1f573ad802b46abec3faed2d00d897e12ab15ff46e5"
+install_type = "zip"
+bundle_path = "au/MidiLooper.component"

@@ -1,0 +1,25 @@
+slug = "uad-a-type-enhancer"
+name = "A-Type Multiband Enhancer"
+vendor = "universal-audio"
+version = "1.0"
+description = "Multiband harmonic enhancer for adding clarity and detail across frequency bands"
+category = "effects"
+subcategory = "enhancer"
+license = "commercial"
+tags = ["enhancer", "multiband", "harmonic", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD A-Type Multiband Enhancer.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD A-Type Multiband Enhancer.component"

@@ -1,0 +1,22 @@
+slug = "waves-vocal-rider"
+name = "Vocal Rider"
+vendor = "waves"
+version = "16.0"
+description = "Automatic vocal level riding plugin that intelligently adjusts vocal gain in real time, eliminating manual fader automation."
+category = "effects"
+subcategory = "dynamics"
+license = "commercial"
+tags = ["vocals", "automation", "leveling", "dynamics", "mixing", "rider", "gain"]
+homepage = "https://www.waves.com/plugins/vocal-rider"
+
+[formats.vst3]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Vocal Rider.vst3"
+
+[formats.au]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Vocal Rider.component"

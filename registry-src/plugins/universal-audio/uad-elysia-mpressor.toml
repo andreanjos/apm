@@ -1,0 +1,25 @@
+slug = "uad-elysia-mpressor"
+name = "elysia mpressor"
+vendor = "universal-audio"
+version = "1.0"
+description = "Creative stereo compressor with anti-log attack curves, negative ratios, and GainReduction limiter for aggressive processing."
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = ["compressor", "creative", "elysia", "aggressive", "stereo", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/elysia-mpressor.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD elysia mpressor.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD elysia mpressor.component"

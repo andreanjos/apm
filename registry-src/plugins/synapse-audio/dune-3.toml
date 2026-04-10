@@ -1,0 +1,22 @@
+slug = "dune-3"
+name = "DUNE 3"
+vendor = "synapse-audio"
+version = "3.6.5"
+description = "Versatile VA/FM/wavetable synthesizer with massive unison capabilities, dual filters, 1000+ factory presets, and Apple Silicon native support."
+category = "instruments"
+subcategory = "synthesizer"
+license = "commercial"
+tags = ["synth", "synthesizer", "virtual-analog", "wavetable", "fm", "unison"]
+homepage = "https://www.synapse-audio.com/dune3.html"
+
+[formats.vst3]
+url = "https://www.synapse-audio.com/dune3.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "DUNE 3.vst3"
+
+[formats.au]
+url = "https://www.synapse-audio.com/dune3.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "DUNE 3.component"

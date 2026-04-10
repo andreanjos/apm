@@ -1,0 +1,22 @@
+slug = "paulxstretch"
+name = "PaulXStretch"
+vendor = "sonosaurus"
+version = "1.6.0"
+description = "Extreme time-stretching application and plugin for ambient sound design, with live recording, binaural beats, and CLAP support."
+category = "effects"
+subcategory = "time-stretch"
+license = "GPL-3.0"
+tags = ["time-stretch", "ambient", "sound-design", "granular", "experimental", "free", "open-source"]
+homepage = "https://sonosaurus.com/paulxstretch/"
+
+[formats.vst3]
+url = "https://github.com/essej/paulxstretch/releases/download/v1.6.0/paulxstretch-1.6.0-mac.dmg"
+sha256 = "c5bcba5215076f629c3442902eaba4825a7f71ac33fc2d793c7cb729bdeb17ad"
+install_type = "dmg"
+bundle_path = "PaulXStretch.vst3"
+
+[formats.au]
+url = "https://github.com/essej/paulxstretch/releases/download/v1.6.0/paulxstretch-1.6.0-mac.dmg"
+sha256 = "c5bcba5215076f629c3442902eaba4825a7f71ac33fc2d793c7cb729bdeb17ad"
+install_type = "dmg"
+bundle_path = "PaulXStretch.component"

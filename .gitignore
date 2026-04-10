@@ -5,6 +5,14 @@ target/
 .planning/
 .claude/
 scripts/
+!scripts/
+scripts/*
+!scripts/generate-registry.py
+!scripts/enrich-registry.py
+!scripts/apply-enrichment.py
+!scripts/migrate-registry-to-source.py
+!scripts/build-registry.py
+!scripts/learn-bundle-ids.py
 data/
 crates/apm-server/
 migrations/

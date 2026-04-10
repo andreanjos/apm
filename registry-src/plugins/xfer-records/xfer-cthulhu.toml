@@ -1,0 +1,22 @@
+slug = "xfer-cthulhu"
+name = "Cthulhu"
+vendor = "xfer-records"
+version = "1.248"
+description = "MIDI chord memorizer/player with 150+ chord presets and a pattern-based arpeggiator with 8-tab step sequencer."
+category = "midi"
+subcategory = "chord-arpeggiator"
+license = "commercial"
+tags = ["midi", "chords", "arpeggiator", "sequencer", "harmony"]
+homepage = "https://xferrecords.com/products/cthulhu"
+
+[formats.vst3]
+url = "https://xferrecords.com/products/cthulhu"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "Cthulhu.vst3"
+
+[formats.au]
+url = "https://xferrecords.com/products/cthulhu"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "Cthulhu.component"

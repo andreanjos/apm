@@ -1,0 +1,25 @@
+slug = "uad-176"
+name = "UA 176"
+vendor = "universal-audio"
+version = "1.0"
+description = "Vintage tube compressor/limiter emulation of the UA 176 with push-pull output"
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = ["compressor", "tube", "limiter", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD UA 176.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD UA 176.component"

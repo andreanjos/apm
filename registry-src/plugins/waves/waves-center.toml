@@ -1,0 +1,22 @@
+slug = "waves-center"
+name = "Center"
+vendor = "waves"
+version = "16.0"
+description = "Stereo imaging plugin for extracting, enhancing, or attenuating the center channel of a stereo mix independently from the sides."
+category = "effects"
+subcategory = "stereo-imaging"
+license = "commercial"
+tags = ["stereo", "imaging", "mid-side", "center", "width", "mixing", "mastering"]
+homepage = "https://www.waves.com/plugins/center"
+
+[formats.vst3]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Center.vst3"
+
+[formats.au]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Center.component"

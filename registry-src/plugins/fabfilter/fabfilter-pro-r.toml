@@ -1,0 +1,22 @@
+slug = "fabfilter-pro-r"
+name = "FabFilter Pro-R 2"
+vendor = "fabfilter"
+version = "2.05"
+description = "Natural-sounding reverb with musical controls, Decay Rate EQ, vintage and plate algorithms, IR import, and ducking/gating."
+category = "effects"
+subcategory = "reverb"
+license = "commercial"
+tags = ["reverb", "spatial", "mixing", "mastering"]
+homepage = "https://www.fabfilter.com/products/pro-r-2-reverb-plug-in"
+
+[formats.vst3]
+url = "https://cdn-b.fabfilter.com/downloads/ffpror205.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Pro-R 2.vst3"
+
+[formats.au]
+url = "https://cdn-b.fabfilter.com/downloads/ffpror205.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Pro-R 2.component"

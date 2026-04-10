@@ -1,0 +1,22 @@
+slug = "soundtoys-primaltap"
+name = "PrimalTap"
+vendor = "soundtoys"
+version = "5.5.4"
+description = "Retro dual delay modeled on 1978 hardware with freeze for lo-fi pitch-warped loops and delays."
+category = "effects"
+subcategory = "delay"
+license = "commercial"
+tags = ["delay", "lo-fi", "retro", "freeze", "pitch-warp", "dual-delay"]
+homepage = "https://www.soundtoys.com/product/primaltap/"
+
+[formats.vst3]
+url = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/PrimalTap5_5.5.4.18982.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "PrimalTap.vst3"
+
+[formats.au]
+url = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/PrimalTap5_5.5.4.18982.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "PrimalTap.component"

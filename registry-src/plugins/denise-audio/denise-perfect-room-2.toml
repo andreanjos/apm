@@ -1,0 +1,22 @@
+slug = "denise-perfect-room-2"
+name = "Perfect Room 2"
+vendor = "denise-audio"
+version = "2.0"
+description = "Ultra-clean zero-latency reverb plugin with an improved Dynamic Room Response engine for natural, artifact-free room sounds."
+category = "effects"
+subcategory = "reverb"
+license = "commercial"
+tags = ["reverb", "room", "clean", "zero-latency", "natural", "mixing", "mastering"]
+homepage = "https://www.deniseaudio.com/plugins/perfect-room-2"
+
+[formats.vst3]
+url = "https://www.deniseaudio.com/plugins/perfect-room-2"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Perfect Room 2.vst3"
+
+[formats.au]
+url = "https://www.deniseaudio.com/plugins/perfect-room-2"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Perfect Room 2.component"

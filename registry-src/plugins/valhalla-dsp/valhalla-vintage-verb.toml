@@ -1,0 +1,22 @@
+slug = "valhalla-vintage-verb"
+name = "Valhalla VintageVerb"
+vendor = "valhalla-dsp"
+version = "4.0.5"
+description = "22 classic digital reverb algorithms with 3 color modes inspired by the most beloved reverb hardware from the 1970s and 1980s."
+category = "effects"
+subcategory = "reverb"
+license = "commercial"
+tags = ["reverb", "vintage", "algorithmic", "hall", "chamber", "plate", "digital", "classic"]
+homepage = "https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/"
+
+[formats.vst3]
+url = "https://valhalladsp.com/demos-downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "ValhallaVintageVerb.vst3"
+
+[formats.au]
+url = "https://valhalladsp.com/demos-downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "ValhallaVintageVerb.component"

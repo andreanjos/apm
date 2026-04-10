@@ -1,0 +1,22 @@
+slug = "brainworx-bx-console-amek-9099"
+name = "bx_console AMEK 9099"
+vendor = "brainworx"
+version = "1.4.0"
+description = "Full-featured console channel strip emulation of the legendary AMEK 9099 desk, including compressor, EQ, gate, and filters."
+category = "effects"
+subcategory = "channel-strip"
+license = "commercial"
+tags = ["console", "channel-strip", "eq", "compressor", "gate", "analog-modeling", "amek", "vintage"]
+homepage = "https://www.plugin-alliance.com/en/products/bx_console_amek_9099.html"
+
+[formats.vst3]
+url = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "bx_console AMEK 9099.vst3"
+
+[formats.au]
+url = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "bx_console AMEK 9099.component"

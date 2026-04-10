@@ -1,0 +1,2862 @@
+version = 1
+generated = "2026-04-10T18:03:57Z"
+
+[[plugins]]
+name = "a1stereocontrol"
+path = "plugins/alex-hilton-a1audio/a1stereocontrol.toml"
+version = "1.0.2"
+
+[[plugins]]
+name = "ableton-live"
+path = "plugins/ableton/ableton-live.toml"
+version = "12.1"
+
+[[plugins]]
+name = "accusonus-era-de-esser"
+path = "plugins/accusonus/accusonus-era-de-esser.toml"
+version = "6.2.00"
+
+[[plugins]]
+name = "ace-bridge"
+path = "plugins/ace-studio/ace-bridge.toml"
+version = "2.0"
+
+[[plugins]]
+name = "acon-digital-multiply"
+path = "plugins/acon-digital/acon-digital-multiply.toml"
+version = "1.3.1"
+
+[[plugins]]
+name = "actuate"
+path = "plugins/ardura/actuate.toml"
+version = "1.4.3"
+
+[[plugins]]
+name = "acustica-ash"
+path = "plugins/acustica-audio/acustica-ash.toml"
+version = "B029"
+
+[[plugins]]
+name = "aegean-music-doppler-dome"
+path = "plugins/aegean-music/aegean-music-doppler-dome.toml"
+version = "1.0"
+
+[[plugins]]
+name = "airwindows-consolidated"
+path = "plugins/chris-johnson-airwindows/airwindows-consolidated.toml"
+version = "2026-03-30"
+
+[[plugins]]
+name = "amek-eq-200"
+path = "plugins/plugin-alliance-brainworx/amek-eq-200.toml"
+version = "1.5.0"
+
+[[plugins]]
+name = "amplitube"
+path = "plugins/ik-multimedia/amplitube.toml"
+version = "5.10.9"
+
+[[plugins]]
+name = "ana2"
+path = "plugins/sonic-academy/ana2.toml"
+version = "2.5.6"
+
+[[plugins]]
+name = "analog-lab"
+path = "plugins/arturia/analog-lab.toml"
+version = "5.12.0"
+
+[[plugins]]
+name = "analog-lab-intro"
+path = "plugins/arturia/analog-lab-intro.toml"
+version = "5.12.2"
+
+[[plugins]]
+name = "analog-obsession-dbcomp"
+path = "plugins/analog-obsession/analog-obsession-dbcomp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "analog-obsession-fetish"
+path = "plugins/analog-obsession/analog-obsession-fetish.toml"
+version = "5.0"
+
+[[plugins]]
+name = "analog-obsession-rare"
+path = "plugins/analog-obsession/analog-obsession-rare.toml"
+version = "8.0"
+
+[[plugins]]
+name = "analog-obsession-tupre"
+path = "plugins/analog-obsession/analog-obsession-tupre.toml"
+version = "2.1"
+
+[[plugins]]
+name = "antares-auto-tune-pro-x"
+path = "plugins/antares-audio-technologies/antares-auto-tune-pro-x.toml"
+version = "10.5.0"
+
+[[plugins]]
+name = "ardour"
+path = "plugins/ardour-community/ardour.toml"
+version = "8.10"
+
+[[plugins]]
+name = "arturia-bus-force"
+path = "plugins/arturia/arturia-bus-force.toml"
+version = "1.4.1"
+
+[[plugins]]
+name = "arturia-chorus-dimension-d"
+path = "plugins/arturia/arturia-chorus-dimension-d.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "arturia-chorus-jun-6"
+path = "plugins/arturia/arturia-chorus-jun-6.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "arturia-comp-fet-76"
+path = "plugins/arturia/arturia-comp-fet-76.toml"
+version = "1.7.1"
+
+[[plugins]]
+name = "arturia-comp-vca-65"
+path = "plugins/arturia/arturia-comp-vca-65.toml"
+version = "1.7.1"
+
+[[plugins]]
+name = "arturia-delay-tape-201"
+path = "plugins/arturia/arturia-delay-tape-201.toml"
+version = "1.7.0"
+
+[[plugins]]
+name = "arturia-dist-coldfire"
+path = "plugins/arturia/arturia-dist-coldfire.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "arturia-dist-opamp-21"
+path = "plugins/arturia/arturia-dist-opamp-21.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "arturia-filter-mini"
+path = "plugins/arturia/arturia-filter-mini.toml"
+version = "1.7.0"
+
+[[plugins]]
+name = "arturia-flanger-bl-20"
+path = "plugins/arturia/arturia-flanger-bl-20.toml"
+version = "1.5.1"
+
+[[plugins]]
+name = "arturia-mellotron-v"
+path = "plugins/arturia/arturia-mellotron-v.toml"
+version = "1.9.4"
+
+[[plugins]]
+name = "arturia-mini-v"
+path = "plugins/arturia/arturia-mini-v.toml"
+version = "4.0.4"
+
+[[plugins]]
+name = "arturia-phaser-bi-tron"
+path = "plugins/arturia/arturia-phaser-bi-tron.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "arturia-pre-v76"
+path = "plugins/arturia/arturia-pre-v76.toml"
+version = "1.8.1"
+
+[[plugins]]
+name = "arturia-prophet-v"
+path = "plugins/arturia/arturia-prophet-v.toml"
+version = "1.3.3"
+
+[[plugins]]
+name = "arturia-rev-intensity"
+path = "plugins/arturia/arturia-rev-intensity.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "arturia-rev-plate-140"
+path = "plugins/arturia/arturia-rev-plate-140.toml"
+version = "1.7.0"
+
+[[plugins]]
+name = "arturia-tape-mello-fi"
+path = "plugins/arturia/arturia-tape-mello-fi.toml"
+version = "1.4.1"
+
+[[plugins]]
+name = "arturia-wurli-v"
+path = "plugins/arturia/arturia-wurli-v.toml"
+version = "3.0.4"
+
+[[plugins]]
+name = "audacity"
+path = "plugins/audacity-team/audacity.toml"
+version = "3.7.7"
+
+[[plugins]]
+name = "audio-damage-quanta-2"
+path = "plugins/audio-damage/audio-damage-quanta-2.toml"
+version = "2.1.4"
+
+[[plugins]]
+name = "audiodamage-discord3"
+path = "plugins/audio-damage/audiodamage-discord3.toml"
+version = "1.1.2"
+
+[[plugins]]
+name = "audiodamage-fuzzplus3"
+path = "plugins/audio-damage/audiodamage-fuzzplus3.toml"
+version = "1.0.2"
+
+[[plugins]]
+name = "audiothing-fog-convolver-2"
+path = "plugins/audiothing/audiothing-fog-convolver-2.toml"
+version = "2.4"
+
+[[plugins]]
+name = "audiothing-vinyl-strip"
+path = "plugins/audiothing/audiothing-vinyl-strip.toml"
+version = "1.6.2"
+
+[[plugins]]
+name = "baby-audio-comeback-kid"
+path = "plugins/baby-audio/baby-audio-comeback-kid.toml"
+version = "1.6"
+
+[[plugins]]
+name = "baby-audio-crystalline"
+path = "plugins/baby-audio/baby-audio-crystalline.toml"
+version = "1.5"
+
+[[plugins]]
+name = "baby-audio-parallel-aggressor"
+path = "plugins/baby-audio/baby-audio-parallel-aggressor.toml"
+version = "1.5"
+
+[[plugins]]
+name = "baby-audio-spaced-out"
+path = "plugins/baby-audio/baby-audio-spaced-out.toml"
+version = "1.0"
+
+[[plugins]]
+name = "baby-audio-super-vhs"
+path = "plugins/baby-audio/baby-audio-super-vhs.toml"
+version = "1.0"
+
+[[plugins]]
+name = "baby-audio-taip"
+path = "plugins/baby-audio/baby-audio-taip.toml"
+version = "1.6"
+
+[[plugins]]
+name = "baby-audio-transit"
+path = "plugins/baby-audio/baby-audio-transit.toml"
+version = "2.2"
+
+[[plugins]]
+name = "battery"
+path = "plugins/native-instruments/battery.toml"
+version = "4.3.1"
+
+[[plugins]]
+name = "bertom-denoiser-classic"
+path = "plugins/bertom-audio/bertom-denoiser-classic.toml"
+version = "3.0.7"
+
+[[plugins]]
+name = "bespoke-synth"
+path = "plugins/ryan-challinor/bespoke-synth.toml"
+version = "1.3.0"
+
+[[plugins]]
+name = "bitwig-studio"
+path = "plugins/bitwig/bitwig-studio.toml"
+version = "5.3"
+
+[[plugins]]
+name = "black-box-analog-hg-2"
+path = "plugins/plugin-alliance-black-box-analog-design/black-box-analog-hg-2.toml"
+version = "1.10.0"
+
+[[plugins]]
+name = "black-rooster-veq-1p"
+path = "plugins/black-rooster-audio/black-rooster-veq-1p.toml"
+version = "1.0"
+
+[[plugins]]
+name = "blade-2"
+path = "plugins/rob-papen/blade-2.toml"
+version = "2.1.0a"
+
+[[plugins]]
+name = "blue-cat-free-amp"
+path = "plugins/blue-cat-audio/blue-cat-free-amp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "bluecat-triple-eq"
+path = "plugins/blue-cat-audio/bluecat-triple-eq.toml"
+version = "4.5"
+
+[[plugins]]
+name = "bluecataudio-freewarepack"
+path = "plugins/blue-cat-audio/bluecataudio-freewarepack.toml"
+version = "2024.09"
+
+[[plugins]]
+name = "brainworx-bx-console-amek-9099"
+path = "plugins/brainworx/brainworx-bx-console-amek-9099.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "bx-console-focusrite-sc"
+path = "plugins/brainworx-plugin-alliance/bx-console-focusrite-sc.toml"
+version = "1.6.0"
+
+[[plugins]]
+name = "bx-console-ssl-4000-e"
+path = "plugins/plugin-alliance-brainworx/bx-console-ssl-4000-e.toml"
+version = "1.0"
+
+[[plugins]]
+name = "bx-digital-v3"
+path = "plugins/plugin-alliance-brainworx/bx-digital-v3.toml"
+version = "3.0"
+
+[[plugins]]
+name = "bx-townhouse-buss-compressor"
+path = "plugins/plugin-alliance-brainworx/bx-townhouse-buss-compressor.toml"
+version = "1.0"
+
+[[plugins]]
+name = "byod"
+path = "plugins/chowdhury-dsp/byod.toml"
+version = "1.3.0"
+
+[[plugins]]
+name = "cableguys-volumeshaper-7"
+path = "plugins/cableguys/cableguys-volumeshaper-7.toml"
+version = "7.0"
+
+[[plugins]]
+name = "caelum-audio-tape-cassette-2"
+path = "plugins/caelum-audio/caelum-audio-tape-cassette-2.toml"
+version = "1.2.2"
+
+[[plugins]]
+name = "cardinal"
+path = "plugins/distrho/cardinal.toml"
+version = "26.02"
+
+[[plugins]]
+name = "celemony-melodyne-5"
+path = "plugins/celemony/celemony-melodyne-5.toml"
+version = "5.4.2"
+
+[[plugins]]
+name = "cherry-audio-dreamsynth"
+path = "plugins/cherry-audio/cherry-audio-dreamsynth.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "cherry-audio-memorymode"
+path = "plugins/cherry-audio/cherry-audio-memorymode.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "cherry-audio-sines"
+path = "plugins/cherry-audio/cherry-audio-sines.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "cherry-audio-surrealistic-mg1-plus"
+path = "plugins/cherry-audio/cherry-audio-surrealistic-mg1-plus.toml"
+version = "1.0"
+
+[[plugins]]
+name = "cherry-audio-voltage-modular"
+path = "plugins/cherry-audio/cherry-audio-voltage-modular.toml"
+version = "2.5.0"
+
+[[plugins]]
+name = "chow-centaur"
+path = "plugins/chowdhury-dsp/chow-centaur.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "chow-kick"
+path = "plugins/chowdhury-dsp/chow-kick.toml"
+version = "1.2.0"
+
+[[plugins]]
+name = "chow-multi-tool"
+path = "plugins/chowdhury-dsp/chow-multi-tool.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "chow-tape-model"
+path = "plugins/chowdhury-dsp/chow-tape-model.toml"
+version = "2.11.4"
+
+[[plugins]]
+name = "console-recall"
+path = "plugins/slate-digital/console-recall.toml"
+version = "1.0"
+
+[[plugins]]
+name = "couture-free"
+path = "plugins/auburn-sounds/couture-free.toml"
+version = "1.10"
+
+[[plugins]]
+name = "cubase"
+path = "plugins/steinberg/cubase.toml"
+version = "14.0"
+
+[[plugins]]
+name = "daw-cassette"
+path = "plugins/klevgrand/daw-cassette.toml"
+version = "1.2.2"
+
+[[plugins]]
+name = "dawesome-novum"
+path = "plugins/dawesome-tracktion/dawesome-novum.toml"
+version = "1.17"
+
+[[plugins]]
+name = "ddmf-iieq"
+path = "plugins/ddmf/ddmf-iieq.toml"
+version = "1.0"
+
+[[plugins]]
+name = "deelay"
+path = "plugins/sixth-sample/deelay.toml"
+version = "1.3.1"
+
+[[plugins]]
+name = "denise-god-mode"
+path = "plugins/denise-audio/denise-god-mode.toml"
+version = "2.0.0"
+
+[[plugins]]
+name = "denise-perfect-room-2"
+path = "plugins/denise-audio/denise-perfect-room-2.toml"
+version = "2.0"
+
+[[plugins]]
+name = "devious-machines-duck"
+path = "plugins/devious-machines/devious-machines-duck.toml"
+version = "2.0.27"
+
+[[plugins]]
+name = "devious-machines-texture"
+path = "plugins/devious-machines/devious-machines-texture.toml"
+version = "1.8.17"
+
+[[plugins]]
+name = "dexed"
+path = "plugins/digital-suburban/dexed.toml"
+version = "1.0.1"
+
+[[plugins]]
+name = "diva"
+path = "plugins/u-he/diva.toml"
+version = "1.4.8"
+
+[[plugins]]
+name = "dmg-equilibrium"
+path = "plugins/dmg-audio/dmg-equilibrium.toml"
+version = "1.66"
+
+[[plugins]]
+name = "dpf-plugins"
+path = "plugins/distrho/dpf-plugins.toml"
+version = "1.7"
+
+[[plugins]]
+name = "dragonfly-early-reflections"
+path = "plugins/michael-willis/dragonfly-early-reflections.toml"
+version = "3.2.10"
+
+[[plugins]]
+name = "dragonfly-reverb"
+path = "plugins/michael-willis/dragonfly-reverb.toml"
+version = "3.2.10"
+
+[[plugins]]
+name = "ds-10-drum-shaper"
+path = "plugins/xln-audio/ds-10-drum-shaper.toml"
+version = "1.0"
+
+[[plugins]]
+name = "dune-3"
+path = "plugins/synapse-audio/dune-3.toml"
+version = "3.6.5"
+
+[[plugins]]
+name = "eastwest-hollywood-brass"
+path = "plugins/eastwest/eastwest-hollywood-brass.toml"
+version = "2.0.0"
+
+[[plugins]]
+name = "eastwest-hollywood-strings"
+path = "plugins/eastwest/eastwest-hollywood-strings.toml"
+version = "2.0.0"
+
+[[plugins]]
+name = "eiosis-aireq"
+path = "plugins/eiosis-slate-digital/eiosis-aireq.toml"
+version = "5.1"
+
+[[plugins]]
+name = "elevate"
+path = "plugins/newfangled-audio/elevate.toml"
+version = "1.13.9"
+
+[[plugins]]
+name = "eventide-blackhole"
+path = "plugins/eventide/eventide-blackhole.toml"
+version = "3.11.4"
+
+[[plugins]]
+name = "eventide-h3000-band-delays"
+path = "plugins/eventide/eventide-h3000-band-delays.toml"
+version = "1.3.4"
+
+[[plugins]]
+name = "eventide-mangledverb"
+path = "plugins/eventide/eventide-mangledverb.toml"
+version = "2.10.4"
+
+[[plugins]]
+name = "eventide-micropitch"
+path = "plugins/eventide/eventide-micropitch.toml"
+version = "1.3.4"
+
+[[plugins]]
+name = "eventide-shimmerverb"
+path = "plugins/eventide/eventide-shimmerverb.toml"
+version = "1.3.4"
+
+[[plugins]]
+name = "ezdrummer"
+path = "plugins/toontrack/ezdrummer.toml"
+version = "3.1.2"
+
+[[plugins]]
+name = "fabfilter-micro"
+path = "plugins/fabfilter/fabfilter-micro.toml"
+version = "1.31"
+
+[[plugins]]
+name = "fabfilter-one"
+path = "plugins/fabfilter/fabfilter-one.toml"
+version = "3.0"
+
+[[plugins]]
+name = "fabfilter-pro-c"
+path = "plugins/fabfilter/fabfilter-pro-c.toml"
+version = "3.01"
+
+[[plugins]]
+name = "fabfilter-pro-ds"
+path = "plugins/fabfilter/fabfilter-pro-ds.toml"
+version = "1.0"
+
+[[plugins]]
+name = "fabfilter-pro-g"
+path = "plugins/fabfilter/fabfilter-pro-g.toml"
+version = "1.0"
+
+[[plugins]]
+name = "fabfilter-pro-l"
+path = "plugins/fabfilter/fabfilter-pro-l.toml"
+version = "2.25"
+
+[[plugins]]
+name = "fabfilter-pro-mb"
+path = "plugins/fabfilter/fabfilter-pro-mb.toml"
+version = "1.0"
+
+[[plugins]]
+name = "fabfilter-pro-q"
+path = "plugins/fabfilter/fabfilter-pro-q.toml"
+version = "4.11"
+
+[[plugins]]
+name = "fabfilter-pro-r"
+path = "plugins/fabfilter/fabfilter-pro-r.toml"
+version = "2.05"
+
+[[plugins]]
+name = "fabfilter-saturn"
+path = "plugins/fabfilter/fabfilter-saturn.toml"
+version = "2.12"
+
+[[plugins]]
+name = "fabfilter-simplon"
+path = "plugins/fabfilter/fabfilter-simplon.toml"
+version = "1.41"
+
+[[plugins]]
+name = "fabfilter-timeless"
+path = "plugins/fabfilter/fabfilter-timeless.toml"
+version = "3.09"
+
+[[plugins]]
+name = "fabfilter-twin"
+path = "plugins/fabfilter/fabfilter-twin.toml"
+version = "3.0"
+
+[[plugins]]
+name = "fabfilter-volcano"
+path = "plugins/fabfilter/fabfilter-volcano.toml"
+version = "3.08"
+
+[[plugins]]
+name = "fl-studio"
+path = "plugins/image-line/fl-studio.toml"
+version = "2024.2"
+
+[[plugins]]
+name = "fm8"
+path = "plugins/native-instruments/fm8.toml"
+version = "1.4.6"
+
+[[plugins]]
+name = "fullbucket-blooo"
+path = "plugins/full-bucket-music/fullbucket-blooo.toml"
+version = "2.3.5"
+
+[[plugins]]
+name = "fullbucket-bucketpops"
+path = "plugins/full-bucket-music/fullbucket-bucketpops.toml"
+version = "1.1.6"
+
+[[plugins]]
+name = "fullbucket-deputy"
+path = "plugins/full-bucket-music/fullbucket-deputy.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "fullbucket-fb3100"
+path = "plugins/full-bucket-music/fullbucket-fb3100.toml"
+version = "1.2.1"
+
+[[plugins]]
+name = "fullbucket-fb3200"
+path = "plugins/full-bucket-music/fullbucket-fb3200.toml"
+version = "1.1.2"
+
+[[plugins]]
+name = "fullbucket-fb3300"
+path = "plugins/full-bucket-music/fullbucket-fb3300.toml"
+version = "1.2.5"
+
+[[plugins]]
+name = "fullbucket-fb7999"
+path = "plugins/full-bucket-music/fullbucket-fb7999.toml"
+version = "1.1.7"
+
+[[plugins]]
+name = "fullbucket-fbdelay"
+path = "plugins/full-bucket-music/fullbucket-fbdelay.toml"
+version = "2.0.3"
+
+[[plugins]]
+name = "fullbucket-freqshifter"
+path = "plugins/full-bucket-music/fullbucket-freqshifter.toml"
+version = "2.0.3"
+
+[[plugins]]
+name = "fullbucket-fury-800"
+path = "plugins/full-bucket-music/fullbucket-fury-800.toml"
+version = "2.5.1"
+
+[[plugins]]
+name = "fullbucket-kern"
+path = "plugins/full-bucket-music/fullbucket-kern.toml"
+version = "1.2.0"
+
+[[plugins]]
+name = "fullbucket-modulair"
+path = "plugins/full-bucket-music/fullbucket-modulair.toml"
+version = "1.3.3"
+
+[[plugins]]
+name = "fullbucket-monofury"
+path = "plugins/full-bucket-music/fullbucket-monofury.toml"
+version = "2.3.2"
+
+[[plugins]]
+name = "fullbucket-mps"
+path = "plugins/full-bucket-music/fullbucket-mps.toml"
+version = "2.0.0"
+
+[[plugins]]
+name = "fullbucket-nabla"
+path = "plugins/full-bucket-music/fullbucket-nabla.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "fullbucket-qyooo"
+path = "plugins/full-bucket-music/fullbucket-qyooo.toml"
+version = "1.2.1"
+
+[[plugins]]
+name = "fullbucket-ragnarok"
+path = "plugins/full-bucket-music/fullbucket-ragnarok.toml"
+version = "2.0.2"
+
+[[plugins]]
+name = "fullbucket-scrooo"
+path = "plugins/full-bucket-music/fullbucket-scrooo.toml"
+version = "2.0.4"
+
+[[plugins]]
+name = "fullbucket-stigma"
+path = "plugins/full-bucket-music/fullbucket-stigma.toml"
+version = "1.3.2"
+
+[[plugins]]
+name = "fullbucket-tricent"
+path = "plugins/full-bucket-music/fullbucket-tricent.toml"
+version = "1.1.4"
+
+[[plugins]]
+name = "fullbucket-whispair"
+path = "plugins/full-bucket-music/fullbucket-whispair.toml"
+version = "1.1.5"
+
+[[plugins]]
+name = "fuse-audio-labs-vcl-864u"
+path = "plugins/fuse-audio-labs/fuse-audio-labs-vcl-864u.toml"
+version = "1.0"
+
+[[plugins]]
+name = "garageband"
+path = "plugins/apple/garageband.toml"
+version = "10.4"
+
+[[plugins]]
+name = "goodhertz-canopener"
+path = "plugins/goodhertz/goodhertz-canopener.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-dc19"
+path = "plugins/goodhertz/goodhertz-dc19.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-faraday-limiter"
+path = "plugins/goodhertz/goodhertz-faraday-limiter.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-good-dither"
+path = "plugins/goodhertz/goodhertz-good-dither.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-lohi"
+path = "plugins/goodhertz/goodhertz-lohi.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-lossy"
+path = "plugins/goodhertz/goodhertz-lossy.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-loudness"
+path = "plugins/goodhertz/goodhertz-loudness.toml"
+version = "3.13"
+
+[[plugins]]
+name = "goodhertz-megaverb"
+path = "plugins/goodhertz/goodhertz-megaverb.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-midside"
+path = "plugins/goodhertz/goodhertz-midside.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-midside-matrix"
+path = "plugins/goodhertz/goodhertz-midside-matrix.toml"
+version = "3.13"
+
+[[plugins]]
+name = "goodhertz-panpot"
+path = "plugins/goodhertz/goodhertz-panpot.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-tiltshift"
+path = "plugins/goodhertz/goodhertz-tiltshift.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-tone-control"
+path = "plugins/goodhertz/goodhertz-tone-control.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-trem-control"
+path = "plugins/goodhertz/goodhertz-trem-control.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-tupe"
+path = "plugins/goodhertz/goodhertz-tupe.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-vulf-compressor"
+path = "plugins/goodhertz/goodhertz-vulf-compressor.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "goodhertz-wow-control"
+path = "plugins/goodhertz/goodhertz-wow-control.toml"
+version = "3.11.0"
+
+[[plugins]]
+name = "graillon"
+path = "plugins/auburn-sounds/graillon.toml"
+version = "3.2.0"
+
+[[plugins]]
+name = "guitar-rig"
+path = "plugins/native-instruments/guitar-rig.toml"
+version = "7.0.2"
+
+[[plugins]]
+name = "helix-native"
+path = "plugins/line-6/helix-native.toml"
+version = "3.82"
+
+[[plugins]]
+name = "helm"
+path = "plugins/matt-tytel/helm.toml"
+version = "0.9.0"
+
+[[plugins]]
+name = "hive"
+path = "plugins/u-he/hive.toml"
+version = "2.1.2"
+
+[[plugins]]
+name = "hollywood-orchestra"
+path = "plugins/eastwest/hollywood-orchestra.toml"
+version = "1.6.2"
+
+[[plugins]]
+name = "hy-filter4-free"
+path = "plugins/hy-plugins/hy-filter4-free.toml"
+version = "1.1.62"
+
+[[plugins]]
+name = "icarus-2"
+path = "plugins/tone2/icarus-2.toml"
+version = "2.5.0"
+
+[[plugins]]
+name = "izotope-insight-2"
+path = "plugins/izotope/izotope-insight-2.toml"
+version = "2.6.0"
+
+[[plugins]]
+name = "izotope-nectar-4"
+path = "plugins/izotope/izotope-nectar-4.toml"
+version = "4.1.0"
+
+[[plugins]]
+name = "izotope-neoverb"
+path = "plugins/izotope/izotope-neoverb.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "izotope-neutron"
+path = "plugins/izotope/izotope-neutron.toml"
+version = "4.6.0"
+
+[[plugins]]
+name = "izotope-ozone"
+path = "plugins/izotope/izotope-ozone.toml"
+version = "11.2.0"
+
+[[plugins]]
+name = "izotope-rx"
+path = "plugins/izotope/izotope-rx.toml"
+version = "11.4.0"
+
+[[plugins]]
+name = "izotope-trash"
+path = "plugins/izotope/izotope-trash.toml"
+version = "1.3.0"
+
+[[plugins]]
+name = "izotope-vinyl"
+path = "plugins/izotope/izotope-vinyl.toml"
+version = "1.13.0"
+
+[[plugins]]
+name = "izotope-vocalsynth-2"
+path = "plugins/izotope/izotope-vocalsynth-2.toml"
+version = "2.6.1"
+
+[[plugins]]
+name = "keyscape"
+path = "plugins/spectrasonics/keyscape.toml"
+version = "1.5"
+
+[[plugins]]
+name = "kilohearts-essentials"
+path = "plugins/kilohearts/kilohearts-essentials.toml"
+version = "2.4.6"
+
+[[plugins]]
+name = "klanghelm-dc1a"
+path = "plugins/klanghelm/klanghelm-dc1a.toml"
+version = "3.5.0"
+
+[[plugins]]
+name = "klanghelm-mjuc-jr"
+path = "plugins/klanghelm/klanghelm-mjuc-jr.toml"
+version = "1.5.0"
+
+[[plugins]]
+name = "klanghelm-sdrr2"
+path = "plugins/klanghelm/klanghelm-sdrr2.toml"
+version = "2.4.1"
+
+[[plugins]]
+name = "kontakt"
+path = "plugins/native-instruments/kontakt.toml"
+version = "7.10.9"
+
+[[plugins]]
+name = "kontakt-8"
+path = "plugins/native-instruments/kontakt-8.toml"
+version = "8.1.0"
+
+[[plugins]]
+name = "kush-audio-omega-458a"
+path = "plugins/kush-audio/kush-audio-omega-458a.toml"
+version = "1.0.5"
+
+[[plugins]]
+name = "letimix-gainmatch"
+path = "plugins/letimix/letimix-gainmatch.toml"
+version = "1.413"
+
+[[plugins]]
+name = "lfotool"
+path = "plugins/xfer-records/lfotool.toml"
+version = "1.768"
+
+[[plugins]]
+name = "lindell-80-series"
+path = "plugins/plugin-alliance-lindell-audio/lindell-80-series.toml"
+version = "1.0"
+
+[[plugins]]
+name = "lindell-audio-354e"
+path = "plugins/lindell-audio/lindell-audio-354e.toml"
+version = "1.0.4"
+
+[[plugins]]
+name = "lindell-channelx"
+path = "plugins/plugin-alliance-lindell-audio/lindell-channelx.toml"
+version = "1.2.2"
+
+[[plugins]]
+name = "logic-pro"
+path = "plugins/apple/logic-pro.toml"
+version = "11.1"
+
+[[plugins]]
+name = "luftikus"
+path = "plugins/lkjb/luftikus.toml"
+version = "1.3.1"
+
+[[plugins]]
+name = "massive-x"
+path = "plugins/native-instruments/massive-x.toml"
+version = "1.7.1"
+
+[[plugins]]
+name = "melda-free-fx-bundle"
+path = "plugins/meldaproduction/melda-free-fx-bundle.toml"
+version = "17.08"
+
+[[plugins]]
+name = "melda-mautopitch"
+path = "plugins/meldaproduction/melda-mautopitch.toml"
+version = "17.08"
+
+[[plugins]]
+name = "meldaproduction-mpluginmanager"
+path = "plugins/meldaproduction/meldaproduction-mpluginmanager.toml"
+version = "02.19"
+
+[[plugins]]
+name = "minimal-audio-current"
+path = "plugins/minimal-audio/minimal-audio-current.toml"
+version = "2.2"
+
+[[plugins]]
+name = "minimal-audio-rift"
+path = "plugins/minimal-audio/minimal-audio-rift.toml"
+version = "2.0"
+
+[[plugins]]
+name = "monique-monosynth"
+path = "plugins/surge-synth-team/monique-monosynth.toml"
+version = "1.2-nightly"
+
+[[plugins]]
+name = "native-instruments-absynth-5"
+path = "plugins/native-instruments/native-instruments-absynth-5.toml"
+version = "5.3.4"
+
+[[plugins]]
+name = "native-instruments-massive"
+path = "plugins/native-instruments/native-instruments-massive.toml"
+version = "1.7.0"
+
+[[plugins]]
+name = "native-instruments-razor"
+path = "plugins/native-instruments/native-instruments-razor.toml"
+version = "1.7.0"
+
+[[plugins]]
+name = "neural-dsp-nolly"
+path = "plugins/neural-dsp/neural-dsp-nolly.toml"
+version = "1.0.2"
+
+[[plugins]]
+name = "neural-dsp-tim-henson"
+path = "plugins/neural-dsp/neural-dsp-tim-henson.toml"
+version = "1.0.1"
+
+[[plugins]]
+name = "newfangled-generate"
+path = "plugins/newfangled-audio/newfangled-generate.toml"
+version = "1.4.0"
+
+[[plugins]]
+name = "ob-xd"
+path = "plugins/discodsp/ob-xd.toml"
+version = "3.17"
+
+[[plugins]]
+name = "odin2"
+path = "plugins/thewavewarden/odin2.toml"
+version = "2.4.1"
+
+[[plugins]]
+name = "omnisphere"
+path = "plugins/spectrasonics/omnisphere.toml"
+version = "3.0.2"
+
+[[plugins]]
+name = "orilriver"
+path = "plugins/denis-tihanov/orilriver.toml"
+version = "2.0.3"
+
+[[plugins]]
+name = "ott"
+path = "plugins/xfer-records/ott.toml"
+version = "1.37"
+
+[[plugins]]
+name = "output-arcade"
+path = "plugins/output/output-arcade.toml"
+version = "2.12.0"
+
+[[plugins]]
+name = "output-portal"
+path = "plugins/output/output-portal.toml"
+version = "1.2.1"
+
+[[plugins]]
+name = "output-thermal"
+path = "plugins/output/output-thermal.toml"
+version = "1.2.1"
+
+[[plugins]]
+name = "pa-shadow-hills-class-a"
+path = "plugins/plugin-alliance/pa-shadow-hills-class-a.toml"
+version = "1.5.0"
+
+[[plugins]]
+name = "pancake-2"
+path = "plugins/cableguys/pancake-2.toml"
+version = "2.3.2"
+
+[[plugins]]
+name = "paulxstretch"
+path = "plugins/sonosaurus/paulxstretch.toml"
+version = "1.6.0"
+
+[[plugins]]
+name = "phase-plant"
+path = "plugins/kilohearts/phase-plant.toml"
+version = "2.4.6"
+
+[[plugins]]
+name = "pigments"
+path = "plugins/arturia/pigments.toml"
+version = "7.0.0"
+
+[[plugins]]
+name = "plogue-alter-ego"
+path = "plugins/plogue/plogue-alter-ego.toml"
+version = "1.981"
+
+[[plugins]]
+name = "podolski"
+path = "plugins/u-he/podolski.toml"
+version = "1.2.3"
+
+[[plugins]]
+name = "polyverse-manipulator"
+path = "plugins/polyverse-music/polyverse-manipulator.toml"
+version = "1.0.3"
+
+[[plugins]]
+name = "polyverse-wider"
+path = "plugins/polyverse-music/polyverse-wider.toml"
+version = "2.0"
+
+[[plugins]]
+name = "pro-tools"
+path = "plugins/avid/pro-tools.toml"
+version = "2024.12"
+
+[[plugins]]
+name = "rc-20"
+path = "plugins/xln-audio/rc-20.toml"
+version = "1.3.5"
+
+[[plugins]]
+name = "reaktor"
+path = "plugins/native-instruments/reaktor.toml"
+version = "6.5.0"
+
+[[plugins]]
+name = "reaper"
+path = "plugins/cockos/reaper.toml"
+version = "7.28"
+
+[[plugins]]
+name = "repro"
+path = "plugins/u-he/repro.toml"
+version = "1.1.3"
+
+[[plugins]]
+name = "rob-papen-blue-iii"
+path = "plugins/rob-papen/rob-papen-blue-iii.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "rob-papen-predator-3"
+path = "plugins/rob-papen/rob-papen-predator-3.toml"
+version = "1.0.3"
+
+[[plugins]]
+name = "rob-papen-subboombass-2"
+path = "plugins/rob-papen/rob-papen-subboombass-2.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "sandman-pro"
+path = "plugins/plugin-alliance-unfiltered-audio/sandman-pro.toml"
+version = "1.0"
+
+[[plugins]]
+name = "sektor"
+path = "plugins/initial-audio/sektor.toml"
+version = "1.6.4"
+
+[[plugins]]
+name = "serum"
+path = "plugins/xfer-records/serum.toml"
+version = "2.0.24"
+
+[[plugins]]
+name = "seventh-heaven"
+path = "plugins/liquidsonics/seventh-heaven.toml"
+version = "1.3.9"
+
+[[plugins]]
+name = "shaperbox"
+path = "plugins/cableguys/shaperbox.toml"
+version = "3.6.2"
+
+[[plugins]]
+name = "sitala"
+path = "plugins/decomposer/sitala.toml"
+version = "1.0.9"
+
+[[plugins]]
+name = "sketch-cassette"
+path = "plugins/aberrant-dsp/sketch-cassette.toml"
+version = "2.0"
+
+[[plugins]]
+name = "slate-digital-infinity-eq"
+path = "plugins/slate-digital/slate-digital-infinity-eq.toml"
+version = "2.0"
+
+[[plugins]]
+name = "slate-digital-metatone"
+path = "plugins/slate-digital/slate-digital-metatone.toml"
+version = "1.0"
+
+[[plugins]]
+name = "slate-fg-x"
+path = "plugins/slate-digital/slate-fg-x.toml"
+version = "2.0"
+
+[[plugins]]
+name = "slate-fresh-air"
+path = "plugins/slate-digital/slate-fresh-air.toml"
+version = "1.0"
+
+[[plugins]]
+name = "slate-virtual-mix-rack"
+path = "plugins/slate-digital/slate-virtual-mix-rack.toml"
+version = "2.0"
+
+[[plugins]]
+name = "socalabs-abtester"
+path = "plugins/socalabs/socalabs-abtester.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-add-invert"
+path = "plugins/socalabs/socalabs-add-invert.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-channel-mute"
+path = "plugins/socalabs/socalabs-channel-mute.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-compensated-delay"
+path = "plugins/socalabs/socalabs-compensated-delay.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-compressor"
+path = "plugins/socalabs/socalabs-compressor.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-crossfeed"
+path = "plugins/socalabs/socalabs-crossfeed.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-delay"
+path = "plugins/socalabs/socalabs-delay.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-expander"
+path = "plugins/socalabs/socalabs-expander.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-gate"
+path = "plugins/socalabs/socalabs-gate.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-graphiceq"
+path = "plugins/socalabs/socalabs-graphiceq.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-huge-gain"
+path = "plugins/socalabs/socalabs-huge-gain.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-limiter"
+path = "plugins/socalabs/socalabs-limiter.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-maths"
+path = "plugins/socalabs/socalabs-maths.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-midi-looper"
+path = "plugins/socalabs/socalabs-midi-looper.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-mverb2020"
+path = "plugins/socalabs/socalabs-mverb2020.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-organ"
+path = "plugins/socalabs/socalabs-organ.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-oscilloscope"
+path = "plugins/socalabs/socalabs-oscilloscope.toml"
+version = "1.2.0"
+
+[[plugins]]
+name = "socalabs-papu"
+path = "plugins/socalabs/socalabs-papu.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-piano"
+path = "plugins/socalabs/socalabs-piano.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-pitchtrack"
+path = "plugins/socalabs/socalabs-pitchtrack.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-rp2a03"
+path = "plugins/socalabs/socalabs-rp2a03.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-sampledelay"
+path = "plugins/socalabs/socalabs-sampledelay.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-sfx8"
+path = "plugins/socalabs/socalabs-sfx8.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-sid"
+path = "plugins/socalabs/socalabs-sid.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-simpleverb"
+path = "plugins/socalabs/socalabs-simpleverb.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-sn76489"
+path = "plugins/socalabs/socalabs-sn76489.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-spectrum-analyzer"
+path = "plugins/socalabs/socalabs-spectrum-analyzer.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-stereo-enhancer"
+path = "plugins/socalabs/socalabs-stereo-enhancer.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-stereo-processor"
+path = "plugins/socalabs/socalabs-stereo-processor.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-tone-generator"
+path = "plugins/socalabs/socalabs-tone-generator.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-voc"
+path = "plugins/socalabs/socalabs-voc.toml"
+version = "1.1.0"
+
+[[plugins]]
+name = "socalabs-wave-looper"
+path = "plugins/socalabs/socalabs-wave-looper.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "socalabs-wavetable"
+path = "plugins/socalabs/socalabs-wavetable.toml"
+version = "1.0.27"
+
+[[plugins]]
+name = "socalabs-xyscope"
+path = "plugins/socalabs/socalabs-xyscope.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "sonnox-oxford-dynamics"
+path = "plugins/sonnox/sonnox-oxford-dynamics.toml"
+version = "5.0"
+
+[[plugins]]
+name = "sonnox-oxford-limiter"
+path = "plugins/sonnox/sonnox-oxford-limiter.toml"
+version = "4.04.1"
+
+[[plugins]]
+name = "sonnox-oxford-reverb"
+path = "plugins/sonnox/sonnox-oxford-reverb.toml"
+version = "5.0"
+
+[[plugins]]
+name = "sonosaurus-paulxstretch"
+path = "plugins/sonosaurus/sonosaurus-paulxstretch.toml"
+version = "1.6.0"
+
+[[plugins]]
+name = "soothe2"
+path = "plugins/oeksound/soothe2.toml"
+version = "1.3.3"
+
+[[plugins]]
+name = "soundtoys-crystallizer"
+path = "plugins/soundtoys/soundtoys-crystallizer.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-decapitator"
+path = "plugins/soundtoys/soundtoys-decapitator.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-devil-loc"
+path = "plugins/soundtoys/soundtoys-devil-loc.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-devil-loc-deluxe"
+path = "plugins/soundtoys/soundtoys-devil-loc-deluxe.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-echoboy"
+path = "plugins/soundtoys/soundtoys-echoboy.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-echoboy-jr"
+path = "plugins/soundtoys/soundtoys-echoboy-jr.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-effect-rack"
+path = "plugins/soundtoys/soundtoys-effect-rack.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-filterfreak"
+path = "plugins/soundtoys/soundtoys-filterfreak.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-little-alterboy"
+path = "plugins/soundtoys/soundtoys-little-alterboy.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-little-microshift"
+path = "plugins/soundtoys/soundtoys-little-microshift.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-little-plate"
+path = "plugins/soundtoys/soundtoys-little-plate.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-little-primaltap"
+path = "plugins/soundtoys/soundtoys-little-primaltap.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-little-radiator"
+path = "plugins/soundtoys/soundtoys-little-radiator.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-microshift"
+path = "plugins/soundtoys/soundtoys-microshift.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-panman"
+path = "plugins/soundtoys/soundtoys-panman.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-phase-mistress"
+path = "plugins/soundtoys/soundtoys-phase-mistress.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-primaltap"
+path = "plugins/soundtoys/soundtoys-primaltap.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-radiator"
+path = "plugins/soundtoys/soundtoys-radiator.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-sieq"
+path = "plugins/soundtoys/soundtoys-sieq.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "soundtoys-tremolator"
+path = "plugins/soundtoys/soundtoys-tremolator.toml"
+version = "5.5.4"
+
+[[plugins]]
+name = "spire"
+path = "plugins/reveal-sound/spire.toml"
+version = "1.5.19"
+
+[[plugins]]
+name = "spitfire-labs"
+path = "plugins/spitfire-audio/spitfire-labs.toml"
+version = "3.4.17"
+
+[[plugins]]
+name = "spl-transient-designer-plus"
+path = "plugins/plugin-alliance-spl/spl-transient-designer-plus.toml"
+version = "1.0"
+
+[[plugins]]
+name = "ssl-native-bus-compressor"
+path = "plugins/solid-state-logic/ssl-native-bus-compressor.toml"
+version = "2.0"
+
+[[plugins]]
+name = "ssl-native-channel-strip"
+path = "plugins/solid-state-logic/ssl-native-channel-strip.toml"
+version = "2.0"
+
+[[plugins]]
+name = "ssl-native-x-eq"
+path = "plugins/solid-state-logic/ssl-native-x-eq.toml"
+version = "2.0"
+
+[[plugins]]
+name = "stochas"
+path = "plugins/surge-synth-team/stochas.toml"
+version = "1.3.13"
+
+[[plugins]]
+name = "studio-one"
+path = "plugins/presonus/studio-one.toml"
+version = "7.0"
+
+[[plugins]]
+name = "superior-drummer"
+path = "plugins/toontrack/superior-drummer.toml"
+version = "3.4.3"
+
+[[plugins]]
+name = "surge-xt"
+path = "plugins/surge-synth-team/surge-xt.toml"
+version = "1.3.4"
+
+[[plugins]]
+name = "surge-xt-effects"
+path = "plugins/surge-synth-team/surge-xt-effects.toml"
+version = "1.3.4"
+
+[[plugins]]
+name = "synth1"
+path = "plugins/daichi-laboratory/synth1.toml"
+version = "1.13-beta11"
+
+[[plugins]]
+name = "synthmaster-3"
+path = "plugins/kv331-audio/synthmaster-3.toml"
+version = "3.4.9"
+
+[[plugins]]
+name = "tal-bassline-101"
+path = "plugins/tal-software/tal-bassline-101.toml"
+version = "3.0.0"
+
+[[plugins]]
+name = "tal-bitcrusher"
+path = "plugins/tal-software/tal-bitcrusher.toml"
+version = "1.0"
+
+[[plugins]]
+name = "tal-chorus-lx"
+path = "plugins/tal-software/tal-chorus-lx.toml"
+version = "1.6.3"
+
+[[plugins]]
+name = "tal-dub-x"
+path = "plugins/tal-software/tal-dub-x.toml"
+version = "1.0.0"
+
+[[plugins]]
+name = "tal-filter-2"
+path = "plugins/tal-software/tal-filter-2.toml"
+version = "3.0.0"
+
+[[plugins]]
+name = "tal-mod"
+path = "plugins/tal-software/tal-mod.toml"
+version = "1.9.8"
+
+[[plugins]]
+name = "tal-noisemaker"
+path = "plugins/tal-software/tal-noisemaker.toml"
+version = "5.0.6"
+
+[[plugins]]
+name = "tal-reverb-4"
+path = "plugins/tal-software/tal-reverb-4.toml"
+version = "4.0.4"
+
+[[plugins]]
+name = "tal-sampler"
+path = "plugins/tal-software/tal-sampler.toml"
+version = "4.8.5"
+
+[[plugins]]
+name = "tal-u-no-lx"
+path = "plugins/tal-software/tal-u-no-lx.toml"
+version = "4.9.4"
+
+[[plugins]]
+name = "tal-u-no-lx-v2"
+path = "plugins/tal-software/tal-u-no-lx-v2.toml"
+version = "2.0.0"
+
+[[plugins]]
+name = "tal-vocoder-2"
+path = "plugins/tal-software/tal-vocoder-2.toml"
+version = "2.0.0"
+
+[[plugins]]
+name = "tdr-kotelnikov"
+path = "plugins/tokyo-dawn-records/tdr-kotelnikov.toml"
+version = "1.6.7"
+
+[[plugins]]
+name = "tdr-limiter-6-ge"
+path = "plugins/tokyo-dawn-records/tdr-limiter-6-ge.toml"
+version = "1.2.4"
+
+[[plugins]]
+name = "tdr-limiter6ge"
+path = "plugins/tokyo-dawn-records/tdr-limiter6ge.toml"
+version = "1.3.0"
+
+[[plugins]]
+name = "tdr-molotok"
+path = "plugins/tokyo-dawn-records/tdr-molotok.toml"
+version = "1.0.7"
+
+[[plugins]]
+name = "tdr-nova"
+path = "plugins/tokyo-dawn-records/tdr-nova.toml"
+version = "2.2.2"
+
+[[plugins]]
+name = "tdr-slickeq"
+path = "plugins/tokyo-dawn-records/tdr-slickeq.toml"
+version = "1.3.9"
+
+[[plugins]]
+name = "tone-empire-reelight-pro"
+path = "plugins/tone-empire/tone-empire-reelight-pro.toml"
+version = "1.6"
+
+[[plugins]]
+name = "toontrack-ezbass"
+path = "plugins/toontrack/toontrack-ezbass.toml"
+version = "1.3.2"
+
+[[plugins]]
+name = "toontrack-ezkeys"
+path = "plugins/toontrack/toontrack-ezkeys.toml"
+version = "2.1.5"
+
+[[plugins]]
+name = "trackspacer"
+path = "plugins/wavesfactory/trackspacer.toml"
+version = "2.5.10"
+
+[[plugins]]
+name = "trilian"
+path = "plugins/spectrasonics/trilian.toml"
+version = "1.5.6"
+
+[[plugins]]
+name = "triple-cheese"
+path = "plugins/u-he/triple-cheese.toml"
+version = "1.3"
+
+[[plugins]]
+name = "tyrell-n6"
+path = "plugins/u-he/tyrell-n6.toml"
+version = "3.0.0"
+
+[[plugins]]
+name = "uad-1176"
+path = "plugins/universal-audio/uad-1176.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-1176ae"
+path = "plugins/universal-audio/uad-1176ae.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-1176ln-rev-e"
+path = "plugins/universal-audio/uad-1176ln-rev-e.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-175b"
+path = "plugins/universal-audio/uad-175b.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-176"
+path = "plugins/universal-audio/uad-176.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-4k-buss-compressor"
+path = "plugins/universal-audio/uad-4k-buss-compressor.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-4k-channel-strip"
+path = "plugins/universal-audio/uad-4k-channel-strip.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-610a"
+path = "plugins/universal-audio/uad-610a.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-610b"
+path = "plugins/universal-audio/uad-610b.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-a-type-enhancer"
+path = "plugins/universal-audio/uad-a-type-enhancer.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ada-flanger"
+path = "plugins/universal-audio/uad-ada-flanger.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ada-std1"
+path = "plugins/universal-audio/uad-ada-std1.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-akg-bx20"
+path = "plugins/universal-audio/uad-akg-bx20.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ampeg-b15n"
+path = "plugins/universal-audio/uad-ampeg-b15n.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ampeg-svt"
+path = "plugins/universal-audio/uad-ampeg-svt.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ampeg-svt3pro"
+path = "plugins/universal-audio/uad-ampeg-svt3pro.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ampeg-svtvr"
+path = "plugins/universal-audio/uad-ampeg-svtvr.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ampex-atr102"
+path = "plugins/universal-audio/uad-ampex-atr102.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ams-dmx1580"
+path = "plugins/universal-audio/uad-ams-dmx1580.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ams-neve-dfc"
+path = "plugins/universal-audio/uad-ams-neve-dfc.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ams-rmx16"
+path = "plugins/universal-audio/uad-ams-rmx16.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ams-rmx16-expanded"
+path = "plugins/universal-audio/uad-ams-rmx16-expanded.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-antares-autotune"
+path = "plugins/universal-audio/uad-antares-autotune.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-api-2500"
+path = "plugins/universal-audio/uad-api-2500.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-api-550a"
+path = "plugins/universal-audio/uad-api-550a.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-api-560"
+path = "plugins/universal-audio/uad-api-560.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-api-preamp"
+path = "plugins/universal-audio/uad-api-preamp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-api-vision"
+path = "plugins/universal-audio/uad-api-vision.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-avalon-vt737"
+path = "plugins/universal-audio/uad-avalon-vt737.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-bermuda-triangle"
+path = "plugins/universal-audio/uad-bermuda-triangle.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-brigade-chorus"
+path = "plugins/universal-audio/uad-brigade-chorus.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-bx-masterdesk"
+path = "plugins/universal-audio/uad-bx-masterdesk.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-bx-masterdesk-classic"
+path = "plugins/universal-audio/uad-bx-masterdesk-classic.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-bx-refinement"
+path = "plugins/universal-audio/uad-bx-refinement.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-bx-saturator"
+path = "plugins/universal-audio/uad-bx-saturator.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-bx-subsynth"
+path = "plugins/universal-audio/uad-bx-subsynth.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-bx-tuner"
+path = "plugins/universal-audio/uad-bx-tuner.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-c-suite-c-axe"
+path = "plugins/universal-audio/uad-c-suite-c-axe.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-c-suite-c-max"
+path = "plugins/universal-audio/uad-c-suite-c-max.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-c-suite-c-vox"
+path = "plugins/universal-audio/uad-c-suite-c-vox.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-cambridge"
+path = "plugins/universal-audio/uad-cambridge.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-capitol-chambers"
+path = "plugins/universal-audio/uad-capitol-chambers.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-century-tube"
+path = "plugins/universal-audio/uad-century-tube.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-chandler-curve-bender"
+path = "plugins/universal-audio/uad-chandler-curve-bender.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-chandler-gav19t"
+path = "plugins/universal-audio/uad-chandler-gav19t.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-chandler-zener-limiter"
+path = "plugins/universal-audio/uad-chandler-zener-limiter.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-cooper-time-cube"
+path = "plugins/universal-audio/uad-cooper-time-cube.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-cs1"
+path = "plugins/universal-audio/uad-cs1.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-dangerous-bax-eq"
+path = "plugins/universal-audio/uad-dangerous-bax-eq.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-dangerous-bax-eq-mix"
+path = "plugins/universal-audio/uad-dangerous-bax-eq-mix.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-dbx-160"
+path = "plugins/universal-audio/uad-dbx-160.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-diezel-herbert"
+path = "plugins/universal-audio/uad-diezel-herbert.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-diezel-vh4"
+path = "plugins/universal-audio/uad-diezel-vh4.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-distressor"
+path = "plugins/universal-audio/uad-distressor.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-dreamverb"
+path = "plugins/universal-audio/uad-dreamverb.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-dytronics-chorus"
+path = "plugins/universal-audio/uad-dytronics-chorus.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-dytronics-panner"
+path = "plugins/universal-audio/uad-dytronics-panner.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-eden-wt800"
+path = "plugins/universal-audio/uad-eden-wt800.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-elysia-alpha-compressor"
+path = "plugins/universal-audio/uad-elysia-alpha-compressor.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-elysia-alpha-master"
+path = "plugins/universal-audio/uad-elysia-alpha-master.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-elysia-alpha-mix"
+path = "plugins/universal-audio/uad-elysia-alpha-mix.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-elysia-mpressor"
+path = "plugins/universal-audio/uad-elysia-mpressor.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-emt-140"
+path = "plugins/universal-audio/uad-emt-140.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-emt-250"
+path = "plugins/universal-audio/uad-emt-250.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-engl-e646"
+path = "plugins/universal-audio/uad-engl-e646.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-engl-e765"
+path = "plugins/universal-audio/uad-engl-e765.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-engl-savage"
+path = "plugins/universal-audio/uad-engl-savage.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ep34-tape-echo"
+path = "plugins/universal-audio/uad-ep34-tape-echo.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-eventide-h910"
+path = "plugins/universal-audio/uad-eventide-h910.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-fairchild-660"
+path = "plugins/universal-audio/uad-fairchild-660.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-fairchild-670"
+path = "plugins/universal-audio/uad-fairchild-670.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-fatso-jr"
+path = "plugins/universal-audio/uad-fatso-jr.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-fatso-sr"
+path = "plugins/universal-audio/uad-fatso-sr.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-fender-tweed-deluxe"
+path = "plugins/universal-audio/uad-fender-tweed-deluxe.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-friedman-be100"
+path = "plugins/universal-audio/uad-friedman-be100.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-friedman-buxom-betty"
+path = "plugins/universal-audio/uad-friedman-buxom-betty.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-friedman-ds40"
+path = "plugins/universal-audio/uad-friedman-ds40.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-fuchs-overdrive"
+path = "plugins/universal-audio/uad-fuchs-overdrive.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-fuchs-train"
+path = "plugins/universal-audio/uad-fuchs-train.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-galaxy-tape-echo"
+path = "plugins/universal-audio/uad-galaxy-tape-echo.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-gallien-krueger"
+path = "plugins/universal-audio/uad-gallien-krueger.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-harrison-32c"
+path = "plugins/universal-audio/uad-harrison-32c.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-helios-69"
+path = "plugins/universal-audio/uad-helios-69.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-hemisphere-mics"
+path = "plugins/universal-audio/uad-hemisphere-mics.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-hitsville-eq"
+path = "plugins/universal-audio/uad-hitsville-eq.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-hitsville-reverb"
+path = "plugins/universal-audio/uad-hitsville-reverb.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ibanez-ts808"
+path = "plugins/universal-audio/uad-ibanez-ts808.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-korg-sdd3000"
+path = "plugins/universal-audio/uad-korg-sdd3000.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-la2a"
+path = "plugins/universal-audio/uad-la2a.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-la6176"
+path = "plugins/universal-audio/uad-la6176.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-lexicon-224"
+path = "plugins/universal-audio/uad-lexicon-224.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-lexicon-480l"
+path = "plugins/universal-audio/uad-lexicon-480l.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-little-labs-ibp"
+path = "plugins/universal-audio/uad-little-labs-ibp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-little-labs-vog"
+path = "plugins/universal-audio/uad-little-labs-vog.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-maag-eq4"
+path = "plugins/universal-audio/uad-maag-eq4.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-manley-massive-passive"
+path = "plugins/universal-audio/uad-manley-massive-passive.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-manley-variable-mu"
+path = "plugins/universal-audio/uad-manley-variable-mu.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-manley-voxbox"
+path = "plugins/universal-audio/uad-manley-voxbox.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-marshall-bluesbreaker"
+path = "plugins/universal-audio/uad-marshall-bluesbreaker.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-marshall-jmp2203"
+path = "plugins/universal-audio/uad-marshall-jmp2203.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-marshall-plexi"
+path = "plugins/universal-audio/uad-marshall-plexi.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-marshall-silver-jubilee"
+path = "plugins/universal-audio/uad-marshall-silver-jubilee.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-millennia-nseq2"
+path = "plugins/universal-audio/uad-millennia-nseq2.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-moog-filter"
+path = "plugins/universal-audio/uad-moog-filter.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-neve-1073"
+path = "plugins/universal-audio/uad-neve-1073.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-neve-1081"
+path = "plugins/universal-audio/uad-neve-1081.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-neve-1084"
+path = "plugins/universal-audio/uad-neve-1084.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-neve-2254e"
+path = "plugins/universal-audio/uad-neve-2254e.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-neve-2254e-dual"
+path = "plugins/universal-audio/uad-neve-2254e-dual.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-neve-31102"
+path = "plugins/universal-audio/uad-neve-31102.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-neve-33609"
+path = "plugins/universal-audio/uad-neve-33609.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-neve-88rs"
+path = "plugins/universal-audio/uad-neve-88rs.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-neve-preamp"
+path = "plugins/universal-audio/uad-neve-preamp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ocean-way-mics"
+path = "plugins/universal-audio/uad-ocean-way-mics.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ocean-way-studios"
+path = "plugins/universal-audio/uad-ocean-way-studios.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-oto-biscuit"
+path = "plugins/universal-audio/uad-oto-biscuit.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-oxford-dynamic-eq"
+path = "plugins/universal-audio/uad-oxford-dynamic-eq.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-oxford-envolution"
+path = "plugins/universal-audio/uad-oxford-envolution.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-oxford-eq"
+path = "plugins/universal-audio/uad-oxford-eq.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-oxford-inflator"
+path = "plugins/universal-audio/uad-oxford-inflator.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-oxford-supresser"
+path = "plugins/universal-audio/uad-oxford-supresser.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-oxide-tape"
+path = "plugins/universal-audio/uad-oxide-tape.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-buss-comp"
+path = "plugins/universal-audio/uad-precision-buss-comp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-channel-strip"
+path = "plugins/universal-audio/uad-precision-channel-strip.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-de-esser"
+path = "plugins/universal-audio/uad-precision-de-esser.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-delay-mod"
+path = "plugins/universal-audio/uad-precision-delay-mod.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-enhancer-hz"
+path = "plugins/universal-audio/uad-precision-enhancer-hz.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-enhancer-khz"
+path = "plugins/universal-audio/uad-precision-enhancer-khz.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-equalizer"
+path = "plugins/universal-audio/uad-precision-equalizer.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-k-stereo"
+path = "plugins/universal-audio/uad-precision-k-stereo.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-limiter"
+path = "plugins/universal-audio/uad-precision-limiter.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-maximizer"
+path = "plugins/universal-audio/uad-precision-maximizer.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-multiband"
+path = "plugins/universal-audio/uad-precision-multiband.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-precision-reflection"
+path = "plugins/universal-audio/uad-precision-reflection.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-pultec-eqp1a"
+path = "plugins/universal-audio/uad-pultec-eqp1a.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-pultec-hlf3c"
+path = "plugins/universal-audio/uad-pultec-hlf3c.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-pultec-meq5"
+path = "plugins/universal-audio/uad-pultec-meq5.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-pure-plate"
+path = "plugins/universal-audio/uad-pure-plate.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-putnam-mics"
+path = "plugins/universal-audio/uad-putnam-mics.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-raw"
+path = "plugins/universal-audio/uad-raw.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-realverb-pro"
+path = "plugins/universal-audio/uad-realverb-pro.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-roland-ce1"
+path = "plugins/universal-audio/uad-roland-ce1.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-roland-dimension-d"
+path = "plugins/universal-audio/uad-roland-dimension-d.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-roland-re201"
+path = "plugins/universal-audio/uad-roland-re201.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-shadow-hills"
+path = "plugins/universal-audio/uad-shadow-hills.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-shadow-hills-class-a"
+path = "plugins/universal-audio/uad-shadow-hills-class-a.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-softube-amp-room"
+path = "plugins/universal-audio/uad-softube-amp-room.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-softube-bass-amp"
+path = "plugins/universal-audio/uad-softube-bass-amp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-softube-metal-amp"
+path = "plugins/universal-audio/uad-softube-metal-amp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-softube-vintage-amp"
+path = "plugins/universal-audio/uad-softube-vintage-amp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-softube-vocoder"
+path = "plugins/universal-audio/uad-softube-vocoder.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-sound-machine-woodworks"
+path = "plugins/universal-audio/uad-sound-machine-woodworks.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-sphere-mics"
+path = "plugins/universal-audio/uad-sphere-mics.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-spl-transient-designer"
+path = "plugins/universal-audio/uad-spl-transient-designer.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-spl-twintube"
+path = "plugins/universal-audio/uad-spl-twintube.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-spl-vitalizer"
+path = "plugins/universal-audio/uad-spl-vitalizer.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-spl-vitalizer-mk3"
+path = "plugins/universal-audio/uad-spl-vitalizer-mk3.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ssl-e-channel"
+path = "plugins/universal-audio/uad-ssl-e-channel.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ssl-g-bus-comp"
+path = "plugins/universal-audio/uad-ssl-g-bus-comp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-studer-a800"
+path = "plugins/universal-audio/uad-studer-a800.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-studio-d-chorus"
+path = "plugins/universal-audio/uad-studio-d-chorus.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-suhr-pt100"
+path = "plugins/universal-audio/uad-suhr-pt100.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-suhr-se100"
+path = "plugins/universal-audio/uad-suhr-se100.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-summit-tla100a"
+path = "plugins/universal-audio/uad-summit-tla100a.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-teletronix-la2"
+path = "plugins/universal-audio/uad-teletronix-la2.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-teletronix-la3a"
+path = "plugins/universal-audio/uad-teletronix-la3a.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-thermionic-culture-vulture"
+path = "plugins/universal-audio/uad-thermionic-culture-vulture.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-tonelux-tilt"
+path = "plugins/universal-audio/uad-tonelux-tilt.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-trident-a-range"
+path = "plugins/universal-audio/uad-trident-a-range.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-ts-overdrive"
+path = "plugins/universal-audio/uad-ts-overdrive.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-tube-tech-cl1b"
+path = "plugins/universal-audio/uad-tube-tech-cl1b.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-tube-tech-me1b"
+path = "plugins/universal-audio/uad-tube-tech-me1b.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-tube-tech-pe1c"
+path = "plugins/universal-audio/uad-tube-tech-pe1c.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-v76-preamp"
+path = "plugins/universal-audio/uad-v76-preamp.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-valley-people-dynamite"
+path = "plugins/universal-audio/uad-valley-people-dynamite.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-vertigo-vsc2"
+path = "plugins/universal-audio/uad-vertigo-vsc2.toml"
+version = "1.0"
+
+[[plugins]]
+name = "uad-vertigo-vsm3"
+path = "plugins/universal-audio/uad-vertigo-vsm3.toml"
+version = "1.0"
+
+[[plugins]]
+name = "unfiltered-audio-byome"
+path = "plugins/unfiltered-audio/unfiltered-audio-byome.toml"
+version = "1.3.6"
+
+[[plugins]]
+name = "uvi-falcon"
+path = "plugins/uvi/uvi-falcon.toml"
+version = "2026.1.0"
+
+[[plugins]]
+name = "valhalla-delay"
+path = "plugins/valhalla-dsp/valhalla-delay.toml"
+version = "3.0.5"
+
+[[plugins]]
+name = "valhalla-freq-echo"
+path = "plugins/valhalla-dsp/valhalla-freq-echo.toml"
+version = "1.2.8"
+
+[[plugins]]
+name = "valhalla-plate"
+path = "plugins/valhalla-dsp/valhalla-plate.toml"
+version = "1.6.8"
+
+[[plugins]]
+name = "valhalla-room"
+path = "plugins/valhalla-dsp/valhalla-room.toml"
+version = "2.0.5"
+
+[[plugins]]
+name = "valhalla-space-modulator"
+path = "plugins/valhalla-dsp/valhalla-space-modulator.toml"
+version = "1.2.8"
+
+[[plugins]]
+name = "valhalla-supermassive"
+path = "plugins/valhalla-dsp/valhalla-supermassive.toml"
+version = "5.0.0"
+
+[[plugins]]
+name = "valhalla-ubermod"
+path = "plugins/valhalla-dsp/valhalla-ubermod.toml"
+version = "1.2.8"
+
+[[plugins]]
+name = "valhalla-vintage-verb"
+path = "plugins/valhalla-dsp/valhalla-vintage-verb.toml"
+version = "4.0.5"
+
+[[plugins]]
+name = "vcv-rack"
+path = "plugins/vcv/vcv-rack.toml"
+version = "2.6.6"
+
+[[plugins]]
+name = "venn-free-clip"
+path = "plugins/venn-audio/venn-free-clip.toml"
+version = "1.0.2"
+
+[[plugins]]
+name = "vital"
+path = "plugins/matt-tytel/vital.toml"
+version = "1.5.5"
+
+[[plugins]]
+name = "vla-2a"
+path = "plugins/plugin-alliance-black-rooster-audio/vla-2a.toml"
+version = "1.0"
+
+[[plugins]]
+name = "voxengo-boogex"
+path = "plugins/voxengo/voxengo-boogex.toml"
+version = "3.8"
+
+[[plugins]]
+name = "voxengo-curveeq"
+path = "plugins/voxengo/voxengo-curveeq.toml"
+version = "3.15"
+
+[[plugins]]
+name = "voxengo-marvel-geq"
+path = "plugins/voxengo/voxengo-marvel-geq.toml"
+version = "1.17"
+
+[[plugins]]
+name = "voxengo-msed"
+path = "plugins/voxengo/voxengo-msed.toml"
+version = "3.13"
+
+[[plugins]]
+name = "voxengo-oldskoolverb"
+path = "plugins/voxengo/voxengo-oldskoolverb.toml"
+version = "2.6"
+
+[[plugins]]
+name = "voxengo-overtone-geq"
+path = "plugins/voxengo/voxengo-overtone-geq.toml"
+version = "1.19"
+
+[[plugins]]
+name = "voxengo-sound-delay"
+path = "plugins/voxengo/voxengo-sound-delay.toml"
+version = "1.15"
+
+[[plugins]]
+name = "voxengo-span"
+path = "plugins/voxengo/voxengo-span.toml"
+version = "3.23"
+
+[[plugins]]
+name = "voxengo-tube-amp"
+path = "plugins/voxengo/voxengo-tube-amp.toml"
+version = "2.16"
+
+[[plugins]]
+name = "waldorf-largo-2"
+path = "plugins/waldorf-music/waldorf-largo-2.toml"
+version = "1.0.1"
+
+[[plugins]]
+name = "waldorf-nave"
+path = "plugins/waldorf-music/waldorf-nave.toml"
+version = "1.1.9"
+
+[[plugins]]
+name = "waves-abbey-road-tg-mastering-chain"
+path = "plugins/waves-audio/waves-abbey-road-tg-mastering-chain.toml"
+version = "15.0"
+
+[[plugins]]
+name = "waves-api-2500"
+path = "plugins/waves/waves-api-2500.toml"
+version = "16.0"
+
+[[plugins]]
+name = "waves-api-550"
+path = "plugins/waves/waves-api-550.toml"
+version = "16.0"
+
+[[plugins]]
+name = "waves-center"
+path = "plugins/waves/waves-center.toml"
+version = "16.0"
+
+[[plugins]]
+name = "waves-cla-2a"
+path = "plugins/waves-audio/waves-cla-2a.toml"
+version = "15.0"
+
+[[plugins]]
+name = "waves-clarity-vx"
+path = "plugins/waves-audio/waves-clarity-vx.toml"
+version = "15.0"
+
+[[plugins]]
+name = "waves-h-delay"
+path = "plugins/waves-audio/waves-h-delay.toml"
+version = "15.0"
+
+[[plugins]]
+name = "waves-j37-tape"
+path = "plugins/waves-audio/waves-j37-tape.toml"
+version = "15.0"
+
+[[plugins]]
+name = "waves-kramer-master-tape"
+path = "plugins/waves/waves-kramer-master-tape.toml"
+version = "16.0"
+
+[[plugins]]
+name = "waves-l2"
+path = "plugins/waves-audio/waves-l2.toml"
+version = "15.0"
+
+[[plugins]]
+name = "waves-renaissance-reverb"
+path = "plugins/waves-audio/waves-renaissance-reverb.toml"
+version = "15.0"
+
+[[plugins]]
+name = "waves-silk-vocal"
+path = "plugins/waves-audio/waves-silk-vocal.toml"
+version = "15.0"
+
+[[plugins]]
+name = "waves-ssl-e-channel"
+path = "plugins/waves-audio/waves-ssl-e-channel.toml"
+version = "15.0"
+
+[[plugins]]
+name = "waves-tune-real-time"
+path = "plugins/waves-audio/waves-tune-real-time.toml"
+version = "14.0"
+
+[[plugins]]
+name = "waves-vitamin"
+path = "plugins/waves-audio/waves-vitamin.toml"
+version = "15.0"
+
+[[plugins]]
+name = "waves-vocal-rider"
+path = "plugins/waves/waves-vocal-rider.toml"
+version = "16.0"
+
+[[plugins]]
+name = "wavesfactory-spectre"
+path = "plugins/wavesfactory/wavesfactory-spectre.toml"
+version = "1.5.6"
+
+[[plugins]]
+name = "wolf-shaper"
+path = "plugins/wolf-plugins/wolf-shaper.toml"
+version = "1.0.2"
+
+[[plugins]]
+name = "xfer-cthulhu"
+path = "plugins/xfer-records/xfer-cthulhu.toml"
+version = "1.248"
+
+[[plugins]]
+name = "xln-addictive-drums"
+path = "plugins/xln-audio/xln-addictive-drums.toml"
+version = "2.3"
+
+[[plugins]]
+name = "xln-xo"
+path = "plugins/xln-audio/xln-xo.toml"
+version = "1.5"
+
+[[plugins]]
+name = "youlean-loudness-meter"
+path = "plugins/youlean/youlean-loudness-meter.toml"
+version = "2.5.14"
+
+[[plugins]]
+name = "zebralette"
+path = "plugins/u-he/zebralette.toml"
+version = "3.0.0"
+
+[[plugins]]
+name = "zynaptiq-adaptiverb"
+path = "plugins/zynaptiq/zynaptiq-adaptiverb.toml"
+version = "1.2.2"
+
+[[plugins]]
+name = "zynaptiq-unfilter"
+path = "plugins/zynaptiq/zynaptiq-unfilter.toml"
+version = "1.5.0"

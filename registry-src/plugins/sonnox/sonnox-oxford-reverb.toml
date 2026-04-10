@@ -1,0 +1,25 @@
+slug = "sonnox-oxford-reverb"
+name = "Oxford Reverb"
+vendor = "sonnox"
+version = "5.0"
+description = "High-quality algorithmic reverb with separate control over early reflections and reverb tail, built-in EQ, and over 120 presets from small rooms to vast concert halls."
+category = "effects"
+subcategory = "reverb"
+license = "commercial"
+tags = ["reverb", "algorithmic", "early-reflections", "eq", "mastering", "mixing", "console", "ilok"]
+homepage = "https://sonnox.com/products/oxford-reverb"
+
+# NOTE: Sonnox products require an iLok account for activation.
+# Downloads are available from the Sonnox website after purchase.
+
+[formats.vst3]
+url = "https://sonnox.com/products/oxford-reverb"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Oxford Reverb.vst3"
+
+[formats.au]
+url = "https://sonnox.com/products/oxford-reverb"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Oxford Reverb.component"

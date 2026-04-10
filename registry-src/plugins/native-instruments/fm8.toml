@@ -1,0 +1,25 @@
+slug = "fm8"
+name = "FM8"
+vendor = "native-instruments"
+version = "1.4.6"
+description = "Digital FM synthesizer with Easy Edit Page, 1200+ presets, and morph square."
+category = "instruments"
+subcategory = "synthesizer"
+license = "commercial"
+tags = ["synth", "synthesizer", "fm", "digital", "nks", "komplete"]
+installer = "native-access"
+homepage = "https://www.native-instruments.com/en/products/komplete/synths/fm8/"
+
+[formats.vst3]
+url = "https://www.native-instruments.com/en/specials/native-access/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "FM8.vst3"
+
+[formats.au]
+url = "https://www.native-instruments.com/en/specials/native-access/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "FM8.component"

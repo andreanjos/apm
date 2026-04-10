@@ -1,0 +1,25 @@
+slug = "uad-api-vision"
+name = "API Vision Channel Strip"
+vendor = "universal-audio"
+version = "1.0"
+description = "Full channel strip from the API Vision console with EQ, dynamics, and filters"
+category = "effects"
+subcategory = "channel-strip"
+license = "commercial"
+tags = ["channel-strip", "api", "eq", "dynamics", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD API Vision Channel Strip.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD API Vision Channel Strip.component"

@@ -1,0 +1,4 @@
+slug = "mixing-basics"
+name = "Mixing Basics"
+description = "Essential free plugins for a solid mix: transparent dynamics, lush reverb, and room ambience."
+plugins = ["tdr-nova", "valhalla-supermassive", "dragonfly-reverb"]

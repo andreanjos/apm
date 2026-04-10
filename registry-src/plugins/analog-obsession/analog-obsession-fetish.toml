@@ -1,0 +1,27 @@
+slug = "analog-obsession-fetish"
+name = "FETish"
+vendor = "analog-obsession"
+version = "5.0"
+description = "Free FET compressor/limiter inspired by classic 1176-style hardware with sidechain HPF."
+category = "effects"
+subcategory = "compressor"
+license = "freeware"
+tags = ["compressor", "limiter", "fet", "1176", "vintage", "sidechain", "free", "freeware"]
+homepage = "https://analogobsession.com/"
+
+# NOTE: Analog Obsession distributes plugins via their website and Patreon.
+# All plugins are free to download. Direct PKG download links are on the product pages.
+
+[formats.vst3]
+url = "https://analogobsession.com/"
+sha256 = "manual"
+install_type = "pkg"
+bundle_path = "FETish.vst3"
+download_type = "manual"
+
+[formats.au]
+url = "https://analogobsession.com/"
+sha256 = "manual"
+install_type = "pkg"
+bundle_path = "FETish.component"
+download_type = "manual"

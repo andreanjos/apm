@@ -1,0 +1,61 @@
+slug = "tdr-limiter6ge"
+name = "TDR Limiter 6 GE"
+vendor = "tokyo-dawn-records"
+version = "1.3.0"
+description = "Multi-stage mastering limiter with six processing stages including compressor, clipper, and peak limiter."
+category = "effects"
+subcategory = "limiter"
+license = "freeware"
+tags = ["limiter", "mastering", "dynamics", "compressor", "free", "freeware"]
+homepage = "https://www.tokyodawn.net/tdr-limiter6-ge/"
+
+[formats.vst3]
+url = "https://www.tokyodawn.net/labs/Limiter6GE/1.3.0/TDR%20Limiter%206%20GE%20(demo).zip"
+sha256 = "2688f3ba6b7539fc74c49fca77b27933c87c069680882ad55ea75b65ffb31508"
+install_type = "zip"
+bundle_path = "TDR Limiter 6 GE.vst3"
+
+[formats.au]
+url = "https://www.tokyodawn.net/labs/Limiter6GE/1.3.0/TDR%20Limiter%206%20GE%20(demo).zip"
+sha256 = "2688f3ba6b7539fc74c49fca77b27933c87c069680882ad55ea75b65ffb31508"
+install_type = "zip"
+bundle_path = "TDR Limiter 6 GE.component"
+
+[[releases]]
+version = "1.2.7"
+
+[releases.formats.vst3]
+url = "https://www.tokyodawn.net/labs/Limiter6GE/1.2.7/TDR%20Limiter%206%20GE%20(demo).zip"
+sha256 = "7b59eaa7732d428d1fe1b400408d31518a9fa84f90f25f53a94957e4cf3a1a05"
+install_type = "zip"
+
+[releases.formats.au]
+url = "https://www.tokyodawn.net/labs/Limiter6GE/1.2.7/TDR%20Limiter%206%20GE%20(demo).zip"
+sha256 = "7b59eaa7732d428d1fe1b400408d31518a9fa84f90f25f53a94957e4cf3a1a05"
+install_type = "zip"
+
+[[releases]]
+version = "1.2.6"
+
+[releases.formats.vst3]
+url = "https://www.tokyodawn.net/labs/Limiter6GE/1.2.6/TDR%20Limiter%206%20GE%20(demo).zip"
+sha256 = "edbea194d200316b3abd614d89ca99cd1274159bb16fd7e181cf3cd97ee04906"
+install_type = "zip"
+
+[releases.formats.au]
+url = "https://www.tokyodawn.net/labs/Limiter6GE/1.2.6/TDR%20Limiter%206%20GE%20(demo).zip"
+sha256 = "edbea194d200316b3abd614d89ca99cd1274159bb16fd7e181cf3cd97ee04906"
+install_type = "zip"
+
+[[releases]]
+version = "1.2.5"
+
+[releases.formats.vst3]
+url = "https://www.tokyodawn.net/labs/Limiter6GE/1.2.5/TDR%20Limiter%206%20GE%20(demo).zip"
+sha256 = "685db6f16416875afbaa474fc64a4e19bc860f447368f1eaed581b1276ce32f7"
+install_type = "zip"
+
+[releases.formats.au]
+url = "https://www.tokyodawn.net/labs/Limiter6GE/1.2.5/TDR%20Limiter%206%20GE%20(demo).zip"
+sha256 = "685db6f16416875afbaa474fc64a4e19bc860f447368f1eaed581b1276ce32f7"
+install_type = "zip"

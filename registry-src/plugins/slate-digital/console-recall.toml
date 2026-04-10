@@ -1,0 +1,22 @@
+slug = "console-recall"
+name = "Console Recall"
+vendor = "slate-digital"
+version = "1.0"
+description = "Console emulation plugin that models the analog warmth and character of classic mixing consoles"
+category = "effects"
+subcategory = "saturation"
+license = "commercial"
+tags = ["console", "saturation", "analog", "warmth", "mixing"]
+homepage = "https://slatedigital.com/"
+
+[formats.vst3]
+url = "https://slatedigital.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Console Recall.vst3"
+
+[formats.au]
+url = "https://slatedigital.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Console Recall.component"

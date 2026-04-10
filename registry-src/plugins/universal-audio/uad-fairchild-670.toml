@@ -1,0 +1,25 @@
+slug = "uad-fairchild-670"
+name = "Fairchild 670"
+vendor = "universal-audio"
+version = "1.0"
+description = "Stereo tube compressor/limiter emulation of the legendary Fairchild 670 with variable-mu compression."
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = ["compressor", "fairchild", "tube", "variable-mu", "vintage", "mastering", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/compressors-limiters/fairchild-compressor-collection.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Fairchild 670.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Fairchild 670.component"

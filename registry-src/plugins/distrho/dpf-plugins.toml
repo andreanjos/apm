@@ -1,0 +1,61 @@
+slug = "dpf-plugins"
+name = "DPF Plugins"
+vendor = "distrho"
+version = "1.7"
+description = "Free collection of audio plugins including Kars string synth, MVerb reverb, and glBars visualizer."
+category = "effects"
+subcategory = "multi-fx"
+license = "MIT"
+tags = ["effects", "synth", "reverb", "collection", "free", "open-source"]
+homepage = "https://github.com/DISTRHO/DPF-Plugins"
+
+[formats.vst3]
+url = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-macos-universal.dmg"
+sha256 = "94b996c898a7ba160561113d1c48c4700a6ef65d33f4092ea7289b1af44059e1"
+install_type = "dmg"
+bundle_path = "DPF Plugins.vst3"
+
+[formats.au]
+url = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.7/DPF-Plugins-v1.7-macos-universal.dmg"
+sha256 = "94b996c898a7ba160561113d1c48c4700a6ef65d33f4092ea7289b1af44059e1"
+install_type = "dmg"
+bundle_path = "DPF Plugins.component"
+
+[[releases]]
+version = "1.6"
+
+[releases.formats.vst3]
+url = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.6/DPF-Plugins-v1.6-macOS.pkg"
+sha256 = "64e9ef4cf0d6afd5e97fe4f9645ae858bc6923177c8e0c27fb8242ed5152068c"
+install_type = "pkg"
+
+[releases.formats.au]
+url = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.6/DPF-Plugins-v1.6-macOS.pkg"
+sha256 = "64e9ef4cf0d6afd5e97fe4f9645ae858bc6923177c8e0c27fb8242ed5152068c"
+install_type = "pkg"
+
+[[releases]]
+version = "1.5"
+
+[releases.formats.vst3]
+url = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.5/DPF-Plugins-v1.5-macOS.pkg"
+sha256 = "b18d2aaec199fbc1506cd437285e1f7f466db7877d53581cca59a776931fd5a8"
+install_type = "pkg"
+
+[releases.formats.au]
+url = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.5/DPF-Plugins-v1.5-macOS.pkg"
+sha256 = "b18d2aaec199fbc1506cd437285e1f7f466db7877d53581cca59a776931fd5a8"
+install_type = "pkg"
+
+[[releases]]
+version = "1.3"
+
+[releases.formats.vst3]
+url = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.3/DPF-Plugins-v1.3-macOS.zip"
+sha256 = "2f0a197ced3a13cc96d30e1d3d7b38aff1b7b14725b77945f1ff7e4f162659f9"
+install_type = "zip"
+
+[releases.formats.au]
+url = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.3/DPF-Plugins-v1.3-macOS.zip"
+sha256 = "2f0a197ced3a13cc96d30e1d3d7b38aff1b7b14725b77945f1ff7e4f162659f9"
+install_type = "zip"

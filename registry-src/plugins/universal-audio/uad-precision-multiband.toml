@@ -1,0 +1,25 @@
+slug = "uad-precision-multiband"
+name = "Precision Multiband"
+vendor = "universal-audio"
+version = "1.0"
+description = "5-band multiband dynamics processor for mastering and mix bus processing"
+category = "effects"
+subcategory = "multiband-dynamics"
+license = "commercial"
+tags = ["multiband", "dynamics", "compressor", "mastering", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Precision Multiband.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Precision Multiband.component"

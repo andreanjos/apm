@@ -1,0 +1,25 @@
+slug = "black-box-analog-hg-2"
+name = "Black Box Analog Design HG-2"
+vendor = "plugin-alliance-black-box-analog-design"
+version = "1.10.0"
+description = "Analog tube saturation and harmonic enhancement plugin modeled on the Black Box Analog Design HG-2 hardware unit, adding warmth and air to digital recordings."
+category = "effects"
+subcategory = "saturation"
+license = "commercial"
+tags = ["saturation", "tube", "harmonic", "warmth", "analog", "mixing", "mastering"]
+homepage = "https://www.plugin-alliance.com/products/hg-2"
+
+# NOTE: Plugin Alliance products are installed via the Plugin Alliance
+# Installation Manager. Direct pkg/dmg downloads are account-gated.
+
+[formats.vst3]
+url = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Black Box Analog Design HG-2.vst3"
+
+[formats.au]
+url = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Black Box Analog Design HG-2.component"

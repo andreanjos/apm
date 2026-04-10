@@ -1,0 +1,25 @@
+slug = "waves-clarity-vx"
+name = "Clarity Vx"
+vendor = "waves-audio"
+version = "15.0"
+description = "AI-powered real-time vocal noise reduction plugin using Waves Neural Networks to cleanly isolate voice from background noise."
+category = "effects"
+subcategory = "noise-reduction"
+license = "commercial"
+tags = ["noise-reduction", "ai", "vocal", "voice", "neural-network", "restoration", "real-time"]
+installer = "waves-central"
+homepage = "https://www.waves.com/plugins/clarity-vx"
+
+[formats.vst3]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+download_type = "managed"
+bundle_path = "WaveShell-VST3 15.0.vst3"
+
+[formats.au]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+download_type = "managed"
+bundle_path = "WaveShell2-AU 15.0.component"

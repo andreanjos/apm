@@ -1,0 +1,22 @@
+slug = "blue-cat-free-amp"
+name = "Blue Cat's Free Amp"
+vendor = "blue-cat-audio"
+version = "1.0"
+description = "Free guitar amp simulation with three amp models from clean vintage to modern high-gain metal."
+category = "effects"
+subcategory = "amp-sim"
+license = "freeware"
+tags = ["amp-sim", "guitar", "distortion", "overdrive", "clean", "metal", "free", "freeware"]
+homepage = "https://www.bluecataudio.com/Products/Product_FreeAmp/"
+
+[formats.vst3]
+url = "https://www.bluecataudio.com/Products/Product_FreeAmp/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "BlueCatFreeAmp.vst3"
+
+[formats.au]
+url = "https://www.bluecataudio.com/Products/Product_FreeAmp/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "BlueCatFreeAmp.component"

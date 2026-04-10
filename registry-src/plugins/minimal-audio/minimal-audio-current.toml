@@ -1,0 +1,22 @@
+slug = "minimal-audio-current"
+name = "Current"
+vendor = "minimal-audio"
+version = "2.2"
+description = "Flagship multi-engine synthesizer featuring spectral wavetable oscillators, additive sub-engine, granular synthesis, and a time-stretching sampler with deep modulation."
+category = "instruments"
+subcategory = "synthesizer"
+license = "commercial"
+tags = ["synth", "synthesizer", "wavetable", "granular", "sampler", "spectral", "additive", "modulation"]
+homepage = "https://www.minimal.audio/products/current"
+
+[formats.vst3]
+url = "https://www.minimal.audio/products/current"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Current.vst3"
+
+[formats.au]
+url = "https://www.minimal.audio/products/current"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Current.component"

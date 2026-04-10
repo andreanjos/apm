@@ -1,0 +1,25 @@
+slug = "uad-ada-flanger"
+name = "ADA Flanger"
+vendor = "universal-audio"
+version = "1.0"
+description = "Flanger emulation of the ADA STD-1 with through-zero flanging"
+category = "effects"
+subcategory = "modulation"
+license = "commercial"
+tags = ["flanger", "modulation", "ada", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD ADA Flanger.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD ADA Flanger.component"

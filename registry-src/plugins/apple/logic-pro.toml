@@ -1,0 +1,17 @@
+slug = "logic-pro"
+name = "Logic Pro"
+vendor = "apple"
+version = "11.1"
+description = "Professional music production DAW with a complete set of instruments, effects, loops, and tools for songwriting, recording, editing, and mixing."
+category = "daws"
+subcategory = "general"
+license = "commercial"
+tags = ["daw", "production", "recording", "mixing", "mastering", "apple"]
+homepage = "https://www.apple.com/logic-pro/"
+
+[formats.app]
+url = "https://apps.apple.com/app/logic-pro/id634148309"
+sha256 = "manual"
+install_type = "mas"
+bundle_path = "Logic Pro.app"
+download_type = "manual"

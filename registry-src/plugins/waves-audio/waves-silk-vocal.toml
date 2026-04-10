@@ -1,0 +1,25 @@
+slug = "waves-silk-vocal"
+name = "Silk Vocal"
+vendor = "waves-audio"
+version = "15.0"
+description = "AI-driven smart EQ and dynamics processor that intelligently shapes vocals from raw recording to a balanced, polished sound."
+category = "effects"
+subcategory = "vocal"
+license = "commercial"
+tags = ["vocal", "eq", "dynamics", "ai", "smart-processing", "compressor", "mastering"]
+installer = "waves-central"
+homepage = "https://www.waves.com/plugins/silk-vocal"
+
+[formats.vst3]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+download_type = "managed"
+bundle_path = "WaveShell-VST3 15.0.vst3"
+
+[formats.au]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+download_type = "managed"
+bundle_path = "WaveShell2-AU 15.0.component"

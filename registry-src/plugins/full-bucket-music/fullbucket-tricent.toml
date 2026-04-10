@@ -1,0 +1,20 @@
+slug = "fullbucket-tricent"
+name = "Tricent mk III"
+vendor = "full-bucket-music"
+version = "1.1.4"
+description = "Emulation of the KORG Trident mk II synthesizer with multiple synthesis sections."
+category = "instruments"
+subcategory = "synthesizer"
+license = "freeware"
+tags = ["synth", "synthesizer", "korg", "trident", "vintage", "free", "freeware"]
+homepage = "https://www.fullbucket.de/music/tricent.html"
+
+[formats.vst3]
+url = "https://fullbucket.de/music/dl.php?file=tricent_1_1_4_mac"
+sha256 = "982d8e70ffbbd23fe0be2dd9f2db59f99ea37cf0df1893ffb8ab513db3ada4e1"
+install_type = "pkg"
+
+[formats.au]
+url = "https://fullbucket.de/music/dl.php?file=tricent_1_1_4_mac"
+sha256 = "982d8e70ffbbd23fe0be2dd9f2db59f99ea37cf0df1893ffb8ab513db3ada4e1"
+install_type = "pkg"

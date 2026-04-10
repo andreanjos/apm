@@ -1,0 +1,22 @@
+slug = "socalabs-wave-looper"
+name = "SocaLabs Wave Looper"
+vendor = "socalabs"
+version = "1.0.0"
+description = "Free simple wave file player plugin for testing audio plugins during development."
+category = "instruments"
+subcategory = "utility"
+license = "GPL-3.0"
+tags = ["wave", "player", "testing", "developer", "utility", "free", "open-source"]
+homepage = "https://socalabs.com/developer-tools/tonegenerator-2/"
+
+[formats.vst3]
+url = "https://socalabs.com/files/get.php?id=WaveLooper_Mac.zip"
+sha256 = "b77c5b4b63824ebea0c217ae45a16e0bc131a7c62d1946ff80996d5711ba6063"
+install_type = "zip"
+bundle_path = "vst3/WaveLooper.vst3"
+
+[formats.au]
+url = "https://socalabs.com/files/get.php?id=WaveLooper_Mac.zip"
+sha256 = "b77c5b4b63824ebea0c217ae45a16e0bc131a7c62d1946ff80996d5711ba6063"
+install_type = "zip"
+bundle_path = "au/WaveLooper.component"

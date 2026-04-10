@@ -1,0 +1,22 @@
+slug = "waldorf-largo-2"
+name = "Largo 2"
+vendor = "waldorf-music"
+version = "1.0.1"
+description = "Virtual analog synthesizer with Waldorf DNA, featuring wavetable oscillators, multimode filters, and up to 256 voices."
+category = "instruments"
+subcategory = "synthesizer"
+license = "commercial"
+tags = ["synth", "synthesizer", "virtual-analog", "wavetable", "waldorf", "blofeld", "polyphonic"]
+homepage = "https://waldorfmusic.com/largo-2/"
+
+[formats.vst3]
+url = "https://waldorfmusic.com/largo-2/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Largo 2.vst3"
+
+[formats.au]
+url = "https://waldorfmusic.com/largo-2/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Largo 2.component"

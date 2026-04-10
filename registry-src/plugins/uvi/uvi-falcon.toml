@@ -1,0 +1,22 @@
+slug = "uvi-falcon"
+name = "Falcon 2026"
+vendor = "uvi"
+version = "2026.1.0"
+description = "Creative hybrid instrument combining multiple synthesis engines, powerful modulation, and an expansive factory library."
+category = "instruments"
+subcategory = "hybrid"
+license = "commercial"
+tags = ["synth", "synthesizer", "hybrid", "sampling", "wavetable", "granular", "fm", "multi-engine", "scripting"]
+homepage = "https://www.uvi.net/falcon"
+
+[formats.vst3]
+url = "https://www.uvi.net/falcon"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "UVI Falcon.vst3"
+
+[formats.au]
+url = "https://www.uvi.net/falcon"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "UVI Falcon.component"

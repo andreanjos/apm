@@ -1,0 +1,17 @@
+slug = "ableton-live"
+name = "Ableton Live"
+vendor = "ableton"
+version = "12.1"
+description = "Music production and performance DAW with session/arrangement views, built-in instruments, and a focus on live performance workflows."
+category = "daws"
+subcategory = "general"
+license = "commercial"
+tags = ["daw", "production", "live-performance", "electronic", "midi", "sampling"]
+homepage = "https://www.ableton.com/en/live/"
+
+[formats.app]
+url = "https://www.ableton.com/en/trial/"
+sha256 = "manual"
+install_type = "zip"
+bundle_path = "Ableton Live 12 Suite.app"
+download_type = "manual"

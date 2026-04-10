@@ -1,0 +1,22 @@
+slug = "tal-sampler"
+name = "TAL-Sampler"
+vendor = "tal-software"
+version = "4.8.5"
+description = "Analog-modeled vintage sampler with multiple DAC emulation modes, self-oscillating filters, and four sample layers."
+category = "instruments"
+subcategory = "sampler"
+license = "commercial"
+tags = ["sampler", "vintage", "analog", "dac", "filters", "modulation", "retro"]
+homepage = "https://tal-software.com/products/tal-sampler"
+
+[formats.vst3]
+url = "https://tal-software.com/products/tal-sampler"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "TAL-Sampler.vst3"
+
+[formats.au]
+url = "https://tal-software.com/products/tal-sampler"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "TAL-Sampler.component"

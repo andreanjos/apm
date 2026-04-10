@@ -1,0 +1,22 @@
+slug = "goodhertz-dc19"
+name = "DC19"
+vendor = "goodhertz"
+version = "3.11.0"
+description = "Analog-style DC offset filter and utility for removing subsonic content"
+category = "effects"
+subcategory = "utility"
+license = "commercial"
+tags = ["dc-offset", "filter", "utility", "subsonic"]
+homepage = "https://goodhertz.com/"
+
+[formats.vst3]
+url = "https://goodhertz.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Ghz DC19 3.vst3"
+
+[formats.au]
+url = "https://goodhertz.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Ghz DC19 3.component"

@@ -1,0 +1,22 @@
+slug = "fabfilter-pro-g"
+name = "FabFilter Pro-G"
+vendor = "fabfilter"
+version = "1.0"
+description = "High-quality gate/expander with sidechain filtering, lookahead, and intuitive interface."
+category = "effects"
+subcategory = "gate"
+license = "commercial"
+tags = ["gate", "expander", "dynamics", "sidechain", "mixing", "fabfilter"]
+homepage = "https://www.fabfilter.com/products/pro-g-gate-expander-plug-in"
+
+[formats.vst3]
+url = "https://www.fabfilter.com/shop/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Pro-G.vst3"
+
+[formats.au]
+url = "https://www.fabfilter.com/shop/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Pro-G.component"

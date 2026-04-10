@@ -1,0 +1,25 @@
+slug = "uad-oxford-dynamic-eq"
+name = "Oxford Dynamic EQ"
+vendor = "universal-audio"
+version = "1.0"
+description = "Dynamic parametric EQ with frequency-selective compression and expansion"
+category = "effects"
+subcategory = "dynamic-eq"
+license = "commercial"
+tags = ["dynamic-eq", "eq", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Oxford Dynamic EQ.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Oxford Dynamic EQ.component"

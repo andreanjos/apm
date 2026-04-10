@@ -1,0 +1,25 @@
+slug = "waves-h-delay"
+name = "H-Delay"
+vendor = "waves-audio"
+version = "15.0"
+description = "Hybrid analog delay with up to 3500ms delay time, modulation, ping-pong, and tempo sync."
+category = "effects"
+subcategory = "delay"
+license = "commercial"
+tags = ["delay", "echo", "analog", "ping-pong", "modulation", "tempo-sync"]
+installer = "waves-central"
+homepage = "https://www.waves.com/plugins/h-delay-hybrid-delay"
+
+[formats.vst3]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+download_type = "managed"
+bundle_path = "WaveShell-VST3 15.0.vst3"
+
+[formats.au]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+download_type = "managed"
+bundle_path = "WaveShell2-AU 15.0.component"

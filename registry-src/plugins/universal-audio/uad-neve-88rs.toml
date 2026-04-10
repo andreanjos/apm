@@ -1,0 +1,25 @@
+slug = "uad-neve-88rs"
+name = "Neve 88RS"
+vendor = "universal-audio"
+version = "1.0"
+description = "Channel strip emulation of the Neve 88RS large-format console with EQ, dynamics, gate, and preamp."
+category = "effects"
+subcategory = "channel-strip"
+license = "commercial"
+tags = ["channel-strip", "neve", "88rs", "console", "eq", "dynamics", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/channel-strips/neve-88rs-channel-strip-collection.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Neve 88RS.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Neve 88RS.component"

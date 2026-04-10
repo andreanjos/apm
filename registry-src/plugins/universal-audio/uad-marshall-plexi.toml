@@ -1,0 +1,25 @@
+slug = "uad-marshall-plexi"
+name = "Marshall Plexi Super Lead 1959"
+vendor = "universal-audio"
+version = "1.0"
+description = "Guitar amplifier emulation of the Marshall Super Lead 1959 Plexi with its iconic bright, crunchy rock tone."
+category = "effects"
+subcategory = "amp-sim"
+license = "commercial"
+tags = ["guitar", "amp-sim", "marshall", "plexi", "rock", "classic", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-plexi-super-lead.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Marshall Plexi Super Lead 1959.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Marshall Plexi Super Lead 1959.component"

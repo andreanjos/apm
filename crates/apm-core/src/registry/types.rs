@@ -114,8 +114,8 @@ pub struct PluginRelease {
 
 /// A plugin definition as stored in the registry.
 ///
-/// One TOML file per plugin in the registry Git repository, at
-/// `plugins/<slug>.toml`.
+/// In the published compatibility registry, this is stored as one TOML file
+/// per plugin at `plugins/<vendor>/<slug>.toml`.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct PluginDefinition {
     /// Unique, URL-safe slug used as the registry identifier (e.g. `"tal-noisemaker"`).

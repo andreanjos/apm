@@ -1,0 +1,22 @@
+slug = "trackspacer"
+name = "TrackSpacer"
+vendor = "wavesfactory"
+version = "2.5.10"
+description = "Frequency-dependent sidechain plugin with 32-band dynamic EQ that creates space in a mix by ducking conflicting frequencies."
+category = "effects"
+subcategory = "dynamic-eq"
+license = "commercial"
+tags = ["sidechain", "dynamic-eq", "frequency-ducking", "mixing", "separation"]
+homepage = "https://www.wavesfactory.com/audio-plugins/trackspacer/"
+
+[formats.vst3]
+url = "https://www.wavesfactory.com/audio-plugins/trackspacer/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Trackspacer.vst3"
+
+[formats.au]
+url = "https://www.wavesfactory.com/audio-plugins/trackspacer/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Trackspacer.component"

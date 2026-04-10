@@ -1,0 +1,22 @@
+slug = "fullbucket-fury-800"
+name = "Fury-800"
+vendor = "full-bucket-music"
+version = "2.5.1"
+description = "Software emulation of the Korg Poly-800 polyphonic synthesizer from 1983. Includes two DCOs, onboard Chorus, Chord Memory, and an arpeggiator/sequencer."
+category = "instruments"
+subcategory = "synthesizer"
+license = "freeware"
+tags = ["synth", "synthesizer", "korg", "poly-800", "analog", "vintage", "retro", "polyphonic", "free", "freeware"]
+homepage = "https://www.fullbucket.de/music/fury800.html"
+
+[formats.vst3]
+url = "https://www.fullbucket.de/music/dl.php?file=fury800_2_5_1_mac"
+sha256 = "beefbf4c9b8b1c2a7d0f8a0a8f00d3212121ab547abf978d671ab63abbddcbe9"
+install_type = "pkg"
+bundle_path = "Fury-800.vst3"
+
+[formats.au]
+url = "https://www.fullbucket.de/music/dl.php?file=fury800_2_5_1_mac"
+sha256 = "beefbf4c9b8b1c2a7d0f8a0a8f00d3212121ab547abf978d671ab63abbddcbe9"
+install_type = "pkg"
+bundle_path = "Fury-800.component"

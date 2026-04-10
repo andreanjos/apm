@@ -1,0 +1,22 @@
+slug = "socalabs-compressor"
+name = "SocaLabs Compressor"
+vendor = "socalabs"
+version = "1.1.0"
+description = "Free mono/stereo compressor with soft knee and real-time visualization."
+category = "effects"
+subcategory = "compressor"
+license = "GPL-3.0"
+tags = ["compressor", "dynamics", "free", "open-source"]
+homepage = "https://socalabs.com/effects/compressor/"
+
+[formats.vst3]
+url = "https://socalabs.com/files/get.php?id=Compressor_Mac.zip"
+sha256 = "de95a9d15ccf265b0b771255336fe0ea7629fdcf3308290775b82c5441230151"
+install_type = "zip"
+bundle_path = "vst3/Compressor.vst3"
+
+[formats.au]
+url = "https://socalabs.com/files/get.php?id=Compressor_Mac.zip"
+sha256 = "de95a9d15ccf265b0b771255336fe0ea7629fdcf3308290775b82c5441230151"
+install_type = "zip"
+bundle_path = "au/Compressor.component"

@@ -1,0 +1,22 @@
+slug = "soundtoys-devil-loc-deluxe"
+name = "Devil-Loc Deluxe"
+vendor = "soundtoys"
+version = "5.5.4"
+description = "Full-featured extreme compressor/distortion with Crush, Crunch, and Mix controls"
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = ["compression", "distortion", "drums", "aggressive"]
+homepage = "https://www.soundtoys.com/product/devil-loc-deluxe/"
+
+[formats.vst3]
+url = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/DevilLocDeluxe5_5.5.4.18982.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "Devil-Loc_Deluxe.vst3"
+
+[formats.au]
+url = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/DevilLocDeluxe5_5.5.4.18982.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "Devil-Loc_Deluxe.component"

@@ -1,0 +1,22 @@
+slug = "keyscape"
+name = "Keyscape"
+vendor = "spectrasonics"
+version = "1.5"
+description = "Collector keyboards virtual instrument with 500+ sounds from meticulously sampled vintage electric pianos, organs, and clavinets."
+category = "instruments"
+subcategory = "keys"
+license = "commercial"
+tags = ["keyboards", "piano", "electric-piano", "organ", "clavinet", "rompler", "sampler"]
+homepage = "https://www.spectrasonics.net/products/keyscape/"
+
+[formats.vst3]
+url = "https://www.spectrasonics.net/products/keyscape/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Keyscape.vst3"
+
+[formats.au]
+url = "https://www.spectrasonics.net/products/keyscape/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Keyscape.component"

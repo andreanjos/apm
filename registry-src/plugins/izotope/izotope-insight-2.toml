@@ -1,0 +1,22 @@
+slug = "izotope-insight-2"
+name = "Insight 2"
+vendor = "izotope"
+version = "2.6.0"
+description = "Comprehensive metering and audio analysis suite with loudness, levels, sound field, spectrum, spectrogram, and intelligibility meters supporting all major broadcast standards."
+category = "effects"
+subcategory = "metering"
+license = "commercial"
+tags = ["metering", "loudness", "analysis", "spectrum", "broadcast", "ebu-r128", "atmos", "mastering", "mixing"]
+homepage = "https://www.izotope.com/en/products/insight.html"
+
+[formats.vst3]
+url = "https://www.izotope.com/en/products/downloads.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Insight 2.vst3"
+
+[formats.au]
+url = "https://www.izotope.com/en/products/downloads.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Insight 2.component"

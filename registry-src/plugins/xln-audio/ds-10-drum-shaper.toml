@@ -1,0 +1,22 @@
+slug = "ds-10-drum-shaper"
+name = "DS-10 Drum Shaper"
+vendor = "xln-audio"
+version = "1.0"
+description = "Intelligent drum transient shaper that automatically detects and shapes attack and sustain of drum hits."
+category = "effects"
+subcategory = "transient-shaper"
+license = "commercial"
+tags = ["transient", "shaper", "drums", "dynamics", "attack", "sustain"]
+homepage = "https://www.xlnaudio.com/products/ds-10-drum-shaper"
+
+[formats.vst3]
+url = "https://www.xlnaudio.com/products/ds-10-drum-shaper"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "DS-10 Drum Shaper.vst3"
+
+[formats.au]
+url = "https://www.xlnaudio.com/products/ds-10-drum-shaper"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "DS-10 Drum Shaper.component"

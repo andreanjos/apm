@@ -1,0 +1,22 @@
+slug = "fabfilter-saturn"
+name = "FabFilter Saturn 2"
+vendor = "fabfilter"
+version = "2.12"
+description = "Multiband distortion and saturation with 28 distortion styles, up to 6 bands, per-band controls, and modulation matrix."
+category = "effects"
+subcategory = "saturation"
+license = "commercial"
+tags = ["saturation", "distortion", "multiband", "tube", "tape", "mixing"]
+homepage = "https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in"
+
+[formats.vst3]
+url = "https://cdn-b.fabfilter.com/downloads/ffsaturn212.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Saturn 2.vst3"
+
+[formats.au]
+url = "https://cdn-b.fabfilter.com/downloads/ffsaturn212.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Saturn 2.component"

@@ -1,0 +1,22 @@
+slug = "socalabs-graphiceq"
+name = "SocaLabs GraphicEQ"
+vendor = "socalabs"
+version = "1.0.0"
+description = "Free 10-band graphic equalizer with high-pass and low-pass filters."
+category = "effects"
+subcategory = "equalizer"
+license = "GPL-3.0"
+tags = ["eq", "equalizer", "graphic-eq", "10-band", "free", "open-source"]
+homepage = "https://socalabs.com/effects/graphiceq/"
+
+[formats.vst3]
+url = "https://socalabs.com/files/get.php?id=GraphicEQ_Mac.zip"
+sha256 = "57ae18d3056f17b70a983c6455f5d8d5c8a7f96509b8dd42247c866825d4b089"
+install_type = "zip"
+bundle_path = "vst3/GraphicEQ.vst3"
+
+[formats.au]
+url = "https://socalabs.com/files/get.php?id=GraphicEQ_Mac.zip"
+sha256 = "57ae18d3056f17b70a983c6455f5d8d5c8a7f96509b8dd42247c866825d4b089"
+install_type = "zip"
+bundle_path = "au/GraphicEQ.component"

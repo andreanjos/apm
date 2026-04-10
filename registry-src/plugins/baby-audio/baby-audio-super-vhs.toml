@@ -1,0 +1,22 @@
+slug = "baby-audio-super-vhs"
+name = "Super VHS"
+vendor = "baby-audio"
+version = "1.0"
+description = "Free lo-fi tape effect that adds VHS-style warmth, wobble, and noise to any audio."
+category = "effects"
+subcategory = "lo-fi"
+license = "freeware"
+tags = ["lo-fi", "tape", "vhs", "vintage", "warmth", "free", "freeware"]
+homepage = "https://babyaud.io/freebies"
+
+[formats.vst3]
+url = "https://babyaud.io/freebies"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "Super VHS.vst3"
+
+[formats.au]
+url = "https://babyaud.io/freebies"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "Super VHS.component"

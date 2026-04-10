@@ -1,0 +1,4 @@
+schema_version = 1
+generated_dir = "registry"
+
+installer_order = ["native-access", "arturia-software-center", "waves-central", "ua-connect", "ilok-license-manager", "izotope-product-portal", "spitfire-audio", "plugin-alliance-installation-manager", "roland-cloud", "softube-central", "toontrack-product-manager"]

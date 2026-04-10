@@ -1,0 +1,22 @@
+slug = "bx-console-ssl-4000-e"
+name = "bx_console SSL 4000 E"
+vendor = "plugin-alliance-brainworx"
+version = "1.0"
+description = "Fully modeled SSL 4000 E console channel strip with 72 individually modeled channels, EQ, dynamics, and harmonic distortion."
+category = "effects"
+subcategory = "channel-strip"
+license = "commercial"
+tags = ["channel-strip", "console", "ssl", "4000e", "analog-modeling", "mixing"]
+homepage = "https://www.plugin-alliance.com/en/products/bx_console_ssl_4000_e.html"
+
+[formats.vst3]
+url = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "bx_console SSL 4000 E.vst3"
+
+[formats.au]
+url = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "bx_console SSL 4000 E.component"

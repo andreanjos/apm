@@ -555,7 +555,7 @@ enum SourcesCommands {
     /// Add a new registry source.
     ///
     /// The URL must point to a Git repository following the apm registry
-    /// format (an index.toml with a plugins/ directory of TOML files).
+    /// compatibility format (an index.toml with a plugins/ directory of TOML files).
     Add {
         /// Git repository URL of the registry to add.
         url: String,

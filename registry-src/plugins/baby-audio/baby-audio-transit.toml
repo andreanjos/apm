@@ -1,0 +1,22 @@
+slug = "baby-audio-transit"
+name = "Transit 2"
+vendor = "baby-audio"
+version = "2.2"
+description = "Motion effects and transition designer plugin with 28 effects including modulation, degradation, reverb, delay, filters, and an oscillator — co-created with Andrew Huang."
+category = "effects"
+subcategory = "multi-effect"
+license = "commercial"
+tags = ["transition", "multi-effect", "modulation", "creative", "motion", "automation", "mixing"]
+homepage = "https://babyaud.io/transit"
+
+[formats.vst3]
+url = "https://babyaud.io/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "Transit 2.vst3"
+
+[formats.au]
+url = "https://babyaud.io/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "Transit 2.component"

@@ -1,0 +1,22 @@
+slug = "voxengo-tube-amp"
+name = "Voxengo Tube Amp"
+vendor = "voxengo"
+version = "2.16"
+description = "Free tube triode overdrive plugin ranging from mild warm saturation to fuzzy distortion."
+category = "effects"
+subcategory = "saturation"
+license = "freeware"
+tags = ["tube", "overdrive", "saturation", "distortion", "amp-sim", "vintage", "free", "freeware"]
+homepage = "https://www.voxengo.com/product/tubeamp/"
+
+[formats.vst3]
+url = "https://www.voxengo.com/files/VoxengoTubeAmp_216_Mac_AU_AAX_VST_setup.dmg"
+sha256 = "e538d8885b6d7adde82a8adf70cf1baa32d4ca1a911f2136208acda7896b5c79"
+install_type = "dmg"
+bundle_path = "VoxengoTubeAmp.vst3"
+
+[formats.au]
+url = "https://www.voxengo.com/files/VoxengoTubeAmp_216_Mac_AU_AAX_VST_setup.dmg"
+sha256 = "e538d8885b6d7adde82a8adf70cf1baa32d4ca1a911f2136208acda7896b5c79"
+install_type = "dmg"
+bundle_path = "VoxengoTubeAmp.component"

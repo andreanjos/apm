@@ -1,0 +1,22 @@
+slug = "waves-api-550"
+name = "API 550"
+vendor = "waves"
+version = "16.0"
+description = "Classic API 550A and 550B proportional Q equalizer plugins modeled on the late-1960s hardware legends."
+category = "effects"
+subcategory = "eq"
+license = "commercial"
+tags = ["eq", "equalizer", "api", "vintage", "proportional-q", "analog", "mixing"]
+homepage = "https://www.waves.com/plugins/api-550"
+
+[formats.vst3]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "API 550A.vst3"
+
+[formats.au]
+url = "https://www.waves.com/downloads/central"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "API 550A.component"

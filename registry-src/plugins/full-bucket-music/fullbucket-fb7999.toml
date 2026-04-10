@@ -1,0 +1,20 @@
+slug = "fullbucket-fb7999"
+name = "FB-7999"
+vendor = "full-bucket-music"
+version = "1.1.7"
+description = "Emulation of the KORG DW-6000 and DW-8000 digital waveform synthesizers."
+category = "instruments"
+subcategory = "synthesizer"
+license = "freeware"
+tags = ["synth", "synthesizer", "korg", "digital", "vintage", "free", "freeware"]
+homepage = "https://www.fullbucket.de/music/fb7999.html"
+
+[formats.vst3]
+url = "https://fullbucket.de/music/dl.php?file=fb7999_1_1_7_mac"
+sha256 = "abb53ed075ee401e44bde29910bbd9d2743028ed9ca45a26d3b261141c3e0f66"
+install_type = "pkg"
+
+[formats.au]
+url = "https://fullbucket.de/music/dl.php?file=fb7999_1_1_7_mac"
+sha256 = "abb53ed075ee401e44bde29910bbd9d2743028ed9ca45a26d3b261141c3e0f66"
+install_type = "pkg"

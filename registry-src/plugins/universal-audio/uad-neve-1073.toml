@@ -1,0 +1,25 @@
+slug = "uad-neve-1073"
+name = "Neve 1073"
+vendor = "universal-audio"
+version = "1.0"
+description = "Emulation of the legendary Neve 1073 preamp and EQ with rich harmonic character and musical tone shaping."
+category = "effects"
+subcategory = "channel-strip"
+license = "commercial"
+tags = ["eq", "preamp", "neve", "1073", "channel-strip", "vintage", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/neve-1073-collection.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Neve 1073.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Neve 1073.component"

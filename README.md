@@ -93,8 +93,9 @@ apm import --yes apm1://...          # Skip confirmation (for scripts)
 ```
 
 The string encodes your installed plugins, versions, pins, registry sources,
-and preferences. Legacy formats still work: `apm export --format toml` and
-`apm import list.json`.
+and preferences. `apm export --format toml` and `apm import list.json` are also
+available if you want file-based formats instead of the portable `apm1://...`
+string.
 
 ### System and diagnostics
 
@@ -141,8 +142,15 @@ Then use `/apm search reverb` or `/apm install surge-xt` directly in Claude Code
 
 ## Registry format
 
-Plugin definitions are TOML files in `registry/plugins/<vendor>/`. Each file
-describes one plugin and its download locations per format.
+The registry now has two layers:
+
+- `registry-src/`: normalized authoring source
+- `registry/`: generated compatibility output consumed by the current CLI
+
+The generated plugin definitions live in `registry/plugins/<vendor>/<slug>.toml`.
+The authoring source lives in `registry-src/plugins/<vendor>/<slug>.toml` and
+references normalized vendor and installer records from `registry-src/vendors/`
+and `registry-src/installers/`.
 
 ```toml
 slug        = "valhalla-supermassive"
@@ -190,18 +198,26 @@ bundle_path  = "ValhallaSupermassive.component"
 ## Contributing plugins
 
 1. Fork this repo.
-2. Create `registry/plugins/<vendor>/<slug>.toml` following the format above.
-3. Compute the SHA256 of the macOS installer:
+2. Add or update the source records under `registry-src/`:
+   - `registry-src/vendors/<vendor>.toml`
+   - `registry-src/plugins/<vendor>/<slug>.toml`
+   - `registry-src/installers/<installer>.toml` when needed
+3. Rebuild the generated registry:
+   ```sh
+   python3 scripts/build-registry.py
+   ```
+4. Compute the SHA256 of the macOS installer:
    ```sh
    shasum -a 256 /path/to/installer.dmg
    ```
-4. Open a pull request.
+5. Open a pull request.
 
 Guidelines:
 - Only include plugins that are genuinely free (no time-limited trials).
 - Use the official developer download URL, not a mirror.
 - If a download requires account signup, note it with a comment in the TOML.
-- One file per plugin slug, organized under a vendor directory.
+- Keep `registry-src/` as the source of truth. Commit the regenerated
+  `registry/` output alongside it.
 
 ## License
 

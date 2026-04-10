@@ -1,0 +1,25 @@
+slug = "uad-maag-eq4"
+name = "Maag EQ4"
+vendor = "universal-audio"
+version = "1.0"
+description = "6-band EQ with the legendary Air Band at 2.5k, 5k, 10k, 20k, and 40kHz for adding pristine high-end sheen."
+category = "effects"
+subcategory = "eq"
+license = "commercial"
+tags = ["eq", "maag", "air-band", "high-frequency", "sheen", "mixing", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/maag-eq4.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Maag EQ4.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Maag EQ4.component"

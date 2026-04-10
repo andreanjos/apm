@@ -1,0 +1,25 @@
+slug = "uad-emt-250"
+name = "EMT 250"
+vendor = "universal-audio"
+version = "1.0"
+description = "Digital reverb emulation of the legendary EMT 250, the world's first digital reverb with lush, three-dimensional sound."
+category = "effects"
+subcategory = "reverb"
+license = "commercial"
+tags = ["reverb", "digital", "emt", "250", "vintage", "lush", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/reverbs/emt-250-electronic-reverberator.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD EMT 250.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD EMT 250.component"

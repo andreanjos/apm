@@ -1,0 +1,25 @@
+slug = "uad-chandler-gav19t"
+name = "Chandler GAV19T"
+vendor = "universal-audio"
+version = "1.0"
+description = "Guitar amplifier emulation of the Chandler Limited GAV19T with germanium tone"
+category = "effects"
+subcategory = "amp-sim"
+license = "commercial"
+tags = ["amp-sim", "guitar", "chandler", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Chandler GAV19T.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Chandler GAV19T.component"

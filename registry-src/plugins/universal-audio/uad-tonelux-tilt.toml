@@ -1,0 +1,25 @@
+slug = "uad-tonelux-tilt"
+name = "Tonelux Tilt"
+vendor = "universal-audio"
+version = "1.0"
+description = "Single-knob tilt EQ that shifts spectral balance from warm to bright"
+category = "effects"
+subcategory = "eq"
+license = "commercial"
+tags = ["eq", "tilt", "tone-shaping", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Tonelux Tilt.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Tonelux Tilt.component"

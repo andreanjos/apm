@@ -1,0 +1,22 @@
+slug = "goodhertz-tupe"
+name = "Tupe"
+vendor = "goodhertz"
+version = "3.11.0"
+description = "Tube saturation plugin modeling the harmonic distortion characteristics of vacuum tubes for analog warmth."
+category = "effects"
+subcategory = "saturation"
+license = "commercial"
+tags = ["saturation", "tube", "warmth", "analog", "harmonics"]
+homepage = "https://goodhertz.com/tupe/"
+
+[formats.vst3]
+url = "https://goodhertz.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Ghz Tupe 3.vst3"
+
+[formats.au]
+url = "https://goodhertz.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Ghz Tupe 3.component"

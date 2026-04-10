@@ -1,0 +1,22 @@
+slug = "voxengo-msed"
+name = "Voxengo MSED"
+vendor = "voxengo"
+version = "3.13"
+description = "Free mid/side encoder-decoder for splitting stereo into mid/side pairs and adjusting gain, panning, and phase."
+category = "utility"
+subcategory = "mid-side"
+license = "freeware"
+tags = ["mid-side", "utility", "stereo", "mastering", "free", "freeware"]
+homepage = "https://www.voxengo.com/product/msed/"
+
+[formats.vst3]
+url = "https://www.voxengo.com/files/VoxengoMSED_313_Mac_AU_AAX_VST_setup.dmg"
+sha256 = "4d54b4885226664866fa073545ea4d74a759ed5bfafd87d6309974d19f11648c"
+install_type = "dmg"
+bundle_path = "VoxengoMSED.vst3"
+
+[formats.au]
+url = "https://www.voxengo.com/files/VoxengoMSED_313_Mac_AU_AAX_VST_setup.dmg"
+sha256 = "4d54b4885226664866fa073545ea4d74a759ed5bfafd87d6309974d19f11648c"
+install_type = "dmg"
+bundle_path = "VoxengoMSED.component"

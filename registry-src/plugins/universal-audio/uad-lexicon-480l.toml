@@ -1,0 +1,25 @@
+slug = "uad-lexicon-480l"
+name = "Lexicon 480L"
+vendor = "universal-audio"
+version = "1.0"
+description = "Digital reverb emulation of the iconic Lexicon 480L with Random Hall, Random Plate, and other classic algorithms."
+category = "effects"
+subcategory = "reverb"
+license = "commercial"
+tags = ["reverb", "lexicon", "480l", "digital", "hall", "plate", "vintage", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/reverbs/lexicon-480l-digital-reverb.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Lexicon 480L.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Lexicon 480L.component"

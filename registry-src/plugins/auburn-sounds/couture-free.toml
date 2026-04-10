@@ -1,0 +1,22 @@
+slug = "couture-free"
+name = "Couture Free"
+vendor = "auburn-sounds"
+version = "1.10"
+description = "Free transient shaper for precise control over attack and sustain dynamics in drums and mixes."
+category = "effects"
+subcategory = "dynamics"
+license = "freeware"
+tags = ["transient", "dynamics", "drums", "shaper", "free", "freeware"]
+homepage = "https://www.auburnsounds.com/products/Couture.html"
+
+[formats.vst3]
+url = "https://www.auburnsounds.com/downloads/Couture-FREE-1.10.zip"
+sha256 = "29889576676d1aefb3eb06afcd83377519db61ea515ac69396fae2de8c5b8ff3"
+install_type = "zip"
+bundle_path = "Couture.vst3"
+
+[formats.au]
+url = "https://www.auburnsounds.com/downloads/Couture-FREE-1.10.zip"
+sha256 = "29889576676d1aefb3eb06afcd83377519db61ea515ac69396fae2de8c5b8ff3"
+install_type = "zip"
+bundle_path = "Couture.component"

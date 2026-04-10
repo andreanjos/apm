@@ -1,0 +1,22 @@
+slug = "denise-god-mode"
+name = "God Mode"
+vendor = "denise-audio"
+version = "2.0.0"
+description = "Multiband distortion and saturation plugin with a push-pull EQ for shaping harmonic content, featuring three drive modes and linear phase filters."
+category = "effects"
+subcategory = "saturation"
+license = "commercial"
+tags = ["saturation", "distortion", "multiband", "harmonic", "enhancer", "eq", "drive"]
+homepage = "https://www.deniseaudio.com/plugins/god-mode"
+
+[formats.vst3]
+url = "https://www.deniseaudio.com/plugins/god-mode"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "God Mode.vst3"
+
+[formats.au]
+url = "https://www.deniseaudio.com/plugins/god-mode"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "God Mode.component"

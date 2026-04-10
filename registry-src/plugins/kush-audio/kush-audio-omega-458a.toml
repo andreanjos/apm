@@ -1,0 +1,25 @@
+slug = "kush-audio-omega-458a"
+name = "Omega Transformer Model 458a"
+vendor = "kush-audio"
+version = "1.0.5"
+description = "Analog transformer and preamp emulation modeled on the Altec 458a, adding color, weight, and saturation to individual tracks and buses."
+category = "effects"
+subcategory = "saturation"
+license = "commercial"
+tags = ["preamp", "transformer", "saturation", "analog", "warmth", "altec", "color"]
+homepage = "https://thehouseofkush.com/products/omega-458a"
+
+# NOTE: Kush Audio plugins are available for direct download from The House
+# of Kush website after purchase. A 10-day free demo is available.
+
+[formats.vst3]
+url = "https://thehouseofkush.com/pages/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Omega 458a.vst3"
+
+[formats.au]
+url = "https://thehouseofkush.com/pages/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Omega 458a.component"

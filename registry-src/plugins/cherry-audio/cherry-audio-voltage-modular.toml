@@ -1,0 +1,22 @@
+slug = "cherry-audio-voltage-modular"
+name = "Voltage Modular"
+vendor = "cherry-audio"
+version = "2.5.0"
+description = "Virtual modular synthesizer with unlimited patching, Busses for cable-free routing, and a large module library."
+category = "instruments"
+subcategory = "modular"
+license = "commercial"
+tags = ["synth", "synthesizer", "modular", "eurorack", "patching", "semi-modular", "polyphonic"]
+homepage = "https://cherryaudio.com/products/voltage-modular"
+
+[formats.vst3]
+url = "https://cherryaudio.com/products/voltage-modular/download"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Voltage Modular.vst3"
+
+[formats.au]
+url = "https://cherryaudio.com/products/voltage-modular/download"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Voltage Modular.component"

@@ -1,0 +1,26 @@
+slug = "accusonus-era-de-esser"
+name = "ERA De-Esser"
+vendor = "accusonus"
+version = "6.2.00"
+description = "One-knob de-esser that uses single-parameter frequency-domain processing to transparently tame sibilance in vocal and other recordings."
+category = "effects"
+subcategory = "dynamics"
+license = "freeware"
+tags = ["de-esser", "sibilance", "vocal", "one-knob", "free", "freeware", "repair", "era"]
+homepage = "https://accusonus.com/products/audio-repair/era-de-esser"
+
+# NOTE: Accusonus was acquired by Meta and discontinued the ERA Bundle product.
+# The final version (6.2.00) was released as a free no-DRM download.
+# The installer below contains the full ERA Bundle including ERA De-Esser.
+
+[formats.vst3]
+url = "https://accusonus.s3.amazonaws.com/public/products/era-bundle/current/ERA_Bundle_v6.2.00-VoiceChanger_v1.3.10-MAC.zip"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "ERA De-Esser.vst3"
+
+[formats.au]
+url = "https://accusonus.s3.amazonaws.com/public/products/era-bundle/current/ERA_Bundle_v6.2.00-VoiceChanger_v1.3.10-MAC.zip"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "ERA De-Esser.component"

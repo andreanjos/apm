@@ -1,0 +1,22 @@
+slug = "ana2"
+name = "ANA 2"
+vendor = "sonic-academy"
+version = "2.5.6"
+description = "Advanced hybrid wavetable synthesizer fusing wavetable, granular, and analog-modeled subtractive synthesis with a visual modulation system."
+category = "instruments"
+subcategory = "synthesizer"
+license = "commercial"
+tags = ["synth", "synthesizer", "wavetable", "granular", "hybrid"]
+homepage = "https://www.sonicacademy.com/products/ana-2"
+
+[formats.vst3]
+url = "https://www.sonicacademy.com/products/ana-2"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "ANA 2.vst3"
+
+[formats.au]
+url = "https://www.sonicacademy.com/products/ana-2"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "ANA 2.component"

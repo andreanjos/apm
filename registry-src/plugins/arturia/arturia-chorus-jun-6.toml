@@ -1,0 +1,25 @@
+slug = "arturia-chorus-jun-6"
+name = "Chorus JUN-6"
+vendor = "arturia"
+version = "1.4.0"
+description = "Precise emulation of the iconic Roland Juno-6 BBD chorus circuit, delivering the warm, shimmering stereo chorus beloved in synths and guitars."
+category = "effects"
+subcategory = "chorus"
+license = "commercial"
+tags = ["chorus", "roland", "juno", "bbd", "vintage", "stereo", "analog-modeling", "synth"]
+installer = "arturia-software-center"
+homepage = "https://www.arturia.com/products/software-effects/chorus-jun-6/overview"
+
+[formats.vst3]
+url = "https://www.arturia.com/support/downloads-manuals/product/chorus-jun-6"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Chorus JUN-6.vst3"
+
+[formats.au]
+url = "https://www.arturia.com/support/downloads-manuals/product/chorus-jun-6"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Chorus JUN-6.component"

@@ -1,0 +1,25 @@
+slug = "uad-4k-buss-compressor"
+name = "4K Buss Compressor"
+vendor = "universal-audio"
+version = "1.0"
+description = "SSL 4000-style bus compressor with auto-fade and external sidechain"
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = ["compressor", "ssl", "bus", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD 4K Buss Compressor.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD 4K Buss Compressor.component"

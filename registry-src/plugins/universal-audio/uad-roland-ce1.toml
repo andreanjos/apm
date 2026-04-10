@@ -1,0 +1,25 @@
+slug = "uad-roland-ce1"
+name = "Roland CE-1"
+vendor = "universal-audio"
+version = "1.0"
+description = "Chorus and vibrato emulation of the Roland CE-1 Chorus Ensemble, the first chorus effects pedal."
+category = "effects"
+subcategory = "chorus"
+license = "commercial"
+tags = ["chorus", "vibrato", "roland", "ce-1", "vintage", "modulation", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/delay-modulation/roland-ce-1-chorus.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Roland CE-1.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Roland CE-1.component"

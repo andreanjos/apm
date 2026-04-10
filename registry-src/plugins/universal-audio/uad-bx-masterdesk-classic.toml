@@ -1,0 +1,25 @@
+slug = "uad-bx-masterdesk-classic"
+name = "bx_masterdesk Classic"
+vendor = "universal-audio"
+version = "1.0"
+description = "Classic version of bx_masterdesk with vintage-inspired mastering chain"
+category = "effects"
+subcategory = "mastering"
+license = "commercial"
+tags = ["mastering", "vintage", "eq", "compression", "limiting", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD bx_masterdesk Classic.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD bx_masterdesk Classic.component"

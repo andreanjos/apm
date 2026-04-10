@@ -1,0 +1,22 @@
+slug = "luftikus"
+name = "Luftikus"
+vendor = "lkjb"
+version = "1.3.1"
+description = "Free analog-modeled EQ with fixed half-octave bands, high-frequency boost, and mastering mode."
+category = "effects"
+subcategory = "equalizer"
+license = "MIT"
+tags = ["eq", "equalizer", "analog", "mastering", "free", "open-source"]
+homepage = "https://github.com/apresta/luftikus"
+
+[formats.vst3]
+url = "https://github.com/apresta/luftikus/releases/download/1.3.1/luftikus-1.3.1-universal.zip"
+sha256 = "44c0da58e1e5b17ccff0f79e29ab2c49905169a2c4641e8dc6120f450fa09987"
+install_type = "zip"
+bundle_path = "Luftikus.vst3"
+
+[formats.au]
+url = "https://github.com/apresta/luftikus/releases/download/1.3.1/luftikus-1.3.1-universal.zip"
+sha256 = "44c0da58e1e5b17ccff0f79e29ab2c49905169a2c4641e8dc6120f450fa09987"
+install_type = "zip"
+bundle_path = "Luftikus.component"

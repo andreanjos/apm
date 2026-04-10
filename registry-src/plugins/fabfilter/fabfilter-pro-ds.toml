@@ -1,0 +1,22 @@
+slug = "fabfilter-pro-ds"
+name = "FabFilter Pro-DS"
+vendor = "fabfilter"
+version = "1.0"
+description = "Intelligent de-esser with wideband and split-band modes, real-time frequency display, and transparent processing."
+category = "effects"
+subcategory = "de-esser"
+license = "commercial"
+tags = ["de-esser", "dynamics", "vocal", "sibilance", "mixing", "fabfilter"]
+homepage = "https://www.fabfilter.com/products/pro-ds-de-esser-plug-in"
+
+[formats.vst3]
+url = "https://www.fabfilter.com/shop/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Pro-DS.vst3"
+
+[formats.au]
+url = "https://www.fabfilter.com/shop/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Pro-DS.component"

@@ -1,0 +1,25 @@
+slug = "uad-ampeg-svt"
+name = "Ampeg SVT-VR Classic"
+vendor = "universal-audio"
+version = "1.0"
+description = "Bass amplifier emulation of the Ampeg SVT-VR with its massive tube tone, ideal for rock and heavy music."
+category = "effects"
+subcategory = "amp-sim"
+license = "commercial"
+tags = ["bass", "amp-sim", "ampeg", "svt", "tube", "rock", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/guitar-bass/ampeg-svt-vr-classic.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Ampeg SVTVR Classic.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Ampeg SVTVR Classic.component"

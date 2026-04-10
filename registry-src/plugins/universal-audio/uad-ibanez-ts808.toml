@@ -1,0 +1,25 @@
+slug = "uad-ibanez-ts808"
+name = "Ibanez Tube Screamer TS808"
+vendor = "universal-audio"
+version = "1.0"
+description = "Overdrive pedal emulation of the iconic Ibanez TS808 Tube Screamer"
+category = "effects"
+subcategory = "overdrive"
+license = "commercial"
+tags = ["overdrive", "pedal", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Ibanez Tube Screamer TS808.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Ibanez Tube Screamer TS808.component"

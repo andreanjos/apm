@@ -1,0 +1,22 @@
+slug = "slate-digital-metatone"
+name = "MetaTone"
+vendor = "slate-digital"
+version = "1.0"
+description = "Guitar amp and tone shaping plugin for aggressive metal and rock tones with amp modeling and cabinet simulation."
+category = "instruments"
+subcategory = "amp-sim"
+license = "commercial"
+tags = ["amp-sim", "guitar", "metal", "rock", "cabinet", "distortion", "tone-shaping"]
+homepage = "https://slatedigital.com/plugins/"
+
+[formats.vst3]
+url = "https://slatedigital.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "MetaTone.vst3"
+
+[formats.au]
+url = "https://slatedigital.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "MetaTone.component"

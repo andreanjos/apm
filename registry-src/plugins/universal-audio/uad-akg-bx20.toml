@@ -1,0 +1,25 @@
+slug = "uad-akg-bx20"
+name = "AKG BX 20"
+vendor = "universal-audio"
+version = "1.0"
+description = "Spring reverb emulation of the AKG BX 20 with its lush, dense character"
+category = "effects"
+subcategory = "reverb"
+license = "commercial"
+tags = ["reverb", "spring", "akg", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD AKG BX 20.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD AKG BX 20.component"

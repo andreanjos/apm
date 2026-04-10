@@ -1,0 +1,25 @@
+slug = "uad-precision-limiter"
+name = "Precision Limiter"
+vendor = "universal-audio"
+version = "1.0"
+description = "UA's precision look-ahead brickwall limiter for transparent loudness maximizing"
+category = "effects"
+subcategory = "limiter"
+license = "commercial"
+tags = ["limiter", "brickwall", "mastering", "loudness", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Precision Limiter.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Precision Limiter.component"

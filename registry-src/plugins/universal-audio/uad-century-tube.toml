@@ -1,0 +1,25 @@
+slug = "uad-century-tube"
+name = "Century Tube Channel Strip"
+vendor = "universal-audio"
+version = "1.0"
+description = "Tube channel strip with preamp, EQ, and compression for warm vocal processing"
+category = "effects"
+subcategory = "channel-strip"
+license = "commercial"
+tags = ["channel-strip", "tube", "preamp", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Century Tube Channel Strip.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Century Tube Channel Strip.component"

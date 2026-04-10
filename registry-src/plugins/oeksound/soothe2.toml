@@ -1,0 +1,22 @@
+slug = "soothe2"
+name = "soothe2"
+vendor = "oeksound"
+version = "1.3.3"
+description = "Dynamic resonance suppressor that identifies and reduces problematic resonances in real time."
+category = "effects"
+subcategory = "dynamic-eq"
+license = "commercial"
+tags = ["dynamic-eq", "resonance", "de-ess", "de-harsh", "mixing", "mastering"]
+homepage = "https://oeksound.com/plugins/soothe2/"
+
+[formats.vst3]
+url = "https://oeksound.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "soothe2.vst3"
+
+[formats.au]
+url = "https://oeksound.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "soothe2.component"

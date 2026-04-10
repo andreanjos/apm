@@ -1,0 +1,22 @@
+slug = "helix-native"
+name = "Helix Native"
+vendor = "line-6"
+version = "3.82"
+description = "Plugin version of the Helix hardware processor with 60+ amplifier models, 30+ cabs, 100+ effects, and IR loading."
+category = "effects"
+subcategory = "amp-sim"
+license = "commercial"
+tags = ["guitar", "bass", "amp-sim", "effects", "cabinet-sim", "impulse-response"]
+homepage = "https://line6.com/helix/helixnative.html"
+
+[formats.vst3]
+url = "https://line6.com/software/index.html?hardware=All&name=Helix+Native"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Helix Native.vst3"
+
+[formats.au]
+url = "https://line6.com/software/index.html?hardware=All&name=Helix+Native"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Helix Native.component"

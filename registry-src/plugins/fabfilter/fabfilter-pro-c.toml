@@ -1,0 +1,22 @@
+slug = "fabfilter-pro-c"
+name = "FabFilter Pro-C 3"
+vendor = "fabfilter"
+version = "3.01"
+description = "High-quality compressor with 14 compression styles, character modes, up to 32x oversampling, and side-chain EQ."
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = ["compressor", "dynamics", "sidechain", "mixing", "mastering"]
+homepage = "https://www.fabfilter.com/products/pro-c-3-compressor-plug-in"
+
+[formats.vst3]
+url = "https://cdn-b.fabfilter.com/downloads/ffproc301.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Pro-C 3.vst3"
+
+[formats.au]
+url = "https://cdn-b.fabfilter.com/downloads/ffproc301.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Pro-C 3.component"

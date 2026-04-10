@@ -1,0 +1,22 @@
+slug = "fabfilter-simplon"
+name = "FabFilter Simplon"
+vendor = "fabfilter"
+version = "1.41"
+description = "Simple analog-sounding filter with two independent multimode filters at 12/24/48 dB/octave slopes."
+category = "effects"
+subcategory = "filter"
+license = "commercial"
+tags = ["filter", "simple", "analog", "creative"]
+homepage = "https://www.fabfilter.com/products/simplon-basic-filter-plug-in"
+
+[formats.vst3]
+url = "https://cdn-b.fabfilter.com/downloads/ffsimplon141.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Simplon.vst3"
+
+[formats.au]
+url = "https://cdn-b.fabfilter.com/downloads/ffsimplon141.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Simplon.component"

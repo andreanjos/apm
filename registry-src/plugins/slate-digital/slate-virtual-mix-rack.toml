@@ -1,0 +1,22 @@
+slug = "slate-virtual-mix-rack"
+name = "Virtual Mix Rack"
+vendor = "slate-digital"
+version = "2.0"
+description = "Modular rack plugin with interchangeable EQ, compressor, gate, and saturation modules for channel strip processing."
+category = "effects"
+subcategory = "channel-strip"
+license = "commercial"
+tags = ["channel-strip", "eq", "compressor", "saturation", "modular", "mixing"]
+homepage = "https://slatedigital.com/virtual-mix-rack/"
+
+[formats.vst3]
+url = "https://slatedigital.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Virtual Mix Rack.vst3"
+
+[formats.au]
+url = "https://slatedigital.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Virtual Mix Rack.component"

@@ -1,0 +1,22 @@
+slug = "izotope-vocalsynth-2"
+name = "VocalSynth 2"
+vendor = "izotope"
+version = "2.6.1"
+description = "Creative vocal multi-effect combining vocoder, polyvocoder, compuvox, biovox, and talkbox modules for transformative vocal sound design."
+category = "effects"
+subcategory = "vocal"
+license = "commercial"
+tags = ["vocal", "vocoder", "talkbox", "multi-fx", "sound-design", "creative", "synthesizer", "harmonizer"]
+homepage = "https://www.izotope.com/en/products/vocalsynth"
+
+[formats.vst3]
+url = "https://www.izotope.com/en/products/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "VocalSynth 2.vst3"
+
+[formats.au]
+url = "https://www.izotope.com/en/products/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "VocalSynth 2.component"

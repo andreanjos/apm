@@ -1,0 +1,26 @@
+slug = "valhalla-ubermod"
+name = "Valhalla UberMod"
+vendor = "valhalla-dsp"
+version = "1.2.8"
+description = "Multitap delay and modulation plugin with up to 32 modulated delay taps, diffusion, drive, and LFO sections producing choruses, ensembles, BBD echoes, and nonlinear reverbs."
+category = "effects"
+subcategory = "modulation"
+license = "commercial"
+tags = ["modulation", "chorus", "delay", "ensemble", "flanger", "multitap", "bbD", "creative"]
+homepage = "https://valhalladsp.com/shop/delay/valhalla-uber-mod/"
+
+# NOTE: Valhalla DSP plugins are downloaded directly from valhalladsp.com
+# after purchase. Installers are signed and notarized Universal binaries
+# supporting Intel and all Apple Silicon generations.
+
+[formats.vst3]
+url = "https://valhalladsp.com/shop/delay/valhalla-uber-mod/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "ValhallaUberMod.vst3"
+
+[formats.au]
+url = "https://valhalladsp.com/shop/delay/valhalla-uber-mod/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "ValhallaUberMod.component"

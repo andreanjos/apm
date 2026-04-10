@@ -1,0 +1,25 @@
+slug = "uad-putnam-mics"
+name = "Putnam Mic Collection"
+vendor = "universal-audio"
+version = "1.0"
+description = "Microphone emulation collection from Bill Putnam's legendary studio"
+category = "effects"
+subcategory = "microphone"
+license = "commercial"
+tags = ["microphone", "collection", "putnam", "emulation", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Putnam Mic Collection.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Putnam Mic Collection.component"

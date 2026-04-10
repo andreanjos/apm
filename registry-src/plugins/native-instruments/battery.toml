@@ -1,0 +1,25 @@
+slug = "battery"
+name = "Battery 4"
+vendor = "native-instruments"
+version = "4.3.1"
+description = "Cutting-edge drum sampler with on-board effects including SOLID EQ, SOLID BUS COMP, and convolution reverb."
+category = "instruments"
+subcategory = "drums"
+license = "commercial"
+tags = ["drums", "sampler", "beats", "percussion", "nks", "komplete"]
+installer = "native-access"
+homepage = "https://www.native-instruments.com/en/products/komplete/drums/battery-4/"
+
+[formats.vst3]
+url = "https://www.native-instruments.com/en/specials/native-access/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Battery 4.vst3"
+
+[formats.au]
+url = "https://www.native-instruments.com/en/specials/native-access/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Battery 4.component"

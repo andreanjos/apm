@@ -1,0 +1,4 @@
+slug = "free-synths"
+name = "Free Synths"
+description = "The best free software synthesizers available — from wavetable and spectral to classic FM and analog-modelled."
+plugins = ["vital", "surge-xt", "dexed", "odin2", "helm"]

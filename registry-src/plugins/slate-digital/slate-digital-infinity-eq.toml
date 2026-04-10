@@ -1,0 +1,22 @@
+slug = "slate-digital-infinity-eq"
+name = "Infinity EQ 2"
+vendor = "slate-digital"
+version = "2.0"
+description = "Parametric EQ with dynamic filter capability, three new filter shapes, and infinitely scalable GUI for surgical and musical equalization."
+category = "effects"
+subcategory = "eq"
+license = "commercial"
+tags = ["eq", "parametric", "dynamic-eq", "linear-phase", "surgical", "transparent", "mastering"]
+homepage = "https://slatedigital.com/infinity-eq/"
+
+[formats.vst3]
+url = "https://slatedigital.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Infinity EQ 2.vst3"
+
+[formats.au]
+url = "https://slatedigital.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Infinity EQ 2.component"

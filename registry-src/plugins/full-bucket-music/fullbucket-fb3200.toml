@@ -1,0 +1,20 @@
+slug = "fullbucket-fb3200"
+name = "FB-3200"
+vendor = "full-bucket-music"
+version = "1.1.2"
+description = "Emulation of the KORG PS-3200 polyphonic synthesizer with semi-modular architecture."
+category = "instruments"
+subcategory = "synthesizer"
+license = "freeware"
+tags = ["synth", "synthesizer", "korg", "semi-modular", "vintage", "free", "freeware"]
+homepage = "https://www.fullbucket.de/music/fb3200.html"
+
+[formats.vst3]
+url = "https://fullbucket.de/music/dl.php?file=fb3200_1_1_2_mac"
+sha256 = "37c33ccc06ccaddd41a128bd42b122e6b338998d4d5713c0e5ac8bd0a14383e1"
+install_type = "pkg"
+
+[formats.au]
+url = "https://fullbucket.de/music/dl.php?file=fb3200_1_1_2_mac"
+sha256 = "37c33ccc06ccaddd41a128bd42b122e6b338998d4d5713c0e5ac8bd0a14383e1"
+install_type = "pkg"

@@ -1,0 +1,22 @@
+slug = "fullbucket-nabla"
+name = "Nabla"
+vendor = "full-bucket-music"
+version = "1.4.0"
+description = "Phase distortion synthesizer inspired by the Casio CZ series with eight operators and ring modulation."
+category = "instruments"
+subcategory = "synthesizer"
+license = "freeware"
+tags = ["synth", "synthesizer", "phase-distortion", "casio", "digital", "free", "freeware"]
+homepage = "https://www.fullbucket.de/music/nabla.html"
+
+[formats.vst3]
+url = "https://www.fullbucket.de/music/dl.php?file=nabla_1_4_0_mac"
+sha256 = "6e38384a4a0f09a94d3676b86393214a8001ea14819657858e30c5b2652581fd"
+install_type = "pkg"
+bundle_path = "Nabla.vst3"
+
+[formats.au]
+url = "https://www.fullbucket.de/music/dl.php?file=nabla_1_4_0_mac"
+sha256 = "6e38384a4a0f09a94d3676b86393214a8001ea14819657858e30c5b2652581fd"
+install_type = "pkg"
+bundle_path = "Nabla.component"

@@ -1,0 +1,22 @@
+slug = "trilian"
+name = "Trilian"
+vendor = "spectrasonics"
+version = "1.5.6"
+description = "Total bass module featuring acoustic, electric, and synth basses in a 34 GB library with Omnisphere synthesis integration."
+category = "instruments"
+subcategory = "sample-library"
+license = "commercial"
+tags = ["bass", "sampler", "acoustic", "electric", "synth-bass", "omnisphere", "steam"]
+homepage = "https://www.spectrasonics.net/products/trilian.php"
+
+[formats.vst3]
+url = "https://www.spectrasonics.net/products/trilian/buytrilian.php"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Trilian.vst3"
+
+[formats.au]
+url = "https://www.spectrasonics.net/products/trilian/buytrilian.php"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Trilian.component"

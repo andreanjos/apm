@@ -1,0 +1,22 @@
+slug = "fuse-audio-labs-vcl-864u"
+name = "VCL-864U"
+vendor = "fuse-audio-labs"
+version = "1.0"
+description = "Vintage Vari-Mu tube limiter/compressor plugin modeled on the 1940s Federal AM-864/U, with added modern controls for dynamics shaping on vocals, drums, and keys."
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = ["compressor", "limiter", "vari-mu", "tube", "vintage", "analog", "classic", "dynamics"]
+homepage = "https://fuseaudiolabs.de"
+
+[formats.vst3]
+url = "https://fuseaudiolabs.de"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "VCL-864U.vst3"
+
+[formats.au]
+url = "https://fuseaudiolabs.de"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "VCL-864U.component"

@@ -1,0 +1,22 @@
+slug = "lindell-channelx"
+name = "Lindell ChannelX"
+vendor = "plugin-alliance-lindell-audio"
+version = "1.2.2"
+description = "Modular channel strip plugin combining the Lindell 7X-500 limiter, PEX-500 EQ, and 6X-500 preamp in a single interface."
+category = "effects"
+subcategory = "channel-strip"
+license = "commercial"
+tags = ["channel-strip", "eq", "preamp", "limiter", "lindell", "mixing", "analog", "vintage"]
+homepage = "https://www.plugin-alliance.com/en/products/lindell_channelx.html"
+
+[formats.vst3]
+url = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Lindell ChannelX.vst3"
+
+[formats.au]
+url = "https://www.plugin-alliance.com/en/installation-manager.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Lindell ChannelX.component"

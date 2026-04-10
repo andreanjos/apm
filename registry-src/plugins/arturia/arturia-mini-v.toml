@@ -1,0 +1,25 @@
+slug = "arturia-mini-v"
+name = "Mini V"
+vendor = "arturia"
+version = "4.0.4"
+description = "Minimoog emulation with 3 oscillators, 24dB/oct filter, adjustable polyphony, and modern effects."
+category = "instruments"
+subcategory = "synthesizer"
+license = "commercial"
+tags = ["synth", "synthesizer", "minimoog", "analog", "classic", "v-collection"]
+installer = "arturia-software-center"
+homepage = "https://www.arturia.com/products/software-instruments/mini-v/overview"
+
+[formats.vst3]
+url = "https://www.arturia.com/support/downloads-manuals"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Mini V4.vst3"
+
+[formats.au]
+url = "https://www.arturia.com/support/downloads-manuals"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Mini V4.component"

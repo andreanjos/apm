@@ -1,0 +1,25 @@
+slug = "uad-brigade-chorus"
+name = "Brigade Chorus"
+vendor = "universal-audio"
+version = "1.0"
+description = "Lush bucket-brigade chorus with selectable mono/stereo modes and vibrato for classic analog modulation effects."
+category = "effects"
+subcategory = "chorus"
+license = "commercial"
+tags = ["chorus", "bucket-brigade", "analog", "modulation", "stereo", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/delay-modulation/brigade-chorus-pedal.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Brigade Chorus.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Brigade Chorus.component"

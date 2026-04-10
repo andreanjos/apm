@@ -1,0 +1,25 @@
+slug = "arturia-mellotron-v"
+name = "Mellotron V"
+vendor = "arturia"
+version = "1.9.4"
+description = "Mellotron tape-playback keyboard emulation with 65 classic sounds, external sample loading, and tape modeling."
+category = "instruments"
+subcategory = "keys"
+license = "commercial"
+tags = ["mellotron", "tape", "keys", "vintage", "orchestral", "v-collection"]
+installer = "arturia-software-center"
+homepage = "https://www.arturia.com/products/software-instruments/mellotron-v/overview"
+
+[formats.vst3]
+url = "https://www.arturia.com/support/downloads-manuals"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Mellotron V.vst3"
+
+[formats.au]
+url = "https://www.arturia.com/support/downloads-manuals"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Mellotron V.component"

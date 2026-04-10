@@ -1,0 +1,27 @@
+slug = "analog-obsession-tupre"
+name = "TuPRE"
+vendor = "analog-obsession"
+version = "2.1"
+description = "Free tube line amp with two-band fixed-frequency passive program equalizer at 100 Hz and 10 kHz."
+category = "effects"
+subcategory = "preamp"
+license = "freeware"
+tags = ["preamp", "tube", "eq", "saturation", "vintage", "analog", "free", "freeware"]
+homepage = "https://analogobsession.com/color-preamp-saturation/"
+
+# NOTE: Analog Obsession distributes plugins via their website and Patreon.
+# All plugins are free to download. Direct PKG download links are on the product pages.
+
+[formats.vst3]
+url = "https://analogobsession.com/"
+sha256 = "manual"
+install_type = "pkg"
+bundle_path = "TuPRE.vst3"
+download_type = "manual"
+
+[formats.au]
+url = "https://analogobsession.com/"
+sha256 = "manual"
+install_type = "pkg"
+bundle_path = "TuPRE.component"
+download_type = "manual"

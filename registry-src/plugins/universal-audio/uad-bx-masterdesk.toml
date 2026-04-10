@@ -1,0 +1,25 @@
+slug = "uad-bx-masterdesk"
+name = "bx_masterdesk"
+vendor = "universal-audio"
+version = "1.0"
+description = "All-in-one mastering processor with EQ, compression, saturation, and limiting"
+category = "effects"
+subcategory = "mastering"
+license = "commercial"
+tags = ["mastering", "eq", "compression", "saturation", "limiting", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD bx_masterdesk.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD bx_masterdesk.component"

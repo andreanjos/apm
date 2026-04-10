@@ -1,0 +1,17 @@
+slug = "garageband"
+name = "GarageBand"
+vendor = "apple"
+version = "10.4"
+description = "Free music creation studio with smart instruments, virtual drummer, and a complete sound library for beginners and hobbyists."
+category = "daws"
+subcategory = "general"
+license = "freeware"
+tags = ["daw", "production", "free", "beginner", "apple", "instruments"]
+homepage = "https://www.apple.com/garageband/"
+
+[formats.app]
+url = "https://apps.apple.com/app/garageband/id682658836"
+sha256 = "manual"
+install_type = "mas"
+bundle_path = "GarageBand.app"
+download_type = "manual"

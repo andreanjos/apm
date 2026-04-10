@@ -1,0 +1,25 @@
+slug = "uad-175b"
+name = "UA 175-B"
+vendor = "universal-audio"
+version = "1.0"
+description = "Vintage tube compressor emulation of the UA 175-B with variable-mu compression"
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = ["compressor", "tube", "vintage", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD UA 175-B.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD UA 175-B.component"

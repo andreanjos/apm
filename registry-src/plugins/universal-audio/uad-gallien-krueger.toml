@@ -1,0 +1,25 @@
+slug = "uad-gallien-krueger"
+name = "Gallien Krueger 800RB"
+vendor = "universal-audio"
+version = "1.0"
+description = "Bass amplifier emulation of the Gallien-Krueger 800RB with its signature growl"
+category = "effects"
+subcategory = "amp-sim"
+license = "commercial"
+tags = ["amp-sim", "bass", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Gallien Krueger 800RB.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Gallien Krueger 800RB.component"

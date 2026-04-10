@@ -1,0 +1,22 @@
+slug = "izotope-ozone"
+name = "Ozone 11"
+vendor = "izotope"
+version = "11.2.0"
+description = "AI-powered mastering suite with EQ, dynamics, imager, maximizer, and Master Assistant."
+category = "effects"
+subcategory = "mastering"
+license = "commercial"
+tags = ["mastering", "eq", "dynamics", "limiter", "ai", "multiband"]
+homepage = "https://www.izotope.com/en/products/ozone.html"
+
+[formats.vst3]
+url = "https://www.izotope.com/en/products/downloads.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Ozone 11.vst3"
+
+[formats.au]
+url = "https://www.izotope.com/en/products/downloads.html"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Ozone 11.component"

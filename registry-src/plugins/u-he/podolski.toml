@@ -1,0 +1,22 @@
+slug = "podolski"
+name = "Podolski"
+vendor = "u-he"
+version = "1.2.3"
+description = "Simple, CPU-efficient virtual analog synthesizer with a Zebra-style arpeggiator and sequencer."
+category = "instruments"
+subcategory = "synthesizer"
+license = "freeware"
+tags = ["synth", "synthesizer", "analog", "subtractive", "virtual-analog", "arpeggiator", "free", "freeware"]
+homepage = "https://u-he.com/products/podolski/"
+
+[formats.vst3]
+url = "https://dl.u-he.com/releases/Podolski_123_12092_Mac.zip"
+sha256 = "b3477dbd7306d733303bb3656798e8dbff2876cebc5057dd25bf05ae7162baa4"
+install_type = "zip"
+bundle_path = "Podolski.vst3"
+
+[formats.au]
+url = "https://dl.u-he.com/releases/Podolski_123_12092_Mac.zip"
+sha256 = "b3477dbd7306d733303bb3656798e8dbff2876cebc5057dd25bf05ae7162baa4"
+install_type = "zip"
+bundle_path = "Podolski.component"

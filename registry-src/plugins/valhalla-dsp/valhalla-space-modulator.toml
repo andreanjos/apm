@@ -1,0 +1,22 @@
+slug = "valhalla-space-modulator"
+name = "Valhalla Space Modulator"
+vendor = "valhalla-dsp"
+version = "1.2.8"
+description = "Eleven-algorithm flanger covering through-zero flanging, barberpole flanging, detuning, doubling, strange echoes, and reverb-like effects."
+category = "effects"
+subcategory = "modulation"
+license = "freeware"
+tags = ["flanger", "modulation", "chorus", "doubling", "detuning", "free", "freeware"]
+homepage = "https://valhalladsp.com/shop/modulation/valhalla-space-modulator/"
+
+[formats.vst3]
+url = "https://valhallaproduction.s3.us-west-2.amazonaws.com/spacemod/ValhallaSpaceModulatorOSX_1_2_8.dmg"
+sha256 = "12033f7f35e97e6e06e3852e42f50caff17165bc6e79696d6837d61b34858598"
+install_type = "dmg"
+bundle_path = "ValhallaSpaceModulator.vst3"
+
+[formats.au]
+url = "https://valhallaproduction.s3.us-west-2.amazonaws.com/spacemod/ValhallaSpaceModulatorOSX_1_2_8.dmg"
+sha256 = "12033f7f35e97e6e06e3852e42f50caff17165bc6e79696d6837d61b34858598"
+install_type = "dmg"
+bundle_path = "ValhallaSpaceModulator.component"

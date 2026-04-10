@@ -1,0 +1,25 @@
+slug = "uad-ams-rmx16"
+name = "AMS RMX16"
+vendor = "universal-audio"
+version = "1.0"
+description = "Digital reverb emulation of the AMS RMX16 with its distinctive lush, dense character used on countless 80s records."
+category = "effects"
+subcategory = "reverb"
+license = "commercial"
+tags = ["reverb", "digital", "ams", "rmx16", "80s", "lush", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/reverbs/ams-rmx16-digital-reverb.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD AMS RMX16.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD AMS RMX16.component"

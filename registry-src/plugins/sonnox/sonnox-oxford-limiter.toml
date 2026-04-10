@@ -1,0 +1,22 @@
+slug = "sonnox-oxford-limiter"
+name = "Oxford Limiter v3"
+vendor = "sonnox"
+version = "4.04.1"
+description = "Mastering limiter with true-peak limiting, enhance section, and advanced metering for maximum loudness with clarity."
+category = "effects"
+subcategory = "limiter"
+license = "commercial"
+tags = ["limiter", "mastering", "true-peak", "loudness", "dynamics"]
+homepage = "https://www.sonnox.com/plugin/oxford-limiter"
+
+[formats.vst3]
+url = "https://sonnox.com/installers"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Oxford Limiter.vst3"
+
+[formats.au]
+url = "https://sonnox.com/installers"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Oxford Limiter.component"

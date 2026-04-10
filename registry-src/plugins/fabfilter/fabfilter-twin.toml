@@ -1,0 +1,22 @@
+slug = "fabfilter-twin"
+name = "FabFilter Twin 3"
+vendor = "fabfilter"
+version = "3.0"
+description = "Powerful synthesizer with three oscillators, extensive modulation, and FabFilter's signature drag-and-drop workflow."
+category = "instruments"
+subcategory = "synthesizer"
+license = "commercial"
+tags = ["synth", "synthesizer", "polyphonic", "modulation", "fabfilter"]
+homepage = "https://www.fabfilter.com/products/twin-3-synthesizer-plug-in"
+
+[formats.vst3]
+url = "https://www.fabfilter.com/shop/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Twin 3.vst3"
+
+[formats.au]
+url = "https://www.fabfilter.com/shop/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "FabFilter Twin 3.component"

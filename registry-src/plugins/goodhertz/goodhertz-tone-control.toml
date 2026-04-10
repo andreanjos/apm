@@ -1,0 +1,22 @@
+slug = "goodhertz-tone-control"
+name = "Tone Control"
+vendor = "goodhertz"
+version = "3.11.0"
+description = "Simple tone-shaping EQ modeled after hi-fi amplifier tone stacks for quick tonal adjustments."
+category = "effects"
+subcategory = "eq"
+license = "commercial"
+tags = ["eq", "tone", "simple", "hi-fi", "mixing"]
+homepage = "https://goodhertz.com/tone-control/"
+
+[formats.vst3]
+url = "https://goodhertz.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Ghz Tone Control 3.vst3"
+
+[formats.au]
+url = "https://goodhertz.com/downloads/"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Ghz Tone Control 3.component"

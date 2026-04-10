@@ -1,0 +1,22 @@
+slug = "soundtoys-echoboy-jr"
+name = "EchoBoy Jr."
+vendor = "soundtoys"
+version = "5.5.4"
+description = "Simplified version of EchoBoy with single knob interface and curated echo styles for quick creative delays."
+category = "effects"
+subcategory = "delay"
+license = "commercial"
+tags = ["delay", "echo", "simple", "creative"]
+homepage = "https://www.soundtoys.com/product/echoboy-jr/"
+
+[formats.vst3]
+url = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/EchoBoyJr5_5.5.4.18982.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "EchoBoyJr.vst3"
+
+[formats.au]
+url = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/EchoBoyJr5_5.5.4.18982.dmg"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "dmg"
+bundle_path = "EchoBoyJr.component"

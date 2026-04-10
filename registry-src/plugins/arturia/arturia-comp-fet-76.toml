@@ -1,0 +1,25 @@
+slug = "arturia-comp-fet-76"
+name = "Comp FET-76"
+vendor = "arturia"
+version = "1.7.1"
+description = "FET compressor emulation of the iconic UREI 1176, capturing the fast, aggressive transient response and harmonic character of the original."
+category = "effects"
+subcategory = "compressor"
+license = "commercial"
+tags = ["compressor", "fet", "1176", "urei", "vintage", "analog-modeling", "dynamics", "fast"]
+installer = "arturia-software-center"
+homepage = "https://www.arturia.com/products/software-effects/comp-fet76/overview"
+
+[formats.vst3]
+url = "https://www.arturia.com/support/downloads-manuals/product/comp-fet76"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Comp FET-76.vst3"
+
+[formats.au]
+url = "https://www.arturia.com/support/downloads-manuals/product/comp-fet76"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "Comp FET-76.component"

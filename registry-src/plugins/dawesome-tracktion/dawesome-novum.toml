@@ -1,0 +1,22 @@
+slug = "dawesome-novum"
+name = "Novum"
+vendor = "dawesome-tracktion"
+version = "1.17"
+description = "Granular synthesizer that decomposes a single sample into six independent layers for deep spectral sound design."
+category = "instruments"
+subcategory = "granular"
+license = "commercial"
+tags = ["synth", "synthesizer", "granular", "sampling", "spectral", "layering", "sound-design"]
+homepage = "https://www.tracktion.com/products/novum"
+
+[formats.vst3]
+url = "https://www.tracktion.com/products/novum"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Novum.vst3"
+
+[formats.au]
+url = "https://www.tracktion.com/products/novum"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+bundle_path = "Novum.component"

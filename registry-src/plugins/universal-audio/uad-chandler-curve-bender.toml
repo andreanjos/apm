@@ -1,0 +1,25 @@
+slug = "uad-chandler-curve-bender"
+name = "Chandler Limited Curve Bender"
+vendor = "universal-audio"
+version = "1.0"
+description = "Mastering EQ emulation of the Chandler Curve Bender with germanium-transistor tone and stepped controls."
+category = "effects"
+subcategory = "eq"
+license = "commercial"
+tags = ["eq", "mastering", "chandler", "germanium", "vintage", "uad"]
+installer = "ua-connect"
+homepage = "https://www.uaudio.com/uad-plugins/equalizers/chandler-limited-curve-bender.html"
+
+[formats.vst3]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Chandler Limited Curve Bender.vst3"
+
+[formats.au]
+url = "https://www.uaudio.com/downloads"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type = "pkg"
+download_type = "managed"
+bundle_path = "UAD Chandler Limited Curve Bender.component"
