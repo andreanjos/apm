@@ -1,10 +1,11 @@
 target/
 .env
 .env.*
-!.env.example
 .sqlx/
 .planning/
 .claude/
 scripts/
 data/
+crates/apm-server/
+migrations/
 autoresearch-results.tsv

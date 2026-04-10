@@ -3,7 +3,6 @@ resolver = "2"
 members = [
     "crates/apm-core",
     "crates/apm-cli",
-    "crates/apm-server",
 ]
 
 [workspace.package]
@@ -26,5 +25,4 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 # Cargo edition2024 on Rust 1.84; "std" + "serde" + "clock" is sufficient.
 chrono = { version = "0.4", features = ["std", "serde", "clock"], default-features = false }
 
-# apm-core is a workspace dep so both apm-cli and apm-server can reference it
 apm-core = { path = "crates/apm-core" }
