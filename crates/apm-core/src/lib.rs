@@ -1,3 +1,4 @@
+pub mod bundle_id_store;
 pub mod config;
 pub mod error;
 pub mod registry;

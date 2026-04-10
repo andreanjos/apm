@@ -5,6 +5,7 @@
 // 2. Normalized name + vendor match — handles naming differences
 // 3. Normalized name only — last resort, may produce false positives
 
+use crate::bundle_id_store::BundleIdStore;
 use crate::registry::{PluginDefinition, Registry};
 use crate::scanner::ScannedPlugin;
 
@@ -32,14 +33,27 @@ pub struct PluginMatch<'a> {
 pub fn match_plugin<'a>(
     scanned: &ScannedPlugin,
     registry: &'a Registry,
+    local_store: Option<&BundleIdStore>,
 ) -> Option<PluginMatch<'a>> {
-    // Strategy 1: Bundle ID prefix match
+    // Strategy 1a: Bundle ID prefix match from registry
     if !scanned.bundle_id.is_empty() {
         if let Some(plugin) = match_by_bundle_id(&scanned.bundle_id, registry) {
             return Some(PluginMatch {
                 registry_plugin: plugin,
                 method: MatchMethod::BundleId,
             });
+        }
+
+        // Strategy 1b: Bundle ID from local learned store
+        if let Some(store) = local_store {
+            if let Some(slug) = store.find_slug(&scanned.bundle_id) {
+                if let Some(plugin) = registry.find(slug) {
+                    return Some(PluginMatch {
+                        registry_plugin: plugin,
+                        method: MatchMethod::BundleId,
+                    });
+                }
+            }
         }
     }
 
@@ -53,12 +67,30 @@ pub fn match_plugin<'a>(
         }
     }
 
-    // Strategy 3: Normalized name only
+    // Strategy 3: Normalized name only (full scanned name)
     if let Some(plugin) = match_by_name(&scanned.name, registry) {
         return Some(PluginMatch {
             registry_plugin: plugin,
             method: MatchMethod::NameOnly,
         });
+    }
+
+    // Strategy 4: Strip vendor prefix from scanned name and try again.
+    // Many macOS plugins embed the vendor in CFBundleName (e.g., "FabFilter Pro-Q 4").
+    if !scanned.vendor.is_empty() {
+        let name_lower = scanned.name.to_lowercase();
+        let vendor_lower = scanned.vendor.to_lowercase();
+        if let Some(rest) = name_lower.strip_prefix(&vendor_lower) {
+            let stripped = rest.trim_start_matches(|c: char| c == ' ' || c == '-' || c == ':');
+            if !stripped.is_empty() {
+                if let Some(plugin) = match_by_name(stripped, registry) {
+                    return Some(PluginMatch {
+                        registry_plugin: plugin,
+                        method: MatchMethod::NameOnly,
+                    });
+                }
+            }
+        }
     }
 
     None
@@ -133,6 +165,46 @@ fn strip_trailing_version(s: &str) -> String {
         }
     }
     s.to_string()
+}
+
+/// Extract a stable bundle ID prefix by stripping format and version suffixes.
+///
+/// e.g., `"com.fabfilter.Pro-Q.AU.4"` → `"com.fabfilter.Pro-Q"`
+///       `"com.soundtoys.audiounit.EchoBoy"` → `"com.soundtoys.audiounit.EchoBoy"`
+pub fn extract_bundle_id_prefix(bundle_id: &str) -> String {
+    let mut bid = bundle_id.to_string();
+    // Remove trailing format+version like .AU.4, .Vst3.2, .MusicDevice.component
+    let format_patterns = [
+        ".AU.", ".Vst3.", ".VST3.", ".AAX.", ".MusicDevice.", ".MusicEffect.", ".audiounit.",
+    ];
+    for pat in &format_patterns {
+        if let Some(pos) = bid.find(pat) {
+            bid.truncate(pos);
+            return bid;
+        }
+    }
+    // Remove trailing .component, .vst3
+    for suffix in [".component", ".vst3"] {
+        if bid.ends_with(suffix) {
+            bid.truncate(bid.len() - suffix.len());
+            return bid;
+        }
+    }
+    bid
+}
+
+/// Auto-learn: given a scanned plugin that was matched by name/vendor,
+/// record its bundle ID prefix in the local store for future fast matching.
+pub fn auto_learn(
+    scanned: &ScannedPlugin,
+    matched_slug: &str,
+    store: &mut BundleIdStore,
+) -> bool {
+    if scanned.bundle_id.is_empty() {
+        return false;
+    }
+    let prefix = extract_bundle_id_prefix(&scanned.bundle_id);
+    store.learn(&prefix, matched_slug)
 }
 
 #[cfg(test)]

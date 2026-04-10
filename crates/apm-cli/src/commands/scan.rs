@@ -2,6 +2,7 @@ use anyhow::Result;
 use colored::Colorize;
 use serde::Serialize;
 
+use apm_core::bundle_id_store::BundleIdStore;
 use apm_core::config::Config;
 use apm_core::registry;
 use apm_core::registry::matcher;
@@ -46,8 +47,9 @@ pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) ->
     // A missing or unreadable state file is treated as empty (no managed plugins).
     let state = InstallState::load(config).unwrap_or_default();
 
-    // Load registry for matching scanned plugins to known products.
+    // Load registry and bundle ID store for matching scanned plugins.
     let reg = registry::Registry::load_all_sources(config).ok();
+    let mut bid_store = BundleIdStore::open(config).ok();
 
     // Helper: determine whether a scanned plugin is managed by apm.
     let is_managed = |p: &scanner::ScannedPlugin| -> bool {
@@ -76,26 +78,62 @@ pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) ->
         return Ok(());
     }
 
+    // ── Match + auto-learn ──────────────────────────────────────────────────
+    // Match all scanned plugins against the registry and auto-learn bundle IDs.
+    struct Matched {
+        slug: Option<String>,
+        method: Option<String>,
+    }
+    let mut matches: Vec<Matched> = Vec::new();
+    let mut learned = 0usize;
+
+    for p in &plugins {
+        let m = reg
+            .as_ref()
+            .and_then(|r| matcher::match_plugin(p, r, bid_store.as_ref()));
+
+        if let Some(ref pm) = m {
+            // Auto-learn: if matched by name/vendor, record the bundle ID for next time
+            if pm.method != matcher::MatchMethod::BundleId {
+                if let Some(ref mut store) = bid_store {
+                    if matcher::auto_learn(p, &pm.registry_plugin.slug, store) {
+                        learned += 1;
+                    }
+                }
+            }
+        }
+
+        matches.push(Matched {
+            slug: m.as_ref().map(|m| m.registry_plugin.slug.clone()),
+            method: m.as_ref().map(|m| match m.method {
+                matcher::MatchMethod::BundleId => "bundle_id".to_string(),
+                matcher::MatchMethod::NameAndVendor => "name_vendor".to_string(),
+                matcher::MatchMethod::NameOnly => "name_only".to_string(),
+            }),
+        });
+    }
+
+    // Persist any newly learned bundle IDs.
+    if learned > 0 {
+        if let Some(ref store) = bid_store {
+            let _ = store.save();
+        }
+    }
+
     // ── JSON output ───────────────────────────────────────────────────────────
     if json {
         let results: Vec<ScannedPluginJson> = plugins
             .iter()
-            .map(|p| {
-                let m = reg.as_ref().and_then(|r| matcher::match_plugin(p, r));
-                ScannedPluginJson {
-                    name: p.name.clone(),
-                    version: p.version.clone(),
-                    vendor: p.vendor.clone(),
-                    format: p.format.to_string(),
-                    path: p.path.to_string_lossy().into_owned(),
-                    managed_by_apm: is_managed(p),
-                    registry_slug: m.as_ref().map(|m| m.registry_plugin.slug.clone()),
-                    match_method: m.as_ref().map(|m| match m.method {
-                        matcher::MatchMethod::BundleId => "bundle_id".to_string(),
-                        matcher::MatchMethod::NameAndVendor => "name_vendor".to_string(),
-                        matcher::MatchMethod::NameOnly => "name_only".to_string(),
-                    }),
-                }
+            .zip(matches.iter())
+            .map(|(p, m)| ScannedPluginJson {
+                name: p.name.clone(),
+                version: p.version.clone(),
+                vendor: p.vendor.clone(),
+                format: p.format.to_string(),
+                path: p.path.to_string_lossy().into_owned(),
+                managed_by_apm: is_managed(p),
+                registry_slug: m.slug.clone(),
+                match_method: m.method.clone(),
             })
             .collect();
         println!("{}", serde_json::to_string_pretty(&results)?);
