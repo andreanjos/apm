@@ -7,6 +7,7 @@ use std::collections::HashMap;
 use std::path::{Path, PathBuf};
 
 use serde::{Deserialize, Serialize};
+use walkdir::WalkDir;
 
 // ── Registry types (mirrors src/registry/types.rs) ────────────────────────────
 
@@ -90,10 +91,12 @@ impl Registry {
             return Ok(registry);
         }
 
-        for entry in std::fs::read_dir(&plugins_dir)? {
+        for entry in WalkDir::new(&plugins_dir) {
             let entry = entry?;
             let path = entry.path();
-            if path.extension().and_then(|e| e.to_str()) != Some("toml") {
+            if !entry.file_type().is_file()
+                || path.extension().and_then(|e| e.to_str()) != Some("toml")
+            {
                 continue;
             }
             let raw = std::fs::read_to_string(&path)?;
@@ -289,6 +292,34 @@ fn test_load_nonexistent_directory_returns_empty_registry() {
     let path = PathBuf::from("/tmp/apm-test-nonexistent-registry-dir-xyz");
     let registry = Registry::load_from_cache(&path).expect("should succeed with nonexistent dir");
     assert!(registry.is_empty());
+}
+
+#[test]
+fn test_loads_nested_vendor_plugin_directory() {
+    let tmp = tempfile::tempdir().expect("create temp dir");
+    let nested = tmp.path().join("plugins/test-vendor");
+    std::fs::create_dir_all(&nested).unwrap();
+    std::fs::write(
+        nested.join("test-nested.toml"),
+        r#"
+slug = "test-nested"
+name = "Test Nested"
+vendor = "Test Vendor"
+version = "1.0.0"
+description = "Nested fixture"
+category = "effects"
+license = "freeware"
+
+[formats.au]
+url = "https://example.com/test-nested.zip"
+sha256 = "abc"
+install_type = "zip"
+"#,
+    )
+    .unwrap();
+
+    let registry = Registry::load_from_cache(tmp.path()).expect("nested directory should load");
+    assert!(registry.find("test-nested").is_some());
 }
 
 // ── Tags and fields ───────────────────────────────────────────────────────────

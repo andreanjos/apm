@@ -10,6 +10,7 @@ use std::path::Path;
 
 use anyhow::{Context, Result};
 use tracing::debug;
+use walkdir::WalkDir;
 
 use crate::config::Config;
 
@@ -70,24 +71,22 @@ impl Registry {
             return Ok(registry);
         }
 
-        let entries = std::fs::read_dir(&plugins_dir).with_context(|| {
-            format!(
-                "Cannot read registry plugins directory: {}",
-                plugins_dir.display()
-            )
-        })?;
-
-        for entry in entries {
+        for entry in WalkDir::new(&plugins_dir)
+            .into_iter()
+            .filter_entry(|entry| !is_hidden(entry.path()))
+        {
             let entry = entry.with_context(|| {
                 format!("Cannot read directory entry in {}", plugins_dir.display())
             })?;
             let path = entry.path();
 
-            if path.extension().and_then(|e| e.to_str()) != Some("toml") {
+            if !entry.file_type().is_file()
+                || path.extension().and_then(|e| e.to_str()) != Some("toml")
+            {
                 continue;
             }
 
-            match load_plugin_toml(&path) {
+            match load_plugin_toml(path) {
                 Ok(plugin) => {
                     debug!("Loaded plugin: {}", plugin.slug);
                     registry.plugins.insert(plugin.slug.clone(), plugin);
@@ -331,6 +330,13 @@ impl Registry {
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
+fn is_hidden(path: &Path) -> bool {
+    path.file_name()
+        .and_then(|name| name.to_str())
+        .map(|name| name.starts_with('.'))
+        .unwrap_or(false)
+}
+
 /// Parse a single plugin TOML file into a `PluginDefinition`.
 fn load_plugin_toml(path: &Path) -> Result<PluginDefinition> {
     let raw = std::fs::read_to_string(path)
@@ -481,6 +487,38 @@ install_type = "zip"
             registry.plugins.is_empty(),
             "registry loaded from empty plugins dir should have no plugins"
         );
+
+        std::fs::remove_dir_all(&temp).unwrap();
+    }
+
+    #[test]
+    fn test_loads_plugins_from_nested_vendor_directories() {
+        let temp = std::env::temp_dir().join(format!("apm-nested-dir-test-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&temp);
+
+        let plugins_dir = temp.join("plugins/native-instruments");
+        std::fs::create_dir_all(&plugins_dir).unwrap();
+        std::fs::write(
+            plugins_dir.join("massive-x.toml"),
+            r#"
+slug = "massive-x"
+name = "Massive X"
+vendor = "Native Instruments"
+version = "1.0.0"
+description = "Fixture plugin"
+category = "instrument"
+license = "commercial"
+
+[formats.vst3]
+url = "https://example.com/massive-x.zip"
+sha256 = "manual"
+install_type = "zip"
+"#,
+        )
+        .unwrap();
+
+        let registry = Registry::load_from_cache(&temp).unwrap();
+        assert!(registry.find("massive-x").is_some());
 
         std::fs::remove_dir_all(&temp).unwrap();
     }

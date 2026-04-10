@@ -133,8 +133,12 @@ apm sources remove my-registry
 
 ## Registry format
 
-Plugin definitions are TOML files in `registry/plugins/`. Each file describes
-one plugin and its download locations per format.
+Plugin definitions are TOML files in `registry/plugins/<vendor>/`. Each file
+describes one plugin and its download locations per format.
+
+The current vendor-organized layout is the authoring format. The long-term
+registry plan for scale, indexing, and signing is documented in
+[`docs/registry-architecture.md`](docs/registry-architecture.md).
 
 ```toml
 slug        = "valhalla-supermassive"
@@ -182,7 +186,7 @@ bundle_path  = "ValhallaSupermassive.component"
 ## Contributing plugins
 
 1. Fork this repo.
-2. Create `registry/plugins/<slug>.toml` following the format above.
+2. Create `registry/plugins/<vendor>/<slug>.toml` following the format above.
 3. Compute the SHA256 of the macOS installer:
    ```sh
    shasum -a 256 /path/to/installer.dmg
@@ -193,7 +197,7 @@ Guidelines:
 - Only include plugins that are genuinely free (no time-limited trials).
 - Use the official developer download URL, not a mirror.
 - If a download requires account signup, note it with a comment in the TOML.
-- One file per plugin slug.
+- One file per plugin slug, organized under a vendor directory.
 
 ## License
 
