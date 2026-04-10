@@ -20,6 +20,14 @@ Or build from source (requires Rust 1.70+):
 cargo install --path crates/apm-cli
 ```
 
+### Claude Code
+
+```sh
+cp -r .claude/skills/apm ~/.claude/skills/
+```
+
+Then use `/apm search reverb` or `/apm install surge-xt` directly in Claude Code.
+
 ## Quick start
 
 ```sh
@@ -126,24 +134,20 @@ apm sources remove my-registry
 apm completions bash > ~/.local/share/bash-completion/completions/apm
 
 # Zsh
-apm completions zsh > ~/.zfunc/_apm
+apm completions zsh > ~/.zsh/completions/_apm
 
 # Fish
 apm completions fish > ~/.config/fish/completions/apm.fish
 ```
 
-### Claude Code skill
-
-```sh
-cp -r .claude/skills/apm ~/.claude/skills/
-```
-
-Then use `/apm search reverb` or `/apm install surge-xt` directly in Claude Code.
-
 ## Registry format
 
-The registry is organized by vendors, installers, bundles, and plugins.
-Plugin definitions live under `registry/plugins/<vendor>/<slug>.toml`.
+The published registry is a Git repo with:
+
+- `registry/index.toml`
+- `registry/installers.toml`
+- `registry/bundles/*.toml`
+- `registry/plugins/<vendor>/<slug>.toml`
 
 ```toml
 slug        = "valhalla-supermassive"
@@ -177,21 +181,29 @@ bundle_path  = "ValhallaSupermassive.component"
 | `vendor` | yes | Developer or company |
 | `version` | yes | Semver or freeform version string |
 | `description` | yes | One or two sentence description |
-| `category` | yes | `"instruments"` or `"effects"` |
-| `subcategory` | yes | e.g. `"reverb"`, `"synthesizer"`, `"eq"` |
+| `category` | yes | Registry category such as `"effects"`, `"instruments"`, or `"daws"` |
+| `subcategory` | no | e.g. `"reverb"`, `"synthesizer"`, `"eq"` |
 | `license` | yes | SPDX identifier or `"freeware"` |
 | `tags` | yes | Search keywords |
-| `homepage` | yes | Official product page URL |
-| `formats.vst3` / `formats.au` | at least one | Format-specific download info |
+| `installer` | no | Vendor manager key from `registry/installers.toml` |
+| `homepage` | no | Official product page URL |
+| `purchase_url` | no | Product purchase page |
+| `releases` | no | Historical versions for explicit installs |
+| `bundle_ids` | no | Known CFBundleIdentifier prefixes for scanner matching |
+| `formats.*` | at least one | Format-specific download info such as `au`, `vst3`, or `app` |
 | `url` | yes | Direct download URL |
 | `sha256` | yes | SHA256 hex digest of the download |
 | `install_type` | yes | `"dmg"`, `"pkg"`, or `"zip"` |
+| `download_type` | no | `"direct"`, `"manual"`, or `"managed"` |
 | `bundle_path` | for dmg/zip | Path inside the archive to the plugin bundle |
 
 ## Contributing plugins
 
 1. Fork this repo.
-2. Add or update the relevant registry records for the plugin, vendor, or installer.
+2. Add or update the relevant registry records:
+   - `registry/plugins/<vendor>/<slug>.toml`
+   - `registry/installers.toml` when a vendor manager is needed
+   - `registry/bundles/*.toml` when bundle membership changes
 3. Compute the SHA256 of the macOS installer:
    ```sh
    shasum -a 256 /path/to/installer.dmg
