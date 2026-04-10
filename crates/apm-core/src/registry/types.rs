@@ -13,6 +13,8 @@ pub enum PluginFormat {
     Au,
     /// VST3 — cross-platform, `.vst3` bundles.
     Vst3,
+    /// macOS application bundle, `.app`.
+    App,
 }
 
 impl std::fmt::Display for PluginFormat {
@@ -20,6 +22,7 @@ impl std::fmt::Display for PluginFormat {
         match self {
             Self::Au => write!(f, "AU"),
             Self::Vst3 => write!(f, "VST3"),
+            Self::App => write!(f, "APP"),
         }
     }
 }
@@ -36,6 +39,8 @@ pub enum InstallType {
     Pkg,
     /// ZIP archive — extract and locate bundle.
     Zip,
+    /// Mac App Store listing. apm can open it, but cannot install it directly.
+    Mas,
 }
 
 impl std::fmt::Display for InstallType {
@@ -44,6 +49,7 @@ impl std::fmt::Display for InstallType {
             Self::Dmg => write!(f, "DMG"),
             Self::Pkg => write!(f, "PKG"),
             Self::Zip => write!(f, "ZIP"),
+            Self::Mas => write!(f, "MAS"),
         }
     }
 }
@@ -133,7 +139,7 @@ pub struct PluginDefinition {
     /// Short description shown in search results.
     pub description: String,
 
-    /// Primary category (e.g. `"instrument"`, `"effect"`).
+    /// Primary category (e.g. `"instruments"`, `"effects"`).
     pub category: String,
 
     /// Optional finer-grained sub-category (e.g. `"reverb"`, `"synth"`).

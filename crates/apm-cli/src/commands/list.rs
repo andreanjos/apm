@@ -39,10 +39,10 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
     // Validate the format parameter up front.
     if let Some(f) = format {
         match f {
-            "au" | "vst3" => {}
+            "au" | "vst3" | "app" => {}
             other => bail!(
-                "Unknown format '{other}'. Valid values are: au, vst3.\n\
-                 Hint: Use `--format au` or `--format vst3`, or omit the flag to show all."
+                "Unknown format '{other}'. Valid values are: au, vst3, app.\n\
+                 Hint: Use `--format au`, `--format vst3`, or omit the flag to show all."
             ),
         }
     }
@@ -62,6 +62,10 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
                 .formats
                 .iter()
                 .any(|f| f.format.to_string().eq_ignore_ascii_case("vst3")),
+            Some("app") => plugin
+                .formats
+                .iter()
+                .any(|f| f.format.to_string().eq_ignore_ascii_case("app")),
             _ => true,
         })
         .collect();

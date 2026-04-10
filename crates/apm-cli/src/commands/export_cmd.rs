@@ -1,5 +1,5 @@
 // export command — serialize the installed plugin list to a portable apm1://
-// string (default) or legacy TOML/JSON format.
+// string (default) or TOML/JSON file format.
 
 use std::path::PathBuf;
 
@@ -11,9 +11,9 @@ use apm_core::state::InstallState;
 
 use crate::portable;
 
-// ── Export record (legacy formats) ───────────────────────────────────────────
+// ── Export record (file formats) ─────────────────────────────────────────────
 
-/// One entry in the exported plugin list (used by legacy TOML/JSON paths).
+/// One entry in the exported plugin list (used by TOML/JSON file paths).
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ExportedPlugin {
     pub name: String,
@@ -22,7 +22,7 @@ pub struct ExportedPlugin {
     pub source: String,
 }
 
-/// Top-level export document (used by legacy TOML/JSON paths).
+/// Top-level export document (used by TOML/JSON file paths).
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ExportDocument {
     pub plugins: Vec<ExportedPlugin>,
@@ -35,8 +35,8 @@ pub async fn run(config: &Config, output: Option<&PathBuf>, format: &str) -> Res
 
     match format {
         "portable" => run_portable(config, &state, output),
-        "json" => run_legacy(config, &state, output, format),
-        "toml" => run_legacy(config, &state, output, format),
+        "json" => run_file(config, &state, output, format),
+        "toml" => run_file(config, &state, output, format),
         other => bail!("Unknown export format '{other}'. Valid values are: portable, json, toml."),
     }
 }
@@ -61,9 +61,9 @@ fn run_portable(config: &Config, state: &InstallState, output: Option<&PathBuf>)
     Ok(())
 }
 
-// ── Legacy formats (TOML / JSON) ────────────────────────────────────────────
+// ── File formats (TOML / JSON) ──────────────────────────────────────────────
 
-fn run_legacy(
+fn run_file(
     _config: &Config,
     state: &InstallState,
     output: Option<&PathBuf>,

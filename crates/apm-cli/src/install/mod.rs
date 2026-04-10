@@ -285,6 +285,13 @@ async fn install_one_format(ctx: FormatInstallCtx<'_>) -> Result<PathBuf> {
             zip::install_from_zip(&archive_path, &dest_dir, fmt, source.bundle_path.as_deref())
                 .with_context(|| format!("ZIP install failed for '{}' ({})", plugin.slug, fmt))?
         }
+        InstallType::Mas => {
+            anyhow::bail!(
+                "'{}' is distributed through the Mac App Store and cannot be installed from an archive.\n\
+                 Hint: Open the product page and install it with the App Store app.",
+                plugin.slug
+            );
+        }
     };
 
     // ── Step 3: Strip quarantine ──────────────────────────────────────────────
@@ -379,6 +386,10 @@ fn plugin_dest_dir(fmt: PluginFormat, scope: InstallScope) -> PathBuf {
         (PluginFormat::Au, InstallScope::System) => apm_core::config::system_au_dir(),
         (PluginFormat::Vst3, InstallScope::User) => apm_core::config::user_vst3_dir(),
         (PluginFormat::Vst3, InstallScope::System) => apm_core::config::system_vst3_dir(),
+        (PluginFormat::App, InstallScope::User) => dirs::home_dir()
+            .map(|home| home.join("Applications"))
+            .unwrap_or_else(|| PathBuf::from("/Applications")),
+        (PluginFormat::App, InstallScope::System) => PathBuf::from("/Applications"),
     }
 }
 
@@ -393,6 +404,7 @@ fn archive_filename(plugin: &PluginDefinition, fmt: PluginFormat, source: &Forma
             InstallType::Dmg => "dmg",
             InstallType::Pkg => "pkg",
             InstallType::Zip => "zip",
+            InstallType::Mas => "app",
         });
 
     format!(

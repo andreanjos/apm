@@ -319,6 +319,28 @@ async fn run_single(
             .collect(),
     };
     formats_to_check.sort_by_key(|(f, _)| f.to_string());
+    if formats_to_check.is_empty() {
+        let available = selected_plugin
+            .formats
+            .keys()
+            .map(|f| f.to_string())
+            .collect::<Vec<_>>()
+            .join(", ");
+        let requested = format
+            .map(|f| f.to_string())
+            .unwrap_or_else(|| "any".to_string());
+        anyhow::bail!(
+            "Plugin '{}' does not have a {} format available in the registry.\n\
+             Hint: Available formats: {}",
+            plugin.slug,
+            requested,
+            if available.is_empty() {
+                "(none listed)"
+            } else {
+                available.as_str()
+            },
+        );
+    }
 
     // ── Check if already installed ────────────────────────────────────────────
 
@@ -425,10 +447,13 @@ async fn run_single(
     // ── Dry-run output ────────────────────────────────────────────────────────
 
     if dry_run {
-        let install_base = match effective_scope {
-            InstallScope::User => "~/Library/Audio/Plug-Ins/",
-            InstallScope::System => "/Library/Audio/Plug-Ins/",
-        };
+        let install_base = install_destination_label(
+            &formats_to_install
+                .iter()
+                .map(|(fmt, _)| *fmt)
+                .collect::<Vec<_>>(),
+            effective_scope,
+        );
 
         println!(
             "[dry-run] Would install {} v{} ({})",
@@ -493,10 +518,13 @@ async fn run_single(
 
     // ── Success message ───────────────────────────────────────────────────────
 
-    let install_base = match effective_scope {
-        InstallScope::User => "~/Library/Audio/Plug-Ins/",
-        InstallScope::System => "/Library/Audio/Plug-Ins/",
-    };
+    let install_base = install_destination_label(
+        &formats_to_install
+            .iter()
+            .map(|(fmt, _)| *fmt)
+            .collect::<Vec<_>>(),
+        effective_scope,
+    );
 
     println!(
         "\n{}",
@@ -508,6 +536,21 @@ async fn run_single(
     );
 
     Ok(())
+}
+
+fn install_destination_label(formats: &[PluginFormat], scope: InstallScope) -> &'static str {
+    let has_app = formats.contains(&PluginFormat::App);
+    let has_plugin = formats
+        .iter()
+        .any(|fmt| matches!(fmt, PluginFormat::Au | PluginFormat::Vst3));
+
+    match (has_app, has_plugin, scope) {
+        (true, false, InstallScope::User) => "~/Applications/",
+        (true, false, InstallScope::System) => "/Applications/",
+        (false, true, InstallScope::User) => "~/Library/Audio/Plug-Ins/",
+        (false, true, InstallScope::System) => "/Library/Audio/Plug-Ins/",
+        _ => "format-specific destinations",
+    }
 }
 
 fn handle_managed_install(

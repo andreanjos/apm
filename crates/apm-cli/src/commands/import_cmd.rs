@@ -1,5 +1,5 @@
 // import command — import a plugin setup from a portable apm1:// string or
-// a legacy TOML/JSON export file. Shows a preview before proceeding.
+// a TOML/JSON export file. Shows a preview before proceeding.
 
 use std::path::Path;
 
@@ -16,7 +16,7 @@ use apm_core::state::InstallState;
 
 enum InputKind {
     PortableString(String),
-    LegacyFile(std::path::PathBuf),
+    File(std::path::PathBuf),
 }
 
 fn detect_input(input: &str) -> Result<InputKind> {
@@ -31,7 +31,7 @@ fn detect_input(input: &str) -> Result<InputKind> {
         if trimmed.starts_with("apm1://") {
             return Ok(InputKind::PortableString(trimmed.to_string()));
         }
-        return Ok(InputKind::LegacyFile(path.to_path_buf()));
+        return Ok(InputKind::File(path.to_path_buf()));
     }
     anyhow::bail!(
         "Input is not a valid apm1:// string or an existing file: {input}\n\
@@ -44,7 +44,7 @@ fn detect_input(input: &str) -> Result<InputKind> {
 pub async fn run(config: &Config, input: &str, dry_run: bool, yes: bool) -> Result<()> {
     match detect_input(input)? {
         InputKind::PortableString(s) => run_portable(config, &s, dry_run, yes).await,
-        InputKind::LegacyFile(path) => run_legacy(config, &path, dry_run).await,
+        InputKind::File(path) => run_file(config, &path, dry_run).await,
     }
 }
 
@@ -258,9 +258,9 @@ async fn run_portable(config: &Config, input: &str, dry_run: bool, yes: bool) ->
     Ok(())
 }
 
-// ── Legacy import path (TOML / JSON files) ──────────────────────────────────
+// ── File import path (TOML / JSON files) ────────────────────────────────────
 
-async fn run_legacy(config: &Config, file: &Path, dry_run: bool) -> Result<()> {
+async fn run_file(config: &Config, file: &Path, dry_run: bool) -> Result<()> {
     let doc = load_export_file(file)?;
 
     if doc.plugins.is_empty() {
@@ -323,7 +323,7 @@ async fn run_legacy(config: &Config, file: &Path, dry_run: bool) -> Result<()> {
     Ok(())
 }
 
-// ── Per-plugin logic (legacy path) ──────────────────────────────────────────
+// ── Per-plugin logic (file path) ────────────────────────────────────────────
 
 enum PluginOutcome {
     Installed,
@@ -407,7 +407,7 @@ async fn process_one(
     }
 }
 
-// ── File loading (legacy path) ──────────────────────────────────────────────
+// ── File loading ────────────────────────────────────────────────────────────
 
 /// Load and parse an export file, auto-detecting format by extension.
 fn load_export_file(path: &Path) -> Result<ExportDocument> {

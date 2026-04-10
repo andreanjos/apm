@@ -115,6 +115,7 @@ pub fn select_installed_bundle(
     let expected_ext = match format {
         PluginFormat::Au => "component",
         PluginFormat::Vst3 => "vst3",
+        PluginFormat::App => "app",
     };
 
     if let Some(found) = bundles.iter().find(|bundle| {

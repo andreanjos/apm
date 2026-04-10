@@ -56,17 +56,19 @@ apm info surge-xt                     # Plugin details
 
 ```sh
 apm install tal-noisemaker                    # Install (AU + VST3)
-apm install tal-noisemaker --format vst3      # VST3 only
+apm install tal-noisemaker --format vst3      # VST3 only (also supports au/app)
 apm install tal-noisemaker --version 4.3.2    # Specific version
 sudo apm install tal-noisemaker --system      # System-wide (/Library/)
-apm install --from-file plugins.toml          # Batch install from file
+apm install tal-noisemaker --from-file ~/Downloads/TAL-NoiseMaker.pkg
+printf "vital\nsurge-xt\n" | apm install --stdin
 apm install --dry-run surge-xt                # Preview without installing
 apm install massive-x                         # Opens Native Access when required
 
 apm remove tal-noisemaker                     # Remove a plugin
 ```
 
-Plugins install to `~/Library/Audio/Plug-Ins/` by default.
+Audio plugins install to `~/Library/Audio/Plug-Ins/` by default. App-format
+entries install to `~/Applications/` unless `--system` is used.
 
 Some commercial plugins are handled through vendor installer apps such as
 Native Access, Arturia Software Center, Waves Central, or UA Connect. For
@@ -101,9 +103,8 @@ apm import --yes apm1://...          # Skip confirmation (for scripts)
 ```
 
 The string encodes your installed plugins, versions, pins, registry sources,
-and preferences. `apm export --format toml` and `apm import list.json` are also
-available if you want file-based formats instead of the portable `apm1://...`
-string.
+and preferences. Use `apm export --format toml` or `--format json` when you
+need an editable file instead of the portable `apm1://...` string.
 
 ### System and diagnostics
 

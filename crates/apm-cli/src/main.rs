@@ -172,7 +172,7 @@ enum Commands {
         #[arg(long = "version", value_name = "VERSION")]
         install_version: Option<String>,
 
-        /// Install only this format: "au" or "vst3".
+        /// Install only this format: "au", "vst3", or "app".
         #[arg(long, short = 'f', value_name = "FORMAT")]
         format: Option<String>,
 
@@ -335,7 +335,7 @@ enum Commands {
 
     /// Export the list of installed plugins to a file or stdout.
     ///
-    /// Produces a portable setup string (apm1://) or legacy TOML/JSON file
+    /// Produces a portable setup string (apm1://) or TOML/JSON file
     /// listing every plugin currently tracked by apm. Use this to migrate your
     /// setup to another machine with `apm import`.
     Export {
@@ -343,7 +343,7 @@ enum Commands {
         #[arg(long, short = 'o', value_name = "FILE")]
         output: Option<PathBuf>,
 
-        /// Output format: "portable" (default), "toml" (legacy), or "json" (legacy).
+        /// Output format: "portable" (default), "toml", or "json".
         #[arg(long, default_value = "portable", value_name = "FORMAT")]
         format: String,
     },
@@ -351,7 +351,7 @@ enum Commands {
     /// Import a plugin setup from a portable string or file.
     ///
     /// Accepts an `apm1://` portable string directly, a path to an `.apmsetup`
-    /// file containing such a string, or a legacy TOML/JSON export file.
+    /// file containing such a string, or a TOML/JSON export file.
     /// Shows a preview of changes before proceeding.
     Import {
         /// Portable setup string (apm1://...) or path to export file.
@@ -687,10 +687,11 @@ async fn run() -> Result<()> {
             let plugin_format = match format.as_deref() {
                 Some("au") => Some(apm_core::registry::PluginFormat::Au),
                 Some("vst3") => Some(apm_core::registry::PluginFormat::Vst3),
+                Some("app") => Some(apm_core::registry::PluginFormat::App),
                 Some(other) => {
                     anyhow::bail!(
-                        "Unknown format '{other}'. Valid values are: au, vst3.\n\
-                         Hint: Use `--format au` or `--format vst3`, or omit the flag to \
+                        "Unknown format '{other}'. Valid values are: au, vst3, app.\n\
+                         Hint: Use `--format au`, `--format vst3`, or omit the flag to \
                          install all available formats."
                     )
                 }

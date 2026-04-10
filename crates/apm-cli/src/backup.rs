@@ -172,6 +172,9 @@ pub fn restore_plugin(slug: &str, config: &Config, state: &mut InstallState) -> 
             let dest_dir = match ext {
                 "component" => apm_core::config::user_au_dir(),
                 "vst3" => apm_core::config::user_vst3_dir(),
+                "app" => dirs::home_dir()
+                    .map(|home| home.join("Applications"))
+                    .unwrap_or_else(|| std::path::PathBuf::from("/Applications")),
                 _ => continue,
             };
 
@@ -201,6 +204,8 @@ pub fn restore_plugin(slug: &str, config: &Config, state: &mut InstallState) -> 
 
             let format = if fmt_str == "au" || fmt_str == "component" {
                 apm_core::registry::PluginFormat::Au
+            } else if fmt_str == "app" {
+                apm_core::registry::PluginFormat::App
             } else {
                 apm_core::registry::PluginFormat::Vst3
             };

@@ -210,5 +210,6 @@ fn bundle_extension(format: PluginFormat) -> &'static str {
     match format {
         PluginFormat::Au => "component",
         PluginFormat::Vst3 => "vst3",
+        PluginFormat::App => "app",
     }
 }
