@@ -20,27 +20,6 @@ Or build from source (requires Rust 1.70+):
 cargo install --path crates/apm-cli
 ```
 
-Enable shell completions (optional):
-
-```sh
-# Bash
-apm completions bash > ~/.local/share/bash-completion/completions/apm
-
-# Zsh
-apm completions zsh > ~/.zfunc/_apm
-
-# Fish
-apm completions fish > ~/.config/fish/completions/apm.fish
-```
-
-Add the Claude Code skill (optional):
-
-```sh
-cp -r .claude/skills/apm ~/.claude/skills/
-```
-
-Then use `/apm search reverb` or `/apm install surge-xt` directly in Claude Code.
-
 ## Quick start
 
 ```sh
@@ -74,11 +53,17 @@ apm install tal-noisemaker --version 4.3.2    # Specific version
 sudo apm install tal-noisemaker --system      # System-wide (/Library/)
 apm install --from-file plugins.toml          # Batch install from file
 apm install --dry-run surge-xt                # Preview without installing
+apm install massive-x                         # Opens Native Access when required
 
 apm remove tal-noisemaker                     # Remove a plugin
 ```
 
 Plugins install to `~/Library/Audio/Plug-Ins/` by default.
+
+Some commercial plugins are handled through vendor installer apps such as
+Native Access, Arturia Software Center, Waves Central, or UA Connect. For
+those entries, `apm install <plugin>` opens the required vendor manager or its
+download page instead of trying to fetch the archive directly.
 
 ### Updates and versioning
 
@@ -101,7 +86,7 @@ or a terminal on another machine:
 apm export                          # Outputs apm1://... string to stdout
 apm export -o setup.apmsetup        # Save to file instead
 
-apm import apm1://dGFsLW5v...       # Import from string (preview + confirm)
+apm import apm1://dGFsLW5v...        # Import from string (preview + confirm)
 apm import setup.apmsetup            # Import from file
 apm import --dry-run apm1://...      # Preview what would change
 apm import --yes apm1://...          # Skip confirmation (for scripts)
@@ -131,14 +116,33 @@ apm sources add https://github.com/your-org/apm-registry --name my-registry
 apm sources remove my-registry
 ```
 
+## Optional setup
+
+### Shell completions
+
+```sh
+# Bash
+apm completions bash > ~/.local/share/bash-completion/completions/apm
+
+# Zsh
+apm completions zsh > ~/.zfunc/_apm
+
+# Fish
+apm completions fish > ~/.config/fish/completions/apm.fish
+```
+
+### Claude Code skill
+
+```sh
+cp -r .claude/skills/apm ~/.claude/skills/
+```
+
+Then use `/apm search reverb` or `/apm install surge-xt` directly in Claude Code.
+
 ## Registry format
 
 Plugin definitions are TOML files in `registry/plugins/<vendor>/`. Each file
 describes one plugin and its download locations per format.
-
-The current vendor-organized layout is the authoring format. The long-term
-registry plan for scale, indexing, and signing is documented in
-[`docs/registry-architecture.md`](docs/registry-architecture.md).
 
 ```toml
 slug        = "valhalla-supermassive"
