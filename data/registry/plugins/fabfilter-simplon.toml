@@ -8,6 +8,7 @@ subcategory = "filter"
 license = "commercial"
 tags = []
 homepage = "https://www.fabfilter.com/products/simplon-basic-filter-plug-in"
+bundle_ids = ["com.fabfilter.Simplon"]
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/930-FabFilter-Simplon?a_aid=69d5e87c5f2e9"
 

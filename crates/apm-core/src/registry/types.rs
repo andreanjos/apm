@@ -162,6 +162,14 @@ pub struct PluginDefinition {
     #[serde(default)]
     pub purchase_url: Option<String>,
 
+    /// Known macOS `CFBundleIdentifier` patterns for matching scanned plugins.
+    ///
+    /// Each entry is a prefix that will be matched against the scanned plugin's
+    /// bundle identifier. For example, `"com.fabfilter.Pro-Q"` matches both
+    /// `com.fabfilter.Pro-Q.AU.4` and `com.fabfilter.Pro-Q.Vst3.4`.
+    #[serde(default)]
+    pub bundle_ids: Vec<String>,
+
     /// Whether this plugin requires purchase through apm-server.
     #[serde(default)]
     pub is_paid: bool,
@@ -287,6 +295,7 @@ mod tests {
             releases,
             homepage: None,
             purchase_url: None,
+            bundle_ids: vec![],
             is_paid: false,
             price_cents: None,
             currency: None,

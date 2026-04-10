@@ -8,6 +8,7 @@ subcategory = "phaser"
 license = "commercial"
 tags = []
 homepage = "https://www.soundtoys.com/product/phasemistress/"
+bundle_ids = ["com.soundtoys.audiounit.PhaseMistress"]
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/1808-PhaseMistress?a_aid=69d5e87c5f2e9"
 

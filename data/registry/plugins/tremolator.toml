@@ -8,6 +8,7 @@ subcategory = "tremolo"
 license = "commercial"
 tags = []
 homepage = "https://www.soundtoys.com/product/tremolator/"
+bundle_ids = ["com.soundtoys.audiounit.Tremolator"]
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/40-Tremolo/1810-Tremolator?a_aid=69d5e87c5f2e9"
 

@@ -7,6 +7,7 @@ category = "effects"
 license = "commercial"
 tags = []
 homepage = "https://www.soundtoys.com/product/little-plate/"
+bundle_ids = ["com.soundtoys.audiounit.LittlePlate"]
 is_paid = true
 
 [formats.vst3]

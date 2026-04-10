@@ -7,6 +7,7 @@ category = "effects"
 license = "commercial"
 tags = []
 homepage = "https://www.xlnaudio.com/products/plugins/ds-10_drum_shaper"
+bundle_ids = ["com.xlnaudio.ds10drumshaper"]
 is_paid = true
 
 [formats.vst3]

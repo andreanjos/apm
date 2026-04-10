@@ -8,6 +8,7 @@ subcategory = "percussion"
 license = "commercial"
 tags = []
 homepage = "https://www.xlnaudio.com/products/plugins/xo"
+bundle_ids = ["com.xlnaudio.xo"]
 is_paid = true
 
 [formats.vst3]

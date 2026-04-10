@@ -8,6 +8,7 @@ subcategory = "compressor"
 license = "commercial"
 tags = []
 homepage = "https://www.soundtoys.com/product/devil-loc/"
+bundle_ids = ["com.soundtoys.audiounit.DevilLoc"]
 is_paid = true
 
 [formats.vst3]

@@ -8,6 +8,7 @@ subcategory = "lo-fi"
 license = "commercial"
 tags = []
 homepage = "https://www.xlnaudio.com/products/plugins/rc-20_retro_color"
+bundle_ids = ["com.xlnaudio.rc20retrocolor"]
 is_paid = true
 
 [formats.vst3]

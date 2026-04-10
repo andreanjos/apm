@@ -8,6 +8,7 @@ subcategory = "vocal processing"
 license = "commercial"
 tags = []
 homepage = "https://www.soundtoys.com/product/little-alterboy/"
+bundle_ids = ["com.soundtoys.audiounit.LittleAlterBoy"]
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/1807-Little-AlterBoy?a_aid=69d5e87c5f2e9"
 

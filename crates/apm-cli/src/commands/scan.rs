@@ -3,6 +3,8 @@ use colored::Colorize;
 use serde::Serialize;
 
 use apm_core::config::Config;
+use apm_core::registry;
+use apm_core::registry::matcher;
 use apm_core::scanner::{self, PluginFormat};
 use apm_core::state::InstallState;
 
@@ -22,6 +24,10 @@ struct ScannedPluginJson {
     format: String,
     path: String,
     managed_by_apm: bool,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    registry_slug: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    match_method: Option<String>,
 }
 
 pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) -> Result<()> {
@@ -31,7 +37,7 @@ pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) ->
         if json {
             println!("[]");
         } else {
-            println!("No audio plugins found in standard directories.");
+            println!("No audio plugins found in configured directories.");
         }
         return Ok(());
     }
@@ -40,11 +46,13 @@ pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) ->
     // A missing or unreadable state file is treated as empty (no managed plugins).
     let state = InstallState::load(config).unwrap_or_default();
 
+    // Load registry for matching scanned plugins to known products.
+    let reg = registry::Registry::load_all_sources(config).ok();
+
     // Helper: determine whether a scanned plugin is managed by apm.
     let is_managed = |p: &scanner::ScannedPlugin| -> bool {
         state.plugins.iter().any(|sp| {
-            sp.formats.iter().any(|f| f.path == p.path)
-                || sp.name.eq_ignore_ascii_case(&p.name)
+            sp.formats.iter().any(|f| f.path == p.path) || sp.name.eq_ignore_ascii_case(&p.name)
         })
     };
 
@@ -73,6 +81,7 @@ pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) ->
         let results: Vec<ScannedPluginJson> = plugins
             .iter()
             .map(|p| {
+                let m = reg.as_ref().and_then(|r| matcher::match_plugin(p, r));
                 ScannedPluginJson {
                     name: p.name.clone(),
                     version: p.version.clone(),
@@ -80,6 +89,12 @@ pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) ->
                     format: p.format.to_string(),
                     path: p.path.to_string_lossy().into_owned(),
                     managed_by_apm: is_managed(p),
+                    registry_slug: m.as_ref().map(|m| m.registry_plugin.slug.clone()),
+                    match_method: m.as_ref().map(|m| match m.method {
+                        matcher::MatchMethod::BundleId => "bundle_id".to_string(),
+                        matcher::MatchMethod::NameAndVendor => "name_vendor".to_string(),
+                        matcher::MatchMethod::NameOnly => "name_only".to_string(),
+                    }),
                 }
             })
             .collect();
@@ -189,4 +204,3 @@ pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) ->
 
     Ok(())
 }
-

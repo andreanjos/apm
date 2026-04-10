@@ -8,6 +8,7 @@ subcategory = "delay"
 license = "commercial"
 tags = []
 homepage = "https://www.soundtoys.com/product/little-microshift/"
+bundle_ids = ["com.soundtoys.audiounit.LittleMicroShift"]
 is_paid = true
 
 [formats.vst3]

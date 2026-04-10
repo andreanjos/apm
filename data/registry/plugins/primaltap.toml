@@ -8,6 +8,7 @@ subcategory = "delay"
 license = "commercial"
 tags = []
 homepage = "https://www.soundtoys.com/product/primaltap/"
+bundle_ids = ["com.soundtoys.audiounit.PrimalTap"]
 is_paid = true
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/1857-PrimalTap?a_aid=69d5e87c5f2e9"
 

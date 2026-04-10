@@ -8,6 +8,7 @@ subcategory = "kontakt full"
 license = "commercial"
 tags = []
 homepage = "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/"
+bundle_ids = ["com.native-instruments.kontakt-8", "Kontakt 5.MusicDevice"]
 is_paid = true
 
 [formats.vst3]

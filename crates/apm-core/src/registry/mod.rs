@@ -1,3 +1,4 @@
+pub mod matcher;
 pub mod search;
 pub mod sync;
 pub mod types;
@@ -237,6 +238,11 @@ impl Registry {
             .find(|plugin| plugin.slug.to_lowercase() == lower)
     }
 
+    /// Returns all plugin definitions as a slice-like iterator.
+    pub fn all(&self) -> Vec<&PluginDefinition> {
+        self.plugins.values().collect()
+    }
+
     /// Total number of plugins in this registry.
     pub fn len(&self) -> usize {
         self.plugins.len()
@@ -371,6 +377,7 @@ install_type = "zip"
                 releases: vec![],
                 homepage: None,
                 purchase_url: None,
+                bundle_ids: vec![],
                 is_paid: false,
                 price_cents: None,
                 currency: None,

@@ -51,10 +51,7 @@ pub fn search<'r>(
 
             // Tag filter — plugin must have a tag matching (case-insensitive).
             if let Some(ref tg) = tag_lower {
-                let tag_match = p
-                    .tags
-                    .iter()
-                    .any(|t| t.to_lowercase() == *tg);
+                let tag_match = p.tags.iter().any(|t| t.to_lowercase() == *tg);
                 if !tag_match {
                     return false;
                 }
@@ -152,6 +149,7 @@ mod tests {
             releases: Vec::new(),
             homepage: None,
             purchase_url: None,
+            bundle_ids: vec![],
             is_paid: false,
             price_cents: None,
             currency: None,
@@ -460,11 +458,7 @@ mod tests {
 
         // Tag filter is case-insensitive.
         let results = search(&registry, "", None, None, Some("Open-Source"));
-        assert_eq!(
-            results.len(),
-            2,
-            "Tag filter should be case-insensitive"
-        );
+        assert_eq!(results.len(), 2, "Tag filter should be case-insensitive");
 
         // Tag filter combined with query.
         let results = search(&registry, "surge", None, None, Some("wavetable"));

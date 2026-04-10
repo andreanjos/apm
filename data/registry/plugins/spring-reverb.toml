@@ -7,6 +7,7 @@ category = "effects"
 license = "commercial"
 tags = []
 homepage = "https://www.softube.com/us/plug-ins/mixing/spring-reverb"
+bundle_ids = ["com.local.springreverb"]
 is_paid = true
 
 [formats.vst3]
