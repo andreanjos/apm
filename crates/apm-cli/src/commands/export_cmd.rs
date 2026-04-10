@@ -3,7 +3,7 @@
 
 use std::path::PathBuf;
 
-use anyhow::{Context, Result};
+use anyhow::{bail, Context, Result};
 use serde::{Deserialize, Serialize};
 
 use apm_core::config::Config;
@@ -36,7 +36,8 @@ pub async fn run(config: &Config, output: Option<&PathBuf>, format: &str) -> Res
     match format {
         "portable" => run_portable(config, &state, output),
         "json" => run_legacy(config, &state, output, format),
-        _ => run_legacy(config, &state, output, format), // "toml" or anything else
+        "toml" => run_legacy(config, &state, output, format),
+        other => bail!("Unknown export format '{other}'. Valid values are: portable, json, toml."),
     }
 }
 

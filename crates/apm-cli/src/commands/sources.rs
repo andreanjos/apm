@@ -1,8 +1,22 @@
 use anyhow::Result;
+use serde::Serialize;
 
 use apm_core::config::{Config, SourceEntry};
 
-pub async fn run_add(config: &Config, url: &str, name: Option<&str>) -> Result<()> {
+#[derive(Serialize)]
+struct SourceJson {
+    name: String,
+    url: String,
+    #[serde(rename = "type")]
+    source_type: &'static str,
+}
+
+#[derive(Serialize)]
+struct SourcesListJson {
+    sources: Vec<SourceJson>,
+}
+
+pub async fn run_add(config: &Config, url: &str, name: Option<&str>, json: bool) -> Result<()> {
     // Derive a name from the URL if not provided.
     let source_name = match name {
         Some(n) => n.to_string(),
@@ -41,12 +55,21 @@ pub async fn run_add(config: &Config, url: &str, name: Option<&str>) -> Result<(
     });
     updated.save()?;
 
-    println!("Added registry source '{source_name}' ({url}).");
-    println!("Run `apm sync` to download plugins from this registry.");
+    if json {
+        let output = serde_json::json!({
+            "added": true,
+            "name": source_name,
+            "url": url,
+        });
+        println!("{}", serde_json::to_string_pretty(&output)?);
+    } else {
+        println!("Added registry source '{source_name}' ({url}).");
+        println!("Run `apm sync` to download plugins from this registry.");
+    }
     Ok(())
 }
 
-pub async fn run_remove(config: &Config, name: &str) -> Result<()> {
+pub async fn run_remove(config: &Config, name: &str, json: bool) -> Result<()> {
     if name == "official" {
         anyhow::bail!(
             "Cannot remove the default registry source 'official'.\n\
@@ -68,12 +91,35 @@ pub async fn run_remove(config: &Config, name: &str) -> Result<()> {
     }
 
     updated.save()?;
-    println!("Removed registry source '{name}'.");
+    if json {
+        let output = serde_json::json!({
+            "removed": true,
+            "name": name,
+        });
+        println!("{}", serde_json::to_string_pretty(&output)?);
+    } else {
+        println!("Removed registry source '{name}'.");
+    }
     Ok(())
 }
 
-pub async fn run_list(config: &Config) -> Result<()> {
+pub async fn run_list(config: &Config, json: bool) -> Result<()> {
     let sources = config.sources();
+
+    if json {
+        let output = SourcesListJson {
+            sources: sources
+                .iter()
+                .map(|source| SourceJson {
+                    name: source.name.clone(),
+                    url: source.url.clone(),
+                    source_type: if source.is_default { "default" } else { "user" },
+                })
+                .collect(),
+        };
+        println!("{}", serde_json::to_string_pretty(&output)?);
+        return Ok(());
+    }
 
     if sources.is_empty() {
         println!("No registry sources configured.");

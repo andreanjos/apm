@@ -31,6 +31,14 @@ struct UnpinResultJson {
     plugin: String,
 }
 
+#[derive(Serialize)]
+struct PinMissingJson {
+    plugin: String,
+    installed: bool,
+    changed: bool,
+    reason: String,
+}
+
 pub async fn run(
     config: &Config,
     name: Option<&str>,
@@ -112,10 +120,20 @@ pub async fn run(
     let plugin = match state.find(plugin_name) {
         Some(p) => p.clone(),
         None => {
-            println!(
-                "Plugin '{}' is not installed. Install it first with `apm install {}`.",
-                plugin_name, plugin_name
-            );
+            if json {
+                let result = PinMissingJson {
+                    plugin: plugin_name.to_string(),
+                    installed: false,
+                    changed: false,
+                    reason: "not installed".to_string(),
+                };
+                println!("{}", serde_json::to_string_pretty(&result)?);
+            } else {
+                println!(
+                    "Plugin '{}' is not installed. Install it first with `apm install {}`.",
+                    plugin_name, plugin_name
+                );
+            }
             return Ok(());
         }
     };

@@ -142,7 +142,7 @@ async fn run_portable(config: &Config, input: &str, dry_run: bool, yes: bool) ->
     let mut state = InstallState::load(config)?;
 
     let mut installed = 0usize;
-    let skipped = 0usize;
+    let skipped = preview.to_skip_same.len() + preview.to_skip_newer.len();
     let mut failed = 0usize;
 
     for (slug, version, _pinned) in &preview.to_install {

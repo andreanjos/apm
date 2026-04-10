@@ -93,8 +93,9 @@ pub async fn run(config: &Config, json: bool, managed: bool, unmanaged: bool) ->
             .and_then(|r| matcher::match_plugin(p, r, bid_store.as_ref()));
 
         if let Some(ref pm) = m {
-            // Auto-learn: if matched by name/vendor, record the bundle ID for next time
-            if pm.method != matcher::MatchMethod::BundleId {
+            // Auto-learn for interactive scans. JSON mode stays read-only so
+            // scripts can inspect plugin state without changing local cache data.
+            if !json && pm.method != matcher::MatchMethod::BundleId {
                 if let Some(ref mut store) = bid_store {
                     if matcher::auto_learn(p, &pm.registry_plugin.slug, store) {
                         learned += 1;

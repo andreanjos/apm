@@ -177,7 +177,7 @@ enum Commands {
         format: Option<String>,
 
         /// Install to the system directory (/Library/Audio/Plug-Ins/).
-        /// Requires sudo. Default is user-scope (~/.Library/Audio/Plug-Ins/).
+        /// Requires sudo. Default is user-scope (~/Library/Audio/Plug-Ins/).
         #[arg(long)]
         system: bool,
 
@@ -742,10 +742,12 @@ async fn run() -> Result<()> {
 
         Commands::Sources(sub) => match sub {
             SourcesCommands::Add { url, name } => {
-                commands::sources::run_add(&config, url, name.as_deref()).await
+                commands::sources::run_add(&config, url, name.as_deref(), json).await
             }
-            SourcesCommands::Remove { name } => commands::sources::run_remove(&config, name).await,
-            SourcesCommands::List => commands::sources::run_list(&config).await,
+            SourcesCommands::Remove { name } => {
+                commands::sources::run_remove(&config, name, json).await
+            }
+            SourcesCommands::List => commands::sources::run_list(&config, json).await,
         },
 
         Commands::Completions { shell } => commands::completions::run(shell),

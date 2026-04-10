@@ -20,8 +20,12 @@ use crate::utils::display_path;
 #[derive(Serialize)]
 struct CheckReport {
     plugin: String,
-    version: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    version: Option<String>,
     healthy: bool,
+    installed: bool,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    reason: Option<String>,
     formats: Vec<FormatReport>,
 }
 
@@ -41,6 +45,18 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
     let plugin = match state.find(name) {
         Some(p) => p,
         None => {
+            if json {
+                let report = CheckReport {
+                    plugin: name.to_string(),
+                    version: None,
+                    healthy: false,
+                    installed: false,
+                    reason: Some("not installed".to_string()),
+                    formats: vec![],
+                };
+                println!("{}", serde_json::to_string_pretty(&report)?);
+                return Ok(());
+            }
             bail!(
                 "Plugin '{name}' is not installed (not tracked in apm state).\n\
                  Hint: Run `apm scan` to discover plugins on disk, or \
@@ -81,8 +97,10 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
     if json {
         let report = CheckReport {
             plugin: plugin.name.clone(),
-            version: plugin.version.clone(),
+            version: Some(plugin.version.clone()),
             healthy,
+            installed: true,
+            reason: None,
             formats: format_reports,
         };
         println!("{}", serde_json::to_string_pretty(&report)?);
