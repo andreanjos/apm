@@ -92,6 +92,16 @@ impl Registry {
         }
 
         debug!("Loaded {} plugins from cache", registry.plugins.len());
+
+        // Load shared bundle ID mappings from the registry repo.
+        // These are crowdsourced from user scans and committed to the registry.
+        let bundle_ids_path = cache_dir.join("bundle_ids.toml");
+        if bundle_ids_path.exists() {
+            if let Ok(content) = std::fs::read_to_string(&bundle_ids_path) {
+                registry.apply_shared_bundle_ids(&content);
+            }
+        }
+
         Ok(registry)
     }
 
@@ -236,6 +246,41 @@ impl Registry {
         source
             .values()
             .find(|plugin| plugin.slug.to_lowercase() == lower)
+    }
+
+    /// Apply shared bundle ID mappings from a `bundle_ids.toml` file.
+    ///
+    /// Format:
+    /// ```toml
+    /// [mappings]
+    /// "com.fabfilter.Pro-Q" = "pro-q3"
+    /// "com.soundtoys.audiounit.EchoBoy" = "echoboy"
+    /// ```
+    fn apply_shared_bundle_ids(&mut self, content: &str) {
+        #[derive(serde::Deserialize)]
+        struct SharedBundleIds {
+            #[serde(default)]
+            mappings: std::collections::HashMap<String, String>,
+        }
+
+        let shared: SharedBundleIds = match toml::from_str(content) {
+            Ok(s) => s,
+            Err(e) => {
+                tracing::warn!("Failed to parse bundle_ids.toml: {e}");
+                return;
+            }
+        };
+
+        let mut applied = 0usize;
+        for (bundle_id_prefix, slug) in &shared.mappings {
+            if let Some(plugin) = self.plugins.get_mut(slug) {
+                if !plugin.bundle_ids.contains(bundle_id_prefix) {
+                    plugin.bundle_ids.push(bundle_id_prefix.clone());
+                    applied += 1;
+                }
+            }
+        }
+        debug!("Applied {applied} shared bundle ID mappings");
     }
 
     /// Returns all plugin definitions as a slice-like iterator.
