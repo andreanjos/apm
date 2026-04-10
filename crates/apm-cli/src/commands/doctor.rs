@@ -7,8 +7,11 @@ use anyhow::Result;
 use colored::Colorize;
 use serde::Serialize;
 
+use apm_core::bundle_id_store::BundleIdStore;
 use apm_core::config::{self, Config};
+use apm_core::registry::matcher;
 use apm_core::registry::Registry;
+use apm_core::scanner;
 use apm_core::state::InstallState;
 
 use crate::utils::display_path;
@@ -209,6 +212,13 @@ pub fn run(config: &Config, json: bool) -> Result<()> {
     }
     tally(&registry_check.status, &mut failures, &mut warnings);
     all_checks.push(registry_check);
+
+    let installers_check = check_vendor_installers(config);
+    if !json {
+        print_check(&installers_check);
+    }
+    tally(&installers_check.status, &mut failures, &mut warnings);
+    all_checks.push(installers_check);
 
     // ── Registry freshness ────────────────────────────────────────────────────
 
@@ -641,6 +651,89 @@ fn check_registry_cache(config: &Config) -> Check {
     }
 }
 
+fn check_vendor_installers(config: &Config) -> Check {
+    let registry =
+        match Registry::load_all_sources(config) {
+            Ok(registry) if registry.is_empty() => return Check::warn(
+                "Vendor installers",
+                "registry unavailable for installer matching",
+                "Run `apm sync` so doctor can detect vendor manager apps for installed plugins.",
+            ),
+            Ok(registry) => registry,
+            Err(error) => return Check::warn(
+                "Vendor installers",
+                format!("registry unavailable: {error}"),
+                "Run `apm sync` so doctor can detect vendor manager apps for installed plugins.",
+            ),
+        };
+
+    let scanned = scanner::scan_plugins(config);
+    if scanned.is_empty() {
+        return Check::ok(
+            "Vendor installers",
+            "no installed plugins found to evaluate",
+        );
+    }
+
+    let bundle_store = BundleIdStore::open(config).ok();
+    let mut relevant_keys = std::collections::BTreeSet::new();
+
+    for plugin in &scanned {
+        let matched = matcher::match_plugin(plugin, &registry, bundle_store.as_ref());
+        if let Some(matched) = matched {
+            if let Some(key) = matched.registry_plugin.installer.as_deref() {
+                relevant_keys.insert(key.to_string());
+            }
+        }
+    }
+
+    if relevant_keys.is_empty() {
+        return Check::ok(
+            "Vendor installers",
+            "no vendor-managed plugins detected in the current library",
+        );
+    }
+
+    let mut installed = Vec::new();
+    let mut missing = Vec::new();
+    let mut unknown = Vec::new();
+
+    for key in relevant_keys {
+        let Some(installer) = registry.find_installer(&key) else {
+            unknown.push(key);
+            continue;
+        };
+
+        if installer.app_paths.iter().any(|path| path.exists()) {
+            installed.push(installer.name.clone());
+        } else {
+            missing.push(installer.name.clone());
+        }
+    }
+
+    let mut detail_parts = Vec::new();
+    if !installed.is_empty() {
+        detail_parts.push(format!("installed: {}", installed.join(", ")));
+    }
+    if !missing.is_empty() {
+        detail_parts.push(format!("missing: {}", missing.join(", ")));
+    }
+    if !unknown.is_empty() {
+        detail_parts.push(format!("unknown registry keys: {}", unknown.join(", ")));
+    }
+    let detail = detail_parts.join(" | ");
+
+    if missing.is_empty() && unknown.is_empty() {
+        Check::ok("Vendor installers", detail)
+    } else {
+        Check::warn(
+            "Vendor installers",
+            detail,
+            "Install the missing vendor manager apps, then rerun `apm doctor` or `apm install <plugin>`.",
+        )
+    }
+}
+
 /// Check that the registry cache is not stale (>30 days since last sync).
 ///
 /// Examines the mtime of the "official" source directory under the registries
@@ -680,9 +773,7 @@ fn check_registry_freshness(config: &Config) -> Check {
         }
     };
 
-    let age = SystemTime::now()
-        .duration_since(mtime)
-        .unwrap_or_default();
+    let age = SystemTime::now().duration_since(mtime).unwrap_or_default();
     let age_days = age.as_secs() / 86400;
 
     if age_days > 30 {
@@ -694,7 +785,11 @@ fn check_registry_freshness(config: &Config) -> Check {
     } else {
         Check::ok(
             "Registry freshness",
-            format!("synced {} day{} ago", age_days, if age_days == 1 { "" } else { "s" }),
+            format!(
+                "synced {} day{} ago",
+                age_days,
+                if age_days == 1 { "" } else { "s" }
+            ),
         )
     }
 }
@@ -749,12 +844,7 @@ fn check_orphaned_state_entries(config: &Config) -> Check {
         }
     }
 
-    let preview = lines
-        .iter()
-        .take(5)
-        .cloned()
-        .collect::<Vec<_>>()
-        .join(", ");
+    let preview = lines.iter().take(5).cloned().collect::<Vec<_>>().join(", ");
     let suffix = if lines.len() > 5 {
         format!(" (+{} more)", lines.len() - 5)
     } else {

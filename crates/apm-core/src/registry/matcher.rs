@@ -157,9 +157,17 @@ fn strip_trailing_version(s: &str) -> String {
     // Match patterns like " 2", " v3", " V4.1.2", " 3.0"
     if let Some(last_space) = s.rfind(' ') {
         let suffix = &s[last_space + 1..];
-        let suffix_stripped = suffix.strip_prefix('v').or(suffix.strip_prefix('V')).unwrap_or(suffix);
-        if suffix_stripped.chars().next().is_some_and(|c| c.is_ascii_digit())
-            && suffix_stripped.chars().all(|c| c.is_ascii_digit() || c == '.')
+        let suffix_stripped = suffix
+            .strip_prefix('v')
+            .or(suffix.strip_prefix('V'))
+            .unwrap_or(suffix);
+        if suffix_stripped
+            .chars()
+            .next()
+            .is_some_and(|c| c.is_ascii_digit())
+            && suffix_stripped
+                .chars()
+                .all(|c| c.is_ascii_digit() || c == '.')
         {
             return s[..last_space].to_string();
         }
@@ -175,7 +183,13 @@ pub fn extract_bundle_id_prefix(bundle_id: &str) -> String {
     let mut bid = bundle_id.to_string();
     // Remove trailing format+version like .AU.4, .Vst3.2, .MusicDevice.component
     let format_patterns = [
-        ".AU.", ".Vst3.", ".VST3.", ".AAX.", ".MusicDevice.", ".MusicEffect.", ".audiounit.",
+        ".AU.",
+        ".Vst3.",
+        ".VST3.",
+        ".AAX.",
+        ".MusicDevice.",
+        ".MusicEffect.",
+        ".audiounit.",
     ];
     for pat in &format_patterns {
         if let Some(pos) = bid.find(pat) {
@@ -195,11 +209,7 @@ pub fn extract_bundle_id_prefix(bundle_id: &str) -> String {
 
 /// Auto-learn: given a scanned plugin that was matched by name/vendor,
 /// record its bundle ID prefix in the local store for future fast matching.
-pub fn auto_learn(
-    scanned: &ScannedPlugin,
-    matched_slug: &str,
-    store: &mut BundleIdStore,
-) -> bool {
+pub fn auto_learn(scanned: &ScannedPlugin, matched_slug: &str, store: &mut BundleIdStore) -> bool {
     if scanned.bundle_id.is_empty() {
         return false;
     }

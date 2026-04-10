@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "reverb"
 license     = "commercial"
 tags        = ["reverb", "chamber", "capitol", "vintage", "classic", "uad"]
+installer   = "ua-connect"
 homepage    = "https://www.uaudio.com/uad-plugins/reverbs/capitol-chambers.html"
 
 [formats.vst3]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Capitol Chambers.vst3"
 
 [formats.au]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Capitol Chambers.component"

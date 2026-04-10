@@ -25,12 +25,22 @@ enum InstallType {
     Zip,
 }
 
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "lowercase")]
+enum DownloadType {
+    Direct,
+    Manual,
+    Managed,
+}
+
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct FormatSource {
     url: String,
     sha256: String,
     install_type: InstallType,
     bundle_path: Option<String>,
+    #[serde(default)]
+    download_type: Option<DownloadType>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -51,6 +61,8 @@ struct PluginDefinition {
     license: String,
     #[serde(default)]
     tags: Vec<String>,
+    #[serde(default)]
+    installer: Option<String>,
     formats: HashMap<PluginFormat, FormatSource>,
     #[serde(default)]
     releases: Vec<PluginRelease>,

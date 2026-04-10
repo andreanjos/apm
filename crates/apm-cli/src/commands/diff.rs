@@ -175,11 +175,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
     // Outdated.
     if !outdated.is_empty() {
-        let col_name = outdated
-            .iter()
-            .map(|e| e.name.len())
-            .max()
-            .unwrap_or(0);
+        let col_name = outdated.iter().map(|e| e.name.len()).max().unwrap_or(0);
         let col_inst = outdated
             .iter()
             .map(|e| e.installed.len())

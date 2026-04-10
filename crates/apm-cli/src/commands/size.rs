@@ -125,11 +125,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     println!("\n  {}\n", "Plugin disk usage:".bold());
 
     // Determine the widest plugin name for alignment.
-    let max_name_len = plugin_sizes
-        .iter()
-        .map(|p| p.name.len())
-        .max()
-        .unwrap_or(0);
+    let max_name_len = plugin_sizes.iter().map(|p| p.name.len()).max().unwrap_or(0);
 
     for p in &plugin_sizes {
         let name_padded = format!("{:<width$}", p.name, width = max_name_len);
@@ -142,10 +138,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
             .collect::<Vec<_>>()
             .join(", ");
 
-        println!(
-            "    {name_padded}  {:>10}  ({breakdown})",
-            total_str
-        );
+        println!("    {name_padded}  {:>10}  ({breakdown})", total_str);
     }
 
     let plugin_suffix = if plugin_sizes.len() == 1 {

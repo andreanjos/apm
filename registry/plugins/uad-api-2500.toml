@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "compressor"
 license     = "commercial"
 tags        = ["compressor", "bus", "api", "punch", "mixing", "uad"]
+installer   = "ua-connect"
 homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/api-2500-bus-compressor.html"
 
 [formats.vst3]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD API 2500.vst3"
 
 [formats.au]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD API 2500.component"

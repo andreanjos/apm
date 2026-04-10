@@ -11,7 +11,7 @@ use colored::Colorize;
 
 use apm_core::config::{Config, InstallScope};
 use apm_core::error::ApmError;
-use apm_core::registry::{DownloadType, PluginFormat, Registry};
+use apm_core::registry::{DownloadType, InstallerDefinition, PluginFormat, Registry};
 use apm_core::state::InstallState;
 
 #[allow(clippy::too_many_arguments)]
@@ -283,6 +283,22 @@ async fn run_single(
     selected_plugin.version = selected_release.version;
     selected_plugin.formats = selected_release.formats;
 
+    let mut formats_to_check: Vec<_> = match format {
+        Some(fmt) => {
+            if let Some(src) = selected_plugin.formats.get(&fmt) {
+                vec![(fmt, src)]
+            } else {
+                vec![]
+            }
+        }
+        None => selected_plugin
+            .formats
+            .iter()
+            .map(|(&f, s)| (f, s))
+            .collect(),
+    };
+    formats_to_check.sort_by_key(|(f, _)| f.to_string());
+
     // ── Check if already installed ────────────────────────────────────────────
 
     let mut state = InstallState::load(config)?;
@@ -311,25 +327,25 @@ async fn run_single(
         }
     }
 
+    let is_managed = formats_to_check
+        .iter()
+        .any(|(_, src)| src.download_type == DownloadType::Managed);
+    if is_managed {
+        if dry_run {
+            return print_managed_dry_run(plugin, registry, &formats_to_check);
+        }
+        if from_file.is_some() {
+            println!(
+                "Ignoring `--from-file` for {} because it is installed through a vendor manager.",
+                plugin.name.bold()
+            );
+        }
+        return handle_managed_install(plugin, registry);
+    }
+
     // ── Check for manual download type (when no --from-file provided) ─────────
 
     if from_file.is_none() && !dry_run {
-        // Check whether any of the formats we'd install are manual.
-        let formats_to_check: Vec<_> = match format {
-            Some(fmt) => {
-                if let Some(src) = selected_plugin.formats.get(&fmt) {
-                    vec![(fmt, src)]
-                } else {
-                    vec![]
-                }
-            }
-            None => selected_plugin
-                .formats
-                .iter()
-                .map(|(&f, s)| (f, s))
-                .collect(),
-        };
-
         let is_manual = formats_to_check
             .iter()
             .any(|(_, src)| src.download_type == DownloadType::Manual);
@@ -405,6 +421,7 @@ async fn run_single(
             let dl_type = match src.download_type {
                 DownloadType::Direct => "direct download",
                 DownloadType::Manual => "manual download required",
+                DownloadType::Managed => "vendor installer required",
             };
             println!(
                 "          {}: {} ({})",
@@ -469,5 +486,106 @@ async fn run_single(
         .green()
     );
 
+    Ok(())
+}
+
+fn handle_managed_install(
+    plugin: &apm_core::registry::PluginDefinition,
+    registry: &Registry,
+) -> Result<()> {
+    let installer_key = plugin.installer.as_deref().ok_or_else(|| {
+        anyhow::anyhow!(
+            "Plugin '{}' is marked as installer-managed but has no installer key.\nHint: Add `installer = \"...\"` to the registry entry.",
+            plugin.slug
+        )
+    })?;
+
+    let installer = registry.find_installer(installer_key).ok_or_else(|| {
+        anyhow::anyhow!(
+            "Installer '{}' for plugin '{}' was not found in the registry.\nHint: Run `apm sync` to refresh installers.toml.",
+            installer_key,
+            plugin.slug
+        )
+    })?;
+
+    if let Some(app_path) = installed_app_path(installer) {
+        println!(
+            "Opening {} for {}...",
+            installer.name.bold(),
+            plugin.name.bold()
+        );
+        std::process::Command::new("open")
+            .arg("-a")
+            .arg(&app_path)
+            .spawn()
+            .map_err(|e| anyhow::anyhow!("Failed to launch {}: {e}", installer.name))?;
+        println!(
+            "Use {} to download and activate {}.",
+            installer.name.bold(),
+            plugin.name.bold()
+        );
+        return Ok(());
+    }
+
+    println!(
+        "{} is required for {}.",
+        installer.name.bold(),
+        plugin.name.bold()
+    );
+    println!("Download it from: {}", installer.download_url.cyan());
+    std::process::Command::new("open")
+        .arg(&installer.download_url)
+        .spawn()
+        .map_err(|e| anyhow::anyhow!("Failed to open browser: {e}"))?;
+    println!(
+        "After installing {}, run `apm install {}` again.",
+        installer.name.bold(),
+        plugin.slug.bold()
+    );
+    Ok(())
+}
+
+fn installed_app_path(installer: &InstallerDefinition) -> Option<std::path::PathBuf> {
+    installer
+        .app_paths
+        .iter()
+        .find(|path| path.exists())
+        .cloned()
+}
+
+fn print_managed_dry_run(
+    plugin: &apm_core::registry::PluginDefinition,
+    registry: &Registry,
+    formats_to_check: &[(PluginFormat, &apm_core::registry::FormatSource)],
+) -> Result<()> {
+    let installer_key = plugin.installer.as_deref().ok_or_else(|| {
+        anyhow::anyhow!(
+            "Plugin '{}' is marked as installer-managed but has no installer key.\nHint: Add `installer = \"...\"` to the registry entry.",
+            plugin.slug
+        )
+    })?;
+
+    let installer = registry.find_installer(installer_key).ok_or_else(|| {
+        anyhow::anyhow!(
+            "Installer '{}' for plugin '{}' was not found in the registry.\nHint: Run `apm sync` to refresh installers.toml.",
+            installer_key,
+            plugin.slug
+        )
+    })?;
+
+    let formats = formats_to_check
+        .iter()
+        .map(|(fmt, _)| fmt.to_string())
+        .collect::<Vec<_>>()
+        .join(", ");
+
+    println!(
+        "[dry-run] Would use {} for {} ({})",
+        installer.name.bold(),
+        plugin.name.bold(),
+        formats
+    );
+    println!("          Download: {}", installer.download_url.yellow());
+    println!("          Homepage: {}", installer.homepage.yellow());
     Ok(())
 }

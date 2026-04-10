@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "eq"
 license     = "commercial"
 tags        = ["eq", "preamp", "helios", "console", "vintage", "rock", "uad"]
+installer   = "ua-connect"
 homepage    = "https://www.uaudio.com/uad-plugins/equalizers/helios-type-69.html"
 
 [formats.vst3]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Helios Type 69.vst3"
 
 [formats.au]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Helios Type 69.component"

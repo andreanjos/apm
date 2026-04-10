@@ -25,7 +25,10 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
     if registry.is_empty() {
         if json {
-            println!("{}", serde_json::to_string_pretty(&VendorsJson { vendors: vec![] })?);
+            println!(
+                "{}",
+                serde_json::to_string_pretty(&VendorsJson { vendors: vec![] })?
+            );
         } else {
             println!("No plugins found. The registry cache is empty.");
             println!();
@@ -64,12 +67,20 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     let suffix = if total == 1 { "" } else { "s" };
     println!(
         "{}",
-        format!("Vendors ({total} total, {} plugin{suffix} in registry):", registry.len()).bold()
+        format!(
+            "Vendors ({total} total, {} plugin{suffix} in registry):",
+            registry.len()
+        )
+        .bold()
     );
     println!();
 
     // Compute column widths.
-    let w_name = vendors.iter().map(|(name, _)| name.len()).max().unwrap_or(0);
+    let w_name = vendors
+        .iter()
+        .map(|(name, _)| name.len())
+        .max()
+        .unwrap_or(0);
     let w_count = vendors
         .iter()
         .map(|(_, count)| count.to_string().len())
@@ -78,10 +89,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
 
     for (name, count) in &vendors {
         let plugin_word = if *count == 1 { "plugin" } else { "plugins" };
-        println!(
-            "  {:<w_name$}  {:>w_count$} {plugin_word}",
-            name, count,
-        );
+        println!("  {:<w_name$}  {:>w_count$} {plugin_word}", name, count,);
     }
 
     Ok(())

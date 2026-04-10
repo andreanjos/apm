@@ -106,9 +106,9 @@ pub fn encode(setup: &PortableSetup) -> Result<String> {
 
 /// Decode an apm1:// string back into a PortableSetup.
 pub fn decode(input: &str) -> Result<PortableSetup> {
-    let payload = input
-        .strip_prefix(SCHEME_PREFIX)
-        .ok_or_else(|| anyhow::anyhow!("Invalid portable setup string: missing 'apm1://' prefix"))?;
+    let payload = input.strip_prefix(SCHEME_PREFIX).ok_or_else(|| {
+        anyhow::anyhow!("Invalid portable setup string: missing 'apm1://' prefix")
+    })?;
 
     // Step 1: Base64url decode
     let compressed = URL_SAFE_NO_PAD
@@ -248,9 +248,7 @@ pub fn build_preview(
             }
             // If URL matches, skip silently.
         } else {
-            preview
-                .to_add_sources
-                .push((name.clone(), url.clone()));
+            preview.to_add_sources.push((name.clone(), url.clone()));
         }
     }
 
@@ -267,11 +265,7 @@ pub fn build_preview(
         ));
     }
 
-    let import_reg = setup
-        .c
-        .reg
-        .as_deref()
-        .unwrap_or(DEFAULT_REGISTRY_URL);
+    let import_reg = setup.c.reg.as_deref().unwrap_or(DEFAULT_REGISTRY_URL);
     if config.default_registry_url != import_reg {
         preview.config_changes.push(format!(
             "registry_url: {} -> {}",
@@ -921,7 +915,10 @@ mod tests {
             "to_install: expected new + outdated = 2"
         );
         assert!(
-            preview.to_install.iter().any(|(n, v, _)| n == "synth-new" && v == "2.0.0"),
+            preview
+                .to_install
+                .iter()
+                .any(|(n, v, _)| n == "synth-new" && v == "2.0.0"),
             "synth-new should be in to_install"
         );
         assert!(

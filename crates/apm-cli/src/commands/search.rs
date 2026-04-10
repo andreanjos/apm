@@ -257,7 +257,8 @@ pub async fn run(
         "plugins"
     };
 
-    let mut footer = format!("Found {total_matches}{price_qualifier}{installed_qualifier} {plugin_word}");
+    let mut footer =
+        format!("Found {total_matches}{price_qualifier}{installed_qualifier} {plugin_word}");
 
     if !query.is_empty() {
         footer.push_str(&format!(" matching \"{query}\""));

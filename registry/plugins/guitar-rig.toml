@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "amp-sim"
 license     = "commercial"
 tags        = ["guitar", "bass", "amp-sim", "effects", "pedalboard", "nks"]
+installer   = "native-access"
 homepage    = "https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-7-pro/"
 
 [formats.vst3]
 url          = "https://www.native-instruments.com/en/specials/native-access/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Guitar Rig 7.vst3"
 
 [formats.au]
 url          = "https://www.native-instruments.com/en/specials/native-access/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Guitar Rig 7.component"

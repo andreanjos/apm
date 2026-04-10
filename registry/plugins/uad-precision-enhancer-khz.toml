@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "enhancer"
 license     = "commercial"
 tags        = ["enhancer", "high-frequency", "air", "harmonics", "uad"]
+installer   = "ua-connect"
 homepage    = "https://www.uaudio.com/uad-plugins/"
 
 [formats.vst3]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Precision Enhancer kHz.vst3"
 
 [formats.au]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Precision Enhancer kHz.component"

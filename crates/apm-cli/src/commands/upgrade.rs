@@ -236,7 +236,10 @@ pub async fn run(
         let upgradable = candidates.iter().filter(|c| !c.pinned).count();
         let pinned = candidates.iter().filter(|c| c.pinned).count();
         if pinned > 0 {
-            print!("\n{} plugin(s) to upgrade ({} pinned, skipped). ", upgradable, pinned);
+            print!(
+                "\n{} plugin(s) to upgrade ({} pinned, skipped). ",
+                upgradable, pinned
+            );
         } else {
             print!("\n{} plugin(s) to upgrade. ", upgradable);
         }

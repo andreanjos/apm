@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "compressor"
 license     = "commercial"
 tags        = ["compressor", "bus", "neve", "33609", "diode-bridge", "mastering", "uad"]
+installer   = "ua-connect"
 homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/neve-33609-compressor.html"
 
 [formats.vst3]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Neve 33609 C.vst3"
 
 [formats.au]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Neve 33609 C.component"

@@ -190,17 +190,17 @@ async fn run_portable(config: &Config, input: &str, dry_run: bool, yes: bool) ->
         selected.version = release.version;
         selected.formats = release.formats;
 
-        println!("  {} {} v{}...", "installing".cyan(), slug, selected.version);
+        println!(
+            "  {} {} v{}...",
+            "installing".cyan(),
+            slug,
+            selected.version
+        );
 
         match crate::install::install_plugin(&selected, None, None, config, &mut state, None).await
         {
             Ok(()) => {
-                println!(
-                    "  {} {} v{}",
-                    "installed".green(),
-                    slug,
-                    selected.version
-                );
+                println!("  {} {} v{}", "installed".green(), slug, selected.version);
                 installed += 1;
             }
             Err(e) => {

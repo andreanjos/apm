@@ -172,7 +172,10 @@ mod tests {
 
     #[test]
     fn format_category_with_subcategory() {
-        assert_eq!(format_category("effects", Some("reverb")), "effects / reverb");
+        assert_eq!(
+            format_category("effects", Some("reverb")),
+            "effects / reverb"
+        );
     }
 
     #[test]

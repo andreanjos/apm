@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "eq"
 license     = "commercial"
 tags        = ["eq", "mastering", "tube", "solid-state", "transparent", "millennia", "uad"]
+installer   = "ua-connect"
 homepage    = "https://www.uaudio.com/uad-plugins/equalizers/millennia-nseq-2.html"
 
 [formats.vst3]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Millennia NSEQ-2.vst3"
 
 [formats.au]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Millennia NSEQ-2.component"

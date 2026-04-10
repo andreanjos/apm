@@ -328,7 +328,10 @@ mod tests {
             data_dir: Some(PathBuf::from("/tmp/custom-apm-data")),
             ..Config::default()
         };
-        assert_eq!(cfg.resolved_data_dir(), PathBuf::from("/tmp/custom-apm-data"));
+        assert_eq!(
+            cfg.resolved_data_dir(),
+            PathBuf::from("/tmp/custom-apm-data")
+        );
     }
 
     #[test]

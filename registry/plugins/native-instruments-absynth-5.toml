@@ -7,16 +7,19 @@ category    = "instruments"
 subcategory = "synthesizer"
 license     = "commercial"
 tags        = ["synth", "semi-modular", "fm", "wavetable", "granular", "atmospheric", "pads", "evolving", "ambient"]
+installer   = "native-access"
 homepage    = "https://www.native-instruments.com/en/products/komplete/synths/absynth-5/"
 
 [formats.vst3]
 url          = "https://www.native-instruments.com/en/products/komplete/synths/absynth-5/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Absynth 5.vst3"
 
 [formats.au]
 url          = "https://www.native-instruments.com/en/products/komplete/synths/absynth-5/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Absynth 5.component"

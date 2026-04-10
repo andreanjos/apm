@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "compressor"
 license     = "commercial"
 tags        = ["compressor", "vca", "dbx", "vintage", "analog-modeling", "dynamics", "punch"]
+installer   = "arturia-software-center"
 homepage    = "https://www.arturia.com/products/software-effects/comp-vca65/overview"
 
 [formats.vst3]
 url          = "https://www.arturia.com/support/downloads-manuals/product/comp-vca65"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Comp VCA-65.vst3"
 
 [formats.au]
 url          = "https://www.arturia.com/support/downloads-manuals/product/comp-vca65"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Comp VCA-65.component"

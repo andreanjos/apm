@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "eq"
 license     = "commercial"
 tags        = ["eq", "passive", "tube", "manley", "mastering", "vintage", "uad"]
+installer   = "ua-connect"
 homepage    = "https://www.uaudio.com/uad-plugins/equalizers/manley-massive-passive-eq.html"
 
 [formats.vst3]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Manley Massive Passive.vst3"
 
 [formats.au]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Manley Massive Passive.component"

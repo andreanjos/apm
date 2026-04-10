@@ -98,7 +98,11 @@ pub async fn run(config: &Config, name: &str, json: bool) -> Result<()> {
         let status = if !fr.exists {
             format!("{} missing", "\u{2717}".red())
         } else if fr.quarantined {
-            format!("{} exists, {} quarantined", "\u{2713}".green(), "!".yellow())
+            format!(
+                "{} exists, {} quarantined",
+                "\u{2713}".green(),
+                "!".yellow()
+            )
         } else {
             format!("{} exists", "\u{2713}".green())
         };

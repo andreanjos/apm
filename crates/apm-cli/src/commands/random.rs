@@ -121,11 +121,7 @@ fn print_random_pick(p: &PluginDefinition, category_filter: Option<&str>) {
         None => "Random pick".to_string(),
     };
 
-    println!(
-        "{} {}",
-        format!("\u{1F3B2} {label}:").bold(),
-        p.name.bold()
-    );
+    println!("{} {}", format!("\u{1F3B2} {label}:").bold(), p.name.bold());
     println!(
         "   {:<11} {}",
         "Category:".dimmed(),
@@ -145,8 +141,5 @@ fn print_random_pick(p: &PluginDefinition, category_filter: Option<&str>) {
     }
 
     println!();
-    println!(
-        "   Install: {}",
-        format!("apm install {}", p.slug).green()
-    );
+    println!("   Install: {}", format!("apm install {}", p.slug).green());
 }

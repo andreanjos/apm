@@ -50,10 +50,7 @@ fn run_portable(config: &Config, state: &InstallState, output: Option<&PathBuf>)
         Some(path) => {
             std::fs::write(path, &encoded)
                 .with_context(|| format!("Failed to write export to {}", path.display()))?;
-            eprintln!(
-                "Exported setup to {}",
-                path.display()
-            );
+            eprintln!("Exported setup to {}", path.display());
         }
         None => {
             println!("{encoded}");

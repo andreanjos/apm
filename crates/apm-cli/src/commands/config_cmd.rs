@@ -35,8 +35,7 @@ pub fn run_show(config: &Config, json: bool) -> Result<()> {
 
     println!(
         "{:<label_width$}{}",
-        "Registry URL:",
-        config.default_registry_url
+        "Registry URL:", config.default_registry_url
     );
     println!("{:<label_width$}{}", "Install scope:", scope_str);
     println!(

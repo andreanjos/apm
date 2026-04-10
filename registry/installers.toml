@@ -1,0 +1,79 @@
+[native-access]
+name = "Native Access 2"
+vendor = "Native Instruments"
+app_paths = [
+  "/Applications/Native Access 2.app",
+  "/Applications/Native Access.app",
+]
+download_url = "https://www.native-instruments.com/en/specials/native-access/"
+homepage = "https://www.native-instruments.com/"
+
+[arturia-software-center]
+name = "Arturia Software Center"
+vendor = "Arturia"
+app_paths = ["/Applications/Arturia/Arturia Software Center.app"]
+download_url = "https://www.arturia.com/support/downloads-manuals"
+homepage = "https://www.arturia.com/"
+
+[waves-central]
+name = "Waves Central"
+vendor = "Waves"
+app_paths = ["/Applications/Waves Central.app"]
+download_url = "https://www.waves.com/downloads/central"
+homepage = "https://www.waves.com/"
+
+[ua-connect]
+name = "UA Connect"
+vendor = "Universal Audio"
+app_paths = ["/Applications/UA Connect.app"]
+download_url = "https://www.uaudio.com/downloads/"
+homepage = "https://www.uaudio.com/"
+
+[ilok-license-manager]
+name = "iLok License Manager"
+vendor = "PACE"
+app_paths = ["/Applications/iLok License Manager.app"]
+download_url = "https://www.ilok.com/#!license-manager"
+homepage = "https://www.ilok.com/"
+
+[izotope-product-portal]
+name = "iZotope Product Portal"
+vendor = "iZotope"
+app_paths = ["/Applications/iZotope Product Portal.app"]
+download_url = "https://www.izotope.com/en/lp/redeem.html"
+homepage = "https://www.izotope.com/"
+
+[spitfire-audio]
+name = "Spitfire Audio App"
+vendor = "Spitfire Audio"
+app_paths = ["/Applications/Spitfire Audio.app"]
+download_url = "https://www.spitfireaudio.com/"
+homepage = "https://www.spitfireaudio.com/"
+
+[plugin-alliance-installation-manager]
+name = "Plugin Alliance Installation Manager"
+vendor = "Plugin Alliance"
+app_paths = ["/Applications/Plugin Alliance/Installation Manager.app"]
+download_url = "https://www.plugin-alliance.com/pages/installation-manager"
+homepage = "https://www.plugin-alliance.com/"
+
+[roland-cloud]
+name = "Roland Cloud Manager"
+vendor = "Roland"
+app_paths = ["/Applications/Roland Cloud.app"]
+download_url = "https://www.roland.com/us/products/rc_roland_cloud_manager/"
+homepage = "https://www.roland.com/us/categories/roland_cloud/"
+
+[softube-central]
+name = "Softube Central"
+vendor = "Softube"
+app_paths = ["/Applications/Softube Central.app"]
+download_url = "https://www.softube.com/support/how-do-i-install-my-products"
+homepage = "https://www.softube.com/"
+
+[toontrack-product-manager]
+name = "Toontrack Product Manager"
+vendor = "Toontrack"
+app_paths = ["/Applications/Toontrack Product Manager.app"]
+download_url = "https://www.toontrack.com/product-manager/"
+homepage = "https://www.toontrack.com/"

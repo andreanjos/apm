@@ -51,9 +51,7 @@ pub async fn run(
                 println!("{}", serde_json::to_string_pretty(&result)?);
             } else {
                 println!("No pinned plugins.");
-                println!(
-                    "Hint: Use `apm pin <plugin>` to prevent a plugin from being upgraded."
-                );
+                println!("Hint: Use `apm pin <plugin>` to prevent a plugin from being upgraded.");
             }
             return Ok(());
         }

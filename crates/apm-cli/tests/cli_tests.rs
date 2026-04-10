@@ -474,8 +474,14 @@ sha256 = "deadbeef"
     assert_eq!(arr[0]["installed"], "1.5.0");
     assert_eq!(arr[0]["available"], "2.1.0");
     assert_eq!(arr[0]["pinned"], false);
-    assert!(obj["up_to_date_count"].is_number(), "up_to_date_count should be a number");
-    assert!(obj["pinned_count"].is_number(), "pinned_count should be a number");
+    assert!(
+        obj["up_to_date_count"].is_number(),
+        "up_to_date_count should be a number"
+    );
+    assert!(
+        obj["pinned_count"].is_number(),
+        "pinned_count should be a number"
+    );
 }
 
 #[test]
@@ -1038,7 +1044,9 @@ sha256 = "deadbeef"
     // Export to get the portable string
     let export_output = run_apm_with_env(&["export"], &cfg, &data, &cache);
     assert!(export_output.status.success());
-    let apm1_string = String::from_utf8_lossy(&export_output.stdout).trim().to_string();
+    let apm1_string = String::from_utf8_lossy(&export_output.stdout)
+        .trim()
+        .to_string();
     assert!(apm1_string.starts_with("apm1://"));
 
     // Now import with --dry-run on a "fresh" environment (no state file)

@@ -63,10 +63,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
         return Ok(());
     }
 
-    println!(
-        "{}",
-        format!("Tags ({total_unique} unique):").bold()
-    );
+    println!("{}", format!("Tags ({total_unique} unique):").bold());
     println!();
 
     // Display top N tags in a compact, wrapped layout.

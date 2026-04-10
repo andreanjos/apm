@@ -1,8 +1,10 @@
+pub mod installers;
 pub mod matcher;
 pub mod search;
 pub mod sync;
 pub mod types;
 
+use installers::load_installers_toml;
 use std::collections::HashMap;
 use std::path::Path;
 
@@ -14,6 +16,7 @@ use crate::config::Config;
 // Re-export all registry types at the crate-module boundary so that future
 // phases can import them as `use apm::registry::PluginDefinition` etc. without
 // digging into the internal `types` submodule.
+pub use installers::InstallerDefinition;
 pub use types::{
     DownloadType, FormatSource, InstallType, PluginBundle, PluginDefinition, PluginFormat,
     PluginRelease, Source,
@@ -33,6 +36,9 @@ pub struct Registry {
 
     /// All known bundles (meta-packages), keyed by bundle slug.
     pub bundles: HashMap<String, PluginBundle>,
+
+    /// All known vendor installer definitions, keyed by installer slug.
+    pub installers: HashMap<String, InstallerDefinition>,
 }
 
 impl Registry {
@@ -42,6 +48,7 @@ impl Registry {
             plugins: HashMap::new(),
             plugins_by_source: HashMap::new(),
             bundles: HashMap::new(),
+            installers: HashMap::new(),
         }
     }
 
@@ -102,6 +109,16 @@ impl Registry {
             }
         }
 
+        let installers_path = cache_dir.join("installers.toml");
+        if installers_path.exists() {
+            match load_installers_toml(&installers_path) {
+                Ok(installers) => registry.installers = installers,
+                Err(error) => {
+                    tracing::warn!("Skipping installers {}: {error}", installers_path.display())
+                }
+            }
+        }
+
         Ok(registry)
     }
 
@@ -148,6 +165,7 @@ impl Registry {
                         .plugins_by_source
                         .insert(source.name.clone(), registry.plugins.clone());
                     merged.plugins.extend(registry.plugins);
+                    merged.installers.extend(registry.installers);
                 }
                 Err(e) => {
                     tracing::warn!("Could not load source '{}': {e}", source.name);
@@ -155,7 +173,7 @@ impl Registry {
             }
 
             // Also load bundles from this source.
-            merged.load_bundles_from_cache(&source_cache);
+            merged.load_bundles_from_cache(&effective_path);
         }
 
         Ok(merged)
@@ -288,6 +306,18 @@ impl Registry {
         self.plugins.values().collect()
     }
 
+    /// Find an installer definition by key (exact, case-insensitive).
+    pub fn find_installer(&self, key: &str) -> Option<&InstallerDefinition> {
+        if let Some(installer) = self.installers.get(key) {
+            return Some(installer);
+        }
+
+        let lower = key.to_lowercase();
+        self.installers
+            .values()
+            .find(|installer| installer.key.to_lowercase() == lower)
+    }
+
     /// Total number of plugins in this registry.
     pub fn len(&self) -> usize {
         self.plugins.len()
@@ -418,6 +448,7 @@ install_type = "zip"
                 subcategory: None,
                 license: "freeware".to_string(),
                 tags: vec![],
+                installer: None,
                 formats: std::collections::HashMap::new(),
                 releases: vec![],
                 homepage: None,

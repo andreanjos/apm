@@ -7,6 +7,7 @@ category    = "effects"
 subcategory = "pitch-correction"
 license     = "commercial"
 tags        = ["pitch-correction", "vocal", "real-time", "live", "tuning", "low-latency"]
+installer   = "waves-central"
 homepage    = "https://www.waves.com/plugins/waves-tune-real-time"
 
 # NOTE: Waves products are managed and downloaded via the Waves Central
@@ -15,10 +16,12 @@ homepage    = "https://www.waves.com/plugins/waves-tune-real-time"
 url          = "https://www.waves.com/downloads#waves-central"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "WavesTuneRealTime.vst3"
 
 [formats.au]
 url          = "https://www.waves.com/downloads#waves-central"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "WavesTuneRealTime.component"

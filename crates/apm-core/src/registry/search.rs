@@ -145,6 +145,7 @@ mod tests {
             subcategory: subcategory.map(|s| s.to_string()),
             license: "Freeware".to_string(),
             tags: tags.into_iter().map(|t| t.to_string()).collect(),
+            installer: None,
             formats: HashMap::new(),
             releases: Vec::new(),
             homepage: None,
@@ -167,6 +168,7 @@ mod tests {
             plugins: map,
             plugins_by_source: HashMap::new(),
             bundles: HashMap::new(),
+            installers: HashMap::new(),
         }
     }
 

@@ -87,7 +87,11 @@ pub async fn run(config: &Config, name: &str, json: bool, versions: bool) -> Res
             is_paid: plugin.is_paid,
             price_cents: plugin.price_cents,
             currency: plugin.currency.as_deref(),
-            price_display: format_price(plugin.price_cents, plugin.currency.as_deref(), plugin.is_paid),
+            price_display: format_price(
+                plugin.price_cents,
+                plugin.currency.as_deref(),
+                plugin.is_paid,
+            ),
         };
         println!("{}", serde_json::to_string_pretty(&info)?);
     } else {
@@ -115,7 +119,11 @@ fn print_plugin_info(
         "Type:".dimmed(),
         if p.is_paid { "Paid" } else { "Free" }
     );
-    println!("{:<13} {}", "Price:".dimmed(), format_price(p.price_cents, p.currency.as_deref(), p.is_paid));
+    println!(
+        "{:<13} {}",
+        "Price:".dimmed(),
+        format_price(p.price_cents, p.currency.as_deref(), p.is_paid)
+    );
 
     // Category
     println!(
@@ -220,4 +228,3 @@ fn wrap_text(text: &str, width: usize) -> Vec<String> {
     }
     lines
 }
-

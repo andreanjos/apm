@@ -209,10 +209,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
         up_to_date_count
     ));
     if pinned_count > 0 {
-        summary_parts.push(format!(
-            "{} pinned",
-            pinned_count
-        ));
+        summary_parts.push(format!("{} pinned", pinned_count));
     }
     println!("\n{}", summary_parts.join(", ").dimmed());
 

@@ -7,16 +7,19 @@ category    = "instruments"
 subcategory = "synthesizer"
 license     = "commercial"
 tags        = ["synth", "synthesizer", "wavetable", "virtual-analog", "granular", "sampling", "physical-modeling", "harmonic"]
+installer   = "arturia-software-center"
 homepage    = "https://www.arturia.com/products/software-instruments/pigments/overview"
 
 [formats.vst3]
 url          = "https://www.arturia.com/support/downloads-manuals/product/pigments"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Pigments.vst3"
 
 [formats.au]
 url          = "https://www.arturia.com/support/downloads-manuals/product/pigments"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Pigments.component"

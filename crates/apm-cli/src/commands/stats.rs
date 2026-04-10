@@ -83,28 +83,16 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     );
 
     // Pinned.
-    println!(
-        "  {:<label_width$}{}",
-        "Pinned:".bold(),
-        pinned,
-    );
+    println!("  {:<label_width$}{}", "Pinned:".bold(), pinned,);
 
     // Sources.
     let source_names: Vec<&str> = sources.iter().map(|s| s.name.as_str()).collect();
     let source_label = if source_count <= 3 {
-        format!(
-            "{} ({})",
-            source_count,
-            source_names.join(", ")
-        )
+        format!("{} ({})", source_count, source_names.join(", "))
     } else {
         format!("{}", source_count)
     };
-    println!(
-        "  {:<label_width$}{}",
-        "Sources:".bold(),
-        source_label,
-    );
+    println!("  {:<label_width$}{}", "Sources:".bold(), source_label,);
 
     // Cache size.
     println!(
@@ -116,11 +104,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     // Last sync time.
     let sync_time = last_sync_time(config);
     if let Some(time_str) = sync_time {
-        println!(
-            "  {:<label_width$}{}",
-            "Last sync:".bold(),
-            time_str,
-        );
+        println!("  {:<label_width$}{}", "Last sync:".bold(), time_str,);
     }
 
     Ok(())
@@ -150,10 +134,7 @@ fn last_sync_time(config: &Config) -> Option<String> {
         return None;
     }
 
-    let mtime = std::fs::metadata(&reg_dir)
-        .ok()?
-        .modified()
-        .ok()?;
+    let mtime = std::fs::metadata(&reg_dir).ok()?.modified().ok()?;
 
     let dt: chrono::DateTime<chrono::Local> = mtime.into();
     Some(dt.format("%Y-%m-%d %H:%M").to_string())

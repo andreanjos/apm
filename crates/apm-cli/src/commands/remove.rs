@@ -18,7 +18,10 @@ pub async fn run(config: &Config, name: &str, json: bool, dry_run: bool) -> Resu
         Some(p) => p.clone(),
         None => {
             if json {
-                println!("{{\"removed\":false,\"plugin\":{},\"reason\":\"not installed\"}}", serde_json::json!(name));
+                println!(
+                    "{{\"removed\":false,\"plugin\":{},\"reason\":\"not installed\"}}",
+                    serde_json::json!(name)
+                );
             } else {
                 println!(
                     "Plugin '{}' is not installed via apm. Nothing to remove.",

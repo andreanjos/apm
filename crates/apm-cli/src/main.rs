@@ -198,7 +198,6 @@ enum Commands {
         /// Bundles are curated plugin collections. See `apm bundles` for available bundles.
         #[arg(long, value_name = "BUNDLE")]
         bundle: Option<String>,
-
     },
 
     /// Remove a plugin installed by apm.
@@ -759,9 +758,11 @@ async fn run() -> Result<()> {
             commands::export_cmd::run(&config, output.as_ref(), format).await
         }
 
-        Commands::Import { input, dry_run, yes } => {
-            commands::import_cmd::run(&config, input, *dry_run, *yes).await
-        }
+        Commands::Import {
+            input,
+            dry_run,
+            yes,
+        } => commands::import_cmd::run(&config, input, *dry_run, *yes).await,
 
         Commands::Cleanup { dry_run } => commands::cleanup::run(&config, *dry_run, json).await,
 
@@ -811,6 +812,5 @@ async fn run() -> Result<()> {
             }
             Ok(())
         }
-
     }
 }

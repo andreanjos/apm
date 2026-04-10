@@ -7,16 +7,19 @@ category    = "instruments"
 subcategory = "synthesizer"
 license     = "commercial"
 tags        = ["synth", "additive", "reaktor", "spectral", "partials", "electronic", "edm", "creative", "experimental"]
+installer   = "native-access"
 homepage    = "https://www.native-instruments.com/en/products/komplete/synths/razor/"
 
 [formats.vst3]
 url          = "https://www.native-instruments.com/en/products/komplete/synths/razor/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Razor.vst3"
 
 [formats.au]
 url          = "https://www.native-instruments.com/en/products/komplete/synths/razor/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Razor.component"

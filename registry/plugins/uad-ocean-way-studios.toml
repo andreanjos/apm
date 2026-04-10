@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "reverb"
 license     = "commercial"
 tags        = ["reverb", "room", "studio", "ocean-way", "microphone", "spatial", "uad"]
+installer   = "ua-connect"
 homepage    = "https://www.uaudio.com/uad-plugins/reverbs/ocean-way-studios.html"
 
 [formats.vst3]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Ocean Way Studios.vst3"
 
 [formats.au]
 url          = "https://www.uaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "UAD Ocean Way Studios.component"

@@ -58,6 +58,8 @@ pub enum DownloadType {
     Direct,
     /// The user must download this plugin manually (e.g., requires signup/login).
     Manual,
+    /// The plugin is installed through a vendor manager app, not a direct archive.
+    Managed,
 }
 
 impl std::fmt::Display for DownloadType {
@@ -65,6 +67,7 @@ impl std::fmt::Display for DownloadType {
         match self {
             Self::Direct => write!(f, "direct"),
             Self::Manual => write!(f, "manual"),
+            Self::Managed => write!(f, "managed"),
         }
     }
 }
@@ -142,6 +145,11 @@ pub struct PluginDefinition {
     /// Free-form tags for search (e.g. `["synth", "virtual-analog", "free"]`).
     #[serde(default)]
     pub tags: Vec<String>,
+
+    /// Vendor installer required to download/activate this plugin.
+    /// References a key in the registry's `installers.toml`.
+    #[serde(default)]
+    pub installer: Option<String>,
 
     /// Available plugin formats and their download sources.
     pub formats: std::collections::HashMap<PluginFormat, FormatSource>,
@@ -291,6 +299,7 @@ mod tests {
             subcategory: None,
             license: "freeware".to_string(),
             tags: vec![],
+            installer: None,
             formats,
             releases,
             homepage: None,

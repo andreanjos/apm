@@ -227,7 +227,11 @@ mod tests {
         state.record_install(make_plugin("reverb-pro", "1.0.0"));
         state.record_install(make_plugin("reverb-pro", "2.0.0"));
 
-        assert_eq!(state.plugins.len(), 1, "duplicate should be replaced, not appended");
+        assert_eq!(
+            state.plugins.len(),
+            1,
+            "duplicate should be replaced, not appended"
+        );
         assert_eq!(state.plugins[0].version, "2.0.0");
     }
 
@@ -243,8 +247,13 @@ mod tests {
         state.save_to(&state_path).unwrap();
 
         let loaded = InstallState::load_from(&state_path).unwrap();
-        let found = loaded.find("compressor-x").expect("plugin should exist after reload");
-        assert!(found.pinned, "pinned flag should survive save/load round-trip");
+        let found = loaded
+            .find("compressor-x")
+            .expect("plugin should exist after reload");
+        assert!(
+            found.pinned,
+            "pinned flag should survive save/load round-trip"
+        );
     }
 
     #[test]
@@ -253,8 +262,15 @@ mod tests {
         state.record_install(make_plugin("delay-unit", "1.0.0"));
 
         let result = state.remove("i-do-not-exist");
-        assert!(result.is_none(), "removing nonexistent plugin should return None");
-        assert_eq!(state.plugins.len(), 1, "existing plugins should be untouched");
+        assert!(
+            result.is_none(),
+            "removing nonexistent plugin should return None"
+        );
+        assert_eq!(
+            state.plugins.len(),
+            1,
+            "existing plugins should be untouched"
+        );
     }
 
     #[test]
@@ -273,7 +289,10 @@ mod tests {
         let missing = tmp.path().join("does-not-exist.toml");
 
         let state = InstallState::load_from(&missing).unwrap();
-        assert!(state.plugins.is_empty(), "loading missing file should yield empty state");
+        assert!(
+            state.plugins.is_empty(),
+            "loading missing file should yield empty state"
+        );
         assert_eq!(state.version, 1, "default schema version should be 1");
     }
 

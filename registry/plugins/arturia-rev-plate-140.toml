@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "reverb"
 license     = "commercial"
 tags        = ["reverb", "plate", "emt-140", "vintage", "analog-modeling", "chorus", "spatial"]
+installer   = "arturia-software-center"
 homepage    = "https://www.arturia.com/products/software-effects/rev-plate140/overview"
 
 [formats.vst3]
 url          = "https://www.arturia.com/support/downloads-manuals/product/rev-plate140"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Rev PLATE-140.vst3"
 
 [formats.au]
 url          = "https://www.arturia.com/support/downloads-manuals/product/rev-plate140"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Rev PLATE-140.component"

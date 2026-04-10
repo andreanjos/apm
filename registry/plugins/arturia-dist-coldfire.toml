@@ -7,16 +7,19 @@ category    = "effects"
 subcategory = "distortion"
 license     = "commercial"
 tags        = ["distortion", "saturation", "dual-engine", "tube", "overdrive", "creative", "guitar", "aggressive"]
+installer   = "arturia-software-center"
 homepage    = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
 
 [formats.vst3]
 url          = "https://www.arturia.com/support/downloads-manuals/product/dist-coldfire"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Dist COLDFIRE.vst3"
 
 [formats.au]
 url          = "https://www.arturia.com/support/downloads-manuals/product/dist-coldfire"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "managed"
 bundle_path  = "Dist COLDFIRE.component"

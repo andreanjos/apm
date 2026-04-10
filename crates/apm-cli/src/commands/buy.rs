@@ -72,9 +72,7 @@ fn purchase_url(plugin: &registry::PluginDefinition) -> String {
 
     // Fall back to Plugin Boutique search.
     let query = url_encode(&plugin.name);
-    format!(
-        "https://www.pluginboutique.com/search?s={query}&a_aid={PLUGINBOUTIQUE_AFFILIATE_AID}"
-    )
+    format!("https://www.pluginboutique.com/search?s={query}&a_aid={PLUGINBOUTIQUE_AFFILIATE_AID}")
 }
 
 /// Minimal percent-encoding for URL query parameters.
