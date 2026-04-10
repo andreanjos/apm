@@ -1,5 +1,5 @@
 -- Initial schema for apm-server
--- Creates the foundation tables needed for the commerce layer.
+-- Creates the foundation tables for apm-server.
 
 CREATE TABLE IF NOT EXISTS schema_info (
     key TEXT PRIMARY KEY,
