@@ -81,7 +81,7 @@ pub fn match_plugin<'a>(
         let name_lower = scanned.name.to_lowercase();
         let vendor_lower = scanned.vendor.to_lowercase();
         if let Some(rest) = name_lower.strip_prefix(&vendor_lower) {
-            let stripped = rest.trim_start_matches(|c: char| c == ' ' || c == '-' || c == ':');
+            let stripped = rest.trim_start_matches([' ', '-', ':']);
             if !stripped.is_empty() {
                 if let Some(plugin) = match_by_name(stripped, registry) {
                     return Some(PluginMatch {
@@ -158,7 +158,7 @@ fn strip_trailing_version(s: &str) -> String {
     if let Some(last_space) = s.rfind(' ') {
         let suffix = &s[last_space + 1..];
         let suffix_stripped = suffix.strip_prefix('v').or(suffix.strip_prefix('V')).unwrap_or(suffix);
-        if suffix_stripped.chars().next().map_or(false, |c| c.is_ascii_digit())
+        if suffix_stripped.chars().next().is_some_and(|c| c.is_ascii_digit())
             && suffix_stripped.chars().all(|c| c.is_ascii_digit() || c == '.')
         {
             return s[..last_space].to_string();

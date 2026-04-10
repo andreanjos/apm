@@ -4,8 +4,8 @@ use colored::Colorize;
 use apm_core::config::Config;
 use apm_core::registry;
 
-/// Plugin Boutique affiliate ID. Set this after affiliate program approval.
-const PLUGINBOUTIQUE_AFFILIATE_ID: &str = "";
+/// Plugin Boutique affiliate tracking code.
+const PLUGINBOUTIQUE_AFFILIATE_AID: &str = "69d5e87c5f2e9";
 
 pub async fn run(config: &Config, name: &str) -> Result<()> {
     let registry = registry::Registry::load_all_sources(config)?;
@@ -33,7 +33,7 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
         return Ok(());
     }
 
-    let url = purchase_url(&plugin);
+    let url = purchase_url(plugin);
 
     println!(
         "Opening purchase page for {} ({})...",
@@ -72,13 +72,9 @@ fn purchase_url(plugin: &registry::PluginDefinition) -> String {
 
     // Fall back to Plugin Boutique search.
     let query = url_encode(&plugin.name);
-    if PLUGINBOUTIQUE_AFFILIATE_ID.is_empty() {
-        format!("https://www.pluginboutique.com/search?s={query}")
-    } else {
-        format!(
-            "https://www.pluginboutique.com/search?s={query}&a={PLUGINBOUTIQUE_AFFILIATE_ID}"
-        )
-    }
+    format!(
+        "https://www.pluginboutique.com/search?s={query}&a_aid={PLUGINBOUTIQUE_AFFILIATE_AID}"
+    )
 }
 
 /// Minimal percent-encoding for URL query parameters.
