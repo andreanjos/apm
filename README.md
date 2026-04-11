@@ -4,8 +4,8 @@ A package manager for macOS audio plugins. Install, update, remove, and discover
 AU and VST3 plugins from the command line.
 
 apm pulls plugin definitions from Git-backed registries, validates downloads
-before installing, and tracks what is already installed on disk. The catalog now
-includes 8,000+ entries and covers standalone plugins, bundles, upgrades,
+before installing, and tracks what is already installed on disk. The registry
+catalog includes 8,000+ entries covering standalone plugins, bundles, upgrades,
 expansions, preset packs, sample libraries, utilities, and vendor-managed
 products.
 
@@ -209,8 +209,8 @@ bundle_path  = "ValhallaSupermassive.component"
 | `releases` | no | Historical versions for explicit installs |
 | `bundle_ids` | no | Known CFBundleIdentifier prefixes for scanner matching |
 | `formats.*` | at least one | Format-specific download info such as `au`, `vst3`, or `app` |
-| `url` | yes | Direct download URL |
-| `sha256` | yes | SHA256 hex digest of the download |
+| `url` | yes | Direct archive URL for `direct` downloads, or the official product/download page for `manual` and `managed` entries |
+| `sha256` | for direct downloads | SHA256 hex digest of the direct archive; manual and vendor-managed entries may leave this blank |
 | `install_type` | yes | `"dmg"`, `"pkg"`, or `"zip"` |
 | `download_type` | no | `"direct"`, `"manual"`, or `"managed"` |
 | `bundle_path` | for dmg/zip | Path inside the archive to the plugin bundle |
@@ -235,3 +235,5 @@ Guidelines:
 - Mark non-standalone catalog entries with `product_type` so search results stay honest.
 
 ## License
+
+apm is released under the MIT License. See [LICENSE](./LICENSE) for details.

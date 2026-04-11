@@ -17,6 +17,7 @@ struct SearchResultJson {
     name: String,
     vendor: String,
     version: String,
+    product_type: String,
     category: String,
     subcategory: Option<String>,
     license: String,
@@ -137,6 +138,7 @@ pub async fn run(
                 name: p.name.clone(),
                 vendor: p.vendor.clone(),
                 version: p.version.clone(),
+                product_type: p.product_type.to_string(),
                 category: p.category.clone(),
                 subcategory: p.subcategory.clone(),
                 license: p.license.clone(),
@@ -156,6 +158,7 @@ pub async fn run(
 
     const HDR_NAME: &str = "Name";
     const HDR_VENDOR: &str = "Vendor";
+    const HDR_PROD: &str = "Product";
     const HDR_VER: &str = "Version";
     const HDR_CAT: &str = "Category";
     const HDR_LIC: &str = "License";
@@ -174,6 +177,13 @@ pub async fn run(
         .max()
         .unwrap_or(0)
         .max(HDR_VENDOR.len());
+
+    let w_prod = display_results
+        .iter()
+        .map(|p| p.product_type.to_string().len())
+        .max()
+        .unwrap_or(0)
+        .max(HDR_PROD.len());
 
     let w_ver = display_results
         .iter()
@@ -207,21 +217,23 @@ pub async fn run(
     println!(
         "{}",
         format!(
-            "{:<w_name$}  {:<w_vendor$}  {:<w_ver$}  {:<w_cat$}  {:<w_lic$}  {}",
-            HDR_NAME, HDR_VENDOR, HDR_VER, HDR_CAT, HDR_LIC, HDR_PRICE,
+            "{:<w_name$}  {:<w_vendor$}  {:<w_prod$}  {:<w_ver$}  {:<w_cat$}  {:<w_lic$}  {}",
+            HDR_NAME, HDR_VENDOR, HDR_PROD, HDR_VER, HDR_CAT, HDR_LIC, HDR_PRICE,
         )
         .bold()
     );
 
-    let rule_len = w_name + 2 + w_vendor + 2 + w_ver + 2 + w_cat + 2 + w_lic + 2 + w_price;
+    let rule_len =
+        w_name + 2 + w_vendor + 2 + w_prod + 2 + w_ver + 2 + w_cat + 2 + w_lic + 2 + w_price;
     println!("{}", "\u{2500}".repeat(rule_len).dimmed());
 
     // ── Rows ──────────────────────────────────────────────────────────────────
     for p in &display_results {
         println!(
-            "{:<w_name$}  {:<w_vendor$}  {:<w_ver$}  {:<w_cat$}  {:<w_lic$}  {}",
+            "{:<w_name$}  {:<w_vendor$}  {:<w_prod$}  {:<w_ver$}  {:<w_cat$}  {:<w_lic$}  {}",
             p.slug.bold().to_string(),
             p.vendor,
+            p.product_type.to_string(),
             p.version.cyan().to_string(),
             format_category(&p.category, p.subcategory.as_deref()),
             p.license,
@@ -251,14 +263,10 @@ pub async fn run(
     } else {
         ""
     };
-    let plugin_word = if total_matches == 1 {
-        "plugin"
-    } else {
-        "plugins"
-    };
+    let item_word = if total_matches == 1 { "item" } else { "items" };
 
     let mut footer =
-        format!("Found {total_matches}{price_qualifier}{installed_qualifier} {plugin_word}");
+        format!("Found {total_matches}{price_qualifier}{installed_qualifier} {item_word}");
 
     if !query.is_empty() {
         footer.push_str(&format!(" matching \"{query}\""));

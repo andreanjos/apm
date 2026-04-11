@@ -277,6 +277,10 @@ fn test_search_with_fixture_registry() {
         serde_json::from_str(stdout.trim()).expect("should be valid JSON");
     let arr = value.as_array().expect("should be array");
     assert_eq!(arr.len(), 3, "should find all 3 fixture plugins");
+    assert!(
+        arr.iter().all(|entry| entry.get("product_type").is_some()),
+        "search JSON should include product_type for every result, got: {stdout}"
+    );
 }
 
 #[test]
@@ -316,6 +320,32 @@ fn test_search_with_query_matches_fixture() {
         slugs.contains(&"test-reverb"),
         "test-reverb should appear in results, got: {slugs:?}"
     );
+    let reverb = arr
+        .iter()
+        .find(|v| v.get("slug").and_then(|s| s.as_str()) == Some("test-reverb"))
+        .expect("test-reverb should be in search results");
+    assert_eq!(
+        reverb["product_type"], "plugin",
+        "search JSON should expose product_type"
+    );
+}
+
+#[test]
+fn test_search_human_output_shows_product_column() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+    let output = run_apm_with_env(&["search", "reverb"], &cfg, &data, &cache);
+
+    assert!(
+        output.status.success(),
+        "apm search should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("Product"),
+        "human search output should include a Product column, got: {stdout}"
+    );
 }
 
 #[test]
@@ -350,6 +380,10 @@ fn test_info_json_with_fixture_registry_includes_available_versions() {
     let versions: Vec<_> = versions.iter().filter_map(|v| v.as_str()).collect();
 
     assert_eq!(versions, vec!["2.1.0", "2.0.0", "1.5.0"]);
+    assert_eq!(
+        value["product_type"], "plugin",
+        "info JSON should include product_type"
+    );
 }
 
 #[test]

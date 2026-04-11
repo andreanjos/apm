@@ -1,7 +1,7 @@
 // Registry search — case-insensitive full-text search across plugin metadata
 // with optional category filtering and relevance ranking.
 
-use crate::registry::{PluginDefinition, Registry};
+use crate::registry::{PluginDefinition, ProductType, Registry};
 
 /// Search `registry` for plugins matching `query`, optionally restricted to
 /// `category` (matches category or subcategory, case-insensitive),
@@ -9,10 +9,14 @@ use crate::registry::{PluginDefinition, Registry};
 /// `tag` (matches any element of the plugin's tags array, case-insensitive).
 ///
 /// Results are sorted by relevance:
-/// 1. Exact slug or name match (case-insensitive).
-/// 2. Vendor name contains the query.
-/// 3. Category / subcategory contains the query.
-/// 4. Description or tags contain the query.
+/// 1. Exact slug, name, or alias match (case-insensitive).
+/// 2. Slug, name, or alias contains the query.
+/// 3. Vendor name contains the query.
+/// 4. Category / subcategory contains the query.
+/// 5. Description or tags contain the query.
+///
+/// Standalone plugins are then preferred over bundles, upgrades, and other
+/// non-plugin catalog items when the text match is otherwise tied.
 pub fn search<'r>(
     registry: &'r Registry,
     query: &str,
@@ -67,8 +71,15 @@ pub fn search<'r>(
         })
         .collect();
 
-    // Sort by relevance tier, then alphabetically within a tier for stability.
-    results.sort_by_key(|p| (relevance_score(p, &query_lower), p.name.to_lowercase()));
+    // Sort by relevance tier, then prefer standalone plugins over catalog
+    // items like bundles/upgrades when the textual match is otherwise similar.
+    results.sort_by_key(|p| {
+        (
+            relevance_score(p, &query_lower),
+            product_type_rank(&p.product_type),
+            p.name.to_lowercase(),
+        )
+    });
 
     results
 }
@@ -94,18 +105,29 @@ fn text_matches(p: &PluginDefinition, query: &str) -> bool {
 
 /// Lower score = higher relevance (used as sort key).
 ///
-/// 0 — exact slug or name match
-/// 1 — vendor contains query
-/// 2 — category / subcategory contains query
-/// 3 — description or tag contains query
+/// 0 — exact slug, name, or alias match
+/// 1 — slug, name, or alias contains query
+/// 2 — vendor contains query
+/// 3 — category / subcategory contains query
+/// 4 — description or tag contains query
 fn relevance_score(p: &PluginDefinition, query: &str) -> u8 {
     let name_lower = p.name.to_lowercase();
     let slug_lower = p.slug.to_lowercase();
 
-    if name_lower == query || slug_lower == query {
+    if name_lower == query
+        || slug_lower == query
+        || p.aliases
+            .iter()
+            .any(|alias| alias.eq_ignore_ascii_case(query))
+    {
         return 0;
     }
-    if name_lower.contains(query) || slug_lower.contains(query) {
+    if name_lower.contains(query)
+        || slug_lower.contains(query)
+        || p.aliases
+            .iter()
+            .any(|alias| alias.to_lowercase().contains(query))
+    {
         return 1;
     }
     if p.vendor.to_lowercase().contains(query) {
@@ -120,6 +142,18 @@ fn relevance_score(p: &PluginDefinition, query: &str) -> u8 {
         return 3;
     }
     4
+}
+
+fn product_type_rank(product_type: &ProductType) -> u8 {
+    match product_type {
+        ProductType::Plugin => 0,
+        ProductType::Daw => 1,
+        ProductType::Utility => 1,
+        ProductType::SampleLibrary => 2,
+        ProductType::Expansion | ProductType::PresetPack => 3,
+        ProductType::Bundle => 4,
+        ProductType::Upgrade | ProductType::Subscription | ProductType::Template => 5,
+    }
 }
 
 #[cfg(test)]
@@ -247,6 +281,45 @@ mod tests {
         assert_eq!(
             results[0].slug, "super-reverb",
             "Plugin with 'reverb' in name should rank above one with 'reverb' only in description"
+        );
+    }
+
+    #[test]
+    fn test_plugin_product_type_ranks_above_non_plugins() {
+        let mut bundle = make_plugin(
+            "synth-bundle",
+            "Synth Bundle",
+            "Acme Audio",
+            "A suite containing multiple synth products",
+            "bundle",
+            None,
+            vec![],
+        );
+        bundle.product_type = ProductType::Bundle;
+
+        let registry = make_registry(vec![
+            bundle,
+            make_plugin(
+                "super-synth",
+                "Super Synth",
+                "Acme Audio",
+                "A standalone synth plugin",
+                "instrument",
+                Some("synth"),
+                vec![],
+            ),
+        ]);
+
+        let results = search(&registry, "synth", None, None, None);
+
+        assert!(
+            results.len() >= 2,
+            "Expected at least 2 results, got {}",
+            results.len()
+        );
+        assert_eq!(
+            results[0].slug, "super-synth",
+            "Standalone plugins should rank ahead of bundles when relevance is similar"
         );
     }
 
