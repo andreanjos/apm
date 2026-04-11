@@ -13,10 +13,12 @@ homepage    = "https://www.xlnaudio.com/products/rc-20-retro-color"
 url          = "https://www.xlnaudio.com/products/rc-20-retro-color"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "RC-20 Retro Color.vst3"
 
 [formats.au]
 url          = "https://www.xlnaudio.com/products/rc-20-retro-color"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "RC-20 Retro Color.component"

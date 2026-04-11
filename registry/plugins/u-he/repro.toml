@@ -13,10 +13,12 @@ homepage    = "https://u-he.com/products/repro/"
 url          = "https://dl.u-he.com/releases/Repro_113_16797_Mac.zip"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
+download_type = "manual"
 bundle_path  = "Repro-1.vst3"
 
 [formats.au]
 url          = "https://dl.u-he.com/releases/Repro_113_16797_Mac.zip"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
+download_type = "manual"
 bundle_path  = "Repro-1.component"

@@ -13,10 +13,12 @@ homepage    = "https://line6.com/helix/helixnative.html"
 url          = "https://line6.com/software/index.html?hardware=All&name=Helix+Native"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Helix Native.vst3"
 
 [formats.au]
 url          = "https://line6.com/software/index.html?hardware=All&name=Helix+Native"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Helix Native.component"

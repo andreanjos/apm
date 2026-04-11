@@ -13,10 +13,12 @@ homepage    = "https://output.com/products/thermal"
 url          = "https://output.com/products/thermal"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Thermal.vst3"
 
 [formats.au]
 url          = "https://output.com/products/thermal"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Thermal.component"

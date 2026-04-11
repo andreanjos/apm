@@ -13,10 +13,12 @@ homepage    = "https://tal-software.com/products/tal-mod"
 url          = "https://tal-software.com/products/tal-mod"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "TAL-Mod.vst3"
 
 [formats.au]
 url          = "https://tal-software.com/products/tal-mod"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "TAL-Mod.component"

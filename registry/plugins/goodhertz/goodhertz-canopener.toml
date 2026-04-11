@@ -13,10 +13,12 @@ homepage    = "https://goodhertz.com/canopener-studio/"
 url          = "https://goodhertz.com/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Ghz CanOpener Studio 3.vst3"
 
 [formats.au]
 url          = "https://goodhertz.com/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Ghz CanOpener Studio 3.component"

@@ -15,10 +15,12 @@ homepage    = "https://www.celemony.com/en/melodyne/what-is-melodyne"
 url          = "https://www.celemony.com/en/service1/registration-login"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Melodyne.vst3"
 
 [formats.au]
 url          = "https://www.celemony.com/en/service1/registration-login"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Melodyne.component"

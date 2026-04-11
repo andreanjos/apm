@@ -13,10 +13,12 @@ homepage    = "https://www.cableguys.com/pancake.html"
 url          = "https://www.cableguys.com/register-pancake-2"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "PanCake2.vst3"
 
 [formats.au]
 url          = "https://www.cableguys.com/register-pancake-2"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "PanCake2.component"

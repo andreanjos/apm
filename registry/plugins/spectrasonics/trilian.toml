@@ -13,10 +13,12 @@ homepage    = "https://www.spectrasonics.net/products/trilian.php"
 url          = "https://www.spectrasonics.net/products/trilian/buytrilian.php"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Trilian.vst3"
 
 [formats.au]
 url          = "https://www.spectrasonics.net/products/trilian/buytrilian.php"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Trilian.component"

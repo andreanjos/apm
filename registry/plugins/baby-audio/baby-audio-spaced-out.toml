@@ -13,10 +13,12 @@ homepage    = "https://babyaud.io/spaced-out-plugin"
 url          = "https://babyaud.io/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Spaced Out.vst3"
 
 [formats.au]
 url          = "https://babyaud.io/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Spaced Out.component"

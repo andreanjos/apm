@@ -13,10 +13,12 @@ homepage    = "https://www.audiothing.net/effects/vinyl-strip/"
 url          = "https://www.audiothing.net/effects/vinyl-strip/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Vinyl Strip.vst3"
 
 [formats.au]
 url          = "https://www.audiothing.net/effects/vinyl-strip/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Vinyl Strip.component"

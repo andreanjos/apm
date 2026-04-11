@@ -13,10 +13,12 @@ homepage    = "https://www.ikmultimedia.com/products/amplitube5/"
 url          = "https://www.ikmultimedia.com/products/amplitube5/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "AmpliTube 5.vst3"
 
 [formats.au]
 url          = "https://www.ikmultimedia.com/products/amplitube5/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "AmpliTube 5.component"

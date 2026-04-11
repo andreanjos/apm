@@ -13,10 +13,12 @@ homepage    = "https://www.xlnaudio.com/products/ds-10-drum-shaper"
 url          = "https://www.xlnaudio.com/products/ds-10-drum-shaper"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "DS-10 Drum Shaper.vst3"
 
 [formats.au]
 url          = "https://www.xlnaudio.com/products/ds-10-drum-shaper"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "DS-10 Drum Shaper.component"

@@ -15,10 +15,12 @@ homepage    = "https://www.tokyodawn.net/tdr-limiter6-ge/"
 url          = "https://www.tokyodawn.net/tdr-limiter6-ge/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "TDR Limiter 6 GE.vst3"
 
 [formats.au]
 url          = "https://www.tokyodawn.net/tdr-limiter6-ge/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "TDR Limiter 6 GE.component"

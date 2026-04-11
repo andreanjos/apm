@@ -13,10 +13,12 @@ homepage    = "https://www.eventideaudio.com/plug-ins/h3000-band-delays-mk-ii/"
 url          = "https://downloads.eventide.com/audio/installers/plug-ins/H3000BandDelaysMkII/H3000-Band-Delays-Mk-II-1.3.4-osx-installer.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "H3000 Band Delays.vst3"
 
 [formats.au]
 url          = "https://downloads.eventide.com/audio/installers/plug-ins/H3000BandDelaysMkII/H3000-Band-Delays-Mk-II-1.3.4-osx-installer.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "H3000 Band Delays.component"

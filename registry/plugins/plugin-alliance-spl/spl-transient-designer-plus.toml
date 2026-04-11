@@ -13,10 +13,12 @@ homepage    = "https://www.plugin-alliance.com/en/products/spl_transient_designe
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "SPL Transient Designer Plus.vst3"
 
 [formats.au]
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "SPL Transient Designer Plus.component"

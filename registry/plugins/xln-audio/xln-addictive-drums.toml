@@ -13,10 +13,12 @@ homepage    = "https://www.xlnaudio.com/products/addictive-drums-2"
 url          = "https://www.xlnaudio.com/products/addictive-drums-2"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Addictive Drums 2.vst3"
 
 [formats.au]
 url          = "https://www.xlnaudio.com/products/addictive-drums-2"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Addictive Drums 2.component"

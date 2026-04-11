@@ -13,10 +13,12 @@ homepage    = "https://www.xlnaudio.com/products/xo"
 url          = "https://www.xlnaudio.com/products/xo"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "XO.vst3"
 
 [formats.au]
 url          = "https://www.xlnaudio.com/products/xo"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "XO.component"

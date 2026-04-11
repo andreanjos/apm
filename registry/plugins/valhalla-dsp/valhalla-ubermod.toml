@@ -16,10 +16,12 @@ homepage    = "https://valhalladsp.com/shop/delay/valhalla-uber-mod/"
 url          = "https://valhalladsp.com/shop/delay/valhalla-uber-mod/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "ValhallaUberMod.vst3"
 
 [formats.au]
 url          = "https://valhalladsp.com/shop/delay/valhalla-uber-mod/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "ValhallaUberMod.component"

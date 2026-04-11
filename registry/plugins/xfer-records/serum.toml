@@ -13,10 +13,12 @@ homepage    = "https://xferrecords.com/products/serum-2"
 url          = "https://xferrecords.com/products/serum-2"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Serum.vst3"
 
 [formats.au]
 url          = "https://xferrecords.com/products/serum-2"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Serum.component"

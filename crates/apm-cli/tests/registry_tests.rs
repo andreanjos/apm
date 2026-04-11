@@ -16,6 +16,7 @@ use walkdir::WalkDir;
 enum PluginFormat {
     Au,
     Vst3,
+    App,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
@@ -24,6 +25,7 @@ enum InstallType {
     Dmg,
     Pkg,
     Zip,
+    Mas,
 }
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
@@ -187,6 +189,19 @@ fn fixtures_dir() -> PathBuf {
     let mut d = PathBuf::from(env!("CARGO_MANIFEST_DIR"));
     d.push("tests/fixtures");
     d
+}
+
+fn published_registry_dir() -> PathBuf {
+    let mut d = PathBuf::from(env!("CARGO_MANIFEST_DIR"));
+    d.pop();
+    d.pop();
+    d.push("registry");
+    d
+}
+
+fn is_placeholder_sha256(sha256: &str) -> bool {
+    let value = sha256.trim();
+    value.is_empty() || value == "manual" || value.chars().all(|c| c == '0')
 }
 
 // ── Registry loading ──────────────────────────────────────────────────────────
@@ -460,4 +475,30 @@ fn test_reverb_plugin_vst3_format_has_correct_url() {
     assert_eq!(vst3.sha256, "abc123");
     assert_eq!(vst3.install_type, InstallType::Zip);
     assert_eq!(vst3.bundle_path.as_deref(), Some("TestReverb.vst3"));
+}
+
+#[test]
+fn test_published_registry_has_no_unverified_direct_downloads() {
+    let registry = Registry::load_from_cache(&published_registry_dir())
+        .expect("published registry should load");
+    assert!(
+        registry.len() > 500,
+        "published registry should include the full plugin set"
+    );
+
+    let mut offenders = Vec::new();
+    for plugin in registry.plugins.values() {
+        for (format, source) in &plugin.formats {
+            let download_type = source.download_type.clone().unwrap_or(DownloadType::Direct);
+            if download_type == DownloadType::Direct && is_placeholder_sha256(&source.sha256) {
+                offenders.push(format!("{}:{format:?}", plugin.slug));
+            }
+        }
+    }
+
+    assert!(
+        offenders.is_empty(),
+        "direct downloads must have real SHA256 checksums; offenders: {}",
+        offenders.join(", ")
+    );
 }

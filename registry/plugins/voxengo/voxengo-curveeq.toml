@@ -13,10 +13,12 @@ homepage    = "https://www.voxengo.com/product/curveeq/"
 url          = "https://www.voxengo.com/product/curveeq/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "VoxengoCurveEQ.vst3"
 
 [formats.au]
 url          = "https://www.voxengo.com/product/curveeq/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "VoxengoCurveEQ.component"

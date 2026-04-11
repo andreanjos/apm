@@ -13,10 +13,12 @@ homepage    = "https://www.spectrasonics.net/products/keyscape/"
 url          = "https://www.spectrasonics.net/products/keyscape/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Keyscape.vst3"
 
 [formats.au]
 url          = "https://www.spectrasonics.net/products/keyscape/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Keyscape.component"

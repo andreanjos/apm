@@ -13,10 +13,12 @@ homepage    = "https://xferrecords.com/products/lfo-tool"
 url          = "https://xferrecords.com/products/lfo-tool"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "LFOTool.vst3"
 
 [formats.au]
 url          = "https://xferrecords.com/products/lfo-tool"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "LFOTool.component"

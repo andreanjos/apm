@@ -13,10 +13,12 @@ homepage    = "https://www.newfangledaudio.com/elevate"
 url          = "https://www.newfangledaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Elevate.vst3"
 
 [formats.au]
 url          = "https://www.newfangledaudio.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Elevate.component"

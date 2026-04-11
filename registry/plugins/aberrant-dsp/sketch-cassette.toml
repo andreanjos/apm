@@ -13,10 +13,12 @@ homepage    = "https://aberrantdsp.com/plugins/sketchcassette/"
 url          = "https://aberrantdsp.com/plugins/sketchcassette/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "SketchCassette II.vst3"
 
 [formats.au]
 url          = "https://aberrantdsp.com/plugins/sketchcassette/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "SketchCassette II.component"

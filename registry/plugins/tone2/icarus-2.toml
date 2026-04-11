@@ -13,10 +13,12 @@ homepage    = "https://www.tone2.com/icarus.html"
 url          = "https://www.tone2.com/download-for-mac.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Icarus.vst3"
 
 [formats.au]
 url          = "https://www.tone2.com/download-for-mac.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Icarus.component"

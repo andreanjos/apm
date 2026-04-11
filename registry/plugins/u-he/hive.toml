@@ -13,10 +13,12 @@ homepage    = "https://u-he.com/products/hive/"
 url          = "https://dl.u-he.com/releases/Hive_212_16520_Mac.zip"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
+download_type = "manual"
 bundle_path  = "Hive.vst3"
 
 [formats.au]
 url          = "https://dl.u-he.com/releases/Hive_212_16520_Mac.zip"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
+download_type = "manual"
 bundle_path  = "Hive.component"

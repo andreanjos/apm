@@ -13,10 +13,12 @@ homepage    = "https://cherryaudio.com/products/dreamsynth"
 url          = "https://cherryaudio.com/products/dreamsynth/download"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Dreamsynth.vst3"
 
 [formats.au]
 url          = "https://cherryaudio.com/products/dreamsynth/download"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Dreamsynth.component"

@@ -13,10 +13,12 @@ homepage    = "https://www.izotope.com/en/products/ozone.html"
 url          = "https://www.izotope.com/en/products/downloads.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Ozone 11.vst3"
 
 [formats.au]
 url          = "https://www.izotope.com/en/products/downloads.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Ozone 11.component"

@@ -15,10 +15,12 @@ homepage    = "https://www.izotope.com/en/products/nectar"
 url          = "https://www.izotope.com/en/products/nectar"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Nectar 4.vst3"
 
 [formats.au]
 url          = "https://www.izotope.com/en/products/nectar"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Nectar 4.component"

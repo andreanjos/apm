@@ -13,10 +13,12 @@ homepage    = "https://www.toontrack.com/product/ezbass/"
 url          = "https://www.toontrack.com/product/ezbass/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "EZbass.vst3"
 
 [formats.au]
 url          = "https://www.toontrack.com/product/ezbass/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "EZbass.component"

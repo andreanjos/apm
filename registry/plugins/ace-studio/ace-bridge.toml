@@ -13,10 +13,12 @@ homepage    = "https://ace-studio.timedomain.cn/"
 url          = "https://ace-studio.timedomain.cn/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "ACE Bridge 2.vst3"
 
 [formats.au]
 url          = "https://ace-studio.timedomain.cn/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "ACE Bridge 2.component"

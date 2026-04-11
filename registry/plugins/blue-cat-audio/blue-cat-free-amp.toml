@@ -13,10 +13,12 @@ homepage    = "https://www.bluecataudio.com/Products/Product_FreeAmp/"
 url          = "https://www.bluecataudio.com/Products/Product_FreeAmp/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "BlueCatFreeAmp.vst3"
 
 [formats.au]
 url          = "https://www.bluecataudio.com/Products/Product_FreeAmp/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "BlueCatFreeAmp.component"

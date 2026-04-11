@@ -16,10 +16,12 @@ homepage    = "https://www.acustica-audio.com/shop/products/ASH"
 url          = "https://www.acustica-audio.com/pages/plugins-installation"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Ash.vst3"
 
 [formats.au]
 url          = "https://www.acustica-audio.com/pages/plugins-installation"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Ash.component"

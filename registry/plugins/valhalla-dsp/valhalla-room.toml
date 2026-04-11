@@ -13,10 +13,12 @@ homepage    = "https://valhalladsp.com/shop/reverb/valhalla-room/"
 url          = "https://valhalladsp.com/demos-downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "ValhallaRoom.vst3"
 
 [formats.au]
 url          = "https://valhalladsp.com/demos-downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "ValhallaRoom.component"

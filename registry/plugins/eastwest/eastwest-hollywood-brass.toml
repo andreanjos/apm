@@ -13,10 +13,12 @@ homepage    = "https://www.soundsonline.com/orchestras/hollywood-orchestra-opus-
 url          = "https://www.soundsonline.com/support/updates"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "EastWest Opus.vst3"
 
 [formats.au]
 url          = "https://www.soundsonline.com/support/updates"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "EastWest Opus.component"

@@ -13,10 +13,12 @@ homepage    = "https://output.com/products/arcade"
 url          = "https://output.com/products/arcade"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Arcade.vst3"
 
 [formats.au]
 url          = "https://output.com/products/arcade"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Arcade.component"

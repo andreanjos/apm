@@ -13,10 +13,12 @@ homepage    = "https://www.waves.com/plugins/center"
 url          = "https://www.waves.com/downloads/central"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Center.vst3"
 
 [formats.au]
 url          = "https://www.waves.com/downloads/central"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Center.component"

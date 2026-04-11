@@ -13,10 +13,12 @@ homepage    = "https://www.eventideaudio.com/plug-ins/mangledverb/"
 url          = "https://downloads.eventide.com/audio/installers/plug-ins/MangledVerb/MangledVerb-2.10.4-osx-installer.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "MangledVerb.vst3"
 
 [formats.au]
 url          = "https://downloads.eventide.com/audio/installers/plug-ins/MangledVerb/MangledVerb-2.10.4-osx-installer.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "MangledVerb.component"

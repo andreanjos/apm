@@ -13,10 +13,12 @@ homepage    = "https://www.wavesfactory.com/audio-plugins/spectre/"
 url          = "https://www.wavesfactory.com/audio-plugins/spectre/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Spectre.vst3"
 
 [formats.au]
 url          = "https://www.wavesfactory.com/audio-plugins/spectre/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Spectre.component"

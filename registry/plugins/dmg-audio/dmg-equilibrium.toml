@@ -13,10 +13,12 @@ homepage    = "https://dmgaudio.com/products_equilibrium.php"
 url          = "https://dmgaudio.com/downloads.php"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "EQuilibrium.vst3"
 
 [formats.au]
 url          = "https://dmgaudio.com/downloads.php"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "EQuilibrium.component"

@@ -13,10 +13,12 @@ homepage    = "https://initialaudio.com/sektor-wavetable-synthesizer/"
 url          = "https://initialaudio.com/sektor-wavetable-synthesizer/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Sektor.vst3"
 
 [formats.au]
 url          = "https://initialaudio.com/sektor-wavetable-synthesizer/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Sektor.component"

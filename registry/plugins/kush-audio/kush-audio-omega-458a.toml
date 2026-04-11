@@ -15,10 +15,12 @@ homepage    = "https://thehouseofkush.com/products/omega-458a"
 url          = "https://thehouseofkush.com/pages/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Omega 458a.vst3"
 
 [formats.au]
 url          = "https://thehouseofkush.com/pages/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Omega 458a.component"

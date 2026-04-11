@@ -13,10 +13,12 @@ homepage    = "https://slatedigital.com/plugins/"
 url          = "https://slatedigital.com/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "MetaTone.vst3"
 
 [formats.au]
 url          = "https://slatedigital.com/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "MetaTone.component"

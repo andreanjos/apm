@@ -15,10 +15,12 @@ homepage    = "https://klanghelm.com/contents/products/SDRR.html"
 url          = "https://klanghelm.com/contents/products/SDRR.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "SDRR2.vst3"
 
 [formats.au]
 url          = "https://klanghelm.com/contents/products/SDRR.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "SDRR2.component"

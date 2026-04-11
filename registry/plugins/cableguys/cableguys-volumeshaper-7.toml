@@ -13,10 +13,12 @@ homepage    = "https://www.cableguys.com/volumeshaper"
 url          = "https://www.cableguys.com/installation"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "VolumeShaper 7.vst3"
 
 [formats.au]
 url          = "https://www.cableguys.com/installation"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "VolumeShaper 7.component"

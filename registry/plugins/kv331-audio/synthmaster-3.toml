@@ -13,10 +13,12 @@ homepage    = "https://www.kv331audio.com/synthmaster3.aspx"
 url          = "https://www.kv331audio.com/downloads.aspx"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "SynthMaster3.vst3"
 
 [formats.au]
 url          = "https://www.kv331audio.com/downloads.aspx"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "SynthMaster3.component"

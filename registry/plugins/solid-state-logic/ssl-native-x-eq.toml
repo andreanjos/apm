@@ -13,10 +13,12 @@ homepage    = "https://www.solidstatelogic.com/products/native-x-eq-2"
 url          = "https://www.solidstatelogic.com/support/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "SSL Native X-EQ 2.vst3"
 
 [formats.au]
 url          = "https://www.solidstatelogic.com/support/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "SSL Native X-EQ 2.component"

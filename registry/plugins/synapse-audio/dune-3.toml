@@ -13,10 +13,12 @@ homepage    = "https://www.synapse-audio.com/dune3.html"
 url          = "https://www.synapse-audio.com/dune3.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "DUNE 3.vst3"
 
 [formats.au]
 url          = "https://www.synapse-audio.com/dune3.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "DUNE 3.component"

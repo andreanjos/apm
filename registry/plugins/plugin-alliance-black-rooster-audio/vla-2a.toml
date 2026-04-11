@@ -13,10 +13,12 @@ homepage    = "https://www.plugin-alliance.com/en/products/black_rooster_audio_v
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "VLA-2A.vst3"
 
 [formats.au]
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "VLA-2A.component"

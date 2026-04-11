@@ -15,10 +15,12 @@ homepage    = "https://blackroosteraudio.com/en/products/veq-1p"
 url          = "https://blackroosteraudio.com/en/products/veq-1p"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "VEQ-1P.vst3"
 
 [formats.au]
 url          = "https://blackroosteraudio.com/en/products/veq-1p"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "VEQ-1P.component"

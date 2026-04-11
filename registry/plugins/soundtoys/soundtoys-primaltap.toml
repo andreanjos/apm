@@ -13,10 +13,12 @@ homepage    = "https://www.soundtoys.com/product/primaltap/"
 url          = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/PrimalTap5_5.5.4.18982.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "PrimalTap.vst3"
 
 [formats.au]
 url          = "https://storage.googleapis.com/soundtoys-download/versions/version_5_5_4_18982/PrimalTap5_5.5.4.18982.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "PrimalTap.component"

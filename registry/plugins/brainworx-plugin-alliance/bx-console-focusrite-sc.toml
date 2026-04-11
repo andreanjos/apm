@@ -15,10 +15,12 @@ homepage    = "https://www.plugin-alliance.com/products/bx_console-focusrite-sc"
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "bx_console Focusrite SC.vst3"
 
 [formats.au]
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "bx_console Focusrite SC.component"

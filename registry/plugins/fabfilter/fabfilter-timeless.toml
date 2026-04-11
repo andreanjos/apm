@@ -13,10 +13,12 @@ homepage    = "https://www.fabfilter.com/products/timeless-3-delay-plug-in"
 url          = "https://cdn-b.fabfilter.com/downloads/fftimeless309.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "FabFilter Timeless 3.vst3"
 
 [formats.au]
 url          = "https://cdn-b.fabfilter.com/downloads/fftimeless309.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "FabFilter Timeless 3.component"

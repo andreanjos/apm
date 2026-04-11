@@ -13,10 +13,12 @@ homepage    = "https://babyaud.io/freebies"
 url          = "https://babyaud.io/freebies"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Super VHS.vst3"
 
 [formats.au]
 url          = "https://babyaud.io/freebies"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Super VHS.component"

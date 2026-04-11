@@ -13,10 +13,12 @@ homepage    = "https://www.sonnox.com/plugin/oxford-limiter"
 url          = "https://sonnox.com/installers"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Oxford Limiter.vst3"
 
 [formats.au]
 url          = "https://sonnox.com/installers"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Oxford Limiter.component"

@@ -13,10 +13,12 @@ homepage    = "https://output.com/products/portal"
 url          = "https://output.com/products/portal"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Portal.vst3"
 
 [formats.au]
 url          = "https://output.com/products/portal"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Portal.component"

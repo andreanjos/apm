@@ -13,10 +13,12 @@ homepage    = "https://xferrecords.com/products/cthulhu"
 url          = "https://xferrecords.com/products/cthulhu"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Cthulhu.vst3"
 
 [formats.au]
 url          = "https://xferrecords.com/products/cthulhu"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Cthulhu.component"

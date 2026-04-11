@@ -13,10 +13,12 @@ homepage    = "https://babyaud.io/crystalline"
 url          = "https://babyaud.io/crystalline"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Crystalline.vst3"
 
 [formats.au]
 url          = "https://babyaud.io/crystalline"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Crystalline.component"

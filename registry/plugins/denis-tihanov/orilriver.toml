@@ -13,10 +13,12 @@ homepage    = "https://www.kvraudio.com/product/orilriver-by-denis-tihanov"
 url          = "https://www.kvraudio.com/product/orilriver-by-denis-tihanov"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
+download_type = "manual"
 bundle_path  = "OrilRiver.vst3"
 
 [formats.au]
 url          = "https://www.kvraudio.com/product/orilriver-by-denis-tihanov"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
+download_type = "manual"
 bundle_path  = "OrilRiver.component"

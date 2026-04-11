@@ -13,10 +13,12 @@ homepage    = "https://www.meldaproduction.com/MAutoPitch"
 url          = "https://www.meldaproduction.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
+download_type = "manual"
 bundle_path  = "MAutoPitch.vst3"
 
 [formats.au]
 url          = "https://www.meldaproduction.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
+download_type = "manual"
 bundle_path  = "MAutoPitch.component"

@@ -13,10 +13,12 @@ homepage    = "https://www.reveal-sound.com/"
 url          = "https://www.reveal-sound.com/store/product/Spire_Synthesizer_License"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Spire.vst3"
 
 [formats.au]
 url          = "https://www.reveal-sound.com/store/product/Spire_Synthesizer_License"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Spire.component"

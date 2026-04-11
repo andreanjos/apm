@@ -13,10 +13,12 @@ homepage    = "https://www.deniseaudio.com/plugins/perfect-room-2"
 url          = "https://www.deniseaudio.com/plugins/perfect-room-2"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Perfect Room 2.vst3"
 
 [formats.au]
 url          = "https://www.deniseaudio.com/plugins/perfect-room-2"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Perfect Room 2.component"

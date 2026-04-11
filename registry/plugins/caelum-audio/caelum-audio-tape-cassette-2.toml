@@ -13,10 +13,12 @@ homepage    = "https://www.caelumaudio.com/CaelumAudio/?Page=TapeCassette2"
 url          = "https://www.caelumaudio.com/CaelumAudio/?Page=TapeCassette2"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "TapeCassette2.vst3"
 
 [formats.au]
 url          = "https://www.caelumaudio.com/CaelumAudio/?Page=TapeCassette2"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "TapeCassette2.component"

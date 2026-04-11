@@ -13,10 +13,12 @@ homepage    = "https://bertomaudio.com/denoiser-classic.html"
 url          = "https://bertomaudio.com/denoiser-classic.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Denoiser Classic.vst3"
 
 [formats.au]
 url          = "https://bertomaudio.com/denoiser-classic.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Denoiser Classic.component"

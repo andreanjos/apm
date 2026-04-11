@@ -13,10 +13,12 @@ homepage    = "https://www.plugin-alliance.com/en/products/unfiltered_audio_byom
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "BYOME.vst3"
 
 [formats.au]
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "BYOME.component"

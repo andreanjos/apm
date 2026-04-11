@@ -13,10 +13,12 @@ homepage    = "https://cherryaudio.com/products/memorymode"
 url          = "https://cherryaudio.com/products/memorymode/download"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Memorymode.vst3"
 
 [formats.au]
 url          = "https://cherryaudio.com/products/memorymode/download"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Memorymode.component"

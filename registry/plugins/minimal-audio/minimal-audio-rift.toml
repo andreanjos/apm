@@ -13,10 +13,12 @@ homepage    = "https://www.minimal.audio/products/rift"
 url          = "https://www.minimal.audio/products/rift"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Rift.vst3"
 
 [formats.au]
 url          = "https://www.minimal.audio/products/rift"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Rift.component"

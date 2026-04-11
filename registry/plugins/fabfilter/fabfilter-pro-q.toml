@@ -13,10 +13,12 @@ homepage    = "https://www.fabfilter.com/products/pro-q-4-equalizer-plug-in"
 url          = "https://cdn-b.fabfilter.com/downloads/ffproq411.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "FabFilter Pro-Q 4.vst3"
 
 [formats.au]
 url          = "https://cdn-b.fabfilter.com/downloads/ffproq411.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "FabFilter Pro-Q 4.component"

@@ -13,10 +13,12 @@ homepage    = "https://www.fabfilter.com/products/pro-mb-multiband-compressor-pl
 url          = "https://www.fabfilter.com/shop/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "FabFilter Pro-MB.vst3"
 
 [formats.au]
 url          = "https://www.fabfilter.com/shop/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "FabFilter Pro-MB.component"

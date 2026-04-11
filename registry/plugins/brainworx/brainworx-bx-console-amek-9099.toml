@@ -13,10 +13,12 @@ homepage    = "https://www.plugin-alliance.com/en/products/bx_console_amek_9099.
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "bx_console AMEK 9099.vst3"
 
 [formats.au]
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "bx_console AMEK 9099.component"

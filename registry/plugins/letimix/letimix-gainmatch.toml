@@ -13,10 +13,12 @@ homepage    = "https://letimix.com/products/gainmatch"
 url          = "https://letimix.com/products/gainmatch"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "GainMatch.vst3"
 
 [formats.au]
 url          = "https://letimix.com/products/gainmatch"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "GainMatch.component"

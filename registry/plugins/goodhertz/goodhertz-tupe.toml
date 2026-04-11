@@ -13,10 +13,12 @@ homepage    = "https://goodhertz.com/tupe/"
 url          = "https://goodhertz.com/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Ghz Tupe 3.vst3"
 
 [formats.au]
 url          = "https://goodhertz.com/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Ghz Tupe 3.component"

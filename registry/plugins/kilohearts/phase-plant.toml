@@ -13,10 +13,12 @@ homepage    = "https://kilohearts.com/products/phase_plant"
 url          = "https://kilohearts.com/files/releases/installer/Kilohearts%20Offline%20Installer.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Phase Plant.vst3"
 
 [formats.au]
 url          = "https://kilohearts.com/files/releases/installer/Kilohearts%20Offline%20Installer.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Phase Plant.component"

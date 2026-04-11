@@ -13,10 +13,12 @@ homepage    = "https://www.fabfilter.com/products/saturn-2-multiband-distortion-
 url          = "https://cdn-b.fabfilter.com/downloads/ffsaturn212.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "FabFilter Saturn 2.vst3"
 
 [formats.au]
 url          = "https://cdn-b.fabfilter.com/downloads/ffsaturn212.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "FabFilter Saturn 2.component"

@@ -13,10 +13,12 @@ homepage    = "https://waldorfmusic.com/largo-2/"
 url          = "https://waldorfmusic.com/largo-2/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Largo 2.vst3"
 
 [formats.au]
 url          = "https://waldorfmusic.com/largo-2/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Largo 2.component"

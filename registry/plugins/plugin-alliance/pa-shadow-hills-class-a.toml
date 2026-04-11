@@ -13,10 +13,12 @@ homepage    = "https://www.plugin-alliance.com/en/products/shadow_hills_class_a_
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Shadow Hills Mastering Compressor Class A.vst3"
 
 [formats.au]
 url          = "https://www.plugin-alliance.com/en/installation-manager.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Shadow Hills Mastering Compressor Class A.component"

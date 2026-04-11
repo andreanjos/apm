@@ -13,10 +13,12 @@ homepage    = "https://www.newfangledaudio.com/generate"
 url          = "https://store.eventideaudio.com/products/generate"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Generate.vst3"
 
 [formats.au]
 url          = "https://store.eventideaudio.com/products/generate"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Generate.component"

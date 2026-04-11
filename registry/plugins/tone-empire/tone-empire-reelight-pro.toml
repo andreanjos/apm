@@ -15,10 +15,12 @@ homepage    = "https://tone-empire.com/shop/reelight-pro/"
 url          = "https://tone-empire.com/shop/reelight-pro/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Reelight Pro.vst3"
 
 [formats.au]
 url          = "https://tone-empire.com/shop/reelight-pro/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Reelight Pro.component"

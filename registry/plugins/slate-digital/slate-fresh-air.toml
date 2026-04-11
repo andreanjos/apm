@@ -13,10 +13,12 @@ homepage    = "https://slatedigital.com/fresh-air/"
 url          = "https://slatedigital.com/fresh-air/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Fresh Air.vst3"
 
 [formats.au]
 url          = "https://slatedigital.com/fresh-air/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Fresh Air.component"

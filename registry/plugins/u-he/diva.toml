@@ -13,10 +13,12 @@ homepage    = "https://u-he.com/products/diva/"
 url          = "https://dl.u-he.com/releases/Diva_148_16519_Mac.zip"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
+download_type = "manual"
 bundle_path  = "Diva.vst3"
 
 [formats.au]
 url          = "https://dl.u-he.com/releases/Diva_148_16519_Mac.zip"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "zip"
+download_type = "manual"
 bundle_path  = "Diva.component"

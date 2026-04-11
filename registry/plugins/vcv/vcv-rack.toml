@@ -13,10 +13,12 @@ homepage    = "https://vcvrack.com/Rack"
 url          = "https://vcvrack.com/downloads/RackFree-2.6.6-mac-x64+arm64.pkg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "VCV Rack 2 Pro.vst3"
 
 [formats.au]
 url          = "https://vcvrack.com/downloads/RackFree-2.6.6-mac-x64+arm64.pkg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "VCV Rack 2 Pro.component"

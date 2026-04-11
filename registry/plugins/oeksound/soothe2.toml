@@ -13,10 +13,12 @@ homepage    = "https://oeksound.com/plugins/soothe2/"
 url          = "https://oeksound.com/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "soothe2.vst3"
 
 [formats.au]
 url          = "https://oeksound.com/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "soothe2.component"

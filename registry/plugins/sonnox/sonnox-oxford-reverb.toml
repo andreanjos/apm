@@ -15,10 +15,12 @@ homepage    = "https://sonnox.com/products/oxford-reverb"
 url          = "https://sonnox.com/products/oxford-reverb"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Oxford Reverb.vst3"
 
 [formats.au]
 url          = "https://sonnox.com/products/oxford-reverb"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Oxford Reverb.component"

@@ -13,10 +13,12 @@ homepage    = "https://goodhertz.com/tone-control/"
 url          = "https://goodhertz.com/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Ghz Tone Control 3.vst3"
 
 [formats.au]
 url          = "https://goodhertz.com/downloads/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Ghz Tone Control 3.component"

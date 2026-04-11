@@ -16,10 +16,12 @@ homepage    = "https://accusonus.com/products/audio-repair/era-de-esser"
 url          = "https://accusonus.s3.amazonaws.com/public/products/era-bundle/current/ERA_Bundle_v6.2.00-VoiceChanger_v1.3.10-MAC.zip"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "ERA De-Esser.vst3"
 
 [formats.au]
 url          = "https://accusonus.s3.amazonaws.com/public/products/era-bundle/current/ERA_Bundle_v6.2.00-VoiceChanger_v1.3.10-MAC.zip"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "ERA De-Esser.component"

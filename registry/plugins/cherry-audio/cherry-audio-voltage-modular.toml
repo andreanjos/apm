@@ -13,10 +13,12 @@ homepage    = "https://cherryaudio.com/products/voltage-modular"
 url          = "https://cherryaudio.com/products/voltage-modular/download"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Voltage Modular.vst3"
 
 [formats.au]
 url          = "https://cherryaudio.com/products/voltage-modular/download"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Voltage Modular.component"

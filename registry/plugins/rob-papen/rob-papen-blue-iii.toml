@@ -13,10 +13,12 @@ homepage    = "https://www.robpapen.com/blue3.html"
 url          = "https://www.robpapen.com/blue3-demo.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Blue-III.vst3"
 
 [formats.au]
 url          = "https://www.robpapen.com/blue3-demo.html"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Blue-III.component"

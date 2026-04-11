@@ -13,10 +13,12 @@ homepage    = "https://waldorfmusic.com/nave-plugin-en/"
 url          = "https://waldorfmusic.com/nave-plugin-en/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Nave.vst3"
 
 [formats.au]
 url          = "https://waldorfmusic.com/nave-plugin-en/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Nave.component"

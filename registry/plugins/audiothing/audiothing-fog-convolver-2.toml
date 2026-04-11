@@ -16,10 +16,12 @@ homepage    = "https://www.audiothing.net/effects/fog-convolver/"
 url          = "https://www.audiothing.net/effects/fog-convolver/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Fog Convolver 2.vst3"
 
 [formats.au]
 url          = "https://www.audiothing.net/effects/fog-convolver/"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "Fog Convolver 2.component"

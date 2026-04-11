@@ -13,10 +13,12 @@ homepage    = "https://tal-software.com/products/tal-u-no-lx"
 url          = "https://tal-software.com/products/tal-u-no-lx"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "TAL-U-NO-LX-V2.vst3"
 
 [formats.au]
 url          = "https://tal-software.com/products/tal-u-no-lx"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "TAL-U-NO-LX-V2.component"

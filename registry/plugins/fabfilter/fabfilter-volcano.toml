@@ -13,10 +13,12 @@ homepage    = "https://www.fabfilter.com/products/volcano-3-filter-plug-in"
 url          = "https://cdn-b.fabfilter.com/downloads/ffvolcano308.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "FabFilter Volcano 3.vst3"
 
 [formats.au]
 url          = "https://cdn-b.fabfilter.com/downloads/ffvolcano308.dmg"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "FabFilter Volcano 3.component"

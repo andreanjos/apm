@@ -13,10 +13,12 @@ homepage    = "https://www.deniseaudio.com/plugins/god-mode"
 url          = "https://www.deniseaudio.com/plugins/god-mode"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "God Mode.vst3"
 
 [formats.au]
 url          = "https://www.deniseaudio.com/plugins/god-mode"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "pkg"
+download_type = "manual"
 bundle_path  = "God Mode.component"

@@ -13,10 +13,12 @@ homepage    = "https://neuraldsp.com/plugins/archetype-tim-henson"
 url          = "https://neuraldsp.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Archetype Tim Henson X.vst3"
 
 [formats.au]
 url          = "https://neuraldsp.com/downloads"
 sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
 install_type = "dmg"
+download_type = "manual"
 bundle_path  = "Archetype Tim Henson X.component"
