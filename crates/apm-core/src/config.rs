@@ -10,6 +10,12 @@ use tracing::{debug, info};
 
 use crate::registry::Source;
 
+/// Built-in official registry source.
+///
+/// The public repo is a monorepo; registry data lives under `registry/`.
+/// The registry loader accepts both dedicated registry repos and this layout.
+pub const DEFAULT_REGISTRY_URL: &str = "https://github.com/andreanjos/apm";
+
 // ── macOS Plugin Path Constants ───────────────────────────────────────────────
 
 /// System-wide AU (Audio Units) plugin directory.
@@ -87,7 +93,7 @@ pub enum InstallScope {
 /// apm user configuration, loaded from `~/.config/apm/config.toml`.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Config {
-    /// Default registry URL (cloned via git2 for `apm sync`).
+    /// Default registry URL (cloned by `apm sync`).
     #[serde(default = "default_registry_url")]
     pub default_registry_url: String,
 
@@ -118,7 +124,7 @@ pub struct SourceEntry {
 }
 
 fn default_registry_url() -> String {
-    "https://github.com/apm-pm/registry".to_string()
+    DEFAULT_REGISTRY_URL.to_string()
 }
 
 impl Default for Config {

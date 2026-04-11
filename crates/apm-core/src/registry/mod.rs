@@ -6,7 +6,7 @@ pub mod types;
 
 use installers::load_installers_toml;
 use std::collections::HashMap;
-use std::path::Path;
+use std::path::{Path, PathBuf};
 
 use anyhow::{Context, Result};
 use tracing::debug;
@@ -53,12 +53,17 @@ impl Registry {
         }
     }
 
-    /// Load all `.toml` files from `<cache_dir>/plugins/` into a `Registry`.
+    /// Load all `.toml` files from a registry checkout into a `Registry`.
+    ///
+    /// Dedicated registry repos are expected to have `plugins/` at the repo
+    /// root. The official monorepo keeps registry data under `registry/`; that
+    /// layout is detected automatically.
     ///
     /// Files that fail to parse are warned about and skipped; a partially-loaded
     /// registry is still useful.
     pub fn load_from_cache(cache_dir: &Path) -> Result<Self> {
-        let plugins_dir = cache_dir.join("plugins");
+        let registry_dir = registry_data_dir(cache_dir);
+        let plugins_dir = registry_dir.join("plugins");
         debug!("Loading registry from {}", plugins_dir.display());
 
         let mut registry = Self::new();
@@ -101,14 +106,14 @@ impl Registry {
 
         // Load shared bundle ID mappings from the registry repo.
         // These are crowdsourced from user scans and committed to the registry.
-        let bundle_ids_path = cache_dir.join("bundle_ids.toml");
+        let bundle_ids_path = registry_dir.join("bundle_ids.toml");
         if bundle_ids_path.exists() {
             if let Ok(content) = std::fs::read_to_string(&bundle_ids_path) {
                 registry.apply_shared_bundle_ids(&content);
             }
         }
 
-        let installers_path = cache_dir.join("installers.toml");
+        let installers_path = registry_dir.join("installers.toml");
         if installers_path.exists() {
             match load_installers_toml(&installers_path) {
                 Ok(installers) => registry.installers = installers,
@@ -182,7 +187,8 @@ impl Registry {
     ///
     /// Files that fail to parse are warned about and skipped.
     pub fn load_bundles_from_cache(&mut self, cache_dir: &Path) {
-        let bundles_dir = cache_dir.join("bundles");
+        let registry_dir = registry_data_dir(cache_dir);
+        let bundles_dir = registry_dir.join("bundles");
         debug!("Loading bundles from {}", bundles_dir.display());
 
         if !bundles_dir.exists() {
@@ -336,6 +342,19 @@ fn is_hidden(path: &Path) -> bool {
         .and_then(|name| name.to_str())
         .map(|name| name.starts_with('.'))
         .unwrap_or(false)
+}
+
+fn registry_data_dir(cache_dir: &Path) -> PathBuf {
+    if cache_dir.join("plugins").exists() {
+        return cache_dir.to_path_buf();
+    }
+
+    let nested = cache_dir.join("registry");
+    if nested.join("plugins").exists() {
+        return nested;
+    }
+
+    cache_dir.to_path_buf()
 }
 
 /// Parse a single plugin TOML file into a `PluginDefinition`.
@@ -557,6 +576,39 @@ install_type = "zip"
 
         let registry = Registry::load_from_cache(&temp).unwrap();
         assert!(registry.find("massive-x").is_some());
+
+        std::fs::remove_dir_all(&temp).unwrap();
+    }
+
+    #[test]
+    fn test_loads_registry_from_monorepo_subdirectory() {
+        let temp =
+            std::env::temp_dir().join(format!("apm-monorepo-registry-test-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&temp);
+
+        let plugins_dir = temp.join("registry/plugins/acme");
+        std::fs::create_dir_all(&plugins_dir).unwrap();
+        std::fs::write(
+            plugins_dir.join("mono-synth.toml"),
+            r#"
+slug = "mono-synth"
+name = "Mono Synth"
+vendor = "Acme"
+version = "1.0.0"
+description = "Fixture plugin"
+category = "instrument"
+license = "freeware"
+
+[formats.vst3]
+url = "https://example.com/mono-synth.zip"
+sha256 = "manual"
+install_type = "zip"
+"#,
+        )
+        .unwrap();
+
+        let registry = Registry::load_from_cache(&temp).unwrap();
+        assert!(registry.find("mono-synth").is_some());
 
         std::fs::remove_dir_all(&temp).unwrap();
     }

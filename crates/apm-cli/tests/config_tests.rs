@@ -38,7 +38,7 @@ struct Config {
 }
 
 fn default_registry_url() -> String {
-    "https://github.com/apm-pm/registry".to_string()
+    "https://github.com/andreanjos/apm".to_string()
 }
 
 impl Default for Config {
@@ -122,7 +122,7 @@ fn test_config_default_registry_url() {
     let config = Config::default();
     assert_eq!(
         config.default_registry_url,
-        "https://github.com/apm-pm/registry"
+        "https://github.com/andreanjos/apm"
     );
 }
 
@@ -174,7 +174,7 @@ fn test_config_toml_with_sources() {
     let config_path = tmp.path().join("config.toml");
 
     let toml_content = r#"
-default_registry_url = "https://github.com/apm-pm/registry"
+default_registry_url = "https://github.com/andreanjos/apm"
 install_scope = "user"
 
 [[sources]]

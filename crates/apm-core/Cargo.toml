@@ -22,7 +22,6 @@ dirs = "6"
 walkdir = "2"
 # plist: disable default features (no `enable_unstable_features_that_may_break_with_minor_version_bumps`)
 plist = { version = "1", default-features = false }
-git2 = { version = "0.19", features = ["vendored-openssl"] }
 # Optional: only pulled in when the "reqwest" feature is enabled
 reqwest = { version = "0.12", features = ["rustls-tls", "stream"], default-features = false, optional = true }
 

@@ -12,14 +12,12 @@ use flate2::write::DeflateEncoder;
 use flate2::Compression;
 use serde::{Deserialize, Serialize};
 
-use apm_core::config::{Config, InstallScope};
+use apm_core::config::{Config, InstallScope, DEFAULT_REGISTRY_URL};
 use apm_core::state::InstallState;
 
 // ── Constants ────────────────────────────────────────────────────────────────
 
 const SCHEME_PREFIX: &str = "apm1://";
-const DEFAULT_REGISTRY_URL: &str = "https://github.com/apm-pm/registry";
-
 // ── Data Model ───────────────────────────────────────────────────────────────
 
 #[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
@@ -604,7 +602,7 @@ mod tests {
         };
 
         let config = Config {
-            default_registry_url: "https://github.com/apm-pm/registry".to_string(),
+            default_registry_url: DEFAULT_REGISTRY_URL.to_string(),
             install_scope: InstallScope::User,
             data_dir: None,
             cache_dir: None,
@@ -904,7 +902,7 @@ mod tests {
         };
 
         let config = Config {
-            default_registry_url: "https://github.com/apm-pm/registry".to_string(),
+            default_registry_url: DEFAULT_REGISTRY_URL.to_string(),
             install_scope: InstallScope::User,
             data_dir: None,
             cache_dir: None,
