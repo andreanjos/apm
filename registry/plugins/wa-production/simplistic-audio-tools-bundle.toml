@@ -1,25 +1,26 @@
-slug        = "simplistic-audio-tools-bundle"
-name        = "Simplistic Audio Tools Bundle"
-vendor      = "WA Production"
-version     = "1.0.0"
-description = "A bundle of W.A. Production's streamlined one-knob and simple-interface audio processing plugins."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/bundles"
-is_paid     = true
+slug         = "simplistic-audio-tools-bundle"
+name         = "Simplistic Audio Tools Bundle"
+vendor       = "WA Production"
+version      = "1.0.0"
+description  = "A bundle of W.A. Production's streamlined one-knob and simple-interface audio processing plugins."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/bundles"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/bundles"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/bundles"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/bundles"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/bundles"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

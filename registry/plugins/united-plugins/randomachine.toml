@@ -1,26 +1,27 @@
-slug        = "randomachine"
-name        = "Randomachine"
-vendor      = "United Plugins"
-version     = "1.0.0"
-description = "Plugin adding random pitch, formant, ambience, saturation, and panning variation to repeated samples."
-category    = "effects"
-subcategory = "randomiser"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com/Randomachine/"
+slug         = "randomachine"
+name         = "Randomachine"
+vendor       = "United Plugins"
+version      = "1.0.0"
+description  = "Plugin adding random pitch, formant, ambience, saturation, and panning variation to repeated samples."
+category     = "effects"
+product_type = "sample_library"
+subcategory  = "randomiser"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com/Randomachine/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/46-Randomiser/12151-Randomachine?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com/Randomachine/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/Randomachine/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com/Randomachine/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/Randomachine/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

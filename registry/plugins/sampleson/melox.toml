@@ -1,25 +1,26 @@
-slug        = "melox"
-name        = "Melox"
-vendor      = "Sampleson"
-version     = "1.0.0"
-description = "Binaural, studio-grade melodica virtual instrument capturing the expressiveness of the acoustic original."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://sampleson.com/"
-is_paid     = true
+slug         = "melox"
+name         = "Melox"
+vendor       = "Sampleson"
+version      = "1.0.0"
+description  = "Binaural, studio-grade melodica virtual instrument capturing the expressiveness of the acoustic original."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://sampleson.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sampleson.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sampleson.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sampleson.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sampleson.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

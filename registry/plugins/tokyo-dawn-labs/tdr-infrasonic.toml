@@ -1,26 +1,27 @@
-slug        = "tdr-infrasonic"
-name        = "TDR Infrasonic"
-vendor      = "Tokyo Dawn Labs"
-version     = "1.1.1"
-description = "High-pass filter plugin designed to cleanly remove infrasonic content below audible frequencies for mastering."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tokyodawn.net/tdr-infrasonic/"
+slug         = "tdr-infrasonic"
+name         = "TDR Infrasonic"
+vendor       = "Tokyo Dawn Labs"
+version      = "1.1.1"
+description  = "High-pass filter plugin designed to cleanly remove infrasonic content below audible frequencies for mastering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tokyodawn.net/tdr-infrasonic/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/11677-TDR-Infrasonic?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tokyodawn.net/tdr-infrasonic/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tokyodawn.net/tdr-infrasonic/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tokyodawn.net/tdr-infrasonic/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tokyodawn.net/tdr-infrasonic/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

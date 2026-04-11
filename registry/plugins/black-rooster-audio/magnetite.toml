@@ -1,26 +1,27 @@
-slug        = "magnetite"
-name        = "Magnetite"
-vendor      = "Black Rooster Audio"
-version     = "3.0.0"
-description = "Tape saturation plugin emulating magnetic tape recorders for analog warmth and harmonic color."
-category    = "effects"
-subcategory = "tape emulation"
-license     = "commercial"
-tags        = []
-homepage    = "https://blackroosteraudio.com/en/products/magnetite"
+slug         = "magnetite"
+name         = "Magnetite"
+vendor       = "Black Rooster Audio"
+version      = "3.0.0"
+description  = "Tape saturation plugin emulating magnetic tape recorders for analog warmth and harmonic color."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "tape emulation"
+license      = "commercial"
+tags         = []
+homepage     = "https://blackroosteraudio.com/en/products/magnetite"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/11349-Magnetite?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://blackroosteraudio.com/en/products/magnetite"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackroosteraudio.com/en/products/magnetite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://blackroosteraudio.com/en/products/magnetite"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackroosteraudio.com/en/products/magnetite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

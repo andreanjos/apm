@@ -1,25 +1,26 @@
-slug        = "isl-1-real-time-true-peak-limiter"
-name        = "ISL 1 Real Time True Peak Limiter"
-vendor      = "NUGEN Audio"
-version     = "1.0"
-description = "A real-time True Peak stereo and surround limiter with look-ahead intelligence for broadcast compliance."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/isl/"
-is_paid     = true
+slug         = "isl-1-real-time-true-peak-limiter"
+name         = "ISL 1 Real Time True Peak Limiter"
+vendor       = "NUGEN Audio"
+version      = "1.0"
+description  = "A real-time True Peak stereo and surround limiter with look-ahead intelligence for broadcast compliance."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/isl/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/isl/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/isl/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/isl/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/isl/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "replicant-2"
-name        = "Replicant 2"
-vendor      = "Audio Damage"
-version     = "1.0.0"
-description = "Pattern-based beat repeater and stutter effect with randomizable parameters for glitchy rhythms."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiodamage.com/products/ad056-replicant-3"
-is_paid     = true
+slug         = "replicant-2"
+name         = "Replicant 2"
+vendor       = "Audio Damage"
+version      = "1.0.0"
+description  = "Pattern-based beat repeater and stutter effect with randomizable parameters for glitchy rhythms."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiodamage.com/products/ad056-replicant-3"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiodamage.com/products/ad056-replicant-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiodamage.com/products/ad056-replicant-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiodamage.com/products/ad056-replicant-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiodamage.com/products/ad056-replicant-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "bamblong"
-name        = "Bamblong"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Unique Kontakt instrument combining bamboo and handpan-like tonal qualities."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/bamblong"
-is_paid     = true
+slug         = "bamblong"
+name         = "Bamblong"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Unique Kontakt instrument combining bamboo and handpan-like tonal qualities."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/bamblong"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/bamblong"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/bamblong"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/bamblong"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/bamblong"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

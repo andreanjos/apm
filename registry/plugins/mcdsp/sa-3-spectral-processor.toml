@@ -1,26 +1,27 @@
-slug        = "sa-3-spectral-processor"
-name        = "SA 3 Spectral Processor"
-vendor      = "McDSP"
-version     = "7.0"
-description = "McDSP SA-3 Spectral Processor for advanced spectral audio analysis and processing."
-category    = "effects"
-subcategory = "spectral analysis"
-license     = "commercial"
-tags        = []
-homepage    = "https://mcdsp.com/plugin-index/sa-3/"
+slug         = "sa-3-spectral-processor"
+name         = "SA 3 Spectral Processor"
+vendor       = "McDSP"
+version      = "7.0"
+description  = "McDSP SA-3 Spectral Processor for advanced spectral audio analysis and processing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "spectral analysis"
+license      = "commercial"
+tags         = []
+homepage     = "https://mcdsp.com/plugin-index/sa-3/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/11638-SA-3-Spectral-Processor?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mcdsp.com/plugin-index/sa-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/sa-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mcdsp.com/plugin-index/sa-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/sa-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,27 @@
-slug        = "dark-skies-cinematic-ambiences"
-name        = "Dark Skies – Cinematic Ambiences"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Sound design library with over 1,000 instruments for film and game production, featuring ambiences and drones."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/dark-skies-cinematic-ambiences"
-is_paid     = true
+slug         = "dark-skies-cinematic-ambiences"
+name         = "Dark Skies - Cinematic Ambiences"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Sound design library with over 1,000 instruments for film and game production, featuring ambiences and drones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["dark-skies-8211-cinematic-ambiences"]
+homepage     = "https://zero-g.co.uk/products/dark-skies-cinematic-ambiences"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/dark-skies-cinematic-ambiences"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/dark-skies-cinematic-ambiences"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/dark-skies-cinematic-ambiences"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/dark-skies-cinematic-ambiences"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

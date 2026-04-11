@@ -1,25 +1,26 @@
-slug        = "classicq"
-name        = "ClassicQ"
-vendor      = "PSP Audioware"
-version     = "1.0.0"
-description = "British-style EQ inspired by classic Neve designs with simulated Class A circuitry and transformer coloration."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-classicq"
-is_paid     = true
+slug         = "classicq"
+name         = "ClassicQ"
+vendor       = "PSP Audioware"
+version      = "1.0.0"
+description  = "British-style EQ inspired by classic Neve designs with simulated Class A circuitry and transformer coloration."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-classicq"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-classicq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-classicq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-classicq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-classicq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

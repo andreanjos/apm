@@ -1,25 +1,26 @@
-slug        = "opalescence"
-name        = "Opalescence"
-vendor      = "Hoss Audio"
-version     = "1.0.0"
-description = "Cinematic pad designer for Kontakt with 22 sequencer-based effects for evolving hybrid pads."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.hadihosri.com/h%C3%96ss-audio"
-is_paid     = true
+slug         = "opalescence"
+name         = "Opalescence"
+vendor       = "Hoss Audio"
+version      = "1.0.0"
+description  = "Cinematic pad designer for Kontakt with 22 sequencer-based effects for evolving hybrid pads."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.hadihosri.com/h%C3%96ss-audio"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.hadihosri.com/h%C3%96ss-audio"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.hadihosri.com/h%C3%96ss-audio"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.hadihosri.com/h%C3%96ss-audio"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.hadihosri.com/h%C3%96ss-audio"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

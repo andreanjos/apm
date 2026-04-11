@@ -1,25 +1,26 @@
-slug        = "gatevador"
-name        = "Gatevador"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Noise gate plugin for eliminating unwanted background noise and controlling signal bleed."
-category    = "effects"
-subcategory = "gate"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p2492-Gatevador/"
-is_paid     = true
+slug         = "gatevador"
+name         = "Gatevador"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Noise gate plugin for eliminating unwanted background noise and controlling signal bleed."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "gate"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p2492-Gatevador/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p2492-Gatevador/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p2492-Gatevador/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p2492-Gatevador/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p2492-Gatevador/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

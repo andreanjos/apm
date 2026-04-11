@@ -1,26 +1,27 @@
-slug        = "halo-delay"
-name        = "Halo Delay"
-vendor      = "Antelope Audio"
-version     = "1.0.0"
-description = "Next-generation multitap delay plugin with advanced modulation and spatial control."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://en.antelopeaudio.com/products/halo-delay/"
+slug         = "halo-delay"
+name         = "Halo Delay"
+vendor       = "Antelope Audio"
+version      = "1.0.0"
+description  = "Next-generation multitap delay plugin with advanced modulation and spatial control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://en.antelopeaudio.com/products/halo-delay/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/16031-Halo-Delay?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://en.antelopeaudio.com/products/halo-delay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/halo-delay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://en.antelopeaudio.com/products/halo-delay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/halo-delay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

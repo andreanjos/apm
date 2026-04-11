@@ -1,26 +1,27 @@
-slug        = "octavox"
-name        = "Octavox"
-vendor      = "Eventide"
-version     = "1.0.0"
-description = "8-voice diatonic pitch-shifting Harmonizer for transforming synths, vocals, drums, and guitars."
-category    = "effects"
-subcategory = "harmonizer"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eventideaudio.com/plug-ins/octavox/"
+slug         = "octavox"
+name         = "Octavox"
+vendor       = "Eventide"
+version      = "1.0.0"
+description  = "8-voice diatonic pitch-shifting Harmonizer for transforming synths, vocals, drums, and guitars."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "harmonizer"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eventideaudio.com/plug-ins/octavox/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/91-Harmonizer/3065-Octavox?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eventideaudio.com/plug-ins/octavox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/octavox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eventideaudio.com/plug-ins/octavox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/octavox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

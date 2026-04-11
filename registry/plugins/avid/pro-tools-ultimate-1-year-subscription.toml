@@ -1,26 +1,27 @@
-slug        = "pro-tools-ultimate-1-year-subscription"
-name        = "Pro Tools Ultimate 1 Year Subscription"
-vendor      = "Avid"
-version     = "2025.12.2"
-description = "One-year subscription for Pro Tools Ultimate, Avid's most comprehensive professional DAW."
-category    = "utility"
-subcategory = "daw"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.avid.com/pro-tools"
+slug         = "pro-tools-ultimate-1-year-subscription"
+name         = "Pro Tools Ultimate 1 Year Subscription"
+vendor       = "Avid"
+version      = "2025.12.2"
+description  = "One-year subscription for Pro Tools Ultimate, Avid's most comprehensive professional DAW."
+category     = "utility"
+product_type = "subscription"
+subcategory  = "daw"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.avid.com/pro-tools"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12677-Pro-Tools-Ultimate-1-Year-Subscription?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.avid.com/pro-tools"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.avid.com/pro-tools"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.avid.com/pro-tools"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.avid.com/pro-tools"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "overdrive-5"
-name        = "Overdrive 5"
-vendor      = "Stagecraft Software"
-version     = "5"
-description = "Distortion plugin with five overlappable distortion types plus EQ and compression stages."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.stagecraftsoftware.com/products/overdrive5/"
+slug         = "overdrive-5"
+name         = "Overdrive 5"
+vendor       = "Stagecraft Software"
+version      = "5"
+description  = "Distortion plugin with five overlappable distortion types plus EQ and compression stages."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.stagecraftsoftware.com/products/overdrive5/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/2336-Overdrive-5?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.stagecraftsoftware.com/products/overdrive5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.stagecraftsoftware.com/products/overdrive5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.stagecraftsoftware.com/products/overdrive5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.stagecraftsoftware.com/products/overdrive5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

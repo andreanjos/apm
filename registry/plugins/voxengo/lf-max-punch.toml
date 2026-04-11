@@ -1,25 +1,26 @@
-slug        = "lf-max-punch"
-name        = "LF Max Punch"
-vendor      = "Voxengo"
-version     = "1.16"
-description = "Bass frequency enhancer that dynamically emphasizes low end and adds sub-harmonic content."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.voxengo.com/product/lfmaxpunch/"
-is_paid     = true
+slug         = "lf-max-punch"
+name         = "LF Max Punch"
+vendor       = "Voxengo"
+version      = "1.16"
+description  = "Bass frequency enhancer that dynamically emphasizes low end and adds sub-harmonic content."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.voxengo.com/product/lfmaxpunch/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.voxengo.com/product/lfmaxpunch/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.voxengo.com/product/lfmaxpunch/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.voxengo.com/product/lfmaxpunch/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.voxengo.com/product/lfmaxpunch/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

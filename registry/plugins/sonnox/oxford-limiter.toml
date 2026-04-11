@@ -1,26 +1,27 @@
-slug        = "oxford-limiter"
-name        = "Oxford Limiter"
-vendor      = "Sonnox"
-version     = "1.0.0"
-description = "Premium mastering limiter delivering transparent loudness with the acclaimed Enhance function for clean, punchy masters."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/products/oxford-limiter"
+slug         = "oxford-limiter"
+name         = "Oxford Limiter"
+vendor       = "Sonnox"
+version      = "1.0.0"
+description  = "Premium mastering limiter delivering transparent loudness with the acclaimed Enhance function for clean, punchy masters."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonnox.com/products/oxford-limiter"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/495-Oxford-Limiter?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/products/oxford-limiter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-limiter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/products/oxford-limiter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-limiter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

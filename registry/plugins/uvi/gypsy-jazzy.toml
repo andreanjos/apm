@@ -1,25 +1,26 @@
-slug        = "gypsy-jazzy"
-name        = "Gypsy Jazzy"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Jazz Manouche instrument with 1,000+ loops, multi-sampled guitars, accordions, violins, and a real-time chord follower."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/gypsy-jazzy"
-is_paid     = true
+slug         = "gypsy-jazzy"
+name         = "Gypsy Jazzy"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Jazz Manouche instrument with 1,000+ loops, multi-sampled guitars, accordions, violins, and a real-time chord follower."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/gypsy-jazzy"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/gypsy-jazzy"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/gypsy-jazzy"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/gypsy-jazzy"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/gypsy-jazzy"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

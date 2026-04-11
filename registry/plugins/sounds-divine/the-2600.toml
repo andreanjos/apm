@@ -1,25 +1,26 @@
-slug        = "the-2600"
-name        = "The 2600"
-vendor      = "Sounds Divine"
-version     = "1.0"
-description = "Faithful Kontakt-based emulation of the iconic ARP 2600 semi-modular synthesizer."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://sounds-divine.com/"
-is_paid     = true
+slug         = "the-2600"
+name         = "The 2600"
+vendor       = "Sounds Divine"
+version      = "1.0"
+description  = "Faithful Kontakt-based emulation of the iconic ARP 2600 semi-modular synthesizer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://sounds-divine.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sounds-divine.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sounds-divine.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sounds-divine.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sounds-divine.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

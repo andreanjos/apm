@@ -1,26 +1,27 @@
-slug        = "v-eq3"
-name        = "V-EQ3"
-vendor      = "Waves"
-version     = "14.0"
-description = "Emulation of the vintage Neve 1073 three-band console EQ for classic analog character."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/v-eq3"
-is_paid     = true
+slug         = "v-eq3"
+name         = "V-EQ3"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Emulation of the vintage Neve 1073 three-band console EQ for classic analog character."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/v-eq3"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/v-eq3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/v-eq3"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/v-eq3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/v-eq3"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "bells-collection"
-name        = "Bells Collection"
-vendor      = "Sonokinetic"
-version     = "1.0.0"
-description = "Four-library Kontakt bundle of carillon, chimes, singing bowls, and sleigh bells by Sonokinetic."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonokinetic.net/products/instruments/ams/bells-collection/"
-is_paid     = true
+slug         = "bells-collection"
+name         = "Bells Collection"
+vendor       = "Sonokinetic"
+version      = "1.0.0"
+description  = "Four-library Kontakt bundle of carillon, chimes, singing bowls, and sleigh bells by Sonokinetic."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonokinetic.net/products/instruments/ams/bells-collection/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonokinetic.net/products/instruments/ams/bells-collection/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/instruments/ams/bells-collection/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonokinetic.net/products/instruments/ams/bells-collection/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/instruments/ams/bells-collection/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

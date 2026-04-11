@@ -1,26 +1,27 @@
-slug        = "bute-loudness-analyser-2-surround"
-name        = "BUTE Loudness Analyser 2 Surround"
-vendor      = "Signum Audio"
-version     = "1.0.0"
-description = "Surround loudness meter supporting ITU-R BS.1770, EBU R128, and streaming platform standards up to 7.1."
-category    = "utility"
-subcategory = "metering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.signumaudio.com/bute-loudness-analyser"
+slug         = "bute-loudness-analyser-2-surround"
+name         = "BUTE Loudness Analyser 2 Surround"
+vendor       = "Signum Audio"
+version      = "1.0.0"
+description  = "Surround loudness meter supporting ITU-R BS.1770, EBU R128, and streaming platform standards up to 7.1."
+category     = "utility"
+product_type = "utility"
+subcategory  = "metering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.signumaudio.com/bute-loudness-analyser"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/5195-BUTE-Loudness-Analyser-2-Surround-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.signumaudio.com/bute-loudness-analyser"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.signumaudio.com/bute-loudness-analyser"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.signumaudio.com/bute-loudness-analyser"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.signumaudio.com/bute-loudness-analyser"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

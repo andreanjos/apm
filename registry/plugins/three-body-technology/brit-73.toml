@@ -1,26 +1,27 @@
-slug        = "brit-73"
-name        = "Brit 73"
-vendor      = "Three Body Technology"
-version     = "2.0"
-description = "Class-A transistor preamp and EQ emulation delivering clarity, sheen, and musical character via APNN 2.0."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.threebodytech.com/en/products/deepvintage"
+slug         = "brit-73"
+name         = "Brit 73"
+vendor       = "Three Body Technology"
+version      = "2.0"
+description  = "Class-A transistor preamp and EQ emulation delivering clarity, sheen, and musical character via APNN 2.0."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.threebodytech.com/en/products/deepvintage"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14723-Brit-73?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.threebodytech.com/en/products/deepvintage"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.threebodytech.com/en/products/deepvintage"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.threebodytech.com/en/products/deepvintage"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.threebodytech.com/en/products/deepvintage"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "pitch-monster"
-name        = "Pitch Monster"
-vendor      = "Devious Machines"
-version     = "1.0.0"
-description = "Pitch shifter and vocoder effects plugin for creating extreme pitch and harmony transformations."
-category    = "effects"
-subcategory = "pitch shifter"
-license     = "commercial"
-tags        = []
-homepage    = "https://deviousmachines.com/shop/"
+slug         = "pitch-monster"
+name         = "Pitch Monster"
+vendor       = "Devious Machines"
+version      = "1.0.0"
+description  = "Pitch shifter and vocoder effects plugin for creating extreme pitch and harmony transformations."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch shifter"
+license      = "commercial"
+tags         = []
+homepage     = "https://deviousmachines.com/shop/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/5744-Pitch-Monster?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://deviousmachines.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://deviousmachines.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://deviousmachines.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://deviousmachines.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

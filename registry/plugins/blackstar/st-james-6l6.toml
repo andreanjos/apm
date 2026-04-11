@@ -1,26 +1,27 @@
-slug        = "st-james-6l6"
-name        = "St James 6L6"
-vendor      = "Blackstar"
-version     = "1.0.0"
-description = "Plugin emulation of the Blackstar St. James amp with 6L6 power tube character and CabRig."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://blackstarplugins.com/dp/st-james-plugin/"
+slug         = "st-james-6l6"
+name         = "St James 6L6"
+vendor       = "Blackstar"
+version      = "1.0.0"
+description  = "Plugin emulation of the Blackstar St. James amp with 6L6 power tube character and CabRig."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://blackstarplugins.com/dp/st-james-plugin/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/11824-St-James-6L6?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://blackstarplugins.com/dp/st-james-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackstarplugins.com/dp/st-james-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://blackstarplugins.com/dp/st-james-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackstarplugins.com/dp/st-james-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

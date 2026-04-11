@@ -1,25 +1,26 @@
-slug        = "xenobyte"
-name        = "Xenobyte"
-vendor      = "Sick Noise Instruments"
-version     = "1.0"
-description = "Analog hybrid synthesizer plugin with 3 oscillators and a sampler sound source."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://sicknoiseinstruments.com/"
-is_paid     = true
+slug         = "xenobyte"
+name         = "Xenobyte"
+vendor       = "Sick Noise Instruments"
+version      = "1.0"
+description  = "Analog hybrid synthesizer plugin with 3 oscillators and a sampler sound source."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://sicknoiseinstruments.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sicknoiseinstruments.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sicknoiseinstruments.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sicknoiseinstruments.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sicknoiseinstruments.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

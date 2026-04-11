@@ -1,26 +1,27 @@
-slug        = "chandler-limited-zener-limiter"
-name        = "Chandler Limited Zener Limiter"
-vendor      = "Softube"
-version     = "2.6"
-description = "Limiter plugin modeled on Chandler Limited's Zener Limiter for transparent peak control."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-limiter"
-is_paid     = true
+slug         = "chandler-limited-zener-limiter"
+name         = "Chandler Limited Zener Limiter"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Limiter plugin modeled on Chandler Limited's Zener Limiter for transparent peak control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-limiter"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-limiter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-limiter"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-limiter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-limiter"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

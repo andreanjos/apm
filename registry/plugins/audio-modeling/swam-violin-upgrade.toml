@@ -1,25 +1,26 @@
-slug        = "swam-violin-upgrade"
-name        = "SWAM Violin Upgrade"
-vendor      = "Audio Modeling"
-version     = "3"
-description = "Upgrade license to SWAM Violin v3 with enhanced physical modeling and improved real-time controls."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodeling.com/strings/swam-violin/"
-is_paid     = true
+slug         = "swam-violin-upgrade"
+name         = "SWAM Violin Upgrade"
+vendor       = "Audio Modeling"
+version      = "3"
+description  = "Upgrade license to SWAM Violin v3 with enhanced physical modeling and improved real-time controls."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodeling.com/strings/swam-violin/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodeling.com/strings/swam-violin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/strings/swam-violin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodeling.com/strings/swam-violin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/strings/swam-violin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

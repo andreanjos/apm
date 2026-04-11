@@ -1,60 +1,62 @@
-slug        = "dragonfly-early-reflections"
-name        = "Dragonfly Early Reflections"
-vendor      = "Michael Willis"
-version     = "3.2.10"
-description = "Free early reflections reverb based on Moorer's model, part of the Dragonfly Reverb bundle."
-category    = "effects"
-subcategory = "reverb"
-license     = "GPL-3.0"
-tags        = ["reverb", "early-reflections", "room", "free", "open-source"]
-homepage    = "https://github.com/michaelwillis/dragonfly-reverb"
+slug         = "dragonfly-early-reflections"
+name         = "Dragonfly Early Reflections"
+vendor       = "Michael Willis"
+version      = "3.2.10"
+description  = "Free early reflections reverb based on Moorer's model, part of the Dragonfly Reverb bundle."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "reverb"
+license      = "GPL-3.0"
+tags         = ["reverb", "early-reflections", "room", "free", "open-source"]
+homepage     = "https://github.com/michaelwillis/dragonfly-reverb"
+
 [formats.vst3]
-url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg"
-sha256       = "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf"
-install_type = "dmg"
-bundle_path  = "DragonflyEarlyReflections.vst3"
+url           = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg"
+sha256        = "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf"
+install_type  = "dmg"
+bundle_path   = "DragonflyEarlyReflections.vst3"
 
 [formats.au]
-url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg"
-sha256       = "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf"
-install_type = "dmg"
-bundle_path  = "DragonflyEarlyReflections.component"
+url           = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.10/dragonfly-reverb-3.2.10-macos-universal.dmg"
+sha256        = "e0b854b92a4e51ce5851320fb1a9f91ab1a4309f997de070e175b3e5cab4adaf"
+install_type  = "dmg"
+bundle_path   = "DragonflyEarlyReflections.component"
 
 [[releases]]
 version = "3.2.8"
 
 [releases.formats.vst3]
-url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.8/dragonfly-reverb-3.2.8-macos-universal.pkg"
-sha256       = "fe3921834e6546890bbf5ded0ddd9fb02af2ba1cbd00cf96c7bba5da54e36a6c"
-install_type = "pkg"
+url           = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.8/dragonfly-reverb-3.2.8-macos-universal.pkg"
+sha256        = "fe3921834e6546890bbf5ded0ddd9fb02af2ba1cbd00cf96c7bba5da54e36a6c"
+install_type  = "pkg"
 
 [releases.formats.au]
-url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.8/dragonfly-reverb-3.2.8-macos-universal.pkg"
-sha256       = "fe3921834e6546890bbf5ded0ddd9fb02af2ba1cbd00cf96c7bba5da54e36a6c"
-install_type = "pkg"
+url           = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.8/dragonfly-reverb-3.2.8-macos-universal.pkg"
+sha256        = "fe3921834e6546890bbf5ded0ddd9fb02af2ba1cbd00cf96c7bba5da54e36a6c"
+install_type  = "pkg"
 
 [[releases]]
 version = "3.2.7"
 
 [releases.formats.vst3]
-url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.7/dragonfly-reverb-mac-universal-3.2.7.zip"
-sha256       = "5e22bbab93ae8361deacb65af38697433124e51f0172e885f7f158f0576a7f69"
-install_type = "zip"
+url           = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.7/dragonfly-reverb-mac-universal-3.2.7.zip"
+sha256        = "5e22bbab93ae8361deacb65af38697433124e51f0172e885f7f158f0576a7f69"
+install_type  = "zip"
 
 [releases.formats.au]
-url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.7/dragonfly-reverb-mac-universal-3.2.7.zip"
-sha256       = "5e22bbab93ae8361deacb65af38697433124e51f0172e885f7f158f0576a7f69"
-install_type = "zip"
+url           = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.7/dragonfly-reverb-mac-universal-3.2.7.zip"
+sha256        = "5e22bbab93ae8361deacb65af38697433124e51f0172e885f7f158f0576a7f69"
+install_type  = "zip"
 
 [[releases]]
 version = "3.2.6"
 
 [releases.formats.vst3]
-url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.6/dragonfly-reverb-macOS-universal-v3.2.6.zip"
-sha256       = "321b80af5c66680644d00748ad6d09888a0b94cdde9ccb3fb774335773ed7d5f"
-install_type = "zip"
+url           = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.6/dragonfly-reverb-macOS-universal-v3.2.6.zip"
+sha256        = "321b80af5c66680644d00748ad6d09888a0b94cdde9ccb3fb774335773ed7d5f"
+install_type  = "zip"
 
 [releases.formats.au]
-url          = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.6/dragonfly-reverb-macOS-universal-v3.2.6.zip"
-sha256       = "321b80af5c66680644d00748ad6d09888a0b94cdde9ccb3fb774335773ed7d5f"
-install_type = "zip"
+url           = "https://github.com/michaelwillis/dragonfly-reverb/releases/download/3.2.6/dragonfly-reverb-macOS-universal-v3.2.6.zip"
+sha256        = "321b80af5c66680644d00748ad6d09888a0b94cdde9ccb3fb774335773ed7d5f"
+install_type  = "zip"

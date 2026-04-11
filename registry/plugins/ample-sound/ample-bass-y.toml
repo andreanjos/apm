@@ -1,25 +1,26 @@
-slug        = "ample-bass-y"
-name        = "Ample Bass Y"
-vendor      = "Ample Sound"
-version     = "4"
-description = "Electric bass virtual instrument based on a Fodera Yinyang Bass with realistic articulations."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.amplesound.net/en/pro-pd.asp?id=23"
-is_paid     = true
+slug         = "ample-bass-y"
+name         = "Ample Bass Y"
+vendor       = "Ample Sound"
+version      = "4"
+description  = "Electric bass virtual instrument based on a Fodera Yinyang Bass with realistic articulations."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.amplesound.net/en/pro-pd.asp?id=23"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.amplesound.net/en/pro-pd.asp?id=23"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/pro-pd.asp?id=23"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.amplesound.net/en/pro-pd.asp?id=23"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/pro-pd.asp?id=23"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

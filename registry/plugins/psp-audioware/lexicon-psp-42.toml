@@ -1,26 +1,27 @@
-slug        = "lexicon-psp-42"
-name        = "Lexicon PSP 42"
-vendor      = "PSP Audioware"
-version     = "2.0.2"
-description = "High-quality stereo delay and phrase sampler based on the legendary Lexicon PCM42 processor."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/lexicon-psp-42"
+slug         = "lexicon-psp-42"
+name         = "Lexicon PSP 42"
+vendor       = "PSP Audioware"
+version      = "2.0.2"
+description  = "High-quality stereo delay and phrase sampler based on the legendary Lexicon PCM42 processor."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/lexicon-psp-42"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/125-Lexicon-PSP-42?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/lexicon-psp-42"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/lexicon-psp-42"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/lexicon-psp-42"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/lexicon-psp-42"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

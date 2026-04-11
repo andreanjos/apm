@@ -1,25 +1,26 @@
-slug        = "bigkick"
-name        = "BigKick"
-vendor      = "Plugin Boutique"
-version     = "1.0.0"
-description = "Kick drum synthesizer plugin for designing and generating powerful, custom kick sounds."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/879-BigKick"
-is_paid     = true
+slug         = "bigkick"
+name         = "BigKick"
+vendor       = "Plugin Boutique"
+version      = "1.0.0"
+description  = "Kick drum synthesizer plugin for designing and generating powerful, custom kick sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/879-BigKick"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/879-BigKick"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/879-BigKick"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/879-BigKick"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/879-BigKick"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

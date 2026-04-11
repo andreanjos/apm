@@ -1,26 +1,27 @@
-slug        = "new-york-l-1926-lite"
-name        = "New York L 1926 Lite"
-vendor      = "Boz Digital Labs"
-version     = "1.0.0"
-description = "Lite version of the 1926 New York Steinway Model L piano with warm, aged character and four mic positions."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozmasterkeys.com/product/new-york-l-1926/"
+slug         = "new-york-l-1926-lite"
+name         = "New York L 1926 Lite"
+vendor       = "Boz Digital Labs"
+version      = "1.0.0"
+description  = "Lite version of the 1926 New York Steinway Model L piano with warm, aged character and four mic positions."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bozmasterkeys.com/product/new-york-l-1926/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/11773-New-York-L-1926-Lite?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozmasterkeys.com/product/new-york-l-1926/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozmasterkeys.com/product/new-york-l-1926/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozmasterkeys.com/product/new-york-l-1926/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozmasterkeys.com/product/new-york-l-1926/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

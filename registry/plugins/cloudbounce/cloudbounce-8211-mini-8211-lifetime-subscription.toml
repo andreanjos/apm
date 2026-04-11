@@ -1,25 +1,27 @@
-slug        = "cloudbounce-8211-mini-8211-lifetime-subscription"
-name        = "Cloudbounce &#8211; Mini &#8211; Lifetime Subscription"
-vendor      = "CloudBounce"
-version     = "1.0.0"
-description = "Mini lifetime subscription to CloudBounce providing permanent access to AI mastering at an entry-level tier."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://cloudbounce.com/"
-is_paid     = true
+slug         = "cloudbounce-8211-mini-8211-lifetime-subscription"
+name         = "Cloudbounce - Mini - Lifetime Subscription"
+vendor       = "CloudBounce"
+version      = "1.0.0"
+description  = "Mini lifetime subscription to CloudBounce providing permanent access to AI mastering at an entry-level tier."
+category     = "effects"
+product_type = "subscription"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+aliases      = ["cloudbounce-mini-lifetime-subscription"]
+homepage     = "https://cloudbounce.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cloudbounce.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cloudbounce.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cloudbounce.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cloudbounce.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

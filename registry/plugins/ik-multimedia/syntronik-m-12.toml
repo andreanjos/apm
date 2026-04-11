@@ -1,25 +1,26 @@
-slug        = "syntronik-m-12"
-name        = "Syntronik M-12"
-vendor      = "IK Multimedia"
-version     = "2.0"
-description = "Syntronik instrument capturing the Oberheim Matrix-12 with its 15 filter modes and deep modulation matrix."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/synm12/"
-is_paid     = true
+slug         = "syntronik-m-12"
+name         = "Syntronik M-12"
+vendor       = "IK Multimedia"
+version      = "2.0"
+description  = "Syntronik instrument capturing the Oberheim Matrix-12 with its 15 filter modes and deep modulation matrix."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/synm12/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/synm12/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/synm12/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/synm12/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/synm12/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

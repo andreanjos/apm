@@ -1,26 +1,27 @@
-slug        = "element"
-name        = "Element"
-vendor      = "Waves"
-version     = "14.0"
-description = "Virtual analog synthesizer delivering fat basses, warm pads, and cutting leads."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/element"
-is_paid     = true
+slug         = "element"
+name         = "Element"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Virtual analog synthesizer delivering fat basses, warm pads, and cutting leads."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/element"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/element"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/element"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/element"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/element"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

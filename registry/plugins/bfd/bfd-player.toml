@@ -1,26 +1,27 @@
-slug        = "bfd-player"
-name        = "BFD Player"
-vendor      = "BFD"
-version     = "1.2"
-description = "Free acoustic drum virtual instrument with 5GB of sounds, 340 grooves, and expandable content."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bfddrums.com/bfd-player/"
+slug         = "bfd-player"
+name         = "BFD Player"
+vendor       = "BFD"
+version      = "1.2"
+description  = "Free acoustic drum virtual instrument with 5GB of sounds, 340 grooves, and expandable content."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bfddrums.com/bfd-player/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/11402-BFD-Player?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bfddrums.com/bfd-player/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/bfd-player/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bfddrums.com/bfd-player/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/bfd-player/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

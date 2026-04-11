@@ -1,25 +1,26 @@
-slug        = "clarisonix"
-name        = "Clarisonix"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Clarity and definition enhancer plugin for adding focus and presence to audio signals."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p873-Clarisonix/"
-is_paid     = true
+slug         = "clarisonix"
+name         = "Clarisonix"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Clarity and definition enhancer plugin for adding focus and presence to audio signals."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p873-Clarisonix/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p873-Clarisonix/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p873-Clarisonix/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p873-Clarisonix/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p873-Clarisonix/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

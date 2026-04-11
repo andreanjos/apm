@@ -1,26 +1,27 @@
-slug        = "chandler-limited-zener-bender"
-name        = "Chandler Limited Zener-Bender"
-vendor      = "Softube"
-version     = "2.6"
-description = "Full-channel strip plugin modeled on Chandler Limited's Zener-Bender with EQ and dynamics."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-bender"
-is_paid     = true
+slug         = "chandler-limited-zener-bender"
+name         = "Chandler Limited Zener-Bender"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Full-channel strip plugin modeled on Chandler Limited's Zener-Bender with EQ and dynamics."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-bender"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-bender"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-bender"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-bender"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-bender"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

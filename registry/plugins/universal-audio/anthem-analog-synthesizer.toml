@@ -1,27 +1,28 @@
-slug        = "anthem-analog-synthesizer"
-name        = "Anthem Analog Synthesizer"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "UA's Anthem is a lush analog-modeled polyphonic synthesizer with vintage character."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/instruments/anthem-analog-synthesizer.html"
+slug         = "anthem-analog-synthesizer"
+name         = "Anthem Analog Synthesizer"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "UA's Anthem is a lush analog-modeled polyphonic synthesizer with vintage character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/instruments/anthem-analog-synthesizer.html"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15086-Anthem-Analog-Synthesizer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/instruments/anthem-analog-synthesizer.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/anthem-analog-synthesizer.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/instruments/anthem-analog-synthesizer.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/anthem-analog-synthesizer.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "lyrical-vocal-phrases"
-name        = "Lyrical Vocal Phrases"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Crystal-clear celestial vocal phrase library performed by Conny Kollet for fantasy and cinematic scoring."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/lyrical-vocal-phrases/"
+slug         = "lyrical-vocal-phrases"
+name         = "Lyrical Vocal Phrases"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Crystal-clear celestial vocal phrase library performed by Conny Kollet for fantasy and cinematic scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/lyrical-vocal-phrases/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7960-Lyrical-Vocal-Phrases?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/lyrical-vocal-phrases/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/lyrical-vocal-phrases/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/lyrical-vocal-phrases/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/lyrical-vocal-phrases/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

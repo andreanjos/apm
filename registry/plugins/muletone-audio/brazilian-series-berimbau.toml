@@ -1,25 +1,26 @@
-slug        = "brazilian-series-berimbau"
-name        = "Brazilian Series: Berimbau"
-vendor      = "Muletone Audio"
-version     = "1.3"
-description = "Kontakt instrument capturing Gunga, Médio, and Viola Berimbau types with 203 samples."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.muletoneaudio.com/brazilian-series-berimbau/"
-is_paid     = true
+slug         = "brazilian-series-berimbau"
+name         = "Brazilian Series: Berimbau"
+vendor       = "Muletone Audio"
+version      = "1.3"
+description  = "Kontakt instrument capturing Gunga, Médio, and Viola Berimbau types with 203 samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.muletoneaudio.com/brazilian-series-berimbau/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.muletoneaudio.com/brazilian-series-berimbau/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/brazilian-series-berimbau/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.muletoneaudio.com/brazilian-series-berimbau/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/brazilian-series-berimbau/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

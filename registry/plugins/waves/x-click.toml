@@ -1,26 +1,27 @@
-slug        = "x-click"
-name        = "X-Click"
-vendor      = "Waves"
-version     = "14.0"
-description = "Automatic click and pop removal plugin for cleaning up vinyl recordings and old tape."
-category    = "effects"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/x-click"
-is_paid     = true
+slug         = "x-click"
+name         = "X-Click"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Automatic click and pop removal plugin for cleaning up vinyl recordings and old tape."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/x-click"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/x-click"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/x-click"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/x-click"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/x-click"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "t-de-esser-2"
-name        = "T De Esser 2"
-vendor      = "Techivation"
-version     = "2.0"
-description = "Techivation T-De-Esser 2 is a free intelligent de-esser with upgraded DSP and multi-format support."
-category    = "effects"
-subcategory = "de esser"
-license     = "commercial"
-tags        = []
-homepage    = "https://techivation.com/t-de-esser/"
+slug         = "t-de-esser-2"
+name         = "T De Esser 2"
+vendor       = "Techivation"
+version      = "2.0"
+description  = "Techivation T-De-Esser 2 is a free intelligent de-esser with upgraded DSP and multi-format support."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de esser"
+license      = "commercial"
+tags         = []
+homepage     = "https://techivation.com/t-de-esser/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/16688-T-De-Esser-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://techivation.com/t-de-esser/"
-sha256       = ""
-install_type = "zip"
+url           = "https://techivation.com/t-de-esser/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://techivation.com/t-de-esser/"
-sha256       = ""
-install_type = "zip"
+url           = "https://techivation.com/t-de-esser/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

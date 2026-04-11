@@ -1,25 +1,26 @@
-slug        = "horror-box-2"
-name        = "Horror Box 2"
-vendor      = "Electronik Sound Lab"
-version     = "2"
-description = "Horror sound design instrument with 180 presets from analog synths, processed sounds, and field recordings."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://electroniksoundlab.com/"
-is_paid     = true
+slug         = "horror-box-2"
+name         = "Horror Box 2"
+vendor       = "Electronik Sound Lab"
+version      = "2"
+description  = "Horror sound design instrument with 180 presets from analog synths, processed sounds, and field recordings."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://electroniksoundlab.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://electroniksoundlab.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://electroniksoundlab.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://electroniksoundlab.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://electroniksoundlab.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

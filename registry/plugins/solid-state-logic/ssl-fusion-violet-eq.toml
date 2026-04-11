@@ -1,26 +1,27 @@
-slug        = "ssl-fusion-violet-eq"
-name        = "SSL Fusion Violet EQ"
-vendor      = "Solid State Logic"
-version     = "1.0.0"
-description = "Plugin emulation of the SSL Fusion Violet EQ for adding low-end weight and high-end sheen to mixes."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-violet-eq"
+slug         = "ssl-fusion-violet-eq"
+name         = "SSL Fusion Violet EQ"
+vendor       = "Solid State Logic"
+version      = "1.0.0"
+description  = "Plugin emulation of the SSL Fusion Violet EQ for adding low-end weight and high-end sheen to mixes."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-violet-eq"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8681-SSL-Fusion-Violet-EQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-violet-eq"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-violet-eq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-violet-eq"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-violet-eq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

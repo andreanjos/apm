@@ -1,25 +1,27 @@
-slug        = "deep-conjuring-2-specters"
-name        = "Deep Conjuring 2 – Specters"
-vendor      = "Beautiful Void Audio"
-version     = "1.0.0"
-description = "Experimental Kontakt sound design library featuring strange and beautiful soundscapes, drones, and tonal textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beautifulvoidaudio.com/"
-is_paid     = true
+slug         = "deep-conjuring-2-specters"
+name         = "Deep Conjuring 2 - Specters"
+vendor       = "Beautiful Void Audio"
+version      = "1.0.0"
+description  = "Experimental Kontakt sound design library featuring strange and beautiful soundscapes, drones, and tonal textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["deep-conjuring-2-8211-specters"]
+homepage     = "https://www.beautifulvoidaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beautifulvoidaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beautifulvoidaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beautifulvoidaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beautifulvoidaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

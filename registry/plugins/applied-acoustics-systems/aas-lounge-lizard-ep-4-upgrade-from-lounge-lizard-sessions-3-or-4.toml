@@ -1,25 +1,26 @@
-slug        = "aas-lounge-lizard-ep-4-upgrade-from-lounge-lizard-sessions-3-or-4"
-name        = "AAS Lounge Lizard EP-4 Upgrade from Lounge Lizard Sessions 3 or 4"
-vendor      = "Applied Acoustics Systems"
-version     = "4"
-description = "Upgrade to Lounge Lizard EP-4 electric piano synthesizer from Lounge Lizard Sessions 3 or 4."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.applied-acoustics.com/lounge-lizard-ep-4/"
-is_paid     = true
+slug         = "aas-lounge-lizard-ep-4-upgrade-from-lounge-lizard-sessions-3-or-4"
+name         = "AAS Lounge Lizard EP-4 Upgrade from Lounge Lizard Sessions 3 or 4"
+vendor       = "Applied Acoustics Systems"
+version      = "4"
+description  = "Upgrade to Lounge Lizard EP-4 electric piano synthesizer from Lounge Lizard Sessions 3 or 4."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.applied-acoustics.com/lounge-lizard-ep-4/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.applied-acoustics.com/lounge-lizard-ep-4/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/lounge-lizard-ep-4/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.applied-acoustics.com/lounge-lizard-ep-4/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/lounge-lizard-ep-4/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

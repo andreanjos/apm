@@ -1,27 +1,28 @@
-slug        = "layers"
-name        = "Layers"
-vendor      = "Softube"
-version     = "2.6"
-description = "Stereo width and spatial enhancement plugin for adding depth and dimension to mixes."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/layers"
+slug         = "layers"
+name         = "Layers"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Stereo width and spatial enhancement plugin for adding depth and dimension to mixes."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/layers"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/13427-Layers?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/layers"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/layers"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/layers"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/layers"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

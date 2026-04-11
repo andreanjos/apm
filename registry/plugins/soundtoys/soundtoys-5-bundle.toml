@@ -1,25 +1,26 @@
-slug        = "soundtoys-5-bundle"
-name        = "Soundtoys 5 Bundle"
-vendor      = "Soundtoys"
-version     = "5.5"
-description = "Complete Soundtoys bundle with 23 professional effects plugins including Effect Rack and SpaceBlender."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundtoys.com/product/soundtoys-5/"
-is_paid     = true
+slug         = "soundtoys-5-bundle"
+name         = "Soundtoys 5 Bundle"
+vendor       = "Soundtoys"
+version      = "5.5"
+description  = "Complete Soundtoys bundle with 23 professional effects plugins including Effect Rack and SpaceBlender."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundtoys.com/product/soundtoys-5/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundtoys.com/product/soundtoys-5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/soundtoys-5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundtoys.com/product/soundtoys-5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/soundtoys-5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

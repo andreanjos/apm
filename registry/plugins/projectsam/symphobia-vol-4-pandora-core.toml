@@ -1,25 +1,26 @@
-slug        = "symphobia-vol-4-pandora-core"
-name        = "Symphobia Vol 4: Pandora Core"
-vendor      = "ProjectSAM"
-version     = "1.0.0"
-description = "Free introductory version of Symphobia 4: Pandora with cinematic effects and Adaptive Sync."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://projectsam.com/libraries/symphobia-4-pandora/"
-is_paid     = true
+slug         = "symphobia-vol-4-pandora-core"
+name         = "Symphobia Vol 4: Pandora Core"
+vendor       = "ProjectSAM"
+version      = "1.0.0"
+description  = "Free introductory version of Symphobia 4: Pandora with cinematic effects and Adaptive Sync."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://projectsam.com/libraries/symphobia-4-pandora/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://projectsam.com/libraries/symphobia-4-pandora/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/symphobia-4-pandora/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://projectsam.com/libraries/symphobia-4-pandora/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/symphobia-4-pandora/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "sunset-sound-studio-reverb"
-name        = "Sunset Sound Studio Reverb"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "Reverb plugin recreating the iconic acoustic spaces of the legendary Sunset Sound recording studios."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/trsunsetsound/"
-is_paid     = true
+slug         = "sunset-sound-studio-reverb"
+name         = "Sunset Sound Studio Reverb"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "Reverb plugin recreating the iconic acoustic spaces of the legendary Sunset Sound recording studios."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/trsunsetsound/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/trsunsetsound/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/trsunsetsound/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/trsunsetsound/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/trsunsetsound/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

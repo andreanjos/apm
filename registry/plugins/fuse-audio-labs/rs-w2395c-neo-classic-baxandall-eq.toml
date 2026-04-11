@@ -1,26 +1,27 @@
-slug        = "rs-w2395c-neo-classic-baxandall-eq"
-name        = "RS W2395c Neo Classic Baxandall EQ"
-vendor      = "Fuse Audio Labs"
-version     = "2.7"
-description = "Free Baxandall-style EQ plugin with a powerful mid-band for broad tonal shaping and mixing."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.fuseaudiolabs.com/rsw2395c.htm"
+slug         = "rs-w2395c-neo-classic-baxandall-eq"
+name         = "RS W2395c Neo Classic Baxandall EQ"
+vendor       = "Fuse Audio Labs"
+version      = "2.7"
+description  = "Free Baxandall-style EQ plugin with a powerful mid-band for broad tonal shaping and mixing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.fuseaudiolabs.com/rsw2395c.htm"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/13914-RS-W2395c-Neo-Classic-Baxandall-EQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.fuseaudiolabs.com/rsw2395c.htm"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.fuseaudiolabs.com/rsw2395c.htm"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.fuseaudiolabs.com/rsw2395c.htm"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.fuseaudiolabs.com/rsw2395c.htm"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

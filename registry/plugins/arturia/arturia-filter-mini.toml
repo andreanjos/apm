@@ -1,25 +1,28 @@
-slug        = "arturia-filter-mini"
-name        = "Filter MINI"
-vendor      = "Arturia"
-version     = "1.7.0"
-description = "Classic Moog ladder filter extracted from Mini V with envelope follower, LFO, and step sequencer modulation for any audio source."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = ["filter", "moog", "ladder", "modulation", "lfo", "envelope-follower", "step-sequencer", "analog-modeling"]
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/minifilter-v"
+slug         = "arturia-filter-mini"
+name         = "Filter MINI"
+vendor       = "Arturia"
+version      = "1.7.0"
+description  = "Classic Moog ladder filter extracted from Mini V with envelope follower, LFO, and step sequencer modulation for any audio source."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = ["filter", "moog", "ladder", "modulation", "lfo", "envelope-follower", "step-sequencer", "analog-modeling"]
+aliases      = ["filter-mini"]
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/minifilter-v"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/support/downloads-manuals/product/filter-mini"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals/product/filter-mini"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Filter MINI.vst3"
+bundle_path   = "Filter MINI.vst3"
 
 [formats.au]
-url          = "https://www.arturia.com/support/downloads-manuals/product/filter-mini"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals/product/filter-mini"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Filter MINI.component"
+bundle_path   = "Filter MINI.component"

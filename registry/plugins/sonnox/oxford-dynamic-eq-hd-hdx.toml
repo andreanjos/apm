@@ -1,25 +1,26 @@
-slug        = "oxford-dynamic-eq-hd-hdx"
-name        = "Oxford Dynamic EQ HD/HDX"
-vendor      = "Sonnox"
-version     = "1.0.0"
-description = "Oxford Dynamic EQ HD/HDX — per-band compression and expansion with unique detection modes and flexible sidechaining."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/products/oxford-dynamic-eq"
-is_paid     = true
+slug         = "oxford-dynamic-eq-hd-hdx"
+name         = "Oxford Dynamic EQ HD/HDX"
+vendor       = "Sonnox"
+version      = "1.0.0"
+description  = "Oxford Dynamic EQ HD/HDX - per-band compression and expansion with unique detection modes and flexible sidechaining."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonnox.com/products/oxford-dynamic-eq"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/products/oxford-dynamic-eq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-dynamic-eq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/products/oxford-dynamic-eq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-dynamic-eq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

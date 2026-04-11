@@ -1,25 +1,26 @@
-slug        = "percmod"
-name        = "percMOD"
-vendor      = "Pornofonic Instruments"
-version     = "1.0"
-description = "Pornofonic Instruments percMOD is a 26-instrument found percussion library for Kontakt."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://pfonic.com/"
-is_paid     = true
+slug         = "percmod"
+name         = "percMOD"
+vendor       = "Pornofonic Instruments"
+version      = "1.0"
+description  = "Pornofonic Instruments percMOD is a 26-instrument found percussion library for Kontakt."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://pfonic.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://pfonic.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pfonic.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://pfonic.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pfonic.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

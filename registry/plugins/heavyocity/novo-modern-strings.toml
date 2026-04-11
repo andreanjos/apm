@@ -1,25 +1,26 @@
-slug        = "novo-modern-strings"
-name        = "NOVO: Modern Strings"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "World-class orchestral strings with 400+ loops and hybrid design recorded at the Warner Bros. Eastwood Stage."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/novo"
-is_paid     = true
+slug         = "novo-modern-strings"
+name         = "NOVO: Modern Strings"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "World-class orchestral strings with 400+ loops and hybrid design recorded at the Warner Bros. Eastwood Stage."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/novo"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/novo"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/novo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/novo"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/novo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "sublab"
-name        = "SubLab"
-vendor      = "Future Audio Workshop"
-version     = "1.0.0"
-description = "Sub-bass synthesizer with X-Sub psychoacoustic engine for crafting deep 808 bass sounds."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://futureaudioworkshop.com/product/sublab/"
-is_paid     = true
+slug         = "sublab"
+name         = "SubLab"
+vendor       = "Future Audio Workshop"
+version      = "1.0.0"
+description  = "Sub-bass synthesizer with X-Sub psychoacoustic engine for crafting deep 808 bass sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://futureaudioworkshop.com/product/sublab/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://futureaudioworkshop.com/product/sublab/"
-sha256       = ""
-install_type = "zip"
+url           = "https://futureaudioworkshop.com/product/sublab/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://futureaudioworkshop.com/product/sublab/"
-sha256       = ""
-install_type = "zip"
+url           = "https://futureaudioworkshop.com/product/sublab/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

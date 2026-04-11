@@ -1,26 +1,27 @@
-slug        = "master-x-hd-easy-multiband-dynamics"
-name        = "MASTER X HD Easy Multiband Dynamics"
-vendor      = "TC Electronic"
-version     = "1.0.0"
-description = "Multiband dynamics plugin combining expansion, compression, and limiting per band."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.tcelectronic.com/products/native-plug-ins/"
+slug         = "master-x-hd-easy-multiband-dynamics"
+name         = "MASTER X HD Easy Multiband Dynamics"
+vendor       = "TC Electronic"
+version      = "1.0.0"
+description  = "Multiband dynamics plugin combining expansion, compression, and limiting per band."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.tcelectronic.com/products/native-plug-ins/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14591-MASTER-X-HD-Easy-Multiband-Dynamics?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.tcelectronic.com/products/native-plug-ins/"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.tcelectronic.com/products/native-plug-ins/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.tcelectronic.com/products/native-plug-ins/"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.tcelectronic.com/products/native-plug-ins/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

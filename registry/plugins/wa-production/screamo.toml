@@ -1,25 +1,26 @@
-slug        = "screamo"
-name        = "Screamo"
-vendor      = "WA Production"
-version     = "2.2.0"
-description = "A talk-box/screamer hybrid distortion with tempo-synced modulation and three drive styles."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/screamo"
-is_paid     = true
+slug         = "screamo"
+name         = "Screamo"
+vendor       = "WA Production"
+version      = "2.2.0"
+description  = "A talk-box/screamer hybrid distortion with tempo-synced modulation and three drive styles."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/screamo"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/screamo"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/screamo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/screamo"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/screamo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

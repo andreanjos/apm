@@ -1,26 +1,27 @@
-slug        = "attack-3-update-from-waldorf-edition-2"
-name        = "Attack 3 Update from Waldorf Edition 2"
-vendor      = "Waldorf"
-version     = "3.0.1"
-description = "Upgrade path to Attack 3 percussion synthesizer plugin for owners of Waldorf Edition 2."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://waldorfmusic.com/produkt/attack-3/"
+slug         = "attack-3-update-from-waldorf-edition-2"
+name         = "Attack 3 Update from Waldorf Edition 2"
+vendor       = "Waldorf"
+version      = "3.0.1"
+description  = "Upgrade path to Attack 3 percussion synthesizer plugin for owners of Waldorf Edition 2."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://waldorfmusic.com/produkt/attack-3/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16855-Attack-3-Update-from-Waldorf-Edition-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://waldorfmusic.com/produkt/attack-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://waldorfmusic.com/produkt/attack-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://waldorfmusic.com/produkt/attack-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://waldorfmusic.com/produkt/attack-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

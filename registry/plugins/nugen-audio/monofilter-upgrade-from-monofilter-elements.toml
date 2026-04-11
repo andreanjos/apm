@@ -1,25 +1,26 @@
-slug        = "monofilter-upgrade-from-monofilter-elements"
-name        = "Monofilter Upgrade from Monofilter Elements"
-vendor      = "NUGEN Audio"
-version     = "1.0.0"
-description = "Upgrade from Monofilter Elements to the full Monofilter for complete bass mono compatibility control."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/monofilter/"
-is_paid     = true
+slug         = "monofilter-upgrade-from-monofilter-elements"
+name         = "Monofilter Upgrade from Monofilter Elements"
+vendor       = "NUGEN Audio"
+version      = "1.0.0"
+description  = "Upgrade from Monofilter Elements to the full Monofilter for complete bass mono compatibility control."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/monofilter/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/monofilter/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/monofilter/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/monofilter/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/monofilter/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

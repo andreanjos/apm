@@ -1,26 +1,27 @@
-slug        = "32c-bus"
-name        = "32C Bus"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "Bus processing plugin combining Harrison 32C tape saturation, bus compressor, 3-band EQ, and master limiter."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/all-products/32c-bus"
+slug         = "32c-bus"
+name         = "32C Bus"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "Bus processing plugin combining Harrison 32C tape saturation, bus compressor, 3-band EQ, and master limiter."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/all-products/32c-bus"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/8818-32C-Bus?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/all-products/32c-bus"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/32c-bus"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/all-products/32c-bus"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/32c-bus"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

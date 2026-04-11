@@ -1,26 +1,27 @@
-slug        = "x902"
-name        = "x902"
-vendor      = "Antelope Audio"
-version     = "1.0.0"
-description = "De-esser plugin for precise sibilance control across vocals and other high-frequency-heavy sources."
-category    = "effects"
-subcategory = "de esser"
-license     = "commercial"
-tags        = []
-homepage    = "https://en.antelopeaudio.com/products/x902/"
+slug         = "x902"
+name         = "x902"
+vendor       = "Antelope Audio"
+version      = "1.0.0"
+description  = "De-esser plugin for precise sibilance control across vocals and other high-frequency-heavy sources."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de esser"
+license      = "commercial"
+tags         = []
+homepage     = "https://en.antelopeaudio.com/products/x902/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/16113-x902?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://en.antelopeaudio.com/products/x902/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/x902/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://en.antelopeaudio.com/products/x902/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/x902/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

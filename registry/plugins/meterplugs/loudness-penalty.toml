@@ -1,26 +1,27 @@
-slug        = "loudness-penalty"
-name        = "Loudness Penalty"
-vendor      = "MeterPlugs"
-version     = "1.0.0"
-description = "Plugin that shows how much your track will be turned down by Spotify, YouTube, Apple, and more."
-category    = "utility"
-subcategory = "metering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meterplugs.com/loudness-penalty"
+slug         = "loudness-penalty"
+name         = "Loudness Penalty"
+vendor       = "MeterPlugs"
+version      = "1.0.0"
+description  = "Plugin that shows how much your track will be turned down by Spotify, YouTube, Apple, and more."
+category     = "utility"
+product_type = "utility"
+subcategory  = "metering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meterplugs.com/loudness-penalty"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/5261-Loudness-Penalty?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meterplugs.com/loudness-penalty"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meterplugs.com/loudness-penalty"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meterplugs.com/loudness-penalty"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meterplugs.com/loudness-penalty"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "puigchild-compressor"
-name        = "PuigChild Compressor"
-vendor      = "Waves"
-version     = "14.0"
-description = "Emulation of the rare Fairchild 660/670 tube compressor as used by Jack Joseph Puig."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/puigchild-compressor"
-is_paid     = true
+slug         = "puigchild-compressor"
+name         = "PuigChild Compressor"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Emulation of the rare Fairchild 660/670 tube compressor as used by Jack Joseph Puig."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/puigchild-compressor"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/puigchild-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/puigchild-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/puigchild-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/puigchild-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

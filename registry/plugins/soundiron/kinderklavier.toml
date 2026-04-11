@@ -1,25 +1,26 @@
-slug        = "kinderklavier"
-name        = "Kinderklavier"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Charming child's toy piano Kontakt instrument with delicate, innocent bell-like tones."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/kinderklavier"
-is_paid     = true
+slug         = "kinderklavier"
+name         = "Kinderklavier"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Charming child's toy piano Kontakt instrument with delicate, innocent bell-like tones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/kinderklavier"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/kinderklavier"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/kinderklavier"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/kinderklavier"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/kinderklavier"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

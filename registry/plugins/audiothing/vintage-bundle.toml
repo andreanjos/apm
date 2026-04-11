@@ -1,25 +1,26 @@
-slug        = "vintage-bundle"
-name        = "Vintage Bundle"
-vendor      = "AudioThing"
-version     = "1.0.0"
-description = "Bundle of AudioThing's vintage-inspired plugins for classic analog warmth and coloration."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/effects/"
-is_paid     = true
+slug         = "vintage-bundle"
+name         = "Vintage Bundle"
+vendor       = "AudioThing"
+version      = "1.0.0"
+description  = "Bundle of AudioThing's vintage-inspired plugins for classic analog warmth and coloration."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiothing.net/effects/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/effects/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/effects/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

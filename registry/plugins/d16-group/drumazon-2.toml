@@ -1,26 +1,27 @@
-slug        = "drumazon-2"
-name        = "Drumazon 2"
-vendor      = "D16 Group"
-version     = "2.0.7"
-description = "Faithful software emulation of the classic TR-909 drum machine with a modern integrated effects chain."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/drumazon2"
+slug         = "drumazon-2"
+name         = "Drumazon 2"
+vendor       = "D16 Group"
+version      = "2.0.7"
+description  = "Faithful software emulation of the classic TR-909 drum machine with a modern integrated effects chain."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/drumazon2"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/11175-Drumazon-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/drumazon2"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/drumazon2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/drumazon2"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/drumazon2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "colossal-toms"
-name        = "Colossal Toms"
-vendor      = "Aria Sounds"
-version     = "1.0.0"
-description = "Epic tom drum ensemble Kontakt library with eight individually pitched toms and 127 dynamic layers."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://ariasounds.com/product/colossal-toms/"
-is_paid     = true
+slug         = "colossal-toms"
+name         = "Colossal Toms"
+vendor       = "Aria Sounds"
+version      = "1.0.0"
+description  = "Epic tom drum ensemble Kontakt library with eight individually pitched toms and 127 dynamic layers."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://ariasounds.com/product/colossal-toms/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ariasounds.com/product/colossal-toms/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/colossal-toms/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ariasounds.com/product/colossal-toms/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/colossal-toms/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

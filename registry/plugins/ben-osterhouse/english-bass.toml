@@ -1,26 +1,27 @@
-slug        = "english-bass"
-name        = "English Bass"
-vendor      = "Ben Osterhouse"
-version     = "1.0.0"
-description = "Kontakt instrument capturing the deep, resonant tones of an English double bass."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://osterhousesounds.com/products/english-bass"
+slug         = "english-bass"
+name         = "English Bass"
+vendor       = "Ben Osterhouse"
+version      = "1.0.0"
+description  = "Kontakt instrument capturing the deep, resonant tones of an English double bass."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://osterhousesounds.com/products/english-bass"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7355-English-Bass?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://osterhousesounds.com/products/english-bass"
-sha256       = ""
-install_type = "zip"
+url           = "https://osterhousesounds.com/products/english-bass"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://osterhousesounds.com/products/english-bass"
-sha256       = ""
-install_type = "zip"
+url           = "https://osterhousesounds.com/products/english-bass"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

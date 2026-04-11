@@ -1,25 +1,26 @@
-slug        = "neoverb-crossgrade-from-any-paid-izotope-or-exponential-audio-product"
-name        = "Neoverb Crossgrade from Any Paid iZotope or Exponential Audio Product"
-vendor      = "iZotope"
-version     = "1.4.0"
-description = "Crossgrade to iZotope Neoverb intelligent reverb from any paid iZotope or Exponential Audio product."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "izotope-product-portal"
-homepage    = "https://www.izotope.com/en/products/neoverb"
-is_paid     = true
+slug         = "neoverb-crossgrade-from-any-paid-izotope-or-exponential-audio-product"
+name         = "Neoverb Crossgrade from Any Paid iZotope or Exponential Audio Product"
+vendor       = "iZotope"
+version      = "1.4.0"
+description  = "Crossgrade to iZotope Neoverb intelligent reverb from any paid iZotope or Exponential Audio product."
+category     = "effects"
+product_type = "upgrade"
+license      = "commercial"
+tags         = []
+installer    = "izotope-product-portal"
+homepage     = "https://www.izotope.com/en/products/neoverb"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.izotope.com/en/products/neoverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products/neoverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.izotope.com/en/products/neoverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products/neoverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

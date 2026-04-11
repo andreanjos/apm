@@ -1,25 +1,26 @@
-slug        = "the-orb"
-name        = "The Orb"
-vendor      = "AudioThing"
-version     = "1.2.2"
-description = "Creative filter plugin with resonance and modulation inspired by vintage analog filter circuits."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/effects/the-orb/"
-is_paid     = true
+slug         = "the-orb"
+name         = "The Orb"
+vendor       = "AudioThing"
+version      = "1.2.2"
+description  = "Creative filter plugin with resonance and modulation inspired by vintage analog filter circuits."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiothing.net/effects/the-orb/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/effects/the-orb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/the-orb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/effects/the-orb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/the-orb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

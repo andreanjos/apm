@@ -1,25 +1,26 @@
-slug        = "sephardic-vocals"
-name        = "Sephardic Vocals"
-vendor      = "Rast Sound"
-version     = "1.0.0"
-description = "Kontakt library bringing medieval Sephardic Jewish vocal culture with playable solos and phrase patterns."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/sephardic-vocals/"
-is_paid     = true
+slug         = "sephardic-vocals"
+name         = "Sephardic Vocals"
+vendor       = "Rast Sound"
+version      = "1.0.0"
+description  = "Kontakt library bringing medieval Sephardic Jewish vocal culture with playable solos and phrase patterns."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/sephardic-vocals/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/sephardic-vocals/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/sephardic-vocals/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/sephardic-vocals/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/sephardic-vocals/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

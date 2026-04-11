@@ -1,24 +1,25 @@
-slug        = "rp-verb"
-name        = "RP-Verb"
-vendor      = "Rob Papen"
-version     = "1.0"
-description = "Musical reverb plugin delivering unmatched dimension and fullness, with creative distortion and transparent processing."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/rp-verb.html"
-is_paid     = true
+slug         = "rp-verb"
+name         = "RP-Verb"
+vendor       = "Rob Papen"
+version      = "1.0"
+description  = "Musical reverb plugin delivering unmatched dimension and fullness, with creative distortion and transparent processing."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/rp-verb.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/rp-verb.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/rp-verb.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/rp-verb.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/rp-verb.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

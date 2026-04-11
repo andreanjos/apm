@@ -1,25 +1,26 @@
-slug        = "whistle-2"
-name        = "Whistle 2"
-vendor      = "Rast Sound"
-version     = "2"
-description = "Solo whistle Kontakt library with extended range, multiple styles, phrase play, and improved mono legato."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/whistle/"
-is_paid     = true
+slug         = "whistle-2"
+name         = "Whistle 2"
+vendor       = "Rast Sound"
+version      = "2"
+description  = "Solo whistle Kontakt library with extended range, multiple styles, phrase play, and improved mono legato."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/whistle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/whistle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/whistle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/whistle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/whistle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

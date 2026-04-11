@@ -1,26 +1,27 @@
-slug        = "debird"
-name        = "DEBIRD"
-vendor      = "Boom"
-version     = "2.0"
-description = "Automatic bird noise removal plugin that detects and surgically removes bird sounds from field recordings."
-category    = "utility"
-subcategory = "audio editor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.boomlibrary.com/sound-effects/debird/"
+slug         = "debird"
+name         = "DEBIRD"
+vendor       = "Boom"
+version      = "2.0"
+description  = "Automatic bird noise removal plugin that detects and surgically removes bird sounds from field recordings."
+category     = "utility"
+product_type = "utility"
+subcategory  = "audio editor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.boomlibrary.com/sound-effects/debird/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/11033-DEBIRD?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.boomlibrary.com/sound-effects/debird/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.boomlibrary.com/sound-effects/debird/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.boomlibrary.com/sound-effects/debird/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.boomlibrary.com/sound-effects/debird/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,27 @@
-slug        = "echo-factory-dubtechno-mechanisms-1"
-name        = "Echo Factory – Dubtechno Mechanisms 1"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "A comprehensive sample library featuring over 1,200 sounds and 53 Kontakt instruments for dubtechno production."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/echo-factory-dubtechno-mechanisms-1"
-is_paid     = true
+slug         = "echo-factory-dubtechno-mechanisms-1"
+name         = "Echo Factory - Dubtechno Mechanisms 1"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "A comprehensive sample library featuring over 1,200 sounds and 53 Kontakt instruments for dubtechno production."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["echo-factory-8211-dubtechno-mechanisms-1"]
+homepage     = "https://zero-g.co.uk/products/echo-factory-dubtechno-mechanisms-1"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/echo-factory-dubtechno-mechanisms-1"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/echo-factory-dubtechno-mechanisms-1"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/echo-factory-dubtechno-mechanisms-1"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/echo-factory-dubtechno-mechanisms-1"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

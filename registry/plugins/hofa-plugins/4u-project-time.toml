@@ -1,26 +1,27 @@
-slug        = "4u-project-time"
-name        = "4U Project Time"
-vendor      = "HOFA Plugins"
-version     = "3"
-description = "Free session timer plugin that tracks how long you spend working on a project in your DAW."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://hofa-plugins.de/en/freeware-en/"
+slug         = "4u-project-time"
+name         = "4U Project Time"
+vendor       = "HOFA Plugins"
+version      = "3"
+description  = "Free session timer plugin that tracks how long you spend working on a project in your DAW."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://hofa-plugins.de/en/freeware-en/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/4761-4U-Project-Time?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hofa-plugins.de/en/freeware-en/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hofa-plugins.de/en/freeware-en/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hofa-plugins.de/en/freeware-en/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hofa-plugins.de/en/freeware-en/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "retune"
-name        = "reTune"
-vendor      = "zplane"
-version     = "1.0.0"
-description = "Real-time polyphonic key, scale, and pitch correction plugin using TONART V2 detection."
-category    = "effects"
-subcategory = "pitch shifter"
-license     = "commercial"
-tags        = []
-homepage    = "https://products.zplane.de/products/retune"
+slug         = "retune"
+name         = "reTune"
+vendor       = "zplane"
+version      = "1.0.0"
+description  = "Real-time polyphonic key, scale, and pitch correction plugin using TONART V2 detection."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch shifter"
+license      = "commercial"
+tags         = []
+homepage     = "https://products.zplane.de/products/retune"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/4186-reTune?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://products.zplane.de/products/retune"
-sha256       = ""
-install_type = "zip"
+url           = "https://products.zplane.de/products/retune"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://products.zplane.de/products/retune"
-sha256       = ""
-install_type = "zip"
+url           = "https://products.zplane.de/products/retune"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "vrev-140-vintage-plate-reverb"
-name        = "VREV 140 Vintage Plate Reverb"
-vendor      = "Fuse Audio Labs"
-version     = "2.7"
-description = "Vintage plate reverb plugin emulating the dense, smooth sound of classic plate reverb hardware."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://fuseaudiolabs.com/"
+slug         = "vrev-140-vintage-plate-reverb"
+name         = "VREV 140 Vintage Plate Reverb"
+vendor       = "Fuse Audio Labs"
+version      = "2.7"
+description  = "Vintage plate reverb plugin emulating the dense, smooth sound of classic plate reverb hardware."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://fuseaudiolabs.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/13551-VREV-140-Vintage-Plate-Reverb?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

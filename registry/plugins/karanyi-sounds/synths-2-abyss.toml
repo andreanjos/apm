@@ -1,25 +1,26 @@
-slug        = "synths-2-abyss"
-name        = "Synths 2 Abyss"
-vendor      = "Karanyi Sounds"
-version     = "1.0"
-description = "Dark bass-focused Kontakt instrument with drones and dystopian pads from analog synthesizers."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://karanyisounds.com/product/synths-2-abyss/"
-is_paid     = true
+slug         = "synths-2-abyss"
+name         = "Synths 2 Abyss"
+vendor       = "Karanyi Sounds"
+version      = "1.0"
+description  = "Dark bass-focused Kontakt instrument with drones and dystopian pads from analog synthesizers."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://karanyisounds.com/product/synths-2-abyss/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://karanyisounds.com/product/synths-2-abyss/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/synths-2-abyss/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://karanyisounds.com/product/synths-2-abyss/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/synths-2-abyss/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

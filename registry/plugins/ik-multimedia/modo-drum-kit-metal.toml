@@ -1,26 +1,27 @@
-slug        = "modo-drum-kit-metal"
-name        = "MODO DRUM Kit Metal"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "MODO DRUM expansion kit designed for modern and aggressive metal styles with punchy, powerful sounds."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/mdmetal/"
+slug         = "modo-drum-kit-metal"
+name         = "MODO DRUM Kit Metal"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "MODO DRUM expansion kit designed for modern and aggressive metal styles with punchy, powerful sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/mdmetal/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/14511-MODO-DRUM-Kit-Metal?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/mdmetal/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/mdmetal/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/mdmetal/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/mdmetal/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

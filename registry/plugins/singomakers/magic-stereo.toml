@@ -1,26 +1,27 @@
-slug        = "magic-stereo"
-name        = "Magic Stereo"
-vendor      = "Singomakers"
-version     = "1.0.0"
-description = "Stereo widening plugin for expanding and enhancing the stereo image of any signal."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "http://www.singomakers.net/"
+slug         = "magic-stereo"
+name         = "Magic Stereo"
+vendor       = "Singomakers"
+version      = "1.0.0"
+description  = "Stereo widening plugin for expanding and enhancing the stereo image of any signal."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "http://www.singomakers.net/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/2169-Magic-Stereo?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "http://www.singomakers.net/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.singomakers.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "http://www.singomakers.net/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.singomakers.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

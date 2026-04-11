@@ -1,26 +1,27 @@
-slug        = "bfd-dunnett-ti"
-name        = "BFD Dunnett Ti"
-vendor      = "BFD"
-version     = "1.0"
-description = "BFD3 expansion featuring hand-made prototype titanium drums from master builder Ronn Dunnett."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bfddrums.com/expansions/dunnett-ti.html"
+slug         = "bfd-dunnett-ti"
+name         = "BFD Dunnett Ti"
+vendor       = "BFD"
+version      = "1.0"
+description  = "BFD3 expansion featuring hand-made prototype titanium drums from master builder Ronn Dunnett."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bfddrums.com/expansions/dunnett-ti.html"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/3145-BFD-Dunnett-Ti?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bfddrums.com/expansions/dunnett-ti.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/expansions/dunnett-ti.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bfddrums.com/expansions/dunnett-ti.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/expansions/dunnett-ti.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

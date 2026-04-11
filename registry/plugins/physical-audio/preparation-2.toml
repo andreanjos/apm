@@ -1,26 +1,27 @@
-slug        = "preparation-2"
-name        = "Preparation 2"
-vendor      = "Physical Audio"
-version     = "1.0.0"
-description = "Physically modeled prepared piano engine simulating mechanical modifications for avant-garde textures."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://physicalaudio.co.uk/products/"
+slug         = "preparation-2"
+name         = "Preparation 2"
+vendor       = "Physical Audio"
+version      = "1.0.0"
+description  = "Physically modeled prepared piano engine simulating mechanical modifications for avant-garde textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://physicalaudio.co.uk/products/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15695-Preparation-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://physicalaudio.co.uk/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://physicalaudio.co.uk/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://physicalaudio.co.uk/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://physicalaudio.co.uk/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

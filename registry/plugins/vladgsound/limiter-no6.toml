@@ -1,26 +1,27 @@
-slug        = "limiter-no6"
-name        = "Limiter No6"
-vendor      = "VladgSound"
-version     = "1.2"
-description = "Free multiband limiter plugin by VladgSound with six independent limiting stages."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://vladgsound.wordpress.com/plugins/limiter6/"
+slug         = "limiter-no6"
+name         = "Limiter No6"
+vendor       = "VladgSound"
+version      = "1.2"
+description  = "Free multiband limiter plugin by VladgSound with six independent limiting stages."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://vladgsound.wordpress.com/plugins/limiter6/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/338-Limiter-No6?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://vladgsound.wordpress.com/plugins/limiter6/"
-sha256       = ""
-install_type = "zip"
+url           = "https://vladgsound.wordpress.com/plugins/limiter6/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://vladgsound.wordpress.com/plugins/limiter6/"
-sha256       = ""
-install_type = "zip"
+url           = "https://vladgsound.wordpress.com/plugins/limiter6/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

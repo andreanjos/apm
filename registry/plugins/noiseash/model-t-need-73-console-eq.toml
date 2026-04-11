@@ -1,25 +1,26 @@
-slug        = "model-t-need-73-console-eq"
-name        = "Model T + Need 73 Console EQ"
-vendor      = "NoiseAsh"
-version     = "1.0.0"
-description = "Bundle combining the Model T tube preamp and NEED 73 British console EQ plugins."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://noiseash.com/model-t-need-73-console-eq/"
-is_paid     = true
+slug         = "model-t-need-73-console-eq"
+name         = "Model T + Need 73 Console EQ"
+vendor       = "NoiseAsh"
+version      = "1.0.0"
+description  = "Bundle combining the Model T tube preamp and NEED 73 British console EQ plugins."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://noiseash.com/model-t-need-73-console-eq/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://noiseash.com/model-t-need-73-console-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/model-t-need-73-console-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://noiseash.com/model-t-need-73-console-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/model-t-need-73-console-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

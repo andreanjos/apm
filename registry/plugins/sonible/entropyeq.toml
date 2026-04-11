@@ -1,25 +1,26 @@
-slug        = "entropyeq"
-name        = "entropy:EQ+"
-vendor      = "sonible"
-version     = "1.0.0"
-description = "Surgical EQ that isolates tonal vs. noisy components to process individual drums within a mix."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonible.com/entropyeq/"
-is_paid     = true
+slug         = "entropyeq"
+name         = "entropy:EQ+"
+vendor       = "sonible"
+version      = "1.0.0"
+description  = "Surgical EQ that isolates tonal vs. noisy components to process individual drums within a mix."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonible.com/entropyeq/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonible.com/entropyeq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/entropyeq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonible.com/entropyeq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/entropyeq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

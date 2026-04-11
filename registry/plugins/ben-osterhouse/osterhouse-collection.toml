@@ -1,25 +1,26 @@
-slug        = "osterhouse-collection"
-name        = "Osterhouse Collection"
-vendor      = "Ben Osterhouse"
-version     = "1.0.0"
-description = "Complete bundle of all Ben Osterhouse Kontakt string libraries in one package."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://osterhousesounds.com/collections/all"
-is_paid     = true
+slug         = "osterhouse-collection"
+name         = "Osterhouse Collection"
+vendor       = "Ben Osterhouse"
+version      = "1.0.0"
+description  = "Complete bundle of all Ben Osterhouse Kontakt string libraries in one package."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://osterhousesounds.com/collections/all"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://osterhousesounds.com/collections/all"
-sha256       = ""
-install_type = "zip"
+url           = "https://osterhousesounds.com/collections/all"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://osterhousesounds.com/collections/all"
-sha256       = ""
-install_type = "zip"
+url           = "https://osterhousesounds.com/collections/all"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "string-machine"
-name        = "String Machine"
-vendor      = "EastWest Sounds"
-version     = "1.0.0"
-description = "Vintage string machine sampling Arp Solina, Oberheim OBX, Roland RS-505 combined with modern strings."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/synth-and-effects/string-machine"
+slug         = "string-machine"
+name         = "String Machine"
+vendor       = "EastWest Sounds"
+version      = "1.0.0"
+description  = "Vintage string machine sampling Arp Solina, Oberheim OBX, Roland RS-505 combined with modern strings."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/synth-and-effects/string-machine"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15536-String-Machine?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/synth-and-effects/string-machine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/synth-and-effects/string-machine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/synth-and-effects/string-machine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/synth-and-effects/string-machine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

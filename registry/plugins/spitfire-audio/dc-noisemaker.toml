@@ -1,26 +1,27 @@
-slug        = "dc-noisemaker"
-name        = "DC Noisemaker"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Esoteric instruments toolkit centred on the musical saw, produced by Martyn Ware and David Coulter."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/dc-noisemaker"
-is_paid     = true
+slug         = "dc-noisemaker"
+name         = "DC Noisemaker"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Esoteric instruments toolkit centred on the musical saw, produced by Martyn Ware and David Coulter."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/dc-noisemaker"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/dc-noisemaker"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/dc-noisemaker"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/dc-noisemaker"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/dc-noisemaker"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

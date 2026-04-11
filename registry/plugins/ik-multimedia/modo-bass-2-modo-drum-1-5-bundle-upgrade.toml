@@ -1,25 +1,26 @@
-slug        = "modo-bass-2-modo-drum-1-5-bundle-upgrade"
-name        = "MODO BASS 2 + MODO DRUM 1.5 Bundle Upgrade"
-vendor      = "IK Multimedia"
-version     = "2.0"
-description = "Upgrade bundle combining MODO BASS 2 and MODO DRUM 1.5 physically modeled bass and drums."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/modobass2/"
-is_paid     = true
+slug         = "modo-bass-2-modo-drum-1-5-bundle-upgrade"
+name         = "MODO BASS 2 + MODO DRUM 1.5 Bundle Upgrade"
+vendor       = "IK Multimedia"
+version      = "2.0"
+description  = "Upgrade bundle combining MODO BASS 2 and MODO DRUM 1.5 physically modeled bass and drums."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/modobass2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/modobass2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/modobass2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/modobass2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/modobass2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

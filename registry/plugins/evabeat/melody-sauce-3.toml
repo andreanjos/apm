@@ -1,26 +1,27 @@
-slug        = "melody-sauce-3"
-name        = "Melody Sauce 3"
-vendor      = "EVAbeat"
-version     = "3.0"
-description = "AI-powered melody generation plugin that creates melodies in any scale and key instantly."
-category    = "utility"
-subcategory = "music theory tools"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.evabeat.com/melody-sauce"
+slug         = "melody-sauce-3"
+name         = "Melody Sauce 3"
+vendor       = "EVAbeat"
+version      = "3.0"
+description  = "AI-powered melody generation plugin that creates melodies in any scale and key instantly."
+category     = "utility"
+product_type = "utility"
+subcategory  = "music theory tools"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.evabeat.com/melody-sauce"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/15887-Melody-Sauce-3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.evabeat.com/melody-sauce"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.evabeat.com/melody-sauce"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.evabeat.com/melody-sauce"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.evabeat.com/melody-sauce"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

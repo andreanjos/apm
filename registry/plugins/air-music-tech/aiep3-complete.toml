@@ -1,25 +1,26 @@
-slug        = "aiep3-complete"
-name        = "AIEP3 Complete"
-vendor      = "Air Music Tech"
-version     = "1.0.0"
-description = "Complete bundle of all Air Music Tech virtual instruments and effects plugins."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.airmusictech.com"
-is_paid     = true
+slug         = "aiep3-complete"
+name         = "AIEP3 Complete"
+vendor       = "Air Music Tech"
+version      = "1.0.0"
+description  = "Complete bundle of all Air Music Tech virtual instruments and effects plugins."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.airmusictech.com"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.airmusictech.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.airmusictech.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.airmusictech.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.airmusictech.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

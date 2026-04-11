@@ -1,17 +1,19 @@
-slug        = "studio-one"
-name        = "Studio One"
-vendor      = "PreSonus"
-version     = "7.0"
-description = "Single-window DAW with drag-and-drop workflow, integrated mastering suite, and hardware integration."
-category    = "daws"
-subcategory = "general"
-license     = "commercial"
-tags        = ["daw", "production", "recording", "mixing", "mastering", "drag-and-drop"]
-homepage    = "https://www.presonus.com/en/studio-one.html"
+slug         = "studio-one"
+name         = "Studio One"
+vendor       = "PreSonus"
+version      = "7.0"
+description  = "Single-window DAW with drag-and-drop workflow, integrated mastering suite, and hardware integration."
+category     = "daws"
+product_type = "daw"
+subcategory  = "general"
+license      = "commercial"
+tags         = ["daw", "production", "recording", "mixing", "mastering", "drag-and-drop"]
+homepage     = "https://www.presonus.com/en/studio-one.html"
+is_paid      = true
 
 [formats.app]
 url           = "https://www.presonus.com/en/studio-one.html"
 sha256        = "manual"
 install_type  = "pkg"
-bundle_path   = "Studio One.app"
 download_type = "manual"
+bundle_path   = "Studio One.app"

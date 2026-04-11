@@ -1,25 +1,26 @@
-slug        = "prodrummer-vol-1"
-name        = "ProDrummer Vol 1"
-vendor      = "EastWest"
-version     = "1.0.0"
-description = "EastWest's professional acoustic drum instrument with detailed multi-sampled kits."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
-is_paid     = true
+slug         = "prodrummer-vol-1"
+name         = "ProDrummer Vol 1"
+vendor       = "EastWest"
+version      = "1.0.0"
+description  = "EastWest's professional acoustic drum instrument with detailed multi-sampled kits."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

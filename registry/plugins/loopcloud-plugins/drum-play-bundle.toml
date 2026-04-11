@@ -1,25 +1,27 @@
-slug        = "drum-play-bundle"
-name        = "DRUM & PLAY Bundle"
-vendor      = "Loopcloud Plugins"
-version     = "1.0.0"
-description = "Bundle combining Loopcloud DRUM and PLAY instruments for beat-making and melody creation."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.loopcloud.com/cloud/plugins"
-is_paid     = true
+slug         = "drum-play-bundle"
+name         = "DRUM & PLAY Bundle"
+vendor       = "Loopcloud Plugins"
+version      = "1.0.0"
+description  = "Bundle combining Loopcloud DRUM and PLAY instruments for beat-making and melody creation."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["drum-038-play-bundle"]
+homepage     = "https://www.loopcloud.com/cloud/plugins"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.loopcloud.com/cloud/plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.loopcloud.com/cloud/plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.loopcloud.com/cloud/plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.loopcloud.com/cloud/plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

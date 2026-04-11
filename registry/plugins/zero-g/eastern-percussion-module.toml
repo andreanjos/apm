@@ -1,25 +1,26 @@
-slug        = "eastern-percussion-module"
-name        = "Eastern Percussion Module"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Kontakt instrument featuring over 5,000 Middle Eastern percussion samples with mixing controls and MIDI grooves."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/epm"
-is_paid     = true
+slug         = "eastern-percussion-module"
+name         = "Eastern Percussion Module"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Kontakt instrument featuring over 5,000 Middle Eastern percussion samples with mixing controls and MIDI grooves."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/epm"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/epm"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/epm"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/epm"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/epm"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

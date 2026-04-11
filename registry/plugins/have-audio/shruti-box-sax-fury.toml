@@ -1,25 +1,26 @@
-slug        = "shruti-box-sax-fury"
-name        = "Shruti Box + Sax Fury"
-vendor      = "Have Audio"
-version     = "1.0.0"
-description = "Combined bundle of Have Audio's Shruti Box and Sax Fury ethnic instrument libraries."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://haveaudio.com/collections/all-products"
-is_paid     = true
+slug         = "shruti-box-sax-fury"
+name         = "Shruti Box + Sax Fury"
+vendor       = "Have Audio"
+version      = "1.0.0"
+description  = "Combined bundle of Have Audio's Shruti Box and Sax Fury ethnic instrument libraries."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://haveaudio.com/collections/all-products"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://haveaudio.com/collections/all-products"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/collections/all-products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://haveaudio.com/collections/all-products"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/collections/all-products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "chandler-limited-germanium-compressor"
-name        = "Chandler Limited Germanium Compressor"
-vendor      = "Softube"
-version     = "2.6"
-description = "Compressor plugin modeled on Chandler Limited's Germanium hardware for warm, musical compression."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-germanium-compressor"
-is_paid     = true
+slug         = "chandler-limited-germanium-compressor"
+name         = "Chandler Limited Germanium Compressor"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Compressor plugin modeled on Chandler Limited's Germanium hardware for warm, musical compression."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-germanium-compressor"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-germanium-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-germanium-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-germanium-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-germanium-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

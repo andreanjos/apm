@@ -1,26 +1,27 @@
-slug        = "azs-visions-dsi-pro-2"
-name        = "AZS Visions DSI Pro 2"
-vendor      = "Resonance Sound"
-version     = "1.0.0"
-description = "Patch bank for Dave Smith Instruments Pro 2 exploring complex synthesis and modulation."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.resonance-sound.com"
+slug         = "azs-visions-dsi-pro-2"
+name         = "AZS Visions DSI Pro 2"
+vendor       = "Resonance Sound"
+version      = "1.0.0"
+description  = "Patch bank for Dave Smith Instruments Pro 2 exploring complex synthesis and modulation."
+category     = "instruments"
+product_type = "preset_pack"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.resonance-sound.com"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/1429-AZS-Visions-DSI-Pro-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.resonance-sound.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.resonance-sound.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.resonance-sound.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.resonance-sound.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "instachord-2"
-name        = "InstaChord 2"
-vendor      = "W A Production"
-version     = "1.0.0"
-description = "MIDI chord generation plugin with 60+ chord shapes, pattern editor, and AI-assisted progression ideas."
-category    = "utility"
-subcategory = "music theory tools"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/instachord-2"
+slug         = "instachord-2"
+name         = "InstaChord 2"
+vendor       = "W A Production"
+version      = "1.0.0"
+description  = "MIDI chord generation plugin with 60+ chord shapes, pattern editor, and AI-assisted progression ideas."
+category     = "utility"
+product_type = "utility"
+subcategory  = "music theory tools"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/instachord-2"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/9365-InstaChord-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/instachord-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/instachord-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/instachord-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/instachord-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

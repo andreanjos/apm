@@ -1,26 +1,27 @@
-slug        = "gates-bundle"
-name        = "Gates Bundle"
-vendor      = "Slate Digital"
-version     = "1.0.0"
-description = "Two gate modules for VMR: Gate:Classic for general use and Gate:Drums for smart transient-based gating."
-category    = "effects"
-subcategory = "gate"
-license     = "commercial"
-tags        = []
-homepage    = "https://slatedigital.com/gates-bundle/"
+slug         = "gates-bundle"
+name         = "Gates Bundle"
+vendor       = "Slate Digital"
+version      = "1.0.0"
+description  = "Two gate modules for VMR: Gate:Classic for general use and Gate:Drums for smart transient-based gating."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "gate"
+license      = "commercial"
+tags         = []
+homepage     = "https://slatedigital.com/gates-bundle/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/15795-Gates-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://slatedigital.com/gates-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/gates-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://slatedigital.com/gates-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/gates-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "revoice-pro-4"
-name        = "Revoice Pro 4"
-vendor      = "Synchro Arts"
-version     = "5"
-description = "Advanced vocal processing suite with alignment, pitch correction, doubling, and formant shifting."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://synchroarts.com/products/revoice-pro"
-is_paid     = true
+slug         = "revoice-pro-4"
+name         = "Revoice Pro 4"
+vendor       = "Synchro Arts"
+version      = "5"
+description  = "Advanced vocal processing suite with alignment, pitch correction, doubling, and formant shifting."
+category     = "effects"
+product_type = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://synchroarts.com/products/revoice-pro"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synchroarts.com/products/revoice-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://synchroarts.com/products/revoice-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synchroarts.com/products/revoice-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://synchroarts.com/products/revoice-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "efektor-od3603-overdrive"
-name        = "Efektor OD3603 Overdrive"
-vendor      = "Kuassa"
-version     = "1.0.0"
-description = "Guitar overdrive plugin with five models from blues crunch to modern high-gain tones."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kuassa.com/products/efektor-od3603/"
-is_paid     = true
+slug         = "efektor-od3603-overdrive"
+name         = "Efektor OD3603 Overdrive"
+vendor       = "Kuassa"
+version      = "1.0.0"
+description  = "Guitar overdrive plugin with five models from blues crunch to modern high-gain tones."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kuassa.com/products/efektor-od3603/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kuassa.com/products/efektor-od3603/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kuassa.com/products/efektor-od3603/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kuassa.com/products/efektor-od3603/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kuassa.com/products/efektor-od3603/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

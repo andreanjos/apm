@@ -1,25 +1,26 @@
-slug        = "choptones-angel-infernus"
-name        = "Choptones Angel Infernus"
-vendor      = "Overloud"
-version     = "1.0.0"
-description = "TH-U rig library capturing an Engl E766 Inferno Marty Friedman signature head with multiple cabs."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.overloud.com/products/choptones-angel-infernus"
-is_paid     = true
+slug         = "choptones-angel-infernus"
+name         = "Choptones Angel Infernus"
+vendor       = "Overloud"
+version      = "1.0.0"
+description  = "TH-U rig library capturing an Engl E766 Inferno Marty Friedman signature head with multiple cabs."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.overloud.com/products/choptones-angel-infernus"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.overloud.com/products/choptones-angel-infernus"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products/choptones-angel-infernus"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.overloud.com/products/choptones-angel-infernus"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products/choptones-angel-infernus"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

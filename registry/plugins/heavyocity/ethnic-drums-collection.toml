@@ -1,25 +1,26 @@
-slug        = "ethnic-drums-collection"
-name        = "Ethnic Drums Collection"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Master Sessions collection of deeply sampled ethnic drum ensembles from world percussion traditions."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/ms-ethnicdrumensembles"
-is_paid     = true
+slug         = "ethnic-drums-collection"
+name         = "Ethnic Drums Collection"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Master Sessions collection of deeply sampled ethnic drum ensembles from world percussion traditions."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/ms-ethnicdrumensembles"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/ms-ethnicdrumensembles"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/ms-ethnicdrumensembles"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/ms-ethnicdrumensembles"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/ms-ethnicdrumensembles"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

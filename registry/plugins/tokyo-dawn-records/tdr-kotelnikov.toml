@@ -1,61 +1,62 @@
-slug        = "tdr-kotelnikov"
-name        = "TDR Kotelnikov"
-vendor      = "Tokyo Dawn Records"
-version     = "1.6.7"
-description = "Wideband dynamics processor combining high-fidelity dynamic range control with deep musical flexibility for transparent mastering compression."
-category    = "effects"
-subcategory = "compressor"
-license     = "freeware"
-tags        = ["compressor", "dynamics", "mastering", "bus-compressor", "free", "freeware", "mixing", "transparent"]
-homepage    = "https://www.tokyodawn.net/tdr-kotelnikov/"
+slug         = "tdr-kotelnikov"
+name         = "TDR Kotelnikov"
+vendor       = "Tokyo Dawn Records"
+version      = "1.6.7"
+description  = "Wideband dynamics processor combining high-fidelity dynamic range control with deep musical flexibility for transparent mastering compression."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "freeware"
+tags         = ["compressor", "dynamics", "mastering", "bus-compressor", "free", "freeware", "mixing", "transparent"]
+homepage     = "https://www.tokyodawn.net/tdr-kotelnikov/"
 
 [formats.vst3]
-url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.7/TDR%20Kotelnikov.zip"
-sha256       = "59e580a260fb66db6f608b92434c9cf9e426eb83734995b5d4633930783389da"
-install_type = "zip"
-bundle_path  = "TDR Kotelnikov.vst3"
+url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.7/TDR%20Kotelnikov.zip"
+sha256        = "59e580a260fb66db6f608b92434c9cf9e426eb83734995b5d4633930783389da"
+install_type  = "zip"
+bundle_path   = "TDR Kotelnikov.vst3"
 
 [formats.au]
-url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.7/TDR%20Kotelnikov.zip"
-sha256       = "59e580a260fb66db6f608b92434c9cf9e426eb83734995b5d4633930783389da"
-install_type = "zip"
-bundle_path  = "TDR Kotelnikov.component"
+url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.7/TDR%20Kotelnikov.zip"
+sha256        = "59e580a260fb66db6f608b92434c9cf9e426eb83734995b5d4633930783389da"
+install_type  = "zip"
+bundle_path   = "TDR Kotelnikov.component"
 
 [[releases]]
 version = "1.6.5"
 
 [releases.formats.vst3]
-url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.5/TDR%20Kotelnikov.zip"
-sha256       = "22dfe5c1b027fef009a5410c90b892608f48aa77e4a7e661210edf51b8d3da52"
-install_type = "zip"
+url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.5/TDR%20Kotelnikov.zip"
+sha256        = "22dfe5c1b027fef009a5410c90b892608f48aa77e4a7e661210edf51b8d3da52"
+install_type  = "zip"
 
 [releases.formats.au]
-url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.5/TDR%20Kotelnikov.zip"
-sha256       = "22dfe5c1b027fef009a5410c90b892608f48aa77e4a7e661210edf51b8d3da52"
-install_type = "zip"
+url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.5/TDR%20Kotelnikov.zip"
+sha256        = "22dfe5c1b027fef009a5410c90b892608f48aa77e4a7e661210edf51b8d3da52"
+install_type  = "zip"
 
 [[releases]]
 version = "1.6.4"
 
 [releases.formats.vst3]
-url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.4/TDR%20Kotelnikov.zip"
-sha256       = "eec5ad8d12ed25bb6501ed5058fa309ddb61d8c8ebf1a1b28c621b4f8b1ba2ee"
-install_type = "zip"
+url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.4/TDR%20Kotelnikov.zip"
+sha256        = "eec5ad8d12ed25bb6501ed5058fa309ddb61d8c8ebf1a1b28c621b4f8b1ba2ee"
+install_type  = "zip"
 
 [releases.formats.au]
-url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.4/TDR%20Kotelnikov.zip"
-sha256       = "eec5ad8d12ed25bb6501ed5058fa309ddb61d8c8ebf1a1b28c621b4f8b1ba2ee"
-install_type = "zip"
+url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.4/TDR%20Kotelnikov.zip"
+sha256        = "eec5ad8d12ed25bb6501ed5058fa309ddb61d8c8ebf1a1b28c621b4f8b1ba2ee"
+install_type  = "zip"
 
 [[releases]]
 version = "1.6.3"
 
 [releases.formats.vst3]
-url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.3/TDR%20Kotelnikov.zip"
-sha256       = "9f3b45a67db6510f1e0ec7eec99cbe6cb6c41e8a1744963a92833cd6b33786d5"
-install_type = "zip"
+url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.3/TDR%20Kotelnikov.zip"
+sha256        = "9f3b45a67db6510f1e0ec7eec99cbe6cb6c41e8a1744963a92833cd6b33786d5"
+install_type  = "zip"
 
 [releases.formats.au]
-url          = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.3/TDR%20Kotelnikov.zip"
-sha256       = "9f3b45a67db6510f1e0ec7eec99cbe6cb6c41e8a1744963a92833cd6b33786d5"
-install_type = "zip"
+url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.3/TDR%20Kotelnikov.zip"
+sha256        = "9f3b45a67db6510f1e0ec7eec99cbe6cb6c41e8a1744963a92833cd6b33786d5"
+install_type  = "zip"

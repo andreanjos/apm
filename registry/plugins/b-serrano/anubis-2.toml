@@ -1,26 +1,27 @@
-slug        = "anubis-2"
-name        = "Anubis 2"
-vendor      = "B Serrano"
-version     = "1.0.0"
-description = "Free hybrid subtractive/FM synth with 32-voice polyphony and up to 8-voice unison."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
+slug         = "anubis-2"
+name         = "Anubis 2"
+vendor       = "B Serrano"
+version      = "1.0.0"
+description  = "Free hybrid subtractive/FM synth with 32-voice polyphony and up to 8-voice unison."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1673-Anubis-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

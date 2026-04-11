@@ -1,25 +1,26 @@
-slug        = "oxford-inflator-hd-hdx"
-name        = "Oxford Inflator HD/HDX"
-vendor      = "Sonnox"
-version     = "1.0.0"
-description = "Oxford Inflator HD/HDX adds presence, warmth, and loudness to tracks without compromising dynamic range or clarity."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/products/oxford-inflator"
-is_paid     = true
+slug         = "oxford-inflator-hd-hdx"
+name         = "Oxford Inflator HD/HDX"
+vendor       = "Sonnox"
+version      = "1.0.0"
+description  = "Oxford Inflator HD/HDX adds presence, warmth, and loudness to tracks without compromising dynamic range or clarity."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonnox.com/products/oxford-inflator"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/products/oxford-inflator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-inflator"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/products/oxford-inflator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-inflator"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

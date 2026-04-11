@@ -1,26 +1,27 @@
-slug        = "eden-wt-800"
-name        = "Eden WT-800"
-vendor      = "Softube"
-version     = "2.6"
-description = "Bass amplifier simulator modeled on the legendary Eden WT-800 head for rich, professional bass tones."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/guitar-bass/eden-wt800"
-is_paid     = true
+slug         = "eden-wt-800"
+name         = "Eden WT-800"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Bass amplifier simulator modeled on the legendary Eden WT-800 head for rich, professional bass tones."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/guitar-bass/eden-wt800"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/guitar-bass/eden-wt800"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/guitar-bass/eden-wt800"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/guitar-bass/eden-wt800"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/guitar-bass/eden-wt800"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "rekraft"
-name        = "Rekraft"
-vendor      = "BeatSkillz"
-version     = "1.0.0"
-description = "Modular lo-fi plugin with swappable and stackable effects for dirty, dreamy, and warped sounds."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beatskillz.com/shop/rekraft/"
+slug         = "rekraft"
+name         = "Rekraft"
+vendor       = "BeatSkillz"
+version      = "1.0.0"
+description  = "Modular lo-fi plugin with swappable and stackable effects for dirty, dreamy, and warped sounds."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beatskillz.com/shop/rekraft/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/12062-Rekraft?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beatskillz.com/shop/rekraft/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/rekraft/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beatskillz.com/shop/rekraft/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/rekraft/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

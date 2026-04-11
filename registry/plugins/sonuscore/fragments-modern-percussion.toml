@@ -1,26 +1,27 @@
-slug        = "fragments-modern-percussion"
-name        = "Fragments Modern Percussion"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Modern percussion instrument using three linked sequencers and unconventional sounds with deep randomization."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/fragments-modern-percussion/"
+slug         = "fragments-modern-percussion"
+name         = "Fragments Modern Percussion"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Modern percussion instrument using three linked sequencers and unconventional sounds with deep randomization."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/fragments-modern-percussion/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11059-Fragments-Modern-Percussion?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/fragments-modern-percussion/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/fragments-modern-percussion/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/fragments-modern-percussion/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/fragments-modern-percussion/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "black-noise-generator"
-name        = "Black Noise Generator"
-vendor      = "SirenFX"
-version     = "1.1.0"
-description = "LFE effect plugin generating deep, unsettling low-frequency noise textures for film and games."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kvraudio.com/product/black-noise-generator-by-sirenfx"
-is_paid     = true
+slug         = "black-noise-generator"
+name         = "Black Noise Generator"
+vendor       = "SirenFX"
+version      = "1.1.0"
+description  = "LFE effect plugin generating deep, unsettling low-frequency noise textures for film and games."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kvraudio.com/product/black-noise-generator-by-sirenfx"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kvraudio.com/product/black-noise-generator-by-sirenfx"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/product/black-noise-generator-by-sirenfx"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kvraudio.com/product/black-noise-generator-by-sirenfx"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/product/black-noise-generator-by-sirenfx"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "deres"
-name        = "Deres"
-vendor      = "W A Production"
-version     = "1.0.0"
-description = "De-resonance plugin that detects and reduces hidden resonances and muddy overtones in audio."
-category    = "effects"
-subcategory = "dynamics processor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/deres"
+slug         = "deres"
+name         = "Deres"
+vendor       = "W A Production"
+version      = "1.0.0"
+description  = "De-resonance plugin that detects and reduces hidden resonances and muddy overtones in audio."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamics processor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/deres"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/12212-Deres?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/deres"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/deres"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/deres"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/deres"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

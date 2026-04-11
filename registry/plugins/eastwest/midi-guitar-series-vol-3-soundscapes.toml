@@ -1,25 +1,26 @@
-slug        = "midi-guitar-series-vol-3-soundscapes"
-name        = "Midi Guitar Series Vol 3 Soundscapes"
-vendor      = "EastWest"
-version     = "1.0.0"
-description = "PLAY-powered library of 72 spacey, ethereal pads and textures optimized for MIDI guitar."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/guitars-and-bass/ghostwriter"
-is_paid     = true
+slug         = "midi-guitar-series-vol-3-soundscapes"
+name         = "Midi Guitar Series Vol 3 Soundscapes"
+vendor       = "EastWest"
+version      = "1.0.0"
+description  = "PLAY-powered library of 72 spacey, ethereal pads and textures optimized for MIDI guitar."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/guitars-and-bass/ghostwriter"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/guitars-and-bass/ghostwriter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/guitars-and-bass/ghostwriter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/guitars-and-bass/ghostwriter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/guitars-and-bass/ghostwriter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

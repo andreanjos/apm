@@ -1,25 +1,26 @@
-slug        = "efektor-ds3603-distortion"
-name        = "Efektor DS3603 Distortion"
-vendor      = "Kuassa"
-version     = "1.0.0"
-description = "Guitar distortion plugin with five models including Lead, Heavy, Metal, Classic, and Pro."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kuassa.com/products/efektor-ds3603/"
-is_paid     = true
+slug         = "efektor-ds3603-distortion"
+name         = "Efektor DS3603 Distortion"
+vendor       = "Kuassa"
+version      = "1.0.0"
+description  = "Guitar distortion plugin with five models including Lead, Heavy, Metal, Classic, and Pro."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kuassa.com/products/efektor-ds3603/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kuassa.com/products/efektor-ds3603/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kuassa.com/products/efektor-ds3603/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kuassa.com/products/efektor-ds3603/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kuassa.com/products/efektor-ds3603/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

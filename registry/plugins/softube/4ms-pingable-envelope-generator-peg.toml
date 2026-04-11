@@ -1,25 +1,26 @@
-slug        = "4ms-pingable-envelope-generator-peg"
-name        = "4ms Pingable Envelope Generator (PEG)"
-vendor      = "Softube"
-version     = "2.6"
-description = "Eurorack-style pingable envelope generator module for Softube Modular with tempo-synced envelopes."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/synthesizers/4ms-pingable-envelope-generator-peg"
-is_paid     = true
+slug         = "4ms-pingable-envelope-generator-peg"
+name         = "4ms Pingable Envelope Generator (PEG)"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Eurorack-style pingable envelope generator module for Softube Modular with tempo-synced envelopes."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/synthesizers/4ms-pingable-envelope-generator-peg"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/4ms-pingable-envelope-generator-peg"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/4ms-pingable-envelope-generator-peg"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/4ms-pingable-envelope-generator-peg"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/4ms-pingable-envelope-generator-peg"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

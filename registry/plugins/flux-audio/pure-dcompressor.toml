@@ -1,25 +1,26 @@
-slug        = "pure-dcompressor"
-name        = "Pure DCompressor"
-vendor      = "Flux Audio"
-version     = "3.0"
-description = "Flux Audio dual-band compressor plugin for independent low and high frequency dynamics."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://fluxhome.com/product/pure-dcompressor/"
-is_paid     = true
+slug         = "pure-dcompressor"
+name         = "Pure DCompressor"
+vendor       = "Flux Audio"
+version      = "3.0"
+description  = "Flux Audio dual-band compressor plugin for independent low and high frequency dynamics."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://fluxhome.com/product/pure-dcompressor/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://fluxhome.com/product/pure-dcompressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fluxhome.com/product/pure-dcompressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://fluxhome.com/product/pure-dcompressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fluxhome.com/product/pure-dcompressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

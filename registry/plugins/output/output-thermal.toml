@@ -1,24 +1,28 @@
-slug        = "output-thermal"
-name        = "Thermal"
-vendor      = "Output"
-version     = "1.2.1"
-description = "Multi-band interactive distortion engine with 15+ distortion types, 9 built-in effects, and 250+ presets."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = ["distortion", "multiband", "creative", "effects", "sound-design"]
-homepage    = "https://output.com/products/thermal"
+slug         = "output-thermal"
+name         = "Thermal"
+vendor       = "Output"
+version      = "1.2.1"
+description  = "Multi-band interactive distortion engine with 15+ distortion types, 9 built-in effects, and 250+ presets."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = ["distortion", "multiband", "creative", "effects", "sound-design"]
+aliases      = ["thermal"]
+homepage     = "https://output.com/products/thermal"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/6525-Thermal?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://output.com/products/thermal"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://output.com/products/thermal"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Thermal.vst3"
+bundle_path   = "Thermal.vst3"
 
 [formats.au]
-url          = "https://output.com/products/thermal"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://output.com/products/thermal"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Thermal.component"
+bundle_path   = "Thermal.component"

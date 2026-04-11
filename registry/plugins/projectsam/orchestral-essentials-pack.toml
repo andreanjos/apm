@@ -1,25 +1,26 @@
-slug        = "orchestral-essentials-pack"
-name        = "Orchestral Essentials Pack"
-vendor      = "ProjectSAM"
-version     = "1.0.0"
-description = "Bundle combining Orchestral Essentials 1 and 2 for a complete cinematic orchestral toolkit."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://projectsam.com/libraries/"
-is_paid     = true
+slug         = "orchestral-essentials-pack"
+name         = "Orchestral Essentials Pack"
+vendor       = "ProjectSAM"
+version      = "1.0.0"
+description  = "Bundle combining Orchestral Essentials 1 and 2 for a complete cinematic orchestral toolkit."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://projectsam.com/libraries/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://projectsam.com/libraries/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://projectsam.com/libraries/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

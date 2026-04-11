@@ -1,26 +1,27 @@
-slug        = "urban-soul-expansion-pack-for-the-sub"
-name        = "Urban Soul Expansion Pack For The Sub"
-vendor      = "Iceberg Audio"
-version     = "1.0.0"
-description = "Hip-hop and R&B-inspired warm sub bass expansion pack for The Sub plugin."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://icebergaudio.com/shop/"
+slug         = "urban-soul-expansion-pack-for-the-sub"
+name         = "Urban Soul Expansion Pack For The Sub"
+vendor       = "Iceberg Audio"
+version      = "1.0.0"
+description  = "Hip-hop and R&B-inspired warm sub bass expansion pack for The Sub plugin."
+category     = "instruments"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://icebergaudio.com/shop/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/10205-Urban-Soul-Expansion-Pack-For-The-Sub-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://icebergaudio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://icebergaudio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://icebergaudio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://icebergaudio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

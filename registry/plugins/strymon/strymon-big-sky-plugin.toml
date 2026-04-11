@@ -1,24 +1,25 @@
-slug        = "strymon-big-sky-plugin"
-name        = "Strymon Big Sky Plugin"
-vendor      = "Strymon"
-version     = "1.0"
-description = "Strymon BigSky Plugin brings the award-winning hardware reverb pedal's 12 algorithms to your DAW."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.strymon.net/product/bigsky-plugin/"
-is_paid     = true
+slug         = "strymon-big-sky-plugin"
+name         = "Strymon Big Sky Plugin"
+vendor       = "Strymon"
+version      = "1.0"
+description  = "Strymon BigSky Plugin brings the award-winning hardware reverb pedal's 12 algorithms to your DAW."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.strymon.net/product/bigsky-plugin/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.strymon.net/product/bigsky-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.strymon.net/product/bigsky-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.strymon.net/product/bigsky-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.strymon.net/product/bigsky-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

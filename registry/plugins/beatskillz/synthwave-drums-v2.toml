@@ -1,25 +1,26 @@
-slug        = "synthwave-drums-v2"
-name        = "Synthwave Drums V2"
-vendor      = "BeatSkillz"
-version     = "2.0"
-description = "Synthwave drum plugin with retro 80s sounds for synthwave, vaporwave, and nu-disco production."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beatskillz.com/shop/synthwave-drums-/"
-is_paid     = true
+slug         = "synthwave-drums-v2"
+name         = "Synthwave Drums V2"
+vendor       = "BeatSkillz"
+version      = "2.0"
+description  = "Synthwave drum plugin with retro 80s sounds for synthwave, vaporwave, and nu-disco production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beatskillz.com/shop/synthwave-drums-/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beatskillz.com/shop/synthwave-drums-/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/synthwave-drums-/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beatskillz.com/shop/synthwave-drums-/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/synthwave-drums-/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

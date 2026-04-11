@@ -1,25 +1,26 @@
-slug        = "explorer-8-upgrade-from-any-version-of-explorer"
-name        = "eXplorer-8 Upgrade from any version of eXplorer"
-vendor      = "Rob Papen"
-version     = "1.0.0"
-description = "Upgrade license to eXplorer 8 from any previous version of the eXplorer bundle."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/explorer-8.html"
-is_paid     = true
+slug         = "explorer-8-upgrade-from-any-version-of-explorer"
+name         = "eXplorer-8 Upgrade from any version of eXplorer"
+vendor       = "Rob Papen"
+version      = "1.0.0"
+description  = "Upgrade license to eXplorer 8 from any previous version of the eXplorer bundle."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/explorer-8.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/explorer-8.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/explorer-8.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/explorer-8.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/explorer-8.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

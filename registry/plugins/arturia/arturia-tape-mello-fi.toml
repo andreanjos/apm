@@ -1,25 +1,28 @@
-slug        = "arturia-tape-mello-fi"
-name        = "Tape MELLO-FI"
-vendor      = "Arturia"
-version     = "1.4.1"
-description = "Lo-fi tape effect inspired by the Mellotron's tape mechanism, delivering vintage degradation, wow, flutter, and nostalgic coloration."
-category    = "effects"
-subcategory = "lo-fi"
-license     = "commercial"
-tags        = ["tape", "lo-fi", "mellotron", "vintage", "saturation", "wow-flutter", "degradation", "coloration"]
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-effects/tape-mello-fi/overview"
+slug         = "arturia-tape-mello-fi"
+name         = "Tape MELLO-FI"
+vendor       = "Arturia"
+version      = "1.4.1"
+description  = "Lo-fi tape effect inspired by the Mellotron's tape mechanism, delivering vintage degradation, wow, flutter, and nostalgic coloration."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "lo-fi"
+license      = "commercial"
+tags         = ["tape", "lo-fi", "mellotron", "vintage", "saturation", "wow-flutter", "degradation", "coloration"]
+aliases      = ["tape-mello-fi"]
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-effects/tape-mello-fi/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/support/downloads-manuals/product/tape-mello-fi"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals/product/tape-mello-fi"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Tape MELLO-FI.vst3"
+bundle_path   = "Tape MELLO-FI.vst3"
 
 [formats.au]
-url          = "https://www.arturia.com/support/downloads-manuals/product/tape-mello-fi"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals/product/tape-mello-fi"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Tape MELLO-FI.component"
+bundle_path   = "Tape MELLO-FI.component"

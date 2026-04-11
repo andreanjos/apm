@@ -1,27 +1,28 @@
-slug        = "spl-machine-head"
-name        = "SPL Machine Head"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "SPL's digital tape saturator delivering analog warmth and increased perceived loudness for mixing and mastering."
-category    = "effects"
-subcategory = "tape emulation"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/spl_machine_head.html"
+slug         = "spl-machine-head"
+name         = "SPL Machine Head"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "SPL's digital tape saturator delivering analog warmth and increased perceived loudness for mixing and mastering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "tape emulation"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/spl_machine_head.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/14267-SPL-Machine-Head?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/spl_machine_head.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/spl_machine_head.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/spl_machine_head.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/spl_machine_head.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "vcl-4-vintage-opto-leveller"
-name        = "VCL 4 Vintage Opto Leveller"
-vendor      = "Fuse Audio Labs"
-version     = "2.7"
-description = "Optical leveler plugin emulating the smooth, relaxed compression of a 1960s opto-compressor design."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://fuseaudiolabs.com/"
+slug         = "vcl-4-vintage-opto-leveller"
+name         = "VCL 4 Vintage Opto Leveller"
+vendor       = "Fuse Audio Labs"
+version      = "2.7"
+description  = "Optical leveler plugin emulating the smooth, relaxed compression of a 1960s opto-compressor design."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://fuseaudiolabs.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/13647-VCL-4-Vintage-Opto-Leveller?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

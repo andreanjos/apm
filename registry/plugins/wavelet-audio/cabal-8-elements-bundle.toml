@@ -1,26 +1,27 @@
-slug        = "cabal-8-elements-bundle"
-name        = "Cabal 8 Elements Bundle"
-vendor      = "Wavelet Audio"
-version     = "1.0.0"
-description = "Bundle of Cabal 8 element packs covering cinematic, crunch, and hi-gain 8-string guitar styles."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://wavelet-audio.com/cabal8/"
+slug         = "cabal-8-elements-bundle"
+name         = "Cabal 8 Elements Bundle"
+vendor       = "Wavelet Audio"
+version      = "1.0.0"
+description  = "Bundle of Cabal 8 element packs covering cinematic, crunch, and hi-gain 8-string guitar styles."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://wavelet-audio.com/cabal8/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/5559-Cabal-8-Elements-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://wavelet-audio.com/cabal8/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavelet-audio.com/cabal8/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://wavelet-audio.com/cabal8/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavelet-audio.com/cabal8/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

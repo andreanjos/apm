@@ -1,26 +1,27 @@
-slug        = "paraphrasis"
-name        = "Paraphrasis"
-vendor      = "Virtual Analogy"
-version     = "1.0.3"
-description = "Virtual Analogy Paraphrasis is a free spectral resynthesis synthesizer that models any sound."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://virtualanalogy.com/"
+slug         = "paraphrasis"
+name         = "Paraphrasis"
+vendor       = "Virtual Analogy"
+version      = "1.0.3"
+description  = "Virtual Analogy Paraphrasis is a free spectral resynthesis synthesizer that models any sound."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://virtualanalogy.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1584-Paraphrasis?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://virtualanalogy.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://virtualanalogy.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://virtualanalogy.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://virtualanalogy.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

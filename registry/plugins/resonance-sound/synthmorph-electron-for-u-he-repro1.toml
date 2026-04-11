@@ -1,26 +1,27 @@
-slug        = "synthmorph-electron-for-u-he-repro1"
-name        = "Synthmorph Electron for u he Repro1"
-vendor      = "Resonance Sound"
-version     = "1.0.0"
-description = "Electron-themed preset pack for u-He Repro-1 with electronic and techno-inspired sounds."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.resonance-sound.com"
+slug         = "synthmorph-electron-for-u-he-repro1"
+name         = "Synthmorph Electron for u he Repro1"
+vendor       = "Resonance Sound"
+version      = "1.0.0"
+description  = "Electron-themed preset pack for u-He Repro-1 with electronic and techno-inspired sounds."
+category     = "instruments"
+product_type = "preset_pack"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.resonance-sound.com"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/8535-Synthmorph-Electron-for-u-he-Repro1?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.resonance-sound.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.resonance-sound.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.resonance-sound.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.resonance-sound.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

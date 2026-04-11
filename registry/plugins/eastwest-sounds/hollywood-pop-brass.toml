@@ -1,26 +1,27 @@
-slug        = "hollywood-pop-brass"
-name        = "Hollywood Pop Brass"
-vendor      = "EastWest Sounds"
-version     = "1.0.0"
-description = "Punchy, fiery pop brass library recorded for an instantaneous contemporary sound."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/brass/hollywood-pop-brass"
+slug         = "hollywood-pop-brass"
+name         = "Hollywood Pop Brass"
+vendor       = "EastWest Sounds"
+version      = "1.0.0"
+description  = "Punchy, fiery pop brass library recorded for an instantaneous contemporary sound."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/brass/hollywood-pop-brass"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15646-Hollywood-Pop-Brass?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/brass/hollywood-pop-brass"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/brass/hollywood-pop-brass"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/brass/hollywood-pop-brass"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/brass/hollywood-pop-brass"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

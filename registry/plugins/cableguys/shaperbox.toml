@@ -1,24 +1,27 @@
-slug        = "shaperbox"
-name        = "ShaperBox 3"
-vendor      = "Cableguys"
-version     = "3.6.2"
-description = "Multi-effect processor with 11 drawable LFO-driven effects including VolumeShaper, FilterShaper, TimeShaper, and more."
-category    = "effects"
-subcategory = "multi-fx"
-license     = "commercial"
-tags        = ["effects", "multi-fx", "lfo", "sidechain", "filter", "volume", "creative", "modulation"]
-homepage    = "https://www.cableguys.com/shaperbox"
+slug         = "shaperbox"
+name         = "ShaperBox 3"
+vendor       = "Cableguys"
+version      = "3.6.2"
+description  = "Multi-effect processor with 11 drawable LFO-driven effects including VolumeShaper, FilterShaper, TimeShaper, and more."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi-fx"
+license      = "commercial"
+tags         = ["effects", "multi-fx", "lfo", "sidechain", "filter", "volume", "creative", "modulation"]
+aliases      = ["shaperbox-3"]
+homepage     = "https://www.cableguys.com/shaperbox"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.cableguys.com/shaperbox"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.cableguys.com/shaperbox"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "ShaperBox 3.vst3"
+bundle_path   = "ShaperBox 3.vst3"
 
 [formats.au]
-url          = "https://www.cableguys.com/shaperbox"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.cableguys.com/shaperbox"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "ShaperBox 3.component"
+bundle_path   = "ShaperBox 3.component"

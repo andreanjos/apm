@@ -1,26 +1,27 @@
-slug        = "pads"
-name        = "Pads"
-vendor      = "Klevgrand"
-version     = "1.2.1"
-description = "A pad synthesizer combining a wavetable oscillator, noise/grain generator, and high-cut filter."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://klevgrand.com/products/pads"
+slug         = "pads"
+name         = "Pads"
+vendor       = "Klevgrand"
+version      = "1.2.1"
+description  = "A pad synthesizer combining a wavetable oscillator, noise/grain generator, and high-cut filter."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://klevgrand.com/products/pads"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/3360-Pads?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klevgrand.com/products/pads"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/pads"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klevgrand.com/products/pads"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/pads"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

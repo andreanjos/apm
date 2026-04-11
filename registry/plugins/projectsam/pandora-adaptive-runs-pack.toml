@@ -1,25 +1,27 @@
-slug        = "pandora-adaptive-runs-pack"
-name        = "Pandora & Adaptive Runs Pack"
-vendor      = "ProjectSAM"
-version     = "1.0.0"
-description = "ProjectSAM bundle combining Symphobia 4: Pandora and Colours: Adaptive Runs libraries."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://projectsam.com/libraries/"
-is_paid     = true
+slug         = "pandora-adaptive-runs-pack"
+name         = "Pandora & Adaptive Runs Pack"
+vendor       = "ProjectSAM"
+version      = "1.0.0"
+description  = "ProjectSAM bundle combining Symphobia 4: Pandora and Colours: Adaptive Runs libraries."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["pandora-038-adaptive-runs-pack"]
+homepage     = "https://projectsam.com/libraries/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://projectsam.com/libraries/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://projectsam.com/libraries/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "blue-tubes-compressor-cp-2s"
-name        = "Blue Tubes Compressor CP-2S"
-vendor      = "Nomad Factory"
-version     = "1.0.0"
-description = "Analog compressor plugin from the Blue Tubes series for smooth, musical dynamic control."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.nomadfactory.com/products/p421-Blue-Tubes-Compressor-CP2S/"
-is_paid     = true
+slug         = "blue-tubes-compressor-cp-2s"
+name         = "Blue Tubes Compressor CP-2S"
+vendor       = "Nomad Factory"
+version      = "1.0.0"
+description  = "Analog compressor plugin from the Blue Tubes series for smooth, musical dynamic control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.nomadfactory.com/products/p421-Blue-Tubes-Compressor-CP2S/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.nomadfactory.com/products/p421-Blue-Tubes-Compressor-CP2S/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p421-Blue-Tubes-Compressor-CP2S/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.nomadfactory.com/products/p421-Blue-Tubes-Compressor-CP2S/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p421-Blue-Tubes-Compressor-CP2S/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "ssl-ev2-channel"
-name        = "SSL EV2 Channel"
-vendor      = "Waves"
-version     = "14.0"
-description = "Enhanced emulation of the SSL E-Series channel strip with extended processing options."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/ssl-ev2-channel"
-is_paid     = true
+slug         = "ssl-ev2-channel"
+name         = "SSL EV2 Channel"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Enhanced emulation of the SSL E-Series channel strip with extended processing options."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/ssl-ev2-channel"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/ssl-ev2-channel"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/ssl-ev2-channel"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/ssl-ev2-channel"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/ssl-ev2-channel"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

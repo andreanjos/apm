@@ -1,26 +1,27 @@
-slug        = "telos-drums"
-name        = "Telos Drums"
-vendor      = "Black Salt Audio"
-version     = "1.0"
-description = "All-in-one drum mixing plugin delivering punch, energy, and edge to drum tracks with a simple interface."
-category    = "utility"
-subcategory = "drum tools"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.blacksaltaudio.com/telos-drums/"
+slug         = "telos-drums"
+name         = "Telos Drums"
+vendor       = "Black Salt Audio"
+version      = "1.0"
+description  = "All-in-one drum mixing plugin delivering punch, energy, and edge to drum tracks with a simple interface."
+category     = "utility"
+product_type = "utility"
+subcategory  = "drum tools"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.blacksaltaudio.com/telos-drums/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/80-Drum-Tools/14792-Telos-Drums?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.blacksaltaudio.com/telos-drums/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blacksaltaudio.com/telos-drums/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.blacksaltaudio.com/telos-drums/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blacksaltaudio.com/telos-drums/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

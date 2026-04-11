@@ -1,25 +1,26 @@
-slug        = "sub-and-vowel-bass-for-kontakt"
-name        = "Sub and Vowel Bass for Kontakt"
-vendor      = "New Loops"
-version     = "1.0.0"
-description = "Kontakt library of 100 sub and vowel formant bass sounds for electronic music production."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://newloops.com/products/sub-and-vowel-bass"
-is_paid     = true
+slug         = "sub-and-vowel-bass-for-kontakt"
+name         = "Sub and Vowel Bass for Kontakt"
+vendor       = "New Loops"
+version      = "1.0.0"
+description  = "Kontakt library of 100 sub and vowel formant bass sounds for electronic music production."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://newloops.com/products/sub-and-vowel-bass"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://newloops.com/products/sub-and-vowel-bass"
-sha256       = ""
-install_type = "zip"
+url           = "https://newloops.com/products/sub-and-vowel-bass"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://newloops.com/products/sub-and-vowel-bass"
-sha256       = ""
-install_type = "zip"
+url           = "https://newloops.com/products/sub-and-vowel-bass"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

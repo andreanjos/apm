@@ -1,25 +1,26 @@
-slug        = "evolution-bundle-2022"
-name        = "Evolution Bundle 2022"
-vendor      = "Keepforest"
-version     = "2022"
-description = "Keepforest 2022 bundle of Evolution: Devastator Breakout Pro, Warzone, and Deathmatch libraries."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://keep-forest.com/store"
-is_paid     = true
+slug         = "evolution-bundle-2022"
+name         = "Evolution Bundle 2022"
+vendor       = "Keepforest"
+version      = "2022"
+description  = "Keepforest 2022 bundle of Evolution: Devastator Breakout Pro, Warzone, and Deathmatch libraries."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://keep-forest.com/store"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://keep-forest.com/store"
-sha256       = ""
-install_type = "zip"
+url           = "https://keep-forest.com/store"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://keep-forest.com/store"
-sha256       = ""
-install_type = "zip"
+url           = "https://keep-forest.com/store"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

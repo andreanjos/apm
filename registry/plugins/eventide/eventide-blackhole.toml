@@ -1,24 +1,28 @@
-slug        = "eventide-blackhole"
-name        = "Blackhole"
-vendor      = "Eventide"
-version     = "3.11.4"
-description = "Reverb that creates virtual spaces that could never exist in reality, with gravity control for otherworldly ambient textures."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = ["reverb", "ambient", "infinite", "space", "creative", "otherworldly"]
-homepage    = "https://www.eventideaudio.com/plug-ins/blackhole/"
+slug         = "eventide-blackhole"
+name         = "Blackhole"
+vendor       = "Eventide"
+version      = "3.11.4"
+description  = "Reverb that creates virtual spaces that could never exist in reality, with gravity control for otherworldly ambient textures."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = ["reverb", "ambient", "infinite", "space", "creative", "otherworldly"]
+aliases      = ["blackhole"]
+homepage     = "https://www.eventideaudio.com/plug-ins/blackhole/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/2855-Blackhole?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://downloads.eventide.com/audio/installers/plug-ins/Blackhole/Blackhole-3.11.4-osx-installer.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://downloads.eventide.com/audio/installers/plug-ins/Blackhole/Blackhole-3.11.4-osx-installer.dmg"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "Blackhole.vst3"
+bundle_path   = "Blackhole.vst3"
 
 [formats.au]
-url          = "https://downloads.eventide.com/audio/installers/plug-ins/Blackhole/Blackhole-3.11.4-osx-installer.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://downloads.eventide.com/audio/installers/plug-ins/Blackhole/Blackhole-3.11.4-osx-installer.dmg"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "Blackhole.component"
+bundle_path   = "Blackhole.component"

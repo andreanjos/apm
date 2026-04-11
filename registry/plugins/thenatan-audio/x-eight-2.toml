@@ -1,26 +1,27 @@
-slug        = "x-eight-2"
-name        = "X Eight 2"
-vendor      = "Thenatan Audio"
-version     = "1.0.0"
-description = "Advanced 808 synthesizer with 1342 samples, 1200 presets, dual samplers and 10 built-in effects."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.thenatan.store/p/x-eight-2-808-vst/"
+slug         = "x-eight-2"
+name         = "X Eight 2"
+vendor       = "Thenatan Audio"
+version      = "1.0.0"
+description  = "Advanced 808 synthesizer with 1342 samples, 1200 presets, dual samplers and 10 built-in effects."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.thenatan.store/p/x-eight-2-808-vst/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15951-X-Eight-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.thenatan.store/p/x-eight-2-808-vst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.thenatan.store/p/x-eight-2-808-vst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.thenatan.store/p/x-eight-2-808-vst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.thenatan.store/p/x-eight-2-808-vst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

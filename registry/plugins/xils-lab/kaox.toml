@@ -1,26 +1,27 @@
-slug        = "kaox"
-name        = "KaoX"
-vendor      = "XILS Lab"
-version     = "1.0.3"
-description = "Advanced virtual synthesizer combining FM synthesis, analog oscillators, and chaos modulation algorithms."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xils-lab.com/store/kaox/"
+slug         = "kaox"
+name         = "KaoX"
+vendor       = "XILS Lab"
+version      = "1.0.3"
+description  = "Advanced virtual synthesizer combining FM synthesis, analog oscillators, and chaos modulation algorithms."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.xils-lab.com/store/kaox/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7624-KaoX?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xils-lab.com/store/kaox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xils-lab.com/store/kaox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xils-lab.com/store/kaox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xils-lab.com/store/kaox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "reiya-ultimate-midi-library-3-bundle"
-name        = "Reiya + Ultimate MIDI Library 3 Bundle"
-vendor      = "New Nation"
-version     = "1.0.0"
-description = "Reiya layered sampler instrument bundled with Ultimate MIDI Library 3 for pads and sound design."
-category    = "instruments"
-subcategory = "pads"
-license     = "commercial"
-tags        = []
-homepage    = "https://nnaud.io/"
-is_paid     = true
+slug         = "reiya-ultimate-midi-library-3-bundle"
+name         = "Reiya + Ultimate MIDI Library 3 Bundle"
+vendor       = "New Nation"
+version      = "1.0.0"
+description  = "Reiya layered sampler instrument bundled with Ultimate MIDI Library 3 for pads and sound design."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "pads"
+license      = "commercial"
+tags         = []
+homepage     = "https://nnaud.io/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nnaud.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nnaud.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nnaud.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nnaud.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

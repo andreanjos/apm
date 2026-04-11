@@ -1,24 +1,25 @@
-slug        = "t-racks-fame-studio-reverb"
-name        = "T-RackS FAME Studio Reverb"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "T-RackS reverb suite capturing the historic acoustic spaces of Muscle Shoals' FAME Studios."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/trfame/"
-is_paid     = true
+slug         = "t-racks-fame-studio-reverb"
+name         = "T-RackS FAME Studio Reverb"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "T-RackS reverb suite capturing the historic acoustic spaces of Muscle Shoals' FAME Studios."
+category     = "effects"
+product_type = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/trfame/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/trfame/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/trfame/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/trfame/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/trfame/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,29 @@
-slug        = "uad-galaxy-tape-echo"
-name        = "Galaxy Tape Echo"
-vendor      = "Universal Audio"
-version     = "1.0"
-description = "Tape delay emulation inspired by the Roland RE-201 Space Echo with tape saturation, wow/flutter, and spring reverb."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = ["delay", "tape-echo", "space-echo", "roland", "vintage", "spring-reverb", "uad"]
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/delay/galaxy-tape-echo.html"
+slug         = "uad-galaxy-tape-echo"
+name         = "Galaxy Tape Echo"
+vendor       = "Universal Audio"
+version      = "1.0"
+description  = "Tape delay emulation inspired by the Roland RE-201 Space Echo with tape saturation, wow/flutter, and spring reverb."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = ["delay", "tape-echo", "space-echo", "roland", "vintage", "spring-reverb", "uad"]
+aliases      = ["galaxy-tape-echo"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/delay/galaxy-tape-echo.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/10170-Galaxy-Tape-Echo?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Galaxy Tape Echo.vst3"
+bundle_path   = "UAD Galaxy Tape Echo.vst3"
 
 [formats.au]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Galaxy Tape Echo.component"
+bundle_path   = "UAD Galaxy Tape Echo.component"

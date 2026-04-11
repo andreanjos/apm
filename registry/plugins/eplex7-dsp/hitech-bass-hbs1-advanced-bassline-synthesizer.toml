@@ -1,25 +1,26 @@
-slug        = "hitech-bass-hbs1-advanced-bassline-synthesizer"
-name        = "Hitech Bass HBS1 advanced bassline synthesizer"
-vendor      = "Eplex7 DSP"
-version     = "1.0.0"
-description = "Advanced bassline synthesizer for hitech and psytrance using physical modeling at 180 BPM."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eplex7.com/hitech-bass-hbs1-advanced-bassline-synthesizer/"
-is_paid     = true
+slug         = "hitech-bass-hbs1-advanced-bassline-synthesizer"
+name         = "Hitech Bass HBS1 advanced bassline synthesizer"
+vendor       = "Eplex7 DSP"
+version      = "1.0.0"
+description  = "Advanced bassline synthesizer for hitech and psytrance using physical modeling at 180 BPM."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eplex7.com/hitech-bass-hbs1-advanced-bassline-synthesizer/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eplex7.com/hitech-bass-hbs1-advanced-bassline-synthesizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eplex7.com/hitech-bass-hbs1-advanced-bassline-synthesizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eplex7.com/hitech-bass-hbs1-advanced-bassline-synthesizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eplex7.com/hitech-bass-hbs1-advanced-bassline-synthesizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "melodyne-5-essential"
-name        = "Melodyne 5 Essential"
-vendor      = "Celemony"
-version     = "5.4"
-description = "Celemony Melodyne 5 Essential offers monophonic pitch and timing correction for audio."
-category    = "utility"
-subcategory = "audio editor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.celemony.com/en/melodyne/"
+slug         = "melodyne-5-essential"
+name         = "Melodyne 5 Essential"
+vendor       = "Celemony"
+version      = "5.4"
+description  = "Celemony Melodyne 5 Essential offers monophonic pitch and timing correction for audio."
+category     = "utility"
+product_type = "utility"
+subcategory  = "audio editor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.celemony.com/en/melodyne/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/6446-Melodyne-5-Essential?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.celemony.com/en/melodyne/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.celemony.com/en/melodyne/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.celemony.com/en/melodyne/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.celemony.com/en/melodyne/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

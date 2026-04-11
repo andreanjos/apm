@@ -1,24 +1,25 @@
-slug        = "loopmix"
-name        = "Loopmix"
-vendor      = "Audiomodern"
-version     = "1.0.0"
-description = "Dynamic loop remix tool that chops and rearranges audio loops to add fresh character to tracks."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodern.com/products/"
-is_paid     = true
+slug         = "loopmix"
+name         = "Loopmix"
+vendor       = "Audiomodern"
+version      = "1.0.0"
+description  = "Dynamic loop remix tool that chops and rearranges audio loops to add fresh character to tracks."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodern.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodern.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodern.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodern.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodern.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

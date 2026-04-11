@@ -1,25 +1,26 @@
-slug        = "upright-piano"
-name        = "Upright Piano"
-vendor      = "Muletone Audio"
-version     = "1.2.2"
-description = "Kontakt 1975 Essenfelder upright piano library with 1,998 samples and 11 genre snapshots."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.muletoneaudio.com/upright-piano/"
-is_paid     = true
+slug         = "upright-piano"
+name         = "Upright Piano"
+vendor       = "Muletone Audio"
+version      = "1.2.2"
+description  = "Kontakt 1975 Essenfelder upright piano library with 1,998 samples and 11 genre snapshots."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.muletoneaudio.com/upright-piano/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.muletoneaudio.com/upright-piano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/upright-piano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.muletoneaudio.com/upright-piano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/upright-piano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

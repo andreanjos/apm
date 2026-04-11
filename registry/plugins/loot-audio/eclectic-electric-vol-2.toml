@@ -1,26 +1,27 @@
-slug        = "eclectic-electric-vol-2"
-name        = "Eclectic Electric Vol 2"
-vendor      = "Loot Audio"
-version     = "1.0.0"
-description = "Rare analog and digital synth Kontakt collection ideal for Boards of Canada-style electronica and ambient."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.lootaudio.com/"
+slug         = "eclectic-electric-vol-2"
+name         = "Eclectic Electric Vol 2"
+vendor       = "Loot Audio"
+version      = "1.0.0"
+description  = "Rare analog and digital synth Kontakt collection ideal for Boards of Canada-style electronica and ambient."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.lootaudio.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9781-Eclectic-Electric-Vol-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.lootaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.lootaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

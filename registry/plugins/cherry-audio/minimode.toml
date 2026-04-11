@@ -1,25 +1,26 @@
-slug        = "minimode"
-name        = "Minimode"
-vendor      = "Cherry Audio"
-version     = "1.0.0"
-description = "Virtual analog emulation of the classic Minimoog Model D synthesizer from 1971."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://cherryaudio.com/products/miniverse"
-is_paid     = true
+slug         = "minimode"
+name         = "Minimode"
+vendor       = "Cherry Audio"
+version      = "1.0.0"
+description  = "Virtual analog emulation of the classic Minimoog Model D synthesizer from 1971."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://cherryaudio.com/products/miniverse"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cherryaudio.com/products/miniverse"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/miniverse"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cherryaudio.com/products/miniverse"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/miniverse"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

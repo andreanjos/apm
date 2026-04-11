@@ -1,25 +1,26 @@
-slug        = "olympus-symphonic-choir"
-name        = "Olympus Symphonic Choir"
-vendor      = "Soundiron"
-version     = "1.5"
-description = "Industry-leading symphonic choir Kontakt library with unrivaled sonic power and detailed articulations."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/olympus-symphonic-choir"
-is_paid     = true
+slug         = "olympus-symphonic-choir"
+name         = "Olympus Symphonic Choir"
+vendor       = "Soundiron"
+version      = "1.5"
+description  = "Industry-leading symphonic choir Kontakt library with unrivaled sonic power and detailed articulations."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/olympus-symphonic-choir"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/olympus-symphonic-choir"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/olympus-symphonic-choir"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/olympus-symphonic-choir"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/olympus-symphonic-choir"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

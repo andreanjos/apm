@@ -1,25 +1,26 @@
-slug        = "absolute-vocal-bundle"
-name        = "Absolute Vocal Bundle"
-vendor      = "WA Production"
-version     = "1.0.0"
-description = "A vocal FX bundle including Outlaw, Screamo, Mutant Delay, Mutant Reverb, and Vocal Splitter."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/bundles/view/absolute-vocal-bundle"
-is_paid     = true
+slug         = "absolute-vocal-bundle"
+name         = "Absolute Vocal Bundle"
+vendor       = "WA Production"
+version      = "1.0.0"
+description  = "A vocal FX bundle including Outlaw, Screamo, Mutant Delay, Mutant Reverb, and Vocal Splitter."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/bundles/view/absolute-vocal-bundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/bundles/view/absolute-vocal-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/bundles/view/absolute-vocal-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/bundles/view/absolute-vocal-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/bundles/view/absolute-vocal-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

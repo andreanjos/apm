@@ -1,26 +1,27 @@
-slug        = "extract-dialogue-2"
-name        = "Extract Dialogue 2"
-vendor      = "Acon Digital"
-version     = "2.01"
-description = "AI-powered dialogue cleaning plugin for film and TV combining deep learning with real-time reverb reduction."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-homepage    = "https://acondigital.com/products/extract-dialogue/"
+slug         = "extract-dialogue-2"
+name         = "Extract Dialogue 2"
+vendor       = "Acon Digital"
+version      = "2.01"
+description  = "AI-powered dialogue cleaning plugin for film and TV combining deep learning with real-time reverb reduction."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+homepage     = "https://acondigital.com/products/extract-dialogue/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/16511-Extract-Dialogue-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://acondigital.com/products/extract-dialogue/"
-sha256       = ""
-install_type = "zip"
+url           = "https://acondigital.com/products/extract-dialogue/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://acondigital.com/products/extract-dialogue/"
-sha256       = ""
-install_type = "zip"
+url           = "https://acondigital.com/products/extract-dialogue/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

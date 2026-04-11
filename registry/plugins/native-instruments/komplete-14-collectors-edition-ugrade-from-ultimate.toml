@@ -1,26 +1,27 @@
-slug        = "komplete-14-collectors-edition-ugrade-from-ultimate"
-name        = "Komplete 14 Collectors Edition Ugrade from Ultimate"
-vendor      = "Native Instruments"
-version     = "14"
-description = "Upgrade from Komplete 14 Ultimate to Collector's Edition, unlocking every instrument and expansion."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-installer   = "native-access"
-homepage    = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-collectors-edition/"
-is_paid     = true
+slug         = "komplete-14-collectors-edition-ugrade-from-ultimate"
+name         = "Komplete 14 Collectors Edition Ugrade from Ultimate"
+vendor       = "Native Instruments"
+version      = "14"
+description  = "Upgrade from Komplete 14 Ultimate to Collector's Edition, unlocking every instrument and expansion."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+installer    = "native-access"
+homepage     = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-collectors-edition/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-collectors-edition/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-collectors-edition/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-collectors-edition/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-collectors-edition/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,27 @@
-slug        = "sonespheres-1-distance"
-name        = "Sonespheres 1 – Distance"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Atmospheric Kontakt instrument drawing from acoustic and vocal sources crafted into evolving pads."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/sonespheres-1-distance"
-is_paid     = true
+slug         = "sonespheres-1-distance"
+name         = "Sonespheres 1 - Distance"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Atmospheric Kontakt instrument drawing from acoustic and vocal sources crafted into evolving pads."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["sonespheres-1-8211-distance"]
+homepage     = "https://soundiron.com/products/sonespheres-1-distance"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/sonespheres-1-distance"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/sonespheres-1-distance"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/sonespheres-1-distance"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/sonespheres-1-distance"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

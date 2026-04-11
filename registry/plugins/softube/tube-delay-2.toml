@@ -1,26 +1,27 @@
-slug        = "tube-delay-2"
-name        = "Tube Delay 2"
-vendor      = "Softube"
-version     = "2.6"
-description = "Tube-driven delay plugin with warm analog character and multiple delay modes for creative echo."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/tube-delay"
-is_paid     = true
+slug         = "tube-delay-2"
+name         = "Tube Delay 2"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Tube-driven delay plugin with warm analog character and multiple delay modes for creative echo."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/tube-delay"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/tube-delay"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/tube-delay"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/tube-delay"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/tube-delay"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "fx-collection-2-efx-fragments-bundle"
-name        = "FX Collection 2 + Efx FRAGMENTS Bundle"
-vendor      = "Arturia"
-version     = "2.0.0"
-description = "Bundle combining Arturia's FX Collection 2 effects suite with the Efx FRAGMENTS granular plugin."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-effects/fx-collection/overview"
-is_paid     = true
+slug         = "fx-collection-2-efx-fragments-bundle"
+name         = "FX Collection 2 + Efx FRAGMENTS Bundle"
+vendor       = "Arturia"
+version      = "2.0.0"
+description  = "Bundle combining Arturia's FX Collection 2 effects suite with the Efx FRAGMENTS granular plugin."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-effects/fx-collection/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-effects/fx-collection/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-effects/fx-collection/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-effects/fx-collection/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-effects/fx-collection/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

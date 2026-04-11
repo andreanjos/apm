@@ -1,25 +1,26 @@
-slug        = "neural-q"
-name        = "Neural Q"
-vendor      = "Tone Empire"
-version     = "1"
-description = "Neural network equalizer plugin delivering analog-modeled tonal shaping with transparent processing."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tone-empire.com"
-is_paid     = true
+slug         = "neural-q"
+name         = "Neural Q"
+vendor       = "Tone Empire"
+version      = "1"
+description  = "Neural network equalizer plugin delivering analog-modeled tonal shaping with transparent processing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tone-empire.com"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tone-empire.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tone-empire.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

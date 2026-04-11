@@ -1,26 +1,27 @@
-slug        = "cy-shock"
-name        = "Cy Shock"
-vendor      = "Loot Audio"
-version     = "1.0.0"
-description = "Aggressive EDM and cyberpunk-inspired Kontakt instrument with 27,823 samples and up to 48 velocity layers."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.lootaudio.com/"
+slug         = "cy-shock"
+name         = "Cy Shock"
+vendor       = "Loot Audio"
+version      = "1.0.0"
+description  = "Aggressive EDM and cyberpunk-inspired Kontakt instrument with 27,823 samples and up to 48 velocity layers."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.lootaudio.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/16260-Cy-Shock?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.lootaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.lootaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

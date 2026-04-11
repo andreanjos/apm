@@ -1,24 +1,27 @@
-slug        = "cherry-audio-memorymode"
-name        = "Memorymode"
-vendor      = "Cherry Audio"
-version     = "1.4.0"
-description = "Polyphonic synthesizer emulating the legendary Memorymoog, with lush analog oscillators, resonant filters, extensive modulation, and MPE support."
-category    = "instruments"
-subcategory = "synthesizer"
-license     = "commercial"
-tags        = ["synth", "synthesizer", "analog", "polyphonic", "moog", "emulation", "mpe"]
-homepage    = "https://cherryaudio.com/products/memorymode"
+slug         = "cherry-audio-memorymode"
+name         = "Memorymode"
+vendor       = "Cherry Audio"
+version      = "1.4.0"
+description  = "Polyphonic synthesizer emulating the legendary Memorymoog, with lush analog oscillators, resonant filters, extensive modulation, and MPE support."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synthesizer"
+license      = "commercial"
+tags         = ["synth", "synthesizer", "analog", "polyphonic", "moog", "emulation", "mpe"]
+aliases      = ["memorymode"]
+homepage     = "https://cherryaudio.com/products/memorymode"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cherryaudio.com/products/memorymode/download"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://cherryaudio.com/products/memorymode/download"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Memorymode.vst3"
+bundle_path   = "Memorymode.vst3"
 
 [formats.au]
-url          = "https://cherryaudio.com/products/memorymode/download"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://cherryaudio.com/products/memorymode/download"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Memorymode.component"
+bundle_path   = "Memorymode.component"

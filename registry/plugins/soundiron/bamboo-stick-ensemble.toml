@@ -1,25 +1,26 @@
-slug        = "bamboo-stick-ensemble"
-name        = "Bamboo Stick Ensemble"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt instrument featuring an ensemble of tuned bamboo sticks with rhythmic and melodic capabilities."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/bamboo-stick-ensemble"
-is_paid     = true
+slug         = "bamboo-stick-ensemble"
+name         = "Bamboo Stick Ensemble"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt instrument featuring an ensemble of tuned bamboo sticks with rhythmic and melodic capabilities."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/bamboo-stick-ensemble"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/bamboo-stick-ensemble"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/bamboo-stick-ensemble"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/bamboo-stick-ensemble"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/bamboo-stick-ensemble"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

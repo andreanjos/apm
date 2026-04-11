@@ -1,26 +1,27 @@
-slug        = "berserkr-core-tribal-punk-folk-drums"
-name        = "Berserkr Core Tribal Punk Folk Drums"
-vendor      = "Keepforest"
-version     = "1.0.0"
-description = "Keepforest Kontakt percussion library with 62 patches of tribal, punk, and folk battle drums."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://keep-forest.com/store"
+slug         = "berserkr-core-tribal-punk-folk-drums"
+name         = "Berserkr Core Tribal Punk Folk Drums"
+vendor       = "Keepforest"
+version      = "1.0.0"
+description  = "Keepforest Kontakt percussion library with 62 patches of tribal, punk, and folk battle drums."
+category     = "instruments"
+product_type = "preset_pack"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://keep-forest.com/store"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11471-Berserkr-Core-Tribal-Punk-Folk-Drums?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://keep-forest.com/store"
-sha256       = ""
-install_type = "zip"
+url           = "https://keep-forest.com/store"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://keep-forest.com/store"
-sha256       = ""
-install_type = "zip"
+url           = "https://keep-forest.com/store"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

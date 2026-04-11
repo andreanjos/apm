@@ -1,26 +1,27 @@
-slug        = "bad-channel-micro"
-name        = "Bad Channel Micro"
-vendor      = "Dog Magic"
-version     = "1.0.0"
-description = "Free compact version of Bad Channel with distortion, modulation, and comb filter effects."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://dogmagic.net/bad-channel/"
+slug         = "bad-channel-micro"
+name         = "Bad Channel Micro"
+vendor       = "Dog Magic"
+version      = "1.0.0"
+description  = "Free compact version of Bad Channel with distortion, modulation, and comb filter effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://dogmagic.net/bad-channel/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8619-Bad-Channel-Micro?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://dogmagic.net/bad-channel/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dogmagic.net/bad-channel/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://dogmagic.net/bad-channel/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dogmagic.net/bad-channel/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

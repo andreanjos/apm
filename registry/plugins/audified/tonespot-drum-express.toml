@@ -1,24 +1,25 @@
-slug        = "tonespot-drum-express"
-name        = "ToneSpot Drum Express"
-vendor      = "Audified"
-version     = "1.0.0"
-description = "Drum mixing plugin with 116 presets covering kick, snare, hi-hat, and full kit processing."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/tonespot-drum-express/"
-is_paid     = true
+slug         = "tonespot-drum-express"
+name         = "ToneSpot Drum Express"
+vendor       = "Audified"
+version      = "1.0.0"
+description  = "Drum mixing plugin with 116 presets covering kick, snare, hi-hat, and full kit processing."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/tonespot-drum-express/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/tonespot-drum-express/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/tonespot-drum-express/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/tonespot-drum-express/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/tonespot-drum-express/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

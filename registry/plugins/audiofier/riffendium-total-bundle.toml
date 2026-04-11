@@ -1,25 +1,26 @@
-slug        = "riffendium-total-bundle"
-name        = "Riffendium Total Bundle"
-vendor      = "Audiofier"
-version     = "1.0"
-description = "Complete Riffendium collection for Kontakt with all six guitar volumes, bass, and REV/DI variants."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiofier.co.uk/riffendium-total-bundle/"
-is_paid     = true
+slug         = "riffendium-total-bundle"
+name         = "Riffendium Total Bundle"
+vendor       = "Audiofier"
+version      = "1.0"
+description  = "Complete Riffendium collection for Kontakt with all six guitar volumes, bass, and REV/DI variants."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiofier.co.uk/riffendium-total-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiofier.co.uk/riffendium-total-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/riffendium-total-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiofier.co.uk/riffendium-total-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/riffendium-total-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "superplate"
-name        = "SuperPlate"
-vendor      = "Soundtoys"
-version     = "5.5"
-description = "Five classic electromechanical plate reverb emulations in one powerful reverb plugin."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundtoys.com/product/superplate/"
+slug         = "superplate"
+name         = "SuperPlate"
+vendor       = "Soundtoys"
+version      = "5.5"
+description  = "Five classic electromechanical plate reverb emulations in one powerful reverb plugin."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundtoys.com/product/superplate/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/10583-SuperPlate?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundtoys.com/product/superplate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/superplate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundtoys.com/product/superplate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/superplate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

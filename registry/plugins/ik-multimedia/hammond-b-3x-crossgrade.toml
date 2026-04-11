@@ -1,25 +1,26 @@
-slug        = "hammond-b-3x-crossgrade"
-name        = "Hammond B-3X Crossgrade"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "Crossgrade to Hammond B-3X, IK's comprehensive virtual Hammond organ with rotary and amp simulations."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/hammondb3x/"
-is_paid     = true
+slug         = "hammond-b-3x-crossgrade"
+name         = "Hammond B-3X Crossgrade"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "Crossgrade to Hammond B-3X, IK's comprehensive virtual Hammond organ with rotary and amp simulations."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/hammondb3x/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/hammondb3x/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/hammondb3x/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/hammondb3x/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/hammondb3x/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

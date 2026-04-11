@@ -1,25 +1,26 @@
-slug        = "helper-equalizer-2"
-name        = "Helper Equalizer 2"
-vendor      = "WA Production"
-version     = "2.0"
-description = "A simple 3-knob equalizer with 5 EQ shapes for quick, intuitive frequency shaping."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/helper-equalizer"
-is_paid     = true
+slug         = "helper-equalizer-2"
+name         = "Helper Equalizer 2"
+vendor       = "WA Production"
+version      = "2.0"
+description  = "A simple 3-knob equalizer with 5 EQ shapes for quick, intuitive frequency shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/helper-equalizer"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/helper-equalizer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/helper-equalizer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/helper-equalizer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/helper-equalizer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

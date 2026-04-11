@@ -1,25 +1,26 @@
-slug        = "bitrate-ii-038-monoboy"
-name        = "BitRate II &#038; Monoboy"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Chiptune/retro digital duo combining BitRate II drum synth with MonoBoy melodic synthesizer."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/bitrateii"
-is_paid     = true
+slug         = "bitrate-ii-038-monoboy"
+name         = "BitRate II & Monoboy"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Chiptune/retro digital duo combining BitRate II drum synth with MonoBoy melodic synthesizer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/bitrateii"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/bitrateii"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/bitrateii"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/bitrateii"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/bitrateii"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

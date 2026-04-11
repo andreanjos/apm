@@ -1,24 +1,25 @@
-slug        = "tactic"
-name        = "Tactic"
-vendor      = "Glitchmachines"
-version     = "2"
-description = "Phrase generator with 8 sample slots, trigger sequencer with per-step probability, and dual parameter sequencers."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://glitchmachines.com/products/tactic/"
-is_paid     = true
+slug         = "tactic"
+name         = "Tactic"
+vendor       = "Glitchmachines"
+version      = "2"
+description  = "Phrase generator with 8 sample slots, trigger sequencer with per-step probability, and dual parameter sequencers."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://glitchmachines.com/products/tactic/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://glitchmachines.com/products/tactic/"
-sha256       = ""
-install_type = "zip"
+url           = "https://glitchmachines.com/products/tactic/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://glitchmachines.com/products/tactic/"
-sha256       = ""
-install_type = "zip"
+url           = "https://glitchmachines.com/products/tactic/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

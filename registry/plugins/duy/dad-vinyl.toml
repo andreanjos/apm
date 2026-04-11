@@ -1,25 +1,26 @@
-slug        = "dad-vinyl"
-name        = "DaD Vinyl"
-vendor      = "DUY"
-version     = "1.0.0"
-description = "Vinyl and vintage record simulator replicating the sound of records from various eras and materials."
-category    = "effects"
-subcategory = "mixing"
-license     = "commercial"
-tags        = []
-homepage    = "https://duy.com/"
-is_paid     = true
+slug         = "dad-vinyl"
+name         = "DaD Vinyl"
+vendor       = "DUY"
+version      = "1.0.0"
+description  = "Vinyl and vintage record simulator replicating the sound of records from various eras and materials."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mixing"
+license      = "commercial"
+tags         = []
+homepage     = "https://duy.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://duy.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://duy.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://duy.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://duy.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

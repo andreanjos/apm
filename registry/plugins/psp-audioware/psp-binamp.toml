@@ -1,26 +1,27 @@
-slug        = "psp-binamp"
-name        = "PSP BinAmp"
-vendor      = "PSP Audioware"
-version     = "1.1.1"
-description = "Class A triode preamplifier emulation delivering vintage saturation inspired by the Binson Echorec 2."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-binamp"
+slug         = "psp-binamp"
+name         = "PSP BinAmp"
+vendor       = "PSP Audioware"
+version      = "1.1.1"
+description  = "Class A triode preamplifier emulation delivering vintage saturation inspired by the Binson Echorec 2."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-binamp"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/10987-PSP-BinAmp?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-binamp"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-binamp"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-binamp"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-binamp"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

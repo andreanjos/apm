@@ -1,25 +1,26 @@
-slug        = "ethera-evi"
-name        = "Ethera EVI"
-vendor      = "Zero-G"
-version     = "2.0"
-description = "Virtual instrument featuring vocalist Clara Sorace with vocal legato, phrases, and synth for cinematic production."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/ethera-evi-2-0"
-is_paid     = true
+slug         = "ethera-evi"
+name         = "Ethera EVI"
+vendor       = "Zero-G"
+version      = "2.0"
+description  = "Virtual instrument featuring vocalist Clara Sorace with vocal legato, phrases, and synth for cinematic production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/ethera-evi-2-0"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/ethera-evi-2-0"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/ethera-evi-2-0"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/ethera-evi-2-0"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/ethera-evi-2-0"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

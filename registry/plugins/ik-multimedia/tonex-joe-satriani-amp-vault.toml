@@ -1,26 +1,27 @@
-slug        = "tonex-joe-satriani-amp-vault"
-name        = "Tonex Joe Satriani Amp Vault"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "TONEX Signature Collection with 67 Tone Models from 28 amps in Joe Satriani's personal amp collection."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/tonex-satriani/"
+slug         = "tonex-joe-satriani-amp-vault"
+name         = "Tonex Joe Satriani Amp Vault"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "TONEX Signature Collection with 67 Tone Models from 28 amps in Joe Satriani's personal amp collection."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/tonex-satriani/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/13420-Tonex-Joe-Satriani-Amp-Vault?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/tonex-satriani/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/tonex-satriani/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/tonex-satriani/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/tonex-satriani/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

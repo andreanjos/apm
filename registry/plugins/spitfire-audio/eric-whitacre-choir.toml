@@ -1,26 +1,27 @@
-slug        = "eric-whitacre-choir"
-name        = "Eric Whitacre Choir"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Grammy-winning Eric Whitacre's elite choir recorded in The Hall at AIR Studios for lush choral textures."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/eric-whitacre-choir/"
-is_paid     = true
+slug         = "eric-whitacre-choir"
+name         = "Eric Whitacre Choir"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Grammy-winning Eric Whitacre's elite choir recorded in The Hall at AIR Studios for lush choral textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/eric-whitacre-choir/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/eric-whitacre-choir/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/eric-whitacre-choir/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/eric-whitacre-choir/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/eric-whitacre-choir/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

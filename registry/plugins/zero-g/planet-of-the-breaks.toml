@@ -1,25 +1,26 @@
-slug        = "planet-of-the-breaks"
-name        = "Planet Of The Breaks"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Drum break sample library combining vintage analog recording techniques with modern production for dance music creation."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/planet-of-the-breaks"
-is_paid     = true
+slug         = "planet-of-the-breaks"
+name         = "Planet Of The Breaks"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Drum break sample library combining vintage analog recording techniques with modern production for dance music creation."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/planet-of-the-breaks"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/planet-of-the-breaks"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/planet-of-the-breaks"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/planet-of-the-breaks"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/planet-of-the-breaks"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

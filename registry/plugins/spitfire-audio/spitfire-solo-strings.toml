@@ -1,26 +1,27 @@
-slug        = "spitfire-solo-strings"
-name        = "Spitfire Solo Strings"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Expressive solo violin, viola, cello, and double bass recorded by world-class players at AIR Studios."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/en-us/products/spitfire-solo-strings"
-is_paid     = true
+slug         = "spitfire-solo-strings"
+name         = "Spitfire Solo Strings"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Expressive solo violin, viola, cello, and double bass recorded by world-class players at AIR Studios."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/en-us/products/spitfire-solo-strings"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/en-us/products/spitfire-solo-strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/en-us/products/spitfire-solo-strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/en-us/products/spitfire-solo-strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/en-us/products/spitfire-solo-strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

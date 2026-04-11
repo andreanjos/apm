@@ -1,25 +1,27 @@
-slug        = "khaliji-8211-emarati-expansion"
-name        = "Khaliji &#8211; Emarati Expansion"
-vendor      = "A Samples"
-version     = "1.0.0"
-description = "Kontakt expansion adding 12 UAE percussion instruments and 50 MIDI grooves to Khaliji."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://asamples.com/products/khaliji-drums-of-arabia-emarati-expansion"
-is_paid     = true
+slug         = "khaliji-8211-emarati-expansion"
+name         = "Khaliji - Emarati Expansion"
+vendor       = "A Samples"
+version      = "1.0.0"
+description  = "Kontakt expansion adding 12 UAE percussion instruments and 50 MIDI grooves to Khaliji."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+aliases      = ["khaliji-emarati-expansion"]
+homepage     = "https://asamples.com/products/khaliji-drums-of-arabia-emarati-expansion"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://asamples.com/products/khaliji-drums-of-arabia-emarati-expansion"
-sha256       = ""
-install_type = "zip"
+url           = "https://asamples.com/products/khaliji-drums-of-arabia-emarati-expansion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://asamples.com/products/khaliji-drums-of-arabia-emarati-expansion"
-sha256       = ""
-install_type = "zip"
+url           = "https://asamples.com/products/khaliji-drums-of-arabia-emarati-expansion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

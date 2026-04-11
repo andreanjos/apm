@@ -1,25 +1,26 @@
-slug        = "colorful-instruments-bundle"
-name        = "Colorful Instruments Bundle"
-vendor      = "ZAK Sound"
-version     = "1.0.0"
-description = "Bundle of ZAK Sound instrument plugins offering a colorful range of cinematic and ambient sound palettes."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://zaksound.com/products/"
-is_paid     = true
+slug         = "colorful-instruments-bundle"
+name         = "Colorful Instruments Bundle"
+vendor       = "ZAK Sound"
+version      = "1.0.0"
+description  = "Bundle of ZAK Sound instrument plugins offering a colorful range of cinematic and ambient sound palettes."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://zaksound.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zaksound.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zaksound.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

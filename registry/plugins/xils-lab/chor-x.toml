@@ -1,26 +1,28 @@
-slug        = "chor-x"
-name        = "Chor X"
-vendor      = "XILS Lab"
-version     = "2.0.3"
-description = "Vintage chorus plugin combining four BBD-based algorithms: Synthex, Dim-D, CS-80, and VP-330."
-category    = "effects"
-subcategory = "chorus"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xils-lab.com/store/chorx/"
+slug         = "chor-x"
+name         = "Chor X"
+vendor       = "XILS Lab"
+version      = "2.0.3"
+description  = "Vintage chorus plugin combining four BBD-based algorithms: Synthex, Dim-D, CS-80, and VP-330."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "chorus"
+license      = "commercial"
+tags         = []
+aliases      = ["chor8217x", "chorx"]
+homepage     = "https://www.xils-lab.com/store/chorx/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/1702-Chor-X?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xils-lab.com/store/chorx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xils-lab.com/store/chorx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xils-lab.com/store/chorx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xils-lab.com/store/chorx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

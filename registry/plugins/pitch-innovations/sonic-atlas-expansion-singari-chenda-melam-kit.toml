@@ -1,26 +1,27 @@
-slug        = "sonic-atlas-expansion-singari-chenda-melam-kit"
-name        = "Sonic Atlas Expansion Singari Chenda Melam Kit"
-vendor      = "Pitch Innovations"
-version     = "1.0.0"
-description = "Playable South Indian Singari Chenda Melam ceremonial percussion kit for Sonic Atlas."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pitchinnovations.com/products/sonic-atlas"
+slug         = "sonic-atlas-expansion-singari-chenda-melam-kit"
+name         = "Sonic Atlas Expansion Singari Chenda Melam Kit"
+vendor       = "Pitch Innovations"
+version      = "1.0.0"
+description  = "Playable South Indian Singari Chenda Melam ceremonial percussion kit for Sonic Atlas."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pitchinnovations.com/products/sonic-atlas"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/16793-Sonic-Atlas-Expansion-Singari-Chenda-Melam-Kit?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pitchinnovations.com/products/sonic-atlas"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pitchinnovations.com/products/sonic-atlas"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pitchinnovations.com/products/sonic-atlas"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pitchinnovations.com/products/sonic-atlas"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

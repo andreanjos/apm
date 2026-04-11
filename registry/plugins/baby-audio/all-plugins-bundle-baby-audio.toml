@@ -1,25 +1,26 @@
-slug        = "all-plugins-bundle-baby-audio"
-name        = "All Plugins Bundle"
-vendor      = "Baby Audio"
-version     = "1.0.0"
-description = "Bundle of all Baby Audio plugins including Crystalline, TAIP, Tekno, Humanoid, IHNY-2, and more."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://babyaud.io/complete-bundle"
-is_paid     = true
+slug         = "all-plugins-bundle-baby-audio"
+name         = "All Plugins Bundle"
+vendor       = "Baby Audio"
+version      = "1.0.0"
+description  = "Bundle of all Baby Audio plugins including Crystalline, TAIP, Tekno, Humanoid, IHNY-2, and more."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://babyaud.io/complete-bundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://babyaud.io/complete-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://babyaud.io/complete-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://babyaud.io/complete-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://babyaud.io/complete-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

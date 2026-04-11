@@ -1,25 +1,26 @@
-slug        = "dreammachines"
-name        = "DreamMachines"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Drum machine sample pack with nearly 500 samples and creative processing for MDrummer and MSoundFactory."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/DreamMachines"
-is_paid     = true
+slug         = "dreammachines"
+name         = "DreamMachines"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Drum machine sample pack with nearly 500 samples and creative processing for MDrummer and MSoundFactory."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/DreamMachines"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/DreamMachines"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/DreamMachines"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/DreamMachines"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/DreamMachines"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "junorator"
-name        = "Junorator"
-vendor      = "Audio Blast"
-version     = "1.0.0"
-description = "300-preset synth and lead expansion pack for Rave Generator 3, inspired by the Juno."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audioblast.me/"
+slug         = "junorator"
+name         = "Junorator"
+vendor       = "Audio Blast"
+version      = "1.0.0"
+description  = "300-preset synth and lead expansion pack for Rave Generator 3, inspired by the Juno."
+category     = "instruments"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audioblast.me/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/14186-Junorator?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audioblast.me/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioblast.me/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audioblast.me/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioblast.me/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

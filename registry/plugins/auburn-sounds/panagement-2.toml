@@ -1,26 +1,27 @@
-slug        = "panagement-2"
-name        = "Panagement 2"
-vendor      = "Auburn Sounds"
-version     = "2"
-description = "Stereo spatialization plugin with binaural positioning, panning, distance, reverb, and delay."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.auburnsounds.com/products/Panagement.html"
+slug         = "panagement-2"
+name         = "Panagement 2"
+vendor       = "Auburn Sounds"
+version      = "2"
+description  = "Stereo spatialization plugin with binaural positioning, panning, distance, reverb, and delay."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.auburnsounds.com/products/Panagement.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/11936-Panagement-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.auburnsounds.com/products/Panagement.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.auburnsounds.com/products/Panagement.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.auburnsounds.com/products/Panagement.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.auburnsounds.com/products/Panagement.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

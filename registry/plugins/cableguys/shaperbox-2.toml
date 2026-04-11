@@ -1,25 +1,26 @@
-slug        = "shaperbox-2"
-name        = "ShaperBox 2"
-vendor      = "Cableguys"
-version     = "2"
-description = "Multi-effect bundle combining LFO-driven volume, filter, distortion, pan, and time-shaping effects."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.cableguys.com/shaperbox"
-is_paid     = true
+slug         = "shaperbox-2"
+name         = "ShaperBox 2"
+vendor       = "Cableguys"
+version      = "2"
+description  = "Multi-effect bundle combining LFO-driven volume, filter, distortion, pan, and time-shaping effects."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.cableguys.com/shaperbox"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.cableguys.com/shaperbox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cableguys.com/shaperbox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.cableguys.com/shaperbox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cableguys.com/shaperbox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

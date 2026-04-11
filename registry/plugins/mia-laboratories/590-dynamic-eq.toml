@@ -1,25 +1,26 @@
-slug        = "590-dynamic-eq"
-name        = "590 Dynamic EQ"
-vendor      = "MIA Laboratories"
-version     = "1.0.0"
-description = "MIA Laboratories dynamic EQ with compression and expansion modes per band."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://mialaboratories.com/product/590-dynamic-eq/"
-is_paid     = true
+slug         = "590-dynamic-eq"
+name         = "590 Dynamic EQ"
+vendor       = "MIA Laboratories"
+version      = "1.0.0"
+description  = "MIA Laboratories dynamic EQ with compression and expansion modes per band."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://mialaboratories.com/product/590-dynamic-eq/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mialaboratories.com/product/590-dynamic-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mialaboratories.com/product/590-dynamic-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mialaboratories.com/product/590-dynamic-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mialaboratories.com/product/590-dynamic-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

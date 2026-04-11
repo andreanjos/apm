@@ -1,26 +1,27 @@
-slug        = "ssl-g-equalizer"
-name        = "SSL G-Equalizer"
-vendor      = "Waves"
-version     = "14.0"
-description = "Standalone emulation of the SSL G-Series four-band parametric console equalizer."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/ssl-g-equalizer"
-is_paid     = true
+slug         = "ssl-g-equalizer"
+name         = "SSL G-Equalizer"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Standalone emulation of the SSL G-Series four-band parametric console equalizer."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/ssl-g-equalizer"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/ssl-g-equalizer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/ssl-g-equalizer"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/ssl-g-equalizer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/ssl-g-equalizer"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

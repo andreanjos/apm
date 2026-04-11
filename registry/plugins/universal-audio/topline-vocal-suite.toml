@@ -1,27 +1,28 @@
-slug        = "topline-vocal-suite"
-name        = "Topline Vocal Suite"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "UA's Topline Vocal Suite is an AI-powered vocal processing plug-in suite for modern production."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/voice/topline-vocal-suite.html"
+slug         = "topline-vocal-suite"
+name         = "Topline Vocal Suite"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "UA's Topline Vocal Suite is an AI-powered vocal processing plug-in suite for modern production."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/voice/topline-vocal-suite.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/13320-Topline-Vocal-Suite?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/voice/topline-vocal-suite.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/voice/topline-vocal-suite.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/voice/topline-vocal-suite.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/voice/topline-vocal-suite.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

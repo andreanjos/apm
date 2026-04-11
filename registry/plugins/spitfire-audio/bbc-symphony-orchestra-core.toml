@@ -1,26 +1,27 @@
-slug        = "bbc-symphony-orchestra-core"
-name        = "BBC Symphony Orchestra Core"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Core edition of the BBC Symphony Orchestra recorded at Maida Vale Studios — the gold standard in orchestral sampling."
-category    = "instruments"
-subcategory = "orchestral"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/bbc-symphony-orchestra-core"
-is_paid     = true
+slug         = "bbc-symphony-orchestra-core"
+name         = "BBC Symphony Orchestra Core"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Core edition of the BBC Symphony Orchestra recorded at Maida Vale Studios - the gold standard in orchestral sampling."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "orchestral"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/bbc-symphony-orchestra-core"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/bbc-symphony-orchestra-core"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/bbc-symphony-orchestra-core"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/bbc-symphony-orchestra-core"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/bbc-symphony-orchestra-core"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

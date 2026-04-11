@@ -1,26 +1,27 @@
-slug        = "dawesome-abyss"
-name        = "Dawesome Abyss"
-vendor      = "Tracktion"
-version     = "1.2"
-description = "Visual synthesizer by Dawesome delivering dark drones, cinematic pads, and rich evolving textures."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tracktion.com/products/abyss"
+slug         = "dawesome-abyss"
+name         = "Dawesome Abyss"
+vendor       = "Tracktion"
+version      = "1.2"
+description  = "Visual synthesizer by Dawesome delivering dark drones, cinematic pads, and rich evolving textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tracktion.com/products/abyss"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/8140-Dawesome-Abyss?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tracktion.com/products/abyss"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/abyss"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tracktion.com/products/abyss"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/abyss"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

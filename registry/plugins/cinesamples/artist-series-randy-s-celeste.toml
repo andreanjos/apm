@@ -1,26 +1,27 @@
-slug        = "artist-series-randy-s-celeste"
-name        = "Artist Series Randy s Celeste"
-vendor      = "Cinesamples"
-version     = "1.0.0"
-description = "Randy Kerber's iconic celeste sound as heard in the Harry Potter film series, recorded at MGM Scoring Stage."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/randy-s-celeste"
+slug         = "artist-series-randy-s-celeste"
+name         = "Artist Series Randy s Celeste"
+vendor       = "Cinesamples"
+version      = "1.0.0"
+description  = "Randy Kerber's iconic celeste sound as heard in the Harry Potter film series, recorded at MGM Scoring Stage."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/randy-s-celeste"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11283-Artist-Series-Randy-s-Celeste?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/randy-s-celeste"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/randy-s-celeste"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/randy-s-celeste"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/randy-s-celeste"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

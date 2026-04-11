@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-remote-control"
-name        = "Blue Cat s Remote Control"
-vendor      = "Blue Cat Audio"
-version     = "3.2"
-description = "Virtual MIDI control surface for monitoring and controlling multiple MIDI-controllable plug-ins simultaneously."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_RemoteControl/"
+slug         = "blue-cat-s-remote-control"
+name         = "Blue Cat s Remote Control"
+vendor       = "Blue Cat Audio"
+version      = "3.2"
+description  = "Virtual MIDI control surface for monitoring and controlling multiple MIDI-controllable plug-ins simultaneously."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_RemoteControl/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/264-Blue-Cat-s-Remote-Control?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_RemoteControl/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_RemoteControl/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_RemoteControl/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_RemoteControl/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

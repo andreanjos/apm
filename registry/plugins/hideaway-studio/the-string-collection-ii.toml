@@ -1,25 +1,26 @@
-slug        = "the-string-collection-ii"
-name        = "The String Collection II"
-vendor      = "Hideaway Studio"
-version     = "1.0.0"
-description = "Cinematic synth strings Kontakt library captured from vintage synthesizers including the Novachord and Eminent 310U."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://hideawaystudio.net/"
-is_paid     = true
+slug         = "the-string-collection-ii"
+name         = "The String Collection II"
+vendor       = "Hideaway Studio"
+version      = "1.0.0"
+description  = "Cinematic synth strings Kontakt library captured from vintage synthesizers including the Novachord and Eminent 310U."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://hideawaystudio.net/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hideawaystudio.net/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hideawaystudio.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hideawaystudio.net/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hideawaystudio.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

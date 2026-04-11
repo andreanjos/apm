@@ -1,25 +1,26 @@
-slug        = "tarabiamk2-pro"
-name        = "TarabiaMK2 PRO"
-vendor      = "smaolab"
-version     = "2.0"
-description = "Pro distortion and drive plugin by smaolab with rich harmonic saturation and tone shaping."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://smaolab.org/"
-is_paid     = true
+slug         = "tarabiamk2-pro"
+name         = "TarabiaMK2 PRO"
+vendor       = "smaolab"
+version      = "2.0"
+description  = "Pro distortion and drive plugin by smaolab with rich harmonic saturation and tone shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://smaolab.org/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://smaolab.org/"
-sha256       = ""
-install_type = "zip"
+url           = "https://smaolab.org/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://smaolab.org/"
-sha256       = ""
-install_type = "zip"
+url           = "https://smaolab.org/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

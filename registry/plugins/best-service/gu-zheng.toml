@@ -1,25 +1,26 @@
-slug        = "gu-zheng"
-name        = "Gu Zheng"
-vendor      = "Best Service"
-version     = "1.0.0"
-description = "Meticulously sampled Chinese Gu Zheng library for the Engine Player created by local Chinese music producers."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bestservice.com/en/gu_zheng.html"
-is_paid     = true
+slug         = "gu-zheng"
+name         = "Gu Zheng"
+vendor       = "Best Service"
+version      = "1.0.0"
+description  = "Meticulously sampled Chinese Gu Zheng library for the Engine Player created by local Chinese music producers."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bestservice.com/en/gu_zheng.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bestservice.com/en/gu_zheng.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bestservice.com/en/gu_zheng.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bestservice.com/en/gu_zheng.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bestservice.com/en/gu_zheng.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

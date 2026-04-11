@@ -1,26 +1,27 @@
-slug        = "ample-ethno-ukulele"
-name        = "Ample Ethno Ukulele"
-vendor      = "Ample Sound"
-version     = "4"
-description = "Ukulele virtual instrument from Ample Sound's Ethno series for authentic strummed and fingerpicked sounds."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.amplesound.net/en/"
+slug         = "ample-ethno-ukulele"
+name         = "Ample Ethno Ukulele"
+vendor       = "Ample Sound"
+version      = "4"
+description  = "Ukulele virtual instrument from Ample Sound's Ethno series for authentic strummed and fingerpicked sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.amplesound.net/en/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15068-Ample-Ethno-Ukulele?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.amplesound.net/en/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.amplesound.net/en/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

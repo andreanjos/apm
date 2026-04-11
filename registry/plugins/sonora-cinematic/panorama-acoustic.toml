@@ -1,26 +1,27 @@
-slug        = "panorama-acoustic"
-name        = "Panorama Acoustic"
-vendor      = "Sonora Cinematic"
-version     = "1.0.0"
-description = "Kontakt Player instrument recording steel-string, nylon, and 12-string acoustic guitars."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonoracinematic.com/products/panorama-acoustic-by-sonora-cinematic"
+slug         = "panorama-acoustic"
+name         = "Panorama Acoustic"
+vendor       = "Sonora Cinematic"
+version      = "1.0.0"
+description  = "Kontakt Player instrument recording steel-string, nylon, and 12-string acoustic guitars."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonoracinematic.com/products/panorama-acoustic-by-sonora-cinematic"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/14587-Panorama-Acoustic?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonoracinematic.com/products/panorama-acoustic-by-sonora-cinematic"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/panorama-acoustic-by-sonora-cinematic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonoracinematic.com/products/panorama-acoustic-by-sonora-cinematic"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/panorama-acoustic-by-sonora-cinematic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

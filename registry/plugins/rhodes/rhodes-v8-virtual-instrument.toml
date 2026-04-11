@@ -1,26 +1,27 @@
-slug        = "rhodes-v8-virtual-instrument"
-name        = "Rhodes V8 Virtual Instrument"
-vendor      = "Rhodes"
-version     = "1.0.0"
-description = "Official hyper-realistic virtual recreation of the Rhodes MK8 electric piano."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://rhodesmusic.com/rhodes-v8-plugin/"
+slug         = "rhodes-v8-virtual-instrument"
+name         = "Rhodes V8 Virtual Instrument"
+vendor       = "Rhodes"
+version      = "1.0.0"
+description  = "Official hyper-realistic virtual recreation of the Rhodes MK8 electric piano."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://rhodesmusic.com/rhodes-v8-plugin/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10330-Rhodes-V8-Virtual-Instrument?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rhodesmusic.com/rhodes-v8-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rhodesmusic.com/rhodes-v8-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rhodesmusic.com/rhodes-v8-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rhodesmusic.com/rhodes-v8-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

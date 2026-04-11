@@ -1,26 +1,27 @@
-slug        = "pitch-n-time-pro"
-name        = "Pitch N Time Pro"
-vendor      = "Serato"
-version     = "3.1.1"
-description = "Professional time-stretching and pitch-shifting plug-in with multi-channel and varispeed capabilities."
-category    = "effects"
-subcategory = "pitch shifter"
-license     = "commercial"
-tags        = []
-homepage    = "https://serato.com/pitchntime-pro"
+slug         = "pitch-n-time-pro"
+name         = "Pitch N Time Pro"
+vendor       = "Serato"
+version      = "3.1.1"
+description  = "Professional time-stretching and pitch-shifting plug-in with multi-channel and varispeed capabilities."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch shifter"
+license      = "commercial"
+tags         = []
+homepage     = "https://serato.com/pitchntime-pro"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/5098-Pitch-N-Time-Pro?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://serato.com/pitchntime-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://serato.com/pitchntime-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://serato.com/pitchntime-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://serato.com/pitchntime-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

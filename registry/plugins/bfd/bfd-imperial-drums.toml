@@ -1,26 +1,27 @@
-slug        = "bfd-imperial-drums"
-name        = "BFD Imperial Drums"
-vendor      = "BFD"
-version     = "1.0"
-description = "BFD3 expansion with 150+ diverse drums and cymbals from Chocolate Audio for all musical genres."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bfddrums.com/bfd3-expansions/imperial-drums/"
+slug         = "bfd-imperial-drums"
+name         = "BFD Imperial Drums"
+vendor       = "BFD"
+version      = "1.0"
+description  = "BFD3 expansion with 150+ diverse drums and cymbals from Chocolate Audio for all musical genres."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bfddrums.com/bfd3-expansions/imperial-drums/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/1599-BFD-Imperial-Drums?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bfddrums.com/bfd3-expansions/imperial-drums/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/bfd3-expansions/imperial-drums/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bfddrums.com/bfd3-expansions/imperial-drums/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/bfd3-expansions/imperial-drums/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

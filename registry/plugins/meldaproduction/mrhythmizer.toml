@@ -1,26 +1,27 @@
-slug        = "mrhythmizer"
-name        = "MRhythmizer"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "A unique time manipulation effect with integrated sequencer for gating, glitching, and creative audio effects."
-category    = "effects"
-subcategory = "gate"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MRhythmizer"
+slug         = "mrhythmizer"
+name         = "MRhythmizer"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "A unique time manipulation effect with integrated sequencer for gating, glitching, and creative audio effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "gate"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MRhythmizer"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/119-MRhythmizer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MRhythmizer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MRhythmizer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MRhythmizer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MRhythmizer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,28 @@
-slug        = "uad-precision-de-esser"
-name        = "Precision De-Esser"
-vendor      = "Universal Audio"
-version     = "1.0"
-description = "Transparent de-esser with adaptive threshold for vocal sibilance control"
-category    = "effects"
-subcategory = "de-esser"
-license     = "commercial"
-tags        = ["de-esser", "vocal", "uad"]
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/"
+slug         = "uad-precision-de-esser"
+name         = "Precision De-Esser"
+vendor       = "Universal Audio"
+version      = "1.0"
+description  = "Transparent de-esser with adaptive threshold for vocal sibilance control"
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de-esser"
+license      = "commercial"
+tags         = ["de-esser", "vocal", "uad"]
+aliases      = ["precision-de-esser"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Precision De-Esser.vst3"
+bundle_path   = "UAD Precision De-Esser.vst3"
 
 [formats.au]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Precision De-Esser.component"
+bundle_path   = "UAD Precision De-Esser.component"

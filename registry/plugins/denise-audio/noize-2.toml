@@ -1,26 +1,27 @@
-slug        = "noize-2"
-name        = "Noize 2"
-vendor      = "Denise Audio"
-version     = "1.2"
-description = "Noise generator plugin for adding texture, atmosphere, and creative noise layers."
-category    = "instruments"
-subcategory = "generator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.deniseaudio.com/plugins/noize-2"
+slug         = "noize-2"
+name         = "Noize 2"
+vendor       = "Denise Audio"
+version      = "1.2"
+description  = "Noise generator plugin for adding texture, atmosphere, and creative noise layers."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "generator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.deniseaudio.com/plugins/noize-2"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/5173-Noize-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.deniseaudio.com/plugins/noize-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/plugins/noize-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.deniseaudio.com/plugins/noize-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/plugins/noize-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

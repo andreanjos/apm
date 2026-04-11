@@ -1,27 +1,28 @@
-slug        = "arturia-pigments-bundle"
-name        = "Arturia Pigments Bundle"
-vendor      = "Arturia"
-version     = "7.0.0"
-description = "Bundle combining Arturia Pigments with curated expansion packs and additional presets."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-instruments/pigments/overview"
+slug         = "arturia-pigments-bundle"
+name         = "Arturia Pigments Bundle"
+vendor       = "Arturia"
+version      = "7.0.0"
+description  = "Bundle combining Arturia Pigments with curated expansion packs and additional presets."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-instruments/pigments/overview"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/13340-Arturia-Pigments-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-instruments/pigments/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/pigments/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-instruments/pigments/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/pigments/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

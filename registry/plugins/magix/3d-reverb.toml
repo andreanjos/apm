@@ -1,24 +1,25 @@
-slug        = "3d-reverb"
-name        = "3D Reverb"
-vendor      = "MAGIX"
-version     = "1.0.0"
-description = "Algorithmic 3D reverb plugin supporting up to 10 channels for stereo and surround sound mixes."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.magix.com/us/music-editing/audio-plugin-union/"
-is_paid     = true
+slug         = "3d-reverb"
+name         = "3D Reverb"
+vendor       = "MAGIX"
+version      = "1.0.0"
+description  = "Algorithmic 3D reverb plugin supporting up to 10 channels for stereo and surround sound mixes."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.magix.com/us/music-editing/audio-plugin-union/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.magix.com/us/music-editing/audio-plugin-union/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.magix.com/us/music-editing/audio-plugin-union/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.magix.com/us/music-editing/audio-plugin-union/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.magix.com/us/music-editing/audio-plugin-union/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

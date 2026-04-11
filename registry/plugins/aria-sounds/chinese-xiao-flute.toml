@@ -1,25 +1,26 @@
-slug        = "chinese-xiao-flute"
-name        = "Chinese Xiao Flute"
-vendor      = "Aria Sounds"
-version     = "1.0.0"
-description = "Traditional Chinese xiao end-blown flute Kontakt library with authentic playing articulations."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://ariasounds.com/product/chinese-xiao-flute/"
-is_paid     = true
+slug         = "chinese-xiao-flute"
+name         = "Chinese Xiao Flute"
+vendor       = "Aria Sounds"
+version      = "1.0.0"
+description  = "Traditional Chinese xiao end-blown flute Kontakt library with authentic playing articulations."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://ariasounds.com/product/chinese-xiao-flute/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ariasounds.com/product/chinese-xiao-flute/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/chinese-xiao-flute/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ariasounds.com/product/chinese-xiao-flute/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/chinese-xiao-flute/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "h-eq"
-name        = "H-EQ"
-vendor      = "Waves"
-version     = "14.0"
-description = "Hybrid equalizer combining the best of analog and digital EQ designs in one plugin."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/h-eq"
-is_paid     = true
+slug         = "h-eq"
+name         = "H-EQ"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Hybrid equalizer combining the best of analog and digital EQ designs in one plugin."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/h-eq"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/h-eq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/h-eq"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/h-eq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/h-eq"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

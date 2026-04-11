@@ -1,27 +1,29 @@
-slug        = "primaltap"
-name        = "PrimalTap"
-vendor      = "Soundtoys"
-version     = "5.5"
-description = "Vintage digital delay plugin inspired by the 1978 Prime Time for creative echo and warped delay effects."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundtoys.com/product/primaltap/"
+slug         = "primaltap"
+name         = "PrimalTap"
+vendor       = "Soundtoys"
+version      = "5.5"
+description  = "Vintage digital delay plugin inspired by the 1978 Prime Time for creative echo and warped delay effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+aliases      = ["soundtoys-primaltap"]
+homepage     = "https://www.soundtoys.com/product/primaltap/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/1857-PrimalTap?a_aid=69d5e87c5f2e9"
-bundle_ids  = ["com.soundtoys.audiounit.PrimalTap"]
-is_paid     = true
+bundle_ids   = ["com.soundtoys.audiounit.PrimalTap"]
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundtoys.com/product/primaltap/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/primaltap/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundtoys.com/product/primaltap/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/primaltap/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

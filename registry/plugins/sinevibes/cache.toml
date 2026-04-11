@@ -1,26 +1,27 @@
-slug        = "cache"
-name        = "Cache"
-vendor      = "Sinevibes"
-version     = "1.0.0"
-description = "Multi-effect plugin combining filtering, saturation and modulation in one creative signal processor."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sinevibes.com/cache/"
+slug         = "cache"
+name         = "Cache"
+vendor       = "Sinevibes"
+version      = "1.0.0"
+description  = "Multi-effect plugin combining filtering, saturation and modulation in one creative signal processor."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sinevibes.com/cache/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/16470-Cache?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sinevibes.com/cache/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/cache/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sinevibes.com/cache/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/cache/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

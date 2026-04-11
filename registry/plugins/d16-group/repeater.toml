@@ -1,26 +1,27 @@
-slug        = "repeater"
-name        = "Repeater"
-vendor      = "D16 Group"
-version     = "1.2.5"
-description = "Dual delay plugin featuring 23 authentically modelled delay units from analog to digital circuits."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/repeater"
+slug         = "repeater"
+name         = "Repeater"
+vendor       = "D16 Group"
+version      = "1.2.5"
+description  = "Dual delay plugin featuring 23 authentically modelled delay units from analog to digital circuits."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/repeater"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/2970-Repeater?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/repeater"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/repeater"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/repeater"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/repeater"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "retro-bundle"
-name        = "Retro Bundle"
-vendor      = "BeatSkillz"
-version     = "1.0.0"
-description = "Bundle of BeatSkillz retro plugins featuring 80s-inspired sounds, drums, and FX processors."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beatskillz.com/shop/80s-retro-bundle/"
-is_paid     = true
+slug         = "retro-bundle"
+name         = "Retro Bundle"
+vendor       = "BeatSkillz"
+version      = "1.0.0"
+description  = "Bundle of BeatSkillz retro plugins featuring 80s-inspired sounds, drums, and FX processors."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beatskillz.com/shop/80s-retro-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beatskillz.com/shop/80s-retro-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/80s-retro-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beatskillz.com/shop/80s-retro-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/80s-retro-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

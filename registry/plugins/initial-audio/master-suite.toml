@@ -1,25 +1,26 @@
-slug        = "master-suite"
-name        = "Master Suite"
-vendor      = "Initial Audio"
-version     = "1.0.0"
-description = "All-in-one mastering plugin with EQ, compression, limiting, stereo width, and LUFS metering."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://initialaudio.com/product/mastering-plugin-master-suite/"
-is_paid     = true
+slug         = "master-suite"
+name         = "Master Suite"
+vendor       = "Initial Audio"
+version      = "1.0.0"
+description  = "All-in-one mastering plugin with EQ, compression, limiting, stereo width, and LUFS metering."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://initialaudio.com/product/mastering-plugin-master-suite/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://initialaudio.com/product/mastering-plugin-master-suite/"
-sha256       = ""
-install_type = "zip"
+url           = "https://initialaudio.com/product/mastering-plugin-master-suite/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://initialaudio.com/product/mastering-plugin-master-suite/"
-sha256       = ""
-install_type = "zip"
+url           = "https://initialaudio.com/product/mastering-plugin-master-suite/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

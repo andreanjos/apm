@@ -1,26 +1,27 @@
-slug        = "modo-drum-1-5-se"
-name        = "MODO DRUM 1 5 SE"
-vendor      = "IK Multimedia"
-version     = "1.5"
-description = "MODO DRUM 1.5 SE — free-to-start version of the physically modeled acoustic drum instrument."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/mododrum/"
+slug         = "modo-drum-1-5-se"
+name         = "MODO DRUM 1 5 SE"
+vendor       = "IK Multimedia"
+version      = "1.5"
+description  = "MODO DRUM 1.5 SE - free-to-start version of the physically modeled acoustic drum instrument."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/mododrum/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/12690-MODO-DRUM-1-5-SE?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/mododrum/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/mododrum/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/mododrum/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/mododrum/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

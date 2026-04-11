@@ -1,26 +1,27 @@
-slug        = "tal-pha"
-name        = "TAL Pha"
-vendor      = "TAL"
-version     = "1.3.8"
-description = "Emulation of the Alpha Juno II with resonance boost, MPE, aftertouch, microtuning, and 380+ presets."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://tal-software.com/products/tal-pha"
+slug         = "tal-pha"
+name         = "TAL Pha"
+vendor       = "TAL"
+version      = "1.3.8"
+description  = "Emulation of the Alpha Juno II with resonance boost, MPE, aftertouch, microtuning, and 380+ presets."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://tal-software.com/products/tal-pha"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12135-TAL-Pha?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://tal-software.com/products/tal-pha"
-sha256       = ""
-install_type = "zip"
+url           = "https://tal-software.com/products/tal-pha"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://tal-software.com/products/tal-pha"
-sha256       = ""
-install_type = "zip"
+url           = "https://tal-software.com/products/tal-pha"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

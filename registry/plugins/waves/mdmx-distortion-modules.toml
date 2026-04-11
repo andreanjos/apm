@@ -1,26 +1,27 @@
-slug        = "mdmx-distortion-modules"
-name        = "MDMX Distortion Modules"
-vendor      = "Waves"
-version     = "14.0"
-description = "Three-module distortion suite offering screamer, overdrive, and fuzz character."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/mdmx-distortion-modules"
-is_paid     = true
+slug         = "mdmx-distortion-modules"
+name         = "MDMX Distortion Modules"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Three-module distortion suite offering screamer, overdrive, and fuzz character."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/mdmx-distortion-modules"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/mdmx-distortion-modules"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/mdmx-distortion-modules"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/mdmx-distortion-modules"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/mdmx-distortion-modules"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

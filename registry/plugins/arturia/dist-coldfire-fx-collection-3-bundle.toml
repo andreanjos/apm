@@ -1,26 +1,27 @@
-slug        = "dist-coldfire-fx-collection-3-bundle"
-name        = "Dist COLDFIRE + FX Collection 3 Bundle"
-vendor      = "Arturia"
-version     = "1.0.0"
-description = "Bundle combining the Dist COLDFIRE dual-engine distortion with Arturia's FX Collection 3."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
-is_paid     = true
+slug         = "dist-coldfire-fx-collection-3-bundle"
+name         = "Dist COLDFIRE + FX Collection 3 Bundle"
+vendor       = "Arturia"
+version      = "1.0.0"
+description  = "Bundle combining the Dist COLDFIRE dual-engine distortion with Arturia's FX Collection 3."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

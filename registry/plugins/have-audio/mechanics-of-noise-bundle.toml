@@ -1,25 +1,26 @@
-slug        = "mechanics-of-noise-bundle"
-name        = "Mechanics of Noise Bundle"
-vendor      = "Have Audio"
-version     = "1.0.0"
-description = "Bundle of three noise-texture libraries: Acoustic, Dystopian, and Electronic for cinematic scoring."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://haveaudio.com/products/bundle-mechanics-of-noise"
-is_paid     = true
+slug         = "mechanics-of-noise-bundle"
+name         = "Mechanics of Noise Bundle"
+vendor       = "Have Audio"
+version      = "1.0.0"
+description  = "Bundle of three noise-texture libraries: Acoustic, Dystopian, and Electronic for cinematic scoring."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://haveaudio.com/products/bundle-mechanics-of-noise"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://haveaudio.com/products/bundle-mechanics-of-noise"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/bundle-mechanics-of-noise"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://haveaudio.com/products/bundle-mechanics-of-noise"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/bundle-mechanics-of-noise"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

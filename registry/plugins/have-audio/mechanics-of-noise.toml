@@ -1,26 +1,27 @@
-slug        = "mechanics-of-noise"
-name        = "Mechanics of Noise"
-vendor      = "Have Audio"
-version     = "1.0.0"
-description = "Analog noise texture library with crackling one-shots and tempo-synced loops for dark soundscapes."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://haveaudio.com/products/mechanics-of-noise"
+slug         = "mechanics-of-noise"
+name         = "Mechanics of Noise"
+vendor       = "Have Audio"
+version      = "1.0.0"
+description  = "Analog noise texture library with crackling one-shots and tempo-synced loops for dark soundscapes."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://haveaudio.com/products/mechanics-of-noise"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7336-Mechanics-of-Noise?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://haveaudio.com/products/mechanics-of-noise"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/mechanics-of-noise"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://haveaudio.com/products/mechanics-of-noise"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/mechanics-of-noise"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "moog-multimode-filter-collection"
-name        = "Moog Multimode Filter Collection"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Collection of Moog ladder filter emulations including lowpass, highpass, bandpass, and notch modes."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/modulation/moog-multimode-filter-collection.html"
-is_paid     = true
+slug         = "moog-multimode-filter-collection"
+name         = "Moog Multimode Filter Collection"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Collection of Moog ladder filter emulations including lowpass, highpass, bandpass, and notch modes."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/modulation/moog-multimode-filter-collection.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/modulation/moog-multimode-filter-collection.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/modulation/moog-multimode-filter-collection.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/modulation/moog-multimode-filter-collection.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/modulation/moog-multimode-filter-collection.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "heater"
-name        = "Heater"
-vendor      = "NoiseAsh"
-version     = "1.3.9"
-description = "Analog-modeled tube saturation and warming plugin for adding harmonic richness to any signal."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://noiseash.com/heater/"
-is_paid     = true
+slug         = "heater"
+name         = "Heater"
+vendor       = "NoiseAsh"
+version      = "1.3.9"
+description  = "Analog-modeled tube saturation and warming plugin for adding harmonic richness to any signal."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://noiseash.com/heater/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://noiseash.com/heater/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/heater/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://noiseash.com/heater/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/heater/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "skaka"
-name        = "Skaka"
-vendor      = "Klevgrand"
-version     = "1.0"
-description = "A sample-based shaker sequencer with 12 slots, individual pitch/velocity/envelope, and pattern control."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://klevgrand.com/products/skaka"
+slug         = "skaka"
+name         = "Skaka"
+vendor       = "Klevgrand"
+version      = "1.0"
+description  = "A sample-based shaker sequencer with 12 slots, individual pitch/velocity/envelope, and pattern control."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://klevgrand.com/products/skaka"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/8721-Skaka?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klevgrand.com/products/skaka"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/skaka"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klevgrand.com/products/skaka"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/skaka"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

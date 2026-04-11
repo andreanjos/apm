@@ -1,26 +1,27 @@
-slug        = "bx-console-ssl-9000-j"
-name        = "bx console SSL 9000 J"
-vendor      = "Brainworx"
-version     = "1.0.0"
-description = "Channel strip emulation of the SSL 9000 J large-format console for ultra-clean modern mixing."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugin-alliance.com/products/bx_console-ssl-9000-j"
+slug         = "bx-console-ssl-9000-j"
+name         = "bx console SSL 9000 J"
+vendor       = "Brainworx"
+version      = "1.0.0"
+description  = "Channel strip emulation of the SSL 9000 J large-format console for ultra-clean modern mixing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugin-alliance.com/products/bx_console-ssl-9000-j"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/10241-bx-console-SSL-9000-J?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/products/bx_console-ssl-9000-j"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/products/bx_console-ssl-9000-j"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/products/bx_console-ssl-9000-j"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/products/bx_console-ssl-9000-j"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "vengeful-viola"
-name        = "Vengeful Viola"
-vendor      = "Karoryfer Samples"
-version     = "1.0.0"
-description = "Unconventionally aggressive viola library featuring bright sul ponticello, noises, and extended techniques."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://shop.karoryfer.com/products/vengeful-viola"
-is_paid     = true
+slug         = "vengeful-viola"
+name         = "Vengeful Viola"
+vendor       = "Karoryfer Samples"
+version      = "1.0.0"
+description  = "Unconventionally aggressive viola library featuring bright sul ponticello, noises, and extended techniques."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://shop.karoryfer.com/products/vengeful-viola"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://shop.karoryfer.com/products/vengeful-viola"
-sha256       = ""
-install_type = "zip"
+url           = "https://shop.karoryfer.com/products/vengeful-viola"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://shop.karoryfer.com/products/vengeful-viola"
-sha256       = ""
-install_type = "zip"
+url           = "https://shop.karoryfer.com/products/vengeful-viola"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

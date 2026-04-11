@@ -1,25 +1,27 @@
-slug        = "nuage-strings-designer"
-name        = "Nuage – Strings Designer"
-vendor      = "Hoss Audio"
-version     = "1.0.0"
-description = "Lush Kontakt strings designer combining violin, viola, cello, double bass, and tape string layers."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.hadihosri.com/h%C3%96ss-audio"
-is_paid     = true
+slug         = "nuage-strings-designer"
+name         = "Nuage - Strings Designer"
+vendor       = "Hoss Audio"
+version      = "1.0.0"
+description  = "Lush Kontakt strings designer combining violin, viola, cello, double bass, and tape string layers."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["nuage-8211-strings-designer"]
+homepage     = "https://www.hadihosri.com/h%C3%96ss-audio"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.hadihosri.com/h%C3%96ss-audio"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.hadihosri.com/h%C3%96ss-audio"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.hadihosri.com/h%C3%96ss-audio"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.hadihosri.com/h%C3%96ss-audio"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

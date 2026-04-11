@@ -1,25 +1,26 @@
-slug        = "african-vocals"
-name        = "African Vocals"
-vendor      = "Rast Sound"
-version     = "1.0.0"
-description = "Kontakt library of authentic African chants, patterns, and songs with playable solo instruments."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/african-vocals/"
-is_paid     = true
+slug         = "african-vocals"
+name         = "African Vocals"
+vendor       = "Rast Sound"
+version      = "1.0.0"
+description  = "Kontakt library of authentic African chants, patterns, and songs with playable solo instruments."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/african-vocals/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/african-vocals/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/african-vocals/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/african-vocals/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/african-vocals/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

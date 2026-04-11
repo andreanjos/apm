@@ -1,25 +1,26 @@
-slug        = "eq-collection-big-beautiful-door-10db-equaliser-t-bone"
-name        = "EQ Collection: Big Beautiful Door +10db Equaliser + T-Bone"
-vendor      = "Boz Digital Labs"
-version     = "1.0.0"
-description = "EQ bundle combining Big Beautiful Door, +10dB Equaliser, and T-Bone for comprehensive tone shaping."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozdigitallabs.com/product/eq-collection/"
-is_paid     = true
+slug         = "eq-collection-big-beautiful-door-10db-equaliser-t-bone"
+name         = "EQ Collection: Big Beautiful Door +10db Equaliser + T-Bone"
+vendor       = "Boz Digital Labs"
+version      = "1.0.0"
+description  = "EQ bundle combining Big Beautiful Door, +10dB Equaliser, and T-Bone for comprehensive tone shaping."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bozdigitallabs.com/product/eq-collection/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozdigitallabs.com/product/eq-collection/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/eq-collection/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozdigitallabs.com/product/eq-collection/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/eq-collection/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

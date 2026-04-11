@@ -1,25 +1,26 @@
-slug        = "zerobox"
-name        = "ZeroBox"
-vendor      = "Xhun Audio"
-version     = "1.0.0"
-description = "Analog-modeled bassline synthesizer emulating a legendary sequencer-driven acid machine with ACS technology."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xhun-audio.com/site/xhun.php?page=zerobox"
-is_paid     = true
+slug         = "zerobox"
+name         = "ZeroBox"
+vendor       = "Xhun Audio"
+version      = "1.0.0"
+description  = "Analog-modeled bassline synthesizer emulating a legendary sequencer-driven acid machine with ACS technology."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.xhun-audio.com/site/xhun.php?page=zerobox"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xhun-audio.com/site/xhun.php?page=zerobox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xhun-audio.com/site/xhun.php?page=zerobox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xhun-audio.com/site/xhun.php?page=zerobox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xhun-audio.com/site/xhun.php?page=zerobox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

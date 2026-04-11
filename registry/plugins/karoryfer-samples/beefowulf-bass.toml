@@ -1,25 +1,26 @@
-slug        = "beefowulf-bass"
-name        = "Beefowulf Bass"
-vendor      = "Karoryfer Samples"
-version     = "1.0.0"
-description = "Virtual bass guitar sampled from a jazz-style Killer Simmony with flatwound strings tuned in fifths."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://shop.karoryfer.com/products/beefowulf-bass"
-is_paid     = true
+slug         = "beefowulf-bass"
+name         = "Beefowulf Bass"
+vendor       = "Karoryfer Samples"
+version      = "1.0.0"
+description  = "Virtual bass guitar sampled from a jazz-style Killer Simmony with flatwound strings tuned in fifths."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://shop.karoryfer.com/products/beefowulf-bass"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://shop.karoryfer.com/products/beefowulf-bass"
-sha256       = ""
-install_type = "zip"
+url           = "https://shop.karoryfer.com/products/beefowulf-bass"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://shop.karoryfer.com/products/beefowulf-bass"
-sha256       = ""
-install_type = "zip"
+url           = "https://shop.karoryfer.com/products/beefowulf-bass"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

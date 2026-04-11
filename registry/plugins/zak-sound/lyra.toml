@@ -1,26 +1,27 @@
-slug        = "lyra"
-name        = "Lyra"
-vendor      = "ZAK Sound"
-version     = "1.0.0"
-description = "Hybrid pad instrument merging organic vocal samples with wavetable synthesis for cinematic atmospheres."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://zaksound.com/lyra/"
+slug         = "lyra"
+name         = "Lyra"
+vendor       = "ZAK Sound"
+version      = "1.0.0"
+description  = "Hybrid pad instrument merging organic vocal samples with wavetable synthesis for cinematic atmospheres."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://zaksound.com/lyra/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/16744-Lyra?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zaksound.com/lyra/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/lyra/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zaksound.com/lyra/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/lyra/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

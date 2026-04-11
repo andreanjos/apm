@@ -1,25 +1,26 @@
-slug        = "best-of-noiseash"
-name        = "Best of NoiseAsh"
-vendor      = "NoiseAsh"
-version     = "1.0.0"
-description = "Curated bundle of NoiseAsh's most popular mixing and mastering plugins at a discounted price."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://noiseash.com/best-of-noiseash/"
-is_paid     = true
+slug         = "best-of-noiseash"
+name         = "Best of NoiseAsh"
+vendor       = "NoiseAsh"
+version      = "1.0.0"
+description  = "Curated bundle of NoiseAsh's most popular mixing and mastering plugins at a discounted price."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://noiseash.com/best-of-noiseash/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://noiseash.com/best-of-noiseash/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/best-of-noiseash/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://noiseash.com/best-of-noiseash/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/best-of-noiseash/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

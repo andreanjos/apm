@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-polyvibe"
-name        = "Blue Cat s PolyVibe"
-vendor      = "Blue Cat Audio"
-version     = "1.04"
-description = "Complete vintage vibe pedal recreation simulating vibes, chorus, phaser, rotary, and wah effects."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_PolyVibe/"
+slug         = "blue-cat-s-polyvibe"
+name         = "Blue Cat s PolyVibe"
+vendor       = "Blue Cat Audio"
+version      = "1.04"
+description  = "Complete vintage vibe pedal recreation simulating vibes, chorus, phaser, rotary, and wah effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_PolyVibe/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8984-Blue-Cat-s-PolyVibe?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_PolyVibe/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_PolyVibe/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_PolyVibe/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_PolyVibe/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

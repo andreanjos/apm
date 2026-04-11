@@ -1,26 +1,27 @@
-slug        = "doepfer-a-101-2-vactrol-lpg"
-name        = "Doepfer A-101-2 Vactrol LPG"
-vendor      = "Softube"
-version     = "2.6"
-description = "Vactrol-based low-pass gate module for Softube Modular, modeled on the Doepfer A-101-2."
-category    = "effects"
-subcategory = "gate"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/synthesizers/doepfer-a-101-2-vactrol-lpg"
-is_paid     = true
+slug         = "doepfer-a-101-2-vactrol-lpg"
+name         = "Doepfer A-101-2 Vactrol LPG"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Vactrol-based low-pass gate module for Softube Modular, modeled on the Doepfer A-101-2."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "gate"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/synthesizers/doepfer-a-101-2-vactrol-lpg"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/doepfer-a-101-2-vactrol-lpg"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/doepfer-a-101-2-vactrol-lpg"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/doepfer-a-101-2-vactrol-lpg"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/doepfer-a-101-2-vactrol-lpg"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

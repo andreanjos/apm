@@ -1,25 +1,26 @@
-slug        = "trailer-bundle"
-name        = "Trailer Bundle"
-vendor      = "Musical Sampling"
-version     = "1.0"
-description = "Bundle pairing Musical Sampling's Trailer Brass and Trailer Strings Kontakt libraries for epic media scoring."
-category    = "instruments"
-subcategory = "brass"
-license     = "commercial"
-tags        = []
-homepage    = "https://musicalsampling.com/trailer-bundle/"
-is_paid     = true
+slug         = "trailer-bundle"
+name         = "Trailer Bundle"
+vendor       = "Musical Sampling"
+version      = "1.0"
+description  = "Bundle pairing Musical Sampling's Trailer Brass and Trailer Strings Kontakt libraries for epic media scoring."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "brass"
+license      = "commercial"
+tags         = []
+homepage     = "https://musicalsampling.com/trailer-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://musicalsampling.com/trailer-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://musicalsampling.com/trailer-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://musicalsampling.com/trailer-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://musicalsampling.com/trailer-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

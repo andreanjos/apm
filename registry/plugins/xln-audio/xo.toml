@@ -1,26 +1,28 @@
-slug        = "xo"
-name        = "XO"
-vendor      = "XLN Audio"
-version     = "1.8.4"
-description = "Drum machine that uses AI to map and explore your sample library in an interactive visual interface."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xlnaudio.com/products/plugins/xo"
-bundle_ids  = ["com.xlnaudio.xo"]
-is_paid     = true
+slug         = "xo"
+name         = "XO"
+vendor       = "XLN Audio"
+version      = "1.8.4"
+description  = "Drum machine that uses AI to map and explore your sample library in an interactive visual interface."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+aliases      = ["xln-xo"]
+homepage     = "https://www.xlnaudio.com/products/plugins/xo"
+bundle_ids   = ["com.xlnaudio.xo"]
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xlnaudio.com/products/plugins/xo"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xlnaudio.com/products/plugins/xo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xlnaudio.com/products/plugins/xo"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xlnaudio.com/products/plugins/xo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

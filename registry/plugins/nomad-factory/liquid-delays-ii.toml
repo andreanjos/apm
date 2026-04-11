@@ -1,25 +1,26 @@
-slug        = "liquid-delays-ii"
-name        = "Liquid Delays II"
-vendor      = "Nomad Factory"
-version     = "3.0.1"
-description = "Multi-mode delay plugin from the Liquid II series with vintage-style analog delay emulation."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.nomadfactory.com/products/p746-Liquid-Delays/"
-is_paid     = true
+slug         = "liquid-delays-ii"
+name         = "Liquid Delays II"
+vendor       = "Nomad Factory"
+version      = "3.0.1"
+description  = "Multi-mode delay plugin from the Liquid II series with vintage-style analog delay emulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.nomadfactory.com/products/p746-Liquid-Delays/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.nomadfactory.com/products/p746-Liquid-Delays/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p746-Liquid-Delays/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.nomadfactory.com/products/p746-Liquid-Delays/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p746-Liquid-Delays/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

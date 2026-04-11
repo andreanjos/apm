@@ -1,25 +1,26 @@
-slug        = "woodcraft-kits-for-resonheart"
-name        = "Woodcraft Kits for ResonHeart"
-vendor      = "Xhun Audio"
-version     = "1.0.0"
-description = "Sound design toolkit with 43 preset construction kits for Xhun Audio's ResonHeart instrument."
-category    = "instruments"
-subcategory = "presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xhun-audio.com/site/xhun.php?page=expansions"
-is_paid     = true
+slug         = "woodcraft-kits-for-resonheart"
+name         = "Woodcraft Kits for ResonHeart"
+vendor       = "Xhun Audio"
+version      = "1.0.0"
+description  = "Sound design toolkit with 43 preset construction kits for Xhun Audio's ResonHeart instrument."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.xhun-audio.com/site/xhun.php?page=expansions"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xhun-audio.com/site/xhun.php?page=expansions"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xhun-audio.com/site/xhun.php?page=expansions"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xhun-audio.com/site/xhun.php?page=expansions"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xhun-audio.com/site/xhun.php?page=expansions"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

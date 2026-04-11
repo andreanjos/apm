@@ -1,26 +1,27 @@
-slug        = "hollywood-fantasy-voices"
-name        = "Hollywood Fantasy Voices"
-vendor      = "EastWest Sounds"
-version     = "1.0.0"
-description = "Ethereal fantasy vocals featuring singer Merethe Soltvedt and majestic male and female choirs."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
+slug         = "hollywood-fantasy-voices"
+name         = "Hollywood Fantasy Voices"
+vendor       = "EastWest Sounds"
+version      = "1.0.0"
+description  = "Ethereal fantasy vocals featuring singer Merethe Soltvedt and majestic male and female choirs."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15562-Hollywood-Fantasy-Voices?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

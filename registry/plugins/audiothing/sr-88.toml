@@ -1,25 +1,26 @@
-slug        = "sr-88"
-name        = "SR-88"
-vendor      = "AudioThing"
-version     = "1.6.2"
-description = "Plugin emulation of the Sound Master Memory Rhythm SR-88 analog drum machine with 5 classic sounds."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/instruments/sr-88/"
-is_paid     = true
+slug         = "sr-88"
+name         = "SR-88"
+vendor       = "AudioThing"
+version      = "1.6.2"
+description  = "Plugin emulation of the Sound Master Memory Rhythm SR-88 analog drum machine with 5 classic sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiothing.net/instruments/sr-88/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/instruments/sr-88/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/instruments/sr-88/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/instruments/sr-88/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/instruments/sr-88/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

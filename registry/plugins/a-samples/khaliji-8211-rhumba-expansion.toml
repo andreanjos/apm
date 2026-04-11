@@ -1,25 +1,27 @@
-slug        = "khaliji-8211-rhumba-expansion"
-name        = "Khaliji &#8211; Rhumba Expansion"
-vendor      = "A Samples"
-version     = "1.0.0"
-description = "Kontakt expansion adding Khaliji Rhumba style instruments and 45 MIDI grooves."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://asamples.com/"
-is_paid     = true
+slug         = "khaliji-8211-rhumba-expansion"
+name         = "Khaliji - Rhumba Expansion"
+vendor       = "A Samples"
+version      = "1.0.0"
+description  = "Kontakt expansion adding Khaliji Rhumba style instruments and 45 MIDI grooves."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+aliases      = ["khaliji-rhumba-expansion"]
+homepage     = "https://asamples.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://asamples.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://asamples.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://asamples.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://asamples.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

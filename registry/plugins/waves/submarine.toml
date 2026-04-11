@@ -1,26 +1,27 @@
-slug        = "submarine"
-name        = "Submarine"
-vendor      = "Waves"
-version     = "14.0"
-description = "Sub-harmonic enhancer and distortion plugin for adding deep sub frequencies."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/submarine"
-is_paid     = true
+slug         = "submarine"
+name         = "Submarine"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Sub-harmonic enhancer and distortion plugin for adding deep sub frequencies."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/submarine"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/submarine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/submarine"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/submarine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/submarine"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

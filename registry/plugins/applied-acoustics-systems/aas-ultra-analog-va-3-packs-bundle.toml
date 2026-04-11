@@ -1,25 +1,26 @@
-slug        = "aas-ultra-analog-va-3-packs-bundle"
-name        = "AAS Ultra Analog VA-3 + Packs Bundle"
-vendor      = "Applied Acoustics Systems"
-version     = "3"
-description = "AAS Ultra Analog VA-3 analog synthesizer bundled with additional sound expansion packs."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.applied-acoustics.com/ultra-analog-va-3/"
-is_paid     = true
+slug         = "aas-ultra-analog-va-3-packs-bundle"
+name         = "AAS Ultra Analog VA-3 + Packs Bundle"
+vendor       = "Applied Acoustics Systems"
+version      = "3"
+description  = "AAS Ultra Analog VA-3 analog synthesizer bundled with additional sound expansion packs."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.applied-acoustics.com/ultra-analog-va-3/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.applied-acoustics.com/ultra-analog-va-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/ultra-analog-va-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.applied-acoustics.com/ultra-analog-va-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/ultra-analog-va-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

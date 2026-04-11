@@ -1,26 +1,25 @@
-slug        = "analog-obsession-dbcomp"
-name        = "dBComp"
-vendor      = "Analog Obsession"
-version     = "1.0"
-description = "Free vintage VCA-style bus compressor/limiter inspired by DBX 160 with program-dependent timing."
-category    = "effects"
-subcategory = "compressor"
-license     = "freeware"
-tags        = ["compressor", "limiter", "vca", "bus", "glue", "vintage", "dbx", "free", "freeware"]
-homepage    = "https://analogobsession.com/dynamicprocessing/"
+slug         = "analog-obsession-dbcomp"
+name         = "dBComp"
+vendor       = "Analog Obsession"
+version      = "1.0"
+description  = "Free vintage VCA-style bus compressor/limiter inspired by DBX 160 with program-dependent timing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "freeware"
+tags         = ["compressor", "limiter", "vca", "bus", "glue", "vintage", "dbx", "free", "freeware"]
+homepage     = "https://analogobsession.com/dynamicprocessing/"
 
-# NOTE: Analog Obsession distributes plugins via their website and Patreon.
-# All plugins are free to download. Direct PKG download links are on the product pages.
 [formats.vst3]
 url           = "https://analogobsession.com/"
 sha256        = "manual"
 install_type  = "pkg"
-bundle_path   = "dBComp.vst3"
 download_type = "manual"
+bundle_path   = "dBComp.vst3"
 
 [formats.au]
 url           = "https://analogobsession.com/"
 sha256        = "manual"
 install_type  = "pkg"
-bundle_path   = "dBComp.component"
 download_type = "manual"
+bundle_path   = "dBComp.component"

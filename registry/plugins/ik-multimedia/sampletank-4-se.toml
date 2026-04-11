@@ -1,25 +1,26 @@
-slug        = "sampletank-4-se"
-name        = "SampleTank 4 SE"
-vendor      = "IK Multimedia"
-version     = "4.0"
-description = "SampleTank 4 SE — starter edition of IK's professional sample workstation with a core sound library."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/st4/"
-is_paid     = true
+slug         = "sampletank-4-se"
+name         = "SampleTank 4 SE"
+vendor       = "IK Multimedia"
+version      = "4.0"
+description  = "SampleTank 4 SE - starter edition of IK's professional sample workstation with a core sound library."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/st4/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/st4/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/st4/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/st4/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/st4/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

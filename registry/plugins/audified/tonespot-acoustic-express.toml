@@ -1,24 +1,25 @@
-slug        = "tonespot-acoustic-express"
-name        = "ToneSpot Acoustic Express"
-vendor      = "Audified"
-version     = "1.0.0"
-description = "Streamlined acoustic instrument mixing plugin with 214 presets for strings, piano, and more."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/tonespot-acoustic-express/"
-is_paid     = true
+slug         = "tonespot-acoustic-express"
+name         = "ToneSpot Acoustic Express"
+vendor       = "Audified"
+version      = "1.0.0"
+description  = "Streamlined acoustic instrument mixing plugin with 214 presets for strings, piano, and more."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/tonespot-acoustic-express/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/tonespot-acoustic-express/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/tonespot-acoustic-express/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/tonespot-acoustic-express/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/tonespot-acoustic-express/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

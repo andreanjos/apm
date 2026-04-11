@@ -1,35 +1,36 @@
-slug        = "chow-multi-tool"
-name        = "ChowMultiTool"
-vendor      = "Chowdhury DSP"
-version     = "1.1.0"
-description = "Free multi-tool audio utility plugin with EQ matching, signal generator, band splitter, spectrum analyzer, and waveshaper."
-category    = "effects"
-subcategory = "utility"
-license     = "GPL-3.0"
-tags        = ["utility", "eq", "spectrum", "analyzer", "signal-generator", "free", "open-source"]
-homepage    = "https://chowdsp.com/products.html"
+slug         = "chow-multi-tool"
+name         = "ChowMultiTool"
+vendor       = "Chowdhury DSP"
+version      = "1.1.0"
+description  = "Free multi-tool audio utility plugin with EQ matching, signal generator, band splitter, spectrum analyzer, and waveshaper."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "utility"
+license      = "GPL-3.0"
+tags         = ["utility", "eq", "spectrum", "analyzer", "signal-generator", "free", "open-source"]
+homepage     = "https://chowdsp.com/products.html"
 
 [formats.vst3]
-url          = "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Mac-1.1.0.dmg"
-sha256       = "d56bd047d8d833306890ebc05102f1d4da31045d1986982caf571c98cdf3f747"
-install_type = "dmg"
-bundle_path  = "ChowMultiTool.vst3"
+url           = "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Mac-1.1.0.dmg"
+sha256        = "d56bd047d8d833306890ebc05102f1d4da31045d1986982caf571c98cdf3f747"
+install_type  = "dmg"
+bundle_path   = "ChowMultiTool.vst3"
 
 [formats.au]
-url          = "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Mac-1.1.0.dmg"
-sha256       = "d56bd047d8d833306890ebc05102f1d4da31045d1986982caf571c98cdf3f747"
-install_type = "dmg"
-bundle_path  = "ChowMultiTool.component"
+url           = "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.1.0/ChowMultiTool-Mac-1.1.0.dmg"
+sha256        = "d56bd047d8d833306890ebc05102f1d4da31045d1986982caf571c98cdf3f747"
+install_type  = "dmg"
+bundle_path   = "ChowMultiTool.component"
 
 [[releases]]
 version = "1.0.0"
 
 [releases.formats.vst3]
-url          = "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.0.0/ChowMultiTool-Mac-1.0.1.dmg"
-sha256       = "b2eacbc31133e632b9c54d3943ab02afadda1189a2d317a78f4139301451bb4f"
-install_type = "dmg"
+url           = "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.0.0/ChowMultiTool-Mac-1.0.1.dmg"
+sha256        = "b2eacbc31133e632b9c54d3943ab02afadda1189a2d317a78f4139301451bb4f"
+install_type  = "dmg"
 
 [releases.formats.au]
-url          = "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.0.0/ChowMultiTool-Mac-1.0.1.dmg"
-sha256       = "b2eacbc31133e632b9c54d3943ab02afadda1189a2d317a78f4139301451bb4f"
-install_type = "dmg"
+url           = "https://github.com/Chowdhury-DSP/ChowMultiTool/releases/download/v1.0.0/ChowMultiTool-Mac-1.0.1.dmg"
+sha256        = "b2eacbc31133e632b9c54d3943ab02afadda1189a2d317a78f4139301451bb4f"
+install_type  = "dmg"

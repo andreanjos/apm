@@ -1,26 +1,27 @@
-slug        = "kantele"
-name        = "Kantele"
-vendor      = "Have Audio"
-version     = "1.0.0"
-description = "Deeply sampled 11-string Finnish kantele with both fingered and pick articulations."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://haveaudio.com/products/kantele"
+slug         = "kantele"
+name         = "Kantele"
+vendor       = "Have Audio"
+version      = "1.0.0"
+description  = "Deeply sampled 11-string Finnish kantele with both fingered and pick articulations."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://haveaudio.com/products/kantele"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9097-Kantele?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://haveaudio.com/products/kantele"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/kantele"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://haveaudio.com/products/kantele"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/kantele"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

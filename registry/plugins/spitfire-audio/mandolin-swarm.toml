@@ -1,26 +1,27 @@
-slug        = "mandolin-swarm"
-name        = "Mandolin Swarm"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Multiple mandolins layered in a swarm configuration for lush, rich plucked string textures and pads."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/mandolin-swarm/"
-is_paid     = true
+slug         = "mandolin-swarm"
+name         = "Mandolin Swarm"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Multiple mandolins layered in a swarm configuration for lush, rich plucked string textures and pads."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/mandolin-swarm/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/mandolin-swarm/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/mandolin-swarm/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/mandolin-swarm/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/mandolin-swarm/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

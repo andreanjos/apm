@@ -1,26 +1,28 @@
-slug        = "bx-bassdude"
-name        = "bx bassdude"
-vendor      = "Brainworx"
-version     = "1.0.0"
-description = "Faithful emulation of a legendary American bass amp that defined generations of rock amplifier design."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugin-alliance.com/products/bx_bassdude"
+slug         = "bx-bassdude"
+name         = "bx bassdude"
+vendor       = "Brainworx"
+version      = "1.0.0"
+description  = "Faithful emulation of a legendary American bass amp that defined generations of rock amplifier design."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+aliases      = ["bx-bassdude-brainworx"]
+homepage     = "https://www.plugin-alliance.com/products/bx_bassdude"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/10229-bx-bassdude?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/products/bx_bassdude"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/products/bx_bassdude"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/products/bx_bassdude"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/products/bx_bassdude"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

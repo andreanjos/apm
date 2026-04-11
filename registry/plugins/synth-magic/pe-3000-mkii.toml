@@ -1,25 +1,26 @@
-slug        = "pe-3000-mkii"
-name        = "PE-3000 MKII"
-vendor      = "Synth Magic"
-version     = "MKII"
-description = "Kontakt MKII library of the Korg PE-2000 ensemble synthesizer with clean and tape-processed sample sets."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://synthmagic.co.uk/pe-3000/"
-is_paid     = true
+slug         = "pe-3000-mkii"
+name         = "PE-3000 MKII"
+vendor       = "Synth Magic"
+version      = "MKII"
+description  = "Kontakt MKII library of the Korg PE-2000 ensemble synthesizer with clean and tape-processed sample sets."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://synthmagic.co.uk/pe-3000/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synthmagic.co.uk/pe-3000/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/pe-3000/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synthmagic.co.uk/pe-3000/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/pe-3000/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

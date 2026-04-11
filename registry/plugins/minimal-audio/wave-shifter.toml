@@ -1,26 +1,27 @@
-slug        = "wave-shifter"
-name        = "Wave Shifter"
-vendor      = "Minimal Audio"
-version     = "1.0.0"
-description = "Warped frequency modulator combining frequency shifting and ring modulation with oscillator-style controls."
-category    = "effects"
-subcategory = "frequency shifter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.minimal.audio/products/wave-shifter"
+slug         = "wave-shifter"
+name         = "Wave Shifter"
+vendor       = "Minimal Audio"
+version      = "1.0.0"
+description  = "Warped frequency modulator combining frequency shifting and ring modulation with oscillator-style controls."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "frequency shifter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.minimal.audio/products/wave-shifter"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/28-Frequency-Shifter/14370-Wave-Shifter?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.minimal.audio/products/wave-shifter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.minimal.audio/products/wave-shifter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.minimal.audio/products/wave-shifter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.minimal.audio/products/wave-shifter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

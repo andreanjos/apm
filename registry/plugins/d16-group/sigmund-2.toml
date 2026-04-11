@@ -1,26 +1,27 @@
-slug        = "sigmund-2"
-name        = "Sigmund 2"
-vendor      = "D16 Group"
-version     = "2.0.1"
-description = "Four delay units in one box with 9 interconnection topologies, filtering, overdrive and 400+ presets."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/sigmund2"
+slug         = "sigmund-2"
+name         = "Sigmund 2"
+vendor       = "D16 Group"
+version      = "2.0.1"
+description  = "Four delay units in one box with 9 interconnection topologies, filtering, overdrive and 400+ presets."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/sigmund2"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/11983-Sigmund-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/sigmund2"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/sigmund2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/sigmund2"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/sigmund2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

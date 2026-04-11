@@ -1,26 +1,27 @@
-slug        = "decibel"
-name        = "Decibel"
-vendor      = "PROCESS AUDIO"
-version     = "1.0.0"
-description = "Professional metering plugin displaying LUFS, RMS, TrueDyn, LRA and True Peak levels."
-category    = "utility"
-subcategory = "metering"
-license     = "commercial"
-tags        = []
-homepage    = "https://process.audio/en"
+slug         = "decibel"
+name         = "Decibel"
+vendor       = "PROCESS AUDIO"
+version      = "1.0.0"
+description  = "Professional metering plugin displaying LUFS, RMS, TrueDyn, LRA and True Peak levels."
+category     = "utility"
+product_type = "utility"
+subcategory  = "metering"
+license      = "commercial"
+tags         = []
+homepage     = "https://process.audio/en"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/8605-Decibel?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://process.audio/en"
-sha256       = ""
-install_type = "zip"
+url           = "https://process.audio/en"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://process.audio/en"
-sha256       = ""
-install_type = "zip"
+url           = "https://process.audio/en"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

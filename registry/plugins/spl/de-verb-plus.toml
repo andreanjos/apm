@@ -1,24 +1,25 @@
-slug        = "de-verb-plus"
-name        = "De-Verb Plus"
-vendor      = "SPL"
-version     = "1.1"
-description = "SPL De-Verb Plus reduces room reverb and ambience from recorded audio with surgical precision."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://spl.audio/en/spl-produkt/de-verb-plus/"
-is_paid     = true
+slug         = "de-verb-plus"
+name         = "De-Verb Plus"
+vendor       = "SPL"
+version      = "1.1"
+description  = "SPL De-Verb Plus reduces room reverb and ambience from recorded audio with surgical precision."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://spl.audio/en/spl-produkt/de-verb-plus/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://spl.audio/en/spl-produkt/de-verb-plus/"
-sha256       = ""
-install_type = "zip"
+url           = "https://spl.audio/en/spl-produkt/de-verb-plus/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://spl.audio/en/spl-produkt/de-verb-plus/"
-sha256       = ""
-install_type = "zip"
+url           = "https://spl.audio/en/spl-produkt/de-verb-plus/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

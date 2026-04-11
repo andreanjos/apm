@@ -1,25 +1,26 @@
-slug        = "voice-of-wind-collection"
-name        = "Voice of Wind Collection"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Complete bundle of all Voice of Wind solo vocal Kontakt Player libraries."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/voice-of-wind-collection"
-is_paid     = true
+slug         = "voice-of-wind-collection"
+name         = "Voice of Wind Collection"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Complete bundle of all Voice of Wind solo vocal Kontakt Player libraries."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/voice-of-wind-collection"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/voice-of-wind-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/voice-of-wind-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/voice-of-wind-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/voice-of-wind-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

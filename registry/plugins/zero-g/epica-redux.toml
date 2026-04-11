@@ -1,25 +1,26 @@
-slug        = "epica-redux"
-name        = "EPICA Redux"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "A Kontakt virtual instrument featuring 17,000+ 24-bit samples for rich, authentic synth sounds with 600 presets."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/epica-redux"
-is_paid     = true
+slug         = "epica-redux"
+name         = "EPICA Redux"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "A Kontakt virtual instrument featuring 17,000+ 24-bit samples for rich, authentic synth sounds with 600 presets."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/epica-redux"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/epica-redux"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/epica-redux"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/epica-redux"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/epica-redux"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "shape"
-name        = "Shape"
-vendor      = "DUY"
-version     = "1.0.0"
-description = "Sound enhancer with 3-band smooth filters and three independent user-defined shapers."
-category    = "effects"
-subcategory = "dynamic processor"
-license     = "commercial"
-tags        = []
-homepage    = "https://duy.com/"
-is_paid     = true
+slug         = "shape"
+name         = "Shape"
+vendor       = "DUY"
+version      = "1.0.0"
+description  = "Sound enhancer with 3-band smooth filters and three independent user-defined shapers."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamic processor"
+license      = "commercial"
+tags         = []
+homepage     = "https://duy.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://duy.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://duy.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://duy.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://duy.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

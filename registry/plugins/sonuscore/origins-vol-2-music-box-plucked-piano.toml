@@ -1,26 +1,27 @@
-slug        = "origins-vol-2-music-box-plucked-piano"
-name        = "Origins Vol 2 Music Box Plucked Piano"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Kontakt instrument combining mechanical music box and plucked prepared piano sounds."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/origins-vol-2-music-box-plucked-piano/"
+slug         = "origins-vol-2-music-box-plucked-piano"
+name         = "Origins Vol 2 Music Box Plucked Piano"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Kontakt instrument combining mechanical music box and plucked prepared piano sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/origins-vol-2-music-box-plucked-piano/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7972-Origins-Vol-2-Music-Box-Plucked-Piano?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/origins-vol-2-music-box-plucked-piano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/origins-vol-2-music-box-plucked-piano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/origins-vol-2-music-box-plucked-piano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/origins-vol-2-music-box-plucked-piano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

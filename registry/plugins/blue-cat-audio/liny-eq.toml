@@ -1,25 +1,26 @@
-slug        = "liny-eq"
-name        = "Liny EQ"
-vendor      = "Blue Cat Audio"
-version     = "5.24"
-description = "Eight-band linear phase equalizer with under-3ms latency and no phase distortion."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_LinyEQ/"
-is_paid     = true
+slug         = "liny-eq"
+name         = "Liny EQ"
+vendor       = "Blue Cat Audio"
+version      = "5.24"
+description  = "Eight-band linear phase equalizer with under-3ms latency and no phase distortion."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_LinyEQ/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_LinyEQ/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_LinyEQ/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_LinyEQ/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_LinyEQ/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

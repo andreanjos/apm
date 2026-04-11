@@ -82,6 +82,52 @@ fn default_download_type() -> DownloadType {
     DownloadType::Direct
 }
 
+// ── Product Type ──────────────────────────────────────────────────────────────
+
+/// What kind of catalog item this registry record represents.
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq, Default)]
+#[serde(rename_all = "snake_case")]
+pub enum ProductType {
+    /// A normal installable audio plugin.
+    #[default]
+    Plugin,
+    /// A bundle or suite containing multiple plugins or products.
+    Bundle,
+    /// Expansion content for another product.
+    Expansion,
+    /// Presets or sound design patches for another product.
+    PresetPack,
+    /// Sample library or Kontakt-style instrument content.
+    SampleLibrary,
+    /// Digital audio workstation or host application.
+    Daw,
+    /// Utility application or workflow tool.
+    Utility,
+    /// Upgrade or crossgrade SKU, not a standalone product.
+    Upgrade,
+    /// Subscription SKU, not a standalone product.
+    Subscription,
+    /// Template/project content.
+    Template,
+}
+
+impl std::fmt::Display for ProductType {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            Self::Plugin => write!(f, "plugin"),
+            Self::Bundle => write!(f, "bundle"),
+            Self::Expansion => write!(f, "expansion"),
+            Self::PresetPack => write!(f, "preset_pack"),
+            Self::SampleLibrary => write!(f, "sample_library"),
+            Self::Daw => write!(f, "daw"),
+            Self::Utility => write!(f, "utility"),
+            Self::Upgrade => write!(f, "upgrade"),
+            Self::Subscription => write!(f, "subscription"),
+            Self::Template => write!(f, "template"),
+        }
+    }
+}
+
 // ── FormatSource ──────────────────────────────────────────────────────────────
 
 /// Download and verification metadata for a single format of a plugin.
@@ -142,6 +188,10 @@ pub struct PluginDefinition {
     /// Primary category (e.g. `"instruments"`, `"effects"`).
     pub category: String,
 
+    /// Catalog item type. Defaults to `plugin` for older registry entries.
+    #[serde(default)]
+    pub product_type: ProductType,
+
     /// Optional finer-grained sub-category (e.g. `"reverb"`, `"synth"`).
     pub subcategory: Option<String>,
 
@@ -151,6 +201,10 @@ pub struct PluginDefinition {
     /// Free-form tags for search (e.g. `["synth", "virtual-analog", "free"]`).
     #[serde(default)]
     pub tags: Vec<String>,
+
+    /// Alternate slugs that should resolve to this canonical registry record.
+    #[serde(default)]
+    pub aliases: Vec<String>,
 
     /// Vendor installer required to download/activate this plugin.
     /// References a key in the registry's `installers.toml`.
@@ -302,9 +356,11 @@ mod tests {
             version: latest_ver.to_string(),
             description: "A test plugin".to_string(),
             category: "effect".to_string(),
+            product_type: ProductType::Plugin,
             subcategory: None,
             license: "freeware".to_string(),
             tags: vec![],
+            aliases: vec![],
             installer: None,
             formats,
             releases,

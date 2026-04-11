@@ -1,26 +1,27 @@
-slug        = "v-rack"
-name        = "V Rack"
-vendor      = "Rhodes"
-version     = "1.0.0"
-description = "Multi-effect plugin drawing inspiration from the Rhodes MK8 analogue preamp and FX circuit."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://rhodesmusic.com/software/"
+slug         = "v-rack"
+name         = "V Rack"
+vendor       = "Rhodes"
+version      = "1.0.0"
+description  = "Multi-effect plugin drawing inspiration from the Rhodes MK8 analogue preamp and FX circuit."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://rhodesmusic.com/software/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/11499--V-Rack?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rhodesmusic.com/software/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rhodesmusic.com/software/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rhodesmusic.com/software/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rhodesmusic.com/software/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "convex"
-name        = "Convex"
-vendor      = "Glitchmachines"
-version     = "1.0.0"
-description = "Multi-effects processor combining multimode filter, pitch shifter, and delay for contorted artifacts."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://glitchmachines.com/"
-is_paid     = true
+slug         = "convex"
+name         = "Convex"
+vendor       = "Glitchmachines"
+version      = "1.0.0"
+description  = "Multi-effects processor combining multimode filter, pitch shifter, and delay for contorted artifacts."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://glitchmachines.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://glitchmachines.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://glitchmachines.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://glitchmachines.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://glitchmachines.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

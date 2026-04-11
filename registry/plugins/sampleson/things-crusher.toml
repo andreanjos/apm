@@ -1,25 +1,27 @@
-slug        = "things-crusher"
-name        = "Things – Crusher"
-vendor      = "Sampleson"
-version     = "1.0.0"
-description = "Crusher expansion for the Things synthesizer adding destructive processing and bit-crushing capabilities."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://sampleson.com/"
-is_paid     = true
+slug         = "things-crusher"
+name         = "Things - Crusher"
+vendor       = "Sampleson"
+version      = "1.0.0"
+description  = "Crusher expansion for the Things synthesizer adding destructive processing and bit-crushing capabilities."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+aliases      = ["things-8211-crusher"]
+homepage     = "https://sampleson.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sampleson.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sampleson.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sampleson.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sampleson.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

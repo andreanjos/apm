@@ -1,25 +1,26 @@
-slug        = "modo-bass-1-se"
-name        = "MODO BASS 1 SE"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "MODO BASS 1 SE — starter version of the physically modeled electric bass virtual instrument."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/modobass2/"
-is_paid     = true
+slug         = "modo-bass-1-se"
+name         = "MODO BASS 1 SE"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "MODO BASS 1 SE - starter version of the physically modeled electric bass virtual instrument."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/modobass2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/modobass2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/modobass2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/modobass2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/modobass2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

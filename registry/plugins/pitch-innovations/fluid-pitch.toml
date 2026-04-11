@@ -1,26 +1,27 @@
-slug        = "fluid-pitch"
-name        = "Fluid Pitch"
-vendor      = "Pitch Innovations"
-version     = "1.0.0"
-description = "MIDI FX plugin with scale-locked pitch bending, polyphonic bending, and micro-tuning."
-category    = "effects"
-subcategory = "pitch shifter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pitchinnovations.com/products/fluid-pitch"
+slug         = "fluid-pitch"
+name         = "Fluid Pitch"
+vendor       = "Pitch Innovations"
+version      = "1.0.0"
+description  = "MIDI FX plugin with scale-locked pitch bending, polyphonic bending, and micro-tuning."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch shifter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pitchinnovations.com/products/fluid-pitch"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/7552-Fluid-Pitch?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pitchinnovations.com/products/fluid-pitch"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pitchinnovations.com/products/fluid-pitch"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pitchinnovations.com/products/fluid-pitch"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pitchinnovations.com/products/fluid-pitch"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

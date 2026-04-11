@@ -1,25 +1,26 @@
-slug        = "giovani-revive"
-name        = "Giovani Revive"
-vendor      = "Bela D Media"
-version     = "1.0.0"
-description = "32-piece professional youth choir for Kontakt with boy and girl ensemble and chamber vocal sections."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://beladmedia.com/giovani-revive/"
-is_paid     = true
+slug         = "giovani-revive"
+name         = "Giovani Revive"
+vendor       = "Bela D Media"
+version      = "1.0.0"
+description  = "32-piece professional youth choir for Kontakt with boy and girl ensemble and chamber vocal sections."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://beladmedia.com/giovani-revive/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://beladmedia.com/giovani-revive/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/giovani-revive/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://beladmedia.com/giovani-revive/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/giovani-revive/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

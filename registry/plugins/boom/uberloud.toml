@@ -1,26 +1,27 @@
-slug        = "uberloud"
-name        = "UBERLOUD"
-vendor      = "Boom"
-version     = "1.0"
-description = "Single-knob loudness maximizer plugin by BOOM Library that maximises perceived loudness with minimal effort."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.boomlibrary.com/sound-effects/uberloud/"
+slug         = "uberloud"
+name         = "UBERLOUD"
+vendor       = "Boom"
+version      = "1.0"
+description  = "Single-knob loudness maximizer plugin by BOOM Library that maximises perceived loudness with minimal effort."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.boomlibrary.com/sound-effects/uberloud/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/8838-UBERLOUD?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.boomlibrary.com/sound-effects/uberloud/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.boomlibrary.com/sound-effects/uberloud/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.boomlibrary.com/sound-effects/uberloud/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.boomlibrary.com/sound-effects/uberloud/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

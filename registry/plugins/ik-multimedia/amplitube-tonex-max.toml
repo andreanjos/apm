@@ -1,25 +1,26 @@
-slug        = "amplitube-tonex-max"
-name        = "AmpliTube TONEX MAX"
-vendor      = "IK Multimedia"
-version     = "5.0"
-description = "AmpliTube TONEX MAX bundle combining the full AmpliTube 5 guitar workstation with TONEX MAX AI amp modeler."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/amplitube5/"
-is_paid     = true
+slug         = "amplitube-tonex-max"
+name         = "AmpliTube TONEX MAX"
+vendor       = "IK Multimedia"
+version      = "5.0"
+description  = "AmpliTube TONEX MAX bundle combining the full AmpliTube 5 guitar workstation with TONEX MAX AI amp modeler."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/amplitube5/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/amplitube5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/amplitube5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/amplitube5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/amplitube5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

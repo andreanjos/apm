@@ -1,26 +1,27 @@
-slug        = "pro-eq"
-name        = "Pro EQ"
-vendor      = "Minimal System Group"
-version     = "1.0.0"
-description = "High-end analogue-modelled EQ inspired by SSL and Neve hardware for demanding mixing and mastering."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+slug         = "pro-eq"
+name         = "Pro EQ"
+vendor       = "Minimal System Group"
+version      = "1.0.0"
+description  = "High-end analogue-modelled EQ inspired by SSL and Neve hardware for demanding mixing and mastering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/228-Pro-EQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

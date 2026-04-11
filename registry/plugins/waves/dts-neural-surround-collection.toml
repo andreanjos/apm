@@ -1,26 +1,27 @@
-slug        = "dts-neural-surround-collection"
-name        = "DTS Neural™ Surround Collection"
-vendor      = "Waves"
-version     = "14.0"
-description = "Collection of DTS Neural surround upmixing and encoding tools for broadcast and post."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/dts-neural-surround-collection"
-is_paid     = true
+slug         = "dts-neural-surround-collection"
+name         = "DTS Neural TM Surround Collection"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Collection of DTS Neural surround upmixing and encoding tools for broadcast and post."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/dts-neural-surround-collection"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/dts-neural-surround-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/dts-neural-surround-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/dts-neural-surround-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/dts-neural-surround-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

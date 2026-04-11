@@ -1,26 +1,27 @@
-slug        = "morphverb"
-name        = "MorphVerb"
-vendor      = "United Plugins"
-version     = "1.0.0"
-description = "Reverb plugin offering smooth crossfading between eight reverb types with built-in spectral EQ and compression."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com/MorphVerb/"
+slug         = "morphverb"
+name         = "MorphVerb"
+vendor       = "United Plugins"
+version      = "1.0.0"
+description  = "Reverb plugin offering smooth crossfading between eight reverb types with built-in spectral EQ and compression."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com/MorphVerb/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/6366-MorphVerb?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com/MorphVerb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/MorphVerb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com/MorphVerb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/MorphVerb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "empirical-labs-lil-freq"
-name        = "Empirical Labs Lil FrEQ"
-vendor      = "Softube"
-version     = "2.6"
-description = "Versatile equalizer plugin modeled on Empirical Labs' Lil FrEQ hardware for precise tone shaping."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-lil-freq"
-is_paid     = true
+slug         = "empirical-labs-lil-freq"
+name         = "Empirical Labs Lil FrEQ"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Versatile equalizer plugin modeled on Empirical Labs' Lil FrEQ hardware for precise tone shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-lil-freq"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-lil-freq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-lil-freq"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-lil-freq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-lil-freq"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

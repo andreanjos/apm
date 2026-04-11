@@ -1,25 +1,26 @@
-slug        = "united-stellar-bundle"
-name        = "United Stellar Bundle"
-vendor      = "United Plugins"
-version     = "1.0.0"
-description = "United Plugins bundle of stellar-themed audio effect plugins for mixing and sound design."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com"
-is_paid     = true
+slug         = "united-stellar-bundle"
+name         = "United Stellar Bundle"
+vendor       = "United Plugins"
+version      = "1.0.0"
+description  = "United Plugins bundle of stellar-themed audio effect plugins for mixing and sound design."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "bleass-delay"
-name        = "BLEASS Delay"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "Multi-purpose delay with echo, frequency shifter, high/low pass filters, and stereo effects."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/delay/"
+slug         = "bleass-delay"
+name         = "BLEASS Delay"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "Multi-purpose delay with echo, frequency shifter, high/low pass filters, and stereo effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/delay/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/7529-BLEASS-Delay?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/delay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/delay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/delay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/delay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

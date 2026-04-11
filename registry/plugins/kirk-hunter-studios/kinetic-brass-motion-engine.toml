@@ -1,25 +1,26 @@
-slug        = "kinetic-brass-motion-engine"
-name        = "Kinetic Brass Motion Engine"
-vendor      = "Kirk Hunter Studios"
-version     = "1.0.0"
-description = "Full orchestral brass section Kontakt instrument with individual timelines for each section."
-category    = "instruments"
-subcategory = "brass"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kirkhunterstudios.com/products/kinetic-brass-motion-engine/"
-is_paid     = true
+slug         = "kinetic-brass-motion-engine"
+name         = "Kinetic Brass Motion Engine"
+vendor       = "Kirk Hunter Studios"
+version      = "1.0.0"
+description  = "Full orchestral brass section Kontakt instrument with individual timelines for each section."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "brass"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kirkhunterstudios.com/products/kinetic-brass-motion-engine/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kirkhunterstudios.com/products/kinetic-brass-motion-engine/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kirkhunterstudios.com/products/kinetic-brass-motion-engine/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kirkhunterstudios.com/products/kinetic-brass-motion-engine/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kirkhunterstudios.com/products/kinetic-brass-motion-engine/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

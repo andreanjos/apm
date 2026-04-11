@@ -1,25 +1,26 @@
-slug        = "heavier7strings"
-name        = "Heavier7Strings"
-vendor      = "Three-Body Technology"
-version     = "1.7.0"
-description = "7-string dark virtual guitar with production-level effects rack and MIDI pattern library."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.threebodytech.com/en/products/heavier7strings"
-is_paid     = true
+slug         = "heavier7strings"
+name         = "Heavier7Strings"
+vendor       = "Three-Body Technology"
+version      = "1.7.0"
+description  = "7-string dark virtual guitar with production-level effects rack and MIDI pattern library."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.threebodytech.com/en/products/heavier7strings"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.threebodytech.com/en/products/heavier7strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.threebodytech.com/en/products/heavier7strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.threebodytech.com/en/products/heavier7strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.threebodytech.com/en/products/heavier7strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

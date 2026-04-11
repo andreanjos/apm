@@ -1,26 +1,28 @@
-slug        = "t-bone-2"
-name        = "T Bone 2"
-vendor      = "Boz Digital Labs"
-version     = "2"
-description = "Updated tilt-style EQ plugin for quick, musical high/low frequency balance adjustments."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozdigitallabs.com/product/t-bone-2/"
+slug         = "t-bone-2"
+name         = "T Bone 2"
+vendor       = "Boz Digital Labs"
+version      = "2"
+description  = "Updated tilt-style EQ plugin for quick, musical high/low frequency balance adjustments."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+aliases      = ["t-bone-2-boz-digital-labs"]
+homepage     = "https://www.bozdigitallabs.com/product/t-bone-2/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/2147-T-Bone-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozdigitallabs.com/product/t-bone-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/t-bone-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozdigitallabs.com/product/t-bone-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/t-bone-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

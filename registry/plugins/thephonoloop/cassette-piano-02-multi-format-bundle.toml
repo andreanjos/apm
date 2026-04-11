@@ -1,25 +1,26 @@
-slug        = "cassette-piano-02-multi-format-bundle"
-name        = "Cassette Piano.02 Multi Format Bundle"
-vendor      = "THEPHONOLOOP"
-version     = "1.0.0"
-description = "Multi-format lo-fi upright piano recorded in a ballet room across four cassette decks with vintage character."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://thephonoloop.com/products/cassette-piano-02"
-is_paid     = true
+slug         = "cassette-piano-02-multi-format-bundle"
+name         = "Cassette Piano.02 Multi Format Bundle"
+vendor       = "THEPHONOLOOP"
+version      = "1.0.0"
+description  = "Multi-format lo-fi upright piano recorded in a ballet room across four cassette decks with vintage character."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://thephonoloop.com/products/cassette-piano-02"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://thephonoloop.com/products/cassette-piano-02"
-sha256       = ""
-install_type = "zip"
+url           = "https://thephonoloop.com/products/cassette-piano-02"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://thephonoloop.com/products/cassette-piano-02"
-sha256       = ""
-install_type = "zip"
+url           = "https://thephonoloop.com/products/cassette-piano-02"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

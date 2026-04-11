@@ -1,26 +1,27 @@
-slug        = "hertz-drums-2-blue-pack"
-name        = "Hertz Drums 2 Blue Pack"
-vendor      = "Hertz Instruments"
-version     = "1.0.0"
-description = "Hertz Drums 2 expansion with a modern-sounding Hybrid Japan kit for fat, dynamic drum tones."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://hertzinstruments.com/packs/hertz-drums-blue-pack/"
+slug         = "hertz-drums-2-blue-pack"
+name         = "Hertz Drums 2 Blue Pack"
+vendor       = "Hertz Instruments"
+version      = "1.0.0"
+description  = "Hertz Drums 2 expansion with a modern-sounding Hybrid Japan kit for fat, dynamic drum tones."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://hertzinstruments.com/packs/hertz-drums-blue-pack/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/13283-Hertz-Drums-2-Blue-Pack?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hertzinstruments.com/packs/hertz-drums-blue-pack/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/packs/hertz-drums-blue-pack/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hertzinstruments.com/packs/hertz-drums-blue-pack/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/packs/hertz-drums-blue-pack/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

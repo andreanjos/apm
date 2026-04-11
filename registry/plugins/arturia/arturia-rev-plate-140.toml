@@ -1,25 +1,28 @@
-slug        = "arturia-rev-plate-140"
-name        = "Rev PLATE-140"
-vendor      = "Arturia"
-version     = "1.7.0"
-description = "Circuit-accurate emulation of the classic EMT 140 plate reverb with integrated chorus, pre-filtering, and post-reverb EQ."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = ["reverb", "plate", "emt-140", "vintage", "analog-modeling", "chorus", "spatial"]
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-effects/rev-plate140/overview"
+slug         = "arturia-rev-plate-140"
+name         = "Rev PLATE-140"
+vendor       = "Arturia"
+version      = "1.7.0"
+description  = "Circuit-accurate emulation of the classic EMT 140 plate reverb with integrated chorus, pre-filtering, and post-reverb EQ."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = ["reverb", "plate", "emt-140", "vintage", "analog-modeling", "chorus", "spatial"]
+aliases      = ["rev-plate-140"]
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-effects/rev-plate140/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/support/downloads-manuals/product/rev-plate140"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals/product/rev-plate140"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Rev PLATE-140.vst3"
+bundle_path   = "Rev PLATE-140.vst3"
 
 [formats.au]
-url          = "https://www.arturia.com/support/downloads-manuals/product/rev-plate140"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals/product/rev-plate140"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Rev PLATE-140.component"
+bundle_path   = "Rev PLATE-140.component"

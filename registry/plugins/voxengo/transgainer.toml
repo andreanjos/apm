@@ -1,24 +1,25 @@
-slug        = "transgainer"
-name        = "TransGainer"
-vendor      = "Voxengo"
-version     = "1.15"
-description = "Transient and sustain envelope adjustment plugin for dynamic shaping of audio signals."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.voxengo.com/product/transgainer/"
-is_paid     = true
+slug         = "transgainer"
+name         = "TransGainer"
+vendor       = "Voxengo"
+version      = "1.15"
+description  = "Transient and sustain envelope adjustment plugin for dynamic shaping of audio signals."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.voxengo.com/product/transgainer/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.voxengo.com/product/transgainer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.voxengo.com/product/transgainer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.voxengo.com/product/transgainer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.voxengo.com/product/transgainer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

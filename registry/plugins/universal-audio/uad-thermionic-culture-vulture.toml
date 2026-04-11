@@ -1,25 +1,28 @@
-slug        = "uad-thermionic-culture-vulture"
-name        = "Thermionic Culture Vulture"
-vendor      = "Universal Audio"
-version     = "1.0"
-description = "Tube distortion and saturation unit with triode, pentode, and combined modes for everything from subtle warmth to extreme crunch."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = ["distortion", "saturation", "tube", "triode", "pentode", "warmth", "uad"]
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/special-processing/thermionic-culture-vulture.html"
+slug         = "uad-thermionic-culture-vulture"
+name         = "Thermionic Culture Vulture"
+vendor       = "Universal Audio"
+version      = "1.0"
+description  = "Tube distortion and saturation unit with triode, pentode, and combined modes for everything from subtle warmth to extreme crunch."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = ["distortion", "saturation", "tube", "triode", "pentode", "warmth", "uad"]
+aliases      = ["thermionic-culture-vulture"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/special-processing/thermionic-culture-vulture.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Thermionic Culture Vulture.vst3"
+bundle_path   = "UAD Thermionic Culture Vulture.vst3"
 
 [formats.au]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Thermionic Culture Vulture.component"
+bundle_path   = "UAD Thermionic Culture Vulture.component"

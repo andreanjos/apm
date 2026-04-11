@@ -1,25 +1,26 @@
-slug        = "6030-ultimate-compressor-native-v6"
-name        = "6030 Ultimate Compressor Native v6"
-vendor      = "McDSP"
-version     = "6.0"
-description = "Native v6 version of McDSP's 6030 Ultimate Compressor professional dynamics processor."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://mcdsp.com/plugin-index/6030/"
-is_paid     = true
+slug         = "6030-ultimate-compressor-native-v6"
+name         = "6030 Ultimate Compressor Native v6"
+vendor       = "McDSP"
+version      = "6.0"
+description  = "Native v6 version of McDSP's 6030 Ultimate Compressor professional dynamics processor."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://mcdsp.com/plugin-index/6030/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mcdsp.com/plugin-index/6030/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/6030/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mcdsp.com/plugin-index/6030/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/6030/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

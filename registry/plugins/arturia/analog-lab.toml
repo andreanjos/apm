@@ -1,25 +1,28 @@
-slug        = "analog-lab"
-name        = "Analog Lab V"
-vendor      = "Arturia"
-version     = "5.12.0"
-description = "Preset and multi-instrument hub with 2000+ curated sounds from the full V Collection."
-category    = "instruments"
-subcategory = "multi-instrument"
-license     = "commercial"
-tags        = ["presets", "multi-instrument", "synth", "keys", "v-collection"]
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-instruments/analoglab/overview"
+slug         = "analog-lab"
+name         = "Analog Lab V"
+vendor       = "Arturia"
+version      = "5.12.0"
+description  = "Preset and multi-instrument hub with 2000+ curated sounds from the full V Collection."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "multi-instrument"
+license      = "commercial"
+tags         = ["presets", "multi-instrument", "synth", "keys", "v-collection"]
+aliases      = ["analog-lab-v"]
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-instruments/analoglab/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/support/downloads-manuals"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Analog Lab V.vst3"
+bundle_path   = "Analog Lab V.vst3"
 
 [formats.au]
-url          = "https://www.arturia.com/support/downloads-manuals"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Analog Lab V.component"
+bundle_path   = "Analog Lab V.component"

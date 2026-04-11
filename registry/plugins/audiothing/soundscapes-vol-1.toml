@@ -1,25 +1,26 @@
-slug        = "soundscapes-vol-1"
-name        = "Soundscapes Vol 1"
-vendor      = "AudioThing"
-version     = "1.0"
-description = "Kontakt instrument with concrete and synthesized ambient textures recorded across European cities."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/instruments/soundscapes-vol-1/"
-is_paid     = true
+slug         = "soundscapes-vol-1"
+name         = "Soundscapes Vol 1"
+vendor       = "AudioThing"
+version      = "1.0"
+description  = "Kontakt instrument with concrete and synthesized ambient textures recorded across European cities."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiothing.net/instruments/soundscapes-vol-1/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/instruments/soundscapes-vol-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/instruments/soundscapes-vol-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/instruments/soundscapes-vol-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/instruments/soundscapes-vol-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

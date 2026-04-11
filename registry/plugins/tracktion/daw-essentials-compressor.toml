@@ -1,25 +1,27 @@
-slug        = "daw-essentials-compressor"
-name        = "DAW Essentials – Compressor"
-vendor      = "Tracktion"
-version     = "1.0.0"
-description = "Compressor plugin from the DAW Essentials Collection for transparent dynamic range control."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tracktion.com/products/daw-essentials-collection"
-is_paid     = true
+slug         = "daw-essentials-compressor"
+name         = "DAW Essentials - Compressor"
+vendor       = "Tracktion"
+version      = "1.0.0"
+description  = "Compressor plugin from the DAW Essentials Collection for transparent dynamic range control."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+aliases      = ["daw-essentials-8211-compressor"]
+homepage     = "https://www.tracktion.com/products/daw-essentials-collection"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tracktion.com/products/daw-essentials-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/daw-essentials-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tracktion.com/products/daw-essentials-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/daw-essentials-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

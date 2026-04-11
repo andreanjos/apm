@@ -1,24 +1,25 @@
-slug        = "session-analyzer"
-name        = "Session Analyzer"
-vendor      = "Flux"
-version     = "1.0.0"
-description = "Real-time audio analysis plugin for metering, frequency, and loudness monitoring in sessions."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.flux.audio/products/"
-is_paid     = true
+slug         = "session-analyzer"
+name         = "Session Analyzer"
+vendor       = "Flux"
+version      = "1.0.0"
+description  = "Real-time audio analysis plugin for metering, frequency, and loudness monitoring in sessions."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.flux.audio/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.flux.audio/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.flux.audio/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.flux.audio/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.flux.audio/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

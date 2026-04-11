@@ -1,26 +1,28 @@
-slug        = "dm-307"
-name        = "DM 307"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Kontakt groove designer featuring modular synth drums, live percussion, and 1,200+ loops in five contemporary styles."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/dm-307"
+slug         = "dm-307"
+name         = "DM 307"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Kontakt groove designer featuring modular synth drums, live percussion, and 1,200+ loops in five contemporary styles."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+aliases      = ["dm-307-heavyocity"]
+homepage     = "https://heavyocity.com/products/dm-307"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/2642-DM-307?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/dm-307"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/dm-307"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/dm-307"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/dm-307"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

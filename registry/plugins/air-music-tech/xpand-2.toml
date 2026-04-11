@@ -1,25 +1,26 @@
-slug        = "xpand-2"
-name        = "Xpand! 2"
-vendor      = "Air Music Tech"
-version     = "2"
-description = "Multitimbral workstation plugin with four instrument slots, arpeggiation, and 2500+ presets."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.airmusictech.com/product/xpand2"
-is_paid     = true
+slug         = "xpand-2"
+name         = "Xpand! 2"
+vendor       = "Air Music Tech"
+version      = "2"
+description  = "Multitimbral workstation plugin with four instrument slots, arpeggiation, and 2500+ presets."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.airmusictech.com/product/xpand2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.airmusictech.com/product/xpand2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.airmusictech.com/product/xpand2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.airmusictech.com/product/xpand2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.airmusictech.com/product/xpand2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

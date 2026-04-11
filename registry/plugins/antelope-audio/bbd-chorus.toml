@@ -1,26 +1,27 @@
-slug        = "bbd-chorus"
-name        = "BBD Chorus"
-vendor      = "Antelope Audio"
-version     = "1.0.0"
-description = "Bucket-brigade device chorus plugin delivering lush, organic analog-style modulation."
-category    = "effects"
-subcategory = "chorus"
-license     = "commercial"
-tags        = []
-homepage    = "https://en.antelopeaudio.com/products/bbd-chorus/"
+slug         = "bbd-chorus"
+name         = "BBD Chorus"
+vendor       = "Antelope Audio"
+version      = "1.0.0"
+description  = "Bucket-brigade device chorus plugin delivering lush, organic analog-style modulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "chorus"
+license      = "commercial"
+tags         = []
+homepage     = "https://en.antelopeaudio.com/products/bbd-chorus/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/16013-BBD-Chorus?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://en.antelopeaudio.com/products/bbd-chorus/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/bbd-chorus/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://en.antelopeaudio.com/products/bbd-chorus/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/bbd-chorus/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

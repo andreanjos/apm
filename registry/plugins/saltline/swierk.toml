@@ -1,26 +1,27 @@
-slug        = "swierk"
-name        = "Swierk"
-vendor      = "Saltline"
-version     = "1.1.1"
-description = "Free subtractive synthesizer with familiar sound generators and straightforward routing."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kvraudio.com/developer/saltline"
+slug         = "swierk"
+name         = "Swierk"
+vendor       = "Saltline"
+version      = "1.1.1"
+description  = "Free subtractive synthesizer with familiar sound generators and straightforward routing."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kvraudio.com/developer/saltline"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/709-Swierk?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kvraudio.com/developer/saltline"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/developer/saltline"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kvraudio.com/developer/saltline"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/developer/saltline"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

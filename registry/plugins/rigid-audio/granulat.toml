@@ -1,25 +1,26 @@
-slug        = "granulat"
-name        = "Granulat"
-vendor      = "Rigid Audio"
-version     = "1.0.0"
-description = "Granular Kontakt library creating cinematic textures from hundreds of moving audio grains."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.rigid-audio.com/product/granulat/"
-is_paid     = true
+slug         = "granulat"
+name         = "Granulat"
+vendor       = "Rigid Audio"
+version      = "1.0.0"
+description  = "Granular Kontakt library creating cinematic textures from hundreds of moving audio grains."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.rigid-audio.com/product/granulat/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.rigid-audio.com/product/granulat/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rigid-audio.com/product/granulat/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.rigid-audio.com/product/granulat/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rigid-audio.com/product/granulat/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

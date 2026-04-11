@@ -1,26 +1,27 @@
-slug        = "saltine-drzewo-cedr"
-name        = "Saltine Drzewo Cedr"
-vendor      = "Saltline"
-version     = "1.0.0"
-description = "Free 16-step sequencer synthesizer with polyphonic sound generation."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kvraudio.com/developer/saltline"
+slug         = "saltine-drzewo-cedr"
+name         = "Saltine Drzewo Cedr"
+vendor       = "Saltline"
+version      = "1.0.0"
+description  = "Free 16-step sequencer synthesizer with polyphonic sound generation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kvraudio.com/developer/saltline"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1228-Saltine-Drzewo-Cedr-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kvraudio.com/developer/saltline"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/developer/saltline"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kvraudio.com/developer/saltline"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/developer/saltline"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

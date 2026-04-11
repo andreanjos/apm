@@ -1,25 +1,26 @@
-slug        = "6030-ultimate-compressor-v7"
-name        = "6030 Ultimate Compressor V7"
-vendor      = "McDSP"
-version     = "7.0"
-description = "McDSP's 6030 Ultimate Compressor v7 with multi-mode dynamic processing for all formats."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://mcdsp.com/plugin-index/6030/"
-is_paid     = true
+slug         = "6030-ultimate-compressor-v7"
+name         = "6030 Ultimate Compressor V7"
+vendor       = "McDSP"
+version      = "7.0"
+description  = "McDSP's 6030 Ultimate Compressor v7 with multi-mode dynamic processing for all formats."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://mcdsp.com/plugin-index/6030/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mcdsp.com/plugin-index/6030/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/6030/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mcdsp.com/plugin-index/6030/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/6030/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

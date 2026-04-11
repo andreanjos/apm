@@ -1,25 +1,26 @@
-slug        = "crank"
-name        = "Crank"
-vendor      = "Rhythmic Robot"
-version     = "1.0"
-description = "An electro-acoustic hybrid Kontakt synth with hand-cranked mechanical oscillators for organic tones."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.rhythmicrobot.com/product/crank"
-is_paid     = true
+slug         = "crank"
+name         = "Crank"
+vendor       = "Rhythmic Robot"
+version      = "1.0"
+description  = "An electro-acoustic hybrid Kontakt synth with hand-cranked mechanical oscillators for organic tones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.rhythmicrobot.com/product/crank"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.rhythmicrobot.com/product/crank"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/crank"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.rhythmicrobot.com/product/crank"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/crank"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

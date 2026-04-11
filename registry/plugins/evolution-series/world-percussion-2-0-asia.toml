@@ -1,25 +1,27 @@
-slug        = "world-percussion-2-0-asia"
-name        = "World Percussion 2.0 – ASIA"
-vendor      = "Evolution Series"
-version     = "2.0"
-description = "Kontakt library of Asian percussion instruments with multiple velocities and mic positions."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.evolutionseries.com/product-category/world-percussion/"
-is_paid     = true
+slug         = "world-percussion-2-0-asia"
+name         = "World Percussion 2.0 - ASIA"
+vendor       = "Evolution Series"
+version      = "2.0"
+description  = "Kontakt library of Asian percussion instruments with multiple velocities and mic positions."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["world-percussion-2-0-8211-asia"]
+homepage     = "https://www.evolutionseries.com/product-category/world-percussion/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.evolutionseries.com/product-category/world-percussion/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.evolutionseries.com/product-category/world-percussion/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.evolutionseries.com/product-category/world-percussion/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.evolutionseries.com/product-category/world-percussion/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

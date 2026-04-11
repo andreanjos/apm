@@ -1,26 +1,27 @@
-slug        = "objeq-delay-2"
-name        = "Objeq Delay 2"
-vendor      = "Applied Acoustics Systems"
-version     = "2"
-description = "AAS updated version of the Objeq Delay combining acoustic object filtering with a creative delay."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.applied-acoustics.com/objeq-delay-2/"
+slug         = "objeq-delay-2"
+name         = "Objeq Delay 2"
+vendor       = "Applied Acoustics Systems"
+version      = "2"
+description  = "AAS updated version of the Objeq Delay combining acoustic object filtering with a creative delay."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.applied-acoustics.com/objeq-delay-2/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/17051-Objeq-Delay-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.applied-acoustics.com/objeq-delay-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/objeq-delay-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.applied-acoustics.com/objeq-delay-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/objeq-delay-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

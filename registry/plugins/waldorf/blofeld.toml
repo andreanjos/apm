@@ -1,26 +1,27 @@
-slug        = "blofeld"
-name        = "Blofeld"
-vendor      = "Waldorf"
-version     = "1.0"
-description = "Software synthesizer based on the Waldorf Blofeld hardware delivering fat, rich wavetable synthesis."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://waldorfmusic.com/blofeld-plugin/"
+slug         = "blofeld"
+name         = "Blofeld"
+vendor       = "Waldorf"
+version      = "1.0"
+description  = "Software synthesizer based on the Waldorf Blofeld hardware delivering fat, rich wavetable synthesis."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://waldorfmusic.com/blofeld-plugin/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/14161-Blofeld?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://waldorfmusic.com/blofeld-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://waldorfmusic.com/blofeld-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://waldorfmusic.com/blofeld-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://waldorfmusic.com/blofeld-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

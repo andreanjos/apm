@@ -1,25 +1,26 @@
-slug        = "ancient-greek-strings"
-name        = "Ancient Greek Strings"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt library of ancient Greek stringed instruments including kithara and lyra."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/ancient-greek-strings"
-is_paid     = true
+slug         = "ancient-greek-strings"
+name         = "Ancient Greek Strings"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt library of ancient Greek stringed instruments including kithara and lyra."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/ancient-greek-strings"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/ancient-greek-strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/ancient-greek-strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/ancient-greek-strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/ancient-greek-strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

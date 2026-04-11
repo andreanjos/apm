@@ -1,24 +1,25 @@
-slug        = "loc-ness-2"
-name        = "Loc-Ness 2"
-vendor      = "Tone Empire"
-version     = "2"
-description = "Analog-modeled bus compressor plugin inspired by classic British console compressor designs."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tone-empire.com"
-is_paid     = true
+slug         = "loc-ness-2"
+name         = "Loc-Ness 2"
+vendor       = "Tone Empire"
+version      = "2"
+description  = "Analog-modeled bus compressor plugin inspired by classic British console compressor designs."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tone-empire.com"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tone-empire.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tone-empire.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

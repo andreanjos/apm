@@ -1,26 +1,27 @@
-slug        = "oto-biscuit-8-bit-effects"
-name        = "OTO® BISCUIT 8-bit Effects"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the OTO BISCUIT 8-bit audio processor with bit crusher, filter, and modulation."
-category    = "effects"
-subcategory = "bit crusher"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/distortion/oto-biscuit-8-bit-effects.html"
-is_paid     = true
+slug         = "oto-biscuit-8-bit-effects"
+name         = "OTO (R) BISCUIT 8-bit Effects"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the OTO BISCUIT 8-bit audio processor with bit crusher, filter, and modulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "bit crusher"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/distortion/oto-biscuit-8-bit-effects.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/distortion/oto-biscuit-8-bit-effects.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/distortion/oto-biscuit-8-bit-effects.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/distortion/oto-biscuit-8-bit-effects.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/distortion/oto-biscuit-8-bit-effects.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

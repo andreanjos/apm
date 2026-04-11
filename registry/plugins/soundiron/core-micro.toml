@@ -1,26 +1,27 @@
-slug        = "core-micro"
-name        = "Core Micro"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Compact Kontakt instrument delivering essential orchestral core sounds in a small footprint."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/core-micro"
+slug         = "core-micro"
+name         = "Core Micro"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Compact Kontakt instrument delivering essential orchestral core sounds in a small footprint."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/core-micro"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10530-Core-Micro?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/core-micro"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/core-micro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/core-micro"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/core-micro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

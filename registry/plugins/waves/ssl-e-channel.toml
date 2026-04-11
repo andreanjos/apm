@@ -1,26 +1,27 @@
-slug        = "ssl-e-channel"
-name        = "SSL E-Channel"
-vendor      = "Waves"
-version     = "14.0"
-description = "Emulation of the SSL 4000 E Series console channel strip with EQ and dynamics."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/ssl-e-channel"
-is_paid     = true
+slug         = "ssl-e-channel"
+name         = "SSL E-Channel"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Emulation of the SSL 4000 E Series console channel strip with EQ and dynamics."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/ssl-e-channel"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/ssl-e-channel"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/ssl-e-channel"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/ssl-e-channel"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/ssl-e-channel"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

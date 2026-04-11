@@ -1,26 +1,27 @@
-slug        = "trivox"
-name        = "TriVox"
-vendor      = "W A Production"
-version     = "1.0.2"
-description = "Harmonizer plugin creating three harmony voices with 20 scales and Super Unison mode for thick effects."
-category    = "effects"
-subcategory = "harmonizer"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/trivox"
+slug         = "trivox"
+name         = "TriVox"
+vendor       = "W A Production"
+version      = "1.0.2"
+description  = "Harmonizer plugin creating three harmony voices with 20 scales and Super Unison mode for thick effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "harmonizer"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/trivox"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/91-Harmonizer/10677-TriVox?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/trivox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/trivox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/trivox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/trivox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

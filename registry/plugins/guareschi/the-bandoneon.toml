@@ -1,25 +1,26 @@
-slug        = "the-bandoneon"
-name        = "The Bandoneon"
-vendor      = "Guareschi"
-version     = "1.0"
-description = "Detailed Kontakt bandoneon instrument by Guareschi capturing the soul of tango music."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://guareschi.com/"
-is_paid     = true
+slug         = "the-bandoneon"
+name         = "The Bandoneon"
+vendor       = "Guareschi"
+version      = "1.0"
+description  = "Detailed Kontakt bandoneon instrument by Guareschi capturing the soul of tango music."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://guareschi.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://guareschi.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://guareschi.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://guareschi.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://guareschi.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

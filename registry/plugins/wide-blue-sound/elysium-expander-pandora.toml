@@ -1,26 +1,27 @@
-slug        = "elysium-expander-pandora"
-name        = "ELYSIUM Expander Pandora"
-vendor      = "Wide Blue Sound"
-version     = "1.0.0"
-description = "PANDORA expansion for ELYSIUM with 62 inspirational hybrid instruments and unique sound sources."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.widebluesound.com/elysium/"
+slug         = "elysium-expander-pandora"
+name         = "ELYSIUM Expander Pandora"
+vendor       = "Wide Blue Sound"
+version      = "1.0.0"
+description  = "PANDORA expansion for ELYSIUM with 62 inspirational hybrid instruments and unique sound sources."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.widebluesound.com/elysium/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/8143-ELYSIUM-Expander-Pandora?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.widebluesound.com/elysium/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.widebluesound.com/elysium/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.widebluesound.com/elysium/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.widebluesound.com/elysium/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

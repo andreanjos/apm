@@ -1,26 +1,27 @@
-slug        = "difix"
-name        = "DIFIX"
-vendor      = "United Plugins"
-version     = "1.0.0"
-description = "Plugin that fixes direct-input guitar and bass recordings by adding proper impedance and analogue saturation."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com/DIFIX/"
+slug         = "difix"
+name         = "DIFIX"
+vendor       = "United Plugins"
+version      = "1.0.0"
+description  = "Plugin that fixes direct-input guitar and bass recordings by adding proper impedance and analogue saturation."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com/DIFIX/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/7144-DIFIX?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com/DIFIX/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/DIFIX/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com/DIFIX/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/DIFIX/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "objekt"
-name        = "Objekt"
-vendor      = "Reason Studios"
-version     = "1.0.0"
-description = "Physical modeling synthesizer for Reason Rack creating bells, mallets, strings, and textures."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.reasonstudios.com/devices/osmium"
+slug         = "objekt"
+name         = "Objekt"
+vendor       = "Reason Studios"
+version      = "1.0.0"
+description  = "Physical modeling synthesizer for Reason Rack creating bells, mallets, strings, and textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.reasonstudios.com/devices/osmium"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11783-Objekt?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.reasonstudios.com/devices/osmium"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.reasonstudios.com/devices/osmium"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.reasonstudios.com/devices/osmium"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.reasonstudios.com/devices/osmium"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "telos-guitars"
-name        = "Telos Guitars"
-vendor      = "Black Salt Audio"
-version     = "1.0"
-description = "All-in-one guitar mixing tool delivering presence, punch, and edge to guitar tracks with easy controls."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.blacksaltaudio.com/telos-guitars/"
+slug         = "telos-guitars"
+name         = "Telos Guitars"
+vendor       = "Black Salt Audio"
+version      = "1.0"
+description  = "All-in-one guitar mixing tool delivering presence, punch, and edge to guitar tracks with easy controls."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.blacksaltaudio.com/telos-guitars/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16685-Telos-Guitars?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.blacksaltaudio.com/telos-guitars/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blacksaltaudio.com/telos-guitars/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.blacksaltaudio.com/telos-guitars/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blacksaltaudio.com/telos-guitars/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

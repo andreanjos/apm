@@ -1,26 +1,27 @@
-slug        = "fine-mallets-bundle"
-name        = "Fine Mallets Bundle"
-vendor      = "Cinematique Instruments"
-version     = "1.0.0"
-description = "Bundle of Cinematique Instruments' mallet percussion Kontakt libraries for orchestral and ethnic music."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://cinematique-instruments.com/"
+slug         = "fine-mallets-bundle"
+name         = "Fine Mallets Bundle"
+vendor       = "Cinematique Instruments"
+version      = "1.0.0"
+description  = "Bundle of Cinematique Instruments' mallet percussion Kontakt libraries for orchestral and ethnic music."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://cinematique-instruments.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/4120-Fine-Mallets-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cinematique-instruments.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cinematique-instruments.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cinematique-instruments.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cinematique-instruments.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

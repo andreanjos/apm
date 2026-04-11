@@ -1,26 +1,27 @@
-slug        = "master-bundle"
-name        = "MASTER Bundle"
-vendor      = "Zynaptiq"
-version     = "1.0.0"
-description = "Zynaptiq mastering bundle combining INTENSITY 2, BALANCE, PUNCH, UNFILTER, and UNMIX::DRUMS."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.zynaptiq.com/products/"
+slug         = "master-bundle"
+name         = "MASTER Bundle"
+vendor       = "Zynaptiq"
+version      = "1.0.0"
+description  = "Zynaptiq mastering bundle combining INTENSITY 2, BALANCE, PUNCH, UNFILTER, and UNMIX::DRUMS."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.zynaptiq.com/products/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/4940-MASTER-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.zynaptiq.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.zynaptiq.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.zynaptiq.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.zynaptiq.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

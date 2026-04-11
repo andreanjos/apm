@@ -1,26 +1,27 @@
-slug        = "ample-guitar-peregrine-falcon"
-name        = "Ample Guitar Peregrine Falcon"
-vendor      = "Ample Sound"
-version     = "4"
-description = "Electric guitar virtual instrument based on the PRS Peregrine Falcon for expressive electric tones."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.amplesound.net/en/pro-pd.asp?id=3"
+slug         = "ample-guitar-peregrine-falcon"
+name         = "Ample Guitar Peregrine Falcon"
+vendor       = "Ample Sound"
+version      = "4"
+description  = "Electric guitar virtual instrument based on the PRS Peregrine Falcon for expressive electric tones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.amplesound.net/en/pro-pd.asp?id=3"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15097-Ample-Guitar-Peregrine-Falcon?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.amplesound.net/en/pro-pd.asp?id=3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/pro-pd.asp?id=3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.amplesound.net/en/pro-pd.asp?id=3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/pro-pd.asp?id=3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

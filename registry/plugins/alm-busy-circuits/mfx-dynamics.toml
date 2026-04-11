@@ -1,26 +1,27 @@
-slug        = "mfx-dynamics"
-name        = "MFX Dynamics"
-vendor      = "ALM Busy Circuits"
-version     = "1.0.0"
-description = "Pair of DAW plugins from MFX: a unique compressor/expander and a feature-rich auto-panner."
-category    = "effects"
-subcategory = "dynamics processor"
-license     = "commercial"
-tags        = []
-homepage    = "https://busycircuits.com/collections/mfx-plugs"
+slug         = "mfx-dynamics"
+name         = "MFX Dynamics"
+vendor       = "ALM Busy Circuits"
+version      = "1.0.0"
+description  = "Pair of DAW plugins from MFX: a unique compressor/expander and a feature-rich auto-panner."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamics processor"
+license      = "commercial"
+tags         = []
+homepage     = "https://busycircuits.com/collections/mfx-plugs"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/14822-MFX-Dynamics?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://busycircuits.com/collections/mfx-plugs"
-sha256       = ""
-install_type = "zip"
+url           = "https://busycircuits.com/collections/mfx-plugs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://busycircuits.com/collections/mfx-plugs"
-sha256       = ""
-install_type = "zip"
+url           = "https://busycircuits.com/collections/mfx-plugs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

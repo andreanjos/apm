@@ -1,25 +1,26 @@
-slug        = "reforged-cinematic-metallic-sound-design"
-name        = "ReForged: Cinematic Metallic Sound Design"
-vendor      = "Impact Soundworks"
-version     = "1.0.0"
-description = "Kontakt library of found metallic percussion recorded in Wales with 1,900+ sounds for film and game scoring."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://impactsoundworks.com/product/reforged-cinematic-metallic-sound-design/"
-is_paid     = true
+slug         = "reforged-cinematic-metallic-sound-design"
+name         = "ReForged: Cinematic Metallic Sound Design"
+vendor       = "Impact Soundworks"
+version      = "1.0.0"
+description  = "Kontakt library of found metallic percussion recorded in Wales with 1,900+ sounds for film and game scoring."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://impactsoundworks.com/product/reforged-cinematic-metallic-sound-design/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://impactsoundworks.com/product/reforged-cinematic-metallic-sound-design/"
-sha256       = ""
-install_type = "zip"
+url           = "https://impactsoundworks.com/product/reforged-cinematic-metallic-sound-design/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://impactsoundworks.com/product/reforged-cinematic-metallic-sound-design/"
-sha256       = ""
-install_type = "zip"
+url           = "https://impactsoundworks.com/product/reforged-cinematic-metallic-sound-design/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "triaz"
-name        = "Triaz"
-vendor      = "Wave Alchemy"
-version     = "1.01"
-description = "Innovative drum engine with 15,000 curated samples, polyrhythmic sequencing and 700+ presets."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.wavealchemy.co.uk/product/triaz/"
+slug         = "triaz"
+name         = "Triaz"
+vendor       = "Wave Alchemy"
+version      = "1.01"
+description  = "Innovative drum engine with 15,000 curated samples, polyrhythmic sequencing and 700+ presets."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.wavealchemy.co.uk/product/triaz/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/11945-Triaz?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.wavealchemy.co.uk/product/triaz/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/triaz/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.wavealchemy.co.uk/product/triaz/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/triaz/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

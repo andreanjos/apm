@@ -1,25 +1,26 @@
-slug        = "sweepmachine"
-name        = "SweepMachine"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Versatile noise and sweep designer with three configurable oscillator layers and fully adjustable ramp shape and curve."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/sweepmachine"
-is_paid     = true
+slug         = "sweepmachine"
+name         = "SweepMachine"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Versatile noise and sweep designer with three configurable oscillator layers and fully adjustable ramp shape and curve."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/sweepmachine"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/sweepmachine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/sweepmachine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/sweepmachine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/sweepmachine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

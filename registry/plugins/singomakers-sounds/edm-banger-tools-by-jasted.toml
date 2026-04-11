@@ -1,26 +1,27 @@
-slug        = "edm-banger-tools-by-jasted"
-name        = "EDM Banger Tools by Jasted"
-vendor      = "Singomakers Sounds"
-version     = "1.0.0"
-description = "Singomakers EDM preset and sample collection crafted by producer Jasted for club bangers."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.singomakers.com/"
+slug         = "edm-banger-tools-by-jasted"
+name         = "EDM Banger Tools by Jasted"
+vendor       = "Singomakers Sounds"
+version      = "1.0.0"
+description  = "Singomakers EDM preset and sample collection crafted by producer Jasted for club bangers."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.singomakers.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/7269-EDM-Banger-Tools-by-Jasted?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.singomakers.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.singomakers.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.singomakers.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.singomakers.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

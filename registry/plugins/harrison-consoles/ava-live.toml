@@ -1,25 +1,26 @@
-slug        = "ava-live"
-name        = "AVA Live"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "All-in-one zero-latency plugin combining processing tools designed for live DAW mixing performance."
-category    = "effects"
-subcategory = "de-esser"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/ava/ava-live"
-is_paid     = true
+slug         = "ava-live"
+name         = "AVA Live"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "All-in-one zero-latency plugin combining processing tools designed for live DAW mixing performance."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de-esser"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/ava/ava-live"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/ava/ava-live"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/ava/ava-live"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/ava/ava-live"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/ava/ava-live"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

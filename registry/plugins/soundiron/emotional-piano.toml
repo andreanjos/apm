@@ -1,25 +1,26 @@
-slug        = "emotional-piano"
-name        = "Emotional Piano"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Intimate, expressive upright piano Kontakt instrument designed for emotional and cinematic writing."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/emotional-piano"
-is_paid     = true
+slug         = "emotional-piano"
+name         = "Emotional Piano"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Intimate, expressive upright piano Kontakt instrument designed for emotional and cinematic writing."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/emotional-piano"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/emotional-piano"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/emotional-piano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/emotional-piano"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/emotional-piano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

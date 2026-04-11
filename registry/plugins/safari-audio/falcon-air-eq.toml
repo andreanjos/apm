@@ -1,26 +1,27 @@
-slug        = "falcon-air-eq"
-name        = "Falcon Air EQ"
-vendor      = "Safari Audio"
-version     = "1.0.0"
-description = "High-frequency EQ with built-in de-esser, Air Gain and Air Drive for smooth, elegant top-end shaping."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://safariaudio.com/products/falcon-air-eq"
+slug         = "falcon-air-eq"
+name         = "Falcon Air EQ"
+vendor       = "Safari Audio"
+version      = "1.0.0"
+description  = "High-frequency EQ with built-in de-esser, Air Gain and Air Drive for smooth, elegant top-end shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://safariaudio.com/products/falcon-air-eq"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/15368-Falcon-Air-EQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://safariaudio.com/products/falcon-air-eq"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/falcon-air-eq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://safariaudio.com/products/falcon-air-eq"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/falcon-air-eq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

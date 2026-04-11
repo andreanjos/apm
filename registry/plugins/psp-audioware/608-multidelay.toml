@@ -1,25 +1,26 @@
-slug        = "608-multidelay"
-name        = "608 MultiDelay"
-vendor      = "PSP Audioware"
-version     = "1.8.6"
-description = "Fully-featured multitap delay plugin with extensive per-tap controls and creative processing options."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-608md"
-is_paid     = true
+slug         = "608-multidelay"
+name         = "608 MultiDelay"
+vendor       = "PSP Audioware"
+version      = "1.8.6"
+description  = "Fully-featured multitap delay plugin with extensive per-tap controls and creative processing options."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-608md"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-608md"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-608md"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-608md"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-608md"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "yggdras-8-string-guitar"
-name        = "Yggdras 8 String Guitar"
-vendor      = "Robert Ianni Music"
-version     = "1.0"
-description = "8-string electric guitar Kontakt library by Robert Ianni Music for heavy metal and djent."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robertiannimusic.com/"
-is_paid     = true
+slug         = "yggdras-8-string-guitar"
+name         = "Yggdras 8 String Guitar"
+vendor       = "Robert Ianni Music"
+version      = "1.0"
+description  = "8-string electric guitar Kontakt library by Robert Ianni Music for heavy metal and djent."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robertiannimusic.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robertiannimusic.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robertiannimusic.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robertiannimusic.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robertiannimusic.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

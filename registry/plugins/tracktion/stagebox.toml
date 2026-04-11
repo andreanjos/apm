@@ -1,26 +1,27 @@
-slug        = "stagebox"
-name        = "StageBox"
-vendor      = "Tracktion"
-version     = "5"
-description = "Standalone plugin host and setlist manager designed for live keyboard performers using VST3 and AU plugins."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tracktion.com/products/stagebox"
+slug         = "stagebox"
+name         = "StageBox"
+vendor       = "Tracktion"
+version      = "5"
+description  = "Standalone plugin host and setlist manager designed for live keyboard performers using VST3 and AU plugins."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tracktion.com/products/stagebox"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/14633-StageBox?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tracktion.com/products/stagebox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/stagebox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tracktion.com/products/stagebox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/stagebox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

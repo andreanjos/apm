@@ -1,26 +1,27 @@
-slug        = "serato-sample"
-name        = "Serato Sample"
-vendor      = "Serato"
-version     = "2.2.0"
-description = "Advanced sampler plugin with stems separation, pitch-shifting, and time-stretching for beat production."
-category    = "instruments"
-subcategory = "sampler"
-license     = "commercial"
-tags        = []
-homepage    = "https://serato.com/sample"
+slug         = "serato-sample"
+name         = "Serato Sample"
+vendor       = "Serato"
+version      = "2.2.0"
+description  = "Advanced sampler plugin with stems separation, pitch-shifting, and time-stretching for beat production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "sampler"
+license      = "commercial"
+tags         = []
+homepage     = "https://serato.com/sample"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/4113-Serato-Sample?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://serato.com/sample"
-sha256       = ""
-install_type = "zip"
+url           = "https://serato.com/sample"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://serato.com/sample"
-sha256       = ""
-install_type = "zip"
+url           = "https://serato.com/sample"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

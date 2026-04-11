@@ -1,26 +1,27 @@
-slug        = "transfigure"
-name        = "Transfigure"
-vendor      = "Sugar Bytes"
-version     = "1.0.0"
-description = "Sound redesign multi-effect plugin for radical audio transformation and creative signal processing."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://sugar-bytes.de/transfigure"
+slug         = "transfigure"
+name         = "Transfigure"
+vendor       = "Sugar Bytes"
+version      = "1.0.0"
+description  = "Sound redesign multi-effect plugin for radical audio transformation and creative signal processing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://sugar-bytes.de/transfigure"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/16368-Transfigure?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sugar-bytes.de/transfigure"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/transfigure"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sugar-bytes.de/transfigure"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/transfigure"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

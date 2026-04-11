@@ -1,26 +1,27 @@
-slug        = "speccraft"
-name        = "SpecCraft"
-vendor      = "Three Body Technology"
-version     = "1.3"
-description = "Dynamic resonance suppressor, spectrum compressor, and smart EQ for eliminating unwanted resonances."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.threebodytech.com/en/products/speccraft"
+slug         = "speccraft"
+name         = "SpecCraft"
+vendor       = "Three Body Technology"
+version      = "1.3"
+description  = "Dynamic resonance suppressor, spectrum compressor, and smart EQ for eliminating unwanted resonances."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.threebodytech.com/en/products/speccraft"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14724-SpecCraft?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.threebodytech.com/en/products/speccraft"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.threebodytech.com/en/products/speccraft"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.threebodytech.com/en/products/speccraft"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.threebodytech.com/en/products/speccraft"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

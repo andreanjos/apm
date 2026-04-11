@@ -1,26 +1,27 @@
-slug        = "xils-dees"
-name        = "XILS DeeS"
-vendor      = "XILS Lab"
-version     = "2.0.1"
-description = "Professional de-esser plugin with three-channel processing separating voice, plosives, and sibilants."
-category    = "effects"
-subcategory = "de esser"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xils-lab.com/store/dees/"
+slug         = "xils-dees"
+name         = "XILS DeeS"
+vendor       = "XILS Lab"
+version      = "2.0.1"
+description  = "Professional de-esser plugin with three-channel processing separating voice, plosives, and sibilants."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de esser"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.xils-lab.com/store/dees/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/1706-XILS-DeeS?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xils-lab.com/store/dees/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xils-lab.com/store/dees/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xils-lab.com/store/dees/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xils-lab.com/store/dees/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

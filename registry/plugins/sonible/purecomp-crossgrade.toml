@@ -1,25 +1,26 @@
-slug        = "purecomp-crossgrade"
-name        = "pure:comp Crossgrade"
-vendor      = "sonible"
-version     = "1.0.0"
-description = "Crossgrade pricing for pure:comp, sonible's AI-powered spectro-dynamic compressor for creators."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonible.com/purecomp/"
-is_paid     = true
+slug         = "purecomp-crossgrade"
+name         = "pure:comp Crossgrade"
+vendor       = "sonible"
+version      = "1.0.0"
+description  = "Crossgrade pricing for pure:comp, sonible's AI-powered spectro-dynamic compressor for creators."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonible.com/purecomp/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonible.com/purecomp/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/purecomp/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonible.com/purecomp/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/purecomp/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

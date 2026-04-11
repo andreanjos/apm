@@ -1,26 +1,27 @@
-slug        = "px-guitar-syn"
-name        = "PX Guitar Syn"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Virtual instrument based on the 1977 Roland GS-500/GR-500, the world's first guitar synthesizer system."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/px-guitar-syn"
+slug         = "px-guitar-syn"
+name         = "PX Guitar Syn"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Virtual instrument based on the 1977 Roland GS-500/GR-500, the world's first guitar synthesizer system."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/px-guitar-syn"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16057-PX-Guitar-Syn?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/px-guitar-syn"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/px-guitar-syn"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/px-guitar-syn"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/px-guitar-syn"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

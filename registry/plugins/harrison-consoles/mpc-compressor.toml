@@ -1,26 +1,27 @@
-slug        = "mpc-compressor"
-name        = "MPC Compressor"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "Post-production compressor plugin derived from Harrison's MPC large-format analog console circuitry."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/post/mpc-compressor"
+slug         = "mpc-compressor"
+name         = "MPC Compressor"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "Post-production compressor plugin derived from Harrison's MPC large-format analog console circuitry."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/post/mpc-compressor"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11986-MPC-Compressor?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/post/mpc-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/post/mpc-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/post/mpc-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/post/mpc-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

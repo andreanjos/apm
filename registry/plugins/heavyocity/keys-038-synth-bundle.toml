@@ -1,25 +1,27 @@
-slug        = "keys-038-synth-bundle"
-name        = "Keys &#038; Synth Bundle"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Bundle of Mosaic Keys, Mosaic Voices, and Mosaic Bass for layered cinematic keys, vocals, and bass sound design."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/collections/keys-synth"
-is_paid     = true
+slug         = "keys-038-synth-bundle"
+name         = "Keys & Synth Bundle"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Bundle of Mosaic Keys, Mosaic Voices, and Mosaic Bass for layered cinematic keys, vocals, and bass sound design."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["keys-synth-bundle"]
+homepage     = "https://heavyocity.com/collections/keys-synth"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/collections/keys-synth"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/collections/keys-synth"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/collections/keys-synth"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/collections/keys-synth"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "drumtastebrush"
-name        = "DrumTasteBrush"
-vendor      = "Acousticsamples"
-version     = "1.0.0"
-description = "Brush drum kit featuring world-class instruments recorded with up to three mic positions for a jazz feel."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.acousticsamples.net/drumtastebrush"
-is_paid     = true
+slug         = "drumtastebrush"
+name         = "DrumTasteBrush"
+vendor       = "Acousticsamples"
+version      = "1.0.0"
+description  = "Brush drum kit featuring world-class instruments recorded with up to three mic positions for a jazz feel."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.acousticsamples.net/drumtastebrush"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.acousticsamples.net/drumtastebrush"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.acousticsamples.net/drumtastebrush"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.acousticsamples.net/drumtastebrush"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.acousticsamples.net/drumtastebrush"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

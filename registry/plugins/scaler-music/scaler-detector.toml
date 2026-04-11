@@ -1,26 +1,27 @@
-slug        = "scaler-detector"
-name        = "Scaler Detector"
-vendor      = "Scaler Music"
-version     = "1.0.0"
-description = "Key and scale detection plugin that instantly identifies the key, scale, and chords of any track."
-category    = "utility"
-subcategory = "music theory tools"
-license     = "commercial"
-tags        = []
-homepage    = "https://scalermusic.com/products/scaler-detector/"
+slug         = "scaler-detector"
+name         = "Scaler Detector"
+vendor       = "Scaler Music"
+version      = "1.0.0"
+description  = "Key and scale detection plugin that instantly identifies the key, scale, and chords of any track."
+category     = "utility"
+product_type = "utility"
+subcategory  = "music theory tools"
+license      = "commercial"
+tags         = []
+homepage     = "https://scalermusic.com/products/scaler-detector/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/15928-Scaler-Detector?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://scalermusic.com/products/scaler-detector/"
-sha256       = ""
-install_type = "zip"
+url           = "https://scalermusic.com/products/scaler-detector/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://scalermusic.com/products/scaler-detector/"
-sha256       = ""
-install_type = "zip"
+url           = "https://scalermusic.com/products/scaler-detector/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,26 @@
-slug        = "celemony-melodyne-5"
-name        = "Melodyne 5"
-vendor      = "Celemony"
-version     = "5.4.2"
-description = "Polyphonic pitch and time editing tool with DNA Direct Note Access technology, available as a standalone application and plugin for all major DAWs."
-category    = "effects"
-subcategory = "pitch-correction"
-license     = "commercial"
-tags        = ["pitch-editing", "pitch-correction", "time-stretching", "dna", "polyphonic", "vocal", "standalone"]
-homepage    = "https://www.celemony.com/en/melodyne/what-is-melodyne"
+slug         = "celemony-melodyne-5"
+name         = "Melodyne 5"
+vendor       = "Celemony"
+version      = "5.4.2"
+description  = "Polyphonic pitch and time editing tool with DNA Direct Note Access technology, available as a standalone application and plugin for all major DAWs."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch-correction"
+license      = "commercial"
+tags         = ["pitch-editing", "pitch-correction", "time-stretching", "dna", "polyphonic", "vocal", "standalone"]
+homepage     = "https://www.celemony.com/en/melodyne/what-is-melodyne"
+is_paid      = true
 
-# NOTE: Celemony products are downloaded from the user's celemony.com account
-# using a serial number. The installer includes standalone, VST3, AU, and AAX.
 [formats.vst3]
-url          = "https://www.celemony.com/en/service1/registration-login"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.celemony.com/en/service1/registration-login"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Melodyne.vst3"
+bundle_path   = "Melodyne.vst3"
 
 [formats.au]
-url          = "https://www.celemony.com/en/service1/registration-login"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.celemony.com/en/service1/registration-login"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Melodyne.component"
+bundle_path   = "Melodyne.component"

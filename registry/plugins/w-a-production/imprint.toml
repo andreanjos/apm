@@ -1,26 +1,27 @@
-slug        = "imprint"
-name        = "Imprint"
-vendor      = "W A Production"
-version     = "2.2.0"
-description = "Multiband transient designer with three-band crossover, real-time waveform display, and width controls."
-category    = "effects"
-subcategory = "transient shaper"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/imprint"
+slug         = "imprint"
+name         = "Imprint"
+vendor       = "W A Production"
+version      = "2.2.0"
+description  = "Multiband transient designer with three-band crossover, real-time waveform display, and width controls."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "transient shaper"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/imprint"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/5450-Imprint?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/imprint"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/imprint"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/imprint"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/imprint"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

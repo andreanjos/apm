@@ -1,26 +1,27 @@
-slug        = "paz-analyzer"
-name        = "PAZ Analyzer"
-vendor      = "Waves"
-version     = "14.0"
-description = "Stereo position and level analyzer displaying stereo field, spectrum, and peak metering."
-category    = "effects"
-subcategory = "metering"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/paz-analyzer"
-is_paid     = true
+slug         = "paz-analyzer"
+name         = "PAZ Analyzer"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Stereo position and level analyzer displaying stereo field, spectrum, and peak metering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "metering"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/paz-analyzer"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/paz-analyzer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/paz-analyzer"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/paz-analyzer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/paz-analyzer"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

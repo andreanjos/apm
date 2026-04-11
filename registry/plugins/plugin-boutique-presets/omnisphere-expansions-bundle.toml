@@ -1,26 +1,27 @@
-slug        = "omnisphere-expansions-bundle"
-name        = "Omnisphere Expansions Bundle"
-vendor      = "Plugin Boutique Presets"
-version     = "1.0.0"
-description = "Bundle of multiple preset expansion packs for Spectrasonics Omnisphere synthesizer."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/products/11799-Omnisphere-Expansions-Bundle"
+slug         = "omnisphere-expansions-bundle"
+name         = "Omnisphere Expansions Bundle"
+vendor       = "Plugin Boutique Presets"
+version      = "1.0.0"
+description  = "Bundle of multiple preset expansion packs for Spectrasonics Omnisphere synthesizer."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/products/11799-Omnisphere-Expansions-Bundle"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/11799-Omnisphere-Expansions-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/products/11799-Omnisphere-Expansions-Bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/products/11799-Omnisphere-Expansions-Bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/products/11799-Omnisphere-Expansions-Bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/products/11799-Omnisphere-Expansions-Bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

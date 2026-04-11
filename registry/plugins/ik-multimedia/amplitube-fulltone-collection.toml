@@ -1,25 +1,26 @@
-slug        = "amplitube-fulltone-collection"
-name        = "AmpliTube FullTone Collection"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "Official Fulltone effects collection for AmpliTube with precisely modeled Fulltone pedals."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/fulltone/"
-is_paid     = true
+slug         = "amplitube-fulltone-collection"
+name         = "AmpliTube FullTone Collection"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "Official Fulltone effects collection for AmpliTube with precisely modeled Fulltone pedals."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/fulltone/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/fulltone/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/fulltone/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/fulltone/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/fulltone/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

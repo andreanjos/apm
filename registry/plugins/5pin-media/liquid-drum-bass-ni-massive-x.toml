@@ -1,26 +1,27 @@
-slug        = "liquid-drum-bass-ni-massive-x"
-name        = "Liquid Drum Bass NI Massive X"
-vendor      = "5Pin Media"
-version     = "1.0.0"
-description = "100 premium NI Massive X presets tailored for the smooth, melodic sounds of liquid drum and bass."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://5pinmedia.com/"
+slug         = "liquid-drum-bass-ni-massive-x"
+name         = "Liquid Drum Bass NI Massive X"
+vendor       = "5Pin Media"
+version      = "1.0.0"
+description  = "100 premium NI Massive X presets tailored for the smooth, melodic sounds of liquid drum and bass."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://5pinmedia.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11182-Liquid-Drum-Bass-NI-Massive-X?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://5pinmedia.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://5pinmedia.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://5pinmedia.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://5pinmedia.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

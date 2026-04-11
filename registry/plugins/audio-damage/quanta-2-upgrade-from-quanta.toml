@@ -1,25 +1,26 @@
-slug        = "quanta-2-upgrade-from-quanta"
-name        = "Quanta 2 Upgrade from Quanta"
-vendor      = "Audio Damage"
-version     = "1.0.0"
-description = "Upgrade path from Quanta to Quanta 2 granular synthesizer with expanded modulation and new UI."
-category    = "effects"
-subcategory = "granular"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiodamage.com/products/ad055-quanta-2"
-is_paid     = true
+slug         = "quanta-2-upgrade-from-quanta"
+name         = "Quanta 2 Upgrade from Quanta"
+vendor       = "Audio Damage"
+version      = "1.0.0"
+description  = "Upgrade path from Quanta to Quanta 2 granular synthesizer with expanded modulation and new UI."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "granular"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiodamage.com/products/ad055-quanta-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiodamage.com/products/ad055-quanta-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiodamage.com/products/ad055-quanta-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiodamage.com/products/ad055-quanta-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiodamage.com/products/ad055-quanta-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

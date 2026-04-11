@@ -1,25 +1,26 @@
-slug        = "clips"
-name        = "Clips"
-vendor      = "Sixth Sample"
-version     = "1.0"
-description = "Sixth Sample Clips is a transient-responsive compressor with intuitive visual feedback."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sixthsample.com/"
-is_paid     = true
+slug         = "clips"
+name         = "Clips"
+vendor       = "Sixth Sample"
+version      = "1.0"
+description  = "Sixth Sample Clips is a transient-responsive compressor with intuitive visual feedback."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sixthsample.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sixthsample.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sixthsample.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sixthsample.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sixthsample.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

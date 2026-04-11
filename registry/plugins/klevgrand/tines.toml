@@ -1,26 +1,27 @@
-slug        = "tines"
-name        = "Tines"
-vendor      = "Klevgrand"
-version     = "1.0"
-description = "An electric piano emulation with stereo tremolo, multiband distortion, and a subtle built-in reverb."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://klevgrand.com/products/tines"
+slug         = "tines"
+name         = "Tines"
+vendor       = "Klevgrand"
+version      = "1.0"
+description  = "An electric piano emulation with stereo tremolo, multiband distortion, and a subtle built-in reverb."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://klevgrand.com/products/tines"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/3362-Tines?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klevgrand.com/products/tines"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/tines"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klevgrand.com/products/tines"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/tines"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

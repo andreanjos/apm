@@ -1,26 +1,27 @@
-slug        = "drone-flutes"
-name        = "Drone Flutes"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt library of meditative drone flutes with sustained, hypnotic tonal qualities."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/drone-flutes"
+slug         = "drone-flutes"
+name         = "Drone Flutes"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt library of meditative drone flutes with sustained, hypnotic tonal qualities."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/drone-flutes"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9789-Drone-Flutes-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/drone-flutes"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/drone-flutes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/drone-flutes"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/drone-flutes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

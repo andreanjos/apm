@@ -1,24 +1,25 @@
-slug        = "storch-filter-multi-fx-filter"
-name        = "Storch Filter Multi-FX Filter"
-vendor      = "Slate Digital"
-version     = "1.0.0"
-description = "Creative multi-FX filter plugin by Scott Storch with reverb, chorus, saturation, phaser, and autofilter."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://slatedigital.com/storch-filter/"
-is_paid     = true
+slug         = "storch-filter-multi-fx-filter"
+name         = "Storch Filter Multi-FX Filter"
+vendor       = "Slate Digital"
+version      = "1.0.0"
+description  = "Creative multi-FX filter plugin by Scott Storch with reverb, chorus, saturation, phaser, and autofilter."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://slatedigital.com/storch-filter/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://slatedigital.com/storch-filter/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/storch-filter/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://slatedigital.com/storch-filter/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/storch-filter/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

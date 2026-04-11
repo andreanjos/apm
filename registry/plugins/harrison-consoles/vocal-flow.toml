@@ -1,26 +1,27 @@
-slug        = "vocal-flow"
-name        = "Vocal Flow"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "All-in-one vocal processing suite with 7 routable elements including pitch-tracking EQ and de-esser."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/all-products/vocal-flow"
+slug         = "vocal-flow"
+name         = "Vocal Flow"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "All-in-one vocal processing suite with 7 routable elements including pitch-tracking EQ and de-esser."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/all-products/vocal-flow"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/7610-Vocal-Flow?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/all-products/vocal-flow"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/vocal-flow"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/all-products/vocal-flow"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/vocal-flow"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

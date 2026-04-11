@@ -1,25 +1,27 @@
-slug        = "oxford-inflator-drum-gate-limiter-toolbox-claro-bundle"
-name        = "Oxford Inflator, Drum Gate, Limiter & Toolbox Claro Bundle"
-vendor      = "Sonnox"
-version     = "1.0.0"
-description = "Four-plugin bundle with Oxford Inflator, Drum Gate 2, Limiter, and Claro EQ for a complete mix toolkit."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/products/oxford-inflator"
-is_paid     = true
+slug         = "oxford-inflator-drum-gate-limiter-toolbox-claro-bundle"
+name         = "Oxford Inflator, Drum Gate, Limiter & Toolbox Claro Bundle"
+vendor       = "Sonnox"
+version      = "1.0.0"
+description  = "Four-plugin bundle with Oxford Inflator, Drum Gate 2, Limiter, and Claro EQ for a complete mix toolkit."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["oxford-inflator-drum-gate-limiter-038-toolbox-claro-bundle"]
+homepage     = "https://www.sonnox.com/products/oxford-inflator"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/products/oxford-inflator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-inflator"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/products/oxford-inflator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-inflator"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "lfo-eq"
-name        = "LFO EQ"
-vendor      = "DHPlugins"
-version     = "1.0.0"
-description = "Modulating EQ plugin that shapes audio using an LFO or envelope follower for dynamic filtering."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://dhplugins.com/product/lfo-eq/"
+slug         = "lfo-eq"
+name         = "LFO EQ"
+vendor       = "DHPlugins"
+version      = "1.0.0"
+description  = "Modulating EQ plugin that shapes audio using an LFO or envelope follower for dynamic filtering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://dhplugins.com/product/lfo-eq/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11611-LFO-EQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://dhplugins.com/product/lfo-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dhplugins.com/product/lfo-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://dhplugins.com/product/lfo-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dhplugins.com/product/lfo-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

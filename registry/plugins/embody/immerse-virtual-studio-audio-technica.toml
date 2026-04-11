@@ -1,26 +1,27 @@
-slug        = "immerse-virtual-studio-audio-technica"
-name        = "Immerse Virtual Studio Audio Technica"
-vendor      = "Embody"
-version     = "3.0"
-description = "Immerse Virtual Studio calibrated for Audio-Technica headphones for true speaker-like monitoring."
-category    = "utility"
-subcategory = "referencing tools"
-license     = "commercial"
-tags        = []
-homepage    = "https://embody.co/products/immerse-virtual-studio"
+slug         = "immerse-virtual-studio-audio-technica"
+name         = "Immerse Virtual Studio Audio Technica"
+vendor       = "Embody"
+version      = "3.0"
+description  = "Immerse Virtual Studio calibrated for Audio-Technica headphones for true speaker-like monitoring."
+category     = "utility"
+product_type = "utility"
+subcategory  = "referencing tools"
+license      = "commercial"
+tags         = []
+homepage     = "https://embody.co/products/immerse-virtual-studio"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/8253-Immerse-Virtual-Studio-Audio-Technica?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://embody.co/products/immerse-virtual-studio"
-sha256       = ""
-install_type = "zip"
+url           = "https://embody.co/products/immerse-virtual-studio"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://embody.co/products/immerse-virtual-studio"
-sha256       = ""
-install_type = "zip"
+url           = "https://embody.co/products/immerse-virtual-studio"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

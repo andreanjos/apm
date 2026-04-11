@@ -1,26 +1,27 @@
-slug        = "bassroom"
-name        = "BASSROOM"
-vendor      = "Mastering The Mix"
-version     = "2.0"
-description = "Low-end EQ plugin that analyses your mix and visually guides you to clear, punchy bass that translates everywhere."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.masteringthemix.com/products/bassroom"
+slug         = "bassroom"
+name         = "BASSROOM"
+vendor       = "Mastering The Mix"
+version      = "2.0"
+description  = "Low-end EQ plugin that analyses your mix and visually guides you to clear, punchy bass that translates everywhere."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.masteringthemix.com/products/bassroom"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/5408-BASSROOM?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.masteringthemix.com/products/bassroom"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.masteringthemix.com/products/bassroom"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.masteringthemix.com/products/bassroom"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.masteringthemix.com/products/bassroom"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,28 @@
-slug        = "arturia-delay-tape-201"
-name        = "Delay TAPE-201"
-vendor      = "Arturia"
-version     = "1.7.0"
-description = "Tape delay emulation of the Roland RE-201 Space Echo with authentic tape degradation, spring reverb, and multi-head playback."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = ["delay", "tape", "roland", "space-echo", "re-201", "vintage", "analog-modeling", "reverb"]
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-effects/delay-tape201/overview"
+slug         = "arturia-delay-tape-201"
+name         = "Delay TAPE-201"
+vendor       = "Arturia"
+version      = "1.7.0"
+description  = "Tape delay emulation of the Roland RE-201 Space Echo with authentic tape degradation, spring reverb, and multi-head playback."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = ["delay", "tape", "roland", "space-echo", "re-201", "vintage", "analog-modeling", "reverb"]
+aliases      = ["delay-tape-201"]
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-effects/delay-tape201/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/support/downloads-manuals/product/delay-tape201"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals/product/delay-tape201"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Delay TAPE-201.vst3"
+bundle_path   = "Delay TAPE-201.vst3"
 
 [formats.au]
-url          = "https://www.arturia.com/support/downloads-manuals/product/delay-tape201"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals/product/delay-tape201"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Delay TAPE-201.component"
+bundle_path   = "Delay TAPE-201.component"

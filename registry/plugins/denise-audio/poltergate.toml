@@ -1,26 +1,27 @@
-slug        = "poltergate"
-name        = "poltergate"
-vendor      = "Denise Audio"
-version     = "1.2"
-description = "Creative noise gate plugin for dynamic gating, stuttering, and rhythmic gating effects."
-category    = "effects"
-subcategory = "gate"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.deniseaudio.com/plugins/poltergate"
+slug         = "poltergate"
+name         = "poltergate"
+vendor       = "Denise Audio"
+version      = "1.2"
+description  = "Creative noise gate plugin for dynamic gating, stuttering, and rhythmic gating effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "gate"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.deniseaudio.com/plugins/poltergate"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/8356-poltergate?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.deniseaudio.com/plugins/poltergate"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/plugins/poltergate"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.deniseaudio.com/plugins/poltergate"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/plugins/poltergate"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

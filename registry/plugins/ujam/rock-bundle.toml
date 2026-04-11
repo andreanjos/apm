@@ -1,25 +1,26 @@
-slug        = "rock-bundle"
-name        = "Rock Bundle"
-vendor      = "UJAM"
-version     = "2.0"
-description = "Bundle of UJAM virtual instruments designed for rock music production."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ujam.com/store/"
-is_paid     = true
+slug         = "rock-bundle"
+name         = "Rock Bundle"
+vendor       = "UJAM"
+version      = "2.0"
+description  = "Bundle of UJAM virtual instruments designed for rock music production."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ujam.com/store/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ujam.com/store/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/store/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ujam.com/store/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/store/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

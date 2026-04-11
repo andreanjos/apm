@@ -1,26 +1,27 @@
-slug        = "tonex-max"
-name        = "TONEX MAX"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "TONEX MAX — the complete AI-powered amp capture and modeling software with full ToneNET access."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/tonex/"
+slug         = "tonex-max"
+name         = "TONEX MAX"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "TONEX MAX - the complete AI-powered amp capture and modeling software with full ToneNET access."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/tonex/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/12452-TONEX-MAX?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/tonex/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/tonex/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/tonex/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/tonex/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

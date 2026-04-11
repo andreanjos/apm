@@ -1,25 +1,26 @@
-slug        = "32-lives"
-name        = "32 Lives"
-vendor      = "Soundradix"
-version     = "2.0.6"
-description = "Mac-only adapter that runs legacy 32-bit Audio Unit and VST plugins in 64-bit DAWs."
-category    = "effects"
-subcategory = "mixing"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundradix.com/products/32-lives/"
-is_paid     = true
+slug         = "32-lives"
+name         = "32 Lives"
+vendor       = "Soundradix"
+version      = "2.0.6"
+description  = "Mac-only adapter that runs legacy 32-bit Audio Unit and VST plugins in 64-bit DAWs."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mixing"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundradix.com/products/32-lives/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundradix.com/products/32-lives/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundradix.com/products/32-lives/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundradix.com/products/32-lives/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundradix.com/products/32-lives/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

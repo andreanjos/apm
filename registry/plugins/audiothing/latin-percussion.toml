@@ -1,25 +1,26 @@
-slug        = "latin-percussion"
-name        = "Latin Percussion"
-vendor      = "AudioThing"
-version     = "1.6.1"
-description = "Plugin emulation of the Sound Master Latin Percussion analog drum machine with 6 classic latin sounds."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/instruments/latin-percussion/"
-is_paid     = true
+slug         = "latin-percussion"
+name         = "Latin Percussion"
+vendor       = "AudioThing"
+version      = "1.6.1"
+description  = "Plugin emulation of the Sound Master Latin Percussion analog drum machine with 6 classic latin sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiothing.net/instruments/latin-percussion/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/instruments/latin-percussion/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/instruments/latin-percussion/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/instruments/latin-percussion/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/instruments/latin-percussion/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

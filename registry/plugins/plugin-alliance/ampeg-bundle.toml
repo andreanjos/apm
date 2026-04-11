@@ -1,26 +1,27 @@
-slug        = "ampeg-bundle"
-name        = "Ampeg Bundle"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Collection of officially licensed Ampeg bass amp plugins spanning iconic models from the B-15N to the SVT-VR."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/ampeg-bundle-monthly.html"
-is_paid     = true
+slug         = "ampeg-bundle"
+name         = "Ampeg Bundle"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Collection of officially licensed Ampeg bass amp plugins spanning iconic models from the B-15N to the SVT-VR."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/ampeg-bundle-monthly.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/ampeg-bundle-monthly.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/ampeg-bundle-monthly.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/ampeg-bundle-monthly.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/ampeg-bundle-monthly.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

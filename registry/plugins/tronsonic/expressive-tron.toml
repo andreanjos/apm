@@ -1,26 +1,27 @@
-slug        = "expressive-tron"
-name        = "Expressive Tron"
-vendor      = "Tronsonic"
-version     = "1.0.0"
-description = "Free Kontakt library with four Mellotron M400 tape banks: Flute, Strings, Cello, Male Choir."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "http://www.tronsonic.com/"
+slug         = "expressive-tron"
+name         = "Expressive Tron"
+vendor       = "Tronsonic"
+version      = "1.0.0"
+description  = "Free Kontakt library with four Mellotron M400 tape banks: Flute, Strings, Cello, Male Choir."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "http://www.tronsonic.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/996-Expressive-Tron?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "http://www.tronsonic.com/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.tronsonic.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "http://www.tronsonic.com/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.tronsonic.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "voltage-modular-nucleus"
-name        = "Voltage Modular Nucleus"
-vendor      = "Cherry Audio"
-version     = "2"
-description = "Free entry-level Voltage Modular bundle with 20+ modules and 176 presets to start modular synthesis."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://cherryaudio.com/products/voltage-modular"
+slug         = "voltage-modular-nucleus"
+name         = "Voltage Modular Nucleus"
+vendor       = "Cherry Audio"
+version      = "2"
+description  = "Free entry-level Voltage Modular bundle with 20+ modules and 176 presets to start modular synthesis."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://cherryaudio.com/products/voltage-modular"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/5594-Voltage-Modular-Nucleus?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cherryaudio.com/products/voltage-modular"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/voltage-modular"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cherryaudio.com/products/voltage-modular"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/voltage-modular"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "ethnic-string-phrases-8211-esraj-038-erhu"
-name        = "Ethnic String Phrases &#8211; Esraj &#038; Erhu"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Kontakt instrument pairing the Indian esraj and Chinese erhu for ethnic string phrase composition."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/"
-is_paid     = true
+slug         = "ethnic-string-phrases-8211-esraj-038-erhu"
+name         = "Ethnic String Phrases - Esraj & Erhu"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Kontakt instrument pairing the Indian esraj and Chinese erhu for ethnic string phrase composition."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

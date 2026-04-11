@@ -1,24 +1,25 @@
-slug        = "m4l-the-drummer"
-name        = "M4L The Drummer"
-vendor      = "smaolab"
-version     = "1.0"
-description = "Max for Live drummer device by smaolab for generative and AI-assisted drum patterns."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://smaolab.org/"
-is_paid     = true
+slug         = "m4l-the-drummer"
+name         = "M4L The Drummer"
+vendor       = "smaolab"
+version      = "1.0"
+description  = "Max for Live drummer device by smaolab for generative and AI-assisted drum patterns."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://smaolab.org/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://smaolab.org/"
-sha256       = ""
-install_type = "zip"
+url           = "https://smaolab.org/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://smaolab.org/"
-sha256       = ""
-install_type = "zip"
+url           = "https://smaolab.org/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

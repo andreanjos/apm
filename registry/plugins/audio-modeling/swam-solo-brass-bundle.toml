@@ -1,25 +1,26 @@
-slug        = "swam-solo-brass-bundle"
-name        = "SWAM Solo Brass Bundle"
-vendor      = "Audio Modeling"
-version     = "3"
-description = "Bundle of all SWAM Solo Brass — trumpets, trombones, and horns/tubas — using physical modeling technology."
-category    = "instruments"
-subcategory = "brass"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodeling.com/swam-bundle/"
-is_paid     = true
+slug         = "swam-solo-brass-bundle"
+name         = "SWAM Solo Brass Bundle"
+vendor       = "Audio Modeling"
+version      = "3"
+description  = "Bundle of all SWAM Solo Brass - trumpets, trombones, and horns/tubas - using physical modeling technology."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "brass"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodeling.com/swam-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodeling.com/swam-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/swam-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodeling.com/swam-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/swam-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

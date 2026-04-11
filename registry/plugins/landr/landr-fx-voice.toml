@@ -1,26 +1,27 @@
-slug        = "landr-fx-voice"
-name        = "LANDR FX Voice"
-vendor      = "LANDR"
-version     = "1.0"
-description = "Multi-effects vocal plugin with EQ, compression, de-essing, and reverb tailored for professional vocal sounds."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.landr.com/plugins/landr-fx-voice"
+slug         = "landr-fx-voice"
+name         = "LANDR FX Voice"
+vendor       = "LANDR"
+version      = "1.0"
+description  = "Multi-effects vocal plugin with EQ, compression, de-essing, and reverb tailored for professional vocal sounds."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.landr.com/plugins/landr-fx-voice"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/12955-LANDR-FX-Voice?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.landr.com/plugins/landr-fx-voice"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.landr.com/plugins/landr-fx-voice"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.landr.com/plugins/landr-fx-voice"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.landr.com/plugins/landr-fx-voice"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

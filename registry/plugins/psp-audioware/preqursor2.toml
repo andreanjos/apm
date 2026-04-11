@@ -1,25 +1,26 @@
-slug        = "preqursor2"
-name        = "preQursor2"
-vendor      = "PSP Audioware"
-version     = "3.0.1"
-description = "Analog-modeled parametric EQ with four filter bands, low resonance peaks, and built-in 31-band analyzer."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-preqursor2"
-is_paid     = true
+slug         = "preqursor2"
+name         = "preQursor2"
+vendor       = "PSP Audioware"
+version      = "3.0.1"
+description  = "Analog-modeled parametric EQ with four filter bands, low resonance peaks, and built-in 31-band analyzer."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-preqursor2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-preqursor2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-preqursor2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-preqursor2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-preqursor2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

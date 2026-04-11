@@ -1,24 +1,26 @@
-slug        = "life-xo-bundle-exclusive"
-name        = "Life & XO Bundle (Exclusive)"
-vendor      = "XLN Audio"
-version     = "1.0.0"
-description = "Exclusive bundle combining XLN Audio's Life beat-maker and XO drum sample explorer instruments."
-category    = "instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xlnaudio.com/products"
-is_paid     = true
+slug         = "life-xo-bundle-exclusive"
+name         = "Life & XO Bundle (Exclusive)"
+vendor       = "XLN Audio"
+version      = "1.0.0"
+description  = "Exclusive bundle combining XLN Audio's Life beat-maker and XO drum sample explorer instruments."
+category     = "instruments"
+product_type = "bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["life-038-xo-bundle-exclusive"]
+homepage     = "https://www.xlnaudio.com/products"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xlnaudio.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xlnaudio.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xlnaudio.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xlnaudio.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "devastator"
-name        = "Devastator"
-vendor      = "NoiseAsh"
-version     = "1.3.9"
-description = "Bit crusher and sample rate reducer delivering lo-fi digital degradation and destruction effects."
-category    = "effects"
-subcategory = "bit crusher"
-license     = "commercial"
-tags        = []
-homepage    = "https://noiseash.com/devastator/"
-is_paid     = true
+slug         = "devastator"
+name         = "Devastator"
+vendor       = "NoiseAsh"
+version      = "1.3.9"
+description  = "Bit crusher and sample rate reducer delivering lo-fi digital degradation and destruction effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "bit crusher"
+license      = "commercial"
+tags         = []
+homepage     = "https://noiseash.com/devastator/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://noiseash.com/devastator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/devastator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://noiseash.com/devastator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/devastator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "elysion-2"
-name        = "Elysion 2"
-vendor      = "Sonuscore"
-version     = "2"
-description = "Powerful Kontakt virtual instrument built on handcrafted and synthetic sounds treated like acoustic instruments."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/elysion-2/"
-is_paid     = true
+slug         = "elysion-2"
+name         = "Elysion 2"
+vendor       = "Sonuscore"
+version      = "2"
+description  = "Powerful Kontakt virtual instrument built on handcrafted and synthetic sounds treated like acoustic instruments."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/elysion-2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/elysion-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/elysion-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/elysion-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/elysion-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

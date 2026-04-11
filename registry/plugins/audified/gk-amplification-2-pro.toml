@@ -1,25 +1,26 @@
-slug        = "gk-amplification-2-pro"
-name        = "GK Amplification 2 Pro"
-vendor      = "Audified"
-version     = "2.0.0"
-description = "Gallien-Krueger bass amp emulation plugin modeling iconic GK bass amplifier circuits."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/gk-amplification-3-pro/"
-is_paid     = true
+slug         = "gk-amplification-2-pro"
+name         = "GK Amplification 2 Pro"
+vendor       = "Audified"
+version      = "2.0.0"
+description  = "Gallien-Krueger bass amp emulation plugin modeling iconic GK bass amplifier circuits."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/gk-amplification-3-pro/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/gk-amplification-3-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/gk-amplification-3-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/gk-amplification-3-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/gk-amplification-3-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

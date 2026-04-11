@@ -1,27 +1,27 @@
-slug        = "audiothing-fog-convolver-2"
-name        = "Fog Convolver 2"
-vendor      = "AudioThing"
-version     = "2.4"
-description = "Creative convolution reverb plugin with built-in impulse response generator, modulation, mid/side mode, space simulator, and support for custom IR files."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = ["reverb", "convolution", "ir", "impulse-response", "creative", "modulation", "space"]
-homepage    = "https://www.audiothing.net/effects/fog-convolver/"
+slug         = "audiothing-fog-convolver-2"
+name         = "Fog Convolver 2"
+vendor       = "AudioThing"
+version      = "2.4"
+description  = "Creative convolution reverb plugin with built-in impulse response generator, modulation, mid/side mode, space simulator, and support for custom IR files."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = ["reverb", "convolution", "ir", "impulse-response", "creative", "modulation", "space"]
+aliases      = ["fog-convolver-2"]
+homepage     = "https://www.audiothing.net/effects/fog-convolver/"
+is_paid      = true
 
-# NOTE: AudioThing plugins are downloaded directly from audiothing.net
-# after creating an account and purchasing. A trial version with limited
-# IR selections and intermittent silence is available for free.
 [formats.vst3]
-url          = "https://www.audiothing.net/effects/fog-convolver/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.audiothing.net/effects/fog-convolver/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Fog Convolver 2.vst3"
+bundle_path   = "Fog Convolver 2.vst3"
 
 [formats.au]
-url          = "https://www.audiothing.net/effects/fog-convolver/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.audiothing.net/effects/fog-convolver/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Fog Convolver 2.component"
+bundle_path   = "Fog Convolver 2.component"

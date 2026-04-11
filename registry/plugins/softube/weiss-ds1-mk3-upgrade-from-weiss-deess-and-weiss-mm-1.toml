@@ -1,26 +1,27 @@
-slug        = "weiss-ds1-mk3-upgrade-from-weiss-deess-and-weiss-mm-1"
-name        = "Weiss DS1-MK3 Upgrade from Weiss Deess and Weiss MM-1"
-vendor      = "Softube"
-version     = "2.6"
-description = "Upgrade to Weiss DS1-MK3 mastering suite from the Weiss Deess and MM-1 mastering plugins."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mastering/weiss-ds1-mk3"
-is_paid     = true
+slug         = "weiss-ds1-mk3-upgrade-from-weiss-deess-and-weiss-mm-1"
+name         = "Weiss DS1-MK3 Upgrade from Weiss Deess and Weiss MM-1"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Upgrade to Weiss DS1-MK3 mastering suite from the Weiss Deess and MM-1 mastering plugins."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mastering/weiss-ds1-mk3"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mastering/weiss-ds1-mk3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mastering/weiss-ds1-mk3"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mastering/weiss-ds1-mk3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mastering/weiss-ds1-mk3"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

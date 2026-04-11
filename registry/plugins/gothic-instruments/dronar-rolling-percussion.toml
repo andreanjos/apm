@@ -1,25 +1,26 @@
-slug        = "dronar-rolling-percussion"
-name        = "Dronar Rolling Percussion"
-vendor      = "Gothic Instruments"
-version     = "1.0.0"
-description = "Kontakt drone instrument turning percussion recordings into rhythmic cinematic textures and pads."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonoracinematic.com/products/dronar-rolling-percussion"
-is_paid     = true
+slug         = "dronar-rolling-percussion"
+name         = "Dronar Rolling Percussion"
+vendor       = "Gothic Instruments"
+version      = "1.0.0"
+description  = "Kontakt drone instrument turning percussion recordings into rhythmic cinematic textures and pads."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonoracinematic.com/products/dronar-rolling-percussion"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonoracinematic.com/products/dronar-rolling-percussion"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/dronar-rolling-percussion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonoracinematic.com/products/dronar-rolling-percussion"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/dronar-rolling-percussion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

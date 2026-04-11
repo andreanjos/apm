@@ -1,25 +1,26 @@
-slug        = "b-i-t"
-name        = "B.I.T."
-vendor      = "Rob Papen"
-version     = "1.0"
-description = "Analogue modelled synthesizer focused on pure vintage analog synthesis with a deep modulation matrix."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/bit.html"
-is_paid     = true
+slug         = "b-i-t"
+name         = "B.I.T."
+vendor       = "Rob Papen"
+version      = "1.0"
+description  = "Analogue modelled synthesizer focused on pure vintage analog synthesis with a deep modulation matrix."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/bit.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/bit.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/bit.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/bit.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/bit.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

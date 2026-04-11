@@ -1,25 +1,26 @@
-slug        = "mastering-suite"
-name        = "Mastering Suite"
-vendor      = "Acon Digital"
-version     = "1.5.2"
-description = "Six-plugin mastering suite including dynamics, EQ, limiter, reverb, and dither for professional signal transparency."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://acondigital.com/products/mastering-suite"
-is_paid     = true
+slug         = "mastering-suite"
+name         = "Mastering Suite"
+vendor       = "Acon Digital"
+version      = "1.5.2"
+description  = "Six-plugin mastering suite including dynamics, EQ, limiter, reverb, and dither for professional signal transparency."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://acondigital.com/products/mastering-suite"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://acondigital.com/products/mastering-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://acondigital.com/products/mastering-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://acondigital.com/products/mastering-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://acondigital.com/products/mastering-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "xtreme-harp"
-name        = "Xtreme Harp"
-vendor      = "AudioXpression"
-version     = "1.0.0"
-description = "Hybrid harp Kontakt instrument combining traditional harp samples with innovative synthesized tones."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audioxpression.com/products"
-is_paid     = true
+slug         = "xtreme-harp"
+name         = "Xtreme Harp"
+vendor       = "AudioXpression"
+version      = "1.0.0"
+description  = "Hybrid harp Kontakt instrument combining traditional harp samples with innovative synthesized tones."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audioxpression.com/products"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audioxpression.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioxpression.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audioxpression.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioxpression.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

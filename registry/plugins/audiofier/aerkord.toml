@@ -1,25 +1,26 @@
-slug        = "aerkord"
-name        = "Aerkord"
-vendor      = "Audiofier"
-version     = "1.2.1"
-description = "Kontakt instrument featuring bowed strings and woodwinds with a twin step sequencer and arpeggiator."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiofier.co.uk/aerkord/"
-is_paid     = true
+slug         = "aerkord"
+name         = "Aerkord"
+vendor       = "Audiofier"
+version      = "1.2.1"
+description  = "Kontakt instrument featuring bowed strings and woodwinds with a twin step sequencer and arpeggiator."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiofier.co.uk/aerkord/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiofier.co.uk/aerkord/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/aerkord/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiofier.co.uk/aerkord/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/aerkord/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

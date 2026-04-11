@@ -1,25 +1,27 @@
-slug        = "origins-vol-4-oud-qanun"
-name        = "Origins Vol 4: Oud & Qanun"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Kontakt instrument featuring the Middle Eastern oud and qanun for ethnic composition."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/origins-vol-4-oud-and-qanun/"
-is_paid     = true
+slug         = "origins-vol-4-oud-qanun"
+name         = "Origins Vol 4: Oud & Qanun"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Kontakt instrument featuring the Middle Eastern oud and qanun for ethnic composition."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["origins-vol-4-oud-038-qanun"]
+homepage     = "https://sonuscore.com/shop/origins-vol-4-oud-and-qanun/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/origins-vol-4-oud-and-qanun/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/origins-vol-4-oud-and-qanun/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/origins-vol-4-oud-and-qanun/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/origins-vol-4-oud-and-qanun/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

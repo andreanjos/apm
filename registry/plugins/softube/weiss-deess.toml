@@ -1,26 +1,27 @@
-slug        = "weiss-deess"
-name        = "Weiss Deess"
-vendor      = "Softube"
-version     = "2.6"
-description = "Mastering de-esser plugin based on Weiss engineering for surgical, transparent sibilance control."
-category    = "effects"
-subcategory = "de-esser"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mastering/weiss-deess"
-is_paid     = true
+slug         = "weiss-deess"
+name         = "Weiss Deess"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Mastering de-esser plugin based on Weiss engineering for surgical, transparent sibilance control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de-esser"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mastering/weiss-deess"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mastering/weiss-deess"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mastering/weiss-deess"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mastering/weiss-deess"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mastering/weiss-deess"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "verbum-entropic-hall"
-name        = "Verbum Entropic Hall"
-vendor      = "United Plugins"
-version     = "3.0"
-description = "Reverb plugin capturing chaotic, random reflections of vintage hardware with three reverb models."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com/VerbumEntropicHall/"
+slug         = "verbum-entropic-hall"
+name         = "Verbum Entropic Hall"
+vendor       = "United Plugins"
+version      = "3.0"
+description  = "Reverb plugin capturing chaotic, random reflections of vintage hardware with three reverb models."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com/VerbumEntropicHall/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/6234-Verbum-Entropic-Hall?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com/VerbumEntropicHall/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/VerbumEntropicHall/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com/VerbumEntropicHall/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/VerbumEntropicHall/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

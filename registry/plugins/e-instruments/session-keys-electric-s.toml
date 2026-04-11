@@ -1,26 +1,27 @@
-slug        = "session-keys-electric-s"
-name        = "Session Keys Electric S"
-vendor      = "e instruments"
-version     = "1.0.0"
-description = "Deeply sampled classic electric piano instrument for Kontakt and Kontakt Player."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://e-instruments.com/instruments/"
+slug         = "session-keys-electric-s"
+name         = "Session Keys Electric S"
+vendor       = "e instruments"
+version      = "1.0.0"
+description  = "Deeply sampled classic electric piano instrument for Kontakt and Kontakt Player."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://e-instruments.com/instruments/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/6283-Session-Keys-Electric-S?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://e-instruments.com/instruments/"
-sha256       = ""
-install_type = "zip"
+url           = "https://e-instruments.com/instruments/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://e-instruments.com/instruments/"
-sha256       = ""
-install_type = "zip"
+url           = "https://e-instruments.com/instruments/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "accordina"
-name        = "Accordina"
-vendor      = "Psound"
-version     = "1.0.0"
-description = "UVI-based virtual accordina instrument with authentic free-reed chromatic keyboard sound."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.psound.it/accordina.html"
-is_paid     = true
+slug         = "accordina"
+name         = "Accordina"
+vendor       = "Psound"
+version      = "1.0.0"
+description  = "UVI-based virtual accordina instrument with authentic free-reed chromatic keyboard sound."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.psound.it/accordina.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.psound.it/accordina.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.psound.it/accordina.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.psound.it/accordina.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.psound.it/accordina.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

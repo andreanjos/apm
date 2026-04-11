@@ -1,26 +1,27 @@
-slug        = "opal-morphing-synthesizer"
-name        = "Opal Morphing Synthesizer"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "UA's Opal is a spectral morphing synthesizer with a unique timbral evolution engine."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/instruments/opal-morphing-synthesizer.html"
-is_paid     = true
+slug         = "opal-morphing-synthesizer"
+name         = "Opal Morphing Synthesizer"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "UA's Opal is a spectral morphing synthesizer with a unique timbral evolution engine."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/instruments/opal-morphing-synthesizer.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/instruments/opal-morphing-synthesizer.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/opal-morphing-synthesizer.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/instruments/opal-morphing-synthesizer.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/opal-morphing-synthesizer.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

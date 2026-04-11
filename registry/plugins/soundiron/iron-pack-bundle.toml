@@ -1,25 +1,26 @@
-slug        = "iron-pack-bundle"
-name        = "Iron Pack Bundle"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Complete bundle of all twelve Iron Pack Kontakt instrument volumes at a discounted price."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/iron-pack-bundle"
-is_paid     = true
+slug         = "iron-pack-bundle"
+name         = "Iron Pack Bundle"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Complete bundle of all twelve Iron Pack Kontakt instrument volumes at a discounted price."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/iron-pack-bundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/iron-pack-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/iron-pack-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/iron-pack-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/iron-pack-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

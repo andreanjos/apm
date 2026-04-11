@@ -1,26 +1,27 @@
-slug        = "weiss-eq1"
-name        = "Weiss EQ1"
-vendor      = "Softube"
-version     = "2.6"
-description = "Professional mastering EQ plugin based on Weiss Engineering hardware for transparent tone shaping."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
-is_paid     = true
+slug         = "weiss-eq1"
+name         = "Weiss EQ1"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Professional mastering EQ plugin based on Weiss Engineering hardware for transparent tone shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "elvish-choir"
-name        = "Elvish Choir"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Ethereal fantasy choral Kontakt instrument with otherworldly, elven vocal textures and pads."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/elvish-choir"
-is_paid     = true
+slug         = "elvish-choir"
+name         = "Elvish Choir"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Ethereal fantasy choral Kontakt instrument with otherworldly, elven vocal textures and pads."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/elvish-choir"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/elvish-choir"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/elvish-choir"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/elvish-choir"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/elvish-choir"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

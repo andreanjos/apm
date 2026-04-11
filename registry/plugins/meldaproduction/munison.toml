@@ -1,24 +1,25 @@
-slug        = "munison"
-name        = "MUnison"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Create harmonies with up to 50 voices using smart pitch detection and per-voice modulation."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MUnison"
-is_paid     = true
+slug         = "munison"
+name         = "MUnison"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Create harmonies with up to 50 voices using smart pitch detection and per-voice modulation."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MUnison"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MUnison"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MUnison"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MUnison"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MUnison"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

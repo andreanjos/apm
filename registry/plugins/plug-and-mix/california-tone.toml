@@ -1,25 +1,26 @@
-slug        = "california-tone"
-name        = "California Tone"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Amp simulator plugin capturing the high-gain tone of classic California-style guitar amplifiers."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p913-California-Tone/"
-is_paid     = true
+slug         = "california-tone"
+name         = "California Tone"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Amp simulator plugin capturing the high-gain tone of classic California-style guitar amplifiers."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p913-California-Tone/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p913-California-Tone/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p913-California-Tone/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p913-California-Tone/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p913-California-Tone/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "swam-cello"
-name        = "SWAM Cello"
-vendor      = "Audio Modeling"
-version     = "3"
-description = "Physically modeled virtual cello with real-time bow position control and expressive articulations."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodeling.com/strings/swam-cello/"
-is_paid     = true
+slug         = "swam-cello"
+name         = "SWAM Cello"
+vendor       = "Audio Modeling"
+version      = "3"
+description  = "Physically modeled virtual cello with real-time bow position control and expressive articulations."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodeling.com/strings/swam-cello/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodeling.com/strings/swam-cello/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/strings/swam-cello/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodeling.com/strings/swam-cello/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/strings/swam-cello/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

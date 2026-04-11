@@ -1,26 +1,27 @@
-slug        = "vari-amp"
-name        = "Vari Amp"
-vendor      = "Rhodes"
-version     = "1.0.0"
-description = "Amplifier and preamp plugin modeled after the iconic Rhodes electric piano amplifier circuits."
-category    = "effects"
-subcategory = "preamp"
-license     = "commercial"
-tags        = []
-homepage    = "https://rhodesmusic.com/software/"
+slug         = "vari-amp"
+name         = "Vari Amp"
+vendor       = "Rhodes"
+version      = "1.0.0"
+description  = "Amplifier and preamp plugin modeled after the iconic Rhodes electric piano amplifier circuits."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "preamp"
+license      = "commercial"
+tags         = []
+homepage     = "https://rhodesmusic.com/software/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/16156-Vari-Amp?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rhodesmusic.com/software/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rhodesmusic.com/software/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rhodesmusic.com/software/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rhodesmusic.com/software/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "vstplug-stereo-width"
-name        = "VSTplug stereo width"
-vendor      = "DSPplug"
-version     = "1.0.0"
-description = "Stereo width utility plugin for simple and effective control over the stereo spread of a signal."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://dspplug.com/"
-is_paid     = true
+slug         = "vstplug-stereo-width"
+name         = "VSTplug stereo width"
+vendor       = "DSPplug"
+version      = "1.0.0"
+description  = "Stereo width utility plugin for simple and effective control over the stereo spread of a signal."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://dspplug.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://dspplug.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dspplug.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://dspplug.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dspplug.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

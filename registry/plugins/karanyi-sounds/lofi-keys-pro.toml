@@ -1,25 +1,26 @@
-slug        = "lofi-keys-pro"
-name        = "Lofi Keys Pro"
-vendor      = "Karanyi Sounds"
-version     = "1.0"
-description = "Lo-fi keyboard plugin with 40 vintage sound sources, Poly Space reverb, and VHS Atmos expansion."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://karanyisounds.com/product/lofi-keys/"
-is_paid     = true
+slug         = "lofi-keys-pro"
+name         = "Lofi Keys Pro"
+vendor       = "Karanyi Sounds"
+version      = "1.0"
+description  = "Lo-fi keyboard plugin with 40 vintage sound sources, Poly Space reverb, and VHS Atmos expansion."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://karanyisounds.com/product/lofi-keys/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://karanyisounds.com/product/lofi-keys/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/lofi-keys/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://karanyisounds.com/product/lofi-keys/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/lofi-keys/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

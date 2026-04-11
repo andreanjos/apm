@@ -1,25 +1,26 @@
-slug        = "uproar"
-name        = "Uproar"
-vendor      = "Rhythmic Robot"
-version     = "1.0"
-description = "A Kontakt distortion synthesizer that progressively mangles subtractive synth tones with saturation and bitcrushing."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.rhythmicrobot.com/product/uproar"
-is_paid     = true
+slug         = "uproar"
+name         = "Uproar"
+vendor       = "Rhythmic Robot"
+version      = "1.0"
+description  = "A Kontakt distortion synthesizer that progressively mangles subtractive synth tones with saturation and bitcrushing."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.rhythmicrobot.com/product/uproar"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.rhythmicrobot.com/product/uproar"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/uproar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.rhythmicrobot.com/product/uproar"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/uproar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

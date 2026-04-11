@@ -1,27 +1,29 @@
-slug        = "radiator"
-name        = "Radiator"
-vendor      = "Soundtoys"
-version     = "5.5"
-description = "Tube saturation plugin modeled on the Altec 1567A mixer for warm, harmonic analog coloring."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundtoys.com/product/radiator/"
+slug         = "radiator"
+name         = "Radiator"
+vendor       = "Soundtoys"
+version      = "5.5"
+description  = "Tube saturation plugin modeled on the Altec 1567A mixer for warm, harmonic analog coloring."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = []
+aliases      = ["soundtoys-radiator"]
+homepage     = "https://www.soundtoys.com/product/radiator/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/1802-Radiator?a_aid=69d5e87c5f2e9"
-bundle_ids  = ["com.soundtoys.audiounit.Radiator"]
-is_paid     = true
+bundle_ids   = ["com.soundtoys.audiounit.Radiator"]
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundtoys.com/product/radiator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/radiator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundtoys.com/product/radiator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/radiator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

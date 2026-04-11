@@ -1,25 +1,27 @@
-slug        = "symphobia-2-3-bundle"
-name        = "Symphobia 2 & 3 Bundle"
-vendor      = "ProjectSAM"
-version     = "1.0.0"
-description = "Bundle combining Symphobia 2 and Symphobia 3: Lumina orchestral Kontakt libraries."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://projectsam.com/libraries/"
-is_paid     = true
+slug         = "symphobia-2-3-bundle"
+name         = "Symphobia 2 & 3 Bundle"
+vendor       = "ProjectSAM"
+version      = "1.0.0"
+description  = "Bundle combining Symphobia 2 and Symphobia 3: Lumina orchestral Kontakt libraries."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["symphobia-2-038-3-bundle"]
+homepage     = "https://projectsam.com/libraries/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://projectsam.com/libraries/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://projectsam.com/libraries/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "gtr3"
-name        = "GTR3"
-vendor      = "Waves"
-version     = "14.0"
-description = "Comprehensive guitar amp simulator and effects suite with multiple amp and cabinet models."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/gtr3"
-is_paid     = true
+slug         = "gtr3"
+name         = "GTR3"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Comprehensive guitar amp simulator and effects suite with multiple amp and cabinet models."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/gtr3"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/gtr3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/gtr3"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/gtr3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/gtr3"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

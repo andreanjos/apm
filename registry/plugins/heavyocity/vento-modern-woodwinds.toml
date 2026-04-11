@@ -1,25 +1,26 @@
-slug        = "vento-modern-woodwinds"
-name        = "VENTO: Modern Woodwinds"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Modern woodwinds VST with 160+ articulations, 100 hybrid snapshots, and 400+ tempo-synced loops for cinematic scoring."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/vento"
-is_paid     = true
+slug         = "vento-modern-woodwinds"
+name         = "VENTO: Modern Woodwinds"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Modern woodwinds VST with 160+ articulations, 100 hybrid snapshots, and 400+ tempo-synced loops for cinematic scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/vento"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/vento"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/vento"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/vento"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/vento"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

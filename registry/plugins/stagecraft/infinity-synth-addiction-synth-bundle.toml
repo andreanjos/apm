@@ -1,25 +1,26 @@
-slug        = "infinity-synth-addiction-synth-bundle"
-name        = "Infinity Synth + Addiction Synth Bundle"
-vendor      = "Stagecraft"
-version     = "9"
-description = "Bundle combining Infinity Synth sample-based and Addiction Synth subtractive synthesizers."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.stagecraftsoftware.com/products/synths/"
-is_paid     = true
+slug         = "infinity-synth-addiction-synth-bundle"
+name         = "Infinity Synth + Addiction Synth Bundle"
+vendor       = "Stagecraft"
+version      = "9"
+description  = "Bundle combining Infinity Synth sample-based and Addiction Synth subtractive synthesizers."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.stagecraftsoftware.com/products/synths/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.stagecraftsoftware.com/products/synths/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.stagecraftsoftware.com/products/synths/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.stagecraftsoftware.com/products/synths/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.stagecraftsoftware.com/products/synths/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

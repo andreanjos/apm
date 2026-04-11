@@ -1,26 +1,27 @@
-slug        = "brightness-panner-educational-version"
-name        = "Brightness Panner Educational Version"
-vendor      = "Sound Particles"
-version     = "1.0"
-description = "Educational version of Sound Particles Brightness Panner, which pans audio based on frequency content."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundparticles.com/products/brightnesspanner"
+slug         = "brightness-panner-educational-version"
+name         = "Brightness Panner Educational Version"
+vendor       = "Sound Particles"
+version      = "1.0"
+description  = "Educational version of Sound Particles Brightness Panner, which pans audio based on frequency content."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundparticles.com/products/brightnesspanner"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/11268-Brightness-Panner-Educational-Version?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundparticles.com/products/brightnesspanner"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundparticles.com/products/brightnesspanner"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundparticles.com/products/brightnesspanner"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundparticles.com/products/brightnesspanner"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

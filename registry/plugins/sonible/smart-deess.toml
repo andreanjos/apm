@@ -1,26 +1,27 @@
-slug        = "smart-deess"
-name        = "smart deess"
-vendor      = "sonible"
-version     = "1.0.0"
-description = "Content-aware AI de-esser that automatically detects and reduces sibilance with minimal effort."
-category    = "effects"
-subcategory = "de esser"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonible.com/smartdeess/"
+slug         = "smart-deess"
+name         = "smart deess"
+vendor       = "sonible"
+version      = "1.0.0"
+description  = "Content-aware AI de-esser that automatically detects and reduces sibilance with minimal effort."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de esser"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonible.com/smartdeess/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/11480-smart-deess?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonible.com/smartdeess/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/smartdeess/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonible.com/smartdeess/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/smartdeess/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "marshall-plexi-super-lead-1959"
-name        = "Marshall® Plexi Super Lead 1959"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the Marshall Plexi Super Lead 1959, the quintessential British rock guitar amp."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-plexi-super-lead-1959.html"
-is_paid     = true
+slug         = "marshall-plexi-super-lead-1959"
+name         = "Marshall (R) Plexi Super Lead 1959"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the Marshall Plexi Super Lead 1959, the quintessential British rock guitar amp."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-plexi-super-lead-1959.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-plexi-super-lead-1959.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-plexi-super-lead-1959.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-plexi-super-lead-1959.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-plexi-super-lead-1959.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

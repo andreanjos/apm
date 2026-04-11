@@ -1,25 +1,26 @@
-slug        = "mastercheck"
-name        = "MasterCheck"
-vendor      = "NUGEN Audio"
-version     = "1.0"
-description = "A cross-platform mastering plugin for previewing codec and loudness consistency across physical and streaming."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/mastercheck/"
-is_paid     = true
+slug         = "mastercheck"
+name         = "MasterCheck"
+vendor       = "NUGEN Audio"
+version      = "1.0"
+description  = "A cross-platform mastering plugin for previewing codec and loudness consistency across physical and streaming."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/mastercheck/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/mastercheck/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/mastercheck/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/mastercheck/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/mastercheck/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

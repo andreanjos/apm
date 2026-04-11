@@ -1,25 +1,26 @@
-slug        = "mc2000-multi-band-compressor-hd-v7"
-name        = "MC2000 Multi-Band Compressor HD v7"
-vendor      = "McDSP"
-version     = "7.0"
-description = "Pro Tools HD v7 of McDSP MC2000 multi-band compressor for advanced frequency-dependent compression."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://mcdsp.com/plugin-index/mc2000/"
-is_paid     = true
+slug         = "mc2000-multi-band-compressor-hd-v7"
+name         = "MC2000 Multi-Band Compressor HD v7"
+vendor       = "McDSP"
+version      = "7.0"
+description  = "Pro Tools HD v7 of McDSP MC2000 multi-band compressor for advanced frequency-dependent compression."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://mcdsp.com/plugin-index/mc2000/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mcdsp.com/plugin-index/mc2000/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/mc2000/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mcdsp.com/plugin-index/mc2000/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/mc2000/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

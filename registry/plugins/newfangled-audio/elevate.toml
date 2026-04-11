@@ -1,24 +1,27 @@
-slug        = "elevate"
-name        = "Elevate"
-vendor      = "Newfangled Audio"
-version     = "1.13.9"
-description = "AI-powered mastering limiter/maximizer with 26-band intelligent limiting, spectral clipper, and transient shaping."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = ["limiter", "mastering", "maximizer", "multiband", "ai", "spectral"]
-homepage    = "https://www.newfangledaudio.com/elevate"
+slug         = "elevate"
+name         = "Elevate"
+vendor       = "Newfangled Audio"
+version      = "1.13.9"
+description  = "AI-powered mastering limiter/maximizer with 26-band intelligent limiting, spectral clipper, and transient shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = ["limiter", "mastering", "maximizer", "multiband", "ai", "spectral"]
+aliases      = ["elevate-newfangled-audio"]
+homepage     = "https://www.newfangledaudio.com/elevate"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.newfangledaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.newfangledaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Elevate.vst3"
+bundle_path   = "Elevate.vst3"
 
 [formats.au]
-url          = "https://www.newfangledaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.newfangledaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Elevate.component"
+bundle_path   = "Elevate.component"

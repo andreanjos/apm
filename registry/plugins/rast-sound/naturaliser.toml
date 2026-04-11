@@ -1,24 +1,25 @@
-slug        = "naturaliser"
-name        = "Naturaliser"
-vendor      = "Rast Sound"
-version     = "2"
-description = "Micro-variation effect plugin adding subtle human-like fluctuations across spectral, transient, and noise dimensions."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/naturaliser/"
-is_paid     = true
+slug         = "naturaliser"
+name         = "Naturaliser"
+vendor       = "Rast Sound"
+version      = "2"
+description  = "Micro-variation effect plugin adding subtle human-like fluctuations across spectral, transient, and noise dimensions."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/naturaliser/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/naturaliser/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/naturaliser/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/naturaliser/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/naturaliser/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

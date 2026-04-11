@@ -1,25 +1,26 @@
-slug        = "electric-sitar"
-name        = "Electric Sitar"
-vendor      = "RDGAudio"
-version     = "1.0.0"
-description = "Sample-based electric sitar plugin with DSP and magnetic pick-up coil sound capture."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://rdgaudio.com/electric-sitar/"
-is_paid     = true
+slug         = "electric-sitar"
+name         = "Electric Sitar"
+vendor       = "RDGAudio"
+version      = "1.0.0"
+description  = "Sample-based electric sitar plugin with DSP and magnetic pick-up coil sound capture."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://rdgaudio.com/electric-sitar/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rdgaudio.com/electric-sitar/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rdgaudio.com/electric-sitar/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rdgaudio.com/electric-sitar/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rdgaudio.com/electric-sitar/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

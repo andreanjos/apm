@@ -1,26 +1,27 @@
-slug        = "lisc-verb"
-name        = "Lisc Verb"
-vendor      = "Saltline"
-version     = "1.0.5"
-description = "Free reverb plugin with a simple, musical character suited to ambient and creative use."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kvraudio.com/developer/saltline"
+slug         = "lisc-verb"
+name         = "Lisc Verb"
+vendor       = "Saltline"
+version      = "1.0.5"
+description  = "Free reverb plugin with a simple, musical character suited to ambient and creative use."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kvraudio.com/developer/saltline"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/741-Lisc-Verb?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kvraudio.com/developer/saltline"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/developer/saltline"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kvraudio.com/developer/saltline"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/developer/saltline"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

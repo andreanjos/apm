@@ -1,26 +1,27 @@
-slug        = "ace-studio-2-0-artist-pro-lifetime-license"
-name        = "ACE Studio 2 0 Artist Pro Lifetime License"
-vendor      = "ACE Studio"
-version     = "2.0"
-description = "Pro lifetime license for ACE Studio 2.0 AI singing voice synthesis with advanced features."
-category    = "instruments"
-subcategory = "vocal synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://ace-studio.timedomain.cn/"
+slug         = "ace-studio-2-0-artist-pro-lifetime-license"
+name         = "ACE Studio 2 0 Artist Pro Lifetime License"
+vendor       = "ACE Studio"
+version      = "2.0"
+description  = "Pro lifetime license for ACE Studio 2.0 AI singing voice synthesis with advanced features."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "vocal synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://ace-studio.timedomain.cn/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/15409-ACE-Studio-2-0-Artist-Pro-Lifetime-License?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ace-studio.timedomain.cn/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ace-studio.timedomain.cn/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ace-studio.timedomain.cn/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ace-studio.timedomain.cn/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

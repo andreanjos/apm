@@ -1,25 +1,26 @@
-slug        = "vermon"
-name        = "Vermon"
-vendor      = "Synth Magic"
-version     = "1.0.0"
-description = "Kontakt library of a Vermona Piano Strings synth with clean, valve-processed, and VHS tape-saturated samples."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://synthmagic.co.uk/vermon/"
-is_paid     = true
+slug         = "vermon"
+name         = "Vermon"
+vendor       = "Synth Magic"
+version      = "1.0.0"
+description  = "Kontakt library of a Vermona Piano Strings synth with clean, valve-processed, and VHS tape-saturated samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://synthmagic.co.uk/vermon/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synthmagic.co.uk/vermon/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/vermon/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synthmagic.co.uk/vermon/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/vermon/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

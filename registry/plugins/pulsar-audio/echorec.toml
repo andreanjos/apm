@@ -1,26 +1,27 @@
-slug        = "echorec"
-name        = "Echorec"
-vendor      = "Pulsar Audio"
-version     = "1.7.11"
-description = "Faithful model of the Binson Echorec magnetic drum delay with unique tonal character."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://pulsar.audio/echorec/"
+slug         = "echorec"
+name         = "Echorec"
+vendor       = "Pulsar Audio"
+version      = "1.7.11"
+description  = "Faithful model of the Binson Echorec magnetic drum delay with unique tonal character."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://pulsar.audio/echorec/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/5663-Echorec?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://pulsar.audio/echorec/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pulsar.audio/echorec/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://pulsar.audio/echorec/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pulsar.audio/echorec/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

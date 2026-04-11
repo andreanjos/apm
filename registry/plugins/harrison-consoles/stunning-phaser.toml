@@ -1,26 +1,27 @@
-slug        = "stunning-phaser"
-name        = "Stunning Phaser"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "Creative modulation phaser using modulated filters and versatile LFO shapes to add movement and depth to mixes."
-category    = "effects"
-subcategory = "phaser"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/all-products/harrison-stunning-phaser"
+slug         = "stunning-phaser"
+name         = "Stunning Phaser"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "Creative modulation phaser using modulated filters and versatile LFO shapes to add movement and depth to mixes."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "phaser"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/all-products/harrison-stunning-phaser"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/15413-Stunning-Phaser?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/all-products/harrison-stunning-phaser"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/harrison-stunning-phaser"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/all-products/harrison-stunning-phaser"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/harrison-stunning-phaser"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "analogue-stab-generator"
-name        = "Analogue Stab Generator"
-vendor      = "Audio Blast"
-version     = "1.0.0"
-description = "128-preset analogue stab expansion pack add-on for Rave Generator 3."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audioblast.me/"
+slug         = "analogue-stab-generator"
+name         = "Analogue Stab Generator"
+vendor       = "Audio Blast"
+version      = "1.0.0"
+description  = "128-preset analogue stab expansion pack add-on for Rave Generator 3."
+category     = "instruments"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audioblast.me/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/15697-Analogue-Stab-Generator?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audioblast.me/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioblast.me/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audioblast.me/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioblast.me/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

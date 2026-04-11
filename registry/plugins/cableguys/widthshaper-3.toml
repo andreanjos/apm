@@ -1,26 +1,27 @@
-slug        = "widthshaper-3"
-name        = "WidthShaper 3"
-vendor      = "Cableguys"
-version     = "3"
-description = "Stereo width plugin defining stereo image in detail via multiband mid/side modulation and LFOs."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.cableguys.com/products"
+slug         = "widthshaper-3"
+name         = "WidthShaper 3"
+vendor       = "Cableguys"
+version      = "3"
+description  = "Stereo width plugin defining stereo image in detail via multiband mid/side modulation and LFOs."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.cableguys.com/products"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/9845-WidthShaper-3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.cableguys.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cableguys.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.cableguys.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cableguys.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

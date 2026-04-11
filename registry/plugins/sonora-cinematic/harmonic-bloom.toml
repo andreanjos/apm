@@ -1,26 +1,27 @@
-slug        = "harmonic-bloom"
-name        = "Harmonic Bloom"
-vendor      = "Sonora Cinematic"
-version     = "1.0.0"
-description = "Creative Kontakt sound design environment for building rich harmonic textures and pads."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonoracinematic.com/products/harmonic-bloom-by-sonora-cinematic"
+slug         = "harmonic-bloom"
+name         = "Harmonic Bloom"
+vendor       = "Sonora Cinematic"
+version      = "1.0.0"
+description  = "Creative Kontakt sound design environment for building rich harmonic textures and pads."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonoracinematic.com/products/harmonic-bloom-by-sonora-cinematic"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10763-Harmonic-Bloom?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonoracinematic.com/products/harmonic-bloom-by-sonora-cinematic"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/harmonic-bloom-by-sonora-cinematic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonoracinematic.com/products/harmonic-bloom-by-sonora-cinematic"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/harmonic-bloom-by-sonora-cinematic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

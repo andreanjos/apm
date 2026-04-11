@@ -1,24 +1,25 @@
-slug        = "schroeder-reverb"
-name        = "Schroeder Reverb"
-vendor      = "DiscoDSP"
-version     = "2.0"
-description = "Digital reverb plugin based on Schroeder comb/all-pass filter topology with 8x oversampling."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.discodsp.com/fx/"
-is_paid     = true
+slug         = "schroeder-reverb"
+name         = "Schroeder Reverb"
+vendor       = "DiscoDSP"
+version      = "2.0"
+description  = "Digital reverb plugin based on Schroeder comb/all-pass filter topology with 8x oversampling."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.discodsp.com/fx/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.discodsp.com/fx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.discodsp.com/fx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.discodsp.com/fx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.discodsp.com/fx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

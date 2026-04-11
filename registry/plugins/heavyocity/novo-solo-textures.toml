@@ -1,26 +1,27 @@
-slug        = "novo-solo-textures"
-name        = "NOVO Solo Textures"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Solo string texture instrument delivering intimate, processed solo string sounds for detailed cinematic scoring."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/novo-solo-textures"
+slug         = "novo-solo-textures"
+name         = "NOVO Solo Textures"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Solo string texture instrument delivering intimate, processed solo string sounds for detailed cinematic scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/novo-solo-textures"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11984-NOVO-Solo-Textures?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/novo-solo-textures"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/novo-solo-textures"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/novo-solo-textures"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/novo-solo-textures"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

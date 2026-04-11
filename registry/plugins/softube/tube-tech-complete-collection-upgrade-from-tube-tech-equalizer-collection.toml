@@ -1,26 +1,27 @@
-slug        = "tube-tech-complete-collection-upgrade-from-tube-tech-equalizer-collection"
-name        = "Tube-Tech Complete Collection Upgrade from Tube-Tech Equalizer Collection"
-vendor      = "Softube"
-version     = "2.6"
-description = "Upgrade to Tube-Tech Complete Collection from the Tube-Tech Equalizer Collection bundle."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
-is_paid     = true
+slug         = "tube-tech-complete-collection-upgrade-from-tube-tech-equalizer-collection"
+name         = "Tube-Tech Complete Collection Upgrade from Tube-Tech Equalizer Collection"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Upgrade to Tube-Tech Complete Collection from the Tube-Tech Equalizer Collection bundle."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "fabricverb"
-name        = "Fabricverb"
-vendor      = "Vegas Audio"
-version     = "1.0"
-description = "Fabric-inspired reverb plugin by Vegas Audio with unique textured spatial effects."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://vegasaudio.com/"
-is_paid     = true
+slug         = "fabricverb"
+name         = "Fabricverb"
+vendor       = "Vegas Audio"
+version      = "1.0"
+description  = "Fabric-inspired reverb plugin by Vegas Audio with unique textured spatial effects."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://vegasaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://vegasaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://vegasaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://vegasaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://vegasaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "blue-tubes-limiter-fa770"
-name        = "Blue Tubes Limiter FA770"
-vendor      = "Nomad Factory"
-version     = "1.0.0"
-description = "Analog limiter plugin from the Blue Tubes series modeled on vintage hardware for transparent peak control."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.nomadfactory.com/products/p423-Blue-Tubes-Limiter-FA770/"
-is_paid     = true
+slug         = "blue-tubes-limiter-fa770"
+name         = "Blue Tubes Limiter FA770"
+vendor       = "Nomad Factory"
+version      = "1.0.0"
+description  = "Analog limiter plugin from the Blue Tubes series modeled on vintage hardware for transparent peak control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.nomadfactory.com/products/p423-Blue-Tubes-Limiter-FA770/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.nomadfactory.com/products/p423-Blue-Tubes-Limiter-FA770/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p423-Blue-Tubes-Limiter-FA770/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.nomadfactory.com/products/p423-Blue-Tubes-Limiter-FA770/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p423-Blue-Tubes-Limiter-FA770/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

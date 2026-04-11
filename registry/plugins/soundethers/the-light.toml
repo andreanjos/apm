@@ -1,25 +1,26 @@
-slug        = "the-light"
-name        = "The Light"
-vendor      = "Soundethers"
-version     = "1.0.0"
-description = "Kontakt library of 75 patches from 25 deep tuned field recordings and tonal textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundethers.wixsite.com/soundethers"
-is_paid     = true
+slug         = "the-light"
+name         = "The Light"
+vendor       = "Soundethers"
+version      = "1.0.0"
+description  = "Kontakt library of 75 patches from 25 deep tuned field recordings and tonal textures."
+category     = "instruments"
+product_type = "preset_pack"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundethers.wixsite.com/soundethers"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundethers.wixsite.com/soundethers"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundethers.wixsite.com/soundethers"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundethers.wixsite.com/soundethers"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundethers.wixsite.com/soundethers"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "vaporizer-2"
-name        = "Vaporizer 2"
-vendor      = "Vast Dynamics"
-version     = "3.5"
-description = "VAST Dynamics Vaporizer 2 is a free open-source hybrid wavetable additive synthesizer."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.vast-dynamics.com/?q=products"
-is_paid     = true
+slug         = "vaporizer-2"
+name         = "Vaporizer 2"
+vendor       = "Vast Dynamics"
+version      = "3.5"
+description  = "VAST Dynamics Vaporizer 2 is a free open-source hybrid wavetable additive synthesizer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.vast-dynamics.com/?q=products"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.vast-dynamics.com/?q=products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.vast-dynamics.com/?q=products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.vast-dynamics.com/?q=products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.vast-dynamics.com/?q=products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

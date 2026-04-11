@@ -1,26 +1,27 @@
-slug        = "ds-2500"
-name        = "DS 2500"
-vendor      = "Loot Audio"
-version     = "1.0.0"
-description = "Kontakt recreation of the rare Seiko DS250 additive synthesizer with enhanced controls and FX section."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.lootaudio.com/category/kontakt-instruments/castle-instruments/ds-2500-seiko-kontakt-synth"
+slug         = "ds-2500"
+name         = "DS 2500"
+vendor       = "Loot Audio"
+version      = "1.0.0"
+description  = "Kontakt recreation of the rare Seiko DS250 additive synthesizer with enhanced controls and FX section."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.lootaudio.com/category/kontakt-instruments/castle-instruments/ds-2500-seiko-kontakt-synth"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9759-DS-2500?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.lootaudio.com/category/kontakt-instruments/castle-instruments/ds-2500-seiko-kontakt-synth"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/category/kontakt-instruments/castle-instruments/ds-2500-seiko-kontakt-synth"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.lootaudio.com/category/kontakt-instruments/castle-instruments/ds-2500-seiko-kontakt-synth"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/category/kontakt-instruments/castle-instruments/ds-2500-seiko-kontakt-synth"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

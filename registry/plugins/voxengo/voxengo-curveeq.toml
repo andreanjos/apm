@@ -1,24 +1,27 @@
-slug        = "voxengo-curveeq"
-name        = "CurveEQ"
-vendor      = "Voxengo"
-version     = "3.15"
-description = "Spline-based equalizer for mastering with spectrum matching, linear-phase mode, and a smooth freehand EQ curve editor for precise frequency shaping."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = ["eq", "spline", "mastering", "spectrum-matching", "linear-phase", "precision", "freehand", "analysis"]
-homepage    = "https://www.voxengo.com/product/curveeq/"
+slug         = "voxengo-curveeq"
+name         = "CurveEQ"
+vendor       = "Voxengo"
+version      = "3.15"
+description  = "Spline-based equalizer for mastering with spectrum matching, linear-phase mode, and a smooth freehand EQ curve editor for precise frequency shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = ["eq", "spline", "mastering", "spectrum-matching", "linear-phase", "precision", "freehand", "analysis"]
+aliases      = ["curveeq"]
+homepage     = "https://www.voxengo.com/product/curveeq/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.voxengo.com/product/curveeq/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://www.voxengo.com/product/curveeq/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "VoxengoCurveEQ.vst3"
+bundle_path   = "VoxengoCurveEQ.vst3"
 
 [formats.au]
-url          = "https://www.voxengo.com/product/curveeq/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://www.voxengo.com/product/curveeq/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "VoxengoCurveEQ.component"
+bundle_path   = "VoxengoCurveEQ.component"

@@ -1,25 +1,26 @@
-slug        = "sirenfx-generators-bundle"
-name        = "SirenFX Generators Bundle"
-vendor      = "SirenFX"
-version     = "1.1.0"
-description = "Bundle of SirenFX natural ambience generator plugins including WindGen, RainGen, and Black Noise."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kvraudio.com/developer/sirenfx"
-is_paid     = true
+slug         = "sirenfx-generators-bundle"
+name         = "SirenFX Generators Bundle"
+vendor       = "SirenFX"
+version      = "1.1.0"
+description  = "Bundle of SirenFX natural ambience generator plugins including WindGen, RainGen, and Black Noise."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kvraudio.com/developer/sirenfx"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kvraudio.com/developer/sirenfx"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/developer/sirenfx"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kvraudio.com/developer/sirenfx"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/developer/sirenfx"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

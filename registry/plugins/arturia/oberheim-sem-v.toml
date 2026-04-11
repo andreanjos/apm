@@ -1,26 +1,27 @@
-slug        = "oberheim-sem-v"
-name        = "Oberheim SEM V"
-vendor      = "Arturia"
-version     = "3.5.0"
-description = "Emulation of the classic Oberheim Synthesizer Expander Module (SEM) analog voice."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-instruments/semv/overview"
-is_paid     = true
+slug         = "oberheim-sem-v"
+name         = "Oberheim SEM V"
+vendor       = "Arturia"
+version      = "3.5.0"
+description  = "Emulation of the classic Oberheim Synthesizer Expander Module (SEM) analog voice."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-instruments/semv/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-instruments/semv/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/semv/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-instruments/semv/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/semv/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

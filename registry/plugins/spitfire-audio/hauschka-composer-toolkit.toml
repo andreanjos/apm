@@ -1,26 +1,27 @@
-slug        = "hauschka-composer-toolkit"
-name        = "Hauschka Composer Toolkit"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Oscar-winning composer Hauschka's prepared Steinway toolkit recorded at Berlin's legendary Voxton Studios."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/hauschka-composer-toolkit"
-is_paid     = true
+slug         = "hauschka-composer-toolkit"
+name         = "Hauschka Composer Toolkit"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Oscar-winning composer Hauschka's prepared Steinway toolkit recorded at Berlin's legendary Voxton Studios."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/hauschka-composer-toolkit"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/hauschka-composer-toolkit"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/hauschka-composer-toolkit"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/hauschka-composer-toolkit"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/hauschka-composer-toolkit"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

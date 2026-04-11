@@ -1,25 +1,26 @@
-slug        = "maliki"
-name        = "Maliki"
-vendor      = "Audiority"
-version     = "1.0.0"
-description = "Kontakt instrument library featuring epic acoustic and hybrid drum loops arranged across 20 themes."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiority.com/shop/maliki/"
-is_paid     = true
+slug         = "maliki"
+name         = "Maliki"
+vendor       = "Audiority"
+version      = "1.0.0"
+description  = "Kontakt instrument library featuring epic acoustic and hybrid drum loops arranged across 20 themes."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiority.com/shop/maliki/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiority.com/shop/maliki/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiority.com/shop/maliki/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiority.com/shop/maliki/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiority.com/shop/maliki/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

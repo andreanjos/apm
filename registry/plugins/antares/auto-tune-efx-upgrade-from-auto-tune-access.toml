@@ -1,24 +1,25 @@
-slug        = "auto-tune-efx-upgrade-from-auto-tune-access"
-name        = "Auto-Tune EFX+ Upgrade from Auto-Tune Access"
-vendor      = "Antares"
-version     = "1.0.0"
-description = "Upgrade path from Auto-Tune Access to EFX+ adding vocal effects, doubling and vocoding."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.antarestech.com/products/auto-tune/efx-plus"
-is_paid     = true
+slug         = "auto-tune-efx-upgrade-from-auto-tune-access"
+name         = "Auto-Tune EFX+ Upgrade from Auto-Tune Access"
+vendor       = "Antares"
+version      = "1.0.0"
+description  = "Upgrade path from Auto-Tune Access to EFX+ adding vocal effects, doubling and vocoding."
+category     = "effects"
+product_type = "upgrade"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.antarestech.com/products/auto-tune/efx-plus"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.antarestech.com/products/auto-tune/efx-plus"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/auto-tune/efx-plus"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.antarestech.com/products/auto-tune/efx-plus"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/auto-tune/efx-plus"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "spitfire-harpsichord"
-name        = "Spitfire Harpsichord"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Classically sampled harpsichord recorded at AIR Studios for authentic baroque and cinematic keyboard textures."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/spitfire-harpsichord/"
-is_paid     = true
+slug         = "spitfire-harpsichord"
+name         = "Spitfire Harpsichord"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Classically sampled harpsichord recorded at AIR Studios for authentic baroque and cinematic keyboard textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/spitfire-harpsichord/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/spitfire-harpsichord/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/spitfire-harpsichord/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/spitfire-harpsichord/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/spitfire-harpsichord/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "bass-pack-for-kemper"
-name        = "Bass Pack for Kemper"
-vendor      = "Hertz Instruments"
-version     = "1.0.0"
-description = "28 professional Kemper bass profiles created at Hertz Studio covering clean, crunch, and drive tones."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://hertzinstruments.com/kemper/kemper-bass-pack/"
+slug         = "bass-pack-for-kemper"
+name         = "Bass Pack for Kemper"
+vendor       = "Hertz Instruments"
+version      = "1.0.0"
+description  = "28 professional Kemper bass profiles created at Hertz Studio covering clean, crunch, and drive tones."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://hertzinstruments.com/kemper/kemper-bass-pack/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/13338-Bass-Pack-for-Kemper?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hertzinstruments.com/kemper/kemper-bass-pack/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/kemper/kemper-bass-pack/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hertzinstruments.com/kemper/kemper-bass-pack/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/kemper/kemper-bass-pack/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

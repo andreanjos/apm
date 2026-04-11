@@ -1,24 +1,27 @@
-slug        = "devious-machines-texture"
-name        = "Texture"
-vendor      = "Devious Machines"
-version     = "1.8.17"
-description = "Granular re-synthesis effect generating new sound layers tracking incoming audio dynamics with 340+ built-in sound sources."
-category    = "effects"
-subcategory = "granular"
-license     = "commercial"
-tags        = ["granular", "resynthesis", "layering", "sound-design", "creative"]
-homepage    = "https://deviousmachines.com/product/texture/"
+slug         = "devious-machines-texture"
+name         = "Texture"
+vendor       = "Devious Machines"
+version      = "1.8.17"
+description  = "Granular re-synthesis effect generating new sound layers tracking incoming audio dynamics with 340+ built-in sound sources."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "granular"
+license      = "commercial"
+tags         = ["granular", "resynthesis", "layering", "sound-design", "creative"]
+aliases      = ["texture"]
+homepage     = "https://deviousmachines.com/product/texture/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://deviousmachines.com/texture-downloads/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://deviousmachines.com/texture-downloads/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Texture.vst3"
+bundle_path   = "Texture.vst3"
 
 [formats.au]
-url          = "https://deviousmachines.com/texture-downloads/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://deviousmachines.com/texture-downloads/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Texture.component"
+bundle_path   = "Texture.component"

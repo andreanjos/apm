@@ -1,26 +1,27 @@
-slug        = "volume-5-bundle"
-name        = "Volume 5 Bundle"
-vendor      = "Softube"
-version     = "2.6"
-description = "Comprehensive plugin bundle featuring Softube's Volume 5 collection of mixing and mastering tools."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins"
-is_paid     = true
+slug         = "volume-5-bundle"
+name         = "Volume 5 Bundle"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Comprehensive plugin bundle featuring Softube's Volume 5 collection of mixing and mastering tools."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

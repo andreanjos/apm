@@ -1,25 +1,26 @@
-slug        = "true-252"
-name        = "True 252"
-vendor      = "Kazrog"
-version     = "1.0.0"
-description = "7-band graphic EQ emulation of the Langevin 252-A with rich curves and gentle saturation."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://kazrog.com/collections/audio-plugins/products/true-252"
-is_paid     = true
+slug         = "true-252"
+name         = "True 252"
+vendor       = "Kazrog"
+version      = "1.0.0"
+description  = "7-band graphic EQ emulation of the Langevin 252-A with rich curves and gentle saturation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://kazrog.com/collections/audio-plugins/products/true-252"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://kazrog.com/collections/audio-plugins/products/true-252"
-sha256       = ""
-install_type = "zip"
+url           = "https://kazrog.com/collections/audio-plugins/products/true-252"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://kazrog.com/collections/audio-plugins/products/true-252"
-sha256       = ""
-install_type = "zip"
+url           = "https://kazrog.com/collections/audio-plugins/products/true-252"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

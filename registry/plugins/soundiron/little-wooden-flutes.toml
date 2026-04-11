@@ -1,25 +1,26 @@
-slug        = "little-wooden-flutes"
-name        = "Little Wooden Flutes"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Collection of small folk wooden flutes sampled in Kontakt with airy, organic tones."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/little-wooden-flutes"
-is_paid     = true
+slug         = "little-wooden-flutes"
+name         = "Little Wooden Flutes"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Collection of small folk wooden flutes sampled in Kontakt with airy, organic tones."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/little-wooden-flutes"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/little-wooden-flutes"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/little-wooden-flutes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/little-wooden-flutes"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/little-wooden-flutes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

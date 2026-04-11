@@ -1,26 +1,27 @@
-slug        = "vla-3a"
-name        = "VLA 3A"
-vendor      = "Black Rooster Audio"
-version     = "3.0.0"
-description = "Optoelectronic hybrid compressor combining optical sensing with discrete solid-state circuitry."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://blackroosteraudio.com/en/products/vla-3a"
+slug         = "vla-3a"
+name         = "VLA 3A"
+vendor       = "Black Rooster Audio"
+version      = "3.0.0"
+description  = "Optoelectronic hybrid compressor combining optical sensing with discrete solid-state circuitry."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://blackroosteraudio.com/en/products/vla-3a"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11333-VLA-3A?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://blackroosteraudio.com/en/products/vla-3a"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackroosteraudio.com/en/products/vla-3a"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://blackroosteraudio.com/en/products/vla-3a"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackroosteraudio.com/en/products/vla-3a"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

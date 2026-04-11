@@ -1,26 +1,27 @@
-slug        = "chants-chips-vol-1-micdrop-expansion"
-name        = "Chants Chips Vol 1 MicDrop Expansion"
-vendor      = "Soundlabs ai"
-version     = "Vol. 1"
-description = "MicDrop expansion pack adding chants and chiptune-inspired hybrid vocal models."
-category    = "effects"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundlabs.ai/collections/micdrop-packs"
+slug         = "chants-chips-vol-1-micdrop-expansion"
+name         = "Chants Chips Vol 1 MicDrop Expansion"
+vendor       = "Soundlabs ai"
+version      = "Vol. 1"
+description  = "MicDrop expansion pack adding chants and chiptune-inspired hybrid vocal models."
+category     = "effects"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundlabs.ai/collections/micdrop-packs"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/14490-Chants-Chips-Vol-1-MicDrop-Expansion?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundlabs.ai/collections/micdrop-packs"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundlabs.ai/collections/micdrop-packs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundlabs.ai/collections/micdrop-packs"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundlabs.ai/collections/micdrop-packs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

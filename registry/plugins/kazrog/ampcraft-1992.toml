@@ -1,25 +1,27 @@
-slug        = "ampcraft-1992"
-name        = "AmpCraft – 1992"
-vendor      = "Kazrog"
-version     = "1.0.0"
-description = "Analog guitar amp simulator plugin modeled after a classic 1992 amp circuit."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://kazrog.com/collections/audio-plugins/products/ampcraft-1992"
-is_paid     = true
+slug         = "ampcraft-1992"
+name         = "AmpCraft - 1992"
+vendor       = "Kazrog"
+version      = "1.0.0"
+description  = "Analog guitar amp simulator plugin modeled after a classic 1992 amp circuit."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+aliases      = ["ampcraft-8211-1992"]
+homepage     = "https://kazrog.com/collections/audio-plugins/products/ampcraft-1992"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://kazrog.com/collections/audio-plugins/products/ampcraft-1992"
-sha256       = ""
-install_type = "zip"
+url           = "https://kazrog.com/collections/audio-plugins/products/ampcraft-1992"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://kazrog.com/collections/audio-plugins/products/ampcraft-1992"
-sha256       = ""
-install_type = "zip"
+url           = "https://kazrog.com/collections/audio-plugins/products/ampcraft-1992"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

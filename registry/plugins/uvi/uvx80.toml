@@ -1,25 +1,26 @@
-slug        = "uvx80"
-name        = "UVX80"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Virtual instrument based on a rare early Japanese analog polysynth with 2-layer architecture and 250+ patches."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/uvx80"
-is_paid     = true
+slug         = "uvx80"
+name         = "UVX80"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Virtual instrument based on a rare early Japanese analog polysynth with 2-layer architecture and 250+ patches."
+category     = "instruments"
+product_type = "preset_pack"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/uvx80"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/uvx80"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/uvx80"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/uvx80"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/uvx80"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "sequencer-one"
-name        = "Sequencer One"
-vendor      = "Soundtrax"
-version     = "1.0.0"
-description = "Kontakt sequencer instrument combining step-sequenced playback with flexible sound design."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundtrax-kontakt.bandcamp.com/"
-is_paid     = true
+slug         = "sequencer-one"
+name         = "Sequencer One"
+vendor       = "Soundtrax"
+version      = "1.0.0"
+description  = "Kontakt sequencer instrument combining step-sequenced playback with flexible sound design."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundtrax-kontakt.bandcamp.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundtrax-kontakt.bandcamp.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundtrax-kontakt.bandcamp.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundtrax-kontakt.bandcamp.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundtrax-kontakt.bandcamp.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "tapes-from-the-attic"
-name        = "Tapes From The Attic"
-vendor      = "Beautiful Void Audio"
-version     = "1.0.0"
-description = "Omnisphere 2 preset library drawing on tape-warped, lo-fi sounds for atmospheric and cinematic production."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beautifulvoidaudio.com/"
-is_paid     = true
+slug         = "tapes-from-the-attic"
+name         = "Tapes From The Attic"
+vendor       = "Beautiful Void Audio"
+version      = "1.0.0"
+description  = "Omnisphere 2 preset library drawing on tape-warped, lo-fi sounds for atmospheric and cinematic production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beautifulvoidaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beautifulvoidaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beautifulvoidaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beautifulvoidaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beautifulvoidaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

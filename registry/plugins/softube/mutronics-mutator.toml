@@ -1,26 +1,27 @@
-slug        = "mutronics-mutator"
-name        = "Mutronics Mutator"
-vendor      = "Softube"
-version     = "2.6"
-description = "Analog filter and envelope follower plugin modeled on the classic Mutronics Mutator hardware unit."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/mutronics-mutator"
-is_paid     = true
+slug         = "mutronics-mutator"
+name         = "Mutronics Mutator"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Analog filter and envelope follower plugin modeled on the classic Mutronics Mutator hardware unit."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/mutronics-mutator"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/mutronics-mutator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/mutronics-mutator"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/mutronics-mutator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/mutronics-mutator"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

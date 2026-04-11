@@ -1,25 +1,26 @@
-slug        = "gothic-stage-choir"
-name        = "Gothic Stage Choir"
-vendor      = "Bela D Media"
-version     = "1.0.0"
-description = "Stage choir Kontakt library delivering powerful gothic and cinematic choral performances."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://beladmedia.com/gothic-stage-choir/"
-is_paid     = true
+slug         = "gothic-stage-choir"
+name         = "Gothic Stage Choir"
+vendor       = "Bela D Media"
+version      = "1.0.0"
+description  = "Stage choir Kontakt library delivering powerful gothic and cinematic choral performances."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://beladmedia.com/gothic-stage-choir/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://beladmedia.com/gothic-stage-choir/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/gothic-stage-choir/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://beladmedia.com/gothic-stage-choir/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/gothic-stage-choir/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "hard-rock-heroes-vol-2"
-name        = "Hard Rock Heroes Vol 2"
-vendor      = "Quantum DSP"
-version     = "2"
-description = "35 hybrid IR cabinet impulse responses delivering stadium-sized hard rock guitar tones."
-category    = "utility"
-subcategory = "impulse response"
-license     = "commercial"
-tags        = []
-homepage    = "https://quantumdsp.com/products/hard-rock-heroes-hybrid-ir%E2%84%A2"
+slug         = "hard-rock-heroes-vol-2"
+name         = "Hard Rock Heroes Vol 2"
+vendor       = "Quantum DSP"
+version      = "2"
+description  = "35 hybrid IR cabinet impulse responses delivering stadium-sized hard rock guitar tones."
+category     = "utility"
+product_type = "utility"
+subcategory  = "impulse response"
+license      = "commercial"
+tags         = []
+homepage     = "https://quantumdsp.com/products/hard-rock-heroes-hybrid-ir%E2%84%A2"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/17083-Hard-Rock-Heroes-Vol-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://quantumdsp.com/products/hard-rock-heroes-hybrid-ir%E2%84%A2"
-sha256       = ""
-install_type = "zip"
+url           = "https://quantumdsp.com/products/hard-rock-heroes-hybrid-ir%E2%84%A2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://quantumdsp.com/products/hard-rock-heroes-hybrid-ir%E2%84%A2"
-sha256       = ""
-install_type = "zip"
+url           = "https://quantumdsp.com/products/hard-rock-heroes-hybrid-ir%E2%84%A2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "cloudburst-acoustic"
-name        = "Cloudburst Acoustic"
-vendor      = "Iamlamprey"
-version     = "1.0.0"
-description = "Warm, pure acoustic guitar harmonics Kontakt library with a tone closer to piano than guitar."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.iamlamprey.com/products/cloudburst-acoustic"
+slug         = "cloudburst-acoustic"
+name         = "Cloudburst Acoustic"
+vendor       = "Iamlamprey"
+version      = "1.0.0"
+description  = "Warm, pure acoustic guitar harmonics Kontakt library with a tone closer to piano than guitar."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.iamlamprey.com/products/cloudburst-acoustic"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8079-Cloudburst-Acoustic?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.iamlamprey.com/products/cloudburst-acoustic"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.iamlamprey.com/products/cloudburst-acoustic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.iamlamprey.com/products/cloudburst-acoustic"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.iamlamprey.com/products/cloudburst-acoustic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

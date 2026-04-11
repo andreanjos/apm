@@ -1,26 +1,27 @@
-slug        = "supertap"
-name        = "SuperTap"
-vendor      = "Waves"
-version     = "14.0"
-description = "Six-tap delay plugin with individual control over time, pan, and amplitude per tap."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/supertap"
-is_paid     = true
+slug         = "supertap"
+name         = "SuperTap"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Six-tap delay plugin with individual control over time, pan, and amplitude per tap."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/supertap"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/supertap"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/supertap"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/supertap"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/supertap"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

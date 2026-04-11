@@ -1,25 +1,26 @@
-slug        = "riffendium-bass"
-name        = "Riffendium Bass"
-vendor      = "Audiofier"
-version     = "1.0"
-description = "Funky and soul electric bass guitar loops for Kontakt with amped and DI versions plus slap techniques."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiofier.co.uk/riffendium-bass/"
-is_paid     = true
+slug         = "riffendium-bass"
+name         = "Riffendium Bass"
+vendor       = "Audiofier"
+version      = "1.0"
+description  = "Funky and soul electric bass guitar loops for Kontakt with amped and DI versions plus slap techniques."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiofier.co.uk/riffendium-bass/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiofier.co.uk/riffendium-bass/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/riffendium-bass/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiofier.co.uk/riffendium-bass/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/riffendium-bass/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

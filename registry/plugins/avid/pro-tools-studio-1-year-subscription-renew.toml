@@ -1,26 +1,27 @@
-slug        = "pro-tools-studio-1-year-subscription-renew"
-name        = "Pro Tools Studio 1 Year Subscription Renew"
-vendor      = "Avid"
-version     = "2025.12.2"
-description = "One-year renewal subscription for Pro Tools Studio, Avid's mid-tier professional DAW."
-category    = "utility"
-subcategory = "daw"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.avid.com/pro-tools"
+slug         = "pro-tools-studio-1-year-subscription-renew"
+name         = "Pro Tools Studio 1 Year Subscription Renew"
+vendor       = "Avid"
+version      = "2025.12.2"
+description  = "One-year renewal subscription for Pro Tools Studio, Avid's mid-tier professional DAW."
+category     = "utility"
+product_type = "subscription"
+subcategory  = "daw"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.avid.com/pro-tools"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12675-Pro-Tools-Studio-1-Year-Subscription-Renew-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.avid.com/pro-tools"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.avid.com/pro-tools"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.avid.com/pro-tools"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.avid.com/pro-tools"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

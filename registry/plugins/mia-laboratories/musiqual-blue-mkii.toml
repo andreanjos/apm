@@ -1,25 +1,26 @@
-slug        = "musiqual-blue-mkii"
-name        = "Musiqual Blue MKII"
-vendor      = "MIA Laboratories"
-version     = "MKII"
-description = "MIA Laboratories Class A-style EQ, harmonic distortion, and compressor in one analog-flavored unit."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://mialaboratories.com/product/musiqual-blue-mkii/"
-is_paid     = true
+slug         = "musiqual-blue-mkii"
+name         = "Musiqual Blue MKII"
+vendor       = "MIA Laboratories"
+version      = "MKII"
+description  = "MIA Laboratories Class A-style EQ, harmonic distortion, and compressor in one analog-flavored unit."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://mialaboratories.com/product/musiqual-blue-mkii/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mialaboratories.com/product/musiqual-blue-mkii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mialaboratories.com/product/musiqual-blue-mkii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mialaboratories.com/product/musiqual-blue-mkii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mialaboratories.com/product/musiqual-blue-mkii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

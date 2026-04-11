@@ -1,26 +1,27 @@
-slug        = "teknocore-tekno-expansion-pack"
-name        = "Teknocore Tekno Expansion Pack"
-vendor      = "Baby Audio"
-version     = "1.0.0"
-description = "11 Tekno kits with 198 dark modern techno voices spanning minimal hardcore to experimental electronica."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://babyaud.io/tekno-expansion-packs"
+slug         = "teknocore-tekno-expansion-pack"
+name         = "Teknocore Tekno Expansion Pack"
+vendor       = "Baby Audio"
+version      = "1.0.0"
+description  = "11 Tekno kits with 198 dark modern techno voices spanning minimal hardcore to experimental electronica."
+category     = "instruments"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://babyaud.io/tekno-expansion-packs"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/16825-Teknocore-Tekno-Expansion-Pack?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://babyaud.io/tekno-expansion-packs"
-sha256       = ""
-install_type = "zip"
+url           = "https://babyaud.io/tekno-expansion-packs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://babyaud.io/tekno-expansion-packs"
-sha256       = ""
-install_type = "zip"
+url           = "https://babyaud.io/tekno-expansion-packs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

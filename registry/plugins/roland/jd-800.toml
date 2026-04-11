@@ -1,27 +1,28 @@
-slug        = "jd-800"
-name        = "JD 800"
-vendor      = "Roland"
-version     = "2.0"
-description = "Software recreation of Roland's 1991 JD-800 digital synthesizer with hands-on controls and LA synthesis."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-installer   = "roland-cloud"
-homepage    = "https://www.roland.com/us/products/rc_jd-800/"
+slug         = "jd-800"
+name         = "JD 800"
+vendor       = "Roland"
+version      = "2.0"
+description  = "Software recreation of Roland's 1991 JD-800 digital synthesizer with hands-on controls and LA synthesis."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+installer    = "roland-cloud"
+homepage     = "https://www.roland.com/us/products/rc_jd-800/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15315-JD-800?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.roland.com/us/products/rc_jd-800/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.roland.com/us/products/rc_jd-800/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.roland.com/us/products/rc_jd-800/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.roland.com/us/products/rc_jd-800/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

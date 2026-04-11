@@ -1,25 +1,26 @@
-slug        = "popcorn"
-name        = "PopCorn"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "A 2.2GB collection of pop construction kits spanning five decades for contemporary and retro pop production."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/popcorn"
-is_paid     = true
+slug         = "popcorn"
+name         = "PopCorn"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "A 2.2GB collection of pop construction kits spanning five decades for contemporary and retro pop production."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/popcorn"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/popcorn"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/popcorn"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/popcorn"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/popcorn"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

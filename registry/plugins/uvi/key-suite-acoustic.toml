@@ -1,25 +1,26 @@
-slug        = "key-suite-acoustic"
-name        = "Key Suite Acoustic"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Essential acoustic keys collection featuring 20 deeply sampled instruments from concert grands to metallophones."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/key-suite-acoustic"
-is_paid     = true
+slug         = "key-suite-acoustic"
+name         = "Key Suite Acoustic"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Essential acoustic keys collection featuring 20 deeply sampled instruments from concert grands to metallophones."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/key-suite-acoustic"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/key-suite-acoustic"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/key-suite-acoustic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/key-suite-acoustic"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/key-suite-acoustic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

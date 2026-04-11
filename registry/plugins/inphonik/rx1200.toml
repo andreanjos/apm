@@ -1,26 +1,27 @@
-slug        = "rx1200"
-name        = "RX1200"
-vendor      = "Inphonik"
-version     = "1.1.0"
-description = "12-bit sampler instrument emulating the classic E-mu SP-1200 drum machine and sampler."
-category    = "instruments"
-subcategory = "sampler"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.inphonik.com/products/rx1200-12bit-sampler-instrument/"
+slug         = "rx1200"
+name         = "RX1200"
+vendor       = "Inphonik"
+version      = "1.1.0"
+description  = "12-bit sampler instrument emulating the classic E-mu SP-1200 drum machine and sampler."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "sampler"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.inphonik.com/products/rx1200-12bit-sampler-instrument/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/10789-RX1200?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.inphonik.com/products/rx1200-12bit-sampler-instrument/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.inphonik.com/products/rx1200-12bit-sampler-instrument/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.inphonik.com/products/rx1200-12bit-sampler-instrument/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.inphonik.com/products/rx1200-12bit-sampler-instrument/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

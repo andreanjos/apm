@@ -1,25 +1,26 @@
-slug        = "cinematic-cymbals-bundle"
-name        = "Cinematic Cymbals Bundle"
-vendor      = "Have Audio"
-version     = "1.0.0"
-description = "Bundle of bowed cymbals, super ball, and extended technique cymbal textures for film composers."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://haveaudio.com/products/cinematic-cymbals-bundle"
-is_paid     = true
+slug         = "cinematic-cymbals-bundle"
+name         = "Cinematic Cymbals Bundle"
+vendor       = "Have Audio"
+version      = "1.0.0"
+description  = "Bundle of bowed cymbals, super ball, and extended technique cymbal textures for film composers."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://haveaudio.com/products/cinematic-cymbals-bundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://haveaudio.com/products/cinematic-cymbals-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/cinematic-cymbals-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://haveaudio.com/products/cinematic-cymbals-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/cinematic-cymbals-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

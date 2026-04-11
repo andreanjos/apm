@@ -1,26 +1,27 @@
-slug        = "disperser"
-name        = "Disperser"
-vendor      = "Kilohearts"
-version     = "2.4.6"
-description = "All-pass filter Snapin that adds frequency-dependent phase delay for smearing and transient shaping."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://kilohearts.com/products/disperser"
+slug         = "disperser"
+name         = "Disperser"
+vendor       = "Kilohearts"
+version      = "2.4.6"
+description  = "All-pass filter Snapin that adds frequency-dependent phase delay for smearing and transient shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://kilohearts.com/products/disperser"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/611-Disperser?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://kilohearts.com/products/disperser"
-sha256       = ""
-install_type = "zip"
+url           = "https://kilohearts.com/products/disperser"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://kilohearts.com/products/disperser"
-sha256       = ""
-install_type = "zip"
+url           = "https://kilohearts.com/products/disperser"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

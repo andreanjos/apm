@@ -1,26 +1,27 @@
-slug        = "aiyn-zahev-star-drive-for-novation-peak"
-name        = "Aiyn Zahev Star Drive for Novation Peak"
-vendor      = "Resonance Sound"
-version     = "1.0.0"
-description = "Synth preset collection for Novation Peak exploring cinematic and driving sound design."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.resonance-sound.com"
+slug         = "aiyn-zahev-star-drive-for-novation-peak"
+name         = "Aiyn Zahev Star Drive for Novation Peak"
+vendor       = "Resonance Sound"
+version      = "1.0.0"
+description  = "Synth preset collection for Novation Peak exploring cinematic and driving sound design."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.resonance-sound.com"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/4824-Aiyn-Zahev-Star-Drive-for-Novation-Peak?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.resonance-sound.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.resonance-sound.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.resonance-sound.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.resonance-sound.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

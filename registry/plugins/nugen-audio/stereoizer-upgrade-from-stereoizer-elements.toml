@@ -1,24 +1,25 @@
-slug        = "stereoizer-upgrade-from-stereoizer-elements"
-name        = "Stereoizer Upgrade from Stereoizer Elements"
-vendor      = "NUGEN Audio"
-version     = "1.0.0"
-description = "Upgrade from Stereoizer Elements to full Stereoizer for complete stereo widening capabilities."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/stereoizer/"
-is_paid     = true
+slug         = "stereoizer-upgrade-from-stereoizer-elements"
+name         = "Stereoizer Upgrade from Stereoizer Elements"
+vendor       = "NUGEN Audio"
+version      = "1.0.0"
+description  = "Upgrade from Stereoizer Elements to full Stereoizer for complete stereo widening capabilities."
+category     = "effects"
+product_type = "upgrade"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/stereoizer/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/stereoizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/stereoizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/stereoizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/stereoizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

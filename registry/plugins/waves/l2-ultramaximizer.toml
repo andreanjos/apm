@@ -1,26 +1,27 @@
-slug        = "l2-ultramaximizer"
-name        = "L2 Ultramaximizer"
-vendor      = "Waves"
-version     = "14.0"
-description = "Advanced peak limiter with look-ahead processing for transparent mastering limiting."
-category    = "effects"
-subcategory = "dynamic processor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/l2-ultramaximizer"
-is_paid     = true
+slug         = "l2-ultramaximizer"
+name         = "L2 Ultramaximizer"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Advanced peak limiter with look-ahead processing for transparent mastering limiting."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamic processor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/l2-ultramaximizer"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/l2-ultramaximizer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/l2-ultramaximizer"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/l2-ultramaximizer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/l2-ultramaximizer"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

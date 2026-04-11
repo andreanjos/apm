@@ -1,25 +1,27 @@
-slug        = "prodigious-orchestral-engine"
-name        = "Prodigious – Orchestral Engine"
-vendor      = "New Nation"
-version     = "1.0.0"
-description = "Orchestral rompler with 32 sampled instruments including strings, brass, woodwinds, and vocals."
-category    = "instruments"
-subcategory = "orchestral"
-license     = "commercial"
-tags        = []
-homepage    = "https://nnaud.io/"
-is_paid     = true
+slug         = "prodigious-orchestral-engine"
+name         = "Prodigious - Orchestral Engine"
+vendor       = "New Nation"
+version      = "1.0.0"
+description  = "Orchestral rompler with 32 sampled instruments including strings, brass, woodwinds, and vocals."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "orchestral"
+license      = "commercial"
+tags         = []
+aliases      = ["prodigious-8211-orchestral-engine"]
+homepage     = "https://nnaud.io/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nnaud.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nnaud.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nnaud.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nnaud.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

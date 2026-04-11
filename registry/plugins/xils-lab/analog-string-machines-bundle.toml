@@ -1,25 +1,26 @@
-slug        = "analog-string-machines-bundle"
-name        = "Analog String Machines Bundle"
-vendor      = "XILS Lab"
-version     = "1.0.0"
-description = "Bundle of two vintage string machine emulations — XILS V+ and XILS 505 — in a single license."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xils-lab.com/store/stringmachines/"
-is_paid     = true
+slug         = "analog-string-machines-bundle"
+name         = "Analog String Machines Bundle"
+vendor       = "XILS Lab"
+version      = "1.0.0"
+description  = "Bundle of two vintage string machine emulations - XILS V+ and XILS 505 - in a single license."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.xils-lab.com/store/stringmachines/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xils-lab.com/store/stringmachines/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xils-lab.com/store/stringmachines/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xils-lab.com/store/stringmachines/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xils-lab.com/store/stringmachines/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

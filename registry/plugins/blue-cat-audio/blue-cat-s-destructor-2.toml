@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-destructor-2"
-name        = "Blue Cat s Destructor 2"
-vendor      = "Blue Cat Audio"
-version     = "2.04"
-description = "Advanced distortion and amp simulator capable of replicating diverse distortion styles and guitar amp sounds."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_Destructor/"
+slug         = "blue-cat-s-destructor-2"
+name         = "Blue Cat s Destructor 2"
+vendor       = "Blue Cat Audio"
+version      = "2.04"
+description  = "Advanced distortion and amp simulator capable of replicating diverse distortion styles and guitar amp sounds."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_Destructor/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/11575-Blue-Cat-s-Destructor-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_Destructor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_Destructor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_Destructor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_Destructor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "kramer-pie-compressor"
-name        = "Kramer PIE Compressor"
-vendor      = "Waves"
-version     = "14.0"
-description = "Emulation of the classic Pye compressor as used by Eddie Kramer on legendary recordings."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/kramer-pie-compressor"
-is_paid     = true
+slug         = "kramer-pie-compressor"
+name         = "Kramer PIE Compressor"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Emulation of the classic Pye compressor as used by Eddie Kramer on legendary recordings."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/kramer-pie-compressor"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/kramer-pie-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/kramer-pie-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/kramer-pie-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/kramer-pie-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

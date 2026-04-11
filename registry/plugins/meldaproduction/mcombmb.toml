@@ -1,25 +1,26 @@
-slug        = "mcombmb"
-name        = "MCombMB"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Multi-comb filter plugin for creating unique moving textures and rhythmic pads with smart randomization."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MCombMB"
-is_paid     = true
+slug         = "mcombmb"
+name         = "MCombMB"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Multi-comb filter plugin for creating unique moving textures and rhythmic pads with smart randomization."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MCombMB"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MCombMB"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MCombMB"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MCombMB"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MCombMB"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

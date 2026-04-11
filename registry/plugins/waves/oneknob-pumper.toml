@@ -1,26 +1,27 @@
-slug        = "oneknob-pumper"
-name        = "OneKnob Pumper"
-vendor      = "Waves"
-version     = "14.0"
-description = "Single-knob sidechain pumping effect for instant dance music-style ducking."
-category    = "effects"
-subcategory = "envelope shaper"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/oneknob-pumper"
-is_paid     = true
+slug         = "oneknob-pumper"
+name         = "OneKnob Pumper"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Single-knob sidechain pumping effect for instant dance music-style ducking."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "envelope shaper"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/oneknob-pumper"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/oneknob-pumper"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/oneknob-pumper"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/oneknob-pumper"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/oneknob-pumper"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "budapest-abstract-marimba"
-name        = "Budapest Abstract Marimba"
-vendor      = "Karanyi Sounds"
-version     = "1.0"
-description = "Modern-sounding Kontakt marimba designed for fast sequences and cinematic tremolo beds."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://karanyisounds.com/product/budapest-abstract-marimba/"
-is_paid     = true
+slug         = "budapest-abstract-marimba"
+name         = "Budapest Abstract Marimba"
+vendor       = "Karanyi Sounds"
+version      = "1.0"
+description  = "Modern-sounding Kontakt marimba designed for fast sequences and cinematic tremolo beds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://karanyisounds.com/product/budapest-abstract-marimba/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://karanyisounds.com/product/budapest-abstract-marimba/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/budapest-abstract-marimba/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://karanyisounds.com/product/budapest-abstract-marimba/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/budapest-abstract-marimba/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

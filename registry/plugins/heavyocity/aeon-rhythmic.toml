@@ -1,25 +1,26 @@
-slug        = "aeon-rhythmic"
-name        = "AEON Rhythmic"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Loop-based rhythmic instrument with 400+ presets of tempo-synced organic and electronic grooves."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/aeon-rhythmic"
-is_paid     = true
+slug         = "aeon-rhythmic"
+name         = "AEON Rhythmic"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Loop-based rhythmic instrument with 400+ presets of tempo-synced organic and electronic grooves."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/aeon-rhythmic"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/aeon-rhythmic"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/aeon-rhythmic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/aeon-rhythmic"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/aeon-rhythmic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "vocalise-gravity-pack-02"
-name        = "Vocalise Gravity Pack 02"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "First-generation cinematic vocal instrument with pads, phrases, and textures via Heavyocity's GRAVITY engine."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/vocalise"
-is_paid     = true
+slug         = "vocalise-gravity-pack-02"
+name         = "Vocalise Gravity Pack 02"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "First-generation cinematic vocal instrument with pads, phrases, and textures via Heavyocity's GRAVITY engine."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/vocalise"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/vocalise"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/vocalise"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/vocalise"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/vocalise"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

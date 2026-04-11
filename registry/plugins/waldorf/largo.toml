@@ -1,25 +1,26 @@
-slug        = "largo"
-name        = "Largo"
-vendor      = "Waldorf"
-version     = "1.9"
-description = "Original Waldorf wavetable synthesizer plugin with Blofeld-inspired architecture and rich Waldorf sound character."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://waldorfmusic.com/"
-is_paid     = true
+slug         = "largo"
+name         = "Largo"
+vendor       = "Waldorf"
+version      = "1.9"
+description  = "Original Waldorf wavetable synthesizer plugin with Blofeld-inspired architecture and rich Waldorf sound character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://waldorfmusic.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://waldorfmusic.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://waldorfmusic.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://waldorfmusic.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://waldorfmusic.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

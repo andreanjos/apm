@@ -1,25 +1,26 @@
-slug        = "modern-mastering-bundle"
-name        = "Modern Mastering Bundle"
-vendor      = "NUGEN Audio"
-version     = "1.0.0"
-description = "A mastering bundle from NUGEN Audio including Visualizer, ISLst, and MasterCheck for streamlined workflows."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/modernmastering/"
-is_paid     = true
+slug         = "modern-mastering-bundle"
+name         = "Modern Mastering Bundle"
+vendor       = "NUGEN Audio"
+version      = "1.0.0"
+description  = "A mastering bundle from NUGEN Audio including Visualizer, ISLst, and MasterCheck for streamlined workflows."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/modernmastering/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/modernmastering/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/modernmastering/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/modernmastering/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/modernmastering/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "alimchord"
-name        = "Alimchord"
-vendor      = "SzcZ"
-version     = "1.0.0"
-description = "Imaginative Kontakt instrument based on kalimba sounds captured with contact microphones."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.lootaudio.com/category/kontakt-instruments/szcz"
-is_paid     = true
+slug         = "alimchord"
+name         = "Alimchord"
+vendor       = "SzcZ"
+version      = "1.0.0"
+description  = "Imaginative Kontakt instrument based on kalimba sounds captured with contact microphones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.lootaudio.com/category/kontakt-instruments/szcz"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.lootaudio.com/category/kontakt-instruments/szcz"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/category/kontakt-instruments/szcz"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.lootaudio.com/category/kontakt-instruments/szcz"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/category/kontakt-instruments/szcz"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

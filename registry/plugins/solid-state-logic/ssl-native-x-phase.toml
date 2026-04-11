@@ -1,26 +1,27 @@
-slug        = "ssl-native-x-phase"
-name        = "SSL Native X Phase"
-vendor      = "Solid State Logic"
-version     = "1.0.0"
-description = "SSL phase correction plugin for aligning microphone signals and correcting phase issues in recordings."
-category    = "utility"
-subcategory = "sound editor"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-phase"
+slug         = "ssl-native-x-phase"
+name         = "SSL Native X Phase"
+vendor       = "Solid State Logic"
+version      = "1.0.0"
+description  = "SSL phase correction plugin for aligning microphone signals and correcting phase issues in recordings."
+category     = "utility"
+product_type = "utility"
+subcategory  = "sound editor"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-phase"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/22-Sound-Editor/8666-SSL-Native-X-Phase?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-phase"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-phase"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-phase"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-phase"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

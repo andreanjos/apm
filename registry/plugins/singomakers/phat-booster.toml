@@ -1,26 +1,27 @@
-slug        = "phat-booster"
-name        = "Phat Booster"
-vendor      = "Singomakers"
-version     = "1.0.0"
-description = "Saturation plugin for adding fatness, warmth, and harmonic richness to tracks and busses."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = []
-homepage    = "http://www.singomakers.net/"
+slug         = "phat-booster"
+name         = "Phat Booster"
+vendor       = "Singomakers"
+version      = "1.0.0"
+description  = "Saturation plugin for adding fatness, warmth, and harmonic richness to tracks and busses."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = []
+homepage     = "http://www.singomakers.net/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/7118-Phat-Booster?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "http://www.singomakers.net/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.singomakers.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "http://www.singomakers.net/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.singomakers.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

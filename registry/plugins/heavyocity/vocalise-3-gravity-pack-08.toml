@@ -1,25 +1,26 @@
-slug        = "vocalise-3-gravity-pack-08"
-name        = "Vocalise 3 Gravity Pack 08"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Expanded cinematic vocal collection as a GRAVITY Pack with melodic phrases and ethereal soundscapes for scoring."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/vocalise-3"
-is_paid     = true
+slug         = "vocalise-3-gravity-pack-08"
+name         = "Vocalise 3 Gravity Pack 08"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Expanded cinematic vocal collection as a GRAVITY Pack with melodic phrases and ethereal soundscapes for scoring."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/vocalise-3"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/vocalise-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/vocalise-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/vocalise-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/vocalise-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

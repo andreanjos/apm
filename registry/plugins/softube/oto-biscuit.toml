@@ -1,26 +1,27 @@
-slug        = "oto-biscuit"
-name        = "OTO Biscuit"
-vendor      = "Softube"
-version     = "2.6"
-description = "8-bit effects processor plugin modeled on the OTO Biscuit for lo-fi bit-crushing and filtering."
-category    = "effects"
-subcategory = "lo-fi"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/oto-biscuit-8-bit-effects"
-is_paid     = true
+slug         = "oto-biscuit"
+name         = "OTO Biscuit"
+vendor       = "Softube"
+version      = "2.6"
+description  = "8-bit effects processor plugin modeled on the OTO Biscuit for lo-fi bit-crushing and filtering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "lo-fi"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/oto-biscuit-8-bit-effects"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/oto-biscuit-8-bit-effects"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/oto-biscuit-8-bit-effects"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/oto-biscuit-8-bit-effects"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/oto-biscuit-8-bit-effects"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

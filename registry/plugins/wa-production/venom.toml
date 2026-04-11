@@ -1,24 +1,25 @@
-slug        = "venom"
-name        = "Venom"
-vendor      = "WA Production"
-version     = "1.0.0"
-description = "A spectral processor that transforms audio from subtle granular movements to unrecognisable soundscapes."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/venom"
-is_paid     = true
+slug         = "venom"
+name         = "Venom"
+vendor       = "WA Production"
+version      = "1.0.0"
+description  = "A spectral processor that transforms audio from subtle granular movements to unrecognisable soundscapes."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/venom"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/venom"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/venom"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/venom"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/venom"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

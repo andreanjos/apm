@@ -1,26 +1,27 @@
-slug        = "tube-tech-cl-1b-mkii-compressor"
-name        = "Tube-Tech CL 1B MkII Compressor"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the Tube-Tech CL 1B MkII opto-compressor, a studio vocal and bus compressor."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/tube-tech-cl-1b-compressor.html"
-is_paid     = true
+slug         = "tube-tech-cl-1b-mkii-compressor"
+name         = "Tube-Tech CL 1B MkII Compressor"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the Tube-Tech CL 1B MkII opto-compressor, a studio vocal and bus compressor."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/compressors-limiters/tube-tech-cl-1b-compressor.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/tube-tech-cl-1b-compressor.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/tube-tech-cl-1b-compressor.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/tube-tech-cl-1b-compressor.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/tube-tech-cl-1b-compressor.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

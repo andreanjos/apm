@@ -1,26 +1,27 @@
-slug        = "nx-virtual-studio-collection"
-name        = "Nx Virtual Studio Collection"
-vendor      = "Waves"
-version     = "14.0"
-description = "Collection of Nx virtual studio monitoring environments for accurate headphone mixing."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/nx-virtual-studio-collection"
-is_paid     = true
+slug         = "nx-virtual-studio-collection"
+name         = "Nx Virtual Studio Collection"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Collection of Nx virtual studio monitoring environments for accurate headphone mixing."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/nx-virtual-studio-collection"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/nx-virtual-studio-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/nx-virtual-studio-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/nx-virtual-studio-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/nx-virtual-studio-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

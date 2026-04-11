@@ -1,26 +1,27 @@
-slug        = "tape-saturator"
-name        = "Tape Saturator"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "Tape saturation plugin modeling 1970s 1/4-inch 2-track machines with 5 fidelities and 6 tape speeds."
-category    = "effects"
-subcategory = "tape emulation"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/all-products/tape-saturator"
+slug         = "tape-saturator"
+name         = "Tape Saturator"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "Tape saturation plugin modeling 1970s 1/4-inch 2-track machines with 5 fidelities and 6 tape speeds."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "tape emulation"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/all-products/tape-saturator"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/16746-Tape-Saturator?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/all-products/tape-saturator"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/tape-saturator"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/all-products/tape-saturator"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/tape-saturator"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

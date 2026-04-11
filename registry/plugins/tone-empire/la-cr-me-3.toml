@@ -1,26 +1,27 @@
-slug        = "la-cr-me-3"
-name        = "La Cr me 3"
-vendor      = "Tone Empire"
-version     = "3"
-description = "Neural tube channel strip combining vari-mu compression, 4-band EQ, and 2-band stereo expander."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tone-empire.com/lacreme/"
+slug         = "la-cr-me-3"
+name         = "La Cr me 3"
+vendor       = "Tone Empire"
+version      = "3"
+description  = "Neural tube channel strip combining vari-mu compression, 4-band EQ, and 2-band stereo expander."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tone-empire.com/lacreme/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/16533-La-Cr-me-3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tone-empire.com/lacreme/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com/lacreme/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tone-empire.com/lacreme/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com/lacreme/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

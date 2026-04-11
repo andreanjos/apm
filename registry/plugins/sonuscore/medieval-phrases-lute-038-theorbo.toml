@@ -1,25 +1,26 @@
-slug        = "medieval-phrases-lute-038-theorbo"
-name        = "Medieval Phrases Lute &#038; Theorbo"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Phrase library of lute and theorbo performed by Attila Völgyi evoking medieval and Renaissance settings."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/medieval-phrases-lute-theorbo/"
-is_paid     = true
+slug         = "medieval-phrases-lute-038-theorbo"
+name         = "Medieval Phrases Lute & Theorbo"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Phrase library of lute and theorbo performed by Attila Völgyi evoking medieval and Renaissance settings."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/medieval-phrases-lute-theorbo/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/medieval-phrases-lute-theorbo/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/medieval-phrases-lute-theorbo/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/medieval-phrases-lute-theorbo/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/medieval-phrases-lute-theorbo/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

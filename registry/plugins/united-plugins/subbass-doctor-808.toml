@@ -1,26 +1,27 @@
-slug        = "subbass-doctor-808"
-name        = "SubBass Doctor 808"
-vendor      = "United Plugins"
-version     = "1.0.0"
-description = "Sub-bass treatment plugin filtering harmful low frequencies while adding parallel saturation for presence."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com/SubBassDoctor808/"
+slug         = "subbass-doctor-808"
+name         = "SubBass Doctor 808"
+vendor       = "United Plugins"
+version      = "1.0.0"
+description  = "Sub-bass treatment plugin filtering harmful low frequencies while adding parallel saturation for presence."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com/SubBassDoctor808/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/6472-SubBass-Doctor-808?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com/SubBassDoctor808/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/SubBassDoctor808/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com/SubBassDoctor808/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/SubBassDoctor808/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

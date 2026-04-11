@@ -1,25 +1,26 @@
-slug        = "cymbology"
-name        = "Cymbology"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Comprehensive Kontakt library of deeply sampled cymbals with extensive articulations and textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/cymbology"
-is_paid     = true
+slug         = "cymbology"
+name         = "Cymbology"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Comprehensive Kontakt library of deeply sampled cymbals with extensive articulations and textures."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/cymbology"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/cymbology"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/cymbology"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/cymbology"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/cymbology"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

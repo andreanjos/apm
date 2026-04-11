@@ -1,25 +1,26 @@
-slug        = "ascendance"
-name        = "Ascendance"
-vendor      = "Fallout Music"
-version     = "1.0.0"
-description = "Three-layer riser creator for Kontakt with 170+ source sounds for crafting cinematic build-ups."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://falloutmusicgroup.com/"
-is_paid     = true
+slug         = "ascendance"
+name         = "Ascendance"
+vendor       = "Fallout Music"
+version      = "1.0.0"
+description  = "Three-layer riser creator for Kontakt with 170+ source sounds for crafting cinematic build-ups."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://falloutmusicgroup.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://falloutmusicgroup.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://falloutmusicgroup.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://falloutmusicgroup.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://falloutmusicgroup.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

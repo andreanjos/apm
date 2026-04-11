@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-miaow-wah"
-name        = "Blue Cat s Miaow Wah"
-vendor      = "Blue Cat Audio"
-version     = "1.01"
-description = "Augmented virtual wah pedal simulating diverse wah types, auto filters, and modulation effects."
-category    = "effects"
-subcategory = "modulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_MiaowWah/"
+slug         = "blue-cat-s-miaow-wah"
+name         = "Blue Cat s Miaow Wah"
+vendor       = "Blue Cat Audio"
+version      = "1.01"
+description  = "Augmented virtual wah pedal simulating diverse wah types, auto filters, and modulation effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "modulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_MiaowWah/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/15200-Blue-Cat-s-Miaow-Wah?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_MiaowWah/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_MiaowWah/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_MiaowWah/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_MiaowWah/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

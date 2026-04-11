@@ -1,24 +1,25 @@
-slug        = "panorama"
-name        = "Panorama"
-vendor      = "Wave Arts"
-version     = "7.0"
-description = "Advanced panning and 3D audio positioning plugin for stereo and surround sound placement."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://wavearts.com/products/"
-is_paid     = true
+slug         = "panorama"
+name         = "Panorama"
+vendor       = "Wave Arts"
+version      = "7.0"
+description  = "Advanced panning and 3D audio positioning plugin for stereo and surround sound placement."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://wavearts.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://wavearts.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavearts.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://wavearts.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavearts.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

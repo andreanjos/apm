@@ -1,26 +1,27 @@
-slug        = "keyway-k30-expansion-pack-for-attracktive"
-name        = "Keyway K30 Expansion Pack for Attracktive"
-vendor      = "Tracktion"
-version     = "1.0.0"
-description = "Keyway K30 expansion pack for Attracktive featuring keyboard-focused instrument sounds."
-category    = "effects"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tracktion.com/products/attracktive"
+slug         = "keyway-k30-expansion-pack-for-attracktive"
+name         = "Keyway K30 Expansion Pack for Attracktive"
+vendor       = "Tracktion"
+version      = "1.0.0"
+description  = "Keyway K30 expansion pack for Attracktive featuring keyboard-focused instrument sounds."
+category     = "effects"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tracktion.com/products/attracktive"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/16850-Keyway-K30-Expansion-Pack-for-Attracktive-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tracktion.com/products/attracktive"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/attracktive"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tracktion.com/products/attracktive"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/attracktive"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

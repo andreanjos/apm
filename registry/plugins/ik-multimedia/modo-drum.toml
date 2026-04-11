@@ -1,25 +1,26 @@
-slug        = "modo-drum"
-name        = "MODO Drum"
-vendor      = "IK Multimedia"
-version     = "1.5"
-description = "Breakthrough physically modeled acoustic drum instrument fusing modal synthesis and advanced sampling."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/mododrum/"
-is_paid     = true
+slug         = "modo-drum"
+name         = "MODO Drum"
+vendor       = "IK Multimedia"
+version      = "1.5"
+description  = "Breakthrough physically modeled acoustic drum instrument fusing modal synthesis and advanced sampling."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/mododrum/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/mododrum/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/mododrum/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/mododrum/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/mododrum/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

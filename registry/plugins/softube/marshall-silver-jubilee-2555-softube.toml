@@ -1,26 +1,27 @@
-slug        = "marshall-silver-jubilee-2555-softube"
-name        = "Marshall Silver Jubilee 2555"
-vendor      = "Softube"
-version     = "2.6"
-description = "Amp simulator based on the Marshall Silver Jubilee 2555 for versatile clean to high-gain tones."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-silver-jubilee-2555"
-is_paid     = true
+slug         = "marshall-silver-jubilee-2555-softube"
+name         = "Marshall Silver Jubilee 2555"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Amp simulator based on the Marshall Silver Jubilee 2555 for versatile clean to high-gain tones."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-silver-jubilee-2555"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-silver-jubilee-2555"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-silver-jubilee-2555"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-silver-jubilee-2555"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-silver-jubilee-2555"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

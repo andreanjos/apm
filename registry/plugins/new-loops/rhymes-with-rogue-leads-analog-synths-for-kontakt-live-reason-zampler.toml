@@ -1,25 +1,27 @@
-slug        = "rhymes-with-rogue-leads-analog-synths-for-kontakt-live-reason-zampler"
-name        = "Rhymes with Rogue – Leads (Analog Synths for Kontakt, Live, Reason, Zampler)"
-vendor      = "New Loops"
-version     = "1.0.0"
-description = "Moog hardware synth multi-sample library with 2730 samples for Kontakt, Live, Reason, and Zampler."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://newloops.com/collections/kontakt-libraries/products/rhymes-with-rogue-leads"
-is_paid     = true
+slug         = "rhymes-with-rogue-leads-analog-synths-for-kontakt-live-reason-zampler"
+name         = "Rhymes with Rogue - Leads (Analog Synths for Kontakt, Live, Reason, Zampler)"
+vendor       = "New Loops"
+version      = "1.0.0"
+description  = "Moog hardware synth multi-sample library with 2730 samples for Kontakt, Live, Reason, and Zampler."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["rhymes-with-rogue-8211-leads-analog-synths-for-kontakt-live-reason-zampler"]
+homepage     = "https://newloops.com/collections/kontakt-libraries/products/rhymes-with-rogue-leads"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://newloops.com/collections/kontakt-libraries/products/rhymes-with-rogue-leads"
-sha256       = ""
-install_type = "zip"
+url           = "https://newloops.com/collections/kontakt-libraries/products/rhymes-with-rogue-leads"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://newloops.com/collections/kontakt-libraries/products/rhymes-with-rogue-leads"
-sha256       = ""
-install_type = "zip"
+url           = "https://newloops.com/collections/kontakt-libraries/products/rhymes-with-rogue-leads"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

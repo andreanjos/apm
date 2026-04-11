@@ -1,25 +1,26 @@
-slug        = "voicegate-2"
-name        = "VoiceGate 2"
-vendor      = "Accentize"
-version     = "2"
-description = "ML-based real-time noise gate trained on 100+ hours of human speech for clean voice recordings."
-category    = "effects"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.accentize.com/"
-is_paid     = true
+slug         = "voicegate-2"
+name         = "VoiceGate 2"
+vendor       = "Accentize"
+version      = "2"
+description  = "ML-based real-time noise gate trained on 100+ hours of human speech for clean voice recordings."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.accentize.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.accentize.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.accentize.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.accentize.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.accentize.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

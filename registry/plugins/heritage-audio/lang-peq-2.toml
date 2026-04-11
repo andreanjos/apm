@@ -1,26 +1,27 @@
-slug        = "lang-peq-2"
-name        = "LANG PEQ 2"
-vendor      = "Heritage Audio"
-version     = "1.0.0"
-description = "Plugin emulating the vintage Lang PEQ-2 program equalizer from the 1960s."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://users.heritageaudio.com/plugins/"
+slug         = "lang-peq-2"
+name         = "LANG PEQ 2"
+vendor       = "Heritage Audio"
+version      = "1.0.0"
+description  = "Plugin emulating the vintage Lang PEQ-2 program equalizer from the 1960s."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://users.heritageaudio.com/plugins/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14460-LANG-PEQ-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://users.heritageaudio.com/plugins/"
-sha256       = ""
-install_type = "zip"
+url           = "https://users.heritageaudio.com/plugins/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://users.heritageaudio.com/plugins/"
-sha256       = ""
-install_type = "zip"
+url           = "https://users.heritageaudio.com/plugins/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

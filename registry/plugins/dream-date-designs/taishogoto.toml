@@ -1,26 +1,27 @@
-slug        = "taishogoto"
-name        = "Taishogoto"
-vendor      = "Dream Date Designs"
-version     = "1.0"
-description = "Kontakt instrument faithfully sampling the Japanese taishogoto (taisho koto) string instrument."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://dreamdatedesigns.com/"
+slug         = "taishogoto"
+name         = "Taishogoto"
+vendor       = "Dream Date Designs"
+version      = "1.0"
+description  = "Kontakt instrument faithfully sampling the Japanese taishogoto (taisho koto) string instrument."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://dreamdatedesigns.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/14842-Taishogoto?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://dreamdatedesigns.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dreamdatedesigns.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://dreamdatedesigns.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dreamdatedesigns.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

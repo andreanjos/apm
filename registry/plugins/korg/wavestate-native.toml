@@ -1,26 +1,27 @@
-slug        = "wavestate-native"
-name        = "wavestate native"
-vendor      = "KORG"
-version     = "1.0.0"
-description = "Wave Sequencing 2.0 synthesizer plugin with 64-voice polyphony, based on the KORG wavestate."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.korg.com/us/products/software/wavestate_native/"
+slug         = "wavestate-native"
+name         = "wavestate native"
+vendor       = "KORG"
+version      = "1.0.0"
+description  = "Wave Sequencing 2.0 synthesizer plugin with 64-voice polyphony, based on the KORG wavestate."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.korg.com/us/products/software/wavestate_native/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11217-wavestate-native?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.korg.com/us/products/software/wavestate_native/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.korg.com/us/products/software/wavestate_native/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.korg.com/us/products/software/wavestate_native/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.korg.com/us/products/software/wavestate_native/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

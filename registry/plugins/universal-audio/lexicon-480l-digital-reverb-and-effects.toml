@@ -1,25 +1,26 @@
-slug        = "lexicon-480l-digital-reverb-and-effects"
-name        = "Lexicon 480L Digital Reverb and Effects"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the Lexicon 480L, the industry-standard digital reverb and effects processor."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/reverbs/lexicon-480l-digital-reverb.html"
-is_paid     = true
+slug         = "lexicon-480l-digital-reverb-and-effects"
+name         = "Lexicon 480L Digital Reverb and Effects"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the Lexicon 480L, the industry-standard digital reverb and effects processor."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/reverbs/lexicon-480l-digital-reverb.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/reverbs/lexicon-480l-digital-reverb.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/reverbs/lexicon-480l-digital-reverb.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/reverbs/lexicon-480l-digital-reverb.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/reverbs/lexicon-480l-digital-reverb.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

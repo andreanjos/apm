@@ -1,26 +1,27 @@
-slug        = "recoil"
-name        = "Recoil"
-vendor      = "Boz Digital Labs"
-version     = "1.0.0"
-description = "Spring reverb plugin delivering authentic spring reverb sound with each spring panned for natural stereo width."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozdigitallabs.com/product/recoil/"
+slug         = "recoil"
+name         = "Recoil"
+vendor       = "Boz Digital Labs"
+version      = "1.0.0"
+description  = "Spring reverb plugin delivering authentic spring reverb sound with each spring panned for natural stereo width."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bozdigitallabs.com/product/recoil/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/10341-Recoil?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozdigitallabs.com/product/recoil/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/recoil/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozdigitallabs.com/product/recoil/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/recoil/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "twangstr-m"
-name        = "Twangstr m"
-vendor      = "u he"
-version     = "1.0.0"
-description = "Spring reverb plugin modeling the characteristic twang of analog spring reverb tanks."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://u-he.com/products/twangstrom/"
+slug         = "twangstr-m"
+name         = "Twangstr m"
+vendor       = "u he"
+version      = "1.0.0"
+description  = "Spring reverb plugin modeling the characteristic twang of analog spring reverb tanks."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://u-he.com/products/twangstrom/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/5024-Twangstr-m?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://u-he.com/products/twangstrom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://u-he.com/products/twangstrom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://u-he.com/products/twangstrom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://u-he.com/products/twangstrom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "bleass-dragonfly"
-name        = "BLEASS Dragonfly"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "Innovative tremolo effect that modulates sound against its own frequencies or external audio sources."
-category    = "effects"
-subcategory = "tremolo"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/dragonfly/"
+slug         = "bleass-dragonfly"
+name         = "BLEASS Dragonfly"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "Innovative tremolo effect that modulates sound against its own frequencies or external audio sources."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "tremolo"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/dragonfly/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/40-Tremolo/8261-BLEASS-Dragonfly?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/dragonfly/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/dragonfly/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/dragonfly/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/dragonfly/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

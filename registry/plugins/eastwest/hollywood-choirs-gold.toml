@@ -1,25 +1,26 @@
-slug        = "hollywood-choirs-gold"
-name        = "Hollywood Choirs Gold"
-vendor      = "EastWest"
-version     = "1.0.0"
-description = "Award-winning virtual choir library with professional ensemble recordings for film scoring."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/vocals/hollywood-choirs"
-is_paid     = true
+slug         = "hollywood-choirs-gold"
+name         = "Hollywood Choirs Gold"
+vendor       = "EastWest"
+version      = "1.0.0"
+description  = "Award-winning virtual choir library with professional ensemble recordings for film scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/vocals/hollywood-choirs"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/vocals/hollywood-choirs"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/vocals/hollywood-choirs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/vocals/hollywood-choirs"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/vocals/hollywood-choirs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

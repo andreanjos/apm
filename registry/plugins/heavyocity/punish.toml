@@ -1,26 +1,27 @@
-slug        = "punish"
-name        = "PUNISH"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Multi-effect dynamics plugin with three compressor models, three saturation models, transient shaper, and EQ."
-category    = "effects"
-subcategory = "dynamics processor"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/punish"
+slug         = "punish"
+name         = "PUNISH"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Multi-effect dynamics plugin with three compressor models, three saturation models, transient shaper, and EQ."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamics processor"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/punish"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/2948-PUNISH?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/punish"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/punish"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/punish"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/punish"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

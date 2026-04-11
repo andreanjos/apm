@@ -1,26 +1,27 @@
-slug        = "punchbox"
-name        = "PunchBOX"
-vendor      = "D16 Group"
-version     = "1.0.8"
-description = "Kick drum synthesizer and sampler combining synthesis with 1100 samples and 800 presets."
-category    = "instruments"
-subcategory = "generator"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/punchbox"
+slug         = "punchbox"
+name         = "PunchBOX"
+vendor       = "D16 Group"
+version      = "1.0.8"
+description  = "Kick drum synthesizer and sampler combining synthesis with 1100 samples and 800 presets."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "generator"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/punchbox"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/2485-PunchBOX?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/punchbox"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/punchbox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/punchbox"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/punchbox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

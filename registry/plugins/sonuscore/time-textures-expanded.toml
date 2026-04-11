@@ -1,26 +1,27 @@
-slug        = "time-textures-expanded"
-name        = "Time Textures Expanded"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Expanded orchestral texture engine with 360+ presets and 12 additional instruments including Persian strings."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/time-textures-expanded/"
+slug         = "time-textures-expanded"
+name         = "Time Textures Expanded"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Expanded orchestral texture engine with 360+ presets and 12 additional instruments including Persian strings."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/time-textures-expanded/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13491-Time-Textures-Expanded?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/time-textures-expanded/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/time-textures-expanded/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/time-textures-expanded/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/time-textures-expanded/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

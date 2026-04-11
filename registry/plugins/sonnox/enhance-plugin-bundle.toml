@@ -1,25 +1,26 @@
-slug        = "enhance-plugin-bundle"
-name        = "Enhance Plugin Bundle"
-vendor      = "Sonnox"
-version     = "1.0.0"
-description = "Sonnox Enhance Bundle with Oxford Inflator, Limiter, and TransMod for loudness, punch, and clarity."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/products/sonnox-enhance-bundle"
-is_paid     = true
+slug         = "enhance-plugin-bundle"
+name         = "Enhance Plugin Bundle"
+vendor       = "Sonnox"
+version      = "1.0.0"
+description  = "Sonnox Enhance Bundle with Oxford Inflator, Limiter, and TransMod for loudness, punch, and clarity."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonnox.com/products/sonnox-enhance-bundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/products/sonnox-enhance-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/sonnox-enhance-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/products/sonnox-enhance-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/sonnox-enhance-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

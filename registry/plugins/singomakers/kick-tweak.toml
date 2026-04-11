@@ -1,26 +1,27 @@
-slug        = "kick-tweak"
-name        = "Kick Tweak"
-vendor      = "Singomakers"
-version     = "1.0.0"
-description = "Kick drum enhancer plugin for adding punch, attack, and sub-frequency depth to kick sounds."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-homepage    = "http://www.singomakers.net/"
+slug         = "kick-tweak"
+name         = "Kick Tweak"
+vendor       = "Singomakers"
+version      = "1.0.0"
+description  = "Kick drum enhancer plugin for adding punch, attack, and sub-frequency depth to kick sounds."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+homepage     = "http://www.singomakers.net/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/3425-Kick-Tweak?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "http://www.singomakers.net/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.singomakers.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "http://www.singomakers.net/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.singomakers.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

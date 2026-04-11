@@ -1,26 +1,27 @@
-slug        = "cinestrings-runs"
-name        = "CineStrings Runs"
-vendor      = "Cinesamples"
-version     = "1.0.0"
-description = "Dedicated string runs library offering fast, realistic ascending and descending scale passages."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/cinestrings-runs"
+slug         = "cinestrings-runs"
+name         = "CineStrings Runs"
+vendor       = "Cinesamples"
+version      = "1.0.0"
+description  = "Dedicated string runs library offering fast, realistic ascending and descending scale passages."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/cinestrings-runs"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11254-CineStrings-Runs?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/cinestrings-runs"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/cinestrings-runs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/cinestrings-runs"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/cinestrings-runs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

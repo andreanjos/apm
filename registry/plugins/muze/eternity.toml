@@ -1,26 +1,27 @@
-slug        = "eternity"
-name        = "Eternity"
-vendor      = "Muze"
-version     = "1.0.0"
-description = "Meticulously recorded Steinway Model D concert grand piano with ten microphone positions for Kontakt."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.muze.shop/en/index.php?route=product/product&product_id=68"
+slug         = "eternity"
+name         = "Eternity"
+vendor       = "Muze"
+version      = "1.0.0"
+description  = "Meticulously recorded Steinway Model D concert grand piano with ten microphone positions for Kontakt."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.muze.shop/en/index.php?route=product/product&product_id=68"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10620-Eternity?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.muze.shop/en/index.php?route=product/product&product_id=68"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muze.shop/en/index.php?route=product/product&product_id=68"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.muze.shop/en/index.php?route=product/product&product_id=68"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muze.shop/en/index.php?route=product/product&product_id=68"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

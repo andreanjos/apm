@@ -1,26 +1,27 @@
-slug        = "esspresso"
-name        = "Esspresso"
-vendor      = "Klevgrand"
-version     = "1.2"
-description = "A professional de-esser with decoupled detection and suppression frequency ranges for precise sibilance control."
-category    = "effects"
-subcategory = "de esser"
-license     = "commercial"
-tags        = []
-homepage    = "https://klevgrand.com/products/esspresso"
+slug         = "esspresso"
+name         = "Esspresso"
+vendor       = "Klevgrand"
+version      = "1.2"
+description  = "A professional de-esser with decoupled detection and suppression frequency ranges for precise sibilance control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de esser"
+license      = "commercial"
+tags         = []
+homepage     = "https://klevgrand.com/products/esspresso"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/8702-Esspresso?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klevgrand.com/products/esspresso"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/esspresso"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klevgrand.com/products/esspresso"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/esspresso"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "clarity"
-name        = "Clarity"
-vendor      = "Bass Gnomes"
-version     = "2.0"
-description = "Free VST enhancer that uses phase shifting to add clarity and presence to audio signals."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-homepage    = "https://bassgnomes.wordpress.com/clarity-vst/"
+slug         = "clarity"
+name         = "Clarity"
+vendor       = "Bass Gnomes"
+version      = "2.0"
+description  = "Free VST enhancer that uses phase shifting to add clarity and presence to audio signals."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+homepage     = "https://bassgnomes.wordpress.com/clarity-vst/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/505-Clarity?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bassgnomes.wordpress.com/clarity-vst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://bassgnomes.wordpress.com/clarity-vst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bassgnomes.wordpress.com/clarity-vst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://bassgnomes.wordpress.com/clarity-vst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

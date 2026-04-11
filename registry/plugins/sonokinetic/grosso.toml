@@ -1,25 +1,26 @@
-slug        = "grosso"
-name        = "Grosso"
-vendor      = "Sonokinetic"
-version     = "1.0.0"
-description = "Grandiose full orchestral phrase-based Kontakt library for powerful cinematic scoring."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonokinetic.net/products/classical/grosso/"
-is_paid     = true
+slug         = "grosso"
+name         = "Grosso"
+vendor       = "Sonokinetic"
+version      = "1.0.0"
+description  = "Grandiose full orchestral phrase-based Kontakt library for powerful cinematic scoring."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonokinetic.net/products/classical/grosso/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonokinetic.net/products/classical/grosso/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/classical/grosso/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonokinetic.net/products/classical/grosso/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/classical/grosso/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

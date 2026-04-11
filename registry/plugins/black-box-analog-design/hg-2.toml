@@ -1,24 +1,25 @@
-slug        = "hg-2"
-name        = "HG-2"
-vendor      = "Black Box Analog Design"
-version     = "1.0"
-description = "Black Box Analog Design HG-2 pentode saturation plugin modeled on the hardware unit."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.blackboxanalogdesign.com/"
-is_paid     = true
+slug         = "hg-2"
+name         = "HG-2"
+vendor       = "Black Box Analog Design"
+version      = "1.0"
+description  = "Black Box Analog Design HG-2 pentode saturation plugin modeled on the hardware unit."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.blackboxanalogdesign.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.blackboxanalogdesign.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blackboxanalogdesign.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.blackboxanalogdesign.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blackboxanalogdesign.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

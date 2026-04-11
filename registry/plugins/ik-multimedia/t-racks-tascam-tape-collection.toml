@@ -1,24 +1,25 @@
-slug        = "t-racks-tascam-tape-collection"
-name        = "T-RackS TASCAM Tape Collection"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "T-RackS TASCAM Tape Collection — certified models of TASCAM's most sought-after tape units."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/trtascam/"
-is_paid     = true
+slug         = "t-racks-tascam-tape-collection"
+name         = "T-RackS TASCAM Tape Collection"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "T-RackS TASCAM Tape Collection - certified models of TASCAM's most sought-after tape units."
+category     = "effects"
+product_type = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/trtascam/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/trtascam/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/trtascam/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/trtascam/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/trtascam/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

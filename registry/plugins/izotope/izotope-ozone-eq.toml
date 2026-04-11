@@ -1,27 +1,28 @@
-slug        = "izotope-ozone-eq"
-name        = "iZotope Ozone EQ"
-vendor      = "iZotope"
-version     = "12.1.0"
-description = "Standalone EQ module from iZotope Ozone with Transient/Sustain mode for mixing and mastering."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "izotope-product-portal"
-homepage    = "https://www.izotope.com/en/products/ozone"
+slug         = "izotope-ozone-eq"
+name         = "iZotope Ozone EQ"
+vendor       = "iZotope"
+version      = "12.1.0"
+description  = "Standalone EQ module from iZotope Ozone with Transient/Sustain mode for mixing and mastering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "izotope-product-portal"
+homepage     = "https://www.izotope.com/en/products/ozone"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11504-iZotope-Ozone-EQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.izotope.com/en/products/ozone"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products/ozone"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.izotope.com/en/products/ozone"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products/ozone"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

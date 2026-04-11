@@ -1,25 +1,26 @@
-slug        = "aurora-choir"
-name        = "Aurora Choir"
-vendor      = "Aria Sounds"
-version     = "1.0.0"
-description = "Soprano and alto choir Kontakt library with detailed legato and syllable sequencing for cinematic scoring."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://ariasounds.com/product/aurora-choir/"
-is_paid     = true
+slug         = "aurora-choir"
+name         = "Aurora Choir"
+vendor       = "Aria Sounds"
+version      = "1.0.0"
+description  = "Soprano and alto choir Kontakt library with detailed legato and syllable sequencing for cinematic scoring."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://ariasounds.com/product/aurora-choir/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ariasounds.com/product/aurora-choir/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/aurora-choir/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ariasounds.com/product/aurora-choir/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/aurora-choir/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

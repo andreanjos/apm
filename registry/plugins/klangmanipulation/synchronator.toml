@@ -1,26 +1,27 @@
-slug        = "synchronator"
-name        = "SynchroNator"
-vendor      = "Klangmanipulation"
-version     = "1.0"
-description = "Synthesizer plugin by Klangmanipulation with sync modulation and harmonic generation."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://klangmanipulation.com/"
+slug         = "synchronator"
+name         = "SynchroNator"
+vendor       = "Klangmanipulation"
+version      = "1.0"
+description  = "Synthesizer plugin by Klangmanipulation with sync modulation and harmonic generation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://klangmanipulation.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/352-SynchroNator?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klangmanipulation.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://klangmanipulation.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klangmanipulation.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://klangmanipulation.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

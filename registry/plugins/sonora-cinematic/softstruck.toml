@@ -1,26 +1,27 @@
-slug        = "softstruck"
-name        = "Softstruck"
-vendor      = "Sonora Cinematic"
-version     = "1.0.0"
-description = "Kontakt Player cinematic guitar library inspired by the delicate warmth of the felted piano."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonoracinematic.com/products/softstruck-by-sonora-cinematic"
+slug         = "softstruck"
+name         = "Softstruck"
+vendor       = "Sonora Cinematic"
+version      = "1.0.0"
+description  = "Kontakt Player cinematic guitar library inspired by the delicate warmth of the felted piano."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonoracinematic.com/products/softstruck-by-sonora-cinematic"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/15410-Softstruck?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonoracinematic.com/products/softstruck-by-sonora-cinematic"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/softstruck-by-sonora-cinematic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonoracinematic.com/products/softstruck-by-sonora-cinematic"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/softstruck-by-sonora-cinematic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

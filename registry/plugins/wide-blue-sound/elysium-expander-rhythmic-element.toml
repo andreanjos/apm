@@ -1,26 +1,27 @@
-slug        = "elysium-expander-rhythmic-element"
-name        = "ELYSIUM Expander Rhythmic Element"
-vendor      = "Wide Blue Sound"
-version     = "1.0.0"
-description = "Rhythmic expansion for ELYSIUM adding percussive and sequenced motion-based preset content."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.widebluesound.com/elysium/"
+slug         = "elysium-expander-rhythmic-element"
+name         = "ELYSIUM Expander Rhythmic Element"
+vendor       = "Wide Blue Sound"
+version      = "1.0.0"
+description  = "Rhythmic expansion for ELYSIUM adding percussive and sequenced motion-based preset content."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.widebluesound.com/elysium/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/8145-ELYSIUM-Expander-Rhythmic-Element?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.widebluesound.com/elysium/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.widebluesound.com/elysium/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.widebluesound.com/elysium/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.widebluesound.com/elysium/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "granulizer-plug-amp-mix"
-name        = "Granulizer"
-vendor      = "Plug &amp; Mix"
-version     = "1.0"
-description = "Plug & Mix Granulizer is a granular synthesis effect plugin for audio fragmentation."
-category    = "effects"
-subcategory = "granular"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/"
-is_paid     = true
+slug         = "granulizer-plug-amp-mix"
+name         = "Granulizer"
+vendor       = "Plug & Mix"
+version      = "1.0"
+description  = "Plug & Mix Granulizer is a granular synthesis effect plugin for audio fragmentation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "granular"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

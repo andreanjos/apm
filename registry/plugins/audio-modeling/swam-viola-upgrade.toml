@@ -1,25 +1,26 @@
-slug        = "swam-viola-upgrade"
-name        = "SWAM Viola Upgrade"
-vendor      = "Audio Modeling"
-version     = "3"
-description = "Upgrade license to SWAM Viola v3 with improved sound engine, redesigned UI, and NKS support."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodeling.com/swam-viola/"
-is_paid     = true
+slug         = "swam-viola-upgrade"
+name         = "SWAM Viola Upgrade"
+vendor       = "Audio Modeling"
+version      = "3"
+description  = "Upgrade license to SWAM Viola v3 with improved sound engine, redesigned UI, and NKS support."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodeling.com/swam-viola/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodeling.com/swam-viola/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/swam-viola/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodeling.com/swam-viola/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/swam-viola/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

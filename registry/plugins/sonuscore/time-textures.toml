@@ -1,26 +1,27 @@
-slug        = "time-textures"
-name        = "Time Textures"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Revolutionary orchestral engine generating ever-evolving soundscapes from 13 manipulable orchestral instruments."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/time-textures/"
+slug         = "time-textures"
+name         = "Time Textures"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Revolutionary orchestral engine generating ever-evolving soundscapes from 13 manipulable orchestral instruments."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/time-textures/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9225-Time-Textures?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/time-textures/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/time-textures/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/time-textures/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/time-textures/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

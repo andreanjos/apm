@@ -1,25 +1,26 @@
-slug        = "vocaloid-3-avanna"
-name        = "Vocaloid 3 Avanna"
-vendor      = "Zero-G"
-version     = "3.0"
-description = "Virtual vocalist with a pure, sweet voice ideal for pop and Celtic music compositions using Vocaloid 3 engine."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/avanna-vocaloid-3"
-is_paid     = true
+slug         = "vocaloid-3-avanna"
+name         = "Vocaloid 3 Avanna"
+vendor       = "Zero-G"
+version      = "3.0"
+description  = "Virtual vocalist with a pure, sweet voice ideal for pop and Celtic music compositions using Vocaloid 3 engine."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/avanna-vocaloid-3"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/avanna-vocaloid-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/avanna-vocaloid-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/avanna-vocaloid-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/avanna-vocaloid-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

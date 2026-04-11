@@ -1,26 +1,27 @@
-slug        = "verbsuite-classics"
-name        = "VerbSuite Classics"
-vendor      = "Slate Digital"
-version     = "1.0.0"
-description = "Convolution reverb suite powered by LiquidSonics FUSION IR technology with 8 legendary digital reverbs."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://slatedigital.com/verbsuite-classics-digital-reverb-plugin/"
+slug         = "verbsuite-classics"
+name         = "VerbSuite Classics"
+vendor       = "Slate Digital"
+version      = "1.0.0"
+description  = "Convolution reverb suite powered by LiquidSonics FUSION IR technology with 8 legendary digital reverbs."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://slatedigital.com/verbsuite-classics-digital-reverb-plugin/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/15812-VerbSuite-Classics?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://slatedigital.com/verbsuite-classics-digital-reverb-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/verbsuite-classics-digital-reverb-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://slatedigital.com/verbsuite-classics-digital-reverb-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/verbsuite-classics-digital-reverb-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "cinescapes-pro-2"
-name        = "Cinescapes PRO 2"
-vendor      = "Rast Sound"
-version     = "2"
-description = "Smart ambient music creator for Kontakt with Evolve, Compose, and Loop modes for generative scoring."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/cinescapes-pro/"
-is_paid     = true
+slug         = "cinescapes-pro-2"
+name         = "Cinescapes PRO 2"
+vendor       = "Rast Sound"
+version      = "2"
+description  = "Smart ambient music creator for Kontakt with Evolve, Compose, and Loop modes for generative scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/cinescapes-pro/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/cinescapes-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/cinescapes-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/cinescapes-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/cinescapes-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

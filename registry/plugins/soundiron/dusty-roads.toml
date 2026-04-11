@@ -1,25 +1,26 @@
-slug        = "dusty-roads"
-name        = "Dusty Roads"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Vintage Americana keyboard Kontakt instrument with dusty, road-worn character and warmth."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/dusty-roads"
-is_paid     = true
+slug         = "dusty-roads"
+name         = "Dusty Roads"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Vintage Americana keyboard Kontakt instrument with dusty, road-worn character and warmth."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/dusty-roads"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/dusty-roads"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/dusty-roads"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/dusty-roads"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/dusty-roads"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

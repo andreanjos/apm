@@ -1,26 +1,27 @@
-slug        = "dolby-atmos-composer"
-name        = "Dolby Atmos Composer"
-vendor      = "Fiedler Audio"
-version     = "1.0.0"
-description = "Professional Dolby Atmos mixing and rendering toolset compatible with virtually any DAW."
-category    = "effects"
-subcategory = "mastering suite"
-license     = "commercial"
-tags        = []
-homepage    = "https://fiedler-audio.com/dolby-atmos-composer/"
+slug         = "dolby-atmos-composer"
+name         = "Dolby Atmos Composer"
+vendor       = "Fiedler Audio"
+version      = "1.0.0"
+description  = "Professional Dolby Atmos mixing and rendering toolset compatible with virtually any DAW."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering suite"
+license      = "commercial"
+tags         = []
+homepage     = "https://fiedler-audio.com/dolby-atmos-composer/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/12168-Dolby-Atmos-Composer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://fiedler-audio.com/dolby-atmos-composer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fiedler-audio.com/dolby-atmos-composer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://fiedler-audio.com/dolby-atmos-composer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fiedler-audio.com/dolby-atmos-composer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

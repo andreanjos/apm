@@ -1,25 +1,26 @@
-slug        = "duet-by-design"
-name        = "Duet by design"
-vendor      = "Bela D Media"
-version     = "1.0.0"
-description = "Kontakt library featuring a male and female youth vocal duet with sustained and phrase-based articulations."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://beladmedia.com/duet-by-design/"
-is_paid     = true
+slug         = "duet-by-design"
+name         = "Duet by design"
+vendor       = "Bela D Media"
+version      = "1.0.0"
+description  = "Kontakt library featuring a male and female youth vocal duet with sustained and phrase-based articulations."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://beladmedia.com/duet-by-design/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://beladmedia.com/duet-by-design/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/duet-by-design/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://beladmedia.com/duet-by-design/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/duet-by-design/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

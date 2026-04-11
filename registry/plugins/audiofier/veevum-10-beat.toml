@@ -1,25 +1,27 @@
-slug        = "veevum-10-beat"
-name        = "Veevum 10 – Beat"
-vendor      = "Audiofier"
-version     = "1.0"
-description = "Rhythmic ambient Kontakt instrument with sync-tempo loops from the Veevum Series honeycomb engine."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiofier.co.uk/veevum-beat/"
-is_paid     = true
+slug         = "veevum-10-beat"
+name         = "Veevum 10 - Beat"
+vendor       = "Audiofier"
+version      = "1.0"
+description  = "Rhythmic ambient Kontakt instrument with sync-tempo loops from the Veevum Series honeycomb engine."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["veevum-10-8211-beat"]
+homepage     = "https://www.audiofier.co.uk/veevum-beat/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiofier.co.uk/veevum-beat/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/veevum-beat/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiofier.co.uk/veevum-beat/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/veevum-beat/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

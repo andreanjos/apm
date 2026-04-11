@@ -1,27 +1,28 @@
-slug        = "jv-1080"
-name        = "JV 1080"
-vendor      = "Roland"
-version     = "1.0"
-description = "Software recreation of Roland's iconic 1994 JV-1080 64-voice PCM synthesizer module."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-installer   = "roland-cloud"
-homepage    = "https://www.roland.com/us/products/rc_jv-1080/"
+slug         = "jv-1080"
+name         = "JV 1080"
+vendor       = "Roland"
+version      = "1.0"
+description  = "Software recreation of Roland's iconic 1994 JV-1080 64-voice PCM synthesizer module."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+installer    = "roland-cloud"
+homepage     = "https://www.roland.com/us/products/rc_jv-1080/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15268-JV-1080?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.roland.com/us/products/rc_jv-1080/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.roland.com/us/products/rc_jv-1080/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.roland.com/us/products/rc_jv-1080/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.roland.com/us/products/rc_jv-1080/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

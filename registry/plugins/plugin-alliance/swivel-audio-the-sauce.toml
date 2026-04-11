@@ -1,27 +1,28 @@
-slug        = "swivel-audio-the-sauce"
-name        = "Swivel Audio The Sauce"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Creative vocal processing plugin by Swivel Audio combining parallel compression, convolution reverb, and delay in one."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/products/the-sauce"
+slug         = "swivel-audio-the-sauce"
+name         = "Swivel Audio The Sauce"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Creative vocal processing plugin by Swivel Audio combining parallel compression, convolution reverb, and delay in one."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/products/the-sauce"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/15584-Swivel-Audio-The-Sauce?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/products/the-sauce"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/products/the-sauce"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/products/the-sauce"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/products/the-sauce"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

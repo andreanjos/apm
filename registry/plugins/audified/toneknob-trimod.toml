@@ -1,26 +1,27 @@
-slug        = "toneknob-trimod"
-name        = "ToneKnob TriMod"
-vendor      = "Audified"
-version     = "1.0.1.11"
-description = "Single-knob multi-effect plugin combining modulation effects through one intuitive control."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/toneknob-ultimate-bundle/"
+slug         = "toneknob-trimod"
+name         = "ToneKnob TriMod"
+vendor       = "Audified"
+version      = "1.0.1.11"
+description  = "Single-knob multi-effect plugin combining modulation effects through one intuitive control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/toneknob-ultimate-bundle/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/14386-ToneKnob-TriMod?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/toneknob-ultimate-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/toneknob-ultimate-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/toneknob-ultimate-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/toneknob-ultimate-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

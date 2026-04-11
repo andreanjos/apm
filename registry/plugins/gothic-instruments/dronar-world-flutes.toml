@@ -1,25 +1,26 @@
-slug        = "dronar-world-flutes"
-name        = "Dronar World Flutes"
-vendor      = "Gothic Instruments"
-version     = "1.0.0"
-description = "Kontakt drone instrument turning world flute recordings into lush atmospheric textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonoracinematic.com/products/dronar-world-flutes"
-is_paid     = true
+slug         = "dronar-world-flutes"
+name         = "Dronar World Flutes"
+vendor       = "Gothic Instruments"
+version      = "1.0.0"
+description  = "Kontakt drone instrument turning world flute recordings into lush atmospheric textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonoracinematic.com/products/dronar-world-flutes"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonoracinematic.com/products/dronar-world-flutes"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/dronar-world-flutes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonoracinematic.com/products/dronar-world-flutes"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/dronar-world-flutes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

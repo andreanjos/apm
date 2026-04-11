@@ -1,26 +1,27 @@
-slug        = "ssl-x-gate"
-name        = "SSL X Gate"
-vendor      = "Solid State Logic"
-version     = "1.0.0"
-description = "SSL X-Gate noise gate plugin for precise noise reduction and dynamic control in mixing."
-category    = "effects"
-subcategory = "gate"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
+slug         = "ssl-x-gate"
+name         = "SSL X Gate"
+vendor       = "Solid State Logic"
+version      = "1.0.0"
+description  = "SSL X-Gate noise gate plugin for precise noise reduction and dynamic control in mixing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "gate"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/9258-SSL-X-Gate?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

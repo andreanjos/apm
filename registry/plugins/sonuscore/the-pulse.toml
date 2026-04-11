@@ -1,26 +1,27 @@
-slug        = "the-pulse"
-name        = "The Pulse"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Dynamic composition instrument combining cinematic and electronic elements with an evolving ensemble engine."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/the-pulse/"
+slug         = "the-pulse"
+name         = "The Pulse"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Dynamic composition instrument combining cinematic and electronic elements with an evolving ensemble engine."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/the-pulse/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/14555-The-Pulse?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/the-pulse/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/the-pulse/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/the-pulse/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/the-pulse/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

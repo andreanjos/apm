@@ -1,24 +1,25 @@
-slug        = "t-racks-tape-machine-99"
-name        = "T-RackS Tape Machine 99"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "T-RackS Tape Machine 99 — model of the Revox PR99 MkII compact stereo rack recorder."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/trtapemac/"
-is_paid     = true
+slug         = "t-racks-tape-machine-99"
+name         = "T-RackS Tape Machine 99"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "T-RackS Tape Machine 99 - model of the Revox PR99 MkII compact stereo rack recorder."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/trtapemac/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/trtapemac/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/trtapemac/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/trtapemac/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/trtapemac/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

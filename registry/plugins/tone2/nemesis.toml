@@ -1,25 +1,26 @@
-slug        = "nemesis"
-name        = "Nemesis"
-vendor      = "Tone2"
-version     = "2.x"
-description = "Spectral synthesizer using innovative impulse modelling for unique and powerful sound design."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tone2.com/"
-is_paid     = true
+slug         = "nemesis"
+name         = "Nemesis"
+vendor       = "Tone2"
+version      = "2.x"
+description  = "Spectral synthesizer using innovative impulse modelling for unique and powerful sound design."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tone2.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tone2.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone2.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tone2.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone2.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

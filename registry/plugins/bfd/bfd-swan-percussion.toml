@@ -1,26 +1,27 @@
-slug        = "bfd-swan-percussion"
-name        = "BFD Swan Percussion"
-vendor      = "BFD"
-version     = "1.0"
-description = "BFD3 expansion with innovative world percussion instruments and Crescent effect cymbals."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bfddrums.com/bfd3-expansions/swan-percussion/"
+slug         = "bfd-swan-percussion"
+name         = "BFD Swan Percussion"
+vendor       = "BFD"
+version      = "1.0"
+description  = "BFD3 expansion with innovative world percussion instruments and Crescent effect cymbals."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bfddrums.com/bfd3-expansions/swan-percussion/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/1952-BFD-Swan-Percussion?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bfddrums.com/bfd3-expansions/swan-percussion/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/bfd3-expansions/swan-percussion/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bfddrums.com/bfd3-expansions/swan-percussion/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/bfd3-expansions/swan-percussion/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

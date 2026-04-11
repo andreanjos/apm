@@ -1,26 +1,27 @@
-slug        = "bss-dpr-402"
-name        = "BSS DPR-402"
-vendor      = "Waves"
-version     = "14.0"
-description = "Emulation of the BSS DPR-402 frequency-conscious compressor/limiter/de-esser."
-category    = "effects"
-subcategory = "dynamic processor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/bss-dpr-402"
-is_paid     = true
+slug         = "bss-dpr-402"
+name         = "BSS DPR-402"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Emulation of the BSS DPR-402 frequency-conscious compressor/limiter/de-esser."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamic processor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/bss-dpr-402"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/bss-dpr-402"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/bss-dpr-402"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/bss-dpr-402"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/bss-dpr-402"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

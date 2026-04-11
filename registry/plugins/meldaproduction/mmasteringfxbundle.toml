@@ -1,25 +1,26 @@
-slug        = "mmasteringfxbundle"
-name        = "MMasteringFXBundle"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "The ultimate mastering processors set — 24 plugins designed to master recordings with exceptional results."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MMasteringFXBundle"
-is_paid     = true
+slug         = "mmasteringfxbundle"
+name         = "MMasteringFXBundle"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "The ultimate mastering processors set - 24 plugins designed to master recordings with exceptional results."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MMasteringFXBundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MMasteringFXBundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MMasteringFXBundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MMasteringFXBundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MMasteringFXBundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

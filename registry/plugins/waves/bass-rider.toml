@@ -1,26 +1,27 @@
-slug        = "bass-rider"
-name        = "Bass Rider"
-vendor      = "Waves"
-version     = "14.0"
-description = "Automatic bass level rider that keeps bass tracks at a consistent, even volume."
-category    = "effects"
-subcategory = "dynamic processor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/bass-rider"
-is_paid     = true
+slug         = "bass-rider"
+name         = "Bass Rider"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Automatic bass level rider that keeps bass tracks at a consistent, even volume."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamic processor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/bass-rider"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/bass-rider"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/bass-rider"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/bass-rider"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/bass-rider"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

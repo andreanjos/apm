@@ -1,25 +1,26 @@
-slug        = "bassline"
-name        = "Bassline"
-vendor      = "Air Music Tech"
-version     = "1.0.0"
-description = "Analog-style bass synthesizer plugin inspired by classic 303-type bass machines."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.airmusictech.com/product/bassline"
-is_paid     = true
+slug         = "bassline"
+name         = "Bassline"
+vendor       = "Air Music Tech"
+version      = "1.0.0"
+description  = "Analog-style bass synthesizer plugin inspired by classic 303-type bass machines."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.airmusictech.com/product/bassline"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.airmusictech.com/product/bassline"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.airmusictech.com/product/bassline"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.airmusictech.com/product/bassline"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.airmusictech.com/product/bassline"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

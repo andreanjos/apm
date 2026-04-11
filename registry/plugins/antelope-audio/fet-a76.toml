@@ -1,26 +1,27 @@
-slug        = "fet-a76"
-name        = "FET A76"
-vendor      = "Antelope Audio"
-version     = "1.0.0"
-description = "FET compressor plugin modeled on the classic 1960s 1176-style limiter with lightning-fast attack times."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://en.antelopeaudio.com/products/fet-a76/"
+slug         = "fet-a76"
+name         = "FET A76"
+vendor       = "Antelope Audio"
+version      = "1.0.0"
+description  = "FET compressor plugin modeled on the classic 1960s 1176-style limiter with lightning-fast attack times."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://en.antelopeaudio.com/products/fet-a76/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16021-FET-A76?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://en.antelopeaudio.com/products/fet-a76/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/fet-a76/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://en.antelopeaudio.com/products/fet-a76/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/fet-a76/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

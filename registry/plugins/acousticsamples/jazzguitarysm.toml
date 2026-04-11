@@ -1,25 +1,26 @@
-slug        = "jazzguitarysm"
-name        = "JazzGuitarysm"
-vendor      = "Acousticsamples"
-version     = "1.0.0"
-description = "Sample-based jazz guitar instrument capturing the warm, round tones of a hollow-body jazz guitar."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.acousticsamples.net/jazzguitarysm"
-is_paid     = true
+slug         = "jazzguitarysm"
+name         = "JazzGuitarysm"
+vendor       = "Acousticsamples"
+version      = "1.0.0"
+description  = "Sample-based jazz guitar instrument capturing the warm, round tones of a hollow-body jazz guitar."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.acousticsamples.net/jazzguitarysm"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.acousticsamples.net/jazzguitarysm"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.acousticsamples.net/jazzguitarysm"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.acousticsamples.net/jazzguitarysm"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.acousticsamples.net/jazzguitarysm"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

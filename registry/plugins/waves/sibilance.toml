@@ -1,26 +1,27 @@
-slug        = "sibilance"
-name        = "Sibilance"
-vendor      = "Waves"
-version     = "14.0"
-description = "Intelligent real-time de-esser using spectral splitting for transparent sibilance control."
-category    = "effects"
-subcategory = "de-esser"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/sibilance"
-is_paid     = true
+slug         = "sibilance"
+name         = "Sibilance"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Intelligent real-time de-esser using spectral splitting for transparent sibilance control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de-esser"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/sibilance"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/sibilance"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/sibilance"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/sibilance"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/sibilance"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "slam2"
-name        = "SLAM2"
-vendor      = "BeatSkillz"
-version     = "2.0"
-description = "Channel strip plugin adding low-end punch, sub-bass harmonics, and saturation with minimal controls."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beatskillz.com/shop/slam2/"
-is_paid     = true
+slug         = "slam2"
+name         = "SLAM2"
+vendor       = "BeatSkillz"
+version      = "2.0"
+description  = "Channel strip plugin adding low-end punch, sub-bass harmonics, and saturation with minimal controls."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beatskillz.com/shop/slam2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beatskillz.com/shop/slam2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/slam2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beatskillz.com/shop/slam2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/slam2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "x-stream"
-name        = "X Stream"
-vendor      = "Steinberg"
-version     = "1"
-description = "Free monophonic spectral synthesizer for HALion with unique spectral sound design capabilities."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.steinberg.net/vst-instruments/x-stream/"
+slug         = "x-stream"
+name         = "X Stream"
+vendor       = "Steinberg"
+version      = "1"
+description  = "Free monophonic spectral synthesizer for HALion with unique spectral sound design capabilities."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.steinberg.net/vst-instruments/x-stream/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/14149-X-Stream?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.steinberg.net/vst-instruments/x-stream/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/vst-instruments/x-stream/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.steinberg.net/vst-instruments/x-stream/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/vst-instruments/x-stream/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

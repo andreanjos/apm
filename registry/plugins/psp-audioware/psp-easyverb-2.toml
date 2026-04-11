@@ -1,26 +1,27 @@
-slug        = "psp-easyverb-2"
-name        = "PSP EasyVerb 2"
-vendor      = "PSP Audioware"
-version     = "2.0.1"
-description = "Multipurpose algorithmic reverb plugin that simulates physical spaces and classic reverb machines."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-easyverb"
+slug         = "psp-easyverb-2"
+name         = "PSP EasyVerb 2"
+vendor       = "PSP Audioware"
+version      = "2.0.1"
+description  = "Multipurpose algorithmic reverb plugin that simulates physical spaces and classic reverb machines."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-easyverb"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/14117-PSP-EasyVerb-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-easyverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-easyverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-easyverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-easyverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

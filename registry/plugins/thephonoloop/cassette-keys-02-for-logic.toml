@@ -1,24 +1,25 @@
-slug        = "cassette-keys-02-for-logic"
-name        = "Cassette Keys.02 for Logic"
-vendor      = "THEPHONOLOOP"
-version     = "1.0.0"
-description = "Cassette Keys.02 for Logic Pro — 80s FM synth-inspired instruments recorded across cassette decks."
-category    = "instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://thephonoloop.com/products/cassette-keys-02"
-is_paid     = true
+slug         = "cassette-keys-02-for-logic"
+name         = "Cassette Keys.02 for Logic"
+vendor       = "THEPHONOLOOP"
+version      = "1.0.0"
+description  = "Cassette Keys.02 for Logic Pro - 80s FM synth-inspired instruments recorded across cassette decks."
+category     = "instruments"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://thephonoloop.com/products/cassette-keys-02"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://thephonoloop.com/products/cassette-keys-02"
-sha256       = ""
-install_type = "zip"
+url           = "https://thephonoloop.com/products/cassette-keys-02"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://thephonoloop.com/products/cassette-keys-02"
-sha256       = ""
-install_type = "zip"
+url           = "https://thephonoloop.com/products/cassette-keys-02"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

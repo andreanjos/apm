@@ -1,25 +1,26 @@
-slug        = "poly-modular-collection"
-name        = "Poly Modular Collection"
-vendor      = "Cherry Audio"
-version     = "1.0.0"
-description = "Collection of polyphonic modular synthesizer modules for the Voltage Modular platform."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://cherryaudio.com/products/voltage-modular"
-is_paid     = true
+slug         = "poly-modular-collection"
+name         = "Poly Modular Collection"
+vendor       = "Cherry Audio"
+version      = "1.0.0"
+description  = "Collection of polyphonic modular synthesizer modules for the Voltage Modular platform."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://cherryaudio.com/products/voltage-modular"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cherryaudio.com/products/voltage-modular"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/voltage-modular"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cherryaudio.com/products/voltage-modular"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/voltage-modular"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

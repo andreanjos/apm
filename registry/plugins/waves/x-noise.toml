@@ -1,26 +1,27 @@
-slug        = "x-noise"
-name        = "X-Noise"
-vendor      = "Waves"
-version     = "14.0"
-description = "Broadband noise reduction plugin using spectral learning to remove steady-state noise."
-category    = "effects"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/x-noise"
-is_paid     = true
+slug         = "x-noise"
+name         = "X-Noise"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Broadband noise reduction plugin using spectral learning to remove steady-state noise."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/x-noise"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/x-noise"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/x-noise"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/x-noise"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/x-noise"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

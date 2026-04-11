@@ -1,26 +1,27 @@
-slug        = "ample-bass-yinyang"
-name        = "Ample Bass Yinyang"
-vendor      = "Ample Sound"
-version     = "4"
-description = "Electric bass virtual instrument based on a Fodera Yinyang Bass with 13 articulations and 5.1 GB samples."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.amplesound.net/en/pro-pd.asp?id=23"
+slug         = "ample-bass-yinyang"
+name         = "Ample Bass Yinyang"
+vendor       = "Ample Sound"
+version      = "4"
+description  = "Electric bass virtual instrument based on a Fodera Yinyang Bass with 13 articulations and 5.1 GB samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.amplesound.net/en/pro-pd.asp?id=23"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15126-Ample-Bass-Yinyang?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.amplesound.net/en/pro-pd.asp?id=23"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/pro-pd.asp?id=23"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.amplesound.net/en/pro-pd.asp?id=23"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/pro-pd.asp?id=23"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

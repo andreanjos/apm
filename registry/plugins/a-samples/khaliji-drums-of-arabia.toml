@@ -1,25 +1,27 @@
-slug        = "khaliji-drums-of-arabia"
-name        = "Khaliji – Drums of Arabia"
-vendor      = "A Samples"
-version     = "1.0.0"
-description = "Kontakt library featuring 140 sampled percussion instruments from the Arabian Peninsula."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://asamples.com/products/khaliji-drums-of-arabia"
-is_paid     = true
+slug         = "khaliji-drums-of-arabia"
+name         = "Khaliji - Drums of Arabia"
+vendor       = "A Samples"
+version      = "1.0.0"
+description  = "Kontakt library featuring 140 sampled percussion instruments from the Arabian Peninsula."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+aliases      = ["khaliji-8211-drums-of-arabia"]
+homepage     = "https://asamples.com/products/khaliji-drums-of-arabia"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://asamples.com/products/khaliji-drums-of-arabia"
-sha256       = ""
-install_type = "zip"
+url           = "https://asamples.com/products/khaliji-drums-of-arabia"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://asamples.com/products/khaliji-drums-of-arabia"
-sha256       = ""
-install_type = "zip"
+url           = "https://asamples.com/products/khaliji-drums-of-arabia"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

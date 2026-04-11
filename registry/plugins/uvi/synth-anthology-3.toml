@@ -1,25 +1,26 @@
-slug        = "synth-anthology-3"
-name        = "Synth Anthology 3"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Massive vintage synth library with 3,500+ presets from 132 hardware synthesizers spanning 50+ years."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/synth-anthology-3"
-is_paid     = true
+slug         = "synth-anthology-3"
+name         = "Synth Anthology 3"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Massive vintage synth library with 3,500+ presets from 132 hardware synthesizers spanning 50+ years."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/synth-anthology-3"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/synth-anthology-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/synth-anthology-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/synth-anthology-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/synth-anthology-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

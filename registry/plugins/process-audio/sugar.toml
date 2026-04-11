@@ -1,26 +1,27 @@
-slug        = "sugar"
-name        = "Sugar"
-vendor      = "PROCESS AUDIO"
-version     = "1.0.0"
-description = "Full-spectrum audio sweetener with harmonic enhancement for adding punch and thickness."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://process.audio/en"
+slug         = "sugar"
+name         = "Sugar"
+vendor       = "PROCESS AUDIO"
+version      = "1.0.0"
+description  = "Full-spectrum audio sweetener with harmonic enhancement for adding punch and thickness."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://process.audio/en"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8607-Sugar?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://process.audio/en"
-sha256       = ""
-install_type = "zip"
+url           = "https://process.audio/en"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://process.audio/en"
-sha256       = ""
-install_type = "zip"
+url           = "https://process.audio/en"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

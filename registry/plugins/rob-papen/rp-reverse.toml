@@ -1,26 +1,28 @@
-slug        = "rp-reverse"
-name        = "RP Reverse"
-vendor      = "Rob Papen"
-version     = "1.0.0"
-description = "Creative FX plugin reversing incoming audio with tempo sync, analog-modeled filters, comb filter, and LFO."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/rp-reverse.html"
+slug         = "rp-reverse"
+name         = "RP Reverse"
+vendor       = "Rob Papen"
+version      = "1.0.0"
+description  = "Creative FX plugin reversing incoming audio with tempo sync, analog-modeled filters, comb filter, and LFO."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+aliases      = ["rp-reverse-rob-papen"]
+homepage     = "https://www.robpapen.com/rp-reverse.html"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/5228-RP-Reverse?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/rp-reverse.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/rp-reverse.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/rp-reverse.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/rp-reverse.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

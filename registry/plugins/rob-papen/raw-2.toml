@@ -1,26 +1,27 @@
-slug        = "raw-2"
-name        = "RAW 2"
-vendor      = "Rob Papen"
-version     = "2.0"
-description = "Distortion-focused synthesizer with phase-distortion oscillators, drawable LFOs, and per-voice effects."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/RAW-2.html"
+slug         = "raw-2"
+name         = "RAW 2"
+vendor       = "Rob Papen"
+version      = "2.0"
+description  = "Distortion-focused synthesizer with phase-distortion oscillators, drawable LFOs, and per-voice effects."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/RAW-2.html"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/14512-RAW-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/RAW-2.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/RAW-2.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/RAW-2.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/RAW-2.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

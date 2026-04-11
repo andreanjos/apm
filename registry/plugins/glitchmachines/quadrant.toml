@@ -1,24 +1,25 @@
-slug        = "quadrant"
-name        = "Quadrant"
-vendor      = "Glitchmachines"
-version     = "2"
-description = "Multi-effects processor for generating vivid electronic tones and processing drums and synths."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://glitchmachines.com/"
-is_paid     = true
+slug         = "quadrant"
+name         = "Quadrant"
+vendor       = "Glitchmachines"
+version      = "2"
+description  = "Multi-effects processor for generating vivid electronic tones and processing drums and synths."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://glitchmachines.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://glitchmachines.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://glitchmachines.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://glitchmachines.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://glitchmachines.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

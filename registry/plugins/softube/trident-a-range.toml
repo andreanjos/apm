@@ -1,26 +1,27 @@
-slug        = "trident-a-range"
-name        = "Trident A-Range"
-vendor      = "Softube"
-version     = "2.6"
-description = "Console EQ plugin modeled on the legendary Trident A-Range console for classic British character."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/trident-a-range"
-is_paid     = true
+slug         = "trident-a-range"
+name         = "Trident A-Range"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Console EQ plugin modeled on the legendary Trident A-Range console for classic British character."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/trident-a-range"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/trident-a-range"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/trident-a-range"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/trident-a-range"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/trident-a-range"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "vintage-electric"
-name        = "Vintage Electric"
-vendor      = "Psound"
-version     = "1.0.0"
-description = "UVI-based virtual vintage electric keyboard instrument with authentic sampled character."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.psound.it/"
-is_paid     = true
+slug         = "vintage-electric"
+name         = "Vintage Electric"
+vendor       = "Psound"
+version      = "1.0.0"
+description  = "UVI-based virtual vintage electric keyboard instrument with authentic sampled character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.psound.it/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.psound.it/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.psound.it/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.psound.it/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.psound.it/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

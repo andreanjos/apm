@@ -1,26 +1,27 @@
-slug        = "lazy-kenneth"
-name        = "Lazy Kenneth"
-vendor      = "Noisebud"
-version     = "1.0.0"
-description = "Free dynamics plugin simulating a pumping sidechained compressor effect for 4/4 music."
-category    = "effects"
-subcategory = "dynamics processor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.noisebud.se/"
+slug         = "lazy-kenneth"
+name         = "Lazy Kenneth"
+vendor       = "Noisebud"
+version      = "1.0.0"
+description  = "Free dynamics plugin simulating a pumping sidechained compressor effect for 4/4 music."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamics processor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.noisebud.se/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/1631-Lazy-Kenneth?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.noisebud.se/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.noisebud.se/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.noisebud.se/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.noisebud.se/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

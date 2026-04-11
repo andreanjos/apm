@@ -1,26 +1,27 @@
-slug        = "noam-s-mastering-console"
-name        = "Noam s Mastering Console"
-vendor      = "Safari Audio"
-version     = "1.0.0"
-description = "Plugin recreation of a one-of-a-kind tube mastering desk combining analog circuitry with modern flexibility."
-category    = "effects"
-subcategory = "mastering suite"
-license     = "commercial"
-tags        = []
-homepage    = "https://safariaudio.com/products/noams-mastering-console"
+slug         = "noam-s-mastering-console"
+name         = "Noam s Mastering Console"
+vendor       = "Safari Audio"
+version      = "1.0.0"
+description  = "Plugin recreation of a one-of-a-kind tube mastering desk combining analog circuitry with modern flexibility."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering suite"
+license      = "commercial"
+tags         = []
+homepage     = "https://safariaudio.com/products/noams-mastering-console"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/15589-Noam-s-Mastering-Console?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://safariaudio.com/products/noams-mastering-console"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/noams-mastering-console"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://safariaudio.com/products/noams-mastering-console"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/noams-mastering-console"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

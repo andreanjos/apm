@@ -1,26 +1,27 @@
-slug        = "rerun-v2"
-name        = "Rerun v2"
-vendor      = "Sinevibes"
-version     = "2.0.3"
-description = "Self-randomizing repeater plugin that captures and plays back audio fragments with evolving variation."
-category    = "effects"
-subcategory = "randomiser"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sinevibes.com/rerun/"
+slug         = "rerun-v2"
+name         = "Rerun v2"
+vendor       = "Sinevibes"
+version      = "2.0.3"
+description  = "Self-randomizing repeater plugin that captures and plays back audio fragments with evolving variation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "randomiser"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sinevibes.com/rerun/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/46-Randomiser/8121-Rerun-v2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sinevibes.com/rerun/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/rerun/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sinevibes.com/rerun/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/rerun/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

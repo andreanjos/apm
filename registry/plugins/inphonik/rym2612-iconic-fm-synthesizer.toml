@@ -1,26 +1,27 @@
-slug        = "rym2612-iconic-fm-synthesizer"
-name        = "RYM2612 Iconic FM Synthesizer"
-vendor      = "Inphonik"
-version     = "1.1.1"
-description = "FM synthesizer emulating the Yamaha YM2612 chip, the voice of the Sega Genesis console."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.inphonik.com/products/rym2612-iconic-fm-synthesizer/"
+slug         = "rym2612-iconic-fm-synthesizer"
+name         = "RYM2612 Iconic FM Synthesizer"
+vendor       = "Inphonik"
+version      = "1.1.1"
+description  = "FM synthesizer emulating the Yamaha YM2612 chip, the voice of the Sega Genesis console."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.inphonik.com/products/rym2612-iconic-fm-synthesizer/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/5635-RYM2612-Iconic-FM-Synthesizer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.inphonik.com/products/rym2612-iconic-fm-synthesizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.inphonik.com/products/rym2612-iconic-fm-synthesizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.inphonik.com/products/rym2612-iconic-fm-synthesizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.inphonik.com/products/rym2612-iconic-fm-synthesizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

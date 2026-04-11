@@ -1,25 +1,26 @@
-slug        = "multis-from-the-void"
-name        = "Multis from the Void"
-vendor      = "Beautiful Void Audio"
-version     = "1.0.0"
-description = "Large Kontakt collection of unusual sound design multis crafted from Beautiful Void Audio's previous releases."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beautifulvoidaudio.com/"
-is_paid     = true
+slug         = "multis-from-the-void"
+name         = "Multis from the Void"
+vendor       = "Beautiful Void Audio"
+version      = "1.0.0"
+description  = "Large Kontakt collection of unusual sound design multis crafted from Beautiful Void Audio's previous releases."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beautifulvoidaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beautifulvoidaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beautifulvoidaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beautifulvoidaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beautifulvoidaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

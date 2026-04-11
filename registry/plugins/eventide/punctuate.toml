@@ -1,24 +1,25 @@
-slug        = "punctuate"
-name        = "Punctuate"
-vendor      = "Eventide"
-version     = "1.0.0"
-description = "Transient shaper for mixing and mastering that controls attack and sustain on drums, vocals, guitar, and more."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eventideaudio.com/plug-ins/punctuate/"
-is_paid     = true
+slug         = "punctuate"
+name         = "Punctuate"
+vendor       = "Eventide"
+version      = "1.0.0"
+description  = "Transient shaper for mixing and mastering that controls attack and sustain on drums, vocals, guitar, and more."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eventideaudio.com/plug-ins/punctuate/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eventideaudio.com/plug-ins/punctuate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/punctuate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eventideaudio.com/plug-ins/punctuate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/punctuate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

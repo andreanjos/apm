@@ -1,26 +1,27 @@
-slug        = "psp-twin-l"
-name        = "PSP Twin L"
-vendor      = "PSP Audioware"
-version     = "1.2.2"
-description = "Dual-algorithm classic limiter emulating both VCA and optical limiters for versatile peak limiting."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-twin-l"
+slug         = "psp-twin-l"
+name         = "PSP Twin L"
+vendor       = "PSP Audioware"
+version      = "1.2.2"
+description  = "Dual-algorithm classic limiter emulating both VCA and optical limiters for versatile peak limiting."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-twin-l"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/5049-PSP-Twin-L?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-twin-l"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-twin-l"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-twin-l"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-twin-l"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

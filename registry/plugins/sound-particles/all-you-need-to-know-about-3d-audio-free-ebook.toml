@@ -1,26 +1,27 @@
-slug        = "all-you-need-to-know-about-3d-audio-free-ebook"
-name        = "All You Need to Know About 3D Audio Free eBook"
-vendor      = "Sound Particles"
-version     = "1.0.0"
-description = "Free educational eBook by Sound Particles covering fundamentals and techniques of 3D immersive audio."
-category    = "utility"
-subcategory = "ebook"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundparticles.com/products"
+slug         = "all-you-need-to-know-about-3d-audio-free-ebook"
+name         = "All You Need to Know About 3D Audio Free eBook"
+vendor       = "Sound Particles"
+version      = "1.0.0"
+description  = "Free educational eBook by Sound Particles covering fundamentals and techniques of 3D immersive audio."
+category     = "utility"
+product_type = "utility"
+subcategory  = "ebook"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundparticles.com/products"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/94-eBook/7194-All-You-Need-to-Know-About-3D-Audio-Free-eBook?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundparticles.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundparticles.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundparticles.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundparticles.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

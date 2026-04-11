@@ -1,26 +1,27 @@
-slug        = "runa-elder-scoring-strings"
-name        = "Runa Elder Scoring Strings"
-vendor      = "Wavelet Audio"
-version     = "1.0.0"
-description = "Ethnic scoring strings library for Kontakt based on the Central Asian kobyz instrument."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://wavelet-audio.com/runa-elder-scoring-strings/"
+slug         = "runa-elder-scoring-strings"
+name         = "Runa Elder Scoring Strings"
+vendor       = "Wavelet Audio"
+version      = "1.0.0"
+description  = "Ethnic scoring strings library for Kontakt based on the Central Asian kobyz instrument."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://wavelet-audio.com/runa-elder-scoring-strings/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/15239-Runa-Elder-Scoring-Strings?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://wavelet-audio.com/runa-elder-scoring-strings/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavelet-audio.com/runa-elder-scoring-strings/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://wavelet-audio.com/runa-elder-scoring-strings/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavelet-audio.com/runa-elder-scoring-strings/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

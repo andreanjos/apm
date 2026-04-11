@@ -1,26 +1,27 @@
-slug        = "kratos-2-maximizer"
-name        = "Kratos 2 Maximizer"
-vendor      = "Kuassa"
-version     = "2"
-description = "Transparent mastering-grade look-ahead brickwall limiter and loudness maximizer."
-category    = "effects"
-subcategory = "dynamics processor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kuassa.com/products/kratos-2/"
+slug         = "kratos-2-maximizer"
+name         = "Kratos 2 Maximizer"
+vendor       = "Kuassa"
+version      = "2"
+description  = "Transparent mastering-grade look-ahead brickwall limiter and loudness maximizer."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamics processor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kuassa.com/products/kratos-2/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/1982-Kratos-2-Maximizer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kuassa.com/products/kratos-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kuassa.com/products/kratos-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kuassa.com/products/kratos-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kuassa.com/products/kratos-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

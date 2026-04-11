@@ -1,25 +1,26 @@
-slug        = "sh-m"
-name        = "SH-M"
-vendor      = "Synth Magic"
-version     = "1.0.0"
-description = "Kontakt library of the 1973 Roland SH-1000 with gritty analog oscillators usable in polyphonic mode."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://synthmagic.co.uk/sh-m/"
-is_paid     = true
+slug         = "sh-m"
+name         = "SH-M"
+vendor       = "Synth Magic"
+version      = "1.0.0"
+description  = "Kontakt library of the 1973 Roland SH-1000 with gritty analog oscillators usable in polyphonic mode."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://synthmagic.co.uk/sh-m/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synthmagic.co.uk/sh-m/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/sh-m/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synthmagic.co.uk/sh-m/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/sh-m/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

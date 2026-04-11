@@ -1,25 +1,26 @@
-slug        = "total-studio-3-se"
-name        = "Total Studio 3 SE"
-vendor      = "IK Multimedia"
-version     = "3.0"
-description = "Total Studio 3 SE — entry-level production bundle with SE editions of AmpliTube 5, SampleTank 4, and more."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/ts5/"
-is_paid     = true
+slug         = "total-studio-3-se"
+name         = "Total Studio 3 SE"
+vendor       = "IK Multimedia"
+version      = "3.0"
+description  = "Total Studio 3 SE - entry-level production bundle with SE editions of AmpliTube 5, SampleTank 4, and more."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/ts5/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/ts5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/ts5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/ts5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/ts5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

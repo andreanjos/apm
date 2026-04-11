@@ -1,25 +1,26 @@
-slug        = "harmony-engine-evo"
-name        = "Harmony Engine EVO"
-vendor      = "Antares"
-version     = "3.0"
-description = "Automatic vocal harmony generator plugin with up to four real-time harmony voices."
-category    = "effects"
-subcategory = "harmonizer"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
-is_paid     = true
+slug         = "harmony-engine-evo"
+name         = "Harmony Engine EVO"
+vendor       = "Antares"
+version      = "3.0"
+description  = "Automatic vocal harmony generator plugin with up to four real-time harmony voices."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "harmonizer"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "bad-tape"
-name        = "Bad Tape"
-vendor      = "denise"
-version     = "1.2"
-description = "Free tape emulation plugin wrapping tracks in the warmth and warble of analog tape."
-category    = "effects"
-subcategory = "lo-fi"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.deniseaudio.com/plugins/bad-tape"
-is_paid     = true
+slug         = "bad-tape"
+name         = "Bad Tape"
+vendor       = "denise"
+version      = "1.2"
+description  = "Free tape emulation plugin wrapping tracks in the warmth and warble of analog tape."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "lo-fi"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.deniseaudio.com/plugins/bad-tape"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.deniseaudio.com/plugins/bad-tape"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/plugins/bad-tape"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.deniseaudio.com/plugins/bad-tape"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/plugins/bad-tape"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

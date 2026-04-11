@@ -1,26 +1,27 @@
-slug        = "skydust-stereo"
-name        = "SkyDust Stereo"
-vendor      = "Sound Particles"
-version     = "1.5"
-description = "Sound Particles SkyDust in stereo format, delivering 8-oscillator granular synthesis without 3D output."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundparticles.com/products/skydust"
+slug         = "skydust-stereo"
+name         = "SkyDust Stereo"
+vendor       = "Sound Particles"
+version      = "1.5"
+description  = "Sound Particles SkyDust in stereo format, delivering 8-oscillator granular synthesis without 3D output."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundparticles.com/products/skydust"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10470-SkyDust-Stereo?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundparticles.com/products/skydust"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundparticles.com/products/skydust"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundparticles.com/products/skydust"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundparticles.com/products/skydust"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

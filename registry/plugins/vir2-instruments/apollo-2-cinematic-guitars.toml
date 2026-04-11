@@ -1,26 +1,27 @@
-slug        = "apollo-2-cinematic-guitars"
-name        = "Apollo 2 Cinematic Guitars"
-vendor      = "Vir2 Instruments"
-version     = "2"
-description = "Sequel cinematic guitar Kontakt library with fully redesigned interface and all-new samples."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.vir2.com/instruments/apollo-2-cinematic-guitars/"
+slug         = "apollo-2-cinematic-guitars"
+name         = "Apollo 2 Cinematic Guitars"
+vendor       = "Vir2 Instruments"
+version      = "2"
+description  = "Sequel cinematic guitar Kontakt library with fully redesigned interface and all-new samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.vir2.com/instruments/apollo-2-cinematic-guitars/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9712-Apollo-2-Cinematic-Guitars?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.vir2.com/instruments/apollo-2-cinematic-guitars/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.vir2.com/instruments/apollo-2-cinematic-guitars/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.vir2.com/instruments/apollo-2-cinematic-guitars/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.vir2.com/instruments/apollo-2-cinematic-guitars/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

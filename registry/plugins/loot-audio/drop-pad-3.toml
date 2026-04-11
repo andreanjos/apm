@@ -1,26 +1,27 @@
-slug        = "drop-pad-3"
-name        = "Drop Pad 3"
-vendor      = "Loot Audio"
-version     = "3.0"
-description = "NKS-compatible Kontakt Player pad instrument combining evolving pads with built-in effects."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.lootaudio.com/category/kontakt-instruments/soundtrax/drop-pad-3"
+slug         = "drop-pad-3"
+name         = "Drop Pad 3"
+vendor       = "Loot Audio"
+version      = "3.0"
+description  = "NKS-compatible Kontakt Player pad instrument combining evolving pads with built-in effects."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.lootaudio.com/category/kontakt-instruments/soundtrax/drop-pad-3"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/15223-Drop-Pad-3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.lootaudio.com/category/kontakt-instruments/soundtrax/drop-pad-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/category/kontakt-instruments/soundtrax/drop-pad-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.lootaudio.com/category/kontakt-instruments/soundtrax/drop-pad-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/category/kontakt-instruments/soundtrax/drop-pad-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

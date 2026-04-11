@@ -1,26 +1,27 @@
-slug        = "elements-suite"
-name        = "Elements Suite"
-vendor      = "iZotope"
-version     = "11"
-description = "Entry-level iZotope bundle of Elements editions for audio repair, mixing, mastering, and vocal processing."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "izotope-product-portal"
-homepage    = "https://www.izotope.com/en/products/elements-suite"
-is_paid     = true
+slug         = "elements-suite"
+name         = "Elements Suite"
+vendor       = "iZotope"
+version      = "11"
+description  = "Entry-level iZotope bundle of Elements editions for audio repair, mixing, mastering, and vocal processing."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "izotope-product-portal"
+homepage     = "https://www.izotope.com/en/products/elements-suite"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.izotope.com/en/products/elements-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products/elements-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.izotope.com/en/products/elements-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products/elements-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

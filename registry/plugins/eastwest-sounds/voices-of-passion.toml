@@ -1,26 +1,27 @@
-slug        = "voices-of-passion"
-name        = "Voices Of Passion"
-vendor      = "EastWest Sounds"
-version     = "1.0.0"
-description = "Uniquely beautiful female voices from around the world with expressive ethnic vocal performances."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/vocals/voices-of-passion"
+slug         = "voices-of-passion"
+name         = "Voices Of Passion"
+vendor       = "EastWest Sounds"
+version      = "1.0.0"
+description  = "Uniquely beautiful female voices from around the world with expressive ethnic vocal performances."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/vocals/voices-of-passion"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15627-Voices-Of-Passion?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/vocals/voices-of-passion"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/vocals/voices-of-passion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/vocals/voices-of-passion"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/vocals/voices-of-passion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

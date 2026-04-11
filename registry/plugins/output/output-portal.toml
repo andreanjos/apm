@@ -1,24 +1,27 @@
-slug        = "output-portal"
-name        = "Portal"
-vendor      = "Output"
-version     = "1.2.1"
-description = "Granular synthesis FX engine that re-synthesizes audio with tempo-synced grain delay and scale-based pitch modulation."
-category    = "effects"
-subcategory = "granular"
-license     = "commercial"
-tags        = ["granular", "effects", "creative", "synthesis", "delay", "pitch"]
-homepage    = "https://output.com/products/portal"
+slug         = "output-portal"
+name         = "Portal"
+vendor       = "Output"
+version      = "1.2.1"
+description  = "Granular synthesis FX engine that re-synthesizes audio with tempo-synced grain delay and scale-based pitch modulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "granular"
+license      = "commercial"
+tags         = ["granular", "effects", "creative", "synthesis", "delay", "pitch"]
+aliases      = ["portal-output"]
+homepage     = "https://output.com/products/portal"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://output.com/products/portal"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://output.com/products/portal"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Portal.vst3"
+bundle_path   = "Portal.vst3"
 
 [formats.au]
-url          = "https://output.com/products/portal"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://output.com/products/portal"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Portal.component"
+bundle_path   = "Portal.component"

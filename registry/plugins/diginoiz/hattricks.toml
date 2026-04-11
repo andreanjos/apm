@@ -1,25 +1,26 @@
-slug        = "hattricks"
-name        = "Hattricks"
-vendor      = "Diginoiz"
-version     = "1.0.0"
-description = "Hi-hat pattern synthesizer plugin for quick trap, R&B, and hip-hop hi-hat rhythm programming."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://diginoiz.com/"
-is_paid     = true
+slug         = "hattricks"
+name         = "Hattricks"
+vendor       = "Diginoiz"
+version      = "1.0.0"
+description  = "Hi-hat pattern synthesizer plugin for quick trap, R&B, and hip-hop hi-hat rhythm programming."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://diginoiz.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://diginoiz.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://diginoiz.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://diginoiz.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://diginoiz.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

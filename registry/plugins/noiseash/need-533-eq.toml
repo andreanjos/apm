@@ -1,25 +1,26 @@
-slug        = "need-533-eq"
-name        = "NEED 533 Eq"
-vendor      = "NoiseAsh"
-version     = "1.0.0"
-description = "500-series style British EQ modeled on the Neve 33115/33122 circuits for classic console tone."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://noiseash.com/need-533-eq/"
-is_paid     = true
+slug         = "need-533-eq"
+name         = "NEED 533 Eq"
+vendor       = "NoiseAsh"
+version      = "1.0.0"
+description  = "500-series style British EQ modeled on the Neve 33115/33122 circuits for classic console tone."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://noiseash.com/need-533-eq/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://noiseash.com/need-533-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/need-533-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://noiseash.com/need-533-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/need-533-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

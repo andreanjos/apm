@@ -1,26 +1,27 @@
-slug        = "bx-ssl-collection"
-name        = "bx SSL Collection"
-vendor      = "Brainworx"
-version     = "1.0.0"
-description = "Bundle of Brainworx SSL console channel strip emulations including the 4000 E, 4000 G, and 9000 J."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugin-alliance.com/collections/brainworx"
+slug         = "bx-ssl-collection"
+name         = "bx SSL Collection"
+vendor       = "Brainworx"
+version      = "1.0.0"
+description  = "Bundle of Brainworx SSL console channel strip emulations including the 4000 E, 4000 G, and 9000 J."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugin-alliance.com/collections/brainworx"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/11684-bx-SSL-Collection?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/collections/brainworx"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/collections/brainworx"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/collections/brainworx"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/collections/brainworx"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

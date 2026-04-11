@@ -1,25 +1,26 @@
-slug        = "absolute-5"
-name        = "Absolute 5"
-vendor      = "Steinberg"
-version     = "5"
-description = "Comprehensive VST instrument bundle with 130GB+ content including HALion, Groove Agent, and more."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.steinberg.net/vst-instruments/absolute/"
-is_paid     = true
+slug         = "absolute-5"
+name         = "Absolute 5"
+vendor       = "Steinberg"
+version      = "5"
+description  = "Comprehensive VST instrument bundle with 130GB+ content including HALion, Groove Agent, and more."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.steinberg.net/vst-instruments/absolute/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.steinberg.net/vst-instruments/absolute/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/vst-instruments/absolute/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.steinberg.net/vst-instruments/absolute/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/vst-instruments/absolute/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "vocalo-changer"
-name        = "Vocalo Changer"
-vendor      = "VOCALOID"
-version     = "1.0"
-description = "VOCALOID Vocalo Changer transforms any recorded voice into a VOCALOID-style singing voice."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.vocaloid.com/en/vocalo-changer/"
+slug         = "vocalo-changer"
+name         = "Vocalo Changer"
+vendor       = "VOCALOID"
+version      = "1.0"
+description  = "VOCALOID Vocalo Changer transforms any recorded voice into a VOCALOID-style singing voice."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.vocaloid.com/en/vocalo-changer/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/13400-Vocalo-Changer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.vocaloid.com/en/vocalo-changer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.vocaloid.com/en/vocalo-changer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.vocaloid.com/en/vocalo-changer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.vocaloid.com/en/vocalo-changer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

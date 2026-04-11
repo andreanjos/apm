@@ -1,24 +1,25 @@
-slug        = "rematrix-factory-ir-library"
-name        = "REmatrix Factory IR Library"
-vendor      = "Overloud"
-version     = "1.0.0"
-description = "Factory impulse response library for REmatrix featuring 330 IRs and 670 presets by MoReVoX."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.overloud.com/products/rematrix"
-is_paid     = true
+slug         = "rematrix-factory-ir-library"
+name         = "REmatrix Factory IR Library"
+vendor       = "Overloud"
+version      = "1.0.0"
+description  = "Factory impulse response library for REmatrix featuring 330 IRs and 670 presets by MoReVoX."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.overloud.com/products/rematrix"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.overloud.com/products/rematrix"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products/rematrix"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.overloud.com/products/rematrix"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products/rematrix"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

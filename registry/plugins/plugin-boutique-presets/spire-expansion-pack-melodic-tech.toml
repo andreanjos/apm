@@ -1,26 +1,27 @@
-slug        = "spire-expansion-pack-melodic-tech"
-name        = "Spire Expansion Pack Melodic Tech"
-vendor      = "Plugin Boutique Presets"
-version     = "1.0.0"
-description = "Melodic Tech preset expansion for Reveal Sound Spire synthesizer."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
+slug         = "spire-expansion-pack-melodic-tech"
+name         = "Spire Expansion Pack Melodic Tech"
+vendor       = "Plugin Boutique Presets"
+version      = "1.0.0"
+description  = "Melodic Tech preset expansion for Reveal Sound Spire synthesizer."
+category     = "instruments"
+product_type = "expansion"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/4248-Spire-Expansion-Pack-Melodic-Tech?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

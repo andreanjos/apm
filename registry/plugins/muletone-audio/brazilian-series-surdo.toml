@@ -1,25 +1,26 @@
-slug        = "brazilian-series-surdo"
-name        = "Brazilian Series: Surdo"
-vendor      = "Muletone Audio"
-version     = "1.7"
-description = "Kontakt library of the Brazilian Surdo bass drum with 513 samples covering samba and related styles."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.muletoneaudio.com/brazilian-series-surdo/"
-is_paid     = true
+slug         = "brazilian-series-surdo"
+name         = "Brazilian Series: Surdo"
+vendor       = "Muletone Audio"
+version      = "1.7"
+description  = "Kontakt library of the Brazilian Surdo bass drum with 513 samples covering samba and related styles."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.muletoneaudio.com/brazilian-series-surdo/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.muletoneaudio.com/brazilian-series-surdo/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/brazilian-series-surdo/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.muletoneaudio.com/brazilian-series-surdo/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/brazilian-series-surdo/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

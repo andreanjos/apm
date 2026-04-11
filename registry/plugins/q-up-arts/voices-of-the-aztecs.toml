@@ -1,25 +1,26 @@
-slug        = "voices-of-the-aztecs"
-name        = "Voices of the Aztecs"
-vendor      = "Q Up Arts"
-version     = "1.0.0"
-description = "Comprehensive Aztec virtual instruments library recorded in Mexico using archaeological artifacts."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://quparts.com/products/voices-of-the-world-bundle"
-is_paid     = true
+slug         = "voices-of-the-aztecs"
+name         = "Voices of the Aztecs"
+vendor       = "Q Up Arts"
+version      = "1.0.0"
+description  = "Comprehensive Aztec virtual instruments library recorded in Mexico using archaeological artifacts."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://quparts.com/products/voices-of-the-world-bundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://quparts.com/products/voices-of-the-world-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://quparts.com/products/voices-of-the-world-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://quparts.com/products/voices-of-the-world-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://quparts.com/products/voices-of-the-world-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

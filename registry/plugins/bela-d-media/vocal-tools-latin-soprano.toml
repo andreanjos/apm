@@ -1,25 +1,26 @@
-slug        = "vocal-tools-latin-soprano"
-name        = "Vocal Tools Latin Soprano"
-vendor      = "Bela D Media"
-version     = "1.0.0"
-description = "Latin soprano soloist Kontakt library with vocal phrases and sustained articulations."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://beladmedia.com/vocal-tools-latin-soprano/"
-is_paid     = true
+slug         = "vocal-tools-latin-soprano"
+name         = "Vocal Tools Latin Soprano"
+vendor       = "Bela D Media"
+version      = "1.0.0"
+description  = "Latin soprano soloist Kontakt library with vocal phrases and sustained articulations."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://beladmedia.com/vocal-tools-latin-soprano/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://beladmedia.com/vocal-tools-latin-soprano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/vocal-tools-latin-soprano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://beladmedia.com/vocal-tools-latin-soprano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/vocal-tools-latin-soprano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

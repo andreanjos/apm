@@ -1,26 +1,27 @@
-slug        = "dsk-darkness-theory-3"
-name        = "DSK Darkness Theory 3"
-vendor      = "DSK Music"
-version     = "3.0"
-description = "Free ambient synth with dark atmospheric sound design tools."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.dskmusic.com/dsk-darkness-theory/"
+slug         = "dsk-darkness-theory-3"
+name         = "DSK Darkness Theory 3"
+vendor       = "DSK Music"
+version      = "3.0"
+description  = "Free ambient synth with dark atmospheric sound design tools."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.dskmusic.com/dsk-darkness-theory/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/552-DSK-Darkness-Theory-3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.dskmusic.com/dsk-darkness-theory/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.dskmusic.com/dsk-darkness-theory/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.dskmusic.com/dsk-darkness-theory/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.dskmusic.com/dsk-darkness-theory/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "ancient-world-instruments-of-antiquity"
-name        = "Ancient World Instruments of Antiquity"
-vendor      = "Big Fish Audio"
-version     = "1.0.0"
-description = "Big Fish Audio Kontakt library of 32 recreated ancient Greek and historical instruments."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bigfishaudio.com/Ancient-World-Instruments-of-Antiquity"
+slug         = "ancient-world-instruments-of-antiquity"
+name         = "Ancient World Instruments of Antiquity"
+vendor       = "Big Fish Audio"
+version      = "1.0.0"
+description  = "Big Fish Audio Kontakt library of 32 recreated ancient Greek and historical instruments."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bigfishaudio.com/Ancient-World-Instruments-of-Antiquity"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8526-Ancient-World-Instruments-of-Antiquity?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bigfishaudio.com/Ancient-World-Instruments-of-Antiquity"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bigfishaudio.com/Ancient-World-Instruments-of-Antiquity"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bigfishaudio.com/Ancient-World-Instruments-of-Antiquity"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bigfishaudio.com/Ancient-World-Instruments-of-Antiquity"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

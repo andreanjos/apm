@@ -1,25 +1,26 @@
-slug        = "ironaxe"
-name        = "IronAxe"
-vendor      = "Xhun Audio"
-version     = "1.0.0"
-description = "Physical modeling electric guitar simulator with customizable Strat/Tele construction, pickups, and amp/stompbox chain."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xhun-audio.com/site/xhun.php?page=ironaxe"
-is_paid     = true
+slug         = "ironaxe"
+name         = "IronAxe"
+vendor       = "Xhun Audio"
+version      = "1.0.0"
+description  = "Physical modeling electric guitar simulator with customizable Strat/Tele construction, pickups, and amp/stompbox chain."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.xhun-audio.com/site/xhun.php?page=ironaxe"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xhun-audio.com/site/xhun.php?page=ironaxe"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xhun-audio.com/site/xhun.php?page=ironaxe"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xhun-audio.com/site/xhun.php?page=ironaxe"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xhun-audio.com/site/xhun.php?page=ironaxe"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

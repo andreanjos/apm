@@ -1,26 +1,27 @@
-slug        = "panshaper-4"
-name        = "PanShaper 4"
-vendor      = "Cableguys"
-version     = "4"
-description = "Stereo panning plugin using regular and Haas delay-based panning for precise stereo image control."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.cableguys.com/panshaper"
+slug         = "panshaper-4"
+name         = "PanShaper 4"
+vendor       = "Cableguys"
+version      = "4"
+description  = "Stereo panning plugin using regular and Haas delay-based panning for precise stereo image control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.cableguys.com/panshaper"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/9841-PanShaper-4?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.cableguys.com/panshaper"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cableguys.com/panshaper"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.cableguys.com/panshaper"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cableguys.com/panshaper"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "dsk-synthdrums"
-name        = "DSK SynthDrums"
-vendor      = "DSK Music"
-version     = "1.0.0"
-description = "Free 12-pad drum synthesizer with filters, distortion, EQ, and MIDI automation."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.dskmusic.com/dsk-synthdrums/"
+slug         = "dsk-synthdrums"
+name         = "DSK SynthDrums"
+vendor       = "DSK Music"
+version      = "1.0.0"
+description  = "Free 12-pad drum synthesizer with filters, distortion, EQ, and MIDI automation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.dskmusic.com/dsk-synthdrums/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/549-DSK-SynthDrums?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.dskmusic.com/dsk-synthdrums/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.dskmusic.com/dsk-synthdrums/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.dskmusic.com/dsk-synthdrums/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.dskmusic.com/dsk-synthdrums/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

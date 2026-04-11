@@ -1,25 +1,26 @@
-slug        = "jewel-empire-ii"
-name        = "Jewel Empire II"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Second edition vintage keyboard Kontakt instrument with rich, imperial tonal character."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/jewel-empire-ii"
-is_paid     = true
+slug         = "jewel-empire-ii"
+name         = "Jewel Empire II"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Second edition vintage keyboard Kontakt instrument with rich, imperial tonal character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/jewel-empire-ii"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/jewel-empire-ii"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/jewel-empire-ii"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/jewel-empire-ii"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/jewel-empire-ii"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

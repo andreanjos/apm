@@ -1,26 +1,27 @@
-slug        = "alt-436c"
-name        = "ALT 436C"
-vendor      = "Antelope Audio"
-version     = "1.0.0"
-description = "Emulation of the ALT 436C variable-mu tube compressor used on classic Abbey Road recordings."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://en.antelopeaudio.com/products/alt-436c/"
+slug         = "alt-436c"
+name         = "ALT 436C"
+vendor       = "Antelope Audio"
+version      = "1.0.0"
+description  = "Emulation of the ALT 436C variable-mu tube compressor used on classic Abbey Road recordings."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://en.antelopeaudio.com/products/alt-436c/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16005-ALT-436C?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://en.antelopeaudio.com/products/alt-436c/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/alt-436c/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://en.antelopeaudio.com/products/alt-436c/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/alt-436c/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "acoufiend"
-name        = "AcouFiend"
-vendor      = "Blue Cat Audio"
-version     = "1.14"
-description = "Creative acoustic feedback simulator enabling guitars to sustain and scream with control at any volume."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_AcouFiend/"
-is_paid     = true
+slug         = "acoufiend"
+name         = "AcouFiend"
+vendor       = "Blue Cat Audio"
+version      = "1.14"
+description  = "Creative acoustic feedback simulator enabling guitars to sustain and scream with control at any volume."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_AcouFiend/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_AcouFiend/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_AcouFiend/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_AcouFiend/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_AcouFiend/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

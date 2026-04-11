@@ -1,25 +1,26 @@
-slug        = "stratos"
-name        = "Stratos"
-vendor      = "Hyper Samples"
-version     = "1.0"
-description = "Atmospheric strings Kontakt library by Hyper Samples for sweeping cinematic textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://hypersamples.com/"
-is_paid     = true
+slug         = "stratos"
+name         = "Stratos"
+vendor       = "Hyper Samples"
+version      = "1.0"
+description  = "Atmospheric strings Kontakt library by Hyper Samples for sweeping cinematic textures."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://hypersamples.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hypersamples.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hypersamples.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hypersamples.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hypersamples.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

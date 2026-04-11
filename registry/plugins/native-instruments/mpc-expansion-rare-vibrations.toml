@@ -1,27 +1,28 @@
-slug        = "mpc-expansion-rare-vibrations"
-name        = "MPC Expansion Rare Vibrations"
-vendor      = "Native Instruments"
-version     = "1.0"
-description = "Jazz-influenced MPC expansion with organic and synthesized elements delivering electronic and soulful flavor."
-category    = "effects"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-installer   = "native-access"
-homepage    = "https://www.native-instruments.com/en/products/for-akai-mpc/expansions-for-mpc/"
+slug         = "mpc-expansion-rare-vibrations"
+name         = "MPC Expansion Rare Vibrations"
+vendor       = "Native Instruments"
+version      = "1.0"
+description  = "Jazz-influenced MPC expansion with organic and synthesized elements delivering electronic and soulful flavor."
+category     = "effects"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+installer    = "native-access"
+homepage     = "https://www.native-instruments.com/en/products/for-akai-mpc/expansions-for-mpc/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/15197-MPC-Expansion-Rare-Vibrations?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.native-instruments.com/en/products/for-akai-mpc/expansions-for-mpc/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/for-akai-mpc/expansions-for-mpc/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.native-instruments.com/en/products/for-akai-mpc/expansions-for-mpc/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/for-akai-mpc/expansions-for-mpc/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

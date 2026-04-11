@@ -1,25 +1,26 @@
-slug        = "catalyst"
-name        = "Catalyst"
-vendor      = "Aria Sounds"
-version     = "1.0.0"
-description = "Cinematic percussion Kontakt library with powerful, dramatic hits and layers for film scoring."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://ariasounds.com/product/catalyst/"
-is_paid     = true
+slug         = "catalyst"
+name         = "Catalyst"
+vendor       = "Aria Sounds"
+version      = "1.0.0"
+description  = "Cinematic percussion Kontakt library with powerful, dramatic hits and layers for film scoring."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://ariasounds.com/product/catalyst/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ariasounds.com/product/catalyst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/catalyst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ariasounds.com/product/catalyst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/catalyst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

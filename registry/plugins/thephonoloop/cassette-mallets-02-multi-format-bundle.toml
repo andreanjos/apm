@@ -1,25 +1,26 @@
-slug        = "cassette-mallets-02-multi-format-bundle"
-name        = "Cassette Mallets.02 Multi-Format Bundle"
-vendor      = "THEPHONOLOOP"
-version     = "1.0.0"
-description = "Three experimental mallet instruments including glockenspiel, xylophone, and spring-mallet sounds on cassette."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://thephonoloop.com/products/cassette-mallets-02"
-is_paid     = true
+slug         = "cassette-mallets-02-multi-format-bundle"
+name         = "Cassette Mallets.02 Multi-Format Bundle"
+vendor       = "THEPHONOLOOP"
+version      = "1.0.0"
+description  = "Three experimental mallet instruments including glockenspiel, xylophone, and spring-mallet sounds on cassette."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://thephonoloop.com/products/cassette-mallets-02"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://thephonoloop.com/products/cassette-mallets-02"
-sha256       = ""
-install_type = "zip"
+url           = "https://thephonoloop.com/products/cassette-mallets-02"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://thephonoloop.com/products/cassette-mallets-02"
-sha256       = ""
-install_type = "zip"
+url           = "https://thephonoloop.com/products/cassette-mallets-02"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

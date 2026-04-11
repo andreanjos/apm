@@ -1,25 +1,26 @@
-slug        = "amplitube-5-max-crossgrade"
-name        = "Amplitube 5 MAX Crossgrade"
-vendor      = "IK Multimedia"
-version     = "5.0"
-description = "Crossgrade to AmpliTube 5 MAX, granting access to the full library of 400+ gear models and TONEX integration."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/amplitube5/"
-is_paid     = true
+slug         = "amplitube-5-max-crossgrade"
+name         = "Amplitube 5 MAX Crossgrade"
+vendor       = "IK Multimedia"
+version      = "5.0"
+description  = "Crossgrade to AmpliTube 5 MAX, granting access to the full library of 400+ gear models and TONEX integration."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/amplitube5/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/amplitube5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/amplitube5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/amplitube5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/amplitube5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

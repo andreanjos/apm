@@ -1,26 +1,27 @@
-slug        = "vislm"
-name        = "VisLM"
-vendor      = "NUGEN Audio"
-version     = "3.0"
-description = "A Netflix-compliant loudness meter with real-time metering, True Peak monitoring, and session-wide analysis."
-category    = "utility"
-subcategory = "metering"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/vislm/"
+slug         = "vislm"
+name         = "VisLM"
+vendor       = "NUGEN Audio"
+version      = "3.0"
+description  = "A Netflix-compliant loudness meter with real-time metering, True Peak monitoring, and session-wide analysis."
+category     = "utility"
+product_type = "utility"
+subcategory  = "metering"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/vislm/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/1636-VisLM?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/vislm/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/vislm/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/vislm/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/vislm/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

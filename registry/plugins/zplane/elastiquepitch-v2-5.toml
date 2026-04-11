@@ -1,26 +1,27 @@
-slug        = "elastiquepitch-v2-5"
-name        = "ElastiquePitch V2 5"
-vendor      = "zplane"
-version     = "2.5"
-description = "Real-time ultra-transparent pitch and formant shifting plugin for any production or post need."
-category    = "effects"
-subcategory = "pitch shifter"
-license     = "commercial"
-tags        = []
-homepage    = "https://products.zplane.de/products/elastiquepitch"
+slug         = "elastiquepitch-v2-5"
+name         = "ElastiquePitch V2 5"
+vendor       = "zplane"
+version      = "2.5"
+description  = "Real-time ultra-transparent pitch and formant shifting plugin for any production or post need."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch shifter"
+license      = "commercial"
+tags         = []
+homepage     = "https://products.zplane.de/products/elastiquepitch"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/4185-ElastiquePitch-V2-5?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://products.zplane.de/products/elastiquepitch"
-sha256       = ""
-install_type = "zip"
+url           = "https://products.zplane.de/products/elastiquepitch"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://products.zplane.de/products/elastiquepitch"
-sha256       = ""
-install_type = "zip"
+url           = "https://products.zplane.de/products/elastiquepitch"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

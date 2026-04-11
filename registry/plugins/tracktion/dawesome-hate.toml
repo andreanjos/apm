@@ -1,26 +1,27 @@
-slug        = "dawesome-hate"
-name        = "Dawesome HATE"
-vendor      = "Tracktion"
-version     = "1.0.0"
-description = "Distortion plugin by Dawesome offering everything from subtle warmth to total sonic destruction."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tracktion.com/products/hate"
+slug         = "dawesome-hate"
+name         = "Dawesome HATE"
+vendor       = "Tracktion"
+version      = "1.0.0"
+description  = "Distortion plugin by Dawesome offering everything from subtle warmth to total sonic destruction."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tracktion.com/products/hate"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/14539-Dawesome-HATE?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tracktion.com/products/hate"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/hate"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tracktion.com/products/hate"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/hate"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

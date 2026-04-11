@@ -1,25 +1,26 @@
-slug        = "rust-2"
-name        = "Rust 2"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Second volume of the Rust series — industrial Kontakt instrument from oxidized metallic sources."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/rust-2"
-is_paid     = true
+slug         = "rust-2"
+name         = "Rust 2"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Second volume of the Rust series - industrial Kontakt instrument from oxidized metallic sources."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/rust-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/rust-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/rust-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/rust-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/rust-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

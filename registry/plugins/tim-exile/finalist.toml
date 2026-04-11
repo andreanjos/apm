@@ -1,26 +1,27 @@
-slug        = "finalist"
-name        = "Finalist"
-vendor      = "Tim Exile"
-version     = "1.0"
-description = "Tim Exile Finalist is a multiband dynamics processor in the Native Instruments ecosystem."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.native-instruments.com/en/products/komplete/effects/"
+slug         = "finalist"
+name         = "Finalist"
+vendor       = "Tim Exile"
+version      = "1.0"
+description  = "Tim Exile Finalist is a multiband dynamics processor in the Native Instruments ecosystem."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.native-instruments.com/en/products/komplete/effects/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/16164-Finalist?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.native-instruments.com/en/products/komplete/effects/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/effects/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.native-instruments.com/en/products/komplete/effects/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/effects/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

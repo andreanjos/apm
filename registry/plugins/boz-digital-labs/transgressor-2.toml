@@ -1,24 +1,25 @@
-slug        = "transgressor-2"
-name        = "Transgressor 2"
-vendor      = "Boz Digital Labs"
-version     = "2"
-description = "Transient shaper plugin with independent control over attack and sustain for dynamic punch shaping."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozdigitallabs.com/transgressor/"
-is_paid     = true
+slug         = "transgressor-2"
+name         = "Transgressor 2"
+vendor       = "Boz Digital Labs"
+version      = "2"
+description  = "Transient shaper plugin with independent control over attack and sustain for dynamic punch shaping."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bozdigitallabs.com/transgressor/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozdigitallabs.com/transgressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/transgressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozdigitallabs.com/transgressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/transgressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "petroglyph"
-name        = "Petroglyph"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Ancient-inspired Kontakt instrument with prehistoric, stone-carved tonal textures and atmosphere."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/petroglyph"
-is_paid     = true
+slug         = "petroglyph"
+name         = "Petroglyph"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Ancient-inspired Kontakt instrument with prehistoric, stone-carved tonal textures and atmosphere."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/petroglyph"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/petroglyph"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/petroglyph"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/petroglyph"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/petroglyph"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

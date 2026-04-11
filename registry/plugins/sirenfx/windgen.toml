@@ -1,24 +1,25 @@
-slug        = "windgen"
-name        = "WindGen"
-vendor      = "SirenFX"
-version     = "1.1.0"
-description = "Sample-free wind sound synthesizer with expressive 4-stage formant filter for atmospheric wind noises."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://sirenfx.gumroad.com/l/Sfwg"
-is_paid     = true
+slug         = "windgen"
+name         = "WindGen"
+vendor       = "SirenFX"
+version      = "1.1.0"
+description  = "Sample-free wind sound synthesizer with expressive 4-stage formant filter for atmospheric wind noises."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://sirenfx.gumroad.com/l/Sfwg"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sirenfx.gumroad.com/l/Sfwg"
-sha256       = ""
-install_type = "zip"
+url           = "https://sirenfx.gumroad.com/l/Sfwg"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sirenfx.gumroad.com/l/Sfwg"
-sha256       = ""
-install_type = "zip"
+url           = "https://sirenfx.gumroad.com/l/Sfwg"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

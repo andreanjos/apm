@@ -1,25 +1,26 @@
-slug        = "soundspot-producers-creative-bundle"
-name        = "SoundSpot Producers Creative Bundle"
-vendor      = "SoundSpot"
-version     = "1.0.0"
-description = "SoundSpot complete producers creative bundle of mixing and sound design effects plugins."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
-is_paid     = true
+slug         = "soundspot-producers-creative-bundle"
+name         = "SoundSpot Producers Creative Bundle"
+vendor       = "SoundSpot"
+version      = "1.0.0"
+description  = "SoundSpot complete producers creative bundle of mixing and sound design effects plugins."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/187-SoundSpot"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

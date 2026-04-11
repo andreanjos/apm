@@ -1,25 +1,26 @@
-slug        = "c-e-vol-30-orchestral-flavours"
-name        = "C.E. Vol.30 Orchestral Flavours"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "A beautiful collection of orchestral tuttis, sections, hits, sustains, and phrases for film and TV scoring."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/orchestral-flavours"
-is_paid     = true
+slug         = "c-e-vol-30-orchestral-flavours"
+name         = "C.E. Vol.30 Orchestral Flavours"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "A beautiful collection of orchestral tuttis, sections, hits, sustains, and phrases for film and TV scoring."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/orchestral-flavours"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/orchestral-flavours"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/orchestral-flavours"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/orchestral-flavours"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/orchestral-flavours"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "aetheric"
-name        = "Aetheric"
-vendor      = "Iamlamprey"
-version     = "1.0.0"
-description = "Ambient pad Kontakt library of gorgeous pads and natural recorded ambiances to set a mood instantly."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.iamlamprey.com/products/aetheric"
+slug         = "aetheric"
+name         = "Aetheric"
+vendor       = "Iamlamprey"
+version      = "1.0.0"
+description  = "Ambient pad Kontakt library of gorgeous pads and natural recorded ambiances to set a mood instantly."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.iamlamprey.com/products/aetheric"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8067-Aetheric?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.iamlamprey.com/products/aetheric"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.iamlamprey.com/products/aetheric"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.iamlamprey.com/products/aetheric"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.iamlamprey.com/products/aetheric"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

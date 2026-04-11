@@ -1,25 +1,26 @@
-slug        = "cinematique-instruments-volume-1-bundle"
-name        = "Cinematique Instruments Volume 1 Bundle"
-vendor      = "Cinematique Instruments"
-version     = "1.0.0"
-description = "Foundational bundle of Cinematique Instruments' boutique Kontakt instrument libraries."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bestservice.com/en/cinematique_instruments_1.html"
-is_paid     = true
+slug         = "cinematique-instruments-volume-1-bundle"
+name         = "Cinematique Instruments Volume 1 Bundle"
+vendor       = "Cinematique Instruments"
+version      = "1.0.0"
+description  = "Foundational bundle of Cinematique Instruments' boutique Kontakt instrument libraries."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bestservice.com/en/cinematique_instruments_1.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bestservice.com/en/cinematique_instruments_1.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bestservice.com/en/cinematique_instruments_1.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bestservice.com/en/cinematique_instruments_1.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bestservice.com/en/cinematique_instruments_1.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

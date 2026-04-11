@@ -1,24 +1,25 @@
-slug        = "palindrome"
-name        = "Palindrome"
-vendor      = "Glitchmachines"
-version     = "2"
-description = "Glitch and stutter effects plugin with generative sequencing for forward-thinking sound design."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://glitchmachines.com/products/palindrome/"
-is_paid     = true
+slug         = "palindrome"
+name         = "Palindrome"
+vendor       = "Glitchmachines"
+version      = "2"
+description  = "Glitch and stutter effects plugin with generative sequencing for forward-thinking sound design."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://glitchmachines.com/products/palindrome/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://glitchmachines.com/products/palindrome/"
-sha256       = ""
-install_type = "zip"
+url           = "https://glitchmachines.com/products/palindrome/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://glitchmachines.com/products/palindrome/"
-sha256       = ""
-install_type = "zip"
+url           = "https://glitchmachines.com/products/palindrome/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

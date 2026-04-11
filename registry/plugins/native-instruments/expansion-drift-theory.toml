@@ -1,27 +1,28 @@
-slug        = "expansion-drift-theory"
-name        = "Expansion Drift Theory"
-vendor      = "Native Instruments"
-version     = "1.0"
-description = "Lo-fi hip hop Maschine/Komplete expansion with saturated synths, cassette-flavored keys, and analog drums."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-installer   = "native-access"
-homepage    = "https://www.native-instruments.com/en/products/komplete/expansions/drift-theory/"
+slug         = "expansion-drift-theory"
+name         = "Expansion Drift Theory"
+vendor       = "Native Instruments"
+version      = "1.0"
+description  = "Lo-fi hip hop Maschine/Komplete expansion with saturated synths, cassette-flavored keys, and analog drums."
+category     = "instruments"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+installer    = "native-access"
+homepage     = "https://www.native-instruments.com/en/products/komplete/expansions/drift-theory/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/16329-Expansion-Drift-Theory?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.native-instruments.com/en/products/komplete/expansions/drift-theory/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/expansions/drift-theory/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.native-instruments.com/en/products/komplete/expansions/drift-theory/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/expansions/drift-theory/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

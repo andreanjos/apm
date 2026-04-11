@@ -1,25 +1,26 @@
-slug        = "dynamic-delay"
-name        = "Dynamic Delay"
-vendor      = "Initial Audio"
-version     = "1.0.0"
-description = "Delay plugin with built-in dynamic saturation and one-knob reverb for rhythmic echo effects."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://initialaudio.com/dynamic-delay/"
-is_paid     = true
+slug         = "dynamic-delay"
+name         = "Dynamic Delay"
+vendor       = "Initial Audio"
+version      = "1.0.0"
+description  = "Delay plugin with built-in dynamic saturation and one-knob reverb for rhythmic echo effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://initialaudio.com/dynamic-delay/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://initialaudio.com/dynamic-delay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://initialaudio.com/dynamic-delay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://initialaudio.com/dynamic-delay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://initialaudio.com/dynamic-delay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "nasty-looper"
-name        = "Nasty Looper"
-vendor      = "beatassist eu"
-version     = "1.0"
-description = "Drum machine and looper plugin by beatassist.eu for beat creation and performance."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beatassist.eu/"
+slug         = "nasty-looper"
+name         = "Nasty Looper"
+vendor       = "beatassist eu"
+version      = "1.0"
+description  = "Drum machine and looper plugin by beatassist.eu for beat creation and performance."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beatassist.eu/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/1417-Nasty-Looper?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beatassist.eu/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatassist.eu/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beatassist.eu/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatassist.eu/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

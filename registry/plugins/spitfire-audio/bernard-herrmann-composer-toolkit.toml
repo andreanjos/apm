@@ -1,26 +1,27 @@
-slug        = "bernard-herrmann-composer-toolkit"
-name        = "Bernard Herrmann Composer Toolkit"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Dry scoring stage ensembles inspired by the legendary composer of Psycho, Vertigo, and Citizen Kane."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/bernard-herrmann-composer-toolkit"
-is_paid     = true
+slug         = "bernard-herrmann-composer-toolkit"
+name         = "Bernard Herrmann Composer Toolkit"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Dry scoring stage ensembles inspired by the legendary composer of Psycho, Vertigo, and Citizen Kane."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/bernard-herrmann-composer-toolkit"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/bernard-herrmann-composer-toolkit"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/bernard-herrmann-composer-toolkit"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/bernard-herrmann-composer-toolkit"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/bernard-herrmann-composer-toolkit"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

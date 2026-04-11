@@ -1,26 +1,27 @@
-slug        = "duality"
-name        = "Duality"
-vendor      = "Sinevibes"
-version     = "1.0.0"
-description = "Vibrato plugin using two independent modulation generators for complex, animated pitch variation."
-category    = "effects"
-subcategory = "vibrato"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sinevibes.com/duality/"
+slug         = "duality"
+name         = "Duality"
+vendor       = "Sinevibes"
+version      = "1.0.0"
+description  = "Vibrato plugin using two independent modulation generators for complex, animated pitch variation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vibrato"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sinevibes.com/duality/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/41-Vibrato/17131-Duality?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sinevibes.com/duality/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/duality/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sinevibes.com/duality/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/duality/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

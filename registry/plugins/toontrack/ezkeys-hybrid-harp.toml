@@ -1,26 +1,27 @@
-slug        = "ezkeys-hybrid-harp"
-name        = "EZKeys Hybrid Harp"
-vendor      = "Toontrack"
-version     = "2.1.5"
-description = "EZkeys expansion combining acoustic harp with hybrid electronic textures for cinematic and modern music."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-installer   = "toontrack-product-manager"
-homepage    = "https://www.toontrack.com/product/hybrid-harp-ekx/"
-is_paid     = true
+slug         = "ezkeys-hybrid-harp"
+name         = "EZKeys Hybrid Harp"
+vendor       = "Toontrack"
+version      = "2.1.5"
+description  = "EZkeys expansion combining acoustic harp with hybrid electronic textures for cinematic and modern music."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+installer    = "toontrack-product-manager"
+homepage     = "https://www.toontrack.com/product/hybrid-harp-ekx/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.toontrack.com/product/hybrid-harp-ekx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/hybrid-harp-ekx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.toontrack.com/product/hybrid-harp-ekx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/hybrid-harp-ekx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

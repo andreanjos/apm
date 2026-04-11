@@ -1,24 +1,28 @@
-slug        = "cherry-audio-dreamsynth"
-name        = "Dreamsynth"
-vendor      = "Cherry Audio"
-version     = "1.4.0"
-description = "Dreamy analog/digital hybrid synthesizer inspired by 1980s hardware, featuring dual-wave morphing oscillators, polyphonic analog strings, stereo filters, and MPE support."
-category    = "instruments"
-subcategory = "synthesizer"
-license     = "commercial"
-tags        = ["synth", "synthesizer", "hybrid", "analog", "digital", "80s", "strings", "mpe"]
-homepage    = "https://cherryaudio.com/products/dreamsynth"
+slug         = "cherry-audio-dreamsynth"
+name         = "Dreamsynth"
+vendor       = "Cherry Audio"
+version      = "1.4.0"
+description  = "Dreamy analog/digital hybrid synthesizer inspired by 1980s hardware, featuring dual-wave morphing oscillators, polyphonic analog strings, stereo filters, and MPE support."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synthesizer"
+license      = "commercial"
+tags         = ["synth", "synthesizer", "hybrid", "analog", "digital", "80s", "strings", "mpe"]
+aliases      = ["dreamsynth"]
+homepage     = "https://cherryaudio.com/products/dreamsynth"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/8856-Dreamsynth?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cherryaudio.com/products/dreamsynth/download"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://cherryaudio.com/products/dreamsynth/download"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Dreamsynth.vst3"
+bundle_path   = "Dreamsynth.vst3"
 
 [formats.au]
-url          = "https://cherryaudio.com/products/dreamsynth/download"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://cherryaudio.com/products/dreamsynth/download"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Dreamsynth.component"
+bundle_path   = "Dreamsynth.component"

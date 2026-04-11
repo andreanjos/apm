@@ -1,25 +1,26 @@
-slug        = "steel-tones"
-name        = "Steel Tones"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt instrument built from steel objects producing tuned metallic resonances and tones."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/steel-tones"
-is_paid     = true
+slug         = "steel-tones"
+name         = "Steel Tones"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt instrument built from steel objects producing tuned metallic resonances and tones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/steel-tones"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/steel-tones"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/steel-tones"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/steel-tones"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/steel-tones"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

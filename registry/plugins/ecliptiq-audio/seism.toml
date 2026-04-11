@@ -1,25 +1,26 @@
-slug        = "seism"
-name        = "Seism"
-vendor      = "Ecliptiq Audio"
-version     = "1.0.0"
-description = "Massive Kontakt drum library with 780 production-ready samples for every genre."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.adsrsounds.com/product/presets/seism/"
-is_paid     = true
+slug         = "seism"
+name         = "Seism"
+vendor       = "Ecliptiq Audio"
+version      = "1.0.0"
+description  = "Massive Kontakt drum library with 780 production-ready samples for every genre."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.adsrsounds.com/product/presets/seism/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.adsrsounds.com/product/presets/seism/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.adsrsounds.com/product/presets/seism/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.adsrsounds.com/product/presets/seism/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.adsrsounds.com/product/presets/seism/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

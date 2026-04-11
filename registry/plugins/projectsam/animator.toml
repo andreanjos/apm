@@ -1,25 +1,26 @@
-slug        = "animator"
-name        = "Animator"
-vendor      = "ProjectSAM"
-version     = "1.0.0"
-description = "Kontakt library for cartoon and animation scoring with characterful whimsical instruments."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://projectsam.com/libraries/colours-animator/"
-is_paid     = true
+slug         = "animator"
+name         = "Animator"
+vendor       = "ProjectSAM"
+version      = "1.0.0"
+description  = "Kontakt library for cartoon and animation scoring with characterful whimsical instruments."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://projectsam.com/libraries/colours-animator/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://projectsam.com/libraries/colours-animator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/colours-animator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://projectsam.com/libraries/colours-animator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/colours-animator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

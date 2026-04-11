@@ -1,26 +1,27 @@
-slug        = "kshmr-reverb-1-2"
-name        = "KSHMR Reverb 1 2"
-vendor      = "W A Production"
-version     = "1.2"
-description = "Professional reverb plugin co-developed with KSHMR featuring ducking, gating, and special FX modes."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/kshmr-reverb"
+slug         = "kshmr-reverb-1-2"
+name         = "KSHMR Reverb 1 2"
+vendor       = "W A Production"
+version      = "1.2"
+description  = "Professional reverb plugin co-developed with KSHMR featuring ducking, gating, and special FX modes."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/kshmr-reverb"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/10137-KSHMR-Reverb-1-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/kshmr-reverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/kshmr-reverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/kshmr-reverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/kshmr-reverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

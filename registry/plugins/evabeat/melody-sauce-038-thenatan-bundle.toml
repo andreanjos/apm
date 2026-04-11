@@ -1,25 +1,27 @@
-slug        = "melody-sauce-038-thenatan-bundle"
-name        = "Melody Sauce &#038; Thenatan Bundle"
-vendor      = "EVAbeat"
-version     = "1.0.0"
-description = "Bundle combining EVAbeat's Melody Sauce melody generator with Thenatan creative tools."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.evabeat.com/"
-is_paid     = true
+slug         = "melody-sauce-038-thenatan-bundle"
+name         = "Melody Sauce & Thenatan Bundle"
+vendor       = "EVAbeat"
+version      = "1.0.0"
+description  = "Bundle combining EVAbeat's Melody Sauce melody generator with Thenatan creative tools."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["melody-sauce-thenatan-bundle"]
+homepage     = "https://www.evabeat.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.evabeat.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.evabeat.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.evabeat.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.evabeat.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

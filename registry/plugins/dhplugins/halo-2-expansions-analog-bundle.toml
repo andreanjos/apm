@@ -1,26 +1,27 @@
-slug        = "halo-2-expansions-analog-bundle"
-name        = "HALO 2 Expansions Analog Bundle"
-vendor      = "DHPlugins"
-version     = "1.0.0"
-description = "Analog-themed expansion bundle for the HALO 2 hybrid synth/sampler instrument."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://dhplugins.com/halo-2/"
+slug         = "halo-2-expansions-analog-bundle"
+name         = "HALO 2 Expansions Analog Bundle"
+vendor       = "DHPlugins"
+version      = "1.0.0"
+description  = "Analog-themed expansion bundle for the HALO 2 hybrid synth/sampler instrument."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://dhplugins.com/halo-2/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/12036-HALO-2-Expansions-Analog-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://dhplugins.com/halo-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dhplugins.com/halo-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://dhplugins.com/halo-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dhplugins.com/halo-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

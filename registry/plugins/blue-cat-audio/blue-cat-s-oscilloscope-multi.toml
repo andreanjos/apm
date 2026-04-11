@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-oscilloscope-multi"
-name        = "Blue Cat s Oscilloscope Multi"
-vendor      = "Blue Cat Audio"
-version     = "2.44"
-description = "Multi-track waveform renderer and comparator with X-Y visualization for analyzing audio signals."
-category    = "effects"
-subcategory = "spectral analysis"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_OscilloscopeMulti/"
+slug         = "blue-cat-s-oscilloscope-multi"
+name         = "Blue Cat s Oscilloscope Multi"
+vendor       = "Blue Cat Audio"
+version      = "2.44"
+description  = "Multi-track waveform renderer and comparator with X-Y visualization for analyzing audio signals."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "spectral analysis"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_OscilloscopeMulti/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/261-Blue-Cat-s-Oscilloscope-Multi?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_OscilloscopeMulti/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_OscilloscopeMulti/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_OscilloscopeMulti/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_OscilloscopeMulti/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

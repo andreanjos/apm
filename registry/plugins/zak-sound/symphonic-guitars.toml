@@ -1,26 +1,27 @@
-slug        = "symphonic-guitars"
-name        = "Symphonic Guitars"
-vendor      = "ZAK Sound"
-version     = "1.0.0"
-description = "Orchestral instrument recreating violin, viola, cello, flute, and horn sounds from guitar recordings."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://zaksound.com/symphonic-guitars/"
+slug         = "symphonic-guitars"
+name         = "Symphonic Guitars"
+vendor       = "ZAK Sound"
+version      = "1.0.0"
+description  = "Orchestral instrument recreating violin, viola, cello, flute, and horn sounds from guitar recordings."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://zaksound.com/symphonic-guitars/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12609-Symphonic-Guitars?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zaksound.com/symphonic-guitars/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/symphonic-guitars/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zaksound.com/symphonic-guitars/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/symphonic-guitars/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

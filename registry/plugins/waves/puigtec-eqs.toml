@@ -1,26 +1,27 @@
-slug        = "puigtec-eqs"
-name        = "PuigTec EQs"
-vendor      = "Waves"
-version     = "14.0"
-description = "Emulations of the classic Pultec EQP-1A and MEQ-5 program equalizers by JJP."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/puigtec-eqs"
-is_paid     = true
+slug         = "puigtec-eqs"
+name         = "PuigTec EQs"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Emulations of the classic Pultec EQP-1A and MEQ-5 program equalizers by JJP."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/puigtec-eqs"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/puigtec-eqs"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/puigtec-eqs"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/puigtec-eqs"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/puigtec-eqs"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

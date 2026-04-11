@@ -1,26 +1,27 @@
-slug        = "particle-of-god"
-name        = "Particle Of God"
-vendor      = "Noizefield"
-version     = "1.0"
-description = "Experimental delay plugin by Noizefield with particle-based audio destruction effects."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.noizefield.com/"
+slug         = "particle-of-god"
+name         = "Particle Of God"
+vendor       = "Noizefield"
+version      = "1.0"
+description  = "Experimental delay plugin by Noizefield with particle-based audio destruction effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.noizefield.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/475-Particle-Of-God?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.noizefield.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.noizefield.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.noizefield.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.noizefield.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

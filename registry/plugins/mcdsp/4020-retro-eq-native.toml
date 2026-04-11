@@ -1,25 +1,26 @@
-slug        = "4020-retro-eq-native"
-name        = "4020 Retro EQ Native"
-vendor      = "McDSP"
-version     = "7.0"
-description = "Native version of McDSP's 4020 Retro EQ offering vintage analog-modeled equalization."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://mcdsp.com/plugin-index/4020/"
-is_paid     = true
+slug         = "4020-retro-eq-native"
+name         = "4020 Retro EQ Native"
+vendor       = "McDSP"
+version      = "7.0"
+description  = "Native version of McDSP's 4020 Retro EQ offering vintage analog-modeled equalization."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://mcdsp.com/plugin-index/4020/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mcdsp.com/plugin-index/4020/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/4020/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mcdsp.com/plugin-index/4020/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/4020/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

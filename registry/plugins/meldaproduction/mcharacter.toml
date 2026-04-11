@@ -1,24 +1,25 @@
-slug        = "mcharacter"
-name        = "MCharacter"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Control the harmonics of monophonic audio directly for vocals, bass, and instruments."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MCharacter"
-is_paid     = true
+slug         = "mcharacter"
+name         = "MCharacter"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Control the harmonics of monophonic audio directly for vocals, bass, and instruments."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MCharacter"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MCharacter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MCharacter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MCharacter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MCharacter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

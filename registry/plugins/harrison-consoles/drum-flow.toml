@@ -1,26 +1,27 @@
-slug        = "drum-flow"
-name        = "Drum Flow"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "Drum channel strip with a transient-sensitive Drum Character EQ and expander/gate for detailed drum shaping."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/all-products/drum-flow"
+slug         = "drum-flow"
+name         = "Drum Flow"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "Drum channel strip with a transient-sensitive Drum Character EQ and expander/gate for detailed drum shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/all-products/drum-flow"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/7617-Drum-Flow?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/all-products/drum-flow"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/drum-flow"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/all-products/drum-flow"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/drum-flow"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

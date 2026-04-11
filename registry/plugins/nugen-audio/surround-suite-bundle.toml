@@ -1,25 +1,26 @@
-slug        = "surround-suite-bundle"
-name        = "Surround Suite Bundle"
-vendor      = "NUGEN Audio"
-version     = "1.0.0"
-description = "A complete NUGEN Audio surround bundle with Halo Upmix, Halo Downmix, ISL, and SEQ-S."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/surroundsuite/"
-is_paid     = true
+slug         = "surround-suite-bundle"
+name         = "Surround Suite Bundle"
+vendor       = "NUGEN Audio"
+version      = "1.0.0"
+description  = "A complete NUGEN Audio surround bundle with Halo Upmix, Halo Downmix, ISL, and SEQ-S."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/surroundsuite/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/surroundsuite/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/surroundsuite/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/surroundsuite/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/surroundsuite/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

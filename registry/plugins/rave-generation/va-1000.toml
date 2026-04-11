@@ -1,26 +1,27 @@
-slug        = "va-1000"
-name        = "VA 1000"
-vendor      = "Rave Generation"
-version     = "1.0.0"
-description = "16-voice polyphonic virtual analog synthesizer plugin for electronic music production."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://ravegeneration.io/"
+slug         = "va-1000"
+name         = "VA 1000"
+vendor       = "Rave Generation"
+version      = "1.0.0"
+description  = "16-voice polyphonic virtual analog synthesizer plugin for electronic music production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://ravegeneration.io/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16669-VA-1000?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ravegeneration.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ravegeneration.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ravegeneration.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ravegeneration.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

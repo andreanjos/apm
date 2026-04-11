@@ -1,24 +1,28 @@
-slug        = "uvi-falcon"
-name        = "Falcon 2026"
-vendor      = "UVI"
-version     = "2026.1.0"
-description = "Creative hybrid instrument combining multiple synthesis engines, powerful modulation, and an expansive factory library."
-category    = "instruments"
-subcategory = "hybrid"
-license     = "commercial"
-tags        = ["synth", "synthesizer", "hybrid", "sampling", "wavetable", "granular", "fm", "multi-engine", "scripting"]
-homepage    = "https://www.uvi.net/falcon"
+slug         = "uvi-falcon"
+name         = "Falcon 2026"
+vendor       = "UVI"
+version      = "2026.1.0"
+description  = "Creative hybrid instrument combining multiple synthesis engines, powerful modulation, and an expansive factory library."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "hybrid"
+license      = "commercial"
+tags         = ["synth", "synthesizer", "hybrid", "sampling", "wavetable", "granular", "fm", "multi-engine", "scripting"]
+aliases      = ["falcon-2026"]
+homepage     = "https://www.uvi.net/falcon"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/14777-Falcon-2026?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/falcon"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uvi.net/falcon"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "UVI Falcon.vst3"
+bundle_path   = "UVI Falcon.vst3"
 
 [formats.au]
-url          = "https://www.uvi.net/falcon"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uvi.net/falcon"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "UVI Falcon.component"
+bundle_path   = "UVI Falcon.component"

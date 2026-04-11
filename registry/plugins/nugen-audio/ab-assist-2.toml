@@ -1,26 +1,27 @@
-slug        = "ab-assist-2"
-name        = "AB Assist 2"
-vendor      = "NUGEN Audio"
-version     = "2.0"
-description = "An A/B comparison tool that matches loudness and checks mono fold-downs across up to four sources."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/abassist2/"
+slug         = "ab-assist-2"
+name         = "AB Assist 2"
+vendor       = "NUGEN Audio"
+version      = "2.0"
+description  = "An A/B comparison tool that matches loudness and checks mono fold-downs across up to four sources."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/abassist2/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/11422-AB-Assist-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/abassist2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/abassist2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/abassist2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/abassist2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

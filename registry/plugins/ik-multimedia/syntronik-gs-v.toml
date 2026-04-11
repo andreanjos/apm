@@ -1,25 +1,26 @@
-slug        = "syntronik-gs-v"
-name        = "Syntronik GS-V"
-vendor      = "IK Multimedia"
-version     = "2.0"
-description = "Syntronik instrument recreating the ultra-rare Yamaha GS1 FM synthesizer from 1981."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/syngsv/"
-is_paid     = true
+slug         = "syntronik-gs-v"
+name         = "Syntronik GS-V"
+vendor       = "IK Multimedia"
+version      = "2.0"
+description  = "Syntronik instrument recreating the ultra-rare Yamaha GS1 FM synthesizer from 1981."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/syngsv/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/syngsv/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/syngsv/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/syngsv/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/syngsv/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

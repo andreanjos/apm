@@ -1,25 +1,26 @@
-slug        = "cmp-01"
-name        = "CMP-01"
-vendor      = "Lamprey"
-version     = "1.0.0"
-description = "Analog-modeled FET-style compressor with fast attack/release and saturation circuit options."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://iamlamprey.com/"
-is_paid     = true
+slug         = "cmp-01"
+name         = "CMP-01"
+vendor       = "Lamprey"
+version      = "1.0.0"
+description  = "Analog-modeled FET-style compressor with fast attack/release and saturation circuit options."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://iamlamprey.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://iamlamprey.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://iamlamprey.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://iamlamprey.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://iamlamprey.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

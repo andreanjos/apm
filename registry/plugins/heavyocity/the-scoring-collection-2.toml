@@ -1,25 +1,26 @@
-slug        = "the-scoring-collection-2"
-name        = "THE SCORING COLLECTION 2"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Bundle of Gravity, NOVO, FORZO, Mosaic Pluck, and Mosaic Voices for complete hybrid cinematic scoring."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/the-scoring-collection-2"
-is_paid     = true
+slug         = "the-scoring-collection-2"
+name         = "THE SCORING COLLECTION 2"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Bundle of Gravity, NOVO, FORZO, Mosaic Pluck, and Mosaic Voices for complete hybrid cinematic scoring."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/the-scoring-collection-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/the-scoring-collection-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/the-scoring-collection-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/the-scoring-collection-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/the-scoring-collection-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

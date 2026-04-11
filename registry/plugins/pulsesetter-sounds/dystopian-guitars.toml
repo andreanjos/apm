@@ -1,25 +1,26 @@
-slug        = "dystopian-guitars"
-name        = "Dystopian Guitars"
-vendor      = "Pulsesetter Sounds"
-version     = "1.0"
-description = "Dark, processed guitar Kontakt library by Pulsesetter Sounds for cinematic and moody textures."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pulsesettersounds.com/"
-is_paid     = true
+slug         = "dystopian-guitars"
+name         = "Dystopian Guitars"
+vendor       = "Pulsesetter Sounds"
+version      = "1.0"
+description  = "Dark, processed guitar Kontakt library by Pulsesetter Sounds for cinematic and moody textures."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pulsesettersounds.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pulsesettersounds.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pulsesettersounds.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pulsesettersounds.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pulsesettersounds.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

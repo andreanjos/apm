@@ -1,26 +1,28 @@
-slug        = "tone-empire-reelight-pro"
-name        = "Reelight Pro"
-vendor      = "Tone Empire"
-version     = "1.6"
-description = "Tape saturation plugin emulating six classic tape machines at various speeds and bias settings, with controls for crosstalk, compression, and wow/flutter."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = ["tape", "saturation", "analog", "warmth", "vintage", "tape-machine", "wow", "flutter"]
-homepage    = "https://tone-empire.com/shop/reelight-pro/"
+slug         = "tone-empire-reelight-pro"
+name         = "Reelight Pro"
+vendor       = "Tone Empire"
+version      = "1.6"
+description  = "Tape saturation plugin emulating six classic tape machines at various speeds and bias settings, with controls for crosstalk, compression, and wow/flutter."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = ["tape", "saturation", "analog", "warmth", "vintage", "tape-machine", "wow", "flutter"]
+aliases      = ["reelight-pro"]
+homepage     = "https://tone-empire.com/shop/reelight-pro/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/7476-Reelight-PRO?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
-# NOTE: Tone Empire plugins are available for direct download from the
-# Tone Empire website after purchase via their shop.
 [formats.vst3]
-url          = "https://tone-empire.com/shop/reelight-pro/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://tone-empire.com/shop/reelight-pro/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Reelight Pro.vst3"
+bundle_path   = "Reelight Pro.vst3"
 
 [formats.au]
-url          = "https://tone-empire.com/shop/reelight-pro/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://tone-empire.com/shop/reelight-pro/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Reelight Pro.component"
+bundle_path   = "Reelight Pro.component"

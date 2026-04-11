@@ -1,25 +1,26 @@
-slug        = "saturn-2"
-name        = "Saturn 2"
-vendor      = "FabFilter"
-version     = "2.12"
-description = "Multiband saturation and distortion plugin with six processing modes and full per-band modulation."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in"
-is_paid     = true
+slug         = "saturn-2"
+name         = "Saturn 2"
+vendor       = "FabFilter"
+version      = "2.12"
+description  = "Multiband saturation and distortion plugin with six processing modes and full per-band modulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

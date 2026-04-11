@@ -1,26 +1,27 @@
-slug        = "metatune"
-name        = "MetaTune"
-vendor      = "Slate Digital"
-version     = "1.0.0"
-description = "Fast, style-conscious automatic pitch correction plugin built for professional mix workflows."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-homepage    = "https://slatedigital.com/metatune-automatic-tuner-plugin/"
+slug         = "metatune"
+name         = "MetaTune"
+vendor       = "Slate Digital"
+version      = "1.0.0"
+description  = "Fast, style-conscious automatic pitch correction plugin built for professional mix workflows."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+homepage     = "https://slatedigital.com/metatune-automatic-tuner-plugin/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15799-MetaTune?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://slatedigital.com/metatune-automatic-tuner-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/metatune-automatic-tuner-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://slatedigital.com/metatune-automatic-tuner-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/metatune-automatic-tuner-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

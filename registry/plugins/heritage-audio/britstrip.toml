@@ -1,26 +1,27 @@
-slug        = "britstrip"
-name        = "BritStrip"
-vendor      = "Heritage Audio"
-version     = "1.0.0"
-description = "Channel strip plugin faithfully emulating the Heritage Audio BritStrip 73-style console strip."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://users.heritageaudio.com/product/britstrip/"
+slug         = "britstrip"
+name         = "BritStrip"
+vendor       = "Heritage Audio"
+version      = "1.0.0"
+description  = "Channel strip plugin faithfully emulating the Heritage Audio BritStrip 73-style console strip."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://users.heritageaudio.com/product/britstrip/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/14373-BritStrip?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://users.heritageaudio.com/product/britstrip/"
-sha256       = ""
-install_type = "zip"
+url           = "https://users.heritageaudio.com/product/britstrip/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://users.heritageaudio.com/product/britstrip/"
-sha256       = ""
-install_type = "zip"
+url           = "https://users.heritageaudio.com/product/britstrip/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

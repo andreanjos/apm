@@ -1,25 +1,26 @@
-slug        = "jewel-bandolero"
-name        = "Jewel Bandolero"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Vintage bandolero keyboard Kontakt instrument with sparkling, gem-like tonal character."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/jewel-bandolero"
-is_paid     = true
+slug         = "jewel-bandolero"
+name         = "Jewel Bandolero"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Vintage bandolero keyboard Kontakt instrument with sparkling, gem-like tonal character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/jewel-bandolero"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/jewel-bandolero"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/jewel-bandolero"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/jewel-bandolero"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/jewel-bandolero"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "perfect-match-impulse-responses"
-name        = "Perfect Match Impulse Responses"
-vendor      = "Hertz Instruments"
-version     = "1.0.0"
-description = "12 mix-ready guitar impulse responses for heavy tones, compatible with all IR loaders."
-category    = "utility"
-subcategory = "impulse response"
-license     = "commercial"
-tags        = []
-homepage    = "https://hertzinstruments.com/ir/perfect-match-ir/"
+slug         = "perfect-match-impulse-responses"
+name         = "Perfect Match Impulse Responses"
+vendor       = "Hertz Instruments"
+version      = "1.0.0"
+description  = "12 mix-ready guitar impulse responses for heavy tones, compatible with all IR loaders."
+category     = "utility"
+product_type = "utility"
+subcategory  = "impulse response"
+license      = "commercial"
+tags         = []
+homepage     = "https://hertzinstruments.com/ir/perfect-match-ir/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/13356-Perfect-Match-Impulse-Responses?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hertzinstruments.com/ir/perfect-match-ir/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/ir/perfect-match-ir/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hertzinstruments.com/ir/perfect-match-ir/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/ir/perfect-match-ir/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

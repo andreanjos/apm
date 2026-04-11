@@ -1,24 +1,25 @@
-slug        = "mmorph"
-name        = "MMorph"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "A unique morphing tool that lets you morph between two audio materials for creative sound design."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MMorph"
-is_paid     = true
+slug         = "mmorph"
+name         = "MMorph"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "A unique morphing tool that lets you morph between two audio materials for creative sound design."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MMorph"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MMorph"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MMorph"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MMorph"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MMorph"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

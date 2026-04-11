@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-re-head"
-name        = "Blue Cat s Re Head"
-vendor      = "Blue Cat Audio"
-version     = "1.32"
-description = "Head-response simulator for studio monitor sound in headphones using EQ and impulse response treatment."
-category    = "utility"
-subcategory = "referencing tools"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_ReHead/"
+slug         = "blue-cat-s-re-head"
+name         = "Blue Cat s Re Head"
+vendor       = "Blue Cat Audio"
+version      = "1.32"
+description  = "Head-response simulator for studio monitor sound in headphones using EQ and impulse response treatment."
+category     = "utility"
+product_type = "utility"
+subcategory  = "referencing tools"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_ReHead/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/6413-Blue-Cat-s-Re-Head?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_ReHead/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_ReHead/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_ReHead/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_ReHead/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

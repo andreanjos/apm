@@ -1,25 +1,26 @@
-slug        = "mastering-compressor-shadow-hills"
-name        = "Mastering Compressor"
-vendor      = "Shadow Hills"
-version     = "1.0"
-description = "Plugin emulation of the Shadow Hills Mastering Compressor with optical and discrete stages."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://shadowhillsindustries.com/"
-is_paid     = true
+slug         = "mastering-compressor-shadow-hills"
+name         = "Mastering Compressor"
+vendor       = "Shadow Hills"
+version      = "1.0"
+description  = "Plugin emulation of the Shadow Hills Mastering Compressor with optical and discrete stages."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://shadowhillsindustries.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://shadowhillsindustries.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://shadowhillsindustries.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://shadowhillsindustries.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://shadowhillsindustries.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

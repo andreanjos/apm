@@ -1,26 +1,27 @@
-slug        = "mphasermb"
-name        = "MPhaserMB"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "The most versatile and musical sounding phaser with multiband processing."
-category    = "effects"
-subcategory = "phaser"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MPhaserMB"
+slug         = "mphasermb"
+name         = "MPhaserMB"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "The most versatile and musical sounding phaser with multiband processing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "phaser"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MPhaserMB"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/107-MPhaserMB?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MPhaserMB"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MPhaserMB"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MPhaserMB"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MPhaserMB"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

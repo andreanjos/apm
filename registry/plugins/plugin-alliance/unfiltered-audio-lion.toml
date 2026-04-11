@@ -1,27 +1,28 @@
-slug        = "unfiltered-audio-lion"
-name        = "Unfiltered Audio LION"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Dual-oscillator synthesizer with 26 modes per oscillator and a 40+ effect BYOME modulation row for deep sound design."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/unfiltered_audio_lion.html"
+slug         = "unfiltered-audio-lion"
+name         = "Unfiltered Audio LION"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Dual-oscillator synthesizer with 26 modes per oscillator and a 40+ effect BYOME modulation row for deep sound design."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/unfiltered_audio_lion.html"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/14928-Unfiltered-Audio-LION?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio_lion.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/unfiltered_audio_lion.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio_lion.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/unfiltered_audio_lion.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

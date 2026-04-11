@@ -1,25 +1,26 @@
-slug        = "ancient-greek-winds"
-name        = "Ancient Greek Winds"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt library of ancient Greek wind instruments including aulos and syrinx."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/ancient-greek-winds"
-is_paid     = true
+slug         = "ancient-greek-winds"
+name         = "Ancient Greek Winds"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt library of ancient Greek wind instruments including aulos and syrinx."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/ancient-greek-winds"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/ancient-greek-winds"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/ancient-greek-winds"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/ancient-greek-winds"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/ancient-greek-winds"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

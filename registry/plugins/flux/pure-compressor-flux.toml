@@ -1,25 +1,26 @@
-slug        = "pure-compressor-flux"
-name        = "Pure Compressor"
-vendor      = "Flux"
-version     = "1.0.0"
-description = "Clean, versatile compressor ranging from transparent processing to heavy classic pumping effects."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.flux.audio/products/"
-is_paid     = true
+slug         = "pure-compressor-flux"
+name         = "Pure Compressor"
+vendor       = "Flux"
+version      = "1.0.0"
+description  = "Clean, versatile compressor ranging from transparent processing to heavy classic pumping effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.flux.audio/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.flux.audio/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.flux.audio/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.flux.audio/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.flux.audio/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "s1"
-name        = "S1"
-vendor      = "Soundspear"
-version     = "1.0.2"
-description = "Stereo dynamics mastering rack with VCA detection, imaging algorithms, and subtle compression."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundspear.com/product/s1"
-is_paid     = true
+slug         = "s1"
+name         = "S1"
+vendor       = "Soundspear"
+version      = "1.0.2"
+description  = "Stereo dynamics mastering rack with VCA detection, imaging algorithms, and subtle compression."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundspear.com/product/s1"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundspear.com/product/s1"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundspear.com/product/s1"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundspear.com/product/s1"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundspear.com/product/s1"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

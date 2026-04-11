@@ -1,25 +1,26 @@
-slug        = "world-vocals-collection"
-name        = "World Vocals Collection"
-vendor      = "Rast Sound"
-version     = "1.0.0"
-description = "Bundle of nine Rast Sound vocal libraries with 21 performers from five continents worldwide."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/world-vocals-bundle/"
-is_paid     = true
+slug         = "world-vocals-collection"
+name         = "World Vocals Collection"
+vendor       = "Rast Sound"
+version      = "1.0.0"
+description  = "Bundle of nine Rast Sound vocal libraries with 21 performers from five continents worldwide."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/world-vocals-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/world-vocals-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/world-vocals-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/world-vocals-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/world-vocals-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

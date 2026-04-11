@@ -1,26 +1,27 @@
-slug        = "lofi-space"
-name        = "Lofi Space"
-vendor      = "Waves"
-version     = "14.0"
-description = "Lo-fi delay and reverb processor for creating vintage, degraded spatial effects."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/lofi-space"
-is_paid     = true
+slug         = "lofi-space"
+name         = "Lofi Space"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Lo-fi delay and reverb processor for creating vintage, degraded spatial effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/lofi-space"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/lofi-space"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/lofi-space"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/lofi-space"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/lofi-space"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

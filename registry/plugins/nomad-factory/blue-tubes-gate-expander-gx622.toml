@@ -1,25 +1,26 @@
-slug        = "blue-tubes-gate-expander-gx622"
-name        = "Blue Tubes Gate Expander GX622"
-vendor      = "Nomad Factory"
-version     = "1.0.0"
-description = "Gate and expander plugin from the Blue Tubes series for noise reduction and dynamic shaping."
-category    = "effects"
-subcategory = "expander"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.nomadfactory.com/products/p424-Blue-Tubes-Gate-Expander-GX622/"
-is_paid     = true
+slug         = "blue-tubes-gate-expander-gx622"
+name         = "Blue Tubes Gate Expander GX622"
+vendor       = "Nomad Factory"
+version      = "1.0.0"
+description  = "Gate and expander plugin from the Blue Tubes series for noise reduction and dynamic shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "expander"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.nomadfactory.com/products/p424-Blue-Tubes-Gate-Expander-GX622/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.nomadfactory.com/products/p424-Blue-Tubes-Gate-Expander-GX622/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p424-Blue-Tubes-Gate-Expander-GX622/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.nomadfactory.com/products/p424-Blue-Tubes-Gate-Expander-GX622/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p424-Blue-Tubes-Gate-Expander-GX622/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

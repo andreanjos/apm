@@ -1,25 +1,26 @@
-slug        = "winds-boutique"
-name        = "Winds Boutique"
-vendor      = "Rast Sound"
-version     = "1.0.0"
-description = "Comprehensive world winds palette blending detailed recordings with analog synths and experimental sounds."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/winds-boutique/"
-is_paid     = true
+slug         = "winds-boutique"
+name         = "Winds Boutique"
+vendor       = "Rast Sound"
+version      = "1.0.0"
+description  = "Comprehensive world winds palette blending detailed recordings with analog synths and experimental sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/winds-boutique/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/winds-boutique/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/winds-boutique/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/winds-boutique/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/winds-boutique/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

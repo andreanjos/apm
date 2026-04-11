@@ -1,26 +1,27 @@
-slug        = "freqtube-ft1-emu"
-name        = "FreqTube FT1 EMU"
-vendor      = "Freqport"
-version     = "1.0"
-description = "Freqport FreqTube FT1 emulates classic tube saturation for harmonic warmth and coloration."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = []
-homepage    = "https://freqport.com/"
+slug         = "freqtube-ft1-emu"
+name         = "FreqTube FT1 EMU"
+vendor       = "Freqport"
+version      = "1.0"
+description  = "Freqport FreqTube FT1 emulates classic tube saturation for harmonic warmth and coloration."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = []
+homepage     = "https://freqport.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/17004-FreqTube-FT1-EMU?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://freqport.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://freqport.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://freqport.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://freqport.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

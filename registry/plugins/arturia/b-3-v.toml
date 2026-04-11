@@ -1,26 +1,27 @@
-slug        = "b-3-v"
-name        = "B-3 V"
-vendor      = "Arturia"
-version     = "3.4.0"
-description = "Faithful emulation of the Hammond B-3 tonewheel organ with Leslie cabinet simulation."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-instruments/b3v/overview"
-is_paid     = true
+slug         = "b-3-v"
+name         = "B-3 V"
+vendor       = "Arturia"
+version      = "3.4.0"
+description  = "Faithful emulation of the Hammond B-3 tonewheel organ with Leslie cabinet simulation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-instruments/b3v/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-instruments/b3v/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/b3v/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-instruments/b3v/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/b3v/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

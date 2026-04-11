@@ -1,26 +1,27 @@
-slug        = "vcl-373-vintage-compressor-limiter"
-name        = "VCL 373 Vintage Compressor Limiter"
-vendor      = "Fuse Audio Labs"
-version     = "2.7"
-description = "Vintage compressor/limiter plugin modeled after a classic British studio dynamics processor."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://fuseaudiolabs.com/"
+slug         = "vcl-373-vintage-compressor-limiter"
+name         = "VCL 373 Vintage Compressor Limiter"
+vendor       = "Fuse Audio Labs"
+version      = "2.7"
+description  = "Vintage compressor/limiter plugin modeled after a classic British studio dynamics processor."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://fuseaudiolabs.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/13830-VCL-373-Vintage-Compressor-Limiter?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "rave-generator-3"
-name        = "Rave Generator 3"
-vendor      = "Audio Blast"
-version     = "3"
-description = "Sampler plugin for 90s rave and techno sounds with 256 presets and 1,000+ stabs and basses."
-category    = "instruments"
-subcategory = "sampler"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audioblast.me/product/rave-generator-3/"
+slug         = "rave-generator-3"
+name         = "Rave Generator 3"
+vendor       = "Audio Blast"
+version      = "3"
+description  = "Sampler plugin for 90s rave and techno sounds with 256 presets and 1,000+ stabs and basses."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "sampler"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audioblast.me/product/rave-generator-3/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/11863-Rave-Generator-3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audioblast.me/product/rave-generator-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioblast.me/product/rave-generator-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audioblast.me/product/rave-generator-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioblast.me/product/rave-generator-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "maserati-gti"
-name        = "Maserati GTi"
-vendor      = "Waves"
-version     = "14.0"
-description = "Signature guitar processor from Tony Maserati for refined, polished electric guitar tones."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/maserati-gti"
-is_paid     = true
+slug         = "maserati-gti"
+name         = "Maserati GTi"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Signature guitar processor from Tony Maserati for refined, polished electric guitar tones."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/maserati-gti"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/maserati-gti"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/maserati-gti"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/maserati-gti"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/maserati-gti"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

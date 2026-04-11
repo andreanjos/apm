@@ -1,24 +1,25 @@
-slug        = "physion-mk-ii-crossgrade"
-name        = "Physion Mk II Crossgrade"
-vendor      = "Eventide"
-version     = "1.0.0"
-description = "Crossgrade to Physion Mk II, a transient/tonal splitter with multi-effects per stream for sound design and mixing."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eventideaudio.com/plug-ins/physion-mk-ii/"
-is_paid     = true
+slug         = "physion-mk-ii-crossgrade"
+name         = "Physion Mk II Crossgrade"
+vendor       = "Eventide"
+version      = "1.0.0"
+description  = "Crossgrade to Physion Mk II, a transient/tonal splitter with multi-effects per stream for sound design and mixing."
+category     = "effects"
+product_type = "upgrade"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eventideaudio.com/plug-ins/physion-mk-ii/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eventideaudio.com/plug-ins/physion-mk-ii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/physion-mk-ii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eventideaudio.com/plug-ins/physion-mk-ii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/physion-mk-ii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "brass"
-name        = "Brass"
-vendor      = "Thenatan Audio"
-version     = "1.0.0"
-description = "Multi-layer trap brass instrument with 100+ realistic samples, XY blending and 85 factory presets."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.thenatan.store/p/brass-trap-vst/"
+slug         = "brass"
+name         = "Brass"
+vendor       = "Thenatan Audio"
+version      = "1.0.0"
+description  = "Multi-layer trap brass instrument with 100+ realistic samples, XY blending and 85 factory presets."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.thenatan.store/p/brass-trap-vst/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15989-Brass?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.thenatan.store/p/brass-trap-vst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.thenatan.store/p/brass-trap-vst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.thenatan.store/p/brass-trap-vst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.thenatan.store/p/brass-trap-vst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

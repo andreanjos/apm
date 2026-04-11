@@ -1,25 +1,26 @@
-slug        = "affectionate-symphony-bundle"
-name        = "Affectionate Symphony Bundle"
-vendor      = "Aria Sounds"
-version     = "1.0.0"
-description = "Aria Sounds bundle combining orchestral Kontakt instruments for cinematic composition."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://ariasounds.com/product/affectionate-symphony-bundle/"
-is_paid     = true
+slug         = "affectionate-symphony-bundle"
+name         = "Affectionate Symphony Bundle"
+vendor       = "Aria Sounds"
+version      = "1.0.0"
+description  = "Aria Sounds bundle combining orchestral Kontakt instruments for cinematic composition."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://ariasounds.com/product/affectionate-symphony-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ariasounds.com/product/affectionate-symphony-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/affectionate-symphony-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ariasounds.com/product/affectionate-symphony-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/affectionate-symphony-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

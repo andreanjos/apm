@@ -1,25 +1,26 @@
-slug        = "ample-bass-metal-ray5"
-name        = "Ample Bass Metal Ray5"
-vendor      = "Ample Sound"
-version     = "4"
-description = "Metal-focused 5-string bass virtual instrument based on a Music Man StingRay 5 for heavy music."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.amplesound.net/en/"
-is_paid     = true
+slug         = "ample-bass-metal-ray5"
+name         = "Ample Bass Metal Ray5"
+vendor       = "Ample Sound"
+version      = "4"
+description  = "Metal-focused 5-string bass virtual instrument based on a Music Man StingRay 5 for heavy music."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.amplesound.net/en/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.amplesound.net/en/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.amplesound.net/en/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "1946-deagan-electric-chimes"
-name        = "1946 Deagan Electric Chimes"
-vendor      = "Hideaway Studio"
-version     = "1.0.0"
-description = "Kontakt library of a 1946 Deagan tube-amplified electric chime instrument sampled faithfully for NI Kontakt."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://hideawaystudio.net/"
-is_paid     = true
+slug         = "1946-deagan-electric-chimes"
+name         = "1946 Deagan Electric Chimes"
+vendor       = "Hideaway Studio"
+version      = "1.0.0"
+description  = "Kontakt library of a 1946 Deagan tube-amplified electric chime instrument sampled faithfully for NI Kontakt."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://hideawaystudio.net/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hideawaystudio.net/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hideawaystudio.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hideawaystudio.net/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hideawaystudio.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

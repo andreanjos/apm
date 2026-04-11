@@ -1,26 +1,27 @@
-slug        = "fg-116-blue-series-fet-compressors"
-name        = "FG 116 Blue Series FET Compressors"
-vendor      = "Slate Digital"
-version     = "1.0.0"
-description = "Authentic recreation of two vintage FET limiting amplifiers in a modern, versatile Blue Series bundle."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://slatedigital.com/fg-116-blue-series-fet-compressors/"
+slug         = "fg-116-blue-series-fet-compressors"
+name         = "FG 116 Blue Series FET Compressors"
+vendor       = "Slate Digital"
+version      = "1.0.0"
+description  = "Authentic recreation of two vintage FET limiting amplifiers in a modern, versatile Blue Series bundle."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://slatedigital.com/fg-116-blue-series-fet-compressors/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/15776-FG-116-Blue-Series-FET-Compressors?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://slatedigital.com/fg-116-blue-series-fet-compressors/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/fg-116-blue-series-fet-compressors/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://slatedigital.com/fg-116-blue-series-fet-compressors/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/fg-116-blue-series-fet-compressors/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

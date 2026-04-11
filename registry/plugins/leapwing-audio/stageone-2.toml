@@ -1,26 +1,27 @@
-slug        = "stageone-2"
-name        = "StageOne 2"
-vendor      = "Leapwing Audio"
-version     = "2"
-description = "Advanced stereo soundstage enhancer with five algorithms for width, depth, and mono spread."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://leapwingaudio.com/product/stageone2/"
+slug         = "stageone-2"
+name         = "StageOne 2"
+vendor       = "Leapwing Audio"
+version      = "2"
+description  = "Advanced stereo soundstage enhancer with five algorithms for width, depth, and mono spread."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://leapwingaudio.com/product/stageone2/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/10913-StageOne-2-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://leapwingaudio.com/product/stageone2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://leapwingaudio.com/product/stageone2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://leapwingaudio.com/product/stageone2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://leapwingaudio.com/product/stageone2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

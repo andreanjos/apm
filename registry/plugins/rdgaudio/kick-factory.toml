@@ -1,25 +1,26 @@
-slug        = "kick-factory"
-name        = "Kick Factory"
-vendor      = "RDGAudio"
-version     = "1.0.0"
-description = "Kick drum synthesizer plugin for designing deep, punchy kick sounds for music production."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://rdgaudio.com/product/kick-factory/"
-is_paid     = true
+slug         = "kick-factory"
+name         = "Kick Factory"
+vendor       = "RDGAudio"
+version      = "1.0.0"
+description  = "Kick drum synthesizer plugin for designing deep, punchy kick sounds for music production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://rdgaudio.com/product/kick-factory/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rdgaudio.com/product/kick-factory/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rdgaudio.com/product/kick-factory/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rdgaudio.com/product/kick-factory/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rdgaudio.com/product/kick-factory/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "halo-downmix-with-3d-immersive-extension"
-name        = "Halo Downmix with 3D Immersive Extension"
-vendor      = "NUGEN Audio"
-version     = "1.0.0"
-description = "Halo Downmix bundled with its 3D Immersive Extension for complete surround-to-stereo conversion."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/halodownmix/"
+slug         = "halo-downmix-with-3d-immersive-extension"
+name         = "Halo Downmix with 3D Immersive Extension"
+vendor       = "NUGEN Audio"
+version      = "1.0.0"
+description  = "Halo Downmix bundled with its 3D Immersive Extension for complete surround-to-stereo conversion."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/halodownmix/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/4484-Halo-Downmix-with-3D-Immersive-Extension?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/halodownmix/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/halodownmix/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/halodownmix/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/halodownmix/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

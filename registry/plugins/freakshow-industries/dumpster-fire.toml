@@ -1,26 +1,27 @@
-slug        = "dumpster-fire"
-name        = "DUMPSTER FIRE"
-vendor      = "Freakshow Industries"
-version     = "1.0.0"
-description = "Chaotic pitch degradation and audio mangling effect plugin for experimental sound design."
-category    = "effects"
-subcategory = "pitch shifter"
-license     = "commercial"
-tags        = []
-homepage    = "https://freakshowindustries.com/"
+slug         = "dumpster-fire"
+name         = "DUMPSTER FIRE"
+vendor       = "Freakshow Industries"
+version      = "1.0.0"
+description  = "Chaotic pitch degradation and audio mangling effect plugin for experimental sound design."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch shifter"
+license      = "commercial"
+tags         = []
+homepage     = "https://freakshowindustries.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/6594-DUMPSTER-FIRE?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://freakshowindustries.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://freakshowindustries.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://freakshowindustries.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://freakshowindustries.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

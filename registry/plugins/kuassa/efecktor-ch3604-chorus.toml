@@ -1,25 +1,26 @@
-slug        = "efecktor-ch3604-chorus"
-name        = "Efecktor CH3604 Chorus"
-vendor      = "Kuassa"
-version     = "1.0.0"
-description = "Guitar chorus effect plugin with Dimension, Ensemble, and Tribunal chorus models."
-category    = "effects"
-subcategory = "chorus"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kuassa.com/products/efektor-ch3604/"
-is_paid     = true
+slug         = "efecktor-ch3604-chorus"
+name         = "Efecktor CH3604 Chorus"
+vendor       = "Kuassa"
+version      = "1.0.0"
+description  = "Guitar chorus effect plugin with Dimension, Ensemble, and Tribunal chorus models."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "chorus"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kuassa.com/products/efektor-ch3604/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kuassa.com/products/efektor-ch3604/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kuassa.com/products/efektor-ch3604/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kuassa.com/products/efektor-ch3604/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kuassa.com/products/efektor-ch3604/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

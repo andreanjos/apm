@@ -1,26 +1,27 @@
-slug        = "grainspace"
-name        = "GrainSpace"
-vendor      = "Audiority"
-version     = "2.6"
-description = "Granular reverb plug-in using granular synthesis to create unique textural and spatial effects."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiority.com/shop/grainspace/"
+slug         = "grainspace"
+name         = "GrainSpace"
+vendor       = "Audiority"
+version      = "2.6"
+description  = "Granular reverb plug-in using granular synthesis to create unique textural and spatial effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiority.com/shop/grainspace/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/3439-GrainSpace?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiority.com/shop/grainspace/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiority.com/shop/grainspace/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiority.com/shop/grainspace/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiority.com/shop/grainspace/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

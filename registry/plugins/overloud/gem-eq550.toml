@@ -1,25 +1,26 @@
-slug        = "gem-eq550"
-name        = "GEM EQ550"
-vendor      = "Overloud"
-version     = "1.0.0"
-description = "Proportional-Q American EQ emulation delivering the classic API 550 sound beyond the original hardware."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.overloud.com/gems"
-is_paid     = true
+slug         = "gem-eq550"
+name         = "GEM EQ550"
+vendor       = "Overloud"
+version      = "1.0.0"
+description  = "Proportional-Q American EQ emulation delivering the classic API 550 sound beyond the original hardware."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.overloud.com/gems"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.overloud.com/gems"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/gems"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.overloud.com/gems"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/gems"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

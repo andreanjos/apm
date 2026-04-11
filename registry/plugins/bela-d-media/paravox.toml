@@ -1,25 +1,26 @@
-slug        = "paravox"
-name        = "Paravox"
-vendor      = "Bela D Media"
-version     = "1.0.0"
-description = "Youth soprano Kontakt library built from sustained vocal elements for melodic and harmonic composition."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://beladmedia.com/paravox/"
-is_paid     = true
+slug         = "paravox"
+name         = "Paravox"
+vendor       = "Bela D Media"
+version      = "1.0.0"
+description  = "Youth soprano Kontakt library built from sustained vocal elements for melodic and harmonic composition."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://beladmedia.com/paravox/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://beladmedia.com/paravox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/paravox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://beladmedia.com/paravox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/paravox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

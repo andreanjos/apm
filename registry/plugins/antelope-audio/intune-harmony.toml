@@ -1,26 +1,27 @@
-slug        = "intune-harmony"
-name        = "InTune Harmony"
-vendor      = "Antelope Audio"
-version     = "1.0.0"
-description = "Real-time vocal harmony generator that adds up to four accompanying voices with stereo and timbre control."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-homepage    = "https://en.antelopeaudio.com/products/intune-harmony/"
+slug         = "intune-harmony"
+name         = "InTune Harmony"
+vendor       = "Antelope Audio"
+version      = "1.0.0"
+description  = "Real-time vocal harmony generator that adds up to four accompanying voices with stereo and timbre control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+homepage     = "https://en.antelopeaudio.com/products/intune-harmony/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/16035-InTune-Harmony?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://en.antelopeaudio.com/products/intune-harmony/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/intune-harmony/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://en.antelopeaudio.com/products/intune-harmony/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/intune-harmony/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

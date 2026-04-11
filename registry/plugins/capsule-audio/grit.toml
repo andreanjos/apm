@@ -1,25 +1,26 @@
-slug        = "grit"
-name        = "Grit"
-vendor      = "Capsule Audio"
-version     = "1.0.0"
-description = "Capsule bass library specializing in distorted 808s, brassy stabs, and laser leads for hip-hop and EDM."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.capsule.audio/"
-is_paid     = true
+slug         = "grit"
+name         = "Grit"
+vendor       = "Capsule Audio"
+version      = "1.0.0"
+description  = "Capsule bass library specializing in distorted 808s, brassy stabs, and laser leads for hip-hop and EDM."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.capsule.audio/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.capsule.audio/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.capsule.audio/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.capsule.audio/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.capsule.audio/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

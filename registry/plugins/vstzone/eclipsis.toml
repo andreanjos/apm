@@ -1,26 +1,27 @@
-slug        = "eclipsis"
-name        = "Eclipsis"
-vendor      = "VSTZone"
-version     = "1.0"
-description = "Virtual synthesizer by VSTZone with deep sound design capabilities and rich modulation."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://vstzone.com/"
+slug         = "eclipsis"
+name         = "Eclipsis"
+vendor       = "VSTZone"
+version      = "1.0"
+description  = "Virtual synthesizer by VSTZone with deep sound design capabilities and rich modulation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://vstzone.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1512-Eclipsis?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://vstzone.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://vstzone.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://vstzone.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://vstzone.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

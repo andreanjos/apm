@@ -1,26 +1,27 @@
-slug        = "cs1v-console-channel"
-name        = "CS1V Console Channel"
-vendor      = "Mellowmuse"
-version     = "3.2.0"
-description = "Console channel preamp plugin delivering classic analog desk warmth and harmonic saturation."
-category    = "effects"
-subcategory = "preamp"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.mellowmuse.com/"
+slug         = "cs1v-console-channel"
+name         = "CS1V Console Channel"
+vendor       = "Mellowmuse"
+version      = "3.2.0"
+description  = "Console channel preamp plugin delivering classic analog desk warmth and harmonic saturation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "preamp"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.mellowmuse.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/6690-CS1V-Console-Channel?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.mellowmuse.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.mellowmuse.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.mellowmuse.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.mellowmuse.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

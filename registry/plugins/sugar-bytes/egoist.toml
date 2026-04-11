@@ -1,26 +1,27 @@
-slug        = "egoist"
-name        = "Egoist"
-vendor      = "Sugar Bytes"
-version     = "1.0.0"
-description = "Groove extraction tool that loads any audio file and generates beat-driven sequences and grooves."
-category    = "instruments"
-subcategory = "groovebox"
-license     = "commercial"
-tags        = []
-homepage    = "https://sugar-bytes.de/egoist"
+slug         = "egoist"
+name         = "Egoist"
+vendor       = "Sugar Bytes"
+version      = "1.0.0"
+description  = "Groove extraction tool that loads any audio file and generates beat-driven sequences and grooves."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "groovebox"
+license      = "commercial"
+tags         = []
+homepage     = "https://sugar-bytes.de/egoist"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/6-Groovebox/1013-Egoist?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sugar-bytes.de/egoist"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/egoist"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sugar-bytes.de/egoist"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/egoist"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

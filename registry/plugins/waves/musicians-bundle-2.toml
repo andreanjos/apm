@@ -1,26 +1,27 @@
-slug        = "musicians-bundle-2"
-name        = "Musicians Bundle 2"
-vendor      = "Waves"
-version     = "14.0"
-description = "Second volume of essential plugins tailored for musicians during recording and production."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/musicians-bundle-2"
-is_paid     = true
+slug         = "musicians-bundle-2"
+name         = "Musicians Bundle 2"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Second volume of essential plugins tailored for musicians during recording and production."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/musicians-bundle-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/musicians-bundle-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/musicians-bundle-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/musicians-bundle-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/musicians-bundle-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "auto-tune-unlimited-one-year-subscription"
-name        = "Auto-Tune Unlimited One Year Subscription"
-vendor      = "Antares"
-version     = "1.0.0"
-description = "Annual subscription providing access to the complete suite of Antares Auto-Tune plugins."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.antarestech.com/products/auto-tune/unlimited"
-is_paid     = true
+slug         = "auto-tune-unlimited-one-year-subscription"
+name         = "Auto-Tune Unlimited One Year Subscription"
+vendor       = "Antares"
+version      = "1.0.0"
+description  = "Annual subscription providing access to the complete suite of Antares Auto-Tune plugins."
+category     = "effects"
+product_type = "subscription"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.antarestech.com/products/auto-tune/unlimited"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.antarestech.com/products/auto-tune/unlimited"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/auto-tune/unlimited"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.antarestech.com/products/auto-tune/unlimited"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/auto-tune/unlimited"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

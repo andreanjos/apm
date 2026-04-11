@@ -1,24 +1,28 @@
-slug        = "baby-audio-spaced-out"
-name        = "Spaced Out"
-vendor      = "Baby Audio"
-version     = "1.0"
-description = "Hybrid reverb, delay, and modulation plugin for creating lush, creative ambience effects with over 50 parameters behind a streamlined interface."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = ["reverb", "delay", "modulation", "ambient", "creative", "echo", "space"]
-homepage    = "https://babyaud.io/spaced-out-plugin"
+slug         = "baby-audio-spaced-out"
+name         = "Spaced Out"
+vendor       = "Baby Audio"
+version      = "1.0"
+description  = "Hybrid reverb, delay, and modulation plugin for creating lush, creative ambience effects with over 50 parameters behind a streamlined interface."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = ["reverb", "delay", "modulation", "ambient", "creative", "echo", "space"]
+aliases      = ["spaced-out"]
+homepage     = "https://babyaud.io/spaced-out-plugin"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/7185-Spaced-Out?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://babyaud.io/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://babyaud.io/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "Spaced Out.vst3"
+bundle_path   = "Spaced Out.vst3"
 
 [formats.au]
-url          = "https://babyaud.io/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://babyaud.io/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "Spaced Out.component"
+bundle_path   = "Spaced Out.component"

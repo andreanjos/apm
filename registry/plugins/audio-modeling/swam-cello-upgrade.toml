@@ -1,25 +1,26 @@
-slug        = "swam-cello-upgrade"
-name        = "SWAM Cello Upgrade"
-vendor      = "Audio Modeling"
-version     = "3"
-description = "Upgrade license to SWAM Cello v3 for existing SWAM Cello owners with improved sound engine and UI."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodeling.com/strings/swam-cello/"
-is_paid     = true
+slug         = "swam-cello-upgrade"
+name         = "SWAM Cello Upgrade"
+vendor       = "Audio Modeling"
+version      = "3"
+description  = "Upgrade license to SWAM Cello v3 for existing SWAM Cello owners with improved sound engine and UI."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodeling.com/strings/swam-cello/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodeling.com/strings/swam-cello/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/strings/swam-cello/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodeling.com/strings/swam-cello/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/strings/swam-cello/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

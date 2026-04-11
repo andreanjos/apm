@@ -1,25 +1,26 @@
-slug        = "steampunk"
-name        = "Steampunk"
-vendor      = "Fallout Music"
-version     = "1.0.0"
-description = "Kontakt instrument of mechanical and industrial recordings—clocks, steam, metals—for any genre."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://falloutmusicgroup.com/"
-is_paid     = true
+slug         = "steampunk"
+name         = "Steampunk"
+vendor       = "Fallout Music"
+version      = "1.0.0"
+description  = "Kontakt instrument of mechanical and industrial recordings-clocks, steam, metals-for any genre."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://falloutmusicgroup.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://falloutmusicgroup.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://falloutmusicgroup.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://falloutmusicgroup.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://falloutmusicgroup.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

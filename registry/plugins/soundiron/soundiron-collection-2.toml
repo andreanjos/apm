@@ -1,25 +1,26 @@
-slug        = "soundiron-collection-2"
-name        = "SOUNDIRON COLLECTION 2"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Curated bundle collection of premium Soundiron Kontakt instruments from across the catalog."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/soundiron-collection-2"
-is_paid     = true
+slug         = "soundiron-collection-2"
+name         = "SOUNDIRON COLLECTION 2"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Curated bundle collection of premium Soundiron Kontakt instruments from across the catalog."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/soundiron-collection-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/soundiron-collection-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/soundiron-collection-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/soundiron-collection-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/soundiron-collection-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

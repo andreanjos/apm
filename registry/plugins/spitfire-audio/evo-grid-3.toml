@@ -1,26 +1,27 @@
-slug        = "evo-grid-3"
-name        = "Evo Grid 3"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Evolving orchestral string motions inspired by minimalist composers like Reich, Riley, Glass, and Adams."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/en-us/products/evo-grid-3"
-is_paid     = true
+slug         = "evo-grid-3"
+name         = "Evo Grid 3"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Evolving orchestral string motions inspired by minimalist composers like Reich, Riley, Glass, and Adams."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/en-us/products/evo-grid-3"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/en-us/products/evo-grid-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/en-us/products/evo-grid-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/en-us/products/evo-grid-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/en-us/products/evo-grid-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "blue-tubes-oilcan-echo-tle-2s"
-name        = "Blue Tubes Oilcan Echo TLE-2S"
-vendor      = "Nomad Factory"
-version     = "1.0.0"
-description = "Oilcan echo plugin from the Blue Tubes series emulating the warm, murky sound of electrostatic delay."
-category    = "effects"
-subcategory = "echo"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.nomadfactory.com/products/p428-Blue-Tubes-Oilcan-Echo-TLE2S/"
-is_paid     = true
+slug         = "blue-tubes-oilcan-echo-tle-2s"
+name         = "Blue Tubes Oilcan Echo TLE-2S"
+vendor       = "Nomad Factory"
+version      = "1.0.0"
+description  = "Oilcan echo plugin from the Blue Tubes series emulating the warm, murky sound of electrostatic delay."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "echo"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.nomadfactory.com/products/p428-Blue-Tubes-Oilcan-Echo-TLE2S/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.nomadfactory.com/products/p428-Blue-Tubes-Oilcan-Echo-TLE2S/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p428-Blue-Tubes-Oilcan-Echo-TLE2S/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.nomadfactory.com/products/p428-Blue-Tubes-Oilcan-Echo-TLE2S/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p428-Blue-Tubes-Oilcan-Echo-TLE2S/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "punch-2-upgrade-from-punch-1"
-name        = "Punch 2 Upgrade from Punch 1"
-vendor      = "Rob Papen"
-version     = "1.0.0"
-description = "Upgrade license from Punch 1 to Punch 2, adding granular sample pads, REX file import, and master FX section."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/Punch2.html"
-is_paid     = true
+slug         = "punch-2-upgrade-from-punch-1"
+name         = "Punch 2 Upgrade from Punch 1"
+vendor       = "Rob Papen"
+version      = "1.0.0"
+description  = "Upgrade license from Punch 1 to Punch 2, adding granular sample pads, REX file import, and master FX section."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/Punch2.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/Punch2.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/Punch2.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/Punch2.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/Punch2.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

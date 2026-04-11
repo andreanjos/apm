@@ -1,24 +1,25 @@
-slug        = "ava-vocal-flow"
-name        = "AVA Vocal Flow"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "Comprehensive vocal processing suite with 7 routable elements including pitch-tracking EQ and de-esser."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/ava/ava-vocal-flow"
-is_paid     = true
+slug         = "ava-vocal-flow"
+name         = "AVA Vocal Flow"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "Comprehensive vocal processing suite with 7 routable elements including pitch-tracking EQ and de-esser."
+category     = "effects"
+product_type = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/ava/ava-vocal-flow"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/ava/ava-vocal-flow"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/ava/ava-vocal-flow"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/ava/ava-vocal-flow"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/ava/ava-vocal-flow"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "reed200"
-name        = "Reed200"
-vendor      = "Sampleson"
-version     = "1.0.0"
-description = "Spectral-modeled reed electric piano delivering a clean, responsive sound with accurate timbre reproduction."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://sampleson.com/Reed200-Electric-Piano-vst.html"
-is_paid     = true
+slug         = "reed200"
+name         = "Reed200"
+vendor       = "Sampleson"
+version      = "1.0.0"
+description  = "Spectral-modeled reed electric piano delivering a clean, responsive sound with accurate timbre reproduction."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://sampleson.com/Reed200-Electric-Piano-vst.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sampleson.com/Reed200-Electric-Piano-vst.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://sampleson.com/Reed200-Electric-Piano-vst.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sampleson.com/Reed200-Electric-Piano-vst.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://sampleson.com/Reed200-Electric-Piano-vst.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

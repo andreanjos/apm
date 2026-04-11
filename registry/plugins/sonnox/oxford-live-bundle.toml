@@ -1,25 +1,26 @@
-slug        = "oxford-live-bundle"
-name        = "Oxford Live Bundle"
-vendor      = "Sonnox"
-version     = "1.0.0"
-description = "Live sound bundle for Avid VENUE consoles including Oxford EQ, Dynamics, Inflator, TransMod, Reverb, and SuprEsser DS."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/products/sonnox-live-bundle"
-is_paid     = true
+slug         = "oxford-live-bundle"
+name         = "Oxford Live Bundle"
+vendor       = "Sonnox"
+version      = "1.0.0"
+description  = "Live sound bundle for Avid VENUE consoles including Oxford EQ, Dynamics, Inflator, TransMod, Reverb, and SuprEsser DS."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonnox.com/products/sonnox-live-bundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/products/sonnox-live-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/sonnox-live-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/products/sonnox-live-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/sonnox-live-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "renaissance-axx"
-name        = "Renaissance Axx"
-vendor      = "Waves"
-version     = "14.0"
-description = "Simple one-knob compressor optimized for guitars with instant results."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/renaissance-axx"
-is_paid     = true
+slug         = "renaissance-axx"
+name         = "Renaissance Axx"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Simple one-knob compressor optimized for guitars with instant results."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/renaissance-axx"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/renaissance-axx"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/renaissance-axx"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/renaissance-axx"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/renaissance-axx"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

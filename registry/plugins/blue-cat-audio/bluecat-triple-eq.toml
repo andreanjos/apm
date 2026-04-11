@@ -1,21 +1,25 @@
-slug        = "bluecat-triple-eq"
-name        = "Blue Cat's Triple EQ"
-vendor      = "Blue Cat Audio"
-version     = "4.5"
-description = "Free 3-band semi-parametric equalizer with zero latency and real-time frequency response display."
-category    = "effects"
-subcategory = "equalizer"
-license     = "freeware"
-tags        = ["eq", "equalizer", "3-band", "mixing", "free", "freeware"]
-homepage    = "https://www.bluecataudio.com/Products/Product_TripleEQ/"
+slug         = "bluecat-triple-eq"
+name         = "Blue Cat's Triple EQ"
+vendor       = "Blue Cat Audio"
+version      = "4.5"
+description  = "Free 3-band semi-parametric equalizer with zero latency and real-time frequency response display."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "equalizer"
+license      = "freeware"
+tags         = ["eq", "equalizer", "3-band", "mixing", "free", "freeware"]
+aliases      = ["blue-cat-s-triple-eq"]
+homepage     = "https://www.bluecataudio.com/Products/Product_TripleEQ/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/276-Blue-Cat-s-Triple-EQ?a_aid=69d5e87c5f2e9"
+
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Vault/Products/Product_TripleEQ/BlueCatTripleEQ.dmg"
-sha256       = "c73f0e6c10f59319d2c8ebc65496ca29c39c10423d2e853fcad1afd37dbc5939"
-install_type = "dmg"
-bundle_path  = "Blue Cat's Triple EQ.vst3"
+url           = "https://www.bluecataudio.com/Vault/Products/Product_TripleEQ/BlueCatTripleEQ.dmg"
+sha256        = "c73f0e6c10f59319d2c8ebc65496ca29c39c10423d2e853fcad1afd37dbc5939"
+install_type  = "dmg"
+bundle_path   = "Blue Cat's Triple EQ.vst3"
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Vault/Products/Product_TripleEQ/BlueCatTripleEQ.dmg"
-sha256       = "c73f0e6c10f59319d2c8ebc65496ca29c39c10423d2e853fcad1afd37dbc5939"
-install_type = "dmg"
-bundle_path  = "Blue Cat's Triple EQ.component"
+url           = "https://www.bluecataudio.com/Vault/Products/Product_TripleEQ/BlueCatTripleEQ.dmg"
+sha256        = "c73f0e6c10f59319d2c8ebc65496ca29c39c10423d2e853fcad1afd37dbc5939"
+install_type  = "dmg"
+bundle_path   = "Blue Cat's Triple EQ.component"

@@ -1,24 +1,25 @@
-slug        = "v2-exclusive-halloween-pack"
-name        = "V2 + Exclusive Halloween Pack"
-vendor      = "AudioCipher"
-version     = "2.0"
-description = "AudioCipher V2 chord progression generator with exclusive Halloween-themed preset pack."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiocipher.com/"
-is_paid     = true
+slug         = "v2-exclusive-halloween-pack"
+name         = "V2 + Exclusive Halloween Pack"
+vendor       = "AudioCipher"
+version      = "2.0"
+description  = "AudioCipher V2 chord progression generator with exclusive Halloween-themed preset pack."
+category     = "effects"
+product_type = "preset_pack"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiocipher.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiocipher.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiocipher.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiocipher.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiocipher.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

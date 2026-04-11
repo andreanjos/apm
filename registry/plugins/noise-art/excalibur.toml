@@ -1,25 +1,26 @@
-slug        = "excalibur"
-name        = "Excalibur"
-vendor      = "Noise Art"
-version     = "1.0"
-description = "Keyboard instrument plugin by Noise Art with powerful synthesis and expressive playability."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://noiseartplugins.com/"
-is_paid     = true
+slug         = "excalibur"
+name         = "Excalibur"
+vendor       = "Noise Art"
+version      = "1.0"
+description  = "Keyboard instrument plugin by Noise Art with powerful synthesis and expressive playability."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://noiseartplugins.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://noiseartplugins.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseartplugins.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://noiseartplugins.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseartplugins.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "inertia-v3"
-name        = "Inertia v3"
-vendor      = "Sinevibes"
-version     = "3.0.2"
-description = "Envelope sequencer applying rhythmic amplitude shaping synchronized to host tempo."
-category    = "effects"
-subcategory = "envelope shaper"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sinevibes.com/inertia/"
+slug         = "inertia-v3"
+name         = "Inertia v3"
+vendor       = "Sinevibes"
+version      = "3.0.2"
+description  = "Envelope sequencer applying rhythmic amplitude shaping synchronized to host tempo."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "envelope shaper"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sinevibes.com/inertia/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/15610-Inertia-v3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sinevibes.com/inertia/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/inertia/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sinevibes.com/inertia/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/inertia/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

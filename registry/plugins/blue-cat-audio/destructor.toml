@@ -1,25 +1,26 @@
-slug        = "destructor"
-name        = "Destructor"
-vendor      = "Blue Cat Audio"
-version     = "2.04"
-description = "Distortion and amp simulator replicating a wide range of distortion styles and guitar amp sounds."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_Destructor/"
-is_paid     = true
+slug         = "destructor"
+name         = "Destructor"
+vendor       = "Blue Cat Audio"
+version      = "2.04"
+description  = "Distortion and amp simulator replicating a wide range of distortion styles and guitar amp sounds."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_Destructor/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_Destructor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_Destructor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_Destructor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_Destructor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

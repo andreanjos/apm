@@ -1,25 +1,26 @@
-slug        = "uke"
-name        = "Uke"
-vendor      = "Audio Ollie"
-version     = "1.0.0"
-description = "Ukulele Kontakt instrument capturing expressive lead and percussive rhythmic playing styles."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audioollie.com/"
-is_paid     = true
+slug         = "uke"
+name         = "Uke"
+vendor       = "Audio Ollie"
+version      = "1.0.0"
+description  = "Ukulele Kontakt instrument capturing expressive lead and percussive rhythmic playing styles."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audioollie.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audioollie.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioollie.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audioollie.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioollie.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

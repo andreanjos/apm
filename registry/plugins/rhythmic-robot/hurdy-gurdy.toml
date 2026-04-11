@@ -1,25 +1,26 @@
-slug        = "hurdy-gurdy"
-name        = "Hurdy Gurdy"
-vendor      = "Rhythmic Robot"
-version     = "1.0"
-description = "A meticulously sampled Eastern European hurdy-gurdy with authentic cranked-string tonal variation."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.rhythmicrobot.com/product/kontakt-hurdy-gurdy"
-is_paid     = true
+slug         = "hurdy-gurdy"
+name         = "Hurdy Gurdy"
+vendor       = "Rhythmic Robot"
+version      = "1.0"
+description  = "A meticulously sampled Eastern European hurdy-gurdy with authentic cranked-string tonal variation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.rhythmicrobot.com/product/kontakt-hurdy-gurdy"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.rhythmicrobot.com/product/kontakt-hurdy-gurdy"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/kontakt-hurdy-gurdy"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.rhythmicrobot.com/product/kontakt-hurdy-gurdy"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/kontakt-hurdy-gurdy"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

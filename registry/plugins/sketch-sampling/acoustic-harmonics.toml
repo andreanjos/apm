@@ -1,25 +1,26 @@
-slug        = "acoustic-harmonics"
-name        = "Acoustic Harmonics"
-vendor      = "Sketch Sampling"
-version     = "1.0.0"
-description = "Kontakt library of acoustic steel-string guitar harmonics and designed textural pads."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://sketchsampling.ru/acoustic-harmonics/"
-is_paid     = true
+slug         = "acoustic-harmonics"
+name         = "Acoustic Harmonics"
+vendor       = "Sketch Sampling"
+version      = "1.0.0"
+description  = "Kontakt library of acoustic steel-string guitar harmonics and designed textural pads."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://sketchsampling.ru/acoustic-harmonics/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sketchsampling.ru/acoustic-harmonics/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sketchsampling.ru/acoustic-harmonics/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sketchsampling.ru/acoustic-harmonics/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sketchsampling.ru/acoustic-harmonics/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

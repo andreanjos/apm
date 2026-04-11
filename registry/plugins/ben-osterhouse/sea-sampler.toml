@@ -1,26 +1,27 @@
-slug        = "sea-sampler"
-name        = "Sea Sampler"
-vendor      = "Ben Osterhouse"
-version     = "1.0.0"
-description = "Kontakt instrument transforming samples into vibrant soundscapes through a unique fish-school UI."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://osterhousesounds.com/products/sea-sampler"
+slug         = "sea-sampler"
+name         = "Sea Sampler"
+vendor       = "Ben Osterhouse"
+version      = "1.0.0"
+description  = "Kontakt instrument transforming samples into vibrant soundscapes through a unique fish-school UI."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://osterhousesounds.com/products/sea-sampler"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10972-Sea-Sampler?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://osterhousesounds.com/products/sea-sampler"
-sha256       = ""
-install_type = "zip"
+url           = "https://osterhousesounds.com/products/sea-sampler"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://osterhousesounds.com/products/sea-sampler"
-sha256       = ""
-install_type = "zip"
+url           = "https://osterhousesounds.com/products/sea-sampler"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

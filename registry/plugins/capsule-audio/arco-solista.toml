@@ -1,25 +1,26 @@
-slug        = "arco-solista"
-name        = "Arco Solista"
-vendor      = "Capsule Audio"
-version     = "1.0.0"
-description = "Capsule solo violin and cello library with multiple articulations, round robins, and two mic positions."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.capsule.audio/"
-is_paid     = true
+slug         = "arco-solista"
+name         = "Arco Solista"
+vendor       = "Capsule Audio"
+version      = "1.0.0"
+description  = "Capsule solo violin and cello library with multiple articulations, round robins, and two mic positions."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.capsule.audio/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.capsule.audio/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.capsule.audio/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.capsule.audio/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.capsule.audio/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

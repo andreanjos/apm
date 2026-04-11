@@ -1,24 +1,28 @@
-slug        = "eventide-micropitch"
-name        = "MicroPitch"
-vendor      = "Eventide"
-version     = "1.3.4"
-description = "Fine-resolution pitch shifting for subtle tone fattening plus delays for slapback effects with stereo spreading."
-category    = "effects"
-subcategory = "pitch-shift"
-license     = "commercial"
-tags        = ["pitch-shift", "widener", "stereo", "slapback", "detune", "thickening", "chorus"]
-homepage    = "https://www.eventideaudio.com/plug-ins/micropitch/"
+slug         = "eventide-micropitch"
+name         = "MicroPitch"
+vendor       = "Eventide"
+version      = "1.3.4"
+description  = "Fine-resolution pitch shifting for subtle tone fattening plus delays for slapback effects with stereo spreading."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch-shift"
+license      = "commercial"
+tags         = ["pitch-shift", "widener", "stereo", "slapback", "detune", "thickening", "chorus"]
+aliases      = ["micropitch"]
+homepage     = "https://www.eventideaudio.com/plug-ins/micropitch/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/6350-MicroPitch?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://downloads.eventide.com/audio/installers/plug-ins/MicroPitch/MicroPitch-1.3.4-osx-installer.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://downloads.eventide.com/audio/installers/plug-ins/MicroPitch/MicroPitch-1.3.4-osx-installer.dmg"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "MicroPitch.vst3"
+bundle_path   = "MicroPitch.vst3"
 
 [formats.au]
-url          = "https://downloads.eventide.com/audio/installers/plug-ins/MicroPitch/MicroPitch-1.3.4-osx-installer.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://downloads.eventide.com/audio/installers/plug-ins/MicroPitch/MicroPitch-1.3.4-osx-installer.dmg"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "MicroPitch.component"
+bundle_path   = "MicroPitch.component"

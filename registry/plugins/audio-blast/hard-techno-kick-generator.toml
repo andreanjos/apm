@@ -1,26 +1,27 @@
-slug        = "hard-techno-kick-generator"
-name        = "Hard Techno Kick Generator"
-vendor      = "Audio Blast"
-version     = "1.0.0"
-description = "Virtual instrument with 350 layered kick presets and 1,000 samples for hard techno and hardcore."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audioblast.me/product/hard-techno-kick-generator/"
+slug         = "hard-techno-kick-generator"
+name         = "Hard Techno Kick Generator"
+vendor       = "Audio Blast"
+version      = "1.0.0"
+description  = "Virtual instrument with 350 layered kick presets and 1,000 samples for hard techno and hardcore."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audioblast.me/product/hard-techno-kick-generator/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15067-Hard-Techno-Kick-Generator?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audioblast.me/product/hard-techno-kick-generator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioblast.me/product/hard-techno-kick-generator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audioblast.me/product/hard-techno-kick-generator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioblast.me/product/hard-techno-kick-generator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

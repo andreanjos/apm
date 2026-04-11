@@ -1,26 +1,27 @@
-slug        = "s12x"
-name        = "S12X"
-vendor      = "BeatSkillz"
-version     = "1.0.0"
-description = "Bit-crusher plugin emulating vintage sampler degradation with variable sample rate and bit-depth control."
-category    = "effects"
-subcategory = "bit crusher"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beatskillz.com/shop/"
+slug         = "s12x"
+name         = "S12X"
+vendor       = "BeatSkillz"
+version      = "1.0.0"
+description  = "Bit-crusher plugin emulating vintage sampler degradation with variable sample rate and bit-depth control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "bit crusher"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beatskillz.com/shop/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/11769-S12X?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beatskillz.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beatskillz.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,27 +1,26 @@
-slug        = "acustica-ash"
-name        = "Ash"
-vendor      = "Acustica Audio"
-version     = "B029"
-description = "High-end clipping and converter emulation plugin using Acustica's Acqua technology to model classic high-end analog converter saturation circuits."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = ["saturation", "clipping", "converter", "analog", "mastering", "acqua", "oversampling"]
-homepage    = "https://www.acustica-audio.com/shop/products/ASH"
+slug         = "acustica-ash"
+name         = "Ash"
+vendor       = "Acustica Audio"
+version      = "B029"
+description  = "High-end clipping and converter emulation plugin using Acustica's Acqua technology to model classic high-end analog converter saturation circuits."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = ["saturation", "clipping", "converter", "analog", "mastering", "acqua", "oversampling"]
+homepage     = "https://www.acustica-audio.com/shop/products/ASH"
+is_paid      = true
 
-# NOTE: Acustica Audio distributes all plugins via the Aquarius Desktop
-# Application (ADA). There is no direct download URL; users must install
-# and log into ADA to download and manage plugins.
 [formats.vst3]
-url          = "https://www.acustica-audio.com/pages/plugins-installation"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.acustica-audio.com/pages/plugins-installation"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Ash.vst3"
+bundle_path   = "Ash.vst3"
 
 [formats.au]
-url          = "https://www.acustica-audio.com/pages/plugins-installation"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.acustica-audio.com/pages/plugins-installation"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Ash.component"
+bundle_path   = "Ash.component"

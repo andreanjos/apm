@@ -1,25 +1,26 @@
-slug        = "eii-synthulator"
-name        = "EII Synthulator"
-vendor      = "Rhythmic Robot"
-version     = "1.0"
-description = "A Kontakt synth based on the Emulator II, splicing short attack samples onto synthesised sustain waveforms."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.rhythmicrobot.com/product/eii-synthulator"
-is_paid     = true
+slug         = "eii-synthulator"
+name         = "EII Synthulator"
+vendor       = "Rhythmic Robot"
+version      = "1.0"
+description  = "A Kontakt synth based on the Emulator II, splicing short attack samples onto synthesised sustain waveforms."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.rhythmicrobot.com/product/eii-synthulator"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.rhythmicrobot.com/product/eii-synthulator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/eii-synthulator"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.rhythmicrobot.com/product/eii-synthulator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/eii-synthulator"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

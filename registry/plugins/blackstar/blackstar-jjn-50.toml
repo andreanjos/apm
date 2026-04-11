@@ -1,26 +1,27 @@
-slug        = "blackstar-jjn-50"
-name        = "Blackstar JJN 50"
-vendor      = "Blackstar"
-version     = "1.0.0"
-description = "Plugin emulation of the Blackstar Jared James Nichols JJN 50 amp with CabRig speaker simulation."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://blackstarplugins.com/dp/jjn-50-plugin/"
+slug         = "blackstar-jjn-50"
+name         = "Blackstar JJN 50"
+vendor       = "Blackstar"
+version      = "1.0.0"
+description  = "Plugin emulation of the Blackstar Jared James Nichols JJN 50 amp with CabRig speaker simulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://blackstarplugins.com/dp/jjn-50-plugin/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/13999-Blackstar-JJN-50?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://blackstarplugins.com/dp/jjn-50-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackstarplugins.com/dp/jjn-50-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://blackstarplugins.com/dp/jjn-50-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackstarplugins.com/dp/jjn-50-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

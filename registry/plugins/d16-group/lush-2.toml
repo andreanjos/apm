@@ -1,26 +1,27 @@
-slug        = "lush-2"
-name        = "LuSH 2"
-vendor      = "D16 Group"
-version     = "2.1.5"
-description = "Multilayer polyphonic synthesizer with 8 independent layers, 1600+ presets and advanced modulation."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/lush2"
+slug         = "lush-2"
+name         = "LuSH 2"
+vendor       = "D16 Group"
+version      = "2.1.5"
+description  = "Multilayer polyphonic synthesizer with 8 independent layers, 1600+ presets and advanced modulation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/lush2"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10770-LuSH-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/lush2"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/lush2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/lush2"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/lush2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

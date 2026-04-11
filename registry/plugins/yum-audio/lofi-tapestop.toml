@@ -1,25 +1,26 @@
-slug        = "lofi-tapestop"
-name        = "LoFi Tapestop"
-vendor      = "Yum Audio"
-version     = "1.0.0"
-description = "Creative tape-stop effect plugin replicating pitch behavior of analog tape starting and stopping."
-category    = "effects"
-subcategory = "lo-fi"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.yum-audio.com/LoFi-Tapestop/"
-is_paid     = true
+slug         = "lofi-tapestop"
+name         = "LoFi Tapestop"
+vendor       = "Yum Audio"
+version      = "1.0.0"
+description  = "Creative tape-stop effect plugin replicating pitch behavior of analog tape starting and stopping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "lo-fi"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.yum-audio.com/LoFi-Tapestop/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.yum-audio.com/LoFi-Tapestop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.yum-audio.com/LoFi-Tapestop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.yum-audio.com/LoFi-Tapestop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.yum-audio.com/LoFi-Tapestop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

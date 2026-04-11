@@ -1,25 +1,26 @@
-slug        = "invigorate"
-name        = "Invigorate"
-vendor      = "Eventide"
-version     = "1.0.0"
-description = "Versatile compressor, limiter, and overdrive distortion from Newfangled Audio designed to add life to any mix element."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eventideaudio.com/plug-ins/invigorate/"
-is_paid     = true
+slug         = "invigorate"
+name         = "Invigorate"
+vendor       = "Eventide"
+version      = "1.0.0"
+description  = "Versatile compressor, limiter, and overdrive distortion from Newfangled Audio designed to add life to any mix element."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eventideaudio.com/plug-ins/invigorate/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eventideaudio.com/plug-ins/invigorate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/invigorate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eventideaudio.com/plug-ins/invigorate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/invigorate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

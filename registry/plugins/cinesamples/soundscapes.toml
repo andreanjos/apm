@@ -1,26 +1,27 @@
-slug        = "soundscapes"
-name        = "Soundscapes"
-vendor      = "Cinesamples"
-version     = "1.0.0"
-description = "Granular synthesis instrument creating tonal and atonal sound design from violin-based samples."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/soundscapes"
+slug         = "soundscapes"
+name         = "Soundscapes"
+vendor       = "Cinesamples"
+version      = "1.0.0"
+description  = "Granular synthesis instrument creating tonal and atonal sound design from violin-based samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/soundscapes"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11298-Soundscapes?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/soundscapes"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/soundscapes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/soundscapes"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/soundscapes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

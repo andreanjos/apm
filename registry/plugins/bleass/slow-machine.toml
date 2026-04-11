@@ -1,24 +1,25 @@
-slug        = "slow-machine"
-name        = "Slow Machine"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "BLEASS audio effect that slows down and mutates beats or melodies with tape-stop precision."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/slow-machine/"
-is_paid     = true
+slug         = "slow-machine"
+name         = "Slow Machine"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "BLEASS audio effect that slows down and mutates beats or melodies with tape-stop precision."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/slow-machine/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/slow-machine/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/slow-machine/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/slow-machine/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/slow-machine/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

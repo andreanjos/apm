@@ -1,25 +1,26 @@
-slug        = "true-dynamics"
-name        = "True Dynamics"
-vendor      = "Kazrog"
-version     = "1.0.0"
-description = "Analog-modeled compressor plugin for natural dynamic control in mixing and mastering."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://kazrog.com/collections/audio-plugins"
-is_paid     = true
+slug         = "true-dynamics"
+name         = "True Dynamics"
+vendor       = "Kazrog"
+version      = "1.0.0"
+description  = "Analog-modeled compressor plugin for natural dynamic control in mixing and mastering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://kazrog.com/collections/audio-plugins"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://kazrog.com/collections/audio-plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://kazrog.com/collections/audio-plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://kazrog.com/collections/audio-plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://kazrog.com/collections/audio-plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

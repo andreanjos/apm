@@ -1,25 +1,27 @@
-slug        = "cryptar-eternal-light"
-name        = "Cryptar – Eternal Light"
-vendor      = "Atom Hub"
-version     = "1.0.0"
-description = "Dark ambient Kontakt instrument combining atmospheric guitar and piano with designed noises."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.atomhub.net/Free_Cryptar.html"
-is_paid     = true
+slug         = "cryptar-eternal-light"
+name         = "Cryptar - Eternal Light"
+vendor       = "Atom Hub"
+version      = "1.0.0"
+description  = "Dark ambient Kontakt instrument combining atmospheric guitar and piano with designed noises."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["cryptar-8211-eternal-light"]
+homepage     = "https://www.atomhub.net/Free_Cryptar.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.atomhub.net/Free_Cryptar.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.atomhub.net/Free_Cryptar.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.atomhub.net/Free_Cryptar.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.atomhub.net/Free_Cryptar.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "mautostereofix"
-name        = "MAutoStereoFix"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Automatically fixes stereo recording problems by matching volume, timing, spectrum, and phase between channels."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MAutoStereoFix"
-is_paid     = true
+slug         = "mautostereofix"
+name         = "MAutoStereoFix"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Automatically fixes stereo recording problems by matching volume, timing, spectrum, and phase between channels."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MAutoStereoFix"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MAutoStereoFix"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MAutoStereoFix"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MAutoStereoFix"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MAutoStereoFix"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "3d-reverb-bundle-by-exponential-audio"
-name        = "3D Reverb Bundle by Exponential Audio"
-vendor      = "iZotope"
-version     = "1.0.0"
-description = "Bundle of Stratus 3D and Symphony 3D algorithmic reverb plugins for immersive 3D audio."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "izotope-product-portal"
-homepage    = "https://www.izotope.com/en/products"
-is_paid     = true
+slug         = "3d-reverb-bundle-by-exponential-audio"
+name         = "3D Reverb Bundle by Exponential Audio"
+vendor       = "iZotope"
+version      = "1.0.0"
+description  = "Bundle of Stratus 3D and Symphony 3D algorithmic reverb plugins for immersive 3D audio."
+category     = "effects"
+product_type = "bundle"
+license      = "commercial"
+tags         = []
+installer    = "izotope-product-portal"
+homepage     = "https://www.izotope.com/en/products"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.izotope.com/en/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.izotope.com/en/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

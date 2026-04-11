@@ -1,25 +1,26 @@
-slug        = "groove-agent-5"
-name        = "Groove Agent 5"
-vendor      = "Steinberg"
-version     = "5"
-description = "Virtual drum workstation with acoustic kits recorded at Teldex Studios plus 130+ electronic kits."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.steinberg.net/vst-instruments/groove-agent/"
-is_paid     = true
+slug         = "groove-agent-5"
+name         = "Groove Agent 5"
+vendor       = "Steinberg"
+version      = "5"
+description  = "Virtual drum workstation with acoustic kits recorded at Teldex Studios plus 130+ electronic kits."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.steinberg.net/vst-instruments/groove-agent/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.steinberg.net/vst-instruments/groove-agent/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/vst-instruments/groove-agent/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.steinberg.net/vst-instruments/groove-agent/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/vst-instruments/groove-agent/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

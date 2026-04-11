@@ -1,26 +1,27 @@
-slug        = "vertigo-viola"
-name        = "Vertigo Viola"
-vendor      = "Cinematique Instruments"
-version     = "1.0.0"
-description = "Viola Kontakt instrument from the Symphonic Vertigo series for rich cinematic string scoring."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://cinematique-instruments.com/pages_instr/page_vertigo_viola.php"
+slug         = "vertigo-viola"
+name         = "Vertigo Viola"
+vendor       = "Cinematique Instruments"
+version      = "1.0.0"
+description  = "Viola Kontakt instrument from the Symphonic Vertigo series for rich cinematic string scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://cinematique-instruments.com/pages_instr/page_vertigo_viola.php"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10463-Vertigo-Viola?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cinematique-instruments.com/pages_instr/page_vertigo_viola.php"
-sha256       = ""
-install_type = "zip"
+url           = "https://cinematique-instruments.com/pages_instr/page_vertigo_viola.php"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cinematique-instruments.com/pages_instr/page_vertigo_viola.php"
-sha256       = ""
-install_type = "zip"
+url           = "https://cinematique-instruments.com/pages_instr/page_vertigo_viola.php"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "echothief"
-name        = "EchoThief"
-vendor      = "Stagecraft"
-version     = "1.0.0"
-description = "Convolution reverb plugin using the EchoThief impulse response library of real-world spaces."
-category    = "effects"
-subcategory = "echo"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.stagecraftsoftware.com/products/effects/"
-is_paid     = true
+slug         = "echothief"
+name         = "EchoThief"
+vendor       = "Stagecraft"
+version      = "1.0.0"
+description  = "Convolution reverb plugin using the EchoThief impulse response library of real-world spaces."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "echo"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.stagecraftsoftware.com/products/effects/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.stagecraftsoftware.com/products/effects/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.stagecraftsoftware.com/products/effects/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.stagecraftsoftware.com/products/effects/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.stagecraftsoftware.com/products/effects/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

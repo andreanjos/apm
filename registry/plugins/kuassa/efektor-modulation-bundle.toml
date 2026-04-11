@@ -1,25 +1,26 @@
-slug        = "efektor-modulation-bundle"
-name        = "Efektor Modulation Bundle"
-vendor      = "Kuassa"
-version     = "1.0.0"
-description = "Bundle of Kuassa's Efektor modulation guitar effect plugins including chorus, flanger, and phaser."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kuassa.com/products/efektor/"
-is_paid     = true
+slug         = "efektor-modulation-bundle"
+name         = "Efektor Modulation Bundle"
+vendor       = "Kuassa"
+version      = "1.0.0"
+description  = "Bundle of Kuassa's Efektor modulation guitar effect plugins including chorus, flanger, and phaser."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kuassa.com/products/efektor/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kuassa.com/products/efektor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kuassa.com/products/efektor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kuassa.com/products/efektor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kuassa.com/products/efektor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

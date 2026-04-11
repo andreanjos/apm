@@ -1,24 +1,25 @@
-slug        = "liquid-phase-ii"
-name        = "Liquid Phase II"
-vendor      = "Nomad Factory"
-version     = "3.0.1"
-description = "Phaser effect plugin from the Liquid II series with classic analog-style phase shifting."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.nomadfactory.com/products/p749-Liquid-Phase/"
-is_paid     = true
+slug         = "liquid-phase-ii"
+name         = "Liquid Phase II"
+vendor       = "Nomad Factory"
+version      = "3.0.1"
+description  = "Phaser effect plugin from the Liquid II series with classic analog-style phase shifting."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.nomadfactory.com/products/p749-Liquid-Phase/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.nomadfactory.com/products/p749-Liquid-Phase/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p749-Liquid-Phase/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.nomadfactory.com/products/p749-Liquid-Phase/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p749-Liquid-Phase/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

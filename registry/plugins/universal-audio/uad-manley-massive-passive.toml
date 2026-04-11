@@ -1,25 +1,29 @@
-slug        = "uad-manley-massive-passive"
-name        = "Manley Massive Passive"
-vendor      = "Universal Audio"
-version     = "1.0"
-description = "Tube EQ emulation of the Manley Massive Passive with four bands of fully parametric passive EQ and all-tube gain stages."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = ["eq", "passive", "tube", "manley", "mastering", "vintage", "uad"]
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/equalizers/manley-massive-passive-eq.html"
+slug         = "uad-manley-massive-passive"
+name         = "Manley Massive Passive"
+vendor       = "Universal Audio"
+version      = "1.0"
+description  = "Tube EQ emulation of the Manley Massive Passive with four bands of fully parametric passive EQ and all-tube gain stages."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = ["eq", "passive", "tube", "manley", "mastering", "vintage", "uad"]
+aliases      = ["manley-massive-passive"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/equalizers/manley-massive-passive-eq.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11498-Manley-Massive-Passive?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Manley Massive Passive.vst3"
+bundle_path   = "UAD Manley Massive Passive.vst3"
 
 [formats.au]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Manley Massive Passive.component"
+bundle_path   = "UAD Manley Massive Passive.component"

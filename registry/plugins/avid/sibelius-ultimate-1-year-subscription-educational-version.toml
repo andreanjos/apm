@@ -1,26 +1,27 @@
-slug        = "sibelius-ultimate-1-year-subscription-educational-version"
-name        = "Sibelius Ultimate 1 Year Subscription Educational Version"
-vendor      = "Avid"
-version     = "2026.2"
-description = "Educational one-year subscription for Sibelius Ultimate, Avid's top music notation platform."
-category    = "utility"
-subcategory = "daw"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.avid.com/sibelius"
+slug         = "sibelius-ultimate-1-year-subscription-educational-version"
+name         = "Sibelius Ultimate 1 Year Subscription Educational Version"
+vendor       = "Avid"
+version      = "2026.2"
+description  = "Educational one-year subscription for Sibelius Ultimate, Avid's top music notation platform."
+category     = "utility"
+product_type = "subscription"
+subcategory  = "daw"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.avid.com/sibelius"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12160-Sibelius-Ultimate-1-Year-Subscription-Educational-Version?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.avid.com/sibelius"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.avid.com/sibelius"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.avid.com/sibelius"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.avid.com/sibelius"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

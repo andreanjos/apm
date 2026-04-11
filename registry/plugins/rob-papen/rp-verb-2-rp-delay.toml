@@ -1,24 +1,26 @@
-slug        = "rp-verb-2-rp-delay"
-name        = "RP-VERB 2 & RP-Delay"
-vendor      = "Rob Papen"
-version     = "1.0.0"
-description = "Bundle of RP-VERB 2 and RP-Delay — a reverb with reverser section and a multi-line creative delay."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/rp-verb2.html"
-is_paid     = true
+slug         = "rp-verb-2-rp-delay"
+name         = "RP-VERB 2 & RP-Delay"
+vendor       = "Rob Papen"
+version      = "1.0.0"
+description  = "Bundle of RP-VERB 2 and RP-Delay - a reverb with reverser section and a multi-line creative delay."
+category     = "effects"
+product_type = "bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["rp-verb-2-038-rp-delay"]
+homepage     = "https://www.robpapen.com/rp-verb2.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/rp-verb2.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/rp-verb2.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/rp-verb2.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/rp-verb2.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

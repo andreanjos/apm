@@ -1,26 +1,27 @@
-slug        = "matrix-12-v"
-name        = "Matrix 12 V"
-vendor      = "Arturia"
-version     = "2.5.0"
-description = "Faithful emulation of the Oberheim Matrix-12, one of the most powerful analog polyphonic synths ever made."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-instruments/matrix12v/overview"
-is_paid     = true
+slug         = "matrix-12-v"
+name         = "Matrix 12 V"
+vendor       = "Arturia"
+version      = "2.5.0"
+description  = "Faithful emulation of the Oberheim Matrix-12, one of the most powerful analog polyphonic synths ever made."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-instruments/matrix12v/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-instruments/matrix12v/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/matrix12v/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-instruments/matrix12v/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/matrix12v/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

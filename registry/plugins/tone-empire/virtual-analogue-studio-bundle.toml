@@ -1,25 +1,26 @@
-slug        = "virtual-analogue-studio-bundle"
-name        = "Virtual Analogue Studio Bundle"
-vendor      = "Tone Empire"
-version     = "1.0.0"
-description = "Bundle of Tone Empire virtual analog studio plugins for complete signal-chain processing."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tone-empire.com"
-is_paid     = true
+slug         = "virtual-analogue-studio-bundle"
+name         = "Virtual Analogue Studio Bundle"
+vendor       = "Tone Empire"
+version      = "1.0.0"
+description  = "Bundle of Tone Empire virtual analog studio plugins for complete signal-chain processing."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tone-empire.com"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tone-empire.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tone-empire.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

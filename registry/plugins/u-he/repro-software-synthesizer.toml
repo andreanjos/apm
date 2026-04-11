@@ -1,25 +1,26 @@
-slug        = "repro-software-synthesizer"
-name        = "Repro Software Synthesizer"
-vendor      = "u-he"
-version     = "1.4"
-description = "u-he Repro is a component-level model of two classic analogue synthesizers, Repro-1 and Repro-5."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://u-he.com/products/repro/"
-is_paid     = true
+slug         = "repro-software-synthesizer"
+name         = "Repro Software Synthesizer"
+vendor       = "u-he"
+version      = "1.4"
+description  = "u-he Repro is a component-level model of two classic analogue synthesizers, Repro-1 and Repro-5."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://u-he.com/products/repro/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://u-he.com/products/repro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://u-he.com/products/repro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://u-he.com/products/repro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://u-he.com/products/repro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

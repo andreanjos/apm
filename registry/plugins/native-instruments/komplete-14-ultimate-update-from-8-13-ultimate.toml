@@ -1,26 +1,27 @@
-slug        = "komplete-14-ultimate-update-from-8-13-ultimate"
-name        = "Komplete 14 Ultimate Update from 8-13 Ultimate"
-vendor      = "Native Instruments"
-version     = "14"
-description = "Update to Komplete 14 Ultimate from Komplete Ultimate versions 8 through 13."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-installer   = "native-access"
-homepage    = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/"
-is_paid     = true
+slug         = "komplete-14-ultimate-update-from-8-13-ultimate"
+name         = "Komplete 14 Ultimate Update from 8-13 Ultimate"
+vendor       = "Native Instruments"
+version      = "14"
+description  = "Update to Komplete 14 Ultimate from Komplete Ultimate versions 8 through 13."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+installer    = "native-access"
+homepage     = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-ultimate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

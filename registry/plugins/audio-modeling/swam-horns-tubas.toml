@@ -1,25 +1,27 @@
-slug        = "swam-horns-tubas"
-name        = "SWAM Horns & Tubas"
-vendor      = "Audio Modeling"
-version     = "3"
-description = "Physically modeled French horns and tubas with real-time expression and Ambiente room simulation."
-category    = "instruments"
-subcategory = "brass"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodeling.com/swam-engine/solo-brass/"
-is_paid     = true
+slug         = "swam-horns-tubas"
+name         = "SWAM Horns & Tubas"
+vendor       = "Audio Modeling"
+version      = "3"
+description  = "Physically modeled French horns and tubas with real-time expression and Ambiente room simulation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "brass"
+license      = "commercial"
+tags         = []
+aliases      = ["swam-horns-038-tubas"]
+homepage     = "https://audiomodeling.com/swam-engine/solo-brass/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodeling.com/swam-engine/solo-brass/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/swam-engine/solo-brass/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodeling.com/swam-engine/solo-brass/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/swam-engine/solo-brass/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

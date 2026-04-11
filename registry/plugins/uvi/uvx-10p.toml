@@ -1,25 +1,26 @@
-slug        = "uvx-10p"
-name        = "UVX-10P"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Deep-sampled virtual instrument based on the Roland JX-10, MKS-70, and JX-8P polyphonic synthesizers."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/uvx-10p"
-is_paid     = true
+slug         = "uvx-10p"
+name         = "UVX-10P"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Deep-sampled virtual instrument based on the Roland JX-10, MKS-70, and JX-8P polyphonic synthesizers."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/uvx-10p"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/uvx-10p"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/uvx-10p"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/uvx-10p"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/uvx-10p"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

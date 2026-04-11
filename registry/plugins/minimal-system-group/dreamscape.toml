@@ -1,26 +1,27 @@
-slug        = "dreamscape"
-name        = "Dreamscape"
-vendor      = "Minimal System Group"
-version     = "1.0.0"
-description = "Musical reverb with analogue warmth and extremely low CPU usage covering plate, hall and room sounds."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/589-Dreamscape"
+slug         = "dreamscape"
+name         = "Dreamscape"
+vendor       = "Minimal System Group"
+version      = "1.0.0"
+description  = "Musical reverb with analogue warmth and extremely low CPU usage covering plate, hall and room sounds."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/589-Dreamscape"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/589-Dreamscape?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/589-Dreamscape"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/589-Dreamscape"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/589-Dreamscape"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/589-Dreamscape"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "ircam-hear-v3"
-name        = "Ircam Hear V3"
-vendor      = "Flux"
-version     = "3"
-description = "Binaural headphone rendering plugin supporting up to 16-channel Dolby Atmos and surround mixes."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.flux.audio/project/ircam-hear/"
-is_paid     = true
+slug         = "ircam-hear-v3"
+name         = "Ircam Hear V3"
+vendor       = "Flux"
+version      = "3"
+description  = "Binaural headphone rendering plugin supporting up to 16-channel Dolby Atmos and surround mixes."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.flux.audio/project/ircam-hear/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.flux.audio/project/ircam-hear/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.flux.audio/project/ircam-hear/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.flux.audio/project/ircam-hear/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.flux.audio/project/ircam-hear/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

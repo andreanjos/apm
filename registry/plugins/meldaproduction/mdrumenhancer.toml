@@ -1,26 +1,27 @@
-slug        = "mdrumenhancer"
-name        = "MDrumEnhancer"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Synthesizes additional drum signals using samples to enhance drum tracks without traditional drum replacement issues."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MDrumEnhancer"
+slug         = "mdrumenhancer"
+name         = "MDrumEnhancer"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Synthesizes additional drum signals using samples to enhance drum tracks without traditional drum replacement issues."
+category     = "effects"
+product_type = "sample_library"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MDrumEnhancer"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/1655-MDrumEnhancer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MDrumEnhancer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MDrumEnhancer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MDrumEnhancer"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MDrumEnhancer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

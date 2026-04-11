@@ -1,26 +1,27 @@
-slug        = "rhythmdelayfree"
-name        = "RhythmDelayFree"
-vendor      = "D10Labo"
-version     = "1.0.0"
-description = "Free multi-tap delay plugin designed to create musical rhythmic echo patterns."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://labo.different10.com/product/rhythmdelayfree/"
+slug         = "rhythmdelayfree"
+name         = "RhythmDelayFree"
+vendor       = "D10Labo"
+version      = "1.0.0"
+description  = "Free multi-tap delay plugin designed to create musical rhythmic echo patterns."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://labo.different10.com/product/rhythmdelayfree/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/7394-RhythmDelayFree?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://labo.different10.com/product/rhythmdelayfree/"
-sha256       = ""
-install_type = "zip"
+url           = "https://labo.different10.com/product/rhythmdelayfree/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://labo.different10.com/product/rhythmdelayfree/"
-sha256       = ""
-install_type = "zip"
+url           = "https://labo.different10.com/product/rhythmdelayfree/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

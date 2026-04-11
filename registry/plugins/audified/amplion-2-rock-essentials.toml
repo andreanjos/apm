@@ -1,25 +1,26 @@
-slug        = "amplion-2-rock-essentials"
-name        = "AmpLion 2 Rock Essentials"
-vendor      = "Audified"
-version     = "2.0.0"
-description = "Guitar amp simulator plugin offering a collection of essential rock amp and cabinet emulations."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/amplion-2-rock-essentials/"
-is_paid     = true
+slug         = "amplion-2-rock-essentials"
+name         = "AmpLion 2 Rock Essentials"
+vendor       = "Audified"
+version      = "2.0.0"
+description  = "Guitar amp simulator plugin offering a collection of essential rock amp and cabinet emulations."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/amplion-2-rock-essentials/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/amplion-2-rock-essentials/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/amplion-2-rock-essentials/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/amplion-2-rock-essentials/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/amplion-2-rock-essentials/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

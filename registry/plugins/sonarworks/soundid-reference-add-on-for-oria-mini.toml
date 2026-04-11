@@ -1,26 +1,27 @@
-slug        = "soundid-reference-add-on-for-oria-mini"
-name        = "SoundID Reference Add on for ORIA Mini"
-vendor      = "Sonarworks"
-version     = "5.0"
-description = "Sonarworks SoundID Reference add-on exports room calibration profiles to Audient ORIA Mini DSP."
-category    = "utility"
-subcategory = "referencing tools"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonarworks.com/soundid-reference/integrations/audient-oria-mini"
+slug         = "soundid-reference-add-on-for-oria-mini"
+name         = "SoundID Reference Add on for ORIA Mini"
+vendor       = "Sonarworks"
+version      = "5.0"
+description  = "Sonarworks SoundID Reference add-on exports room calibration profiles to Audient ORIA Mini DSP."
+category     = "utility"
+product_type = "utility"
+subcategory  = "referencing tools"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonarworks.com/soundid-reference/integrations/audient-oria-mini"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/15717-SoundID-Reference-Add-on-for-ORIA-Mini?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonarworks.com/soundid-reference/integrations/audient-oria-mini"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonarworks.com/soundid-reference/integrations/audient-oria-mini"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonarworks.com/soundid-reference/integrations/audient-oria-mini"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonarworks.com/soundid-reference/integrations/audient-oria-mini"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

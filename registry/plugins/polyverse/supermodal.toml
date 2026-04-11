@@ -1,26 +1,27 @@
-slug        = "supermodal"
-name        = "Supermodal"
-vendor      = "Polyverse"
-version     = "1.0.0"
-description = "Cutting-edge modal filter plugin for carving, sculpting, and modulating sound."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://polyversemusic.com/products/supermodal/"
+slug         = "supermodal"
+name         = "Supermodal"
+vendor       = "Polyverse"
+version      = "1.0.0"
+description  = "Cutting-edge modal filter plugin for carving, sculpting, and modulating sound."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://polyversemusic.com/products/supermodal/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/10105-Supermodal?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://polyversemusic.com/products/supermodal/"
-sha256       = ""
-install_type = "zip"
+url           = "https://polyversemusic.com/products/supermodal/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://polyversemusic.com/products/supermodal/"
-sha256       = ""
-install_type = "zip"
+url           = "https://polyversemusic.com/products/supermodal/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

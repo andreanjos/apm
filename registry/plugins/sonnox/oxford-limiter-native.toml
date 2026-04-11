@@ -1,25 +1,26 @@
-slug        = "oxford-limiter-native"
-name        = "Oxford Limiter Native"
-vendor      = "Sonnox"
-version     = "1.0.0"
-description = "Oxford Limiter Native delivers transparent limiting with the acclaimed Enhance function for clean, punchy masters."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/products/oxford-limiter"
-is_paid     = true
+slug         = "oxford-limiter-native"
+name         = "Oxford Limiter Native"
+vendor       = "Sonnox"
+version      = "1.0.0"
+description  = "Oxford Limiter Native delivers transparent limiting with the acclaimed Enhance function for clean, punchy masters."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonnox.com/products/oxford-limiter"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/products/oxford-limiter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-limiter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/products/oxford-limiter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-limiter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

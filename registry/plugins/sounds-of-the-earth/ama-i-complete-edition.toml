@@ -1,26 +1,27 @@
-slug        = "ama-i-complete-edition"
-name        = "AMA I Complete Edition"
-vendor      = "Sounds of the Earth"
-version     = "1.0.0"
-description = "Complete Amazonic Kontakt library of 100+ Amazonian instruments with multi-mic options and loops."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsoftheearth.com/ama1-complete"
+slug         = "ama-i-complete-edition"
+name         = "AMA I Complete Edition"
+vendor       = "Sounds of the Earth"
+version      = "1.0.0"
+description  = "Complete Amazonic Kontakt library of 100+ Amazonian instruments with multi-mic options and loops."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsoftheearth.com/ama1-complete"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7717-AMA-I-Complete-Edition?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsoftheearth.com/ama1-complete"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsoftheearth.com/ama1-complete"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsoftheearth.com/ama1-complete"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsoftheearth.com/ama1-complete"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

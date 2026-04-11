@@ -1,25 +1,26 @@
-slug        = "voxplay"
-name        = "VoxPlay"
-vendor      = "Rast Sound"
-version     = "1.0.0"
-description = "Contemporary playable vocals Kontakt library from 20 performers for melodic and harmonic vocal lines."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/voxplay/"
-is_paid     = true
+slug         = "voxplay"
+name         = "VoxPlay"
+vendor       = "Rast Sound"
+version      = "1.0.0"
+description  = "Contemporary playable vocals Kontakt library from 20 performers for melodic and harmonic vocal lines."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/voxplay/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/voxplay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/voxplay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/voxplay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/voxplay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

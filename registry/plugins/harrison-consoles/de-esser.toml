@@ -1,26 +1,27 @@
-slug        = "de-esser"
-name        = "De Esser"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "Harrison de-esser plugin using a renowned algorithm to attenuate sibilant frequencies in voices with low latency."
-category    = "effects"
-subcategory = "de esser"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/all-products/de-esser"
+slug         = "de-esser"
+name         = "De Esser"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "Harrison de-esser plugin using a renowned algorithm to attenuate sibilant frequencies in voices with low latency."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de esser"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/all-products/de-esser"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/7615-De-Esser?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/all-products/de-esser"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/de-esser"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/all-products/de-esser"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/de-esser"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

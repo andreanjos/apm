@@ -1,24 +1,25 @@
-slug        = "mstereospread"
-name        = "MStereoSpread"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Stereo expansion plugin that makes tracks wider and tighter using psychoacoustics while maintaining natural sound."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MStereoSpread"
-is_paid     = true
+slug         = "mstereospread"
+name         = "MStereoSpread"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Stereo expansion plugin that makes tracks wider and tighter using psychoacoustics while maintaining natural sound."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MStereoSpread"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MStereoSpread"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MStereoSpread"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MStereoSpread"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MStereoSpread"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

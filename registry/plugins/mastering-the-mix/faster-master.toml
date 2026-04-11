@@ -1,26 +1,27 @@
-slug        = "faster-master"
-name        = "FASTER MASTER"
-vendor      = "Mastering The Mix"
-version     = "1.0"
-description = "Mastering plugin co-created with David Guetta and Nicky Romero that generates tailored mastering starting points."
-category    = "effects"
-subcategory = "mastering suite"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.masteringthemix.com/"
+slug         = "faster-master"
+name         = "FASTER MASTER"
+vendor       = "Mastering The Mix"
+version      = "1.0"
+description  = "Mastering plugin co-created with David Guetta and Nicky Romero that generates tailored mastering starting points."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering suite"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.masteringthemix.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/13871-FASTER-MASTER?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.masteringthemix.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.masteringthemix.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.masteringthemix.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.masteringthemix.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

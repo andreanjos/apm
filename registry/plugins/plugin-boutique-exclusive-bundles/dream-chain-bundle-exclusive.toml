@@ -1,25 +1,26 @@
-slug        = "dream-chain-bundle-exclusive"
-name        = "Dream Chain Bundle (Exclusive)"
-vendor      = "Plugin Boutique Exclusive Bundles+"
-version     = "1.0.0"
-description = "Plugin Boutique exclusive bundle of curated effects plugins for ambient and creative processing."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
-is_paid     = true
+slug         = "dream-chain-bundle-exclusive"
+name         = "Dream Chain Bundle (Exclusive)"
+vendor       = "Plugin Boutique Exclusive Bundles+"
+version      = "1.0.0"
+description  = "Plugin Boutique exclusive bundle of curated effects plugins for ambient and creative processing."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

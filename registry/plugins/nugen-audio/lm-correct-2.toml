@@ -1,26 +1,28 @@
-slug        = "lm-correct-2"
-name        = "LM Correct 2"
-vendor      = "NUGEN Audio"
-version     = "2.0"
-description = "An automated loudness correction plugin with multi-territory specifications and one-click compliance."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/lm-correct/"
+slug         = "lm-correct-2"
+name         = "LM Correct 2"
+vendor       = "NUGEN Audio"
+version      = "2.0"
+description  = "An automated loudness correction plugin with multi-territory specifications and one-click compliance."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+aliases      = ["lm-correct-2-nugen-audio"]
+homepage     = "https://nugenaudio.com/lm-correct/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/1690-LM-Correct-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/lm-correct/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/lm-correct/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/lm-correct/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/lm-correct/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

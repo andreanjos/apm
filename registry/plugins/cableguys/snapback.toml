@@ -1,26 +1,27 @@
-slug        = "snapback"
-name        = "Snapback"
-vendor      = "Cableguys"
-version     = "1.0.0"
-description = "Instant drum layering plugin for adding punch, character, and transient impact to drums in one click."
-category    = "effects"
-subcategory = "drum fx"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.cableguys.com/products"
+slug         = "snapback"
+name         = "Snapback"
+vendor       = "Cableguys"
+version      = "1.0.0"
+description  = "Instant drum layering plugin for adding punch, character, and transient impact to drums in one click."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "drum fx"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.cableguys.com/products"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/13-Drum-FX/13655-Snapback?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.cableguys.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cableguys.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.cableguys.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cableguys.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

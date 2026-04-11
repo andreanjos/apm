@@ -1,26 +1,27 @@
-slug        = "korgfx-collection"
-name        = "KorgFX Collection"
-vendor      = "Sinevibes"
-version     = "1.0.0"
-description = "Collection of Sinevibes effect expansions for KORG hardware synthesizers including NTS-1 and NTS-3."
-category    = "effects"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sinevibes.com/korg/"
+slug         = "korgfx-collection"
+name         = "KorgFX Collection"
+vendor       = "Sinevibes"
+version      = "1.0.0"
+description  = "Collection of Sinevibes effect expansions for KORG hardware synthesizers including NTS-1 and NTS-3."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sinevibes.com/korg/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/10942-KorgFX-Collection?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sinevibes.com/korg/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/korg/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sinevibes.com/korg/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/korg/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

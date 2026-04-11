@@ -1,26 +1,27 @@
-slug        = "api-2500-bus-compressor"
-name        = "API 2500 Bus Compressor"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the API 2500 stereo bus compressor, known for punchy, musical compression."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/api-2500-bus-compressor.html"
-is_paid     = true
+slug         = "api-2500-bus-compressor"
+name         = "API 2500 Bus Compressor"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the API 2500 stereo bus compressor, known for punchy, musical compression."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/compressors-limiters/api-2500-bus-compressor.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/api-2500-bus-compressor.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/api-2500-bus-compressor.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/api-2500-bus-compressor.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/api-2500-bus-compressor.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

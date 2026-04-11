@@ -1,26 +1,27 @@
-slug        = "origins-vol-9-ronroco-bouzouki"
-name        = "Origins Vol 9 Ronroco Bouzouki"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Kontakt instrument pairing the Andean ronroco with the modern Greek bouzouki string instruments."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/origins-vol-9-ronroco-bouzouki/"
+slug         = "origins-vol-9-ronroco-bouzouki"
+name         = "Origins Vol 9 Ronroco Bouzouki"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Kontakt instrument pairing the Andean ronroco with the modern Greek bouzouki string instruments."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/origins-vol-9-ronroco-bouzouki/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9509-Origins-Vol-9-Ronroco-Bouzouki?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/origins-vol-9-ronroco-bouzouki/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/origins-vol-9-ronroco-bouzouki/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/origins-vol-9-ronroco-bouzouki/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/origins-vol-9-ronroco-bouzouki/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

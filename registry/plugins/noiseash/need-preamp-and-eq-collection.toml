@@ -1,25 +1,26 @@
-slug        = "need-preamp-and-eq-collection"
-name        = "NEED Preamp and Eq Collection"
-vendor      = "NoiseAsh"
-version     = "1.0.0"
-description = "Collection of seven Neve-inspired British preamp and EQ plugins for classic analog console tone."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://noiseash.com/need-preamp-and-eq-collection/"
-is_paid     = true
+slug         = "need-preamp-and-eq-collection"
+name         = "NEED Preamp and Eq Collection"
+vendor       = "NoiseAsh"
+version      = "1.0.0"
+description  = "Collection of seven Neve-inspired British preamp and EQ plugins for classic analog console tone."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://noiseash.com/need-preamp-and-eq-collection/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://noiseash.com/need-preamp-and-eq-collection/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/need-preamp-and-eq-collection/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://noiseash.com/need-preamp-and-eq-collection/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/need-preamp-and-eq-collection/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

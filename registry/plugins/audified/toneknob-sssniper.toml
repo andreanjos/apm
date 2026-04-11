@@ -1,26 +1,27 @@
-slug        = "toneknob-sssniper"
-name        = "ToneKnob SSSniper"
-vendor      = "Audified"
-version     = "1.0.0"
-description = "Single-knob de-esser plugin for quick, transparent sibilance control on vocals and dialog."
-category    = "effects"
-subcategory = "de esser"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/toneknob-ultimate-bundle/"
+slug         = "toneknob-sssniper"
+name         = "ToneKnob SSSniper"
+vendor       = "Audified"
+version      = "1.0.0"
+description  = "Single-knob de-esser plugin for quick, transparent sibilance control on vocals and dialog."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de esser"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/toneknob-ultimate-bundle/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/15266-ToneKnob-SSSniper?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/toneknob-ultimate-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/toneknob-ultimate-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/toneknob-ultimate-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/toneknob-ultimate-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

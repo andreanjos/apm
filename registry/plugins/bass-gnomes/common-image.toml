@@ -1,26 +1,27 @@
-slug        = "common-image"
-name        = "Common Image"
-vendor      = "Bass Gnomes"
-version     = "1.0.0"
-description = "Free stereo width plugin for controlling and adjusting the stereo image of audio signals."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://bassgnomes.wordpress.com/"
+slug         = "common-image"
+name         = "Common Image"
+vendor       = "Bass Gnomes"
+version      = "1.0.0"
+description  = "Free stereo width plugin for controlling and adjusting the stereo image of audio signals."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://bassgnomes.wordpress.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/506-Common-Image?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bassgnomes.wordpress.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://bassgnomes.wordpress.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bassgnomes.wordpress.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://bassgnomes.wordpress.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

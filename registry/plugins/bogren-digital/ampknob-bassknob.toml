@@ -1,25 +1,27 @@
-slug        = "ampknob-bassknob"
-name        = "Ampknob & BassKnob"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Bundle pairing AmpKnob and BassKnob single-knob amp sims for instant album-ready guitar and bass tones."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/collections/ampknob"
-is_paid     = true
+slug         = "ampknob-bassknob"
+name         = "Ampknob & BassKnob"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Bundle pairing AmpKnob and BassKnob single-knob amp sims for instant album-ready guitar and bass tones."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+aliases      = ["ampknob-038-bassknob"]
+homepage     = "https://bogrendigital.com/collections/ampknob"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/collections/ampknob"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/collections/ampknob"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/collections/ampknob"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/collections/ampknob"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

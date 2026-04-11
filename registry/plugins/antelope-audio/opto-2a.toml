@@ -1,26 +1,27 @@
-slug        = "opto-2a"
-name        = "Opto 2A"
-vendor      = "Antelope Audio"
-version     = "1.0.0"
-description = "Optical compressor plugin modeled after the iconic 1950s LA-2A tube leveling amplifier."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://en.antelopeaudio.com/products/opto-2a/"
+slug         = "opto-2a"
+name         = "Opto 2A"
+vendor       = "Antelope Audio"
+version      = "1.0.0"
+description  = "Optical compressor plugin modeled after the iconic 1950s LA-2A tube leveling amplifier."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://en.antelopeaudio.com/products/opto-2a/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16054-Opto-2A?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://en.antelopeaudio.com/products/opto-2a/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/opto-2a/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://en.antelopeaudio.com/products/opto-2a/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/opto-2a/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

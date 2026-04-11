@@ -1,26 +1,27 @@
-slug        = "motion-filter"
-name        = "Motion Filter"
-vendor      = "Denise Audio"
-version     = "1.4"
-description = "Dynamic filter plugin that adds constant motion and movement to any audio signal."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.deniseaudio.com/plugins/motion-filter"
+slug         = "motion-filter"
+name         = "Motion Filter"
+vendor       = "Denise Audio"
+version      = "1.4"
+description  = "Dynamic filter plugin that adds constant motion and movement to any audio signal."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.deniseaudio.com/plugins/motion-filter"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/12171-Motion-Filter?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.deniseaudio.com/plugins/motion-filter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/plugins/motion-filter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.deniseaudio.com/plugins/motion-filter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/plugins/motion-filter"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

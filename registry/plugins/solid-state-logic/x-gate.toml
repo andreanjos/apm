@@ -1,25 +1,26 @@
-slug        = "x-gate"
-name        = "X-Gate"
-vendor      = "Solid State Logic"
-version     = "1.0.0"
-description = "SSL noise gate plugin for clean noise reduction and precise transient shaping in mixing."
-category    = "effects"
-subcategory = "gate"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
-is_paid     = true
+slug         = "x-gate"
+name         = "X-Gate"
+vendor       = "Solid State Logic"
+version      = "1.0.0"
+description  = "SSL noise gate plugin for clean noise reduction and precise transient shaping in mixing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "gate"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/ssl-x-gate"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

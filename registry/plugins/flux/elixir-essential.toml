@@ -1,25 +1,26 @@
-slug        = "elixir-essential"
-name        = "Elixir Essential"
-vendor      = "Flux"
-version     = "1.0.0"
-description = "Ultra-transparent mastering-grade limiter built on the acclaimed Elixir v3 algorithm."
-category    = "effects"
-subcategory = "dynamic processor"
-license     = "commercial"
-tags        = []
-homepage    = "https://shop.flux.audio/en_US/products/elixir-essential"
-is_paid     = true
+slug         = "elixir-essential"
+name         = "Elixir Essential"
+vendor       = "Flux"
+version      = "1.0.0"
+description  = "Ultra-transparent mastering-grade limiter built on the acclaimed Elixir v3 algorithm."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamic processor"
+license      = "commercial"
+tags         = []
+homepage     = "https://shop.flux.audio/en_US/products/elixir-essential"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://shop.flux.audio/en_US/products/elixir-essential"
-sha256       = ""
-install_type = "zip"
+url           = "https://shop.flux.audio/en_US/products/elixir-essential"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://shop.flux.audio/en_US/products/elixir-essential"
-sha256       = ""
-install_type = "zip"
+url           = "https://shop.flux.audio/en_US/products/elixir-essential"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

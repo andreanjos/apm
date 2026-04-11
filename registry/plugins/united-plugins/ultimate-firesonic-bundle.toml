@@ -1,25 +1,26 @@
-slug        = "ultimate-firesonic-bundle"
-name        = "Ultimate FireSonic Bundle"
-vendor      = "United Plugins"
-version     = "1.0.0"
-description = "Complete collection of all FireSonic audio plugins available through United Plugins."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com"
-is_paid     = true
+slug         = "ultimate-firesonic-bundle"
+name         = "Ultimate FireSonic Bundle"
+vendor       = "United Plugins"
+version      = "1.0.0"
+description  = "Complete collection of all FireSonic audio plugins available through United Plugins."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "true-iron"
-name        = "True Iron"
-vendor      = "Kazrog"
-version     = "1.0.0"
-description = "Analog transformer saturation plugin emulating 6 legendary line transformers for weight and girth."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://kazrog.com/collections/audio-plugins/products/true-iron"
-is_paid     = true
+slug         = "true-iron"
+name         = "True Iron"
+vendor       = "Kazrog"
+version      = "1.0.0"
+description  = "Analog transformer saturation plugin emulating 6 legendary line transformers for weight and girth."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://kazrog.com/collections/audio-plugins/products/true-iron"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://kazrog.com/collections/audio-plugins/products/true-iron"
-sha256       = ""
-install_type = "zip"
+url           = "https://kazrog.com/collections/audio-plugins/products/true-iron"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://kazrog.com/collections/audio-plugins/products/true-iron"
-sha256       = ""
-install_type = "zip"
+url           = "https://kazrog.com/collections/audio-plugins/products/true-iron"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

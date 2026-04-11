@@ -1,25 +1,26 @@
-slug        = "disco-6000"
-name        = "Disco 6000"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Vintage disco-era keyboard Kontakt instrument with retro electronic and funk character."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/disco-6000"
-is_paid     = true
+slug         = "disco-6000"
+name         = "Disco 6000"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Vintage disco-era keyboard Kontakt instrument with retro electronic and funk character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/disco-6000"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/disco-6000"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/disco-6000"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/disco-6000"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/disco-6000"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

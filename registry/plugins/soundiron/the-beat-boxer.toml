@@ -1,25 +1,26 @@
-slug        = "the-beat-boxer"
-name        = "The Beat Boxer"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt instrument built from human beatbox vocal percussion with authentic body music sounds."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/the-beat-boxer"
-is_paid     = true
+slug         = "the-beat-boxer"
+name         = "The Beat Boxer"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt instrument built from human beatbox vocal percussion with authentic body music sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/the-beat-boxer"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/the-beat-boxer"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/the-beat-boxer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/the-beat-boxer"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/the-beat-boxer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "action-filter"
-name        = "Action Filter"
-vendor      = "NoiseAsh"
-version     = "1.3.9"
-description = "Filter plugin with 13 analog and digital filter types and a 32-step modulation sequencer."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://noiseash.com/action-filter/"
-is_paid     = true
+slug         = "action-filter"
+name         = "Action Filter"
+vendor       = "NoiseAsh"
+version      = "1.3.9"
+description  = "Filter plugin with 13 analog and digital filter types and a 32-step modulation sequencer."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://noiseash.com/action-filter/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://noiseash.com/action-filter/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/action-filter/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://noiseash.com/action-filter/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/action-filter/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

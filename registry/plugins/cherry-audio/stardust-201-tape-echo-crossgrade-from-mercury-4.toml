@@ -1,25 +1,26 @@
-slug        = "stardust-201-tape-echo-crossgrade-from-mercury-4"
-name        = "Stardust 201 Tape Echo Crossgrade from Mercury-4"
-vendor      = "Cherry Audio"
-version     = "1.0.0"
-description = "Hot-rodded tape echo emulating vintage Roland RE-201/RE-301 units; crossgrade pricing from Mercury-4."
-category    = "effects"
-subcategory = "echo"
-license     = "commercial"
-tags        = []
-homepage    = "https://cherryaudio.com/products/stardust-201"
-is_paid     = true
+slug         = "stardust-201-tape-echo-crossgrade-from-mercury-4"
+name         = "Stardust 201 Tape Echo Crossgrade from Mercury-4"
+vendor       = "Cherry Audio"
+version      = "1.0.0"
+description  = "Hot-rodded tape echo emulating vintage Roland RE-201/RE-301 units; crossgrade pricing from Mercury-4."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "echo"
+license      = "commercial"
+tags         = []
+homepage     = "https://cherryaudio.com/products/stardust-201"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cherryaudio.com/products/stardust-201"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/stardust-201"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cherryaudio.com/products/stardust-201"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/stardust-201"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

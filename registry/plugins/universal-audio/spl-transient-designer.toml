@@ -1,25 +1,26 @@
-slug        = "spl-transient-designer"
-name        = "SPL® Transient Designer"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the SPL Transient Designer, the original hardware transient shaping tool."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/dynamics/spl-transient-designer.html"
-is_paid     = true
+slug         = "spl-transient-designer"
+name         = "SPL (R) Transient Designer"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the SPL Transient Designer, the original hardware transient shaping tool."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/dynamics/spl-transient-designer.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/dynamics/spl-transient-designer.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/dynamics/spl-transient-designer.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/dynamics/spl-transient-designer.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/dynamics/spl-transient-designer.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

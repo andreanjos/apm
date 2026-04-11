@@ -1,24 +1,25 @@
-slug        = "th-u-rig-library-choptones-bogie-dual-reverb-25"
-name        = "TH-U Rig Library: Choptones Bogie Dual Reverb 25"
-vendor      = "Overloud"
-version     = "1.0.0"
-description = "TH-U rig library capturing a Bogner Dual Reverb 25 amplifier with various cabinet configurations."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.overloud.com/products"
-is_paid     = true
+slug         = "th-u-rig-library-choptones-bogie-dual-reverb-25"
+name         = "TH-U Rig Library: Choptones Bogie Dual Reverb 25"
+vendor       = "Overloud"
+version      = "1.0.0"
+description  = "TH-U rig library capturing a Bogner Dual Reverb 25 amplifier with various cabinet configurations."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.overloud.com/products"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.overloud.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.overloud.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

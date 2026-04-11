@@ -1,25 +1,28 @@
-slug        = "uad-precision-buss-comp"
-name        = "Precision Buss Compressor"
-vendor      = "Universal Audio"
-version     = "1.0"
-description = "UA's own transparent bus compressor designed for summing and mastering"
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = ["compressor", "mastering", "uad"]
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/"
+slug         = "uad-precision-buss-comp"
+name         = "Precision Buss Compressor"
+vendor       = "Universal Audio"
+version      = "1.0"
+description  = "UA's own transparent bus compressor designed for summing and mastering"
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = ["compressor", "mastering", "uad"]
+aliases      = ["precision-buss-compressor"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Precision Buss Compressor.vst3"
+bundle_path   = "UAD Precision Buss Compressor.vst3"
 
 [formats.au]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Precision Buss Compressor.component"
+bundle_path   = "UAD Precision Buss Compressor.component"

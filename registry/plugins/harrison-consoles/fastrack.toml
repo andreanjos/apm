@@ -1,26 +1,27 @@
-slug        = "fastrack"
-name        = "FasTrack"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "Comprehensive low-latency channel strip with gate, de-esser, compressor, EQ, chorus, delay, and reverb."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/all-products/fastrack"
+slug         = "fastrack"
+name         = "FasTrack"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "Comprehensive low-latency channel strip with gate, de-esser, compressor, EQ, chorus, delay, and reverb."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/all-products/fastrack"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/12507-FasTrack?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/all-products/fastrack"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/fastrack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/all-products/fastrack"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/fastrack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

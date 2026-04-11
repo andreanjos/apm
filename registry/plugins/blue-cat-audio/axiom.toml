@@ -1,25 +1,26 @@
-slug        = "axiom"
-name        = "Axiom"
-vendor      = "Blue Cat Audio"
-version     = "2.3"
-description = "Multi-effects and amp simulation plug-in for guitar and bass with virtually infinite tone-shaping possibilities."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_Axiom/"
-is_paid     = true
+slug         = "axiom"
+name         = "Axiom"
+vendor       = "Blue Cat Audio"
+version      = "2.3"
+description  = "Multi-effects and amp simulation plug-in for guitar and bass with virtually infinite tone-shaping possibilities."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_Axiom/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_Axiom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_Axiom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_Axiom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_Axiom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

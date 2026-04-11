@@ -1,26 +1,27 @@
-slug        = "modwave-native"
-name        = "modwave native"
-vendor      = "KORG"
-version     = "1.0.0"
-description = "Wavetable synthesizer plugin with Kaoss Physics and Motion Sequencing 2.0, based on KORG modwave."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.korg.com/us/products/software/modwave_native/"
+slug         = "modwave-native"
+name         = "modwave native"
+vendor       = "KORG"
+version      = "1.0.0"
+description  = "Wavetable synthesizer plugin with Kaoss Physics and Motion Sequencing 2.0, based on KORG modwave."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.korg.com/us/products/software/modwave_native/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11222-modwave-native?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.korg.com/us/products/software/modwave_native/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.korg.com/us/products/software/modwave_native/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.korg.com/us/products/software/modwave_native/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.korg.com/us/products/software/modwave_native/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

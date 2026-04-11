@@ -1,26 +1,27 @@
-slug        = "mvmeter2"
-name        = "mvMeter2"
-vendor      = "TBProAudio"
-version     = "2.7.0"
-description = "Free multi-variable meter supporting RMS, EBU R128, VU, and PPM measurement modes."
-category    = "utility"
-subcategory = "metering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tbproaudio.de/products/mvmeter2"
+slug         = "mvmeter2"
+name         = "mvMeter2"
+vendor       = "TBProAudio"
+version      = "2.7.0"
+description  = "Free multi-variable meter supporting RMS, EBU R128, VU, and PPM measurement modes."
+category     = "utility"
+product_type = "utility"
+subcategory  = "metering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tbproaudio.de/products/mvmeter2"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/15893-mvMeter2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tbproaudio.de/products/mvmeter2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tbproaudio.de/products/mvmeter2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tbproaudio.de/products/mvmeter2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tbproaudio.de/products/mvmeter2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "polyscape-pro"
-name        = "Polyscape Pro"
-vendor      = "Karanyi Sounds"
-version     = "1.0"
-description = "80s-inspired synth pad Kontakt instrument from 9 analog synths with Analog Blur expansion preset pack."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://karanyisounds.com/product/polyscape-pro/"
-is_paid     = true
+slug         = "polyscape-pro"
+name         = "Polyscape Pro"
+vendor       = "Karanyi Sounds"
+version      = "1.0"
+description  = "80s-inspired synth pad Kontakt instrument from 9 analog synths with Analog Blur expansion preset pack."
+category     = "instruments"
+product_type = "preset_pack"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://karanyisounds.com/product/polyscape-pro/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://karanyisounds.com/product/polyscape-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/polyscape-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://karanyisounds.com/product/polyscape-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/polyscape-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "mastering-compressor-class-a-shadow-hills"
-name        = "Mastering Compressor Class A"
-vendor      = "Shadow Hills"
-version     = "1.0"
-description = "Class A mode of the Shadow Hills Mastering Compressor plugin with discrete optical and VCA."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://shadowhillsindustries.com/"
-is_paid     = true
+slug         = "mastering-compressor-class-a-shadow-hills"
+name         = "Mastering Compressor Class A"
+vendor       = "Shadow Hills"
+version      = "1.0"
+description  = "Class A mode of the Shadow Hills Mastering Compressor plugin with discrete optical and VCA."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://shadowhillsindustries.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://shadowhillsindustries.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://shadowhillsindustries.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://shadowhillsindustries.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://shadowhillsindustries.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

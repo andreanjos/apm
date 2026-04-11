@@ -1,26 +1,27 @@
-slug        = "duke"
-name        = "DUKE"
-vendor      = "Jungle Audio"
-version     = "1.0"
-description = "Jungle Audio DUKE is a multi-effect plugin combining saturation, filtering, and dynamics."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://jungleaudio.com/"
+slug         = "duke"
+name         = "DUKE"
+vendor       = "Jungle Audio"
+version      = "1.0"
+description  = "Jungle Audio DUKE is a multi-effect plugin combining saturation, filtering, and dynamics."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://jungleaudio.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/16289-DUKE?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://jungleaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://jungleaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://jungleaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://jungleaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

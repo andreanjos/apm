@@ -1,26 +1,27 @@
-slug        = "brainworx-bx-bundle"
-name        = "Brainworx bx_bundle"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "All-in-one collection of Brainworx bx_ plugins covering mixing, mastering, console emulations, and M/S tools."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/brainworx-bx_bundle-monthly.html"
-is_paid     = true
+slug         = "brainworx-bx-bundle"
+name         = "Brainworx bx_bundle"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "All-in-one collection of Brainworx bx_ plugins covering mixing, mastering, console emulations, and M/S tools."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/brainworx-bx_bundle-monthly.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/brainworx-bx_bundle-monthly.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/brainworx-bx_bundle-monthly.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/brainworx-bx_bundle-monthly.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/brainworx-bx_bundle-monthly.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

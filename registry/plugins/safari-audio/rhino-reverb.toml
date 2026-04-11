@@ -1,26 +1,27 @@
-slug        = "rhino-reverb"
-name        = "Rhino Reverb"
-vendor      = "Safari Audio"
-version     = "1.0.0"
-description = "Vintage hi-fi reverb plugin with a wild, distinctive character inspired by classic amp reverbs."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://safariaudio.com/products/rhino-reverb"
+slug         = "rhino-reverb"
+name         = "Rhino Reverb"
+vendor       = "Safari Audio"
+version      = "1.0.0"
+description  = "Vintage hi-fi reverb plugin with a wild, distinctive character inspired by classic amp reverbs."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://safariaudio.com/products/rhino-reverb"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/15355-Rhino-Reverb?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://safariaudio.com/products/rhino-reverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/rhino-reverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://safariaudio.com/products/rhino-reverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/rhino-reverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

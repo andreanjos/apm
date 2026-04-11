@@ -1,25 +1,26 @@
-slug        = "dark-horizon"
-name        = "Dark Horizon"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Earth-shattering dark synth Kontakt instrument with 80 bass-heavy playable instruments and 1.2GB content."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/dark-horizon/"
-is_paid     = true
+slug         = "dark-horizon"
+name         = "Dark Horizon"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Earth-shattering dark synth Kontakt instrument with 80 bass-heavy playable instruments and 1.2GB content."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/dark-horizon/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/dark-horizon/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/dark-horizon/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/dark-horizon/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/dark-horizon/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

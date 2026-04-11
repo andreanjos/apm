@@ -1,26 +1,27 @@
-slug        = "provocative"
-name        = "ProVocative"
-vendor      = "Boz Digital Labs"
-version     = "1.0.0"
-description = "Vocal detuner and thickener plugin for adding subtle pitch variation and width to vocals and instruments."
-category    = "effects"
-subcategory = "pitch shifter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozdigitallabs.com/product/provocative/"
+slug         = "provocative"
+name         = "ProVocative"
+vendor       = "Boz Digital Labs"
+version      = "1.0.0"
+description  = "Vocal detuner and thickener plugin for adding subtle pitch variation and width to vocals and instruments."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch shifter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bozdigitallabs.com/product/provocative/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/4581-ProVocative?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozdigitallabs.com/product/provocative/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/provocative/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozdigitallabs.com/product/provocative/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/provocative/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

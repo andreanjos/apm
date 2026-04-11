@@ -1,25 +1,27 @@
-slug        = "veevum-sync-silver-edition"
-name        = "Veevum Sync – Silver Edition"
-vendor      = "Audiofier"
-version     = "1.0"
-description = "Tempo-synced ambient Kontakt instrument using audio loops in the Veevum honeycomb engine."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiofier.co.uk/"
-is_paid     = true
+slug         = "veevum-sync-silver-edition"
+name         = "Veevum Sync - Silver Edition"
+vendor       = "Audiofier"
+version      = "1.0"
+description  = "Tempo-synced ambient Kontakt instrument using audio loops in the Veevum honeycomb engine."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["veevum-sync-8211-silver-edition"]
+homepage     = "https://www.audiofier.co.uk/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiofier.co.uk/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiofier.co.uk/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "teote"
-name        = "TEOTE"
-vendor      = "Voxengo"
-version     = "1.15"
-description = "Automatic spectral balancer plugin for tonal balance correction during mixing and mastering."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.voxengo.com/product/teote/"
-is_paid     = true
+slug         = "teote"
+name         = "TEOTE"
+vendor       = "Voxengo"
+version      = "1.15"
+description  = "Automatic spectral balancer plugin for tonal balance correction during mixing and mastering."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.voxengo.com/product/teote/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.voxengo.com/product/teote/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.voxengo.com/product/teote/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.voxengo.com/product/teote/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.voxengo.com/product/teote/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

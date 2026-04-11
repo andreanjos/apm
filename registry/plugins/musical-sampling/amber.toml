@@ -1,25 +1,26 @@
-slug        = "amber"
-name        = "Amber"
-vendor      = "Musical Sampling"
-version     = "1.0"
-description = "Choir and vocal Kontakt instrument from Musical Sampling's Atelier Series for cinematic and ambient textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://musicalsampling.com/"
-is_paid     = true
+slug         = "amber"
+name         = "Amber"
+vendor       = "Musical Sampling"
+version      = "1.0"
+description  = "Choir and vocal Kontakt instrument from Musical Sampling's Atelier Series for cinematic and ambient textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://musicalsampling.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://musicalsampling.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://musicalsampling.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://musicalsampling.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://musicalsampling.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

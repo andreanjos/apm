@@ -1,25 +1,26 @@
-slug        = "pain-piano"
-name        = "Pain Piano"
-vendor      = "Silence And Other Sounds"
-version     = "1.0.0"
-description = "Kontakt prepared and processed piano with dark, emotional, and unconventional tones."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://silenceandothersounds.com/products/pain-piano/"
-is_paid     = true
+slug         = "pain-piano"
+name         = "Pain Piano"
+vendor       = "Silence And Other Sounds"
+version      = "1.0.0"
+description  = "Kontakt prepared and processed piano with dark, emotional, and unconventional tones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://silenceandothersounds.com/products/pain-piano/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://silenceandothersounds.com/products/pain-piano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://silenceandothersounds.com/products/pain-piano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://silenceandothersounds.com/products/pain-piano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://silenceandothersounds.com/products/pain-piano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

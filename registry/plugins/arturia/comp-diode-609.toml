@@ -1,26 +1,27 @@
-slug        = "comp-diode-609"
-name        = "Comp DIODE-609"
-vendor      = "Arturia"
-version     = "1.4.0"
-description = "Analog-modeled compressor based on the classic dbx 160 VCA compressor circuit."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-effects/comp-diode-609/overview"
-is_paid     = true
+slug         = "comp-diode-609"
+name         = "Comp DIODE-609"
+vendor       = "Arturia"
+version      = "1.4.0"
+description  = "Analog-modeled compressor based on the classic dbx 160 VCA compressor circuit."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-effects/comp-diode-609/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-effects/comp-diode-609/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-effects/comp-diode-609/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-effects/comp-diode-609/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-effects/comp-diode-609/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "intune-chorus"
-name        = "InTune Chorus"
-vendor      = "Antelope Audio"
-version     = "1.0.0"
-description = "Real-time vocal chorus generator that adds a choir of five voices with variable detune and delay."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-homepage    = "https://en.antelopeaudio.com/products/intune-chorus/"
+slug         = "intune-chorus"
+name         = "InTune Chorus"
+vendor       = "Antelope Audio"
+version      = "1.0.0"
+description  = "Real-time vocal chorus generator that adds a choir of five voices with variable detune and delay."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+homepage     = "https://en.antelopeaudio.com/products/intune-chorus/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/16033-InTune-Chorus?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://en.antelopeaudio.com/products/intune-chorus/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/intune-chorus/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://en.antelopeaudio.com/products/intune-chorus/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/intune-chorus/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "psp-stereoaligner2"
-name        = "PSP StereoAligner2"
-vendor      = "PSP Audioware"
-version     = "2.0.0"
-description = "Powerful stereo image correction tool for adjusting time alignment, phase, and balance in dual-channel recordings."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-stereoaligner2"
+slug         = "psp-stereoaligner2"
+name         = "PSP StereoAligner2"
+vendor       = "PSP Audioware"
+version      = "2.0.0"
+description  = "Powerful stereo image correction tool for adjusting time alignment, phase, and balance in dual-channel recordings."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-stereoaligner2"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16474-PSP-StereoAligner2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-stereoaligner2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-stereoaligner2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-stereoaligner2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-stereoaligner2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

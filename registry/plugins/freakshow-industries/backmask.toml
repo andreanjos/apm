@@ -1,26 +1,27 @@
-slug        = "backmask"
-name        = "BACKMASK"
-vendor      = "Freakshow Industries"
-version     = "1.0.0"
-description = "Experimental multi-effect plugin specializing in reverse audio effects and sonic manipulation."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://freakshowindustries.com/"
+slug         = "backmask"
+name         = "BACKMASK"
+vendor       = "Freakshow Industries"
+version      = "1.0.0"
+description  = "Experimental multi-effect plugin specializing in reverse audio effects and sonic manipulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://freakshowindustries.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/6593-BACKMASK?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://freakshowindustries.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://freakshowindustries.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://freakshowindustries.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://freakshowindustries.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

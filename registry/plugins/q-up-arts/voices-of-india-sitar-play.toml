@@ -1,25 +1,27 @@
-slug        = "voices-of-india-sitar-play"
-name        = "Voices of India – Sitar Play"
-vendor      = "Q Up Arts"
-version     = "1.0.0"
-description = "Expressive North Indian sitar sample library blending traditional melodies with modern cinematic sound design."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://quparts.com/products/voices-of-india-sitar"
-is_paid     = true
+slug         = "voices-of-india-sitar-play"
+name         = "Voices of India - Sitar Play"
+vendor       = "Q Up Arts"
+version      = "1.0.0"
+description  = "Expressive North Indian sitar sample library blending traditional melodies with modern cinematic sound design."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+aliases      = ["voices-of-india-8211-sitar-play"]
+homepage     = "https://quparts.com/products/voices-of-india-sitar"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://quparts.com/products/voices-of-india-sitar"
-sha256       = ""
-install_type = "zip"
+url           = "https://quparts.com/products/voices-of-india-sitar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://quparts.com/products/voices-of-india-sitar"
-sha256       = ""
-install_type = "zip"
+url           = "https://quparts.com/products/voices-of-india-sitar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

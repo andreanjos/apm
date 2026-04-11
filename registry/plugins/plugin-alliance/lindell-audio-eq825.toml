@@ -1,27 +1,28 @@
-slug        = "lindell-audio-eq825"
-name        = "Lindell Audio EQ825"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Plugin recreation of one of the rarest sought-after mastering EQs ever built, prized for its warmth and pristine tone."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/lindell_eq825.html"
+slug         = "lindell-audio-eq825"
+name         = "Lindell Audio EQ825"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Plugin recreation of one of the rarest sought-after mastering EQs ever built, prized for its warmth and pristine tone."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/lindell_eq825.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/15035-Lindell-Audio-EQ825?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/lindell_eq825.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/lindell_eq825.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/lindell_eq825.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/lindell_eq825.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

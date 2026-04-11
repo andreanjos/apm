@@ -1,26 +1,27 @@
-slug        = "inphase-lt"
-name        = "InPhase LT"
-vendor      = "Waves"
-version     = "14.0"
-description = "Linear phase time-alignment plugin for correcting phase issues between audio sources."
-category    = "effects"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/inphase-lt"
-is_paid     = true
+slug         = "inphase-lt"
+name         = "InPhase LT"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Linear phase time-alignment plugin for correcting phase issues between audio sources."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/inphase-lt"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/inphase-lt"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/inphase-lt"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/inphase-lt"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/inphase-lt"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

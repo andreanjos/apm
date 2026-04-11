@@ -1,26 +1,27 @@
-slug        = "tony-maserati-signature-collection"
-name        = "Tony Maserati Signature Collection"
-vendor      = "Waves"
-version     = "14.0"
-description = "Bundle of seven signature processing plugins modeled on Tony Maserati's hardware."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/tony-maserati-signature-collection"
-is_paid     = true
+slug         = "tony-maserati-signature-collection"
+name         = "Tony Maserati Signature Collection"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Bundle of seven signature processing plugins modeled on Tony Maserati's hardware."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/tony-maserati-signature-collection"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/tony-maserati-signature-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/tony-maserati-signature-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/tony-maserati-signature-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/tony-maserati-signature-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

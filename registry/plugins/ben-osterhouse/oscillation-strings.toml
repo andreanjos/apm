@@ -1,26 +1,27 @@
-slug        = "oscillation-strings"
-name        = "Oscillation Strings"
-vendor      = "Ben Osterhouse"
-version     = "1.0.0"
-description = "Dry, close-mic'd Kontakt string library with doubled recordings of violin, viola, cello, bass."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://osterhousesounds.com/products/oscillation-strings"
+slug         = "oscillation-strings"
+name         = "Oscillation Strings"
+vendor       = "Ben Osterhouse"
+version      = "1.0.0"
+description  = "Dry, close-mic'd Kontakt string library with doubled recordings of violin, viola, cello, bass."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://osterhousesounds.com/products/oscillation-strings"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7356-Oscillation-Strings?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://osterhousesounds.com/products/oscillation-strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://osterhousesounds.com/products/oscillation-strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://osterhousesounds.com/products/oscillation-strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://osterhousesounds.com/products/oscillation-strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

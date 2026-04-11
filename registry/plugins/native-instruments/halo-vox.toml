@@ -1,27 +1,28 @@
-slug        = "halo-vox"
-name        = "Halo Vox"
-vendor      = "Native Instruments"
-version     = "1.0"
-description = "Soulful choir and vocal Play Series instrument ranging from radiant choirs to shimmering pads."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-installer   = "native-access"
-homepage    = "https://www.native-instruments.com/en/products/komplete/play-series/halo-vox/"
+slug         = "halo-vox"
+name         = "Halo Vox"
+vendor       = "Native Instruments"
+version      = "1.0"
+description  = "Soulful choir and vocal Play Series instrument ranging from radiant choirs to shimmering pads."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+installer    = "native-access"
+homepage     = "https://www.native-instruments.com/en/products/komplete/play-series/halo-vox/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/15843-Halo-Vox?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.native-instruments.com/en/products/komplete/play-series/halo-vox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/play-series/halo-vox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.native-instruments.com/en/products/komplete/play-series/halo-vox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/play-series/halo-vox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

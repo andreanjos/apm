@@ -1,24 +1,25 @@
-slug        = "vocalign-project-5"
-name        = "VocAlign Project 5"
-vendor      = "Synchro Arts"
-version     = "6"
-description = "Vocal timing alignment plugin that synchronizes the timing of vocal performances automatically."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://synchroarts.com/products/vocalign-pro"
-is_paid     = true
+slug         = "vocalign-project-5"
+name         = "VocAlign Project 5"
+vendor       = "Synchro Arts"
+version      = "6"
+description  = "Vocal timing alignment plugin that synchronizes the timing of vocal performances automatically."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://synchroarts.com/products/vocalign-pro"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synchroarts.com/products/vocalign-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://synchroarts.com/products/vocalign-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synchroarts.com/products/vocalign-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://synchroarts.com/products/vocalign-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

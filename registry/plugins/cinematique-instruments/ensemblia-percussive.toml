@@ -1,26 +1,27 @@
-slug        = "ensemblia-percussive"
-name        = "Ensemblia Percussive"
-vendor      = "Cinematique Instruments"
-version     = "1.0.0"
-description = "Percussive Kontakt Player instrument offering organic and hybrid percussion for cinematic scoring."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.cinematique-instruments.com/pages_instr/page_ensemblia2percussive.php"
+slug         = "ensemblia-percussive"
+name         = "Ensemblia Percussive"
+vendor       = "Cinematique Instruments"
+version      = "1.0.0"
+description  = "Percussive Kontakt Player instrument offering organic and hybrid percussion for cinematic scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.cinematique-instruments.com/pages_instr/page_ensemblia2percussive.php"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/3494-Ensemblia-Percussive?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.cinematique-instruments.com/pages_instr/page_ensemblia2percussive.php"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cinematique-instruments.com/pages_instr/page_ensemblia2percussive.php"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.cinematique-instruments.com/pages_instr/page_ensemblia2percussive.php"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cinematique-instruments.com/pages_instr/page_ensemblia2percussive.php"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

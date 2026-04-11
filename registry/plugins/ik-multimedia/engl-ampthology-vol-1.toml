@@ -1,26 +1,27 @@
-slug        = "engl-ampthology-vol-1"
-name        = "ENGL Ampthology Vol 1"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "TONEX Signature Collection with 72 Tone Models of 6 legendary ENGL amplifiers from the brand's private vault."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/tonex-engl-vol1/"
+slug         = "engl-ampthology-vol-1"
+name         = "ENGL Ampthology Vol 1"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "TONEX Signature Collection with 72 Tone Models of 6 legendary ENGL amplifiers from the brand's private vault."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/tonex-engl-vol1/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/15561-ENGL-Ampthology-Vol-1?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/tonex-engl-vol1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/tonex-engl-vol1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/tonex-engl-vol1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/tonex-engl-vol1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

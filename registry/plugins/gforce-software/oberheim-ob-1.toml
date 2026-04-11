@@ -1,26 +1,27 @@
-slug        = "oberheim-ob-1"
-name        = "Oberheim OB 1"
-vendor      = "GForce Software"
-version     = "1.0"
-description = "Officially endorsed emulation of the 1978 Oberheim OB-1, the first programmable analogue synthesizer."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.gforcesoftware.com/product/ob-1/"
+slug         = "oberheim-ob-1"
+name         = "Oberheim OB 1"
+vendor       = "GForce Software"
+version      = "1.0"
+description  = "Officially endorsed emulation of the 1978 Oberheim OB-1, the first programmable analogue synthesizer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.gforcesoftware.com/product/ob-1/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12618-Oberheim-OB-1?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.gforcesoftware.com/product/ob-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gforcesoftware.com/product/ob-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.gforcesoftware.com/product/ob-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gforcesoftware.com/product/ob-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

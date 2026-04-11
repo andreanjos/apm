@@ -1,26 +1,27 @@
-slug        = "skydust-3d"
-name        = "SkyDust 3D"
-vendor      = "Sound Particles"
-version     = "1.5"
-description = "Sound Particles world-first spatial synthesizer with 8 oscillators per voice and full 3D audio support."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundparticles.com/products/skydust"
+slug         = "skydust-3d"
+name         = "SkyDust 3D"
+vendor       = "Sound Particles"
+version      = "1.5"
+description  = "Sound Particles world-first spatial synthesizer with 8 oscillators per voice and full 3D audio support."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundparticles.com/products/skydust"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10471-SkyDust-3D?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundparticles.com/products/skydust"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundparticles.com/products/skydust"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundparticles.com/products/skydust"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundparticles.com/products/skydust"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

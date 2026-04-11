@@ -1,24 +1,28 @@
-slug        = "denise-god-mode"
-name        = "God Mode"
-vendor      = "Denise Audio"
-version     = "2.0.0"
-description = "Multiband distortion and saturation plugin with a push-pull EQ for shaping harmonic content, featuring three drive modes and linear phase filters."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = ["saturation", "distortion", "multiband", "harmonic", "enhancer", "eq", "drive"]
-homepage    = "https://www.deniseaudio.com/plugins/god-mode"
+slug         = "denise-god-mode"
+name         = "God Mode"
+vendor       = "Denise Audio"
+version      = "2.0.0"
+description  = "Multiband distortion and saturation plugin with a push-pull EQ for shaping harmonic content, featuring three drive modes and linear phase filters."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = ["saturation", "distortion", "multiband", "harmonic", "enhancer", "eq", "drive"]
+aliases      = ["god-mode"]
+homepage     = "https://www.deniseaudio.com/plugins/god-mode"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/6336-God-Mode?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.deniseaudio.com/plugins/god-mode"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.deniseaudio.com/plugins/god-mode"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "God Mode.vst3"
+bundle_path   = "God Mode.vst3"
 
 [formats.au]
-url          = "https://www.deniseaudio.com/plugins/god-mode"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.deniseaudio.com/plugins/god-mode"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "God Mode.component"
+bundle_path   = "God Mode.component"

@@ -1,25 +1,26 @@
-slug        = "rare-instruments-collection"
-name        = "Rare Instruments Collection"
-vendor      = "Rast Sound"
-version     = "1.0.0"
-description = "12 rare world instrument Kontakt libraries from 30+ countries spanning percussion, strings, and winds."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/rare-instruments-bundle/"
-is_paid     = true
+slug         = "rare-instruments-collection"
+name         = "Rare Instruments Collection"
+vendor       = "Rast Sound"
+version      = "1.0.0"
+description  = "12 rare world instrument Kontakt libraries from 30+ countries spanning percussion, strings, and winds."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/rare-instruments-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/rare-instruments-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/rare-instruments-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/rare-instruments-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/rare-instruments-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

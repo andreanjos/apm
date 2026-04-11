@@ -1,25 +1,26 @@
-slug        = "busspressor"
-name        = "BussPressor"
-vendor      = "PSP Audioware"
-version     = "2.0.0"
-description = "VCA-style compressor optimized for group and master buss processing with wide tuning range."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-busspressor"
-is_paid     = true
+slug         = "busspressor"
+name         = "BussPressor"
+vendor       = "PSP Audioware"
+version      = "2.0.0"
+description  = "VCA-style compressor optimized for group and master buss processing with wide tuning range."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-busspressor"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-busspressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-busspressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-busspressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-busspressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "boost"
-name        = "Boost"
-vendor      = "UrsaDSP"
-version     = "1.1"
-description = "UrsaDSP Boost is a transparent limiting and loudness maximization plugin for mastering."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://ursadsp.com/boost/"
+slug         = "boost"
+name         = "Boost"
+vendor       = "UrsaDSP"
+version      = "1.1"
+description  = "UrsaDSP Boost is a transparent limiting and loudness maximization plugin for mastering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://ursadsp.com/boost/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/7993-Boost?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ursadsp.com/boost/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ursadsp.com/boost/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ursadsp.com/boost/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ursadsp.com/boost/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "artist-series-tina-guo-vol-2"
-name        = "Artist Series Tina Guo Vol 2"
-vendor      = "Cinesamples"
-version     = "2.0.0"
-description = "Second volume of Tina Guo's expressive cello and erhu performances for sound design and scoring."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/tina-guo"
+slug         = "artist-series-tina-guo-vol-2"
+name         = "Artist Series Tina Guo Vol 2"
+vendor       = "Cinesamples"
+version      = "2.0.0"
+description  = "Second volume of Tina Guo's expressive cello and erhu performances for sound design and scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/tina-guo"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11284-Artist-Series-Tina-Guo-Vol-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/tina-guo"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/tina-guo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/tina-guo"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/tina-guo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

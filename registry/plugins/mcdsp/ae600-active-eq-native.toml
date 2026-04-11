@@ -1,25 +1,26 @@
-slug        = "ae600-active-eq-native"
-name        = "AE600 Active EQ Native"
-vendor      = "McDSP"
-version     = "7.0"
-description = "Native version of McDSP's AE600 Active EQ with independent fixed and active 6-band EQ control."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://mcdsp.com/plugin-index/ae600/"
-is_paid     = true
+slug         = "ae600-active-eq-native"
+name         = "AE600 Active EQ Native"
+vendor       = "McDSP"
+version      = "7.0"
+description  = "Native version of McDSP's AE600 Active EQ with independent fixed and active 6-band EQ control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://mcdsp.com/plugin-index/ae600/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mcdsp.com/plugin-index/ae600/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/ae600/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mcdsp.com/plugin-index/ae600/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/ae600/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

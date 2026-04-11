@@ -1,61 +1,62 @@
-slug        = "graillon"
-name        = "Graillon"
-vendor      = "Auburn Sounds"
-version     = "3.2.0"
-description = "Vocal live changer with pitch correction, pitch shifting, and voice transformation. Free edition includes core features."
-category    = "effects"
-subcategory = "pitch-correction"
-license     = "freeware"
-tags        = ["vocal", "pitch-correction", "pitch-shifter", "voice-changer", "free", "freeware"]
-homepage    = "https://www.auburnsounds.com/products/Graillon.html"
+slug         = "graillon"
+name         = "Graillon"
+vendor       = "Auburn Sounds"
+version      = "3.2.0"
+description  = "Vocal live changer with pitch correction, pitch shifting, and voice transformation. Free edition includes core features."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch-correction"
+license      = "freeware"
+tags         = ["vocal", "pitch-correction", "pitch-shifter", "voice-changer", "free", "freeware"]
+homepage     = "https://www.auburnsounds.com/products/Graillon.html"
 
 [formats.vst3]
-url          = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.2.zip"
-sha256       = "d9ed254bd6ac89d5c5e670383dec2cb1acf43a72c62ebf2e4401d039ff6bda18"
-install_type = "zip"
-bundle_path  = "Graillon.vst3"
+url           = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.2.zip"
+sha256        = "d9ed254bd6ac89d5c5e670383dec2cb1acf43a72c62ebf2e4401d039ff6bda18"
+install_type  = "zip"
+bundle_path   = "Graillon.vst3"
 
 [formats.au]
-url          = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.2.zip"
-sha256       = "d9ed254bd6ac89d5c5e670383dec2cb1acf43a72c62ebf2e4401d039ff6bda18"
-install_type = "zip"
-bundle_path  = "Graillon.component"
+url           = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.2.zip"
+sha256        = "d9ed254bd6ac89d5c5e670383dec2cb1acf43a72c62ebf2e4401d039ff6bda18"
+install_type  = "zip"
+bundle_path   = "Graillon.component"
 
 [[releases]]
 version = "3.1.0"
 
 [releases.formats.vst3]
-url          = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.1.zip"
-sha256       = "f64643fb069ebbce5fa79bb7ff26b6d3609eb950dced4232160cfb69133f7e6f"
-install_type = "zip"
+url           = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.1.zip"
+sha256        = "f64643fb069ebbce5fa79bb7ff26b6d3609eb950dced4232160cfb69133f7e6f"
+install_type  = "zip"
 
 [releases.formats.au]
-url          = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.1.zip"
-sha256       = "f64643fb069ebbce5fa79bb7ff26b6d3609eb950dced4232160cfb69133f7e6f"
-install_type = "zip"
+url           = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.1.zip"
+sha256        = "f64643fb069ebbce5fa79bb7ff26b6d3609eb950dced4232160cfb69133f7e6f"
+install_type  = "zip"
 
 [[releases]]
 version = "3.0.0"
 
 [releases.formats.vst3]
-url          = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.0.zip"
-sha256       = "7ad3a4c5af10992c1383284a10cec89975d740dc653861417657a89aad67d6dc"
-install_type = "zip"
+url           = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.0.zip"
+sha256        = "7ad3a4c5af10992c1383284a10cec89975d740dc653861417657a89aad67d6dc"
+install_type  = "zip"
 
 [releases.formats.au]
-url          = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.0.zip"
-sha256       = "7ad3a4c5af10992c1383284a10cec89975d740dc653861417657a89aad67d6dc"
-install_type = "zip"
+url           = "https://www.auburnsounds.com/downloads/Graillon-FREE-3.0.zip"
+sha256        = "7ad3a4c5af10992c1383284a10cec89975d740dc653861417657a89aad67d6dc"
+install_type  = "zip"
 
 [[releases]]
 version = "2.8.0"
 
 [releases.formats.vst3]
-url          = "https://www.auburnsounds.com/downloads/Graillon-FREE-2.8.zip"
-sha256       = "9c3dd40b4539a812baabc3b8e1cec9ae45a39ec8d799c1bd6e53d9d64a2366f0"
-install_type = "zip"
+url           = "https://www.auburnsounds.com/downloads/Graillon-FREE-2.8.zip"
+sha256        = "9c3dd40b4539a812baabc3b8e1cec9ae45a39ec8d799c1bd6e53d9d64a2366f0"
+install_type  = "zip"
 
 [releases.formats.au]
-url          = "https://www.auburnsounds.com/downloads/Graillon-FREE-2.8.zip"
-sha256       = "9c3dd40b4539a812baabc3b8e1cec9ae45a39ec8d799c1bd6e53d9d64a2366f0"
-install_type = "zip"
+url           = "https://www.auburnsounds.com/downloads/Graillon-FREE-2.8.zip"
+sha256        = "9c3dd40b4539a812baabc3b8e1cec9ae45a39ec8d799c1bd6e53d9d64a2366f0"
+install_type  = "zip"

@@ -87,6 +87,9 @@ fn text_matches(p: &PluginDefinition, query: &str) -> bool {
             .map(|s| s.to_lowercase().contains(query))
             .unwrap_or(false)
         || p.tags.iter().any(|t| t.to_lowercase().contains(query))
+        || p.aliases
+            .iter()
+            .any(|alias| alias.to_lowercase().contains(query))
 }
 
 /// Lower score = higher relevance (used as sort key).
@@ -142,9 +145,11 @@ mod tests {
             version: "1.0.0".to_string(),
             description: description.to_string(),
             category: category.to_string(),
+            product_type: crate::registry::ProductType::Plugin,
             subcategory: subcategory.map(|s| s.to_string()),
             license: "Freeware".to_string(),
             tags: tags.into_iter().map(|t| t.to_string()).collect(),
+            aliases: vec![],
             installer: None,
             formats: HashMap::new(),
             releases: Vec::new(),

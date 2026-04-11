@@ -1,25 +1,26 @@
-slug        = "fmeral"
-name        = "FMeral"
-vendor      = "Sampletrip"
-version     = "2.0"
-description = "Kontakt library of FM synthesizer sounds with detailed FM-synthesis engine for Kontakt."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kvraudio.com/product/fmeral-by-sampletrip"
-is_paid     = true
+slug         = "fmeral"
+name         = "FMeral"
+vendor       = "Sampletrip"
+version      = "2.0"
+description  = "Kontakt library of FM synthesizer sounds with detailed FM-synthesis engine for Kontakt."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kvraudio.com/product/fmeral-by-sampletrip"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kvraudio.com/product/fmeral-by-sampletrip"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/product/fmeral-by-sampletrip"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kvraudio.com/product/fmeral-by-sampletrip"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/product/fmeral-by-sampletrip"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

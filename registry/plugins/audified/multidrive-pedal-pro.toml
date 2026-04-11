@@ -1,25 +1,26 @@
-slug        = "multidrive-pedal-pro"
-name        = "MultiDrive Pedal Pro"
-vendor      = "Audified"
-version     = "1.0.0"
-description = "Stompbox collection plugin emulating 12 iconic overdrive, distortion, and fuzz guitar pedals."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/multidrive-pedal-pro/"
-is_paid     = true
+slug         = "multidrive-pedal-pro"
+name         = "MultiDrive Pedal Pro"
+vendor       = "Audified"
+version      = "1.0.0"
+description  = "Stompbox collection plugin emulating 12 iconic overdrive, distortion, and fuzz guitar pedals."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/multidrive-pedal-pro/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/multidrive-pedal-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/multidrive-pedal-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/multidrive-pedal-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/multidrive-pedal-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

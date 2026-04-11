@@ -1,26 +1,27 @@
-slug        = "summit-audio-eqf-100"
-name        = "Summit Audio EQF-100"
-vendor      = "Softube"
-version     = "2.6"
-description = "Tube EQ plugin modeled on Summit Audio's EQF-100 Full Range Equalizer for smooth, musical shaping."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/summit-audio-eqf-100"
-is_paid     = true
+slug         = "summit-audio-eqf-100"
+name         = "Summit Audio EQF-100"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Tube EQ plugin modeled on Summit Audio's EQF-100 Full Range Equalizer for smooth, musical shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/summit-audio-eqf-100"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/summit-audio-eqf-100"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/summit-audio-eqf-100"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/summit-audio-eqf-100"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/summit-audio-eqf-100"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

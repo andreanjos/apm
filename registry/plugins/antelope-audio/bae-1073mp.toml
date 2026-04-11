@@ -1,26 +1,27 @@
-slug        = "bae-1073mp"
-name        = "BAE 1073MP"
-vendor      = "Antelope Audio"
-version     = "1.0.0"
-description = "Mic preamp plugin modeled on the BAE 1073MP for iconic Neve-style transformer coloring."
-category    = "effects"
-subcategory = "preamp"
-license     = "commercial"
-tags        = []
-homepage    = "https://en.antelopeaudio.com/products/bae-1073mp/"
+slug         = "bae-1073mp"
+name         = "BAE 1073MP"
+vendor       = "Antelope Audio"
+version      = "1.0.0"
+description  = "Mic preamp plugin modeled on the BAE 1073MP for iconic Neve-style transformer coloring."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "preamp"
+license      = "commercial"
+tags         = []
+homepage     = "https://en.antelopeaudio.com/products/bae-1073mp/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/16011-BAE-1073MP?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://en.antelopeaudio.com/products/bae-1073mp/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/bae-1073mp/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://en.antelopeaudio.com/products/bae-1073mp/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/bae-1073mp/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

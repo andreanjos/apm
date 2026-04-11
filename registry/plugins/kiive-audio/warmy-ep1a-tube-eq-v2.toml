@@ -1,26 +1,27 @@
-slug        = "warmy-ep1a-tube-eq-v2"
-name        = "Warmy EP1A Tube EQ V2"
-vendor      = "Kiive Audio"
-version     = "V2.1"
-description = "Free tube equalizer plugin with redesigned DSP for silky smooth EQ curves and warm harmonic character."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kiiveaudio.com/products/warmy-ep1a-v2"
+slug         = "warmy-ep1a-tube-eq-v2"
+name         = "Warmy EP1A Tube EQ V2"
+vendor       = "Kiive Audio"
+version      = "V2.1"
+description  = "Free tube equalizer plugin with redesigned DSP for silky smooth EQ curves and warm harmonic character."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kiiveaudio.com/products/warmy-ep1a-v2"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/9383-Warmy-EP1A-Tube-EQ-V2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kiiveaudio.com/products/warmy-ep1a-v2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kiiveaudio.com/products/warmy-ep1a-v2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kiiveaudio.com/products/warmy-ep1a-v2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kiiveaudio.com/products/warmy-ep1a-v2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

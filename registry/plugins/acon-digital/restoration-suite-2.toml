@@ -1,25 +1,26 @@
-slug        = "restoration-suite-2"
-name        = "Restoration Suite 2"
-vendor      = "Acon Digital"
-version     = "2.1.27"
-description = "Updated four-plugin audio restoration suite for professional-grade noise, hum, click, and clip removal."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://acondigital.com/products/restoration-suite"
-is_paid     = true
+slug         = "restoration-suite-2"
+name         = "Restoration Suite 2"
+vendor       = "Acon Digital"
+version      = "2.1.27"
+description  = "Updated four-plugin audio restoration suite for professional-grade noise, hum, click, and clip removal."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://acondigital.com/products/restoration-suite"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://acondigital.com/products/restoration-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://acondigital.com/products/restoration-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://acondigital.com/products/restoration-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://acondigital.com/products/restoration-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

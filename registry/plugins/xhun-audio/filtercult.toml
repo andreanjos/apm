@@ -1,25 +1,26 @@
-slug        = "filtercult"
-name        = "FilterCult"
-vendor      = "Xhun Audio"
-version     = "1.0.0"
-description = "Analog-modeled transistor ladder filter plugin for creative signal filtering and aggressive sound coloration."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xhun-audio.com/site/xhun.php?page=filtercult"
-is_paid     = true
+slug         = "filtercult"
+name         = "FilterCult"
+vendor       = "Xhun Audio"
+version      = "1.0.0"
+description  = "Analog-modeled transistor ladder filter plugin for creative signal filtering and aggressive sound coloration."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.xhun-audio.com/site/xhun.php?page=filtercult"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xhun-audio.com/site/xhun.php?page=filtercult"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xhun-audio.com/site/xhun.php?page=filtercult"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xhun-audio.com/site/xhun.php?page=filtercult"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xhun-audio.com/site/xhun.php?page=filtercult"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

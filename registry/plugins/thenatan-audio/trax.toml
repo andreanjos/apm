@@ -1,26 +1,27 @@
-slug        = "trax"
-name        = "Trax"
-vendor      = "Thenatan Audio"
-version     = "1.0.0"
-description = "Drum machine plugin with 400+ samples, 50 kits and 8-channel mixer for hip-hop, trap and EDM."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.thenatan.store/p/oxoq/"
+slug         = "trax"
+name         = "Trax"
+vendor       = "Thenatan Audio"
+version      = "1.0.0"
+description  = "Drum machine plugin with 400+ samples, 50 kits and 8-channel mixer for hip-hop, trap and EDM."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.thenatan.store/p/oxoq/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/15980-Trax?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.thenatan.store/p/oxoq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.thenatan.store/p/oxoq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.thenatan.store/p/oxoq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.thenatan.store/p/oxoq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

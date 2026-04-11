@@ -1,25 +1,26 @@
-slug        = "electric-saz"
-name        = "Electric Saz"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Detailed Kontakt library of the Turkish electric saz with pickup-driven articulations."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/electric-saz"
-is_paid     = true
+slug         = "electric-saz"
+name         = "Electric Saz"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Detailed Kontakt library of the Turkish electric saz with pickup-driven articulations."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/electric-saz"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/electric-saz"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/electric-saz"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/electric-saz"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/electric-saz"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "modern-upright"
-name        = "Modern Upright"
-vendor      = "XLN Audio"
-version     = "1.7.3"
-description = "Contemporary upright piano instrument for Addictive Keys with a versatile modern character."
-category    = "instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xlnaudio.com/products/addictive_keys/instrument/modern_upright"
-is_paid     = true
+slug         = "modern-upright"
+name         = "Modern Upright"
+vendor       = "XLN Audio"
+version      = "1.7.3"
+description  = "Contemporary upright piano instrument for Addictive Keys with a versatile modern character."
+category     = "instruments"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.xlnaudio.com/products/addictive_keys/instrument/modern_upright"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xlnaudio.com/products/addictive_keys/instrument/modern_upright"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xlnaudio.com/products/addictive_keys/instrument/modern_upright"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xlnaudio.com/products/addictive_keys/instrument/modern_upright"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xlnaudio.com/products/addictive_keys/instrument/modern_upright"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

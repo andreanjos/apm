@@ -1,26 +1,27 @@
-slug        = "grand-finale"
-name        = "Grand Finale"
-vendor      = "Klevgrand"
-version     = "1.0.4"
-description = "An audio finalizer/mastering plugin combining limiting, EQ, and enhancement for final mix polish."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://klevgrand.com/products/grand-finale"
+slug         = "grand-finale"
+name         = "Grand Finale"
+vendor       = "Klevgrand"
+version      = "1.0.4"
+description  = "An audio finalizer/mastering plugin combining limiting, EQ, and enhancement for final mix polish."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://klevgrand.com/products/grand-finale"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/8706-Grand-Finale?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klevgrand.com/products/grand-finale"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/grand-finale"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klevgrand.com/products/grand-finale"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/grand-finale"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

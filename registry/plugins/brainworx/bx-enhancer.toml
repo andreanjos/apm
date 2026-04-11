@@ -1,26 +1,27 @@
-slug        = "bx-enhancer"
-name        = "bx enhancer"
-vendor      = "Brainworx"
-version     = "1.0.0"
-description = "All-in-one signal enhancer combining saturator, compressor, EQ, clipper, and auto-level in one streamlined plugin."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugin-alliance.com/en/products/bx_enhancer.html"
+slug         = "bx-enhancer"
+name         = "bx enhancer"
+vendor       = "Brainworx"
+version      = "1.0.0"
+description  = "All-in-one signal enhancer combining saturator, compressor, EQ, clipper, and auto-level in one streamlined plugin."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugin-alliance.com/en/products/bx_enhancer.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/13271-bx-enhancer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/bx_enhancer.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/bx_enhancer.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/bx_enhancer.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/bx_enhancer.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "modo-bass-2-crossgrade"
-name        = "MODO BASS 2 Crossgrade"
-vendor      = "IK Multimedia"
-version     = "2.0"
-description = "Crossgrade to MODO BASS 2, the physically modeled bass with 22 customizable electric bass guitars."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/modobass2/"
-is_paid     = true
+slug         = "modo-bass-2-crossgrade"
+name         = "MODO BASS 2 Crossgrade"
+vendor       = "IK Multimedia"
+version      = "2.0"
+description  = "Crossgrade to MODO BASS 2, the physically modeled bass with 22 customizable electric bass guitars."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/modobass2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/modobass2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/modobass2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/modobass2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/modobass2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

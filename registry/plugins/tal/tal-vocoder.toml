@@ -1,26 +1,27 @@
-slug        = "tal-vocoder"
-name        = "TAL Vocoder"
-vendor      = "TAL"
-version     = "3.0.4"
-description = "Vintage-style 11-band vocoder emulating early 80s vocoders with analog-modeled components and built-in synth."
-category    = "effects"
-subcategory = "vocoder"
-license     = "commercial"
-tags        = []
-homepage    = "https://tal-software.com/products/tal-vocoder"
+slug         = "tal-vocoder"
+name         = "TAL Vocoder"
+vendor       = "TAL"
+version      = "3.0.4"
+description  = "Vintage-style 11-band vocoder emulating early 80s vocoders with analog-modeled components and built-in synth."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocoder"
+license      = "commercial"
+tags         = []
+homepage     = "https://tal-software.com/products/tal-vocoder"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/430-TAL-Vocoder?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://tal-software.com/products/tal-vocoder"
-sha256       = ""
-install_type = "zip"
+url           = "https://tal-software.com/products/tal-vocoder"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://tal-software.com/products/tal-vocoder"
-sha256       = ""
-install_type = "zip"
+url           = "https://tal-software.com/products/tal-vocoder"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

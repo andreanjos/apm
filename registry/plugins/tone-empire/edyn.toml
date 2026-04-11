@@ -1,26 +1,27 @@
-slug        = "edyn"
-name        = "EDYN"
-vendor      = "Tone Empire"
-version     = "1.02"
-description = "Discrete transistor preamp plugin modeled after a classic American console for bold harmonic richness."
-category    = "effects"
-subcategory = "preamp"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tone-empire.com/edyn/"
+slug         = "edyn"
+name         = "EDYN"
+vendor       = "Tone Empire"
+version      = "1.02"
+description  = "Discrete transistor preamp plugin modeled after a classic American console for bold harmonic richness."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "preamp"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tone-empire.com/edyn/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/14969-EDYN?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tone-empire.com/edyn/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com/edyn/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tone-empire.com/edyn/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com/edyn/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

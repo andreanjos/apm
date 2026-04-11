@@ -1,26 +1,27 @@
-slug        = "map"
-name        = "MAP"
-vendor      = "GForce Software"
-version     = "1.0"
-description = "Polyphonic synthesizer inspired by classic analogue architecture with an intuitive, performance-focused interface."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.gforcesoftware.com/product/map/"
+slug         = "map"
+name         = "MAP"
+vendor       = "GForce Software"
+version      = "1.0"
+description  = "Polyphonic synthesizer inspired by classic analogue architecture with an intuitive, performance-focused interface."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.gforcesoftware.com/product/map/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16099-MAP?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.gforcesoftware.com/product/map/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gforcesoftware.com/product/map/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.gforcesoftware.com/product/map/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gforcesoftware.com/product/map/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

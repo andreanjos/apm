@@ -1,26 +1,27 @@
-slug        = "orchid"
-name        = "Orchid"
-vendor      = "W A Production"
-version     = "2.1.0"
-description = "Four-voice chorus plugin inspired by 1980s studio gear with reverb, delay, and harmonic enhancement."
-category    = "effects"
-subcategory = "chorus"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/orchid"
+slug         = "orchid"
+name         = "Orchid"
+vendor       = "W A Production"
+version      = "2.1.0"
+description  = "Four-voice chorus plugin inspired by 1980s studio gear with reverb, delay, and harmonic enhancement."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "chorus"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/orchid"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/6524-Orchid?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/orchid"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/orchid"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/orchid"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/orchid"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

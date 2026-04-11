@@ -1,26 +1,27 @@
-slug        = "mojo-2-alto-saxophone"
-name        = "MOJO 2 Alto Saxophone"
-vendor      = "Vir2 Instruments"
-version     = "2"
-description = "Deeply sampled alto saxophone virtual instrument with expressive articulations for realistic performance."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.vir2.com/instruments/"
+slug         = "mojo-2-alto-saxophone"
+name         = "MOJO 2 Alto Saxophone"
+vendor       = "Vir2 Instruments"
+version      = "2"
+description  = "Deeply sampled alto saxophone virtual instrument with expressive articulations for realistic performance."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.vir2.com/instruments/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10587-MOJO-2-Alto-Saxophone?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.vir2.com/instruments/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.vir2.com/instruments/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.vir2.com/instruments/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.vir2.com/instruments/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

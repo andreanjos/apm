@@ -1,25 +1,27 @@
-slug        = "oxford-drum-gate-limiter-bundle"
-name        = "Oxford Drum Gate & Limiter Bundle"
-vendor      = "Sonnox"
-version     = "1.0.0"
-description = "Bundle pairing Oxford Drum Gate 2 and Oxford Limiter for intelligent drum detection and transparent loudness control."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/products/oxford-drum-gate-2"
-is_paid     = true
+slug         = "oxford-drum-gate-limiter-bundle"
+name         = "Oxford Drum Gate & Limiter Bundle"
+vendor       = "Sonnox"
+version      = "1.0.0"
+description  = "Bundle pairing Oxford Drum Gate 2 and Oxford Limiter for intelligent drum detection and transparent loudness control."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["oxford-drum-gate-038-limiter-bundle"]
+homepage     = "https://www.sonnox.com/products/oxford-drum-gate-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/products/oxford-drum-gate-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-drum-gate-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/products/oxford-drum-gate-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-drum-gate-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

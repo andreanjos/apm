@@ -1,25 +1,26 @@
-slug        = "swam-solo-trombones"
-name        = "SWAM Solo Trombones"
-vendor      = "Audio Modeling"
-version     = "3"
-description = "Physically modeled solo trombones with real-time slide, dynamics, and articulation control."
-category    = "instruments"
-subcategory = "brass"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodeling.com/swam-engine/solo-brass/"
-is_paid     = true
+slug         = "swam-solo-trombones"
+name         = "SWAM Solo Trombones"
+vendor       = "Audio Modeling"
+version      = "3"
+description  = "Physically modeled solo trombones with real-time slide, dynamics, and articulation control."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "brass"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodeling.com/swam-engine/solo-brass/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodeling.com/swam-engine/solo-brass/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/swam-engine/solo-brass/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodeling.com/swam-engine/solo-brass/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/swam-engine/solo-brass/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

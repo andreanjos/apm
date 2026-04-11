@@ -1,25 +1,26 @@
-slug        = "dynamics-collection"
-name        = "Dynamics Collection"
-vendor      = "Boz Digital Labs"
-version     = "1.0.0"
-description = "Bundle of Boz Digital Labs dynamics processors including compressor, limiter, gate, and transient shaper."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozdigitallabs.com/product/dynamics-collection/"
-is_paid     = true
+slug         = "dynamics-collection"
+name         = "Dynamics Collection"
+vendor       = "Boz Digital Labs"
+version      = "1.0.0"
+description  = "Bundle of Boz Digital Labs dynamics processors including compressor, limiter, gate, and transient shaper."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bozdigitallabs.com/product/dynamics-collection/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozdigitallabs.com/product/dynamics-collection/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/dynamics-collection/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozdigitallabs.com/product/dynamics-collection/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/dynamics-collection/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

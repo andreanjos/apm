@@ -1,26 +1,27 @@
-slug        = "oxford-drum-gate-2"
-name        = "Oxford Drum Gate 2"
-vendor      = "Sonnox"
-version     = "2"
-description = "Intelligent drum gate plugin with phase-locked alignment and adaptive decay for clean, mix-ready drum tracks."
-category    = "effects"
-subcategory = "gate"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/products/oxford-drum-gate-2"
+slug         = "oxford-drum-gate-2"
+name         = "Oxford Drum Gate 2"
+vendor       = "Sonnox"
+version      = "2"
+description  = "Intelligent drum gate plugin with phase-locked alignment and adaptive decay for clean, mix-ready drum tracks."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "gate"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonnox.com/products/oxford-drum-gate-2"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/16865-Oxford-Drum-Gate-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/products/oxford-drum-gate-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-drum-gate-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/products/oxford-drum-gate-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-drum-gate-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

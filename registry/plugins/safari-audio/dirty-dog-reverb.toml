@@ -1,26 +1,27 @@
-slug        = "dirty-dog-reverb"
-name        = "Dirty Dog Reverb"
-vendor      = "Safari Audio"
-version     = "1.0.0"
-description = "Wild reverb and overdrive plugin designed with Joe Chiccarelli for creative, character-drenched spaces."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://safariaudio.com/products/dirty-dog-reverb"
+slug         = "dirty-dog-reverb"
+name         = "Dirty Dog Reverb"
+vendor       = "Safari Audio"
+version      = "1.0.0"
+description  = "Wild reverb and overdrive plugin designed with Joe Chiccarelli for creative, character-drenched spaces."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://safariaudio.com/products/dirty-dog-reverb"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/15347-Dirty-Dog-Reverb?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://safariaudio.com/products/dirty-dog-reverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/dirty-dog-reverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://safariaudio.com/products/dirty-dog-reverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/dirty-dog-reverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

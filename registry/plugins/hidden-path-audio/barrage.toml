@@ -1,25 +1,26 @@
-slug        = "barrage"
-name        = "Barrage"
-vendor      = "Hidden Path Audio"
-version     = "1.0.0"
-description = "Cinematic percussion designer Kontakt library for creating epic hits, rhythms, and sound-designed chaos."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.hiddenpathaudio.com/"
-is_paid     = true
+slug         = "barrage"
+name         = "Barrage"
+vendor       = "Hidden Path Audio"
+version      = "1.0.0"
+description  = "Cinematic percussion designer Kontakt library for creating epic hits, rhythms, and sound-designed chaos."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.hiddenpathaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.hiddenpathaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.hiddenpathaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.hiddenpathaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.hiddenpathaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

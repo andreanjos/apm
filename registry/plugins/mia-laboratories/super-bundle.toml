@@ -1,25 +1,26 @@
-slug        = "super-bundle"
-name        = "SUPER Bundle"
-vendor      = "MIA Laboratories"
-version     = "1.0.0"
-description = "MIA Laboratories SUPER Bundle combining Super Fat, Super Thin, and Super Muscle EQ plugins."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://mialaboratories.com/product/super-bundle/"
-is_paid     = true
+slug         = "super-bundle"
+name         = "SUPER Bundle"
+vendor       = "MIA Laboratories"
+version      = "1.0.0"
+description  = "MIA Laboratories SUPER Bundle combining Super Fat, Super Thin, and Super Muscle EQ plugins."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://mialaboratories.com/product/super-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mialaboratories.com/product/super-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mialaboratories.com/product/super-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mialaboratories.com/product/super-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mialaboratories.com/product/super-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

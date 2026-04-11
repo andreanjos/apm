@@ -1,25 +1,27 @@
-slug        = "cassette-vibraphone-multi-format-bundle"
-name        = "Cassette Vibraphone – Multi-Format Bundle"
-vendor      = "THEPHONOLOOP"
-version     = "1.0.0"
-description = "Multi-format bundle of a vibraphone recorded with real round-robin samples across four cassette decks."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://thephonoloop.com/products/cassette-vibraphone"
-is_paid     = true
+slug         = "cassette-vibraphone-multi-format-bundle"
+name         = "Cassette Vibraphone - Multi-Format Bundle"
+vendor       = "THEPHONOLOOP"
+version      = "1.0.0"
+description  = "Multi-format bundle of a vibraphone recorded with real round-robin samples across four cassette decks."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["cassette-vibraphone-8211-multi-format-bundle"]
+homepage     = "https://thephonoloop.com/products/cassette-vibraphone"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://thephonoloop.com/products/cassette-vibraphone"
-sha256       = ""
-install_type = "zip"
+url           = "https://thephonoloop.com/products/cassette-vibraphone"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://thephonoloop.com/products/cassette-vibraphone"
-sha256       = ""
-install_type = "zip"
+url           = "https://thephonoloop.com/products/cassette-vibraphone"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

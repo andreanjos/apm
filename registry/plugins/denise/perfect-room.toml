@@ -1,24 +1,25 @@
-slug        = "perfect-room"
-name        = "Perfect Room"
-vendor      = "denise"
-version     = "1.0.0"
-description = "Natural room reverb plugin known for its clean, lush sound using TXVerb technology."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.deniseaudio.com/"
-is_paid     = true
+slug         = "perfect-room"
+name         = "Perfect Room"
+vendor       = "denise"
+version      = "1.0.0"
+description  = "Natural room reverb plugin known for its clean, lush sound using TXVerb technology."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.deniseaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.deniseaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.deniseaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

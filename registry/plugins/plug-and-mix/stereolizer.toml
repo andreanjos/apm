@@ -1,24 +1,25 @@
-slug        = "stereolizer"
-name        = "Stereolizer"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Stereo widening plugin for expanding and enhancing the stereo image of mono or narrow sources."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p1157-Stereolizer/"
-is_paid     = true
+slug         = "stereolizer"
+name         = "Stereolizer"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Stereo widening plugin for expanding and enhancing the stereo image of mono or narrow sources."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p1157-Stereolizer/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p1157-Stereolizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p1157-Stereolizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p1157-Stereolizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p1157-Stereolizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

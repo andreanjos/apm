@@ -1,25 +1,27 @@
-slug        = "cloudbounce-8211-annual-subscription"
-name        = "Cloudbounce &#8211; Annual Subscription"
-vendor      = "CloudBounce"
-version     = "1.0.0"
-description = "Annual subscription to CloudBounce offering unlimited AI-mastered tracks in all available audio formats."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://cloudbounce.com/"
-is_paid     = true
+slug         = "cloudbounce-8211-annual-subscription"
+name         = "Cloudbounce - Annual Subscription"
+vendor       = "CloudBounce"
+version      = "1.0.0"
+description  = "Annual subscription to CloudBounce offering unlimited AI-mastered tracks in all available audio formats."
+category     = "effects"
+product_type = "subscription"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+aliases      = ["cloudbounce-annual-subscription"]
+homepage     = "https://cloudbounce.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cloudbounce.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cloudbounce.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cloudbounce.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cloudbounce.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "igniter"
-name        = "Igniter"
-vendor      = "Krotos Audio"
-version     = "1.0.0"
-description = "Vehicle sound design plugin for creating, performing, and automating any vehicle sound in your DAW."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.krotosaudio.com/igniter/"
-is_paid     = true
+slug         = "igniter"
+name         = "Igniter"
+vendor       = "Krotos Audio"
+version      = "1.0.0"
+description  = "Vehicle sound design plugin for creating, performing, and automating any vehicle sound in your DAW."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.krotosaudio.com/igniter/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.krotosaudio.com/igniter/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.krotosaudio.com/igniter/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.krotosaudio.com/igniter/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.krotosaudio.com/igniter/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

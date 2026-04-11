@@ -1,26 +1,27 @@
-slug        = "front-daw"
-name        = "Front DAW"
-vendor      = "United Plugins"
-version     = "1.0.0"
-description = "Plugin that transforms a DAW mixer into an analog console using VARM II technology with five saturation types."
-category    = "effects"
-subcategory = "preamp"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com/FrontDAW/"
+slug         = "front-daw"
+name         = "Front DAW"
+vendor       = "United Plugins"
+version      = "1.0.0"
+description  = "Plugin that transforms a DAW mixer into an analog console using VARM II technology with five saturation types."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "preamp"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com/FrontDAW/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/6230-Front-DAW?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com/FrontDAW/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/FrontDAW/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com/FrontDAW/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/FrontDAW/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

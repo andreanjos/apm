@@ -1,25 +1,26 @@
-slug        = "pvc-beatbox-ensemble"
-name        = "PVC Beatbox Ensemble"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt percussion instrument built from PVC pipes and tubes with urban beatbox character."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/pvc-beatbox-ensemble"
-is_paid     = true
+slug         = "pvc-beatbox-ensemble"
+name         = "PVC Beatbox Ensemble"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt percussion instrument built from PVC pipes and tubes with urban beatbox character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/pvc-beatbox-ensemble"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/pvc-beatbox-ensemble"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/pvc-beatbox-ensemble"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/pvc-beatbox-ensemble"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/pvc-beatbox-ensemble"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

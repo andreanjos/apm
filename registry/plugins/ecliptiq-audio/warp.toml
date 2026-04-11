@@ -1,25 +1,26 @@
-slug        = "warp"
-name        = "Warp"
-vendor      = "Ecliptiq Audio"
-version     = "1.0.0"
-description = "Kontakt instrument specializing in atmospheric pads, drones, swells, and ambient synths."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.lootaudio.com/label/Ecliptiq-Audio"
-is_paid     = true
+slug         = "warp"
+name         = "Warp"
+vendor       = "Ecliptiq Audio"
+version      = "1.0.0"
+description  = "Kontakt instrument specializing in atmospheric pads, drones, swells, and ambient synths."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.lootaudio.com/label/Ecliptiq-Audio"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.lootaudio.com/label/Ecliptiq-Audio"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/label/Ecliptiq-Audio"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.lootaudio.com/label/Ecliptiq-Audio"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/label/Ecliptiq-Audio"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "stringache"
-name        = "Stringache"
-vendor      = "Silence And Other Sounds"
-version     = "1.0.0"
-description = "Cinematic Kontakt string library with dark, expressive textures for media scoring."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://silenceandothersounds.com/products/"
-is_paid     = true
+slug         = "stringache"
+name         = "Stringache"
+vendor       = "Silence And Other Sounds"
+version      = "1.0.0"
+description  = "Cinematic Kontakt string library with dark, expressive textures for media scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://silenceandothersounds.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://silenceandothersounds.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://silenceandothersounds.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://silenceandothersounds.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://silenceandothersounds.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

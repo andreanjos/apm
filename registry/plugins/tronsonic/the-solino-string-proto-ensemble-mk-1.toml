@@ -1,26 +1,27 @@
-slug        = "the-solino-string-proto-ensemble-mk-1"
-name        = "The Solino String Proto Ensemble MK 1"
-vendor      = "Tronsonic"
-version     = "1.0.0"
-description = "Kontakt instrument homage to an imaginary prototype of the Eminent Solina String Ensemble."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "http://www.tronsonic.com/"
+slug         = "the-solino-string-proto-ensemble-mk-1"
+name         = "The Solino String Proto Ensemble MK 1"
+vendor       = "Tronsonic"
+version      = "1.0.0"
+description  = "Kontakt instrument homage to an imaginary prototype of the Eminent Solina String Ensemble."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "http://www.tronsonic.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/787-The-Solino-String-Proto-Ensemble-MK-1?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "http://www.tronsonic.com/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.tronsonic.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "http://www.tronsonic.com/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.tronsonic.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "tal-drum"
-name        = "TAL Drum"
-vendor      = "TAL"
-version     = "2.9.6"
-description = "Powerful drum sampler with 64 pads, 8 layers, lo-fi resampler, EQ, and 600+ factory samples."
-category    = "instruments"
-subcategory = "sampler"
-license     = "commercial"
-tags        = []
-homepage    = "https://tal-software.com/products/tal-drum"
+slug         = "tal-drum"
+name         = "TAL Drum"
+vendor       = "TAL"
+version      = "2.9.6"
+description  = "Powerful drum sampler with 64 pads, 8 layers, lo-fi resampler, EQ, and 600+ factory samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "sampler"
+license      = "commercial"
+tags         = []
+homepage     = "https://tal-software.com/products/tal-drum"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/9676-TAL-Drum?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://tal-software.com/products/tal-drum"
-sha256       = ""
-install_type = "zip"
+url           = "https://tal-software.com/products/tal-drum"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://tal-software.com/products/tal-drum"
-sha256       = ""
-install_type = "zip"
+url           = "https://tal-software.com/products/tal-drum"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

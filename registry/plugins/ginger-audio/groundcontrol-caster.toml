@@ -1,26 +1,27 @@
-slug        = "groundcontrol-caster"
-name        = "GroundControl CASTER"
-vendor      = "Ginger Audio"
-version     = "1.0"
-description = "GroundControl CASTER by Ginger Audio sends stems and mixes directly to podcast platforms."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.gingeraudio.com/"
+slug         = "groundcontrol-caster"
+name         = "GroundControl CASTER"
+vendor       = "Ginger Audio"
+version      = "1.0"
+description  = "GroundControl CASTER by Ginger Audio sends stems and mixes directly to podcast platforms."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.gingeraudio.com/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/9366-GroundControl-CASTER?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.gingeraudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gingeraudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.gingeraudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gingeraudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

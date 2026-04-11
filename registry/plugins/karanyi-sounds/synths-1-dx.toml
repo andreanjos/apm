@@ -1,25 +1,26 @@
-slug        = "synths-1-dx"
-name        = "Synths 1 DX"
-vendor      = "Karanyi Sounds"
-version     = "1.0"
-description = "Kontakt instrument with DX-style synth sounds for cinematic atmospheres, sci-fi pads, and ambient music."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://karanyisounds.com/product/synths-1-dx/"
-is_paid     = true
+slug         = "synths-1-dx"
+name         = "Synths 1 DX"
+vendor       = "Karanyi Sounds"
+version      = "1.0"
+description  = "Kontakt instrument with DX-style synth sounds for cinematic atmospheres, sci-fi pads, and ambient music."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://karanyisounds.com/product/synths-1-dx/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://karanyisounds.com/product/synths-1-dx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/synths-1-dx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://karanyisounds.com/product/synths-1-dx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/synths-1-dx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

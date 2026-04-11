@@ -1,25 +1,26 @@
-slug        = "analog-studio-exciter"
-name        = "Analog Studio Exciter"
-vendor      = "Nomad Factory"
-version     = "1.0.0"
-description = "Harmonic exciter plugin adding presence and brightness with analog-modeled saturation and coloration."
-category    = "effects"
-subcategory = "exciter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.nomadfactory.com/products/"
-is_paid     = true
+slug         = "analog-studio-exciter"
+name         = "Analog Studio Exciter"
+vendor       = "Nomad Factory"
+version      = "1.0.0"
+description  = "Harmonic exciter plugin adding presence and brightness with analog-modeled saturation and coloration."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "exciter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.nomadfactory.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.nomadfactory.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.nomadfactory.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

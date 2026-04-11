@@ -1,25 +1,26 @@
-slug        = "harmony-engine-upgrade-from-duo"
-name        = "Harmony Engine Upgrade from DUO"
-vendor      = "Antares"
-version     = "1.0.0"
-description = "Upgrade path from Antares DUO to the full Harmony Engine vocal harmony plugin."
-category    = "effects"
-subcategory = "harmonizer"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
-is_paid     = true
+slug         = "harmony-engine-upgrade-from-duo"
+name         = "Harmony Engine Upgrade from DUO"
+vendor       = "Antares"
+version      = "1.0.0"
+description  = "Upgrade path from Antares DUO to the full Harmony Engine vocal harmony plugin."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "harmonizer"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/vocal-effects/harmony-engine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

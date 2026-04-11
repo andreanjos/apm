@@ -1,26 +1,27 @@
-slug        = "ambience"
-name        = "Ambience"
-vendor      = "Smartelectronix"
-version     = "0.8.8"
-description = "Classic free reverb plugin by Smartelectronix with natural room and hall simulations."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.smartelectronix.com/"
+slug         = "ambience"
+name         = "Ambience"
+vendor       = "Smartelectronix"
+version      = "0.8.8"
+description  = "Classic free reverb plugin by Smartelectronix with natural room and hall simulations."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.smartelectronix.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/426-Ambience?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.smartelectronix.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.smartelectronix.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.smartelectronix.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.smartelectronix.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

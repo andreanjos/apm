@@ -1,26 +1,27 @@
-slug        = "bass-house-serum"
-name        = "Bass House Serum"
-vendor      = "5Pin Media"
-version     = "1.0.0"
-description = "102 premium grade bass house Serum presets inspired by My Nu Leng, Flava D, and Chris Lake."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://5pinmedia.com/product/bass-house-serum/"
+slug         = "bass-house-serum"
+name         = "Bass House Serum"
+vendor       = "5Pin Media"
+version      = "1.0.0"
+description  = "102 premium grade bass house Serum presets inspired by My Nu Leng, Flava D, and Chris Lake."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://5pinmedia.com/product/bass-house-serum/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11180-Bass-House-Serum?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://5pinmedia.com/product/bass-house-serum/"
-sha256       = ""
-install_type = "zip"
+url           = "https://5pinmedia.com/product/bass-house-serum/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://5pinmedia.com/product/bass-house-serum/"
-sha256       = ""
-install_type = "zip"
+url           = "https://5pinmedia.com/product/bass-house-serum/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

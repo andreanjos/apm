@@ -1,25 +1,28 @@
-slug        = "arturia-rev-intensity"
-name        = "Rev INTENSITY"
-vendor      = "Arturia"
-version     = "1.4.0"
-description = "Algorithmic reverb combining lush widescreen ambience with warped experimental textures, built-in chorus, freeze, and soft-clip modes."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = ["reverb", "algorithmic", "creative", "experimental", "chorus", "freeze", "saturation", "fx"]
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-effects/rev-intensity/overview"
+slug         = "arturia-rev-intensity"
+name         = "Rev INTENSITY"
+vendor       = "Arturia"
+version      = "1.4.0"
+description  = "Algorithmic reverb combining lush widescreen ambience with warped experimental textures, built-in chorus, freeze, and soft-clip modes."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = ["reverb", "algorithmic", "creative", "experimental", "chorus", "freeze", "saturation", "fx"]
+aliases      = ["rev-intensity"]
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-effects/rev-intensity/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/support/downloads-manuals/product/rev-intensity"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals/product/rev-intensity"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Rev INTENSITY.vst3"
+bundle_path   = "Rev INTENSITY.vst3"
 
 [formats.au]
-url          = "https://www.arturia.com/support/downloads-manuals/product/rev-intensity"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.arturia.com/support/downloads-manuals/product/rev-intensity"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "Rev INTENSITY.component"
+bundle_path   = "Rev INTENSITY.component"

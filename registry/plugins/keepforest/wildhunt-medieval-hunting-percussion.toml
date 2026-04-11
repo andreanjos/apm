@@ -1,26 +1,27 @@
-slug        = "wildhunt-medieval-hunting-percussion"
-name        = "Wildhunt Medieval Hunting Percussion"
-vendor      = "Keepforest"
-version     = "1.0.0"
-description = "Keepforest Kontakt library of medieval hunting and primal percussion for cinematic scoring."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://keep-forest.com/store"
+slug         = "wildhunt-medieval-hunting-percussion"
+name         = "Wildhunt Medieval Hunting Percussion"
+vendor       = "Keepforest"
+version      = "1.0.0"
+description  = "Keepforest Kontakt library of medieval hunting and primal percussion for cinematic scoring."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://keep-forest.com/store"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/16498-Wildhunt-Medieval-Hunting-Percussion?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://keep-forest.com/store"
-sha256       = ""
-install_type = "zip"
+url           = "https://keep-forest.com/store"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://keep-forest.com/store"
-sha256       = ""
-install_type = "zip"
+url           = "https://keep-forest.com/store"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

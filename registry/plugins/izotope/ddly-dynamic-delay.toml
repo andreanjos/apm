@@ -1,26 +1,27 @@
-slug        = "ddly-dynamic-delay"
-name        = "DDLY Dynamic Delay"
-vendor      = "iZotope"
-version     = "1.2.0"
-description = "Dynamic delay plugin that splits audio by threshold to send transients and sustain to separate delay lines."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-installer   = "izotope-product-portal"
-homepage    = "https://www.izotope.com/en/products/ddly"
-is_paid     = true
+slug         = "ddly-dynamic-delay"
+name         = "DDLY Dynamic Delay"
+vendor       = "iZotope"
+version      = "1.2.0"
+description  = "Dynamic delay plugin that splits audio by threshold to send transients and sustain to separate delay lines."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+installer    = "izotope-product-portal"
+homepage     = "https://www.izotope.com/en/products/ddly"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.izotope.com/en/products/ddly"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products/ddly"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.izotope.com/en/products/ddly"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products/ddly"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

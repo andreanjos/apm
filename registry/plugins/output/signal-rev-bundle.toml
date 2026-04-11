@@ -1,26 +1,27 @@
-slug        = "signal-rev-bundle"
-name        = "SIGNAL REV Bundle"
-vendor      = "Output"
-version     = "1.0"
-description = "Bundle pairing Output's Signal synthesizer and REV reversed instrument for wide-ranging electronic sound design."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://output.com/products"
+slug         = "signal-rev-bundle"
+name         = "SIGNAL REV Bundle"
+vendor       = "Output"
+version      = "1.0"
+description  = "Bundle pairing Output's Signal synthesizer and REV reversed instrument for wide-ranging electronic sound design."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://output.com/products"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/1520-SIGNAL-REV-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://output.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://output.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://output.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://output.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "harmonics"
-name        = "Harmonics"
-vendor      = "Softube"
-version     = "2.6"
-description = "Analog saturation processor with Dynamic Transient Control to add harmonic richness without losing punch."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/harmonics-analog-saturation-processor"
-is_paid     = true
+slug         = "harmonics"
+name         = "Harmonics"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Analog saturation processor with Dynamic Transient Control to add harmonic richness without losing punch."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/harmonics-analog-saturation-processor"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/harmonics-analog-saturation-processor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/harmonics-analog-saturation-processor"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/harmonics-analog-saturation-processor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/harmonics-analog-saturation-processor"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

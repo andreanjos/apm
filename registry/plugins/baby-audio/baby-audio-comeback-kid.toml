@@ -1,24 +1,28 @@
-slug        = "baby-audio-comeback-kid"
-name        = "Comeback Kid"
-vendor      = "Baby Audio"
-version     = "1.6"
-description = "Analog-flavored delay engine with a streamlined interface offering warm, characterful echo from subtle slapback to cascading repeats."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = ["delay", "analog", "echo", "slapback", "tape", "warmth", "creative", "vintage"]
-homepage    = "https://babyaud.io/comeback-kid-delay-plugin"
+slug         = "baby-audio-comeback-kid"
+name         = "Comeback Kid"
+vendor       = "Baby Audio"
+version      = "1.6"
+description  = "Analog-flavored delay engine with a streamlined interface offering warm, characterful echo from subtle slapback to cascading repeats."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = ["delay", "analog", "echo", "slapback", "tape", "warmth", "creative", "vintage"]
+aliases      = ["comeback-kid"]
+homepage     = "https://babyaud.io/comeback-kid-delay-plugin"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/6204-Comeback-Kid?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://babyaud.io/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://babyaud.io/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "Comeback Kid.vst3"
+bundle_path   = "Comeback Kid.vst3"
 
 [formats.au]
-url          = "https://babyaud.io/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://babyaud.io/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "Comeback Kid.component"
+bundle_path   = "Comeback Kid.component"

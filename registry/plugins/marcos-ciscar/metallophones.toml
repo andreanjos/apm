@@ -1,25 +1,26 @@
-slug        = "metallophones"
-name        = "Metallophones"
-vendor      = "Marcos Ciscar"
-version     = "1.0.0"
-description = "Kontakt library of bowed vibraphone, glockenspiel, tam tam, and metallic textural instruments."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.marcosciscar.com"
-is_paid     = true
+slug         = "metallophones"
+name         = "Metallophones"
+vendor       = "Marcos Ciscar"
+version      = "1.0.0"
+description  = "Kontakt library of bowed vibraphone, glockenspiel, tam tam, and metallic textural instruments."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.marcosciscar.com"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.marcosciscar.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.marcosciscar.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.marcosciscar.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.marcosciscar.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

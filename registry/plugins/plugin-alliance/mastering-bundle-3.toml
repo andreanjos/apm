@@ -1,26 +1,27 @@
-slug        = "mastering-bundle-3"
-name        = "Mastering Bundle 3"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Third curated Plugin Alliance mastering bundle featuring bx_dynEQ V2, bx_hybrid V2, bx_limiter, and Vertigo VSM-3."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products.html"
-is_paid     = true
+slug         = "mastering-bundle-3"
+name         = "Mastering Bundle 3"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Third curated Plugin Alliance mastering bundle featuring bx_dynEQ V2, bx_hybrid V2, bx_limiter, and Vertigo VSM-3."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

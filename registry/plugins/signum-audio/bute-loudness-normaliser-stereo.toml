@@ -1,25 +1,26 @@
-slug        = "bute-loudness-normaliser-stereo"
-name        = "BUTE Loudness Normaliser Stereo"
-vendor      = "Signum Audio"
-version     = "1.0.0"
-description = "Stereo AudioSuite normaliser for Pro Tools ensuring loudness compliance with broadcast delivery standards."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.signumaudio.com/bute-loudness-suite"
-is_paid     = true
+slug         = "bute-loudness-normaliser-stereo"
+name         = "BUTE Loudness Normaliser Stereo"
+vendor       = "Signum Audio"
+version      = "1.0.0"
+description  = "Stereo AudioSuite normaliser for Pro Tools ensuring loudness compliance with broadcast delivery standards."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.signumaudio.com/bute-loudness-suite"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.signumaudio.com/bute-loudness-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.signumaudio.com/bute-loudness-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.signumaudio.com/bute-loudness-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.signumaudio.com/bute-loudness-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

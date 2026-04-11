@@ -1,25 +1,26 @@
-slug        = "miroslav-philharmonik-2-crossgrade"
-name        = "Miroslav Philharmonik 2 Crossgrade"
-vendor      = "IK Multimedia"
-version     = "2.0"
-description = "Crossgrade to Miroslav Philharmonik 2, the 58 GB orchestral virtual instrument with 2,700+ instruments."
-category    = "instruments"
-subcategory = "orchestral"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/philharmonik2/"
-is_paid     = true
+slug         = "miroslav-philharmonik-2-crossgrade"
+name         = "Miroslav Philharmonik 2 Crossgrade"
+vendor       = "IK Multimedia"
+version      = "2.0"
+description  = "Crossgrade to Miroslav Philharmonik 2, the 58 GB orchestral virtual instrument with 2,700+ instruments."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "orchestral"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/philharmonik2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/philharmonik2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/philharmonik2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/philharmonik2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/philharmonik2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

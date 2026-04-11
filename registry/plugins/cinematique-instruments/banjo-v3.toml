@@ -1,26 +1,27 @@
-slug        = "banjo-v3"
-name        = "Banjo v3"
-vendor      = "Cinematique Instruments"
-version     = "3"
-description = "Bluegrass banjo Kontakt instrument with detailed articulations and multiple round robin variations."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://cinematique-instruments.com/"
+slug         = "banjo-v3"
+name         = "Banjo v3"
+vendor       = "Cinematique Instruments"
+version      = "3"
+description  = "Bluegrass banjo Kontakt instrument with detailed articulations and multiple round robin variations."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://cinematique-instruments.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9304-Banjo-v3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cinematique-instruments.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cinematique-instruments.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cinematique-instruments.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cinematique-instruments.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

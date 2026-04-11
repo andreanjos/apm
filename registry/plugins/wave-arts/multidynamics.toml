@@ -1,25 +1,26 @@
-slug        = "multidynamics"
-name        = "MultiDynamics"
-vendor      = "Wave Arts"
-version     = "7.0"
-description = "Multiband dynamics processor combining compression, expansion, and limiting across up to six frequency bands."
-category    = "effects"
-subcategory = "dynamic processor"
-license     = "commercial"
-tags        = []
-homepage    = "https://wavearts.com/products/"
-is_paid     = true
+slug         = "multidynamics"
+name         = "MultiDynamics"
+vendor       = "Wave Arts"
+version      = "7.0"
+description  = "Multiband dynamics processor combining compression, expansion, and limiting across up to six frequency bands."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamic processor"
+license      = "commercial"
+tags         = []
+homepage     = "https://wavearts.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://wavearts.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavearts.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://wavearts.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavearts.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

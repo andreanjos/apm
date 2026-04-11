@@ -1,26 +1,27 @@
-slug        = "multidrive-pro"
-name        = "MultiDrive PRO"
-vendor      = "Audified"
-version     = "3.0.0"
-description = "Versatile saturation and drive plugin offering multiple tube and transistor circuit emulations."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/multidrive-pro/"
+slug         = "multidrive-pro"
+name         = "MultiDrive PRO"
+vendor       = "Audified"
+version      = "3.0.0"
+description  = "Versatile saturation and drive plugin offering multiple tube and transistor circuit emulations."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/multidrive-pro/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/15715-MultiDrive-PRO?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/multidrive-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/multidrive-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/multidrive-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/multidrive-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

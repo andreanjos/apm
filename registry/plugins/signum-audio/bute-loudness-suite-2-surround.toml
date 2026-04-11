@@ -1,26 +1,27 @@
-slug        = "bute-loudness-suite-2-surround"
-name        = "BUTE Loudness Suite 2 Surround"
-vendor      = "Signum Audio"
-version     = "1.0.0"
-description = "Surround loudness toolkit combining the BUTE Limiter 2, Analyser 2, and Normaliser for multichannel work."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.signumaudio.com/bute-loudness-suite"
+slug         = "bute-loudness-suite-2-surround"
+name         = "BUTE Loudness Suite 2 Surround"
+vendor       = "Signum Audio"
+version      = "1.0.0"
+description  = "Surround loudness toolkit combining the BUTE Limiter 2, Analyser 2, and Normaliser for multichannel work."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.signumaudio.com/bute-loudness-suite"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/5198-BUTE-Loudness-Suite-2-Surround-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.signumaudio.com/bute-loudness-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.signumaudio.com/bute-loudness-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.signumaudio.com/bute-loudness-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.signumaudio.com/bute-loudness-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "genius-loci-kalogria"
-name        = "Genius Loci: Kalogria"
-vendor      = "Atom Hub"
-version     = "1.0.0"
-description = "Ambient Kontakt instrument from the Genius Loci series capturing the Kalogria coastal environment."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://atomhub.net/Libraries.html"
-is_paid     = true
+slug         = "genius-loci-kalogria"
+name         = "Genius Loci: Kalogria"
+vendor       = "Atom Hub"
+version      = "1.0.0"
+description  = "Ambient Kontakt instrument from the Genius Loci series capturing the Kalogria coastal environment."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://atomhub.net/Libraries.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://atomhub.net/Libraries.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://atomhub.net/Libraries.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://atomhub.net/Libraries.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://atomhub.net/Libraries.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

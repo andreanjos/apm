@@ -1,25 +1,26 @@
-slug        = "artifact-reanimate"
-name        = "Artifact Reanimate"
-vendor      = "Audio Imperia"
-version     = "1.0.0"
-description = "Kontakt Player instrument with percussive kits and construction loops for trailer sound design."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audioimperia.com/product/artifact-reanimate/"
-is_paid     = true
+slug         = "artifact-reanimate"
+name         = "Artifact Reanimate"
+vendor       = "Audio Imperia"
+version      = "1.0.0"
+description  = "Kontakt Player instrument with percussive kits and construction loops for trailer sound design."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audioimperia.com/product/artifact-reanimate/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audioimperia.com/product/artifact-reanimate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioimperia.com/product/artifact-reanimate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audioimperia.com/product/artifact-reanimate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioimperia.com/product/artifact-reanimate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,27 @@
-slug        = "veevum-3-real"
-name        = "Veevum 3 – Real"
-vendor      = "Audiofier"
-version     = "1.0"
-description = "Ambient Kontakt instrument with processed acoustic instrument recordings for organic soundscapes."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiofier.co.uk/veevum-real/"
-is_paid     = true
+slug         = "veevum-3-real"
+name         = "Veevum 3 - Real"
+vendor       = "Audiofier"
+version      = "1.0"
+description  = "Ambient Kontakt instrument with processed acoustic instrument recordings for organic soundscapes."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["veevum-3-8211-real"]
+homepage     = "https://www.audiofier.co.uk/veevum-real/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiofier.co.uk/veevum-real/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/veevum-real/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiofier.co.uk/veevum-real/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/veevum-real/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

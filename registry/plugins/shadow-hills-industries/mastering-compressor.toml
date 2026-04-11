@@ -1,25 +1,26 @@
-slug        = "mastering-compressor"
-name        = "Mastering Compressor"
-vendor      = "Shadow Hills Industries"
-version     = "1.0"
-description = "Shadow Hills Industries Mastering Compressor plugin emulating the iconic hardware unit."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://shadowhillsindustries.com/"
-is_paid     = true
+slug         = "mastering-compressor"
+name         = "Mastering Compressor"
+vendor       = "Shadow Hills Industries"
+version      = "1.0"
+description  = "Shadow Hills Industries Mastering Compressor plugin emulating the iconic hardware unit."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://shadowhillsindustries.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://shadowhillsindustries.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://shadowhillsindustries.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://shadowhillsindustries.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://shadowhillsindustries.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

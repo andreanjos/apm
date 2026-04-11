@@ -1,26 +1,27 @@
-slug        = "breakstation-triaz-expansion"
-name        = "Breakstation Triaz Expansion"
-vendor      = "Wave Alchemy"
-version     = "1.0.0"
-description = "Triaz expansion with high-energy drums inspired by the sound of 90s Jungle and DnB."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.wavealchemy.co.uk/product-category/sounds/triaz-expansions/"
+slug         = "breakstation-triaz-expansion"
+name         = "Breakstation Triaz Expansion"
+vendor       = "Wave Alchemy"
+version      = "1.0.0"
+description  = "Triaz expansion with high-energy drums inspired by the sound of 90s Jungle and DnB."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.wavealchemy.co.uk/product-category/sounds/triaz-expansions/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/15122-Breakstation-Triaz-Expansion-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.wavealchemy.co.uk/product-category/sounds/triaz-expansions/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product-category/sounds/triaz-expansions/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.wavealchemy.co.uk/product-category/sounds/triaz-expansions/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product-category/sounds/triaz-expansions/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

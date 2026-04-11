@@ -1,26 +1,27 @@
-slug        = "heartbeat"
-name        = "Heartbeat"
-vendor      = "Softube"
-version     = "2.6"
-description = "Analog-modeled drum synthesizer with eight channels, layering machine, reverb, and dynamics processing."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/synthesizers/heartbeat"
-is_paid     = true
+slug         = "heartbeat"
+name         = "Heartbeat"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Analog-modeled drum synthesizer with eight channels, layering machine, reverb, and dynamics processing."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/synthesizers/heartbeat"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/heartbeat"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/heartbeat"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/heartbeat"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/heartbeat"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

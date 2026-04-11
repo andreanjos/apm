@@ -1,25 +1,26 @@
-slug        = "spaceology"
-name        = "Spaceology"
-vendor      = "unEarthed Sampling"
-version     = "1.0"
-description = "Kontakt orbital sound module built from NASA public domain recordings with creepy pads and mission dialogue."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.unearthedsampling.com/spaceology"
-is_paid     = true
+slug         = "spaceology"
+name         = "Spaceology"
+vendor       = "unEarthed Sampling"
+version      = "1.0"
+description  = "Kontakt orbital sound module built from NASA public domain recordings with creepy pads and mission dialogue."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.unearthedsampling.com/spaceology"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.unearthedsampling.com/spaceology"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.unearthedsampling.com/spaceology"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.unearthedsampling.com/spaceology"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.unearthedsampling.com/spaceology"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

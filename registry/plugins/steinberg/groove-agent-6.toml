@@ -1,26 +1,27 @@
-slug        = "groove-agent-6"
-name        = "Groove Agent 6"
-vendor      = "Steinberg"
-version     = "6"
-description = "Advanced virtual drum workstation with layering, replacement, new Punch Kit, and enhanced Pattern Editor."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.steinberg.net/vst-instruments/groove-agent/"
+slug         = "groove-agent-6"
+name         = "Groove Agent 6"
+vendor       = "Steinberg"
+version      = "6"
+description  = "Advanced virtual drum workstation with layering, replacement, new Punch Kit, and enhanced Pattern Editor."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.steinberg.net/vst-instruments/groove-agent/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/16853-Groove-Agent-6?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.steinberg.net/vst-instruments/groove-agent/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/vst-instruments/groove-agent/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.steinberg.net/vst-instruments/groove-agent/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/vst-instruments/groove-agent/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "retromod-complete-collection"
-name        = "Retromod Complete Collection"
-vendor      = "Tracktion"
-version     = "1.0.0"
-description = "Complete collection of all RetroMod synth plugins covering Wired, Classic, and Modern hardware emulations."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tracktion.com/products/retromod"
-is_paid     = true
+slug         = "retromod-complete-collection"
+name         = "Retromod Complete Collection"
+vendor       = "Tracktion"
+version      = "1.0.0"
+description  = "Complete collection of all RetroMod synth plugins covering Wired, Classic, and Modern hardware emulations."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tracktion.com/products/retromod"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tracktion.com/products/retromod"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/retromod"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tracktion.com/products/retromod"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/retromod"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

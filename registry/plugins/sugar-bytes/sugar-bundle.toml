@@ -1,25 +1,26 @@
-slug        = "sugar-bundle"
-name        = "Sugar Bundle"
-vendor      = "Sugar Bytes"
-version     = "1.0.0"
-description = "Complete Sugar Bytes plugin bundle with all 17 plugins plus discounts on future releases."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://sugar-bytes.de/sugarbundle"
-is_paid     = true
+slug         = "sugar-bundle"
+name         = "Sugar Bundle"
+vendor       = "Sugar Bytes"
+version      = "1.0.0"
+description  = "Complete Sugar Bytes plugin bundle with all 17 plugins plus discounts on future releases."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://sugar-bytes.de/sugarbundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sugar-bytes.de/sugarbundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/sugarbundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sugar-bytes.de/sugarbundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/sugarbundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

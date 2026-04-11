@@ -1,26 +1,27 @@
-slug        = "kc-1-tube-compressor"
-name        = "KC 1 Tube Compressor"
-vendor      = "Kiive Audio"
-version     = "1.0.0"
-description = "Opto-style tube compressor delivering classic warmth and musical compression for vocals and drums."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kiiveaudio.com/products/kc1"
+slug         = "kc-1-tube-compressor"
+name         = "KC 1 Tube Compressor"
+vendor       = "Kiive Audio"
+version      = "1.0.0"
+description  = "Opto-style tube compressor delivering classic warmth and musical compression for vocals and drums."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kiiveaudio.com/products/kc1"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/12902-KC-1-Tube-Compressor?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kiiveaudio.com/products/kc1"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kiiveaudio.com/products/kc1"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kiiveaudio.com/products/kc1"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kiiveaudio.com/products/kc1"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

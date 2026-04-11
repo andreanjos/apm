@@ -1,25 +1,26 @@
-slug        = "cinematique-instruments-2"
-name        = "Cinematique Instruments 2"
-vendor      = "Cinematique Instruments"
-version     = "2"
-description = "Expanded bundle of Cinematique Instruments' boutique Kontakt and HALion library collection."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bestservice.com/en/cinematique_instruments_2.html"
-is_paid     = true
+slug         = "cinematique-instruments-2"
+name         = "Cinematique Instruments 2"
+vendor       = "Cinematique Instruments"
+version      = "2"
+description  = "Expanded bundle of Cinematique Instruments' boutique Kontakt and HALion library collection."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bestservice.com/en/cinematique_instruments_2.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bestservice.com/en/cinematique_instruments_2.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bestservice.com/en/cinematique_instruments_2.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bestservice.com/en/cinematique_instruments_2.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bestservice.com/en/cinematique_instruments_2.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

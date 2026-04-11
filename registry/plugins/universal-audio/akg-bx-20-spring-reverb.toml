@@ -1,25 +1,26 @@
-slug        = "akg-bx-20-spring-reverb"
-name        = "AKG BX 20 Spring Reverb"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the classic AKG BX 20 spring reverb unit used on countless recordings."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/reverbs/akg-bx-20-spring-reverb.html"
-is_paid     = true
+slug         = "akg-bx-20-spring-reverb"
+name         = "AKG BX 20 Spring Reverb"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the classic AKG BX 20 spring reverb unit used on countless recordings."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/reverbs/akg-bx-20-spring-reverb.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/reverbs/akg-bx-20-spring-reverb.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/reverbs/akg-bx-20-spring-reverb.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/reverbs/akg-bx-20-spring-reverb.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/reverbs/akg-bx-20-spring-reverb.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

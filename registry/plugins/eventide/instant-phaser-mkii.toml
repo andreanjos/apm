@@ -1,24 +1,25 @@
-slug        = "instant-phaser-mkii"
-name        = "Instant Phaser MkII"
-vendor      = "Eventide"
-version     = "1.0.0"
-description = "Classic tape-style phasing plug-in for lush vintage phasing on vocals, guitars, drums, and synths."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eventideaudio.com/plug-ins/instant-phaser-mk-ii/"
-is_paid     = true
+slug         = "instant-phaser-mkii"
+name         = "Instant Phaser MkII"
+vendor       = "Eventide"
+version      = "1.0.0"
+description  = "Classic tape-style phasing plug-in for lush vintage phasing on vocals, guitars, drums, and synths."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eventideaudio.com/plug-ins/instant-phaser-mk-ii/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eventideaudio.com/plug-ins/instant-phaser-mk-ii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/instant-phaser-mk-ii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eventideaudio.com/plug-ins/instant-phaser-mk-ii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/instant-phaser-mk-ii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

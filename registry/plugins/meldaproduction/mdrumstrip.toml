@@ -1,26 +1,27 @@
-slug        = "mdrumstrip"
-name        = "MDrumStrip"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "All-in-one drum mixing plugin combining EQ, compression, reverb, and gating for professional results quickly."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MDrumStrip"
+slug         = "mdrumstrip"
+name         = "MDrumStrip"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "All-in-one drum mixing plugin combining EQ, compression, reverb, and gating for professional results quickly."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MDrumStrip"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/10655-MDrumStrip?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MDrumStrip"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MDrumStrip"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MDrumStrip"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MDrumStrip"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

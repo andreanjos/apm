@@ -1,26 +1,27 @@
-slug        = "korvpressor"
-name        = "Korvpressor"
-vendor      = "Klevgrand"
-version     = "2.0.3"
-description = "An adaptive compressor/limiter with a super-simple UI and a physical visual take on dynamic control."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://klevgrand.com/products/korvpressor"
+slug         = "korvpressor"
+name         = "Korvpressor"
+vendor       = "Klevgrand"
+version      = "2.0.3"
+description  = "An adaptive compressor/limiter with a super-simple UI and a physical visual take on dynamic control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://klevgrand.com/products/korvpressor"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/8710-Korvpressor?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klevgrand.com/products/korvpressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/korvpressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klevgrand.com/products/korvpressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/korvpressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

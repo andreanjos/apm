@@ -1,26 +1,27 @@
-slug        = "hertz-drums-2-p-ter-somos-midi-grooves"
-name        = "Hertz Drums 2 P ter Somos MIDI Grooves"
-vendor      = "Hertz Instruments"
-version     = "1.0.0"
-description = "MIDI groove pack by drummer Péter Somos with 520 progressive, odd-meter, and Balkan-inspired patterns."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://hertzinstruments.com/grooves/peter-somos-midi-grooves/"
+slug         = "hertz-drums-2-p-ter-somos-midi-grooves"
+name         = "Hertz Drums 2 P ter Somos MIDI Grooves"
+vendor       = "Hertz Instruments"
+version      = "1.0.0"
+description  = "MIDI groove pack by drummer Péter Somos with 520 progressive, odd-meter, and Balkan-inspired patterns."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://hertzinstruments.com/grooves/peter-somos-midi-grooves/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/13330-Hertz-Drums-2-P-ter-Somos-MIDI-Grooves?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hertzinstruments.com/grooves/peter-somos-midi-grooves/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/grooves/peter-somos-midi-grooves/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hertzinstruments.com/grooves/peter-somos-midi-grooves/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/grooves/peter-somos-midi-grooves/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

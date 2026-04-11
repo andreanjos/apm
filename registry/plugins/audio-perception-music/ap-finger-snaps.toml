@@ -1,25 +1,26 @@
-slug        = "ap-finger-snaps"
-name        = "AP Finger Snaps"
-vendor      = "Audio Perception Music"
-version     = "1.0.0"
-description = "Kontakt finger snap library with natural, human-feel performances for easy MIDI programming."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://audioperceptionmusic.com/shop/sounds/ap-finger-snaps/"
-is_paid     = true
+slug         = "ap-finger-snaps"
+name         = "AP Finger Snaps"
+vendor       = "Audio Perception Music"
+version      = "1.0.0"
+description  = "Kontakt finger snap library with natural, human-feel performances for easy MIDI programming."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://audioperceptionmusic.com/shop/sounds/ap-finger-snaps/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audioperceptionmusic.com/shop/sounds/ap-finger-snaps/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audioperceptionmusic.com/shop/sounds/ap-finger-snaps/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audioperceptionmusic.com/shop/sounds/ap-finger-snaps/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audioperceptionmusic.com/shop/sounds/ap-finger-snaps/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

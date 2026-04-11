@@ -1,25 +1,26 @@
-slug        = "oxford-debuzzer-native"
-name        = "Oxford DeBuzzer Native"
-vendor      = "Sonnox"
-version     = "1.0.0"
-description = "Oxford DeBuzzer Native removes electrical hum, buzz, and tonal interference from recordings with surgical precision."
-category    = "effects"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/"
-is_paid     = true
+slug         = "oxford-debuzzer-native"
+name         = "Oxford DeBuzzer Native"
+vendor       = "Sonnox"
+version      = "1.0.0"
+description  = "Oxford DeBuzzer Native removes electrical hum, buzz, and tonal interference from recordings with surgical precision."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonnox.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

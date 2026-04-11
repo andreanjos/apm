@@ -1,25 +1,26 @@
-slug        = "the-oberheim-bundle"
-name        = "The Oberheim Bundle"
-vendor      = "GForce Software"
-version     = "1.0.0"
-description = "Bundle of GForce's officially endorsed Oberheim synthesizer and drum machine emulations."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.gforcesoftware.com/products/"
-is_paid     = true
+slug         = "the-oberheim-bundle"
+name         = "The Oberheim Bundle"
+vendor       = "GForce Software"
+version      = "1.0.0"
+description  = "Bundle of GForce's officially endorsed Oberheim synthesizer and drum machine emulations."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.gforcesoftware.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.gforcesoftware.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gforcesoftware.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.gforcesoftware.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gforcesoftware.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

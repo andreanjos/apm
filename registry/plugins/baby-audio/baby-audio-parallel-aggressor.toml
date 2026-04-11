@@ -1,24 +1,28 @@
-slug        = "baby-audio-parallel-aggressor"
-name        = "Parallel Aggressor"
-vendor      = "Baby Audio"
-version     = "1.5"
-description = "Parallel processing plugin with three simultaneous signal paths — compression, saturation, and dry — for adding weight and punch to any sound."
-category    = "effects"
-subcategory = "dynamics"
-license     = "commercial"
-tags        = ["parallel", "compression", "saturation", "punch", "mixing", "glue", "dynamics"]
-homepage    = "https://babyaud.io/parallel-aggressor-plugin"
+slug         = "baby-audio-parallel-aggressor"
+name         = "Parallel Aggressor"
+vendor       = "Baby Audio"
+version      = "1.5"
+description  = "Parallel processing plugin with three simultaneous signal paths - compression, saturation, and dry - for adding weight and punch to any sound."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamics"
+license      = "commercial"
+tags         = ["parallel", "compression", "saturation", "punch", "mixing", "glue", "dynamics"]
+aliases      = ["parallel-aggressor"]
+homepage     = "https://babyaud.io/parallel-aggressor-plugin"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6639-Parallel-Aggressor?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://babyaud.io/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://babyaud.io/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "Parallel Aggressor.vst3"
+bundle_path   = "Parallel Aggressor.vst3"
 
 [formats.au]
-url          = "https://babyaud.io/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://babyaud.io/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "Parallel Aggressor.component"
+bundle_path   = "Parallel Aggressor.component"

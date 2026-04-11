@@ -1,27 +1,28 @@
-slug        = "ampeg-svt-vr"
-name        = "Ampeg SVT VR"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Plugin recreation of Ampeg's iconic 300-watt SVT-VR bass amp with full preamp, power section, and cabinet modeling."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/ampeg_svtvr.html"
+slug         = "ampeg-svt-vr"
+name         = "Ampeg SVT VR"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Plugin recreation of Ampeg's iconic 300-watt SVT-VR bass amp with full preamp, power section, and cabinet modeling."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/ampeg_svtvr.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/11338-Ampeg-SVT-VR?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/ampeg_svtvr.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/ampeg_svtvr.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/ampeg_svtvr.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/ampeg_svtvr.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

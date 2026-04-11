@@ -1,26 +1,27 @@
-slug        = "transistor-revolution-mkii"
-name        = "Transistor Revolution MKII"
-vendor      = "Wave Alchemy"
-version     = "1.0.0"
-description = "Kontakt TR-808/909 drum machine emulation with a 16-track step sequencer and dedicated 10-track mixer."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.wavealchemy.co.uk/product/transistor-revolution-mkii/"
+slug         = "transistor-revolution-mkii"
+name         = "Transistor Revolution MKII"
+vendor       = "Wave Alchemy"
+version      = "1.0.0"
+description  = "Kontakt TR-808/909 drum machine emulation with a 16-track step sequencer and dedicated 10-track mixer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.wavealchemy.co.uk/product/transistor-revolution-mkii/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/803-Transistor-Revolution-MKII?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.wavealchemy.co.uk/product/transistor-revolution-mkii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/transistor-revolution-mkii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.wavealchemy.co.uk/product/transistor-revolution-mkii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/transistor-revolution-mkii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

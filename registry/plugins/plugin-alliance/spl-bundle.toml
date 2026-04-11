@@ -1,26 +1,27 @@
-slug        = "spl-bundle"
-name        = "SPL Bundle"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Complete collection of SPL Analog Code plugins covering EQ, compression, saturation, transient shaping, and mastering."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/spl-bundle-monthly.html"
-is_paid     = true
+slug         = "spl-bundle"
+name         = "SPL Bundle"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Complete collection of SPL Analog Code plugins covering EQ, compression, saturation, transient shaping, and mastering."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/spl-bundle-monthly.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/spl-bundle-monthly.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/spl-bundle-monthly.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/spl-bundle-monthly.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/spl-bundle-monthly.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

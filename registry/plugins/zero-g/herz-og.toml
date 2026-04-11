@@ -1,25 +1,26 @@
-slug        = "herz-og"
-name        = "Herz-OG"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "A 12GB Kontakt synthesizer instrument featuring over 35,000 samples with 600+ presets and integrated sequencer."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/herz-og"
-is_paid     = true
+slug         = "herz-og"
+name         = "Herz-OG"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "A 12GB Kontakt synthesizer instrument featuring over 35,000 samples with 600+ presets and integrated sequencer."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/herz-og"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/herz-og"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/herz-og"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/herz-og"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/herz-og"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "vla-2a-mark-ii"
-name        = "VLA 2A Mark II"
-vendor      = "Black Rooster Audio"
-version     = "3.0.0"
-description = "Optoelectronic compressor emulation of a late-1960s leveling amplifier for smooth natural compression."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://blackroosteraudio.com/en/products/vla-2a"
+slug         = "vla-2a-mark-ii"
+name         = "VLA 2A Mark II"
+vendor       = "Black Rooster Audio"
+version      = "3.0.0"
+description  = "Optoelectronic compressor emulation of a late-1960s leveling amplifier for smooth natural compression."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://blackroosteraudio.com/en/products/vla-2a"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11340-VLA-2A-Mark-II?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://blackroosteraudio.com/en/products/vla-2a"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackroosteraudio.com/en/products/vla-2a"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://blackroosteraudio.com/en/products/vla-2a"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackroosteraudio.com/en/products/vla-2a"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

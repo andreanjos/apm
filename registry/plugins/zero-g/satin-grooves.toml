@@ -1,25 +1,26 @@
-slug        = "satin-grooves"
-name        = "Satin Grooves"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Over 650 samples capturing authentic 70s and 80s funk, soul, and disco grooves in pristine 24-bit audio."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/satin-grooves"
-is_paid     = true
+slug         = "satin-grooves"
+name         = "Satin Grooves"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Over 650 samples capturing authentic 70s and 80s funk, soul, and disco grooves in pristine 24-bit audio."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/satin-grooves"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/satin-grooves"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/satin-grooves"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/satin-grooves"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/satin-grooves"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

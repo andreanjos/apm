@@ -1,26 +1,27 @@
-slug        = "deep-techno-for-pigments"
-name        = "Deep Techno for Pigments"
-vendor      = "LP24 Audio"
-version     = "1.0.0"
-description = "Dark and driving techno preset pack for Arturia Pigments synthesizer."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://lp24audio.com/shop/arturia-pigments-presets"
+slug         = "deep-techno-for-pigments"
+name         = "Deep Techno for Pigments"
+vendor       = "LP24 Audio"
+version      = "1.0.0"
+description  = "Dark and driving techno preset pack for Arturia Pigments synthesizer."
+category     = "instruments"
+product_type = "preset_pack"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://lp24audio.com/shop/arturia-pigments-presets"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/6980-Deep-Techno-for-Pigments?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://lp24audio.com/shop/arturia-pigments-presets"
-sha256       = ""
-install_type = "zip"
+url           = "https://lp24audio.com/shop/arturia-pigments-presets"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://lp24audio.com/shop/arturia-pigments-presets"
-sha256       = ""
-install_type = "zip"
+url           = "https://lp24audio.com/shop/arturia-pigments-presets"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

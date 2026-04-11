@@ -1,26 +1,27 @@
-slug        = "fix-flanger-and-doubler"
-name        = "Fix Flanger and Doubler"
-vendor      = "Softube"
-version     = "2.6"
-description = "Classic analog flanger and doubler effects plugin for chorus-like modulation and thickening."
-category    = "effects"
-subcategory = "flanger"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/fix-flanger-and-doubler"
-is_paid     = true
+slug         = "fix-flanger-and-doubler"
+name         = "Fix Flanger and Doubler"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Classic analog flanger and doubler effects plugin for chorus-like modulation and thickening."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "flanger"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/fix-flanger-and-doubler"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/fix-flanger-and-doubler"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/fix-flanger-and-doubler"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/fix-flanger-and-doubler"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/fix-flanger-and-doubler"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

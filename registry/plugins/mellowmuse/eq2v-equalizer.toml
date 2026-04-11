@@ -1,26 +1,27 @@
-slug        = "eq2v-equalizer"
-name        = "EQ2V Equalizer"
-vendor      = "Mellowmuse"
-version     = "3.2.0"
-description = "Vintage-style parametric equalizer plugin with warm analogue character and musical curves."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.mellowmuse.com/"
+slug         = "eq2v-equalizer"
+name         = "EQ2V Equalizer"
+vendor       = "Mellowmuse"
+version      = "3.2.0"
+description  = "Vintage-style parametric equalizer plugin with warm analogue character and musical curves."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.mellowmuse.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/6692-EQ2V-Equalizer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.mellowmuse.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.mellowmuse.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.mellowmuse.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.mellowmuse.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

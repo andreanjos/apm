@@ -1,26 +1,27 @@
-slug        = "gnome-kick"
-name        = "Gnome Kick"
-vendor      = "Bass Gnomes"
-version     = "1.0.0"
-description = "Free kick drum generator plugin with synthesis-based kick drum creation tools."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://bassgnomes.wordpress.com/"
+slug         = "gnome-kick"
+name         = "Gnome Kick"
+vendor       = "Bass Gnomes"
+version      = "1.0.0"
+description  = "Free kick drum generator plugin with synthesis-based kick drum creation tools."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://bassgnomes.wordpress.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/509-Gnome-Kick?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bassgnomes.wordpress.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://bassgnomes.wordpress.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bassgnomes.wordpress.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://bassgnomes.wordpress.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

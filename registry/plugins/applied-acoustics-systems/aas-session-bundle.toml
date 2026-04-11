@@ -1,25 +1,26 @@
-slug        = "aas-session-bundle"
-name        = "AAS Session Bundle"
-vendor      = "Applied Acoustics Systems"
-version     = "1.0.0"
-description = "Applied Acoustics Systems bundle of entry-level Session editions of their modeled instruments."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.applied-acoustics.com/"
-is_paid     = true
+slug         = "aas-session-bundle"
+name         = "AAS Session Bundle"
+vendor       = "Applied Acoustics Systems"
+version      = "1.0.0"
+description  = "Applied Acoustics Systems bundle of entry-level Session editions of their modeled instruments."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.applied-acoustics.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.applied-acoustics.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.applied-acoustics.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

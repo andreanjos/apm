@@ -1,26 +1,27 @@
-slug        = "drumvolution"
-name        = "Drumvolution"
-vendor      = "Wave Alchemy"
-version     = "1.0.0"
-description = "Forward-thinking Kontakt drum engine powered by 28,000+ electronic drums and sound design tools."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.wavealchemy.co.uk/product/drumvolution/"
+slug         = "drumvolution"
+name         = "Drumvolution"
+vendor       = "Wave Alchemy"
+version      = "1.0.0"
+description  = "Forward-thinking Kontakt drum engine powered by 28,000+ electronic drums and sound design tools."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.wavealchemy.co.uk/product/drumvolution/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/4031-Drumvolution?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.wavealchemy.co.uk/product/drumvolution/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/drumvolution/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.wavealchemy.co.uk/product/drumvolution/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/drumvolution/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

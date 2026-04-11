@@ -1,25 +1,26 @@
-slug        = "voice-of-rapture-the-alto"
-name        = "Voice of Rapture: The Alto"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Solo alto voice Kontakt library from the Voice of Rapture series with rich, deep vocal tones."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/voice-of-rapture-the-alto"
-is_paid     = true
+slug         = "voice-of-rapture-the-alto"
+name         = "Voice of Rapture: The Alto"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Solo alto voice Kontakt library from the Voice of Rapture series with rich, deep vocal tones."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/voice-of-rapture-the-alto"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/voice-of-rapture-the-alto"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/voice-of-rapture-the-alto"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/voice-of-rapture-the-alto"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/voice-of-rapture-the-alto"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

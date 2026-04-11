@@ -1,26 +1,27 @@
-slug        = "bx-rockrack-v3"
-name        = "bx rockrack V3"
-vendor      = "Brainworx"
-version     = "1.0.0"
-description = "Multi-amp guitar simulator with eight amp models, professional cab IRs, and a versatile effects chain."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugin-alliance.com/products/bx_rockrack-v3"
+slug         = "bx-rockrack-v3"
+name         = "bx rockrack V3"
+vendor       = "Brainworx"
+version      = "1.0.0"
+description  = "Multi-amp guitar simulator with eight amp models, professional cab IRs, and a versatile effects chain."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugin-alliance.com/products/bx_rockrack-v3"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/10286-bx-rockrack-V3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/products/bx_rockrack-v3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/products/bx_rockrack-v3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/products/bx_rockrack-v3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/products/bx_rockrack-v3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

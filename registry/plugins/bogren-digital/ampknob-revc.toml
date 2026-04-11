@@ -1,26 +1,27 @@
-slug        = "ampknob-revc"
-name        = "AmpKnob RevC"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Single-knob high-gain amp sim based on a rare pre-500 Treadplate RevC for aggressive, tight rock and metal tones."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/ampknob-revc"
+slug         = "ampknob-revc"
+name         = "AmpKnob RevC"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Single-knob high-gain amp sim based on a rare pre-500 Treadplate RevC for aggressive, tight rock and metal tones."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/ampknob-revc"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/9175-AmpKnob-RevC?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/ampknob-revc"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/ampknob-revc"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/ampknob-revc"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/ampknob-revc"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

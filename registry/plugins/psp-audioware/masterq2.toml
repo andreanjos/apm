@@ -1,25 +1,26 @@
-slug        = "masterq2"
-name        = "MasterQ2"
-vendor      = "PSP Audioware"
-version     = "2.1.5"
-description = "High-end mastering equalizer designed for precise surgical EQ and creative mixing applications."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-masterq2"
-is_paid     = true
+slug         = "masterq2"
+name         = "MasterQ2"
+vendor       = "PSP Audioware"
+version      = "2.1.5"
+description  = "High-end mastering equalizer designed for precise surgical EQ and creative mixing applications."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-masterq2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-masterq2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-masterq2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-masterq2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-masterq2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

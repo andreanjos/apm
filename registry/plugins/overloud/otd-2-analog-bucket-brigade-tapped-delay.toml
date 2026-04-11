@@ -1,25 +1,26 @@
-slug        = "otd-2-analog-bucket-brigade-tapped-delay"
-name        = "OTD-2: Analog Bucket-Brigade Tapped Delay"
-vendor      = "Overloud"
-version     = "1.0.0"
-description = "Emulation of a legendary bucket-brigade modulating tap delay with modern workflow enhancements."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.overloud.com/gems"
-is_paid     = true
+slug         = "otd-2-analog-bucket-brigade-tapped-delay"
+name         = "OTD-2: Analog Bucket-Brigade Tapped Delay"
+vendor       = "Overloud"
+version      = "1.0.0"
+description  = "Emulation of a legendary bucket-brigade modulating tap delay with modern workflow enhancements."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.overloud.com/gems"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.overloud.com/gems"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/gems"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.overloud.com/gems"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/gems"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

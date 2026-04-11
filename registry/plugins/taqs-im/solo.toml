@@ -1,26 +1,27 @@
-slug        = "solo"
-name        = "SOLO"
-vendor      = "TAQS IM"
-version     = "1.0"
-description = "Monophonic synthesizer plugin by TAQS.IM designed for expressive melodic lead playing."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://taqs.im/"
+slug         = "solo"
+name         = "SOLO"
+vendor       = "TAQS IM"
+version      = "1.0"
+description  = "Monophonic synthesizer plugin by TAQS.IM designed for expressive melodic lead playing."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://taqs.im/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16573-SOLO?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://taqs.im/"
-sha256       = ""
-install_type = "zip"
+url           = "https://taqs.im/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://taqs.im/"
-sha256       = ""
-install_type = "zip"
+url           = "https://taqs.im/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "duck"
-name        = "Duck"
-vendor      = "Devious Machines"
-version     = "1.0.0"
-description = "Sidechain-style ducking effect plugin for creating pumping and rhythmic volume automation."
-category    = "effects"
-subcategory = "envelope shaper"
-license     = "commercial"
-tags        = []
-homepage    = "https://deviousmachines.com/shop/"
-is_paid     = true
+slug         = "duck"
+name         = "Duck"
+vendor       = "Devious Machines"
+version      = "1.0.0"
+description  = "Sidechain-style ducking effect plugin for creating pumping and rhythmic volume automation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "envelope shaper"
+license      = "commercial"
+tags         = []
+homepage     = "https://deviousmachines.com/shop/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://deviousmachines.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://deviousmachines.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://deviousmachines.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://deviousmachines.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

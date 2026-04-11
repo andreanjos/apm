@@ -1,25 +1,26 @@
-slug        = "tbilat-drum"
-name        = "Tbilat Drum"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt library of the Moroccan tbilat drum with North African rhythmic articulations."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/tbilat-drum"
-is_paid     = true
+slug         = "tbilat-drum"
+name         = "Tbilat Drum"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt library of the Moroccan tbilat drum with North African rhythmic articulations."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/tbilat-drum"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/tbilat-drum"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/tbilat-drum"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/tbilat-drum"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/tbilat-drum"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "tdr-simulathe-ref"
-name        = "TDR SimuLathe REF"
-vendor      = "Tokyo Dawn Labs"
-version     = "1.1.1"
-description = "Virtual disk mastering reference tool modeling the playback characteristics of vinyl lacquer masters."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tokyodawn.net/tdr-simulathe-ref/"
+slug         = "tdr-simulathe-ref"
+name         = "TDR SimuLathe REF"
+vendor       = "Tokyo Dawn Labs"
+version      = "1.1.1"
+description  = "Virtual disk mastering reference tool modeling the playback characteristics of vinyl lacquer masters."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tokyodawn.net/tdr-simulathe-ref/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/10091-TDR-SimuLathe-REF?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tokyodawn.net/tdr-simulathe-ref/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tokyodawn.net/tdr-simulathe-ref/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tokyodawn.net/tdr-simulathe-ref/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tokyodawn.net/tdr-simulathe-ref/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

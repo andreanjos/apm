@@ -1,25 +1,26 @@
-slug        = "smarteq-3"
-name        = "smart:EQ 3"
-vendor      = "sonible"
-version     = "3.0"
-description = "AI-driven EQ that analyzes audio and compensates spectral imbalances with content-aware processing."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonible.com/smarteq4/"
-is_paid     = true
+slug         = "smarteq-3"
+name         = "smart:EQ 3"
+vendor       = "sonible"
+version      = "3.0"
+description  = "AI-driven EQ that analyzes audio and compensates spectral imbalances with content-aware processing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonible.com/smarteq4/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonible.com/smarteq4/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/smarteq4/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonible.com/smarteq4/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/smarteq4/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

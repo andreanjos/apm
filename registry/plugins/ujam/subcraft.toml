@@ -1,26 +1,27 @@
-slug        = "subcraft"
-name        = "SUBCRAFT"
-vendor      = "UJAM"
-version     = "2.0"
-description = "Sub bass instrument plugin for crafting modern, engineered low-end foundations."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ujam.com/craft/subcraft/"
+slug         = "subcraft"
+name         = "SUBCRAFT"
+vendor       = "UJAM"
+version      = "2.0"
+description  = "Sub bass instrument plugin for crafting modern, engineered low-end foundations."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ujam.com/craft/subcraft/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/13267-SUBCRAFT?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ujam.com/craft/subcraft/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/craft/subcraft/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ujam.com/craft/subcraft/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/craft/subcraft/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

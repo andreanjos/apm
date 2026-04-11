@@ -1,24 +1,28 @@
-slug        = "baby-audio-taip"
-name        = "TAIP"
-vendor      = "Baby Audio"
-version     = "1.6"
-description = "AI-powered tape emulation plugin delivering analog warmth, saturation, and lo-fi character of classic reel-to-reel tape machines with 135 presets."
-category    = "effects"
-subcategory = "tape"
-license     = "commercial"
-tags        = ["tape", "saturation", "analog", "warmth", "lo-fi", "ai", "emulation", "vintage"]
-homepage    = "https://babyaud.io/taip-plugin"
+slug         = "baby-audio-taip"
+name         = "TAIP"
+vendor       = "Baby Audio"
+version      = "1.6"
+description  = "AI-powered tape emulation plugin delivering analog warmth, saturation, and lo-fi character of classic reel-to-reel tape machines with 135 presets."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "tape"
+license      = "commercial"
+tags         = ["tape", "saturation", "analog", "warmth", "lo-fi", "ai", "emulation", "vintage"]
+aliases      = ["taip"]
+homepage     = "https://babyaud.io/taip-plugin"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/8102-TAIP?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://babyaud.io/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://babyaud.io/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "TAIP.vst3"
+bundle_path   = "TAIP.vst3"
 
 [formats.au]
-url          = "https://babyaud.io/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://babyaud.io/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "TAIP.component"
+bundle_path   = "TAIP.component"

@@ -1,26 +1,27 @@
-slug        = "kick-ninja"
-name        = "Kick Ninja"
-vendor      = "The Him DSP"
-version     = "1.0"
-description = "Drum synthesizer plugin by The Him DSP for designing powerful and punchy kick drums."
-category    = "instruments"
-subcategory = "drum synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://thehimdsp.com/"
+slug         = "kick-ninja"
+name         = "Kick Ninja"
+vendor       = "The Him DSP"
+version      = "1.0"
+description  = "Drum synthesizer plugin by The Him DSP for designing powerful and punchy kick drums."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://thehimdsp.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/139-Drum-Synth/13436-Kick-Ninja?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://thehimdsp.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://thehimdsp.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://thehimdsp.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://thehimdsp.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

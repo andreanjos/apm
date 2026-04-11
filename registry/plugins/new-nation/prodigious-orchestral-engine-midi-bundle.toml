@@ -1,25 +1,26 @@
-slug        = "prodigious-orchestral-engine-midi-bundle"
-name        = "Prodigious Orchestral Engine + MIDI Bundle"
-vendor      = "New Nation"
-version     = "1.0.0"
-description = "Prodigious Orchestral Engine bundled with an Ultimate MIDI Library for cinematic composition."
-category    = "instruments"
-subcategory = "orchestral"
-license     = "commercial"
-tags        = []
-homepage    = "https://nnaud.io/"
-is_paid     = true
+slug         = "prodigious-orchestral-engine-midi-bundle"
+name         = "Prodigious Orchestral Engine + MIDI Bundle"
+vendor       = "New Nation"
+version      = "1.0.0"
+description  = "Prodigious Orchestral Engine bundled with an Ultimate MIDI Library for cinematic composition."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "orchestral"
+license      = "commercial"
+tags         = []
+homepage     = "https://nnaud.io/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nnaud.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nnaud.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nnaud.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nnaud.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

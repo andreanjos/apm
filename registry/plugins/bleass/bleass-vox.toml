@@ -1,26 +1,27 @@
-slug        = "bleass-vox"
-name        = "BLEASS Vox"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "Vocal processor with vibrato, pitch correction, unison effects, and transpose/flatten modes."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/vox/"
+slug         = "bleass-vox"
+name         = "BLEASS Vox"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "Vocal processor with vibrato, pitch correction, unison effects, and transpose/flatten modes."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/vox/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/11909-BLEASS-Vox?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/vox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/vox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/vox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/vox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

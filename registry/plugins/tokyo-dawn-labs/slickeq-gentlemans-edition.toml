@@ -1,25 +1,27 @@
-slug        = "slickeq-gentlemans-edition"
-name        = "SlickEQ Gentleman’s Edition"
-vendor      = "Tokyo Dawn Labs"
-version     = "1.3.9"
-description = "Gentleman's Edition musical equalizer with three filter types, output saturation and M/S processing."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tokyodawn.net/tdr-vos-slickeq-ge/"
-is_paid     = true
+slug         = "slickeq-gentlemans-edition"
+name         = "SlickEQ Gentleman's Edition"
+vendor       = "Tokyo Dawn Labs"
+version      = "1.3.9"
+description  = "Gentleman's Edition musical equalizer with three filter types, output saturation and M/S processing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+aliases      = ["slickeq-gentleman8217s-edition"]
+homepage     = "https://www.tokyodawn.net/tdr-vos-slickeq-ge/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tokyodawn.net/tdr-vos-slickeq-ge/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tokyodawn.net/tdr-vos-slickeq-ge/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tokyodawn.net/tdr-vos-slickeq-ge/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tokyodawn.net/tdr-vos-slickeq-ge/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

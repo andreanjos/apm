@@ -1,24 +1,25 @@
-slug        = "analog-pro"
-name        = "Analog Pro"
-vendor      = "Initial Audio"
-version     = "1.0.0"
-description = "Lo-fi effect plugin adding analog warmth, noise, saturation and vintage character to audio."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://initialaudio.com/product/analog-pro/"
-is_paid     = true
+slug         = "analog-pro"
+name         = "Analog Pro"
+vendor       = "Initial Audio"
+version      = "1.0.0"
+description  = "Lo-fi effect plugin adding analog warmth, noise, saturation and vintage character to audio."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://initialaudio.com/product/analog-pro/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://initialaudio.com/product/analog-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://initialaudio.com/product/analog-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://initialaudio.com/product/analog-pro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://initialaudio.com/product/analog-pro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

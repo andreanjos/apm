@@ -1,26 +1,27 @@
-slug        = "ata-auto-time-adjuster"
-name        = "ATA Auto Time Adjuster"
-vendor      = "Mellowmuse"
-version     = "2.9.0"
-description = "Utility plugin that automatically adjusts track timing to compensate for latency and drift."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.mellowmuse.com/"
+slug         = "ata-auto-time-adjuster"
+name         = "ATA Auto Time Adjuster"
+vendor       = "Mellowmuse"
+version      = "2.9.0"
+description  = "Utility plugin that automatically adjusts track timing to compensate for latency and drift."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.mellowmuse.com/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/6685-ATA-Auto-Time-Adjuster?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.mellowmuse.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.mellowmuse.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.mellowmuse.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.mellowmuse.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

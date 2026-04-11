@@ -1,25 +1,26 @@
-slug        = "echoflex"
-name        = "Echoflex"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Flexible delay plugin offering multiple delay modes, analog warmth, and versatile modulation options."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p887-Echoflex/"
-is_paid     = true
+slug         = "echoflex"
+name         = "Echoflex"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Flexible delay plugin offering multiple delay modes, analog warmth, and versatile modulation options."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p887-Echoflex/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p887-Echoflex/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p887-Echoflex/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p887-Echoflex/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p887-Echoflex/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

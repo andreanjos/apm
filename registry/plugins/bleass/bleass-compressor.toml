@@ -1,26 +1,27 @@
-slug        = "bleass-compressor"
-name        = "BLEASS Compressor"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "Comprehensive compressor with external sidechain, input filters, and real-time visualization."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/compressor/"
+slug         = "bleass-compressor"
+name         = "BLEASS Compressor"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "Comprehensive compressor with external sidechain, input filters, and real-time visualization."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/compressor/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/9300-BLEASS-Compressor?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/compressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/compressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/compressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/compressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

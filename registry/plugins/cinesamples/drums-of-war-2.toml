@@ -1,26 +1,27 @@
-slug        = "drums-of-war-2"
-name        = "Drums of War 2"
-vendor      = "Cinesamples"
-version     = "1.0.0"
-description = "Second volume of epic war percussion expanding the Drums of War series with new instruments."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/drums-of-war-2"
+slug         = "drums-of-war-2"
+name         = "Drums of War 2"
+vendor       = "Cinesamples"
+version      = "1.0.0"
+description  = "Second volume of epic war percussion expanding the Drums of War series with new instruments."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/drums-of-war-2"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11260-Drums-of-War-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/drums-of-war-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/drums-of-war-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/drums-of-war-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/drums-of-war-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "compressor"
-name        = "Compressor"
-vendor      = "Stagecraft Software"
-version     = "1.0.0"
-description = "Feature-rich compressor plugin with a refined interface and professional-grade dynamics control."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.stagecraftsoftware.com/products/compressor/"
+slug         = "compressor"
+name         = "Compressor"
+vendor       = "Stagecraft Software"
+version      = "1.0.0"
+description  = "Feature-rich compressor plugin with a refined interface and professional-grade dynamics control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.stagecraftsoftware.com/products/compressor/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/5349-Compressor?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.stagecraftsoftware.com/products/compressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.stagecraftsoftware.com/products/compressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.stagecraftsoftware.com/products/compressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.stagecraftsoftware.com/products/compressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

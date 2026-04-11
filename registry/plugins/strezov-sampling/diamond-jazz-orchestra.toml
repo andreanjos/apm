@@ -1,25 +1,26 @@
-slug        = "diamond-jazz-orchestra"
-name        = "Diamond Jazz Orchestra"
-vendor      = "Strezov Sampling"
-version     = "1.0.0"
-description = "Full jazz orchestra Kontakt library with polyphonic true legato and Velocity Dynamic Influencer."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.strezov-sampling.com/products/view/Diamond-jazz-orchestra.html"
-is_paid     = true
+slug         = "diamond-jazz-orchestra"
+name         = "Diamond Jazz Orchestra"
+vendor       = "Strezov Sampling"
+version      = "1.0.0"
+description  = "Full jazz orchestra Kontakt library with polyphonic true legato and Velocity Dynamic Influencer."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.strezov-sampling.com/products/view/Diamond-jazz-orchestra.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.strezov-sampling.com/products/view/Diamond-jazz-orchestra.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.strezov-sampling.com/products/view/Diamond-jazz-orchestra.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.strezov-sampling.com/products/view/Diamond-jazz-orchestra.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.strezov-sampling.com/products/view/Diamond-jazz-orchestra.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

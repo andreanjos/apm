@@ -1,26 +1,27 @@
-slug        = "meaw-assist-ai-assistant"
-name        = "Meaw Assist AI Assistant"
-vendor      = "Safari Audio"
-version     = "1.0.0"
-description = "AI-powered DAW assistant offering mixing help, music theory guidance and plugin suggestions."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://safariaudio.com/products/meaw-assist"
+slug         = "meaw-assist-ai-assistant"
+name         = "Meaw Assist AI Assistant"
+vendor       = "Safari Audio"
+version      = "1.0.0"
+description  = "AI-powered DAW assistant offering mixing help, music theory guidance and plugin suggestions."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://safariaudio.com/products/meaw-assist"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16966-Meaw-Assist-AI-Assistant?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://safariaudio.com/products/meaw-assist"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/meaw-assist"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://safariaudio.com/products/meaw-assist"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/meaw-assist"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

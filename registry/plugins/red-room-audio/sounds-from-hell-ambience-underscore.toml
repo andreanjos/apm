@@ -1,25 +1,27 @@
-slug        = "sounds-from-hell-ambience-underscore"
-name        = "Sounds From Hell – Ambience & Underscore"
-vendor      = "Red Room Audio"
-version     = "1.0.0"
-description = "Cinematic Kontakt library with 16GB of drones, pads, pulses, and soundscapes for dark audio."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://redroomaudio.com/product/sounds-from-hell-ambience-underscore/"
-is_paid     = true
+slug         = "sounds-from-hell-ambience-underscore"
+name         = "Sounds From Hell - Ambience & Underscore"
+vendor       = "Red Room Audio"
+version      = "1.0.0"
+description  = "Cinematic Kontakt library with 16GB of drones, pads, pulses, and soundscapes for dark audio."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["sounds-from-hell-8211-ambience-038-underscore"]
+homepage     = "https://redroomaudio.com/product/sounds-from-hell-ambience-underscore/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://redroomaudio.com/product/sounds-from-hell-ambience-underscore/"
-sha256       = ""
-install_type = "zip"
+url           = "https://redroomaudio.com/product/sounds-from-hell-ambience-underscore/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://redroomaudio.com/product/sounds-from-hell-ambience-underscore/"
-sha256       = ""
-install_type = "zip"
+url           = "https://redroomaudio.com/product/sounds-from-hell-ambience-underscore/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "deeq"
-name        = "DeeQ"
-vendor      = "Venomode"
-version     = "1.5.5"
-description = "Dynamic EQ plugin that combines the precision of an EQ with the control of a compressor."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://venomode.com/plugins"
+slug         = "deeq"
+name         = "DeeQ"
+vendor       = "Venomode"
+version      = "1.5.5"
+description  = "Dynamic EQ plugin that combines the precision of an EQ with the control of a compressor."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://venomode.com/plugins"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/5584-DeeQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://venomode.com/plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://venomode.com/plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://venomode.com/plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://venomode.com/plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

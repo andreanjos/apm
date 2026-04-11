@@ -1,25 +1,27 @@
-slug        = "cloudbounce-8211-lifetime-plan"
-name        = "Cloudbounce &#8211; Lifetime Plan"
-vendor      = "CloudBounce"
-version     = "1.0.0"
-description = "Lifetime access plan to CloudBounce's AI mastering service with unlimited track masters and format support."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://cloudbounce.com/"
-is_paid     = true
+slug         = "cloudbounce-8211-lifetime-plan"
+name         = "Cloudbounce - Lifetime Plan"
+vendor       = "CloudBounce"
+version      = "1.0.0"
+description  = "Lifetime access plan to CloudBounce's AI mastering service with unlimited track masters and format support."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+aliases      = ["cloudbounce-lifetime-plan"]
+homepage     = "https://cloudbounce.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cloudbounce.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cloudbounce.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cloudbounce.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cloudbounce.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

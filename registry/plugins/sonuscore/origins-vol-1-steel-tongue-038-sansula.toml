@@ -1,25 +1,26 @@
-slug        = "origins-vol-1-steel-tongue-038-sansula"
-name        = "Origins Vol 1: Steel Tongue &#038; Sansula"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Kontakt instrument pairing African sansula and steel tongue drum with Multi-Arpeggio-Designer engine."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/origins-vol-1-steel-tongue-sansula/"
-is_paid     = true
+slug         = "origins-vol-1-steel-tongue-038-sansula"
+name         = "Origins Vol 1: Steel Tongue & Sansula"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Kontakt instrument pairing African sansula and steel tongue drum with Multi-Arpeggio-Designer engine."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/origins-vol-1-steel-tongue-sansula/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/origins-vol-1-steel-tongue-sansula/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/origins-vol-1-steel-tongue-sansula/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/origins-vol-1-steel-tongue-sansula/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/origins-vol-1-steel-tongue-sansula/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

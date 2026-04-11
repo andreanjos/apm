@@ -1,25 +1,26 @@
-slug        = "ql-goliath"
-name        = "QL Goliath"
-vendor      = "EastWest"
-version     = "1.0.0"
-description = "Massive EastWest collection of 180 instruments spanning percussion, orchestra, guitars, and world."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/drums-and-percussion/goliath"
-is_paid     = true
+slug         = "ql-goliath"
+name         = "QL Goliath"
+vendor       = "EastWest"
+version      = "1.0.0"
+description  = "Massive EastWest collection of 180 instruments spanning percussion, orchestra, guitars, and world."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/drums-and-percussion/goliath"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/drums-and-percussion/goliath"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/drums-and-percussion/goliath"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/drums-and-percussion/goliath"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/drums-and-percussion/goliath"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

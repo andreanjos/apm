@@ -1,25 +1,26 @@
-slug        = "largo-sonokinetic"
-name        = "Largo"
-vendor      = "Sonokinetic"
-version     = "1.0.0"
-description = "Majestic phrase-based orchestral Kontakt library evoking classic film score styles."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonokinetic.net/products/instruments/largo/"
-is_paid     = true
+slug         = "largo-sonokinetic"
+name         = "Largo"
+vendor       = "Sonokinetic"
+version      = "1.0.0"
+description  = "Majestic phrase-based orchestral Kontakt library evoking classic film score styles."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonokinetic.net/products/instruments/largo/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonokinetic.net/products/instruments/largo/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/instruments/largo/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonokinetic.net/products/instruments/largo/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/instruments/largo/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "bfd-player-expansion-london-70s"
-name        = "BFD Player Expansion London 70s"
-vendor      = "BFD"
-version     = "1.0"
-description = "BFD Player expansion with classic 70s rock drum sounds from the London Sessions library."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bfddrums.com/bfd-player-expansions/"
+slug         = "bfd-player-expansion-london-70s"
+name         = "BFD Player Expansion London 70s"
+vendor       = "BFD"
+version      = "1.0"
+description  = "BFD Player expansion with classic 70s rock drum sounds from the London Sessions library."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bfddrums.com/bfd-player-expansions/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/11407-BFD-Player-Expansion-London-70s?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bfddrums.com/bfd-player-expansions/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/bfd-player-expansions/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bfddrums.com/bfd-player-expansions/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/bfd-player-expansions/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

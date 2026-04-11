@@ -1,20 +1,21 @@
-slug        = "fullbucket-mps"
-name        = "MPS"
-vendor      = "Full Bucket Music"
-version     = "2.0.0"
-description = "Musical Parameter Synthesizer for fast and intuitive sound creation through streamlined controls."
-category    = "instruments"
-subcategory = "synthesizer"
-license     = "freeware"
-tags        = ["synth", "synthesizer", "intuitive", "free", "freeware"]
-homepage    = "https://www.fullbucket.de/music/mps.html"
+slug         = "fullbucket-mps"
+name         = "MPS"
+vendor       = "Full Bucket Music"
+version      = "2.0.0"
+description  = "Musical Parameter Synthesizer for fast and intuitive sound creation through streamlined controls."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synthesizer"
+license      = "freeware"
+tags         = ["synth", "synthesizer", "intuitive", "free", "freeware"]
+homepage     = "https://www.fullbucket.de/music/mps.html"
 
 [formats.vst3]
-url          = "https://fullbucket.de/music/dl.php?file=mps_2_0_0_mac"
-sha256       = "258280b64fcbd47846a48e9bf06089c400f334e9391c5489fedaab3359dfb713"
-install_type = "pkg"
+url           = "https://fullbucket.de/music/dl.php?file=mps_2_0_0_mac"
+sha256        = "258280b64fcbd47846a48e9bf06089c400f334e9391c5489fedaab3359dfb713"
+install_type  = "pkg"
 
 [formats.au]
-url          = "https://fullbucket.de/music/dl.php?file=mps_2_0_0_mac"
-sha256       = "258280b64fcbd47846a48e9bf06089c400f334e9391c5489fedaab3359dfb713"
-install_type = "pkg"
+url           = "https://fullbucket.de/music/dl.php?file=mps_2_0_0_mac"
+sha256        = "258280b64fcbd47846a48e9bf06089c400f334e9391c5489fedaab3359dfb713"
+install_type  = "pkg"

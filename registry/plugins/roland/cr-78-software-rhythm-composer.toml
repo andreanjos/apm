@@ -1,27 +1,28 @@
-slug        = "cr-78-software-rhythm-composer"
-name        = "CR 78 Software Rhythm Composer"
-vendor      = "Roland"
-version     = "1.0"
-description = "ACB-modeled recreation of Roland's iconic 1978 CR-78 programmable rhythm composer for DAWs."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-installer   = "roland-cloud"
-homepage    = "https://www.roland.com/us/products/rc_cr-78/"
+slug         = "cr-78-software-rhythm-composer"
+name         = "CR 78 Software Rhythm Composer"
+vendor       = "Roland"
+version      = "1.0"
+description  = "ACB-modeled recreation of Roland's iconic 1978 CR-78 programmable rhythm composer for DAWs."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+installer    = "roland-cloud"
+homepage     = "https://www.roland.com/us/products/rc_cr-78/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/16654-CR-78-Software-Rhythm-Composer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.roland.com/us/products/rc_cr-78/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.roland.com/us/products/rc_cr-78/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.roland.com/us/products/rc_cr-78/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.roland.com/us/products/rc_cr-78/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

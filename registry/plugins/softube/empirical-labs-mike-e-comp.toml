@@ -1,26 +1,27 @@
-slug        = "empirical-labs-mike-e-comp"
-name        = "Empirical Labs Mike-E Comp"
-vendor      = "Softube"
-version     = "2.6"
-description = "Compressor plugin modeled on Empirical Labs' Mike-E hardware for transparent, musical dynamics."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-mike-e-comp"
-is_paid     = true
+slug         = "empirical-labs-mike-e-comp"
+name         = "Empirical Labs Mike-E Comp"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Compressor plugin modeled on Empirical Labs' Mike-E hardware for transparent, musical dynamics."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-mike-e-comp"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-mike-e-comp"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-mike-e-comp"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-mike-e-comp"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-mike-e-comp"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

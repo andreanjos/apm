@@ -1,25 +1,26 @@
-slug        = "maximal-2"
-name        = "Maximal 2"
-vendor      = "Venomode"
-version     = "2"
-description = "Loudness maximizer plugin offering transparent limiting and loudness metering."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://venomode.com/plugins"
-is_paid     = true
+slug         = "maximal-2"
+name         = "Maximal 2"
+vendor       = "Venomode"
+version      = "2"
+description  = "Loudness maximizer plugin offering transparent limiting and loudness metering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://venomode.com/plugins"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://venomode.com/plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://venomode.com/plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://venomode.com/plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://venomode.com/plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

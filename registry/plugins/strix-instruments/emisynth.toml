@@ -1,26 +1,27 @@
-slug        = "emisynth"
-name        = "EMISYNTH"
-vendor      = "Strix Instruments"
-version     = "1.0"
-description = "EMI-inspired synthesizer Kontakt instrument by Strix Instruments with vintage analog character."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://strixinstruments.com/"
+slug         = "emisynth"
+name         = "EMISYNTH"
+vendor       = "Strix Instruments"
+version      = "1.0"
+description  = "EMI-inspired synthesizer Kontakt instrument by Strix Instruments with vintage analog character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://strixinstruments.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7599-EMISYNTH?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://strixinstruments.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://strixinstruments.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://strixinstruments.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://strixinstruments.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

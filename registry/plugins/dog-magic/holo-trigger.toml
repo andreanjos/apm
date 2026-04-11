@@ -1,24 +1,25 @@
-slug        = "holo-trigger"
-name        = "Holo Trigger"
-vendor      = "Dog Magic"
-version     = "1.0.0"
-description = "Vintage-inspired audio-triggered pitch synth with phaser, reverb freeze, and wobbly pitch LFO."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://dogmagic.net/holo-trigger/"
-is_paid     = true
+slug         = "holo-trigger"
+name         = "Holo Trigger"
+vendor       = "Dog Magic"
+version      = "1.0.0"
+description  = "Vintage-inspired audio-triggered pitch synth with phaser, reverb freeze, and wobbly pitch LFO."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://dogmagic.net/holo-trigger/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://dogmagic.net/holo-trigger/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dogmagic.net/holo-trigger/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://dogmagic.net/holo-trigger/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dogmagic.net/holo-trigger/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

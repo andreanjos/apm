@@ -1,24 +1,28 @@
-slug        = "eventide-mangledverb"
-name        = "MangledVerb"
-vendor      = "Eventide"
-version     = "2.10.4"
-description = "Combines lush reverbs with ripping distortion for sound-sculpting chaos, ported from the H9 Harmonizer."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = ["reverb", "distortion", "creative", "mangled", "sound-design", "aggressive"]
-homepage    = "https://www.eventideaudio.com/plug-ins/mangledverb/"
+slug         = "eventide-mangledverb"
+name         = "MangledVerb"
+vendor       = "Eventide"
+version      = "2.10.4"
+description  = "Combines lush reverbs with ripping distortion for sound-sculpting chaos, ported from the H9 Harmonizer."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = ["reverb", "distortion", "creative", "mangled", "sound-design", "aggressive"]
+aliases      = ["mangledverb"]
+homepage     = "https://www.eventideaudio.com/plug-ins/mangledverb/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/3909-MangledVerb?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://downloads.eventide.com/audio/installers/plug-ins/MangledVerb/MangledVerb-2.10.4-osx-installer.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://downloads.eventide.com/audio/installers/plug-ins/MangledVerb/MangledVerb-2.10.4-osx-installer.dmg"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "MangledVerb.vst3"
+bundle_path   = "MangledVerb.vst3"
 
 [formats.au]
-url          = "https://downloads.eventide.com/audio/installers/plug-ins/MangledVerb/MangledVerb-2.10.4-osx-installer.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://downloads.eventide.com/audio/installers/plug-ins/MangledVerb/MangledVerb-2.10.4-osx-installer.dmg"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "MangledVerb.component"
+bundle_path   = "MangledVerb.component"

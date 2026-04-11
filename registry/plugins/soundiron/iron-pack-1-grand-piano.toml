@@ -1,25 +1,27 @@
-slug        = "iron-pack-1-grand-piano"
-name        = "Iron Pack 1 – Grand Piano"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Iron Pack Vol.1 — a deeply sampled grand piano Kontakt instrument with full dynamic range."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/iron-pack-1-grand-piano"
-is_paid     = true
+slug         = "iron-pack-1-grand-piano"
+name         = "Iron Pack 1 - Grand Piano"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Iron Pack Vol.1 - a deeply sampled grand piano Kontakt instrument with full dynamic range."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+aliases      = ["iron-pack-1-8211-grand-piano"]
+homepage     = "https://soundiron.com/products/iron-pack-1-grand-piano"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/iron-pack-1-grand-piano"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/iron-pack-1-grand-piano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/iron-pack-1-grand-piano"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/iron-pack-1-grand-piano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

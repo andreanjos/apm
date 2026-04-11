@@ -1,26 +1,27 @@
-slug        = "osmium-distortion-matrix"
-name        = "Osmium Distortion Matrix"
-vendor      = "Reason Studios"
-version     = "1.0.0"
-description = "Modular Reason Rack distortion with 9 effect slots, 3 frequency bands, and built-in CV modulation."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.reasonstudios.com/shop/rack-extension/osmium-distortion-matrix/"
+slug         = "osmium-distortion-matrix"
+name         = "Osmium Distortion Matrix"
+vendor       = "Reason Studios"
+version      = "1.0.0"
+description  = "Modular Reason Rack distortion with 9 effect slots, 3 frequency bands, and built-in CV modulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.reasonstudios.com/shop/rack-extension/osmium-distortion-matrix/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/16141-Osmium-Distortion-Matrix?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.reasonstudios.com/shop/rack-extension/osmium-distortion-matrix/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.reasonstudios.com/shop/rack-extension/osmium-distortion-matrix/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.reasonstudios.com/shop/rack-extension/osmium-distortion-matrix/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.reasonstudios.com/shop/rack-extension/osmium-distortion-matrix/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

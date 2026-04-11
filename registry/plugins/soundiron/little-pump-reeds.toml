@@ -1,25 +1,26 @@
-slug        = "little-pump-reeds"
-name        = "Little Pump Reeds"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt instrument of a small pump reed organ with charming, vintage tonal character."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/little-pump-reeds"
-is_paid     = true
+slug         = "little-pump-reeds"
+name         = "Little Pump Reeds"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt instrument of a small pump reed organ with charming, vintage tonal character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/little-pump-reeds"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/little-pump-reeds"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/little-pump-reeds"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/little-pump-reeds"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/little-pump-reeds"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

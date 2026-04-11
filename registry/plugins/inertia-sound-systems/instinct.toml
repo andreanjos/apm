@@ -1,26 +1,27 @@
-slug        = "instinct"
-name        = "Instinct"
-vendor      = "Inertia Sound Systems"
-version     = "1.0"
-description = "Distortion plugin by Inertia Sound Systems delivering aggressive harmonic saturation."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.inertiasoundsystems.com/"
+slug         = "instinct"
+name         = "Instinct"
+vendor       = "Inertia Sound Systems"
+version      = "1.0"
+description  = "Distortion plugin by Inertia Sound Systems delivering aggressive harmonic saturation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.inertiasoundsystems.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/7777-Instinct?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.inertiasoundsystems.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.inertiasoundsystems.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.inertiasoundsystems.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.inertiasoundsystems.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

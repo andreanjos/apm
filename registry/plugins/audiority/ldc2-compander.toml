@@ -1,26 +1,27 @@
-slug        = "ldc2-compander"
-name        = "LDC2 Compander"
-vendor      = "Audiority"
-version     = "1.3"
-description = "Analog modeled optical compressor and expander plug-in for transparent dynamic control."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiority.com/shop/ldc2-compander/"
+slug         = "ldc2-compander"
+name         = "LDC2 Compander"
+vendor       = "Audiority"
+version      = "1.3"
+description  = "Analog modeled optical compressor and expander plug-in for transparent dynamic control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiority.com/shop/ldc2-compander/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/5074-LDC2-Compander?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiority.com/shop/ldc2-compander/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiority.com/shop/ldc2-compander/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiority.com/shop/ldc2-compander/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiority.com/shop/ldc2-compander/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

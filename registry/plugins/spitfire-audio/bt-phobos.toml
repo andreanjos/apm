@@ -1,26 +1,27 @@
-slug        = "bt-phobos"
-name        = "BT Phobos"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Epic cinematic synthesiser by BT combining organic and electronic sounds for hybrid and electronic scoring."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/bt-phobos/"
-is_paid     = true
+slug         = "bt-phobos"
+name         = "BT Phobos"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Epic cinematic synthesiser by BT combining organic and electronic sounds for hybrid and electronic scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/bt-phobos/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/bt-phobos/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/bt-phobos/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/bt-phobos/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/bt-phobos/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

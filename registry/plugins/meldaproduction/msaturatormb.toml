@@ -1,26 +1,27 @@
-slug        = "msaturatormb"
-name        = "MSaturatorMB"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Multiband saturation plugin combining analog warmth and digital harmonic generation for audio enhancement."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MSaturatorMB"
+slug         = "msaturatormb"
+name         = "MSaturatorMB"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Multiband saturation plugin combining analog warmth and digital harmonic generation for audio enhancement."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MSaturatorMB"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/110-MSaturatorMB?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MSaturatorMB"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MSaturatorMB"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MSaturatorMB"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MSaturatorMB"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

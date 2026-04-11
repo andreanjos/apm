@@ -1,26 +1,27 @@
-slug        = "gorilla-drive"
-name        = "Gorilla Drive"
-vendor      = "Safari Audio"
-version     = "1.0.0"
-description = "Warm analog saturation plugin with soft preamp emulation, Germanium overdrive and a tone tilt control."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = []
-homepage    = "https://safariaudio.com/products/gorilla-drive-vst-plugin"
+slug         = "gorilla-drive"
+name         = "Gorilla Drive"
+vendor       = "Safari Audio"
+version      = "1.0.0"
+description  = "Warm analog saturation plugin with soft preamp emulation, Germanium overdrive and a tone tilt control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = []
+homepage     = "https://safariaudio.com/products/gorilla-drive-vst-plugin"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/15359-Gorilla-Drive?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://safariaudio.com/products/gorilla-drive-vst-plugin"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/gorilla-drive-vst-plugin"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://safariaudio.com/products/gorilla-drive-vst-plugin"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/gorilla-drive-vst-plugin"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

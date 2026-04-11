@@ -1,25 +1,26 @@
-slug        = "deep-analog-eq"
-name        = "Deep Analog EQ"
-vendor      = "DUY"
-version     = "1.0.0"
-description = "Multiband parametric EQ combining linear-phase filtering with controllable analog-modeled warmth."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://duy.com/product/duy-deep-analog-eq/"
-is_paid     = true
+slug         = "deep-analog-eq"
+name         = "Deep Analog EQ"
+vendor       = "DUY"
+version      = "1.0.0"
+description  = "Multiband parametric EQ combining linear-phase filtering with controllable analog-modeled warmth."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://duy.com/product/duy-deep-analog-eq/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://duy.com/product/duy-deep-analog-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://duy.com/product/duy-deep-analog-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://duy.com/product/duy-deep-analog-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://duy.com/product/duy-deep-analog-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

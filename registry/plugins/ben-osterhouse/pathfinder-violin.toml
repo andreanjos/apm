@@ -1,26 +1,27 @@
-slug        = "pathfinder-violin"
-name        = "Pathfinder Violin"
-vendor      = "Ben Osterhouse"
-version     = "1.0.0"
-description = "Expressive Kontakt violin instrument with a wide range of articulations for composers."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://osterhousesounds.com/products/pathfinder-violin"
+slug         = "pathfinder-violin"
+name         = "Pathfinder Violin"
+vendor       = "Ben Osterhouse"
+version      = "1.0.0"
+description  = "Expressive Kontakt violin instrument with a wide range of articulations for composers."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://osterhousesounds.com/products/pathfinder-violin"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10971-Pathfinder-Violin?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://osterhousesounds.com/products/pathfinder-violin"
-sha256       = ""
-install_type = "zip"
+url           = "https://osterhousesounds.com/products/pathfinder-violin"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://osterhousesounds.com/products/pathfinder-violin"
-sha256       = ""
-install_type = "zip"
+url           = "https://osterhousesounds.com/products/pathfinder-violin"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

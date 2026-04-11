@@ -1,26 +1,27 @@
-slug        = "bass-xxl"
-name        = "Bass XXL"
-vendor      = "Denise Audio"
-version     = "1.3"
-description = "Bass enhancer that generates harmonics above the root frequency for thick, consistent low end."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.deniseaudio.com/plugins/bass-xxl"
+slug         = "bass-xxl"
+name         = "Bass XXL"
+vendor       = "Denise Audio"
+version      = "1.3"
+description  = "Bass enhancer that generates harmonics above the root frequency for thick, consistent low end."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.deniseaudio.com/plugins/bass-xxl"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/11763-Bass-XXL?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.deniseaudio.com/plugins/bass-xxl"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/plugins/bass-xxl"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.deniseaudio.com/plugins/bass-xxl"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deniseaudio.com/plugins/bass-xxl"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

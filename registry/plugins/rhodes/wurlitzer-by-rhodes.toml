@@ -1,26 +1,27 @@
-slug        = "wurlitzer-by-rhodes"
-name        = "Wurlitzer by Rhodes"
-vendor      = "Rhodes"
-version     = "1.0.0"
-description = "Official virtual recreation of the classic Wurlitzer electric piano by Rhodes Music."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://rhodesmusic.com/software/"
+slug         = "wurlitzer-by-rhodes"
+name         = "Wurlitzer by Rhodes"
+vendor       = "Rhodes"
+version      = "1.0.0"
+description  = "Official virtual recreation of the classic Wurlitzer electric piano by Rhodes Music."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://rhodesmusic.com/software/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/14971-Wurlitzer-by-Rhodes?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rhodesmusic.com/software/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rhodesmusic.com/software/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rhodesmusic.com/software/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rhodesmusic.com/software/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

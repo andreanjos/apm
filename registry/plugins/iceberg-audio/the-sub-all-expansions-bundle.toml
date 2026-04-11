@@ -1,26 +1,27 @@
-slug        = "the-sub-all-expansions-bundle"
-name        = "The Sub All Expansions Bundle"
-vendor      = "Iceberg Audio"
-version     = "1.0.0"
-description = "Bundle of all available expansion packs for The Sub bass plugin covering a wide range of styles."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://icebergaudio.com/shop/"
+slug         = "the-sub-all-expansions-bundle"
+name         = "The Sub All Expansions Bundle"
+vendor       = "Iceberg Audio"
+version      = "1.0.0"
+description  = "Bundle of all available expansion packs for The Sub bass plugin covering a wide range of styles."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://icebergaudio.com/shop/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/8042-The-Sub-All-Expansions-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://icebergaudio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://icebergaudio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://icebergaudio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://icebergaudio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

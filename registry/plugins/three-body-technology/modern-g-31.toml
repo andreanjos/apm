@@ -1,25 +1,26 @@
-slug        = "modern-g-31"
-name        = "Modern G-31"
-vendor      = "Three-Body Technology"
-version     = "1.0.0"
-description = "31-band graphic equalizer with real-time analysis, vintage character, and drive control."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.threebodytech.com/en/products/moderng31"
-is_paid     = true
+slug         = "modern-g-31"
+name         = "Modern G-31"
+vendor       = "Three-Body Technology"
+version      = "1.0.0"
+description  = "31-band graphic equalizer with real-time analysis, vintage character, and drive control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.threebodytech.com/en/products/moderng31"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.threebodytech.com/en/products/moderng31"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.threebodytech.com/en/products/moderng31"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.threebodytech.com/en/products/moderng31"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.threebodytech.com/en/products/moderng31"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

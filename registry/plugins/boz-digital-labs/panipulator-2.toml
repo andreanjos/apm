@@ -1,26 +1,27 @@
-slug        = "panipulator-2"
-name        = "Panipulator 2"
-vendor      = "Boz Digital Labs"
-version     = "2"
-description = "Free mix-check utility for testing mono compatibility, phase issues, speaker polarity, and stereo isolation."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozdigitallabs.com/product/panipulator/"
+slug         = "panipulator-2"
+name         = "Panipulator 2"
+vendor       = "Boz Digital Labs"
+version      = "2"
+description  = "Free mix-check utility for testing mono compatibility, phase issues, speaker polarity, and stereo isolation."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bozdigitallabs.com/product/panipulator/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/2157-Panipulator-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozdigitallabs.com/product/panipulator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/panipulator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozdigitallabs.com/product/panipulator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/panipulator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

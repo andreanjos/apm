@@ -1,25 +1,26 @@
-slug        = "sierras-altas"
-name        = "Sierras Altas"
-vendor      = "ZAK Sound"
-version     = "1.0.0"
-description = "Cinematic keys and pad instrument with dual-layer engine designed for inspiring and ambient soundscapes."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://zaksound.com/sierras-altas/"
-is_paid     = true
+slug         = "sierras-altas"
+name         = "Sierras Altas"
+vendor       = "ZAK Sound"
+version      = "1.0.0"
+description  = "Cinematic keys and pad instrument with dual-layer engine designed for inspiring and ambient soundscapes."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://zaksound.com/sierras-altas/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zaksound.com/sierras-altas/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/sierras-altas/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zaksound.com/sierras-altas/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/sierras-altas/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

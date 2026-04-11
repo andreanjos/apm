@@ -1,26 +1,27 @@
-slug        = "bettermaker-eq232d"
-name        = "Bettermaker EQ232D"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Faithful plugin recreation of one of the most respected analog mastering EQs of the new millennium by Bettermaker."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/bettermaker_eq232d.html"
-is_paid     = true
+slug         = "bettermaker-eq232d"
+name         = "Bettermaker EQ232D"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Faithful plugin recreation of one of the most respected analog mastering EQs of the new millennium by Bettermaker."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/bettermaker_eq232d.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/bettermaker_eq232d.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/bettermaker_eq232d.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/bettermaker_eq232d.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/bettermaker_eq232d.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

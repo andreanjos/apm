@@ -1,25 +1,26 @@
-slug        = "total-bundle"
-name        = "Total Bundle"
-vendor      = "D16 Group"
-version     = "1.0.0"
-description = "D16 Group's complete collection of all instruments, effects and sample libraries in one bundle."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/totalbundle"
-is_paid     = true
+slug         = "total-bundle"
+name         = "Total Bundle"
+vendor       = "D16 Group"
+version      = "1.0.0"
+description  = "D16 Group's complete collection of all instruments, effects and sample libraries in one bundle."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/totalbundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/totalbundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/totalbundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/totalbundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/totalbundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

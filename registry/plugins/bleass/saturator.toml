@@ -1,24 +1,25 @@
-slug        = "saturator"
-name        = "Saturator"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "BLEASS saturation plugin for energizing basses, crushing drums, and adding harmonic drive."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/saturator/"
-is_paid     = true
+slug         = "saturator"
+name         = "Saturator"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "BLEASS saturation plugin for energizing basses, crushing drums, and adding harmonic drive."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/saturator/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/saturator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/saturator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/saturator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/saturator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

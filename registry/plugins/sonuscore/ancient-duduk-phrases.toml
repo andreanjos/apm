@@ -1,26 +1,27 @@
-slug        = "ancient-duduk-phrases"
-name        = "Ancient Duduk Phrases"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Live-recorded Armenian duduk phrase library performed by Anna Mkhitaryan with legato patch."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/ancient-duduk-phrases/"
+slug         = "ancient-duduk-phrases"
+name         = "Ancient Duduk Phrases"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Live-recorded Armenian duduk phrase library performed by Anna Mkhitaryan with legato patch."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/ancient-duduk-phrases/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8564-Ancient-Duduk-Phrases?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/ancient-duduk-phrases/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/ancient-duduk-phrases/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/ancient-duduk-phrases/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/ancient-duduk-phrases/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

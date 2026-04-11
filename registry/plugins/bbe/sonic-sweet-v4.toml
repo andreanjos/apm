@@ -1,25 +1,26 @@
-slug        = "sonic-sweet-v4"
-name        = "Sonic Sweet V4"
-vendor      = "BBE"
-version     = "4.0"
-description = "BBE Sonic Sweet V4 bundle of harmonic exciter and enhancer plugins for sonic sweetening."
-category    = "effects"
-subcategory = "exciter"
-license     = "commercial"
-tags        = []
-homepage    = "https://bbesound.com/products/plug-ins/sonic-sweet-bundle.html"
-is_paid     = true
+slug         = "sonic-sweet-v4"
+name         = "Sonic Sweet V4"
+vendor       = "BBE"
+version      = "4.0"
+description  = "BBE Sonic Sweet V4 bundle of harmonic exciter and enhancer plugins for sonic sweetening."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "exciter"
+license      = "commercial"
+tags         = []
+homepage     = "https://bbesound.com/products/plug-ins/sonic-sweet-bundle.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bbesound.com/products/plug-ins/sonic-sweet-bundle.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://bbesound.com/products/plug-ins/sonic-sweet-bundle.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bbesound.com/products/plug-ins/sonic-sweet-bundle.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://bbesound.com/products/plug-ins/sonic-sweet-bundle.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

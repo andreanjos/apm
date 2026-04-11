@@ -1,26 +1,27 @@
-slug        = "artist-series-tina-guo"
-name        = "Artist Series Tina Guo"
-vendor      = "Cinesamples"
-version     = "1.0.0"
-description = "Sound design and composition tool built from Tina Guo's electric cello and erhu performances."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/tina-guo"
+slug         = "artist-series-tina-guo"
+name         = "Artist Series Tina Guo"
+vendor       = "Cinesamples"
+version      = "1.0.0"
+description  = "Sound design and composition tool built from Tina Guo's electric cello and erhu performances."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/tina-guo"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11277-Artist-Series-Tina-Guo?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/tina-guo"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/tina-guo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/tina-guo"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/tina-guo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

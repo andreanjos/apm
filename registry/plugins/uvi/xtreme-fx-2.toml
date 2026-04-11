@@ -1,26 +1,27 @@
-slug        = "xtreme-fx-2"
-name        = "Xtreme FX 2"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Modern sound design and foley instrument with 4,000+ sounds, XY controls, pitch/time stretching, and ADSR shaping."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/xtreme-fx-2"
+slug         = "xtreme-fx-2"
+name         = "Xtreme FX 2"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Modern sound design and foley instrument with 4,000+ sounds, XY controls, pitch/time stretching, and ADSR shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/xtreme-fx-2"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/16932-Xtreme-FX-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/xtreme-fx-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/xtreme-fx-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/xtreme-fx-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/xtreme-fx-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

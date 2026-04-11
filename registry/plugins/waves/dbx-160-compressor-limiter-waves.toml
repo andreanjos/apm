@@ -1,26 +1,27 @@
-slug        = "dbx-160-compressor-limiter-waves"
-name        = "dbx 160 Compressor Limiter"
-vendor      = "Waves"
-version     = "14.0"
-description = "Emulation of the classic dbx 160 VCA compressor known for fast, punchy dynamics control."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/dbx-160-compressor-limiter"
-is_paid     = true
+slug         = "dbx-160-compressor-limiter-waves"
+name         = "dbx 160 Compressor Limiter"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Emulation of the classic dbx 160 VCA compressor known for fast, punchy dynamics control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/dbx-160-compressor-limiter"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/dbx-160-compressor-limiter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/dbx-160-compressor-limiter"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/dbx-160-compressor-limiter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/dbx-160-compressor-limiter"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

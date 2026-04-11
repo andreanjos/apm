@@ -1,25 +1,26 @@
-slug        = "lyrical-ethnic-flute-phrases"
-name        = "Lyrical Ethnic Flute Phrases"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Lyrical ethnic flute phrase library combining emotive performances with Sonuscore's phrase engine."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/"
-is_paid     = true
+slug         = "lyrical-ethnic-flute-phrases"
+name         = "Lyrical Ethnic Flute Phrases"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Lyrical ethnic flute phrase library combining emotive performances with Sonuscore's phrase engine."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

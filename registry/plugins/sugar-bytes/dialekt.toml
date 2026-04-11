@@ -1,26 +1,27 @@
-slug        = "dialekt"
-name        = "Dialekt"
-vendor      = "Sugar Bytes"
-version     = "1.0.0"
-description = "8-track groovebox with 28 sound engines, song sequencer, and diverse synthesis methods for beat making."
-category    = "instruments"
-subcategory = "groovebox"
-license     = "commercial"
-tags        = []
-homepage    = "https://sugar-bytes.de/dialekt"
+slug         = "dialekt"
+name         = "Dialekt"
+vendor       = "Sugar Bytes"
+version      = "1.0.0"
+description  = "8-track groovebox with 28 sound engines, song sequencer, and diverse synthesis methods for beat making."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "groovebox"
+license      = "commercial"
+tags         = []
+homepage     = "https://sugar-bytes.de/dialekt"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/6-Groovebox/14669-Dialekt?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sugar-bytes.de/dialekt"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/dialekt"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sugar-bytes.de/dialekt"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/dialekt"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

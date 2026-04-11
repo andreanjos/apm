@@ -1,25 +1,26 @@
-slug        = "iceberg-sub-plugins-bundle"
-name        = "Iceberg Sub Plugins Bundle"
-vendor      = "Iceberg Audio"
-version     = "1.0.0"
-description = "Bundle combining The Sub bass instrument with Sub Cut EQ for a complete sub bass production toolkit."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://icebergaudio.com/shop/"
-is_paid     = true
+slug         = "iceberg-sub-plugins-bundle"
+name         = "Iceberg Sub Plugins Bundle"
+vendor       = "Iceberg Audio"
+version      = "1.0.0"
+description  = "Bundle combining The Sub bass instrument with Sub Cut EQ for a complete sub bass production toolkit."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://icebergaudio.com/shop/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://icebergaudio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://icebergaudio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://icebergaudio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://icebergaudio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

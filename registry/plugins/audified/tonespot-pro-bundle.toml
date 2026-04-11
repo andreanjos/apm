@@ -1,25 +1,26 @@
-slug        = "tonespot-pro-bundle"
-name        = "ToneSpot Pro Bundle"
-vendor      = "Audified"
-version     = "1.0.0"
-description = "Bundle of all ToneSpot Pro plugins for professional mixing of acoustic, bass, drum, electric, and voice."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/tonespot-pro-bundle/"
-is_paid     = true
+slug         = "tonespot-pro-bundle"
+name         = "ToneSpot Pro Bundle"
+vendor       = "Audified"
+version      = "1.0.0"
+description  = "Bundle of all ToneSpot Pro plugins for professional mixing of acoustic, bass, drum, electric, and voice."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/tonespot-pro-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/tonespot-pro-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/tonespot-pro-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/tonespot-pro-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/tonespot-pro-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

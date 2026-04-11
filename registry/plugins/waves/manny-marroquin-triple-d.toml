@@ -1,26 +1,27 @@
-slug        = "manny-marroquin-triple-d"
-name        = "Manny Marroquin Triple D"
-vendor      = "Waves"
-version     = "14.0"
-description = "De-essing, de-harshness, and de-muddiness plugin from Manny Marroquin's signature series."
-category    = "effects"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/manny-marroquin-triple-d"
-is_paid     = true
+slug         = "manny-marroquin-triple-d"
+name         = "Manny Marroquin Triple D"
+vendor       = "Waves"
+version      = "14.0"
+description  = "De-essing, de-harshness, and de-muddiness plugin from Manny Marroquin's signature series."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/manny-marroquin-triple-d"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/manny-marroquin-triple-d"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/manny-marroquin-triple-d"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/manny-marroquin-triple-d"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/manny-marroquin-triple-d"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

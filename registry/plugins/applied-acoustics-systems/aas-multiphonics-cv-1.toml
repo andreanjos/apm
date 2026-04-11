@@ -1,25 +1,26 @@
-slug        = "aas-multiphonics-cv-1"
-name        = "AAS Multiphonics CV-1"
-vendor      = "Applied Acoustics Systems"
-version     = "1"
-description = "AAS modular synthesizer with oscillators, filters, and modulation in a visual patching environment."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.applied-acoustics.com/multiphonics-cv-1/"
-is_paid     = true
+slug         = "aas-multiphonics-cv-1"
+name         = "AAS Multiphonics CV-1"
+vendor       = "Applied Acoustics Systems"
+version      = "1"
+description  = "AAS modular synthesizer with oscillators, filters, and modulation in a visual patching environment."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.applied-acoustics.com/multiphonics-cv-1/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.applied-acoustics.com/multiphonics-cv-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/multiphonics-cv-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.applied-acoustics.com/multiphonics-cv-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/multiphonics-cv-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

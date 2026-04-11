@@ -1,25 +1,26 @@
-slug        = "voice-of-wind-connie"
-name        = "Voice of Wind: Connie"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt Player solo female voice library featuring singer Connie with warm, expressive vocal tone."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/voice-of-wind-connie"
-is_paid     = true
+slug         = "voice-of-wind-connie"
+name         = "Voice of Wind: Connie"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt Player solo female voice library featuring singer Connie with warm, expressive vocal tone."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/voice-of-wind-connie"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/voice-of-wind-connie"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/voice-of-wind-connie"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/voice-of-wind-connie"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/voice-of-wind-connie"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

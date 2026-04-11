@@ -1,26 +1,27 @@
-slug        = "amp-room-upgrade-from-volume-3"
-name        = "Amp Room Upgrade from Volume 3"
-vendor      = "Softube"
-version     = "2.6"
-description = "Upgrade from Volume 3 bundle to the complete Amp Room platform with all suites included."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/amp-room"
-is_paid     = true
+slug         = "amp-room-upgrade-from-volume-3"
+name         = "Amp Room Upgrade from Volume 3"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Upgrade from Volume 3 bundle to the complete Amp Room platform with all suites included."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/amp-room"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/amp-room"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/amp-room"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/amp-room"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/amp-room"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

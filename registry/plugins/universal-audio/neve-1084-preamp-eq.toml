@@ -1,26 +1,28 @@
-slug        = "neve-1084-preamp-eq"
-name        = "Neve® 1084™ Preamp & EQ"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the Neve 1084 four-band console preamp and EQ module."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/equalizers/neve-1084-preamp-and-eq.html"
-is_paid     = true
+slug         = "neve-1084-preamp-eq"
+name         = "Neve (R) 1084 TM Preamp & EQ"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the Neve 1084 four-band console preamp and EQ module."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+aliases      = ["neve-1084-preamp-038-eq"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/equalizers/neve-1084-preamp-and-eq.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/equalizers/neve-1084-preamp-and-eq.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/equalizers/neve-1084-preamp-and-eq.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/equalizers/neve-1084-preamp-and-eq.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/equalizers/neve-1084-preamp-and-eq.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

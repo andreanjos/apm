@@ -1,25 +1,26 @@
-slug        = "hybrichord"
-name        = "Hybrichord"
-vendor      = "Aria Sounds"
-version     = "1.0.0"
-description = "Experimental prepared piano Kontakt library using magnets, wiring, and electric current for cinematic textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://ariasounds.com/product/hybrichord/"
-is_paid     = true
+slug         = "hybrichord"
+name         = "Hybrichord"
+vendor       = "Aria Sounds"
+version      = "1.0.0"
+description  = "Experimental prepared piano Kontakt library using magnets, wiring, and electric current for cinematic textures."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://ariasounds.com/product/hybrichord/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ariasounds.com/product/hybrichord/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/hybrichord/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ariasounds.com/product/hybrichord/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/hybrichord/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "grip-valve-drive-compressor"
-name        = "GRIP Valve Drive Compressor"
-vendor      = "CFA-Sound"
-version     = "1.0"
-description = "CFA-Sound GRIP combines valve drive saturation with compression for rich, punchy dynamics."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.cfa-sound.com/"
-is_paid     = true
+slug         = "grip-valve-drive-compressor"
+name         = "GRIP Valve Drive Compressor"
+vendor       = "CFA-Sound"
+version      = "1.0"
+description  = "CFA-Sound GRIP combines valve drive saturation with compression for rich, punchy dynamics."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.cfa-sound.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.cfa-sound.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cfa-sound.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.cfa-sound.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.cfa-sound.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

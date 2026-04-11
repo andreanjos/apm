@@ -1,25 +1,26 @@
-slug        = "ps22-stereo-maker"
-name        = "PS22 Stereo Maker"
-vendor      = "Waves"
-version     = "14.0"
-description = "Stereo enhancement plugin converting mono sources to natural-sounding stereo."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/ps22-stereo-maker"
-is_paid     = true
+slug         = "ps22-stereo-maker"
+name         = "PS22 Stereo Maker"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Stereo enhancement plugin converting mono sources to natural-sounding stereo."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/ps22-stereo-maker"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/ps22-stereo-maker"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/ps22-stereo-maker"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/ps22-stereo-maker"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/ps22-stereo-maker"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

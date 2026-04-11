@@ -1,25 +1,26 @@
-slug        = "ezmix-pack-ambient-reverbs"
-name        = "EZmix-Pack Ambient Reverbs"
-vendor      = "Toontrack"
-version     = "1.0.0"
-description = "EZmix expansion pack featuring ambient reverb presets for atmospheric and spatial mixing."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "toontrack-product-manager"
-homepage    = "https://www.toontrack.com/product-category/ezmix-packs/"
-is_paid     = true
+slug         = "ezmix-pack-ambient-reverbs"
+name         = "EZmix-Pack Ambient Reverbs"
+vendor       = "Toontrack"
+version      = "1.0.0"
+description  = "EZmix expansion pack featuring ambient reverb presets for atmospheric and spatial mixing."
+category     = "effects"
+product_type = "expansion"
+license      = "commercial"
+tags         = []
+installer    = "toontrack-product-manager"
+homepage     = "https://www.toontrack.com/product-category/ezmix-packs/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.toontrack.com/product-category/ezmix-packs/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product-category/ezmix-packs/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.toontrack.com/product-category/ezmix-packs/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product-category/ezmix-packs/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

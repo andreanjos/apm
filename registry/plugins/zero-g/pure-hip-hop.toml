@@ -1,25 +1,26 @@
-slug        = "pure-hip-hop"
-name        = "Pure Hip Hop"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Hip-hop sample library featuring gritty beats, fat basslines, and urban street sound design for music production."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/pure-hip-hop"
-is_paid     = true
+slug         = "pure-hip-hop"
+name         = "Pure Hip Hop"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Hip-hop sample library featuring gritty beats, fat basslines, and urban street sound design for music production."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/pure-hip-hop"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/pure-hip-hop"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/pure-hip-hop"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/pure-hip-hop"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/pure-hip-hop"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

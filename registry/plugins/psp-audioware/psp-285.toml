@@ -1,26 +1,27 @@
-slug        = "psp-285"
-name        = "PSP 285"
-vendor      = "PSP Audioware"
-version     = "1.0.1"
-description = "Creative semi-modular delay machine with variable sample rate lines for effects from simple echoes to complex patterns."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-285"
+slug         = "psp-285"
+name         = "PSP 285"
+vendor       = "PSP Audioware"
+version      = "1.0.1"
+description  = "Creative semi-modular delay machine with variable sample rate lines for effects from simple echoes to complex patterns."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-285"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/10859-PSP-285?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-285"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-285"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-285"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-285"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

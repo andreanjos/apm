@@ -1,26 +1,27 @@
-slug        = "superior-drummer-3-crossgrade-from-ezdrummer-2"
-name        = "Superior Drummer 3 Crossgrade from EZDrummer 2"
-vendor      = "Toontrack"
-version     = "3.4.4"
-description = "Crossgrade from EZdrummer 2 to Superior Drummer 3, Toontrack's most powerful virtual drum production suite."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-installer   = "toontrack-product-manager"
-homepage    = "https://www.toontrack.com/product/superior-drummer-3/"
-is_paid     = true
+slug         = "superior-drummer-3-crossgrade-from-ezdrummer-2"
+name         = "Superior Drummer 3 Crossgrade from EZDrummer 2"
+vendor       = "Toontrack"
+version      = "3.4.4"
+description  = "Crossgrade from EZdrummer 2 to Superior Drummer 3, Toontrack's most powerful virtual drum production suite."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+installer    = "toontrack-product-manager"
+homepage     = "https://www.toontrack.com/product/superior-drummer-3/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.toontrack.com/product/superior-drummer-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/superior-drummer-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.toontrack.com/product/superior-drummer-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/superior-drummer-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

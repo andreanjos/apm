@@ -1,25 +1,26 @@
-slug        = "compressor-one"
-name        = "Compressor One"
-vendor      = "MIA Laboratories"
-version     = "1.0.0"
-description = "MIA Laboratories Compressor One, a straightforward analog-inspired compressor plugin."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://mialaboratories.com/"
-is_paid     = true
+slug         = "compressor-one"
+name         = "Compressor One"
+vendor       = "MIA Laboratories"
+version      = "1.0.0"
+description  = "MIA Laboratories Compressor One, a straightforward analog-inspired compressor plugin."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://mialaboratories.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mialaboratories.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mialaboratories.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mialaboratories.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mialaboratories.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

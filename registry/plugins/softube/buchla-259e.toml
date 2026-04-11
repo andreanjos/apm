@@ -1,26 +1,27 @@
-slug        = "buchla-259e"
-name        = "Buchla 259e"
-vendor      = "Softube"
-version     = "2.6"
-description = "Twisted Waveform Generator module for Softube Modular, based on the classic Buchla 259e oscillator."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/synthesizers/buchla-259e-twisted-waveform-generator"
-is_paid     = true
+slug         = "buchla-259e"
+name         = "Buchla 259e"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Twisted Waveform Generator module for Softube Modular, based on the classic Buchla 259e oscillator."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/synthesizers/buchla-259e-twisted-waveform-generator"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/buchla-259e-twisted-waveform-generator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/buchla-259e-twisted-waveform-generator"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/buchla-259e-twisted-waveform-generator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/buchla-259e-twisted-waveform-generator"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

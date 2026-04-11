@@ -1,25 +1,26 @@
-slug        = "beatmaker-hustle-2"
-name        = "Beatmaker HUSTLE 2"
-vendor      = "UJAM"
-version     = "2.0"
-description = "Heavy bass-music drum machine plugin with pumping rhythms for trap and bass genres."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ujam.com/beatmaker/hustle/"
-is_paid     = true
+slug         = "beatmaker-hustle-2"
+name         = "Beatmaker HUSTLE 2"
+vendor       = "UJAM"
+version      = "2.0"
+description  = "Heavy bass-music drum machine plugin with pumping rhythms for trap and bass genres."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ujam.com/beatmaker/hustle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ujam.com/beatmaker/hustle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/beatmaker/hustle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ujam.com/beatmaker/hustle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/beatmaker/hustle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

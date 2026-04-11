@@ -1,25 +1,26 @@
-slug        = "cassette-mallets-01-for-ableton"
-name        = "Cassette Mallets.01 for Ableton"
-vendor      = "THEPHONOLOOP"
-version     = "1.0.0"
-description = "Cassette Mallets.01 for Ableton — three lo-fi bell/mallet instruments with 31 racks recorded on cassette."
-category    = "instruments"
-subcategory = "ableton rack"
-license     = "commercial"
-tags        = []
-homepage    = "https://thephonoloop.com/products/cassette-mallets-01"
-is_paid     = true
+slug         = "cassette-mallets-01-for-ableton"
+name         = "Cassette Mallets.01 for Ableton"
+vendor       = "THEPHONOLOOP"
+version      = "1.0.0"
+description  = "Cassette Mallets.01 for Ableton - three lo-fi bell/mallet instruments with 31 racks recorded on cassette."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ableton rack"
+license      = "commercial"
+tags         = []
+homepage     = "https://thephonoloop.com/products/cassette-mallets-01"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://thephonoloop.com/products/cassette-mallets-01"
-sha256       = ""
-install_type = "zip"
+url           = "https://thephonoloop.com/products/cassette-mallets-01"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://thephonoloop.com/products/cassette-mallets-01"
-sha256       = ""
-install_type = "zip"
+url           = "https://thephonoloop.com/products/cassette-mallets-01"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

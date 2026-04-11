@@ -1,26 +1,27 @@
-slug        = "psp-nobleq"
-name        = "PSP NobleQ"
-vendor      = "PSP Audioware"
-version     = "1.8.5"
-description = "Passive program equalizer with wide frequency range and extended functionality for mixing and mastering."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-nobleq"
+slug         = "psp-nobleq"
+name         = "PSP NobleQ"
+vendor       = "PSP Audioware"
+version      = "1.8.5"
+description  = "Passive program equalizer with wide frequency range and extended functionality for mixing and mastering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-nobleq"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/122-PSP-NobleQ-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-nobleq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-nobleq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-nobleq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-nobleq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

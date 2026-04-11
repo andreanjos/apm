@@ -1,25 +1,26 @@
-slug        = "ai-90-keys"
-name        = "AI-90 Keys"
-vendor      = "Sampletrip"
-version     = "1.0.0"
-description = "Late 80s–90s digital piano module library sampled from M-Series and OW-Series instruments."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kvraudio.com/product/ai-90-keys-by-sampletrip"
-is_paid     = true
+slug         = "ai-90-keys"
+name         = "AI-90 Keys"
+vendor       = "Sampletrip"
+version      = "1.0.0"
+description  = "Late 80s-90s digital piano module library sampled from M-Series and OW-Series instruments."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kvraudio.com/product/ai-90-keys-by-sampletrip"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kvraudio.com/product/ai-90-keys-by-sampletrip"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/product/ai-90-keys-by-sampletrip"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kvraudio.com/product/ai-90-keys-by-sampletrip"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/product/ai-90-keys-by-sampletrip"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

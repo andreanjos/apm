@@ -1,25 +1,26 @@
-slug        = "seismic-frequencies"
-name        = "Seismic Frequencies"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Organic tones, moody washes, and experimental energies designed for cinematic, ambient, and electronic music."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/seismic-frequencies"
-is_paid     = true
+slug         = "seismic-frequencies"
+name         = "Seismic Frequencies"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Organic tones, moody washes, and experimental energies designed for cinematic, ambient, and electronic music."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/seismic-frequencies"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/seismic-frequencies"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/seismic-frequencies"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/seismic-frequencies"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/seismic-frequencies"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

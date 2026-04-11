@@ -1,26 +1,28 @@
-slug        = "zynaptiq-unfilter"
-name        = "UNFILTER"
-vendor      = "Zynaptiq"
-version     = "1.5.0"
-description = "Real-time adaptive EQ that automatically linearizes the frequency response of any audio signal, removing colorations caused by room acoustics, mics, or speakers."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = ["eq", "adaptive", "tonal-linearization", "restoration", "mastering", "ilok"]
-homepage    = "https://www.zynaptiq.com/unfilter/"
+slug         = "zynaptiq-unfilter"
+name         = "UNFILTER"
+vendor       = "Zynaptiq"
+version      = "1.5.0"
+description  = "Real-time adaptive EQ that automatically linearizes the frequency response of any audio signal, removing colorations caused by room acoustics, mics, or speakers."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = ["eq", "adaptive", "tonal-linearization", "restoration", "mastering", "ilok"]
+aliases      = ["unfilter"]
+homepage     = "https://www.zynaptiq.com/unfilter/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/2704-UNFILTER-?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
-# NOTE: Zynaptiq distributes via email download link. Fill out the form on the
-# downloads page to receive a personal download URL. Requires iLok account.
 [formats.vst3]
-url          = "https://www.zynaptiq.com/unfilter/unfilter-downloads/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.zynaptiq.com/unfilter/unfilter-downloads/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "UNFILTER.vst3"
+bundle_path   = "UNFILTER.vst3"
 
 [formats.au]
-url          = "https://www.zynaptiq.com/unfilter/unfilter-downloads/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.zynaptiq.com/unfilter/unfilter-downloads/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "UNFILTER.component"
+bundle_path   = "UNFILTER.component"

@@ -1,25 +1,26 @@
-slug        = "jen-sx3000"
-name        = "JEN SX3000"
-vendor      = "Synth Magic"
-version     = "1.0.0"
-description = "Kontakt library of the rare Jen SX3000 analog synthesizer capturing its warm Italian vintage character."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://synthmagic.co.uk/jen-sx3000/"
-is_paid     = true
+slug         = "jen-sx3000"
+name         = "JEN SX3000"
+vendor       = "Synth Magic"
+version      = "1.0.0"
+description  = "Kontakt library of the rare Jen SX3000 analog synthesizer capturing its warm Italian vintage character."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://synthmagic.co.uk/jen-sx3000/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synthmagic.co.uk/jen-sx3000/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/jen-sx3000/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synthmagic.co.uk/jen-sx3000/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/jen-sx3000/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

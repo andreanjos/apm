@@ -1,26 +1,27 @@
-slug        = "premier-beats-for-maschine-ableton"
-name        = "Premier Beats for Maschine Ableton"
-vendor      = "RawCutz"
-version     = "1.0"
-description = "RawCutz Premier Beats is a classic hip-hop drum kit pack for Maschine and Ableton Live."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/product/81-Bundle/87-Maschine-Ableton-Bundle/6121-Premier-Beats-for-Maschine-Ableton"
+slug         = "premier-beats-for-maschine-ableton"
+name         = "Premier Beats for Maschine Ableton"
+vendor       = "RawCutz"
+version      = "1.0"
+description  = "RawCutz Premier Beats is a classic hip-hop drum kit pack for Maschine and Ableton Live."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/product/81-Bundle/87-Maschine-Ableton-Bundle/6121-Premier-Beats-for-Maschine-Ableton"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/6121-Premier-Beats-for-Maschine-Ableton?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/product/81-Bundle/87-Maschine-Ableton-Bundle/6121-Premier-Beats-for-Maschine-Ableton"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/81-Bundle/87-Maschine-Ableton-Bundle/6121-Premier-Beats-for-Maschine-Ableton"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/product/81-Bundle/87-Maschine-Ableton-Bundle/6121-Premier-Beats-for-Maschine-Ableton"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/81-Bundle/87-Maschine-Ableton-Bundle/6121-Premier-Beats-for-Maschine-Ableton"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "spark-2"
-name        = "Spark 2"
-vendor      = "Arturia"
-version     = "2.1.0"
-description = "Creative drum machine and sequencer combining synthesized and sampled drums in one instrument."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/drums/spark2/overview"
-is_paid     = true
+slug         = "spark-2"
+name         = "Spark 2"
+vendor       = "Arturia"
+version      = "2.1.0"
+description  = "Creative drum machine and sequencer combining synthesized and sampled drums in one instrument."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/drums/spark2/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/drums/spark2/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/drums/spark2/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/drums/spark2/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/drums/spark2/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

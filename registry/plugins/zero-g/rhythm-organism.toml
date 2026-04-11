@@ -1,25 +1,26 @@
-slug        = "rhythm-organism"
-name        = "Rhythm Organism"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Over 800 versatile samples of electronic didgeridoo grooves and single hits from master Charlie McMahon."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/rhythm-organism"
-is_paid     = true
+slug         = "rhythm-organism"
+name         = "Rhythm Organism"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Over 800 versatile samples of electronic didgeridoo grooves and single hits from master Charlie McMahon."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/rhythm-organism"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/rhythm-organism"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/rhythm-organism"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/rhythm-organism"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/rhythm-organism"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

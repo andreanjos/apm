@@ -1,26 +1,27 @@
-slug        = "pulsar-vocal-studio"
-name        = "Pulsar Vocal Studio"
-vendor      = "Pulsar Audio"
-version     = "1.0.0"
-description = "All-in-one vocal mixing plugin with preamp, compression, EQ, de-esser and effects."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-homepage    = "https://pulsar.audio/vocal-studio/"
+slug         = "pulsar-vocal-studio"
+name         = "Pulsar Vocal Studio"
+vendor       = "Pulsar Audio"
+version      = "1.0.0"
+description  = "All-in-one vocal mixing plugin with preamp, compression, EQ, de-esser and effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+homepage     = "https://pulsar.audio/vocal-studio/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15002-Pulsar-Vocal-Studio?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://pulsar.audio/vocal-studio/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pulsar.audio/vocal-studio/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://pulsar.audio/vocal-studio/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pulsar.audio/vocal-studio/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

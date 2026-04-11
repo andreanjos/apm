@@ -1,25 +1,26 @@
-slug        = "velvet-vocal"
-name        = "Velvet Vocal"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Kontakt instrument featuring over 500 vocal samples from 10 complete songs with professional female downtempo vocalists."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/velvet-vocal"
-is_paid     = true
+slug         = "velvet-vocal"
+name         = "Velvet Vocal"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Kontakt instrument featuring over 500 vocal samples from 10 complete songs with professional female downtempo vocalists."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/velvet-vocal"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/velvet-vocal"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/velvet-vocal"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/velvet-vocal"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/velvet-vocal"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

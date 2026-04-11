@@ -1,26 +1,27 @@
-slug        = "flow-motion-dombra"
-name        = "Flow Motion Dombra"
-vendor      = "Wavelet Audio"
-version     = "1.0.0"
-description = "Machine-learning-powered Kontakt library of the Central Asian dombra for authentic rhythmic performance."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://wavelet-audio.com/flow-motion-dombra/"
+slug         = "flow-motion-dombra"
+name         = "Flow Motion Dombra"
+vendor       = "Wavelet Audio"
+version      = "1.0.0"
+description  = "Machine-learning-powered Kontakt library of the Central Asian dombra for authentic rhythmic performance."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://wavelet-audio.com/flow-motion-dombra/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/16092-Flow-Motion-Dombra?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://wavelet-audio.com/flow-motion-dombra/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavelet-audio.com/flow-motion-dombra/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://wavelet-audio.com/flow-motion-dombra/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavelet-audio.com/flow-motion-dombra/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

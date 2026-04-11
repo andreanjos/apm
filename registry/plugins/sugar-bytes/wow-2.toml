@@ -1,26 +1,27 @@
-slug        = "wow-2"
-name        = "WOW 2"
-vendor      = "Sugar Bytes"
-version     = "2"
-description = "Creative multi-mode filter plugin with warm, juicy character and expressive filter modulation."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://sugar-bytes.de/wow2"
+slug         = "wow-2"
+name         = "WOW 2"
+vendor       = "Sugar Bytes"
+version      = "2"
+description  = "Creative multi-mode filter plugin with warm, juicy character and expressive filter modulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://sugar-bytes.de/wow2"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/690-WOW-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sugar-bytes.de/wow2"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/wow2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sugar-bytes.de/wow2"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/wow2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

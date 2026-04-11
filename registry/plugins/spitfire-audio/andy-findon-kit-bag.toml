@@ -1,26 +1,27 @@
-slug        = "andy-findon-kit-bag"
-name        = "Andy Findon Kit Bag"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Exotic woodwind collection by Andy Findon featuring Fujara, Ocarina, Contrabass Flute, Shakuhachi, and more."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/andy-findon-kit-bag/"
-is_paid     = true
+slug         = "andy-findon-kit-bag"
+name         = "Andy Findon Kit Bag"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Exotic woodwind collection by Andy Findon featuring Fujara, Ocarina, Contrabass Flute, Shakuhachi, and more."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/andy-findon-kit-bag/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/andy-findon-kit-bag/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/andy-findon-kit-bag/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/andy-findon-kit-bag/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/andy-findon-kit-bag/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

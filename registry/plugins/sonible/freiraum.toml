@@ -1,25 +1,26 @@
-slug        = "freiraum"
-name        = "Frei:raum"
-vendor      = "sonible"
-version     = "1.0.0"
-description = "Comprehensive EQ combining smart:EQ, proximity:EQ, and entropy:EQ layers in a single plugin."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonible.com/freiraum/"
-is_paid     = true
+slug         = "freiraum"
+name         = "Frei:raum"
+vendor       = "sonible"
+version      = "1.0.0"
+description  = "Comprehensive EQ combining smart:EQ, proximity:EQ, and entropy:EQ layers in a single plugin."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonible.com/freiraum/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonible.com/freiraum/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/freiraum/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonible.com/freiraum/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/freiraum/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

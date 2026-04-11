@@ -1,26 +1,27 @@
-slug        = "tdr-ultrasonic"
-name        = "TDR Ultrasonic"
-vendor      = "Tokyo Dawn Labs"
-version     = "1.0.5"
-description = "Low-pass filter plugin for mastering that cleanly removes ultrasonic content above audible frequencies."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tokyodawn.net/tdr-ultrasonic/"
+slug         = "tdr-ultrasonic"
+name         = "TDR Ultrasonic"
+vendor       = "Tokyo Dawn Labs"
+version      = "1.0.5"
+description  = "Low-pass filter plugin for mastering that cleanly removes ultrasonic content above audible frequencies."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tokyodawn.net/tdr-ultrasonic/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/11678-TDR-Ultrasonic?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tokyodawn.net/tdr-ultrasonic/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tokyodawn.net/tdr-ultrasonic/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tokyodawn.net/tdr-ultrasonic/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tokyodawn.net/tdr-ultrasonic/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

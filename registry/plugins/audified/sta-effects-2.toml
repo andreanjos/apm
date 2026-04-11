@@ -1,25 +1,26 @@
-slug        = "sta-effects-2"
-name        = "STA Effects 2"
-vendor      = "Audified"
-version     = "2.1.0"
-description = "Second-generation tube saturation effects bundle with preamp, chorus, flanger, phaser, enhancer, and delay."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/sta-effects-2/"
-is_paid     = true
+slug         = "sta-effects-2"
+name         = "STA Effects 2"
+vendor       = "Audified"
+version      = "2.1.0"
+description  = "Second-generation tube saturation effects bundle with preamp, chorus, flanger, phaser, enhancer, and delay."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/sta-effects-2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/sta-effects-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/sta-effects-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/sta-effects-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/sta-effects-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "daw-lp"
-name        = "DAW LP"
-vendor      = "Klevgrand"
-version     = "1.0.5"
-description = "A vinyl player simulation plugin that adds the analog saturation and character of an LP record."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = []
-homepage    = "https://klevgrand.com/products/daw-lp"
+slug         = "daw-lp"
+name         = "DAW LP"
+vendor       = "Klevgrand"
+version      = "1.0.5"
+description  = "A vinyl player simulation plugin that adds the analog saturation and character of an LP record."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = []
+homepage     = "https://klevgrand.com/products/daw-lp"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/8699-DAW-LP?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klevgrand.com/products/daw-lp"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/daw-lp"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klevgrand.com/products/daw-lp"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/daw-lp"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

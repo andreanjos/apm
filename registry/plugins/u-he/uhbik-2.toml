@@ -1,26 +1,27 @@
-slug        = "uhbik-2"
-name        = "Uhbik 2"
-vendor      = "u he"
-version     = "2.0.0"
-description = "Ten-effects suite plugin with a modulation system and new compressor, updated with CLAP support."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://u-he.com/products/uhbik/"
+slug         = "uhbik-2"
+name         = "Uhbik 2"
+vendor       = "u he"
+version      = "2.0.0"
+description  = "Ten-effects suite plugin with a modulation system and new compressor, updated with CLAP support."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://u-he.com/products/uhbik/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/15854-Uhbik-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://u-he.com/products/uhbik/"
-sha256       = ""
-install_type = "zip"
+url           = "https://u-he.com/products/uhbik/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://u-he.com/products/uhbik/"
-sha256       = ""
-install_type = "zip"
+url           = "https://u-he.com/products/uhbik/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

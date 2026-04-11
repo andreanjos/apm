@@ -1,25 +1,26 @@
-slug        = "lush-101"
-name        = "LuSH-101"
-vendor      = "D16 Group"
-version     = "1.0.0"
-description = "Multilayer polyphonic synthesizer with 8 layers, 1600+ presets and best-in-class built-in effects (legacy)."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/products"
-is_paid     = true
+slug         = "lush-101"
+name         = "LuSH-101"
+vendor       = "D16 Group"
+version      = "1.0.0"
+description  = "Multilayer polyphonic synthesizer with 8 layers, 1600+ presets and best-in-class built-in effects (legacy)."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/products"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

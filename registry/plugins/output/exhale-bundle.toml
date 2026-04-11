@@ -1,25 +1,26 @@
-slug        = "exhale-bundle"
-name        = "EXHALE+ Bundle"
-vendor      = "Output"
-version     = "1.0"
-description = "Bundle combining the EXHALE vocal engine with additional expansion content for cinematic vocal design."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://output.com/products/exhale"
-is_paid     = true
+slug         = "exhale-bundle"
+name         = "EXHALE+ Bundle"
+vendor       = "Output"
+version      = "1.0"
+description  = "Bundle combining the EXHALE vocal engine with additional expansion content for cinematic vocal design."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://output.com/products/exhale"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://output.com/products/exhale"
-sha256       = ""
-install_type = "zip"
+url           = "https://output.com/products/exhale"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://output.com/products/exhale"
-sha256       = ""
-install_type = "zip"
+url           = "https://output.com/products/exhale"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

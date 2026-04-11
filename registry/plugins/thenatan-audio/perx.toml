@@ -1,26 +1,27 @@
-slug        = "perx"
-name        = "Perx"
-vendor      = "Thenatan Audio"
-version     = "1.0.0"
-description = "Percussion generator with 900+ world samples, 8 sequencers and 200+ presets for modern producers."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.thenatan.store/p/perx-percussion-generator-vst/"
+slug         = "perx"
+name         = "Perx"
+vendor       = "Thenatan Audio"
+version      = "1.0.0"
+description  = "Percussion generator with 900+ world samples, 8 sequencers and 200+ presets for modern producers."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.thenatan.store/p/perx-percussion-generator-vst/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/15987-Perx?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.thenatan.store/p/perx-percussion-generator-vst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.thenatan.store/p/perx-percussion-generator-vst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.thenatan.store/p/perx-percussion-generator-vst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.thenatan.store/p/perx-percussion-generator-vst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

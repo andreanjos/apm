@@ -1,25 +1,26 @@
-slug        = "e-compressor"
-name        = "E-Compressor"
-vendor      = "Nomad Factory"
-version     = "1.0.0"
-description = "Analog-style compressor plugin from Nomad Factory's E-Series for versatile dynamic range control."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.nomadfactory.com/products/"
-is_paid     = true
+slug         = "e-compressor"
+name         = "E-Compressor"
+vendor       = "Nomad Factory"
+version      = "1.0.0"
+description  = "Analog-style compressor plugin from Nomad Factory's E-Series for versatile dynamic range control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.nomadfactory.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.nomadfactory.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.nomadfactory.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

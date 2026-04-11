@@ -1,26 +1,27 @@
-slug        = "vecto"
-name        = "Vecto"
-vendor      = "Rob Papen"
-version     = "1.0.0"
-description = "Four-oscillator vector synthesizer with drawable vector paths, 28 filter types, two FX processors, and 1300+ presets."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/Vecto-vst.html"
+slug         = "vecto"
+name         = "Vecto"
+vendor       = "Rob Papen"
+version      = "1.0.0"
+description  = "Four-oscillator vector synthesizer with drawable vector paths, 28 filter types, two FX processors, and 1300+ presets."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/Vecto-vst.html"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/5090-Vecto?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/Vecto-vst.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/Vecto-vst.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/Vecto-vst.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/Vecto-vst.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

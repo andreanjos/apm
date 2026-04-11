@@ -1,25 +1,26 @@
-slug        = "orchestrator"
-name        = "Orchestrator"
-vendor      = "ProjectSAM"
-version     = "1.0.0"
-description = "Orchestral chords library with real legato transitions for strings with choir and brass with woodwinds."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://projectsam.com/libraries/colours-orchestrator/"
-is_paid     = true
+slug         = "orchestrator"
+name         = "Orchestrator"
+vendor       = "ProjectSAM"
+version      = "1.0.0"
+description  = "Orchestral chords library with real legato transitions for strings with choir and brass with woodwinds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://projectsam.com/libraries/colours-orchestrator/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://projectsam.com/libraries/colours-orchestrator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/colours-orchestrator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://projectsam.com/libraries/colours-orchestrator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://projectsam.com/libraries/colours-orchestrator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

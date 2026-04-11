@@ -1,26 +1,27 @@
-slug        = "dave-aude-producer-pack"
-name        = "Dave Aude Producer Pack"
-vendor      = "Waves"
-version     = "14.0"
-description = "Producer-focused plugin bundle curated by DJ and producer Dave Aude."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/dave-aude-producer-pack"
-is_paid     = true
+slug         = "dave-aude-producer-pack"
+name         = "Dave Aude Producer Pack"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Producer-focused plugin bundle curated by DJ and producer Dave Aude."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/dave-aude-producer-pack"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/dave-aude-producer-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/dave-aude-producer-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/dave-aude-producer-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/dave-aude-producer-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

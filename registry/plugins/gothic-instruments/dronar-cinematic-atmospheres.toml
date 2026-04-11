@@ -1,25 +1,26 @@
-slug        = "dronar-cinematic-atmospheres"
-name        = "Dronar Cinematic Atmospheres"
-vendor      = "Gothic Instruments"
-version     = "1.0.0"
-description = "Kontakt drone instrument using environmental recordings for evocative cinematic atmospheres."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonoracinematic.com/products/dronar-cinematic-atmospheres"
-is_paid     = true
+slug         = "dronar-cinematic-atmospheres"
+name         = "Dronar Cinematic Atmospheres"
+vendor       = "Gothic Instruments"
+version      = "1.0.0"
+description  = "Kontakt drone instrument using environmental recordings for evocative cinematic atmospheres."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonoracinematic.com/products/dronar-cinematic-atmospheres"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonoracinematic.com/products/dronar-cinematic-atmospheres"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/dronar-cinematic-atmospheres"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonoracinematic.com/products/dronar-cinematic-atmospheres"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/dronar-cinematic-atmospheres"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

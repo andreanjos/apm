@@ -1,26 +1,27 @@
-slug        = "mum-m8-dsp"
-name        = "MUM M8 DSP"
-vendor      = "ALM Busy Circuits"
-version     = "1.0.0"
-description = "6th-order Butterworth switched-capacitor low-pass filter plugin based on the MUM M8 module."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://busycircuits.com/collections/mfx-plugs"
+slug         = "mum-m8-dsp"
+name         = "MUM M8 DSP"
+vendor       = "ALM Busy Circuits"
+version      = "1.0.0"
+description  = "6th-order Butterworth switched-capacitor low-pass filter plugin based on the MUM M8 module."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://busycircuits.com/collections/mfx-plugs"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/16127-MUM-M8-DSP?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://busycircuits.com/collections/mfx-plugs"
-sha256       = ""
-install_type = "zip"
+url           = "https://busycircuits.com/collections/mfx-plugs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://busycircuits.com/collections/mfx-plugs"
-sha256       = ""
-install_type = "zip"
+url           = "https://busycircuits.com/collections/mfx-plugs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

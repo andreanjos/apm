@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-connector"
-name        = "Blue Cat s Connector"
-vendor      = "Blue Cat Audio"
-version     = "1.43"
-description = "Real-time audio and MIDI streaming plug-in for sharing audio between computers or applications with minimal latency."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_Connector/"
+slug         = "blue-cat-s-connector"
+name         = "Blue Cat s Connector"
+vendor       = "Blue Cat Audio"
+version      = "1.43"
+description  = "Real-time audio and MIDI streaming plug-in for sharing audio between computers or applications with minimal latency."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_Connector/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/8606-Blue-Cat-s-Connector?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_Connector/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_Connector/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_Connector/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_Connector/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

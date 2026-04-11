@@ -1,25 +1,26 @@
-slug        = "maleventum-2"
-name        = "Maleventum 2"
-vendor      = "Silence And Other Sounds"
-version     = "1.0.0"
-description = "Kontakt library featuring arcane flutes and Native American wind instruments for cinematic scoring."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://silenceandothersounds.com/products/maleventum-2-arcane-flutes-native-america/"
-is_paid     = true
+slug         = "maleventum-2"
+name         = "Maleventum 2"
+vendor       = "Silence And Other Sounds"
+version      = "1.0.0"
+description  = "Kontakt library featuring arcane flutes and Native American wind instruments for cinematic scoring."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://silenceandothersounds.com/products/maleventum-2-arcane-flutes-native-america/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://silenceandothersounds.com/products/maleventum-2-arcane-flutes-native-america/"
-sha256       = ""
-install_type = "zip"
+url           = "https://silenceandothersounds.com/products/maleventum-2-arcane-flutes-native-america/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://silenceandothersounds.com/products/maleventum-2-arcane-flutes-native-america/"
-sha256       = ""
-install_type = "zip"
+url           = "https://silenceandothersounds.com/products/maleventum-2-arcane-flutes-native-america/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "mutant-reverb"
-name        = "Mutant Reverb"
-vendor      = "WA Production"
-version     = "2.1.0"
-description = "A mono-to-stereo algorithmic reverb with built-in ducker for clear vocals and percussion."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/mutant-reverb"
-is_paid     = true
+slug         = "mutant-reverb"
+name         = "Mutant Reverb"
+vendor       = "WA Production"
+version      = "2.1.0"
+description  = "A mono-to-stereo algorithmic reverb with built-in ducker for clear vocals and percussion."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/mutant-reverb"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/mutant-reverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/mutant-reverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/mutant-reverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/mutant-reverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

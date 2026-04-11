@@ -1,26 +1,27 @@
-slug        = "sistema2"
-name        = "Sistema2"
-vendor      = "guk ai"
-version     = "2.0"
-description = "guk.ai Sistema2 is an AI-powered synthesizer that generates sounds from text prompts."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://guk.ai/sistema-ai-synthesizer"
+slug         = "sistema2"
+name         = "Sistema2"
+vendor       = "guk ai"
+version      = "2.0"
+description  = "guk.ai Sistema2 is an AI-powered synthesizer that generates sounds from text prompts."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://guk.ai/sistema-ai-synthesizer"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10986-Sistema2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://guk.ai/sistema-ai-synthesizer"
-sha256       = ""
-install_type = "zip"
+url           = "https://guk.ai/sistema-ai-synthesizer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://guk.ai/sistema-ai-synthesizer"
-sha256       = ""
-install_type = "zip"
+url           = "https://guk.ai/sistema-ai-synthesizer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

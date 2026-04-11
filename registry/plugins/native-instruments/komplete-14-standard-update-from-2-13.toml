@@ -1,26 +1,27 @@
-slug        = "komplete-14-standard-update-from-2-13"
-name        = "Komplete 14 Standard Update from 2-13"
-vendor      = "Native Instruments"
-version     = "14"
-description = "Update path to Komplete 14 Standard from Komplete versions 2 through 13."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-installer   = "native-access"
-homepage    = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
-is_paid     = true
+slug         = "komplete-14-standard-update-from-2-13"
+name         = "Komplete 14 Standard Update from 2-13"
+vendor       = "Native Instruments"
+version      = "14"
+description  = "Update path to Komplete 14 Standard from Komplete versions 2 through 13."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+installer    = "native-access"
+homepage     = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

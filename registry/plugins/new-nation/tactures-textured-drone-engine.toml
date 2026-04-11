@@ -1,25 +1,27 @@
-slug        = "tactures-textured-drone-engine"
-name        = "Tactures – Textured Drone Engine"
-vendor      = "New Nation"
-version     = "1.0.0"
-description = "Textured drone engine for creating evolving ambient soundscapes and atmospheric textures."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://nnaud.io/"
-is_paid     = true
+slug         = "tactures-textured-drone-engine"
+name         = "Tactures - Textured Drone Engine"
+vendor       = "New Nation"
+version      = "1.0.0"
+description  = "Textured drone engine for creating evolving ambient soundscapes and atmospheric textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+aliases      = ["tactures-8211-textured-drone-engine"]
+homepage     = "https://nnaud.io/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nnaud.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nnaud.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nnaud.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nnaud.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

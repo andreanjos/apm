@@ -1,25 +1,26 @@
-slug        = "jennings"
-name        = "Jennings"
-vendor      = "Rhythmic Robot"
-version     = "1.0"
-description = "A Kontakt instrument sampled from the vintage Jennings Univox valve-driven synthesizer."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.rhythmicrobot.com/product/jennings"
-is_paid     = true
+slug         = "jennings"
+name         = "Jennings"
+vendor       = "Rhythmic Robot"
+version      = "1.0"
+description  = "A Kontakt instrument sampled from the vintage Jennings Univox valve-driven synthesizer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.rhythmicrobot.com/product/jennings"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.rhythmicrobot.com/product/jennings"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/jennings"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.rhythmicrobot.com/product/jennings"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/jennings"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

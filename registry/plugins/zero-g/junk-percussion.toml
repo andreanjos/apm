@@ -1,25 +1,26 @@
-slug        = "junk-percussion"
-name        = "Junk Percussion"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Rhythms, hits, and textures beyond everyday percussion featuring experimental sounds from unconventional objects."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/junk-percussion"
-is_paid     = true
+slug         = "junk-percussion"
+name         = "Junk Percussion"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Rhythms, hits, and textures beyond everyday percussion featuring experimental sounds from unconventional objects."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/junk-percussion"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/junk-percussion"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/junk-percussion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/junk-percussion"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/junk-percussion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

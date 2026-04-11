@@ -1,25 +1,26 @@
-slug        = "capriccio"
-name        = "Capriccio"
-vendor      = "Sonokinetic"
-version     = "1.0.0"
-description = "Vigorous phrase-based orchestral Kontakt library — Sonokinetic's largest collection yet."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonokinetic.net/products/classical/capriccio/"
-is_paid     = true
+slug         = "capriccio"
+name         = "Capriccio"
+vendor       = "Sonokinetic"
+version      = "1.0.0"
+description  = "Vigorous phrase-based orchestral Kontakt library - Sonokinetic's largest collection yet."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonokinetic.net/products/classical/capriccio/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonokinetic.net/products/classical/capriccio/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/classical/capriccio/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonokinetic.net/products/classical/capriccio/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/classical/capriccio/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

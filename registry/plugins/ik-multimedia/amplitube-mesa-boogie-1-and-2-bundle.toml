@@ -1,25 +1,26 @@
-slug        = "amplitube-mesa-boogie-1-and-2-bundle"
-name        = "AmpliTube MESA/Boogie 1 and 2 Bundle"
-vendor      = "IK Multimedia"
-version     = "2.0"
-description = "Bundle of MESA/Boogie Collections 1 and 2 for AmpliTube with a comprehensive set of certified MESA amps."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/mesa/"
-is_paid     = true
+slug         = "amplitube-mesa-boogie-1-and-2-bundle"
+name         = "AmpliTube MESA/Boogie 1 and 2 Bundle"
+vendor       = "IK Multimedia"
+version      = "2.0"
+description  = "Bundle of MESA/Boogie Collections 1 and 2 for AmpliTube with a comprehensive set of certified MESA amps."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/mesa/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/mesa/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/mesa/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/mesa/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/mesa/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

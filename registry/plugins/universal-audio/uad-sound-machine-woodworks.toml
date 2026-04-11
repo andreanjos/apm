@@ -1,25 +1,28 @@
-slug        = "uad-sound-machine-woodworks"
-name        = "Sound Machine Wood Works"
-vendor      = "Universal Audio"
-version     = "1.0"
-description = "Acoustic guitar body modeling for shaping piezo pickup tone into natural body response"
-category    = "effects"
-subcategory = "utility"
-license     = "commercial"
-tags        = ["acoustic", "guitar", "body-modeling", "piezo", "uad"]
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/"
+slug         = "uad-sound-machine-woodworks"
+name         = "Sound Machine Wood Works"
+vendor       = "Universal Audio"
+version      = "1.0"
+description  = "Acoustic guitar body modeling for shaping piezo pickup tone into natural body response"
+category     = "effects"
+product_type = "plugin"
+subcategory  = "utility"
+license      = "commercial"
+tags         = ["acoustic", "guitar", "body-modeling", "piezo", "uad"]
+aliases      = ["sound-machine-wood-works"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Sound Machine Wood Works.vst3"
+bundle_path   = "UAD Sound Machine Wood Works.vst3"
 
 [formats.au]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Sound Machine Wood Works.component"
+bundle_path   = "UAD Sound Machine Wood Works.component"

@@ -1,25 +1,26 @@
-slug        = "beatbox-anthology-2"
-name        = "BeatBox Anthology 2"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Massive hardware drum machine collection with over 11,000 samples from 111 vintage and modern drum machines."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/beatbox-anthology-2"
-is_paid     = true
+slug         = "beatbox-anthology-2"
+name         = "BeatBox Anthology 2"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Massive hardware drum machine collection with over 11,000 samples from 111 vintage and modern drum machines."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/beatbox-anthology-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/beatbox-anthology-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/beatbox-anthology-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/beatbox-anthology-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/beatbox-anthology-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

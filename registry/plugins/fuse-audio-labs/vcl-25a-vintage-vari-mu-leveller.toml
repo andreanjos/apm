@@ -1,26 +1,27 @@
-slug        = "vcl-25a-vintage-vari-mu-leveller"
-name        = "VCL 25A Vintage Vari Mu Leveller"
-vendor      = "Fuse Audio Labs"
-version     = "2.7"
-description = "Vintage Vari-Mu leveler plugin emulating classic variable-gain tube compression characteristics."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://fuseaudiolabs.com/"
+slug         = "vcl-25a-vintage-vari-mu-leveller"
+name         = "VCL 25A Vintage Vari Mu Leveller"
+vendor       = "Fuse Audio Labs"
+version      = "2.7"
+description  = "Vintage Vari-Mu leveler plugin emulating classic variable-gain tube compression characteristics."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://fuseaudiolabs.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/13831-VCL-25A-Vintage-Vari-Mu-Leveller?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

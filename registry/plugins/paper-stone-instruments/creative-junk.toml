@@ -1,25 +1,26 @@
-slug        = "creative-junk"
-name        = "Creative Junk"
-vendor      = "Paper Stone Instruments"
-version     = "1.0.0"
-description = "Kontakt percussion library sampling everyday objects and foley with multiple round robins."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
-is_paid     = true
+slug         = "creative-junk"
+name         = "Creative Junk"
+vendor       = "Paper Stone Instruments"
+version      = "1.0.0"
+description  = "Kontakt percussion library sampling everyday objects and foley with multiple round robins."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

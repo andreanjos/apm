@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-freqanalyst"
-name        = "Blue Cat s FreqAnalyst"
-vendor      = "Blue Cat Audio"
-version     = "2.5"
-description = "Free real-time spectrum analyzer plug-in for visualizing the spectral content of audio signals."
-category    = "effects"
-subcategory = "spectral analysis"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_FreqAnalyst/"
+slug         = "blue-cat-s-freqanalyst"
+name         = "Blue Cat s FreqAnalyst"
+vendor       = "Blue Cat Audio"
+version      = "2.5"
+description  = "Free real-time spectrum analyzer plug-in for visualizing the spectral content of audio signals."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "spectral analysis"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_FreqAnalyst/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/273-Blue-Cat-s-FreqAnalyst?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_FreqAnalyst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_FreqAnalyst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_FreqAnalyst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_FreqAnalyst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

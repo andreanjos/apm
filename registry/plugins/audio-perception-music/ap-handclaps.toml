@@ -1,25 +1,26 @@
-slug        = "ap-handclaps"
-name        = "AP Handclaps"
-vendor      = "Audio Perception Music"
-version     = "1.0.0"
-description = "Kontakt handclap library with five distinct clap types in stereo and mono for natural tracks."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://audioperceptionmusic.com/sounds/"
-is_paid     = true
+slug         = "ap-handclaps"
+name         = "AP Handclaps"
+vendor       = "Audio Perception Music"
+version      = "1.0.0"
+description  = "Kontakt handclap library with five distinct clap types in stereo and mono for natural tracks."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://audioperceptionmusic.com/sounds/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audioperceptionmusic.com/sounds/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audioperceptionmusic.com/sounds/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audioperceptionmusic.com/sounds/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audioperceptionmusic.com/sounds/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

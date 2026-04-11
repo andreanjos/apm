@@ -1,26 +1,27 @@
-slug        = "vocal-production"
-name        = "Vocal Production"
-vendor      = "Waves"
-version     = "14.0"
-description = "Comprehensive vocal processing bundle for tracking, editing, and mixing vocal performances."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/vocal-production"
-is_paid     = true
+slug         = "vocal-production"
+name         = "Vocal Production"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Comprehensive vocal processing bundle for tracking, editing, and mixing vocal performances."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/vocal-production"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/vocal-production"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/vocal-production"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/vocal-production"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/vocal-production"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,27 +1,28 @@
-slug        = "studer-a800-tape-recorder"
-name        = "Studer A800 Tape Recorder"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the Studer A800 multitrack tape recorder, the gold standard of studio tape machines."
-category    = "effects"
-subcategory = "tape emulation"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/recording/studer-a800-tape-recorder.html"
+slug         = "studer-a800-tape-recorder"
+name         = "Studer A800 Tape Recorder"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the Studer A800 multitrack tape recorder, the gold standard of studio tape machines."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "tape emulation"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/recording/studer-a800-tape-recorder.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/10185-Studer-A800-Tape-Recorder?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/recording/studer-a800-tape-recorder.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/recording/studer-a800-tape-recorder.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/recording/studer-a800-tape-recorder.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/recording/studer-a800-tape-recorder.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

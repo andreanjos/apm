@@ -1,26 +1,27 @@
-slug        = "modman"
-name        = "ModMan"
-vendor      = "UnplugRed"
-version     = "1.0.0"
-description = "Free Perlin-noise modulator for tape drift, filter, saturation, and amplitude."
-category    = "effects"
-subcategory = "modulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://vst.unplug.red/"
+slug         = "modman"
+name         = "ModMan"
+vendor       = "UnplugRed"
+version      = "1.0.0"
+description  = "Free Perlin-noise modulator for tape drift, filter, saturation, and amplitude."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "modulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://vst.unplug.red/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/16537-ModMan?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://vst.unplug.red/"
-sha256       = ""
-install_type = "zip"
+url           = "https://vst.unplug.red/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://vst.unplug.red/"
-sha256       = ""
-install_type = "zip"
+url           = "https://vst.unplug.red/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

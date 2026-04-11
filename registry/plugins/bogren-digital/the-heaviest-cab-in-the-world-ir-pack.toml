@@ -1,26 +1,27 @@
-slug        = "the-heaviest-cab-in-the-world-ir-pack"
-name        = "The Heaviest Cab In The World IR Pack"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Signature guitar cabinet IR pack from producer Jakob Herrmann delivering punishing low-end heavy tones."
-category    = "utility"
-subcategory = "impulse response"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/the-heaviest-cab-in-the-world-ir-pack"
+slug         = "the-heaviest-cab-in-the-world-ir-pack"
+name         = "The Heaviest Cab In The World IR Pack"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Signature guitar cabinet IR pack from producer Jakob Herrmann delivering punishing low-end heavy tones."
+category     = "utility"
+product_type = "bundle"
+subcategory  = "impulse response"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/the-heaviest-cab-in-the-world-ir-pack"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/10645-The-Heaviest-Cab-In-The-World-IR-Pack?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/the-heaviest-cab-in-the-world-ir-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/the-heaviest-cab-in-the-world-ir-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/the-heaviest-cab-in-the-world-ir-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/the-heaviest-cab-in-the-world-ir-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

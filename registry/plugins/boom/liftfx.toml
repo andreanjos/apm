@@ -1,26 +1,27 @@
-slug        = "liftfx"
-name        = "LIFTFX"
-vendor      = "Boom"
-version     = "1.0"
-description = "Playable build-up and drop generator plugin using proprietary synthesis for risers, drops, and sweeps."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.boomlibrary.com/sound-effects/liftfx/"
+slug         = "liftfx"
+name         = "LIFTFX"
+vendor       = "Boom"
+version      = "1.0"
+description  = "Playable build-up and drop generator plugin using proprietary synthesis for risers, drops, and sweeps."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.boomlibrary.com/sound-effects/liftfx/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7977-LIFTFX?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.boomlibrary.com/sound-effects/liftfx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.boomlibrary.com/sound-effects/liftfx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.boomlibrary.com/sound-effects/liftfx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.boomlibrary.com/sound-effects/liftfx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

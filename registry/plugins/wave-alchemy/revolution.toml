@@ -1,26 +1,27 @@
-slug        = "revolution"
-name        = "Revolution"
-vendor      = "Wave Alchemy"
-version     = "1.0.0"
-description = "Kontakt drum machine instrument sampling the TR-606 with 5381 unique samples and a programmable sequencer."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.wavealchemy.co.uk/product/revolution/"
+slug         = "revolution"
+name         = "Revolution"
+vendor       = "Wave Alchemy"
+version      = "1.0.0"
+description  = "Kontakt drum machine instrument sampling the TR-606 with 5381 unique samples and a programmable sequencer."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.wavealchemy.co.uk/product/revolution/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/3066-Revolution?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.wavealchemy.co.uk/product/revolution/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/revolution/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.wavealchemy.co.uk/product/revolution/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/revolution/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

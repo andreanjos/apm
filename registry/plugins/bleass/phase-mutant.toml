@@ -1,25 +1,26 @@
-slug        = "phase-mutant"
-name        = "Phase Mutant"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "BLEASS FM phase distortion effect blending an oscillator with input audio for unique distortions."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/phase-mutant/"
-is_paid     = true
+slug         = "phase-mutant"
+name         = "Phase Mutant"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "BLEASS FM phase distortion effect blending an oscillator with input audio for unique distortions."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/phase-mutant/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/phase-mutant/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/phase-mutant/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/phase-mutant/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/phase-mutant/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

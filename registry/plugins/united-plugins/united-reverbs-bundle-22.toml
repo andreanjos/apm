@@ -1,24 +1,25 @@
-slug        = "united-reverbs-bundle-22"
-name        = "United Reverbs Bundle 22"
-vendor      = "United Plugins"
-version     = "1.0.0"
-description = "United Plugins 2022 bundle collection of reverb effect plugins."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com"
-is_paid     = true
+slug         = "united-reverbs-bundle-22"
+name         = "United Reverbs Bundle 22"
+vendor       = "United Plugins"
+version      = "1.0.0"
+description  = "United Plugins 2022 bundle collection of reverb effect plugins."
+category     = "effects"
+product_type = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

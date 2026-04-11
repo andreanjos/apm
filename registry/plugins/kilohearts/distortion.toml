@@ -1,25 +1,26 @@
-slug        = "distortion"
-name        = "Distortion"
-vendor      = "Kilohearts"
-version     = "2.4.6"
-description = "Distortion Snapin offering multiple clipping modes for harmonic saturation and overdrive."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://kilohearts.com/products/distortion"
-is_paid     = true
+slug         = "distortion"
+name         = "Distortion"
+vendor       = "Kilohearts"
+version      = "2.4.6"
+description  = "Distortion Snapin offering multiple clipping modes for harmonic saturation and overdrive."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://kilohearts.com/products/distortion"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://kilohearts.com/products/distortion"
-sha256       = ""
-install_type = "zip"
+url           = "https://kilohearts.com/products/distortion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://kilohearts.com/products/distortion"
-sha256       = ""
-install_type = "zip"
+url           = "https://kilohearts.com/products/distortion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

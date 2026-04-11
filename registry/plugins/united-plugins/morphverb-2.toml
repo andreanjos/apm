@@ -1,24 +1,25 @@
-slug        = "morphverb-2"
-name        = "MorphVerb 2"
-vendor      = "United Plugins"
-version     = "2"
-description = "Advanced reverb plugin blending multiple reverb types including spring, room, plate, hall, and cathedral."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com/MorphVerb/"
-is_paid     = true
+slug         = "morphverb-2"
+name         = "MorphVerb 2"
+vendor       = "United Plugins"
+version      = "2"
+description  = "Advanced reverb plugin blending multiple reverb types including spring, room, plate, hall, and cathedral."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com/MorphVerb/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com/MorphVerb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/MorphVerb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com/MorphVerb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/MorphVerb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

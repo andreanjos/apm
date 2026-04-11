@@ -1,25 +1,26 @@
-slug        = "anthology-xii-bundle"
-name        = "Anthology XII Bundle"
-vendor      = "Eventide"
-version     = "1.0.0"
-description = "Eventide's complete collection of 32 professional plug-ins spanning 50 years of audio innovation."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eventideaudio.com/plug-ins/anthology-xii/"
-is_paid     = true
+slug         = "anthology-xii-bundle"
+name         = "Anthology XII Bundle"
+vendor       = "Eventide"
+version      = "1.0.0"
+description  = "Eventide's complete collection of 32 professional plug-ins spanning 50 years of audio innovation."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eventideaudio.com/plug-ins/anthology-xii/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eventideaudio.com/plug-ins/anthology-xii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/anthology-xii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eventideaudio.com/plug-ins/anthology-xii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/anthology-xii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

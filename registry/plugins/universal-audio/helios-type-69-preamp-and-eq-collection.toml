@@ -1,26 +1,27 @@
-slug        = "helios-type-69-preamp-and-eq-collection"
-name        = "Helios Type 69 Preamp and EQ Collection"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Collection emulating the Helios Type 69 vintage British console EQ and preamp modules."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/equalizers/helios-type-69-preamp-eq-collection.html"
-is_paid     = true
+slug         = "helios-type-69-preamp-and-eq-collection"
+name         = "Helios Type 69 Preamp and EQ Collection"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Collection emulating the Helios Type 69 vintage British console EQ and preamp modules."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/equalizers/helios-type-69-preamp-eq-collection.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/equalizers/helios-type-69-preamp-eq-collection.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/equalizers/helios-type-69-preamp-eq-collection.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/equalizers/helios-type-69-preamp-eq-collection.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/equalizers/helios-type-69-preamp-eq-collection.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

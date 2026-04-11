@@ -1,26 +1,27 @@
-slug        = "greg-wells-pianocentric"
-name        = "Greg Wells PianoCentric"
-vendor      = "Waves"
-version     = "14.0"
-description = "One-knob piano processor capturing Greg Wells' signature piano sound and character."
-category    = "effects"
-subcategory = "mixing"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/greg-wells-pianocentric"
-is_paid     = true
+slug         = "greg-wells-pianocentric"
+name         = "Greg Wells PianoCentric"
+vendor       = "Waves"
+version      = "14.0"
+description  = "One-knob piano processor capturing Greg Wells' signature piano sound and character."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mixing"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/greg-wells-pianocentric"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/greg-wells-pianocentric"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/greg-wells-pianocentric"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/greg-wells-pianocentric"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/greg-wells-pianocentric"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

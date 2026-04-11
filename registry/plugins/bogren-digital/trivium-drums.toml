@@ -1,26 +1,27 @@
-slug        = "trivium-drums"
-name        = "Trivium Drums"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Kontakt drum instrument delivering album-ready metal drums with 100+ MIDI grooves by Trivium's Alex Bent."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/trivium-drums"
+slug         = "trivium-drums"
+name         = "Trivium Drums"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Kontakt drum instrument delivering album-ready metal drums with 100+ MIDI grooves by Trivium's Alex Bent."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/trivium-drums"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/12820-Trivium-Drums?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/trivium-drums"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/trivium-drums"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/trivium-drums"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/trivium-drums"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

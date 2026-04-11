@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-patchwork"
-name        = "Blue Cat s PatchWork"
-vendor      = "Blue Cat Audio"
-version     = "2.77"
-description = "Universal plug-ins patchbay hosting up to 64 VST/VST3/AU plug-ins with serial and parallel routing."
-category    = "utility"
-subcategory = "virtual patchbay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_PatchWork/"
+slug         = "blue-cat-s-patchwork"
+name         = "Blue Cat s PatchWork"
+vendor       = "Blue Cat Audio"
+version      = "2.77"
+description  = "Universal plug-ins patchbay hosting up to 64 VST/VST3/AU plug-ins with serial and parallel routing."
+category     = "utility"
+product_type = "utility"
+subcategory  = "virtual patchbay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_PatchWork/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/67-Virtual-Patchbay/792-Blue-Cat-s-PatchWork?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_PatchWork/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_PatchWork/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_PatchWork/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_PatchWork/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

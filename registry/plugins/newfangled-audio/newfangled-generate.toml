@@ -1,24 +1,28 @@
-slug        = "newfangled-generate"
-name        = "Generate"
-vendor      = "Newfangled Audio"
-version     = "1.4.0"
-description = "Polyphonic synthesizer built around eight types of chaotic oscillators, five Buchla-inspired wavefolders, and deep MPE modulation."
-category    = "instruments"
-subcategory = "synthesizer"
-license     = "commercial"
-tags        = ["synth", "synthesizer", "chaotic", "wavefolder", "mpe", "buchla", "experimental", "eventide"]
-homepage    = "https://www.newfangledaudio.com/generate"
+slug         = "newfangled-generate"
+name         = "Generate"
+vendor       = "Newfangled Audio"
+version      = "1.4.0"
+description  = "Polyphonic synthesizer built around eight types of chaotic oscillators, five Buchla-inspired wavefolders, and deep MPE modulation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synthesizer"
+license      = "commercial"
+tags         = ["synth", "synthesizer", "chaotic", "wavefolder", "mpe", "buchla", "experimental", "eventide"]
+aliases      = ["generate"]
+homepage     = "https://www.newfangledaudio.com/generate"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/6792-Generate?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.eventideaudio.com/products/generate"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://store.eventideaudio.com/products/generate"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Generate.vst3"
+bundle_path   = "Generate.vst3"
 
 [formats.au]
-url          = "https://store.eventideaudio.com/products/generate"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://store.eventideaudio.com/products/generate"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Generate.component"
+bundle_path   = "Generate.component"

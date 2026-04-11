@@ -1,25 +1,26 @@
-slug        = "antidrum-3"
-name        = "Antidrum 3"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Third volume of the Antidrum series of experimental Kontakt percussion instruments."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/antidrum-3"
-is_paid     = true
+slug         = "antidrum-3"
+name         = "Antidrum 3"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Third volume of the Antidrum series of experimental Kontakt percussion instruments."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/antidrum-3"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/antidrum-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/antidrum-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/antidrum-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/antidrum-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

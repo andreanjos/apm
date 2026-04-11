@@ -1,25 +1,26 @@
-slug        = "zithergeist"
-name        = "Zithergeist"
-vendor      = "Silence And Other Sounds"
-version     = "1.0.0"
-description = "Kontakt zither instrument library with hauntingly resonant, otherworldly plucked string sounds."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://silenceandothersounds.com/products/zithergeist/"
-is_paid     = true
+slug         = "zithergeist"
+name         = "Zithergeist"
+vendor       = "Silence And Other Sounds"
+version      = "1.0.0"
+description  = "Kontakt zither instrument library with hauntingly resonant, otherworldly plucked string sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://silenceandothersounds.com/products/zithergeist/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://silenceandothersounds.com/products/zithergeist/"
-sha256       = ""
-install_type = "zip"
+url           = "https://silenceandothersounds.com/products/zithergeist/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://silenceandothersounds.com/products/zithergeist/"
-sha256       = ""
-install_type = "zip"
+url           = "https://silenceandothersounds.com/products/zithergeist/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

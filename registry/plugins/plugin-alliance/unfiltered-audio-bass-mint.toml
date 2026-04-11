@@ -1,27 +1,28 @@
-slug        = "unfiltered-audio-bass-mint"
-name        = "Unfiltered Audio Bass Mint"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Low-frequency enhancement plugin with five distinct modes to rapidly improve the bottom end of tracks, stems, or mixes."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/unfiltered_audio_bass_mint.html"
+slug         = "unfiltered-audio-bass-mint"
+name         = "Unfiltered Audio Bass Mint"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Low-frequency enhancement plugin with five distinct modes to rapidly improve the bottom end of tracks, stems, or mixes."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/unfiltered_audio_bass_mint.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/14930-Unfiltered-Audio-Bass-Mint?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio_bass_mint.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/unfiltered_audio_bass_mint.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio_bass_mint.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/unfiltered_audio_bass_mint.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

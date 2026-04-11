@@ -1,25 +1,26 @@
-slug        = "swam-solo-strings-bundle"
-name        = "SWAM Solo Strings Bundle"
-vendor      = "Audio Modeling"
-version     = "3"
-description = "Complete set of four physically modeled solo strings — violin, viola, cello, and double bass."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodeling.com/strings/swam-solo-strings-bundle/"
-is_paid     = true
+slug         = "swam-solo-strings-bundle"
+name         = "SWAM Solo Strings Bundle"
+vendor       = "Audio Modeling"
+version      = "3"
+description  = "Complete set of four physically modeled solo strings - violin, viola, cello, and double bass."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodeling.com/strings/swam-solo-strings-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodeling.com/strings/swam-solo-strings-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/strings/swam-solo-strings-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodeling.com/strings/swam-solo-strings-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/strings/swam-solo-strings-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

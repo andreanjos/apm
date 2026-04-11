@@ -1,26 +1,27 @@
-slug        = "voltage-modular-ignite"
-name        = "Voltage Modular Ignite"
-vendor      = "Cherry Audio"
-version     = "2"
-description = "Mid-tier Voltage Modular bundle with 40+ modules and 296 presets for modular synthesis exploration."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://cherryaudio.com/products/voltage-modular"
+slug         = "voltage-modular-ignite"
+name         = "Voltage Modular Ignite"
+vendor       = "Cherry Audio"
+version      = "2"
+description  = "Mid-tier Voltage Modular bundle with 40+ modules and 296 presets for modular synthesis exploration."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://cherryaudio.com/products/voltage-modular"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/5034-Voltage-Modular-Ignite?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cherryaudio.com/products/voltage-modular"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/voltage-modular"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cherryaudio.com/products/voltage-modular"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/voltage-modular"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

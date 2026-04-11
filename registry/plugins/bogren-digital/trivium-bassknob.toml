@@ -1,25 +1,26 @@
-slug        = "trivium-bassknob"
-name        = "Trivium BassKnob"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Single-knob bass amp sim capturing Paolo Gregoletto's Trivium bass tone for immediate album-ready results."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/pages/trivium-plugins"
-is_paid     = true
+slug         = "trivium-bassknob"
+name         = "Trivium BassKnob"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Single-knob bass amp sim capturing Paolo Gregoletto's Trivium bass tone for immediate album-ready results."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/pages/trivium-plugins"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/pages/trivium-plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/pages/trivium-plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/pages/trivium-plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/pages/trivium-plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

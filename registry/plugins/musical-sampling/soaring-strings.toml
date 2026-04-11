@@ -1,25 +1,26 @@
-slug        = "soaring-strings"
-name        = "Soaring Strings"
-vendor      = "Musical Sampling"
-version     = "1.0"
-description = "Full orchestral string legato library with four sections, four dynamic layers, and true fortissimo sampling."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://musicalsampling.com/soaring-strings/"
-is_paid     = true
+slug         = "soaring-strings"
+name         = "Soaring Strings"
+vendor       = "Musical Sampling"
+version      = "1.0"
+description  = "Full orchestral string legato library with four sections, four dynamic layers, and true fortissimo sampling."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://musicalsampling.com/soaring-strings/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://musicalsampling.com/soaring-strings/"
-sha256       = ""
-install_type = "zip"
+url           = "https://musicalsampling.com/soaring-strings/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://musicalsampling.com/soaring-strings/"
-sha256       = ""
-install_type = "zip"
+url           = "https://musicalsampling.com/soaring-strings/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

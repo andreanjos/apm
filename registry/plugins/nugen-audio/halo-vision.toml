@@ -1,26 +1,27 @@
-slug        = "halo-vision"
-name        = "Halo Vision"
-vendor      = "NUGEN Audio"
-version     = "2.0"
-description = "A customizable real-time visual analysis suite for 3D and immersive audio monitoring."
-category    = "utility"
-subcategory = "metering"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/halovision/"
+slug         = "halo-vision"
+name         = "Halo Vision"
+vendor       = "NUGEN Audio"
+version      = "2.0"
+description  = "A customizable real-time visual analysis suite for 3D and immersive audio monitoring."
+category     = "utility"
+product_type = "bundle"
+subcategory  = "metering"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/halovision/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/9680-Halo-Vision?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/halovision/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/halovision/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/halovision/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/halovision/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

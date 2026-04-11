@@ -1,26 +1,27 @@
-slug        = "manic-compressor"
-name        = "Manic Compressor"
-vendor      = "Boz Digital Labs"
-version     = "1.0.0"
-description = "High-ratio compressor plugin designed for aggressive, color-rich compression on drums and buses."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozdigitallabs.com/product/manic-compressor/"
+slug         = "manic-compressor"
+name         = "Manic Compressor"
+vendor       = "Boz Digital Labs"
+version      = "1.0.0"
+description  = "High-ratio compressor plugin designed for aggressive, color-rich compression on drums and buses."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bozdigitallabs.com/product/manic-compressor/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/2137-Manic-Compressor?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozdigitallabs.com/product/manic-compressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/manic-compressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozdigitallabs.com/product/manic-compressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/manic-compressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

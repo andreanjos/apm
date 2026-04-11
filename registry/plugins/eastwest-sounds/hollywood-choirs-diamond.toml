@@ -1,26 +1,27 @@
-slug        = "hollywood-choirs-diamond"
-name        = "Hollywood Choirs Diamond"
-vendor      = "EastWest Sounds"
-version     = "1.0.0"
-description = "Award-winning virtual choir with unprecedented dynamics and 13 mic positions including dummy head."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/vocals/hollywood-choirs"
+slug         = "hollywood-choirs-diamond"
+name         = "Hollywood Choirs Diamond"
+vendor       = "EastWest Sounds"
+version      = "1.0.0"
+description  = "Award-winning virtual choir with unprecedented dynamics and 13 mic positions including dummy head."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/vocals/hollywood-choirs"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15579-Hollywood-Choirs-Diamond?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/vocals/hollywood-choirs"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/vocals/hollywood-choirs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/vocals/hollywood-choirs"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/vocals/hollywood-choirs"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

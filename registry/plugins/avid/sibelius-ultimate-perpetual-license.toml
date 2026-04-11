@@ -1,26 +1,27 @@
-slug        = "sibelius-ultimate-perpetual-license"
-name        = "Sibelius Ultimate Perpetual License"
-vendor      = "Avid"
-version     = "2026.2"
-description = "Perpetual license for Sibelius Ultimate, Avid's most powerful professional music notation software."
-category    = "utility"
-subcategory = "daw"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.avid.com/sibelius"
+slug         = "sibelius-ultimate-perpetual-license"
+name         = "Sibelius Ultimate Perpetual License"
+vendor       = "Avid"
+version      = "2026.2"
+description  = "Perpetual license for Sibelius Ultimate, Avid's most powerful professional music notation software."
+category     = "utility"
+product_type = "utility"
+subcategory  = "daw"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.avid.com/sibelius"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12020-Sibelius-Ultimate-Perpetual-License-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.avid.com/sibelius"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.avid.com/sibelius"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.avid.com/sibelius"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.avid.com/sibelius"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

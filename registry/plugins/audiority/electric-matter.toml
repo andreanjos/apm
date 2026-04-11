@@ -1,26 +1,27 @@
-slug        = "electric-matter"
-name        = "Electric Matter"
-vendor      = "Audiority"
-version     = "1.3"
-description = "Vintage BBD flanger/filter matrix plug-in with rich analog bucket-brigade modulation."
-category    = "effects"
-subcategory = "flanger"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiority.com/shop/electric-matter/"
+slug         = "electric-matter"
+name         = "Electric Matter"
+vendor       = "Audiority"
+version      = "1.3"
+description  = "Vintage BBD flanger/filter matrix plug-in with rich analog bucket-brigade modulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "flanger"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiority.com/shop/electric-matter/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/8911-Electric-Matter?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiority.com/shop/electric-matter/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiority.com/shop/electric-matter/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiority.com/shop/electric-matter/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiority.com/shop/electric-matter/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

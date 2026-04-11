@@ -1,26 +1,27 @@
-slug        = "the-king-2"
-name        = "The King 2"
-vendor      = "W A Production"
-version     = "2"
-description = "Multiband compressor and limiter plugin designed for mastering and mix bus processing."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/the-king-2"
+slug         = "the-king-2"
+name         = "The King 2"
+vendor       = "W A Production"
+version      = "2"
+description  = "Multiband compressor and limiter plugin designed for mastering and mix bus processing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/the-king-2"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/3932-The-King-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/the-king-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/the-king-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/the-king-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/the-king-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

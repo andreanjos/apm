@@ -1,26 +1,28 @@
-slug        = "ezbass"
-name        = "EZbass"
-vendor      = "Toontrack"
-version     = "1.3.2"
-description = "Virtual bass instrument with intelligent fretboard engine and MIDI groove library for realistic bass performances."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-installer   = "toontrack-product-manager"
-homepage    = "https://www.toontrack.com/product/ezbass/"
-is_paid     = true
+slug         = "ezbass"
+name         = "EZbass"
+vendor       = "Toontrack"
+version      = "1.3.2"
+description  = "Virtual bass instrument with intelligent fretboard engine and MIDI groove library for realistic bass performances."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+aliases      = ["toontrack-ezbass"]
+installer    = "toontrack-product-manager"
+homepage     = "https://www.toontrack.com/product/ezbass/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.toontrack.com/product/ezbass/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/ezbass/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.toontrack.com/product/ezbass/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/ezbass/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

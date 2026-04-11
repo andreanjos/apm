@@ -1,25 +1,26 @@
-slug        = "retro-compressor"
-name        = "Retro Compressor"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Vintage-style compressor plugin emulating classic analog dynamic control for warm, punchy results."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p870-Retro-Compressor/"
-is_paid     = true
+slug         = "retro-compressor"
+name         = "Retro Compressor"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Vintage-style compressor plugin emulating classic analog dynamic control for warm, punchy results."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p870-Retro-Compressor/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p870-Retro-Compressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p870-Retro-Compressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p870-Retro-Compressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p870-Retro-Compressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "dronar-orchestral-woodwinds"
-name        = "Dronar Orchestral Woodwinds"
-vendor      = "Gothic Instruments"
-version     = "1.0.0"
-description = "Kontakt module crafting evolving atmospheric pads from orchestral woodwind recordings."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonoracinematic.com/products/dronar-orchestral-woodwinds"
-is_paid     = true
+slug         = "dronar-orchestral-woodwinds"
+name         = "Dronar Orchestral Woodwinds"
+vendor       = "Gothic Instruments"
+version      = "1.0.0"
+description  = "Kontakt module crafting evolving atmospheric pads from orchestral woodwind recordings."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonoracinematic.com/products/dronar-orchestral-woodwinds"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonoracinematic.com/products/dronar-orchestral-woodwinds"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/dronar-orchestral-woodwinds"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonoracinematic.com/products/dronar-orchestral-woodwinds"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/dronar-orchestral-woodwinds"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

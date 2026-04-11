@@ -1,24 +1,25 @@
-slug        = "weaponiser-fully-loaded-upgrade"
-name        = "Weaponiser Fully Loaded Upgrade"
-vendor      = "Krotos Audio"
-version     = "1.0.0"
-description = "Upgrade from Weaponiser Basic to Weaponiser Fully Loaded with expanded libraries and capabilities."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.krotosaudio.com/weaponiser/"
-is_paid     = true
+slug         = "weaponiser-fully-loaded-upgrade"
+name         = "Weaponiser Fully Loaded Upgrade"
+vendor       = "Krotos Audio"
+version      = "1.0.0"
+description  = "Upgrade from Weaponiser Basic to Weaponiser Fully Loaded with expanded libraries and capabilities."
+category     = "effects"
+product_type = "upgrade"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.krotosaudio.com/weaponiser/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.krotosaudio.com/weaponiser/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.krotosaudio.com/weaponiser/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.krotosaudio.com/weaponiser/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.krotosaudio.com/weaponiser/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

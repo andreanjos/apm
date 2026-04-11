@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-re-guitar"
-name        = "Blue Cat s Re Guitar"
-vendor      = "Blue Cat Audio"
-version     = "1.33"
-description = "Guitar pickup and body simulator enabling infinite tones from any single instrument regardless of model."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_ReGuitar/"
+slug         = "blue-cat-s-re-guitar"
+name         = "Blue Cat s Re Guitar"
+vendor       = "Blue Cat Audio"
+version      = "1.33"
+description  = "Guitar pickup and body simulator enabling infinite tones from any single instrument regardless of model."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_ReGuitar/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/5139-Blue-Cat-s-Re-Guitar?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_ReGuitar/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_ReGuitar/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_ReGuitar/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_ReGuitar/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

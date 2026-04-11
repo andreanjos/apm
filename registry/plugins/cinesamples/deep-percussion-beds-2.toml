@@ -1,26 +1,27 @@
-slug        = "deep-percussion-beds-2"
-name        = "Deep Percussion Beds 2"
-vendor      = "Cinesamples"
-version     = "1.0.0"
-description = "Second volume of cinematic percussion beds with additional dark, rhythmic textural sounds."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/deep-percussion-beds-2"
+slug         = "deep-percussion-beds-2"
+name         = "Deep Percussion Beds 2"
+vendor       = "Cinesamples"
+version      = "1.0.0"
+description  = "Second volume of cinematic percussion beds with additional dark, rhythmic textural sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/deep-percussion-beds-2"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11280-Deep-Percussion-Beds-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/deep-percussion-beds-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/deep-percussion-beds-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/deep-percussion-beds-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/deep-percussion-beds-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

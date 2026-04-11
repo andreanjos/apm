@@ -1,26 +1,27 @@
-slug        = "ezkeys-classic-electrics"
-name        = "EZKeys Classic Electrics"
-vendor      = "Toontrack"
-version     = "2.1.5"
-description = "EZkeys expansion featuring two classic electric pianos recorded with vintage and modern equipment."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-installer   = "toontrack-product-manager"
-homepage    = "https://www.toontrack.com/product/classic-electrics-ekx/"
-is_paid     = true
+slug         = "ezkeys-classic-electrics"
+name         = "EZKeys Classic Electrics"
+vendor       = "Toontrack"
+version      = "2.1.5"
+description  = "EZkeys expansion featuring two classic electric pianos recorded with vintage and modern equipment."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+installer    = "toontrack-product-manager"
+homepage     = "https://www.toontrack.com/product/classic-electrics-ekx/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.toontrack.com/product/classic-electrics-ekx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/classic-electrics-ekx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.toontrack.com/product/classic-electrics-ekx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/classic-electrics-ekx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

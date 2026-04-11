@@ -1,25 +1,27 @@
-slug        = "orchestral-woodwinds-world-flutes-bundle"
-name        = "Orchestral Woodwinds & World Flutes Bundle"
-vendor      = "Gothic Instruments"
-version     = "1.0.0"
-description = "Bundle combining Dronar Orchestral Woodwinds and World Flutes Kontakt modules."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonoracinematic.com/collections/all"
-is_paid     = true
+slug         = "orchestral-woodwinds-world-flutes-bundle"
+name         = "Orchestral Woodwinds & World Flutes Bundle"
+vendor       = "Gothic Instruments"
+version      = "1.0.0"
+description  = "Bundle combining Dronar Orchestral Woodwinds and World Flutes Kontakt modules."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["orchestral-woodwinds-038-world-flutes-bundle"]
+homepage     = "https://sonoracinematic.com/collections/all"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonoracinematic.com/collections/all"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/collections/all"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonoracinematic.com/collections/all"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/collections/all"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

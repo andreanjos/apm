@@ -1,25 +1,26 @@
-slug        = "hammer-klavier"
-name        = "Hammer Klavier"
-vendor      = "Impact Soundworks"
-version     = "1.0.0"
-description = "Kontakt experimental piano with metal-tipped hammers producing a sound between harpsichord and hammered dulcimer."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://impactsoundworks.com/product/hammer-klavier/"
-is_paid     = true
+slug         = "hammer-klavier"
+name         = "Hammer Klavier"
+vendor       = "Impact Soundworks"
+version      = "1.0.0"
+description  = "Kontakt experimental piano with metal-tipped hammers producing a sound between harpsichord and hammered dulcimer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://impactsoundworks.com/product/hammer-klavier/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://impactsoundworks.com/product/hammer-klavier/"
-sha256       = ""
-install_type = "zip"
+url           = "https://impactsoundworks.com/product/hammer-klavier/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://impactsoundworks.com/product/hammer-klavier/"
-sha256       = ""
-install_type = "zip"
+url           = "https://impactsoundworks.com/product/hammer-klavier/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

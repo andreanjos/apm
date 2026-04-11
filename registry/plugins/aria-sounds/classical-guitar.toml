@@ -1,25 +1,26 @@
-slug        = "classical-guitar"
-name        = "Classical Guitar"
-vendor      = "Aria Sounds"
-version     = "1.0.0"
-description = "Deeply sampled classical nylon guitar Kontakt instrument with hammer-ons, pull-offs, and strumming."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://ariasounds.com/product/aria-classical-guitarist/"
-is_paid     = true
+slug         = "classical-guitar"
+name         = "Classical Guitar"
+vendor       = "Aria Sounds"
+version      = "1.0.0"
+description  = "Deeply sampled classical nylon guitar Kontakt instrument with hammer-ons, pull-offs, and strumming."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://ariasounds.com/product/aria-classical-guitarist/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ariasounds.com/product/aria-classical-guitarist/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/aria-classical-guitarist/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ariasounds.com/product/aria-classical-guitarist/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/aria-classical-guitarist/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

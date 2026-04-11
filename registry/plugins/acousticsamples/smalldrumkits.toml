@@ -1,25 +1,26 @@
-slug        = "smalldrumkits"
-name        = "SmallDrumKits"
-vendor      = "Acousticsamples"
-version     = "1.0.0"
-description = "Collection of small, intimate acoustic drum kits with multiple mic perspectives and natural dynamics."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.acousticsamples.net/smalldrumkits"
-is_paid     = true
+slug         = "smalldrumkits"
+name         = "SmallDrumKits"
+vendor       = "Acousticsamples"
+version      = "1.0.0"
+description  = "Collection of small, intimate acoustic drum kits with multiple mic perspectives and natural dynamics."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.acousticsamples.net/smalldrumkits"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.acousticsamples.net/smalldrumkits"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.acousticsamples.net/smalldrumkits"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.acousticsamples.net/smalldrumkits"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.acousticsamples.net/smalldrumkits"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

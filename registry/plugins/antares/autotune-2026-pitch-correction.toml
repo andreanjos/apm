@@ -1,24 +1,25 @@
-slug        = "autotune-2026-pitch-correction"
-name        = "AutoTune 2026 Pitch-correction"
-vendor      = "Antares"
-version     = "2026"
-description = "Streamlined real-time pitch correction plugin replacing the Access and Artist editions."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.antarestech.com/products/auto-tune/at2026"
-is_paid     = true
+slug         = "autotune-2026-pitch-correction"
+name         = "AutoTune 2026 Pitch-correction"
+vendor       = "Antares"
+version      = "2026"
+description  = "Streamlined real-time pitch correction plugin replacing the Access and Artist editions."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.antarestech.com/products/auto-tune/at2026"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.antarestech.com/products/auto-tune/at2026"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/auto-tune/at2026"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.antarestech.com/products/auto-tune/at2026"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/auto-tune/at2026"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

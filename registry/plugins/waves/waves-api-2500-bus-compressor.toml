@@ -1,26 +1,27 @@
-slug        = "waves-api-2500-bus-compressor"
-name        = "Waves API 2500 Bus Compressor"
-vendor      = "Waves"
-version     = "14.0"
-description = "Emulation of the API 2500 stereo bus compressor with Waves-enhanced controls."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/api-2500-bus-compressor"
-is_paid     = true
+slug         = "waves-api-2500-bus-compressor"
+name         = "Waves API 2500 Bus Compressor"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Emulation of the API 2500 stereo bus compressor with Waves-enhanced controls."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/api-2500-bus-compressor"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/api-2500-bus-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/api-2500-bus-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/api-2500-bus-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/api-2500-bus-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

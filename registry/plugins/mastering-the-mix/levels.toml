@@ -1,26 +1,27 @@
-slug        = "levels"
-name        = "LEVELS"
-vendor      = "Mastering The Mix"
-version     = "2.0"
-description = "Metering plugin presenting loudness, dynamic range, stereo width, and clipping tools for modern loudness standards."
-category    = "utility"
-subcategory = "metering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.masteringthemix.com/"
+slug         = "levels"
+name         = "LEVELS"
+vendor       = "Mastering The Mix"
+version      = "2.0"
+description  = "Metering plugin presenting loudness, dynamic range, stereo width, and clipping tools for modern loudness standards."
+category     = "utility"
+product_type = "utility"
+subcategory  = "metering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.masteringthemix.com/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/2676-LEVELS?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.masteringthemix.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.masteringthemix.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.masteringthemix.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.masteringthemix.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

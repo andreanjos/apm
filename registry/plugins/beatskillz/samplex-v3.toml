@@ -1,26 +1,27 @@
-slug        = "samplex-v3"
-name        = "SampleX V3"
-vendor      = "BeatSkillz"
-version     = "3.0"
-description = "Advanced sampler emulator with ladder filters, dynamic convolution, and vintage sampler machine IRs."
-category    = "effects"
-subcategory = "bit crusher"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beatskillz.com/shop/samplex-v3/"
+slug         = "samplex-v3"
+name         = "SampleX V3"
+vendor       = "BeatSkillz"
+version      = "3.0"
+description  = "Advanced sampler emulator with ladder filters, dynamic convolution, and vintage sampler machine IRs."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "bit crusher"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beatskillz.com/shop/samplex-v3/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/6464-SampleX-V3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beatskillz.com/shop/samplex-v3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/samplex-v3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beatskillz.com/shop/samplex-v3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/samplex-v3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

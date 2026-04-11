@@ -1,26 +1,26 @@
-slug        = "izotope-nectar-4"
-name        = "Nectar 4"
-vendor      = "iZotope"
-version     = "4.1.0"
-description = "Comprehensive vocal production suite with AI-powered Vocal Assistant, pitch correction, dynamics, saturation, reverb, delay, and harmony generation."
-category    = "effects"
-subcategory = "vocal-processing"
-license     = "commercial"
-tags        = ["vocal", "pitch-correction", "dynamics", "reverb", "harmony", "ai", "suite", "mixing"]
-homepage    = "https://www.izotope.com/en/products/nectar"
+slug         = "izotope-nectar-4"
+name         = "Nectar 4"
+vendor       = "iZotope"
+version      = "4.1.0"
+description  = "Comprehensive vocal production suite with AI-powered Vocal Assistant, pitch correction, dynamics, saturation, reverb, delay, and harmony generation."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "vocal-processing"
+license      = "commercial"
+tags         = ["vocal", "pitch-correction", "dynamics", "reverb", "harmony", "ai", "suite", "mixing"]
+homepage     = "https://www.izotope.com/en/products/nectar"
+is_paid      = true
 
-# NOTE: iZotope products are distributed via the iZotope Product Portal
-# or through Native Instruments Access. Direct download URLs are account-gated.
 [formats.vst3]
-url          = "https://www.izotope.com/en/products/nectar"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.izotope.com/en/products/nectar"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Nectar 4.vst3"
+bundle_path   = "Nectar 4.vst3"
 
 [formats.au]
-url          = "https://www.izotope.com/en/products/nectar"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.izotope.com/en/products/nectar"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Nectar 4.component"
+bundle_path   = "Nectar 4.component"

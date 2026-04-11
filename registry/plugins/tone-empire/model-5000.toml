@@ -1,26 +1,27 @@
-slug        = "model-5000"
-name        = "Model 5000"
-vendor      = "Tone Empire"
-version     = "1.0.0"
-description = "Analog-modeled compressor plugin based on a classic American large-format console design."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tone-empire.com"
+slug         = "model-5000"
+name         = "Model 5000"
+vendor       = "Tone Empire"
+version      = "1.0.0"
+description  = "Analog-modeled compressor plugin based on a classic American large-format console design."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tone-empire.com"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6934-Model-5000?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tone-empire.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tone-empire.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tone-empire.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

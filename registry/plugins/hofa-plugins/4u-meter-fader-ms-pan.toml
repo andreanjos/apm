@@ -1,26 +1,27 @@
-slug        = "4u-meter-fader-ms-pan"
-name        = "4U Meter Fader MS Pan"
-vendor      = "HOFA Plugins"
-version     = "1.0.0"
-description = "Free utility plugin combining level metering, fader control, and mid/side panning."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://hofa-plugins.de/en/freeware-en/"
+slug         = "4u-meter-fader-ms-pan"
+name         = "4U Meter Fader MS Pan"
+vendor       = "HOFA Plugins"
+version      = "1.0.0"
+description  = "Free utility plugin combining level metering, fader control, and mid/side panning."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://hofa-plugins.de/en/freeware-en/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/5279-4U-Meter-Fader-MS-Pan?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hofa-plugins.de/en/freeware-en/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hofa-plugins.de/en/freeware-en/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hofa-plugins.de/en/freeware-en/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hofa-plugins.de/en/freeware-en/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

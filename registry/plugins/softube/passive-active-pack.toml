@@ -1,26 +1,27 @@
-slug        = "passive-active-pack"
-name        = "Passive-Active Pack"
-vendor      = "Softube"
-version     = "2.6"
-description = "Dual-EQ plugin bundle featuring modeled passive and active equalizer circuits for tone shaping."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/passive-active-pack"
-is_paid     = true
+slug         = "passive-active-pack"
+name         = "Passive-Active Pack"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Dual-EQ plugin bundle featuring modeled passive and active equalizer circuits for tone shaping."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/passive-active-pack"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/passive-active-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/passive-active-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/passive-active-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/passive-active-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

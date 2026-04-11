@@ -1,25 +1,26 @@
-slug        = "sta-delay"
-name        = "STA Delay"
-vendor      = "Audified"
-version     = "2.1.0"
-description = "Tape-style delay plugin using Audified's STA tube saturation technology for warm analog delay tones."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/sta-delay/"
-is_paid     = true
+slug         = "sta-delay"
+name         = "STA Delay"
+vendor       = "Audified"
+version      = "2.1.0"
+description  = "Tape-style delay plugin using Audified's STA tube saturation technology for warm analog delay tones."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/sta-delay/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/sta-delay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/sta-delay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/sta-delay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/sta-delay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

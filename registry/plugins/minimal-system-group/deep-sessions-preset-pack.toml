@@ -1,26 +1,27 @@
-slug        = "deep-sessions-preset-pack"
-name        = "Deep Sessions Preset Pack"
-vendor      = "Minimal System Group"
-version     = "1.0.0"
-description = "Preset pack for Minimal System Group synthesizers featuring deep, atmospheric session-ready patches."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+slug         = "deep-sessions-preset-pack"
+name         = "Deep Sessions Preset Pack"
+vendor       = "Minimal System Group"
+version      = "1.0.0"
+description  = "Preset pack for Minimal System Group synthesizers featuring deep, atmospheric session-ready patches."
+category     = "instruments"
+product_type = "preset_pack"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/294-Deep-Sessions-Preset-Pack?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

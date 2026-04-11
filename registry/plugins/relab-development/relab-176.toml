@@ -1,26 +1,27 @@
-slug        = "relab-176"
-name        = "Relab 176"
-vendor      = "Relab Development"
-version     = "1.0"
-description = "Circuit-accurate software recreation of the vintage 176 variable-mu tube compressor with full transformer modelling."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://relabdevelopment.com/store/"
+slug         = "relab-176"
+name         = "Relab 176"
+vendor       = "Relab Development"
+version      = "1.0"
+description  = "Circuit-accurate software recreation of the vintage 176 variable-mu tube compressor with full transformer modelling."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://relabdevelopment.com/store/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16612-Relab-176?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://relabdevelopment.com/store/"
-sha256       = ""
-install_type = "zip"
+url           = "https://relabdevelopment.com/store/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://relabdevelopment.com/store/"
-sha256       = ""
-install_type = "zip"
+url           = "https://relabdevelopment.com/store/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

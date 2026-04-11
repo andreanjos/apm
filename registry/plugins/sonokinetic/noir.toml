@@ -1,25 +1,26 @@
-slug        = "noir"
-name        = "Noir"
-vendor      = "Sonokinetic"
-version     = "1.0.0"
-description = "Classic and neo-noir cinematic orchestral phrase-based Kontakt library for dark scoring."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonokinetic.net/products/classical/noir/"
-is_paid     = true
+slug         = "noir"
+name         = "Noir"
+vendor       = "Sonokinetic"
+version      = "1.0.0"
+description  = "Classic and neo-noir cinematic orchestral phrase-based Kontakt library for dark scoring."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonokinetic.net/products/classical/noir/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonokinetic.net/products/classical/noir/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/classical/noir/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonokinetic.net/products/classical/noir/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/classical/noir/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

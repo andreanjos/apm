@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-spinal-vibe"
-name        = "Blue Cat s Spinal Vibe"
-vendor      = "Blue Cat Audio"
-version     = "1.02"
-description = "Rotary speaker emulator extending traditional Leslie simulations with augmented modulation capabilities."
-category    = "effects"
-subcategory = "modulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_SpinalVibe/"
+slug         = "blue-cat-s-spinal-vibe"
+name         = "Blue Cat s Spinal Vibe"
+vendor       = "Blue Cat Audio"
+version      = "1.02"
+description  = "Rotary speaker emulator extending traditional Leslie simulations with augmented modulation capabilities."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "modulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_SpinalVibe/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/13477-Blue-Cat-s-Spinal-Vibe?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_SpinalVibe/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_SpinalVibe/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_SpinalVibe/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_SpinalVibe/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

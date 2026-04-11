@@ -1,26 +1,27 @@
-slug        = "aphex-vintage-aural-exciter"
-name        = "Aphex Vintage Aural Exciter"
-vendor      = "Waves"
-version     = "14.0"
-description = "Classic Aphex aural exciter adding harmonic brilliance and presence to any audio source."
-category    = "effects"
-subcategory = "exciter"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/aphex-vintage-aural-exciter"
-is_paid     = true
+slug         = "aphex-vintage-aural-exciter"
+name         = "Aphex Vintage Aural Exciter"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Classic Aphex aural exciter adding harmonic brilliance and presence to any audio source."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "exciter"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/aphex-vintage-aural-exciter"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/aphex-vintage-aural-exciter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/aphex-vintage-aural-exciter"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/aphex-vintage-aural-exciter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/aphex-vintage-aural-exciter"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

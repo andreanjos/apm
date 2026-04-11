@@ -1,25 +1,26 @@
-slug        = "l8r"
-name        = "L8R"
-vendor      = "Boz Digital Labs"
-version     = "1.0.0"
-description = "Simple micro-delay plugin for creating Haas-effect stereo width and timing alignment between channels."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozdigitallabs.com/product/l8r/"
-is_paid     = true
+slug         = "l8r"
+name         = "L8R"
+vendor       = "Boz Digital Labs"
+version      = "1.0.0"
+description  = "Simple micro-delay plugin for creating Haas-effect stereo width and timing alignment between channels."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bozdigitallabs.com/product/l8r/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozdigitallabs.com/product/l8r/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/l8r/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozdigitallabs.com/product/l8r/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/l8r/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

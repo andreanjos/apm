@@ -1,26 +1,27 @@
-slug        = "cinestrings-core"
-name        = "CineStrings Core"
-vendor      = "Cinesamples"
-version     = "1.0.0"
-description = "Full orchestral string library recorded at the MGM Scoring Stage with comprehensive articulations."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/cinestrings-core"
+slug         = "cinestrings-core"
+name         = "CineStrings Core"
+vendor       = "Cinesamples"
+version      = "1.0.0"
+description  = "Full orchestral string library recorded at the MGM Scoring Stage with comprehensive articulations."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/cinestrings-core"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11262-CineStrings-Core?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/cinestrings-core"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/cinestrings-core"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/cinestrings-core"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/cinestrings-core"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

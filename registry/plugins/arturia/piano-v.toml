@@ -1,26 +1,27 @@
-slug        = "piano-v"
-name        = "Piano V"
-vendor      = "Arturia"
-version     = "3.5.0"
-description = "Physical modeling acoustic grand piano instrument with detailed resonance and expression controls."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-instruments/pianov/overview"
-is_paid     = true
+slug         = "piano-v"
+name         = "Piano V"
+vendor       = "Arturia"
+version      = "3.5.0"
+description  = "Physical modeling acoustic grand piano instrument with detailed resonance and expression controls."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-instruments/pianov/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-instruments/pianov/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/pianov/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-instruments/pianov/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/pianov/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

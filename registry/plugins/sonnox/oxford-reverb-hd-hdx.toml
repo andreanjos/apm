@@ -1,24 +1,25 @@
-slug        = "oxford-reverb-hd-hdx"
-name        = "Oxford Reverb HD/HDX"
-vendor      = "Sonnox"
-version     = "1.0.0"
-description = "Oxford Reverb HD/HDX — highly flexible algorithmic reverb with precise control over every aspect of spatial design."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonnox.com/products/oxford-reverb"
-is_paid     = true
+slug         = "oxford-reverb-hd-hdx"
+name         = "Oxford Reverb HD/HDX"
+vendor       = "Sonnox"
+version      = "1.0.0"
+description  = "Oxford Reverb HD/HDX - highly flexible algorithmic reverb with precise control over every aspect of spatial design."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonnox.com/products/oxford-reverb"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonnox.com/products/oxford-reverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-reverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonnox.com/products/oxford-reverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonnox.com/products/oxford-reverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

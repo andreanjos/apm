@@ -1,24 +1,25 @@
-slug        = "mturboreverble"
-name        = "MTurboReverbLE"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Affordable reverb plugin featuring 100 pre-designed algorithmic reverbs with essential controls."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MTurboReverbLE"
-is_paid     = true
+slug         = "mturboreverble"
+name         = "MTurboReverbLE"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Affordable reverb plugin featuring 100 pre-designed algorithmic reverbs with essential controls."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MTurboReverbLE"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MTurboReverbLE"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MTurboReverbLE"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MTurboReverbLE"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MTurboReverbLE"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

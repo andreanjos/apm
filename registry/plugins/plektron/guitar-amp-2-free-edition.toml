@@ -1,26 +1,27 @@
-slug        = "guitar-amp-2-free-edition"
-name        = "Guitar Amp 2 Free Edition"
-vendor      = "Plektron"
-version     = "2.0"
-description = "Free guitar amp simulator plugin by Plektron with multiple amp models and cabinet emulation."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plektron.com/"
+slug         = "guitar-amp-2-free-edition"
+name         = "Guitar Amp 2 Free Edition"
+vendor       = "Plektron"
+version      = "2.0"
+description  = "Free guitar amp simulator plugin by Plektron with multiple amp models and cabinet emulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plektron.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/646-Guitar-Amp-2-Free-Edition?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plektron.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plektron.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plektron.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plektron.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "sunroom-upright-piano"
-name        = "Sunroom Upright Piano"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Bright, airy upright piano Kontakt instrument with sunlit, intimate room character."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/sunroom-upright-piano"
-is_paid     = true
+slug         = "sunroom-upright-piano"
+name         = "Sunroom Upright Piano"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Bright, airy upright piano Kontakt instrument with sunlit, intimate room character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/sunroom-upright-piano"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/sunroom-upright-piano"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/sunroom-upright-piano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/sunroom-upright-piano"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/sunroom-upright-piano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

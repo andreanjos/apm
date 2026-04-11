@@ -1,25 +1,26 @@
-slug        = "digital-love-child"
-name        = "Digital Love Child"
-vendor      = "Synth Magic"
-version     = "1.0.0"
-description = "Kontakt synthesizer instrument from Synth Magic offering a wide range of electronic and hybrid synth textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://synthmagic.co.uk/digital-love-child/"
-is_paid     = true
+slug         = "digital-love-child"
+name         = "Digital Love Child"
+vendor       = "Synth Magic"
+version      = "1.0.0"
+description  = "Kontakt synthesizer instrument from Synth Magic offering a wide range of electronic and hybrid synth textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://synthmagic.co.uk/digital-love-child/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synthmagic.co.uk/digital-love-child/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/digital-love-child/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synthmagic.co.uk/digital-love-child/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/digital-love-child/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

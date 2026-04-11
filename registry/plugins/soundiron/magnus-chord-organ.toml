@@ -1,25 +1,26 @@
-slug        = "magnus-chord-organ"
-name        = "Magnus Chord Organ"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Vintage Magnus chord organ Kontakt instrument with classic 1960s reed organ character."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/magnus-chord-organ"
-is_paid     = true
+slug         = "magnus-chord-organ"
+name         = "Magnus Chord Organ"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Vintage Magnus chord organ Kontakt instrument with classic 1960s reed organ character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/magnus-chord-organ"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/magnus-chord-organ"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/magnus-chord-organ"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/magnus-chord-organ"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/magnus-chord-organ"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

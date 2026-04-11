@@ -1,25 +1,26 @@
-slug        = "mturbocomp"
-name        = "MTurboComp"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Vintage-style compressor plugin emulating 14 classic analog units with modern controls and machine-learning design."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MTurboComp"
-is_paid     = true
+slug         = "mturbocomp"
+name         = "MTurboComp"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Vintage-style compressor plugin emulating 14 classic analog units with modern controls and machine-learning design."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MTurboComp"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MTurboComp"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MTurboComp"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MTurboComp"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MTurboComp"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

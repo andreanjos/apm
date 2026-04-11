@@ -1,26 +1,27 @@
-slug        = "spitfire-appassionata-strings"
-name        = "Spitfire Appassionata Strings"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Passionate string library using Impulse Legato technology for expressive, emotional orchestral writing."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/spitfire-appassionata-strings"
-is_paid     = true
+slug         = "spitfire-appassionata-strings"
+name         = "Spitfire Appassionata Strings"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Passionate string library using Impulse Legato technology for expressive, emotional orchestral writing."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/spitfire-appassionata-strings"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/spitfire-appassionata-strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/spitfire-appassionata-strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/spitfire-appassionata-strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/spitfire-appassionata-strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

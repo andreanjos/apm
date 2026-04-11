@@ -1,25 +1,26 @@
-slug        = "whoosh-designer"
-name        = "Whoosh Designer"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Kontakt instrument with customizable attack, peak, and decay elements to create millions of whoosh sound variations."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/whoosh-designer"
-is_paid     = true
+slug         = "whoosh-designer"
+name         = "Whoosh Designer"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Kontakt instrument with customizable attack, peak, and decay elements to create millions of whoosh sound variations."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/whoosh-designer"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/whoosh-designer"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/whoosh-designer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/whoosh-designer"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/whoosh-designer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

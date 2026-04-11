@@ -1,26 +1,27 @@
-slug        = "delay-eternity"
-name        = "Delay Eternity"
-vendor      = "Arturia"
-version     = "1.4.0"
-description = "Versatile stereo delay with extensive modulation, filtering, and creative routing options."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-effects/delay-eternity/overview"
-is_paid     = true
+slug         = "delay-eternity"
+name         = "Delay Eternity"
+vendor       = "Arturia"
+version      = "1.4.0"
+description  = "Versatile stereo delay with extensive modulation, filtering, and creative routing options."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-effects/delay-eternity/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-effects/delay-eternity/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-effects/delay-eternity/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-effects/delay-eternity/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-effects/delay-eternity/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

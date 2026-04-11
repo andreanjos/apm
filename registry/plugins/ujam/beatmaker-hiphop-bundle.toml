@@ -1,25 +1,26 @@
-slug        = "beatmaker-hiphop-bundle"
-name        = "BeatMaker Hiphop Bundle"
-vendor      = "UJAM"
-version     = "2.0"
-description = "Bundle of hip-hop focused Beatmaker drum plugins for urban music production."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ujam.com/beatmaker/"
-is_paid     = true
+slug         = "beatmaker-hiphop-bundle"
+name         = "BeatMaker Hiphop Bundle"
+vendor       = "UJAM"
+version      = "2.0"
+description  = "Bundle of hip-hop focused Beatmaker drum plugins for urban music production."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ujam.com/beatmaker/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ujam.com/beatmaker/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/beatmaker/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ujam.com/beatmaker/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/beatmaker/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

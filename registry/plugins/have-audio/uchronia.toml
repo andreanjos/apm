@@ -1,26 +1,27 @@
-slug        = "uchronia"
-name        = "UCHRONIA"
-vendor      = "Have Audio"
-version     = "1.0.0"
-description = "Granular synthesis Kontakt instrument with 4 engines, arpeggiators, and an entropy randomizer."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://haveaudio.com/products/uchronia"
+slug         = "uchronia"
+name         = "UCHRONIA"
+vendor       = "Have Audio"
+version      = "1.0.0"
+description  = "Granular synthesis Kontakt instrument with 4 engines, arpeggiators, and an entropy randomizer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://haveaudio.com/products/uchronia"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10874-UCHRONIA-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://haveaudio.com/products/uchronia"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/uchronia"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://haveaudio.com/products/uchronia"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/uchronia"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,27 +1,29 @@
-slug        = "microshift"
-name        = "MicroShift"
-vendor      = "Soundtoys"
-version     = "5.5"
-description = "Stereo widening plugin capturing the character of Eventide H3000 and AMS DMX 15-80s hardware."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundtoys.com/product/microshift/"
+slug         = "microshift"
+name         = "MicroShift"
+vendor       = "Soundtoys"
+version      = "5.5"
+description  = "Stereo widening plugin capturing the character of Eventide H3000 and AMS DMX 15-80s hardware."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+aliases      = ["soundtoys-microshift"]
+homepage     = "https://www.soundtoys.com/product/microshift/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/1809-MicroShift?a_aid=69d5e87c5f2e9"
-bundle_ids  = ["com.soundtoys.audiounit.MicroShift"]
-is_paid     = true
+bundle_ids   = ["com.soundtoys.audiounit.MicroShift"]
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundtoys.com/product/microshift/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/microshift/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundtoys.com/product/microshift/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/microshift/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

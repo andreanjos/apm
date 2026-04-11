@@ -1,26 +1,27 @@
-slug        = "manipulator"
-name        = "Manipulator"
-vendor      = "Polyverse"
-version     = "1.0.0"
-description = "Granular vocal pitch and timbre manipulation plugin with dramatic transformation capabilities."
-category    = "effects"
-subcategory = "pitch shifter"
-license     = "commercial"
-tags        = []
-homepage    = "https://polyversemusic.com/products/manipulator/"
+slug         = "manipulator"
+name         = "Manipulator"
+vendor       = "Polyverse"
+version      = "1.0.0"
+description  = "Granular vocal pitch and timbre manipulation plugin with dramatic transformation capabilities."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "pitch shifter"
+license      = "commercial"
+tags         = []
+homepage     = "https://polyversemusic.com/products/manipulator/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/5127-Manipulator?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://polyversemusic.com/products/manipulator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://polyversemusic.com/products/manipulator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://polyversemusic.com/products/manipulator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://polyversemusic.com/products/manipulator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

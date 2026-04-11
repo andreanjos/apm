@@ -1,26 +1,27 @@
-slug        = "psp-xenon"
-name        = "PSP Xenon"
-vendor      = "PSP Audioware"
-version     = "1.6.2"
-description = "Full-band dual-stage limiter with integrated leveler, K-System metering, and 64-bit processing up to 192kHz."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-xenon"
+slug         = "psp-xenon"
+name         = "PSP Xenon"
+vendor       = "PSP Audioware"
+version      = "1.6.2"
+description  = "Full-band dual-stage limiter with integrated leveler, K-System metering, and 64-bit processing up to 192kHz."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-xenon"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/11021-PSP-Xenon?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-xenon"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-xenon"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-xenon"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-xenon"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

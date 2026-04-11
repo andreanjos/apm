@@ -1,24 +1,25 @@
-slug        = "repitch-crossgrade-from-any-synchro-arts-product"
-name        = "RePitch Crossgrade from any Synchro Arts Product"
-vendor      = "Synchro Arts"
-version     = "2"
-description = "Crossgrade license for RePitch pitch correction plugin for existing Synchro Arts product owners."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://synchroarts.com/products/repitch"
-is_paid     = true
+slug         = "repitch-crossgrade-from-any-synchro-arts-product"
+name         = "RePitch Crossgrade from any Synchro Arts Product"
+vendor       = "Synchro Arts"
+version      = "2"
+description  = "Crossgrade license for RePitch pitch correction plugin for existing Synchro Arts product owners."
+category     = "effects"
+product_type = "upgrade"
+license      = "commercial"
+tags         = []
+homepage     = "https://synchroarts.com/products/repitch"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synchroarts.com/products/repitch"
-sha256       = ""
-install_type = "zip"
+url           = "https://synchroarts.com/products/repitch"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synchroarts.com/products/repitch"
-sha256       = ""
-install_type = "zip"
+url           = "https://synchroarts.com/products/repitch"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

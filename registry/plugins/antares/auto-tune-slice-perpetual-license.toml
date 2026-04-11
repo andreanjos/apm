@@ -1,24 +1,25 @@
-slug        = "auto-tune-slice-perpetual-license"
-name        = "Auto-Tune Slice Perpetual License"
-vendor      = "Antares"
-version     = "1.0.0"
-description = "Perpetual license for Auto-Tune Slice, a loop-slicing and vocal processing plugin."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.antarestech.com/"
-is_paid     = true
+slug         = "auto-tune-slice-perpetual-license"
+name         = "Auto-Tune Slice Perpetual License"
+vendor       = "Antares"
+version      = "1.0.0"
+description  = "Perpetual license for Auto-Tune Slice, a loop-slicing and vocal processing plugin."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.antarestech.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.antarestech.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.antarestech.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "equalize"
-name        = "Equalize"
-vendor      = "Acon Digital"
-version     = "1.2.2"
-description = "Parametric equalizer plugin with adjustable bands and graphical frequency response visualization."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://acondigital.com/products/equalize"
+slug         = "equalize"
+name         = "Equalize"
+vendor       = "Acon Digital"
+version      = "1.2.2"
+description  = "Parametric equalizer plugin with adjustable bands and graphical frequency response visualization."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://acondigital.com/products/equalize"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/1287-Equalize?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://acondigital.com/products/equalize"
-sha256       = ""
-install_type = "zip"
+url           = "https://acondigital.com/products/equalize"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://acondigital.com/products/equalize"
-sha256       = ""
-install_type = "zip"
+url           = "https://acondigital.com/products/equalize"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

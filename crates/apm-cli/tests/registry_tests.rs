@@ -4,6 +4,7 @@
 // so behaviour can be verified without importing the binary crate.
 
 use std::collections::HashMap;
+use std::collections::HashSet;
 use std::path::{Path, PathBuf};
 
 use serde::{Deserialize, Serialize};
@@ -36,6 +37,21 @@ enum DownloadType {
     Managed,
 }
 
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "snake_case")]
+enum ProductType {
+    Plugin,
+    Bundle,
+    Expansion,
+    PresetPack,
+    SampleLibrary,
+    Daw,
+    Utility,
+    Upgrade,
+    Subscription,
+    Template,
+}
+
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct FormatSource {
     url: String,
@@ -60,16 +76,22 @@ struct PluginDefinition {
     version: String,
     description: String,
     category: String,
+    #[serde(default)]
+    product_type: Option<ProductType>,
     subcategory: Option<String>,
     license: String,
     #[serde(default)]
     tags: Vec<String>,
+    #[serde(default)]
+    aliases: Vec<String>,
     #[serde(default)]
     installer: Option<String>,
     formats: HashMap<PluginFormat, FormatSource>,
     #[serde(default)]
     releases: Vec<PluginRelease>,
     homepage: Option<String>,
+    #[serde(default)]
+    is_paid: bool,
 }
 
 // ── Registry (mirrors src/registry/mod.rs) ────────────────────────────────────
@@ -114,9 +136,10 @@ impl Registry {
             return Some(p);
         }
         let lower = slug.to_lowercase();
-        self.plugins
-            .values()
-            .find(|p| p.slug.to_lowercase() == lower)
+        self.plugins.values().find(|p| {
+            p.slug.to_lowercase() == lower
+                || p.aliases.iter().any(|alias| alias.to_lowercase() == lower)
+        })
     }
 
     fn len(&self) -> usize {
@@ -141,6 +164,9 @@ fn text_matches(p: &PluginDefinition, query: &str) -> bool {
             .map(|s| s.to_lowercase().contains(query))
             .unwrap_or(false)
         || p.tags.iter().any(|t| t.to_lowercase().contains(query))
+        || p.aliases
+            .iter()
+            .any(|alias| alias.to_lowercase().contains(query))
 }
 
 fn search<'r>(
@@ -500,5 +526,87 @@ fn test_published_registry_has_no_unverified_direct_downloads() {
         offenders.is_empty(),
         "direct downloads must have real SHA256 checksums; offenders: {}",
         offenders.join(", ")
+    );
+}
+
+fn normalize_catalog_key(value: &str) -> String {
+    value
+        .to_lowercase()
+        .replace('&', " and ")
+        .replace("8211", " ")
+        .replace("038", " ")
+        .chars()
+        .map(|ch| if ch.is_ascii_alphanumeric() { ch } else { ' ' })
+        .collect::<String>()
+        .split_whitespace()
+        .collect::<Vec<_>>()
+        .join(" ")
+}
+
+#[test]
+fn test_published_registry_has_product_types_and_canonical_slugs() {
+    let registry = Registry::load_from_cache(&published_registry_dir())
+        .expect("published registry should load");
+    assert!(
+        registry.len() > 8_000,
+        "published registry should include the promoted canonical catalog"
+    );
+
+    let live_slugs: HashSet<&str> = registry.plugins.keys().map(String::as_str).collect();
+    let mut alias_slugs = HashSet::new();
+    let mut catalog_keys = HashSet::new();
+    let mut missing_product_type = Vec::new();
+    let mut alias_collisions = Vec::new();
+    let mut duplicate_catalog_keys = Vec::new();
+    let mut unpaid_commercial = Vec::new();
+
+    for plugin in registry.plugins.values() {
+        if plugin.product_type.is_none() {
+            missing_product_type.push(plugin.slug.clone());
+        }
+        if plugin.license.eq_ignore_ascii_case("commercial") && !plugin.is_paid {
+            unpaid_commercial.push(plugin.slug.clone());
+        }
+
+        for alias in &plugin.aliases {
+            if live_slugs.contains(alias.as_str()) {
+                alias_collisions.push(format!("{} -> {alias}", plugin.slug));
+            }
+            alias_slugs.insert(alias.as_str());
+        }
+
+        let key = format!(
+            "{}:{}",
+            normalize_catalog_key(&plugin.vendor),
+            normalize_catalog_key(&plugin.name)
+        );
+        if !catalog_keys.insert(key) {
+            duplicate_catalog_keys.push(plugin.slug.clone());
+        }
+    }
+
+    assert!(
+        missing_product_type.is_empty(),
+        "all published records must declare product_type; missing: {}",
+        missing_product_type.join(", ")
+    );
+    assert!(
+        alias_collisions.is_empty(),
+        "aliases must not collide with live slugs; collisions: {}",
+        alias_collisions.join(", ")
+    );
+    assert!(
+        duplicate_catalog_keys.is_empty(),
+        "same-vendor/same-name duplicate records must be canonicalized; duplicates: {}",
+        duplicate_catalog_keys.join(", ")
+    );
+    assert!(
+        unpaid_commercial.is_empty(),
+        "commercial registry records must be marked is_paid; offenders: {}",
+        unpaid_commercial.join(", ")
+    );
+    assert!(
+        !alias_slugs.is_empty(),
+        "canonicalized duplicate slugs should be preserved as aliases"
     );
 }

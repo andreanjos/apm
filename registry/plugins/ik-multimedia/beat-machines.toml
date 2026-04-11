@@ -1,25 +1,26 @@
-slug        = "beat-machines"
-name        = "Beat Machines"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "Classic analog drum machine collection for SampleTank featuring iconic machines from the TR-808 to TR-909."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/stbeatmachines/"
-is_paid     = true
+slug         = "beat-machines"
+name         = "Beat Machines"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "Classic analog drum machine collection for SampleTank featuring iconic machines from the TR-808 to TR-909."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/stbeatmachines/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/stbeatmachines/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/stbeatmachines/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/stbeatmachines/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/stbeatmachines/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

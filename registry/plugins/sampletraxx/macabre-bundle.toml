@@ -1,25 +1,26 @@
-slug        = "macabre-bundle"
-name        = "MACABRE Bundle"
-vendor      = "Sampletraxx"
-version     = "1.0.0"
-description = "Epic collection of 9 dark cinematic sound design libraries with horror vocals, braams, and atmospheres."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://sampletraxx.com/release/macabre-bundle/"
-is_paid     = true
+slug         = "macabre-bundle"
+name         = "MACABRE Bundle"
+vendor       = "Sampletraxx"
+version      = "1.0.0"
+description  = "Epic collection of 9 dark cinematic sound design libraries with horror vocals, braams, and atmospheres."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://sampletraxx.com/release/macabre-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sampletraxx.com/release/macabre-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sampletraxx.com/release/macabre-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sampletraxx.com/release/macabre-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sampletraxx.com/release/macabre-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

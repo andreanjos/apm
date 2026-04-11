@@ -1,25 +1,26 @@
-slug        = "synthox"
-name        = "Synthox"
-vendor      = "UVI"
-version     = "1.5"
-description = "Dual-layer hybrid analog/FM synth inspired by the Elka Synthex and EK-44 with analog and FM tones."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/synthox"
-is_paid     = true
+slug         = "synthox"
+name         = "Synthox"
+vendor       = "UVI"
+version      = "1.5"
+description  = "Dual-layer hybrid analog/FM synth inspired by the Elka Synthex and EK-44 with analog and FM tones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/synthox"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/synthox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/synthox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/synthox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/synthox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

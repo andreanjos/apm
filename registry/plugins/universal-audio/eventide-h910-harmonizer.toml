@@ -1,26 +1,27 @@
-slug        = "eventide-h910-harmonizer"
-name        = "Eventide® H910 Harmonizer"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the Eventide H910 Harmonizer, the world's first commercial digital effects unit."
-category    = "effects"
-subcategory = "harmonizer"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/pitch-time/eventide-h910-harmonizer.html"
-is_paid     = true
+slug         = "eventide-h910-harmonizer"
+name         = "Eventide (R) H910 Harmonizer"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the Eventide H910 Harmonizer, the world's first commercial digital effects unit."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "harmonizer"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/pitch-time/eventide-h910-harmonizer.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/pitch-time/eventide-h910-harmonizer.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/pitch-time/eventide-h910-harmonizer.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/pitch-time/eventide-h910-harmonizer.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/pitch-time/eventide-h910-harmonizer.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

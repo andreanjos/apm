@@ -1,26 +1,27 @@
-slug        = "chandler-limited-curve-bender"
-name        = "Chandler Limited Curve Bender"
-vendor      = "Softube"
-version     = "2.6"
-description = "Analog EQ plugin modeled on Chandler Limited's acclaimed passive mastering equalizer hardware."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mastering/chandler-limited-curve-bender"
-is_paid     = true
+slug         = "chandler-limited-curve-bender"
+name         = "Chandler Limited Curve Bender"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Analog EQ plugin modeled on Chandler Limited's acclaimed passive mastering equalizer hardware."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mastering/chandler-limited-curve-bender"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mastering/chandler-limited-curve-bender"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mastering/chandler-limited-curve-bender"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mastering/chandler-limited-curve-bender"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mastering/chandler-limited-curve-bender"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

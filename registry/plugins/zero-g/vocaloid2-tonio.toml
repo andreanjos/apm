@@ -1,25 +1,26 @@
-slug        = "vocaloid2-tonio"
-name        = "Vocaloid2 Tonio"
-vendor      = "Zero-G"
-version     = "2.0"
-description = "Virtual vocalist modeled on a professional male classical singer with baritone-tenor range for synthesized singing."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/tonio-vocaloid-2"
-is_paid     = true
+slug         = "vocaloid2-tonio"
+name         = "Vocaloid2 Tonio"
+vendor       = "Zero-G"
+version      = "2.0"
+description  = "Virtual vocalist modeled on a professional male classical singer with baritone-tenor range for synthesized singing."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/tonio-vocaloid-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/tonio-vocaloid-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/tonio-vocaloid-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/tonio-vocaloid-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/tonio-vocaloid-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

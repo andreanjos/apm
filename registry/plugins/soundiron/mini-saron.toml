@@ -1,25 +1,26 @@
-slug        = "mini-saron"
-name        = "Mini Saron"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt library of the mini saron, a small Javanese gamelan metallophone with bright tones."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/mini-saron"
-is_paid     = true
+slug         = "mini-saron"
+name         = "Mini Saron"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt library of the mini saron, a small Javanese gamelan metallophone with bright tones."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/mini-saron"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/mini-saron"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/mini-saron"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/mini-saron"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/mini-saron"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

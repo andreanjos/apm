@@ -1,25 +1,26 @@
-slug        = "bassline-handcrafted-basses"
-name        = "BassLine Handcrafted Basses"
-vendor      = "Pfundstein Audio Plugins"
-version     = "1.0.0"
-description = "Collection of virtual electric bass guitars with multiple velocity layers and playing styles."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://pfundstein-audio-plugins.de/"
-is_paid     = true
+slug         = "bassline-handcrafted-basses"
+name         = "BassLine Handcrafted Basses"
+vendor       = "Pfundstein Audio Plugins"
+version      = "1.0.0"
+description  = "Collection of virtual electric bass guitars with multiple velocity layers and playing styles."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://pfundstein-audio-plugins.de/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://pfundstein-audio-plugins.de/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pfundstein-audio-plugins.de/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://pfundstein-audio-plugins.de/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pfundstein-audio-plugins.de/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

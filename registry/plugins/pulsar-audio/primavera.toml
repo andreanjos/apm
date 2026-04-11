@@ -1,26 +1,27 @@
-slug        = "primavera"
-name        = "Primavera"
-vendor      = "Pulsar Audio"
-version     = "1.0.0"
-description = "Six-in-one spring reverb plugin precisely emulating classic spring tank hardware units."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://pulsar.audio/primavera/"
+slug         = "primavera"
+name         = "Primavera"
+vendor       = "Pulsar Audio"
+version      = "1.0.0"
+description  = "Six-in-one spring reverb plugin precisely emulating classic spring tank hardware units."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://pulsar.audio/primavera/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/12011-Primavera?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://pulsar.audio/primavera/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pulsar.audio/primavera/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://pulsar.audio/primavera/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pulsar.audio/primavera/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

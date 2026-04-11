@@ -1,26 +1,27 @@
-slug        = "golden-58-tube-pre"
-name        = "Golden 58 Tube Pre"
-vendor      = "Kiive Audio"
-version     = "1.0.0"
-description = "Software emulation of a six-tube, four-NOS-transformer preamp inspired by late 1950s tube technology."
-category    = "effects"
-subcategory = "preamp"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kiiveaudio.com/products/golden58"
+slug         = "golden-58-tube-pre"
+name         = "Golden 58 Tube Pre"
+vendor       = "Kiive Audio"
+version      = "1.0.0"
+description  = "Software emulation of a six-tube, four-NOS-transformer preamp inspired by late 1950s tube technology."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "preamp"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kiiveaudio.com/products/golden58"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/12900-Golden-58-Tube-Pre?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kiiveaudio.com/products/golden58"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kiiveaudio.com/products/golden58"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kiiveaudio.com/products/golden58"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kiiveaudio.com/products/golden58"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "total-studio-3-5-maxgrade"
-name        = "Total Studio 3.5 MAXgrade"
-vendor      = "IK Multimedia"
-version     = "3.5"
-description = "Maxgrade path to Total Studio 3.5 MAX for existing IK Multimedia customers with qualifying products."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/ts3/"
-is_paid     = true
+slug         = "total-studio-3-5-maxgrade"
+name         = "Total Studio 3.5 MAXgrade"
+vendor       = "IK Multimedia"
+version      = "3.5"
+description  = "Maxgrade path to Total Studio 3.5 MAX for existing IK Multimedia customers with qualifying products."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/ts3/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/ts3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/ts3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/ts3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/ts3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

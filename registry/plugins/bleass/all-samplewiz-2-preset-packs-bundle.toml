@@ -1,26 +1,27 @@
-slug        = "all-samplewiz-2-preset-packs-bundle"
-name        = "All SampleWiz 2 Preset Packs Bundle"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "Complete bundle of all BLEASS SampleWiz 2 preset expansion packs for the sample-synthesis instrument."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/samplewiz2/"
+slug         = "all-samplewiz-2-preset-packs-bundle"
+name         = "All SampleWiz 2 Preset Packs Bundle"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "Complete bundle of all BLEASS SampleWiz 2 preset expansion packs for the sample-synthesis instrument."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/samplewiz2/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11030-All-SampleWiz-2-Preset-Packs-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/samplewiz2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/samplewiz2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/samplewiz2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/samplewiz2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,27 @@
-slug        = "rob-papen-subboombass-2"
-name        = "SubBoomBass 2"
-vendor      = "Rob Papen"
-version     = "1.0.0"
-description = "Dedicated bass synthesizer combining analog-modeled waveforms, samples, Karplus-Strong synthesis, and a pattern sequencer for crafting powerful sub and electric bass sounds."
-category    = "instruments"
-subcategory = "synthesizer"
-license     = "commercial"
-tags        = ["bass", "synth", "sub-bass", "sample-based", "karplus-strong", "sequencer", "edm", "electronic", "low-end"]
-homepage    = "https://www.robpapen.com/subboombass-2.html"
+slug         = "rob-papen-subboombass-2"
+name         = "SubBoomBass 2"
+vendor       = "Rob Papen"
+version      = "1.0.0"
+description  = "Dedicated bass synthesizer combining analog-modeled waveforms, samples, Karplus-Strong synthesis, and a pattern sequencer for crafting powerful sub and electric bass sounds."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "synthesizer"
+license      = "commercial"
+tags         = ["bass", "synth", "sub-bass", "sample-based", "karplus-strong", "sequencer", "edm", "electronic", "low-end"]
+aliases      = ["subboombass-2"]
+homepage     = "https://www.robpapen.com/subboombass-2.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/subboombass-2-demo.html"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.robpapen.com/subboombass-2-demo.html"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "SubBoomBass 2.vst3"
+bundle_path   = "SubBoomBass 2.vst3"
 
 [formats.au]
-url          = "https://www.robpapen.com/subboombass-2-demo.html"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.robpapen.com/subboombass-2-demo.html"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "SubBoomBass 2.component"
+bundle_path   = "SubBoomBass 2.component"

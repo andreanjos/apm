@@ -1,24 +1,25 @@
-slug        = "tremolo-pan"
-name        = "Tremolo Pan"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Tremolo and auto-panner plugin delivering rhythmic amplitude and stereo panning modulation effects."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p885-Tremolo-Pan/"
-is_paid     = true
+slug         = "tremolo-pan"
+name         = "Tremolo Pan"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Tremolo and auto-panner plugin delivering rhythmic amplitude and stereo panning modulation effects."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p885-Tremolo-Pan/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p885-Tremolo-Pan/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p885-Tremolo-Pan/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p885-Tremolo-Pan/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p885-Tremolo-Pan/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

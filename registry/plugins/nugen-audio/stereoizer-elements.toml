@@ -1,26 +1,27 @@
-slug        = "stereoizer-elements"
-name        = "Stereoizer Elements"
-vendor      = "NUGEN Audio"
-version     = "1.0"
-description = "A lite stereo enhancement plugin for natural mono-to-stereo widening and spatial expansion."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/stereoizer-elements/"
+slug         = "stereoizer-elements"
+name         = "Stereoizer Elements"
+vendor       = "NUGEN Audio"
+version      = "1.0"
+description  = "A lite stereo enhancement plugin for natural mono-to-stereo widening and spatial expansion."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/stereoizer-elements/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/7536-Stereoizer-Elements?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/stereoizer-elements/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/stereoizer-elements/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/stereoizer-elements/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/stereoizer-elements/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

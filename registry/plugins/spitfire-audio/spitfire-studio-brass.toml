@@ -1,26 +1,27 @@
-slug        = "spitfire-studio-brass"
-name        = "Spitfire Studio Brass"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Dry-stage studio brass library recorded at AIR Studio One for punchy, clear, versatile brass sounds."
-category    = "instruments"
-subcategory = "brass"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-brass/"
-is_paid     = true
+slug         = "spitfire-studio-brass"
+name         = "Spitfire Studio Brass"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Dry-stage studio brass library recorded at AIR Studio One for punchy, clear, versatile brass sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "brass"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-brass/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-brass/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-brass/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-brass/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-brass/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

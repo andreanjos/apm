@@ -1,25 +1,26 @@
-slug        = "swam-double-bass"
-name        = "SWAM Double Bass"
-vendor      = "Audio Modeling"
-version     = "3"
-description = "Physically modeled virtual double bass with real-time expressive control over bowing and dynamics."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodeling.com/strings/"
-is_paid     = true
+slug         = "swam-double-bass"
+name         = "SWAM Double Bass"
+vendor       = "Audio Modeling"
+version      = "3"
+description  = "Physically modeled virtual double bass with real-time expressive control over bowing and dynamics."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodeling.com/strings/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodeling.com/strings/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/strings/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodeling.com/strings/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/strings/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

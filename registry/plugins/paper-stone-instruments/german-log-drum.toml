@@ -1,25 +1,26 @@
-slug        = "german-log-drum"
-name        = "German Log Drum"
-vendor      = "Paper Stone Instruments"
-version     = "1.0.0"
-description = "Chromatic Kontakt library of a pentatonic log drum sampled at six velocity layers and three articulations."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
-is_paid     = true
+slug         = "german-log-drum"
+name         = "German Log Drum"
+vendor       = "Paper Stone Instruments"
+version      = "1.0.0"
+description  = "Chromatic Kontakt library of a pentatonic log drum sampled at six velocity layers and three articulations."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

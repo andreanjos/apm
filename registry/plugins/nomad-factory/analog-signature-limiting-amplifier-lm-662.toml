@@ -1,25 +1,26 @@
-slug        = "analog-signature-limiting-amplifier-lm-662"
-name        = "Analog Signature Limiting Amplifier LM-662"
-vendor      = "Nomad Factory"
-version     = "1.0.0"
-description = "Vintage-style limiting amplifier plugin modeled on the classic LM-662 analog hardware limiter."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.nomadfactory.com/products/"
-is_paid     = true
+slug         = "analog-signature-limiting-amplifier-lm-662"
+name         = "Analog Signature Limiting Amplifier LM-662"
+vendor       = "Nomad Factory"
+version      = "1.0.0"
+description  = "Vintage-style limiting amplifier plugin modeled on the classic LM-662 analog hardware limiter."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.nomadfactory.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.nomadfactory.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.nomadfactory.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

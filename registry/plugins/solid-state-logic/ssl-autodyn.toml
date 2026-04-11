@@ -1,26 +1,27 @@
-slug        = "ssl-autodyn"
-name        = "SSL autoDYN"
-vendor      = "Solid State Logic"
-version     = "1.0.0"
-description = "AI-assisted SSL 4000 E dynamics processor with sonible AI for intelligent compressor and gate settings."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.solidstatelogic.com/plug-ins/autodyn"
+slug         = "ssl-autodyn"
+name         = "SSL autoDYN"
+vendor       = "Solid State Logic"
+version      = "1.0.0"
+description  = "AI-assisted SSL 4000 E dynamics processor with sonible AI for intelligent compressor and gate settings."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.solidstatelogic.com/plug-ins/autodyn"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16624-SSL-autoDYN?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.solidstatelogic.com/plug-ins/autodyn"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/autodyn"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.solidstatelogic.com/plug-ins/autodyn"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/autodyn"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

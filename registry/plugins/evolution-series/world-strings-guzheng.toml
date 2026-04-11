@@ -1,25 +1,26 @@
-slug        = "world-strings-guzheng"
-name        = "World Strings Guzheng"
-vendor      = "Evolution Series"
-version     = "2.0"
-description = "18 GB Kontakt library of the Chinese Guzheng zither with extensive articulations and round robins."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.evolutionseries.com/product/world-strings-guzheng-2-0/"
-is_paid     = true
+slug         = "world-strings-guzheng"
+name         = "World Strings Guzheng"
+vendor       = "Evolution Series"
+version      = "2.0"
+description  = "18 GB Kontakt library of the Chinese Guzheng zither with extensive articulations and round robins."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.evolutionseries.com/product/world-strings-guzheng-2-0/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.evolutionseries.com/product/world-strings-guzheng-2-0/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.evolutionseries.com/product/world-strings-guzheng-2-0/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.evolutionseries.com/product/world-strings-guzheng-2-0/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.evolutionseries.com/product/world-strings-guzheng-2-0/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

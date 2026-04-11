@@ -1,25 +1,26 @@
-slug        = "vocal-tools-alto"
-name        = "Vocal Tools Alto"
-vendor      = "Bela D Media"
-version     = "1.0.0"
-description = "Female alto soloist Kontakt library with phrase-based legato scripting for realistic vocal melodies."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://beladmedia.com/vocal-tools-alto/"
-is_paid     = true
+slug         = "vocal-tools-alto"
+name         = "Vocal Tools Alto"
+vendor       = "Bela D Media"
+version      = "1.0.0"
+description  = "Female alto soloist Kontakt library with phrase-based legato scripting for realistic vocal melodies."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://beladmedia.com/vocal-tools-alto/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://beladmedia.com/vocal-tools-alto/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/vocal-tools-alto/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://beladmedia.com/vocal-tools-alto/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/vocal-tools-alto/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

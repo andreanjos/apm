@@ -1,26 +1,27 @@
-slug        = "ensemblia-2-elektronika"
-name        = "Ensemblia 2 Elektronika"
-vendor      = "Cinematique Instruments"
-version     = "2"
-description = "Modern electronic drums Kontakt instrument inspired by industrial and electronic sound design."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://cinematique-instruments.com/pages_instr/page_ensemblia2elektronika.php"
+slug         = "ensemblia-2-elektronika"
+name         = "Ensemblia 2 Elektronika"
+vendor       = "Cinematique Instruments"
+version      = "2"
+description  = "Modern electronic drums Kontakt instrument inspired by industrial and electronic sound design."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://cinematique-instruments.com/pages_instr/page_ensemblia2elektronika.php"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8807-Ensemblia-2-Elektronika?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cinematique-instruments.com/pages_instr/page_ensemblia2elektronika.php"
-sha256       = ""
-install_type = "zip"
+url           = "https://cinematique-instruments.com/pages_instr/page_ensemblia2elektronika.php"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cinematique-instruments.com/pages_instr/page_ensemblia2elektronika.php"
-sha256       = ""
-install_type = "zip"
+url           = "https://cinematique-instruments.com/pages_instr/page_ensemblia2elektronika.php"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "bfd-oak-custom"
-name        = "BFD Oak Custom"
-vendor      = "BFD"
-version     = "1.0"
-description = "BFD3 expansion featuring a stunning Yamaha oak drumkit for versatile studio and live use."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bfddrums.com/bfd3-expansions/oak-custom/"
+slug         = "bfd-oak-custom"
+name         = "BFD Oak Custom"
+vendor       = "BFD"
+version      = "1.0"
+description  = "BFD3 expansion featuring a stunning Yamaha oak drumkit for versatile studio and live use."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bfddrums.com/bfd3-expansions/oak-custom/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/3151-BFD-Oak-Custom?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bfddrums.com/bfd3-expansions/oak-custom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/bfd3-expansions/oak-custom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bfddrums.com/bfd3-expansions/oak-custom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bfddrums.com/bfd3-expansions/oak-custom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

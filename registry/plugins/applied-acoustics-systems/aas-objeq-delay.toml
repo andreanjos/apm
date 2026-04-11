@@ -1,25 +1,26 @@
-slug        = "aas-objeq-delay"
-name        = "AAS Objeq Delay"
-vendor      = "Applied Acoustics Systems"
-version     = "1.0.0"
-description = "AAS creative effect plugin combining acoustic object filtering with a musical delay unit."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.applied-acoustics.com/objeq-delay/"
-is_paid     = true
+slug         = "aas-objeq-delay"
+name         = "AAS Objeq Delay"
+vendor       = "Applied Acoustics Systems"
+version      = "1.0.0"
+description  = "AAS creative effect plugin combining acoustic object filtering with a musical delay unit."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.applied-acoustics.com/objeq-delay/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.applied-acoustics.com/objeq-delay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/objeq-delay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.applied-acoustics.com/objeq-delay/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/objeq-delay/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

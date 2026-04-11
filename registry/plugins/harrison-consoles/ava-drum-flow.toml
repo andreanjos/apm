@@ -1,25 +1,26 @@
-slug        = "ava-drum-flow"
-name        = "AVA Drum Flow"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "Drum processing suite with a transient-sensitive Drum Character EQ and six routable processing elements."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/ava/ava-drum-flow"
-is_paid     = true
+slug         = "ava-drum-flow"
+name         = "AVA Drum Flow"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "Drum processing suite with a transient-sensitive Drum Character EQ and six routable processing elements."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/ava/ava-drum-flow"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/ava/ava-drum-flow"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/ava/ava-drum-flow"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/ava/ava-drum-flow"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/ava/ava-drum-flow"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

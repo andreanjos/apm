@@ -1,26 +1,27 @@
-slug        = "the-wall"
-name        = "The Wall"
-vendor      = "Boz Digital Labs"
-version     = "1.0.0"
-description = "Brickwall limiter plugin designed for final-stage limiting with transparent, loudness-maximizing performance."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bozdigitallabs.com/product/the-wall/"
+slug         = "the-wall"
+name         = "The Wall"
+vendor       = "Boz Digital Labs"
+version      = "1.0.0"
+description  = "Brickwall limiter plugin designed for final-stage limiting with transparent, loudness-maximizing performance."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bozdigitallabs.com/product/the-wall/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/2822-The-Wall?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bozdigitallabs.com/product/the-wall/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/the-wall/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bozdigitallabs.com/product/the-wall/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bozdigitallabs.com/product/the-wall/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

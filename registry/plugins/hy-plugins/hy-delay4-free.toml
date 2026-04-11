@@ -1,26 +1,27 @@
-slug        = "hy-delay4-free"
-name        = "HY Delay4 Free"
-vendor      = "HY Plugins"
-version     = "1.0.0"
-description = "Free version of HY-Delay4, a creative multi-FX delay unit with modulation and filtering."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://hy-plugins.com/product/hy-delay4/"
+slug         = "hy-delay4-free"
+name         = "HY Delay4 Free"
+vendor       = "HY Plugins"
+version      = "1.0.0"
+description  = "Free version of HY-Delay4, a creative multi-FX delay unit with modulation and filtering."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://hy-plugins.com/product/hy-delay4/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/7935-HY-Delay4-Free?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hy-plugins.com/product/hy-delay4/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hy-plugins.com/product/hy-delay4/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hy-plugins.com/product/hy-delay4/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hy-plugins.com/product/hy-delay4/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

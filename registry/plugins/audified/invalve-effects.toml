@@ -1,25 +1,26 @@
-slug        = "invalve-effects"
-name        = "inValve Effects"
-vendor      = "Audified"
-version     = "1.0.0"
-description = "Tube preamp simulator plugin providing authentic valve warmth and harmonic saturation for any signal."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/invalve-effects/"
-is_paid     = true
+slug         = "invalve-effects"
+name         = "inValve Effects"
+vendor       = "Audified"
+version      = "1.0.0"
+description  = "Tube preamp simulator plugin providing authentic valve warmth and harmonic saturation for any signal."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/invalve-effects/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/invalve-effects/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/invalve-effects/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/invalve-effects/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/invalve-effects/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

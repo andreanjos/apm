@@ -1,25 +1,26 @@
-slug        = "scoring-guitars-2-gravity-pack-05"
-name        = "Scoring Guitars 2 Gravity Pack 05"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Cinematic electric guitar collection with 760+ sources of guitar pads, phrases, and pulse loops for film scoring."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/scoring-guitars-2"
-is_paid     = true
+slug         = "scoring-guitars-2-gravity-pack-05"
+name         = "Scoring Guitars 2 Gravity Pack 05"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Cinematic electric guitar collection with 760+ sources of guitar pads, phrases, and pulse loops for film scoring."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/scoring-guitars-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/scoring-guitars-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/scoring-guitars-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/scoring-guitars-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/scoring-guitars-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

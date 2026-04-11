@@ -20,7 +20,7 @@ use crate::config::Config;
 pub use installers::InstallerDefinition;
 pub use types::{
     DownloadType, FormatSource, InstallType, PluginBundle, PluginDefinition, PluginFormat,
-    PluginRelease, Source,
+    PluginRelease, ProductType, Source,
 };
 
 // ── Registry ──────────────────────────────────────────────────────────────────
@@ -242,9 +242,10 @@ impl Registry {
         }
         // Case-insensitive fallback.
         let lower = slug.to_lowercase();
-        self.plugins
-            .values()
-            .find(|p| p.slug.to_lowercase() == lower)
+        self.plugins.values().find(|p| {
+            p.slug.to_lowercase() == lower
+                || p.aliases.iter().any(|alias| alias.to_lowercase() == lower)
+        })
     }
 
     /// Find a plugin by source name and slug (both case-insensitive).
@@ -451,9 +452,11 @@ install_type = "zip"
                 version: "1.0.0".to_string(),
                 description: "Virtual analog synth".to_string(),
                 category: "instrument".to_string(),
+                product_type: ProductType::Plugin,
                 subcategory: None,
                 license: "freeware".to_string(),
                 tags: vec![],
+                aliases: vec![],
                 installer: None,
                 formats: std::collections::HashMap::new(),
                 releases: vec![],
@@ -471,6 +474,41 @@ install_type = "zip"
         let found = registry.find("TAL-NOISEMAKER");
         assert!(found.is_some(), "case-insensitive find should match");
         assert_eq!(found.unwrap().slug, "tal-noisemaker");
+    }
+
+    #[test]
+    fn test_find_matches_alias_slug() {
+        let mut registry = Registry::new();
+        registry.plugins.insert(
+            "echoboy".to_string(),
+            PluginDefinition {
+                slug: "echoboy".to_string(),
+                name: "EchoBoy".to_string(),
+                vendor: "Soundtoys".to_string(),
+                version: "1.0.0".to_string(),
+                description: "Delay plugin".to_string(),
+                category: "effects".to_string(),
+                product_type: ProductType::Plugin,
+                subcategory: None,
+                license: "commercial".to_string(),
+                tags: vec![],
+                aliases: vec!["soundtoys-echoboy".to_string()],
+                installer: None,
+                formats: std::collections::HashMap::new(),
+                releases: vec![],
+                homepage: None,
+                purchase_url: None,
+                bundle_ids: vec![],
+                is_paid: false,
+                price_cents: None,
+                currency: None,
+                source_name: None,
+            },
+        );
+
+        let found = registry.find("soundtoys-echoboy");
+        assert!(found.is_some(), "alias lookup should resolve");
+        assert_eq!(found.unwrap().slug, "echoboy");
     }
 
     #[test]

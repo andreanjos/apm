@@ -1,26 +1,27 @@
-slug        = "synthwave-drums-v3"
-name        = "Synthwave Drums V3"
-vendor      = "BeatSkillz"
-version     = "3.0"
-description = "Synthwave drum machine plugin with 1300+ sounds, 73 kits, and 70 patterns for authentic 80s production."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beatskillz.com/shop/sw3/"
+slug         = "synthwave-drums-v3"
+name         = "Synthwave Drums V3"
+vendor       = "BeatSkillz"
+version      = "3.0"
+description  = "Synthwave drum machine plugin with 1300+ sounds, 73 kits, and 70 patterns for authentic 80s production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beatskillz.com/shop/sw3/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/15853-Synthwave-Drums-V3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beatskillz.com/shop/sw3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/sw3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beatskillz.com/shop/sw3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/shop/sw3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

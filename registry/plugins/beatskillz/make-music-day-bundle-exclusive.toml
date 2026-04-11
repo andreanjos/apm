@@ -1,25 +1,26 @@
-slug        = "make-music-day-bundle-exclusive"
-name        = "Make Music Day Bundle (Exclusive)"
-vendor      = "BeatSkillz"
-version     = "1.0.0"
-description = "Exclusive BeatSkillz bundle of FX plugins released in celebration of Make Music Day."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beatskillz.com/store/"
-is_paid     = true
+slug         = "make-music-day-bundle-exclusive"
+name         = "Make Music Day Bundle (Exclusive)"
+vendor       = "BeatSkillz"
+version      = "1.0.0"
+description  = "Exclusive BeatSkillz bundle of FX plugins released in celebration of Make Music Day."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.beatskillz.com/store/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beatskillz.com/store/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/store/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beatskillz.com/store/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beatskillz.com/store/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

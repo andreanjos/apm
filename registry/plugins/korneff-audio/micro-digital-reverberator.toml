@@ -1,24 +1,25 @@
-slug        = "micro-digital-reverberator"
-name        = "Micro Digital Reverberator"
-vendor      = "Korneff Audio"
-version     = "1.0"
-description = "Korneff Audio Micro Digital Reverberator is a free compact reverb plugin with clean ambience."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.korneffaudio.com/"
-is_paid     = true
+slug         = "micro-digital-reverberator"
+name         = "Micro Digital Reverberator"
+vendor       = "Korneff Audio"
+version      = "1.0"
+description  = "Korneff Audio Micro Digital Reverberator is a free compact reverb plugin with clean ambience."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.korneffaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.korneffaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.korneffaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.korneffaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.korneffaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

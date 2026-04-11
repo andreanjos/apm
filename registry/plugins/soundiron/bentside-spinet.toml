@@ -1,25 +1,26 @@
-slug        = "bentside-spinet"
-name        = "Bentside Spinet"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Meticulously sampled 17th-century bentside spinet harpsichord for Kontakt."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/bentside-spinet"
-is_paid     = true
+slug         = "bentside-spinet"
+name         = "Bentside Spinet"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Meticulously sampled 17th-century bentside spinet harpsichord for Kontakt."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/bentside-spinet"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/bentside-spinet"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/bentside-spinet"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/bentside-spinet"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/bentside-spinet"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

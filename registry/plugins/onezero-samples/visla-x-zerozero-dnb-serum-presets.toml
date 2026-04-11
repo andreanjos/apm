@@ -1,26 +1,27 @@
-slug        = "visla-x-zerozero-dnb-serum-presets"
-name        = "Visla X ZeroZero DnB Serum Presets"
-vendor      = "OneZero Samples"
-version     = "1.0"
-description = "OneZero Samples presents 88 DnB Serum presets co-designed by VISLA and ZeroZero."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://onezerosamples.bandcamp.com/album/visla-x-zerozero-dnb-serum-presets"
+slug         = "visla-x-zerozero-dnb-serum-presets"
+name         = "Visla X ZeroZero DnB Serum Presets"
+vendor       = "OneZero Samples"
+version      = "1.0"
+description  = "OneZero Samples presents 88 DnB Serum presets co-designed by VISLA and ZeroZero."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://onezerosamples.bandcamp.com/album/visla-x-zerozero-dnb-serum-presets"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/15465-Visla-X-ZeroZero-DnB-Serum-Presets?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://onezerosamples.bandcamp.com/album/visla-x-zerozero-dnb-serum-presets"
-sha256       = ""
-install_type = "zip"
+url           = "https://onezerosamples.bandcamp.com/album/visla-x-zerozero-dnb-serum-presets"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://onezerosamples.bandcamp.com/album/visla-x-zerozero-dnb-serum-presets"
-sha256       = ""
-install_type = "zip"
+url           = "https://onezerosamples.bandcamp.com/album/visla-x-zerozero-dnb-serum-presets"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

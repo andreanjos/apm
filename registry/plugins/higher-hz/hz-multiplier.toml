@@ -1,26 +1,27 @@
-slug        = "hz-multiplier"
-name        = "HZ Multiplier"
-vendor      = "Higher Hz"
-version     = "1.0"
-description = "Frequency multiplier multi-effect plugin by Higher Hz for harmonic enhancement."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://higherhz.com/"
+slug         = "hz-multiplier"
+name         = "HZ Multiplier"
+vendor       = "Higher Hz"
+version      = "1.0"
+description  = "Frequency multiplier multi-effect plugin by Higher Hz for harmonic enhancement."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://higherhz.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9690-HZ-Multiplier?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://higherhz.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://higherhz.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://higherhz.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://higherhz.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,27 +1,28 @@
-slug        = "ravel-grand-piano"
-name        = "Ravel Grand Piano"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "UA's Ravel Grand Piano is a richly sampled concert grand piano instrument."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/instruments/ravel-grand-piano.html"
+slug         = "ravel-grand-piano"
+name         = "Ravel Grand Piano"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "UA's Ravel Grand Piano is a richly sampled concert grand piano instrument."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/instruments/ravel-grand-piano.html"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10191-Ravel-Grand-Piano?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/instruments/ravel-grand-piano.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/ravel-grand-piano.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/instruments/ravel-grand-piano.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/ravel-grand-piano.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

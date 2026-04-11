@@ -1,25 +1,26 @@
-slug        = "blue-tubes-equalizer-peq5b"
-name        = "Blue Tubes Equalizer PEQ5B"
-vendor      = "Nomad Factory"
-version     = "1.0.0"
-description = "5-band parametric EQ plugin from the Blue Tubes series for comprehensive analog-modeled frequency shaping."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.nomadfactory.com/products/p437-Blue-Tubes-Equalizer-PEQ5B/"
-is_paid     = true
+slug         = "blue-tubes-equalizer-peq5b"
+name         = "Blue Tubes Equalizer PEQ5B"
+vendor       = "Nomad Factory"
+version      = "1.0.0"
+description  = "5-band parametric EQ plugin from the Blue Tubes series for comprehensive analog-modeled frequency shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.nomadfactory.com/products/p437-Blue-Tubes-Equalizer-PEQ5B/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.nomadfactory.com/products/p437-Blue-Tubes-Equalizer-PEQ5B/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p437-Blue-Tubes-Equalizer-PEQ5B/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.nomadfactory.com/products/p437-Blue-Tubes-Equalizer-PEQ5B/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.nomadfactory.com/products/p437-Blue-Tubes-Equalizer-PEQ5B/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

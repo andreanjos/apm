@@ -1,25 +1,26 @@
-slug        = "lsb-solo-french-horn"
-name        = "LSB Solo French Horn"
-vendor      = "Aria Sounds"
-version     = "1.0.0"
-description = "Solo French horn Kontakt library with true legato at three dynamic layers and four mic positions."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://ariasounds.com/product/lsb-solo-french-horn/"
-is_paid     = true
+slug         = "lsb-solo-french-horn"
+name         = "LSB Solo French Horn"
+vendor       = "Aria Sounds"
+version      = "1.0.0"
+description  = "Solo French horn Kontakt library with true legato at three dynamic layers and four mic positions."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://ariasounds.com/product/lsb-solo-french-horn/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ariasounds.com/product/lsb-solo-french-horn/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/lsb-solo-french-horn/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ariasounds.com/product/lsb-solo-french-horn/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/lsb-solo-french-horn/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

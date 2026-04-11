@@ -1,25 +1,26 @@
-slug        = "uvs-3200"
-name        = "UVS-3200"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Virtual instrument delivering the rare and warm analog sounds of the 48-voice Korg PS-3200 synthesizer."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/uvs-3200"
-is_paid     = true
+slug         = "uvs-3200"
+name         = "UVS-3200"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Virtual instrument delivering the rare and warm analog sounds of the 48-voice Korg PS-3200 synthesizer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/uvs-3200"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/uvs-3200"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/uvs-3200"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/uvs-3200"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/uvs-3200"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

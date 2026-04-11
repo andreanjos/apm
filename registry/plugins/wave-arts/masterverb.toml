@@ -1,24 +1,25 @@
-slug        = "masterverb"
-name        = "MasterVerb"
-vendor      = "Wave Arts"
-version     = "7.0"
-description = "Pristine-sounding reverb plugin featuring Hall and Plate algorithms for spaces from intimate rooms to concert halls."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://wavearts.com/products/plugins/masterverb-7"
-is_paid     = true
+slug         = "masterverb"
+name         = "MasterVerb"
+vendor       = "Wave Arts"
+version      = "7.0"
+description  = "Pristine-sounding reverb plugin featuring Hall and Plate algorithms for spaces from intimate rooms to concert halls."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://wavearts.com/products/plugins/masterverb-7"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://wavearts.com/products/plugins/masterverb-7"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavearts.com/products/plugins/masterverb-7"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://wavearts.com/products/plugins/masterverb-7"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavearts.com/products/plugins/masterverb-7"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

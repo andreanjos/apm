@@ -1,25 +1,26 @@
-slug        = "um225-um226"
-name        = "UM225 / UM226"
-vendor      = "Waves"
-version     = "14.0"
-description = "Mono-to-stereo and stereo upmixing utility plugins for broadcast and post-production."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/um225-um226"
-is_paid     = true
+slug         = "um225-um226"
+name         = "UM225 / UM226"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Mono-to-stereo and stereo upmixing utility plugins for broadcast and post-production."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/um225-um226"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/um225-um226"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/um225-um226"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/um225-um226"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/um225-um226"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

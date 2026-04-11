@@ -1,26 +1,27 @@
-slug        = "cinesymphony-lite"
-name        = "CineSymphony Lite"
-vendor      = "Cinesamples"
-version     = "1.0.0"
-description = "Entry-level orchestral library bundling core brass, strings, and winds for composers on a budget."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/cinesymphony-lite"
+slug         = "cinesymphony-lite"
+name         = "CineSymphony Lite"
+vendor       = "Cinesamples"
+version      = "1.0.0"
+description  = "Entry-level orchestral library bundling core brass, strings, and winds for composers on a budget."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/cinesymphony-lite"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11259-CineSymphony-Lite?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/cinesymphony-lite"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/cinesymphony-lite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/cinesymphony-lite"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/cinesymphony-lite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

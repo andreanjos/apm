@@ -1,26 +1,27 @@
-slug        = "mixcraft-10-6-pro-studio"
-name        = "Mixcraft 10 6 Pro Studio"
-vendor      = "Acoustica"
-version     = "10.6"
-description = "Acoustica Mixcraft Pro Studio 10.6 is a full-featured DAW with virtual instruments and mixing."
-category    = "utility"
-subcategory = "daw"
-license     = "commercial"
-tags        = []
-homepage    = "https://acoustica.com/mixcraft"
+slug         = "mixcraft-10-6-pro-studio"
+name         = "Mixcraft 10 6 Pro Studio"
+vendor       = "Acoustica"
+version      = "10.6"
+description  = "Acoustica Mixcraft Pro Studio 10.6 is a full-featured DAW with virtual instruments and mixing."
+category     = "utility"
+product_type = "utility"
+subcategory  = "daw"
+license      = "commercial"
+tags         = []
+homepage     = "https://acoustica.com/mixcraft"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/11405-Mixcraft-10-6-Pro-Studio?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://acoustica.com/mixcraft"
-sha256       = ""
-install_type = "zip"
+url           = "https://acoustica.com/mixcraft"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://acoustica.com/mixcraft"
-sha256       = ""
-install_type = "zip"
+url           = "https://acoustica.com/mixcraft"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

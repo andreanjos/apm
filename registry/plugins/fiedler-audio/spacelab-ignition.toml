@@ -1,26 +1,27 @@
-slug        = "spacelab-ignition"
-name        = "Spacelab Ignition"
-vendor      = "Fiedler Audio"
-version     = "1.0.0"
-description = "Immersive 3D reverb and spatial panner handling up to 24 audio objects in full sphere."
-category    = "effects"
-subcategory = "mastering suite"
-license     = "commercial"
-tags        = []
-homepage    = "https://fiedler-audio.com/spacelab-ignition-immersive-reverb/"
+slug         = "spacelab-ignition"
+name         = "Spacelab Ignition"
+vendor       = "Fiedler Audio"
+version      = "1.0.0"
+description  = "Immersive 3D reverb and spatial panner handling up to 24 audio objects in full sphere."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering suite"
+license      = "commercial"
+tags         = []
+homepage     = "https://fiedler-audio.com/spacelab-ignition-immersive-reverb/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/12238-Spacelab-Ignition?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://fiedler-audio.com/spacelab-ignition-immersive-reverb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fiedler-audio.com/spacelab-ignition-immersive-reverb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://fiedler-audio.com/spacelab-ignition-immersive-reverb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fiedler-audio.com/spacelab-ignition-immersive-reverb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

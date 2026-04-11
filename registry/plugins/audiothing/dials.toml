@@ -1,25 +1,26 @@
-slug        = "dials"
-name        = "Dials"
-vendor      = "AudioThing"
-version     = "1.1"
-description = "Vintage-style channel strip plugin with preamp, EQ, compressor, and saturation for analog warmth."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/effects/dials/"
-is_paid     = true
+slug         = "dials"
+name         = "Dials"
+vendor       = "AudioThing"
+version      = "1.1"
+description  = "Vintage-style channel strip plugin with preamp, EQ, compressor, and saturation for analog warmth."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiothing.net/effects/dials/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/effects/dials/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/dials/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/effects/dials/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/dials/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

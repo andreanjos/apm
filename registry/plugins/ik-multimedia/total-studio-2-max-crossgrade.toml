@@ -1,25 +1,26 @@
-slug        = "total-studio-2-max-crossgrade"
-name        = "Total Studio 2 MAX Crossgrade"
-vendor      = "IK Multimedia"
-version     = "2.0"
-description = "Crossgrade to Total Studio 2 MAX, IK's complete software bundle for composing, mixing, and mastering."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/ts5/"
-is_paid     = true
+slug         = "total-studio-2-max-crossgrade"
+name         = "Total Studio 2 MAX Crossgrade"
+vendor       = "IK Multimedia"
+version      = "2.0"
+description  = "Crossgrade to Total Studio 2 MAX, IK's complete software bundle for composing, mixing, and mastering."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/ts5/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/ts5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/ts5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/ts5/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/ts5/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

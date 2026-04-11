@@ -1,25 +1,26 @@
-slug        = "4ms-spectral-multiband-resonator-smr"
-name        = "4ms Spectral Multiband Resonator (SMR)"
-vendor      = "Softube"
-version     = "2.6"
-description = "Six-voice spectral multiband resonator module for Softube Modular with harmonic filtering."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/synthesizers/4ms-spectral-multiband-resonator-smr"
-is_paid     = true
+slug         = "4ms-spectral-multiband-resonator-smr"
+name         = "4ms Spectral Multiband Resonator (SMR)"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Six-voice spectral multiband resonator module for Softube Modular with harmonic filtering."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/synthesizers/4ms-spectral-multiband-resonator-smr"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/4ms-spectral-multiband-resonator-smr"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/4ms-spectral-multiband-resonator-smr"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/4ms-spectral-multiband-resonator-smr"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/4ms-spectral-multiband-resonator-smr"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

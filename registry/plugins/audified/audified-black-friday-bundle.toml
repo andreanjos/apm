@@ -1,25 +1,26 @@
-slug        = "audified-black-friday-bundle"
-name        = "Audified Black Friday Bundle"
-vendor      = "Audified"
-version     = "1.0.0"
-description = "Seasonal bundle of Audified audio plugins offered at a significant Black Friday discount."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/"
-is_paid     = true
+slug         = "audified-black-friday-bundle"
+name         = "Audified Black Friday Bundle"
+vendor       = "Audified"
+version      = "1.0.0"
+description  = "Seasonal bundle of Audified audio plugins offered at a significant Black Friday discount."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

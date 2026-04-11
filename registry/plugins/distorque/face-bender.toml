@@ -1,26 +1,27 @@
-slug        = "face-bender"
-name        = "Face Bender"
-vendor      = "Distorque"
-version     = "1.0.0"
-description = "Free dual fuzz VST emulating the Fuzz Face and Tone Bender MkII with extended controls."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "http://distorqueaudio.com/plugins/face-bender.html"
+slug         = "face-bender"
+name         = "Face Bender"
+vendor       = "Distorque"
+version      = "1.0.0"
+description  = "Free dual fuzz VST emulating the Fuzz Face and Tone Bender MkII with extended controls."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "http://distorqueaudio.com/plugins/face-bender.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/353-Face-Bender?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "http://distorqueaudio.com/plugins/face-bender.html"
-sha256       = ""
-install_type = "zip"
+url           = "http://distorqueaudio.com/plugins/face-bender.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "http://distorqueaudio.com/plugins/face-bender.html"
-sha256       = ""
-install_type = "zip"
+url           = "http://distorqueaudio.com/plugins/face-bender.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

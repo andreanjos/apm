@@ -1,26 +1,27 @@
-slug        = "neuro-plasticity-for-serum"
-name        = "Neuro Plasticity for SERUM"
-vendor      = "LP24 Audio"
-version     = "1.0.0"
-description = "Neuro-bass and experimental preset collection for Xfer Serum synthesizer."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://lp24audio.com/shop/xfer-serum-presets"
+slug         = "neuro-plasticity-for-serum"
+name         = "Neuro Plasticity for SERUM"
+vendor       = "LP24 Audio"
+version      = "1.0.0"
+description  = "Neuro-bass and experimental preset collection for Xfer Serum synthesizer."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://lp24audio.com/shop/xfer-serum-presets"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/4521-Neuro-Plasticity-for-SERUM?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://lp24audio.com/shop/xfer-serum-presets"
-sha256       = ""
-install_type = "zip"
+url           = "https://lp24audio.com/shop/xfer-serum-presets"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://lp24audio.com/shop/xfer-serum-presets"
-sha256       = ""
-install_type = "zip"
+url           = "https://lp24audio.com/shop/xfer-serum-presets"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

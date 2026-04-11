@@ -1,25 +1,26 @@
-slug        = "corona"
-name        = "Corona"
-vendor      = "DiscoDSP"
-version     = "6.7"
-description = "Virtual analog synthesizer combining VA and wave oscillators with JP-8080 unison modeling."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.discodsp.com/corona/"
-is_paid     = true
+slug         = "corona"
+name         = "Corona"
+vendor       = "DiscoDSP"
+version      = "6.7"
+description  = "Virtual analog synthesizer combining VA and wave oscillators with JP-8080 unison modeling."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.discodsp.com/corona/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.discodsp.com/corona/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.discodsp.com/corona/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.discodsp.com/corona/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.discodsp.com/corona/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

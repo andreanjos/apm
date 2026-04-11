@@ -1,24 +1,28 @@
-slug        = "ssl-native-channel-strip"
-name        = "SSL Native Channel Strip 2"
-vendor      = "Solid State Logic"
-version     = "2.0"
-description = "Full SSL channel strip emulation featuring EQ, dynamics, filters, and gate from the SSL 4000/9000 series."
-category    = "effects"
-subcategory = "channel-strip"
-license     = "commercial"
-tags        = ["channel-strip", "eq", "compressor", "gate", "ssl", "mixing"]
-homepage    = "https://www.solidstatelogic.com/products/native-channel-strip-2"
+slug         = "ssl-native-channel-strip"
+name         = "SSL Native Channel Strip 2"
+vendor       = "Solid State Logic"
+version      = "2.0"
+description  = "Full SSL channel strip emulation featuring EQ, dynamics, filters, and gate from the SSL 4000/9000 series."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel-strip"
+license      = "commercial"
+tags         = ["channel-strip", "eq", "compressor", "gate", "ssl", "mixing"]
+aliases      = ["ssl-native-channel-strip-2"]
+homepage     = "https://www.solidstatelogic.com/products/native-channel-strip-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/8653-SSL-Native-Channel-Strip-2?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.solidstatelogic.com/support/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.solidstatelogic.com/support/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "SSL Native Channel Strip 2.vst3"
+bundle_path   = "SSL Native Channel Strip 2.vst3"
 
 [formats.au]
-url          = "https://www.solidstatelogic.com/support/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.solidstatelogic.com/support/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "SSL Native Channel Strip 2.component"
+bundle_path   = "SSL Native Channel Strip 2.component"

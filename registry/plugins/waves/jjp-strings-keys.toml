@@ -1,25 +1,27 @@
-slug        = "jjp-strings-keys"
-name        = "JJP Strings & Keys"
-vendor      = "Waves"
-version     = "14.0"
-description = "Signature strings and keys processor based on JJP's approach to orchestral mixing."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/jjp-strings-keys"
-is_paid     = true
+slug         = "jjp-strings-keys"
+name         = "JJP Strings & Keys"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Signature strings and keys processor based on JJP's approach to orchestral mixing."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+aliases      = ["jjp-strings-038-keys"]
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/jjp-strings-keys"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/jjp-strings-keys"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/jjp-strings-keys"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/jjp-strings-keys"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/jjp-strings-keys"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

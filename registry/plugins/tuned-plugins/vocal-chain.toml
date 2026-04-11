@@ -1,26 +1,27 @@
-slug        = "vocal-chain"
-name        = "Vocal Chain"
-vendor      = "Tuned Plugins"
-version     = "1.0"
-description = "Complete vocal processing chain plugin by Tuned Plugins for polished vocal production."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-homepage    = "https://tunedplugins.com/"
+slug         = "vocal-chain"
+name         = "Vocal Chain"
+vendor       = "Tuned Plugins"
+version      = "1.0"
+description  = "Complete vocal processing chain plugin by Tuned Plugins for polished vocal production."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+homepage     = "https://tunedplugins.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/13766-Vocal-Chain?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://tunedplugins.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://tunedplugins.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://tunedplugins.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://tunedplugins.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

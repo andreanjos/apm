@@ -1,26 +1,27 @@
-slug        = "mixbus-11-pro"
-name        = "Mixbus 11 Pro"
-vendor      = "Harrison Consoles"
-version     = "11"
-description = "Professional DAW by Harrison with analog console workflow, Dolby Atmos export, and SSL 9000J channel strip EQ."
-category    = "utility"
-subcategory = "daw"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/all-products/mixbus-11-pro"
+slug         = "mixbus-11-pro"
+name         = "Mixbus 11 Pro"
+vendor       = "Harrison Consoles"
+version      = "11"
+description  = "Professional DAW by Harrison with analog console workflow, Dolby Atmos export, and SSL 9000J channel strip EQ."
+category     = "utility"
+product_type = "utility"
+subcategory  = "daw"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/all-products/mixbus-11-pro"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/14917-Mixbus-11-Pro?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/all-products/mixbus-11-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/mixbus-11-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/all-products/mixbus-11-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/mixbus-11-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

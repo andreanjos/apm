@@ -1,26 +1,27 @@
-slug        = "couture"
-name        = "Couture"
-vendor      = "Auburn Sounds"
-version     = "1.0.0"
-description = "Transient shaper with 2-band half-spectral detector that finds every transient precisely."
-category    = "effects"
-subcategory = "transient shaper"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.auburnsounds.com/products/Couture.html"
+slug         = "couture"
+name         = "Couture"
+vendor       = "Auburn Sounds"
+version      = "1.0.0"
+description  = "Transient shaper with 2-band half-spectral detector that finds every transient precisely."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "transient shaper"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.auburnsounds.com/products/Couture.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/11928-Couture?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.auburnsounds.com/products/Couture.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.auburnsounds.com/products/Couture.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.auburnsounds.com/products/Couture.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.auburnsounds.com/products/Couture.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

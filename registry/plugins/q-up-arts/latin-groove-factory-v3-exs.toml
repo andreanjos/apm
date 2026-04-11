@@ -1,25 +1,26 @@
-slug        = "latin-groove-factory-v3-exs"
-name        = "Latin Groove Factory V3 EXS"
-vendor      = "Q Up Arts"
-version     = "3"
-description = "Caribbean rhythm loop collection for Logic EXS covering reggae, soca, calypso, and dancehall percussion."
-category    = "instruments"
-subcategory = "exs"
-license     = "commercial"
-tags        = []
-homepage    = "https://quparts.com/products/latin-groove-factory-v3-caribbean"
-is_paid     = true
+slug         = "latin-groove-factory-v3-exs"
+name         = "Latin Groove Factory V3 EXS"
+vendor       = "Q Up Arts"
+version      = "3"
+description  = "Caribbean rhythm loop collection for Logic EXS covering reggae, soca, calypso, and dancehall percussion."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "exs"
+license      = "commercial"
+tags         = []
+homepage     = "https://quparts.com/products/latin-groove-factory-v3-caribbean"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://quparts.com/products/latin-groove-factory-v3-caribbean"
-sha256       = ""
-install_type = "zip"
+url           = "https://quparts.com/products/latin-groove-factory-v3-caribbean"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://quparts.com/products/latin-groove-factory-v3-caribbean"
-sha256       = ""
-install_type = "zip"
+url           = "https://quparts.com/products/latin-groove-factory-v3-caribbean"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "32c-channel"
-name        = "32C Channel"
-vendor      = "Harrison Consoles"
-version     = "1.0.0"
-description = "Channel strip plugin combining the Harrison 32C EQ, filters, and compressor with adjustable signal flow."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/all-products/32c-channel"
-is_paid     = true
+slug         = "32c-channel"
+name         = "32C Channel"
+vendor       = "Harrison Consoles"
+version      = "1.0.0"
+description  = "Channel strip plugin combining the Harrison 32C EQ, filters, and compressor with adjustable signal flow."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/all-products/32c-channel"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/all-products/32c-channel"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/32c-channel"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/all-products/32c-channel"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/32c-channel"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

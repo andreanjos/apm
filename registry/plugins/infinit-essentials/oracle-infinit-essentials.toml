@@ -1,25 +1,26 @@
-slug        = "oracle-infinit-essentials"
-name        = "Oracle"
-vendor      = "infinit essentials"
-version     = "1.0.0"
-description = "Trap virtual instrument with 34 unique instruments, 88 presets, and a built-in texture knob."
-category    = "instruments"
-subcategory = "multi instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://infinit-essentials.com/products/oracle-multikit-plugin"
-is_paid     = true
+slug         = "oracle-infinit-essentials"
+name         = "Oracle"
+vendor       = "infinit essentials"
+version      = "1.0.0"
+description  = "Trap virtual instrument with 34 unique instruments, 88 presets, and a built-in texture knob."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "multi instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://infinit-essentials.com/products/oracle-multikit-plugin"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://infinit-essentials.com/products/oracle-multikit-plugin"
-sha256       = ""
-install_type = "zip"
+url           = "https://infinit-essentials.com/products/oracle-multikit-plugin"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://infinit-essentials.com/products/oracle-multikit-plugin"
-sha256       = ""
-install_type = "zip"
+url           = "https://infinit-essentials.com/products/oracle-multikit-plugin"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

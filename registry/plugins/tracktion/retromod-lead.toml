@@ -1,25 +1,26 @@
-slug        = "retromod-lead"
-name        = "RetroMod Lead"
-vendor      = "Tracktion"
-version     = "1.0.0"
-description = "RetroMod Lead synthesizer plugin delivering cutting lead synth tones from classic analog hardware."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tracktion.com/products/retromod"
-is_paid     = true
+slug         = "retromod-lead"
+name         = "RetroMod Lead"
+vendor       = "Tracktion"
+version      = "1.0.0"
+description  = "RetroMod Lead synthesizer plugin delivering cutting lead synth tones from classic analog hardware."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tracktion.com/products/retromod"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tracktion.com/products/retromod"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/retromod"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tracktion.com/products/retromod"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/retromod"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

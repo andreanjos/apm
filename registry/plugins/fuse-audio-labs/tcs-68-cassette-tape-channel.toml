@@ -1,26 +1,27 @@
-slug        = "tcs-68-cassette-tape-channel"
-name        = "TCS 68 Cassette Tape Channel"
-vendor      = "Fuse Audio Labs"
-version     = "2.7"
-description = "Cassette tape channel emulation plugin delivering lo-fi crunchiness and inherent tape compression."
-category    = "effects"
-subcategory = "tape emulation"
-license     = "commercial"
-tags        = []
-homepage    = "https://fuseaudiolabs.com/"
+slug         = "tcs-68-cassette-tape-channel"
+name         = "TCS 68 Cassette Tape Channel"
+vendor       = "Fuse Audio Labs"
+version      = "2.7"
+description  = "Cassette tape channel emulation plugin delivering lo-fi crunchiness and inherent tape compression."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "tape emulation"
+license      = "commercial"
+tags         = []
+homepage     = "https://fuseaudiolabs.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/13837-TCS-68-Cassette-Tape-Channel?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "psp-wobbler"
-name        = "PSP Wobbler"
-vendor      = "PSP Audioware"
-version     = "1.0.1"
-description = "Modulation effect inspired by a vintage Frequency Translator, developed in collaboration with Alan Parsons."
-category    = "effects"
-subcategory = "modulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-wobbler"
+slug         = "psp-wobbler"
+name         = "PSP Wobbler"
+vendor       = "PSP Audioware"
+version      = "1.0.1"
+description  = "Modulation effect inspired by a vintage Frequency Translator, developed in collaboration with Alan Parsons."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "modulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-wobbler"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/14246-PSP-Wobbler?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-wobbler"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-wobbler"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-wobbler"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-wobbler"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

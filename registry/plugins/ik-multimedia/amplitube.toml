@@ -1,24 +1,28 @@
-slug        = "amplitube"
-name        = "AmpliTube 5"
-vendor      = "IK Multimedia"
-version     = "5.10.9"
-description = "Comprehensive guitar and bass tone modeling suite with 400+ gear models, VIR cab technology, and full signal chain."
-category    = "effects"
-subcategory = "amp-sim"
-license     = "commercial"
-tags        = ["guitar", "bass", "amp-sim", "effects", "cabinet-sim", "standalone"]
-homepage    = "https://www.ikmultimedia.com/products/amplitube5/"
+slug         = "amplitube"
+name         = "AmpliTube 5"
+vendor       = "IK Multimedia"
+version      = "5.10.9"
+description  = "Comprehensive guitar and bass tone modeling suite with 400+ gear models, VIR cab technology, and full signal chain."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp-sim"
+license      = "commercial"
+tags         = ["guitar", "bass", "amp-sim", "effects", "cabinet-sim", "standalone"]
+aliases      = ["amplitube-5"]
+homepage     = "https://www.ikmultimedia.com/products/amplitube5/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/12669-AmpliTube-5?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/amplitube5/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.ikmultimedia.com/products/amplitube5/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "AmpliTube 5.vst3"
+bundle_path   = "AmpliTube 5.vst3"
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/amplitube5/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.ikmultimedia.com/products/amplitube5/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "AmpliTube 5.component"
+bundle_path   = "AmpliTube 5.component"

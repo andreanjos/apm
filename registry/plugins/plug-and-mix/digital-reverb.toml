@@ -1,24 +1,25 @@
-slug        = "digital-reverb"
-name        = "Digital Reverb"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Classic digital reverb plugin with room, hall, and plate programs for natural-sounding ambience."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p881-Digital-Reverb/"
-is_paid     = true
+slug         = "digital-reverb"
+name         = "Digital Reverb"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Classic digital reverb plugin with room, hall, and plate programs for natural-sounding ambience."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p881-Digital-Reverb/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p881-Digital-Reverb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p881-Digital-Reverb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p881-Digital-Reverb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p881-Digital-Reverb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

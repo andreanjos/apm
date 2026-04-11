@@ -1,25 +1,26 @@
-slug        = "music-composition-suite"
-name        = "Music Composition Suite"
-vendor      = "Audiomodern"
-version     = "1.0.0"
-description = "Bundle of Audiomodern's composition-focused plugins including Riffer, Panflow, and Filterstep."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodern.com/products/"
-is_paid     = true
+slug         = "music-composition-suite"
+name         = "Music Composition Suite"
+vendor       = "Audiomodern"
+version      = "1.0.0"
+description  = "Bundle of Audiomodern's composition-focused plugins including Riffer, Panflow, and Filterstep."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodern.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodern.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodern.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodern.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodern.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

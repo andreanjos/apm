@@ -1,26 +1,27 @@
-slug        = "ampeg-svt-vr-bass-amplifier"
-name        = "Ampeg SVT-VR Bass Amplifier"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the Ampeg SVT-VR, the all-tube all-original SVT bass amp."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/guitar-bass/ampeg-svt-vr-bass-amplifier.html"
-is_paid     = true
+slug         = "ampeg-svt-vr-bass-amplifier"
+name         = "Ampeg SVT-VR Bass Amplifier"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the Ampeg SVT-VR, the all-tube all-original SVT bass amp."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/guitar-bass/ampeg-svt-vr-bass-amplifier.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/guitar-bass/ampeg-svt-vr-bass-amplifier.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/guitar-bass/ampeg-svt-vr-bass-amplifier.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/guitar-bass/ampeg-svt-vr-bass-amplifier.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/guitar-bass/ampeg-svt-vr-bass-amplifier.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

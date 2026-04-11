@@ -1,26 +1,27 @@
-slug        = "eidolon-haunted-piano"
-name        = "Eidolon Haunted Piano"
-vendor      = "Iamlamprey"
-version     = "1.0.0"
-description = "Atmospheric haunted piano Kontakt instrument designed for ambient and cinematic sound design."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.iamlamprey.com/products/eidolon-haunted-piano"
+slug         = "eidolon-haunted-piano"
+name         = "Eidolon Haunted Piano"
+vendor       = "Iamlamprey"
+version      = "1.0.0"
+description  = "Atmospheric haunted piano Kontakt instrument designed for ambient and cinematic sound design."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.iamlamprey.com/products/eidolon-haunted-piano"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/12408-Eidolon-Haunted-Piano?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.iamlamprey.com/products/eidolon-haunted-piano"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.iamlamprey.com/products/eidolon-haunted-piano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.iamlamprey.com/products/eidolon-haunted-piano"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.iamlamprey.com/products/eidolon-haunted-piano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

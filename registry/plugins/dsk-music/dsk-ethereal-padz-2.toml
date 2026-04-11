@@ -1,26 +1,27 @@
-slug        = "dsk-ethereal-padz-2"
-name        = "DSK Ethereal Padz 2"
-vendor      = "DSK Music"
-version     = "1.0.0"
-description = "Free advanced pads sound module with 3 layers and 111 pad sounds."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.dskmusic.com/dsk-ethereal-padz-2/"
+slug         = "dsk-ethereal-padz-2"
+name         = "DSK Ethereal Padz 2"
+vendor       = "DSK Music"
+version      = "1.0.0"
+description  = "Free advanced pads sound module with 3 layers and 111 pad sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.dskmusic.com/dsk-ethereal-padz-2/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/557-DSK-Ethereal-Padz-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.dskmusic.com/dsk-ethereal-padz-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.dskmusic.com/dsk-ethereal-padz-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.dskmusic.com/dsk-ethereal-padz-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.dskmusic.com/dsk-ethereal-padz-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

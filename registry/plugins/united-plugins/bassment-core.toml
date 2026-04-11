@@ -1,26 +1,27 @@
-slug        = "bassment-core"
-name        = "Bassment Core"
-vendor      = "United Plugins"
-version     = "1.0.0"
-description = "Streamlined bass amp plugin with 200+ cabinet models and smart input analysis by Muramasa."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com/BassmentCore/"
+slug         = "bassment-core"
+name         = "Bassment Core"
+vendor       = "United Plugins"
+version      = "1.0.0"
+description  = "Streamlined bass amp plugin with 200+ cabinet models and smart input analysis by Muramasa."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com/BassmentCore/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9254-Bassment-Core?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com/BassmentCore/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/BassmentCore/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com/BassmentCore/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/BassmentCore/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "joey-santiago-guitars"
-name        = "Joey Santiago Guitars"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Monstrous distorted guitar library from Pixies guitarist Joey Santiago for experimental and rock scoring."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/joey-santiago-guitars/"
-is_paid     = true
+slug         = "joey-santiago-guitars"
+name         = "Joey Santiago Guitars"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Monstrous distorted guitar library from Pixies guitarist Joey Santiago for experimental and rock scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/joey-santiago-guitars/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/joey-santiago-guitars/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/joey-santiago-guitars/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/joey-santiago-guitars/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/joey-santiago-guitars/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

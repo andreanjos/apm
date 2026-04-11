@@ -1,25 +1,26 @@
-slug        = "shreddage-3-bundle"
-name        = "Shreddage 3 Bundle"
-vendor      = "Impact Soundworks"
-version     = "1.0.0"
-description = "Complete Shreddage 3 bundle including 10 guitars and 5 basses for rock, metal, funk, jazz, and pop."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://impactsoundworks.com/product/shreddage-3-bundle/"
-is_paid     = true
+slug         = "shreddage-3-bundle"
+name         = "Shreddage 3 Bundle"
+vendor       = "Impact Soundworks"
+version      = "1.0.0"
+description  = "Complete Shreddage 3 bundle including 10 guitars and 5 basses for rock, metal, funk, jazz, and pop."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://impactsoundworks.com/product/shreddage-3-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://impactsoundworks.com/product/shreddage-3-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://impactsoundworks.com/product/shreddage-3-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://impactsoundworks.com/product/shreddage-3-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://impactsoundworks.com/product/shreddage-3-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

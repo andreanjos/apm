@@ -1,25 +1,26 @@
-slug        = "aas-strum-gs-2"
-name        = "AAS Strum GS-2"
-vendor      = "Applied Acoustics Systems"
-version     = "2"
-description = "AAS guitar synthesizer with automatic chord recognition, strumming, MIDI riffs, and guitar amps."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.applied-acoustics.com/strum-gs-2/"
-is_paid     = true
+slug         = "aas-strum-gs-2"
+name         = "AAS Strum GS-2"
+vendor       = "Applied Acoustics Systems"
+version      = "2"
+description  = "AAS guitar synthesizer with automatic chord recognition, strumming, MIDI riffs, and guitar amps."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.applied-acoustics.com/strum-gs-2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.applied-acoustics.com/strum-gs-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/strum-gs-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.applied-acoustics.com/strum-gs-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/strum-gs-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "eddie-kramer-drum-channel"
-name        = "Eddie Kramer Drum Channel"
-vendor      = "Waves"
-version     = "14.0"
-description = "Signature drum channel strip based on Eddie Kramer's classic drum processing chain."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/eddie-kramer-drum-channel"
-is_paid     = true
+slug         = "eddie-kramer-drum-channel"
+name         = "Eddie Kramer Drum Channel"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Signature drum channel strip based on Eddie Kramer's classic drum processing chain."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/eddie-kramer-drum-channel"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/eddie-kramer-drum-channel"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/eddie-kramer-drum-channel"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/eddie-kramer-drum-channel"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/eddie-kramer-drum-channel"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

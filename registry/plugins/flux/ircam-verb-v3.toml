@@ -1,24 +1,25 @@
-slug        = "ircam-verb-v3"
-name        = "Ircam Verb V3"
-vendor      = "Flux"
-version     = "3"
-description = "Algorithmic reverb plugin with 16-channel support for surround, Ambisonics, and Dolby Atmos."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.flux.audio/project/ircam-verb/"
-is_paid     = true
+slug         = "ircam-verb-v3"
+name         = "Ircam Verb V3"
+vendor       = "Flux"
+version      = "3"
+description  = "Algorithmic reverb plugin with 16-channel support for surround, Ambisonics, and Dolby Atmos."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.flux.audio/project/ircam-verb/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.flux.audio/project/ircam-verb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.flux.audio/project/ircam-verb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.flux.audio/project/ircam-verb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.flux.audio/project/ircam-verb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

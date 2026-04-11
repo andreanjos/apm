@@ -1,26 +1,27 @@
-slug        = "deboom"
-name        = "DeBoom"
-vendor      = "Eventide"
-version     = "1.0.0"
-description = "One-knob low-frequency EQ that removes boom and muddiness without sacrificing impact."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eventideaudio.com/plug-ins/deboom/"
+slug         = "deboom"
+name         = "DeBoom"
+vendor       = "Eventide"
+version      = "1.0.0"
+description  = "One-knob low-frequency EQ that removes boom and muddiness without sacrificing impact."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eventideaudio.com/plug-ins/deboom/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11691-DeBoom?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eventideaudio.com/plug-ins/deboom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/deboom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eventideaudio.com/plug-ins/deboom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/deboom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

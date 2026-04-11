@@ -1,26 +1,27 @@
-slug        = "mpc-expansion-trap-soul-rnb"
-name        = "MPC Expansion Trap Soul RnB"
-vendor      = "AKAI"
-version     = "1.0.0"
-description = "MPC expansion with hard-hitting kicks, soulful melodic loops, 808s, and R&B vocal phrases."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
+slug         = "mpc-expansion-trap-soul-rnb"
+name         = "MPC Expansion Trap Soul RnB"
+vendor       = "AKAI"
+version      = "1.0.0"
+description  = "MPC expansion with hard-hitting kicks, soulful melodic loops, 808s, and R&B vocal phrases."
+category     = "instruments"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/11082-MPC-Expansion-Trap-Soul-RnB?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

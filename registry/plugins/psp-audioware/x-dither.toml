@@ -1,25 +1,26 @@
-slug        = "x-dither"
-name        = "X-Dither"
-vendor      = "PSP Audioware"
-version     = "1.1.1"
-description = "High-quality mastering dithering and noise shaping processor for preserving audio quality during bit-depth reduction."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-x-dither"
-is_paid     = true
+slug         = "x-dither"
+name         = "X-Dither"
+vendor       = "PSP Audioware"
+version      = "1.1.1"
+description  = "High-quality mastering dithering and noise shaping processor for preserving audio quality during bit-depth reduction."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-x-dither"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-x-dither"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-x-dither"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-x-dither"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-x-dither"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

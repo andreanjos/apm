@@ -1,26 +1,27 @@
-slug        = "abbey-road-one-orchestral-foundations"
-name        = "Abbey Road One: Orchestral Foundations"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Full 90-piece symphonic orchestra recorded at Abbey Road Studios with strings, brass, woodwinds, and percussion."
-category    = "instruments"
-subcategory = "orchestral"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/abbey-road-one-orchestral-foundations/"
-is_paid     = true
+slug         = "abbey-road-one-orchestral-foundations"
+name         = "Abbey Road One: Orchestral Foundations"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Full 90-piece symphonic orchestra recorded at Abbey Road Studios with strings, brass, woodwinds, and percussion."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "orchestral"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/abbey-road-one-orchestral-foundations/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/abbey-road-one-orchestral-foundations/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/abbey-road-one-orchestral-foundations/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/abbey-road-one-orchestral-foundations/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/abbey-road-one-orchestral-foundations/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

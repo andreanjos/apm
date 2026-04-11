@@ -1,25 +1,26 @@
-slug        = "gem-comp-la"
-name        = "GEM Comp LA"
-vendor      = "Overloud"
-version     = "1.0.0"
-description = "Optical compressor emulation combining the classic LA-2A and LA-3A with modern extensions."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.overloud.com/gems"
-is_paid     = true
+slug         = "gem-comp-la"
+name         = "GEM Comp LA"
+vendor       = "Overloud"
+version      = "1.0.0"
+description  = "Optical compressor emulation combining the classic LA-2A and LA-3A with modern extensions."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.overloud.com/gems"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.overloud.com/gems"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/gems"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.overloud.com/gems"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/gems"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

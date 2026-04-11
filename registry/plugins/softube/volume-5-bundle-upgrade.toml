@@ -1,26 +1,27 @@
-slug        = "volume-5-bundle-upgrade"
-name        = "Volume 5 Bundle Upgrade"
-vendor      = "Softube"
-version     = "2.6"
-description = "Upgrade path to the Softube Volume 5 Bundle from a previous volume collection."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins"
-is_paid     = true
+slug         = "volume-5-bundle-upgrade"
+name         = "Volume 5 Bundle Upgrade"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Upgrade path to the Softube Volume 5 Bundle from a previous volume collection."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

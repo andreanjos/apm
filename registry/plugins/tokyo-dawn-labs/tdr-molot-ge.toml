@@ -1,26 +1,27 @@
-slug        = "tdr-molot-ge"
-name        = "TDR Molot GE"
-vendor      = "Tokyo Dawn Labs"
-version     = "1.0.7"
-description = "Characterful compressor melding classic compression mechanisms with saturation, tone control and peak limiting."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tokyodawn.net/tdr-molot-ge/"
+slug         = "tdr-molot-ge"
+name         = "TDR Molot GE"
+vendor       = "Tokyo Dawn Labs"
+version      = "1.0.7"
+description  = "Characterful compressor melding classic compression mechanisms with saturation, tone control and peak limiting."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tokyodawn.net/tdr-molot-ge/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/7002-TDR-Molot-GE?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tokyodawn.net/tdr-molot-ge/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tokyodawn.net/tdr-molot-ge/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tokyodawn.net/tdr-molot-ge/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tokyodawn.net/tdr-molot-ge/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

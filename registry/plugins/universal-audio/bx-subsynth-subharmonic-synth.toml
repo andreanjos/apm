@@ -1,26 +1,27 @@
-slug        = "bx-subsynth-subharmonic-synth"
-name        = "bx_subsynth Subharmonic Synth"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Brainworx bx_subsynth generates and controls sub frequencies to add weight to bass."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/instruments/bx-subsynth-subharmonic-synth.html"
-is_paid     = true
+slug         = "bx-subsynth-subharmonic-synth"
+name         = "bx_subsynth Subharmonic Synth"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Brainworx bx_subsynth generates and controls sub frequencies to add weight to bass."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/instruments/bx-subsynth-subharmonic-synth.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/instruments/bx-subsynth-subharmonic-synth.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/bx-subsynth-subharmonic-synth.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/instruments/bx-subsynth-subharmonic-synth.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/bx-subsynth-subharmonic-synth.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "xtyles"
-name        = "Xtyles"
-vendor      = "Audiofier"
-version     = "1.0"
-description = "Kontakt rhythms and loops combinator with 640 loops in 20 categories adaptable to any key and scale."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiofier.co.uk/xtyles/"
-is_paid     = true
+slug         = "xtyles"
+name         = "Xtyles"
+vendor       = "Audiofier"
+version      = "1.0"
+description  = "Kontakt rhythms and loops combinator with 640 loops in 20 categories adaptable to any key and scale."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiofier.co.uk/xtyles/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiofier.co.uk/xtyles/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/xtyles/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiofier.co.uk/xtyles/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/xtyles/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

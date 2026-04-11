@@ -1,25 +1,27 @@
-slug        = "possitive-psy-pads-soundscapes-1"
-name        = "Possitive Psy Pads & Soundscapes 1"
-vendor      = "Eplex7 DSP"
-version     = "1.0.0"
-description = "Positive psytrance pads and atmospheres plugin for progressive, trance, and ambient genres."
-category    = "instruments"
-subcategory = "pads"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eplex7.com/possitive-psy-pads-1-plugin-instrument/"
-is_paid     = true
+slug         = "possitive-psy-pads-soundscapes-1"
+name         = "Possitive Psy Pads & Soundscapes 1"
+vendor       = "Eplex7 DSP"
+version      = "1.0.0"
+description  = "Positive psytrance pads and atmospheres plugin for progressive, trance, and ambient genres."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "pads"
+license      = "commercial"
+tags         = []
+aliases      = ["possitive-psy-pads-038-soundscapes-1"]
+homepage     = "https://www.eplex7.com/possitive-psy-pads-1-plugin-instrument/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eplex7.com/possitive-psy-pads-1-plugin-instrument/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eplex7.com/possitive-psy-pads-1-plugin-instrument/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eplex7.com/possitive-psy-pads-1-plugin-instrument/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eplex7.com/possitive-psy-pads-1-plugin-instrument/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

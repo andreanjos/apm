@@ -1,26 +1,27 @@
-slug        = "old-times-impulse-responses-expansion-library-for-fog-convolver"
-name        = "Old Times Impulse Responses Expansion Library for Fog Convolver"
-vendor      = "AudioThing"
-version     = "1.0"
-description = "Expansion IR library for Fog Convolver with vintage and classic hardware room impulse responses."
-category    = "utility"
-subcategory = "impulse response"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/effects/fog-convolver/"
+slug         = "old-times-impulse-responses-expansion-library-for-fog-convolver"
+name         = "Old Times Impulse Responses Expansion Library for Fog Convolver"
+vendor       = "AudioThing"
+version      = "1.0"
+description  = "Expansion IR library for Fog Convolver with vintage and classic hardware room impulse responses."
+category     = "utility"
+product_type = "utility"
+subcategory  = "impulse response"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiothing.net/effects/fog-convolver/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/2458-Old-Times-Impulse-Responses-Expansion-Library-for-Fog-Convolver-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/effects/fog-convolver/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/fog-convolver/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/effects/fog-convolver/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/fog-convolver/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

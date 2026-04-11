@@ -1,25 +1,26 @@
-slug        = "synthmaster-everything-bundle-upgrade-from-synthmaster-player"
-name        = "SynthMaster Everything Bundle Upgrade from SynthMaster Player"
-vendor      = "KV331 Audio"
-version     = "1.0.0"
-description = "Upgrade to the SynthMaster Everything Bundle from SynthMaster Player, gaining all synths and expansion packs."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kv331audio.com/"
-is_paid     = true
+slug         = "synthmaster-everything-bundle-upgrade-from-synthmaster-player"
+name         = "SynthMaster Everything Bundle Upgrade from SynthMaster Player"
+vendor       = "KV331 Audio"
+version      = "1.0.0"
+description  = "Upgrade to the SynthMaster Everything Bundle from SynthMaster Player, gaining all synths and expansion packs."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kv331audio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kv331audio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kv331audio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kv331audio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kv331audio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

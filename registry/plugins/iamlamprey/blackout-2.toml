@@ -1,26 +1,27 @@
-slug        = "blackout-2"
-name        = "Blackout 2"
-vendor      = "Iamlamprey"
-version     = "2"
-description = "Updated lightweight loop-based pulse engine with three octaves of time-synced synthetic pulses."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.iamlamprey.com/products/blackout-2"
+slug         = "blackout-2"
+name         = "Blackout 2"
+vendor       = "Iamlamprey"
+version      = "2"
+description  = "Updated lightweight loop-based pulse engine with three octaves of time-synced synthetic pulses."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.iamlamprey.com/products/blackout-2"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8076-Blackout-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.iamlamprey.com/products/blackout-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.iamlamprey.com/products/blackout-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.iamlamprey.com/products/blackout-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.iamlamprey.com/products/blackout-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

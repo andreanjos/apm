@@ -1,26 +1,27 @@
-slug        = "megurine-luka-v4x"
-name        = "MEGURINE LUKA V4X"
-vendor      = "Crypton Future Media"
-version     = "V4X"
-description = "Megurine Luka V4X VOCALOID voicebank with bilingual Japanese and English singing capabilities."
-category    = "instruments"
-subcategory = "vocal synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonicwire.com/"
+slug         = "megurine-luka-v4x"
+name         = "MEGURINE LUKA V4X"
+vendor       = "Crypton Future Media"
+version      = "V4X"
+description  = "Megurine Luka V4X VOCALOID voicebank with bilingual Japanese and English singing capabilities."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "vocal synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonicwire.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/16425-MEGURINE-LUKA-V4X?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonicwire.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonicwire.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonicwire.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonicwire.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

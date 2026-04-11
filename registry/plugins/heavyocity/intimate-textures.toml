@@ -1,25 +1,26 @@
-slug        = "intimate-textures"
-name        = "Intimate Textures"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Cinematic texture instrument featuring intimate, close-mic recordings for subtle and nuanced scoring moments."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/intimate-textures"
-is_paid     = true
+slug         = "intimate-textures"
+name         = "Intimate Textures"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Cinematic texture instrument featuring intimate, close-mic recordings for subtle and nuanced scoring moments."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/intimate-textures"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/intimate-textures"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/intimate-textures"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/intimate-textures"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/intimate-textures"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

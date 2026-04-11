@@ -1,25 +1,26 @@
-slug        = "alpha-compressor"
-name        = "alpha compressor"
-vendor      = "elysia"
-version     = "1.0"
-description = "elysia alpha compressor plugin emulates the high-end Class A hardware mastering compressor."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://elysia.com/alpha-compressor/"
-is_paid     = true
+slug         = "alpha-compressor"
+name         = "alpha compressor"
+vendor       = "elysia"
+version      = "1.0"
+description  = "elysia alpha compressor plugin emulates the high-end Class A hardware mastering compressor."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://elysia.com/alpha-compressor/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://elysia.com/alpha-compressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://elysia.com/alpha-compressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://elysia.com/alpha-compressor/"
-sha256       = ""
-install_type = "zip"
+url           = "https://elysia.com/alpha-compressor/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

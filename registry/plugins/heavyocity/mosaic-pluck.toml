@@ -1,25 +1,26 @@
-slug        = "mosaic-pluck"
-name        = "Mosaic Pluck"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Cinematic pluck instrument with sources ranging from thumb pianos to synths, harps, and processed chimes."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/mosaic-pluck"
-is_paid     = true
+slug         = "mosaic-pluck"
+name         = "Mosaic Pluck"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Cinematic pluck instrument with sources ranging from thumb pianos to synths, harps, and processed chimes."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/mosaic-pluck"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/mosaic-pluck"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/mosaic-pluck"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/mosaic-pluck"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/mosaic-pluck"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "vst-speek"
-name        = "VST Speek"
-vendor      = "Wavosaur"
-version     = "1.3"
-description = "Wavosaur VST Speek is a free text-to-speech synthesizer plugin based on the C64 SAM engine."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://blog.wavosaur.com/text-to-speech-vst-vst-speek/"
+slug         = "vst-speek"
+name         = "VST Speek"
+vendor       = "Wavosaur"
+version      = "1.3"
+description  = "Wavosaur VST Speek is a free text-to-speech synthesizer plugin based on the C64 SAM engine."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://blog.wavosaur.com/text-to-speech-vst-vst-speek/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/862-VST-Speek?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://blog.wavosaur.com/text-to-speech-vst-vst-speek/"
-sha256       = ""
-install_type = "zip"
+url           = "https://blog.wavosaur.com/text-to-speech-vst-vst-speek/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://blog.wavosaur.com/text-to-speech-vst-vst-speek/"
-sha256       = ""
-install_type = "zip"
+url           = "https://blog.wavosaur.com/text-to-speech-vst-vst-speek/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

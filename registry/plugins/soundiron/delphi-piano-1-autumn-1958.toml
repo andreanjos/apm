@@ -1,25 +1,26 @@
-slug        = "delphi-piano-1-autumn-1958"
-name        = "Delphi Piano #1: Autumn 1958"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Vintage 1958 upright piano Kontakt instrument with warm, aged character and intimate tone."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/delphi-piano-1-autumn-1958"
-is_paid     = true
+slug         = "delphi-piano-1-autumn-1958"
+name         = "Delphi Piano #1: Autumn 1958"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Vintage 1958 upright piano Kontakt instrument with warm, aged character and intimate tone."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/delphi-piano-1-autumn-1958"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/delphi-piano-1-autumn-1958"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/delphi-piano-1-autumn-1958"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/delphi-piano-1-autumn-1958"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/delphi-piano-1-autumn-1958"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

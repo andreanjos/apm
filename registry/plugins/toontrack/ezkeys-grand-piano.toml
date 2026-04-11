@@ -1,26 +1,27 @@
-slug        = "ezkeys-grand-piano"
-name        = "EZKeys Grand Piano"
-vendor      = "Toontrack"
-version     = "2.1.5"
-description = "EZkeys expansion delivering a classic grand piano sound with chord and song creation tools."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-installer   = "toontrack-product-manager"
-homepage    = "https://www.toontrack.com/product/grand-piano-ekx/"
-is_paid     = true
+slug         = "ezkeys-grand-piano"
+name         = "EZKeys Grand Piano"
+vendor       = "Toontrack"
+version      = "2.1.5"
+description  = "EZkeys expansion delivering a classic grand piano sound with chord and song creation tools."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+installer    = "toontrack-product-manager"
+homepage     = "https://www.toontrack.com/product/grand-piano-ekx/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.toontrack.com/product/grand-piano-ekx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/grand-piano-ekx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.toontrack.com/product/grand-piano-ekx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/grand-piano-ekx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

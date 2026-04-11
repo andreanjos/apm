@@ -1,25 +1,26 @@
-slug        = "mu"
-name        = "Mu"
-vendor      = "Pulsar Audio"
-version     = "1.0.0"
-description = "Variable-mu tube compressor emulation delivering glue, warmth and analog character."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://pulsar.audio/mu/"
-is_paid     = true
+slug         = "mu"
+name         = "Mu"
+vendor       = "Pulsar Audio"
+version      = "1.0.0"
+description  = "Variable-mu tube compressor emulation delivering glue, warmth and analog character."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://pulsar.audio/mu/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://pulsar.audio/mu/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pulsar.audio/mu/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://pulsar.audio/mu/"
-sha256       = ""
-install_type = "zip"
+url           = "https://pulsar.audio/mu/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

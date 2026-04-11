@@ -1,24 +1,25 @@
-slug        = "tape"
-name        = "Tape"
-vendor      = "DUY"
-version     = "1.0.0"
-description = "Physical-modeling analog tape simulator emulating four classic tape recorder machines."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://duy.com/"
-is_paid     = true
+slug         = "tape"
+name         = "Tape"
+vendor       = "DUY"
+version      = "1.0.0"
+description  = "Physical-modeling analog tape simulator emulating four classic tape recorder machines."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://duy.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://duy.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://duy.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://duy.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://duy.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

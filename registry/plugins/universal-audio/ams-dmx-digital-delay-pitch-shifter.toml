@@ -1,26 +1,28 @@
-slug        = "ams-dmx-digital-delay-pitch-shifter"
-name        = "AMS DMX Digital Delay & Pitch Shifter"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the AMS DMX 15-80S digital delay and pitch shifter used on classic '80s records."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/delays/ams-dmx-15-80s-digital-delay.html"
-is_paid     = true
+slug         = "ams-dmx-digital-delay-pitch-shifter"
+name         = "AMS DMX Digital Delay & Pitch Shifter"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the AMS DMX 15-80S digital delay and pitch shifter used on classic '80s records."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+aliases      = ["ams-dmx-digital-delay-038-pitch-shifter"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/delays/ams-dmx-15-80s-digital-delay.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/delays/ams-dmx-15-80s-digital-delay.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/delays/ams-dmx-15-80s-digital-delay.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/delays/ams-dmx-15-80s-digital-delay.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/delays/ams-dmx-15-80s-digital-delay.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

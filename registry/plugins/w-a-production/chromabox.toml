@@ -1,26 +1,27 @@
-slug        = "chromabox"
-name        = "ChromaBox"
-vendor      = "W A Production"
-version     = "1.0.0"
-description = "Spectrum exciter with 32 color profiles for saturation, frequency shaping, and stereo enhancement."
-category    = "effects"
-subcategory = "exciter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/chromabox"
+slug         = "chromabox"
+name         = "ChromaBox"
+vendor       = "W A Production"
+version      = "1.0.0"
+description  = "Spectrum exciter with 32 color profiles for saturation, frequency shaping, and stereo enhancement."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "exciter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/chromabox"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/62-Exciter/12118-ChromaBox?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/chromabox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/chromabox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/chromabox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/chromabox"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

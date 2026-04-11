@@ -1,24 +1,25 @@
-slug        = "cool-vibe"
-name        = "Cool-vibe"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Rotary speaker simulator plugin emulating the swirling Leslie cabinet effect for organ and guitar."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p880-Cool-vibe/"
-is_paid     = true
+slug         = "cool-vibe"
+name         = "Cool-vibe"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Rotary speaker simulator plugin emulating the swirling Leslie cabinet effect for organ and guitar."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p880-Cool-vibe/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p880-Cool-vibe/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p880-Cool-vibe/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p880-Cool-vibe/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p880-Cool-vibe/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "lifeline-expanse-lite"
-name        = "Lifeline Expanse Lite"
-vendor      = "Excite Audio"
-version     = "1.0.0"
-description = "Entry-level version of Lifeline Expanse for adding character, space, and width to sounds."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.excite-audio.com/lifeline-modules"
-is_paid     = true
+slug         = "lifeline-expanse-lite"
+name         = "Lifeline Expanse Lite"
+vendor       = "Excite Audio"
+version      = "1.0.0"
+description  = "Entry-level version of Lifeline Expanse for adding character, space, and width to sounds."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.excite-audio.com/lifeline-modules"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.excite-audio.com/lifeline-modules"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.excite-audio.com/lifeline-modules"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.excite-audio.com/lifeline-modules"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.excite-audio.com/lifeline-modules"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

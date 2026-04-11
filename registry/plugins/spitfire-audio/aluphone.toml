@@ -1,26 +1,27 @@
-slug        = "aluphone"
-name        = "Aluphone"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Rare aluminium bell instrument delivering shimmering, resonant tones for unique cinematic textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/aluphone/"
-is_paid     = true
+slug         = "aluphone"
+name         = "Aluphone"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Rare aluminium bell instrument delivering shimmering, resonant tones for unique cinematic textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/aluphone/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/aluphone/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/aluphone/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/aluphone/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/aluphone/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

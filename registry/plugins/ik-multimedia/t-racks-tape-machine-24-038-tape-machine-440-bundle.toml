@@ -1,25 +1,27 @@
-slug        = "t-racks-tape-machine-24-038-tape-machine-440-bundle"
-name        = "T-RackS Tape Machine 24 &#038; Tape Machine 440 Bundle"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "Bundle of T-RackS Tape Machine 24 (MCI JH24) and Tape Machine 440 (Ampex AG440B) tape simulators."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/trtapemac/"
-is_paid     = true
+slug         = "t-racks-tape-machine-24-038-tape-machine-440-bundle"
+name         = "T-RackS Tape Machine 24 & Tape Machine 440 Bundle"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "Bundle of T-RackS Tape Machine 24 (MCI JH24) and Tape Machine 440 (Ampex AG440B) tape simulators."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["t-racks-tape-machine-24-tape-machine-440-bundle"]
+homepage     = "https://www.ikmultimedia.com/products/trtapemac/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/trtapemac/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/trtapemac/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/trtapemac/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/trtapemac/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

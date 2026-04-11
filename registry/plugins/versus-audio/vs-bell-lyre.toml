@@ -1,25 +1,26 @@
-slug        = "vs-bell-lyre"
-name        = "Vs Bell Lyre"
-vendor      = "Versus Audio"
-version     = "1.0.0"
-description = "Sampled bell lyre Kontakt instrument delivering bright, percussive melodic tones."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://versusaudio.com/"
-is_paid     = true
+slug         = "vs-bell-lyre"
+name         = "Vs Bell Lyre"
+vendor       = "Versus Audio"
+version      = "1.0.0"
+description  = "Sampled bell lyre Kontakt instrument delivering bright, percussive melodic tones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://versusaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://versusaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://versusaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://versusaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://versusaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

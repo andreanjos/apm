@@ -1,26 +1,27 @@
-slug        = "stereoizer"
-name        = "Stereoizer"
-vendor      = "NUGEN Audio"
-version     = "4.0"
-description = "A stereo enhancement plugin for natural mono-to-stereo widening and extreme super-wide effects."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/stereoizer/"
+slug         = "stereoizer"
+name         = "Stereoizer"
+vendor       = "NUGEN Audio"
+version      = "4.0"
+description  = "A stereo enhancement plugin for natural mono-to-stereo widening and extreme super-wide effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/stereoizer/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/1709-Stereoizer-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/stereoizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/stereoizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/stereoizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/stereoizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

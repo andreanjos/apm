@@ -1,25 +1,26 @@
-slug        = "el-dorado-legato-bowed-guitar"
-name        = "El Dorado: Legato Bowed Guitar"
-vendor      = "David Forner"
-version     = "1.0"
-description = "Legato bowed guitar Kontakt library by David Forner for unique bowed string textures."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.davidforner.com/"
-is_paid     = true
+slug         = "el-dorado-legato-bowed-guitar"
+name         = "El Dorado: Legato Bowed Guitar"
+vendor       = "David Forner"
+version      = "1.0"
+description  = "Legato bowed guitar Kontakt library by David Forner for unique bowed string textures."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.davidforner.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.davidforner.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.davidforner.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.davidforner.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.davidforner.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

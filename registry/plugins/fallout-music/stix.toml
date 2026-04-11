@@ -1,25 +1,26 @@
-slug        = "stix"
-name        = "Stix"
-vendor      = "Fallout Music"
-version     = "1.0.0"
-description = "Kontakt percussion library of stick and trash sounds for adding rhythmic texture to productions."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://falloutmusicgroup.com/"
-is_paid     = true
+slug         = "stix"
+name         = "Stix"
+vendor       = "Fallout Music"
+version      = "1.0.0"
+description  = "Kontakt percussion library of stick and trash sounds for adding rhythmic texture to productions."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://falloutmusicgroup.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://falloutmusicgroup.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://falloutmusicgroup.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://falloutmusicgroup.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://falloutmusicgroup.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

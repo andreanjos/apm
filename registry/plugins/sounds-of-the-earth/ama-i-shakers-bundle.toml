@@ -1,26 +1,27 @@
-slug        = "ama-i-shakers-bundle"
-name        = "AMA I Shakers Bundle"
-vendor      = "Sounds of the Earth"
-version     = "1.0.0"
-description = "Bundle of Amazonian shaker instruments for Kontakt, featuring authentic Amazonian percussion."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsoftheearth.com/"
+slug         = "ama-i-shakers-bundle"
+name         = "AMA I Shakers Bundle"
+vendor       = "Sounds of the Earth"
+version      = "1.0.0"
+description  = "Bundle of Amazonian shaker instruments for Kontakt, featuring authentic Amazonian percussion."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsoftheearth.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7732-AMA-I-Shakers-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsoftheearth.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsoftheearth.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsoftheearth.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsoftheearth.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

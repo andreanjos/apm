@@ -1,26 +1,27 @@
-slug        = "infinity-synth"
-name        = "Infinity Synth"
-vendor      = "Stagecraft Software"
-version     = "1.0.0"
-description = "Sample-based synthesizer with a wide range of sound-sculpting options for modern music production."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.stagecraftsoftware.com/products/infinitysynth/"
+slug         = "infinity-synth"
+name         = "Infinity Synth"
+vendor       = "Stagecraft Software"
+version      = "1.0.0"
+description  = "Sample-based synthesizer with a wide range of sound-sculpting options for modern music production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.stagecraftsoftware.com/products/infinitysynth/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/6339-Infinity-Synth?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.stagecraftsoftware.com/products/infinitysynth/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.stagecraftsoftware.com/products/infinitysynth/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.stagecraftsoftware.com/products/infinitysynth/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.stagecraftsoftware.com/products/infinitysynth/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

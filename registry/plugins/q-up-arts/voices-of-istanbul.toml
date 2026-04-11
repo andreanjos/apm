@@ -1,25 +1,26 @@
-slug        = "voices-of-istanbul"
-name        = "Voices of Istanbul"
-vendor      = "Q Up Arts"
-version     = "1.0.0"
-description = "Richly detailed Turkish instrument library recorded in Istanbul with Ney, Ud, Darbuka, Kemence, and more."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://quparts.com/products/voices-of-istanbu"
-is_paid     = true
+slug         = "voices-of-istanbul"
+name         = "Voices of Istanbul"
+vendor       = "Q Up Arts"
+version      = "1.0.0"
+description  = "Richly detailed Turkish instrument library recorded in Istanbul with Ney, Ud, Darbuka, Kemence, and more."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://quparts.com/products/voices-of-istanbu"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://quparts.com/products/voices-of-istanbu"
-sha256       = ""
-install_type = "zip"
+url           = "https://quparts.com/products/voices-of-istanbu"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://quparts.com/products/voices-of-istanbu"
-sha256       = ""
-install_type = "zip"
+url           = "https://quparts.com/products/voices-of-istanbu"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

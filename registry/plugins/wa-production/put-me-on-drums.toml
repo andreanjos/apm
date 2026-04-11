@@ -1,24 +1,25 @@
-slug        = "put-me-on-drums"
-name        = "Put Me On Drums"
-vendor      = "WA Production"
-version     = "1.0.4"
-description = "A drum multi-effect plugin by K-391 with split low/high frequency processing and formant shifting."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/put-me-on-drums"
-is_paid     = true
+slug         = "put-me-on-drums"
+name         = "Put Me On Drums"
+vendor       = "WA Production"
+version      = "1.0.4"
+description  = "A drum multi-effect plugin by K-391 with split low/high frequency processing and formant shifting."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/put-me-on-drums"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/put-me-on-drums"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/put-me-on-drums"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/put-me-on-drums"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/put-me-on-drums"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

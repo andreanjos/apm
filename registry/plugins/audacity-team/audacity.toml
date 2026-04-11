@@ -1,40 +1,41 @@
-slug        = "audacity"
-name        = "Audacity"
-vendor      = "Audacity Team"
-version     = "3.7.7"
-description = "Free open-source audio editor and recorder with multi-track editing, effects, and format support."
-category    = "daws"
-subcategory = "editor"
-license     = "GPL-3.0"
-tags        = ["daw", "editor", "recording", "free", "open-source", "podcast"]
-homepage    = "https://www.audacityteam.org/"
+slug         = "audacity"
+name         = "Audacity"
+vendor       = "Audacity Team"
+version      = "3.7.7"
+description  = "Free open-source audio editor and recorder with multi-track editing, effects, and format support."
+category     = "daws"
+product_type = "daw"
+subcategory  = "editor"
+license      = "GPL-3.0"
+tags         = ["daw", "editor", "recording", "free", "open-source", "podcast"]
+homepage     = "https://www.audacityteam.org/"
 
 [formats.app]
-url          = "https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-macOS-3.7.7-universal.dmg"
-sha256       = "7a188eec047e32c25c95eb301854e98cdc2bdb2facb169d5022d967c2ba94d35"
-install_type = "dmg"
-bundle_path  = "Audacity.app"
+url           = "https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-macOS-3.7.7-universal.dmg"
+sha256        = "7a188eec047e32c25c95eb301854e98cdc2bdb2facb169d5022d967c2ba94d35"
+install_type  = "dmg"
+bundle_path   = "Audacity.app"
 
 [[releases]]
 version = "3.7.6"
 
 [releases.formats.app]
-url          = "https://github.com/audacity/audacity/releases/download/Audacity-3.7.6/audacity-macOS-3.7.6-universal.dmg"
-sha256       = "89e7c9dac7da4a9d223cc9e1aded74d8bc1e44cae96d246d251db882b4a6e1b5"
-install_type = "dmg"
+url           = "https://github.com/audacity/audacity/releases/download/Audacity-3.7.6/audacity-macOS-3.7.6-universal.dmg"
+sha256        = "89e7c9dac7da4a9d223cc9e1aded74d8bc1e44cae96d246d251db882b4a6e1b5"
+install_type  = "dmg"
 
 [[releases]]
 version = "3.7.5"
 
 [releases.formats.app]
-url          = "https://github.com/audacity/audacity/releases/download/Audacity-3.7.5/audacity-macOS-3.7.5-universal.dmg"
-sha256       = "5e14508ca00b07fa69bfb4670185bcb2ae003448f0737bbec11c003aff030c52"
-install_type = "dmg"
+url           = "https://github.com/audacity/audacity/releases/download/Audacity-3.7.5/audacity-macOS-3.7.5-universal.dmg"
+sha256        = "5e14508ca00b07fa69bfb4670185bcb2ae003448f0737bbec11c003aff030c52"
+install_type  = "dmg"
 
 [[releases]]
 version = "3.7.4"
 
 [releases.formats.app]
-url          = "https://github.com/audacity/audacity/releases/download/Audacity-3.7.4/audacity-macOS-3.7.4-universal.dmg"
-sha256       = "b653b65f06d870b33f22215bddadcb09270c4142aec23a956baa68912eeea8e2"
-install_type = "dmg"
+url           = "https://github.com/audacity/audacity/releases/download/Audacity-3.7.4/audacity-macOS-3.7.4-universal.dmg"
+sha256        = "b653b65f06d870b33f22215bddadcb09270c4142aec23a956baa68912eeea8e2"
+install_type  = "dmg"

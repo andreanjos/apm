@@ -1,25 +1,26 @@
-slug        = "mspectraldynamicsle"
-name        = "MSpectralDynamicsLE"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Spectral dynamics processor that flattens frequency response, prevents track collisions, and removes noise."
-category    = "effects"
-subcategory = "dynamic processor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MSpectralDynamicsLE"
-is_paid     = true
+slug         = "mspectraldynamicsle"
+name         = "MSpectralDynamicsLE"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Spectral dynamics processor that flattens frequency response, prevents track collisions, and removes noise."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamic processor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MSpectralDynamicsLE"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MSpectralDynamicsLE"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MSpectralDynamicsLE"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MSpectralDynamicsLE"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MSpectralDynamicsLE"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

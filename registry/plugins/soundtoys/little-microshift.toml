@@ -1,26 +1,28 @@
-slug        = "little-microshift"
-name        = "Little MicroShift"
-vendor      = "Soundtoys"
-version     = "5.5"
-description = "Simplified stereo widening plugin modeled on the Eventide H3000 and AMS DMX 15-80s pitch shifters."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundtoys.com/product/little-microshift/"
-bundle_ids  = ["com.soundtoys.audiounit.LittleMicroShift"]
-is_paid     = true
+slug         = "little-microshift"
+name         = "Little MicroShift"
+vendor       = "Soundtoys"
+version      = "5.5"
+description  = "Simplified stereo widening plugin modeled on the Eventide H3000 and AMS DMX 15-80s pitch shifters."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+aliases      = ["soundtoys-little-microshift"]
+homepage     = "https://www.soundtoys.com/product/little-microshift/"
+bundle_ids   = ["com.soundtoys.audiounit.LittleMicroShift"]
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundtoys.com/product/little-microshift/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/little-microshift/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundtoys.com/product/little-microshift/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundtoys.com/product/little-microshift/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

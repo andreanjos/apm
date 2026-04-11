@@ -1,25 +1,26 @@
-slug        = "gothic-sister"
-name        = "Gothic Sister"
-vendor      = "Bela D Media"
-version     = "1.0.0"
-description = "Dark operatic soprano Kontakt library designed for cinematic and gothic vocal textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://beladmedia.com/gothic-sister/"
-is_paid     = true
+slug         = "gothic-sister"
+name         = "Gothic Sister"
+vendor       = "Bela D Media"
+version      = "1.0.0"
+description  = "Dark operatic soprano Kontakt library designed for cinematic and gothic vocal textures."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://beladmedia.com/gothic-sister/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://beladmedia.com/gothic-sister/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/gothic-sister/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://beladmedia.com/gothic-sister/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/gothic-sister/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

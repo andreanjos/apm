@@ -1,24 +1,25 @@
-slug        = "revoice-pro-4-licence-for-vocalign-ultra-owners"
-name        = "Revoice Pro 4 Licence for VocALign Ultra Owners"
-vendor      = "Synchro Arts"
-version     = "4"
-description = "License for Revoice Pro 4 advanced vocal production for existing VocAlign Ultra owners."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://synchroarts.com/products/revoice-pro"
-is_paid     = true
+slug         = "revoice-pro-4-licence-for-vocalign-ultra-owners"
+name         = "Revoice Pro 4 Licence for VocALign Ultra Owners"
+vendor       = "Synchro Arts"
+version      = "4"
+description  = "License for Revoice Pro 4 advanced vocal production for existing VocAlign Ultra owners."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://synchroarts.com/products/revoice-pro"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synchroarts.com/products/revoice-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://synchroarts.com/products/revoice-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synchroarts.com/products/revoice-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://synchroarts.com/products/revoice-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

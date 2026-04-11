@@ -1,26 +1,27 @@
-slug        = "o-forbes-pipe-organ"
-name        = "O Forbes Pipe Organ"
-vendor      = "Cinesamples"
-version     = "1.0.0"
-description = "Expansive pipe organ library sampled from the Harold Miossi Hall organ with 16,000+ samples."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/o-forbes-pipe-organ"
+slug         = "o-forbes-pipe-organ"
+name         = "O Forbes Pipe Organ"
+vendor       = "Cinesamples"
+version      = "1.0.0"
+description  = "Expansive pipe organ library sampled from the Harold Miossi Hall organ with 16,000+ samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/o-forbes-pipe-organ"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11294-O-Forbes-Pipe-Organ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/o-forbes-pipe-organ"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/o-forbes-pipe-organ"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/o-forbes-pipe-organ"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/o-forbes-pipe-organ"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

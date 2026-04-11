@@ -1,25 +1,26 @@
-slug        = "minipol-pro"
-name        = "Minipol Pro"
-vendor      = "Karanyi Sounds"
-version     = "2.0"
-description = "Smart analogue microsynth with Apple Silicon support, 300 presets, and cinematic preset packs."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://karanyisounds.com/products/dk-21-minipol"
-is_paid     = true
+slug         = "minipol-pro"
+name         = "Minipol Pro"
+vendor       = "Karanyi Sounds"
+version      = "2.0"
+description  = "Smart analogue microsynth with Apple Silicon support, 300 presets, and cinematic preset packs."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://karanyisounds.com/products/dk-21-minipol"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://karanyisounds.com/products/dk-21-minipol"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/products/dk-21-minipol"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://karanyisounds.com/products/dk-21-minipol"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/products/dk-21-minipol"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

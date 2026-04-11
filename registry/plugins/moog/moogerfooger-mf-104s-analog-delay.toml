@@ -1,26 +1,27 @@
-slug        = "moogerfooger-mf-104s-analog-delay"
-name        = "Moogerfooger MF 104S Analog Delay"
-vendor      = "Moog"
-version     = "1.0.0"
-description = "Software recreation of the Moogerfooger MF-104 analog delay with lush bucket-brigade character."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://software.moogmusic.com/store"
+slug         = "moogerfooger-mf-104s-analog-delay"
+name         = "Moogerfooger MF 104S Analog Delay"
+vendor       = "Moog"
+version      = "1.0.0"
+description  = "Software recreation of the Moogerfooger MF-104 analog delay with lush bucket-brigade character."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://software.moogmusic.com/store"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/10246-Moogerfooger-MF-104S-Analog-Delay?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://software.moogmusic.com/store"
-sha256       = ""
-install_type = "zip"
+url           = "https://software.moogmusic.com/store"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://software.moogmusic.com/store"
-sha256       = ""
-install_type = "zip"
+url           = "https://software.moogmusic.com/store"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

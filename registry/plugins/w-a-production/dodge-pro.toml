@@ -1,26 +1,27 @@
-slug        = "dodge-pro"
-name        = "Dodge Pro"
-vendor      = "W A Production"
-version     = "1.1.3"
-description = "Multiband volume automation plugin for sidechain ducking with MIDI-triggered scenes and line editor."
-category    = "effects"
-subcategory = "envelope shaper"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/dodge-pro"
+slug         = "dodge-pro"
+name         = "Dodge Pro"
+vendor       = "W A Production"
+version      = "1.1.3"
+description  = "Multiband volume automation plugin for sidechain ducking with MIDI-triggered scenes and line editor."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "envelope shaper"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/dodge-pro"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/6117-Dodge-Pro?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/dodge-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/dodge-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/dodge-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/dodge-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

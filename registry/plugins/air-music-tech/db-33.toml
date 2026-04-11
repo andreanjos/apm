@@ -1,25 +1,26 @@
-slug        = "db-33"
-name        = "DB-33"
-vendor      = "Air Music Tech"
-version     = "1.0.0"
-description = "Virtual tonewheel organ emulation with rotating speaker simulation and drawbar controls."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.airmusictech.com/product/db-33"
-is_paid     = true
+slug         = "db-33"
+name         = "DB-33"
+vendor       = "Air Music Tech"
+version      = "1.0.0"
+description  = "Virtual tonewheel organ emulation with rotating speaker simulation and drawbar controls."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.airmusictech.com/product/db-33"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.airmusictech.com/product/db-33"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.airmusictech.com/product/db-33"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.airmusictech.com/product/db-33"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.airmusictech.com/product/db-33"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

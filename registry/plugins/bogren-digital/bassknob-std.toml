@@ -1,26 +1,27 @@
-slug        = "bassknob-std"
-name        = "BassKnob STD"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Single-knob bass amp sim based on the iconic bass head that defined the standard for rock and metal bass tone."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/bassknob-std"
+slug         = "bassknob-std"
+name         = "BassKnob STD"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Single-knob bass amp sim based on the iconic bass head that defined the standard for rock and metal bass tone."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/bassknob-std"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/9539-BassKnob-STD?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/bassknob-std"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/bassknob-std"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/bassknob-std"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/bassknob-std"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "ethera-soundscapes"
-name        = "Ethera Soundscapes"
-vendor      = "Zero-G"
-version     = "2.0"
-description = "Versatile Kontakt instrument combining vocal libraries, atmospheric ambiences, and customizable synth sounds."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/ethera-soundscapes-2-0"
-is_paid     = true
+slug         = "ethera-soundscapes"
+name         = "Ethera Soundscapes"
+vendor       = "Zero-G"
+version      = "2.0"
+description  = "Versatile Kontakt instrument combining vocal libraries, atmospheric ambiences, and customizable synth sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/ethera-soundscapes-2-0"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/ethera-soundscapes-2-0"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/ethera-soundscapes-2-0"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/ethera-soundscapes-2-0"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/ethera-soundscapes-2-0"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

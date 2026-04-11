@@ -1,26 +1,27 @@
-slug        = "sweep-machine"
-name        = "Sweep Machine"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Noise and sweep designer with 3 oscillators, ramp control, and built-in LFO, flanger, delay, and reverb effects."
-category    = "instruments"
-subcategory = "generator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/sweep-machine"
+slug         = "sweep-machine"
+name         = "Sweep Machine"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Noise and sweep designer with 3 oscillators, ramp control, and built-in LFO, flanger, delay, and reverb effects."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "generator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/sweep-machine"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/16941-Sweep-Machine?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/sweep-machine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/sweep-machine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/sweep-machine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/sweep-machine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "teletronix-la-2a-leveler-collection"
-name        = "Teletronix® LA-2A Leveler Collection"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Collection of Teletronix LA-2A tube leveling amplifier emulations in Grey and Silver versions."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-leveler-collection.html"
-is_paid     = true
+slug         = "teletronix-la-2a-leveler-collection"
+name         = "Teletronix (R) LA-2A Leveler Collection"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Collection of Teletronix LA-2A tube leveling amplifier emulations in Grey and Silver versions."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-leveler-collection.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-leveler-collection.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-leveler-collection.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-leveler-collection.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-leveler-collection.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

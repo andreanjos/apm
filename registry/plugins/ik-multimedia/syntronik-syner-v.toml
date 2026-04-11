@@ -1,25 +1,26 @@
-slug        = "syntronik-syner-v"
-name        = "Syntronik Syner-V"
-vendor      = "IK Multimedia"
-version     = "2.0"
-description = "Syntronik instrument recreating the Digital Keyboards Synergy ii+ with unique glassy, metallic tones."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/synsynerv/"
-is_paid     = true
+slug         = "syntronik-syner-v"
+name         = "Syntronik Syner-V"
+vendor       = "IK Multimedia"
+version      = "2.0"
+description  = "Syntronik instrument recreating the Digital Keyboards Synergy ii+ with unique glassy, metallic tones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/synsynerv/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/synsynerv/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/synsynerv/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/synsynerv/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/synsynerv/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

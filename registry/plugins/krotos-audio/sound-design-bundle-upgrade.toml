@@ -1,25 +1,26 @@
-slug        = "sound-design-bundle-upgrade"
-name        = "Sound Design Bundle Upgrade"
-vendor      = "Krotos Audio"
-version     = "1.0.0"
-description = "Upgrade path to the full Krotos Sound Design Bundle from a previous bundle tier."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.krotosaudio.com/products/"
-is_paid     = true
+slug         = "sound-design-bundle-upgrade"
+name         = "Sound Design Bundle Upgrade"
+vendor       = "Krotos Audio"
+version      = "1.0.0"
+description  = "Upgrade path to the full Krotos Sound Design Bundle from a previous bundle tier."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.krotosaudio.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.krotosaudio.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.krotosaudio.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.krotosaudio.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.krotosaudio.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

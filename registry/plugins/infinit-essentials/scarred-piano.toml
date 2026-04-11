@@ -1,25 +1,26 @@
-slug        = "scarred-piano"
-name        = "Scarred Piano"
-vendor      = "infinit essentials"
-version     = "1.0.0"
-description = "Dark felt piano VSTi with atmosphere and granular texture effects for trap and cinematic use."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://infinit-essentials.com/products/scarred-piano-vsti"
-is_paid     = true
+slug         = "scarred-piano"
+name         = "Scarred Piano"
+vendor       = "infinit essentials"
+version      = "1.0.0"
+description  = "Dark felt piano VSTi with atmosphere and granular texture effects for trap and cinematic use."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://infinit-essentials.com/products/scarred-piano-vsti"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://infinit-essentials.com/products/scarred-piano-vsti"
-sha256       = ""
-install_type = "zip"
+url           = "https://infinit-essentials.com/products/scarred-piano-vsti"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://infinit-essentials.com/products/scarred-piano-vsti"
-sha256       = ""
-install_type = "zip"
+url           = "https://infinit-essentials.com/products/scarred-piano-vsti"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

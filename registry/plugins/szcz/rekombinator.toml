@@ -1,25 +1,26 @@
-slug        = "rekombinator"
-name        = "ReKombinator"
-vendor      = "SzcZ"
-version     = "1.0.0"
-description = "Original granular sample recycler for Kontakt, predecessor to the acclaimed ReKombinator II."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.lootaudio.com/category/kontakt-instruments/szcz/rekombinator"
-is_paid     = true
+slug         = "rekombinator"
+name         = "ReKombinator"
+vendor       = "SzcZ"
+version      = "1.0.0"
+description  = "Original granular sample recycler for Kontakt, predecessor to the acclaimed ReKombinator II."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.lootaudio.com/category/kontakt-instruments/szcz/rekombinator"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.lootaudio.com/category/kontakt-instruments/szcz/rekombinator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/category/kontakt-instruments/szcz/rekombinator"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.lootaudio.com/category/kontakt-instruments/szcz/rekombinator"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.lootaudio.com/category/kontakt-instruments/szcz/rekombinator"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

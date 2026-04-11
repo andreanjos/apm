@@ -1,26 +1,27 @@
-slug        = "master-compressor"
-name        = "Master Compressor"
-vendor      = "Minimal System Group"
-version     = "1.0.0"
-description = "Analogue-modelled master bus compressor inspired by classic hardware for glue and punch."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+slug         = "master-compressor"
+name         = "Master Compressor"
+vendor       = "Minimal System Group"
+version      = "1.0.0"
+description  = "Analogue-modelled master bus compressor inspired by classic hardware for glue and punch."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/231-Master-Compressor-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

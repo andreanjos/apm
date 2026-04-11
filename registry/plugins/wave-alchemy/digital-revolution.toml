@@ -1,26 +1,27 @@
-slug        = "digital-revolution"
-name        = "Digital Revolution"
-vendor      = "Wave Alchemy"
-version     = "1.0.0"
-description = "Kontakt instrument faithfully capturing 9 iconic digital and 3 analogue drum machines from the 1980s."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.wavealchemy.co.uk/product/digital-revolution/"
+slug         = "digital-revolution"
+name         = "Digital Revolution"
+vendor       = "Wave Alchemy"
+version      = "1.0.0"
+description  = "Kontakt instrument faithfully capturing 9 iconic digital and 3 analogue drum machines from the 1980s."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.wavealchemy.co.uk/product/digital-revolution/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/918-Digital-Revolution?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.wavealchemy.co.uk/product/digital-revolution/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/digital-revolution/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.wavealchemy.co.uk/product/digital-revolution/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/digital-revolution/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

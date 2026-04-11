@@ -1,26 +1,27 @@
-slug        = "time-machine"
-name        = "Time Machine"
-vendor      = "Safari Audio"
-version     = "1.0.0"
-description = "Multi-era audio transformation plugin combining filtering, saturation and compression from different time periods."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://safariaudio.com/products/time-machine"
+slug         = "time-machine"
+name         = "Time Machine"
+vendor       = "Safari Audio"
+version      = "1.0.0"
+description  = "Multi-era audio transformation plugin combining filtering, saturation and compression from different time periods."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://safariaudio.com/products/time-machine"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/15343-Time-Machine?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://safariaudio.com/products/time-machine"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/time-machine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://safariaudio.com/products/time-machine"
-sha256       = ""
-install_type = "zip"
+url           = "https://safariaudio.com/products/time-machine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

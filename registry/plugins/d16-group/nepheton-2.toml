@@ -1,26 +1,27 @@
-slug        = "nepheton-2"
-name        = "Nepheton 2"
-vendor      = "D16 Group"
-version     = "2.0.3"
-description = "Faithful TR-808 drum machine emulation with 1200+ presets, modern sequencer and integrated effects."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/nepheton2"
+slug         = "nepheton-2"
+name         = "Nepheton 2"
+vendor       = "D16 Group"
+version      = "2.0.3"
+description  = "Faithful TR-808 drum machine emulation with 1200+ presets, modern sequencer and integrated effects."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/nepheton2"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/11709-Nepheton-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/nepheton2"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/nepheton2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/nepheton2"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/nepheton2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

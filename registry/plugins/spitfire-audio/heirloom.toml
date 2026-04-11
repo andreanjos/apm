@@ -1,26 +1,27 @@
-slug        = "heirloom"
-name        = "Heirloom"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Unique compositional scoring toolkit of modern sounds from the mind of artist and composer Keaton Henson."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/heirloom"
-is_paid     = true
+slug         = "heirloom"
+name         = "Heirloom"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Unique compositional scoring toolkit of modern sounds from the mind of artist and composer Keaton Henson."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/heirloom"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/heirloom"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/heirloom"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/heirloom"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/heirloom"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

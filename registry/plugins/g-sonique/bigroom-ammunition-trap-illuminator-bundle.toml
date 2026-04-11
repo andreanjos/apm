@@ -1,25 +1,26 @@
-slug        = "bigroom-ammunition-trap-illuminator-bundle"
-name        = "Bigroom Ammunition + Trap Illuminator Bundle"
-vendor      = "G-Sonique"
-version     = "1.0.0"
-description = "Bundle pairing Bigroom Ammunition EDM synth with Trap Illuminator hip-hop/trap instrument."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.g-sonique.com/shop.html"
-is_paid     = true
+slug         = "bigroom-ammunition-trap-illuminator-bundle"
+name         = "Bigroom Ammunition + Trap Illuminator Bundle"
+vendor       = "G-Sonique"
+version      = "1.0.0"
+description  = "Bundle pairing Bigroom Ammunition EDM synth with Trap Illuminator hip-hop/trap instrument."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.g-sonique.com/shop.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.g-sonique.com/shop.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.g-sonique.com/shop.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.g-sonique.com/shop.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.g-sonique.com/shop.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

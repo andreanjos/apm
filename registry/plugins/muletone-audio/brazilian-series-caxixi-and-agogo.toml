@@ -1,25 +1,26 @@
-slug        = "brazilian-series-caxixi-and-agogo"
-name        = "Brazilian Series: Caxixi and Agogo"
-vendor      = "Muletone Audio"
-version     = "1.0.0"
-description = "Kontakt library pairing Caxixi and Agogô percussion with 30+ rhythmic cells and traditional Brazilian grooves."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.muletoneaudio.com/"
-is_paid     = true
+slug         = "brazilian-series-caxixi-and-agogo"
+name         = "Brazilian Series: Caxixi and Agogo"
+vendor       = "Muletone Audio"
+version      = "1.0.0"
+description  = "Kontakt library pairing Caxixi and Agogô percussion with 30+ rhythmic cells and traditional Brazilian grooves."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.muletoneaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.muletoneaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.muletoneaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

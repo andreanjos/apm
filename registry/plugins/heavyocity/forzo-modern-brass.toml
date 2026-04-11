@@ -1,25 +1,26 @@
-slug        = "forzo-modern-brass"
-name        = "FORZO: Modern Brass"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "26-piece brass orchestra with 100+ articulations, hybrid design engine, and 400+ tempo-synced loops for modern scoring."
-category    = "instruments"
-subcategory = "brass"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/forzo"
-is_paid     = true
+slug         = "forzo-modern-brass"
+name         = "FORZO: Modern Brass"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "26-piece brass orchestra with 100+ articulations, hybrid design engine, and 400+ tempo-synced loops for modern scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "brass"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/forzo"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/forzo"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/forzo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/forzo"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/forzo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

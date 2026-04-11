@@ -1,25 +1,26 @@
-slug        = "vstplug-william-de-esser"
-name        = "VSTplug william de-esser"
-vendor      = "DSPplug"
-version     = "1.0.0"
-description = "De-esser plugin for taming sibilance and harshness on vocal and other high-frequency audio sources."
-category    = "effects"
-subcategory = "de-esser"
-license     = "commercial"
-tags        = []
-homepage    = "https://dspplug.com/"
-is_paid     = true
+slug         = "vstplug-william-de-esser"
+name         = "VSTplug william de-esser"
+vendor       = "DSPplug"
+version      = "1.0.0"
+description  = "De-esser plugin for taming sibilance and harshness on vocal and other high-frequency audio sources."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de-esser"
+license      = "commercial"
+tags         = []
+homepage     = "https://dspplug.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://dspplug.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dspplug.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://dspplug.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dspplug.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

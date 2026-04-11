@@ -1,25 +1,26 @@
-slug        = "3-for-10-october-plugins-bundle-exclusive"
-name        = "3-for-10 October Plugins Bundle (Exclusive)"
-vendor      = "Plugin Boutique Exclusive Bundles+"
-version     = "1.0.0"
-description = "Plugin Boutique exclusive October promotional bundle of 3 plugins for $10."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
-is_paid     = true
+slug         = "3-for-10-october-plugins-bundle-exclusive"
+name         = "3-for-10 October Plugins Bundle (Exclusive)"
+vendor       = "Plugin Boutique Exclusive Bundles+"
+version      = "1.0.0"
+description  = "Plugin Boutique exclusive October promotional bundle of 3 plugins for $10."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/2-Plugin-Boutique"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

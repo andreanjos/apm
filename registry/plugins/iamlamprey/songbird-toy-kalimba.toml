@@ -1,26 +1,27 @@
-slug        = "songbird-toy-kalimba"
-name        = "Songbird Toy Kalimba"
-vendor      = "Iamlamprey"
-version     = "1.0.0"
-description = "Free toy kalimba Kontakt instrument with multi-velocity samples and four round-robin variations."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.iamlamprey.com/products/songbird-toy-kalimba"
+slug         = "songbird-toy-kalimba"
+name         = "Songbird Toy Kalimba"
+vendor       = "Iamlamprey"
+version      = "1.0.0"
+description  = "Free toy kalimba Kontakt instrument with multi-velocity samples and four round-robin variations."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.iamlamprey.com/products/songbird-toy-kalimba"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/12406-Songbird-Toy-Kalimba?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.iamlamprey.com/products/songbird-toy-kalimba"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.iamlamprey.com/products/songbird-toy-kalimba"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.iamlamprey.com/products/songbird-toy-kalimba"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.iamlamprey.com/products/songbird-toy-kalimba"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

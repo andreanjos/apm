@@ -1,26 +1,27 @@
-slug        = "scaler-eq"
-name        = "Scaler EQ"
-vendor      = "Scaler Music"
-version     = "1.0.0"
-description = "Musical EQ plugin that enhances note frequencies in key and reduces out-of-key frequencies."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://scalermusic.com/products/scaler-eq/"
+slug         = "scaler-eq"
+name         = "Scaler EQ"
+vendor       = "Scaler Music"
+version      = "1.0.0"
+description  = "Musical EQ plugin that enhances note frequencies in key and reduces out-of-key frequencies."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://scalermusic.com/products/scaler-eq/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11473-Scaler-EQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://scalermusic.com/products/scaler-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://scalermusic.com/products/scaler-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://scalermusic.com/products/scaler-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://scalermusic.com/products/scaler-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

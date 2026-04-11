@@ -1,25 +1,27 @@
-slug        = "chefs-helpers"
-name        = "Chef’s Helpers"
-vendor      = "Yum Audio"
-version     = "1.0.0"
-description = "Yum Audio bundle of subtle effect tools including LoFi Flux Light and Spread Light plugins."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.yum-audio.com/"
-is_paid     = true
+slug         = "chefs-helpers"
+name         = "Chef's Helpers"
+vendor       = "Yum Audio"
+version      = "1.0.0"
+description  = "Yum Audio bundle of subtle effect tools including LoFi Flux Light and Spread Light plugins."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["chef8217s-helpers"]
+homepage     = "https://www.yum-audio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.yum-audio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.yum-audio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.yum-audio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.yum-audio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

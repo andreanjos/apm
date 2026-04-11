@@ -1,26 +1,27 @@
-slug        = "sound-explorer-collection-belledonne"
-name        = "Sound Explorer Collection Belledonne"
-vendor      = "Arturia"
-version     = "1.0.0"
-description = "Arturia's largest bundle combining V Collection 9 and FX Collection 3 on a physical 256GB SSD."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-instruments-effects/sound-explorers-collection/overview"
-is_paid     = true
+slug         = "sound-explorer-collection-belledonne"
+name         = "Sound Explorer Collection Belledonne"
+vendor       = "Arturia"
+version      = "1.0.0"
+description  = "Arturia's largest bundle combining V Collection 9 and FX Collection 3 on a physical 256GB SSD."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-instruments-effects/sound-explorers-collection/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-instruments-effects/sound-explorers-collection/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments-effects/sound-explorers-collection/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-instruments-effects/sound-explorers-collection/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments-effects/sound-explorers-collection/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

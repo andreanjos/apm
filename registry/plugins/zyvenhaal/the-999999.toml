@@ -1,25 +1,26 @@
-slug        = "the-999999"
-name        = "The 999999"
-vendor      = "Zyvenhaal"
-version     = "1.0.0"
-description = "Evil drone synthesizer Kontakt library for dark, intense noise and drone textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zyvenhaal.com/products/the-999999"
-is_paid     = true
+slug         = "the-999999"
+name         = "The 999999"
+vendor       = "Zyvenhaal"
+version      = "1.0.0"
+description  = "Evil drone synthesizer Kontakt library for dark, intense noise and drone textures."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zyvenhaal.com/products/the-999999"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zyvenhaal.com/products/the-999999"
-sha256       = ""
-install_type = "zip"
+url           = "https://zyvenhaal.com/products/the-999999"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zyvenhaal.com/products/the-999999"
-sha256       = ""
-install_type = "zip"
+url           = "https://zyvenhaal.com/products/the-999999"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

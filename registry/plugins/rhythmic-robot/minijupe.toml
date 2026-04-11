@@ -1,25 +1,26 @@
-slug        = "minijupe"
-name        = "Minijupe"
-vendor      = "Rhythmic Robot"
-version     = "1.0"
-description = "A Kontakt instrument delivering Jupiter 6 sounds in a twin-oscillator one-pane interface."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.rhythmicrobot.com/product/minijupe"
-is_paid     = true
+slug         = "minijupe"
+name         = "Minijupe"
+vendor       = "Rhythmic Robot"
+version      = "1.0"
+description  = "A Kontakt instrument delivering Jupiter 6 sounds in a twin-oscillator one-pane interface."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.rhythmicrobot.com/product/minijupe"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.rhythmicrobot.com/product/minijupe"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/minijupe"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.rhythmicrobot.com/product/minijupe"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rhythmicrobot.com/product/minijupe"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

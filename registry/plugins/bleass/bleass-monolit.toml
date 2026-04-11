@@ -1,26 +1,27 @@
-slug        = "bleass-monolit"
-name        = "BLEASS Monolit"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "Monophonic synthesizer combining the analogue sound of Alpha with the expressive creativity of Omega."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/monolit/"
+slug         = "bleass-monolit"
+name         = "BLEASS Monolit"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "Monophonic synthesizer combining the analogue sound of Alpha with the expressive creativity of Omega."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/monolit/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/9223-BLEASS-Monolit?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/monolit/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/monolit/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/monolit/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/monolit/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

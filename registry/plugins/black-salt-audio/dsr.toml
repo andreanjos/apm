@@ -1,26 +1,27 @@
-slug        = "dsr"
-name        = "DSR"
-vendor      = "Black Salt Audio"
-version     = "1.0.6"
-description = "Transparent and musical de-esser plugin fine-tuned for smooth, natural-sounding sibilance control."
-category    = "effects"
-subcategory = "de esser"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.blacksaltaudio.com/dsr/"
+slug         = "dsr"
+name         = "DSR"
+vendor       = "Black Salt Audio"
+version      = "1.0.6"
+description  = "Transparent and musical de-esser plugin fine-tuned for smooth, natural-sounding sibilance control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "de esser"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.blacksaltaudio.com/dsr/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/12329-DSR?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.blacksaltaudio.com/dsr/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blacksaltaudio.com/dsr/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.blacksaltaudio.com/dsr/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blacksaltaudio.com/dsr/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

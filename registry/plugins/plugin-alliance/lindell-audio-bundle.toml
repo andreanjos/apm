@@ -1,26 +1,27 @@
-slug        = "lindell-audio-bundle"
-name        = "Lindell Audio Bundle"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Complete set of Lindell Audio plugins including preamps, compressors, EQs, and channel strip emulations."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/lindell-audio-bundle-monthly.html"
-is_paid     = true
+slug         = "lindell-audio-bundle"
+name         = "Lindell Audio Bundle"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Complete set of Lindell Audio plugins including preamps, compressors, EQs, and channel strip emulations."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/lindell-audio-bundle-monthly.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/lindell-audio-bundle-monthly.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/lindell-audio-bundle-monthly.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/lindell-audio-bundle-monthly.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/lindell-audio-bundle-monthly.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

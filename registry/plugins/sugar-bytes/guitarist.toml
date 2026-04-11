@@ -1,26 +1,27 @@
-slug        = "guitarist"
-name        = "Guitarist"
-vendor      = "Sugar Bytes"
-version     = "1.0.0"
-description = "Expressive electric guitar emulation plugin with authentic riffs, onboard amps, wah, and effects."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://sugar-bytes.de/guitarist"
+slug         = "guitarist"
+name         = "Guitarist"
+vendor       = "Sugar Bytes"
+version      = "1.0.0"
+description  = "Expressive electric guitar emulation plugin with authentic riffs, onboard amps, wah, and effects."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://sugar-bytes.de/guitarist"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/529-Guitarist?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sugar-bytes.de/guitarist"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/guitarist"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sugar-bytes.de/guitarist"
-sha256       = ""
-install_type = "zip"
+url           = "https://sugar-bytes.de/guitarist"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

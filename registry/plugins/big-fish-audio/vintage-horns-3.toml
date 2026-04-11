@@ -1,26 +1,27 @@
-slug        = "vintage-horns-3"
-name        = "Vintage Horns 3"
-vendor      = "Big Fish Audio"
-version     = "1.0.0"
-description = "Big Fish Audio Kontakt Vol 3 horn section library with expanded vintage R&B brass performances."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bigfishaudio.com/Vintage-Horns-3"
+slug         = "vintage-horns-3"
+name         = "Vintage Horns 3"
+vendor       = "Big Fish Audio"
+version      = "1.0.0"
+description  = "Big Fish Audio Kontakt Vol 3 horn section library with expanded vintage R&B brass performances."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bigfishaudio.com/Vintage-Horns-3"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/15001-Vintage-Horns-3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bigfishaudio.com/Vintage-Horns-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bigfishaudio.com/Vintage-Horns-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bigfishaudio.com/Vintage-Horns-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bigfishaudio.com/Vintage-Horns-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "tal-u-no-lx-synth"
-name        = "TAL U NO LX Synth"
-vendor      = "TAL"
-version     = "5.1.3"
-description = "Faithful recreation of the Juno 60 analog synthesizer, calibrated using real hardware with authentic warmth."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://tal-software.com/products/tal-u-no-lx"
+slug         = "tal-u-no-lx-synth"
+name         = "TAL U NO LX Synth"
+vendor       = "TAL"
+version      = "5.1.3"
+description  = "Faithful recreation of the Juno 60 analog synthesizer, calibrated using real hardware with authentic warmth."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://tal-software.com/products/tal-u-no-lx"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/423-TAL-U-NO-LX-Synth?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://tal-software.com/products/tal-u-no-lx"
-sha256       = ""
-install_type = "zip"
+url           = "https://tal-software.com/products/tal-u-no-lx"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://tal-software.com/products/tal-u-no-lx"
-sha256       = ""
-install_type = "zip"
+url           = "https://tal-software.com/products/tal-u-no-lx"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

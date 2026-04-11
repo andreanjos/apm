@@ -1,25 +1,26 @@
-slug        = "retro-pack"
-name        = "Retro Pack"
-vendor      = "Martinic"
-version     = "2"
-description = "Bundle of six vintage instrument and effect plugins including Elka Panther, Lem Echo, and more."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.martinic.com/en/products/retro-pack"
-is_paid     = true
+slug         = "retro-pack"
+name         = "Retro Pack"
+vendor       = "Martinic"
+version      = "2"
+description  = "Bundle of six vintage instrument and effect plugins including Elka Panther, Lem Echo, and more."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.martinic.com/en/products/retro-pack"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.martinic.com/en/products/retro-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.martinic.com/en/products/retro-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.martinic.com/en/products/retro-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.martinic.com/en/products/retro-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

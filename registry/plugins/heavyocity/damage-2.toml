@@ -1,26 +1,27 @@
-slug        = "damage-2"
-name        = "Damage 2"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Epic cinematic percussion instrument with 60GB of orchestral, rock, and ethnic drums recorded at Skywalker Sound."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/damage-2"
+slug         = "damage-2"
+name         = "Damage 2"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Epic cinematic percussion instrument with 60GB of orchestral, rock, and ethnic drums recorded at Skywalker Sound."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/damage-2"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/6669-Damage-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/damage-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/damage-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/damage-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/damage-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "colors-vintage-synth"
-name        = "Colors: Vintage Synth"
-vendor      = "Cinematique Instruments"
-version     = "1.0.0"
-description = "Kontakt instrument featuring vintage synthesizer sounds for retro-inspired pad and texture production."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
-is_paid     = true
+slug         = "colors-vintage-synth"
+name         = "Colors: Vintage Synth"
+vendor       = "Cinematique Instruments"
+version      = "1.0.0"
+description  = "Kontakt instrument featuring vintage synthesizer sounds for retro-inspired pad and texture production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
-sha256       = ""
-install_type = "zip"
+url           = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
-sha256       = ""
-install_type = "zip"
+url           = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

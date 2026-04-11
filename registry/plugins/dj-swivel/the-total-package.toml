@@ -1,25 +1,26 @@
-slug        = "the-total-package"
-name        = "The Total Package"
-vendor      = "DJ Swivel"
-version     = "1.0.0"
-description = "DJ Swivel plugin bundle including tools for mixing, effects, and production."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://swivel-audio.com/the-total-package/"
-is_paid     = true
+slug         = "the-total-package"
+name         = "The Total Package"
+vendor       = "DJ Swivel"
+version      = "1.0.0"
+description  = "DJ Swivel plugin bundle including tools for mixing, effects, and production."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://swivel-audio.com/the-total-package/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://swivel-audio.com/the-total-package/"
-sha256       = ""
-install_type = "zip"
+url           = "https://swivel-audio.com/the-total-package/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://swivel-audio.com/the-total-package/"
-sha256       = ""
-install_type = "zip"
+url           = "https://swivel-audio.com/the-total-package/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

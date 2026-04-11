@@ -1,26 +1,27 @@
-slug        = "lowtility-2"
-name        = "Lowtility 2"
-vendor      = "Venomode"
-version     = "2.1.5"
-description = "Stereo bass utility plugin for managing low-end mono compatibility and sub-bass control."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://venomode.com/plugins"
+slug         = "lowtility-2"
+name         = "Lowtility 2"
+vendor       = "Venomode"
+version      = "2.1.5"
+description  = "Stereo bass utility plugin for managing low-end mono compatibility and sub-bass control."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://venomode.com/plugins"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/5587-Lowtility-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://venomode.com/plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://venomode.com/plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://venomode.com/plugins"
-sha256       = ""
-install_type = "zip"
+url           = "https://venomode.com/plugins"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

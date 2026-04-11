@@ -1,25 +1,26 @@
-slug        = "virtual-guitarist-sparkle-crossgrade-from-phat-2"
-name        = "Virtual Guitarist SPARKLE Crossgrade from PHAT 2"
-vendor      = "UJAM"
-version     = "2.0"
-description = "Crossgrade to Virtual Guitarist SPARKLE electric rhythm guitar plugin from PHAT 2."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ujam.com/guitarist/sparkle/"
-is_paid     = true
+slug         = "virtual-guitarist-sparkle-crossgrade-from-phat-2"
+name         = "Virtual Guitarist SPARKLE Crossgrade from PHAT 2"
+vendor       = "UJAM"
+version      = "2.0"
+description  = "Crossgrade to Virtual Guitarist SPARKLE electric rhythm guitar plugin from PHAT 2."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ujam.com/guitarist/sparkle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ujam.com/guitarist/sparkle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/guitarist/sparkle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ujam.com/guitarist/sparkle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/guitarist/sparkle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

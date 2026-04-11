@@ -1,26 +1,27 @@
-slug        = "lakeside-pipe-organ"
-name        = "Lakeside Pipe Organ"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Majestic pipe organ Kontakt library recorded at a lakeside church with warm acoustic character."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/lakeside-pipe-organ"
+slug         = "lakeside-pipe-organ"
+name         = "Lakeside Pipe Organ"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Majestic pipe organ Kontakt library recorded at a lakeside church with warm acoustic character."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/lakeside-pipe-organ"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/2803-Lakeside-Pipe-Organ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/lakeside-pipe-organ"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/lakeside-pipe-organ"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/lakeside-pipe-organ"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/lakeside-pipe-organ"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

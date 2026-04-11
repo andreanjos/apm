@@ -1,25 +1,26 @@
-slug        = "opacity-ii"
-name        = "Opacity II"
-vendor      = "Audiomodern"
-version     = "1.0.0"
-description = "Second volume of Audiomodern's Opacity Kontakt Player instrument with expanded atmospheric sounds."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodern.com/products/"
-is_paid     = true
+slug         = "opacity-ii"
+name         = "Opacity II"
+vendor       = "Audiomodern"
+version      = "1.0.0"
+description  = "Second volume of Audiomodern's Opacity Kontakt Player instrument with expanded atmospheric sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodern.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodern.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodern.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodern.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodern.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

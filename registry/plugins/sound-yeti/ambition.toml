@@ -1,25 +1,26 @@
-slug        = "ambition"
-name        = "Ambition"
-vendor      = "Sound Yeti"
-version     = "1.0.0"
-description = "Cinematic Kontakt instrument combining sounds from other worlds with an all-in-one synth engine."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundyeti.com/Ambition/"
-is_paid     = true
+slug         = "ambition"
+name         = "Ambition"
+vendor       = "Sound Yeti"
+version      = "1.0.0"
+description  = "Cinematic Kontakt instrument combining sounds from other worlds with an all-in-one synth engine."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundyeti.com/Ambition/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundyeti.com/Ambition/"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundyeti.com/Ambition/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundyeti.com/Ambition/"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundyeti.com/Ambition/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

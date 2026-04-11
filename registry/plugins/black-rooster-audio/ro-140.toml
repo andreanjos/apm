@@ -1,26 +1,28 @@
-slug        = "ro-140"
-name        = "RO 140"
-vendor      = "Black Rooster Audio"
-version     = "3.0.0"
-description = "Vintage plate reverb emulation with six selectable metal materials and a built-in three-band EQ."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://blackroosteraudio.com/en/products/ro-140"
+slug         = "ro-140"
+name         = "RO 140"
+vendor       = "Black Rooster Audio"
+version      = "3.0.0"
+description  = "Vintage plate reverb emulation with six selectable metal materials and a built-in three-band EQ."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+aliases      = ["ro-140-black-rooster-audio"]
+homepage     = "https://blackroosteraudio.com/en/products/ro-140"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/11351-RO-140?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://blackroosteraudio.com/en/products/ro-140"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackroosteraudio.com/en/products/ro-140"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://blackroosteraudio.com/en/products/ro-140"
-sha256       = ""
-install_type = "zip"
+url           = "https://blackroosteraudio.com/en/products/ro-140"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

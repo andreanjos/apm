@@ -1,25 +1,26 @@
-slug        = "native-voice-eira"
-name        = "Native Voice EIRA"
-vendor      = "Bela D Media"
-version     = "1.0.0"
-description = "Kontakt solo vocal library featuring a female vocalist of Norwegian descent with indigenous phrasing."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://beladmedia.com/native-voice-eira/"
-is_paid     = true
+slug         = "native-voice-eira"
+name         = "Native Voice EIRA"
+vendor       = "Bela D Media"
+version      = "1.0.0"
+description  = "Kontakt solo vocal library featuring a female vocalist of Norwegian descent with indigenous phrasing."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://beladmedia.com/native-voice-eira/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://beladmedia.com/native-voice-eira/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/native-voice-eira/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://beladmedia.com/native-voice-eira/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/native-voice-eira/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

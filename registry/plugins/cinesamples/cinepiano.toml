@@ -1,26 +1,27 @@
-slug        = "cinepiano"
-name        = "CinePiano"
-vendor      = "Cinesamples"
-version     = "1.0.0"
-description = "Premium concert grand piano library recorded at the MGM Scoring Stage in Los Angeles."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.cinesamples.com/products/cinepiano"
+slug         = "cinepiano"
+name         = "CinePiano"
+vendor       = "Cinesamples"
+version      = "1.0.0"
+description  = "Premium concert grand piano library recorded at the MGM Scoring Stage in Los Angeles."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.cinesamples.com/products/cinepiano"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11244-CinePiano?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.cinesamples.com/products/cinepiano"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/cinepiano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.cinesamples.com/products/cinepiano"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.cinesamples.com/products/cinepiano"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

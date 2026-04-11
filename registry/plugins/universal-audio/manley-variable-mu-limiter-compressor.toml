@@ -1,26 +1,27 @@
-slug        = "manley-variable-mu-limiter-compressor"
-name        = "Manley® Variable Mu Limiter Compressor"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the Manley Variable Mu tube limiter compressor used for mastering and bus compression."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/manley-variable-mu-limiter-compressor.html"
-is_paid     = true
+slug         = "manley-variable-mu-limiter-compressor"
+name         = "Manley (R) Variable Mu Limiter Compressor"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the Manley Variable Mu tube limiter compressor used for mastering and bus compression."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/compressors-limiters/manley-variable-mu-limiter-compressor.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/manley-variable-mu-limiter-compressor.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/manley-variable-mu-limiter-compressor.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/manley-variable-mu-limiter-compressor.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/manley-variable-mu-limiter-compressor.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

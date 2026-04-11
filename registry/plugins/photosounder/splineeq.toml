@@ -1,26 +1,27 @@
-slug        = "splineeq"
-name        = "SplineEQ"
-vendor      = "Photosounder"
-version     = "1.2"
-description = "Spline-based linear phase equalizer for intuitive and precise frequency shaping with Bézier curves."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://photosounder.com/splineeq/"
+slug         = "splineeq"
+name         = "SplineEQ"
+vendor       = "Photosounder"
+version      = "1.2"
+description  = "Spline-based linear phase equalizer for intuitive and precise frequency shaping with Bézier curves."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://photosounder.com/splineeq/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/1357-SplineEQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://photosounder.com/splineeq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://photosounder.com/splineeq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://photosounder.com/splineeq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://photosounder.com/splineeq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "ultravox"
-name        = "UltraVox"
-vendor      = "Leapwing Audio"
-version     = "1.0.0"
-description = "Channel strip vocal processor combining EQ, compression, and enhancement tools for vocals."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://leapwingaudio.com/product/ultravox/"
-is_paid     = true
+slug         = "ultravox"
+name         = "UltraVox"
+vendor       = "Leapwing Audio"
+version      = "1.0.0"
+description  = "Channel strip vocal processor combining EQ, compression, and enhancement tools for vocals."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://leapwingaudio.com/product/ultravox/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://leapwingaudio.com/product/ultravox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://leapwingaudio.com/product/ultravox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://leapwingaudio.com/product/ultravox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://leapwingaudio.com/product/ultravox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

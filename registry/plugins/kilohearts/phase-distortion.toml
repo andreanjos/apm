@@ -1,25 +1,26 @@
-slug        = "phase-distortion"
-name        = "Phase Distortion"
-vendor      = "Kilohearts"
-version     = "2.4.6"
-description = "Phase distortion Snapin that warps audio through phase manipulation for gritty tonal effects."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://kilohearts.com/products/phase_distortion"
-is_paid     = true
+slug         = "phase-distortion"
+name         = "Phase Distortion"
+vendor       = "Kilohearts"
+version      = "2.4.6"
+description  = "Phase distortion Snapin that warps audio through phase manipulation for gritty tonal effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://kilohearts.com/products/phase_distortion"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://kilohearts.com/products/phase_distortion"
-sha256       = ""
-install_type = "zip"
+url           = "https://kilohearts.com/products/phase_distortion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://kilohearts.com/products/phase_distortion"
-sha256       = ""
-install_type = "zip"
+url           = "https://kilohearts.com/products/phase_distortion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

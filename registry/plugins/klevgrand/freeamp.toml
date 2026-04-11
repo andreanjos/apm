@@ -1,26 +1,27 @@
-slug        = "freeamp"
-name        = "FreeAMP"
-vendor      = "Klevgrand"
-version     = "1.0"
-description = "A free simplified version of REAMP offering tape and tube saturation with drive, mix, and output controls."
-category    = "effects"
-subcategory = "saturation"
-license     = "commercial"
-tags        = []
-homepage    = "https://klevgrand.com/products/freeamp"
+slug         = "freeamp"
+name         = "FreeAMP"
+vendor       = "Klevgrand"
+version      = "1.0"
+description  = "A free simplified version of REAMP offering tape and tube saturation with drive, mix, and output controls."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "saturation"
+license      = "commercial"
+tags         = []
+homepage     = "https://klevgrand.com/products/freeamp"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/8703-FreeAMP?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klevgrand.com/products/freeamp"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/freeamp"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klevgrand.com/products/freeamp"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/freeamp"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

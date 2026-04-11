@@ -1,25 +1,26 @@
-slug        = "haunted-guitar"
-name        = "Haunted Guitar"
-vendor      = "Electronik Sound Lab"
-version     = "1.0.0"
-description = "Dark electric guitar instrument built from 1,540 samples of a Fender Stratocaster with 55 presets."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://electroniksoundlab.com/"
-is_paid     = true
+slug         = "haunted-guitar"
+name         = "Haunted Guitar"
+vendor       = "Electronik Sound Lab"
+version      = "1.0.0"
+description  = "Dark electric guitar instrument built from 1,540 samples of a Fender Stratocaster with 55 presets."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://electroniksoundlab.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://electroniksoundlab.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://electroniksoundlab.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://electroniksoundlab.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://electroniksoundlab.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

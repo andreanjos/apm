@@ -1,25 +1,26 @@
-slug        = "acoustic-dhaak-2"
-name        = "Acoustic Dhaak 2"
-vendor      = "RDGAudio"
-version     = "2.0"
-description = "Sample-based AU/VST3 plugin featuring eight sampled kits of the Indian Dhaak drum."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://rdgaudio.com/product/acoustic-dhaak-2/"
-is_paid     = true
+slug         = "acoustic-dhaak-2"
+name         = "Acoustic Dhaak 2"
+vendor       = "RDGAudio"
+version      = "2.0"
+description  = "Sample-based AU/VST3 plugin featuring eight sampled kits of the Indian Dhaak drum."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://rdgaudio.com/product/acoustic-dhaak-2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rdgaudio.com/product/acoustic-dhaak-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rdgaudio.com/product/acoustic-dhaak-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rdgaudio.com/product/acoustic-dhaak-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rdgaudio.com/product/acoustic-dhaak-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

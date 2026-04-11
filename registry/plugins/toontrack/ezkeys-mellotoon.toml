@@ -1,26 +1,27 @@
-slug        = "ezkeys-mellotoon"
-name        = "EZKeys Mellotoon"
-vendor      = "Toontrack"
-version     = "2.1.5"
-description = "EZkeys expansion recreating the iconic Mellotron tape-based keyboard sounds for retro and cinematic genres."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-installer   = "toontrack-product-manager"
-homepage    = "https://www.toontrack.com/product/mellotoon-ekx/"
-is_paid     = true
+slug         = "ezkeys-mellotoon"
+name         = "EZKeys Mellotoon"
+vendor       = "Toontrack"
+version      = "2.1.5"
+description  = "EZkeys expansion recreating the iconic Mellotron tape-based keyboard sounds for retro and cinematic genres."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+installer    = "toontrack-product-manager"
+homepage     = "https://www.toontrack.com/product/mellotoon-ekx/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.toontrack.com/product/mellotoon-ekx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/mellotoon-ekx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.toontrack.com/product/mellotoon-ekx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/mellotoon-ekx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

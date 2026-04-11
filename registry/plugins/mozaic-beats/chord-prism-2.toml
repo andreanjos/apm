@@ -1,26 +1,27 @@
-slug        = "chord-prism-2"
-name        = "Chord Prism 2"
-vendor      = "Mozaic Beats"
-version     = "2.0"
-description = "Mozaic Beats Chord Prism 2 generates intelligent chord voicings from single MIDI notes."
-category    = "utility"
-subcategory = "music theory tools"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.mozaicbeats.com/chord-prism/"
+slug         = "chord-prism-2"
+name         = "Chord Prism 2"
+vendor       = "Mozaic Beats"
+version      = "2.0"
+description  = "Mozaic Beats Chord Prism 2 generates intelligent chord voicings from single MIDI notes."
+category     = "utility"
+product_type = "utility"
+subcategory  = "music theory tools"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.mozaicbeats.com/chord-prism/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6273-Chord-Prism-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.mozaicbeats.com/chord-prism/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.mozaicbeats.com/chord-prism/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.mozaicbeats.com/chord-prism/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.mozaicbeats.com/chord-prism/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "snowkiss-guitar"
-name        = "Snowkiss Guitar"
-vendor      = "Karoryfer Samples"
-version     = "1.0.0"
-description = "Boutique offset-body Momose MJM guitar sample library for indie and alternative rock with 8700+ samples."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://shop.karoryfer.com/products/snowkiss-guitar"
-is_paid     = true
+slug         = "snowkiss-guitar"
+name         = "Snowkiss Guitar"
+vendor       = "Karoryfer Samples"
+version      = "1.0.0"
+description  = "Boutique offset-body Momose MJM guitar sample library for indie and alternative rock with 8700+ samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://shop.karoryfer.com/products/snowkiss-guitar"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://shop.karoryfer.com/products/snowkiss-guitar"
-sha256       = ""
-install_type = "zip"
+url           = "https://shop.karoryfer.com/products/snowkiss-guitar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://shop.karoryfer.com/products/snowkiss-guitar"
-sha256       = ""
-install_type = "zip"
+url           = "https://shop.karoryfer.com/products/snowkiss-guitar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

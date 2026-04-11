@@ -1,26 +1,27 @@
-slug        = "trailer-giant"
-name        = "Trailer Giant"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Massive cinematic trailer percussion and orchestral library built for high-impact blockbuster scoring."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/trailer-giant/"
-is_paid     = true
+slug         = "trailer-giant"
+name         = "Trailer Giant"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Massive cinematic trailer percussion and orchestral library built for high-impact blockbuster scoring."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/trailer-giant/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/trailer-giant/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/trailer-giant/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/trailer-giant/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/trailer-giant/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

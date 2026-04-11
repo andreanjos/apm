@@ -1,26 +1,27 @@
-slug        = "teletronix-la-3a-classic-audio-leveler"
-name        = "Teletronix® LA-3A Classic Audio Leveler"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the Teletronix LA-3A solid-state electro-optical audio leveling amplifier."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-3a-audio-leveler.html"
-is_paid     = true
+slug         = "teletronix-la-3a-classic-audio-leveler"
+name         = "Teletronix (R) LA-3A Classic Audio Leveler"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the Teletronix LA-3A solid-state electro-optical audio leveling amplifier."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-3a-audio-leveler.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-3a-audio-leveler.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-3a-audio-leveler.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-3a-audio-leveler.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-3a-audio-leveler.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

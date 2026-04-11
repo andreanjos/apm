@@ -1,24 +1,25 @@
-slug        = "breverb-2-upgrade-from-breverb-1"
-name        = "BREVERB 2 Upgrade from BREVERB 1"
-vendor      = "Overloud"
-version     = "1.0.0"
-description = "Upgrade license from BREVERB 1 to BREVERB 2, adding new algorithms and modern workflow features."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.overloud.com/products/breverb-2"
-is_paid     = true
+slug         = "breverb-2-upgrade-from-breverb-1"
+name         = "BREVERB 2 Upgrade from BREVERB 1"
+vendor       = "Overloud"
+version      = "1.0.0"
+description  = "Upgrade license from BREVERB 1 to BREVERB 2, adding new algorithms and modern workflow features."
+category     = "effects"
+product_type = "upgrade"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.overloud.com/products/breverb-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.overloud.com/products/breverb-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products/breverb-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.overloud.com/products/breverb-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products/breverb-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

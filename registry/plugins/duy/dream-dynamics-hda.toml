@@ -1,25 +1,26 @@
-slug        = "dream-dynamics-hda"
-name        = "Dream Dynamics HDa"
-vendor      = "DUY"
-version     = "1.0.0"
-description = "Intelligent loudness optimizer that replaces multi-band compressors and limiters with ease of use."
-category    = "effects"
-subcategory = "dynamic processor"
-license     = "commercial"
-tags        = []
-homepage    = "https://duy.com/product/duy-dream-dynamics-hda/"
-is_paid     = true
+slug         = "dream-dynamics-hda"
+name         = "Dream Dynamics HDa"
+vendor       = "DUY"
+version      = "1.0.0"
+description  = "Intelligent loudness optimizer that replaces multi-band compressors and limiters with ease of use."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamic processor"
+license      = "commercial"
+tags         = []
+homepage     = "https://duy.com/product/duy-dream-dynamics-hda/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://duy.com/product/duy-dream-dynamics-hda/"
-sha256       = ""
-install_type = "zip"
+url           = "https://duy.com/product/duy-dream-dynamics-hda/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://duy.com/product/duy-dream-dynamics-hda/"
-sha256       = ""
-install_type = "zip"
+url           = "https://duy.com/product/duy-dream-dynamics-hda/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

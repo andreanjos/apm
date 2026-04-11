@@ -1,26 +1,27 @@
-slug        = "micdrop-suite"
-name        = "MicDrop Suite"
-vendor      = "Soundlabs ai"
-version     = "1.0.0"
-description = "MicDrop Classic with six premium expansion packs for 40 total hybrid vocalists and instruments."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundlabs.ai/products/mic-drop-with-value-packs-demo"
+slug         = "micdrop-suite"
+name         = "MicDrop Suite"
+vendor       = "Soundlabs ai"
+version      = "1.0.0"
+description  = "MicDrop Classic with six premium expansion packs for 40 total hybrid vocalists and instruments."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundlabs.ai/products/mic-drop-with-value-packs-demo"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/14428-MicDrop-Suite?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundlabs.ai/products/mic-drop-with-value-packs-demo"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundlabs.ai/products/mic-drop-with-value-packs-demo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundlabs.ai/products/mic-drop-with-value-packs-demo"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundlabs.ai/products/mic-drop-with-value-packs-demo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

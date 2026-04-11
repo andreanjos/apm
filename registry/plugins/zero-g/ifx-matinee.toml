@@ -1,25 +1,26 @@
-slug        = "ifx-matinee"
-name        = "iFX Matinee"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Over 1500 samples covering ambient SFX, atmos loops, button pushes, and whooshes for website audio interactivity."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/ifx-matinee"
-is_paid     = true
+slug         = "ifx-matinee"
+name         = "iFX Matinee"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Over 1500 samples covering ambient SFX, atmos loops, button pushes, and whooshes for website audio interactivity."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/ifx-matinee"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/ifx-matinee"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/ifx-matinee"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/ifx-matinee"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/ifx-matinee"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

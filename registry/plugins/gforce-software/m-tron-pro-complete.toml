@@ -1,25 +1,26 @@
-slug        = "m-tron-pro-complete"
-name        = "M-Tron Pro Complete"
-vendor      = "GForce Software"
-version     = "4.0"
-description = "Complete bundle of M-Tron Pro IV with 16 expansion packs delivering 560+ tape banks and 3840+ presets."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.gforcesoftware.com/products/m-tron-pro-complete/"
-is_paid     = true
+slug         = "m-tron-pro-complete"
+name         = "M-Tron Pro Complete"
+vendor       = "GForce Software"
+version      = "4.0"
+description  = "Complete bundle of M-Tron Pro IV with 16 expansion packs delivering 560+ tape banks and 3840+ presets."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.gforcesoftware.com/products/m-tron-pro-complete/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.gforcesoftware.com/products/m-tron-pro-complete/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gforcesoftware.com/products/m-tron-pro-complete/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.gforcesoftware.com/products/m-tron-pro-complete/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gforcesoftware.com/products/m-tron-pro-complete/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "harmony"
-name        = "Harmony"
-vendor      = "Waves"
-version     = "14.0"
-description = "Real-time vocal harmony processor creating up to four pitch-shifted harmony voices."
-category    = "effects"
-subcategory = "harmonizer"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/harmony"
-is_paid     = true
+slug         = "harmony"
+name         = "Harmony"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Real-time vocal harmony processor creating up to four pitch-shifted harmony voices."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "harmonizer"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/harmony"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/harmony"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/harmony"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/harmony"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/harmony"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

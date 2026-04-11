@@ -1,25 +1,26 @@
-slug        = "mturboeq"
-name        = "MTurboEQ"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "12 vintage-style equalizers in one plugin for fast, professional equalization."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MTurboEQ"
-is_paid     = true
+slug         = "mturboeq"
+name         = "MTurboEQ"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "12 vintage-style equalizers in one plugin for fast, professional equalization."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MTurboEQ"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MTurboEQ"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MTurboEQ"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MTurboEQ"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MTurboEQ"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

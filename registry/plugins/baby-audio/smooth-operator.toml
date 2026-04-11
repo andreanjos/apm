@@ -1,24 +1,25 @@
-slug        = "smooth-operator"
-name        = "Smooth Operator"
-vendor      = "Baby Audio"
-version     = "1.0.0"
-description = "Spectral signal balancer combining resonance suppression, spectral compression, and EQ in one workflow."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://babyaud.io/smooth-operator-plugin"
-is_paid     = true
+slug         = "smooth-operator"
+name         = "Smooth Operator"
+vendor       = "Baby Audio"
+version      = "1.0.0"
+description  = "Spectral signal balancer combining resonance suppression, spectral compression, and EQ in one workflow."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://babyaud.io/smooth-operator-plugin"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://babyaud.io/smooth-operator-plugin"
-sha256       = ""
-install_type = "zip"
+url           = "https://babyaud.io/smooth-operator-plugin"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://babyaud.io/smooth-operator-plugin"
-sha256       = ""
-install_type = "zip"
+url           = "https://babyaud.io/smooth-operator-plugin"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

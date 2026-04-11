@@ -1,26 +1,27 @@
-slug        = "hertz-go-pack-for-kemper"
-name        = "Hertz Go Pack for Kemper"
-vendor      = "Hertz Instruments"
-version     = "1.0.0"
-description = "22 mid-gain Kemper guitar profiles inspired by Gojira with clean, detailed tones for stage and studio."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://hertzinstruments.com/kemper/hertz-go-pack-hertz-instruments/"
+slug         = "hertz-go-pack-for-kemper"
+name         = "Hertz Go Pack for Kemper"
+vendor       = "Hertz Instruments"
+version      = "1.0.0"
+description  = "22 mid-gain Kemper guitar profiles inspired by Gojira with clean, detailed tones for stage and studio."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://hertzinstruments.com/kemper/hertz-go-pack-hertz-instruments/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/13353-Hertz-Go-Pack-for-Kemper?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hertzinstruments.com/kemper/hertz-go-pack-hertz-instruments/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/kemper/hertz-go-pack-hertz-instruments/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hertzinstruments.com/kemper/hertz-go-pack-hertz-instruments/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/kemper/hertz-go-pack-hertz-instruments/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "transient-shaper"
-name        = "Transient Shaper"
-vendor      = "Slate Digital"
-version     = "1.0.0"
-description = "Zero-latency transient shaping plugin with a Focus feature for frequency-targeted sound sculpting."
-category    = "effects"
-subcategory = "transient shaper"
-license     = "commercial"
-tags        = []
-homepage    = "https://slatedigital.com/transient-shaper-plugin/"
+slug         = "transient-shaper"
+name         = "Transient Shaper"
+vendor       = "Slate Digital"
+version      = "1.0.0"
+description  = "Zero-latency transient shaping plugin with a Focus feature for frequency-targeted sound sculpting."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "transient shaper"
+license      = "commercial"
+tags         = []
+homepage     = "https://slatedigital.com/transient-shaper-plugin/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/15810-Transient-Shaper?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://slatedigital.com/transient-shaper-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/transient-shaper-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://slatedigital.com/transient-shaper-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://slatedigital.com/transient-shaper-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

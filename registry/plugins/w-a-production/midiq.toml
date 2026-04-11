@@ -1,26 +1,27 @@
-slug        = "midiq"
-name        = "MIDIQ"
-vendor      = "W A Production"
-version     = "1.0.0"
-description = "MIDI chord sequence generator with an interactive slot-machine interface for endless harmonic exploration."
-category    = "effects"
-subcategory = "midi arp"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/midiq"
+slug         = "midiq"
+name         = "MIDIQ"
+vendor       = "W A Production"
+version      = "1.0.0"
+description  = "MIDI chord sequence generator with an interactive slot-machine interface for endless harmonic exploration."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "midi arp"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/midiq"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/14-MIDI-Arp/5931-MIDIQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/midiq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/midiq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/midiq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/midiq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

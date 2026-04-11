@@ -1,25 +1,26 @@
-slug        = "dco-106"
-name        = "DCO-106"
-vendor      = "Cherry Audio"
-version     = "1.0.0"
-description = "Polyphonic synthesizer faithfully recreating the iconic Roland Juno-106 80s polysynth with modern features."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://cherryaudio.com/products/dco-106"
-is_paid     = true
+slug         = "dco-106"
+name         = "DCO-106"
+vendor       = "Cherry Audio"
+version      = "1.0.0"
+description  = "Polyphonic synthesizer faithfully recreating the iconic Roland Juno-106 80s polysynth with modern features."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://cherryaudio.com/products/dco-106"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cherryaudio.com/products/dco-106"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/dco-106"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cherryaudio.com/products/dco-106"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/dco-106"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

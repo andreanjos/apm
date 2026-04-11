@@ -1,25 +1,26 @@
-slug        = "master-koto"
-name        = "Master Koto"
-vendor      = "Rast Sound"
-version     = "1.0.0"
-description = "Deeply sampled Japanese koto Kontakt library recorded with a master performer for authentic expression."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/master-koto/"
-is_paid     = true
+slug         = "master-koto"
+name         = "Master Koto"
+vendor       = "Rast Sound"
+version      = "1.0.0"
+description  = "Deeply sampled Japanese koto Kontakt library recorded with a master performer for authentic expression."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/master-koto/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/master-koto/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/master-koto/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/master-koto/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/master-koto/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

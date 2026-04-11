@@ -1,26 +1,27 @@
-slug        = "valley-people-dyna-mite-softube"
-name        = "Valley People Dyna-mite"
-vendor      = "Softube"
-version     = "2.6"
-description = "Dynamics processor plugin modeled on the Valley People Dyna-mite for gate, expansion, and limiting."
-category    = "effects"
-subcategory = "dynamic processor"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/valley-people-dyna-mite"
-is_paid     = true
+slug         = "valley-people-dyna-mite-softube"
+name         = "Valley People Dyna-mite"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Dynamics processor plugin modeled on the Valley People Dyna-mite for gate, expansion, and limiting."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamic processor"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/valley-people-dyna-mite"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/valley-people-dyna-mite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/valley-people-dyna-mite"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/valley-people-dyna-mite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/valley-people-dyna-mite"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

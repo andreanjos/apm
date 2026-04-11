@@ -1,26 +1,27 @@
-slug        = "syntorus-2"
-name        = "Syntorus 2"
-vendor      = "D16 Group"
-version     = "2.2.2"
-description = "Triple-path analog chorus emulating BBD technology from classic synths like the Juno-106 and Synthex."
-category    = "effects"
-subcategory = "chorus"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/syntorus2"
+slug         = "syntorus-2"
+name         = "Syntorus 2"
+vendor       = "D16 Group"
+version      = "2.2.2"
+description  = "Triple-path analog chorus emulating BBD technology from classic synths like the Juno-106 and Synthex."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "chorus"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/syntorus2"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/6123-Syntorus-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/syntorus2"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/syntorus2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/syntorus2"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/syntorus2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

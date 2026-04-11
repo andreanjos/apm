@@ -1,26 +1,27 @@
-slug        = "parallels"
-name        = "Parallels"
-vendor      = "Softube"
-version     = "2.6"
-description = "Cinematic synthesizer with pre-recorded waveforms and professional effects for film scoring and soundscaping."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/synthesizers/parallels"
-is_paid     = true
+slug         = "parallels"
+name         = "Parallels"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Cinematic synthesizer with pre-recorded waveforms and professional effects for film scoring and soundscaping."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/synthesizers/parallels"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/parallels"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/parallels"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/synthesizers/parallels"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/synthesizers/parallels"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

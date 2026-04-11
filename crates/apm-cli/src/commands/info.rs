@@ -17,6 +17,7 @@ struct PluginInfoJson<'a> {
     version: &'a str,
     #[serde(skip_serializing_if = "Option::is_none")]
     available_versions: Option<Vec<String>>,
+    product_type: String,
     category: &'a str,
     subcategory: Option<&'a str>,
     license: &'a str,
@@ -75,6 +76,7 @@ pub async fn run(config: &Config, name: &str, json: bool, versions: bool) -> Res
             } else {
                 None
             },
+            product_type: plugin.product_type.to_string(),
             category: &plugin.category,
             subcategory: plugin.subcategory.as_deref(),
             license: &plugin.license,
@@ -114,9 +116,10 @@ fn print_plugin_info(
     println!("{:<13} {}", "Name:".dimmed(), p.name.bold());
     println!("{:<13} {}", "Vendor:".dimmed(), p.vendor);
     println!("{:<13} {}", "Version:".dimmed(), p.version.cyan());
+    println!("{:<13} {}", "Product:".dimmed(), p.product_type);
     println!(
         "{:<13} {}",
-        "Type:".dimmed(),
+        "Access:".dimmed(),
         if p.is_paid { "Paid" } else { "Free" }
     );
     println!(

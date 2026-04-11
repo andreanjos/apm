@@ -1,26 +1,27 @@
-slug        = "sound-like-nevermind-kontakt"
-name        = "Sound Like Nevermind Kontakt"
-vendor      = "Just Add Drums"
-version     = "1.0.0"
-description = "Kontakt drum library recreating the iconic drum sounds from Nirvana's Nevermind album."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.justadddrums.store/products/sound-like-nevermind-drum-samples"
+slug         = "sound-like-nevermind-kontakt"
+name         = "Sound Like Nevermind Kontakt"
+vendor       = "Just Add Drums"
+version      = "1.0.0"
+description  = "Kontakt drum library recreating the iconic drum sounds from Nirvana's Nevermind album."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.justadddrums.store/products/sound-like-nevermind-drum-samples"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/16227-Sound-Like-Nevermind-Kontakt?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.justadddrums.store/products/sound-like-nevermind-drum-samples"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.justadddrums.store/products/sound-like-nevermind-drum-samples"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.justadddrums.store/products/sound-like-nevermind-drum-samples"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.justadddrums.store/products/sound-like-nevermind-drum-samples"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

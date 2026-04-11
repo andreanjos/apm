@@ -1,24 +1,25 @@
-slug        = "colorsound-tremolo"
-name        = "Colorsound Tremolo"
-vendor      = "Martinic"
-version     = "1.0.0"
-description = "Precise recreation of the 1974 Colorsound Tremolo pedal based on the VOX AC30 tremolo circuit."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.martinic.com/en/products/colorsound-tremolo"
-is_paid     = true
+slug         = "colorsound-tremolo"
+name         = "Colorsound Tremolo"
+vendor       = "Martinic"
+version      = "1.0.0"
+description  = "Precise recreation of the 1974 Colorsound Tremolo pedal based on the VOX AC30 tremolo circuit."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.martinic.com/en/products/colorsound-tremolo"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.martinic.com/en/products/colorsound-tremolo"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.martinic.com/en/products/colorsound-tremolo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.martinic.com/en/products/colorsound-tremolo"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.martinic.com/en/products/colorsound-tremolo"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "dopamine-tape-encoding"
-name        = "Dopamine Tape Encoding"
-vendor      = "Overloud"
-version     = "1.0.0"
-description = "Emulation of two classic tape encoding processors used as dynamic harmonic enhancers."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.overloud.com/products/dopamine"
-is_paid     = true
+slug         = "dopamine-tape-encoding"
+name         = "Dopamine Tape Encoding"
+vendor       = "Overloud"
+version      = "1.0.0"
+description  = "Emulation of two classic tape encoding processors used as dynamic harmonic enhancers."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.overloud.com/products/dopamine"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.overloud.com/products/dopamine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products/dopamine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.overloud.com/products/dopamine"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products/dopamine"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

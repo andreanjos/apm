@@ -1,25 +1,26 @@
-slug        = "replika-xt"
-name        = "Replika XT"
-vendor      = "Native Instruments"
-version     = "1.4"
-description = "Creative multi-mode delay plugin with five vivid delay modes and advanced modulation options."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "native-access"
-homepage    = "https://www.native-instruments.com/en/products/komplete/effects/replika-xt/"
-is_paid     = true
+slug         = "replika-xt"
+name         = "Replika XT"
+vendor       = "Native Instruments"
+version      = "1.4"
+description  = "Creative multi-mode delay plugin with five vivid delay modes and advanced modulation options."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "native-access"
+homepage     = "https://www.native-instruments.com/en/products/komplete/effects/replika-xt/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.native-instruments.com/en/products/komplete/effects/replika-xt/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/effects/replika-xt/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.native-instruments.com/en/products/komplete/effects/replika-xt/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/effects/replika-xt/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

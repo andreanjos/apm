@@ -1,26 +1,27 @@
-slug        = "smt-100a"
-name        = "SMT 100A"
-vendor      = "Antelope Audio"
-version     = "1.0.0"
-description = "Tube compressor plugin emulating the Summit Audio TLA-100A for smooth optical-style limiting."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://en.antelopeaudio.com/products/smt-100a/"
+slug         = "smt-100a"
+name         = "SMT 100A"
+vendor       = "Antelope Audio"
+version      = "1.0.0"
+description  = "Tube compressor plugin emulating the Summit Audio TLA-100A for smooth optical-style limiting."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://en.antelopeaudio.com/products/smt-100a/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16066-SMT-100A?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://en.antelopeaudio.com/products/smt-100a/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/smt-100a/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://en.antelopeaudio.com/products/smt-100a/"
-sha256       = ""
-install_type = "zip"
+url           = "https://en.antelopeaudio.com/products/smt-100a/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

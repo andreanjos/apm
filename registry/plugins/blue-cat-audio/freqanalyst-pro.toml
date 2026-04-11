@@ -1,24 +1,25 @@
-slug        = "freqanalyst-pro"
-name        = "FreqAnalyst Pro"
-vendor      = "Blue Cat Audio"
-version     = "2.14"
-description = "Advanced spectrum analyzer with 3D viewer and MIDI/automation generation capabilities."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_FreqAnalystPro/"
-is_paid     = true
+slug         = "freqanalyst-pro"
+name         = "FreqAnalyst Pro"
+vendor       = "Blue Cat Audio"
+version      = "2.14"
+description  = "Advanced spectrum analyzer with 3D viewer and MIDI/automation generation capabilities."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_FreqAnalystPro/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_FreqAnalystPro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_FreqAnalystPro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_FreqAnalystPro/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_FreqAnalystPro/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

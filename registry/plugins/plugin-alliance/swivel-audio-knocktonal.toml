@@ -1,27 +1,28 @@
-slug        = "swivel-audio-knocktonal"
-name        = "Swivel Audio Knocktonal"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Note-based resonance enhancer that boosts or cuts resonances and overtones to tune drums without destructive repitching."
-category    = "utility"
-subcategory = "drum tools"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/swivel_audio_knocktonal.html"
+slug         = "swivel-audio-knocktonal"
+name         = "Swivel Audio Knocktonal"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Note-based resonance enhancer that boosts or cuts resonances and overtones to tune drums without destructive repitching."
+category     = "utility"
+product_type = "utility"
+subcategory  = "drum tools"
+license      = "commercial"
+tags         = []
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/swivel_audio_knocktonal.html"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/80-Drum-Tools/15576-Swivel-Audio-Knocktonal?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/swivel_audio_knocktonal.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/swivel_audio_knocktonal.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/swivel_audio_knocktonal.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/swivel_audio_knocktonal.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "messentialsfxbundle"
-name        = "MEssentialsFXBundle"
-vendor      = "MeldaProduction"
-version     = "17.07"
-description = "Essential production tools: 10 plugins for mixing, mastering, and music creation with modern sound quality."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.meldaproduction.com/MEssentialsFXBundle"
-is_paid     = true
+slug         = "messentialsfxbundle"
+name         = "MEssentialsFXBundle"
+vendor       = "MeldaProduction"
+version      = "17.07"
+description  = "Essential production tools: 10 plugins for mixing, mastering, and music creation with modern sound quality."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.meldaproduction.com/MEssentialsFXBundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.meldaproduction.com/MEssentialsFXBundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MEssentialsFXBundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.meldaproduction.com/MEssentialsFXBundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.meldaproduction.com/MEssentialsFXBundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

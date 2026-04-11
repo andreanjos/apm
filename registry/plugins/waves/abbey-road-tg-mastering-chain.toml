@@ -1,26 +1,27 @@
-slug        = "abbey-road-tg-mastering-chain"
-name        = "Abbey Road TG Mastering Chain"
-vendor      = "Waves"
-version     = "14.0"
-description = "Emulation of the EMI TG12410 Transfer Console used for mastering at Abbey Road."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/abbey-road-tg-mastering-chain"
-is_paid     = true
+slug         = "abbey-road-tg-mastering-chain"
+name         = "Abbey Road TG Mastering Chain"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Emulation of the EMI TG12410 Transfer Console used for mastering at Abbey Road."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/abbey-road-tg-mastering-chain"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/abbey-road-tg-mastering-chain"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/abbey-road-tg-mastering-chain"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/abbey-road-tg-mastering-chain"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/abbey-road-tg-mastering-chain"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

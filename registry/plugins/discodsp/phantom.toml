@@ -1,25 +1,26 @@
-slug        = "phantom"
-name        = "Phantom"
-vendor      = "DiscoDSP"
-version     = "1.2"
-description = "Classic PM/FM synthesizer with 8-voice polyphony, 4 operators, and Yamaha DX SysEx import."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.discodsp.com/phantom/"
-is_paid     = true
+slug         = "phantom"
+name         = "Phantom"
+vendor       = "DiscoDSP"
+version      = "1.2"
+description  = "Classic PM/FM synthesizer with 8-voice polyphony, 4 operators, and Yamaha DX SysEx import."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.discodsp.com/phantom/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.discodsp.com/phantom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.discodsp.com/phantom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.discodsp.com/phantom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.discodsp.com/phantom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

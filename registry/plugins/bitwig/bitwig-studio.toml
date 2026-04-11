@@ -1,17 +1,19 @@
-slug        = "bitwig-studio"
-name        = "Bitwig Studio"
-vendor      = "Bitwig"
-version     = "5.3"
-description = "Modern music production and performance DAW with a modular sound engine, deep modulation system, and hybrid hardware/software workflow."
-category    = "daws"
-subcategory = "general"
-license     = "commercial"
-tags        = ["daw", "production", "modular", "electronic", "sound-design", "performance"]
-homepage    = "https://www.bitwig.com/"
+slug         = "bitwig-studio"
+name         = "Bitwig Studio"
+vendor       = "Bitwig"
+version      = "5.3"
+description  = "Modern music production and performance DAW with a modular sound engine, deep modulation system, and hybrid hardware/software workflow."
+category     = "daws"
+product_type = "daw"
+subcategory  = "general"
+license      = "commercial"
+tags         = ["daw", "production", "modular", "electronic", "sound-design", "performance"]
+homepage     = "https://www.bitwig.com/"
+is_paid      = true
 
 [formats.app]
 url           = "https://www.bitwig.com/download/"
 sha256        = "manual"
 install_type  = "pkg"
-bundle_path   = "Bitwig Studio.app"
 download_type = "manual"
+bundle_path   = "Bitwig Studio.app"

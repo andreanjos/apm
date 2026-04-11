@@ -1,24 +1,25 @@
-slug        = "polygon-2"
-name        = "Polygon 2"
-vendor      = "Glitchmachines"
-version     = "2"
-description = "Advanced multi-effects plugin with modular architecture for complex electronic sound design."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://glitchmachines.com/products/polygon/"
-is_paid     = true
+slug         = "polygon-2"
+name         = "Polygon 2"
+vendor       = "Glitchmachines"
+version      = "2"
+description  = "Advanced multi-effects plugin with modular architecture for complex electronic sound design."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://glitchmachines.com/products/polygon/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://glitchmachines.com/products/polygon/"
-sha256       = ""
-install_type = "zip"
+url           = "https://glitchmachines.com/products/polygon/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://glitchmachines.com/products/polygon/"
-sha256       = ""
-install_type = "zip"
+url           = "https://glitchmachines.com/products/polygon/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

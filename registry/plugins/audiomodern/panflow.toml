@@ -1,26 +1,27 @@
-slug        = "panflow"
-name        = "Panflow"
-vendor      = "Audiomodern"
-version     = "1.0.0"
-description = "Creative panning modulator and stereo rhythm generator for evolving spatial movement in mixes."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodern.com/products/"
+slug         = "panflow"
+name         = "Panflow"
+vendor       = "Audiomodern"
+version      = "1.0.0"
+description  = "Creative panning modulator and stereo rhythm generator for evolving spatial movement in mixes."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodern.com/products/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/9078-Panflow?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodern.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodern.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodern.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodern.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

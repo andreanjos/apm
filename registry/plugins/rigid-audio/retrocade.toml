@@ -1,25 +1,26 @@
-slug        = "retrocade"
-name        = "Retrocade"
-vendor      = "Rigid Audio"
-version     = "1.0.0"
-description = "Kontakt instrument inspired by iconic 80s and early 90s analog sounds with 256 synthwave presets."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.rigid-audio.com/product/retrocade/"
-is_paid     = true
+slug         = "retrocade"
+name         = "Retrocade"
+vendor       = "Rigid Audio"
+version      = "1.0.0"
+description  = "Kontakt instrument inspired by iconic 80s and early 90s analog sounds with 256 synthwave presets."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.rigid-audio.com/product/retrocade/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.rigid-audio.com/product/retrocade/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rigid-audio.com/product/retrocade/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.rigid-audio.com/product/retrocade/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rigid-audio.com/product/retrocade/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

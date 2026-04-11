@@ -1,25 +1,26 @@
-slug        = "bansuri"
-name        = "Bansuri"
-vendor      = "Have Audio"
-version     = "1.0.0"
-description = "Deeply sampled Indian bansuri flute with playable sustained articulations and cinematic textures."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://haveaudio.com/products/bansuri"
-is_paid     = true
+slug         = "bansuri"
+name         = "Bansuri"
+vendor       = "Have Audio"
+version      = "1.0.0"
+description  = "Deeply sampled Indian bansuri flute with playable sustained articulations and cinematic textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://haveaudio.com/products/bansuri"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://haveaudio.com/products/bansuri"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/bansuri"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://haveaudio.com/products/bansuri"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/bansuri"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

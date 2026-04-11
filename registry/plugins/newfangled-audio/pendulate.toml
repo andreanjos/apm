@@ -1,26 +1,27 @@
-slug        = "pendulate"
-name        = "Pendulate"
-vendor      = "Newfangled Audio"
-version     = "1.0.0"
-description = "Free chaotic mono synth with a double-pendulum oscillator for complex, organic tones."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.newfangledaudio.com/pendulate"
+slug         = "pendulate"
+name         = "Pendulate"
+vendor       = "Newfangled Audio"
+version      = "1.0.0"
+description  = "Free chaotic mono synth with a double-pendulum oscillator for complex, organic tones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.newfangledaudio.com/pendulate"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/6762-Pendulate?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.newfangledaudio.com/pendulate"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.newfangledaudio.com/pendulate"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.newfangledaudio.com/pendulate"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.newfangledaudio.com/pendulate"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

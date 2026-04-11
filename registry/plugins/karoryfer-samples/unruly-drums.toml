@@ -1,25 +1,26 @@
-slug        = "unruly-drums"
-name        = "Unruly Drums"
-vendor      = "Karoryfer Samples"
-version     = "1.0.0"
-description = "Drum kit sample library where every drum is a snare, ranging from a vintage 1960s Trixon to a 22-inch giant."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://shop.karoryfer.com/products/unruly-drums"
-is_paid     = true
+slug         = "unruly-drums"
+name         = "Unruly Drums"
+vendor       = "Karoryfer Samples"
+version      = "1.0.0"
+description  = "Drum kit sample library where every drum is a snare, ranging from a vintage 1960s Trixon to a 22-inch giant."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://shop.karoryfer.com/products/unruly-drums"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://shop.karoryfer.com/products/unruly-drums"
-sha256       = ""
-install_type = "zip"
+url           = "https://shop.karoryfer.com/products/unruly-drums"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://shop.karoryfer.com/products/unruly-drums"
-sha256       = ""
-install_type = "zip"
+url           = "https://shop.karoryfer.com/products/unruly-drums"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

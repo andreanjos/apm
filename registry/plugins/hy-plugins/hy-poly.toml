@@ -1,26 +1,27 @@
-slug        = "hy-poly"
-name        = "HY POLY"
-vendor      = "HY Plugins"
-version     = "1.0.0"
-description = "Polyphonic synthesizer plugin with expressive controls for pads and melodic content."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://hy-plugins.com/product/hy-poly/"
+slug         = "hy-poly"
+name         = "HY POLY"
+vendor       = "HY Plugins"
+version      = "1.0.0"
+description  = "Polyphonic synthesizer plugin with expressive controls for pads and melodic content."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://hy-plugins.com/product/hy-poly/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7929-HY-POLY?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hy-plugins.com/product/hy-poly/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hy-plugins.com/product/hy-poly/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hy-plugins.com/product/hy-poly/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hy-plugins.com/product/hy-poly/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

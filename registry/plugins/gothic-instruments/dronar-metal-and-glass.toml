@@ -1,25 +1,26 @@
-slug        = "dronar-metal-and-glass"
-name        = "Dronar Metal and Glass"
-vendor      = "Gothic Instruments"
-version     = "1.0.0"
-description = "Kontakt drone instrument built from metal and glass recordings for industrial atmospheric pads."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonoracinematic.com/products/dronar-metal-and-glass"
-is_paid     = true
+slug         = "dronar-metal-and-glass"
+name         = "Dronar Metal and Glass"
+vendor       = "Gothic Instruments"
+version      = "1.0.0"
+description  = "Kontakt drone instrument built from metal and glass recordings for industrial atmospheric pads."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonoracinematic.com/products/dronar-metal-and-glass"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonoracinematic.com/products/dronar-metal-and-glass"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/dronar-metal-and-glass"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonoracinematic.com/products/dronar-metal-and-glass"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/dronar-metal-and-glass"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

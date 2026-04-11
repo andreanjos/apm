@@ -1,20 +1,21 @@
-slug        = "fullbucket-deputy"
-name        = "Deputy Mark II"
-vendor      = "Full Bucket Music"
-version     = "1.4.0"
-description = "String machine and early polyphonic synthesizer emulation with built-in effects."
-category    = "instruments"
-subcategory = "synthesizer"
-license     = "freeware"
-tags        = ["strings", "synthesizer", "vintage", "ensemble", "free", "freeware"]
-homepage    = "https://www.fullbucket.de/music/deputy.html"
+slug         = "fullbucket-deputy"
+name         = "Deputy Mark II"
+vendor       = "Full Bucket Music"
+version      = "1.4.0"
+description  = "String machine and early polyphonic synthesizer emulation with built-in effects."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synthesizer"
+license      = "freeware"
+tags         = ["strings", "synthesizer", "vintage", "ensemble", "free", "freeware"]
+homepage     = "https://www.fullbucket.de/music/deputy.html"
 
 [formats.vst3]
-url          = "https://fullbucket.de/music/dl.php?file=deputy_1_4_0_mac"
-sha256       = "b4e1e7b722f1e8e1e996b0b5a07490bd18465905e4dec3743b512ace0f1f09f9"
-install_type = "pkg"
+url           = "https://fullbucket.de/music/dl.php?file=deputy_1_4_0_mac"
+sha256        = "b4e1e7b722f1e8e1e996b0b5a07490bd18465905e4dec3743b512ace0f1f09f9"
+install_type  = "pkg"
 
 [formats.au]
-url          = "https://fullbucket.de/music/dl.php?file=deputy_1_4_0_mac"
-sha256       = "b4e1e7b722f1e8e1e996b0b5a07490bd18465905e4dec3743b512ace0f1f09f9"
-install_type = "pkg"
+url           = "https://fullbucket.de/music/dl.php?file=deputy_1_4_0_mac"
+sha256        = "b4e1e7b722f1e8e1e996b0b5a07490bd18465905e4dec3743b512ace0f1f09f9"
+install_type  = "pkg"

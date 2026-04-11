@@ -1,26 +1,27 @@
-slug        = "berzerk-distortion"
-name        = "Berzerk Distortion"
-vendor      = "Waves"
-version     = "14.0"
-description = "Extreme multi-mode distortion and saturation plugin for bold creative sound design."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/berzerk-distortion"
-is_paid     = true
+slug         = "berzerk-distortion"
+name         = "Berzerk Distortion"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Extreme multi-mode distortion and saturation plugin for bold creative sound design."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/berzerk-distortion"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/berzerk-distortion"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/berzerk-distortion"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/berzerk-distortion"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/berzerk-distortion"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

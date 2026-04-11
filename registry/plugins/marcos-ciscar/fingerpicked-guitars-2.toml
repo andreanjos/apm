@@ -1,25 +1,26 @@
-slug        = "fingerpicked-guitars-2"
-name        = "Fingerpicked Guitars 2"
-vendor      = "Marcos Ciscar"
-version     = "2"
-description = "Studio-grade Kontakt fingerstyle acoustic guitar library with natural nuance and articulations."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.marcosciscar.com"
-is_paid     = true
+slug         = "fingerpicked-guitars-2"
+name         = "Fingerpicked Guitars 2"
+vendor       = "Marcos Ciscar"
+version      = "2"
+description  = "Studio-grade Kontakt fingerstyle acoustic guitar library with natural nuance and articulations."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.marcosciscar.com"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.marcosciscar.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.marcosciscar.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.marcosciscar.com"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.marcosciscar.com"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

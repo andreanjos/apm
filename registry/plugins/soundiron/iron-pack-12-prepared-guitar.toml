@@ -1,25 +1,27 @@
-slug        = "iron-pack-12-prepared-guitar"
-name        = "Iron Pack 12 – Prepared Guitar"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Iron Pack Vol.12 — a prepared guitar Kontakt library with extended techniques and textures."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/iron-pack-12-prepared-guitar"
-is_paid     = true
+slug         = "iron-pack-12-prepared-guitar"
+name         = "Iron Pack 12 - Prepared Guitar"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Iron Pack Vol.12 - a prepared guitar Kontakt library with extended techniques and textures."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+aliases      = ["iron-pack-12-8211-prepared-guitar"]
+homepage     = "https://soundiron.com/products/iron-pack-12-prepared-guitar"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/iron-pack-12-prepared-guitar"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/iron-pack-12-prepared-guitar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/iron-pack-12-prepared-guitar"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/iron-pack-12-prepared-guitar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

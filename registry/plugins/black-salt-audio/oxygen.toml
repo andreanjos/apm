@@ -1,26 +1,27 @@
-slug        = "oxygen"
-name        = "Oxygen"
-vendor      = "Black Salt Audio"
-version     = "1.3.2"
-description = "High-frequency exciter plugin using a unique process to enhance and control top-end with musical character."
-category    = "effects"
-subcategory = "exciter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.blacksaltaudio.com/"
+slug         = "oxygen"
+name         = "Oxygen"
+vendor       = "Black Salt Audio"
+version      = "1.3.2"
+description  = "High-frequency exciter plugin using a unique process to enhance and control top-end with musical character."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "exciter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.blacksaltaudio.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/62-Exciter/9060-Oxygen?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.blacksaltaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blacksaltaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.blacksaltaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blacksaltaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

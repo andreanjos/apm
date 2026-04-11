@@ -1,25 +1,26 @@
-slug        = "innovation-bundle"
-name        = "Innovation Bundle"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "BLEASS bundle of innovative effect plugins for creative and experimental sound design."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/product/innovation-bundle/"
-is_paid     = true
+slug         = "innovation-bundle"
+name         = "Innovation Bundle"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "BLEASS bundle of innovative effect plugins for creative and experimental sound design."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/product/innovation-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/product/innovation-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/product/innovation-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/product/innovation-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/product/innovation-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

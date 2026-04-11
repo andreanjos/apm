@@ -1,24 +1,25 @@
-slug        = "channelx-compressor-eq-and-preamp-bundle"
-name        = "ChannelX Compressor, EQ, and Preamp Bundle"
-vendor      = "Lindell Audio"
-version     = "1.0"
-description = "Lindell Audio ChannelX bundle of modeled vintage compressor, EQ, and preamp plugins."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://lindellplugins.com/"
-is_paid     = true
+slug         = "channelx-compressor-eq-and-preamp-bundle"
+name         = "ChannelX Compressor, EQ, and Preamp Bundle"
+vendor       = "Lindell Audio"
+version      = "1.0"
+description  = "Lindell Audio ChannelX bundle of modeled vintage compressor, EQ, and preamp plugins."
+category     = "effects"
+product_type = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://lindellplugins.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://lindellplugins.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://lindellplugins.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://lindellplugins.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://lindellplugins.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

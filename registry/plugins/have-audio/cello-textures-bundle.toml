@@ -1,25 +1,26 @@
-slug        = "cello-textures-bundle"
-name        = "Cello Textures Bundle"
-vendor      = "Have Audio"
-version     = "1.0.0"
-description = "Bundle of dark cinematic cello texture libraries delivered by Parisian cellist Jean-Philippe Feiss."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://haveaudio.com/products/cello-textures-double-espresso-bundle"
-is_paid     = true
+slug         = "cello-textures-bundle"
+name         = "Cello Textures Bundle"
+vendor       = "Have Audio"
+version      = "1.0.0"
+description  = "Bundle of dark cinematic cello texture libraries delivered by Parisian cellist Jean-Philippe Feiss."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://haveaudio.com/products/cello-textures-double-espresso-bundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://haveaudio.com/products/cello-textures-double-espresso-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/cello-textures-double-espresso-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://haveaudio.com/products/cello-textures-double-espresso-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/cello-textures-double-espresso-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

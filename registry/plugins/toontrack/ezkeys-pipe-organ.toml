@@ -1,26 +1,27 @@
-slug        = "ezkeys-pipe-organ"
-name        = "EZKeys Pipe Organ"
-vendor      = "Toontrack"
-version     = "2.1.5"
-description = "EZkeys expansion featuring a sampled pipe organ for classical and contemporary keyboard compositions."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-installer   = "toontrack-product-manager"
-homepage    = "https://www.toontrack.com/product/pipe-organ-ekx/"
-is_paid     = true
+slug         = "ezkeys-pipe-organ"
+name         = "EZKeys Pipe Organ"
+vendor       = "Toontrack"
+version      = "2.1.5"
+description  = "EZkeys expansion featuring a sampled pipe organ for classical and contemporary keyboard compositions."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+installer    = "toontrack-product-manager"
+homepage     = "https://www.toontrack.com/product/pipe-organ-ekx/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.toontrack.com/product/pipe-organ-ekx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/pipe-organ-ekx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.toontrack.com/product/pipe-organ-ekx/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/pipe-organ-ekx/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

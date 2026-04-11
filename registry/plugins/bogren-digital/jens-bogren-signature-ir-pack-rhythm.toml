@@ -1,26 +1,27 @@
-slug        = "jens-bogren-signature-ir-pack-rhythm"
-name        = "Jens Bogren Signature IR Pack Rhythm"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Signature IR pack from Jens Bogren designed for tight, punchy rhythm guitar cabinet tones."
-category    = "utility"
-subcategory = "impulse response"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/jens-bogren-signature-ir-pack-rhythm"
+slug         = "jens-bogren-signature-ir-pack-rhythm"
+name         = "Jens Bogren Signature IR Pack Rhythm"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Signature IR pack from Jens Bogren designed for tight, punchy rhythm guitar cabinet tones."
+category     = "utility"
+product_type = "bundle"
+subcategory  = "impulse response"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/jens-bogren-signature-ir-pack-rhythm"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/9189-Jens-Bogren-Signature-IR-Pack-Rhythm?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/jens-bogren-signature-ir-pack-rhythm"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/jens-bogren-signature-ir-pack-rhythm"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/jens-bogren-signature-ir-pack-rhythm"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/jens-bogren-signature-ir-pack-rhythm"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

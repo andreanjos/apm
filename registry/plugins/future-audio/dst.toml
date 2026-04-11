@@ -1,26 +1,27 @@
-slug        = "dst"
-name        = "DST"
-vendor      = "Future Audio"
-version     = "1.0"
-description = "Future Audio DST is a versatile distortion plugin with multiple clipping modes and tone shaping."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://future-audio.com/"
+slug         = "dst"
+name         = "DST"
+vendor       = "Future Audio"
+version      = "1.0"
+description  = "Future Audio DST is a versatile distortion plugin with multiple clipping modes and tone shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://future-audio.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/11153-DST?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://future-audio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://future-audio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://future-audio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://future-audio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

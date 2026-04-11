@@ -1,26 +1,27 @@
-slug        = "halo-upmix-with-3d-immersive-extension"
-name        = "Halo Upmix with 3D Immersive Extension"
-vendor      = "NUGEN Audio"
-version     = "1.0.0"
-description = "Halo Upmix bundled with its 3D Immersive Extension for full stereo-to-surround and Atmos upmixing."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/haloupmix/"
+slug         = "halo-upmix-with-3d-immersive-extension"
+name         = "Halo Upmix with 3D Immersive Extension"
+vendor       = "NUGEN Audio"
+version      = "1.0.0"
+description  = "Halo Upmix bundled with its 3D Immersive Extension for full stereo-to-surround and Atmos upmixing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/haloupmix/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/2310-Halo-Upmix-with-3D-Immersive-Extension?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/haloupmix/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/haloupmix/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/haloupmix/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/haloupmix/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

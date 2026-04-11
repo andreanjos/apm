@@ -1,25 +1,26 @@
-slug        = "bizarre-sitar"
-name        = "Bizarre Sitar"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt library of the Indian sitar with deeply sampled resonance and extended techniques."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/bizarre-sitar"
-is_paid     = true
+slug         = "bizarre-sitar"
+name         = "Bizarre Sitar"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt library of the Indian sitar with deeply sampled resonance and extended techniques."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/bizarre-sitar"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/bizarre-sitar"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/bizarre-sitar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/bizarre-sitar"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/bizarre-sitar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

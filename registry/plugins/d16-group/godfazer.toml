@@ -1,26 +1,27 @@
-slug        = "godfazer"
-name        = "Godfazer"
-vendor      = "D16 Group"
-version     = "1.2.3"
-description = "Swiss army knife of modulation combining tremolo, chorus, rotary, filter and phaser in one plugin."
-category    = "effects"
-subcategory = "modulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/godfazer"
+slug         = "godfazer"
+name         = "Godfazer"
+vendor       = "D16 Group"
+version      = "1.2.3"
+description  = "Swiss army knife of modulation combining tremolo, chorus, rotary, filter and phaser in one plugin."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "modulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/godfazer"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/5818-Godfazer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/godfazer"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/godfazer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/godfazer"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/godfazer"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

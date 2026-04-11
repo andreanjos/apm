@@ -1,26 +1,27 @@
-slug        = "tue-madsen-signature-ir-pack"
-name        = "Tue Madsen Signature IR Pack"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Signature guitar cabinet IR pack from renowned producer Tue Madsen for professional metal mixing."
-category    = "utility"
-subcategory = "impulse response"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/tue-madsen-signature-ir-pack"
+slug         = "tue-madsen-signature-ir-pack"
+name         = "Tue Madsen Signature IR Pack"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Signature guitar cabinet IR pack from renowned producer Tue Madsen for professional metal mixing."
+category     = "utility"
+product_type = "bundle"
+subcategory  = "impulse response"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/tue-madsen-signature-ir-pack"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/10084-Tue-Madsen-Signature-IR-Pack?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/tue-madsen-signature-ir-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/tue-madsen-signature-ir-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/tue-madsen-signature-ir-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/tue-madsen-signature-ir-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

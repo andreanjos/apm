@@ -1,26 +1,27 @@
-slug        = "lo-fi"
-name        = "Lo Fi"
-vendor      = "EastWest Sounds"
-version     = "1.0.0"
-description = "Lo-fi virtual instrument delivering vintage, degraded analog and tape-saturated sounds."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/synth-and-effects/lofi"
+slug         = "lo-fi"
+name         = "Lo Fi"
+vendor       = "EastWest Sounds"
+version      = "1.0.0"
+description  = "Lo-fi virtual instrument delivering vintage, degraded analog and tape-saturated sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/synth-and-effects/lofi"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15600-Lo-Fi?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/synth-and-effects/lofi"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/synth-and-effects/lofi"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/synth-and-effects/lofi"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/synth-and-effects/lofi"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

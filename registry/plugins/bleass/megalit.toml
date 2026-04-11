@@ -1,25 +1,26 @@
-slug        = "megalit"
-name        = "Megalit"
-vendor      = "BLEASS"
-version     = "1.0"
-description = "BLEASS full-featured modern polyphonic synthesizer for iOS and desktop."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bleass.com/product/bleass-megalit/"
-is_paid     = true
+slug         = "megalit"
+name         = "Megalit"
+vendor       = "BLEASS"
+version      = "1.0"
+description  = "BLEASS full-featured modern polyphonic synthesizer for iOS and desktop."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bleass.com/product/bleass-megalit/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bleass.com/product/bleass-megalit/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/product/bleass-megalit/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bleass.com/product/bleass-megalit/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bleass.com/product/bleass-megalit/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

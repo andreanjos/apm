@@ -1,25 +1,26 @@
-slug        = "sampletron-2-crossgrade"
-name        = "SampleTron 2 Crossgrade"
-vendor      = "IK Multimedia"
-version     = "2.0"
-description = "Crossgrade to SampleTron 2, the deep sampling of vintage Mellotron and Chamberlin tape samplers."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/sampletron2/"
-is_paid     = true
+slug         = "sampletron-2-crossgrade"
+name         = "SampleTron 2 Crossgrade"
+vendor       = "IK Multimedia"
+version      = "2.0"
+description  = "Crossgrade to SampleTron 2, the deep sampling of vintage Mellotron and Chamberlin tape samplers."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/sampletron2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/sampletron2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/sampletron2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/sampletron2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/sampletron2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

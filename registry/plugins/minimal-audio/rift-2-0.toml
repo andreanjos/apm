@@ -1,26 +1,28 @@
-slug        = "rift-2-0"
-name        = "Rift 2 0"
-vendor      = "Minimal Audio"
-version     = "2.0"
-description = "Cutting-edge hybrid distortion with 30 algorithms, morphing filters, feedback, and multiband processing."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.minimal.audio/products/rift"
+slug         = "rift-2-0"
+name         = "Rift 2 0"
+vendor       = "Minimal Audio"
+version      = "2.0"
+description  = "Cutting-edge hybrid distortion with 30 algorithms, morphing filters, feedback, and multiband processing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+aliases      = ["rift-2-0-minimal-audio"]
+homepage     = "https://www.minimal.audio/products/rift"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/7803-Rift-2-0?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.minimal.audio/products/rift"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.minimal.audio/products/rift"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.minimal.audio/products/rift"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.minimal.audio/products/rift"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "analog-classics-pro-bundle"
-name        = "Analog Classics Pro Bundle"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Bundle of iconic UAD analog emulations including Neve, Pultec, LA-2A, and 1176."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/bundles/analog-classics-pro-bundle.html"
-is_paid     = true
+slug         = "analog-classics-pro-bundle"
+name         = "Analog Classics Pro Bundle"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Bundle of iconic UAD analog emulations including Neve, Pultec, LA-2A, and 1176."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/bundles/analog-classics-pro-bundle.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/bundles/analog-classics-pro-bundle.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/bundles/analog-classics-pro-bundle.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/bundles/analog-classics-pro-bundle.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/bundles/analog-classics-pro-bundle.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

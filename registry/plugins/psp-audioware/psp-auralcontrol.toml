@@ -1,26 +1,27 @@
-slug        = "psp-auralcontrol"
-name        = "PSP auralControl"
-vendor      = "PSP Audioware"
-version     = "1.2.5"
-description = "Multichannel mastering tool for adjusting level, polarity, bandwidth, and timing per channel."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-auralcontrol"
+slug         = "psp-auralcontrol"
+name         = "PSP auralControl"
+vendor       = "PSP Audioware"
+version      = "1.2.5"
+description  = "Multichannel mastering tool for adjusting level, polarity, bandwidth, and timing per channel."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-auralcontrol"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/10864-PSP-auralControl?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-auralcontrol"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-auralcontrol"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-auralcontrol"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-auralcontrol"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

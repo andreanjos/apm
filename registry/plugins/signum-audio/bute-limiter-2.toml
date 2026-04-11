@@ -1,26 +1,27 @@
-slug        = "bute-limiter-2"
-name        = "BUTE Limiter 2"
-vendor      = "Signum Audio"
-version     = "1.0.0"
-description = "True-peak brick wall limiter with transparent processing and support for major broadcast loudness standards."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.signumaudio.com/bute-loudness-suite"
+slug         = "bute-limiter-2"
+name         = "BUTE Limiter 2"
+vendor       = "Signum Audio"
+version      = "1.0.0"
+description  = "True-peak brick wall limiter with transparent processing and support for major broadcast loudness standards."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.signumaudio.com/bute-loudness-suite"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/5192-BUTE-Limiter-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.signumaudio.com/bute-loudness-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.signumaudio.com/bute-loudness-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.signumaudio.com/bute-loudness-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.signumaudio.com/bute-loudness-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

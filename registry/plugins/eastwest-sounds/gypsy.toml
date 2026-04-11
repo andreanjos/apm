@@ -1,26 +1,27 @@
-slug        = "gypsy"
-name        = "Gypsy"
-vendor      = "EastWest Sounds"
-version     = "1.0.0"
-description = "European world instrument collection with realistic legato violin, classical guitar, and accordions."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/world-and-traditional/gypsy"
+slug         = "gypsy"
+name         = "Gypsy"
+vendor       = "EastWest Sounds"
+version      = "1.0.0"
+description  = "European world instrument collection with realistic legato violin, classical guitar, and accordions."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/world-and-traditional/gypsy"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15626-Gypsy?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/world-and-traditional/gypsy"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/world-and-traditional/gypsy"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/world-and-traditional/gypsy"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/world-and-traditional/gypsy"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "vstplug-compressor2"
-name        = "VSTplug compressor2"
-vendor      = "DSPplug"
-version     = "1.0.0"
-description = "Updated compressor plugin offering enhanced dynamic processing and flexible compression control."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://dspplug.com/"
-is_paid     = true
+slug         = "vstplug-compressor2"
+name         = "VSTplug compressor2"
+vendor       = "DSPplug"
+version      = "1.0.0"
+description  = "Updated compressor plugin offering enhanced dynamic processing and flexible compression control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://dspplug.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://dspplug.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dspplug.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://dspplug.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://dspplug.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

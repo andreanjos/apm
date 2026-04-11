@@ -1,25 +1,26 @@
-slug        = "swam-double-reeds"
-name        = "SWAM Double Reeds"
-vendor      = "Audio Modeling"
-version     = "3"
-description = "Four physically modeled woodwinds — oboe, English horn, bassoon, and contrabassoon — with real-time expression."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodeling.com/swam-engine/solo-woodwinds/swam-double-reeds/"
-is_paid     = true
+slug         = "swam-double-reeds"
+name         = "SWAM Double Reeds"
+vendor       = "Audio Modeling"
+version      = "3"
+description  = "Four physically modeled woodwinds - oboe, English horn, bassoon, and contrabassoon - with real-time expression."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodeling.com/swam-engine/solo-woodwinds/swam-double-reeds/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodeling.com/swam-engine/solo-woodwinds/swam-double-reeds/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/swam-engine/solo-woodwinds/swam-double-reeds/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodeling.com/swam-engine/solo-woodwinds/swam-double-reeds/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodeling.com/swam-engine/solo-woodwinds/swam-double-reeds/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

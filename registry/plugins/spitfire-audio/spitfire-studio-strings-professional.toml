@@ -1,26 +1,27 @@
-slug        = "spitfire-studio-strings-professional"
-name        = "Spitfire Studio Strings Professional"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "Professional edition of Spitfire Studio Strings, an incredibly versatile pro dry-stage string library."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-strings-professional/"
-is_paid     = true
+slug         = "spitfire-studio-strings-professional"
+name         = "Spitfire Studio Strings Professional"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "Professional edition of Spitfire Studio Strings, an incredibly versatile pro dry-stage string library."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-strings-professional/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-strings-professional/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-strings-professional/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-strings-professional/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/spitfire-studio-strings-professional/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

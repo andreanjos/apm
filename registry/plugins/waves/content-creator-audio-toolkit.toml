@@ -1,25 +1,26 @@
-slug        = "content-creator-audio-toolkit"
-name        = "Content Creator Audio Toolkit"
-vendor      = "Waves"
-version     = "14.0"
-description = "All-in-one audio toolkit for streamers and content creators to sound professional instantly."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/content-creator-audio-toolkit"
-is_paid     = true
+slug         = "content-creator-audio-toolkit"
+name         = "Content Creator Audio Toolkit"
+vendor       = "Waves"
+version      = "14.0"
+description  = "All-in-one audio toolkit for streamers and content creators to sound professional instantly."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/content-creator-audio-toolkit"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/content-creator-audio-toolkit"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/content-creator-audio-toolkit"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/content-creator-audio-toolkit"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/content-creator-audio-toolkit"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

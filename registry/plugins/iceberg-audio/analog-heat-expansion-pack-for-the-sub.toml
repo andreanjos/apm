@@ -1,26 +1,27 @@
-slug        = "analog-heat-expansion-pack-for-the-sub"
-name        = "Analog Heat Expansion Pack for The Sub"
-vendor      = "Iceberg Audio"
-version     = "1.0.0"
-description = "Expansion pack for The Sub featuring 17 subs created using vintage analog hardware equipment."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://icebergaudio.com/shop/"
+slug         = "analog-heat-expansion-pack-for-the-sub"
+name         = "Analog Heat Expansion Pack for The Sub"
+vendor       = "Iceberg Audio"
+version      = "1.0.0"
+description  = "Expansion pack for The Sub featuring 17 subs created using vintage analog hardware equipment."
+category     = "instruments"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://icebergaudio.com/shop/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/8040-Analog-Heat-Expansion-Pack-for-The-Sub-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://icebergaudio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://icebergaudio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://icebergaudio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://icebergaudio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "tc-1210-unique-spatial-expander"
-name        = "TC 1210 Unique Spatial Expander"
-vendor      = "TC Electronic"
-version     = "1.0.0"
-description = "Stereo expander and modulation plugin recreating the iconic TC 1210 Spatial Expander hardware."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tcelectronic.com/product.html?modelCode=0815-AAW"
+slug         = "tc-1210-unique-spatial-expander"
+name         = "TC 1210 Unique Spatial Expander"
+vendor       = "TC Electronic"
+version      = "1.0.0"
+description  = "Stereo expander and modulation plugin recreating the iconic TC 1210 Spatial Expander hardware."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tcelectronic.com/product.html?modelCode=0815-AAW"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/14606-TC-1210-Unique-Spatial-Expander?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tcelectronic.com/product.html?modelCode=0815-AAW"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tcelectronic.com/product.html?modelCode=0815-AAW"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tcelectronic.com/product.html?modelCode=0815-AAW"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tcelectronic.com/product.html?modelCode=0815-AAW"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "ample-china-erhu-aceh"
-name        = "Ample China Erhu ACEH"
-vendor      = "Ample Sound"
-version     = "4"
-description = "Chinese erhu two-string fiddle virtual instrument capturing expressive bowing articulations."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.amplesound.net/en/"
-is_paid     = true
+slug         = "ample-china-erhu-aceh"
+name         = "Ample China Erhu ACEH"
+vendor       = "Ample Sound"
+version      = "4"
+description  = "Chinese erhu two-string fiddle virtual instrument capturing expressive bowing articulations."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.amplesound.net/en/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.amplesound.net/en/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.amplesound.net/en/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.amplesound.net/en/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

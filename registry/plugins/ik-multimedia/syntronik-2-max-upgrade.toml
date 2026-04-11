@@ -1,25 +1,26 @@
-slug        = "syntronik-2-max-upgrade"
-name        = "Syntronik 2 MAX Upgrade"
-vendor      = "IK Multimedia"
-version     = "2.0"
-description = "Upgrade to Syntronik 2 MAX unlocking all 34 synthesizers and 5,000+ presets in the full suite."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/syntronik2/"
-is_paid     = true
+slug         = "syntronik-2-max-upgrade"
+name         = "Syntronik 2 MAX Upgrade"
+vendor       = "IK Multimedia"
+version      = "2.0"
+description  = "Upgrade to Syntronik 2 MAX unlocking all 34 synthesizers and 5,000+ presets in the full suite."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/syntronik2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/syntronik2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/syntronik2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/syntronik2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/syntronik2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

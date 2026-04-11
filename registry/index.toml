@@ -1,5 +1,5 @@
 version = 1
-generated = "2026-04-11T04:11:22Z"
+generated = "2026-04-11T05:11:59Z"
 
 [[plugins]]
 name = "100-acid-vol-1"
@@ -55,11 +55,6 @@ version = "11.0"
 name = "1178"
 path = "plugins/pulsar-audio/1178.toml"
 version = "1.5.11"
-
-[[plugins]]
-name = "175b-038-176-tube-compressor-collection"
-path = "plugins/universal-audio/175b-038-176-tube-compressor-collection.toml"
-version = "11.0"
 
 [[plugins]]
 name = "175b-176-tube-compressor-collection"
@@ -215,11 +210,6 @@ version = "7.0"
 name = "4030-retro-compressor-native"
 path = "plugins/mcdsp/4030-retro-compressor-native.toml"
 version = "7.0"
-
-[[plugins]]
-name = "408217s-very-own-keys"
-path = "plugins/native-instruments/408217s-very-own-keys.toml"
-version = "1.0"
 
 [[plugins]]
 name = "409-opto-compressor"
@@ -432,16 +422,6 @@ path = "plugins/initial-audio/808-studio-2.toml"
 version = "2.0"
 
 [[plugins]]
-name = "808217s-analog-hits"
-path = "plugins/capsule-audio/808217s-analog-hits.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "808217s-spaces-v2"
-path = "plugins/nomad-factory/808217s-spaces-v2.toml"
-version = "2.5.1"
-
-[[plugins]]
 name = "80s-analog-hits"
 path = "plugins/capsule-audio/80s-analog-hits.toml"
 version = "1.0.0"
@@ -489,11 +469,6 @@ version = "1.0.0"
 [[plugins]]
 name = "a-type-multiband-dynamic-enhancer"
 path = "plugins/universal-audio/a-type-multiband-dynamic-enhancer.toml"
-version = "11.0"
-
-[[plugins]]
-name = "a-type-multiband-dynamic-enhancer-universal-audio"
-path = "plugins/universal-audio/a-type-multiband-dynamic-enhancer-universal-audio.toml"
 version = "11.0"
 
 [[plugins]]
@@ -832,11 +807,6 @@ path = "plugins/blue-cat-audio/acoufiend.toml"
 version = "1.14"
 
 [[plugins]]
-name = "acoustic-038-electric-saz-bundle"
-path = "plugins/soundiron/acoustic-038-electric-saz-bundle.toml"
-version = "1.0"
-
-[[plugins]]
 name = "acoustic-dhaak-2"
 path = "plugins/rdgaudio/acoustic-dhaak-2.toml"
 version = "2.0"
@@ -930,11 +900,6 @@ version = "B029"
 name = "adam-pietruszko-soundbank-for-sub-37"
 path = "plugins/5pin-media/adam-pietruszko-soundbank-for-sub-37.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "adaptiverb"
-path = "plugins/zynaptiq/adaptiverb.toml"
-version = "1.4.0"
 
 [[plugins]]
 name = "adc1-compressor"
@@ -1070,11 +1035,6 @@ version = "6.0"
 name = "aegean-music-doppler-dome"
 path = "plugins/aegean-music/aegean-music-doppler-dome.toml"
 version = "1.0"
-
-[[plugins]]
-name = "aelexis-8211-aural-vocoding-synthesizer-effect"
-path = "plugins/eplex7-dsp/aelexis-8211-aural-vocoding-synthesizer-effect.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "aelexis-aural-vocoding-synthesizer-effect"
@@ -1410,11 +1370,6 @@ version = "1.0"
 name = "aliasonix"
 path = "plugins/hideaway-studio/aliasonix.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "alien-skies-8211-cinematic-ambiences-2"
-path = "plugins/zero-g/alien-skies-8211-cinematic-ambiences-2.toml"
-version = "1.0"
 
 [[plugins]]
 name = "alien-skies-cinematic-ambiences-2"
@@ -1802,11 +1757,6 @@ path = "plugins/kazrog/ampcraft-1992.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "ampcraft-8211-1992"
-path = "plugins/kazrog/ampcraft-8211-1992.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "amped-elektra"
 path = "plugins/steinberg/amped-elektra.toml"
 version = "1"
@@ -1882,11 +1832,6 @@ path = "plugins/bogren-digital/ampknob.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "ampknob-038-bassknob"
-path = "plugins/bogren-digital/ampknob-038-bassknob.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "ampknob-bassknob"
 path = "plugins/bogren-digital/ampknob-bassknob.toml"
 version = "1.0.0"
@@ -1919,11 +1864,6 @@ version = "1.0.0"
 [[plugins]]
 name = "ampknob-bdm-75"
 path = "plugins/bogren-digital/ampknob-bdm-75.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "ampknob-bdm-800-8211-badboy"
-path = "plugins/bogren-digital/ampknob-bdm-800-8211-badboy.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -2044,11 +1984,6 @@ version = "4"
 [[plugins]]
 name = "ample-bass-u-8211-abu"
 path = "plugins/ample-sound/ample-bass-u-8211-abu.toml"
-version = "4"
-
-[[plugins]]
-name = "ample-bass-u-abu"
-path = "plugins/ample-sound/ample-bass-u-abu.toml"
 version = "4"
 
 [[plugins]]
@@ -2327,11 +2262,6 @@ path = "plugins/ik-multimedia/amplitube-4-max-crossgrade.toml"
 version = "4.0"
 
 [[plugins]]
-name = "amplitube-5"
-path = "plugins/ik-multimedia/amplitube-5.toml"
-version = "5.0"
-
-[[plugins]]
 name = "amplitube-5-max-crossgrade"
 path = "plugins/ik-multimedia/amplitube-5-max-crossgrade.toml"
 version = "5.0"
@@ -2437,11 +2367,6 @@ path = "plugins/ik-multimedia/amplitube-svx-1-038-2-bundle.toml"
 version = "2.0"
 
 [[plugins]]
-name = "amplitube-svx-1-2-bundle"
-path = "plugins/ik-multimedia/amplitube-svx-1-2-bundle.toml"
-version = "2.0"
-
-[[plugins]]
 name = "amplitube-svx-2"
 path = "plugins/ik-multimedia/amplitube-svx-2.toml"
 version = "2.0"
@@ -2462,18 +2387,8 @@ path = "plugins/ik-multimedia/amplitube-tonex-standard.toml"
 version = "5.0"
 
 [[plugins]]
-name = "ams-dmx-digital-delay-038-pitch-shifter"
-path = "plugins/universal-audio/ams-dmx-digital-delay-038-pitch-shifter.toml"
-version = "11.0"
-
-[[plugins]]
 name = "ams-dmx-digital-delay-pitch-shifter"
 path = "plugins/universal-audio/ams-dmx-digital-delay-pitch-shifter.toml"
-version = "11.0"
-
-[[plugins]]
-name = "ams-neve-dfc-channel-strip"
-path = "plugins/universal-audio/ams-neve-dfc-channel-strip.toml"
 version = "11.0"
 
 [[plugins]]
@@ -2540,11 +2455,6 @@ version = "5.12.0"
 name = "analog-lab-intro"
 path = "plugins/arturia/analog-lab-intro.toml"
 version = "5.12.2"
-
-[[plugins]]
-name = "analog-lab-v"
-path = "plugins/arturia/analog-lab-v.toml"
-version = "5.11.0"
 
 [[plugins]]
 name = "analog-legends-bundle"
@@ -2902,18 +2812,8 @@ path = "plugins/universal-audio/api-complete-uad-plugin-bundle.toml"
 version = "11.0"
 
 [[plugins]]
-name = "api-preamp"
-path = "plugins/universal-audio/api-preamp.toml"
-version = "11.0"
-
-[[plugins]]
 name = "api-summing"
 path = "plugins/universal-audio/api-summing.toml"
-version = "11.0"
-
-[[plugins]]
-name = "api-vision-channel-strip"
-path = "plugins/universal-audio/api-vision-channel-strip.toml"
 version = "11.0"
 
 [[plugins]]
@@ -2995,11 +2895,6 @@ version = "1.0.0"
 name = "arabic-oud-crossgrade"
 path = "plugins/best-service/arabic-oud-crossgrade.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "arc-8211-evolving-soundscapes-038-drones"
-path = "plugins/zero-g/arc-8211-evolving-soundscapes-038-drones.toml"
-version = "1.0"
 
 [[plugins]]
 name = "arc-evolving-soundscapes-drones"
@@ -3085,11 +2980,6 @@ version = "1.0"
 name = "array-v4"
 path = "plugins/sinevibes/array-v4.toml"
 version = "4.0.2"
-
-[[plugins]]
-name = "arsenal-038-dark-textures-bundle"
-path = "plugins/sampletraxx/arsenal-038-dark-textures-bundle.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "arsenal-dark-textures-bundle"
@@ -3712,11 +3602,6 @@ path = "plugins/universal-audio/avalon-vt-737-tube-channel-strip.toml"
 version = "11.0"
 
 [[plugins]]
-name = "avalon-vt-737-tube-channel-strip-universal-audio"
-path = "plugins/universal-audio/avalon-vt-737-tube-channel-strip-universal-audio.toml"
-version = "11.0"
-
-[[plugins]]
 name = "avant-modern-keys"
 path = "plugins/heavyocity/avant-modern-keys.toml"
 version = "1.0.0"
@@ -4072,11 +3957,6 @@ path = "plugins/vir2-instruments/basis.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "bass-038-punch-bundle"
-path = "plugins/united-plugins/bass-038-punch-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "bass-amp-room"
 path = "plugins/softube/bass-amp-room.toml"
 version = "2.6"
@@ -4134,11 +4014,6 @@ version = "1.0.0"
 [[plugins]]
 name = "bass-master"
 path = "plugins/loopmasters-plugins/bass-master.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "bass-master-038-khords-bundle"
-path = "plugins/loopmasters-plugins/bass-master-038-khords-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -5112,11 +4987,6 @@ path = "plugins/black-rooster-audio/blackash-sc-5.toml"
 version = "3.0.0"
 
 [[plugins]]
-name = "blackhole"
-path = "plugins/eventide/blackhole.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "blackhole-immersive"
 path = "plugins/eventide/blackhole-immersive.toml"
 version = "1.3.0"
@@ -5150,11 +5020,6 @@ version = "1.0.0"
 name = "blade-2"
 path = "plugins/rob-papen/blade-2.toml"
 version = "2.1.0a"
-
-[[plugins]]
-name = "blaque-038-numb-bundle"
-path = "plugins/new-nation/blaque-038-numb-bundle.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "blaque-numb-bundle"
@@ -5407,11 +5272,6 @@ path = "plugins/blue-cat-audio/blue-cat-s-flanger.toml"
 version = "3.5"
 
 [[plugins]]
-name = "blue-cat-s-free-amp"
-path = "plugins/blue-cat-audio/blue-cat-s-free-amp.toml"
-version = "1.3"
-
-[[plugins]]
 name = "blue-cat-s-freqanalyst"
 path = "plugins/blue-cat-audio/blue-cat-s-freqanalyst.toml"
 version = "2.5"
@@ -5520,11 +5380,6 @@ version = "2.44"
 name = "blue-cat-s-stereoscope-pro"
 path = "plugins/blue-cat-audio/blue-cat-s-stereoscope-pro.toml"
 version = "2.14"
-
-[[plugins]]
-name = "blue-cat-s-triple-eq"
-path = "plugins/blue-cat-audio/blue-cat-s-triple-eq.toml"
-version = "4.5"
 
 [[plugins]]
 name = "blue-face"
@@ -5812,11 +5667,6 @@ path = "plugins/audiothing/bowed-harp.toml"
 version = "1.0"
 
 [[plugins]]
-name = "brad-hoyt8217s-harp-guitar"
-path = "plugins/soundiron/brad-hoyt8217s-harp-guitar.toml"
-version = "1.0"
-
-[[plugins]]
 name = "brad-hoyts-harp-guitar"
 path = "plugins/soundiron/brad-hoyts-harp-guitar.toml"
 version = "1.0"
@@ -5962,11 +5812,6 @@ path = "plugins/tc-electronic/brickwall-hd-master-limiter.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "brigade-chorus"
-path = "plugins/universal-audio/brigade-chorus.toml"
-version = "11.0"
-
-[[plugins]]
 name = "brightness"
 path = "plugins/plug-and-mix/brightness.toml"
 version = "4.1.0"
@@ -6017,23 +5862,8 @@ path = "plugins/heritage-audio/britstrip.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "broadcast-038-production-bundle"
-path = "plugins/waves/broadcast-038-production-bundle.toml"
-version = "14.0"
-
-[[plugins]]
-name = "broadcast-038-surround-suite"
-path = "plugins/waves/broadcast-038-surround-suite.toml"
-version = "14.0"
-
-[[plugins]]
 name = "broadcast-plugin-bundle"
 path = "plugins/sonnox/broadcast-plugin-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "broadcast-plugin-bundle-8211-hd-hdx"
-path = "plugins/sonnox/broadcast-plugin-bundle-8211-hd-hdx.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -6167,11 +5997,6 @@ path = "plugins/nomad-factory/bus-driver.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "bus-force"
-path = "plugins/arturia/bus-force.toml"
-version = "1.4.1"
-
-[[plugins]]
 name = "busspressor"
 path = "plugins/psp-audioware/busspressor.toml"
 version = "2.0.0"
@@ -6247,18 +6072,8 @@ path = "plugins/brainworx/bx-2098-eq.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "bx-2098-eq-brainworx"
-path = "plugins/brainworx/bx-2098-eq-brainworx.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "bx-bassdude"
 path = "plugins/brainworx/bx-bassdude.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "bx-bassdude-brainworx"
-path = "plugins/brainworx/bx-bassdude-brainworx.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -6274,11 +6089,6 @@ version = "1.0.0"
 [[plugins]]
 name = "bx-clipper"
 path = "plugins/brainworx/bx-clipper.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "bx-console-amek-9099"
-path = "plugins/brainworx/bx-console-amek-9099.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -6332,11 +6142,6 @@ path = "plugins/brainworx/bx-dyneq-v2.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "bx-dyneq-v2-brainworx"
-path = "plugins/brainworx/bx-dyneq-v2-brainworx.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "bx-enhancer"
 path = "plugins/brainworx/bx-enhancer.toml"
 version = "1.0.0"
@@ -6367,19 +6172,9 @@ path = "plugins/brainworx/bx-masterdesk.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "bx-masterdesk-classic"
-path = "plugins/universal-audio/bx-masterdesk-classic.toml"
-version = "11.0"
-
-[[plugins]]
 name = "bx-masterdesk-true-peak"
 path = "plugins/brainworx/bx-masterdesk-true-peak.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "bx-masterdesk-universal-audio"
-path = "plugins/universal-audio/bx-masterdesk-universal-audio.toml"
-version = "11.0"
 
 [[plugins]]
 name = "bx-megadual"
@@ -6399,11 +6194,6 @@ version = "1.0.0"
 [[plugins]]
 name = "bx-paneq"
 path = "plugins/brainworx/bx-paneq.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "bx-paneq-brainworx"
-path = "plugins/brainworx/bx-paneq-brainworx.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -6502,18 +6292,8 @@ path = "plugins/zero-g/c-e-vol-08-spices-of-india.toml"
 version = "1.0"
 
 [[plugins]]
-name = "c-e-vol-16-drum-038-percussion-tools"
-path = "plugins/zero-g/c-e-vol-16-drum-038-percussion-tools.toml"
-version = "1.0"
-
-[[plugins]]
 name = "c-e-vol-16-drum-percussion-tools"
 path = "plugins/zero-g/c-e-vol-16-drum-percussion-tools.toml"
-version = "1.0"
-
-[[plugins]]
-name = "c-e-vol-18-rock-038-pop-vocals"
-path = "plugins/zero-g/c-e-vol-18-rock-038-pop-vocals.toml"
 version = "1.0"
 
 [[plugins]]
@@ -6547,11 +6327,6 @@ path = "plugins/universal-audio/c-suite-c-axe-guitar-noise-suppressor.toml"
 version = "11.0"
 
 [[plugins]]
-name = "c-suite-c-vox-noise-038-ambience-reduction"
-path = "plugins/universal-audio/c-suite-c-vox-noise-038-ambience-reduction.toml"
-version = "11.0"
-
-[[plugins]]
 name = "c-suite-c-vox-noise-ambience-reduction"
 path = "plugins/universal-audio/c-suite-c-vox-noise-ambience-reduction.toml"
 version = "11.0"
@@ -6559,11 +6334,6 @@ version = "11.0"
 [[plugins]]
 name = "c-tools"
 path = "plugins/heavyocity/c-tools.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "c-tools-heavyocity"
-path = "plugins/heavyocity/c-tools-heavyocity.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -6662,11 +6432,6 @@ path = "plugins/heavyocity/calc-u-synth.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "calc-u-synth-heavyocity"
-path = "plugins/heavyocity/calc-u-synth-heavyocity.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "california-keys"
 path = "plugins/q-up-arts/california-keys.toml"
 version = "1.0.0"
@@ -6690,11 +6455,6 @@ version = "1.0.0"
 name = "canjo"
 path = "plugins/soundiron/canjo.toml"
 version = "1.0"
-
-[[plugins]]
-name = "capitol-chambers"
-path = "plugins/universal-audio/capitol-chambers.toml"
-version = "11.0"
 
 [[plugins]]
 name = "capitol-mastering-compressor"
@@ -6752,11 +6512,6 @@ path = "plugins/safari-audio/cassette-bunny.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "cassette-keys-01-8211-multi-format-bundle"
-path = "plugins/thephonoloop/cassette-keys-01-8211-multi-format-bundle.toml"
-version = "1.1"
-
-[[plugins]]
 name = "cassette-keys-01-for-ableton"
 path = "plugins/thephonoloop/cassette-keys-01-for-ableton.toml"
 version = "1.1"
@@ -6807,16 +6562,6 @@ path = "plugins/thephonoloop/cassette-keys-02-for-sfz-player.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "cassette-keys-02-multi-format-bundle"
-path = "plugins/thephonoloop/cassette-keys-02-multi-format-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "cassette-mallets-01-8211-multi-format-bundle"
-path = "plugins/thephonoloop/cassette-mallets-01-8211-multi-format-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "cassette-mallets-01-for-ableton"
 path = "plugins/thephonoloop/cassette-mallets-01-for-ableton.toml"
 version = "1.0.0"
@@ -6837,28 +6582,13 @@ path = "plugins/thephonoloop/cassette-piano-02-multi-format-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "cassette-plucks-01-8211-multi-format-bundle"
-path = "plugins/thephonoloop/cassette-plucks-01-8211-multi-format-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "cassette-plucks-01-multi-format-bundle"
 path = "plugins/thephonoloop/cassette-plucks-01-multi-format-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "cassette-toy-piano-8211-multi-format-bundle"
-path = "plugins/thephonoloop/cassette-toy-piano-8211-multi-format-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "cassette-toy-piano-multi-format-bundle"
 path = "plugins/thephonoloop/cassette-toy-piano-multi-format-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "cassette-vibraphone-8211-multi-format-bundle"
-path = "plugins/thephonoloop/cassette-vibraphone-8211-multi-format-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -6970,11 +6700,6 @@ version = "14.0"
 name = "centerone"
 path = "plugins/leapwing-audio/centerone.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "century-tube-channel-strip"
-path = "plugins/universal-audio/century-tube-channel-strip.toml"
-version = "11.0"
 
 [[plugins]]
 name = "cerberus-bass-amplifikation"
@@ -7112,21 +6837,6 @@ path = "plugins/beatsurfing/cheat-code.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "chef8217s-appetizers"
-path = "plugins/yum-audio/chef8217s-appetizers.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "chef8217s-helpers"
-path = "plugins/yum-audio/chef8217s-helpers.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "chef8217s-menu"
-path = "plugins/yum-audio/chef8217s-menu.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "chefs-appetizers"
 path = "plugins/yum-audio/chefs-appetizers.toml"
 version = "1.0.0"
@@ -7242,11 +6952,6 @@ path = "plugins/xils-lab/chor-x.toml"
 version = "2.0.3"
 
 [[plugins]]
-name = "chor8217x"
-path = "plugins/xils-lab/chor8217x.toml"
-version = "2.0.3"
-
-[[plugins]]
 name = "chord-organ"
 path = "plugins/beautiful-void-audio/chord-organ.toml"
 version = "1.0.0"
@@ -7282,11 +6987,6 @@ path = "plugins/slate-digital/chorus-d-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "chorus-dimension-d"
-path = "plugins/arturia/chorus-dimension-d.toml"
-version = "1.4.0"
-
-[[plugins]]
 name = "chorus-ensemble"
 path = "plugins/plug-and-mix/chorus-ensemble.toml"
 version = "4.1.0"
@@ -7305,11 +7005,6 @@ version = "1.4.0"
 name = "chorust"
 path = "plugins/beatskillz/chorust.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "chorx"
-path = "plugins/xils-lab/chorx.toml"
-version = "2.0.3"
 
 [[plugins]]
 name = "chow-byod"
@@ -7409,11 +7104,6 @@ version = "1.0"
 [[plugins]]
 name = "chromatix"
 path = "plugins/hideaway-studio/chromatix.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "chronicles-brass-038-wood"
-path = "plugins/evolution-series/chronicles-brass-038-wood.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -7787,11 +7477,6 @@ path = "plugins/soundiron/clavi-twin-78.toml"
 version = "1.0"
 
 [[plugins]]
-name = "clavi-twin-821778"
-path = "plugins/soundiron/clavi-twin-821778.toml"
-version = "1.0"
-
-[[plugins]]
 name = "clavinet"
 path = "plugins/waves/clavinet.toml"
 version = "14.0"
@@ -7832,11 +7517,6 @@ path = "plugins/apogee/clearmountain-s-spaces.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "clearmountain8217s-phases-flanger-phaser"
-path = "plugins/apogee/clearmountain8217s-phases-flanger-phaser.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "clearmountains-phases-flanger-phaser"
 path = "plugins/apogee/clearmountains-phases-flanger-phaser.toml"
 version = "1.0.0"
@@ -7849,11 +7529,6 @@ version = "1.0.0"
 [[plugins]]
 name = "click-boom-transient-designer-038-saturation"
 path = "plugins/swivel-audio/click-boom-transient-designer-038-saturation.toml"
-version = "1.0"
-
-[[plugins]]
-name = "click-boom-transient-designer-saturation"
-path = "plugins/swivel-audio/click-boom-transient-designer-saturation.toml"
 version = "1.0"
 
 [[plugins]]
@@ -7892,11 +7567,6 @@ path = "plugins/native-instruments/cloud-supply-mpc-edition.toml"
 version = "1.0"
 
 [[plugins]]
-name = "cloudbounce-3-month-subscription"
-path = "plugins/cloudbounce/cloudbounce-3-month-subscription.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "cloudbounce-8211-3-month-subscription"
 path = "plugins/cloudbounce/cloudbounce-8211-3-month-subscription.toml"
 version = "1.0.0"
@@ -7904,11 +7574,6 @@ version = "1.0.0"
 [[plugins]]
 name = "cloudbounce-8211-annual-subscription"
 path = "plugins/cloudbounce/cloudbounce-8211-annual-subscription.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "cloudbounce-8211-infinity-annual-subscription"
-path = "plugins/cloudbounce/cloudbounce-8211-infinity-annual-subscription.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -7922,33 +7587,13 @@ path = "plugins/cloudbounce/cloudbounce-8211-mini-8211-lifetime-subscription.tom
 version = "1.0.0"
 
 [[plugins]]
-name = "cloudbounce-annual-subscription"
-path = "plugins/cloudbounce/cloudbounce-annual-subscription.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "cloudbounce-bouncecast-8211-annual-subscription"
 path = "plugins/cloudbounce/cloudbounce-bouncecast-8211-annual-subscription.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "cloudbounce-bouncecast-annual-subscription"
-path = "plugins/cloudbounce/cloudbounce-bouncecast-annual-subscription.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "cloudbounce-infinity-annual-subscription"
 path = "plugins/cloudbounce/cloudbounce-infinity-annual-subscription.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "cloudbounce-lifetime-plan"
-path = "plugins/cloudbounce/cloudbounce-lifetime-plan.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "cloudbounce-mini-lifetime-subscription"
-path = "plugins/cloudbounce/cloudbounce-mini-lifetime-subscription.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -8172,11 +7817,6 @@ path = "plugins/wa-production/combustor.toml"
 version = "1.2.0"
 
 [[plugins]]
-name = "comeback-kid"
-path = "plugins/baby-audio/comeback-kid.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "comet"
 path = "plugins/polyverse/comet.toml"
 version = "1.0.0"
@@ -8197,11 +7837,6 @@ path = "plugins/arturia/comp-diode-609.toml"
 version = "1.4.0"
 
 [[plugins]]
-name = "comp-fet-76"
-path = "plugins/arturia/comp-fet-76.toml"
-version = "1.4.0"
-
-[[plugins]]
 name = "comp-tube-sta"
 path = "plugins/arturia/comp-tube-sta.toml"
 version = "1.4.0"
@@ -8210,11 +7845,6 @@ version = "1.4.0"
 name = "comp-two"
 path = "plugins/process-audio/comp-two.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "comp-vca-65"
-path = "plugins/arturia/comp-vca-65.toml"
-version = "1.4.0"
 
 [[plugins]]
 name = "complete-bundle"
@@ -8370,11 +8000,6 @@ version = "14.0"
 name = "continua"
 path = "plugins/audio-damage/continua.toml"
 version = "1.2"
-
-[[plugins]]
-name = "continuo-1-8211-cinematic-guitar-orchestra"
-path = "plugins/karanyi-sounds/continuo-1-8211-cinematic-guitar-orchestra.toml"
-version = "1.1"
 
 [[plugins]]
 name = "continuo-1-cinematic-guitar-orchestra"
@@ -8642,11 +8267,6 @@ path = "plugins/united-plugins/cryostasis.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "cryptar-8211-eternal-light"
-path = "plugins/atom-hub/cryptar-8211-eternal-light.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "cryptar-eternal-light"
 path = "plugins/atom-hub/cryptar-eternal-light.toml"
 version = "1.0.0"
@@ -8664,11 +8284,6 @@ version = "1.0"
 [[plugins]]
 name = "crystal-eq"
 path = "plugins/singomakers/crystal-eq.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "crystalline"
-path = "plugins/baby-audio/crystalline.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -8755,11 +8370,6 @@ version = "2.2"
 name = "curve-2"
 path = "plugins/cableguys/curve-2.toml"
 version = "2"
-
-[[plugins]]
-name = "curveeq"
-path = "plugins/voxengo/curveeq.toml"
-version = "3.15"
 
 [[plugins]]
 name = "curves-resolve"
@@ -8917,11 +8527,6 @@ path = "plugins/audiority/dark-memory.toml"
 version = "1.1.1"
 
 [[plugins]]
-name = "dark-skies-8211-cinematic-ambiences"
-path = "plugins/zero-g/dark-skies-8211-cinematic-ambiences.toml"
-version = "1.0"
-
-[[plugins]]
 name = "dark-skies-cinematic-ambiences"
 path = "plugins/zero-g/dark-skies-cinematic-ambiences.toml"
 version = "1.0"
@@ -9015,26 +8620,6 @@ version = "1.0"
 name = "daw-cassette"
 path = "plugins/klevgrand/daw-cassette.toml"
 version = "1.2.2"
-
-[[plugins]]
-name = "daw-essentials-8211-compressor"
-path = "plugins/tracktion/daw-essentials-8211-compressor.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "daw-essentials-8211-delay-studio"
-path = "plugins/tracktion/daw-essentials-8211-delay-studio.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "daw-essentials-8211-equaliser"
-path = "plugins/tracktion/daw-essentials-8211-equaliser.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "daw-essentials-8211-reverber8"
-path = "plugins/tracktion/daw-essentials-8211-reverber8.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "daw-essentials-collection"
@@ -9247,19 +8832,9 @@ path = "plugins/duy/deep-analog-eq.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "deep-conjuring-2-8211-specters"
-path = "plugins/beautiful-void-audio/deep-conjuring-2-8211-specters.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "deep-conjuring-2-specters"
 path = "plugins/beautiful-void-audio/deep-conjuring-2-specters.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "deep-impact-8211-cinematic-atmospheres-and-sfx"
-path = "plugins/zero-g/deep-impact-8211-cinematic-atmospheres-and-sfx.toml"
-version = "1.0"
 
 [[plugins]]
 name = "deep-impact-cinematic-atmospheres-and-sfx"
@@ -9417,11 +8992,6 @@ path = "plugins/minimal-system-group/delay-studio.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "delay-tape-201"
-path = "plugins/arturia/delay-tape-201.toml"
-version = "1.4.0"
-
-[[plugins]]
 name = "delay-unit"
 path = "plugins/dspplug/delay-unit.toml"
 version = "1.0.0"
@@ -9574,11 +9144,6 @@ version = "1.0.0"
 [[plugins]]
 name = "devil-loc"
 path = "plugins/soundtoys/devil-loc.toml"
-version = "5.5"
-
-[[plugins]]
-name = "devil-loc-deluxe"
-path = "plugins/soundtoys/devil-loc-deluxe.toml"
 version = "5.5"
 
 [[plugins]]
@@ -9852,19 +9417,9 @@ path = "plugins/sinevibes/dispersion.toml"
 version = "2.0.3"
 
 [[plugins]]
-name = "dist-coldfire"
-path = "plugins/arturia/dist-coldfire.toml"
-version = "1.4.0"
-
-[[plugins]]
 name = "dist-coldfire-fx-collection-3-bundle"
 path = "plugins/arturia/dist-coldfire-fx-collection-3-bundle.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "dist-opamp-21"
-path = "plugins/arturia/dist-opamp-21.toml"
-version = "1.4.0"
 
 [[plugins]]
 name = "dist-tube-culture"
@@ -10004,11 +9559,6 @@ version = "2.2.0"
 [[plugins]]
 name = "dm-307"
 path = "plugins/heavyocity/dm-307.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "dm-307-heavyocity"
-path = "plugins/heavyocity/dm-307-heavyocity.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -10202,11 +9752,6 @@ path = "plugins/minimal-system-group/dreamscape.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "dreamsynth"
-path = "plugins/cherry-audio/dreamsynth.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "dreamverb-room-modeler"
 path = "plugins/universal-audio/dreamverb-room-modeler.toml"
 version = "11.0"
@@ -10332,11 +9877,6 @@ path = "plugins/soundtrax/drop-pad-2-0.toml"
 version = "2.0"
 
 [[plugins]]
-name = "drop-pad-2-8211-rhythmic-edition"
-path = "plugins/soundtrax/drop-pad-2-8211-rhythmic-edition.toml"
-version = "2"
-
-[[plugins]]
 name = "drop-pad-2-rhythmic-edition"
 path = "plugins/soundtrax/drop-pad-2-rhythmic-edition.toml"
 version = "2"
@@ -10364,11 +9904,6 @@ version = "1.0.0"
 [[plugins]]
 name = "drum"
 path = "plugins/loopcloud-plugins/drum.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "drum-038-play-bundle"
-path = "plugins/loopcloud-plugins/drum-038-play-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -10557,11 +10092,6 @@ path = "plugins/7air-media/drx8r.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "ds-10-drum-shaper"
-path = "plugins/xln-audio/ds-10-drum-shaper.toml"
-version = "1.0"
-
-[[plugins]]
 name = "ds-10-drum-shaper-xln-audio"
 path = "plugins/xln-audio/ds-10-drum-shaper-xln-audio.toml"
 version = "1.3.6"
@@ -10680,11 +10210,6 @@ version = "1.0.0"
 name = "duck"
 path = "plugins/devious-machines/duck.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "duck-2"
-path = "plugins/devious-machines/duck-2.toml"
-version = "2"
 
 [[plugins]]
 name = "duet-by-design"
@@ -10972,11 +10497,6 @@ path = "plugins/zero-g/eastern-flute.toml"
 version = "1.0"
 
 [[plugins]]
-name = "eastern-flute-038-violin-bundle"
-path = "plugins/zero-g/eastern-flute-038-violin-bundle.toml"
-version = "1.0"
-
-[[plugins]]
 name = "eastern-flute-violin-bundle"
 path = "plugins/zero-g/eastern-flute-violin-bundle.toml"
 version = "1.0"
@@ -11030,11 +10550,6 @@ version = "1.0.0"
 name = "echo"
 path = "plugins/psp-audioware/echo.toml"
 version = "1.5.3"
-
-[[plugins]]
-name = "echo-factory-8211-dubtechno-mechanisms-1"
-path = "plugins/zero-g/echo-factory-8211-dubtechno-mechanisms-1.toml"
-version = "1.0"
 
 [[plugins]]
 name = "echo-factory-dubtechno-mechanisms-1"
@@ -11144,11 +10659,6 @@ version = "14.0"
 [[plugins]]
 name = "eddie-kramer-pie-compressor"
 path = "plugins/waves/eddie-kramer-pie-compressor.toml"
-version = "14.0"
-
-[[plugins]]
-name = "eddie-kramer-tape-tubes-038-transistors"
-path = "plugins/waves/eddie-kramer-tape-tubes-038-transistors.toml"
 version = "14.0"
 
 [[plugins]]
@@ -11567,16 +11077,6 @@ path = "plugins/waves/element-2.toml"
 version = "14.0"
 
 [[plugins]]
-name = "elements-8211-cinematic-rhythms"
-path = "plugins/zero-g/elements-8211-cinematic-rhythms.toml"
-version = "1.0"
-
-[[plugins]]
-name = "elements-8211-modern-scoring-synth"
-path = "plugins/zero-g/elements-8211-modern-scoring-synth.toml"
-version = "1.0"
-
-[[plugins]]
 name = "elements-cinematic-rhythms"
 path = "plugins/zero-g/elements-cinematic-rhythms.toml"
 version = "1.0"
@@ -11617,11 +11117,6 @@ path = "plugins/newfangled-audio/elevate-mastering-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "elevate-newfangled-audio"
-path = "plugins/newfangled-audio/elevate-newfangled-audio.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "elite-orchestral-percussion"
 path = "plugins/vir2-instruments/elite-orchestral-percussion.toml"
 version = "1.0.0"
@@ -11629,16 +11124,6 @@ version = "1.0.0"
 [[plugins]]
 name = "elixer"
 path = "plugins/beautiful-void-audio/elixer.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "elixer-8211-laid-in-earth"
-path = "plugins/beautiful-void-audio/elixer-8211-laid-in-earth.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "elixer-8211-prepared-tape"
-path = "plugins/beautiful-void-audio/elixer-8211-prepared-tape.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -11672,11 +11157,6 @@ path = "plugins/cherry-audio/elka-x.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "elka-x-cherry-audio"
-path = "plugins/cherry-audio/elka-x-cherry-audio.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "eloy-drums"
 path = "plugins/bogren-digital/eloy-drums.toml"
 version = "1.0.0"
@@ -11692,19 +11172,9 @@ path = "plugins/soundiron/elvish-choir.toml"
 version = "1.0"
 
 [[plugins]]
-name = "elysia-alpha-compressor"
-path = "plugins/universal-audio/elysia-alpha-compressor.toml"
-version = "11.0"
-
-[[plugins]]
 name = "elysia-bundle"
 path = "plugins/plugin-alliance/elysia-bundle.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "elysia-mpressor"
-path = "plugins/universal-audio/elysia-mpressor.toml"
-version = "11.0"
 
 [[plugins]]
 name = "elysion-2"
@@ -11789,11 +11259,6 @@ version = "1.0.0"
 [[plugins]]
 name = "emotional-piano"
 path = "plugins/soundiron/emotional-piano.toml"
-version = "1.0"
-
-[[plugins]]
-name = "emotional-piano-038-elysium-harp"
-path = "plugins/soundiron/emotional-piano-038-elysium-harp.toml"
 version = "1.0"
 
 [[plugins]]
@@ -11952,11 +11417,6 @@ path = "plugins/sonnox/enhance-plugin-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "enhance-plugin-bundle-8211-hd-hdx"
-path = "plugins/sonnox/enhance-plugin-bundle-8211-hd-hdx.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "enhance-plugin-bundle-hd-hdx"
 path = "plugins/sonnox/enhance-plugin-bundle-hd-hdx.toml"
 version = "1.0.0"
@@ -11970,11 +11430,6 @@ version = "1.0"
 name = "enigma"
 path = "plugins/muze/enigma.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "enigma-8211-sound-creation-instrument"
-path = "plugins/zero-g/enigma-8211-sound-creation-instrument.toml"
-version = "1.0"
 
 [[plugins]]
 name = "enigma-modulation"
@@ -12067,11 +11522,6 @@ path = "plugins/korg/ep-1.toml"
 version = "6"
 
 [[plugins]]
-name = "ep-34-tape-echo"
-path = "plugins/universal-audio/ep-34-tape-echo.toml"
-version = "11.0"
-
-[[plugins]]
 name = "epia"
 path = "plugins/hoss-audio/epia.toml"
 version = "1.0.0"
@@ -12085,11 +11535,6 @@ version = "1.0.0"
 name = "epic-cinematics-for-serum"
 path = "plugins/the-tone-foundry/epic-cinematics-for-serum.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "epic-horizons-8211-cinematic-atmospheres"
-path = "plugins/zero-g/epic-horizons-8211-cinematic-atmospheres.toml"
-version = "1.0"
 
 [[plugins]]
 name = "epic-horizons-cinematic-atmospheres"
@@ -12164,11 +11609,6 @@ version = "2.6"
 [[plugins]]
 name = "equivocate"
 path = "plugins/newfangled-audio/equivocate.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "equivocate-newfangled-audio"
-path = "plugins/newfangled-audio/equivocate-newfangled-audio.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -12269,11 +11709,6 @@ version = "1.0.0"
 [[plugins]]
 name = "ethera"
 path = "plugins/zero-g/ethera.toml"
-version = "1.0"
-
-[[plugins]]
-name = "ethera-8211-soul-edition"
-path = "plugins/zero-g/ethera-8211-soul-edition.toml"
 version = "1.0"
 
 [[plugins]]
@@ -12397,18 +11832,8 @@ path = "plugins/kuassa/eve-at-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "eve-at-bundle-kuassa"
-path = "plugins/kuassa/eve-at-bundle-kuassa.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "eve-at1"
 path = "plugins/kuassa/eve-at1.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "eve-at1-kuassa"
-path = "plugins/kuassa/eve-at1-kuassa.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -12417,18 +11842,8 @@ path = "plugins/kuassa/eve-at4.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "eve-at4-kuassa"
-path = "plugins/kuassa/eve-at4-kuassa.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "eve-mp5"
 path = "plugins/kuassa/eve-mp5.toml"
-version = "1.1.5"
-
-[[plugins]]
-name = "eve-mp5-508217s-eq"
-path = "plugins/kuassa/eve-mp5-508217s-eq.toml"
 version = "1.1.5"
 
 [[plugins]]
@@ -12504,11 +11919,6 @@ version = "1.0.0"
 [[plugins]]
 name = "everything-bundle-slate-amp-ash"
 path = "plugins/slate-and-amp-ash/everything-bundle-slate-amp-ash.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "everything-bundle-slate-ash"
-path = "plugins/slate-and-ash/everything-bundle-slate-ash.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -12802,11 +12212,6 @@ path = "plugins/zyvenhaal/ezcety.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "ezdrummer"
-path = "plugins/toontrack/ezdrummer.toml"
-version = "3.1.2"
-
-[[plugins]]
 name = "ezdrummer-3"
 path = "plugins/toontrack/ezdrummer-3.toml"
 version = "3.1.2"
@@ -12912,11 +12317,6 @@ path = "plugins/toontrack/ezmix-pack-ambient-reverbs.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "ezmix-pack-rooms-038-verbs"
-path = "plugins/toontrack/ezmix-pack-rooms-038-verbs.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "ezmix-pack-rooms-verbs"
 path = "plugins/toontrack/ezmix-pack-rooms-verbs.toml"
 version = "1.0.0"
@@ -12927,18 +12327,8 @@ path = "plugins/fuse-audio-labs/f-59-classic-guitar-amp.toml"
 version = "2.7"
 
 [[plugins]]
-name = "f-8217em"
-path = "plugins/tracktion/f-8217em.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "f-em"
 path = "plugins/tracktion/f-em.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "f-em-tracktion"
-path = "plugins/tracktion/f-em-tracktion.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -12975,11 +12365,6 @@ version = "1.0"
 name = "fabfilter-pro-g"
 path = "plugins/fabfilter/fabfilter-pro-g.toml"
 version = "1.0"
-
-[[plugins]]
-name = "fabfilter-pro-l"
-path = "plugins/fabfilter/fabfilter-pro-l.toml"
-version = "2.25"
 
 [[plugins]]
 name = "fabfilter-pro-l-2"
@@ -13067,11 +12452,6 @@ path = "plugins/uvi/falcon-2.toml"
 version = "2026"
 
 [[plugins]]
-name = "falcon-2026"
-path = "plugins/uvi/falcon-2026.toml"
-version = "2026"
-
-[[plugins]]
 name = "falcon-air-eq"
 path = "plugins/safari-audio/falcon-air-eq.toml"
 version = "1.0.0"
@@ -13117,11 +12497,6 @@ path = "plugins/singomakers/fatmaker.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "fatso-jr-sr-tape-sim-038-compressor"
-path = "plugins/universal-audio/fatso-jr-sr-tape-sim-038-compressor.toml"
-version = "11.0"
-
-[[plugins]]
 name = "fatso-jr-sr-tape-sim-compressor"
 path = "plugins/universal-audio/fatso-jr-sr-tape-sim-compressor.toml"
 version = "11.0"
@@ -13155,16 +12530,6 @@ version = "1.0.0"
 name = "felt-piano"
 path = "plugins/capsule-audio/felt-piano.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "fender-55-tweed-deluxe"
-path = "plugins/universal-audio/fender-55-tweed-deluxe.toml"
-version = "11.0"
-
-[[plugins]]
-name = "fender-821755-tweed-deluxe"
-path = "plugins/universal-audio/fender-821755-tweed-deluxe.toml"
-version = "11.0"
 
 [[plugins]]
 name = "fender-collection-1"
@@ -13287,11 +12652,6 @@ path = "plugins/arturia/filter-m12.toml"
 version = "1.4.0"
 
 [[plugins]]
-name = "filter-mini"
-path = "plugins/arturia/filter-mini.toml"
-version = "1.4.0"
-
-[[plugins]]
 name = "filter-sem"
 path = "plugins/arturia/filter-sem.toml"
 version = "1.4.0"
@@ -13315,11 +12675,6 @@ version = "1.0"
 name = "filtercult"
 path = "plugins/xhun-audio/filtercult.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "filterfreak"
-path = "plugins/soundtoys/filterfreak.toml"
-version = "5.5"
 
 [[plugins]]
 name = "filterscape"
@@ -13417,11 +12772,6 @@ path = "plugins/ujam/finisher-voodoo.toml"
 version = "2.0"
 
 [[plugins]]
-name = "fink-8211-signatures-acoustic-guitar"
-path = "plugins/spitfire-audio/fink-8211-signatures-acoustic-guitar.toml"
-version = "1.0"
-
-[[plugins]]
 name = "fink-signatures-acoustic-guitar"
 path = "plugins/spitfire-audio/fink-signatures-acoustic-guitar.toml"
 version = "1.0"
@@ -13510,11 +12860,6 @@ version = "1.0"
 name = "flanger-117"
 path = "plugins/audiority/flanger-117.toml"
 version = "1.0"
-
-[[plugins]]
-name = "flanger-bl-20"
-path = "plugins/arturia/flanger-bl-20.toml"
-version = "1.4.0"
 
 [[plugins]]
 name = "flanger-kilohearts"
@@ -13650,11 +12995,6 @@ version = "1.0.0"
 name = "fog-convolver-1"
 path = "plugins/audiothing/fog-convolver-1.toml"
 version = "1.0"
-
-[[plugins]]
-name = "fog-convolver-2"
-path = "plugins/audiothing/fog-convolver-2.toml"
-version = "2.4"
 
 [[plugins]]
 name = "fog-horns"
@@ -14237,11 +13577,6 @@ path = "plugins/izotope/fxeq.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "g-n"
-path = "plugins/maat/g-n.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "g-n-maat"
 path = "plugins/maat/g-n-maat.toml"
 version = "1.0.0"
@@ -14280,11 +13615,6 @@ version = "1.0.0"
 name = "galactron"
 path = "plugins/mntra-instruments/galactron.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "galaxy-tape-echo"
-path = "plugins/universal-audio/galaxy-tape-echo.toml"
-version = "11.0"
 
 [[plugins]]
 name = "gallien-krueger-800rb"
@@ -14447,11 +13777,6 @@ path = "plugins/muze/gemini.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "generate"
-path = "plugins/newfangled-audio/generate.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "generative-collection"
 path = "plugins/rast-sound/generative-collection.toml"
 version = "1.0.0"
@@ -14460,11 +13785,6 @@ version = "1.0.0"
 name = "genesis-bundle"
 path = "plugins/waves/genesis-bundle.toml"
 version = "14.0"
-
-[[plugins]]
-name = "genius-loci-8211-obzor"
-path = "plugins/atom-hub/genius-loci-8211-obzor.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "genius-loci-kalogria"
@@ -14479,11 +13799,6 @@ version = "1.0.0"
 [[plugins]]
 name = "genome"
 path = "plugins/two-notes-audio-engineering/genome.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "gensis-8211-pads-in-motion"
-path = "plugins/sample-logic/gensis-8211-pads-in-motion.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -14644,11 +13959,6 @@ version = "1.0"
 [[plugins]]
 name = "go2-x"
 path = "plugins/rob-papen/go2-x.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "god-mode"
-path = "plugins/denise-audio/god-mode.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -15257,11 +14567,6 @@ path = "plugins/waves/h-series-bundle.toml"
 version = "14.0"
 
 [[plugins]]
-name = "h3000-band-delays-mk-ii"
-path = "plugins/eventide/h3000-band-delays-mk-ii.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "h3000-factory"
 path = "plugins/eventide/h3000-factory.toml"
 version = "1.0.0"
@@ -15369,11 +14674,6 @@ version = "7"
 [[plugins]]
 name = "halion-sonic-3"
 path = "plugins/steinberg/halion-sonic-3.toml"
-version = "3"
-
-[[plugins]]
-name = "halls-of-fame-3-8211-complete-edition"
-path = "plugins/best-service/halls-of-fame-3-8211-complete-edition.toml"
 version = "3"
 
 [[plugins]]
@@ -15520,16 +14820,6 @@ version = "1.0"
 name = "hans-zimmer-strings"
 path = "plugins/spitfire-audio/hans-zimmer-strings.toml"
 version = "1.0"
-
-[[plugins]]
-name = "hapi-8211-concert-harp"
-path = "plugins/sonuscore/hapi-8211-concert-harp.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "hapi-concert-harp"
-path = "plugins/sonuscore/hapi-concert-harp.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "hapi-drums"
@@ -16012,18 +15302,8 @@ path = "plugins/universal-audio/hitsville-eq-collection.toml"
 version = "11.0"
 
 [[plugins]]
-name = "hitsville-reverb-chambers"
-path = "plugins/universal-audio/hitsville-reverb-chambers.toml"
-version = "11.0"
-
-[[plugins]]
 name = "hive"
 path = "plugins/u-he/hive.toml"
-version = "2.1.2"
-
-[[plugins]]
-name = "hive-2"
-path = "plugins/u-he/hive-2.toml"
 version = "2.1.2"
 
 [[plugins]]
@@ -16164,11 +15444,6 @@ version = "1.0"
 [[plugins]]
 name = "hopkin-instrumentarium-the-u"
 path = "plugins/soundiron/hopkin-instrumentarium-the-u.toml"
-version = "1.0"
-
-[[plugins]]
-name = "hopkin-instrumentarium-tines-038-echoes"
-path = "plugins/soundiron/hopkin-instrumentarium-tines-038-echoes.toml"
 version = "1.0"
 
 [[plugins]]
@@ -16552,11 +15827,6 @@ path = "plugins/baby-audio/ihny-2.toml"
 version = "2"
 
 [[plugins]]
-name = "ihny-2-baby-audio"
-path = "plugins/baby-audio/ihny-2-baby-audio.toml"
-version = "2"
-
-[[plugins]]
 name = "ilosynth1"
 path = "plugins/iloyd/ilosynth1.toml"
 version = "1.0"
@@ -16634,11 +15904,6 @@ version = "1.0.3"
 [[plugins]]
 name = "imprint"
 path = "plugins/w-a-production/imprint.toml"
-version = "2.2.0"
-
-[[plugins]]
-name = "imprint-8211-take-shape"
-path = "plugins/wa-production/imprint-8211-take-shape.toml"
 version = "2.2.0"
 
 [[plugins]]
@@ -16740,11 +16005,6 @@ version = "1.0"
 name = "infinity-bass"
 path = "plugins/slate-digital/infinity-bass.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "infinity-eq-2"
-path = "plugins/slate-digital/infinity-eq-2.toml"
-version = "2.0"
 
 [[plugins]]
 name = "infinity-horizon"
@@ -16922,11 +16182,6 @@ path = "plugins/cinematique-instruments/interval.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "interval-8211-les-femmes"
-path = "plugins/cinematique-instruments/interval-8211-les-femmes.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "interval-les-femmes"
 path = "plugins/cinematique-instruments/interval-les-femmes.toml"
 version = "1.0.0"
@@ -17042,18 +16297,8 @@ path = "plugins/bogren-digital/irdx-core.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "iron-pack-1-8211-grand-piano"
-path = "plugins/soundiron/iron-pack-1-8211-grand-piano.toml"
-version = "1.0"
-
-[[plugins]]
 name = "iron-pack-1-grand-piano"
 path = "plugins/soundiron/iron-pack-1-grand-piano.toml"
-version = "1.0"
-
-[[plugins]]
-name = "iron-pack-10-8211-tortue-amour"
-path = "plugins/soundiron/iron-pack-10-8211-tortue-amour.toml"
 version = "1.0"
 
 [[plugins]]
@@ -17062,18 +16307,8 @@ path = "plugins/soundiron/iron-pack-10-tortue-amour.toml"
 version = "1.0"
 
 [[plugins]]
-name = "iron-pack-11-8211-irish-penny-whistle"
-path = "plugins/soundiron/iron-pack-11-8211-irish-penny-whistle.toml"
-version = "1.0"
-
-[[plugins]]
 name = "iron-pack-11-irish-penny-whistle"
 path = "plugins/soundiron/iron-pack-11-irish-penny-whistle.toml"
-version = "1.0"
-
-[[plugins]]
-name = "iron-pack-12-8211-prepared-guitar"
-path = "plugins/soundiron/iron-pack-12-8211-prepared-guitar.toml"
 version = "1.0"
 
 [[plugins]]
@@ -17082,18 +16317,8 @@ path = "plugins/soundiron/iron-pack-12-prepared-guitar.toml"
 version = "1.0"
 
 [[plugins]]
-name = "iron-pack-2-8211-turkish-guitar"
-path = "plugins/soundiron/iron-pack-2-8211-turkish-guitar.toml"
-version = "1.0"
-
-[[plugins]]
 name = "iron-pack-2-turkish-guitar"
 path = "plugins/soundiron/iron-pack-2-turkish-guitar.toml"
-version = "1.0"
-
-[[plugins]]
-name = "iron-pack-3-8211-metal-tones"
-path = "plugins/soundiron/iron-pack-3-8211-metal-tones.toml"
 version = "1.0"
 
 [[plugins]]
@@ -17102,23 +16327,8 @@ path = "plugins/soundiron/iron-pack-3-metal-tones.toml"
 version = "1.0"
 
 [[plugins]]
-name = "iron-pack-4-8211-children8217s-choir"
-path = "plugins/soundiron/iron-pack-4-8211-children8217s-choir.toml"
-version = "1.0"
-
-[[plugins]]
 name = "iron-pack-4-children-s-choir"
 path = "plugins/soundiron/iron-pack-4-children-s-choir.toml"
-version = "1.0"
-
-[[plugins]]
-name = "iron-pack-4-childrens-choir"
-path = "plugins/soundiron/iron-pack-4-childrens-choir.toml"
-version = "1.0"
-
-[[plugins]]
-name = "iron-pack-5-8211-baritone-guitar"
-path = "plugins/soundiron/iron-pack-5-8211-baritone-guitar.toml"
 version = "1.0"
 
 [[plugins]]
@@ -17127,18 +16337,8 @@ path = "plugins/soundiron/iron-pack-5-baritone-guitar.toml"
 version = "1.0"
 
 [[plugins]]
-name = "iron-pack-6-8211-wooden-flutes"
-path = "plugins/soundiron/iron-pack-6-8211-wooden-flutes.toml"
-version = "1.0"
-
-[[plugins]]
 name = "iron-pack-6-wooden-flutes"
 path = "plugins/soundiron/iron-pack-6-wooden-flutes.toml"
-version = "1.0"
-
-[[plugins]]
-name = "iron-pack-7-8211-soprano-voice"
-path = "plugins/soundiron/iron-pack-7-8211-soprano-voice.toml"
 version = "1.0"
 
 [[plugins]]
@@ -17152,18 +16352,8 @@ path = "plugins/soundiron/iron-pack-7-soprano-voice.toml"
 version = "1.0"
 
 [[plugins]]
-name = "iron-pack-8-8211-tuned-glass"
-path = "plugins/soundiron/iron-pack-8-8211-tuned-glass.toml"
-version = "1.0"
-
-[[plugins]]
 name = "iron-pack-8-tuned-glass"
 path = "plugins/soundiron/iron-pack-8-tuned-glass.toml"
-version = "1.0"
-
-[[plugins]]
-name = "iron-pack-9-8211-fat-analog"
-path = "plugins/soundiron/iron-pack-9-8211-fat-analog.toml"
 version = "1.0"
 
 [[plugins]]
@@ -17212,11 +16402,6 @@ path = "plugins/soundlabs-ai/island-essentials-vol-1-micdrop-expansion.toml"
 version = "Vol. 1"
 
 [[plugins]]
-name = "isobelle-austin-cello-collection-1-8211-foundation"
-path = "plugins/inlet-audio/isobelle-austin-cello-collection-1-8211-foundation.toml"
-version = "1.0"
-
-[[plugins]]
 name = "isobelle-austin-cello-collection-1-foundation"
 path = "plugins/inlet-audio/isobelle-austin-cello-collection-1-foundation.toml"
 version = "1.0"
@@ -17227,19 +16412,9 @@ path = "plugins/tbproaudio/isol8.toml"
 version = "2.9.1"
 
 [[plugins]]
-name = "izotope-insight-2"
-path = "plugins/izotope/izotope-insight-2.toml"
-version = "2.6.0"
-
-[[plugins]]
 name = "izotope-nectar-4"
 path = "plugins/izotope/izotope-nectar-4.toml"
 version = "4.1.0"
-
-[[plugins]]
-name = "izotope-neoverb"
-path = "plugins/izotope/izotope-neoverb.toml"
-version = "1.4.0"
 
 [[plugins]]
 name = "izotope-neutron"
@@ -17387,11 +16562,6 @@ path = "plugins/waves/jjp-bass.toml"
 version = "14.0"
 
 [[plugins]]
-name = "jjp-cymbals-038-percussion"
-path = "plugins/waves/jjp-cymbals-038-percussion.toml"
-version = "14.0"
-
-[[plugins]]
 name = "jjp-cymbals-percussion"
 path = "plugins/waves/jjp-cymbals-percussion.toml"
 version = "14.0"
@@ -17404,11 +16574,6 @@ version = "14.0"
 [[plugins]]
 name = "jjp-guitars"
 path = "plugins/waves/jjp-guitars.toml"
-version = "14.0"
-
-[[plugins]]
-name = "jjp-strings-038-keys"
-path = "plugins/waves/jjp-strings-038-keys.toml"
 version = "14.0"
 
 [[plugins]]
@@ -17687,11 +16852,6 @@ path = "plugins/heavyocity/keys-038-synth-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "keys-synth-bundle"
-path = "plugins/heavyocity/keys-synth-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "keyscape"
 path = "plugins/spectrasonics/keyscape.toml"
 version = "1.5"
@@ -17712,11 +16872,6 @@ path = "plugins/black-rooster-audio/kh-eq1.toml"
 version = "3.0.0"
 
 [[plugins]]
-name = "khaliji-8211-drums-of-arabia"
-path = "plugins/a-samples/khaliji-8211-drums-of-arabia.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "khaliji-8211-emarati-expansion"
 path = "plugins/a-samples/khaliji-8211-emarati-expansion.toml"
 version = "1.0.0"
@@ -17729,16 +16884,6 @@ version = "1.0.0"
 [[plugins]]
 name = "khaliji-drums-of-arabia"
 path = "plugins/a-samples/khaliji-drums-of-arabia.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "khaliji-emarati-expansion"
-path = "plugins/a-samples/khaliji-emarati-expansion.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "khaliji-rhumba-expansion"
-path = "plugins/a-samples/khaliji-rhumba-expansion.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -17790,11 +16935,6 @@ version = "1.0"
 name = "kinematic-composer-cello"
 path = "plugins/loot-audio/kinematic-composer-cello.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "kinematik-8211-add-on-pack"
-path = "plugins/spitfire-audio/kinematik-8211-add-on-pack.toml"
-version = "1.0"
 
 [[plugins]]
 name = "kinematik-add-on-pack"
@@ -18037,11 +17177,6 @@ path = "plugins/native-instruments/komplete-future-classics-collection.toml"
 version = "1.0"
 
 [[plugins]]
-name = "koncept-038-funktion"
-path = "plugins/zero-g/koncept-038-funktion.toml"
-version = "1.0"
-
-[[plugins]]
 name = "koncept-funktion"
 path = "plugins/zero-g/koncept-funktion.toml"
 version = "1.0"
@@ -18135,11 +17270,6 @@ version = "2.0.3"
 name = "korzenie-kick"
 path = "plugins/saltline/korzenie-kick.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "kotelnikov-gentleman8217s-edition"
-path = "plugins/tokyo-dawn-labs/kotelnikov-gentleman8217s-edition.toml"
-version = "1.6.5"
 
 [[plugins]]
 name = "kotelnikov-gentlemans-edition"
@@ -18239,11 +17369,6 @@ version = "1.0.0"
 [[plugins]]
 name = "kymera"
 path = "plugins/mntra-instruments/kymera.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "kymera-collector8217s-edition"
-path = "plugins/mntra/kymera-collector8217s-edition.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -18434,11 +17559,6 @@ version = "1.0.0"
 [[plugins]]
 name = "langweil-150-expansion-pack-for-attracktive"
 path = "plugins/tracktion/langweil-150-expansion-pack-for-attracktive.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "langweil-150-expansion-pack-for-attracktive-tracktion"
-path = "plugins/tracktion/langweil-150-expansion-pack-for-attracktive-tracktion.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -18722,11 +17842,6 @@ path = "plugins/xln-audio/life.toml"
 version = "1.3.3"
 
 [[plugins]]
-name = "life-038-xo-bundle-exclusive"
-path = "plugins/xln-audio/life-038-xo-bundle-exclusive.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "life-xo-bundle-exclusive"
 path = "plugins/xln-audio/life-xo-bundle-exclusive.toml"
 version = "1.0.0"
@@ -18810,11 +17925,6 @@ version = "1.0.0"
 name = "limiter"
 path = "plugins/mastering-the-mix/limiter.toml"
 version = "1.0"
-
-[[plugins]]
-name = "limiter-6-gentleman8217s-edition"
-path = "plugins/tokyo-dawn-labs/limiter-6-gentleman8217s-edition.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "limiter-6-gentlemans-edition"
@@ -19077,11 +18187,6 @@ path = "plugins/nugen-audio/lm-correct-2.toml"
 version = "2.0"
 
 [[plugins]]
-name = "lm-correct-2-nugen-audio"
-path = "plugins/nugen-audio/lm-correct-2-nugen-audio.toml"
-version = "2.0"
-
-[[plugins]]
 name = "lm-correct-2-with-dynapt-extension"
 path = "plugins/nugen-audio/lm-correct-2-with-dynapt-extension.toml"
 version = "2.0"
@@ -19232,16 +18337,6 @@ path = "plugins/apple/logic-pro.toml"
 version = "11.1"
 
 [[plugins]]
-name = "loki-8211-felt-piano"
-path = "plugins/sonuscore/loki-8211-felt-piano.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "loki-felt-piano"
-path = "plugins/sonuscore/loki-felt-piano.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "london-contemporary-orchestra-strings"
 path = "plugins/spitfire-audio/london-contemporary-orchestra-strings.toml"
 version = "1.0"
@@ -19259,26 +18354,6 @@ version = "1.0.0"
 [[plugins]]
 name = "london-symphonic-strings"
 path = "plugins/aria-sounds/london-symphonic-strings.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "london-symphonic-strings-8211-solo-cello"
-path = "plugins/aria-sounds/london-symphonic-strings-8211-solo-cello.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "london-symphonic-strings-8211-solo-double-bass"
-path = "plugins/aria-sounds/london-symphonic-strings-8211-solo-double-bass.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "london-symphonic-strings-8211-solo-viola"
-path = "plugins/aria-sounds/london-symphonic-strings-8211-solo-viola.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "london-symphonic-strings-8211-solo-violin"
-path = "plugins/aria-sounds/london-symphonic-strings-8211-solo-violin.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -19402,18 +18477,8 @@ path = "plugins/nugen-audio/loudness-toolkit-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "lounge-038-chill"
-path = "plugins/zero-g/lounge-038-chill.toml"
-version = "1.0"
-
-[[plugins]]
 name = "lounge-chill"
 path = "plugins/zero-g/lounge-chill.toml"
-version = "1.0"
-
-[[plugins]]
-name = "lounge-factory-8211-downbeat-business"
-path = "plugins/zero-g/lounge-factory-8211-downbeat-business.toml"
 version = "1.0"
 
 [[plugins]]
@@ -19495,11 +18560,6 @@ version = "1.0"
 name = "luminance-v2"
 path = "plugins/sinevibes/luminance-v2.toml"
 version = "2.1.4"
-
-[[plugins]]
-name = "luminoso-8211-live-violin-phrases"
-path = "plugins/zero-g/luminoso-8211-live-violin-phrases.toml"
-version = "1.0"
 
 [[plugins]]
 name = "luminoso-live-violin-phrases"
@@ -19619,11 +18679,6 @@ version = "1.0.3"
 [[plugins]]
 name = "lx480-dual-engine-reverb-v4"
 path = "plugins/relab-development/lx480-dual-engine-reverb-v4.toml"
-version = "4.0"
-
-[[plugins]]
-name = "lx480-dual-engine-reverb-v4-relab-development"
-path = "plugins/relab-development/lx480-dual-engine-reverb-v4-relab-development.toml"
 version = "4.0"
 
 [[plugins]]
@@ -19912,16 +18967,6 @@ path = "plugins/cinematique-instruments/mandolin-v1-5.toml"
 version = "1.5"
 
 [[plugins]]
-name = "mandolin-v1-5-cinematique-instruments"
-path = "plugins/cinematique-instruments/mandolin-v1-5-cinematique-instruments.toml"
-version = "1.5"
-
-[[plugins]]
-name = "mangledverb"
-path = "plugins/eventide/mangledverb.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "manic-compressor"
 path = "plugins/boz-digital-labs/manic-compressor.toml"
 version = "1.0.0"
@@ -19934,11 +18979,6 @@ version = "1.0.0"
 [[plugins]]
 name = "manley-complete-bundle"
 path = "plugins/universal-audio/manley-complete-bundle.toml"
-version = "11.0"
-
-[[plugins]]
-name = "manley-massive-passive"
-path = "plugins/universal-audio/manley-massive-passive.toml"
 version = "11.0"
 
 [[plugins]]
@@ -20055,11 +19095,6 @@ version = "1.0.0"
 name = "marquis-compressor-v2"
 path = "plugins/voxengo/marquis-compressor-v2.toml"
 version = "2.8"
-
-[[plugins]]
-name = "mars-symphonic-men8217s-choir"
-path = "plugins/soundiron/mars-symphonic-men8217s-choir.toml"
-version = "1.5"
 
 [[plugins]]
 name = "mars-symphonic-mens-choir"
@@ -20194,11 +19229,6 @@ version = "11.0"
 [[plugins]]
 name = "massive"
 path = "plugins/pulsar-audio/massive.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "massive-038-mu-bundle"
-path = "plugins/pulsar-audio/massive-038-mu-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -20414,11 +19444,6 @@ version = "1.0.0"
 [[plugins]]
 name = "mastering-plugin-bundle"
 path = "plugins/sonnox/mastering-plugin-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mastering-plugin-bundle-8211-hd-hdx"
-path = "plugins/sonnox/mastering-plugin-bundle-8211-hd-hdx.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -20677,11 +19702,6 @@ path = "plugins/waves/mdmx-distortion-modules.toml"
 version = "14.0"
 
 [[plugins]]
-name = "mdr-8211-maquina-de-ritmo"
-path = "plugins/zyvenhaal/mdr-8211-maquina-de-ritmo.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "mdr-maquina-de-ritmo"
 path = "plugins/zyvenhaal/mdr-maquina-de-ritmo.toml"
 version = "1.0.0"
@@ -20837,19 +19857,9 @@ path = "plugins/muze/mello.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "mello-muze"
-path = "plugins/muze/mello-muze.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "mellotron"
 path = "plugins/air-music-tech/mellotron.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "mellotron-v"
-path = "plugins/arturia/mellotron-v.toml"
-version = "2.5.0"
 
 [[plugins]]
 name = "mellowmuse-complete-bundle"
@@ -20887,11 +19897,6 @@ path = "plugins/evabeat/melody-sauce-038-thenatan-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "melody-sauce-2-038-play-bundle"
-path = "plugins/loopcloud-plugins/melody-sauce-2-038-play-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "melody-sauce-2-play-bundle"
 path = "plugins/loopcloud-plugins/melody-sauce-2-play-bundle.toml"
 version = "1.0.0"
@@ -20900,11 +19905,6 @@ version = "1.0.0"
 name = "melody-sauce-3"
 path = "plugins/evabeat/melody-sauce-3.toml"
 version = "3.0"
-
-[[plugins]]
-name = "melody-sauce-thenatan-bundle"
-path = "plugins/evabeat/melody-sauce-thenatan-bundle.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "melodyne-5-essential"
@@ -20940,11 +19940,6 @@ version = "1.0.0"
 name = "memory-rhythm-sr88"
 path = "plugins/rhythmic-robot/memory-rhythm-sr88.toml"
 version = "1.0"
-
-[[plugins]]
-name = "memorymode"
-path = "plugins/cherry-audio/memorymode.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "mequalizerlp"
@@ -21127,11 +20122,6 @@ path = "plugins/meldaproduction/mfreeformequalizer.toml"
 version = "17.07"
 
 [[plugins]]
-name = "mfreefxbundle"
-path = "plugins/meldaproduction/mfreefxbundle.toml"
-version = "17.07"
-
-[[plugins]]
 name = "mfreqshiftermb"
 path = "plugins/meldaproduction/mfreqshiftermb.toml"
 version = "17.07"
@@ -21257,11 +20247,6 @@ path = "plugins/alden-nulden-productions/micron-vol-ii.toml"
 version = "II"
 
 [[plugins]]
-name = "micropitch"
-path = "plugins/eventide/micropitch.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "micropitch-immersive"
 path = "plugins/eventide/micropitch-immersive.toml"
 version = "1.0.0"
@@ -21347,11 +20332,6 @@ path = "plugins/bass-gnomes/millidelay.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "mimi-page-light-038-shadow"
-path = "plugins/soundiron/mimi-page-light-038-shadow.toml"
-version = "1.0"
-
-[[plugins]]
 name = "mimi-page-light-shadow"
 path = "plugins/soundiron/mimi-page-light-shadow.toml"
 version = "1.0"
@@ -21367,28 +20347,8 @@ path = "plugins/air-music-tech/mini-grand.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "mini-magic-8211-dark-tones-vol-1"
-path = "plugins/synth-magic/mini-magic-8211-dark-tones-vol-1.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mini-magic-8211-dark-tones-vol-2"
-path = "plugins/synth-magic/mini-magic-8211-dark-tones-vol-2.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "mini-magic-8211-digisizer"
 path = "plugins/synth-magic/mini-magic-8211-digisizer.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mini-magic-8211-eclectic-electric-vol-1"
-path = "plugins/synth-magic/mini-magic-8211-eclectic-electric-vol-1.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mini-magic-8211-eclectic-electric-vol-2"
-path = "plugins/synth-magic/mini-magic-8211-eclectic-electric-vol-2.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -21399,11 +20359,6 @@ version = "1.0.0"
 [[plugins]]
 name = "mini-magic-dark-tones-vol-2"
 path = "plugins/synth-magic/mini-magic-dark-tones-vol-2.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mini-magic-digisizer"
-path = "plugins/synth-magic/mini-magic-digisizer.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -21427,19 +20382,9 @@ path = "plugins/soundiron/mini-saron.toml"
 version = "1.0"
 
 [[plugins]]
-name = "mini-v"
-path = "plugins/arturia/mini-v.toml"
-version = "4.0.4"
-
-[[plugins]]
 name = "minibit"
 path = "plugins/audiothing/minibit.toml"
 version = "1.8"
-
-[[plugins]]
-name = "minibit-038-miniverb-bundle"
-path = "plugins/audiothing/minibit-038-miniverb-bundle.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "minibit-miniverb-bundle"
@@ -21597,43 +20542,8 @@ path = "plugins/uvi/mission-6.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "mists-vol-1-8211-hybrid-tongue-drum"
-path = "plugins/beautiful-void-audio/mists-vol-1-8211-hybrid-tongue-drum.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "mists-vol-1-hybrid-tongue-drum"
 path = "plugins/beautiful-void-audio/mists-vol-1-hybrid-tongue-drum.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mix-038-master-bundle-advanced-038-r4-bundle-exclusive"
-path = "plugins/izotope/mix-038-master-bundle-advanced-038-r4-bundle-exclusive.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mix-038-master-bundle-advanced-crossgrade-from-any-izotope-product-inc-free-and-elements"
-path = "plugins/izotope/mix-038-master-bundle-advanced-crossgrade-from-any-izotope-product-inc-free-and-elements.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mix-038-master-bundle-advanced-inc-ozone-9-advance-neutron-3-advanced-nectar-3-plus-melodyne-5-essential-neoverb-tonal-balance-control-2"
-path = "plugins/izotope/mix-038-master-bundle-advanced-inc-ozone-9-advance-neutron-3-advanced-nectar-3-plus-melodyne-5-essential-neoverb-tonal-balance-control-2.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mix-038-master-bundle-advanced-upgrade-from-any-advanced-product-or-neoverb"
-path = "plugins/izotope/mix-038-master-bundle-advanced-upgrade-from-any-advanced-product-or-neoverb.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mix-038-master-mo"
-path = "plugins/plugin-alliance/mix-038-master-mo.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "mix-038-master-yr"
-path = "plugins/plugin-alliance/mix-038-master-yr.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -22130,11 +21040,6 @@ version = "2.7.0"
 name = "molot"
 path = "plugins/vladgsound/molot.toml"
 version = "1.3"
-
-[[plugins]]
-name = "molot-compressor-gentleman8217s-edition"
-path = "plugins/tokyo-dawn-labs/molot-compressor-gentleman8217s-edition.toml"
-version = "1.0.7"
 
 [[plugins]]
 name = "molot-compressor-gentlemans-edition"
@@ -22992,11 +21897,6 @@ path = "plugins/wa-production/mutant-reverb-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "mutant-reverb-delay-bundle"
-path = "plugins/wa-production/mutant-reverb-delay-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "mutate"
 path = "plugins/wave-alchemy/mutate.toml"
 version = "1.0.0"
@@ -23337,11 +22237,6 @@ path = "plugins/psp-audioware/neon-hr.toml"
 version = "2"
 
 [[plugins]]
-name = "neopsy-kick-8211-artificial-kick-drum-generator"
-path = "plugins/eplex7-dsp/neopsy-kick-8211-artificial-kick-drum-generator.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "neopsy-kick-artificial-kick-drum-generator"
 path = "plugins/eplex7-dsp/neopsy-kick-artificial-kick-drum-generator.toml"
 version = "1.0.0"
@@ -23350,11 +22245,6 @@ version = "1.0.0"
 name = "neoverb"
 path = "plugins/izotope/neoverb.toml"
 version = "1.4.0"
-
-[[plugins]]
-name = "neoverb-038-stutter-edit-2-bundle-exclusive"
-path = "plugins/izotope/neoverb-038-stutter-edit-2-bundle-exclusive.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "neoverb-crossgrade"
@@ -23379,11 +22269,6 @@ version = "1.0.0"
 [[plugins]]
 name = "neoverb-stutter-edit-2-bundle-exclusive"
 path = "plugins/izotope/neoverb-stutter-edit-2-bundle-exclusive.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "neoverb-vocalsynth-2-038-iris-2-bundle-exclusive"
-path = "plugins/izotope/neoverb-vocalsynth-2-038-iris-2-bundle-exclusive.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -23447,11 +22332,6 @@ path = "plugins/5pin-media/neurofunk-serum.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "neurofunker-xg6-038-technotron-sd422-bundle"
-path = "plugins/g-sonique/neurofunker-xg6-038-technotron-sd422-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "neurofunker-xg6-technotron-sd422-bundle"
 path = "plugins/g-sonique/neurofunker-xg6-technotron-sd422-bundle.toml"
 version = "1.0.0"
@@ -23462,11 +22342,6 @@ path = "plugins/izotope/neutron-3-elements.toml"
 version = "5.2.0"
 
 [[plugins]]
-name = "neve-1073-preamp-038-eq-collection"
-path = "plugins/universal-audio/neve-1073-preamp-038-eq-collection.toml"
-version = "11.0"
-
-[[plugins]]
 name = "neve-1073-preamp-eq-collection"
 path = "plugins/universal-audio/neve-1073-preamp-eq-collection.toml"
 version = "11.0"
@@ -23474,11 +22349,6 @@ version = "11.0"
 [[plugins]]
 name = "neve-1081-1081se-classic-console-eq"
 path = "plugins/universal-audio/neve-1081-1081se-classic-console-eq.toml"
-version = "11.0"
-
-[[plugins]]
-name = "neve-1084-preamp-038-eq"
-path = "plugins/universal-audio/neve-1084-preamp-038-eq.toml"
 version = "11.0"
 
 [[plugins]]
@@ -23504,11 +22374,6 @@ version = "11.0"
 [[plugins]]
 name = "neve-dynamics-collection"
 path = "plugins/universal-audio/neve-dynamics-collection.toml"
-version = "11.0"
-
-[[plugins]]
-name = "neve-preamp"
-path = "plugins/universal-audio/neve-preamp.toml"
 version = "11.0"
 
 [[plugins]]
@@ -23742,11 +22607,6 @@ path = "plugins/future-audio-workshop/notes.toml"
 version = "1.0.3"
 
 [[plugins]]
-name = "nova-gentleman8217s-edition"
-path = "plugins/tokyo-dawn-labs/nova-gentleman8217s-edition.toml"
-version = "2.2.2"
-
-[[plugins]]
 name = "nova-gentlemans-edition"
 path = "plugins/tokyo-dawn-labs/nova-gentlemans-edition.toml"
 version = "2.2.2"
@@ -23782,11 +22642,6 @@ path = "plugins/heavyocity/novo-solo-textures.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "nrdic-cello"
-path = "plugins/have-audio/nrdic-cello.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "ns1-noise-suppressor"
 path = "plugins/waves/ns1-noise-suppressor.toml"
 version = "14.0"
@@ -23815,11 +22670,6 @@ version = "1.0"
 name = "nu-jointz-2"
 path = "plugins/zero-g/nu-jointz-2.toml"
 version = "2.0"
-
-[[plugins]]
-name = "nuage-8211-strings-designer"
-path = "plugins/hoss-audio/nuage-8211-strings-designer.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "nuage-strings-designer"
@@ -23892,11 +22742,6 @@ path = "plugins/waves/nx-virtual-studio-collection-nx-head-tracker.toml"
 version = "14.0"
 
 [[plugins]]
-name = "ny-cutz-2-8211-off-da-hook"
-path = "plugins/zero-g/ny-cutz-2-8211-off-da-hook.toml"
-version = "2.0"
-
-[[plugins]]
 name = "ny-cutz-2-off-da-hook"
 path = "plugins/zero-g/ny-cutz-2-off-da-hook.toml"
 version = "2.0"
@@ -23952,11 +22797,6 @@ path = "plugins/gforce-software/oberheim-ob-e.toml"
 version = "2.1"
 
 [[plugins]]
-name = "oberheim-ob-e-gforce-software"
-path = "plugins/gforce-software/oberheim-ob-e-gforce-software.toml"
-version = "2.1"
-
-[[plugins]]
 name = "oberheim-ob-x"
 path = "plugins/gforce-software/oberheim-ob-x.toml"
 version = "1.5"
@@ -24009,11 +22849,6 @@ version = "1.0"
 [[plugins]]
 name = "ocean-way-microphone-collection"
 path = "plugins/universal-audio/ocean-way-microphone-collection.toml"
-version = "11.0"
-
-[[plugins]]
-name = "ocean-way-studios"
-path = "plugins/universal-audio/ocean-way-studios.toml"
 version = "11.0"
 
 [[plugins]]
@@ -24095,11 +22930,6 @@ version = "2.5"
 name = "oddity3"
 path = "plugins/gforce-software/oddity3.toml"
 version = "3.0"
-
-[[plugins]]
-name = "odin-2"
-path = "plugins/thewavewarden/odin-2.toml"
-version = "2.4"
 
 [[plugins]]
 name = "odin2"
@@ -24572,11 +23402,6 @@ path = "plugins/zero-g/orchestral-toolbox-max-edition.toml"
 version = "1.0"
 
 [[plugins]]
-name = "orchestral-woodwinds-038-world-flutes-bundle"
-path = "plugins/gothic-instruments/orchestral-woodwinds-038-world-flutes-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "orchestral-woodwinds-world-flutes-bundle"
 path = "plugins/gothic-instruments/orchestral-woodwinds-world-flutes-bundle.toml"
 version = "1.0.0"
@@ -24637,11 +23462,6 @@ path = "plugins/sonuscore/origins-vol-1-5-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "origins-vol-1-5-bundle-sonuscore"
-path = "plugins/sonuscore/origins-vol-1-5-bundle-sonuscore.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "origins-vol-1-steel-tongue-038-sansula"
 path = "plugins/sonuscore/origins-vol-1-steel-tongue-038-sansula.toml"
 version = "1.0.0"
@@ -24667,11 +23487,6 @@ path = "plugins/sonuscore/origins-vol-2-music-box-plucked-piano.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "origins-vol-3-12-string-038-balalaika"
-path = "plugins/sonuscore/origins-vol-3-12-string-038-balalaika.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "origins-vol-3-12-string-balalaika"
 path = "plugins/sonuscore/origins-vol-3-12-string-balalaika.toml"
 version = "1.0.0"
@@ -24679,11 +23494,6 @@ version = "1.0.0"
 [[plugins]]
 name = "origins-vol-3-12-string-balalaika-sonuscore"
 path = "plugins/sonuscore/origins-vol-3-12-string-balalaika-sonuscore.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "origins-vol-4-oud-038-qanun"
-path = "plugins/sonuscore/origins-vol-4-oud-038-qanun.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -24987,21 +23797,6 @@ path = "plugins/sonnox/oxford-denoiser-native.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "oxford-drum-gate-038-dynamic-eq-bundle"
-path = "plugins/sonnox/oxford-drum-gate-038-dynamic-eq-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-drum-gate-038-limiter-bundle"
-path = "plugins/sonnox/oxford-drum-gate-038-limiter-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-drum-gate-038-toolbox-claro-bundle"
-path = "plugins/sonnox/oxford-drum-gate-038-toolbox-claro-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "oxford-drum-gate-2"
 path = "plugins/sonnox/oxford-drum-gate-2.toml"
 version = "2"
@@ -25009,11 +23804,6 @@ version = "2"
 [[plugins]]
 name = "oxford-drum-gate-dynamic-eq-bundle"
 path = "plugins/sonnox/oxford-drum-gate-dynamic-eq-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-drum-gate-limiter-038-toolbox-claro-bundle"
-path = "plugins/sonnox/oxford-drum-gate-limiter-038-toolbox-claro-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -25049,11 +23839,6 @@ version = "1.0.0"
 [[plugins]]
 name = "oxford-dynamic-eq-native"
 path = "plugins/sonnox/oxford-dynamic-eq-native.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-dynamics"
-path = "plugins/sonnox/oxford-dynamics.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -25132,43 +23917,8 @@ path = "plugins/sonnox/oxford-inflator.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "oxford-inflator-038-drum-gate-bundle"
-path = "plugins/sonnox/oxford-inflator-038-drum-gate-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-inflator-038-dynamic-eq-bundle"
-path = "plugins/sonnox/oxford-inflator-038-dynamic-eq-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-inflator-038-limiter-bundle"
-path = "plugins/sonnox/oxford-inflator-038-limiter-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-inflator-038-toolbox-claro-bundle"
-path = "plugins/sonnox/oxford-inflator-038-toolbox-claro-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-inflator-drum-gate-038-limiter-bundle"
-path = "plugins/sonnox/oxford-inflator-drum-gate-038-limiter-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-inflator-drum-gate-038-toolbox-claro-bundle"
-path = "plugins/sonnox/oxford-inflator-drum-gate-038-toolbox-claro-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "oxford-inflator-drum-gate-bundle"
 path = "plugins/sonnox/oxford-inflator-drum-gate-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-inflator-drum-gate-limiter-038-toolbox-claro-bundle"
-path = "plugins/sonnox/oxford-inflator-drum-gate-limiter-038-toolbox-claro-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -25197,11 +23947,6 @@ path = "plugins/sonnox/oxford-inflator-hd-hdx.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "oxford-inflator-limiter-038-toolbox-claro-bundle"
-path = "plugins/sonnox/oxford-inflator-limiter-038-toolbox-claro-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "oxford-inflator-limiter-bundle"
 path = "plugins/sonnox/oxford-inflator-limiter-bundle.toml"
 version = "1.0.0"
@@ -25224,11 +23969,6 @@ version = "1.0.0"
 [[plugins]]
 name = "oxford-limiter"
 path = "plugins/sonnox/oxford-limiter.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-limiter-038-toolbox-claro-bundle"
-path = "plugins/sonnox/oxford-limiter-038-toolbox-claro-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -25279,11 +24019,6 @@ version = "1.0.0"
 [[plugins]]
 name = "oxford-restore-bundle-native"
 path = "plugins/sonnox/oxford-restore-bundle-native.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "oxford-reverb"
-path = "plugins/sonnox/oxford-reverb.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -25372,11 +24107,6 @@ path = "plugins/synth-magic/p8000.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "pa-shadow-hills-class-a"
-path = "plugins/plugin-alliance/pa-shadow-hills-class-a.toml"
-version = "1.5.0"
-
-[[plugins]]
 name = "pachamama-pan-flutes"
 path = "plugins/marcos-ciscar/pachamama-pan-flutes.toml"
 version = "1.0.0"
@@ -25457,11 +24187,6 @@ path = "plugins/muletone-audio/pandeiro-2.toml"
 version = "2.3.1"
 
 [[plugins]]
-name = "pandora-038-adaptive-runs-pack"
-path = "plugins/projectsam/pandora-038-adaptive-runs-pack.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "pandora-adaptive-runs-pack"
 path = "plugins/projectsam/pandora-adaptive-runs-pack.toml"
 version = "1.0.0"
@@ -25532,11 +24257,6 @@ path = "plugins/universal-audio/paradise-guitar-studio-amplifier-and-effects.tom
 version = "11.0"
 
 [[plugins]]
-name = "paradise-guitar-studio-amplifier-and-effects-plug-in-8211-crossgrade-from-uad-guitar-amp-plug-in-bundle"
-path = "plugins/universal-audio/paradise-guitar-studio-amplifier-and-effects-plug-in-8211-crossgrade-from-uad-guitar-amp-plug-in-bundle.toml"
-version = "11.0"
-
-[[plugins]]
 name = "paradise-guitar-studio-amplifier-and-effects-plug-in-crossgrade-from-uad-guitar-amp-plug-in-bundle"
 path = "plugins/universal-audio/paradise-guitar-studio-amplifier-and-effects-plug-in-crossgrade-from-uad-guitar-amp-plug-in-bundle.toml"
 version = "11.0"
@@ -25555,11 +24275,6 @@ version = "1.5"
 name = "paragon-st"
 path = "plugins/nugen-audio/paragon-st.toml"
 version = "1.0"
-
-[[plugins]]
-name = "parallel-aggressor"
-path = "plugins/baby-audio/parallel-aggressor.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "parallels"
@@ -25589,11 +24304,6 @@ version = "1.0.0"
 [[plugins]]
 name = "parrot"
 path = "plugins/klevgrand/parrot.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "particle-collider-sx7-8211-hybrid-scientific-synthesizer"
-path = "plugins/eplex7-dsp/particle-collider-sx7-8211-hybrid-scientific-synthesizer.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -25782,11 +24492,6 @@ path = "plugins/denise/perfect-room.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "perfect-room-2"
-path = "plugins/denise-audio/perfect-room-2.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "peridot-le"
 path = "plugins/audified/peridot-le.toml"
 version = "1.0.0"
@@ -25907,11 +24612,6 @@ path = "plugins/bleass/phaser.toml"
 version = "1.0"
 
 [[plugins]]
-name = "phaser-bi-tron"
-path = "plugins/arturia/phaser-bi-tron.toml"
-version = "1.4.0"
-
-[[plugins]]
 name = "phasethree"
 path = "plugins/audio-damage/phasethree.toml"
 version = "1.0.0"
@@ -26022,11 +24722,6 @@ path = "plugins/eventide/physion-mk-ii-upgrade-from-physion-anthology-xi.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "pi-038-phi-mkii"
-path = "plugins/mia-laboratories/pi-038-phi-mkii.toml"
-version = "MkII"
-
-[[plugins]]
 name = "pi-038-phi-mkiii"
 path = "plugins/mia-laboratories/pi-038-phi-mkiii.toml"
 version = "MKIII"
@@ -26035,16 +24730,6 @@ version = "MKIII"
 name = "pi-phi-mkii"
 path = "plugins/mia-laboratories/pi-phi-mkii.toml"
 version = "MkII"
-
-[[plugins]]
-name = "pi-phi-mkiii"
-path = "plugins/mia-laboratories/pi-phi-mkiii.toml"
-version = "MKIII"
-
-[[plugins]]
-name = "piano-038-keys-bundle"
-path = "plugins/soundiron/piano-038-keys-bundle.toml"
-version = "1.0"
 
 [[plugins]]
 name = "piano-colors"
@@ -26065,11 +24750,6 @@ version = "3.5.0"
 name = "pianology"
 path = "plugins/rhodes/pianology.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "pianos-038-keys-bundle"
-path = "plugins/waves/pianos-038-keys-bundle.toml"
-version = "14.0"
 
 [[plugins]]
 name = "pianos-keys-bundle"
@@ -26282,11 +24962,6 @@ path = "plugins/new-loops/pluck-bass-for-kontakt.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "plug8217n-script"
-path = "plugins/blue-cat-audio/plug8217n-script.toml"
-version = "3.6"
-
-[[plugins]]
 name = "plugin-boutique-10th-anniversary-bundle"
 path = "plugins/plugin-boutique-exclusive-bundles/plugin-boutique-10th-anniversary-bundle.toml"
 version = "1.0.0"
@@ -26304,11 +24979,6 @@ version = "1.0.0"
 [[plugins]]
 name = "plugin-boutique-presets-phase-plant-expansions-bundle"
 path = "plugins/plugin-boutique-presets/plugin-boutique-presets-phase-plant-expansions-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "plugin-boutique-scaler-2-038-songwish-remidi-2-bundle"
-path = "plugins/plugin-boutique-exclusive-bundles/plugin-boutique-scaler-2-038-songwish-remidi-2-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -26377,11 +25047,6 @@ path = "plugins/audiority/polaris.toml"
 version = "1.9"
 
 [[plugins]]
-name = "polaris-audiority"
-path = "plugins/audiority/polaris-audiority.toml"
-version = "1.9"
-
-[[plugins]]
 name = "polivox"
 path = "plugins/hideaway-studio/polivox.toml"
 version = "1.0.0"
@@ -26444,11 +25109,6 @@ version = "2"
 [[plugins]]
 name = "polykb-iii"
 path = "plugins/xils-lab/polykb-iii.toml"
-version = "3.6.4"
-
-[[plugins]]
-name = "polykb-iii-038-ii"
-path = "plugins/xils-lab/polykb-iii-038-ii.toml"
 version = "3.6.4"
 
 [[plugins]]
@@ -26557,19 +25217,9 @@ path = "plugins/iamlamprey/portal.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "portal-output"
-path = "plugins/output/portal-output.toml"
-version = "1.0"
-
-[[plugins]]
 name = "poseidon"
 path = "plugins/pulsar-audio/poseidon.toml"
 version = "1.1.11"
-
-[[plugins]]
-name = "possitive-psy-pads-038-soundscapes-1"
-path = "plugins/eplex7-dsp/possitive-psy-pads-038-soundscapes-1.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "possitive-psy-pads-soundscapes-1"
@@ -26712,34 +25362,9 @@ path = "plugins/arturia/pre-trida.toml"
 version = "1.4.0"
 
 [[plugins]]
-name = "pre-v76"
-path = "plugins/arturia/pre-v76.toml"
-version = "1.4.0"
-
-[[plugins]]
 name = "pre-x7"
 path = "plugins/audiority/pre-x7.toml"
 version = "1.6.1"
-
-[[plugins]]
-name = "precision-buss-compressor"
-path = "plugins/universal-audio/precision-buss-compressor.toml"
-version = "11.0"
-
-[[plugins]]
-name = "precision-de-esser"
-path = "plugins/universal-audio/precision-de-esser.toml"
-version = "11.0"
-
-[[plugins]]
-name = "precision-enhancer-hz"
-path = "plugins/universal-audio/precision-enhancer-hz.toml"
-version = "11.0"
-
-[[plugins]]
-name = "precision-enhancer-khz"
-path = "plugins/universal-audio/precision-enhancer-khz.toml"
-version = "11.0"
 
 [[plugins]]
 name = "precision-eq"
@@ -26752,34 +25377,14 @@ path = "plugins/universal-audio/precision-k-stereo-ambience-recovery.toml"
 version = "11.0"
 
 [[plugins]]
-name = "precision-limiter"
-path = "plugins/universal-audio/precision-limiter.toml"
-version = "11.0"
-
-[[plugins]]
 name = "precision-mastering-bundle"
 path = "plugins/universal-audio/precision-mastering-bundle.toml"
-version = "11.0"
-
-[[plugins]]
-name = "precision-maximizer"
-path = "plugins/universal-audio/precision-maximizer.toml"
-version = "11.0"
-
-[[plugins]]
-name = "precision-multiband"
-path = "plugins/universal-audio/precision-multiband.toml"
 version = "11.0"
 
 [[plugins]]
 name = "precision-time-align"
 path = "plugins/eventide/precision-time-align.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "predator-3"
-path = "plugins/rob-papen/predator-3.toml"
-version = "3.0"
 
 [[plugins]]
 name = "predator-3-upgrade-from-predator-1-or-2"
@@ -27032,11 +25637,6 @@ path = "plugins/synthscience/prodigious.toml"
 version = "1.0"
 
 [[plugins]]
-name = "prodigious-8211-orchestral-engine"
-path = "plugins/new-nation/prodigious-8211-orchestral-engine.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "prodigious-orchestral-engine"
 path = "plugins/new-nation/prodigious-orchestral-engine.toml"
 version = "1.0.0"
@@ -27062,11 +25662,6 @@ path = "plugins/eastwest/prodrummer-vol-1.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "prodrummer-volumes-1-038-2-bundle"
-path = "plugins/eastwest/prodrummer-volumes-1-038-2-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "prodrummer-volumes-1-2-bundle"
 path = "plugins/eastwest/prodrummer-volumes-1-2-bundle.toml"
 version = "1.0.0"
@@ -27075,11 +25670,6 @@ version = "1.0.0"
 name = "producer-essentials"
 path = "plugins/karanyi-sounds/producer-essentials.toml"
 version = "1.0"
-
-[[plugins]]
-name = "producer8217s-guide-to-neoverb"
-path = "plugins/producertech/producer8217s-guide-to-neoverb.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "producers-bundle"
@@ -27115,11 +25705,6 @@ version = "1.0"
 name = "prophecy"
 path = "plugins/korg/prophecy.toml"
 version = "6"
-
-[[plugins]]
-name = "prophet-5-v"
-path = "plugins/arturia/prophet-5-v.toml"
-version = "2.5.0"
 
 [[plugins]]
 name = "prophet-v"
@@ -27169,11 +25754,6 @@ version = "14.0"
 [[plugins]]
 name = "ps-20"
 path = "plugins/cherry-audio/ps-20.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "ps-20-cherry-audio"
-path = "plugins/cherry-audio/ps-20-cherry-audio.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -27587,11 +26167,6 @@ path = "plugins/rob-papen/punch-bd.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "punch-bd-rob-papen"
-path = "plugins/rob-papen/punch-bd-rob-papen.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "punch-compressor"
 path = "plugins/minimal-system-group/punch-compressor.toml"
 version = "1.0.0"
@@ -27962,16 +26537,6 @@ path = "plugins/uvi/quadra-8211-metal-and-wood.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "quadra-metal-and-wood"
-path = "plugins/uvi/quadra-metal-and-wood.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "quadra-muted-038-harmonics"
-path = "plugins/uvi/quadra-muted-038-harmonics.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "quadra-muted-harmonics"
 path = "plugins/uvi/quadra-muted-harmonics.toml"
 version = "1.0.0"
@@ -28009,11 +26574,6 @@ version = "1.0.0"
 [[plugins]]
 name = "quanta"
 path = "plugins/audio-damage/quanta.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "quanta-2"
-path = "plugins/audio-damage/quanta-2.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -28127,11 +26687,6 @@ path = "plugins/soundradix/radical-post-duo.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "radical-vox-038-bass-duo"
-path = "plugins/soundradix/radical-vox-038-bass-duo.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "radical-vox-bass-duo"
 path = "plugins/soundradix/radical-vox-bass-duo.toml"
 version = "1.0.0"
@@ -28160,11 +26715,6 @@ version = "1.0"
 name = "rain-simulator"
 path = "plugins/alden-nulden-productions/rain-simulator.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "raindrop-038-blade"
-path = "plugins/three-body-technology/raindrop-038-blade.toml"
-version = "1.6.0"
 
 [[plugins]]
 name = "raindrop-blade"
@@ -28267,11 +26817,6 @@ path = "plugins/rave-generation/rave-station-2.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "rave-synths-038-leads-1-plugin-instrument"
-path = "plugins/eplex7-dsp/rave-synths-038-leads-1-plugin-instrument.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "rave-synths-leads-1-plugin-instrument"
 path = "plugins/eplex7-dsp/rave-synths-leads-1-plugin-instrument.toml"
 version = "1.0.0"
@@ -28307,11 +26852,6 @@ path = "plugins/rob-papen/raw-kick.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "raw-kick-rob-papen"
-path = "plugins/rob-papen/raw-kick-rob-papen.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "rawstyle-massacre"
 path = "plugins/singomakers-sounds/rawstyle-massacre.toml"
 version = "1.0.0"
@@ -28325,16 +26865,6 @@ version = "1.0.0"
 name = "rayblaster-2"
 path = "plugins/tone2/rayblaster-2.toml"
 version = "2.x"
-
-[[plugins]]
-name = "rc-20"
-path = "plugins/xln-audio/rc-20.toml"
-version = "1.3.5"
-
-[[plugins]]
-name = "rc-20-retro-color"
-path = "plugins/xln-audio/rc-20-retro-color.toml"
-version = "1.5.1"
 
 [[plugins]]
 name = "rc-20-retro-color-xln-audio"
@@ -28537,11 +27067,6 @@ path = "plugins/sampleson/reed200-v2.toml"
 version = "2"
 
 [[plugins]]
-name = "reelight-pro"
-path = "plugins/tone-empire/reelight-pro.toml"
-version = "3"
-
-[[plugins]]
 name = "reels"
 path = "plugins/audiothing/reels.toml"
 version = "1.5.4"
@@ -28702,11 +27227,6 @@ path = "plugins/synchro-arts/repitch.toml"
 version = "2"
 
 [[plugins]]
-name = "repitch-038-vocalign-ultra-bundle"
-path = "plugins/synchro-arts/repitch-038-vocalign-ultra-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "repitch-crossgrade"
 path = "plugins/synchro-arts/repitch-crossgrade.toml"
 version = "2"
@@ -28779,11 +27299,6 @@ version = "1.0.0"
 [[plugins]]
 name = "resonance-sound-synthmorph-opsix-arctic-shimmer"
 path = "plugins/resonance-sound/resonance-sound-synthmorph-opsix-arctic-shimmer.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "resonant-techno-reverb-rrtx24-8211-extraterrestrial-algorithmic-fx-reverb"
-path = "plugins/g-sonique/resonant-techno-reverb-rrtx24-8211-extraterrestrial-algorithmic-fx-reverb.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -28957,21 +27472,6 @@ path = "plugins/output/rev-038-signal-bundle.toml"
 version = "1.0"
 
 [[plugins]]
-name = "rev-intensity"
-path = "plugins/arturia/rev-intensity.toml"
-version = "1.4.0"
-
-[[plugins]]
-name = "rev-plate-140"
-path = "plugins/arturia/rev-plate-140.toml"
-version = "1.4.0"
-
-[[plugins]]
-name = "rev-signal-bundle"
-path = "plugins/output/rev-signal-bundle.toml"
-version = "1.0"
-
-[[plugins]]
 name = "rev-spring-636"
 path = "plugins/arturia/rev-spring-636.toml"
 version = "1.4.0"
@@ -29015,11 +27515,6 @@ version = "1.0.0"
 name = "reverb"
 path = "plugins/bleass/reverb.toml"
 version = "1.0"
-
-[[plugins]]
-name = "reverb-038-delay-bundle"
-path = "plugins/black-rooster-audio/reverb-038-delay-bundle.toml"
-version = "3.0.0"
 
 [[plugins]]
 name = "reverb-classics"
@@ -29192,11 +27687,6 @@ path = "plugins/rhodes/rhodes-v8-virtual-instrument.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "rhymes-with-rogue-8211-leads-analog-synths-for-kontakt-live-reason-zampler"
-path = "plugins/new-loops/rhymes-with-rogue-8211-leads-analog-synths-for-kontakt-live-reason-zampler.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "rhymes-with-rogue-leads-analog-synths-for-kontakt-live-reason-zampler"
 path = "plugins/new-loops/rhymes-with-rogue-leads-analog-synths-for-kontakt-live-reason-zampler.toml"
 version = "1.0.0"
@@ -29205,11 +27695,6 @@ version = "1.0.0"
 name = "rhythm-box"
 path = "plugins/pitch-innovations/rhythm-box.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "rhythm-guitar-038-fx"
-path = "plugins/zero-g/rhythm-guitar-038-fx.toml"
-version = "1.0"
 
 [[plugins]]
 name = "rhythm-guitar-fx"
@@ -29307,11 +27792,6 @@ path = "plugins/minimal-audio/rift-2-0.toml"
 version = "2.0"
 
 [[plugins]]
-name = "rift-2-0-minimal-audio"
-path = "plugins/minimal-audio/rift-2-0-minimal-audio.toml"
-version = "2.0"
-
-[[plugins]]
 name = "rift-feedback-lite"
 path = "plugins/minimal-audio/rift-feedback-lite.toml"
 version = "1.0.0"
@@ -29367,11 +27847,6 @@ path = "plugins/soundiron/riq-drum.toml"
 version = "1.0"
 
 [[plugins]]
-name = "rise-038-hit"
-path = "plugins/native-instruments/rise-038-hit.toml"
-version = "1.2"
-
-[[plugins]]
 name = "rise-designer"
 path = "plugins/zero-g/rise-designer.toml"
 version = "1.0"
@@ -29394,11 +27869,6 @@ version = "1.0.0"
 [[plugins]]
 name = "ro-140"
 path = "plugins/black-rooster-audio/ro-140.toml"
-version = "3.0.0"
-
-[[plugins]]
-name = "ro-140-black-rooster-audio"
-path = "plugins/black-rooster-audio/ro-140-black-rooster-audio.toml"
 version = "3.0.0"
 
 [[plugins]]
@@ -29452,16 +27922,6 @@ path = "plugins/rob-papen/rocoder.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "roki-8211-electric-piano"
-path = "plugins/sonuscore/roki-8211-electric-piano.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "roki-electric-piano"
-path = "plugins/sonuscore/roki-electric-piano.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "roli-studio"
 path = "plugins/roli/roli-studio.toml"
 version = "2.0"
@@ -29512,11 +27972,6 @@ path = "plugins/united-plugins/royal-compressor.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "royal-compressor-united-plugins"
-path = "plugins/united-plugins/royal-compressor-united-plugins.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "rp-86"
 path = "plugins/sampletrip/rp-86.toml"
 version = "1.0.0"
@@ -29524,11 +27979,6 @@ version = "1.0.0"
 [[plugins]]
 name = "rp-delay"
 path = "plugins/rob-papen/rp-delay.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "rp-delay-rob-papen"
-path = "plugins/rob-papen/rp-delay-rob-papen.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -29547,11 +27997,6 @@ path = "plugins/rob-papen/rp-eq.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "rp-eq-rob-papen"
-path = "plugins/rob-papen/rp-eq-rob-papen.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "rp-mastermagic"
 path = "plugins/rob-papen/rp-mastermagic.toml"
 version = "1.0.0"
@@ -29567,11 +28012,6 @@ path = "plugins/rob-papen/rp-reverse.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "rp-reverse-rob-papen"
-path = "plugins/rob-papen/rp-reverse-rob-papen.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "rp-verb"
 path = "plugins/rob-papen/rp-verb.toml"
 version = "1.0"
@@ -29580,11 +28020,6 @@ version = "1.0"
 name = "rp-verb-2"
 path = "plugins/rob-papen/rp-verb-2.toml"
 version = "2.0"
-
-[[plugins]]
-name = "rp-verb-2-038-rp-delay"
-path = "plugins/rob-papen/rp-verb-2-038-rp-delay.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "rp-verb-2-rp-delay"
@@ -29672,11 +28107,6 @@ path = "plugins/soundiron/rust-3.toml"
 version = "1.0"
 
 [[plugins]]
-name = "rverb"
-path = "plugins/klevgrand/rverb.toml"
-version = "1.0"
-
-[[plugins]]
 name = "rx-elements"
 path = "plugins/izotope/rx-elements.toml"
 version = "11.4.0"
@@ -29744,11 +28174,6 @@ version = "1.0"
 [[plugins]]
 name = "s-quick-strip"
 path = "plugins/kiive-audio/s-quick-strip.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "s-quick-strip-kiive-audio"
-path = "plugins/kiive-audio/s-quick-strip-kiive-audio.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -29865,11 +28290,6 @@ version = "2.0"
 name = "samplex-v3"
 path = "plugins/beatskillz/samplex-v3.toml"
 version = "3.0"
-
-[[plugins]]
-name = "samuel-sim-8211-chrysalis"
-path = "plugins/spitfire-audio/samuel-sim-8211-chrysalis.toml"
-version = "1.0"
 
 [[plugins]]
 name = "samuel-sim-chrysalis"
@@ -30252,11 +28672,6 @@ path = "plugins/nugen-audio/seq-s.toml"
 version = "1.0"
 
 [[plugins]]
-name = "seq-s-nugen-audio"
-path = "plugins/nugen-audio/seq-s-nugen-audio.toml"
-version = "1.0"
-
-[[plugins]]
 name = "seq-st"
 path = "plugins/nugen-audio/seq-st.toml"
 version = "1.0"
@@ -30612,11 +29027,6 @@ path = "plugins/cableguys/shaperbox-2.toml"
 version = "2"
 
 [[plugins]]
-name = "shaperbox-3"
-path = "plugins/cableguys/shaperbox-3.toml"
-version = "3.6.2"
-
-[[plugins]]
 name = "shaperbox-3-lifeline-console-lite-bundle"
 path = "plugins/plugin-boutique-exclusive-bundles/shaperbox-3-lifeline-console-lite-bundle.toml"
 version = "1.0.0"
@@ -30644,11 +29054,6 @@ version = "1.0"
 [[plugins]]
 name = "shimmer-vibraphone"
 path = "plugins/alden-nulden-productions/shimmer-vibraphone.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "shimmerverb"
-path = "plugins/eventide/shimmerverb.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -30887,16 +29292,6 @@ path = "plugins/output/signal-rev-bundle.toml"
 version = "1.0"
 
 [[plugins]]
-name = "signature-series-bass-038-drums-collection"
-path = "plugins/waves/signature-series-bass-038-drums-collection.toml"
-version = "14.0"
-
-[[plugins]]
-name = "signature-series-bass-and-drums-collection"
-path = "plugins/waves/signature-series-bass-and-drums-collection.toml"
-version = "14.0"
-
-[[plugins]]
 name = "signature-series-bass-drums-collection"
 path = "plugins/waves/signature-series-bass-drums-collection.toml"
 version = "14.0"
@@ -30967,11 +29362,6 @@ path = "plugins/rdgaudio/simply-piano.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "sines"
-path = "plugins/cherry-audio/sines.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "sines-synthesizer"
 path = "plugins/cherry-audio/sines-synthesizer.toml"
 version = "1.0.0"
@@ -31000,11 +29390,6 @@ version = "1.0.9"
 name = "skaka"
 path = "plugins/klevgrand/skaka.toml"
 version = "1.0"
-
-[[plugins]]
-name = "sketch-cassette"
-path = "plugins/aberrant-dsp/sketch-cassette.toml"
-version = "2.0"
 
 [[plugins]]
 name = "sketch-guitar-rebuilt"
@@ -31152,11 +29537,6 @@ path = "plugins/kilohearts/slice-eq.toml"
 version = "2.4.6"
 
 [[plugins]]
-name = "slickeq-gentleman8217s-edition"
-path = "plugins/tokyo-dawn-labs/slickeq-gentleman8217s-edition.toml"
-version = "1.3.9"
-
-[[plugins]]
 name = "slickeq-gentlemans-edition"
 path = "plugins/tokyo-dawn-labs/slickeq-gentlemans-edition.toml"
 version = "1.3.9"
@@ -31262,11 +29642,6 @@ path = "plugins/sonible/smarteq-live.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "smartgate"
-path = "plugins/sonible/smartgate.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "smartgate-crossgrade"
 path = "plugins/sonible/smartgate-crossgrade.toml"
 version = "1.0.0"
@@ -31274,11 +29649,6 @@ version = "1.0.0"
 [[plugins]]
 name = "smartgate-upgrade"
 path = "plugins/sonible/smartgate-upgrade.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "smartlimit"
-path = "plugins/sonible/smartlimit.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -31557,11 +29927,6 @@ path = "plugins/universal-audio/softube-amp-room-bundle.toml"
 version = "11.0"
 
 [[plugins]]
-name = "softube-vocoder"
-path = "plugins/universal-audio/softube-vocoder.toml"
-version = "11.0"
-
-[[plugins]]
 name = "software-bundle"
 path = "plugins/minimal-audio/software-bundle.toml"
 version = "1.0.0"
@@ -31647,18 +30012,8 @@ path = "plugins/heavyocity/sonara-voices-in-motion.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "sonespheres-1-8211-distance"
-path = "plugins/soundiron/sonespheres-1-8211-distance.toml"
-version = "1.0"
-
-[[plugins]]
 name = "sonespheres-1-distance"
 path = "plugins/soundiron/sonespheres-1-distance.toml"
-version = "1.0"
-
-[[plugins]]
-name = "sonespheres-2-8211-origins"
-path = "plugins/soundiron/sonespheres-2-8211-origins.toml"
 version = "1.0"
 
 [[plugins]]
@@ -31667,18 +30022,8 @@ path = "plugins/soundiron/sonespheres-2-origins.toml"
 version = "1.0"
 
 [[plugins]]
-name = "sonespheres-3-8211-current"
-path = "plugins/soundiron/sonespheres-3-8211-current.toml"
-version = "1.0"
-
-[[plugins]]
 name = "sonespheres-3-current"
 path = "plugins/soundiron/sonespheres-3-current.toml"
-version = "1.0"
-
-[[plugins]]
-name = "sonespheres-4-8211-direction"
-path = "plugins/soundiron/sonespheres-4-8211-direction.toml"
 version = "1.0"
 
 [[plugins]]
@@ -31790,11 +30135,6 @@ version = "5.0"
 name = "sonnox-oxford-supresser-ds"
 path = "plugins/universal-audio/sonnox-oxford-supresser-ds.toml"
 version = "11.0"
-
-[[plugins]]
-name = "sonosaurus-paulxstretch"
-path = "plugins/sonosaurus/sonosaurus-paulxstretch.toml"
-version = "1.6.0"
 
 [[plugins]]
 name = "sonsig-ace"
@@ -31992,11 +30332,6 @@ path = "plugins/just-add-drums/sound-like-when-the-levee-breaks-kontakt.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "sound-machine-wood-works"
-path = "plugins/universal-audio/sound-machine-wood-works.toml"
-version = "11.0"
-
-[[plugins]]
 name = "sound-pack-bundle-sdz001-100"
 path = "plugins/roland/sound-pack-bundle-sdz001-100.toml"
 version = "1.0"
@@ -32080,16 +30415,6 @@ version = "1.0"
 name = "soundiron-vocal-suite-2"
 path = "plugins/soundiron/soundiron-vocal-suite-2.toml"
 version = "1.0"
-
-[[plugins]]
-name = "sounds-from-hell-8211-ambience-038-underscore"
-path = "plugins/red-room-audio/sounds-from-hell-8211-ambience-038-underscore.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "sounds-from-hell-8211-hits-transitions"
-path = "plugins/red-room-audio/sounds-from-hell-8211-hits-transitions.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "sounds-from-hell-ambience-underscore"
@@ -32202,31 +30527,6 @@ path = "plugins/soundtoys/soundtoys-5-bundle.toml"
 version = "5.5"
 
 [[plugins]]
-name = "soundtoys-crystallizer"
-path = "plugins/soundtoys/soundtoys-crystallizer.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-decapitator"
-path = "plugins/soundtoys/soundtoys-decapitator.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-devil-loc"
-path = "plugins/soundtoys/soundtoys-devil-loc.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-devil-loc-deluxe"
-path = "plugins/soundtoys/soundtoys-devil-loc-deluxe.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-echoboy"
-path = "plugins/soundtoys/soundtoys-echoboy.toml"
-version = "5.5.4"
-
-[[plugins]]
 name = "soundtoys-echoboy-jr"
 path = "plugins/soundtoys/soundtoys-echoboy-jr.toml"
 version = "5.5.4"
@@ -32242,63 +30542,8 @@ path = "plugins/soundtoys/soundtoys-filterfreak.toml"
 version = "5.5.4"
 
 [[plugins]]
-name = "soundtoys-little-alterboy"
-path = "plugins/soundtoys/soundtoys-little-alterboy.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-little-microshift"
-path = "plugins/soundtoys/soundtoys-little-microshift.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-little-plate"
-path = "plugins/soundtoys/soundtoys-little-plate.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-little-primaltap"
-path = "plugins/soundtoys/soundtoys-little-primaltap.toml"
-version = "5.5.4"
-
-[[plugins]]
 name = "soundtoys-little-radiator"
 path = "plugins/soundtoys/soundtoys-little-radiator.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-microshift"
-path = "plugins/soundtoys/soundtoys-microshift.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-panman"
-path = "plugins/soundtoys/soundtoys-panman.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-phase-mistress"
-path = "plugins/soundtoys/soundtoys-phase-mistress.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-primaltap"
-path = "plugins/soundtoys/soundtoys-primaltap.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-radiator"
-path = "plugins/soundtoys/soundtoys-radiator.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-sieq"
-path = "plugins/soundtoys/soundtoys-sieq.toml"
-version = "5.5.4"
-
-[[plugins]]
-name = "soundtoys-tremolator"
-path = "plugins/soundtoys/soundtoys-tremolator.toml"
 version = "5.5.4"
 
 [[plugins]]
@@ -32394,11 +30639,6 @@ version = "5.5.2"
 [[plugins]]
 name = "spacecraft"
 path = "plugins/tracktion/spacecraft.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "spaced-out"
-path = "plugins/baby-audio/spaced-out.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -32575,11 +30815,6 @@ version = "1.5.0"
 name = "spherequad"
 path = "plugins/wa-production/spherequad.toml"
 version = "1.5.0"
-
-[[plugins]]
-name = "spherix-immersive-compressor-038-limiter"
-path = "plugins/waves/spherix-immersive-compressor-038-limiter.toml"
-version = "14.0"
 
 [[plugins]]
 name = "spherix-immersive-compressor-limiter"
@@ -32844,11 +31079,6 @@ version = "1.0.0"
 [[plugins]]
 name = "spring"
 path = "plugins/eventide/spring.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "spring-eventide"
-path = "plugins/eventide/spring-eventide.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -33127,19 +31357,9 @@ path = "plugins/solid-state-logic/ssl-native-bus-compressor.toml"
 version = "2.0"
 
 [[plugins]]
-name = "ssl-native-bus-compressor-2"
-path = "plugins/solid-state-logic/ssl-native-bus-compressor-2.toml"
-version = "2"
-
-[[plugins]]
 name = "ssl-native-channel-strip"
 path = "plugins/solid-state-logic/ssl-native-channel-strip.toml"
 version = "2.0"
-
-[[plugins]]
-name = "ssl-native-channel-strip-2"
-path = "plugins/solid-state-logic/ssl-native-channel-strip-2.toml"
-version = "2"
 
 [[plugins]]
 name = "ssl-native-drumstrip"
@@ -33170,11 +31390,6 @@ version = "1.0.0"
 name = "ssl-native-x-eq"
 path = "plugins/solid-state-logic/ssl-native-x-eq.toml"
 version = "2.0"
-
-[[plugins]]
-name = "ssl-native-x-eq-2"
-path = "plugins/solid-state-logic/ssl-native-x-eq-2.toml"
-version = "2"
 
 [[plugins]]
 name = "ssl-native-x-phase"
@@ -33767,11 +31982,6 @@ path = "plugins/waves/studio-classics-collection-upgrade-from-ssl-4000.toml"
 version = "14.0"
 
 [[plugins]]
-name = "studio-d-chorus"
-path = "plugins/universal-audio/studio-d-chorus.toml"
-version = "11.0"
-
-[[plugins]]
 name = "studio-grand"
 path = "plugins/xln-audio/studio-grand.toml"
 version = "1.7.3"
@@ -33825,11 +32035,6 @@ version = "1.0.0"
 name = "subbass-doctor-808-mirror"
 path = "plugins/united-plugins/subbass-doctor-808-mirror.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "subboombass-2"
-path = "plugins/rob-papen/subboombass-2.toml"
-version = "2.0"
 
 [[plugins]]
 name = "subcraft"
@@ -33915,11 +32120,6 @@ version = "1.0.0"
 name = "subvert"
 path = "plugins/glitchmachines/subvert.toml"
 version = "2"
-
-[[plugins]]
-name = "subways-038-streetcars"
-path = "plugins/soundiron/subways-038-streetcars.toml"
-version = "1.0"
 
 [[plugins]]
 name = "subways-streetcars"
@@ -34062,19 +32262,9 @@ path = "plugins/mia-laboratories/super-thin.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "super-vhs"
-path = "plugins/baby-audio/super-vhs.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "supercharger-gt"
 path = "plugins/native-instruments/supercharger-gt.toml"
 version = "1.3"
-
-[[plugins]]
-name = "superior-drummer"
-path = "plugins/toontrack/superior-drummer.toml"
-version = "3.4.3"
 
 [[plugins]]
 name = "superior-drummer-3"
@@ -34209,11 +32399,6 @@ version = "3"
 [[plugins]]
 name = "swam-flutes"
 path = "plugins/audio-modeling/swam-flutes.toml"
-version = "3"
-
-[[plugins]]
-name = "swam-horns-038-tubas"
-path = "plugins/audio-modeling/swam-horns-038-tubas.toml"
 version = "3"
 
 [[plugins]]
@@ -34392,16 +32577,6 @@ path = "plugins/projectsam/symphobia-1.toml"
 version = "2.0"
 
 [[plugins]]
-name = "symphobia-1-038-2-bundle"
-path = "plugins/projectsam/symphobia-1-038-2-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "symphobia-1-038-3-bundle"
-path = "plugins/projectsam/symphobia-1-038-3-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "symphobia-1-2-bundle"
 path = "plugins/projectsam/symphobia-1-2-bundle.toml"
 version = "1.0.0"
@@ -34414,11 +32589,6 @@ version = "1.0.0"
 [[plugins]]
 name = "symphobia-2"
 path = "plugins/projectsam/symphobia-2.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "symphobia-2-038-3-bundle"
-path = "plugins/projectsam/symphobia-2-038-3-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -34454,11 +32624,6 @@ version = "1.0.0"
 [[plugins]]
 name = "symphobia-vol-4-pandora-core"
 path = "plugins/projectsam/symphobia-vol-4-pandora-core.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "symphonic-choirs-gold-038-voices-of-the-apocalypse-bundle"
-path = "plugins/eastwest/symphonic-choirs-gold-038-voices-of-the-apocalypse-bundle.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -34802,11 +32967,6 @@ path = "plugins/kv331-audio/synthmaster-one-crossgrade-from-synthmaster-player.t
 version = "1.6"
 
 [[plugins]]
-name = "synthmaster-one-synthmaster-2-bundle"
-path = "plugins/kv331-audio/synthmaster-one-synthmaster-2-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "synthmaster-one-synthmaster-2-bundle-upgrade-from-player-excluding-synthmaster-player-free"
 path = "plugins/kv331-audio/synthmaster-one-synthmaster-2-bundle-upgrade-from-player-excluding-synthmaster-player-free.toml"
 version = "1.0.0"
@@ -34957,11 +33117,6 @@ path = "plugins/boz-digital-labs/t-bone-2.toml"
 version = "2"
 
 [[plugins]]
-name = "t-bone-2-boz-digital-labs"
-path = "plugins/boz-digital-labs/t-bone-2-boz-digital-labs.toml"
-version = "2"
-
-[[plugins]]
 name = "t-de-esser-2"
 path = "plugins/techivation/t-de-esser-2.toml"
 version = "2.0"
@@ -35077,11 +33232,6 @@ path = "plugins/ik-multimedia/t-racks-tape-machine-24-038-tape-machine-440-bundl
 version = "1.0"
 
 [[plugins]]
-name = "t-racks-tape-machine-24-tape-machine-440-bundle"
-path = "plugins/ik-multimedia/t-racks-tape-machine-24-tape-machine-440-bundle.toml"
-version = "1.0"
-
-[[plugins]]
 name = "t-racks-tape-machine-440"
 path = "plugins/ik-multimedia/t-racks-tape-machine-440.toml"
 version = "1.0"
@@ -35142,11 +33292,6 @@ path = "plugins/glitchmachines/tactic.toml"
 version = "2"
 
 [[plugins]]
-name = "tactures-8211-textured-drone-engine"
-path = "plugins/new-nation/tactures-8211-textured-drone-engine.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "tactures-textured-drone-engine"
 path = "plugins/new-nation/tactures-textured-drone-engine.toml"
 version = "1.0.0"
@@ -35154,11 +33299,6 @@ version = "1.0.0"
 [[plugins]]
 name = "taf-80s-hair-high-gain"
 path = "plugins/overloud/taf-80s-hair-high-gain.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "taip"
-path = "plugins/baby-audio/taip.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -35317,11 +33457,6 @@ path = "plugins/softube/tape-bundle.toml"
 version = "2.6"
 
 [[plugins]]
-name = "tape-cassette-2"
-path = "plugins/caelum-audio/tape-cassette-2.toml"
-version = "2"
-
-[[plugins]]
 name = "tape-delay"
 path = "plugins/antelope-audio/tape-delay.toml"
 version = "1.0.0"
@@ -35355,11 +33490,6 @@ version = "1.0.0"
 name = "tape-m"
 path = "plugins/three-body-technology/tape-m.toml"
 version = "2.0"
-
-[[plugins]]
-name = "tape-mello-fi"
-path = "plugins/arturia/tape-mello-fi.toml"
-version = "1.4.0"
 
 [[plugins]]
 name = "tape-piano-1"
@@ -35402,19 +33532,9 @@ path = "plugins/vengeance-sound/tape-stop.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "tape-tape-echoes-bundle"
-path = "plugins/softube/tape-tape-echoes-bundle.toml"
-version = "2.6"
-
-[[plugins]]
 name = "tape-toys-triaz-expansion"
 path = "plugins/wave-alchemy/tape-toys-triaz-expansion.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "tape-tubes-038-transistors"
-path = "plugins/waves/tape-tubes-038-transistors.toml"
-version = "14.0"
 
 [[plugins]]
 name = "tape-tubes-transistors"
@@ -35562,11 +33682,6 @@ path = "plugins/tokyo-dawn-labs/tdr-kotelnikov-ge.toml"
 version = "1.6.5"
 
 [[plugins]]
-name = "tdr-limiter-6-ge"
-path = "plugins/tokyo-dawn-records/tdr-limiter-6-ge.toml"
-version = "1.2.4"
-
-[[plugins]]
 name = "tdr-limiter6ge"
 path = "plugins/tokyo-dawn-records/tdr-limiter6ge.toml"
 version = "1.3.0"
@@ -35664,11 +33779,6 @@ version = "1.0.0"
 [[plugins]]
 name = "techno-ni-massive"
 path = "plugins/5pin-media/techno-ni-massive.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "techno-percussive-1-8211-drums-038-percussions"
-path = "plugins/eplex7-dsp/techno-percussive-1-8211-drums-038-percussions.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -35825,11 +33935,6 @@ version = "1.0"
 name = "teuri"
 path = "plugins/lese/teuri.toml"
 version = "1.1"
-
-[[plugins]]
-name = "texture"
-path = "plugins/devious-machines/texture.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "texture-explorer-triaz-expansion"
@@ -36065,11 +34170,6 @@ version = "1.0.0"
 name = "the-king-2"
 path = "plugins/w-a-production/the-king-2.toml"
 version = "2"
-
-[[plugins]]
-name = "the-king8217s-microphones"
-path = "plugins/waves/the-king8217s-microphones.toml"
-version = "14.0"
 
 [[plugins]]
 name = "the-kings-microphones"
@@ -36317,11 +34417,6 @@ path = "plugins/acousticsamples/the-upright.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "the-vault-8211-intense-atmospheres-collection"
-path = "plugins/zero-g/the-vault-8211-intense-atmospheres-collection.toml"
-version = "1.0"
-
-[[plugins]]
 name = "the-vault-intense-atmospheres-collection"
 path = "plugins/zero-g/the-vault-intense-atmospheres-collection.toml"
 version = "1.0"
@@ -36382,16 +34477,6 @@ path = "plugins/soundiron/theremin-soundiron.toml"
 version = "1.0"
 
 [[plugins]]
-name = "thermal"
-path = "plugins/output/thermal.toml"
-version = "1.0"
-
-[[plugins]]
-name = "thermionic-culture-vulture"
-path = "plugins/universal-audio/thermionic-culture-vulture.toml"
-version = "11.0"
-
-[[plugins]]
 name = "thesplit"
 path = "plugins/thezhe/thesplit.toml"
 version = "1.0.0"
@@ -36415,31 +34500,6 @@ version = "2.0"
 name = "things"
 path = "plugins/sampleson/things.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "things-8211-crusher"
-path = "plugins/sampleson/things-8211-crusher.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "things-8211-crusher-audiothing"
-path = "plugins/audiothing/things-8211-crusher-audiothing.toml"
-version = "1.2.2"
-
-[[plugins]]
-name = "things-8211-flip-eq"
-path = "plugins/audiothing/things-8211-flip-eq.toml"
-version = "1.2.1"
-
-[[plugins]]
-name = "things-8211-motor"
-path = "plugins/audiothing/things-8211-motor.toml"
-version = "1.2"
-
-[[plugins]]
-name = "things-8211-texture"
-path = "plugins/audiothing/things-8211-texture.toml"
-version = "1.1.2"
 
 [[plugins]]
 name = "things-bundle"
@@ -36770,11 +34830,6 @@ version = "14.0"
 name = "toolroom-exclusive-tech-house-bundle"
 path = "plugins/plugin-boutique-exclusive-bundles/toolroom-exclusive-tech-house-bundle.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "toontrack-ezbass"
-path = "plugins/toontrack/toontrack-ezbass.toml"
-version = "1.3.2"
 
 [[plugins]]
 name = "toontrack-ezkeys"
@@ -37157,11 +35212,6 @@ path = "plugins/wave-alchemy/transistor-revolution-mkii.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "transit-2"
-path = "plugins/baby-audio/transit-2.toml"
-version = "2.2"
-
-[[plugins]]
 name = "transmutator"
 path = "plugins/united-plugins/transmutator.toml"
 version = "1.0.0"
@@ -37234,11 +35284,6 @@ version = "1.0.0"
 [[plugins]]
 name = "tri-comp-multiband-compressor"
 path = "plugins/minimal-system-group/tri-comp-multiband-compressor.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "tri-comp-multiband-compressor-minimal-system-group"
-path = "plugins/minimal-system-group/tri-comp-multiband-compressor-minimal-system-group.toml"
 version = "1.0.0"
 
 [[plugins]]
@@ -37512,11 +35557,6 @@ path = "plugins/softube/tube-tech-complete-collection-upgrade-from-tube-tech-pe-
 version = "2.6"
 
 [[plugins]]
-name = "tube-tech-complete-collection-upgrade-from-tube-tech-pe-1c-tube-tech-cl-1b"
-path = "plugins/softube/tube-tech-complete-collection-upgrade-from-tube-tech-pe-1c-tube-tech-cl-1b.toml"
-version = "2.6"
-
-[[plugins]]
 name = "tube-tech-compressor-collection"
 path = "plugins/softube/tube-tech-compressor-collection.toml"
 version = "2.6"
@@ -37585,11 +35625,6 @@ version = "1.0.0"
 name = "tugglicento-3"
 path = "plugins/2rule/tugglicento-3.toml"
 version = "3.0"
-
-[[plugins]]
-name = "tundra-drones-8211-adaptiverb-presets"
-path = "plugins/spektralisk/tundra-drones-8211-adaptiverb-presets.toml"
-version = "1.0"
 
 [[plugins]]
 name = "tundra-drones-adaptiverb-presets"
@@ -37682,11 +35717,6 @@ path = "plugins/audiothing/type-a.toml"
 version = "1.3.3"
 
 [[plugins]]
-name = "type-a-038-type-b-bundle"
-path = "plugins/audiothing/type-a-038-type-b-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "type-a-type-b-bundle"
 path = "plugins/audiothing/type-a-type-b-bundle.toml"
 version = "1.0.0"
@@ -37739,11 +35769,6 @@ version = "11.0"
 [[plugins]]
 name = "ua-175b-176-tube-compressor-collection"
 path = "plugins/universal-audio/ua-175b-176-tube-compressor-collection.toml"
-version = "11.0"
-
-[[plugins]]
-name = "ua-610-tube-preamp-038-eq-collection"
-path = "plugins/universal-audio/ua-610-tube-preamp-038-eq-collection.toml"
 version = "11.0"
 
 [[plugins]]
@@ -38792,11 +36817,6 @@ path = "plugins/unearthed-sampling/unearthed-bundle.toml"
 version = "1.0"
 
 [[plugins]]
-name = "unfilter"
-path = "plugins/zynaptiq/unfilter.toml"
-version = "1.0"
-
-[[plugins]]
 name = "unfiltered-audio-bass-mint"
 path = "plugins/plugin-alliance/unfiltered-audio-bass-mint.toml"
 version = "1.0.0"
@@ -39437,18 +37457,8 @@ path = "plugins/audiofier/veevum-1.toml"
 version = "1.0"
 
 [[plugins]]
-name = "veevum-10-8211-beat"
-path = "plugins/audiofier/veevum-10-8211-beat.toml"
-version = "1.0"
-
-[[plugins]]
 name = "veevum-10-beat"
 path = "plugins/audiofier/veevum-10-beat.toml"
-version = "1.0"
-
-[[plugins]]
-name = "veevum-11-8211-human"
-path = "plugins/audiofier/veevum-11-8211-human.toml"
 version = "1.0"
 
 [[plugins]]
@@ -39457,18 +37467,8 @@ path = "plugins/audiofier/veevum-11-human.toml"
 version = "1.0"
 
 [[plugins]]
-name = "veevum-2-8211-ad"
-path = "plugins/audiofier/veevum-2-8211-ad.toml"
-version = "1.0"
-
-[[plugins]]
 name = "veevum-2-ad"
 path = "plugins/audiofier/veevum-2-ad.toml"
-version = "1.0"
-
-[[plugins]]
-name = "veevum-3-8211-real"
-path = "plugins/audiofier/veevum-3-8211-real.toml"
 version = "1.0"
 
 [[plugins]]
@@ -39477,28 +37477,13 @@ path = "plugins/audiofier/veevum-3-real.toml"
 version = "1.0"
 
 [[plugins]]
-name = "veevum-4-8211-astra"
-path = "plugins/audiofier/veevum-4-8211-astra.toml"
-version = "1.0"
-
-[[plugins]]
 name = "veevum-4-astra"
 path = "plugins/audiofier/veevum-4-astra.toml"
 version = "1.0"
 
 [[plugins]]
-name = "veevum-5-8211-terra"
-path = "plugins/audiofier/veevum-5-8211-terra.toml"
-version = "1.0"
-
-[[plugins]]
 name = "veevum-5-terra"
 path = "plugins/audiofier/veevum-5-terra.toml"
-version = "1.0"
-
-[[plugins]]
-name = "veevum-6-8211-luna"
-path = "plugins/audiofier/veevum-6-8211-luna.toml"
 version = "1.0"
 
 [[plugins]]
@@ -39509,21 +37494,6 @@ version = "1.0"
 [[plugins]]
 name = "veevum-series-bundle"
 path = "plugins/audiofier/veevum-series-bundle.toml"
-version = "1.0"
-
-[[plugins]]
-name = "veevum-sync-8211-carbon-edition"
-path = "plugins/audiofier/veevum-sync-8211-carbon-edition.toml"
-version = "1.0"
-
-[[plugins]]
-name = "veevum-sync-8211-gold-edition"
-path = "plugins/audiofier/veevum-sync-8211-gold-edition.toml"
-version = "1.0"
-
-[[plugins]]
-name = "veevum-sync-8211-silver-edition"
-path = "plugins/audiofier/veevum-sync-8211-silver-edition.toml"
 version = "1.0"
 
 [[plugins]]
@@ -39622,18 +37592,8 @@ path = "plugins/heavyocity/vento-modern-woodwinds.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "venus-038-mars-olympus-choir-bundle"
-path = "plugins/soundiron/venus-038-mars-olympus-choir-bundle.toml"
-version = "1.0"
-
-[[plugins]]
 name = "venus-mars-olympus-choir-bundle"
 path = "plugins/soundiron/venus-mars-olympus-choir-bundle.toml"
-version = "1.0"
-
-[[plugins]]
-name = "venus-symphonic-women8217s-choir"
-path = "plugins/soundiron/venus-symphonic-women8217s-choir.toml"
 version = "1.0"
 
 [[plugins]]
@@ -39645,11 +37605,6 @@ version = "1.0"
 name = "veq-1a"
 path = "plugins/antelope-audio/veq-1a.toml"
 version = "1.0.0"
-
-[[plugins]]
-name = "veq-1p"
-path = "plugins/black-rooster-audio/veq-1p.toml"
-version = "3.0.0"
 
 [[plugins]]
 name = "veq-4k-black"
@@ -39947,11 +37902,6 @@ path = "plugins/big-fish-audio/vintage-horns-3.toml"
 version = "1.0.0"
 
 [[plugins]]
-name = "vintage-reverb-038-delay-bundle"
-path = "plugins/black-rooster-audio/vintage-reverb-038-delay-bundle.toml"
-version = "3.0.0"
-
-[[plugins]]
 name = "vintage-reverb-delay-bundle"
 path = "plugins/black-rooster-audio/vintage-reverb-delay-bundle.toml"
 version = "3.0.0"
@@ -40015,11 +37965,6 @@ version = "1.0.0"
 name = "vintagewarmer2"
 path = "plugins/psp-audioware/vintagewarmer2.toml"
 version = "2.10.6"
-
-[[plugins]]
-name = "vinyl-strip"
-path = "plugins/audiothing/vinyl-strip.toml"
-version = "1.6.2"
 
 [[plugins]]
 name = "vinylistik"
@@ -40767,21 +38712,6 @@ path = "plugins/arturia/vocoder-v.toml"
 version = "1.5.0"
 
 [[plugins]]
-name = "voice-of-gaia-8211-bryn"
-path = "plugins/soundiron/voice-of-gaia-8211-bryn.toml"
-version = "1.0"
-
-[[plugins]]
-name = "voice-of-gaia-8211-francesca-genco"
-path = "plugins/soundiron/voice-of-gaia-8211-francesca-genco.toml"
-version = "1.0"
-
-[[plugins]]
-name = "voice-of-gaia-8211-strawberry"
-path = "plugins/soundiron/voice-of-gaia-8211-strawberry.toml"
-version = "1.0"
-
-[[plugins]]
 name = "voice-of-gaia-bryn"
 path = "plugins/soundiron/voice-of-gaia-bryn.toml"
 version = "1.0"
@@ -40855,11 +38785,6 @@ version = "1.0"
 name = "voices-of-gaia-collection"
 path = "plugins/soundiron/voices-of-gaia-collection.toml"
 version = "1.0"
-
-[[plugins]]
-name = "voices-of-india-8211-sitar-play"
-path = "plugins/q-up-arts/voices-of-india-8211-sitar-play.toml"
-version = "1.0.0"
 
 [[plugins]]
 name = "voices-of-india-sitar-play"
@@ -41035,11 +38960,6 @@ version = "2.6"
 name = "volumeshaper-6"
 path = "plugins/cableguys/volumeshaper-6.toml"
 version = "6"
-
-[[plugins]]
-name = "volumeshaper-7"
-path = "plugins/cableguys/volumeshaper-7.toml"
-version = "7"
 
 [[plugins]]
 name = "vowel-comb"
@@ -41442,11 +39362,6 @@ path = "plugins/pulsar-audio/w495.toml"
 version = "1.2.11"
 
 [[plugins]]
-name = "wa8217s-hollywood-toolkit-8211-8-packs-and-2-plugins"
-path = "plugins/wa-production/wa8217s-hollywood-toolkit-8211-8-packs-and-2-plugins.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "waldorf-edition-2"
 path = "plugins/waldorf/waldorf-edition-2.toml"
 version = "2.0"
@@ -41602,16 +39517,6 @@ path = "plugins/waves/waves-api-2500-bus-compressor.toml"
 version = "14.0"
 
 [[plugins]]
-name = "waves-api-550"
-path = "plugins/waves/waves-api-550.toml"
-version = "16.0"
-
-[[plugins]]
-name = "waves-center"
-path = "plugins/waves/waves-center.toml"
-version = "16.0"
-
-[[plugins]]
 name = "waves-cla-2a"
 path = "plugins/waves-audio/waves-cla-2a.toml"
 version = "15.0"
@@ -41630,11 +39535,6 @@ version = "15.0"
 name = "waves-j37-tape"
 path = "plugins/waves-audio/waves-j37-tape.toml"
 version = "15.0"
-
-[[plugins]]
-name = "waves-kramer-master-tape"
-path = "plugins/waves/waves-kramer-master-tape.toml"
-version = "16.0"
 
 [[plugins]]
 name = "waves-l2"
@@ -41665,11 +39565,6 @@ version = "14.0"
 name = "waves-vitamin"
 path = "plugins/waves-audio/waves-vitamin.toml"
 version = "15.0"
-
-[[plugins]]
-name = "waves-vocal-rider"
-path = "plugins/waves/waves-vocal-rider.toml"
-version = "16.0"
 
 [[plugins]]
 name = "wavesfactory-spectre"
@@ -41729,11 +39624,6 @@ version = "2.6"
 [[plugins]]
 name = "weiss-complete-collection-upgrade-from-weiss-deess"
 path = "plugins/softube/weiss-complete-collection-upgrade-from-weiss-deess.toml"
-version = "2.6"
-
-[[plugins]]
-name = "weiss-complete-collection-upgrade-from-weiss-deess-038-mm-1"
-path = "plugins/softube/weiss-complete-collection-upgrade-from-weiss-deess-038-mm-1.toml"
 version = "2.6"
 
 [[plugins]]
@@ -42012,31 +39902,6 @@ path = "plugins/evolution-series/world-percussion-2-0.toml"
 version = "2.0"
 
 [[plugins]]
-name = "world-percussion-2-0-8211-africa"
-path = "plugins/evolution-series/world-percussion-2-0-8211-africa.toml"
-version = "2.0"
-
-[[plugins]]
-name = "world-percussion-2-0-8211-asia"
-path = "plugins/evolution-series/world-percussion-2-0-8211-asia.toml"
-version = "2.0"
-
-[[plugins]]
-name = "world-percussion-2-0-8211-europe"
-path = "plugins/evolution-series/world-percussion-2-0-8211-europe.toml"
-version = "2.0"
-
-[[plugins]]
-name = "world-percussion-2-0-8211-middle-east"
-path = "plugins/evolution-series/world-percussion-2-0-8211-middle-east.toml"
-version = "2.0"
-
-[[plugins]]
-name = "world-percussion-2-0-8211-south-america"
-path = "plugins/evolution-series/world-percussion-2-0-8211-south-america.toml"
-version = "2.0"
-
-[[plugins]]
 name = "world-percussion-2-0-africa"
 path = "plugins/evolution-series/world-percussion-2-0-africa.toml"
 version = "2.0"
@@ -42115,11 +39980,6 @@ version = "1.0.0"
 name = "wtcomp"
 path = "plugins/plektron/wtcomp.toml"
 version = "1.0"
-
-[[plugins]]
-name = "wurli-v"
-path = "plugins/arturia/wurli-v.toml"
-version = "3.5.0"
 
 [[plugins]]
 name = "wurlie"
@@ -42327,16 +40187,6 @@ path = "plugins/xln-audio/xln-addictive-drums.toml"
 version = "2.3"
 
 [[plugins]]
-name = "xln-xo"
-path = "plugins/xln-audio/xln-xo.toml"
-version = "1.5"
-
-[[plugins]]
-name = "xmas-beer-bottles-038-bells-bundle"
-path = "plugins/audiothing/xmas-beer-bottles-038-bells-bundle.toml"
-version = "1.0.0"
-
-[[plugins]]
 name = "xmas-beer-bottles-bells-bundle"
 path = "plugins/audiothing/xmas-beer-bottles-bells-bundle.toml"
 version = "1.0.0"
@@ -42404,11 +40254,6 @@ version = "1.0"
 [[plugins]]
 name = "xy-transfer"
 path = "plugins/rob-papen/xy-transfer.toml"
-version = "1.0.0"
-
-[[plugins]]
-name = "xy-transfer-rob-papen"
-path = "plugins/rob-papen/xy-transfer-rob-papen.toml"
 version = "1.0.0"
 
 [[plugins]]

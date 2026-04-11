@@ -1,25 +1,26 @@
-slug        = "percussion-grooves"
-name        = "Percussion Grooves"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Sampled percussion grooves performed by percussionist Maurizio Ravalico adding live exotic rhythms to music projects."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/percussion-grooves"
-is_paid     = true
+slug         = "percussion-grooves"
+name         = "Percussion Grooves"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Sampled percussion grooves performed by percussionist Maurizio Ravalico adding live exotic rhythms to music projects."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/percussion-grooves"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/percussion-grooves"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/percussion-grooves"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/percussion-grooves"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/percussion-grooves"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

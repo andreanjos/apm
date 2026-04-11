@@ -1,25 +1,26 @@
-slug        = "circle2"
-name        = "Circle2"
-vendor      = "Future Audio Workshop"
-version     = "2"
-description = "Versatile synthesizer plugin with a powerful modulation matrix and broad sound design capabilities."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://futureaudioworkshop.com/"
-is_paid     = true
+slug         = "circle2"
+name         = "Circle2"
+vendor       = "Future Audio Workshop"
+version      = "2"
+description  = "Versatile synthesizer plugin with a powerful modulation matrix and broad sound design capabilities."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://futureaudioworkshop.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://futureaudioworkshop.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://futureaudioworkshop.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://futureaudioworkshop.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://futureaudioworkshop.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

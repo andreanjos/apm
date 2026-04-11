@@ -1,25 +1,26 @@
-slug        = "superwave-bundle"
-name        = "Superwave Bundle"
-vendor      = "Karanyi Sounds"
-version     = "1.0"
-description = "Bundle combining Karanyi Sounds Wavesynth and Vapor Keys for bold basslines and lo-fi electric pianos."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://karanyisounds.com/product/superwave-bundle/"
-is_paid     = true
+slug         = "superwave-bundle"
+name         = "Superwave Bundle"
+vendor       = "Karanyi Sounds"
+version      = "1.0"
+description  = "Bundle combining Karanyi Sounds Wavesynth and Vapor Keys for bold basslines and lo-fi electric pianos."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://karanyisounds.com/product/superwave-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://karanyisounds.com/product/superwave-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/superwave-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://karanyisounds.com/product/superwave-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/superwave-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

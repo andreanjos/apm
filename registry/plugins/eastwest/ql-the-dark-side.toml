@@ -1,25 +1,26 @@
-slug        = "ql-the-dark-side"
-name        = "QL The Dark Side"
-vendor      = "EastWest"
-version     = "1.0.0"
-description = "EastWest dark synth and FX library featuring distorted, industrial, and experimental sounds."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.soundsonline.com/drums-and-percussion/the-dark-side"
-is_paid     = true
+slug         = "ql-the-dark-side"
+name         = "QL The Dark Side"
+vendor       = "EastWest"
+version      = "1.0.0"
+description  = "EastWest dark synth and FX library featuring distorted, industrial, and experimental sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.soundsonline.com/drums-and-percussion/the-dark-side"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.soundsonline.com/drums-and-percussion/the-dark-side"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/drums-and-percussion/the-dark-side"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.soundsonline.com/drums-and-percussion/the-dark-side"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.soundsonline.com/drums-and-percussion/the-dark-side"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

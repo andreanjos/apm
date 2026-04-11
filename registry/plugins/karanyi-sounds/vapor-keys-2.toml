@@ -1,25 +1,26 @@
-slug        = "vapor-keys-2"
-name        = "Vapor Keys 2"
-vendor      = "Karanyi Sounds"
-version     = "2.0"
-description = "FM electric piano and synthesizer Kontakt instrument for bold modern neo-90s and vaporwave sounds."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://karanyisounds.com/product/vapor-keys-2/"
-is_paid     = true
+slug         = "vapor-keys-2"
+name         = "Vapor Keys 2"
+vendor       = "Karanyi Sounds"
+version      = "2.0"
+description  = "FM electric piano and synthesizer Kontakt instrument for bold modern neo-90s and vaporwave sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://karanyisounds.com/product/vapor-keys-2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://karanyisounds.com/product/vapor-keys-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/vapor-keys-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://karanyisounds.com/product/vapor-keys-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/product/vapor-keys-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

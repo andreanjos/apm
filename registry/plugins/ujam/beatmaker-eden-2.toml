@@ -1,25 +1,26 @@
-slug        = "beatmaker-eden-2"
-name        = "Beatmaker EDEN 2"
-vendor      = "UJAM"
-version     = "2.0"
-description = "EDM and dance-focused drum machine plugin delivering electronic club-ready beats."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ujam.com/beatmaker/eden/"
-is_paid     = true
+slug         = "beatmaker-eden-2"
+name         = "Beatmaker EDEN 2"
+vendor       = "UJAM"
+version      = "2.0"
+description  = "EDM and dance-focused drum machine plugin delivering electronic club-ready beats."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ujam.com/beatmaker/eden/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ujam.com/beatmaker/eden/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/beatmaker/eden/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ujam.com/beatmaker/eden/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/beatmaker/eden/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "tue-madsen-signature-kemper-pack"
-name        = "Tue Madsen Signature Kemper Pack"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Kemper profile pack from producer Tue Madsen capturing his signature heavy guitar amp tones."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/tue-madsen-signature-kemper-pack"
+slug         = "tue-madsen-signature-kemper-pack"
+name         = "Tue Madsen Signature Kemper Pack"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Kemper profile pack from producer Tue Madsen capturing his signature heavy guitar amp tones."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/tue-madsen-signature-kemper-pack"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/9195-Tue-Madsen-Signature-Kemper-Pack?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/tue-madsen-signature-kemper-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/tue-madsen-signature-kemper-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/tue-madsen-signature-kemper-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/tue-madsen-signature-kemper-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

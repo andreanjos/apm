@@ -1,25 +1,26 @@
-slug        = "atom"
-name        = "Atom"
-vendor      = "Audiomodern"
-version     = "2.0"
-description = "Kontakt instrument for cinematic sound design featuring drones, pads, FX, and melodic motifs."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://audiomodern.com/products/"
-is_paid     = true
+slug         = "atom"
+name         = "Atom"
+vendor       = "Audiomodern"
+version      = "2.0"
+description  = "Kontakt instrument for cinematic sound design featuring drones, pads, FX, and melodic motifs."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://audiomodern.com/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audiomodern.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodern.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audiomodern.com/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audiomodern.com/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "x-hum"
-name        = "X-Hum"
-vendor      = "Waves"
-version     = "14.0"
-description = "Hum and buzz removal plugin eliminating 50/60 Hz electrical interference from recordings."
-category    = "effects"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/x-hum"
-is_paid     = true
+slug         = "x-hum"
+name         = "X-Hum"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Hum and buzz removal plugin eliminating 50/60 Hz electrical interference from recordings."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/x-hum"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/x-hum"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/x-hum"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/x-hum"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/x-hum"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

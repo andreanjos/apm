@@ -1,26 +1,27 @@
-slug        = "subdivine-expansion-more-about-that-bass"
-name        = "Subdivine Expansion More About That Bass"
-vendor      = "Diginoiz"
-version     = "1.0.0"
-description = "Expansion pack for Subdivine delivering 50 bass and 808 presets for trap, R&B, and hip-hop."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://diginoiz.com/series/subdivine-expansion-1/"
+slug         = "subdivine-expansion-more-about-that-bass"
+name         = "Subdivine Expansion More About That Bass"
+vendor       = "Diginoiz"
+version      = "1.0.0"
+description  = "Expansion pack for Subdivine delivering 50 bass and 808 presets for trap, R&B, and hip-hop."
+category     = "instruments"
+product_type = "expansion"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://diginoiz.com/series/subdivine-expansion-1/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/7153-Subdivine-Expansion-More-About-That-Bass?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://diginoiz.com/series/subdivine-expansion-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://diginoiz.com/series/subdivine-expansion-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://diginoiz.com/series/subdivine-expansion-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://diginoiz.com/series/subdivine-expansion-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

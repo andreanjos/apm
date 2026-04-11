@@ -1,25 +1,27 @@
-slug        = "veevum-11-human"
-name        = "Veevum 11 – Human"
-vendor      = "Audiofier"
-version     = "1.0"
-description = "Ambient Kontakt instrument with 100 vocal texture sound sources for cinematic soundscapes."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiofier.co.uk/veevum-human/"
-is_paid     = true
+slug         = "veevum-11-human"
+name         = "Veevum 11 - Human"
+vendor       = "Audiofier"
+version      = "1.0"
+description  = "Ambient Kontakt instrument with 100 vocal texture sound sources for cinematic soundscapes."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["veevum-11-8211-human"]
+homepage     = "https://www.audiofier.co.uk/veevum-human/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiofier.co.uk/veevum-human/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/veevum-human/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiofier.co.uk/veevum-human/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiofier.co.uk/veevum-human/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

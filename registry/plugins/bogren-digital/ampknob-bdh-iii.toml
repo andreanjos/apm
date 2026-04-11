@@ -1,26 +1,27 @@
-slug        = "ampknob-bdh-iii"
-name        = "AmpKnob BDH III"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Single-knob amp sim modeled on a rare final-series high-gain head from Jens Bogren's personal collection."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/ampknob-bdh-iii"
+slug         = "ampknob-bdh-iii"
+name         = "AmpKnob BDH III"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Single-knob amp sim modeled on a rare final-series high-gain head from Jens Bogren's personal collection."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/ampknob-bdh-iii"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/10260-AmpKnob-BDH-III?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/ampknob-bdh-iii"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/ampknob-bdh-iii"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/ampknob-bdh-iii"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/ampknob-bdh-iii"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

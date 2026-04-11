@@ -1,25 +1,26 @@
-slug        = "blowfish"
-name        = "Blowfish"
-vendor      = "Soundspear"
-version     = "1.0.2"
-description = "Distortion plugin focused on enhancing and enriching the high-frequency sparkle of audio."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundspear.com/product/blowfish"
-is_paid     = true
+slug         = "blowfish"
+name         = "Blowfish"
+vendor       = "Soundspear"
+version      = "1.0.2"
+description  = "Distortion plugin focused on enhancing and enriching the high-frequency sparkle of audio."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundspear.com/product/blowfish"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundspear.com/product/blowfish"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundspear.com/product/blowfish"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundspear.com/product/blowfish"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundspear.com/product/blowfish"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

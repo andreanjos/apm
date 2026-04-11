@@ -1,26 +1,27 @@
-slug        = "weiss-complete-collection-upgrade-from-weiss-ds1-mk3"
-name        = "Weiss Complete Collection Upgrade from Weiss DS1-MK3"
-vendor      = "Softube"
-version     = "2.6"
-description = "Upgrade to full Weiss Complete Collection from the Weiss DS1-MK3 mastering processor plugin."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mastering/weiss-complete-collection-3"
-is_paid     = true
+slug         = "weiss-complete-collection-upgrade-from-weiss-ds1-mk3"
+name         = "Weiss Complete Collection Upgrade from Weiss DS1-MK3"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Upgrade to full Weiss Complete Collection from the Weiss DS1-MK3 mastering processor plugin."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mastering/weiss-complete-collection-3"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mastering/weiss-complete-collection-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mastering/weiss-complete-collection-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mastering/weiss-complete-collection-3"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mastering/weiss-complete-collection-3"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

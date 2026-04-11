@@ -1,27 +1,28 @@
-slug        = "ua-175b-176-tube-compressor-collection"
-name        = "UA 175B 176 Tube Compressor Collection"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulations of the original UA 175B and 176 tube variable-mu compressors."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/175b-and-176-tube-compressor.html"
+slug         = "ua-175b-176-tube-compressor-collection"
+name         = "UA 175B 176 Tube Compressor Collection"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulations of the original UA 175B and 176 tube variable-mu compressors."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/compressors-limiters/175b-and-176-tube-compressor.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10940-UA-175B-176-Tube-Compressor-Collection?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/175b-and-176-tube-compressor.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/175b-and-176-tube-compressor.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/175b-and-176-tube-compressor.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/175b-and-176-tube-compressor.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

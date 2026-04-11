@@ -1,25 +1,27 @@
-slug        = "the-kings-microphones"
-name        = "The King’s Microphones"
-vendor      = "Waves"
-version     = "14.0"
-description = "Emulation of the vintage Neumann U67 and AKG C12 microphones used at Abbey Road."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/the-kings-microphones"
-is_paid     = true
+slug         = "the-kings-microphones"
+name         = "The King's Microphones"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Emulation of the vintage Neumann U67 and AKG C12 microphones used at Abbey Road."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+aliases      = ["the-king8217s-microphones"]
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/the-kings-microphones"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/the-kings-microphones"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/the-kings-microphones"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/the-kings-microphones"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/the-kings-microphones"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

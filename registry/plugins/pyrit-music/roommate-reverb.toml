@@ -1,24 +1,25 @@
-slug        = "roommate-reverb"
-name        = "Roommate Reverb"
-vendor      = "Pyrit Music"
-version     = "1.0"
-description = "Pyrit Music Roommate Reverb adds inspirational room space and saturation for vocals and audio."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://infinit-essentials.com/collections/vst-plugins/products/pyrit-music-roommate-reverb-vst-instrument"
-is_paid     = true
+slug         = "roommate-reverb"
+name         = "Roommate Reverb"
+vendor       = "Pyrit Music"
+version      = "1.0"
+description  = "Pyrit Music Roommate Reverb adds inspirational room space and saturation for vocals and audio."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://infinit-essentials.com/collections/vst-plugins/products/pyrit-music-roommate-reverb-vst-instrument"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://infinit-essentials.com/collections/vst-plugins/products/pyrit-music-roommate-reverb-vst-instrument"
-sha256       = ""
-install_type = "zip"
+url           = "https://infinit-essentials.com/collections/vst-plugins/products/pyrit-music-roommate-reverb-vst-instrument"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://infinit-essentials.com/collections/vst-plugins/products/pyrit-music-roommate-reverb-vst-instrument"
-sha256       = ""
-install_type = "zip"
+url           = "https://infinit-essentials.com/collections/vst-plugins/products/pyrit-music-roommate-reverb-vst-instrument"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

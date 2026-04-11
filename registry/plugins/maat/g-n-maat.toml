@@ -1,26 +1,28 @@
-slug        = "g-n-maat"
-name        = "G N"
-vendor      = "MAAT"
-version     = "1.0.0"
-description = "Free audio visualization plugin from MAAT for monitoring signal goniometry and levels."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.maat.digital/"
+slug         = "g-n-maat"
+name         = "G N"
+vendor       = "MAAT"
+version      = "1.0.0"
+description  = "Free audio visualization plugin from MAAT for monitoring signal goniometry and levels."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+aliases      = ["g-n"]
+homepage     = "https://www.maat.digital/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/6886-G-N?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.maat.digital/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.maat.digital/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.maat.digital/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.maat.digital/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

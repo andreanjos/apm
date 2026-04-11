@@ -1,26 +1,27 @@
-slug        = "ultrareverb"
-name        = "UltraReverb"
-vendor      = "Eventide"
-version     = "1.0.0"
-description = "Multi-algorithm reverb delivering lush rooms, halls, and otherworldly soundscapes for music production."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eventideaudio.com/plug-ins/ultrareverb/"
+slug         = "ultrareverb"
+name         = "UltraReverb"
+vendor       = "Eventide"
+version      = "1.0.0"
+description  = "Multi-algorithm reverb delivering lush rooms, halls, and otherworldly soundscapes for music production."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eventideaudio.com/plug-ins/ultrareverb/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/3061-UltraReverb?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eventideaudio.com/plug-ins/ultrareverb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/ultrareverb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eventideaudio.com/plug-ins/ultrareverb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/ultrareverb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

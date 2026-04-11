@@ -1,25 +1,26 @@
-slug        = "ekr490"
-name        = "EKR490"
-vendor      = "AudioThing"
-version     = "1.0"
-description = "Emulation of the classic 1970s Elka Rhapsody 490 Italian strings machine with lush analog string sounds."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/instruments/ekr490/"
-is_paid     = true
+slug         = "ekr490"
+name         = "EKR490"
+vendor       = "AudioThing"
+version      = "1.0"
+description  = "Emulation of the classic 1970s Elka Rhapsody 490 Italian strings machine with lush analog string sounds."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiothing.net/instruments/ekr490/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/instruments/ekr490/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/instruments/ekr490/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/instruments/ekr490/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/instruments/ekr490/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

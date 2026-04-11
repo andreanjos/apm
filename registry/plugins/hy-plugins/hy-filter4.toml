@@ -1,26 +1,27 @@
-slug        = "hy-filter4"
-name        = "HY Filter4"
-vendor      = "HY Plugins"
-version     = "1.0.0"
-description = "Semi-modular filter plugin with multi-engine filters, 38 effect units, and 10 modulators."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://hy-plugins.com/product/hy-filter4/"
+slug         = "hy-filter4"
+name         = "HY Filter4"
+vendor       = "HY Plugins"
+version      = "1.0.0"
+description  = "Semi-modular filter plugin with multi-engine filters, 38 effect units, and 10 modulators."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://hy-plugins.com/product/hy-filter4/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/8874-HY-Filter4?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hy-plugins.com/product/hy-filter4/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hy-plugins.com/product/hy-filter4/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hy-plugins.com/product/hy-filter4/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hy-plugins.com/product/hy-filter4/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

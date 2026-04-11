@@ -1,25 +1,26 @@
-slug        = "antidrum-1"
-name        = "Antidrum 1"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Experimental Kontakt drum instrument built from unconventional found-sound percussion sources."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/antidrum-1"
-is_paid     = true
+slug         = "antidrum-1"
+name         = "Antidrum 1"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Experimental Kontakt drum instrument built from unconventional found-sound percussion sources."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/antidrum-1"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/antidrum-1"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/antidrum-1"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/antidrum-1"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/antidrum-1"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

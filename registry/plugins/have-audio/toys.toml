@@ -1,26 +1,27 @@
-slug        = "toys"
-name        = "Toys"
-vendor      = "Have Audio"
-version     = "1.0.0"
-description = "Playful yet dark toy instrument Kontakt library perfect for unique cinematic and sound design."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://haveaudio.com/products/toys"
+slug         = "toys"
+name         = "Toys"
+vendor       = "Have Audio"
+version      = "1.0.0"
+description  = "Playful yet dark toy instrument Kontakt library perfect for unique cinematic and sound design."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://haveaudio.com/products/toys"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7193-Toys?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://haveaudio.com/products/toys"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/toys"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://haveaudio.com/products/toys"
-sha256       = ""
-install_type = "zip"
+url           = "https://haveaudio.com/products/toys"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

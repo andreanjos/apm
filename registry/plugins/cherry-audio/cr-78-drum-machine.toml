@@ -1,26 +1,27 @@
-slug        = "cr-78-drum-machine"
-name        = "CR 78 Drum Machine"
-vendor      = "Cherry Audio"
-version     = "1.0.0"
-description = "Modeled recreation of the 1978 CompuRhythm CR-78, the first programmable microprocessor drum machine."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://cherryaudio.com/products/cr-78"
+slug         = "cr-78-drum-machine"
+name         = "CR 78 Drum Machine"
+vendor       = "Cherry Audio"
+version      = "1.0.0"
+description  = "Modeled recreation of the 1978 CompuRhythm CR-78, the first programmable microprocessor drum machine."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://cherryaudio.com/products/cr-78"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/11908-CR-78-Drum-Machine?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cherryaudio.com/products/cr-78"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/cr-78"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cherryaudio.com/products/cr-78"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products/cr-78"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "aeon-collection"
-name        = "AEON Collection"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Bundle of AEON Melodic and AEON Rhythmic, combining tuned multi-sampled instruments with tempo-synced loop design tools."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/aeon-collection"
-is_paid     = true
+slug         = "aeon-collection"
+name         = "AEON Collection"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Bundle of AEON Melodic and AEON Rhythmic, combining tuned multi-sampled instruments with tempo-synced loop design tools."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/aeon-collection"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/aeon-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/aeon-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/aeon-collection"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/aeon-collection"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

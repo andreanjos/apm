@@ -1,26 +1,27 @@
-slug        = "mixbus-11"
-name        = "Mixbus 11"
-vendor      = "Harrison Consoles"
-version     = "11"
-description = "Harrison DAW combining 32C console-inspired sound, 19 XT plugins, and an intuitive Focus Channel workflow."
-category    = "utility"
-subcategory = "daw"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.harrisonaudio.com/all-products/mixbus-11"
+slug         = "mixbus-11"
+name         = "Mixbus 11"
+vendor       = "Harrison Consoles"
+version      = "11"
+description  = "Harrison DAW combining 32C console-inspired sound, 19 XT plugins, and an intuitive Focus Channel workflow."
+category     = "utility"
+product_type = "utility"
+subcategory  = "daw"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.harrisonaudio.com/all-products/mixbus-11"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/14918-Mixbus-11?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.harrisonaudio.com/all-products/mixbus-11"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/mixbus-11"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.harrisonaudio.com/all-products/mixbus-11"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.harrisonaudio.com/all-products/mixbus-11"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

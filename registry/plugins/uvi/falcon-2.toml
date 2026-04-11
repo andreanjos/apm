@@ -1,25 +1,26 @@
-slug        = "falcon-2"
-name        = "Falcon 2"
-vendor      = "UVI"
-version     = "2026"
-description = "Advanced hybrid synthesizer workstation with 24 oscillator types, 90+ effects, and deep modulation."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/falcon"
-is_paid     = true
+slug         = "falcon-2"
+name         = "Falcon 2"
+vendor       = "UVI"
+version      = "2026"
+description  = "Advanced hybrid synthesizer workstation with 24 oscillator types, 90+ effects, and deep modulation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/falcon"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/falcon"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/falcon"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/falcon"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/falcon"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

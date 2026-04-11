@@ -1,25 +1,28 @@
-slug        = "uad-elysia-alpha-compressor"
-name        = "elysia alpha compressor"
-vendor      = "Universal Audio"
-version     = "1.0"
-description = "High-end mastering compressor with class-A topology, soft-clip limiter, and feed-forward/feedback modes."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = ["compressor", "mastering", "elysia", "class-a", "high-end", "uad"]
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/elysia-alpha-compressor.html"
+slug         = "uad-elysia-alpha-compressor"
+name         = "elysia alpha compressor"
+vendor       = "Universal Audio"
+version      = "1.0"
+description  = "High-end mastering compressor with class-A topology, soft-clip limiter, and feed-forward/feedback modes."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = ["compressor", "mastering", "elysia", "class-a", "high-end", "uad"]
+aliases      = ["elysia-alpha-compressor"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/compressors-limiters/elysia-alpha-compressor.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD elysia alpha compressor V2.vst3"
+bundle_path   = "UAD elysia alpha compressor V2.vst3"
 
 [formats.au]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD elysia alpha compressor V2.component"
+bundle_path   = "UAD elysia alpha compressor V2.component"

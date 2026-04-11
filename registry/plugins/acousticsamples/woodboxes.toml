@@ -1,25 +1,26 @@
-slug        = "woodboxes"
-name        = "WoodBoxes"
-vendor      = "Acousticsamples"
-version     = "1.0.0"
-description = "Compilation of two cajon libraries: a regular WoodBox cajon and a deeper-toned Bass Cajon."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.acousticsamples.net/woodboxes"
-is_paid     = true
+slug         = "woodboxes"
+name         = "WoodBoxes"
+vendor       = "Acousticsamples"
+version      = "1.0.0"
+description  = "Compilation of two cajon libraries: a regular WoodBox cajon and a deeper-toned Bass Cajon."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.acousticsamples.net/woodboxes"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.acousticsamples.net/woodboxes"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.acousticsamples.net/woodboxes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.acousticsamples.net/woodboxes"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.acousticsamples.net/woodboxes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

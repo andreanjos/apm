@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-gain-suite"
-name        = "Blue Cat s Gain Suite"
-vendor      = "Blue Cat Audio"
-version     = "3.5"
-description = "Free mono, stereo, and mid-side gain utilities with MIDI control for precise volume management."
-category    = "utility"
-subcategory = "gain"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_GainSuite/"
+slug         = "blue-cat-s-gain-suite"
+name         = "Blue Cat s Gain Suite"
+vendor       = "Blue Cat Audio"
+version      = "3.5"
+description  = "Free mono, stereo, and mid-side gain utilities with MIDI control for precise volume management."
+category     = "utility"
+product_type = "bundle"
+subcategory  = "gain"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_GainSuite/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/47-Gain/274-Blue-Cat-s-Gain-Suite?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_GainSuite/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_GainSuite/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_GainSuite/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_GainSuite/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

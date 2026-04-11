@@ -1,24 +1,25 @@
-slug        = "punchy-worm"
-name        = "Punchy Worm"
-vendor      = "WA Production"
-version     = "1.0.0"
-description = "A one-knob punch and saturation processor combining transient shaping with harmonic enhancement."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/plugins/view/punchy-worm"
-is_paid     = true
+slug         = "punchy-worm"
+name         = "Punchy Worm"
+vendor       = "WA Production"
+version      = "1.0.0"
+description  = "A one-knob punch and saturation processor combining transient shaping with harmonic enhancement."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/plugins/view/punchy-worm"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/plugins/view/punchy-worm"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/punchy-worm"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/plugins/view/punchy-worm"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/plugins/view/punchy-worm"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

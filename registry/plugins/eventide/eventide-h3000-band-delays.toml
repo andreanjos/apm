@@ -1,24 +1,28 @@
-slug        = "eventide-h3000-band-delays"
-name        = "H3000 Band Delays Mk II"
-vendor      = "Eventide"
-version     = "1.3.4"
-description = "Eight independently controlled delay bands with filtering, stereo-widening, and dynamic rhythmic effects from the legendary H3000 Harmonizer."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = ["delay", "harmonizer", "filter", "stereo-widening", "rhythmic", "modulation", "creative"]
-homepage    = "https://www.eventideaudio.com/plug-ins/h3000-band-delays-mk-ii/"
+slug         = "eventide-h3000-band-delays"
+name         = "H3000 Band Delays Mk II"
+vendor       = "Eventide"
+version      = "1.3.4"
+description  = "Eight independently controlled delay bands with filtering, stereo-widening, and dynamic rhythmic effects from the legendary H3000 Harmonizer."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = ["delay", "harmonizer", "filter", "stereo-widening", "rhythmic", "modulation", "creative"]
+aliases      = ["h3000-band-delays-mk-ii"]
+homepage     = "https://www.eventideaudio.com/plug-ins/h3000-band-delays-mk-ii/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/12198-H3000-Band-Delays-Mk-II?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://downloads.eventide.com/audio/installers/plug-ins/H3000BandDelaysMkII/H3000-Band-Delays-Mk-II-1.3.4-osx-installer.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://downloads.eventide.com/audio/installers/plug-ins/H3000BandDelaysMkII/H3000-Band-Delays-Mk-II-1.3.4-osx-installer.dmg"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "H3000 Band Delays.vst3"
+bundle_path   = "H3000 Band Delays.vst3"
 
 [formats.au]
-url          = "https://downloads.eventide.com/audio/installers/plug-ins/H3000BandDelaysMkII/H3000-Band-Delays-Mk-II-1.3.4-osx-installer.dmg"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "dmg"
+url           = "https://downloads.eventide.com/audio/installers/plug-ins/H3000BandDelaysMkII/H3000-Band-Delays-Mk-II-1.3.4-osx-installer.dmg"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "dmg"
 download_type = "manual"
-bundle_path  = "H3000 Band Delays.component"
+bundle_path   = "H3000 Band Delays.component"

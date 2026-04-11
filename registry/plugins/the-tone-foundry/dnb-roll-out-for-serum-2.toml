@@ -1,26 +1,27 @@
-slug        = "dnb-roll-out-for-serum-2"
-name        = "DnB Roll Out for Serum 2"
-vendor      = "The Tone Foundry"
-version     = "1.0.0"
-description = "80 Serum 2 presets built for the techy, stripped-back end of modern drum and bass production."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/16442-Drum-Bass-Roll-Out-for-Serum-2"
+slug         = "dnb-roll-out-for-serum-2"
+name         = "DnB Roll Out for Serum 2"
+vendor       = "The Tone Foundry"
+version      = "1.0.0"
+description  = "80 Serum 2 presets built for the techy, stripped-back end of modern drum and bass production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/16442-Drum-Bass-Roll-Out-for-Serum-2"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/16442-DnB-Roll-Out-for-Serum-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/16442-Drum-Bass-Roll-Out-for-Serum-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/16442-Drum-Bass-Roll-Out-for-Serum-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/16442-Drum-Bass-Roll-Out-for-Serum-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/16442-Drum-Bass-Roll-Out-for-Serum-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

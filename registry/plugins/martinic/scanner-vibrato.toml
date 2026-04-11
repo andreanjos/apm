@@ -1,24 +1,25 @@
-slug        = "scanner-vibrato"
-name        = "Scanner Vibrato"
-vendor      = "Martinic"
-version     = "1.0.0"
-description = "Plugin recreating the scanner-vibrato effect from the classic tonewheel organ."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.martinic.com/en/products/scanner-vibrato"
-is_paid     = true
+slug         = "scanner-vibrato"
+name         = "Scanner Vibrato"
+vendor       = "Martinic"
+version      = "1.0.0"
+description  = "Plugin recreating the scanner-vibrato effect from the classic tonewheel organ."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.martinic.com/en/products/scanner-vibrato"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.martinic.com/en/products/scanner-vibrato"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.martinic.com/en/products/scanner-vibrato"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.martinic.com/en/products/scanner-vibrato"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.martinic.com/en/products/scanner-vibrato"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

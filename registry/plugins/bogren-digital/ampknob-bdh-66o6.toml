@@ -1,26 +1,27 @@
-slug        = "ampknob-bdh-66o6"
-name        = "AmpKnob BDH 66o6"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Single-knob amp sim of a hot-rodded high-gain 'plus' version suited to low-tuned guitars and aggressive riffing."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/ampknob-bdh-66o6"
+slug         = "ampknob-bdh-66o6"
+name         = "AmpKnob BDH 66o6"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Single-knob amp sim of a hot-rodded high-gain 'plus' version suited to low-tuned guitars and aggressive riffing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/ampknob-bdh-66o6"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/10259-AmpKnob-BDH-66o6-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/ampknob-bdh-66o6"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/ampknob-bdh-66o6"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/ampknob-bdh-66o6"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/ampknob-bdh-66o6"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

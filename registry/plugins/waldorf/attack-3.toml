@@ -1,26 +1,27 @@
-slug        = "attack-3"
-name        = "Attack 3"
-vendor      = "Waldorf"
-version     = "3.0.1"
-description = "Classic drum synthesizer plugin rebuilt for 2026 with analogue sound engines and modern workflow improvements."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://waldorfmusic.com/produkt/attack-3/"
+slug         = "attack-3"
+name         = "Attack 3"
+vendor       = "Waldorf"
+version      = "3.0.1"
+description  = "Classic drum synthesizer plugin rebuilt for 2026 with analogue sound engines and modern workflow improvements."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://waldorfmusic.com/produkt/attack-3/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16854-Attack-3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://waldorfmusic.com/produkt/attack-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://waldorfmusic.com/produkt/attack-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://waldorfmusic.com/produkt/attack-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://waldorfmusic.com/produkt/attack-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

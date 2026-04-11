@@ -1,26 +1,27 @@
-slug        = "sapphire-guitar-2-max"
-name        = "Sapphire Guitar 2 Max"
-vendor      = "ZAK Sound"
-version     = "1.0.0"
-description = "Sample-based guitar instrument with 122 presets and 58 layers for ambient textures and cinematic soundscapes."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://zaksound.com/sapphire-guitar-2/"
+slug         = "sapphire-guitar-2-max"
+name         = "Sapphire Guitar 2 Max"
+vendor       = "ZAK Sound"
+version      = "1.0.0"
+description  = "Sample-based guitar instrument with 122 presets and 58 layers for ambient textures and cinematic soundscapes."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://zaksound.com/sapphire-guitar-2/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12608-Sapphire-Guitar-2-Max?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zaksound.com/sapphire-guitar-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/sapphire-guitar-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zaksound.com/sapphire-guitar-2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/sapphire-guitar-2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

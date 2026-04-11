@@ -1,25 +1,26 @@
-slug        = "hopkin-instrumentarium-rumba-boxes"
-name        = "Hopkin Instrumentarium: Rumba Boxes"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt Player library of custom rumba box instruments designed by builder Bart Hopkin."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/hopkin-instrumentarium-rumba-boxes"
-is_paid     = true
+slug         = "hopkin-instrumentarium-rumba-boxes"
+name         = "Hopkin Instrumentarium: Rumba Boxes"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt Player library of custom rumba box instruments designed by builder Bart Hopkin."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/hopkin-instrumentarium-rumba-boxes"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/hopkin-instrumentarium-rumba-boxes"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/hopkin-instrumentarium-rumba-boxes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/hopkin-instrumentarium-rumba-boxes"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/hopkin-instrumentarium-rumba-boxes"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

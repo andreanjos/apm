@@ -1,26 +1,28 @@
-slug        = "f-em"
-name        = "F em"
-vendor      = "Tracktion"
-version     = "1.0.0"
-description = "Powerful 11-operator FM synthesizer with freely configurable matrix supporting FM, VA, and sample synthesis."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tracktion.com/products/f-em"
+slug         = "f-em"
+name         = "F em"
+vendor       = "Tracktion"
+version      = "1.0.0"
+description  = "Powerful 11-operator FM synthesizer with freely configurable matrix supporting FM, VA, and sample synthesis."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+aliases      = ["f-8217em", "f-em-tracktion"]
+homepage     = "https://www.tracktion.com/products/f-em"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/8142-F-em?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tracktion.com/products/f-em"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/f-em"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tracktion.com/products/f-em"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/f-em"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "reveal-sound-spire-bundle"
-name        = "Reveal Sound Spire Bundle"
-vendor      = "Plugin Boutique Presets"
-version     = "1.0.0"
-description = "Comprehensive preset bundle for Reveal Sound Spire synthesizer across multiple music genres."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
+slug         = "reveal-sound-spire-bundle"
+name         = "Reveal Sound Spire Bundle"
+vendor       = "Plugin Boutique Presets"
+version      = "1.0.0"
+description  = "Comprehensive preset bundle for Reveal Sound Spire synthesizer across multiple music genres."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/4430-Reveal-Sound-Spire-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/298-Plugin-Boutique-Presets"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

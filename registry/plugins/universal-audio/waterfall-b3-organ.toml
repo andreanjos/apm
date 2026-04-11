@@ -1,27 +1,28 @@
-slug        = "waterfall-b3-organ"
-name        = "Waterfall B3 Organ"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "UA's Waterfall B3 Organ is a sampled Hammond B3 tonewheel organ with Leslie speaker simulation."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/instruments/waterfall-b3-organ.html"
+slug         = "waterfall-b3-organ"
+name         = "Waterfall B3 Organ"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "UA's Waterfall B3 Organ is a sampled Hammond B3 tonewheel organ with Leslie speaker simulation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/instruments/waterfall-b3-organ.html"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10187-Waterfall-B3-Organ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/instruments/waterfall-b3-organ.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/waterfall-b3-organ.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/instruments/waterfall-b3-organ.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/waterfall-b3-organ.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

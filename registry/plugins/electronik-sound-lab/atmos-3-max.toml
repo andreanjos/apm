@@ -1,25 +1,26 @@
-slug        = "atmos-3-max"
-name        = "Atmos 3 Max"
-vendor      = "Electronik Sound Lab"
-version     = "3 Max"
-description = "Free cinematic ambient piano with two layers: acoustic piano and processed pad sound design."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://electroniksoundlab.com/"
-is_paid     = true
+slug         = "atmos-3-max"
+name         = "Atmos 3 Max"
+vendor       = "Electronik Sound Lab"
+version      = "3 Max"
+description  = "Free cinematic ambient piano with two layers: acoustic piano and processed pad sound design."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://electroniksoundlab.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://electroniksoundlab.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://electroniksoundlab.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://electroniksoundlab.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://electroniksoundlab.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

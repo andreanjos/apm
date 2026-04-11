@@ -1,26 +1,27 @@
-slug        = "indelay-educational-version"
-name        = "inDelay Educational Version"
-vendor      = "Sound Particles"
-version     = "1.0"
-description = "Educational version of Sound Particles inDelay, a modern multi-tap delay with particle-based processing."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundparticles.com/products/indelay"
+slug         = "indelay-educational-version"
+name         = "inDelay Educational Version"
+vendor       = "Sound Particles"
+version      = "1.0"
+description  = "Educational version of Sound Particles inDelay, a modern multi-tap delay with particle-based processing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundparticles.com/products/indelay"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/12709-inDelay-Educational-Version?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundparticles.com/products/indelay"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundparticles.com/products/indelay"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundparticles.com/products/indelay"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundparticles.com/products/indelay"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

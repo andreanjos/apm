@@ -1,24 +1,25 @@
-slug        = "digital-plate"
-name        = "Digital Plate"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Digital plate reverb plugin delivering classic studio plate reverb tones for vocals and instruments."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p886-Digital-Plate/"
-is_paid     = true
+slug         = "digital-plate"
+name         = "Digital Plate"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Digital plate reverb plugin delivering classic studio plate reverb tones for vocals and instruments."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p886-Digital-Plate/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p886-Digital-Plate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p886-Digital-Plate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p886-Digital-Plate/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p886-Digital-Plate/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

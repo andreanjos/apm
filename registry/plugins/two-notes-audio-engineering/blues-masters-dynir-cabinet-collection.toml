@@ -1,26 +1,27 @@
-slug        = "blues-masters-dynir-cabinet-collection"
-name        = "Blues Masters DynIR Cabinet Collection"
-vendor      = "Two Notes Audio Engineering"
-version     = "1.0.0"
-description = "Collection of DynIR virtual guitar cabinets capturing classic blues and roots tone."
-category    = "utility"
-subcategory = "impulse response"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.two-notes.com/en/dynir-virtual-cabinets/"
+slug         = "blues-masters-dynir-cabinet-collection"
+name         = "Blues Masters DynIR Cabinet Collection"
+vendor       = "Two Notes Audio Engineering"
+version      = "1.0.0"
+description  = "Collection of DynIR virtual guitar cabinets capturing classic blues and roots tone."
+category     = "utility"
+product_type = "bundle"
+subcategory  = "impulse response"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.two-notes.com/en/dynir-virtual-cabinets/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/10930-Blues-Masters-DynIR-Cabinet-Collection?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.two-notes.com/en/dynir-virtual-cabinets/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.two-notes.com/en/dynir-virtual-cabinets/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.two-notes.com/en/dynir-virtual-cabinets/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.two-notes.com/en/dynir-virtual-cabinets/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

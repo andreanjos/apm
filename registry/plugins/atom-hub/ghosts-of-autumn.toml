@@ -1,25 +1,26 @@
-slug        = "ghosts-of-autumn"
-name        = "Ghosts of Autumn"
-vendor      = "Atom Hub"
-version     = "1.0.0"
-description = "Atmospheric Kontakt instrument evoking autumnal moods through textural environmental samples."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://atomhub.net/Libraries.html"
-is_paid     = true
+slug         = "ghosts-of-autumn"
+name         = "Ghosts of Autumn"
+vendor       = "Atom Hub"
+version      = "1.0.0"
+description  = "Atmospheric Kontakt instrument evoking autumnal moods through textural environmental samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://atomhub.net/Libraries.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://atomhub.net/Libraries.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://atomhub.net/Libraries.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://atomhub.net/Libraries.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://atomhub.net/Libraries.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

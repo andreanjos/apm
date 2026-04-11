@@ -1,25 +1,26 @@
-slug        = "sordino-strings"
-name        = "Sordino Strings"
-vendor      = "Sonokinetic"
-version     = "1.0.0"
-description = "Muted orchestral strings Kontakt library with con sordino sustains, staccato, and legato."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonokinetic.net/products/classical/sordino-strings/"
-is_paid     = true
+slug         = "sordino-strings"
+name         = "Sordino Strings"
+vendor       = "Sonokinetic"
+version      = "1.0.0"
+description  = "Muted orchestral strings Kontakt library with con sordino sustains, staccato, and legato."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonokinetic.net/products/classical/sordino-strings/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonokinetic.net/products/classical/sordino-strings/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/classical/sordino-strings/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonokinetic.net/products/classical/sordino-strings/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/classical/sordino-strings/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

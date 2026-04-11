@@ -1,25 +1,26 @@
-slug        = "urban-definition"
-name        = "Urban Definition"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Comprehensive library featuring over 3,000 hip-hop, R&B, and urban music samples with construction kits."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/urban-definition"
-is_paid     = true
+slug         = "urban-definition"
+name         = "Urban Definition"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Comprehensive library featuring over 3,000 hip-hop, R&B, and urban music samples with construction kits."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/urban-definition"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/urban-definition"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/urban-definition"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/urban-definition"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/urban-definition"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

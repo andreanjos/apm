@@ -1,26 +1,27 @@
-slug        = "polymax-synth"
-name        = "PolyMAX Synth"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "UA's PolyMAX is a powerful polyphonic synthesizer with analog warmth and modern sound design."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/instruments/polymax-synth.html"
-is_paid     = true
+slug         = "polymax-synth"
+name         = "PolyMAX Synth"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "UA's PolyMAX is a powerful polyphonic synthesizer with analog warmth and modern sound design."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/instruments/polymax-synth.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/instruments/polymax-synth.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/polymax-synth.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/instruments/polymax-synth.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/instruments/polymax-synth.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

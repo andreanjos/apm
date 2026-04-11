@@ -1,24 +1,25 @@
-slug        = "smartreverb"
-name        = "smart:reverb"
-vendor      = "sonible"
-version     = "1.0.0"
-description = "AI-powered reverb that adapts to the content of your audio for natural, musical reverb tails."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonible.com/smartreverb2/"
-is_paid     = true
+slug         = "smartreverb"
+name         = "smart:reverb"
+vendor       = "sonible"
+version      = "1.0.0"
+description  = "AI-powered reverb that adapts to the content of your audio for natural, musical reverb tails."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonible.com/smartreverb2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonible.com/smartreverb2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/smartreverb2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonible.com/smartreverb2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/smartreverb2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "cs-80-v"
-name        = "CS-80 V"
-vendor      = "Arturia"
-version     = "4.5.0"
-description = "Authentic emulation of the legendary Yamaha CS-80 polyphonic analog synthesizer."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-instruments/cs80v/overview"
-is_paid     = true
+slug         = "cs-80-v"
+name         = "CS-80 V"
+vendor       = "Arturia"
+version      = "4.5.0"
+description  = "Authentic emulation of the legendary Yamaha CS-80 polyphonic analog synthesizer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-instruments/cs80v/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-instruments/cs80v/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/cs80v/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-instruments/cs80v/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-instruments/cs80v/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

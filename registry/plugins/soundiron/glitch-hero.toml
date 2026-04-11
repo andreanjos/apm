@@ -1,26 +1,27 @@
-slug        = "glitch-hero"
-name        = "Glitch Hero"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Glitchy Kontakt instrument with stuttering, artefact-driven electronic sound design textures."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/glitch-hero"
+slug         = "glitch-hero"
+name         = "Glitch Hero"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Glitchy Kontakt instrument with stuttering, artefact-driven electronic sound design textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/glitch-hero"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/4013-Glitch-Hero?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/glitch-hero"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/glitch-hero"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/glitch-hero"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/glitch-hero"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

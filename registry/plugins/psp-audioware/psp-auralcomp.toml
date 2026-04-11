@@ -1,26 +1,27 @@
-slug        = "psp-auralcomp"
-name        = "PSP auralComp"
-vendor      = "PSP Audioware"
-version     = "1.0.3"
-description = "Multi-channel compressor and limiter designed for surround and immersive audio applications."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-auralcomp"
+slug         = "psp-auralcomp"
+name         = "PSP auralComp"
+vendor       = "PSP Audioware"
+version      = "1.0.3"
+description  = "Multi-channel compressor and limiter designed for surround and immersive audio applications."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-auralcomp"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10863-PSP-auralComp?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-auralcomp"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-auralcomp"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-auralcomp"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-auralcomp"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "microtoner"
-name        = "MicroToner"
-vendor      = "TAQS IM"
-version     = "1.0"
-description = "Microtonal MIDI utility plugin by TAQS.IM for exploring and playing alternative tuning systems."
-category    = "utility"
-subcategory = "utility"
-license     = "commercial"
-tags        = []
-homepage    = "https://taqs.im/"
+slug         = "microtoner"
+name         = "MicroToner"
+vendor       = "TAQS IM"
+version      = "1.0"
+description  = "Microtonal MIDI utility plugin by TAQS.IM for exploring and playing alternative tuning systems."
+category     = "utility"
+product_type = "utility"
+subcategory  = "utility"
+license      = "commercial"
+tags         = []
+homepage     = "https://taqs.im/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16574-MicroToner?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://taqs.im/"
-sha256       = ""
-install_type = "zip"
+url           = "https://taqs.im/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://taqs.im/"
-sha256       = ""
-install_type = "zip"
+url           = "https://taqs.im/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

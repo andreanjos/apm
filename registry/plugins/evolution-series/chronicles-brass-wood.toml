@@ -1,25 +1,27 @@
-slug        = "chronicles-brass-wood"
-name        = "Chronicles Brass & Wood"
-vendor      = "Evolution Series"
-version     = "1.0.0"
-description = "Kontakt library blending brass and woodwind textures with tempo-synced motion articulations."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.evolutionseries.com/product/chronicles-brass-and-wood/"
-is_paid     = true
+slug         = "chronicles-brass-wood"
+name         = "Chronicles Brass & Wood"
+vendor       = "Evolution Series"
+version      = "1.0.0"
+description  = "Kontakt library blending brass and woodwind textures with tempo-synced motion articulations."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+aliases      = ["chronicles-brass-038-wood"]
+homepage     = "https://www.evolutionseries.com/product/chronicles-brass-and-wood/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.evolutionseries.com/product/chronicles-brass-and-wood/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.evolutionseries.com/product/chronicles-brass-and-wood/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.evolutionseries.com/product/chronicles-brass-and-wood/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.evolutionseries.com/product/chronicles-brass-and-wood/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

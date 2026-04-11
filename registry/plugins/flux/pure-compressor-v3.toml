@@ -1,25 +1,26 @@
-slug        = "pure-compressor-v3"
-name        = "Pure Compressor v3"
-vendor      = "Flux"
-version     = "3"
-description = "Version 3 of Flux's Pure Compressor offering transparent to aggressive compression workflows."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.flux.audio/products/"
-is_paid     = true
+slug         = "pure-compressor-v3"
+name         = "Pure Compressor v3"
+vendor       = "Flux"
+version      = "3"
+description  = "Version 3 of Flux's Pure Compressor offering transparent to aggressive compression workflows."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.flux.audio/products/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.flux.audio/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.flux.audio/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.flux.audio/products/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.flux.audio/products/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

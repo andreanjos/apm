@@ -1,24 +1,25 @@
-slug        = "auto-tune-vocal-eq-perpetual"
-name        = "Auto-Tune Vocal EQ Perpetual"
-vendor      = "Antares"
-version     = "1.0.0"
-description = "Perpetual license for the vocal-optimized EQ plugin from Antares Audio."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.antarestech.com/products/vocal-tools/vocal-eq"
-is_paid     = true
+slug         = "auto-tune-vocal-eq-perpetual"
+name         = "Auto-Tune Vocal EQ Perpetual"
+vendor       = "Antares"
+version      = "1.0.0"
+description  = "Perpetual license for the vocal-optimized EQ plugin from Antares Audio."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.antarestech.com/products/vocal-tools/vocal-eq"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.antarestech.com/products/vocal-tools/vocal-eq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/vocal-tools/vocal-eq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.antarestech.com/products/vocal-tools/vocal-eq"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/vocal-tools/vocal-eq"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

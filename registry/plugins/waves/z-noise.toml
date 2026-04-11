@@ -1,26 +1,27 @@
-slug        = "z-noise"
-name        = "Z-Noise"
-vendor      = "Waves"
-version     = "14.0"
-description = "Advanced noise reduction plugin with real-time spectral subtraction for clean recordings."
-category    = "effects"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/z-noise"
-is_paid     = true
+slug         = "z-noise"
+name         = "Z-Noise"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Advanced noise reduction plugin with real-time spectral subtraction for clean recordings."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/z-noise"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/z-noise"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/z-noise"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/z-noise"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/z-noise"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

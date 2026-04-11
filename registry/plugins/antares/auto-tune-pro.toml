@@ -1,24 +1,25 @@
-slug        = "auto-tune-pro"
-name        = "Auto-Tune Pro"
-vendor      = "Antares"
-version     = "11.0"
-description = "Industry-standard pitch correction plugin with Auto Mode, Graph Mode and 4-part harmony."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.antarestech.com/products/auto-tune/pro"
-is_paid     = true
+slug         = "auto-tune-pro"
+name         = "Auto-Tune Pro"
+vendor       = "Antares"
+version      = "11.0"
+description  = "Industry-standard pitch correction plugin with Auto Mode, Graph Mode and 4-part harmony."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.antarestech.com/products/auto-tune/pro"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.antarestech.com/products/auto-tune/pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/auto-tune/pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.antarestech.com/products/auto-tune/pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.antarestech.com/products/auto-tune/pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

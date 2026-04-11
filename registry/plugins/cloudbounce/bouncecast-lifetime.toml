@@ -1,25 +1,26 @@
-slug        = "bouncecast-lifetime"
-name        = "BounceCast Lifetime"
-vendor      = "CloudBounce"
-version     = "1.0.0"
-description = "Lifetime access plan for BounceCast, the AI-powered mastering and enhancement tool for podcast and video audio."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://cloudbounce.com/"
-is_paid     = true
+slug         = "bouncecast-lifetime"
+name         = "BounceCast Lifetime"
+vendor       = "CloudBounce"
+version      = "1.0.0"
+description  = "Lifetime access plan for BounceCast, the AI-powered mastering and enhancement tool for podcast and video audio."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://cloudbounce.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cloudbounce.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cloudbounce.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cloudbounce.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cloudbounce.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

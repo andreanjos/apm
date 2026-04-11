@@ -1,26 +1,28 @@
-slug        = "black-rooster-veq-1p"
-name        = "VEQ-1P"
-vendor      = "Black Rooster Audio"
-version     = "1.0"
-description = "Pultec-style passive program equalizer inspired by the classic EQP-1A, featuring the signature simultaneous boost-and-cut technique and proportional Q behavior."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = ["eq", "equalizer", "pultec", "passive", "program-eq", "vintage", "analog", "mastering"]
-homepage    = "https://blackroosteraudio.com/en/products/veq-1p"
+slug         = "black-rooster-veq-1p"
+name         = "VEQ-1P"
+vendor       = "Black Rooster Audio"
+version      = "1.0"
+description  = "Pultec-style passive program equalizer inspired by the classic EQP-1A, featuring the signature simultaneous boost-and-cut technique and proportional Q behavior."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = ["eq", "equalizer", "pultec", "passive", "program-eq", "vintage", "analog", "mastering"]
+aliases      = ["veq-1p"]
+homepage     = "https://blackroosteraudio.com/en/products/veq-1p"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11385-VEQ-1P?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
-# NOTE: Black Rooster Audio plugins are downloaded from the official website
-# after purchase. License is managed via the Black Rooster License Manager.
 [formats.vst3]
-url          = "https://blackroosteraudio.com/en/products/veq-1p"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://blackroosteraudio.com/en/products/veq-1p"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "VEQ-1P.vst3"
+bundle_path   = "VEQ-1P.vst3"
 
 [formats.au]
-url          = "https://blackroosteraudio.com/en/products/veq-1p"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://blackroosteraudio.com/en/products/veq-1p"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "VEQ-1P.component"
+bundle_path   = "VEQ-1P.component"

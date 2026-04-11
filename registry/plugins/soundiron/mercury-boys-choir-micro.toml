@@ -1,25 +1,26 @@
-slug        = "mercury-boys-choir-micro"
-name        = "Mercury Boys Choir Micro"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Micro Kontakt Player edition of the Mercury Symphonic Boys Choir in a minimal footprint."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/mercury-boys-choir-micro"
-is_paid     = true
+slug         = "mercury-boys-choir-micro"
+name         = "Mercury Boys Choir Micro"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Micro Kontakt Player edition of the Mercury Symphonic Boys Choir in a minimal footprint."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/mercury-boys-choir-micro"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/mercury-boys-choir-micro"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/mercury-boys-choir-micro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/mercury-boys-choir-micro"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/mercury-boys-choir-micro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

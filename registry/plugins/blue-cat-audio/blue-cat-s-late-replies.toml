@@ -1,26 +1,27 @@
-slug        = "blue-cat-s-late-replies"
-name        = "Blue Cat s Late Replies"
-vendor      = "Blue Cat Audio"
-version     = "1.69"
-description = "Creative delay and reverb workstation that hosts third-party plug-ins anywhere in the signal chain."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bluecataudio.com/Products/Product_LateReplies/"
+slug         = "blue-cat-s-late-replies"
+name         = "Blue Cat s Late Replies"
+vendor       = "Blue Cat Audio"
+version      = "1.69"
+description  = "Creative delay and reverb workstation that hosts third-party plug-ins anywhere in the signal chain."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bluecataudio.com/Products/Product_LateReplies/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/3777-Blue-Cat-s-Late-Replies?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bluecataudio.com/Products/Product_LateReplies/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_LateReplies/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bluecataudio.com/Products/Product_LateReplies/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bluecataudio.com/Products/Product_LateReplies/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "filter-table"
-name        = "Filter Table"
-vendor      = "Kilohearts"
-version     = "2.4.6"
-description = "Wavetable-driven filter Snapin that scans through table frames to create sweeping filter effects."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-homepage    = "https://kilohearts.com/products/filter_table"
+slug         = "filter-table"
+name         = "Filter Table"
+vendor       = "Kilohearts"
+version      = "2.4.6"
+description  = "Wavetable-driven filter Snapin that scans through table frames to create sweeping filter effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+homepage     = "https://kilohearts.com/products/filter_table"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/14112-Filter-Table?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://kilohearts.com/products/filter_table"
-sha256       = ""
-install_type = "zip"
+url           = "https://kilohearts.com/products/filter_table"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://kilohearts.com/products/filter_table"
-sha256       = ""
-install_type = "zip"
+url           = "https://kilohearts.com/products/filter_table"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

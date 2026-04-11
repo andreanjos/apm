@@ -1,25 +1,26 @@
-slug        = "vocal-tools-quartet"
-name        = "Vocal Tools Quartet"
-vendor      = "Bela D Media"
-version     = "1.0.0"
-description = "Four-voice vocal quartet Kontakt library with mixed SATB phrasing and legato scripting."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://beladmedia.com/vocal-tools-quartet/"
-is_paid     = true
+slug         = "vocal-tools-quartet"
+name         = "Vocal Tools Quartet"
+vendor       = "Bela D Media"
+version      = "1.0.0"
+description  = "Four-voice vocal quartet Kontakt library with mixed SATB phrasing and legato scripting."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://beladmedia.com/vocal-tools-quartet/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://beladmedia.com/vocal-tools-quartet/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/vocal-tools-quartet/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://beladmedia.com/vocal-tools-quartet/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/vocal-tools-quartet/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

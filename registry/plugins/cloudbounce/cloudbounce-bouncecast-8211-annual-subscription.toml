@@ -1,25 +1,27 @@
-slug        = "cloudbounce-bouncecast-8211-annual-subscription"
-name        = "Cloudbounce+ BounceCast &#8211; Annual Subscription"
-vendor      = "CloudBounce"
-version     = "1.0.0"
-description = "Annual bundle subscription combining CloudBounce music mastering and BounceCast podcast mastering services."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://cloudbounce.com/"
-is_paid     = true
+slug         = "cloudbounce-bouncecast-8211-annual-subscription"
+name         = "Cloudbounce+ BounceCast - Annual Subscription"
+vendor       = "CloudBounce"
+version      = "1.0.0"
+description  = "Annual bundle subscription combining CloudBounce music mastering and BounceCast podcast mastering services."
+category     = "effects"
+product_type = "subscription"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+aliases      = ["cloudbounce-bouncecast-annual-subscription"]
+homepage     = "https://cloudbounce.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cloudbounce.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cloudbounce.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cloudbounce.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://cloudbounce.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

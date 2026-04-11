@@ -1,26 +1,27 @@
-slug        = "gtg-fm4"
-name        = "GTG FM4"
-vendor      = "GTG Synths"
-version     = "1.0.0"
-description = "Free 3-operator FM synthesizer for creating classic FM tones and digital textures."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.gtgsynths.com/"
+slug         = "gtg-fm4"
+name         = "GTG FM4"
+vendor       = "GTG Synths"
+version      = "1.0.0"
+description  = "Free 3-operator FM synthesizer for creating classic FM tones and digital textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.gtgsynths.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/318-GTG-FM4?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.gtgsynths.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gtgsynths.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.gtgsynths.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gtgsynths.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

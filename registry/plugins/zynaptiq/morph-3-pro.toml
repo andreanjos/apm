@@ -1,26 +1,27 @@
-slug        = "morph-3-pro"
-name        = "MORPH 3 PRO"
-vendor      = "Zynaptiq"
-version     = "3.2.0"
-description = "Professional real-time structural audio morphing plugin with five morphing algorithms and advanced controls."
-category    = "effects"
-subcategory = "modulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.zynaptiq.com/morph/"
+slug         = "morph-3-pro"
+name         = "MORPH 3 PRO"
+vendor       = "Zynaptiq"
+version      = "3.2.0"
+description  = "Professional real-time structural audio morphing plugin with five morphing algorithms and advanced controls."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "modulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.zynaptiq.com/morph/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/12205-MORPH-3-PRO?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.zynaptiq.com/morph/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.zynaptiq.com/morph/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.zynaptiq.com/morph/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.zynaptiq.com/morph/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

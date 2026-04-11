@@ -1,26 +1,27 @@
-slug        = "eloy-drums"
-name        = "Eloy Drums"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Kontakt drum instrument capturing Eloy Casagrande's playing with Jens Bogren's engineering for metal production."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/eloy-drums"
+slug         = "eloy-drums"
+name         = "Eloy Drums"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Kontakt drum instrument capturing Eloy Casagrande's playing with Jens Bogren's engineering for metal production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/eloy-drums"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/15592-Eloy-Drums?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/eloy-drums"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/eloy-drums"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/eloy-drums"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/eloy-drums"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

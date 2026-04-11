@@ -1,25 +1,26 @@
-slug        = "aloha"
-name        = "Aloha"
-vendor      = "Soundspear"
-version     = "1.0.0"
-description = "Vintage tape emulation plugin recreating the character of pre-1950s tape recorders."
-category    = "effects"
-subcategory = "lo-fi"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundspear.com/product/aloha"
-is_paid     = true
+slug         = "aloha"
+name         = "Aloha"
+vendor       = "Soundspear"
+version      = "1.0.0"
+description  = "Vintage tape emulation plugin recreating the character of pre-1950s tape recorders."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "lo-fi"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundspear.com/product/aloha"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundspear.com/product/aloha"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundspear.com/product/aloha"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundspear.com/product/aloha"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundspear.com/product/aloha"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

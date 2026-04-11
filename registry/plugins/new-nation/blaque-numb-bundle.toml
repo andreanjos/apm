@@ -1,25 +1,27 @@
-slug        = "blaque-numb-bundle"
-name        = "Blaque & Numb Bundle"
-vendor      = "New Nation"
-version     = "1.0.0"
-description = "Bundle combining Blaque dark electric guitar and Numb dark acoustic guitar sampled instruments."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://nnaud.io/"
-is_paid     = true
+slug         = "blaque-numb-bundle"
+name         = "Blaque & Numb Bundle"
+vendor       = "New Nation"
+version      = "1.0.0"
+description  = "Bundle combining Blaque dark electric guitar and Numb dark acoustic guitar sampled instruments."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+aliases      = ["blaque-038-numb-bundle"]
+homepage     = "https://nnaud.io/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nnaud.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nnaud.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nnaud.io/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nnaud.io/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

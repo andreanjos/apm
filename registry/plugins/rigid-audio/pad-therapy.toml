@@ -1,25 +1,26 @@
-slug        = "pad-therapy"
-name        = "Pad Therapy"
-vendor      = "Rigid Audio"
-version     = "1.0.0"
-description = "Kontakt instrument with 128 morphing pads and textures, featuring drag-and-drop sample import."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.rigid-audio.com/product/pad-therapy/"
-is_paid     = true
+slug         = "pad-therapy"
+name         = "Pad Therapy"
+vendor       = "Rigid Audio"
+version      = "1.0.0"
+description  = "Kontakt instrument with 128 morphing pads and textures, featuring drag-and-drop sample import."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.rigid-audio.com/product/pad-therapy/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.rigid-audio.com/product/pad-therapy/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rigid-audio.com/product/pad-therapy/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.rigid-audio.com/product/pad-therapy/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rigid-audio.com/product/pad-therapy/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

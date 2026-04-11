@@ -1,25 +1,26 @@
-slug        = "paravox-x"
-name        = "Paravox X"
-vendor      = "Bela D Media"
-version     = "1.0.0"
-description = "Ambient vocal design Kontakt library with evolving pads, sustained phrases, and atmospheric textures."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://beladmedia.com/paravox-x/"
-is_paid     = true
+slug         = "paravox-x"
+name         = "Paravox X"
+vendor       = "Bela D Media"
+version      = "1.0.0"
+description  = "Ambient vocal design Kontakt library with evolving pads, sustained phrases, and atmospheric textures."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://beladmedia.com/paravox-x/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://beladmedia.com/paravox-x/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/paravox-x/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://beladmedia.com/paravox-x/"
-sha256       = ""
-install_type = "zip"
+url           = "https://beladmedia.com/paravox-x/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "speech-restoration-bundle"
-name        = "Speech Restoration Bundle"
-vendor      = "Accentize"
-version     = "1.0.0"
-description = "Bundle of Accentize's speech and dialogue restoration tools for professional audio cleanup."
-category    = "effects"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.accentize.com/"
-is_paid     = true
+slug         = "speech-restoration-bundle"
+name         = "Speech Restoration Bundle"
+vendor       = "Accentize"
+version      = "1.0.0"
+description  = "Bundle of Accentize's speech and dialogue restoration tools for professional audio cleanup."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.accentize.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.accentize.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.accentize.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.accentize.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.accentize.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

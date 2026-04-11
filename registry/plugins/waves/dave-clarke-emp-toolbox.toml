@@ -1,26 +1,27 @@
-slug        = "dave-clarke-emp-toolbox"
-name        = "Dave Clarke EMP Toolbox"
-vendor      = "Waves"
-version     = "14.0"
-description = "Dave Clarke's signature collection of electronic music production and mixing tools."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/dave-clarke-emp-toolbox"
-is_paid     = true
+slug         = "dave-clarke-emp-toolbox"
+name         = "Dave Clarke EMP Toolbox"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Dave Clarke's signature collection of electronic music production and mixing tools."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/dave-clarke-emp-toolbox"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/dave-clarke-emp-toolbox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/dave-clarke-emp-toolbox"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/dave-clarke-emp-toolbox"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/dave-clarke-emp-toolbox"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

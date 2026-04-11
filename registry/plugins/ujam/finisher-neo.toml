@@ -1,25 +1,26 @@
-slug        = "finisher-neo"
-name        = "Finisher NEO"
-vendor      = "UJAM"
-version     = "2.0"
-description = "Creative FX plugin offering infinite instant inspiration for spontaneous sound design."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ujam.com/finisher/neo/"
-is_paid     = true
+slug         = "finisher-neo"
+name         = "Finisher NEO"
+vendor       = "UJAM"
+version      = "2.0"
+description  = "Creative FX plugin offering infinite instant inspiration for spontaneous sound design."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ujam.com/finisher/neo/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ujam.com/finisher/neo/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/finisher/neo/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ujam.com/finisher/neo/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ujam.com/finisher/neo/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

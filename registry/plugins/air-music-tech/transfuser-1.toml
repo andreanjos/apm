@@ -1,25 +1,26 @@
-slug        = "transfuser-1"
-name        = "Transfuser 1"
-vendor      = "Air Music Tech"
-version     = "1"
-description = "Loop-based instrument and remixing plugin for real-time audio manipulation and performance."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.airmusictech.com/product/transfuser"
-is_paid     = true
+slug         = "transfuser-1"
+name         = "Transfuser 1"
+vendor       = "Air Music Tech"
+version      = "1"
+description  = "Loop-based instrument and remixing plugin for real-time audio manipulation and performance."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.airmusictech.com/product/transfuser"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.airmusictech.com/product/transfuser"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.airmusictech.com/product/transfuser"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.airmusictech.com/product/transfuser"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.airmusictech.com/product/transfuser"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

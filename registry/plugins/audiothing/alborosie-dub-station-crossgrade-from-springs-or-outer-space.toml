@@ -1,25 +1,26 @@
-slug        = "alborosie-dub-station-crossgrade-from-springs-or-outer-space"
-name        = "Alborosie Dub Station Crossgrade from Springs or Outer Space"
-vendor      = "AudioThing"
-version     = "1.1"
-description = "Crossgrade to the Alborosie Dub Station vintage rack echo/filter/spring plugin modeled on King Tubby's gear."
-category    = "effects"
-subcategory = "echo"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/effects/alborosie-dub-station/"
-is_paid     = true
+slug         = "alborosie-dub-station-crossgrade-from-springs-or-outer-space"
+name         = "Alborosie Dub Station Crossgrade from Springs or Outer Space"
+vendor       = "AudioThing"
+version      = "1.1"
+description  = "Crossgrade to the Alborosie Dub Station vintage rack echo/filter/spring plugin modeled on King Tubby's gear."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "echo"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiothing.net/effects/alborosie-dub-station/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/effects/alborosie-dub-station/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/alborosie-dub-station/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/effects/alborosie-dub-station/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/alborosie-dub-station/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

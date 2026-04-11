@@ -1,24 +1,25 @@
-slug        = "talking-tone"
-name        = "Talking Tone"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Formant filter plugin delivering vocal-like talking tone effects and creative filter modulation."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p1158-Talking-Tone/"
-is_paid     = true
+slug         = "talking-tone"
+name         = "Talking Tone"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Formant filter plugin delivering vocal-like talking tone effects and creative filter modulation."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p1158-Talking-Tone/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p1158-Talking-Tone/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p1158-Talking-Tone/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p1158-Talking-Tone/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p1158-Talking-Tone/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

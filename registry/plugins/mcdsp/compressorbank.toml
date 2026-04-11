@@ -1,25 +1,26 @@
-slug        = "compressorbank"
-name        = "CompressorBank"
-vendor      = "McDSP"
-version     = "7.0"
-description = "McDSP CompressorBank with CB101, CB202, and CB303 compressors for vintage and modern compression."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://mcdsp.com/plugin-index/compressorbank/"
-is_paid     = true
+slug         = "compressorbank"
+name         = "CompressorBank"
+vendor       = "McDSP"
+version      = "7.0"
+description  = "McDSP CompressorBank with CB101, CB202, and CB303 compressors for vintage and modern compression."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://mcdsp.com/plugin-index/compressorbank/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mcdsp.com/plugin-index/compressorbank/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/compressorbank/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mcdsp.com/plugin-index/compressorbank/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/compressorbank/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "instalooper-3"
-name        = "InstaLooper 3"
-vendor      = "Audio Blast"
-version     = "3"
-description = "Live looper with 6 integrated FX, reverse, and pitch for real-time glitch and loop effects."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audioblast.me/"
+slug         = "instalooper-3"
+name         = "InstaLooper 3"
+vendor       = "Audio Blast"
+version      = "3"
+description  = "Live looper with 6 integrated FX, reverse, and pitch for real-time glitch and loop effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audioblast.me/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/10479-InstaLooper-3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audioblast.me/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioblast.me/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audioblast.me/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audioblast.me/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

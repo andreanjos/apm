@@ -1,26 +1,27 @@
-slug        = "selene"
-name        = "Selene"
-vendor      = "Auburn Sounds"
-version     = "1.0.0"
-description = "Versatile algorithmic reverb plugin with pristine adaptive sound for any mix context."
-category    = "effects"
-subcategory = "reverb"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.auburnsounds.com/products/Selene.html"
+slug         = "selene"
+name         = "Selene"
+vendor       = "Auburn Sounds"
+version      = "1.0.0"
+description  = "Versatile algorithmic reverb plugin with pristine adaptive sound for any mix context."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "reverb"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.auburnsounds.com/products/Selene.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/16190-Selene?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.auburnsounds.com/products/Selene.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.auburnsounds.com/products/Selene.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.auburnsounds.com/products/Selene.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.auburnsounds.com/products/Selene.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

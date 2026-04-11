@@ -1,24 +1,25 @@
-slug        = "breverb-2"
-name        = "BREVERB 2"
-vendor      = "Overloud"
-version     = "1.0.0"
-description = "Seven classic 80s and 90s algorithmic reverbs in one plugin, going beyond the original hardware."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.overloud.com/products/breverb-2"
-is_paid     = true
+slug         = "breverb-2"
+name         = "BREVERB 2"
+vendor       = "Overloud"
+version      = "1.0.0"
+description  = "Seven classic 80s and 90s algorithmic reverbs in one plugin, going beyond the original hardware."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.overloud.com/products/breverb-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.overloud.com/products/breverb-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products/breverb-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.overloud.com/products/breverb-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.overloud.com/products/breverb-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

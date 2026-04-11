@@ -1,25 +1,26 @@
-slug        = "constellation-apollo-203a"
-name        = "Constellation: Apollo 203A"
-vendor      = "Hideaway Studio"
-version     = "1.0.0"
-description = "Kontakt library of a 1976 Polymoog Model 203A with 551 samples and a 4-voice layering engine."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://hideawaystudio.net/"
-is_paid     = true
+slug         = "constellation-apollo-203a"
+name         = "Constellation: Apollo 203A"
+vendor       = "Hideaway Studio"
+version      = "1.0.0"
+description  = "Kontakt library of a 1976 Polymoog Model 203A with 551 samples and a 4-voice layering engine."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://hideawaystudio.net/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hideawaystudio.net/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hideawaystudio.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hideawaystudio.net/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hideawaystudio.net/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

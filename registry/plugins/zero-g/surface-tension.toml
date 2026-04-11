@@ -1,25 +1,26 @@
-slug        = "surface-tension"
-name        = "Surface Tension"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Sound design tool creating rich, organic, complex sounds from samples derived from used and abused electric guitars."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/surface-tension"
-is_paid     = true
+slug         = "surface-tension"
+name         = "Surface Tension"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Sound design tool creating rich, organic, complex sounds from samples derived from used and abused electric guitars."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/surface-tension"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/surface-tension"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/surface-tension"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/surface-tension"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/surface-tension"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

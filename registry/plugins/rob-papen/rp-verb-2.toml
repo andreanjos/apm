@@ -1,24 +1,25 @@
-slug        = "rp-verb-2"
-name        = "RP-VERB 2"
-vendor      = "Rob Papen"
-version     = "2.0"
-description = "Warm and dense reverb plugin with a creative Reverser section, distortion module, envelope follower, and mod matrix."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/rp-verb2.html"
-is_paid     = true
+slug         = "rp-verb-2"
+name         = "RP-VERB 2"
+vendor       = "Rob Papen"
+version      = "2.0"
+description  = "Warm and dense reverb plugin with a creative Reverser section, distortion module, envelope follower, and mod matrix."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/rp-verb2.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/rp-verb2.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/rp-verb2.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/rp-verb2.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/rp-verb2.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

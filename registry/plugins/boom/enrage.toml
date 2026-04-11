@@ -1,26 +1,27 @@
-slug        = "enrage"
-name        = "ENRAGE"
-vendor      = "Boom"
-version     = "1.0"
-description = "Modular multi-FX processing plugin by BOOM Library offering unlimited sound-design possibilities."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.boomlibrary.com/sound-effects/enrage/"
+slug         = "enrage"
+name         = "ENRAGE"
+vendor       = "Boom"
+version      = "1.0"
+description  = "Modular multi-FX processing plugin by BOOM Library offering unlimited sound-design possibilities."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.boomlibrary.com/sound-effects/enrage/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7976-ENRAGE?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.boomlibrary.com/sound-effects/enrage/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.boomlibrary.com/sound-effects/enrage/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.boomlibrary.com/sound-effects/enrage/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.boomlibrary.com/sound-effects/enrage/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

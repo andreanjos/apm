@@ -1,24 +1,28 @@
-slug        = "cableguys-volumeshaper-7"
-name        = "VolumeShaper 7"
-vendor      = "Cableguys"
-version     = "7.0"
-description = "Multiband LFO-driven volume shaper with a drawable envelope that can be triggered by beats, MIDI, or audio transients across three frequency bands."
-category    = "effects"
-subcategory = "dynamics"
-license     = "commercial"
-tags        = ["lfo", "tremolo", "sidechain", "volume", "multiband", "shaping", "pumping", "rhythm"]
-homepage    = "https://www.cableguys.com/volumeshaper"
+slug         = "cableguys-volumeshaper-7"
+name         = "VolumeShaper 7"
+vendor       = "Cableguys"
+version      = "7.0"
+description  = "Multiband LFO-driven volume shaper with a drawable envelope that can be triggered by beats, MIDI, or audio transients across three frequency bands."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamics"
+license      = "commercial"
+tags         = ["lfo", "tremolo", "sidechain", "volume", "multiband", "shaping", "pumping", "rhythm"]
+aliases      = ["volumeshaper-7"]
+homepage     = "https://www.cableguys.com/volumeshaper"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/9843-VolumeShaper-7?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.cableguys.com/installation"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.cableguys.com/installation"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "VolumeShaper 7.vst3"
+bundle_path   = "VolumeShaper 7.vst3"
 
 [formats.au]
-url          = "https://www.cableguys.com/installation"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.cableguys.com/installation"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "VolumeShaper 7.component"
+bundle_path   = "VolumeShaper 7.component"

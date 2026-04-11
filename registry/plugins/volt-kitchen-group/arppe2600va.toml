@@ -1,26 +1,27 @@
-slug        = "arppe2600va"
-name        = "Arppe2600VA"
-vendor      = "Volt Kitchen Group"
-version     = "1.0"
-description = "Virtual analog emulation of the ARP 2600 semi-modular synthesizer by Volt Kitchen Group."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "http://www.voltkitchengroup.com/"
+slug         = "arppe2600va"
+name         = "Arppe2600VA"
+vendor       = "Volt Kitchen Group"
+version      = "1.0"
+description  = "Virtual analog emulation of the ARP 2600 semi-modular synthesizer by Volt Kitchen Group."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "http://www.voltkitchengroup.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/152-Arppe2600VA?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "http://www.voltkitchengroup.com/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.voltkitchengroup.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "http://www.voltkitchengroup.com/"
-sha256       = ""
-install_type = "zip"
+url           = "http://www.voltkitchengroup.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

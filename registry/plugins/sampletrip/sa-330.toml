@@ -1,25 +1,26 @@
-slug        = "sa-330"
-name        = "SA-330"
-vendor      = "Sampletrip"
-version     = "1.0.0"
-description = "Kontakt library inspired by the Roland P-330 digital piano module released in 1988."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kvraudio.com/product/sa-330-by-sampletrip"
-is_paid     = true
+slug         = "sa-330"
+name         = "SA-330"
+vendor       = "Sampletrip"
+version      = "1.0.0"
+description  = "Kontakt library inspired by the Roland P-330 digital piano module released in 1988."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kvraudio.com/product/sa-330-by-sampletrip"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kvraudio.com/product/sa-330-by-sampletrip"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/product/sa-330-by-sampletrip"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kvraudio.com/product/sa-330-by-sampletrip"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/product/sa-330-by-sampletrip"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

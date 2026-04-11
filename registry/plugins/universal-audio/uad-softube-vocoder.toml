@@ -1,25 +1,28 @@
-slug        = "uad-softube-vocoder"
-name        = "Softube Vocoder"
-vendor      = "Universal Audio"
-version     = "1.0"
-description = "Classic vocoder for robotic vocal effects and talkbox sounds"
-category    = "effects"
-subcategory = "vocoder"
-license     = "commercial"
-tags        = ["vocoder", "vocal", "effects", "uad"]
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/"
+slug         = "uad-softube-vocoder"
+name         = "Softube Vocoder"
+vendor       = "Universal Audio"
+version      = "1.0"
+description  = "Classic vocoder for robotic vocal effects and talkbox sounds"
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocoder"
+license      = "commercial"
+tags         = ["vocoder", "vocal", "effects", "uad"]
+aliases      = ["softube-vocoder"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Softube Vocoder.vst3"
+bundle_path   = "UAD Softube Vocoder.vst3"
 
 [formats.au]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Softube Vocoder.component"
+bundle_path   = "UAD Softube Vocoder.component"

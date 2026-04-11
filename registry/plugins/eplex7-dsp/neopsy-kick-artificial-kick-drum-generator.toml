@@ -1,25 +1,27 @@
-slug        = "neopsy-kick-artificial-kick-drum-generator"
-name        = "Neopsy Kick – Artificial Kick Drum Generator"
-vendor      = "Eplex7 DSP"
-version     = "1.0.0"
-description = "Sophisticated kick drum synthesizer with 20 waveforms and precise pitch and amplitude envelopes."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eplex7.com/product/neopsy-kick/"
-is_paid     = true
+slug         = "neopsy-kick-artificial-kick-drum-generator"
+name         = "Neopsy Kick - Artificial Kick Drum Generator"
+vendor       = "Eplex7 DSP"
+version      = "1.0.0"
+description  = "Sophisticated kick drum synthesizer with 20 waveforms and precise pitch and amplitude envelopes."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+aliases      = ["neopsy-kick-8211-artificial-kick-drum-generator"]
+homepage     = "https://www.eplex7.com/product/neopsy-kick/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eplex7.com/product/neopsy-kick/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eplex7.com/product/neopsy-kick/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eplex7.com/product/neopsy-kick/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eplex7.com/product/neopsy-kick/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

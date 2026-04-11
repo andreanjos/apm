@@ -1,24 +1,25 @@
-slug        = "transcontrol"
-name        = "Transcontrol"
-vendor      = "Plug & Mix"
-version     = "4.1.0"
-description = "Transient designer plugin for independently shaping the attack and sustain of any audio signal."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugandmix.com/products/p877-Transcontrol/"
-is_paid     = true
+slug         = "transcontrol"
+name         = "Transcontrol"
+vendor       = "Plug & Mix"
+version      = "4.1.0"
+description  = "Transient designer plugin for independently shaping the attack and sustain of any audio signal."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugandmix.com/products/p877-Transcontrol/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugandmix.com/products/p877-Transcontrol/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p877-Transcontrol/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugandmix.com/products/p877-Transcontrol/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugandmix.com/products/p877-Transcontrol/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

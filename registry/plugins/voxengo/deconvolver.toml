@@ -1,24 +1,25 @@
-slug        = "deconvolver"
-name        = "Deconvolver"
-vendor      = "Voxengo"
-version     = "1.93"
-description = "Utility tool for extracting impulse responses through deconvolution of audio recordings."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.voxengo.com/product/deconvolver/"
-is_paid     = true
+slug         = "deconvolver"
+name         = "Deconvolver"
+vendor       = "Voxengo"
+version      = "1.93"
+description  = "Utility tool for extracting impulse responses through deconvolution of audio recordings."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.voxengo.com/product/deconvolver/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.voxengo.com/product/deconvolver/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.voxengo.com/product/deconvolver/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.voxengo.com/product/deconvolver/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.voxengo.com/product/deconvolver/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "dehumaniser-2-upgrade"
-name        = "Dehumaniser 2 Upgrade"
-vendor      = "Krotos Audio"
-version     = "2.0"
-description = "Upgrade path to Dehumaniser 2 from a previous version for creature and monster vocal sound design."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.krotosaudio.com/dehumaniser2/"
-is_paid     = true
+slug         = "dehumaniser-2-upgrade"
+name         = "Dehumaniser 2 Upgrade"
+vendor       = "Krotos Audio"
+version      = "2.0"
+description  = "Upgrade path to Dehumaniser 2 from a previous version for creature and monster vocal sound design."
+category     = "effects"
+product_type = "upgrade"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.krotosaudio.com/dehumaniser2/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.krotosaudio.com/dehumaniser2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.krotosaudio.com/dehumaniser2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.krotosaudio.com/dehumaniser2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.krotosaudio.com/dehumaniser2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

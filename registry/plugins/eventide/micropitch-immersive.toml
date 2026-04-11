@@ -1,26 +1,27 @@
-slug        = "micropitch-immersive"
-name        = "MicroPitch Immersive"
-vendor      = "Eventide"
-version     = "1.0.0"
-description = "Expands the stereo MicroPitch signature sound to a 3D plug-in for surround and Atmos mixing."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eventideaudio.com/plug-ins/micropitch-immersive/"
+slug         = "micropitch-immersive"
+name         = "MicroPitch Immersive"
+vendor       = "Eventide"
+version      = "1.0.0"
+description  = "Expands the stereo MicroPitch signature sound to a 3D plug-in for surround and Atmos mixing."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eventideaudio.com/plug-ins/micropitch-immersive/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/11475-MicroPitch-Immersive?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eventideaudio.com/plug-ins/micropitch-immersive/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/micropitch-immersive/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eventideaudio.com/plug-ins/micropitch-immersive/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eventideaudio.com/plug-ins/micropitch-immersive/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

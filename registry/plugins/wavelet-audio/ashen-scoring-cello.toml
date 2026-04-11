@@ -1,26 +1,27 @@
-slug        = "ashen-scoring-cello"
-name        = "Ashen Scoring Cello"
-vendor      = "Wavelet Audio"
-version     = "1.0.0"
-description = "Intimate solo cello Kontakt library with expressive articulations suited for cinematic and post-classical scoring."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://wavelet-audio.com/ashen-scoring-cello/"
+slug         = "ashen-scoring-cello"
+name         = "Ashen Scoring Cello"
+vendor       = "Wavelet Audio"
+version      = "1.0.0"
+description  = "Intimate solo cello Kontakt library with expressive articulations suited for cinematic and post-classical scoring."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://wavelet-audio.com/ashen-scoring-cello/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/6944-Ashen-Scoring-Cello?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://wavelet-audio.com/ashen-scoring-cello/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavelet-audio.com/ashen-scoring-cello/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://wavelet-audio.com/ashen-scoring-cello/"
-sha256       = ""
-install_type = "zip"
+url           = "https://wavelet-audio.com/ashen-scoring-cello/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

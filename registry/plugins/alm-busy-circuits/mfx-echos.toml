@@ -1,26 +1,27 @@
-slug        = "mfx-echos"
-name        = "MFX Echos"
-vendor      = "ALM Busy Circuits"
-version     = "1.0.0"
-description = "Pair of digital and analog-inspired echo plugins (Digi-PCM and Tape-Tech) from the MFX module."
-category    = "effects"
-subcategory = "echo"
-license     = "commercial"
-tags        = []
-homepage    = "https://busycircuits.com/mfx-echos"
+slug         = "mfx-echos"
+name         = "MFX Echos"
+vendor       = "ALM Busy Circuits"
+version      = "1.0.0"
+description  = "Pair of digital and analog-inspired echo plugins (Digi-PCM and Tape-Tech) from the MFX module."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "echo"
+license      = "commercial"
+tags         = []
+homepage     = "https://busycircuits.com/mfx-echos"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/14815-MFX-Echos?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://busycircuits.com/mfx-echos"
-sha256       = ""
-install_type = "zip"
+url           = "https://busycircuits.com/mfx-echos"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://busycircuits.com/mfx-echos"
-sha256       = ""
-install_type = "zip"
+url           = "https://busycircuits.com/mfx-echos"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

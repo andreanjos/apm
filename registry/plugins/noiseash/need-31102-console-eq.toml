@@ -1,25 +1,26 @@
-slug        = "need-31102-console-eq"
-name        = "Need 31102 Console EQ"
-vendor      = "NoiseAsh"
-version     = "1.0.0"
-description = "British Class-A console EQ modeled on the Neve 31102 module for punchy, musical equalization."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://noiseash.com/need-31102-console-eq/"
-is_paid     = true
+slug         = "need-31102-console-eq"
+name         = "Need 31102 Console EQ"
+vendor       = "NoiseAsh"
+version      = "1.0.0"
+description  = "British Class-A console EQ modeled on the Neve 31102 module for punchy, musical equalization."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://noiseash.com/need-31102-console-eq/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://noiseash.com/need-31102-console-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/need-31102-console-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://noiseash.com/need-31102-console-eq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://noiseash.com/need-31102-console-eq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

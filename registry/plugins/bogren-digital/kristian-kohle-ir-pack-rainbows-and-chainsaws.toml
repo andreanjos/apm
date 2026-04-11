@@ -1,26 +1,27 @@
-slug        = "kristian-kohle-ir-pack-rainbows-and-chainsaws"
-name        = "Kristian Kohle IR Pack Rainbows and Chainsaws"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "Guitar cabinet IR pack designed by producer Kristian Kohle for heavy and extreme metal productions."
-category    = "utility"
-subcategory = "impulse response"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/kristian-kohle-ir-pack-rainbows-and-chainsaws"
+slug         = "kristian-kohle-ir-pack-rainbows-and-chainsaws"
+name         = "Kristian Kohle IR Pack Rainbows and Chainsaws"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "Guitar cabinet IR pack designed by producer Kristian Kohle for heavy and extreme metal productions."
+category     = "utility"
+product_type = "bundle"
+subcategory  = "impulse response"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/kristian-kohle-ir-pack-rainbows-and-chainsaws"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/9190-Kristian-Kohle-IR-Pack-Rainbows-and-Chainsaws?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/kristian-kohle-ir-pack-rainbows-and-chainsaws"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/kristian-kohle-ir-pack-rainbows-and-chainsaws"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/kristian-kohle-ir-pack-rainbows-and-chainsaws"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/kristian-kohle-ir-pack-rainbows-and-chainsaws"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

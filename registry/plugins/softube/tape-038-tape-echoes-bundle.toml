@@ -1,26 +1,28 @@
-slug        = "tape-038-tape-echoes-bundle"
-name        = "Tape &#038; Tape Echoes Bundle"
-vendor      = "Softube"
-version     = "2.6"
-description = "Bundle combining Softube Tape saturation and Tape Echoes delay plugins for analog tape processing."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/tape"
-is_paid     = true
+slug         = "tape-038-tape-echoes-bundle"
+name         = "Tape & Tape Echoes Bundle"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Bundle combining Softube Tape saturation and Tape Echoes delay plugins for analog tape processing."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["tape-tape-echoes-bundle"]
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/tape"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/tape"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/tape"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/tape"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/tape"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

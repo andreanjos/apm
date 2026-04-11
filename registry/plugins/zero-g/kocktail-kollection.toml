@@ -1,25 +1,26 @@
-slug        = "kocktail-kollection"
-name        = "Kocktail Kollection"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Authentic 1950s–60s lounge sample library with retro sounds, spring reverb, and cheesy instrumentation."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/kocktail-kollection"
-is_paid     = true
+slug         = "kocktail-kollection"
+name         = "Kocktail Kollection"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Authentic 1950s-60s lounge sample library with retro sounds, spring reverb, and cheesy instrumentation."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/kocktail-kollection"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/kocktail-kollection"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/kocktail-kollection"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/kocktail-kollection"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/kocktail-kollection"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "tutti"
-name        = "Tutti"
-vendor      = "Sonokinetic"
-version     = "1.0.0"
-description = "Cinematic orchestral FX and textures Kontakt library with 2,850+ full ensemble samples."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonokinetic.net/products/classical/tutti/"
-is_paid     = true
+slug         = "tutti"
+name         = "Tutti"
+vendor       = "Sonokinetic"
+version      = "1.0.0"
+description  = "Cinematic orchestral FX and textures Kontakt library with 2,850+ full ensemble samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonokinetic.net/products/classical/tutti/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonokinetic.net/products/classical/tutti/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/classical/tutti/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonokinetic.net/products/classical/tutti/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonokinetic.net/products/classical/tutti/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

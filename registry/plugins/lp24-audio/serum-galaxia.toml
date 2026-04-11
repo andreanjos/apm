@@ -1,26 +1,27 @@
-slug        = "serum-galaxia"
-name        = "Serum Galaxia"
-vendor      = "LP24 Audio"
-version     = "1.0.0"
-description = "Futuristic cinematic preset pack for Xfer Serum with 273 presets, loops, and MIDI files."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://lp24audio.com/galaxia"
+slug         = "serum-galaxia"
+name         = "Serum Galaxia"
+vendor       = "LP24 Audio"
+version      = "1.0.0"
+description  = "Futuristic cinematic preset pack for Xfer Serum with 273 presets, loops, and MIDI files."
+category     = "instruments"
+product_type = "preset_pack"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://lp24audio.com/galaxia"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/7242-Serum-Galaxia?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://lp24audio.com/galaxia"
-sha256       = ""
-install_type = "zip"
+url           = "https://lp24audio.com/galaxia"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://lp24audio.com/galaxia"
-sha256       = ""
-install_type = "zip"
+url           = "https://lp24audio.com/galaxia"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

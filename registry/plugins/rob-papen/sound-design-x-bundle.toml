@@ -1,25 +1,26 @@
-slug        = "sound-design-x-bundle"
-name        = "Sound Design-X Bundle"
-vendor      = "Rob Papen"
-version     = "1.0.0"
-description = "Limited edition bundle of six Rob Papen synths and effects: Blue II, Blade, Punch 2, Punch-BD, RP-Amod, Prisma."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/SoundDesign-X.html"
-is_paid     = true
+slug         = "sound-design-x-bundle"
+name         = "Sound Design-X Bundle"
+vendor       = "Rob Papen"
+version      = "1.0.0"
+description  = "Limited edition bundle of six Rob Papen synths and effects: Blue II, Blade, Punch 2, Punch-BD, RP-Amod, Prisma."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/SoundDesign-X.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/SoundDesign-X.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/SoundDesign-X.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/SoundDesign-X.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/SoundDesign-X.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

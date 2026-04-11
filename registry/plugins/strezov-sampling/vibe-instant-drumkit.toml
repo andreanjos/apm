@@ -1,25 +1,26 @@
-slug        = "vibe-instant-drumkit"
-name        = "VIBE Instant Drumkit"
-vendor      = "Strezov Sampling"
-version     = "1.0.0"
-description = "Kontakt drum library with 145 performances by Michael Schack, 19 GB of one-shot samples."
-category    = "instruments"
-subcategory = "kontakt player"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.strezov-sampling.com/products/view/Vibe.html"
-is_paid     = true
+slug         = "vibe-instant-drumkit"
+name         = "VIBE Instant Drumkit"
+vendor       = "Strezov Sampling"
+version      = "1.0.0"
+description  = "Kontakt drum library with 145 performances by Michael Schack, 19 GB of one-shot samples."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt player"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.strezov-sampling.com/products/view/Vibe.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.strezov-sampling.com/products/view/Vibe.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.strezov-sampling.com/products/view/Vibe.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.strezov-sampling.com/products/view/Vibe.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.strezov-sampling.com/products/view/Vibe.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

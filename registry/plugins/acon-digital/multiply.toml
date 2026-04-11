@@ -1,26 +1,27 @@
-slug        = "multiply"
-name        = "Multiply"
-vendor      = "Acon Digital"
-version     = "1.3.1"
-description = "Free chorus and voice doubling plugin with phase randomizing filters simulating up to six additional voices."
-category    = "effects"
-subcategory = "chorus"
-license     = "commercial"
-tags        = []
-homepage    = "https://acondigital.com/products/multiply/"
+slug         = "multiply"
+name         = "Multiply"
+vendor       = "Acon Digital"
+version      = "1.3.1"
+description  = "Free chorus and voice doubling plugin with phase randomizing filters simulating up to six additional voices."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "chorus"
+license      = "commercial"
+tags         = []
+homepage     = "https://acondigital.com/products/multiply/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/1088-Multiply?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://acondigital.com/products/multiply/"
-sha256       = ""
-install_type = "zip"
+url           = "https://acondigital.com/products/multiply/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://acondigital.com/products/multiply/"
-sha256       = ""
-install_type = "zip"
+url           = "https://acondigital.com/products/multiply/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

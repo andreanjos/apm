@@ -1,26 +1,27 @@
-slug        = "beat-magazine-223-august-2024"
-name        = "Beat Magazine 223 August 2024"
-vendor      = "Beat"
-version     = "1.0.0"
-description = "Digital edition of Beat Magazine issue 223, August 2024, covering electronic music production."
-category    = "utility"
-subcategory = "ebook"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/273-Beat"
+slug         = "beat-magazine-223-august-2024"
+name         = "Beat Magazine 223 August 2024"
+vendor       = "Beat"
+version      = "1.0.0"
+description  = "Digital edition of Beat Magazine issue 223, August 2024, covering electronic music production."
+category     = "utility"
+product_type = "utility"
+subcategory  = "ebook"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/273-Beat"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/94-eBook/12802-Beat-Magazine-223-August-2024?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/273-Beat"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/273-Beat"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/273-Beat"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/273-Beat"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

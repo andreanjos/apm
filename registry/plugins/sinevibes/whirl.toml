@@ -1,26 +1,27 @@
-slug        = "whirl"
-name        = "Whirl"
-vendor      = "Sinevibes"
-version     = "2.1.1"
-description = "Barber-pole phaser creating endlessly rising or falling phase sweeps using Bode frequency-shift modelling."
-category    = "effects"
-subcategory = "phaser"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sinevibes.com/whirl/"
+slug         = "whirl"
+name         = "Whirl"
+vendor       = "Sinevibes"
+version      = "2.1.1"
+description  = "Barber-pole phaser creating endlessly rising or falling phase sweeps using Bode frequency-shift modelling."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "phaser"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sinevibes.com/whirl/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/4444-Whirl?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sinevibes.com/whirl/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/whirl/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sinevibes.com/whirl/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sinevibes.com/whirl/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

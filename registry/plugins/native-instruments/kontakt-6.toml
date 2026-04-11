@@ -1,27 +1,28 @@
-slug        = "kontakt-6"
-name        = "Kontakt 6"
-vendor      = "Native Instruments"
-version     = "6.8"
-description = "Industry-standard sampler and scripting platform powering thousands of virtual instruments."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-installer   = "native-access"
-homepage    = "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/"
-bundle_ids  = ["com.native-instruments.kontakt-8", "Kontakt 5.MusicDevice"]
-is_paid     = true
+slug         = "kontakt-6"
+name         = "Kontakt 6"
+vendor       = "Native Instruments"
+version      = "6.8"
+description  = "Industry-standard sampler and scripting platform powering thousands of virtual instruments."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+installer    = "native-access"
+homepage     = "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/"
+bundle_ids   = ["com.native-instruments.kontakt-8", "Kontakt 5.MusicDevice"]
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

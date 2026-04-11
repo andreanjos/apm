@@ -1,26 +1,27 @@
-slug        = "m-tron-mk-ii"
-name        = "M Tron Mk II"
-vendor      = "GForce Software"
-version     = "2.0"
-description = "Virtual Mellotron instrument emulating the MkII tape-based keyboard beloved by classic rock and art-rock artists."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.gforcesoftware.com/product/m-tron-mkii/"
+slug         = "m-tron-mk-ii"
+name         = "M Tron Mk II"
+vendor       = "GForce Software"
+version      = "2.0"
+description  = "Virtual Mellotron instrument emulating the MkII tape-based keyboard beloved by classic rock and art-rock artists."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.gforcesoftware.com/product/m-tron-mkii/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12026-M-Tron-Mk-II?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.gforcesoftware.com/product/m-tron-mkii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gforcesoftware.com/product/m-tron-mkii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.gforcesoftware.com/product/m-tron-mkii/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.gforcesoftware.com/product/m-tron-mkii/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

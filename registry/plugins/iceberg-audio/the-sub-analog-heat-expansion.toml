@@ -1,25 +1,26 @@
-slug        = "the-sub-analog-heat-expansion"
-name        = "The Sub + Analog Heat Expansion"
-vendor      = "Iceberg Audio"
-version     = "1.0.0"
-description = "Bundle of The Sub bass plugin combined with the Analog Heat expansion pack of vintage analog subs."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://icebergaudio.com/shop/"
-is_paid     = true
+slug         = "the-sub-analog-heat-expansion"
+name         = "The Sub + Analog Heat Expansion"
+vendor       = "Iceberg Audio"
+version      = "1.0.0"
+description  = "Bundle of The Sub bass plugin combined with the Analog Heat expansion pack of vintage analog subs."
+category     = "instruments"
+product_type = "expansion"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://icebergaudio.com/shop/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://icebergaudio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://icebergaudio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://icebergaudio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://icebergaudio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

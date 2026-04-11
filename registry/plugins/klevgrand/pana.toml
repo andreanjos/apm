@@ -1,26 +1,27 @@
-slug        = "pana"
-name        = "Pana"
-vendor      = "Klevgrand"
-version     = "1.0.1"
-description = "A natural stereo panner that combines delay and filtering for more realistic audio positioning."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://klevgrand.com/products/pana"
+slug         = "pana"
+name         = "Pana"
+vendor       = "Klevgrand"
+version      = "1.0.1"
+description  = "A natural stereo panner that combines delay and filtering for more realistic audio positioning."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://klevgrand.com/products/pana"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/8714-Pana?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klevgrand.com/products/pana"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/pana"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klevgrand.com/products/pana"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/pana"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

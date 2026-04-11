@@ -1,24 +1,25 @@
-slug        = "shineverb"
-name        = "ShineVerb"
-vendor      = "Xhun Audio"
-version     = "1.0.0"
-description = "Creative reverb plugin combining a modeled analog preamplifier, resonator-based reverb engine, and hybrid mixer."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.xhun-audio.com/site/xhun.php?page=shineverb"
-is_paid     = true
+slug         = "shineverb"
+name         = "ShineVerb"
+vendor       = "Xhun Audio"
+version      = "1.0.0"
+description  = "Creative reverb plugin combining a modeled analog preamplifier, resonator-based reverb engine, and hybrid mixer."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.xhun-audio.com/site/xhun.php?page=shineverb"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.xhun-audio.com/site/xhun.php?page=shineverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xhun-audio.com/site/xhun.php?page=shineverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.xhun-audio.com/site/xhun.php?page=shineverb"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.xhun-audio.com/site/xhun.php?page=shineverb"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

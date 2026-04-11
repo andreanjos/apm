@@ -1,26 +1,27 @@
-slug        = "solid-bus-compressor"
-name        = "Solid Bus Compressor"
-vendor      = "Native Instruments"
-version     = "1.4"
-description = "SSL-style bus compressor emulation that glues mixes together with punch, clarity, and cohesion."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "native-access"
-homepage    = "https://www.native-instruments.com/en/products/komplete/effects/solid-bus-comp/"
-is_paid     = true
+slug         = "solid-bus-compressor"
+name         = "Solid Bus Compressor"
+vendor       = "Native Instruments"
+version      = "1.4"
+description  = "SSL-style bus compressor emulation that glues mixes together with punch, clarity, and cohesion."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "native-access"
+homepage     = "https://www.native-instruments.com/en/products/komplete/effects/solid-bus-comp/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.native-instruments.com/en/products/komplete/effects/solid-bus-comp/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/effects/solid-bus-comp/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.native-instruments.com/en/products/komplete/effects/solid-bus-comp/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.native-instruments.com/en/products/komplete/effects/solid-bus-comp/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

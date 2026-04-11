@@ -1,25 +1,26 @@
-slug        = "trails"
-name        = "Trails"
-vendor      = "Ergo Kukke"
-version     = "1.0.0"
-description = "Kontakt library of intense dark trailer SFX, risers, and host-synced patterns for scoring."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bestservice.com/en/ergo_kukke.html"
-is_paid     = true
+slug         = "trails"
+name         = "Trails"
+vendor       = "Ergo Kukke"
+version      = "1.0.0"
+description  = "Kontakt library of intense dark trailer SFX, risers, and host-synced patterns for scoring."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bestservice.com/en/ergo_kukke.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bestservice.com/en/ergo_kukke.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bestservice.com/en/ergo_kukke.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bestservice.com/en/ergo_kukke.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bestservice.com/en/ergo_kukke.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

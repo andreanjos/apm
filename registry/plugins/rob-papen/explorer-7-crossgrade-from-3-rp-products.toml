@@ -1,25 +1,26 @@
-slug        = "explorer-7-crossgrade-from-3-rp-products"
-name        = "eXplorer 7 Crossgrade from 3 RP Products"
-vendor      = "Rob Papen"
-version     = "1.0.0"
-description = "Crossgrade to the eXplorer 7 bundle for owners of three existing Rob Papen products."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/eXplorer-7.html"
-is_paid     = true
+slug         = "explorer-7-crossgrade-from-3-rp-products"
+name         = "eXplorer 7 Crossgrade from 3 RP Products"
+vendor       = "Rob Papen"
+version      = "1.0.0"
+description  = "Crossgrade to the eXplorer 7 bundle for owners of three existing Rob Papen products."
+category     = "instruments"
+product_type = "upgrade"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/eXplorer-7.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/eXplorer-7.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/eXplorer-7.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/eXplorer-7.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/eXplorer-7.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

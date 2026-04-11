@@ -1,25 +1,26 @@
-slug        = "bias-essential"
-name        = "BIAS Essential"
-vendor      = "Positive Grid"
-version     = "1.0.0"
-description = "Entry-level bundle of Positive Grid BIAS guitar amp simulation and effects plugins."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.positivegrid.com/collections/bias-legacy-software"
-is_paid     = true
+slug         = "bias-essential"
+name         = "BIAS Essential"
+vendor       = "Positive Grid"
+version      = "1.0.0"
+description  = "Entry-level bundle of Positive Grid BIAS guitar amp simulation and effects plugins."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.positivegrid.com/collections/bias-legacy-software"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.positivegrid.com/collections/bias-legacy-software"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.positivegrid.com/collections/bias-legacy-software"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.positivegrid.com/collections/bias-legacy-software"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.positivegrid.com/collections/bias-legacy-software"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

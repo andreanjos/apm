@@ -1,26 +1,27 @@
-slug        = "tonic"
-name        = "TONIC"
-vendor      = "zplane"
-version     = "1.0.0"
-description = "Key and scale analysis plugin with real-time and offline modes for harmonic detection."
-category    = "utility"
-subcategory = "music theory tools"
-license     = "commercial"
-tags        = []
-homepage    = "https://products.zplane.de/products/tonic"
+slug         = "tonic"
+name         = "TONIC"
+vendor       = "zplane"
+version      = "1.0.0"
+description  = "Key and scale analysis plugin with real-time and offline modes for harmonic detection."
+category     = "utility"
+product_type = "utility"
+subcategory  = "music theory tools"
+license      = "commercial"
+tags         = []
+homepage     = "https://products.zplane.de/products/tonic"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/8332-TONIC?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://products.zplane.de/products/tonic"
-sha256       = ""
-install_type = "zip"
+url           = "https://products.zplane.de/products/tonic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://products.zplane.de/products/tonic"
-sha256       = ""
-install_type = "zip"
+url           = "https://products.zplane.de/products/tonic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

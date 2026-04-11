@@ -1,25 +1,27 @@
-slug        = "elixer-prepared-tape"
-name        = "Elixer – Prepared Tape"
-vendor      = "Beautiful Void Audio"
-version     = "1.0.0"
-description = "Kontakt instrument built from prepared and tape-processed sound sources with an experimental character."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.beautifulvoidaudio.com/"
-is_paid     = true
+slug         = "elixer-prepared-tape"
+name         = "Elixer - Prepared Tape"
+vendor       = "Beautiful Void Audio"
+version      = "1.0.0"
+description  = "Kontakt instrument built from prepared and tape-processed sound sources with an experimental character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+aliases      = ["elixer-8211-prepared-tape"]
+homepage     = "https://www.beautifulvoidaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.beautifulvoidaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beautifulvoidaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.beautifulvoidaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.beautifulvoidaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

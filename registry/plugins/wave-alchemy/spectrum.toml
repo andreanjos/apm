@@ -1,26 +1,27 @@
-slug        = "spectrum"
-name        = "Spectrum"
-vendor      = "Wave Alchemy"
-version     = "1.0.0"
-description = "Kontakt hybrid waveform synthesizer combining 15 iconic vintage synths and 10,000 samples in one instrument."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.wavealchemy.co.uk/product/spectrum/"
+slug         = "spectrum"
+name         = "Spectrum"
+vendor       = "Wave Alchemy"
+version      = "1.0.0"
+description  = "Kontakt hybrid waveform synthesizer combining 15 iconic vintage synths and 10,000 samples in one instrument."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.wavealchemy.co.uk/product/spectrum/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/2589-Spectrum?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.wavealchemy.co.uk/product/spectrum/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/spectrum/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.wavealchemy.co.uk/product/spectrum/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/spectrum/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

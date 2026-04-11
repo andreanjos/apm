@@ -1,25 +1,26 @@
-slug        = "synth-werk"
-name        = "SYNTH-WERK"
-vendor      = "Best Service"
-version     = "1.0.0"
-description = "Modular sample-based synth with 2,800 sounds, 8GB+ of samples, and 46 effects inspired by German synthesists."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.bestservice.com/en/synth-werk.html"
-is_paid     = true
+slug         = "synth-werk"
+name         = "SYNTH-WERK"
+vendor       = "Best Service"
+version      = "1.0.0"
+description  = "Modular sample-based synth with 2,800 sounds, 8GB+ of samples, and 46 effects inspired by German synthesists."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.bestservice.com/en/synth-werk.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.bestservice.com/en/synth-werk.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bestservice.com/en/synth-werk.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.bestservice.com/en/synth-werk.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.bestservice.com/en/synth-werk.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

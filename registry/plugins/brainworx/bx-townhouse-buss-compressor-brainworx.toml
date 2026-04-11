@@ -1,25 +1,26 @@
-slug        = "bx-townhouse-buss-compressor-brainworx"
-name        = "bx_townhouse Buss Compressor"
-vendor      = "Brainworx"
-version     = "1.0.0"
-description = "Emulation of the iconic 1978 Townhouse custom SSL buss compressor with extra character and warmth."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugin-alliance.com/products/bx_townhouse-buss-compressor"
-is_paid     = true
+slug         = "bx-townhouse-buss-compressor-brainworx"
+name         = "bx_townhouse Buss Compressor"
+vendor       = "Brainworx"
+version      = "1.0.0"
+description  = "Emulation of the iconic 1978 Townhouse custom SSL buss compressor with extra character and warmth."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugin-alliance.com/products/bx_townhouse-buss-compressor"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/products/bx_townhouse-buss-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/products/bx_townhouse-buss-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/products/bx_townhouse-buss-compressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/products/bx_townhouse-buss-compressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

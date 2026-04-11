@@ -1,25 +1,26 @@
-slug        = "attack-ep88"
-name        = "Attack EP88"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "World's first tacked electric piano library, built on a restored 88-key Rhodes Mark I with brass tacks on each hammer."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/attack-ep88"
-is_paid     = true
+slug         = "attack-ep88"
+name         = "Attack EP88"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "World's first tacked electric piano library, built on a restored 88-key Rhodes Mark I with brass tacks on each hammer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/attack-ep88"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/attack-ep88"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/attack-ep88"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/attack-ep88"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/attack-ep88"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

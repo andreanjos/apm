@@ -1,26 +1,27 @@
-slug        = "ezdrummer-3-bundle"
-name        = "EZdrummer 3 Bundle"
-vendor      = "Toontrack"
-version     = "3.1.2"
-description = "EZdrummer 3 bundle combining the flagship drum instrument with additional expansion content."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-installer   = "toontrack-product-manager"
-homepage    = "https://www.toontrack.com/product/ezdrummer-3/"
-is_paid     = true
+slug         = "ezdrummer-3-bundle"
+name         = "EZdrummer 3 Bundle"
+vendor       = "Toontrack"
+version      = "3.1.2"
+description  = "EZdrummer 3 bundle combining the flagship drum instrument with additional expansion content."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+installer    = "toontrack-product-manager"
+homepage     = "https://www.toontrack.com/product/ezdrummer-3/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.toontrack.com/product/ezdrummer-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/ezdrummer-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.toontrack.com/product/ezdrummer-3/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.toontrack.com/product/ezdrummer-3/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

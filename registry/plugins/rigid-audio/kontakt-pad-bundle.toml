@@ -1,25 +1,26 @@
-slug        = "kontakt-pad-bundle"
-name        = "Kontakt Pad Bundle"
-vendor      = "Rigid Audio"
-version     = "1.0.0"
-description = "Rigid Audio bundle of pad-focused Kontakt instruments for ambient and atmospheric production."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.rigid-audio.com/shop/"
-is_paid     = true
+slug         = "kontakt-pad-bundle"
+name         = "Kontakt Pad Bundle"
+vendor       = "Rigid Audio"
+version      = "1.0.0"
+description  = "Rigid Audio bundle of pad-focused Kontakt instruments for ambient and atmospheric production."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.rigid-audio.com/shop/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.rigid-audio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rigid-audio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.rigid-audio.com/shop/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.rigid-audio.com/shop/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

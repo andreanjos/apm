@@ -1,24 +1,25 @@
-slug        = "psychedelic-tunnel-t1"
-name        = "Psychedelic Tunnel T1"
-vendor      = "G-Sonique"
-version     = "1.0.0"
-description = "Creative psychedelic audio effect plugin for extreme sound transformation and tunnel-like FX."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.g-sonique.com/shop.html"
-is_paid     = true
+slug         = "psychedelic-tunnel-t1"
+name         = "Psychedelic Tunnel T1"
+vendor       = "G-Sonique"
+version      = "1.0.0"
+description  = "Creative psychedelic audio effect plugin for extreme sound transformation and tunnel-like FX."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.g-sonique.com/shop.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.g-sonique.com/shop.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.g-sonique.com/shop.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.g-sonique.com/shop.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.g-sonique.com/shop.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

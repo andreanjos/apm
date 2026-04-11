@@ -1,26 +1,27 @@
-slug        = "k7d-tape-delay"
-name        = "K7D Tape Delay"
-vendor      = "Imaginando"
-version     = "1.4.4"
-description = "Tape delay effect plugin combining warm analog delay character with creative modulation."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.imaginando.pt/products/k7d-tape-delay"
+slug         = "k7d-tape-delay"
+name         = "K7D Tape Delay"
+vendor       = "Imaginando"
+version      = "1.4.4"
+description  = "Tape delay effect plugin combining warm analog delay character with creative modulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.imaginando.pt/products/k7d-tape-delay"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/9050-K7D-Tape-Delay?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.imaginando.pt/products/k7d-tape-delay"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.imaginando.pt/products/k7d-tape-delay"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.imaginando.pt/products/k7d-tape-delay"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.imaginando.pt/products/k7d-tape-delay"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

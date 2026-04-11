@@ -1,26 +1,27 @@
-slug        = "poly-flanger"
-name        = "Poly Flanger"
-vendor      = "Minimal Audio"
-version     = "1.0.0"
-description = "Intelligent flanger with up to 8 voices that snap to musical intervals and scale-based voicing modes."
-category    = "effects"
-subcategory = "flanger"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.minimal.audio/products/poly-flanger"
+slug         = "poly-flanger"
+name         = "Poly Flanger"
+vendor       = "Minimal Audio"
+version      = "1.0.0"
+description  = "Intelligent flanger with up to 8 voices that snap to musical intervals and scale-based voicing modes."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "flanger"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.minimal.audio/products/poly-flanger"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/16880-Poly-Flanger?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.minimal.audio/products/poly-flanger"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.minimal.audio/products/poly-flanger"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.minimal.audio/products/poly-flanger"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.minimal.audio/products/poly-flanger"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

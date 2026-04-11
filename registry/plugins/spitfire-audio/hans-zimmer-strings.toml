@@ -1,26 +1,27 @@
-slug        = "hans-zimmer-strings"
-name        = "Hans Zimmer Strings"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "344-player string library recorded at AIR Studios with unconventional techniques and up to 26 mic positions."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-strings"
-is_paid     = true
+slug         = "hans-zimmer-strings"
+name         = "Hans Zimmer Strings"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "344-player string library recorded at AIR Studios with unconventional techniques and up to 26 mic positions."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-strings"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-strings"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-strings"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

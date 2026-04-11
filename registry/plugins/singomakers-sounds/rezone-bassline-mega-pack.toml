@@ -1,26 +1,27 @@
-slug        = "rezone-bassline-mega-pack"
-name        = "Rezone Bassline Mega Pack"
-vendor      = "Singomakers Sounds"
-version     = "1.0.0"
-description = "Singomakers Tech House bassline preset mega pack inspired by the underground club sound of Rezone."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.singomakers.com/"
+slug         = "rezone-bassline-mega-pack"
+name         = "Rezone Bassline Mega Pack"
+vendor       = "Singomakers Sounds"
+version      = "1.0.0"
+description  = "Singomakers Tech House bassline preset mega pack inspired by the underground club sound of Rezone."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.singomakers.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/7265-Rezone-Bassline-Mega-Pack?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.singomakers.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.singomakers.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.singomakers.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.singomakers.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

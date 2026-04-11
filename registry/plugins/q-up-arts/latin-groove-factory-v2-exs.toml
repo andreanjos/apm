@@ -1,25 +1,26 @@
-slug        = "latin-groove-factory-v2-exs"
-name        = "Latin Groove Factory V2 EXS"
-vendor      = "Q Up Arts"
-version     = "2"
-description = "Brazilian percussion and drum kit loop collection for Logic EXS spanning samba, bossa nova, and batucada."
-category    = "instruments"
-subcategory = "exs"
-license     = "commercial"
-tags        = []
-homepage    = "https://quparts.com/products/latin-groove-factory-v1-brazil"
-is_paid     = true
+slug         = "latin-groove-factory-v2-exs"
+name         = "Latin Groove Factory V2 EXS"
+vendor       = "Q Up Arts"
+version      = "2"
+description  = "Brazilian percussion and drum kit loop collection for Logic EXS spanning samba, bossa nova, and batucada."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "exs"
+license      = "commercial"
+tags         = []
+homepage     = "https://quparts.com/products/latin-groove-factory-v1-brazil"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://quparts.com/products/latin-groove-factory-v1-brazil"
-sha256       = ""
-install_type = "zip"
+url           = "https://quparts.com/products/latin-groove-factory-v1-brazil"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://quparts.com/products/latin-groove-factory-v1-brazil"
-sha256       = ""
-install_type = "zip"
+url           = "https://quparts.com/products/latin-groove-factory-v1-brazil"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "bucket-500-analog-delay"
-name        = "BUCKET 500 Analog Delay"
-vendor      = "Fuse Audio Labs"
-version     = "2.7"
-description = "Analog bucket-brigade delay plugin with tilt filter, stereo cross-feed, and LFO modulation."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-homepage    = "https://fuseaudiolabs.com/"
+slug         = "bucket-500-analog-delay"
+name         = "BUCKET 500 Analog Delay"
+vendor       = "Fuse Audio Labs"
+version      = "2.7"
+description  = "Analog bucket-brigade delay plugin with tilt filter, stereo cross-feed, and LFO modulation."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+homepage     = "https://fuseaudiolabs.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/13912-BUCKET-500-Analog-Delay?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://fuseaudiolabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://fuseaudiolabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

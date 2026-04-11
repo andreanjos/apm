@@ -1,27 +1,28 @@
-slug        = "vea"
-name        = "VEA"
-vendor      = "iZotope"
-version     = "1.1.0"
-description = "AI-powered voice enhancement plugin that cleans and polishes spoken-word recordings automatically."
-category    = "effects"
-subcategory = "vocal processing"
-license     = "commercial"
-tags        = []
-installer   = "izotope-product-portal"
-homepage    = "https://www.izotope.com/en/products/vea"
+slug         = "vea"
+name         = "VEA"
+vendor       = "iZotope"
+version      = "1.1.0"
+description  = "AI-powered voice enhancement plugin that cleans and polishes spoken-word recordings automatically."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "vocal processing"
+license      = "commercial"
+tags         = []
+installer    = "izotope-product-portal"
+homepage     = "https://www.izotope.com/en/products/vea"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/11847-VEA?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.izotope.com/en/products/vea"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products/vea"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.izotope.com/en/products/vea"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.izotope.com/en/products/vea"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

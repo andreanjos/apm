@@ -1,25 +1,26 @@
-slug        = "lm-correct-with-dynapt-extension"
-name        = "LM-Correct with DynApt Extension"
-vendor      = "NUGEN Audio"
-version     = "1.0"
-description = "LM-Correct bundled with the DynApt Extension for dynamic loudness adaptation and broadcast compliance."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/lm-correct/"
-is_paid     = true
+slug         = "lm-correct-with-dynapt-extension"
+name         = "LM-Correct with DynApt Extension"
+vendor       = "NUGEN Audio"
+version      = "1.0"
+description  = "LM-Correct bundled with the DynApt Extension for dynamic loudness adaptation and broadcast compliance."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/lm-correct/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/lm-correct/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/lm-correct/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/lm-correct/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/lm-correct/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

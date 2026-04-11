@@ -1,26 +1,27 @@
-slug        = "sierras-altas-2"
-name        = "Sierras Altas 2"
-vendor      = "ZAK Sound"
-version     = "2"
-description = "Cinematic instrument with dual-layer engine, 69 sound layers, dual arpeggiators, and 89 ambient/orchestral presets."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://zaksound.com/sierras-altas/"
+slug         = "sierras-altas-2"
+name         = "Sierras Altas 2"
+vendor       = "ZAK Sound"
+version      = "2"
+description  = "Cinematic instrument with dual-layer engine, 69 sound layers, dual arpeggiators, and 89 ambient/orchestral presets."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://zaksound.com/sierras-altas/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12614-Sierras-Altas-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zaksound.com/sierras-altas/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/sierras-altas/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zaksound.com/sierras-altas/"
-sha256       = ""
-install_type = "zip"
+url           = "https://zaksound.com/sierras-altas/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "screaming-halloween-bundle-crossgrade-from-screamo-make-me-scream-satyrus-venom-or-outlaw"
-name        = "Screaming Halloween Bundle (Crossgrade from Screamo, Make Me Scream, Satyrus, Venom or Outlaw)"
-vendor      = "WA Production"
-version     = "1.0.0"
-description = "Crossgrade to the Screaming Halloween Bundle from Screamo, Make Me Scream, Satyrus, Venom, or Outlaw."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.waproduction.com/bundles"
-is_paid     = true
+slug         = "screaming-halloween-bundle-crossgrade-from-screamo-make-me-scream-satyrus-venom-or-outlaw"
+name         = "Screaming Halloween Bundle (Crossgrade from Screamo, Make Me Scream, Satyrus, Venom or Outlaw)"
+vendor       = "WA Production"
+version      = "1.0.0"
+description  = "Crossgrade to the Screaming Halloween Bundle from Screamo, Make Me Scream, Satyrus, Venom, or Outlaw."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.waproduction.com/bundles"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waproduction.com/bundles"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/bundles"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waproduction.com/bundles"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waproduction.com/bundles"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "lf-r-lo-fi-rhythms"
-name        = "LF_R Lo-Fi Rhythms"
-vendor      = "Sketch Sampling"
-version     = "1.0.0"
-description = "Lo-fi rhythm sample library for Kontakt with organic percussion and vintage drum character."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://sketchsampling.ru/lf_r/"
-is_paid     = true
+slug         = "lf-r-lo-fi-rhythms"
+name         = "LF_R Lo-Fi Rhythms"
+vendor       = "Sketch Sampling"
+version      = "1.0.0"
+description  = "Lo-fi rhythm sample library for Kontakt with organic percussion and vintage drum character."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://sketchsampling.ru/lf_r/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sketchsampling.ru/lf_r/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sketchsampling.ru/lf_r/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sketchsampling.ru/lf_r/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sketchsampling.ru/lf_r/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

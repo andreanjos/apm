@@ -1,33 +1,34 @@
-slug        = "ob-xd"
-name        = "OB-Xd"
-vendor      = "discoDSP"
-version     = "3.17"
-description = "Virtual analog synthesizer inspired by the Oberheim OB-X with authentic sound emulation."
-category    = "instruments"
-subcategory = "synthesizer"
-license     = "freeware"
-tags        = ["synth", "synthesizer", "analog", "oberheim", "emulation", "virtual-analog", "free", "freeware"]
-homepage    = "https://www.discodsp.com/obxd/"
+slug         = "ob-xd"
+name         = "OB-Xd"
+vendor       = "discoDSP"
+version      = "3.17"
+description  = "Virtual analog synthesizer inspired by the Oberheim OB-X with authentic sound emulation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synthesizer"
+license      = "freeware"
+tags         = ["synth", "synthesizer", "analog", "oberheim", "emulation", "virtual-analog", "free", "freeware"]
+homepage     = "https://www.discodsp.com/obxd/"
 
 [formats.vst3]
-url          = "https://download.discodsp.com/OB-Xd%203.17.pkg"
-sha256       = "f1087234944e8eb3e494a9bbf63c6f1fefce29a2d86cf93c41c7c53a0c1c1540"
-install_type = "pkg"
+url           = "https://download.discodsp.com/OB-Xd%203.17.pkg"
+sha256        = "f1087234944e8eb3e494a9bbf63c6f1fefce29a2d86cf93c41c7c53a0c1c1540"
+install_type  = "pkg"
 
 [formats.au]
-url          = "https://download.discodsp.com/OB-Xd%203.17.pkg"
-sha256       = "f1087234944e8eb3e494a9bbf63c6f1fefce29a2d86cf93c41c7c53a0c1c1540"
-install_type = "pkg"
+url           = "https://download.discodsp.com/OB-Xd%203.17.pkg"
+sha256        = "f1087234944e8eb3e494a9bbf63c6f1fefce29a2d86cf93c41c7c53a0c1c1540"
+install_type  = "pkg"
 
 [[releases]]
 version = "2.19"
 
 [releases.formats.vst3]
-url          = "https://github.com/reales/OB-Xd/releases/download/v2.19/OB-Xd.2.19.pkg"
-sha256       = "954072c937e79be2d1adc42ebeca342c0d4cbf95a12442adb0d60a97c260f7f9"
-install_type = "pkg"
+url           = "https://github.com/reales/OB-Xd/releases/download/v2.19/OB-Xd.2.19.pkg"
+sha256        = "954072c937e79be2d1adc42ebeca342c0d4cbf95a12442adb0d60a97c260f7f9"
+install_type  = "pkg"
 
 [releases.formats.au]
-url          = "https://github.com/reales/OB-Xd/releases/download/v2.19/OB-Xd.2.19.pkg"
-sha256       = "954072c937e79be2d1adc42ebeca342c0d4cbf95a12442adb0d60a97c260f7f9"
-install_type = "pkg"
+url           = "https://github.com/reales/OB-Xd/releases/download/v2.19/OB-Xd.2.19.pkg"
+sha256        = "954072c937e79be2d1adc42ebeca342c0d4cbf95a12442adb0d60a97c260f7f9"
+install_type  = "pkg"

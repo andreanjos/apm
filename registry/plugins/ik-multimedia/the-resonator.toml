@@ -1,25 +1,26 @@
-slug        = "the-resonator"
-name        = "The Resonator"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "Ultra-expressive dobro resonator guitar for SampleTank by Indiginus, deeply sampled with a metal slide."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/stresonator/"
-is_paid     = true
+slug         = "the-resonator"
+name         = "The Resonator"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "Ultra-expressive dobro resonator guitar for SampleTank by Indiginus, deeply sampled with a metal slide."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/stresonator/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/stresonator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/stresonator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/stresonator/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/stresonator/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "method-1"
-name        = "Method 1"
-vendor      = "Sound Yeti"
-version     = "1.1"
-description = "Kontakt drum machine with 10,000+ sounds, multi-step sequencer, and deep per-channel effects."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundyeti.com/product/method-1/"
+slug         = "method-1"
+name         = "Method 1"
+vendor       = "Sound Yeti"
+version      = "1.1"
+description  = "Kontakt drum machine with 10,000+ sounds, multi-step sequencer, and deep per-channel effects."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundyeti.com/product/method-1/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/6120-Method-1?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundyeti.com/product/method-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundyeti.com/product/method-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundyeti.com/product/method-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundyeti.com/product/method-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

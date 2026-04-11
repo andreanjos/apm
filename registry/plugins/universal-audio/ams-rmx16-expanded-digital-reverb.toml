@@ -1,25 +1,26 @@
-slug        = "ams-rmx16-expanded-digital-reverb"
-name        = "AMS RMX16 Expanded Digital Reverb"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the iconic AMS RMX16 digital reverb with all expanded algorithm presets."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/reverbs/ams-rmx16-expanded-digital-reverb.html"
-is_paid     = true
+slug         = "ams-rmx16-expanded-digital-reverb"
+name         = "AMS RMX16 Expanded Digital Reverb"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the iconic AMS RMX16 digital reverb with all expanded algorithm presets."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/reverbs/ams-rmx16-expanded-digital-reverb.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/reverbs/ams-rmx16-expanded-digital-reverb.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/reverbs/ams-rmx16-expanded-digital-reverb.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/reverbs/ams-rmx16-expanded-digital-reverb.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/reverbs/ams-rmx16-expanded-digital-reverb.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

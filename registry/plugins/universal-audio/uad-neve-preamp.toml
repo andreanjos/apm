@@ -1,25 +1,28 @@
-slug        = "uad-neve-preamp"
-name        = "Neve Preamp"
-vendor      = "Universal Audio"
-version     = "1.0"
-description = "Preamp emulation capturing Neve's signature transformer-coupled warmth"
-category    = "effects"
-subcategory = "preamp"
-license     = "commercial"
-tags        = ["preamp", "neve", "uad"]
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/"
+slug         = "uad-neve-preamp"
+name         = "Neve Preamp"
+vendor       = "Universal Audio"
+version      = "1.0"
+description  = "Preamp emulation capturing Neve's signature transformer-coupled warmth"
+category     = "effects"
+product_type = "plugin"
+subcategory  = "preamp"
+license      = "commercial"
+tags         = ["preamp", "neve", "uad"]
+aliases      = ["neve-preamp"]
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Neve Preamp.vst3"
+bundle_path   = "UAD Neve Preamp.vst3"
 
 [formats.au]
-url          = "https://www.uaudio.com/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.uaudio.com/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "managed"
-bundle_path  = "UAD Neve Preamp.component"
+bundle_path   = "UAD Neve Preamp.component"

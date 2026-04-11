@@ -1,25 +1,26 @@
-slug        = "modular-explorations"
-name        = "Modular Explorations"
-vendor      = "Sonora Cinematic"
-version     = "1.0.0"
-description = "Kontakt library of modular synthesizer-derived textures and experimental soundscapes."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonoracinematic.com/products/modular-explorations-by-sonora-cinematic"
-is_paid     = true
+slug         = "modular-explorations"
+name         = "Modular Explorations"
+vendor       = "Sonora Cinematic"
+version      = "1.0.0"
+description  = "Kontakt library of modular synthesizer-derived textures and experimental soundscapes."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonoracinematic.com/products/modular-explorations-by-sonora-cinematic"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonoracinematic.com/products/modular-explorations-by-sonora-cinematic"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/modular-explorations-by-sonora-cinematic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonoracinematic.com/products/modular-explorations-by-sonora-cinematic"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonoracinematic.com/products/modular-explorations-by-sonora-cinematic"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "subdivine-expansion-more-about-that-bass-3"
-name        = "Subdivine Expansion More About That Bass 3"
-vendor      = "Diginoiz"
-version     = "3"
-description = "Third expansion for Subdivine with 50 fresh bass and 808 presets for trap, R&B, and hip-hop."
-category    = "instruments"
-subcategory = "expansion packs"
-license     = "commercial"
-tags        = []
-homepage    = "https://diginoiz.com/series/subdivine-expansion-with-deep-rich-and-dynamic-bass-sounds/"
+slug         = "subdivine-expansion-more-about-that-bass-3"
+name         = "Subdivine Expansion More About That Bass 3"
+vendor       = "Diginoiz"
+version      = "3"
+description  = "Third expansion for Subdivine with 50 fresh bass and 808 presets for trap, R&B, and hip-hop."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "expansion packs"
+license      = "commercial"
+tags         = []
+homepage     = "https://diginoiz.com/series/subdivine-expansion-with-deep-rich-and-dynamic-bass-sounds/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/8655-Subdivine-Expansion-More-About-That-Bass-3?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://diginoiz.com/series/subdivine-expansion-with-deep-rich-and-dynamic-bass-sounds/"
-sha256       = ""
-install_type = "zip"
+url           = "https://diginoiz.com/series/subdivine-expansion-with-deep-rich-and-dynamic-bass-sounds/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://diginoiz.com/series/subdivine-expansion-with-deep-rich-and-dynamic-bass-sounds/"
-sha256       = ""
-install_type = "zip"
+url           = "https://diginoiz.com/series/subdivine-expansion-with-deep-rich-and-dynamic-bass-sounds/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

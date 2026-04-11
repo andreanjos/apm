@@ -1,26 +1,27 @@
-slug        = "pultec-eqp-1a"
-name        = "Pultec EQP 1A"
-vendor      = "Apogee"
-version     = "1.0.0"
-description = "Pultec EQP-1A program equalizer plugin developed with Pulse Techniques for precise circuit accuracy."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://apogeedigital.com/product/pultec-eqp-1a-program-equalizer/"
+slug         = "pultec-eqp-1a"
+name         = "Pultec EQP 1A"
+vendor       = "Apogee"
+version      = "1.0.0"
+description  = "Pultec EQP-1A program equalizer plugin developed with Pulse Techniques for precise circuit accuracy."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://apogeedigital.com/product/pultec-eqp-1a-program-equalizer/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8841-Pultec-EQP-1A?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://apogeedigital.com/product/pultec-eqp-1a-program-equalizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://apogeedigital.com/product/pultec-eqp-1a-program-equalizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://apogeedigital.com/product/pultec-eqp-1a-program-equalizer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://apogeedigital.com/product/pultec-eqp-1a-program-equalizer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

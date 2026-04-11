@@ -1,25 +1,26 @@
-slug        = "spectralayers-pro-8"
-name        = "SpectraLayers Pro 8"
-vendor      = "Steinberg"
-version     = "8"
-description = "Professional spectral audio editor for advanced audio repair, restoration, and sound design."
-category    = "effects"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.steinberg.net/spectralayers/"
-is_paid     = true
+slug         = "spectralayers-pro-8"
+name         = "SpectraLayers Pro 8"
+vendor       = "Steinberg"
+version      = "8"
+description  = "Professional spectral audio editor for advanced audio repair, restoration, and sound design."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.steinberg.net/spectralayers/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.steinberg.net/spectralayers/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/spectralayers/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.steinberg.net/spectralayers/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/spectralayers/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

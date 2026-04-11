@@ -1,25 +1,26 @@
-slug        = "drum-styles"
-name        = "Drum Styles"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Acoustic drum loops and single hits across multiple musical styles, performed by a renowned Dutch session drummer."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/drum-styles"
-is_paid     = true
+slug         = "drum-styles"
+name         = "Drum Styles"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Acoustic drum loops and single hits across multiple musical styles, performed by a renowned Dutch session drummer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/drum-styles"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/drum-styles"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/drum-styles"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/drum-styles"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/drum-styles"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

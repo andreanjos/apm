@@ -1,26 +1,27 @@
-slug        = "100-years-of-beyerdynamic-ir-pack"
-name        = "100 Years Of Beyerdynamic IR Pack"
-vendor      = "Bogren Digital"
-version     = "1.0.0"
-description = "235 guitar cabinet IRs captured with vintage and modern Beyerdynamic mics to celebrate the brand's centenary."
-category    = "utility"
-subcategory = "impulse response"
-license     = "commercial"
-tags        = []
-homepage    = "https://bogrendigital.com/products/100-years-of-beyerdynamic-ir-pack"
+slug         = "100-years-of-beyerdynamic-ir-pack"
+name         = "100 Years Of Beyerdynamic IR Pack"
+vendor       = "Bogren Digital"
+version      = "1.0.0"
+description  = "235 guitar cabinet IRs captured with vintage and modern Beyerdynamic mics to celebrate the brand's centenary."
+category     = "utility"
+product_type = "bundle"
+subcategory  = "impulse response"
+license      = "commercial"
+tags         = []
+homepage     = "https://bogrendigital.com/products/100-years-of-beyerdynamic-ir-pack"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/13291-100-Years-Of-Beyerdynamic-IR-Pack?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://bogrendigital.com/products/100-years-of-beyerdynamic-ir-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/100-years-of-beyerdynamic-ir-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://bogrendigital.com/products/100-years-of-beyerdynamic-ir-pack"
-sha256       = ""
-install_type = "zip"
+url           = "https://bogrendigital.com/products/100-years-of-beyerdynamic-ir-pack"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

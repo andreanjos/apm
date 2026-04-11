@@ -1,25 +1,26 @@
-slug        = "emt-140-classic-plate-reverberator"
-name        = "EMT® 140 Classic Plate Reverberator"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the legendary EMT 140 electromechanical plate reverb used on countless classic records."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/reverbs/emt-140-plate-reverberator.html"
-is_paid     = true
+slug         = "emt-140-classic-plate-reverberator"
+name         = "EMT (R) 140 Classic Plate Reverberator"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the legendary EMT 140 electromechanical plate reverb used on countless classic records."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/reverbs/emt-140-plate-reverberator.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/reverbs/emt-140-plate-reverberator.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/reverbs/emt-140-plate-reverberator.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/reverbs/emt-140-plate-reverberator.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/reverbs/emt-140-plate-reverberator.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

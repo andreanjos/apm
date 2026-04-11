@@ -1,26 +1,27 @@
-slug        = "manny-marroquin-distortion"
-name        = "Manny Marroquin Distortion"
-vendor      = "Waves"
-version     = "14.0"
-description = "Signature distortion plugin delivering Manny Marroquin's harmonic saturation techniques."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/manny-marroquin-distortion"
-is_paid     = true
+slug         = "manny-marroquin-distortion"
+name         = "Manny Marroquin Distortion"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Signature distortion plugin delivering Manny Marroquin's harmonic saturation techniques."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/manny-marroquin-distortion"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/manny-marroquin-distortion"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/manny-marroquin-distortion"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/manny-marroquin-distortion"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/manny-marroquin-distortion"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

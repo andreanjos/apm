@@ -1,25 +1,26 @@
-slug        = "high-school-drum-corps"
-name        = "High School Drum Corps"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Kontakt library of a full marching drum corps with snares, tenors, bass drums, and cymbals."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/high-school-drum-corps"
-is_paid     = true
+slug         = "high-school-drum-corps"
+name         = "High School Drum Corps"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Kontakt library of a full marching drum corps with snares, tenors, bass drums, and cymbals."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/high-school-drum-corps"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/high-school-drum-corps"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/high-school-drum-corps"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/high-school-drum-corps"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/high-school-drum-corps"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

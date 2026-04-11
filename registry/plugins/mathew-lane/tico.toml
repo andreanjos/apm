@@ -1,25 +1,26 @@
-slug        = "tico"
-name        = "TiCo"
-vendor      = "Mathew Lane"
-version     = "1.0"
-description = "Transient-sensitive compressor by Mathew Lane offering musical dynamic control."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.mathewlane.com/tico/"
-is_paid     = true
+slug         = "tico"
+name         = "TiCo"
+vendor       = "Mathew Lane"
+version      = "1.0"
+description  = "Transient-sensitive compressor by Mathew Lane offering musical dynamic control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.mathewlane.com/tico/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.mathewlane.com/tico/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.mathewlane.com/tico/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.mathewlane.com/tico/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.mathewlane.com/tico/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

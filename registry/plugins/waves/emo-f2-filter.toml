@@ -1,26 +1,27 @@
-slug        = "emo-f2-filter"
-name        = "eMo F2 Filter"
-vendor      = "Waves"
-version     = "14.0"
-description = "Two-band parametric filter with resonance for creative tonal shaping and sound design."
-category    = "effects"
-subcategory = "filter"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/emo-f2-filter"
-is_paid     = true
+slug         = "emo-f2-filter"
+name         = "eMo F2 Filter"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Two-band parametric filter with resonance for creative tonal shaping and sound design."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "filter"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/emo-f2-filter"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/emo-f2-filter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/emo-f2-filter"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/emo-f2-filter"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/emo-f2-filter"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

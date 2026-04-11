@@ -1,24 +1,26 @@
-slug        = "tundra-drones-adaptiverb-presets"
-name        = "Tundra Drones – Adaptiverb Presets"
-vendor      = "Spektralisk"
-version     = "1.0"
-description = "Tundra Drones Adaptiverb presets by Spektralisk for cold, evolving atmospheric textures."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.spektralisk.com/"
-is_paid     = true
+slug         = "tundra-drones-adaptiverb-presets"
+name         = "Tundra Drones - Adaptiverb Presets"
+vendor       = "Spektralisk"
+version      = "1.0"
+description  = "Tundra Drones Adaptiverb presets by Spektralisk for cold, evolving atmospheric textures."
+category     = "effects"
+product_type = "preset_pack"
+license      = "commercial"
+tags         = []
+aliases      = ["tundra-drones-8211-adaptiverb-presets"]
+homepage     = "https://www.spektralisk.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spektralisk.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spektralisk.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spektralisk.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spektralisk.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

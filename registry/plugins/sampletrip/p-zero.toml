@@ -1,25 +1,26 @@
-slug        = "p-zero"
-name        = "P-Zero"
-vendor      = "Sampletrip"
-version     = "1.0.0"
-description = "Digital grand piano library for Kontakt 5 inspired by late-1980s digital piano modules."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kvraudio.com/product/p-zero-by-sampletrip"
-is_paid     = true
+slug         = "p-zero"
+name         = "P-Zero"
+vendor       = "Sampletrip"
+version      = "1.0.0"
+description  = "Digital grand piano library for Kontakt 5 inspired by late-1980s digital piano modules."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kvraudio.com/product/p-zero-by-sampletrip"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kvraudio.com/product/p-zero-by-sampletrip"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/product/p-zero-by-sampletrip"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kvraudio.com/product/p-zero-by-sampletrip"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kvraudio.com/product/p-zero-by-sampletrip"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "plugins-bundle-plugin-boutique"
-name        = "Plugins Bundle"
-vendor      = "Plugin Boutique"
-version     = "1.0.0"
-description = "Complete bundle of Plugin Boutique's own instruments and effects, including BigKick and Carbon Electra."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/product/81-Bundle/97-Mixed-Category/8823-Plugin-Boutique-Plugins-Bundle"
-is_paid     = true
+slug         = "plugins-bundle-plugin-boutique"
+name         = "Plugins Bundle"
+vendor       = "Plugin Boutique"
+version      = "1.0.0"
+description  = "Complete bundle of Plugin Boutique's own instruments and effects, including BigKick and Carbon Electra."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/product/81-Bundle/97-Mixed-Category/8823-Plugin-Boutique-Plugins-Bundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/product/81-Bundle/97-Mixed-Category/8823-Plugin-Boutique-Plugins-Bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/81-Bundle/97-Mixed-Category/8823-Plugin-Boutique-Plugins-Bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/product/81-Bundle/97-Mixed-Category/8823-Plugin-Boutique-Plugins-Bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/81-Bundle/97-Mixed-Category/8823-Plugin-Boutique-Plugins-Bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

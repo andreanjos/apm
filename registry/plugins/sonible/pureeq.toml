@@ -1,25 +1,26 @@
-slug        = "pureeq"
-name        = "pure:EQ"
-vendor      = "sonible"
-version     = "1.0.0"
-description = "AI-powered EQ that analyzes audio and derives a correction curve to fix spectral deficiencies."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.sonible.com/pureeq/"
-is_paid     = true
+slug         = "pureeq"
+name         = "pure:EQ"
+vendor       = "sonible"
+version      = "1.0.0"
+description  = "AI-powered EQ that analyzes audio and derives a correction curve to fix spectral deficiencies."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.sonible.com/pureeq/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.sonible.com/pureeq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/pureeq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.sonible.com/pureeq/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.sonible.com/pureeq/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,28 @@
-slug        = "devious-machines-duck"
-name        = "Duck 2"
-vendor      = "Devious Machines"
-version     = "2.0.27"
-description = "Sidechain volume shaper with draw-your-own curves, multiband section, and tempo-synced envelope editor."
-category    = "effects"
-subcategory = "dynamics"
-license     = "commercial"
-tags        = ["sidechain", "volume-shaper", "dynamics", "ducking", "envelope"]
-homepage    = "https://deviousmachines.com/product/duck2/"
+slug         = "devious-machines-duck"
+name         = "Duck 2"
+vendor       = "Devious Machines"
+version      = "2.0.27"
+description  = "Sidechain volume shaper with draw-your-own curves, multiband section, and tempo-synced envelope editor."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "dynamics"
+license      = "commercial"
+tags         = ["sidechain", "volume-shaper", "dynamics", "ducking", "envelope"]
+aliases      = ["duck-2"]
+homepage     = "https://deviousmachines.com/product/duck2/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/16921-Duck-2?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://deviousmachines.com/duck2-downloads/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://deviousmachines.com/duck2-downloads/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Duck.vst3"
+bundle_path   = "Duck.vst3"
 
 [formats.au]
-url          = "https://deviousmachines.com/duck2-downloads/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://deviousmachines.com/duck2-downloads/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Duck.component"
+bundle_path   = "Duck.component"

@@ -1,24 +1,25 @@
-slug        = "sta-preamp"
-name        = "STA Preamp"
-vendor      = "Audified"
-version     = "2.1.0"
-description = "Tube preamp simulator using STA summing tube amp technology for subtle, musical valve saturation."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/sta-preamp/"
-is_paid     = true
+slug         = "sta-preamp"
+name         = "STA Preamp"
+vendor       = "Audified"
+version      = "2.1.0"
+description  = "Tube preamp simulator using STA summing tube amp technology for subtle, musical valve saturation."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/sta-preamp/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/sta-preamp/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/sta-preamp/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/sta-preamp/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/sta-preamp/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

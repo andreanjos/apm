@@ -1,27 +1,29 @@
-slug        = "fabfilter-pro-l-2"
-name        = "FabFilter Pro L 2"
-vendor      = "FabFilter"
-version     = "2.25"
-description = "True peak mastering limiter with eight limiting algorithms, audition clipping, and ISP detection."
-category    = "effects"
-subcategory = "limiter"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in"
+slug         = "fabfilter-pro-l-2"
+name         = "FabFilter Pro L 2"
+vendor       = "FabFilter"
+version      = "2.25"
+description  = "True peak mastering limiter with eight limiting algorithms, audition clipping, and ISP detection."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "limiter"
+license      = "commercial"
+tags         = []
+aliases      = ["fabfilter-pro-l"]
+homepage     = "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/3955-FabFilter-Pro-L-2?a_aid=69d5e87c5f2e9"
-bundle_ids  = ["com.fabfilter.Pro-L"]
-is_paid     = true
+bundle_ids   = ["com.fabfilter.Pro-L"]
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.fabfilter.com/products/pro-l-2-limiter-plug-in"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

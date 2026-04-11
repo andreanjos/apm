@@ -1,25 +1,26 @@
-slug        = "little-epic-percussion"
-name        = "Little Epic Percussion"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Compact epic percussion Kontakt instrument with cinematic power in a small sample footprint."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/little-epic-percussion"
-is_paid     = true
+slug         = "little-epic-percussion"
+name         = "Little Epic Percussion"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Compact epic percussion Kontakt instrument with cinematic power in a small sample footprint."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/little-epic-percussion"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/little-epic-percussion"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/little-epic-percussion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/little-epic-percussion"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/little-epic-percussion"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

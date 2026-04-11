@@ -1,25 +1,26 @@
-slug        = "the-grand-glass-marimba"
-name        = "The Grand Glass Marimba"
-vendor      = "Muletone Audio"
-version     = "1.0.0"
-description = "Kontakt instrument featuring a Brazilian glass marimba with multiple stick types and melodic patterns."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.muletoneaudio.com/"
-is_paid     = true
+slug         = "the-grand-glass-marimba"
+name         = "The Grand Glass Marimba"
+vendor       = "Muletone Audio"
+version      = "1.0.0"
+description  = "Kontakt instrument featuring a Brazilian glass marimba with multiple stick types and melodic patterns."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.muletoneaudio.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.muletoneaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.muletoneaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

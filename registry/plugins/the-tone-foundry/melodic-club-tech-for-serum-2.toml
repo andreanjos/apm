@@ -1,26 +1,27 @@
-slug        = "melodic-club-tech-for-serum-2"
-name        = "Melodic Club Tech for Serum 2"
-vendor      = "The Tone Foundry"
-version     = "1.0.0"
-description = "80 Serum 2 presets for melodic house and tech-house with weighty basses, pads, leads, and textures."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/manufacturers/393-The-Tone-Foundry"
+slug         = "melodic-club-tech-for-serum-2"
+name         = "Melodic Club Tech for Serum 2"
+vendor       = "The Tone Foundry"
+version      = "1.0.0"
+description  = "80 Serum 2 presets for melodic house and tech-house with weighty basses, pads, leads, and textures."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/manufacturers/393-The-Tone-Foundry"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/15381-Melodic-Club-Tech-for-Serum-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/manufacturers/393-The-Tone-Foundry"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/393-The-Tone-Foundry"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/manufacturers/393-The-Tone-Foundry"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/manufacturers/393-The-Tone-Foundry"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

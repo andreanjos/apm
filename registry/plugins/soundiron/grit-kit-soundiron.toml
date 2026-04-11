@@ -1,25 +1,26 @@
-slug        = "grit-kit-soundiron"
-name        = "Grit Kit"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Gritty, lo-fi drum kit Kontakt instrument with raw, unpolished percussive character."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/grit-kit"
-is_paid     = true
+slug         = "grit-kit-soundiron"
+name         = "Grit Kit"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Gritty, lo-fi drum kit Kontakt instrument with raw, unpolished percussive character."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/grit-kit"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/grit-kit"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/grit-kit"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/grit-kit"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/grit-kit"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

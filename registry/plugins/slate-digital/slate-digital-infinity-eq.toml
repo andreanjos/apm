@@ -1,24 +1,28 @@
-slug        = "slate-digital-infinity-eq"
-name        = "Infinity EQ 2"
-vendor      = "Slate Digital"
-version     = "2.0"
-description = "Parametric EQ with dynamic filter capability, three new filter shapes, and infinitely scalable GUI for surgical and musical equalization."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = ["eq", "parametric", "dynamic-eq", "linear-phase", "surgical", "transparent", "mastering"]
-homepage    = "https://slatedigital.com/infinity-eq/"
+slug         = "slate-digital-infinity-eq"
+name         = "Infinity EQ 2"
+vendor       = "Slate Digital"
+version      = "2.0"
+description  = "Parametric EQ with dynamic filter capability, three new filter shapes, and infinitely scalable GUI for surgical and musical equalization."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = ["eq", "parametric", "dynamic-eq", "linear-phase", "surgical", "transparent", "mastering"]
+aliases      = ["infinity-eq-2"]
+homepage     = "https://slatedigital.com/infinity-eq/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/15797-Infinity-EQ-2?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://slatedigital.com/downloads/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://slatedigital.com/downloads/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Infinity EQ 2.vst3"
+bundle_path   = "Infinity EQ 2.vst3"
 
 [formats.au]
-url          = "https://slatedigital.com/downloads/"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://slatedigital.com/downloads/"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "Infinity EQ 2.component"
+bundle_path   = "Infinity EQ 2.component"

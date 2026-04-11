@@ -1,25 +1,26 @@
-slug        = "dutch-harpsichord"
-name        = "Dutch Harpsichord"
-vendor      = "Realsamples"
-version     = "1.0.0"
-description = "Meticulously sampled Dutch harpsichord virtual instrument for Kontakt."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.realsamples.de/en_GB"
-is_paid     = true
+slug         = "dutch-harpsichord"
+name         = "Dutch Harpsichord"
+vendor       = "Realsamples"
+version      = "1.0.0"
+description  = "Meticulously sampled Dutch harpsichord virtual instrument for Kontakt."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.realsamples.de/en_GB"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.realsamples.de/en_GB"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.realsamples.de/en_GB"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.realsamples.de/en_GB"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.realsamples.de/en_GB"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "aiyn-zahev-prometheus-for-u-he-repro-1"
-name        = "Aiyn Zahev Prometheus for u he Repro 1"
-vendor      = "Resonance Sound"
-version     = "1.0.0"
-description = "120-preset pack for u-He Repro-1 covering basslines, sequences, arpeggios, and pads."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.resonance-sound.com/product/aiyn-zahev-sounds-prometheus-repro-1/"
+slug         = "aiyn-zahev-prometheus-for-u-he-repro-1"
+name         = "Aiyn Zahev Prometheus for u he Repro 1"
+vendor       = "Resonance Sound"
+version      = "1.0.0"
+description  = "120-preset pack for u-He Repro-1 covering basslines, sequences, arpeggios, and pads."
+category     = "instruments"
+product_type = "preset_pack"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.resonance-sound.com/product/aiyn-zahev-sounds-prometheus-repro-1/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/4823-Aiyn-Zahev-Prometheus-for-u-he-Repro-1?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.resonance-sound.com/product/aiyn-zahev-sounds-prometheus-repro-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.resonance-sound.com/product/aiyn-zahev-sounds-prometheus-repro-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.resonance-sound.com/product/aiyn-zahev-sounds-prometheus-repro-1/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.resonance-sound.com/product/aiyn-zahev-sounds-prometheus-repro-1/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

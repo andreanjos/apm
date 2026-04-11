@@ -1,26 +1,27 @@
-slug        = "metal-mayhem-vol-2"
-name        = "Metal Mayhem Vol 2"
-vendor      = "Quantum DSP"
-version     = "2"
-description = "35 hybrid IR cabinet impulse responses delivering shred-ready modern metal guitar tones."
-category    = "utility"
-subcategory = "impulse response"
-license     = "commercial"
-tags        = []
-homepage    = "https://quantumdsp.com/collections/all"
+slug         = "metal-mayhem-vol-2"
+name         = "Metal Mayhem Vol 2"
+vendor       = "Quantum DSP"
+version      = "2"
+description  = "35 hybrid IR cabinet impulse responses delivering shred-ready modern metal guitar tones."
+category     = "utility"
+product_type = "utility"
+subcategory  = "impulse response"
+license      = "commercial"
+tags         = []
+homepage     = "https://quantumdsp.com/collections/all"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/17084-Metal-Mayhem-Vol-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://quantumdsp.com/collections/all"
-sha256       = ""
-install_type = "zip"
+url           = "https://quantumdsp.com/collections/all"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://quantumdsp.com/collections/all"
-sha256       = ""
-install_type = "zip"
+url           = "https://quantumdsp.com/collections/all"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

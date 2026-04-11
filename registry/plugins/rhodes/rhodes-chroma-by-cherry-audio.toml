@@ -1,26 +1,27 @@
-slug        = "rhodes-chroma-by-cherry-audio"
-name        = "Rhodes Chroma by Cherry Audio"
-vendor      = "Rhodes"
-version     = "1.0.0"
-description = "Virtual recreation of the iconic 1982 Rhodes Chroma polyphonic analog synthesizer."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://rhodesmusic.com/rhodes-chroma-synthesizer-plugin/"
+slug         = "rhodes-chroma-by-cherry-audio"
+name         = "Rhodes Chroma by Cherry Audio"
+vendor       = "Rhodes"
+version      = "1.0.0"
+description  = "Virtual recreation of the iconic 1982 Rhodes Chroma polyphonic analog synthesizer."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://rhodesmusic.com/rhodes-chroma-synthesizer-plugin/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/13870-Rhodes-Chroma-by-Cherry-Audio?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rhodesmusic.com/rhodes-chroma-synthesizer-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rhodesmusic.com/rhodes-chroma-synthesizer-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rhodesmusic.com/rhodes-chroma-synthesizer-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rhodesmusic.com/rhodes-chroma-synthesizer-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

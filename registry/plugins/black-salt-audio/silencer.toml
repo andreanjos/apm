@@ -1,26 +1,27 @@
-slug        = "silencer"
-name        = "Silencer"
-vendor      = "Black Salt Audio"
-version     = "1.1.4"
-description = "Drum gate plugin that eliminates cymbal bleed and unwanted noise while preserving the original sound integrity."
-category    = "effects"
-subcategory = "gate"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.blacksaltaudio.com/silencer/"
+slug         = "silencer"
+name         = "Silencer"
+vendor       = "Black Salt Audio"
+version      = "1.1.4"
+description  = "Drum gate plugin that eliminates cymbal bleed and unwanted noise while preserving the original sound integrity."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "gate"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.blacksaltaudio.com/silencer/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/11086-Silencer?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.blacksaltaudio.com/silencer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blacksaltaudio.com/silencer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.blacksaltaudio.com/silencer/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.blacksaltaudio.com/silencer/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

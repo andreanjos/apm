@@ -1,26 +1,27 @@
-slug        = "mok-waverazor"
-name        = "MOK Waverazor"
-vendor      = "Tracktion"
-version     = "2.7.0"
-description = "Wave-slicing synthesizer with 3 oscillators, 160 waveforms, and 30 filter types for futuristic sound design."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.tracktion.com/products/waverazor"
+slug         = "mok-waverazor"
+name         = "MOK Waverazor"
+vendor       = "Tracktion"
+version      = "2.7.0"
+description  = "Wave-slicing synthesizer with 3 oscillators, 160 waveforms, and 30 filter types for futuristic sound design."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.tracktion.com/products/waverazor"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/8144-MOK-Waverazor-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.tracktion.com/products/waverazor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/waverazor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.tracktion.com/products/waverazor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.tracktion.com/products/waverazor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

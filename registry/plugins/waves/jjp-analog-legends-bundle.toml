@@ -1,26 +1,27 @@
-slug        = "jjp-analog-legends-bundle"
-name        = "JJP Analog Legends Bundle"
-vendor      = "Waves"
-version     = "14.0"
-description = "Bundle of JJP analog hardware emulations including classic compressors and channel strips."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/jjp-analog-legends-bundle"
-is_paid     = true
+slug         = "jjp-analog-legends-bundle"
+name         = "JJP Analog Legends Bundle"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Bundle of JJP analog hardware emulations including classic compressors and channel strips."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/jjp-analog-legends-bundle"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/jjp-analog-legends-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/jjp-analog-legends-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/jjp-analog-legends-bundle"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/jjp-analog-legends-bundle"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

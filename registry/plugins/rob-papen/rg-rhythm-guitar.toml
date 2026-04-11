@@ -1,25 +1,26 @@
-slug        = "rg-rhythm-guitar"
-name        = "RG Rhythm Guitar"
-vendor      = "Rob Papen"
-version     = "1.0.0"
-description = "Unique rhythm guitar groove plugin with five guitar models, onboard sequencer, analog-modeled filters, and built-in FX."
-category    = "instruments"
-subcategory = "guitar"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/rg.html"
-is_paid     = true
+slug         = "rg-rhythm-guitar"
+name         = "RG Rhythm Guitar"
+vendor       = "Rob Papen"
+version      = "1.0.0"
+description  = "Unique rhythm guitar groove plugin with five guitar models, onboard sequencer, analog-modeled filters, and built-in FX."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "guitar"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/rg.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/rg.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/rg.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/rg.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/rg.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

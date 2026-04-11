@@ -1,26 +1,27 @@
-slug        = "h-comp"
-name        = "H-Comp"
-vendor      = "Waves"
-version     = "14.0"
-description = "Hybrid compressor combining analog-style character with precise modern compression control."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "waves-central"
-homepage    = "https://www.waves.com/plugins/h-comp"
-is_paid     = true
+slug         = "h-comp"
+name         = "H-Comp"
+vendor       = "Waves"
+version      = "14.0"
+description  = "Hybrid compressor combining analog-style character with precise modern compression control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "waves-central"
+homepage     = "https://www.waves.com/plugins/h-comp"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.waves.com/plugins/h-comp"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/h-comp"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.waves.com/plugins/h-comp"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.waves.com/plugins/h-comp"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

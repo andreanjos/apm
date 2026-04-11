@@ -1,26 +1,27 @@
-slug        = "grainferno"
-name        = "Grainferno"
-vendor      = "Baby Audio"
-version     = "1.0.2"
-description = "Advanced granular synthesizer with dual-sample morphing, per-grain effects, and 325 presets."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://babyaud.io/grainferno"
+slug         = "grainferno"
+name         = "Grainferno"
+vendor       = "Baby Audio"
+version      = "1.0.2"
+description  = "Advanced granular synthesizer with dual-sample morphing, per-grain effects, and 325 presets."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://babyaud.io/grainferno"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16951-Grainferno?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://babyaud.io/grainferno"
-sha256       = ""
-install_type = "zip"
+url           = "https://babyaud.io/grainferno"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://babyaud.io/grainferno"
-sha256       = ""
-install_type = "zip"
+url           = "https://babyaud.io/grainferno"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

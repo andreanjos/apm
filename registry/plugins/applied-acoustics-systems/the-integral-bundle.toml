@@ -1,26 +1,27 @@
-slug        = "the-integral-bundle"
-name        = "The Integral Bundle"
-vendor      = "Applied Acoustics Systems"
-version     = "1.0.0"
-description = "AAS complete collection of all instruments and sound packs in the Professional Series."
-category    = "instruments"
-subcategory = "complete collection"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.applied-acoustics.com/the-integral/"
+slug         = "the-integral-bundle"
+name         = "The Integral Bundle"
+vendor       = "Applied Acoustics Systems"
+version      = "1.0.0"
+description  = "AAS complete collection of all instruments and sound packs in the Professional Series."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "complete collection"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.applied-acoustics.com/the-integral/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/7573-The-Integral-Bundle?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.applied-acoustics.com/the-integral/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/the-integral/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.applied-acoustics.com/the-integral/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.applied-acoustics.com/the-integral/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

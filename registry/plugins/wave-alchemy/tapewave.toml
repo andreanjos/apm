@@ -1,26 +1,27 @@
-slug        = "tapewave"
-name        = "Tapewave"
-vendor      = "Wave Alchemy"
-version     = "1.0"
-description = "Cassette tape emulation plugin with six tape styles, wow & flutter, saturation and tape age control."
-category    = "effects"
-subcategory = "tape emulation"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.wavealchemy.co.uk/product/tapewave/"
+slug         = "tapewave"
+name         = "Tapewave"
+vendor       = "Wave Alchemy"
+version      = "1.0"
+description  = "Cassette tape emulation plugin with six tape styles, wow & flutter, saturation and tape age control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "tape emulation"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.wavealchemy.co.uk/product/tapewave/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/13916-Tapewave?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.wavealchemy.co.uk/product/tapewave/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/tapewave/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.wavealchemy.co.uk/product/tapewave/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.wavealchemy.co.uk/product/tapewave/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

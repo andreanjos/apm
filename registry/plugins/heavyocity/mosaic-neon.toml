@@ -1,26 +1,27 @@
-slug        = "mosaic-neon"
-name        = "Mosaic Neon"
-vendor      = "Heavyocity"
-version     = "1.0.0"
-description = "Cinematic retro synth instrument elevating quintessential synth sounds into dynamic pads, rhythms, and arpeggios."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://heavyocity.com/products/mosaic-neon"
+slug         = "mosaic-neon"
+name         = "Mosaic Neon"
+vendor       = "Heavyocity"
+version      = "1.0.0"
+description  = "Cinematic retro synth instrument elevating quintessential synth sounds into dynamic pads, rhythms, and arpeggios."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://heavyocity.com/products/mosaic-neon"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10488-Mosaic-Neon?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://heavyocity.com/products/mosaic-neon"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/mosaic-neon"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://heavyocity.com/products/mosaic-neon"
-sha256       = ""
-install_type = "zip"
+url           = "https://heavyocity.com/products/mosaic-neon"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "granulizer-2"
-name        = "Granulizer 2"
-vendor      = "Inertia Sound Systems"
-version     = "2.0"
-description = "Granular sampler plugin by Inertia Sound Systems for real-time granular sound manipulation."
-category    = "instruments"
-subcategory = "sampler"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.inertiasoundsystems.com/"
+slug         = "granulizer-2"
+name         = "Granulizer 2"
+vendor       = "Inertia Sound Systems"
+version      = "2.0"
+description  = "Granular sampler plugin by Inertia Sound Systems for real-time granular sound manipulation."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "sampler"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.inertiasoundsystems.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/7776-Granulizer-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.inertiasoundsystems.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.inertiasoundsystems.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.inertiasoundsystems.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.inertiasoundsystems.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

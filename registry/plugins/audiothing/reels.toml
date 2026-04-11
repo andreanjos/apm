@@ -1,25 +1,26 @@
-slug        = "reels"
-name        = "Reels"
-vendor      = "AudioThing"
-version     = "1.5.4"
-description = "Lo-fi tape effect plugin simulating the warmth, saturation, and degradation of vintage reel-to-reel machines."
-category    = "effects"
-subcategory = "lo-fi"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/effects/reels/"
-is_paid     = true
+slug         = "reels"
+name         = "Reels"
+vendor       = "AudioThing"
+version      = "1.5.4"
+description  = "Lo-fi tape effect plugin simulating the warmth, saturation, and degradation of vintage reel-to-reel machines."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "lo-fi"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiothing.net/effects/reels/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/effects/reels/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/reels/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/effects/reels/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/reels/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

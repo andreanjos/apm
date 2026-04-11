@@ -1,25 +1,26 @@
-slug        = "darklight-iix"
-name        = "Darklight IIx"
-vendor      = "UVI"
-version     = "1.0.0"
-description = "Three-instrument suite inspired by the Fairlight CMI IIx, covering digital synth, drum machine, and multi-phraser."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.uvi.net/darklight-iix"
-is_paid     = true
+slug         = "darklight-iix"
+name         = "Darklight IIx"
+vendor       = "UVI"
+version      = "1.0.0"
+description  = "Three-instrument suite inspired by the Fairlight CMI IIx, covering digital synth, drum machine, and multi-phraser."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.uvi.net/darklight-iix"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uvi.net/darklight-iix"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/darklight-iix"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uvi.net/darklight-iix"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uvi.net/darklight-iix"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

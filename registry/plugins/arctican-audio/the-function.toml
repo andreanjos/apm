@@ -1,26 +1,27 @@
-slug        = "the-function"
-name        = "The Function"
-vendor      = "Arctican Audio"
-version     = "1.0"
-description = "Stereo width and imaging plugin by Arctican Audio for expanding the stereo field."
-category    = "effects"
-subcategory = "stereo width"
-license     = "commercial"
-tags        = []
-homepage    = "https://arcticanaudio.com/"
+slug         = "the-function"
+name         = "The Function"
+vendor       = "Arctican Audio"
+version      = "1.0"
+description  = "Stereo width and imaging plugin by Arctican Audio for expanding the stereo field."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "stereo width"
+license      = "commercial"
+tags         = []
+homepage     = "https://arcticanaudio.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/592-The-Function?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://arcticanaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://arcticanaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://arcticanaudio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://arcticanaudio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

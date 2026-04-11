@@ -1,25 +1,26 @@
-slug        = "pre-1973"
-name        = "Pre 1973"
-vendor      = "Arturia"
-version     = "1.4.0"
-description = "Emulation of the legendary Neve 1073 microphone preamp and EQ, faithfully modeled from a 1971 unit."
-category    = "effects"
-license     = "commercial"
-tags        = []
-installer   = "arturia-software-center"
-homepage    = "https://www.arturia.com/products/software-effects/1973-pre/overview"
-is_paid     = true
+slug         = "pre-1973"
+name         = "Pre 1973"
+vendor       = "Arturia"
+version      = "1.4.0"
+description  = "Emulation of the legendary Neve 1073 microphone preamp and EQ, faithfully modeled from a 1971 unit."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+installer    = "arturia-software-center"
+homepage     = "https://www.arturia.com/products/software-effects/1973-pre/overview"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.arturia.com/products/software-effects/1973-pre/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-effects/1973-pre/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.arturia.com/products/software-effects/1973-pre/overview"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.arturia.com/products/software-effects/1973-pre/overview"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "psp-fetpressor"
-name        = "PSP FETpressor"
-vendor      = "PSP Audioware"
-version     = "1.2.2"
-description = "FET feedback compressor delivering fast, characterful compression inspired by classic 1970s FET designs."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pspaudioware.com/products/psp-fetpressor"
+slug         = "psp-fetpressor"
+name         = "PSP FETpressor"
+vendor       = "PSP Audioware"
+version      = "1.2.2"
+description  = "FET feedback compressor delivering fast, characterful compression inspired by classic 1970s FET designs."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pspaudioware.com/products/psp-fetpressor"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/3067-PSP-FETpressor?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pspaudioware.com/products/psp-fetpressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-fetpressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pspaudioware.com/products/psp-fetpressor"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pspaudioware.com/products/psp-fetpressor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

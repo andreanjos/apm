@@ -1,26 +1,27 @@
-slug        = "albino-3-legend"
-name        = "Albino 3 Legend"
-vendor      = "Rob Papen"
-version     = "1.0.0"
-description = "Resurrection of the legendary Albino-3 synthesizer from 2006, now with VST3 support and modern OS compatibility."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.robpapen.com/albino-3-legend.html"
+slug         = "albino-3-legend"
+name         = "Albino 3 Legend"
+vendor       = "Rob Papen"
+version      = "1.0.0"
+description  = "Resurrection of the legendary Albino-3 synthesizer from 2006, now with VST3 support and modern OS compatibility."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.robpapen.com/albino-3-legend.html"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11512-Albino-3-Legend?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.robpapen.com/albino-3-legend.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/albino-3-legend.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.robpapen.com/albino-3-legend.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.robpapen.com/albino-3-legend.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

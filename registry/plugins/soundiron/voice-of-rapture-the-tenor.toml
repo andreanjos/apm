@@ -1,25 +1,26 @@
-slug        = "voice-of-rapture-the-tenor"
-name        = "Voice of Rapture: The Tenor"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Solo tenor voice Kontakt library from the Voice of Rapture series with expressive lyrical range."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/voice-of-rapture-the-tenor"
-is_paid     = true
+slug         = "voice-of-rapture-the-tenor"
+name         = "Voice of Rapture: The Tenor"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Solo tenor voice Kontakt library from the Voice of Rapture series with expressive lyrical range."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/voice-of-rapture-the-tenor"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/voice-of-rapture-the-tenor"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/voice-of-rapture-the-tenor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/voice-of-rapture-the-tenor"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/voice-of-rapture-the-tenor"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

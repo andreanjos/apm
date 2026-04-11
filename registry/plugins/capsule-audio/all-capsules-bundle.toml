@@ -1,25 +1,26 @@
-slug        = "all-capsules-bundle"
-name        = "All Capsules Bundle"
-vendor      = "Capsule Audio"
-version     = "1.0.0"
-description = "Complete collection of all Capsule Audio virtual instrument libraries in a single discounted bundle."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.capsule.audio/"
-is_paid     = true
+slug         = "all-capsules-bundle"
+name         = "All Capsules Bundle"
+vendor       = "Capsule Audio"
+version      = "1.0.0"
+description  = "Complete collection of all Capsule Audio virtual instrument libraries in a single discounted bundle."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.capsule.audio/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.capsule.audio/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.capsule.audio/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.capsule.audio/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.capsule.audio/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

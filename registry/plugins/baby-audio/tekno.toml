@@ -1,26 +1,27 @@
-slug        = "tekno"
-name        = "Tekno"
-vendor      = "Baby Audio"
-version     = "1.1"
-description = "Drum synthesizer with 18 synth engines, analog circuit modeling, built-in sequencer, and 72 global presets."
-category    = "instruments"
-subcategory = "drum synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://babyaud.io/tekno"
+slug         = "tekno"
+name         = "Tekno"
+vendor       = "Baby Audio"
+version      = "1.1"
+description  = "Drum synthesizer with 18 synth engines, analog circuit modeling, built-in sequencer, and 72 global presets."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://babyaud.io/tekno"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/139-Drum-Synth/15545-Tekno?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://babyaud.io/tekno"
-sha256       = ""
-install_type = "zip"
+url           = "https://babyaud.io/tekno"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://babyaud.io/tekno"
-sha256       = ""
-install_type = "zip"
+url           = "https://babyaud.io/tekno"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,28 @@
-slug        = "ssl-native-x-eq"
-name        = "SSL Native X-EQ 2"
-vendor      = "Solid State Logic"
-version     = "2.0"
-description = "Parametric equalizer with multiple filter types and analog-modeled curves from classic SSL consoles."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = ["eq", "parametric", "ssl", "mixing", "mastering"]
-homepage    = "https://www.solidstatelogic.com/products/native-x-eq-2"
+slug         = "ssl-native-x-eq"
+name         = "SSL Native X-EQ 2"
+vendor       = "Solid State Logic"
+version      = "2.0"
+description  = "Parametric equalizer with multiple filter types and analog-modeled curves from classic SSL consoles."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = ["eq", "parametric", "ssl", "mixing", "mastering"]
+aliases      = ["ssl-native-x-eq-2"]
+homepage     = "https://www.solidstatelogic.com/products/native-x-eq-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8665-SSL-Native-X-EQ-2?a_aid=69d5e87c5f2e9"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.solidstatelogic.com/support/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.solidstatelogic.com/support/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "SSL Native X-EQ 2.vst3"
+bundle_path   = "SSL Native X-EQ 2.vst3"
 
 [formats.au]
-url          = "https://www.solidstatelogic.com/support/downloads"
-sha256       = "0000000000000000000000000000000000000000000000000000000000000000"
-install_type = "pkg"
+url           = "https://www.solidstatelogic.com/support/downloads"
+sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+install_type  = "pkg"
 download_type = "manual"
-bundle_path  = "SSL Native X-EQ 2.component"
+bundle_path   = "SSL Native X-EQ 2.component"

@@ -1,26 +1,27 @@
-slug        = "evertone-expander"
-name        = "Evertone Expander"
-vendor      = "Evertone Project"
-version     = "1.0"
-description = "Expander plugin by Evertone Project for increasing dynamic range and adding punch."
-category    = "effects"
-subcategory = "expander"
-license     = "commercial"
-tags        = []
-homepage    = "https://evertoneproject.com/"
+slug         = "evertone-expander"
+name         = "Evertone Expander"
+vendor       = "Evertone Project"
+version      = "1.0"
+description  = "Expander plugin by Evertone Project for increasing dynamic range and adding punch."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "expander"
+license      = "commercial"
+tags         = []
+homepage     = "https://evertoneproject.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/37-Expander/16664-Evertone-Expander?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://evertoneproject.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://evertoneproject.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://evertoneproject.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://evertoneproject.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

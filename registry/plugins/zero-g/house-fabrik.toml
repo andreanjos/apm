@@ -1,25 +1,26 @@
-slug        = "house-fabrik"
-name        = "House Fabrik"
-vendor      = "Zero-G"
-version     = "1.0"
-description = "Over 1,300 deep house samples including drumloops, bass lines, synth loops, and atmospheres in 24-bit audio."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://zero-g.co.uk/products/house-fabrik"
-is_paid     = true
+slug         = "house-fabrik"
+name         = "House Fabrik"
+vendor       = "Zero-G"
+version      = "1.0"
+description  = "Over 1,300 deep house samples including drumloops, bass lines, synth loops, and atmospheres in 24-bit audio."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://zero-g.co.uk/products/house-fabrik"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://zero-g.co.uk/products/house-fabrik"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/house-fabrik"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://zero-g.co.uk/products/house-fabrik"
-sha256       = ""
-install_type = "zip"
+url           = "https://zero-g.co.uk/products/house-fabrik"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "black"
-name        = "Black"
-vendor      = "Thenatan Audio"
-version     = "1.0.0"
-description = "Multi-layer trap and hip-hop instrument with 200x4 samples and an XY Circle blending control."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.thenatan.store/p/black-trap-vst/"
+slug         = "black"
+name         = "Black"
+vendor       = "Thenatan Audio"
+version      = "1.0.0"
+description  = "Multi-layer trap and hip-hop instrument with 200x4 samples and an XY Circle blending control."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.thenatan.store/p/black-trap-vst/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15979-Black?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.thenatan.store/p/black-trap-vst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.thenatan.store/p/black-trap-vst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.thenatan.store/p/black-trap-vst/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.thenatan.store/p/black-trap-vst/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

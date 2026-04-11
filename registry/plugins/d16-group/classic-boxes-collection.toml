@@ -1,25 +1,26 @@
-slug        = "classic-boxes-collection"
-name        = "Classic Boxes Collection"
-vendor      = "D16 Group"
-version     = "1.0.0"
-description = "Bundle of four acclaimed emulations: Drumazon 2, Nepheton 2, Nithonat 2 and Phoscyon 2."
-category    = "instruments"
-subcategory = "percussion"
-license     = "commercial"
-tags        = []
-homepage    = "https://d16.pl/classicboxescollection"
-is_paid     = true
+slug         = "classic-boxes-collection"
+name         = "Classic Boxes Collection"
+vendor       = "D16 Group"
+version      = "1.0.0"
+description  = "Bundle of four acclaimed emulations: Drumazon 2, Nepheton 2, Nithonat 2 and Phoscyon 2."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "percussion"
+license      = "commercial"
+tags         = []
+homepage     = "https://d16.pl/classicboxescollection"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://d16.pl/classicboxescollection"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/classicboxescollection"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://d16.pl/classicboxescollection"
-sha256       = ""
-install_type = "zip"
+url           = "https://d16.pl/classicboxescollection"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

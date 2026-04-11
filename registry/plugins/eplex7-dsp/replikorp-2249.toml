@@ -1,25 +1,26 @@
-slug        = "replikorp-2249"
-name        = "Replikorp 2249"
-vendor      = "Eplex7 DSP"
-version     = "1.0.0"
-description = "Retro-futuristic instrument plugin with vintage sci-fi analog sounds and modular atmospheres."
-category    = "instruments"
-subcategory = "plugin"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.eplex7.com/replikorp-2249-plugin-retro-futuristic-instrument/"
-is_paid     = true
+slug         = "replikorp-2249"
+name         = "Replikorp 2249"
+vendor       = "Eplex7 DSP"
+version      = "1.0.0"
+description  = "Retro-futuristic instrument plugin with vintage sci-fi analog sounds and modular atmospheres."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.eplex7.com/replikorp-2249-plugin-retro-futuristic-instrument/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.eplex7.com/replikorp-2249-plugin-retro-futuristic-instrument/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eplex7.com/replikorp-2249-plugin-retro-futuristic-instrument/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.eplex7.com/replikorp-2249-plugin-retro-futuristic-instrument/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.eplex7.com/replikorp-2249-plugin-retro-futuristic-instrument/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

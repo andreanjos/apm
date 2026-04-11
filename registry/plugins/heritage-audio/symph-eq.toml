@@ -1,26 +1,27 @@
-slug        = "symph-eq"
-name        = "SYMPH EQ"
-vendor      = "Heritage Audio"
-version     = "1.0.0"
-description = "Stereo bus Baxandall EQ plugin delivering musical, broad-stroke tonal shaping."
-category    = "effects"
-subcategory = "eq"
-license     = "commercial"
-tags        = []
-homepage    = "https://users.heritageaudio.com/plugins/"
+slug         = "symph-eq"
+name         = "SYMPH EQ"
+vendor       = "Heritage Audio"
+version      = "1.0.0"
+description  = "Stereo bus Baxandall EQ plugin delivering musical, broad-stroke tonal shaping."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "eq"
+license      = "commercial"
+tags         = []
+homepage     = "https://users.heritageaudio.com/plugins/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14377-SYMPH-EQ?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://users.heritageaudio.com/plugins/"
-sha256       = ""
-install_type = "zip"
+url           = "https://users.heritageaudio.com/plugins/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://users.heritageaudio.com/plugins/"
-sha256       = ""
-install_type = "zip"
+url           = "https://users.heritageaudio.com/plugins/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

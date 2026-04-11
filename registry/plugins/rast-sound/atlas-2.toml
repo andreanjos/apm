@@ -1,25 +1,26 @@
-slug        = "atlas-2"
-name        = "Atlas 2"
-vendor      = "Rast Sound"
-version     = "2"
-description = "World music engine for Kontakt featuring 22 cultures with 2000+ samples and pattern-based playback."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://rastsound.com/downloads/atlas/"
-is_paid     = true
+slug         = "atlas-2"
+name         = "Atlas 2"
+vendor       = "Rast Sound"
+version      = "2"
+description  = "World music engine for Kontakt featuring 22 cultures with 2000+ samples and pattern-based playback."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://rastsound.com/downloads/atlas/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://rastsound.com/downloads/atlas/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/atlas/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://rastsound.com/downloads/atlas/"
-sha256       = ""
-install_type = "zip"
+url           = "https://rastsound.com/downloads/atlas/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

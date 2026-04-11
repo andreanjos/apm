@@ -1,26 +1,27 @@
-slug        = "hyperion-percussion-marimba"
-name        = "Hyperion Percussion Marimba"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Detailed Kontakt marimba library from the Hyperion Percussion series with rich wooden tones."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/hyperion-percussion-marimba"
+slug         = "hyperion-percussion-marimba"
+name         = "Hyperion Percussion Marimba"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Detailed Kontakt marimba library from the Hyperion Percussion series with rich wooden tones."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/hyperion-percussion-marimba"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/12347-Hyperion-Percussion-Marimba?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/hyperion-percussion-marimba"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/hyperion-percussion-marimba"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/hyperion-percussion-marimba"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/hyperion-percussion-marimba"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

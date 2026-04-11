@@ -1,26 +1,27 @@
-slug        = "grind"
-name        = "Grind"
-vendor      = "Audio Damage"
-version     = "1.0.0"
-description = "Multi-mode distortion plugin covering everything from subtle saturation to aggressive destruction."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiodamage.com/pages/free-and-legacy"
+slug         = "grind"
+name         = "Grind"
+vendor       = "Audio Damage"
+version      = "1.0.0"
+description  = "Multi-mode distortion plugin covering everything from subtle saturation to aggressive destruction."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.audiodamage.com/pages/free-and-legacy"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/5646-Grind?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiodamage.com/pages/free-and-legacy"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiodamage.com/pages/free-and-legacy"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiodamage.com/pages/free-and-legacy"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiodamage.com/pages/free-and-legacy"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

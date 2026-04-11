@@ -1,26 +1,27 @@
-slug        = "korg-sdd-3000-digital-delay"
-name        = "Korg® SDD-3000 Digital Delay"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the Korg SDD-3000 digital delay made famous by The Edge of U2."
-category    = "effects"
-subcategory = "delay"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/delays/korg-sdd-3000-digital-delay.html"
-is_paid     = true
+slug         = "korg-sdd-3000-digital-delay"
+name         = "Korg (R) SDD-3000 Digital Delay"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the Korg SDD-3000 digital delay made famous by The Edge of U2."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "delay"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/delays/korg-sdd-3000-digital-delay.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/delays/korg-sdd-3000-digital-delay.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/delays/korg-sdd-3000-digital-delay.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/delays/korg-sdd-3000-digital-delay.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/delays/korg-sdd-3000-digital-delay.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

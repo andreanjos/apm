@@ -1,26 +1,27 @@
-slug        = "choric"
-name        = "Choric"
-vendor      = "Caelum Audio"
-version     = "1.0.0"
-description = "Versatile chorus plugin delivering lush modulation with up to 32 voices for any audio source."
-category    = "effects"
-subcategory = "chorus"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.caelum-audio.com/"
+slug         = "choric"
+name         = "Choric"
+vendor       = "Caelum Audio"
+version      = "1.0.0"
+description  = "Versatile chorus plugin delivering lush modulation with up to 32 voices for any audio source."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "chorus"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.caelum-audio.com/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/10342-Choric?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.caelum-audio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.caelum-audio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.caelum-audio.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.caelum-audio.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

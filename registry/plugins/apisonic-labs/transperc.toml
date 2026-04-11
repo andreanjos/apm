@@ -1,26 +1,27 @@
-slug        = "transperc"
-name        = "Transperc"
-vendor      = "Apisonic Labs"
-version     = "1.0"
-description = "Transient shaper plugin by Apisonic Labs optimized for percussion attack and sustain control."
-category    = "effects"
-subcategory = "transient shaper"
-license     = "commercial"
-tags        = []
-homepage    = "https://apisoniclabs.com/transperc/"
+slug         = "transperc"
+name         = "Transperc"
+vendor       = "Apisonic Labs"
+version      = "1.0"
+description  = "Transient shaper plugin by Apisonic Labs optimized for percussion attack and sustain control."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "transient shaper"
+license      = "commercial"
+tags         = []
+homepage     = "https://apisoniclabs.com/transperc/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/8073-Transperc?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://apisoniclabs.com/transperc/"
-sha256       = ""
-install_type = "zip"
+url           = "https://apisoniclabs.com/transperc/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://apisoniclabs.com/transperc/"
-sha256       = ""
-install_type = "zip"
+url           = "https://apisoniclabs.com/transperc/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

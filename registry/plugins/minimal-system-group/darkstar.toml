@@ -1,26 +1,27 @@
-slug        = "darkstar"
-name        = "Darkstar"
-vendor      = "Minimal System Group"
-version     = "1.0.0"
-description = "Analogue-modelled synth with 4 oscillators, dual filter banks and full ADSR envelope controls."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/products/242-Darkstar"
+slug         = "darkstar"
+name         = "Darkstar"
+vendor       = "Minimal System Group"
+version      = "1.0.0"
+description  = "Analogue-modelled synth with 4 oscillators, dual filter banks and full ADSR envelope controls."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/products/242-Darkstar"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/242-Darkstar?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/products/242-Darkstar"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/products/242-Darkstar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/products/242-Darkstar"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/products/242-Darkstar"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

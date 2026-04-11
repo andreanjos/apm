@@ -1,24 +1,26 @@
-slug        = "click-boom-transient-designer-038-saturation"
-name        = "Click Boom Transient Designer &#038; Saturation"
-vendor      = "Swivel Audio"
-version     = "1.0"
-description = "Transient designer and saturation plugin combo by Swivel Audio for dynamic enhancement."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://swivelaudioplugins.com/"
-is_paid     = true
+slug         = "click-boom-transient-designer-038-saturation"
+name         = "Click Boom Transient Designer & Saturation"
+vendor       = "Swivel Audio"
+version      = "1.0"
+description  = "Transient designer and saturation plugin combo by Swivel Audio for dynamic enhancement."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+aliases      = ["click-boom-transient-designer-saturation"]
+homepage     = "https://swivelaudioplugins.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://swivelaudioplugins.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://swivelaudioplugins.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://swivelaudioplugins.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://swivelaudioplugins.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

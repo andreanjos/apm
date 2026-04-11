@@ -1,26 +1,28 @@
-slug        = "mix-master-yr"
-name        = "MIX & MASTER/yr"
-vendor      = "Plugin Alliance"
-version     = "1.0.0"
-description = "Annual MIX & MASTER subscription giving full access to Plugin Alliance's professional mixing and mastering plugins."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "plugin-alliance-installation-manager"
-homepage    = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-yearly.html"
-is_paid     = true
+slug         = "mix-master-yr"
+name         = "MIX & MASTER/yr"
+vendor       = "Plugin Alliance"
+version      = "1.0.0"
+description  = "Annual MIX & MASTER subscription giving full access to Plugin Alliance's professional mixing and mastering plugins."
+category     = "effects"
+product_type = "subscription"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["mix-038-master-yr"]
+installer    = "plugin-alliance-installation-manager"
+homepage     = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-yearly.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-yearly.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-yearly.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-yearly.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-yearly.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

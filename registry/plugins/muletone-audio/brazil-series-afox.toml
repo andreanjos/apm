@@ -1,25 +1,26 @@
-slug        = "brazil-series-afox"
-name        = "Brazil Series: Afoxé"
-vendor      = "Muletone Audio"
-version     = "1.4"
-description = "Kontakt library featuring two Afoxé recordings with single hits and traditional Brazilian rhythmic loops."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.muletoneaudio.com/afoxe/"
-is_paid     = true
+slug         = "brazil-series-afox"
+name         = "Brazil Series: Afoxé"
+vendor       = "Muletone Audio"
+version      = "1.4"
+description  = "Kontakt library featuring two Afoxé recordings with single hits and traditional Brazilian rhythmic loops."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.muletoneaudio.com/afoxe/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.muletoneaudio.com/afoxe/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/afoxe/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.muletoneaudio.com/afoxe/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.muletoneaudio.com/afoxe/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

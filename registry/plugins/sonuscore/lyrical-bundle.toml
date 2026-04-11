@@ -1,25 +1,26 @@
-slug        = "lyrical-bundle"
-name        = "Lyrical Bundle"
-vendor      = "Sonuscore"
-version     = "1.0.0"
-description = "Bundle of Lyrical Violin, Vocal, and Cello Phrases Kontakt instruments for emotional cinematic composition."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://sonuscore.com/shop/lyrical-bundle/"
-is_paid     = true
+slug         = "lyrical-bundle"
+name         = "Lyrical Bundle"
+vendor       = "Sonuscore"
+version      = "1.0.0"
+description  = "Bundle of Lyrical Violin, Vocal, and Cello Phrases Kontakt instruments for emotional cinematic composition."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://sonuscore.com/shop/lyrical-bundle/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://sonuscore.com/shop/lyrical-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/lyrical-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://sonuscore.com/shop/lyrical-bundle/"
-sha256       = ""
-install_type = "zip"
+url           = "https://sonuscore.com/shop/lyrical-bundle/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

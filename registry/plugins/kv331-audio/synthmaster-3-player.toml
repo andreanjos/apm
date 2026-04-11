@@ -1,26 +1,27 @@
-slug        = "synthmaster-3-player"
-name        = "SynthMaster 3 Player"
-vendor      = "KV331 Audio"
-version     = "3.4.9"
-description = "Preset-focused player version of SynthMaster 3 for exploring its modular synth engine without editing."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.kv331audio.com/synthmaster3.aspx"
+slug         = "synthmaster-3-player"
+name         = "SynthMaster 3 Player"
+vendor       = "KV331 Audio"
+version      = "3.4.9"
+description  = "Preset-focused player version of SynthMaster 3 for exploring its modular synth engine without editing."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.kv331audio.com/synthmaster3.aspx"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15899-SynthMaster-3-Player?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.kv331audio.com/synthmaster3.aspx"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kv331audio.com/synthmaster3.aspx"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.kv331audio.com/synthmaster3.aspx"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.kv331audio.com/synthmaster3.aspx"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

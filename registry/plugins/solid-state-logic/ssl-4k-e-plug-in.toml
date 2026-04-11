@@ -1,26 +1,27 @@
-slug        = "ssl-4k-e-plug-in"
-name        = "SSL 4K E Plug in"
-vendor      = "Solid State Logic"
-version     = "1.0.0"
-description = "Definitive emulation of the SSL 4000 E console channel strip, one of the most revered tools in recording history."
-category    = "effects"
-subcategory = "channel strip"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-4k-e"
+slug         = "ssl-4k-e-plug-in"
+name         = "SSL 4K E Plug in"
+vendor       = "Solid State Logic"
+version      = "1.0.0"
+description  = "Definitive emulation of the SSL 4000 E console channel strip, one of the most revered tools in recording history."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "channel strip"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.solidstatelogic.com/plug-ins/ssl-4k-e"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/11695-SSL-4K-E-Plug-in?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.solidstatelogic.com/plug-ins/ssl-4k-e"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/ssl-4k-e"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.solidstatelogic.com/plug-ins/ssl-4k-e"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/ssl-4k-e"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

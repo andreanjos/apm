@@ -1,25 +1,26 @@
-slug        = "stream"
-name        = "Stream"
-vendor      = "Delta Sound Labs"
-version     = "1.3"
-description = "Granular audio effect plugin for creating evolving textures, smeared sounds, and spatial atmospheres."
-category    = "effects"
-subcategory = "granular"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.deltasoundlabs.com/"
-is_paid     = true
+slug         = "stream"
+name         = "Stream"
+vendor       = "Delta Sound Labs"
+version      = "1.3"
+description  = "Granular audio effect plugin for creating evolving textures, smeared sounds, and spatial atmospheres."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "granular"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.deltasoundlabs.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.deltasoundlabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deltasoundlabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.deltasoundlabs.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.deltasoundlabs.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

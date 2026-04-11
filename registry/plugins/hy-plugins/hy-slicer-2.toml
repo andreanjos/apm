@@ -1,26 +1,27 @@
-slug        = "hy-slicer-2"
-name        = "HY Slicer 2"
-vendor      = "HY Plugins"
-version     = "1.0.0"
-description = "Sample slicer plugin with pattern chainer, built-in sampler, and effects section."
-category    = "instruments"
-subcategory = "sampler"
-license     = "commercial"
-tags        = []
-homepage    = "https://hy-plugins.com/product/hy-slicer2/"
+slug         = "hy-slicer-2"
+name         = "HY Slicer 2"
+vendor       = "HY Plugins"
+version      = "1.0.0"
+description  = "Sample slicer plugin with pattern chainer, built-in sampler, and effects section."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "sampler"
+license      = "commercial"
+tags         = []
+homepage     = "https://hy-plugins.com/product/hy-slicer2/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/7923-HY-Slicer-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hy-plugins.com/product/hy-slicer2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hy-plugins.com/product/hy-slicer2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hy-plugins.com/product/hy-slicer2/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hy-plugins.com/product/hy-slicer2/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

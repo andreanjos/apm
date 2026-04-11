@@ -1,24 +1,25 @@
-slug        = "cube-mini"
-name        = "CUBE Mini"
-vendor      = "Lunacy Audio"
-version     = "1.0.0"
-description = "Compact free version of Lunacy Audio's CUBE synth focusing on highest-impact features and sounds."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://lunacy.audio/products/cube-mini/"
-is_paid     = true
+slug         = "cube-mini"
+name         = "CUBE Mini"
+vendor       = "Lunacy Audio"
+version      = "1.0.0"
+description  = "Compact free version of Lunacy Audio's CUBE synth focusing on highest-impact features and sounds."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://lunacy.audio/products/cube-mini/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://lunacy.audio/products/cube-mini/"
-sha256       = ""
-install_type = "zip"
+url           = "https://lunacy.audio/products/cube-mini/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://lunacy.audio/products/cube-mini/"
-sha256       = ""
-install_type = "zip"
+url           = "https://lunacy.audio/products/cube-mini/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,25 +1,26 @@
-slug        = "karanyi-analogue-collection"
-name        = "Karanyi Analogue Collection"
-vendor      = "Karanyi Sounds"
-version     = "1.0"
-description = "Bundle of Karanyi Sounds analog synth Kontakt instruments with exceptional audio quality."
-category    = "instruments"
-subcategory = "bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://karanyisounds.com/"
-is_paid     = true
+slug         = "karanyi-analogue-collection"
+name         = "Karanyi Analogue Collection"
+vendor       = "Karanyi Sounds"
+version      = "1.0"
+description  = "Bundle of Karanyi Sounds analog synth Kontakt instruments with exceptional audio quality."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bundle"
+license      = "commercial"
+tags         = []
+homepage     = "https://karanyisounds.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://karanyisounds.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://karanyisounds.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://karanyisounds.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

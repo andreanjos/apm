@@ -1,26 +1,27 @@
-slug        = "neve-dynamics-collection"
-name        = "Neve Dynamics Collection"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Collection of UAD emulations of Neve console dynamics modules including 33609 and 2254."
-category    = "effects"
-subcategory = "compressor"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/neve-dynamics-collection.html"
-is_paid     = true
+slug         = "neve-dynamics-collection"
+name         = "Neve Dynamics Collection"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Collection of UAD emulations of Neve console dynamics modules including 33609 and 2254."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "compressor"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/compressors-limiters/neve-dynamics-collection.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/neve-dynamics-collection.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/neve-dynamics-collection.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/neve-dynamics-collection.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/compressors-limiters/neve-dynamics-collection.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

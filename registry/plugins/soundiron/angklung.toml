@@ -1,25 +1,26 @@
-slug        = "angklung"
-name        = "Angklung"
-vendor      = "Soundiron"
-version     = "1.0"
-description = "Detailed Kontakt sampling of the Indonesian angklung bamboo shaker instrument."
-category    = "instruments"
-subcategory = "ethnic"
-license     = "commercial"
-tags        = []
-homepage    = "https://soundiron.com/products/angklung"
-is_paid     = true
+slug         = "angklung"
+name         = "Angklung"
+vendor       = "Soundiron"
+version      = "1.0"
+description  = "Detailed Kontakt sampling of the Indonesian angklung bamboo shaker instrument."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "ethnic"
+license      = "commercial"
+tags         = []
+homepage     = "https://soundiron.com/products/angklung"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://soundiron.com/products/angklung"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/angklung"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://soundiron.com/products/angklung"
-sha256       = ""
-install_type = "zip"
+url           = "https://soundiron.com/products/angklung"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

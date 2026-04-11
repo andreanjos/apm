@@ -1,25 +1,26 @@
-slug        = "zom-zom"
-name        = "Zom Zom"
-vendor      = "Synth Magic"
-version     = "1.0.0"
-description = "Kontakt library of the Polymoog 280a delivering authentic warm analog Polymoog lushness and depth."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://synthmagic.co.uk/polycom-and-zom-zom/"
-is_paid     = true
+slug         = "zom-zom"
+name         = "Zom Zom"
+vendor       = "Synth Magic"
+version      = "1.0.0"
+description  = "Kontakt library of the Polymoog 280a delivering authentic warm analog Polymoog lushness and depth."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://synthmagic.co.uk/polycom-and-zom-zom/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synthmagic.co.uk/polycom-and-zom-zom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/polycom-and-zom-zom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synthmagic.co.uk/polycom-and-zom-zom/"
-sha256       = ""
-install_type = "zip"
+url           = "https://synthmagic.co.uk/polycom-and-zom-zom/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

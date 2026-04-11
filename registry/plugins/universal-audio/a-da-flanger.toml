@@ -1,26 +1,27 @@
-slug        = "a-da-flanger"
-name        = "A/DA Flanger"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Emulation of the iconic A/DA analog flanger pedal from the late 1970s."
-category    = "effects"
-subcategory = "flanger"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/modulation/a-da-flanger.html"
-is_paid     = true
+slug         = "a-da-flanger"
+name         = "A/DA Flanger"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Emulation of the iconic A/DA analog flanger pedal from the late 1970s."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "flanger"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/modulation/a-da-flanger.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/modulation/a-da-flanger.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/modulation/a-da-flanger.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/modulation/a-da-flanger.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/modulation/a-da-flanger.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

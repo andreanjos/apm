@@ -1,26 +1,27 @@
-slug        = "bass-focus"
-name        = "Bass Focus"
-vendor      = "Devious Machines"
-version     = "1.0.0"
-description = "Bass enhancer plugin for adding clarity, punch, and presence to low-end frequencies."
-category    = "effects"
-subcategory = "enhancer"
-license     = "commercial"
-tags        = []
-homepage    = "https://deviousmachines.com/product/bassfocus/"
+slug         = "bass-focus"
+name         = "Bass Focus"
+vendor       = "Devious Machines"
+version      = "1.0.0"
+description  = "Bass enhancer plugin for adding clarity, punch, and presence to low-end frequencies."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "enhancer"
+license      = "commercial"
+tags         = []
+homepage     = "https://deviousmachines.com/product/bassfocus/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/12335-Bass-Focus?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://deviousmachines.com/product/bassfocus/"
-sha256       = ""
-install_type = "zip"
+url           = "https://deviousmachines.com/product/bassfocus/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://deviousmachines.com/product/bassfocus/"
-sha256       = ""
-install_type = "zip"
+url           = "https://deviousmachines.com/product/bassfocus/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

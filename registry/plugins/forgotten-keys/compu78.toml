@@ -1,25 +1,26 @@
-slug        = "compu78"
-name        = "Compu78"
-vendor      = "Forgotten Keys"
-version     = "1.0.0"
-description = "Kontakt library simulating the sounds and rhythms of the Roland CR-78 vintage drum machine."
-category    = "instruments"
-subcategory = "electronic drums"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.forgottenkeys.co.uk/"
-is_paid     = true
+slug         = "compu78"
+name         = "Compu78"
+vendor       = "Forgotten Keys"
+version      = "1.0.0"
+description  = "Kontakt library simulating the sounds and rhythms of the Roland CR-78 vintage drum machine."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "electronic drums"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.forgottenkeys.co.uk/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.forgottenkeys.co.uk/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.forgottenkeys.co.uk/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.forgottenkeys.co.uk/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.forgottenkeys.co.uk/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

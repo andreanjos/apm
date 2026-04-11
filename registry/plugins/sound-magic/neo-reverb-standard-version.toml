@@ -1,24 +1,25 @@
-slug        = "neo-reverb-standard-version"
-name        = "Neo Reverb Standard Version"
-vendor      = "Sound Magic"
-version     = "1.0"
-description = "Sound Magic Neo Reverb combines convolution and algorithmic reverb for hybrid spatial effects."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://neovst.com/product/neo-reverb/"
-is_paid     = true
+slug         = "neo-reverb-standard-version"
+name         = "Neo Reverb Standard Version"
+vendor       = "Sound Magic"
+version      = "1.0"
+description  = "Sound Magic Neo Reverb combines convolution and algorithmic reverb for hybrid spatial effects."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://neovst.com/product/neo-reverb/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://neovst.com/product/neo-reverb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://neovst.com/product/neo-reverb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://neovst.com/product/neo-reverb/"
-sha256       = ""
-install_type = "zip"
+url           = "https://neovst.com/product/neo-reverb/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

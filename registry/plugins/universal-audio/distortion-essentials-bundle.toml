@@ -1,26 +1,27 @@
-slug        = "distortion-essentials-bundle"
-name        = "Distortion Essentials Bundle"
-vendor      = "Universal Audio"
-version     = "11.0"
-description = "Bundle of UAD distortion and overdrive plug-ins for guitar, bass, and mix saturation."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "ua-connect"
-homepage    = "https://www.uaudio.com/uad-plugins/bundles/distortion-essentials-bundle.html"
-is_paid     = true
+slug         = "distortion-essentials-bundle"
+name         = "Distortion Essentials Bundle"
+vendor       = "Universal Audio"
+version      = "11.0"
+description  = "Bundle of UAD distortion and overdrive plug-ins for guitar, bass, and mix saturation."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "ua-connect"
+homepage     = "https://www.uaudio.com/uad-plugins/bundles/distortion-essentials-bundle.html"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.uaudio.com/uad-plugins/bundles/distortion-essentials-bundle.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/bundles/distortion-essentials-bundle.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.uaudio.com/uad-plugins/bundles/distortion-essentials-bundle.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.uaudio.com/uad-plugins/bundles/distortion-essentials-bundle.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

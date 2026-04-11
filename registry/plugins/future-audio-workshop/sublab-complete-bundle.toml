@@ -1,25 +1,26 @@
-slug        = "sublab-complete-bundle"
-name        = "SubLab Complete Bundle"
-vendor      = "Future Audio Workshop"
-version     = "1.0.0"
-description = "Complete SubLab bundle including SubLab and all available bass expansion packs."
-category    = "instruments"
-subcategory = "bass"
-license     = "commercial"
-tags        = []
-homepage    = "https://futureaudioworkshop.com/product/sublab-xl/"
-is_paid     = true
+slug         = "sublab-complete-bundle"
+name         = "SubLab Complete Bundle"
+vendor       = "Future Audio Workshop"
+version      = "1.0.0"
+description  = "Complete SubLab bundle including SubLab and all available bass expansion packs."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "bass"
+license      = "commercial"
+tags         = []
+homepage     = "https://futureaudioworkshop.com/product/sublab-xl/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://futureaudioworkshop.com/product/sublab-xl/"
-sha256       = ""
-install_type = "zip"
+url           = "https://futureaudioworkshop.com/product/sublab-xl/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://futureaudioworkshop.com/product/sublab-xl/"
-sha256       = ""
-install_type = "zip"
+url           = "https://futureaudioworkshop.com/product/sublab-xl/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

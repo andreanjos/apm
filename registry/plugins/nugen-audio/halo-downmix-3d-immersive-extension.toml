@@ -1,26 +1,27 @@
-slug        = "halo-downmix-3d-immersive-extension"
-name        = "Halo Downmix 3D Immersive Extension"
-vendor      = "NUGEN Audio"
-version     = "1.0.0"
-description = "A 3D immersive extension for Halo Downmix adding Dolby Atmos and immersive audio downmix support."
-category    = "effects"
-subcategory = "surround tools"
-license     = "commercial"
-tags        = []
-homepage    = "https://nugenaudio.com/halodownmix/"
+slug         = "halo-downmix-3d-immersive-extension"
+name         = "Halo Downmix 3D Immersive Extension"
+vendor       = "NUGEN Audio"
+version      = "1.0.0"
+description  = "A 3D immersive extension for Halo Downmix adding Dolby Atmos and immersive audio downmix support."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "surround tools"
+license      = "commercial"
+tags         = []
+homepage     = "https://nugenaudio.com/halodownmix/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/38-Surround-Tools/4483-Halo-Downmix-3D-Immersive-Extension?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://nugenaudio.com/halodownmix/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/halodownmix/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://nugenaudio.com/halodownmix/"
-sha256       = ""
-install_type = "zip"
+url           = "https://nugenaudio.com/halodownmix/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

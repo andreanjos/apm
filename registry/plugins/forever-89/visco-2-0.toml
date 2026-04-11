@@ -1,26 +1,27 @@
-slug        = "visco-2-0"
-name        = "Visco 2 0"
-vendor      = "Forever 89"
-version     = "2.0"
-description = "Viscous-style drum machine plugin by Forever 89 with analog-modeled rhythmic synthesis."
-category    = "instruments"
-subcategory = "drum machine"
-license     = "commercial"
-tags        = []
-homepage    = "https://forever89.com/"
+slug         = "visco-2-0"
+name         = "Visco 2 0"
+vendor       = "Forever 89"
+version      = "2.0"
+description  = "Viscous-style drum machine plugin by Forever 89 with analog-modeled rhythmic synthesis."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "drum machine"
+license      = "commercial"
+tags         = []
+homepage     = "https://forever89.com/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/12201-Visco-2-0?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://forever89.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://forever89.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://forever89.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://forever89.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

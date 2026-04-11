@@ -1,25 +1,26 @@
-slug        = "synth-stack-2"
-name        = "Synth Stack 2"
-vendor      = "Cherry Audio"
-version     = "1.0.0"
-description = "Bundle collection of multiple Cherry Audio synthesizer plugins at a discounted price."
-category    = "instruments"
-subcategory = "synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://cherryaudio.com/products"
-is_paid     = true
+slug         = "synth-stack-2"
+name         = "Synth Stack 2"
+vendor       = "Cherry Audio"
+version      = "1.0.0"
+description  = "Bundle collection of multiple Cherry Audio synthesizer plugins at a discounted price."
+category     = "instruments"
+product_type = "bundle"
+subcategory  = "synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://cherryaudio.com/products"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://cherryaudio.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://cherryaudio.com/products"
-sha256       = ""
-install_type = "zip"
+url           = "https://cherryaudio.com/products"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

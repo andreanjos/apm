@@ -1,25 +1,26 @@
-slug        = "futzbox-native-v7"
-name        = "FutzBox Native v7"
-vendor      = "McDSP"
-version     = "7.0"
-description = "Native v7 of McDSP FutzBox, a distortion and noise generator for lo-fi audio degradation effects."
-category    = "effects"
-subcategory = "distortion"
-license     = "commercial"
-tags        = []
-homepage    = "https://mcdsp.com/plugin-index/futzbox/"
-is_paid     = true
+slug         = "futzbox-native-v7"
+name         = "FutzBox Native v7"
+vendor       = "McDSP"
+version      = "7.0"
+description  = "Native v7 of McDSP FutzBox, a distortion and noise generator for lo-fi audio degradation effects."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "distortion"
+license      = "commercial"
+tags         = []
+homepage     = "https://mcdsp.com/plugin-index/futzbox/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://mcdsp.com/plugin-index/futzbox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/futzbox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://mcdsp.com/plugin-index/futzbox/"
-sha256       = ""
-install_type = "zip"
+url           = "https://mcdsp.com/plugin-index/futzbox/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

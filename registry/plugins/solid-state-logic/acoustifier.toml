@@ -1,26 +1,27 @@
-slug        = "acoustifier"
-name        = "Acoustifier"
-vendor      = "Solid State Logic"
-version     = "1.0.0"
-description = "D.I.-to-mic simulation plugin that transforms acoustic guitar direct input into studio-quality recordings."
-category    = "effects"
-subcategory = "multi effect"
-license     = "commercial"
-tags        = []
-homepage    = "https://store.solidstatelogic.com/plug-ins/acoustifier"
+slug         = "acoustifier"
+name         = "Acoustifier"
+vendor       = "Solid State Logic"
+version      = "1.0.0"
+description  = "D.I.-to-mic simulation plugin that transforms acoustic guitar direct input into studio-quality recordings."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "multi effect"
+license      = "commercial"
+tags         = []
+homepage     = "https://store.solidstatelogic.com/plug-ins/acoustifier"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/16250-Acoustifier?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://store.solidstatelogic.com/plug-ins/acoustifier"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/acoustifier"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://store.solidstatelogic.com/plug-ins/acoustifier"
-sha256       = ""
-install_type = "zip"
+url           = "https://store.solidstatelogic.com/plug-ins/acoustifier"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

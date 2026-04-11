@@ -1,26 +1,27 @@
-slug        = "nuendo-15-update-from-nuendo-14"
-name        = "Nuendo 15 Update from Nuendo 14"
-vendor      = "Steinberg"
-version     = "15"
-description = "Paid update to Nuendo 15 professional post-production DAW from Nuendo 14 with 35+ new features."
-category    = "utility"
-subcategory = "daw"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.steinberg.net/nuendo/"
+slug         = "nuendo-15-update-from-nuendo-14"
+name         = "Nuendo 15 Update from Nuendo 14"
+vendor       = "Steinberg"
+version      = "15"
+description  = "Paid update to Nuendo 15 professional post-production DAW from Nuendo 14 with 35+ new features."
+category     = "utility"
+product_type = "utility"
+subcategory  = "daw"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.steinberg.net/nuendo/"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/17081-Nuendo-15-Update-from-Nuendo-14?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.steinberg.net/nuendo/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/nuendo/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.steinberg.net/nuendo/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.steinberg.net/nuendo/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

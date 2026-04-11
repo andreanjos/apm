@@ -1,26 +1,27 @@
-slug        = "evolution-devastator-deathmatch"
-name        = "Evolution Devastator Deathmatch"
-vendor      = "Keepforest"
-version     = "1.0.0"
-description = "Keepforest cinematic Kontakt library with aggressive sound design SFX for trailer and game scoring."
-category    = "instruments"
-subcategory = "kontakt instrument"
-license     = "commercial"
-tags        = []
-homepage    = "https://keep-forest.com/store/libraries/225300"
+slug         = "evolution-devastator-deathmatch"
+name         = "Evolution Devastator Deathmatch"
+vendor       = "Keepforest"
+version      = "1.0.0"
+description  = "Keepforest cinematic Kontakt library with aggressive sound design SFX for trailer and game scoring."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt instrument"
+license      = "commercial"
+tags         = []
+homepage     = "https://keep-forest.com/store/libraries/225300"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7790-Evolution-Devastator-Deathmatch?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://keep-forest.com/store/libraries/225300"
-sha256       = ""
-install_type = "zip"
+url           = "https://keep-forest.com/store/libraries/225300"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://keep-forest.com/store/libraries/225300"
-sha256       = ""
-install_type = "zip"
+url           = "https://keep-forest.com/store/libraries/225300"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

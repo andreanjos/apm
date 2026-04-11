@@ -1,26 +1,27 @@
-slug        = "tonex-metal-gems"
-name        = "Tonex Metal Gems"
-vendor      = "IK Multimedia"
-version     = "1.0"
-description = "TONEX Signature Collection with 100 high-gain Tone Models from a Peavey 5150, Diezel, Soldano, and Bogner."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.ikmultimedia.com/products/tonex-metal-gems/"
+slug         = "tonex-metal-gems"
+name         = "Tonex Metal Gems"
+vendor       = "IK Multimedia"
+version      = "1.0"
+description  = "TONEX Signature Collection with 100 high-gain Tone Models from a Peavey 5150, Diezel, Soldano, and Bogner."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.ikmultimedia.com/products/tonex-metal-gems/"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/13421-Tonex-Metal-Gems?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.ikmultimedia.com/products/tonex-metal-gems/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/tonex-metal-gems/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.ikmultimedia.com/products/tonex-metal-gems/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.ikmultimedia.com/products/tonex-metal-gems/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

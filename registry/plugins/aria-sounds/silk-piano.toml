@@ -1,25 +1,26 @@
-slug        = "silk-piano"
-name        = "Silk Piano"
-vendor      = "Aria Sounds"
-version     = "1.0.0"
-description = "Warm and lush Fazioli concert grand piano Kontakt library with a silky, intimate tone."
-category    = "instruments"
-subcategory = "kontakt full"
-license     = "commercial"
-tags        = []
-homepage    = "https://ariasounds.com/product/silk-piano/"
-is_paid     = true
+slug         = "silk-piano"
+name         = "Silk Piano"
+vendor       = "Aria Sounds"
+version      = "1.0.0"
+description  = "Warm and lush Fazioli concert grand piano Kontakt library with a silky, intimate tone."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "kontakt full"
+license      = "commercial"
+tags         = []
+homepage     = "https://ariasounds.com/product/silk-piano/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://ariasounds.com/product/silk-piano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/silk-piano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://ariasounds.com/product/silk-piano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://ariasounds.com/product/silk-piano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

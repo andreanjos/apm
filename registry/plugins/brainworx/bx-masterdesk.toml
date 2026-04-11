@@ -1,26 +1,27 @@
-slug        = "bx-masterdesk"
-name        = "bx masterdesk"
-vendor      = "Brainworx"
-version     = "1.0.0"
-description = "Single-plugin high-end analog mastering system for professional results with a minimal learning curve."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.plugin-alliance.com/en/products/bx_masterdesk.html"
+slug         = "bx-masterdesk"
+name         = "bx masterdesk"
+vendor       = "Brainworx"
+version      = "1.0.0"
+description  = "Single-plugin high-end analog mastering system for professional results with a minimal learning curve."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.plugin-alliance.com/en/products/bx_masterdesk.html"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/10269-bx-masterdesk?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.plugin-alliance.com/en/products/bx_masterdesk.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/bx_masterdesk.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.plugin-alliance.com/en/products/bx_masterdesk.html"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.plugin-alliance.com/en/products/bx_masterdesk.html"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

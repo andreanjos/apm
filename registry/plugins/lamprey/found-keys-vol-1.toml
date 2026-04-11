@@ -1,25 +1,26 @@
-slug        = "found-keys-vol-1"
-name        = "Found Keys Vol 1"
-vendor      = "Lamprey"
-version     = "1.0.0"
-description = "Kontakt instrument of processed discovered recordings turned into a playable melodic keyboard."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-homepage    = "https://iamlamprey.com/"
-is_paid     = true
+slug         = "found-keys-vol-1"
+name         = "Found Keys Vol 1"
+vendor       = "Lamprey"
+version      = "1.0.0"
+description  = "Kontakt instrument of processed discovered recordings turned into a playable melodic keyboard."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+homepage     = "https://iamlamprey.com/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://iamlamprey.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://iamlamprey.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://iamlamprey.com/"
-sha256       = ""
-install_type = "zip"
+url           = "https://iamlamprey.com/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

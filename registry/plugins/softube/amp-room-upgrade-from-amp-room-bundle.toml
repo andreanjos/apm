@@ -1,26 +1,27 @@
-slug        = "amp-room-upgrade-from-amp-room-bundle"
-name        = "Amp Room Upgrade from Amp Room Bundle"
-vendor      = "Softube"
-version     = "2.6"
-description = "Upgrade path to full Amp Room from the legacy Amp Room Bundle, adding amps, cabs, and effects."
-category    = "effects"
-subcategory = "amp simulator"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/amp-room"
-is_paid     = true
+slug         = "amp-room-upgrade-from-amp-room-bundle"
+name         = "Amp Room Upgrade from Amp Room Bundle"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Upgrade path to full Amp Room from the legacy Amp Room Bundle, adding amps, cabs, and effects."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "amp simulator"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/amp-room"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/amp-room"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/amp-room"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/amp-room"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/amp-room"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

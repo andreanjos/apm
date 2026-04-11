@@ -1,26 +1,27 @@
-slug        = "hans-zimmer-piano"
-name        = "Hans Zimmer Piano"
-vendor      = "Spitfire Audio"
-version     = "1.0"
-description = "The ultimate piano library by Hans Zimmer, featuring the grand piano at Lyndhurst Hall at AIR Studios."
-category    = "instruments"
-subcategory = "keys"
-license     = "commercial"
-tags        = []
-installer   = "spitfire-audio"
-homepage    = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-piano/"
-is_paid     = true
+slug         = "hans-zimmer-piano"
+name         = "Hans Zimmer Piano"
+vendor       = "Spitfire Audio"
+version      = "1.0"
+description  = "The ultimate piano library by Hans Zimmer, featuring the grand piano at Lyndhurst Hall at AIR Studios."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "keys"
+license      = "commercial"
+tags         = []
+installer    = "spitfire-audio"
+homepage     = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-piano/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-piano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-piano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-piano/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-piano/"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

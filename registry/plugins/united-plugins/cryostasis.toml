@@ -1,24 +1,25 @@
-slug        = "cryostasis"
-name        = "Cryostasis"
-vendor      = "United Plugins"
-version     = "1.0.0"
-description = "Spectral inertia plugin that progressively freezes audio with pitch shifting, bit reduction, and wash effects."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://unitedplugins.com/Cryostasis/"
-is_paid     = true
+slug         = "cryostasis"
+name         = "Cryostasis"
+vendor       = "United Plugins"
+version      = "1.0.0"
+description  = "Spectral inertia plugin that progressively freezes audio with pitch shifting, bit reduction, and wash effects."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://unitedplugins.com/Cryostasis/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://unitedplugins.com/Cryostasis/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/Cryostasis/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://unitedplugins.com/Cryostasis/"
-sha256       = ""
-install_type = "zip"
+url           = "https://unitedplugins.com/Cryostasis/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

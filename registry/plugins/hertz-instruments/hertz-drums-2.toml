@@ -1,26 +1,27 @@
-slug        = "hertz-drums-2"
-name        = "Hertz Drums 2"
-vendor      = "Hertz Instruments"
-version     = "2.0"
-description = "Virtual drum plugin and replacement tool with customizable kit, sampler, and MIDI groove player."
-category    = "instruments"
-subcategory = "virtual instruments"
-license     = "commercial"
-tags        = []
-homepage    = "https://hertzinstruments.com/plugins/hertz-drums-standart-plugin/"
+slug         = "hertz-drums-2"
+name         = "Hertz Drums 2"
+vendor       = "Hertz Instruments"
+version      = "2.0"
+description  = "Virtual drum plugin and replacement tool with customizable kit, sampler, and MIDI groove player."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "virtual instruments"
+license      = "commercial"
+tags         = []
+homepage     = "https://hertzinstruments.com/plugins/hertz-drums-standart-plugin/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/13278-Hertz-Drums-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://hertzinstruments.com/plugins/hertz-drums-standart-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/plugins/hertz-drums-standart-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://hertzinstruments.com/plugins/hertz-drums-standart-plugin/"
-sha256       = ""
-install_type = "zip"
+url           = "https://hertzinstruments.com/plugins/hertz-drums-standart-plugin/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

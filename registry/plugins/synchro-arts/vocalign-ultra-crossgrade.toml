@@ -1,24 +1,25 @@
-slug        = "vocalign-ultra-crossgrade"
-name        = "VocALign Ultra Crossgrade"
-vendor      = "Synchro Arts"
-version     = "1.0.0"
-description = "Crossgrade license to VocAlign Ultra for users of qualifying Synchro Arts products."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://synchroarts.com/products/vocalign-pro"
-is_paid     = true
+slug         = "vocalign-ultra-crossgrade"
+name         = "VocALign Ultra Crossgrade"
+vendor       = "Synchro Arts"
+version      = "1.0.0"
+description  = "Crossgrade license to VocAlign Ultra for users of qualifying Synchro Arts products."
+category     = "effects"
+product_type = "upgrade"
+license      = "commercial"
+tags         = []
+homepage     = "https://synchroarts.com/products/vocalign-pro"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://synchroarts.com/products/vocalign-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://synchroarts.com/products/vocalign-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://synchroarts.com/products/vocalign-pro"
-sha256       = ""
-install_type = "zip"
+url           = "https://synchroarts.com/products/vocalign-pro"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

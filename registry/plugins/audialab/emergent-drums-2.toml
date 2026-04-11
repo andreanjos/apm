@@ -1,26 +1,27 @@
-slug        = "emergent-drums-2"
-name        = "Emergent Drums 2"
-vendor      = "Audialab"
-version     = "2.0"
-description = "Audialab Emergent Drums 2 uses AI to generate unique royalty-free drum samples on demand."
-category    = "instruments"
-subcategory = "drum synth"
-license     = "commercial"
-tags        = []
-homepage    = "https://audialab.com/emergent-drums/"
+slug         = "emergent-drums-2"
+name         = "Emergent Drums 2"
+vendor       = "Audialab"
+version      = "2.0"
+description  = "Audialab Emergent Drums 2 uses AI to generate unique royalty-free drum samples on demand."
+category     = "instruments"
+product_type = "sample_library"
+subcategory  = "drum synth"
+license      = "commercial"
+tags         = []
+homepage     = "https://audialab.com/emergent-drums/"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/139-Drum-Synth/11378-Emergent-Drums-2?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audialab.com/emergent-drums/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audialab.com/emergent-drums/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audialab.com/emergent-drums/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audialab.com/emergent-drums/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

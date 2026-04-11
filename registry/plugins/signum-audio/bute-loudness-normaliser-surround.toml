@@ -1,26 +1,27 @@
-slug        = "bute-loudness-normaliser-surround"
-name        = "BUTE Loudness Normaliser Surround"
-vendor      = "Signum Audio"
-version     = "1.0.0"
-description = "Surround AudioSuite loudness normaliser for Pro Tools supporting multichannel broadcast delivery specs."
-category    = "effects"
-subcategory = "mastering"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.signumaudio.com/bute-loudness-suite"
+slug         = "bute-loudness-normaliser-surround"
+name         = "BUTE Loudness Normaliser Surround"
+vendor       = "Signum Audio"
+version      = "1.0.0"
+description  = "Surround AudioSuite loudness normaliser for Pro Tools supporting multichannel broadcast delivery specs."
+category     = "effects"
+product_type = "plugin"
+subcategory  = "mastering"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.signumaudio.com/bute-loudness-suite"
 purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/5197-BUTE-Loudness-Normaliser-Surround-?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.signumaudio.com/bute-loudness-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.signumaudio.com/bute-loudness-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.signumaudio.com/bute-loudness-suite"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.signumaudio.com/bute-loudness-suite"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,24 +1,25 @@
-slug        = "tonespot-bass-express"
-name        = "ToneSpot Bass Express"
-vendor      = "Audified"
-version     = "1.0.0"
-description = "Bass mixing plugin with 134 presets covering rock, jazz, electronic, and genre-specific bass techniques."
-category    = "effects"
-license     = "commercial"
-tags        = []
-homepage    = "https://audified.com/products/tonespot-bass-express/"
-is_paid     = true
+slug         = "tonespot-bass-express"
+name         = "ToneSpot Bass Express"
+vendor       = "Audified"
+version      = "1.0.0"
+description  = "Bass mixing plugin with 134 presets covering rock, jazz, electronic, and genre-specific bass techniques."
+category     = "effects"
+product_type = "plugin"
+license      = "commercial"
+tags         = []
+homepage     = "https://audified.com/products/tonespot-bass-express/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://audified.com/products/tonespot-bass-express/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/tonespot-bass-express/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://audified.com/products/tonespot-bass-express/"
-sha256       = ""
-install_type = "zip"
+url           = "https://audified.com/products/tonespot-bass-express/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

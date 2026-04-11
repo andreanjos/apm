@@ -1,25 +1,27 @@
-slug        = "minibit-miniverb-bundle"
-name        = "miniBit & miniVerb Bundle"
-vendor      = "AudioThing"
-version     = "1.0.0"
-description = "Bundle combining the miniBit chiptune synthesizer and miniVerb compact reverb effect plugins."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.audiothing.net/effects/"
-is_paid     = true
+slug         = "minibit-miniverb-bundle"
+name         = "miniBit & miniVerb Bundle"
+vendor       = "AudioThing"
+version      = "1.0.0"
+description  = "Bundle combining the miniBit chiptune synthesizer and miniVerb compact reverb effect plugins."
+category     = "effects"
+product_type = "bundle"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+aliases      = ["minibit-038-miniverb-bundle"]
+homepage     = "https://www.audiothing.net/effects/"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.audiothing.net/effects/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.audiothing.net/effects/"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.audiothing.net/effects/"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

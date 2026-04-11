@@ -1,26 +1,27 @@
-slug        = "tube-tech-collection-upgrade-from-classic-channel-2"
-name        = "Tube-Tech Collection Upgrade from Classic Channel 2"
-vendor      = "Softube"
-version     = "2.6"
-description = "Upgrade to the full Tube-Tech Collection from the Classic Channel 2 channel strip bundle."
-category    = "effects"
-subcategory = "fx plugin bundle"
-license     = "commercial"
-tags        = []
-installer   = "softube-central"
-homepage    = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
-is_paid     = true
+slug         = "tube-tech-collection-upgrade-from-classic-channel-2"
+name         = "Tube-Tech Collection Upgrade from Classic Channel 2"
+vendor       = "Softube"
+version      = "2.6"
+description  = "Upgrade to the full Tube-Tech Collection from the Classic Channel 2 channel strip bundle."
+category     = "effects"
+product_type = "upgrade"
+subcategory  = "fx plugin bundle"
+license      = "commercial"
+tags         = []
+installer    = "softube-central"
+homepage     = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
+sha256        = ""
+install_type  = "zip"
 download_type = "managed"
-bundle_path  = ""
+bundle_path   = ""

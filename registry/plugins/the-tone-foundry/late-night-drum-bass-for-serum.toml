@@ -1,26 +1,27 @@
-slug        = "late-night-drum-bass-for-serum"
-name        = "Late Night Drum Bass for Serum"
-vendor      = "The Tone Foundry"
-version     = "1.0.0"
-description = "Serum presets inspired by DnB artists like Bou, Enei, Levela, and S.P.Y for late-night DnB production."
-category    = "instruments"
-subcategory = "synth presets"
-license     = "commercial"
-tags        = []
-homepage    = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11598-Late-Night-Drum-Bass-for-Serum"
+slug         = "late-night-drum-bass-for-serum"
+name         = "Late Night Drum Bass for Serum"
+vendor       = "The Tone Foundry"
+version      = "1.0.0"
+description  = "Serum presets inspired by DnB artists like Bou, Enei, Levela, and S.P.Y for late-night DnB production."
+category     = "instruments"
+product_type = "plugin"
+subcategory  = "synth presets"
+license      = "commercial"
+tags         = []
+homepage     = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11598-Late-Night-Drum-Bass-for-Serum"
 purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11598-Late-Night-Drum-Bass-for-Serum?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11598-Late-Night-Drum-Bass-for-Serum"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11598-Late-Night-Drum-Bass-for-Serum"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11598-Late-Night-Drum-Bass-for-Serum"
-sha256       = ""
-install_type = "zip"
+url           = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11598-Late-Night-Drum-Bass-for-Serum"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""

@@ -1,26 +1,27 @@
-slug        = "brusfri"
-name        = "Brusfri"
-vendor      = "Klevgrand"
-version     = "1.1"
-description = "An advanced noise reducer using multiple fine-tuned gates to clean recordings without phase issues."
-category    = "utility"
-subcategory = "audio restoration"
-license     = "commercial"
-tags        = []
-homepage    = "https://klevgrand.com/products/brusfri"
+slug         = "brusfri"
+name         = "Brusfri"
+vendor       = "Klevgrand"
+version      = "1.1"
+description  = "An advanced noise reducer using multiple fine-tuned gates to clean recordings without phase issues."
+category     = "utility"
+product_type = "utility"
+subcategory  = "audio restoration"
+license      = "commercial"
+tags         = []
+homepage     = "https://klevgrand.com/products/brusfri"
 purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/8694-Brusfri?a_aid=69d5e87c5f2e9"
-is_paid     = true
+is_paid      = true
 
 [formats.vst3]
-url          = "https://klevgrand.com/products/brusfri"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/brusfri"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
 
 [formats.au]
-url          = "https://klevgrand.com/products/brusfri"
-sha256       = ""
-install_type = "zip"
+url           = "https://klevgrand.com/products/brusfri"
+sha256        = ""
+install_type  = "zip"
 download_type = "manual"
-bundle_path  = ""
+bundle_path   = ""
