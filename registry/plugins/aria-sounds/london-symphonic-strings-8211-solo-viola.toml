@@ -1,0 +1,25 @@
+slug        = "london-symphonic-strings-8211-solo-viola"
+name        = "London Symphonic Strings &#8211; Solo Viola"
+vendor      = "Aria Sounds"
+version     = "1.0.0"
+description = "Deeply recorded solo viola Kontakt instrument with true legato and multiple mic perspectives."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://ariasounds.com/product/lss-solo-viola/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://ariasounds.com/product/lss-solo-viola/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://ariasounds.com/product/lss-solo-viola/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

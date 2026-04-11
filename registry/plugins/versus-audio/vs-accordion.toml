@@ -1,0 +1,25 @@
+slug        = "vs-accordion"
+name        = "Vs Accordion"
+vendor      = "Versus Audio"
+version     = "1.0.0"
+description = "Detailed accordion Kontakt instrument with a 4-octave range and 32 bass buttons."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://versusaudio.com/?product=vs_accordion&lng=en"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://versusaudio.com/?product=vs_accordion&lng=en"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://versusaudio.com/?product=vs_accordion&lng=en"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

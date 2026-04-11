@@ -1,0 +1,26 @@
+slug        = "valley-people-dyna-mite"
+name        = "Valley People Dyna-mite™"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Valley People Dyna-mite expander/gate/compressor/limiter utility processor."
+category    = "effects"
+subcategory = "dynamic processor"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/dynamics/valley-people-dyna-mite.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/dynamics/valley-people-dyna-mite.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/dynamics/valley-people-dyna-mite.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

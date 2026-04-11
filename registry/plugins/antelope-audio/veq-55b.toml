@@ -1,0 +1,26 @@
+slug        = "veq-55b"
+name        = "VEQ 55B"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Three-band EQ plugin emulating the API 550B console equalizer for punchy, musical tone shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/veq-55b/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/16101-VEQ-55B?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/veq-55b/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/veq-55b/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

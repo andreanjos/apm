@@ -1,0 +1,25 @@
+slug        = "voxformer"
+name        = "Voxformer"
+vendor      = "Voxengo"
+version     = "2.22"
+description = "Multi-functional vocal channel strip plugin combining compression, EQ, de-essing, and saturation."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/voxformer/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/voxformer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/voxformer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

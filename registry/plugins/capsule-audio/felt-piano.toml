@@ -1,0 +1,25 @@
+slug        = "felt-piano"
+name        = "Felt Piano"
+vendor      = "Capsule Audio"
+version     = "1.0.0"
+description = "Capsule intimate felt piano library recorded with felt muting the strings for a soft, cinematic tone."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.capsule.audio/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "springer"
+name        = "Springer"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Vintage spring reverb emulation with a fresh take on classic studio spring reverb character."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/springer/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/16070-Springer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/springer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/springer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

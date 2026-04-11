@@ -1,0 +1,25 @@
+slug        = "gate"
+name        = "Gate"
+vendor      = "Kilohearts"
+version     = "2.4.6"
+description = "Noise gate Snapin that mutes audio below a set threshold to reduce unwanted noise."
+category    = "effects"
+subcategory = "gate"
+license     = "commercial"
+tags        = []
+homepage    = "https://kilohearts.com/products/gate"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://kilohearts.com/products/gate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://kilohearts.com/products/gate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

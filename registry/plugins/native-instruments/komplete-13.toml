@@ -1,0 +1,26 @@
+slug        = "komplete-13"
+name        = "Komplete 13"
+vendor      = "Native Instruments"
+version     = "13"
+description = "Flagship music production bundle with over 200 instruments and effects from Native Instruments."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-13/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-13/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-13/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

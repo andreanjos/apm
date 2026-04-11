@@ -1,0 +1,26 @@
+slug        = "adaptiverb"
+name        = "ADAPTIVERB"
+vendor      = "Zynaptiq"
+version     = "1.4.0"
+description = "Reflectionless reverb plugin using harmonic tracking resynthesis and ray-tracing for natural depth."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.zynaptiq.com/adaptiverb/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/2710-ADAPTIVERB?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.zynaptiq.com/adaptiverb/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.zynaptiq.com/adaptiverb/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

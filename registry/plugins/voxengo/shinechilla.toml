@@ -1,0 +1,25 @@
+slug        = "shinechilla"
+name        = "Shinechilla"
+vendor      = "Voxengo"
+version     = "1.5"
+description = "Spectral saturation plugin that adds brightness and harmonic excitement to audio material."
+category    = "effects"
+subcategory = "exciter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/shinechilla/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/shinechilla/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/shinechilla/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "blue-tubes-deesser-ds-2s"
+name        = "Blue Tubes Deesser DS-2S"
+vendor      = "Nomad Factory"
+version     = "1.0.0"
+description = "De-esser plugin from the Blue Tubes series for controlling harsh sibilance in vocal recordings."
+category    = "effects"
+subcategory = "de-esser"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.nomadfactory.com/products/p422-Blue-Tubes-Deesser-DS2S/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.nomadfactory.com/products/p422-Blue-Tubes-Deesser-DS2S/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.nomadfactory.com/products/p422-Blue-Tubes-Deesser-DS2S/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

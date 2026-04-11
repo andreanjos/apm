@@ -1,0 +1,26 @@
+slug        = "omnitec-67a"
+name        = "OmniTec 67A"
+vendor      = "Black Rooster Audio"
+version     = "3.0.0"
+description = "Vintage tube preamp inspired by the Altec 1567A for warm, harmonically rich signal coloration."
+category    = "effects"
+subcategory = "preamp"
+license     = "commercial"
+tags        = []
+homepage    = "https://blackroosteraudio.com/en/products/omnitec_67a"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/11350-OmniTec-67A?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://blackroosteraudio.com/en/products/omnitec_67a"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://blackroosteraudio.com/en/products/omnitec_67a"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

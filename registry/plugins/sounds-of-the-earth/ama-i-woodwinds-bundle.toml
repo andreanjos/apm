@@ -1,0 +1,26 @@
+slug        = "ama-i-woodwinds-bundle"
+name        = "AMA I Woodwinds Bundle"
+vendor      = "Sounds of the Earth"
+version     = "1.0.0"
+description = "Bundle of Amazonian woodwind instruments including flutes and pan-pipe-style instruments for Kontakt."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsoftheearth.com/woodwinds"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7735-AMA-I-Woodwinds-Bundle?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsoftheearth.com/woodwinds"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsoftheearth.com/woodwinds"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

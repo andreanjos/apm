@@ -1,0 +1,26 @@
+slug        = "crushshaper-2"
+name        = "CrushShaper 2"
+vendor      = "Cableguys"
+version     = "2"
+description = "Multiband LFO-driven bitcrusher for adding rhythmic digital crunch and lo-fi texture to any sound."
+category    = "effects"
+subcategory = "bit crusher"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.cableguys.com/products"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/9835-CrushShaper-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.cableguys.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.cableguys.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

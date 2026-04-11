@@ -1,0 +1,25 @@
+slug        = "finisher-dynamo"
+name        = "Finisher Dynamo"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Creative FX plugin described as a magical movement machine for dynamic audio processing."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/finisher/dynamo/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/finisher/dynamo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/finisher/dynamo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "l3-16-multimaximizer"
+name        = "L3-16 Multimaximizer"
+vendor      = "Waves"
+version     = "14.0"
+description = "16-band multiband peak limiter for ultra-transparent loudness maximization."
+category    = "effects"
+subcategory = "dynamic processor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/l3-16-multimaximizer"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/l3-16-multimaximizer"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/l3-16-multimaximizer"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

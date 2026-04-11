@@ -1,0 +1,25 @@
+slug        = "type-b"
+name        = "Type B"
+vendor      = "AudioThing"
+version     = "1.2"
+description = "Harmonic exciter plugin adding presence and high-frequency sheen inspired by vintage analog hardware."
+category    = "effects"
+subcategory = "exciter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/effects/type-b/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/effects/type-b/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/effects/type-b/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

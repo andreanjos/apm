@@ -1,0 +1,26 @@
+slug        = "arctic-spaces"
+name        = "Arctic Spaces"
+vendor      = "ZAK Sound"
+version     = "1.0.0"
+description = "Dual-layer synthesizer combining wavetable and classic waveforms for atmospheric textures and experimental sounds."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://zaksound.com/arctic-spaces/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12615-Arctic-Spaces?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zaksound.com/arctic-spaces/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zaksound.com/arctic-spaces/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

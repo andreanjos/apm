@@ -1,0 +1,24 @@
+slug        = "spread-dj-swivel"
+name        = "Spread"
+vendor      = "DJ Swivel"
+version     = "1.0.0"
+description = "Stereo imaging plugin that widens mono tracks and transforms stereo signals to be extremely wide."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://swivel-audio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://swivel-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://swivel-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

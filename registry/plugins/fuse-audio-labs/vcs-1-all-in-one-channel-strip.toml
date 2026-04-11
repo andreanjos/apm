@@ -1,0 +1,26 @@
+slug        = "vcs-1-all-in-one-channel-strip"
+name        = "VCS 1 All In One Channel Strip"
+vendor      = "Fuse Audio Labs"
+version     = "2.7"
+description = "All-in-one vintage channel strip plugin combining preamp, EQ, and compression for tracking and mixing."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+homepage    = "https://fuseaudiolabs.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/13612-VCS-1-All-In-One-Channel-Strip?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://fuseaudiolabs.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://fuseaudiolabs.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

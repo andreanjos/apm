@@ -1,0 +1,26 @@
+slug        = "firespacer"
+name        = "FireSpacer"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "Sidechain-based frequency analysis plugin that creates mix space by removing overlapping frequencies."
+category    = "utility"
+subcategory = "audio editor"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/FireSpacer/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/12629-FireSpacer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/FireSpacer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/FireSpacer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

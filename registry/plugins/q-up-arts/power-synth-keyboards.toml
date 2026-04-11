@@ -1,0 +1,25 @@
+slug        = "power-synth-keyboards"
+name        = "Power Synth Keyboards"
+vendor      = "Q Up Arts"
+version     = "1.0.0"
+description = "Complete Kontakt synth keyboard collection with bass, brass, electric pianos, leads, Moog, poly, and SFX."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.quparts.com/products/power-synth-keyboards"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.quparts.com/products/power-synth-keyboards"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.quparts.com/products/power-synth-keyboards"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

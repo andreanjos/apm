@@ -1,0 +1,26 @@
+slug        = "wursy"
+name        = "Wursy"
+vendor      = "Sampleson"
+version     = "1.0.0"
+description = "Old-school synthesized electric piano capturing the warm, reedy character of vintage Wurlitzer-style tones."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://sampleson.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10020-Wursy?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sampleson.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sampleson.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

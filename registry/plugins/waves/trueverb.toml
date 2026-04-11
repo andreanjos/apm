@@ -1,0 +1,25 @@
+slug        = "trueverb"
+name        = "TrueVerb"
+vendor      = "Waves"
+version     = "14.0"
+description = "Room acoustics simulator and reverb plugin with adjustable room size and direct control."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/trueverb"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/trueverb"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/trueverb"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "synthesizer-v-studio-2-pro-3-voices"
+name        = "Synthesizer V Studio 2 Pro 3 Voices"
+vendor      = "Dreamtonics"
+version     = "2.0"
+description = "Synthesizer V Studio 2 Pro by Dreamtonics with 3 voice slots for AI singing synthesis."
+category    = "instruments"
+subcategory = "vocal synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://dreamtonics.com/en/synthesizerv/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/14980-Synthesizer-V-Studio-2-Pro-3-Voices?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://dreamtonics.com/en/synthesizerv/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://dreamtonics.com/en/synthesizerv/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

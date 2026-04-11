@@ -1,0 +1,25 @@
+slug        = "virtual-string-machine"
+name        = "Virtual String Machine"
+vendor      = "GForce Software"
+version     = "3.0"
+description = "Virtual string machine synthesizer capturing the lush, warm ensemble pad sounds of classic hardware."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.gforcesoftware.com/product/vsm/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.gforcesoftware.com/product/vsm/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.gforcesoftware.com/product/vsm/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

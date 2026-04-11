@@ -1,0 +1,26 @@
+slug        = "modular-v"
+name        = "Modular V"
+vendor      = "Arturia"
+version     = "3.5.0"
+description = "Virtual Moog modular synthesizer system emulation with patchable modules and signal routing."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-instruments/modular-v/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-instruments/modular-v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-instruments/modular-v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

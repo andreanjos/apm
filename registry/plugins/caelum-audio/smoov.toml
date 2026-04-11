@@ -1,0 +1,26 @@
+slug        = "smoov"
+name        = "Smoov"
+vendor      = "Caelum Audio"
+version     = "1.0.0"
+description = "Smooth, transparent program-dependent peak-detection compressor for clean, natural dynamics control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.caelum-audio.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/7707-Smoov?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.caelum-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.caelum-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

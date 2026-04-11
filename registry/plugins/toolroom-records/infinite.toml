@@ -1,0 +1,26 @@
+slug        = "infinite"
+name        = "INFINITE"
+vendor      = "Toolroom Records"
+version     = "1.0"
+description = "Cinematic multi-effect plugin by Toolroom Records for expansive pads and evolving textures."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.toolroomacademy.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9129-INFINITE?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.toolroomacademy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.toolroomacademy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

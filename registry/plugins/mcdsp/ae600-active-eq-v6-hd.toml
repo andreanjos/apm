@@ -1,0 +1,25 @@
+slug        = "ae600-active-eq-v6-hd"
+name        = "AE600 Active EQ V6 HD"
+vendor      = "McDSP"
+version     = "6.0"
+description = "Pro Tools HD v6 of McDSP's AE600 next-generation active equalizer plugin."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://mcdsp.com/plugin-index/ae600/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mcdsp.com/plugin-index/ae600/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mcdsp.com/plugin-index/ae600/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "ir-1"
+name        = "IR-1"
+vendor      = "Waves"
+version     = "14.0"
+description = "Professional convolution reverb with true stereo impulse response support and sampling tools."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/ir-1"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/ir-1"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/ir-1"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

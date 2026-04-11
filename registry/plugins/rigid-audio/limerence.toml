@@ -1,0 +1,25 @@
+slug        = "limerence"
+name        = "Limerence"
+vendor      = "Rigid Audio"
+version     = "1.0.0"
+description = "High-density cinematic texture engine for Kontakt with 424 rich and evolving soundscapes."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rigid-audio.com/product/limerence/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rigid-audio.com/product/limerence/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rigid-audio.com/product/limerence/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

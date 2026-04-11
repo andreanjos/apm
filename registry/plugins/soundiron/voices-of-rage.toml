@@ -1,0 +1,25 @@
+slug        = "voices-of-rage"
+name        = "Voices Of Rage"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Extreme vocal Kontakt Player library featuring screaming, growling and aggressive voice textures."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/voices-of-rage"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/voices-of-rage"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/voices-of-rage"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

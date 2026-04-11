@@ -1,0 +1,26 @@
+slug        = "luna-api-vision-console-emulation-bundle"
+name        = "LUNA API Vision Console Emulation Bundle"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "LUNA bundle for API Vision console emulation including preamp, EQ, dynamics, and summing."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/bundles/luna-api-vision-console-emulation-bundle.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/bundles/luna-api-vision-console-emulation-bundle.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/bundles/luna-api-vision-console-emulation-bundle.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

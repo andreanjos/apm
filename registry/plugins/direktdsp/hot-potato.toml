@@ -1,0 +1,26 @@
+slug        = "hot-potato"
+name        = "Hot Potato"
+vendor      = "DirektDSP"
+version     = "1.0"
+description = "DirektDSP Hot Potato is a free distortion plugin with adjustable drive and tone shaping."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://direktdsp.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/10389-Hot-Potato?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://direktdsp.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://direktdsp.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

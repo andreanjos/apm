@@ -1,0 +1,25 @@
+slug        = "solina"
+name        = "Solina"
+vendor      = "Air Music Tech"
+version     = "1.0.0"
+description = "Virtual string ensemble plugin modeled after the classic Solina String Ensemble hardware."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/solina"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/solina"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/solina"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

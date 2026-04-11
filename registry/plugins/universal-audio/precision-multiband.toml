@@ -1,0 +1,26 @@
+slug        = "precision-multiband"
+name        = "Precision Multiband"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "UA's Precision Multiband is a five-band compressor for mastering-grade dynamic control."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/precision-multiband.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/precision-multiband.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/precision-multiband.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

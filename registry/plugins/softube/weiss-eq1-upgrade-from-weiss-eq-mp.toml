@@ -1,0 +1,26 @@
+slug        = "weiss-eq1-upgrade-from-weiss-eq-mp"
+name        = "Weiss EQ1 Upgrade from Weiss EQ MP"
+vendor      = "Softube"
+version     = "2.6"
+description = "Upgrade to the full Weiss EQ1 mastering equalizer from the Weiss EQ MP plugin."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mastering/weiss-eq1"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

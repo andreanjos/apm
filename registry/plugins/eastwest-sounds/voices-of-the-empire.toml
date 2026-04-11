@@ -1,0 +1,26 @@
+slug        = "voices-of-the-empire"
+name        = "Voices Of The Empire"
+vendor      = "EastWest Sounds"
+version     = "1.0.0"
+description = "Epic vocal instrument featuring Uyanga Bold for powerful film, TV, and game soundtrack performances."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/vocals/voices-of-the-empire"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15629-Voices-Of-The-Empire?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/vocals/voices-of-the-empire"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/vocals/voices-of-the-empire"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

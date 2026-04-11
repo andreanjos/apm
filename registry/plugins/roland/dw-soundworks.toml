@@ -1,0 +1,27 @@
+slug        = "dw-soundworks"
+name        = "DW Soundworks"
+vendor      = "Roland"
+version     = "1.1.1"
+description = "DW Drums' official virtual instrument plugin with authentic DW drum kit sounds and groove library."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+installer   = "roland-cloud"
+homepage    = "https://www.roland.com/us/products/rc_dw_soundworks/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15329-DW-Soundworks?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.roland.com/us/products/rc_dw_soundworks/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.roland.com/us/products/rc_dw_soundworks/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

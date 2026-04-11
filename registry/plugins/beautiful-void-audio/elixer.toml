@@ -1,0 +1,25 @@
+slug        = "elixer"
+name        = "Elixer"
+vendor      = "Beautiful Void Audio"
+version     = "1.0.0"
+description = "Experimental Kontakt instrument trilogy exploring prepared tape, organic, and layered sonic textures."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.beautifulvoidaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.beautifulvoidaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.beautifulvoidaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

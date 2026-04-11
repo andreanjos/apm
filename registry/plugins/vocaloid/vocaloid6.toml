@@ -1,0 +1,26 @@
+slug        = "vocaloid6"
+name        = "VOCALOID6"
+vendor      = "VOCALOID"
+version     = "6.0"
+description = "VOCALOID6 is Yamaha's AI singing synthesizer for creating natural virtual vocal performances."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.vocaloid.com/en/vocaloid6/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/14002-VOCALOID6?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.vocaloid.com/en/vocaloid6/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.vocaloid.com/en/vocaloid6/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

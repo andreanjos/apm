@@ -1,0 +1,26 @@
+slug        = "ample-guitar-semi-hollow"
+name        = "Ample Guitar Semi Hollow"
+vendor      = "Ample Sound"
+version     = "4"
+description = "Semi-hollow body electric guitar virtual instrument based on a Gibson ES-335 for warm jazz and blues tones."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.amplesound.net/en/pro-pd.asp?id=22"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15095-Ample-Guitar-Semi-Hollow?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=22"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=22"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

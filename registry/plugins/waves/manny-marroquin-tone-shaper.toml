@@ -1,0 +1,26 @@
+slug        = "manny-marroquin-tone-shaper"
+name        = "Manny Marroquin Tone Shaper"
+vendor      = "Waves"
+version     = "14.0"
+description = "Multiband transient and tone shaping plugin from Manny Marroquin's signature series."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/manny-marroquin-tone-shaper"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/manny-marroquin-tone-shaper"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/manny-marroquin-tone-shaper"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

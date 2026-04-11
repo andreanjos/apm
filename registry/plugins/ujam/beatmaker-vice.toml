@@ -1,0 +1,25 @@
+slug        = "beatmaker-vice"
+name        = "Beatmaker VICE"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Retro 80s drum machine plugin bringing vintage synthesized percussion to modern production."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/beatmaker/vice/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/beatmaker/vice/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/beatmaker/vice/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

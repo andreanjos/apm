@@ -1,0 +1,26 @@
+slug        = "air-supertone"
+name        = "AIR"
+vendor      = "Supertone"
+version     = "1.0"
+description = "AI-powered vocal enhancement plugin by Supertone for adding breathiness and air to vocals."
+category    = "effects"
+subcategory = "vocal processing"
+license     = "commercial"
+tags        = []
+homepage    = "https://supertone.ai/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/15685-AIR?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://supertone.ai/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://supertone.ai/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

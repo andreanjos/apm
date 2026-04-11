@@ -1,0 +1,27 @@
+slug        = "spl-twintube"
+name        = "SPL TwinTube"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "SPL Analog Code plugin combining tube saturation and harmonics processing in a single subtle yet powerful processor."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/en/products/spl_twintube.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/10883-SPL-TwinTube?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/spl_twintube.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/spl_twintube.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

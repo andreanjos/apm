@@ -1,0 +1,25 @@
+slug        = "silverline-collection"
+name        = "SilverLine Collection"
+vendor      = "D16 Group"
+version     = "1.0.0"
+description = "Bundle of 10 meticulously crafted effects plugins blending vintage analog warmth with digital precision."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://d16.pl/silverlinecollection"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://d16.pl/silverlinecollection"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://d16.pl/silverlinecollection"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

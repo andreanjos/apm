@@ -1,0 +1,25 @@
+slug        = "electro-optical"
+name        = "Electro Optical"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Opto-style compressor plugin emulating the smooth, musical response of classic optical compressors."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p875-Electro-Optical/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p875-Electro-Optical/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p875-Electro-Optical/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "amplitube-joe-satriani"
+name        = "AmpliTube Joe Satriani"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Official Joe Satriani signature gear collection for AmpliTube with his personal amps and stomps."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/satriani/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/satriani/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/satriani/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

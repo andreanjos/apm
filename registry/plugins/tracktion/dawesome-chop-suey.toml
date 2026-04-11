@@ -1,0 +1,26 @@
+slug        = "dawesome-chop-suey"
+name        = "Dawesome Chop Suey"
+vendor      = "Tracktion"
+version     = "1.0.0"
+description = "Sample sequencer plugin that chains samples in sequence rather than layers for efficient rhythmic playback."
+category    = "instruments"
+subcategory = "generator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/chop-suey"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/9236-Dawesome-Chop-Suey?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/chop-suey"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/chop-suey"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

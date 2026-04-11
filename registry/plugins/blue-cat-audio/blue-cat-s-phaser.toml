@@ -1,0 +1,26 @@
+slug        = "blue-cat-s-phaser"
+name        = "Blue Cat s Phaser"
+vendor      = "Blue Cat Audio"
+version     = "3.5"
+description = "Free analog-modeled phasing effect faithfully reproducing vintage phaser circuits with modern precision."
+category    = "effects"
+subcategory = "phaser"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bluecataudio.com/Products/Product_Phaser/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/275-Blue-Cat-s-Phaser?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bluecataudio.com/Products/Product_Phaser/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bluecataudio.com/Products/Product_Phaser/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

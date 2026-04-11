@@ -1,0 +1,26 @@
+slug        = "db-30-drum-butter"
+name        = "DB 30 Drum Butter"
+vendor      = "2321"
+version     = "1.0.0"
+description = "Multi-FX drum processing plugin with 6 modules for adding punch, flavor, and character to drums."
+category    = "effects"
+subcategory = "drum fx"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.xlnaudio.com/products/addictive_fx/effect/db-30_drum_butter"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/13-Drum-FX/17009-DB-30-Drum-Butter?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.xlnaudio.com/products/addictive_fx/effect/db-30_drum_butter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.xlnaudio.com/products/addictive_fx/effect/db-30_drum_butter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

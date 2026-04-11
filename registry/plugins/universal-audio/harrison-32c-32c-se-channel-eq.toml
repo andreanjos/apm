@@ -1,0 +1,26 @@
+slug        = "harrison-32c-32c-se-channel-eq"
+name        = "Harrison® 32C / 32C SE Channel EQ"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Harrison 32C console EQ, as heard on countless hit records."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/harrison-32c-channel-eq.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/harrison-32c-channel-eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/harrison-32c-channel-eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

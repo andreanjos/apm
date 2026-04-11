@@ -1,0 +1,25 @@
+slug        = "nanfo"
+name        = "Nanfo"
+vendor      = "Karoryfer Samples"
+version     = "1.0.0"
+description = "West African instrument collection recorded in Ghana including koras, seperewas, xylophones, and flutes."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://shop.karoryfer.com/products/nanfo"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://shop.karoryfer.com/products/nanfo"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://shop.karoryfer.com/products/nanfo"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "stereoplacer"
+name        = "Stereoplacer"
+vendor      = "NUGEN Audio"
+version     = "4.0"
+description = "A frequency-specific stereo placement plugin for repositioning audio in the panoramic field."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://nugenaudio.com/stereoplacer/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/1710-Stereoplacer-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nugenaudio.com/stereoplacer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nugenaudio.com/stereoplacer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

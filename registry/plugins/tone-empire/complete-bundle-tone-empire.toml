@@ -1,0 +1,25 @@
+slug        = "complete-bundle-tone-empire"
+name        = "Complete Bundle"
+vendor      = "Tone Empire"
+version     = "1.0.0"
+description = "Complete collection of all Tone Empire analog-modeled EQ, compressor, and preamp plugins."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tone-empire.com"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tone-empire.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tone-empire.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

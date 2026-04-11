@@ -1,0 +1,26 @@
+slug        = "soulessence-complete"
+name        = "Soulessence Complete"
+vendor      = "LP24 Audio"
+version     = "1.0.0"
+description = "Complete Soulessence series bundle with loops, MIDI, and Serum and Massive presets."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://lp24audio.com/shop/software-presets"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/4093-Soulessence-Complete?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://lp24audio.com/shop/software-presets"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://lp24audio.com/shop/software-presets"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

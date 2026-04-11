@@ -1,0 +1,26 @@
+slug        = "industry-brass-core"
+name        = "Industry Brass Core"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Hybrid brass library blending orchestral and contemporary textures for modern cinematic scoring."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/industrybrasscore"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11293-Industry-Brass-Core?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/industrybrasscore"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/industrybrasscore"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

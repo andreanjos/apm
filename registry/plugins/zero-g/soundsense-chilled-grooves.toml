@@ -1,0 +1,25 @@
+slug        = "soundsense-chilled-grooves"
+name        = "SoundSense: Chilled Grooves"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Sample library featuring construction kits, loops, and sounds for hip-hop, downtempo, and trip-hop production."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/soundsense-chilled-grooves"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/soundsense-chilled-grooves"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/soundsense-chilled-grooves"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

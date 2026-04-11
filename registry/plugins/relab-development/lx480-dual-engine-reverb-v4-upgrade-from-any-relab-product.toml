@@ -1,0 +1,24 @@
+slug        = "lx480-dual-engine-reverb-v4-upgrade-from-any-relab-product"
+name        = "LX480 Dual-Engine Reverb V4 Upgrade from ANY Relab Product"
+vendor      = "Relab Development"
+version     = "4.0"
+description = "Upgrade path to LX480 Dual-Engine Reverb V4 for existing owners of any Relab product."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://relabdevelopment.com/lx480-dual-engine-reverb/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://relabdevelopment.com/lx480-dual-engine-reverb/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://relabdevelopment.com/lx480-dual-engine-reverb/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

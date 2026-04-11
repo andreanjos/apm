@@ -1,0 +1,26 @@
+slug        = "n-rdic-cello"
+name        = "N rdic Cello"
+vendor      = "Have Audio"
+version     = "1.0.0"
+description = "Expressive Nordic cello Kontakt instrument with classic and extended technique articulations."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://haveaudio.com/products/nordic-cello"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8759-N-rdic-Cello?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://haveaudio.com/products/nordic-cello"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://haveaudio.com/products/nordic-cello"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

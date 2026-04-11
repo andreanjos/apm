@@ -1,0 +1,24 @@
+slug        = "nanopulse"
+name        = "Nanopulse"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "Transient shaper and attack enhancer with 64 captured profiles and 3-band dynamic shaping."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/Nanopulse/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/Nanopulse/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/Nanopulse/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

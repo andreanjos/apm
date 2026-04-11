@@ -1,0 +1,25 @@
+slug        = "cosmos"
+name        = "Cosmos"
+vendor      = "Impact Soundworks"
+version     = "1.0.0"
+description = "Evocative Kontakt synth powered by 350+ atmospheric phrases and ambiences inspired by outer space."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://impactsoundworks.com/product/cosmos/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://impactsoundworks.com/product/cosmos/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://impactsoundworks.com/product/cosmos/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

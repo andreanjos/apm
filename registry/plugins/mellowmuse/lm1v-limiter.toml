@@ -1,0 +1,26 @@
+slug        = "lm1v-limiter"
+name        = "LM1V Limiter"
+vendor      = "Mellowmuse"
+version     = "2.2.0"
+description = "Transparent brick-wall limiter plugin for precise peak limiting in mixing and mastering."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.mellowmuse.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/6696-LM1V-Limiter?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.mellowmuse.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.mellowmuse.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

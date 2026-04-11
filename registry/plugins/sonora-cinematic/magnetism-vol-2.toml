@@ -1,0 +1,25 @@
+slug        = "magnetism-vol-2"
+name        = "Magnetism Vol 2"
+vendor      = "Sonora Cinematic"
+version     = "1.0.0"
+description = "Kontakt library of dark, deep textural soundscapes for cinematic and atmospheric composition."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonoracinematic.com/products/magnetism-vol-2-by-sonora-cinematic"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonoracinematic.com/products/magnetism-vol-2-by-sonora-cinematic"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonoracinematic.com/products/magnetism-vol-2-by-sonora-cinematic"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

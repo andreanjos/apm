@@ -1,0 +1,25 @@
+slug        = "live-bass-grooves"
+name        = "Live Bass Grooves"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Electric bass guitar rhythms across multiple styles, organized by genre for finding the perfect bass line."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/live-bass-grooves"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/live-bass-grooves"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/live-bass-grooves"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

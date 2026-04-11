@@ -1,0 +1,25 @@
+slug        = "idc-instant-dialogue-cleaner"
+name        = "IDC: Instant Dialogue Cleaner"
+vendor      = "Audionamix"
+version     = "1.5"
+description = "Audionamix IDC removes background noise from dialogue and voice recordings automatically."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+homepage    = "https://audionamix.com/idc/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audionamix.com/idc/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audionamix.com/idc/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

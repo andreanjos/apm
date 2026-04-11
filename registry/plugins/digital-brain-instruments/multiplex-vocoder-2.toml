@@ -1,0 +1,24 @@
+slug        = "multiplex-vocoder-2"
+name        = "Multiplex Vocoder 2"
+vendor      = "Digital Brain Instruments"
+version     = "2.0"
+description = "Vocoder plugin that transforms VST/AU plugin signals into a vocoder carrier for voice effects."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.digitalbrain-instruments.com/multiplexvocoder"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.digitalbrain-instruments.com/multiplexvocoder"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.digitalbrain-instruments.com/multiplexvocoder"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

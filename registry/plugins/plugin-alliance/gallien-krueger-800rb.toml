@@ -1,0 +1,27 @@
+slug        = "gallien-krueger-800rb"
+name        = "Gallien Krueger 800RB"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "Officially licensed Gallien-Krueger 800RB bass amp plugin with bi-amp design, active EQ, and three GK Voicing Filters."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/en/products/gallien_krueger_800rb.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/11362-Gallien-Krueger-800RB?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/gallien_krueger_800rb.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/gallien_krueger_800rb.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

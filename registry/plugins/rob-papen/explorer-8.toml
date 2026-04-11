@@ -1,0 +1,25 @@
+slug        = "explorer-8"
+name        = "eXplorer-8"
+vendor      = "Rob Papen"
+version     = "8.0"
+description = "Complete Rob Papen bundle with 28 synthesizers, effects, and sound design tools including BLUE-III and RevSane."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/explorer-8.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/explorer-8.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/explorer-8.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

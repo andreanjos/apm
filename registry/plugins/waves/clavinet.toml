@@ -1,0 +1,26 @@
+slug        = "clavinet"
+name        = "Clavinet"
+vendor      = "Waves"
+version     = "14.0"
+description = "Virtual instrument recreation of the iconic Hohner Clavinet keyboard."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/clavinet"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/clavinet"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/clavinet"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

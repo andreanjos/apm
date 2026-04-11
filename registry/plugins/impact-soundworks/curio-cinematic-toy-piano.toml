@@ -1,0 +1,25 @@
+slug        = "curio-cinematic-toy-piano"
+name        = "Curio: Cinematic Toy Piano"
+vendor      = "Impact Soundworks"
+version     = "1.0.0"
+description = "Kontakt toy piano deconstructed for cinematic textures, sweeps, ambiances, impacts, and deep percussion."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://impactsoundworks.com/product/curio-cinematic-toy-piano/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://impactsoundworks.com/product/curio-cinematic-toy-piano/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://impactsoundworks.com/product/curio-cinematic-toy-piano/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

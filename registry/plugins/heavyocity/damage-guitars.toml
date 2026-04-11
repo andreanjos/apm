@@ -1,0 +1,26 @@
+slug        = "damage-guitars"
+name        = "Damage Guitars"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Cinematic electric guitar instrument with pads, phrases, and tempo-synced loops driven by Heavyocity's GRAVITY engine."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/damage-guitars"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10592-Damage-Guitars?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/damage-guitars"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/damage-guitars"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

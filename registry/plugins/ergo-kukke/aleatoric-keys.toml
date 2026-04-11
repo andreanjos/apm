@@ -1,0 +1,25 @@
+slug        = "aleatoric-keys"
+name        = "Aleatoric Keys"
+vendor      = "Ergo Kukke"
+version     = "1.0.0"
+description = "Kontakt instrument blending synthesizer and real-life recordings into four morphable sound sources."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/ergo_kukke.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/ergo_kukke.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/ergo_kukke.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

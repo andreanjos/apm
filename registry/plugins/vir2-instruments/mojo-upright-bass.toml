@@ -1,0 +1,26 @@
+slug        = "mojo-upright-bass"
+name        = "MOJO Upright Bass"
+vendor      = "Vir2 Instruments"
+version     = "1.0.0"
+description = "150-year-old double bass Kontakt library with true legato, 8 articulations, and MIDI grooves."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.vir2.com/instruments/mojo-upright-bass/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13294-MOJO-Upright-Bass?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.vir2.com/instruments/mojo-upright-bass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.vir2.com/instruments/mojo-upright-bass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

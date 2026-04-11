@@ -1,0 +1,25 @@
+slug        = "echo"
+name        = "Echo"
+vendor      = "PSP Audioware"
+version     = "1.5.3"
+description = "High-quality tape-style echo processor with saturation and creative sound-shaping capabilities."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-echo"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-echo"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-echo"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

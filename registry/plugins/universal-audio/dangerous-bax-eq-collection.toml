@@ -1,0 +1,26 @@
+slug        = "dangerous-bax-eq-collection"
+name        = "Dangerous BAX EQ Collection"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Dangerous Music BAX EQ mastering equalizer with low and high shelves."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/dangerous-bax-eq.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/dangerous-bax-eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/dangerous-bax-eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

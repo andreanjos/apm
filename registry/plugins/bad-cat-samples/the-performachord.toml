@@ -1,0 +1,25 @@
+slug        = "the-performachord"
+name        = "The Performachord"
+vendor      = "Bad Cat Samples"
+version     = "1.0.0"
+description = "Playable Kontakt keyboard instrument designed for expressive chord performance."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://bad-cat-media-group.myshopify.com/collections/kontakt-virtual-instruments"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://bad-cat-media-group.myshopify.com/collections/kontakt-virtual-instruments"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://bad-cat-media-group.myshopify.com/collections/kontakt-virtual-instruments"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

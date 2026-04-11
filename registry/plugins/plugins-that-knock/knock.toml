@@ -1,0 +1,26 @@
+slug        = "knock"
+name        = "KNOCK"
+vendor      = "PLUGINS THAT KNOCK"
+version     = "1.0.0"
+description = "Drum bus plugin with transient shaping, saturation, and sub generation to make drums knock."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://pluginsthatknock.com/knock"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8876-KNOCK?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://pluginsthatknock.com/knock"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://pluginsthatknock.com/knock"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

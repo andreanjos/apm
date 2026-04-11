@@ -1,0 +1,25 @@
+slug        = "cajons"
+name        = "Cajons"
+vendor      = "Muletone Audio"
+version     = "1.4"
+description = "Kontakt cajon library featuring three distinct models with 2,762 samples and Brazilian rhythmic loops."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.muletoneaudio.com/cajons/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.muletoneaudio.com/cajons/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.muletoneaudio.com/cajons/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

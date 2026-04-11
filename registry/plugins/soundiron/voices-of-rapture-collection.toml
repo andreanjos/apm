@@ -1,0 +1,25 @@
+slug        = "voices-of-rapture-collection"
+name        = "Voices Of Rapture Collection"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Complete bundle of all four Voice of Rapture solo vocal Kontakt libraries (SATB)."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/voices-of-rapture-collection"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/voices-of-rapture-collection"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/voices-of-rapture-collection"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

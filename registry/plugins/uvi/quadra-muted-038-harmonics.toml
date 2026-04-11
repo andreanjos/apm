@@ -1,0 +1,25 @@
+slug        = "quadra-muted-038-harmonics"
+name        = "Quadra: Muted &#038; Harmonics"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "4-part multi-instrument sequence designer with muted and harmonic sources and a 64-step sequencer."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/quadra-muted-and-harmonics"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/quadra-muted-and-harmonics"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/quadra-muted-and-harmonics"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "fame-studio-reverb"
+name        = "FAME Studio Reverb"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Reverb plugin recreating the legendary acoustic spaces of FAME Studios in Muscle Shoals, Alabama."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/trfame/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/trfame/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/trfame/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

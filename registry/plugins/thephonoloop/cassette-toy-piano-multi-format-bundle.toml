@@ -1,0 +1,25 @@
+slug        = "cassette-toy-piano-multi-format-bundle"
+name        = "Cassette Toy Piano – Multi-Format Bundle"
+vendor      = "THEPHONOLOOP"
+version     = "1.0.0"
+description = "Multi-format bundle of five toy piano variations recorded through cassette, spring reverb, and granular synthesis."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://thephonoloop.com/products/cassette-toy-piano"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://thephonoloop.com/products/cassette-toy-piano"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://thephonoloop.com/products/cassette-toy-piano"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

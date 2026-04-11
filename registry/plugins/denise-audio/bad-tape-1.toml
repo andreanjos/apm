@@ -1,0 +1,26 @@
+slug        = "bad-tape-1"
+name        = "Bad Tape 1"
+vendor      = "Denise Audio"
+version     = "1.2"
+description = "Tape emulation plugin delivering analog warmth, warble, and hiss with simple controls."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.deniseaudio.com/plugins/bad-tape"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/5693-Bad-Tape-1?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.deniseaudio.com/plugins/bad-tape"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.deniseaudio.com/plugins/bad-tape"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

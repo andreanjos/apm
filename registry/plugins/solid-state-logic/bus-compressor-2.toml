@@ -1,0 +1,25 @@
+slug        = "bus-compressor-2"
+name        = "Bus Compressor 2"
+vendor      = "Solid State Logic"
+version     = "2"
+description = "Authentic emulation of the legendary SSL G-Series Bus Compressor for gluing tracks and subgroups."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-native-bus-compressor-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-bus-compressor-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-bus-compressor-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

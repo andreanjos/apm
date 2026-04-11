@@ -1,0 +1,25 @@
+slug        = "rubber-band-compressor-v2"
+name        = "Rubber Band Compressor V2"
+vendor      = "Mixland"
+version     = "2.0"
+description = "Mixland Rubber Band Compressor V2 delivers a unique floating-ratio compression with analog drive."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://mixland.io/products/rubber-band-compressor-v2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mixland.io/products/rubber-band-compressor-v2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mixland.io/products/rubber-band-compressor-v2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

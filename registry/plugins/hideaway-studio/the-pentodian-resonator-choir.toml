@@ -1,0 +1,25 @@
+slug        = "the-pentodian-resonator-choir"
+name        = "The Pentodian Resonator Choir"
+vendor      = "Hideaway Studio"
+version     = "1.0.0"
+description = "Kontakt choir instrument with 215 vocal formants crafted from lab pulse generators and vintage resonator circuits."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://hideawaystudio.net/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hideawaystudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hideawaystudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

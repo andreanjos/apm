@@ -1,0 +1,25 @@
+slug        = "psytrance-studio"
+name        = "Psytrance Studio"
+vendor      = "G-Sonique"
+version     = "1.0.0"
+description = "All-in-one virtual instrument plugin designed for creating professional psytrance music."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.g-sonique.com/shop.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.g-sonique.com/shop.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.g-sonique.com/shop.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

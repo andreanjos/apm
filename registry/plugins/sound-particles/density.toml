@@ -1,0 +1,26 @@
+slug        = "density"
+name        = "Density"
+vendor      = "Sound Particles"
+version     = "1.1"
+description = "Sound Particles granular chorus plugin using particle systems and 3D panning for ensemble sounds."
+category    = "effects"
+subcategory = "granular fx"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundparticles.com/products/density"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/9110-Density?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundparticles.com/products/density"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundparticles.com/products/density"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

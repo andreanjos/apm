@@ -1,0 +1,26 @@
+slug        = "hitsville-eq-collection"
+name        = "Hitsville EQ Collection"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "EQs modeled on the custom Motown Hitsville U.S.A. console used to create Motown's classic sound."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/hitsville-eq-collection.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/hitsville-eq-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/hitsville-eq-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

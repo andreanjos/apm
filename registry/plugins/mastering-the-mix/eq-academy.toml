@@ -1,0 +1,26 @@
+slug        = "eq-academy"
+name        = "EQ Academy"
+vendor      = "Mastering The Mix"
+version     = "1.0"
+description = "Free gamified ear-training tool for music producers to sharpen frequency recognition and EQ skills."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.masteringthemix.com/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/15238-EQ-Academy?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.masteringthemix.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.masteringthemix.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

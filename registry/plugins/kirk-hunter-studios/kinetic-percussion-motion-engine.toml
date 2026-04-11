@@ -1,0 +1,25 @@
+slug        = "kinetic-percussion-motion-engine"
+name        = "Kinetic Percussion Motion Engine"
+vendor      = "Kirk Hunter Studios"
+version     = "1.0.0"
+description = "Orchestral percussion Kontakt instrument with timeline-based motion engine sequencing."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kirkhunterstudios.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kirkhunterstudios.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kirkhunterstudios.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "the-british-tanks-collection"
+name        = "The British Tanks Collection"
+vendor      = "Audiority"
+version     = "1.0.0"
+description = "Bundle of four analog modeled Marshall overdrive/distortion pedal plug-ins from the late '80s and early '90s."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/the-british-tanks-collection/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/the-british-tanks-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/the-british-tanks-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

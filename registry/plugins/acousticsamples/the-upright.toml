@@ -1,0 +1,25 @@
+slug        = "the-upright"
+name        = "The Upright"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Chinese upright double bass recorded in detail from three microphone perspectives."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/the-upright"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/the-upright"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/the-upright"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

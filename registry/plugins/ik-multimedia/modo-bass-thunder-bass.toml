@@ -1,0 +1,26 @@
+slug        = "modo-bass-thunder-bass"
+name        = "MODO BASS Thunder Bass"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "MODO BASS expansion featuring a rock icon bass guitar with extensive low end and very long sustain."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/mbthunderbass/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/14506-MODO-BASS-Thunder-Bass?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/mbthunderbass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/mbthunderbass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "verberate-2"
+name        = "Verberate 2"
+vendor      = "Acon Digital"
+version     = "2.2.1"
+description = "Algorithmic reverb plugin simulating real acoustic environments with the Vivid Hall time-variant algorithm."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://acondigital.com/products/verberate"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://acondigital.com/products/verberate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://acondigital.com/products/verberate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

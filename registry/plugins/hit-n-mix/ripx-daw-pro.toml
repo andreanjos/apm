@@ -1,0 +1,26 @@
+slug        = "ripx-daw-pro"
+name        = "RipX DAW Pro"
+vendor      = "Hit N Mix"
+version     = "6.0"
+description = "RipX DAW Pro by Hit'n'Mix is an AI-powered DAW for stem separation and audio editing."
+category    = "utility"
+subcategory = "daw"
+license     = "commercial"
+tags        = []
+homepage    = "https://hitnmix.com/ripx-daw-pro/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/13040-RipX-DAW-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hitnmix.com/ripx-daw-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hitnmix.com/ripx-daw-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

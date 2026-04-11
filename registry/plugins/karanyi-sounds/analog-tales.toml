@@ -1,0 +1,25 @@
+slug        = "analog-tales"
+name        = "Analog Tales"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "Vintage analog synth designer for Kontakt featuring sounds from five classic and modern synthesizers."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/product/analog-tales/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/product/analog-tales/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/product/analog-tales/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "dearvr-music"
+name        = "dearVR MUSIC"
+vendor      = "Dear Reality"
+version     = "1.13.1"
+description = "3D audio plugin transforming any DAW into a spatial music production environment for headphones."
+category    = "effects"
+subcategory = "mixing"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.dear-reality.com/collections/all"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.dear-reality.com/collections/all"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.dear-reality.com/collections/all"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

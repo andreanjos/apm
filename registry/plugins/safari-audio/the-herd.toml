@@ -1,0 +1,26 @@
+slug        = "the-herd"
+name        = "The Herd"
+vendor      = "Safari Audio"
+version     = "1.0.0"
+description = "Parallel-style compressor plugin with three operation modes: Opto, VCA and Devil."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://safariaudio.com/products/the-herd"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16529-The-Herd?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://safariaudio.com/products/the-herd"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://safariaudio.com/products/the-herd"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

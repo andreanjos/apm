@@ -1,0 +1,25 @@
+slug        = "adventure-brass"
+name        = "Adventure Brass"
+vendor      = "Musical Sampling"
+version     = "1.1"
+description = "Orchestral brass Kontakt library recorded at The Bridge in Los Angeles for cinematic scoring and media."
+category    = "instruments"
+subcategory = "brass"
+license     = "commercial"
+tags        = []
+homepage    = "https://musicalsampling.com/adventure-brass/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://musicalsampling.com/adventure-brass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://musicalsampling.com/adventure-brass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

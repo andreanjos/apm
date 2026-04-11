@@ -1,0 +1,26 @@
+slug        = "sasquatch-2"
+name        = "Sasquatch 2"
+vendor      = "Boz Digital Labs"
+version     = "2"
+description = "Updated kick drum enhancer plugin for adding punch, sub weight, and power to kick tracks."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozdigitallabs.com/product/sasquatch/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/5272-Sasquatch-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozdigitallabs.com/product/sasquatch/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozdigitallabs.com/product/sasquatch/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "lofi-pitch-dropout"
+name        = "LoFi Pitch Dropout"
+vendor      = "Yum Audio"
+version     = "1.0.0"
+description = "Creative pitch imperfection plugin simulating tape speed fluctuations with randomizable dropout control."
+category    = "effects"
+subcategory = "lo-fi"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.yum-audio.com/LoFi-PitchDropout/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.yum-audio.com/LoFi-PitchDropout/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.yum-audio.com/LoFi-PitchDropout/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

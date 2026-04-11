@@ -1,0 +1,25 @@
+slug        = "mini-magic-dark-tones-vol-2"
+name        = "Mini Magic – Dark Tones Vol 2"
+vendor      = "Synth Magic"
+version     = "1.0.0"
+description = "Mini Magic expansion Vol 2 delivering dark atmospheric tones and pads for Kontakt."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://synthmagic.co.uk/mini-magic-digisizer/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synthmagic.co.uk/mini-magic-digisizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synthmagic.co.uk/mini-magic-digisizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

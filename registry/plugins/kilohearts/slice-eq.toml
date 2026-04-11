@@ -1,0 +1,26 @@
+slug        = "slice-eq"
+name        = "Slice EQ"
+vendor      = "Kilohearts"
+version     = "2.4.6"
+description = "Precision parametric EQ Snapin with spectrum analyzer and flexible band configuration."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://kilohearts.com/products/slice_eq"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/3992-Slice-EQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://kilohearts.com/products/slice_eq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://kilohearts.com/products/slice_eq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "mxxx-modular-multi-effect"
+name        = "MXXX Modular Multi Effect"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Build an effect chain any way you want — a modular plugin containing 70+ processors and 500+ active presets."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MXXX"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/1788-MXXX-Modular-Multi-Effect?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MXXX"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MXXX"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

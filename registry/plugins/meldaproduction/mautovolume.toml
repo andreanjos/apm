@@ -1,0 +1,26 @@
+slug        = "mautovolume"
+name        = "MAutoVolume"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Automatic volume leveling plugin that keeps vocals and instruments consistently on top of the mix."
+category    = "utility"
+subcategory = "gain"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MAutoVolume"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/47-Gain/840-MAutoVolume?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MAutoVolume"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MAutoVolume"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

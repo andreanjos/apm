@@ -1,0 +1,25 @@
+slug        = "skye-dynamics-stereo"
+name        = "SKYE Dynamics Stereo"
+vendor      = "Signum Audio"
+version     = "1.0.0"
+description = "Three-in-one stereo dynamics processor combining expander, compressor, and limiter in one plugin."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.signumaudio.com/skye-dynamics"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.signumaudio.com/skye-dynamics"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.signumaudio.com/skye-dynamics"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

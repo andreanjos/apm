@@ -1,0 +1,25 @@
+slug        = "true-keys-italian-grand"
+name        = "True Keys Italian Grand"
+vendor      = "ViLabs"
+version     = "1.0.0"
+description = "Deeply sampled Italian concert grand piano virtual instrument for the UVI player."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.vilabsaudio.com/truekeyspianos"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.vilabsaudio.com/truekeyspianos"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.vilabsaudio.com/truekeyspianos"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

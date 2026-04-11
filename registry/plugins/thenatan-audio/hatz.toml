@@ -1,0 +1,26 @@
+slug        = "hatz"
+name        = "Hatz"
+vendor      = "Thenatan Audio"
+version     = "1.0.0"
+description = "Hi-hat and snare roll engine with 550+ samples and MIDI-controlled patterns for trap and drill beats."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.thenatan.store/p/thenatan-hatz-vst-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/15974-Hatz?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.thenatan.store/p/thenatan-hatz-vst-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.thenatan.store/p/thenatan-hatz-vst-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

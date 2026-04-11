@@ -1,0 +1,26 @@
+slug        = "ssl-native-x-eq-2"
+name        = "SSL Native X EQ 2"
+vendor      = "Solid State Logic"
+version     = "2"
+description = "Highly configurable 24-band EQ plugin with anti-cramping algorithms and 17 classic and modern EQ types."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-eq-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8665-SSL-Native-X-EQ-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-eq-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-eq-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

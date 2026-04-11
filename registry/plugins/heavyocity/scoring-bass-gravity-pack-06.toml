@@ -1,0 +1,25 @@
+slug        = "scoring-bass-gravity-pack-06"
+name        = "Scoring Bass Gravity Pack 06"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Cinematic bass guitar instrument with scoring-focused phrases and loops powered by Heavyocity's GRAVITY engine."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/scoring-bass"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/scoring-bass"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/scoring-bass"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

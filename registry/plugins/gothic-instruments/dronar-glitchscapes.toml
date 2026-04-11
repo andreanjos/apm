@@ -1,0 +1,25 @@
+slug        = "dronar-glitchscapes"
+name        = "Dronar Glitchscapes"
+vendor      = "Gothic Instruments"
+version     = "1.0.0"
+description = "Kontakt module creating glitchy, processed atmospheric pads and evolving drone soundscapes."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonoracinematic.com/products/dronar-glitchscapes"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonoracinematic.com/products/dronar-glitchscapes"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonoracinematic.com/products/dronar-glitchscapes"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

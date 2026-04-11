@@ -1,0 +1,25 @@
+slug        = "ir-live"
+name        = "IR-Live"
+vendor      = "Waves"
+version     = "14.0"
+description = "Low-latency convolution reverb designed for use in live performance situations."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/ir-live"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/ir-live"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/ir-live"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

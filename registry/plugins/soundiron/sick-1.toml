@@ -1,0 +1,25 @@
+slug        = "sick-1"
+name        = "Sick 1"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "First volume of the Sick series — darkly processed Kontakt instrument with twisted electronic tones."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/sick-1"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/sick-1"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/sick-1"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

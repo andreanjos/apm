@@ -1,0 +1,25 @@
+slug        = "beatmaker-hustle"
+name        = "BeatMaker Hustle"
+vendor      = "UJAM"
+version     = "1.0"
+description = "Drum machine plugin built for pumping bass music tracks and hard-hitting grooves."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/beatmaker/hustle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/beatmaker/hustle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/beatmaker/hustle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "effectrix"
+name        = "Effectrix"
+vendor      = "Sugar Bytes"
+version     = "1.0.0"
+description = "Professional multi-effect sequencer with 14 expressive tools for rhythmic audio manipulation."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://sugar-bytes.de/effectrix"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sugar-bytes.de/effectrix"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sugar-bytes.de/effectrix"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

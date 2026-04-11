@@ -1,0 +1,26 @@
+slug        = "dg-8000-expansion-pack-for-attracktive"
+name        = "DG 8000 Expansion Pack for Attracktive"
+vendor      = "Tracktion"
+version     = "1.0.0"
+description = "Expansion pack for Attracktive featuring DG 8000 sounds for electronic and digital synthesis styles."
+category    = "effects"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/attracktive"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/16839-DG-8000-Expansion-Pack-for-Attracktive-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/attracktive"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/attracktive"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

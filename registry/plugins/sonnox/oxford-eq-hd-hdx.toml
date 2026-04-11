@@ -1,0 +1,25 @@
+slug        = "oxford-eq-hd-hdx"
+name        = "Oxford EQ HD/HDX"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Oxford EQ HD/HDX — 5-band parametric EQ modelled on the OXF-R3 console with professional transparency and flexibility."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/oxford-eq"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/oxford-eq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/oxford-eq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

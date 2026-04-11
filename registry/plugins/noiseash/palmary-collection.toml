@@ -1,0 +1,25 @@
+slug        = "palmary-collection"
+name        = "Palmary Collection"
+vendor      = "NoiseAsh"
+version     = "1.3.9"
+description = "Elite production bundle of NoiseAsh's top mixing and mastering plugins including EQ and dynamics."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://noiseash.com/palmary-collection/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://noiseash.com/palmary-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://noiseash.com/palmary-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

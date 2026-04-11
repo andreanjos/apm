@@ -1,0 +1,25 @@
+slug        = "spacecraft"
+name        = "SpaceCraft"
+vendor      = "Tracktion"
+version     = "1.0.0"
+description = "Granular synthesizer by Delta-V Audio with dual granular engines, grain pitch sequencer, and MPE support."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/spacecraft"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/spacecraft"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/spacecraft"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

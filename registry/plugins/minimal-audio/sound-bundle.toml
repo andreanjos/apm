@@ -1,0 +1,25 @@
+slug        = "sound-bundle"
+name        = "Sound Bundle"
+vendor      = "Minimal Audio"
+version     = "1.0.0"
+description = "Minimal Audio sound and software bundle combining plugins with expansion sound content."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.minimal.audio/t/bundles"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.minimal.audio/t/bundles"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.minimal.audio/t/bundles"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "la-petite-excite"
+name        = "La Petite Excite"
+vendor      = "Fine Cut Bodies"
+version     = "1.0"
+description = "Harmonic exciter plugin by Fine Cut Bodies for adding presence and sheen to audio."
+category    = "effects"
+subcategory = "exciter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.finecutbodies.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/62-Exciter/1664-La-Petite-Excite?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.finecutbodies.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.finecutbodies.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

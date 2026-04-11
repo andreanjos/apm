@@ -1,0 +1,26 @@
+slug        = "oneknob-phatter"
+name        = "OneKnob Phatter"
+vendor      = "Waves"
+version     = "14.0"
+description = "Single-knob low-end enhancer for adding instant weight and body to any source."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/oneknob-phatter"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/oneknob-phatter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/oneknob-phatter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

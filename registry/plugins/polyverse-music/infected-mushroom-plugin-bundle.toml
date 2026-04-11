@@ -1,0 +1,25 @@
+slug        = "infected-mushroom-plugin-bundle"
+name        = "Infected Mushroom Plugin Bundle"
+vendor      = "Polyverse Music"
+version     = "1.0.0"
+description = "Bundle of Polyverse effects co-designed with Infected Mushroom for psychedelic sound design."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://polyversemusic.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://polyversemusic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://polyversemusic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

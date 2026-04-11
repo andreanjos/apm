@@ -1,0 +1,27 @@
+slug        = "unfiltered-audio-needlepoint"
+name        = "Unfiltered Audio Needlepoint"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "Advanced vinyl simulation plugin using physical modeling technology to recreate realistic turntable sounds and textures."
+category    = "effects"
+subcategory = "tape emulation"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/en/products/unfiltered_audio_needlepoint.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/14934-Unfiltered-Audio-Needlepoint?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio_needlepoint.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio_needlepoint.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

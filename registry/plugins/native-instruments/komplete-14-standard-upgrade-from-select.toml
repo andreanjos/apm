@@ -1,0 +1,26 @@
+slug        = "komplete-14-standard-upgrade-from-select"
+name        = "Komplete 14 Standard Upgrade from Select"
+vendor      = "Native Instruments"
+version     = "14"
+description = "Upgrade from Komplete 14 Select to Standard, gaining access to more premium NI instruments."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

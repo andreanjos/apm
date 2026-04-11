@@ -1,0 +1,26 @@
+slug        = "knock-clipper"
+name        = "KNOCK Clipper"
+vendor      = "PLUGINS THAT KNOCK"
+version     = "1.0.0"
+description = "Transparent soft clipper/limiter plugin designed to add controlled harmonic saturation and loudness."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://pluginsthatknock.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/9860-KNOCK-Clipper?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://pluginsthatknock.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://pluginsthatknock.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

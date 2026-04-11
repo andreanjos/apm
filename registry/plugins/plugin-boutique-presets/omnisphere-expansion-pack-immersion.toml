@@ -1,0 +1,26 @@
+slug        = "omnisphere-expansion-pack-immersion"
+name        = "Omnisphere Expansion Pack Immersion"
+vendor      = "Plugin Boutique Presets"
+version     = "1.0.0"
+description = "Deep, immersive ambient preset expansion for Spectrasonics Omnisphere synthesizer."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/products/11789-Omnisphere-Expansion-Pack-Immersion"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/11789-Omnisphere-Expansion-Pack-Immersion?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/products/11789-Omnisphere-Expansion-Pack-Immersion"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/products/11789-Omnisphere-Expansion-Pack-Immersion"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "orchestral-percussion"
+name        = "Orchestral Percussion"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Orchestral percussion library for SampleTank with 100+ MIDI patterns and highly realistic instrument models."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/st3orchestralpercussion/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/st3orchestralpercussion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/st3orchestralpercussion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

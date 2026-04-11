@@ -1,0 +1,25 @@
+slug        = "action-delay"
+name        = "Action Delay"
+vendor      = "NoiseAsh"
+version     = "1.3.9"
+description = "Four-in-one effect combining analog delay, chorus, reverb, and lo-fi distortion processors."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://noiseash.com/action-delay/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://noiseash.com/action-delay/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://noiseash.com/action-delay/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

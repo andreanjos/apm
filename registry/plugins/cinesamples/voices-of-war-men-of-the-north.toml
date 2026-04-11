@@ -1,0 +1,26 @@
+slug        = "voices-of-war-men-of-the-north"
+name        = "Voices of War Men of the North"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Stunning Nordic male choir library delivering powerful, epic vocal performances."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/voices-of-war-men-of-the-north"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11238-Voices-of-War-Men-of-the-North?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/voices-of-war-men-of-the-north"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/voices-of-war-men-of-the-north"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

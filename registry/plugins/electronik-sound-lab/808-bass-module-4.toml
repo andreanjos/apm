@@ -1,0 +1,25 @@
+slug        = "808-bass-module-4"
+name        = "808 Bass Module 4"
+vendor      = "Electronik Sound Lab"
+version     = "4"
+description = "808 bass ROMpler virtual instrument with a curated library of trap and hip-hop bass presets."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://electroniksoundlab.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://electroniksoundlab.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://electroniksoundlab.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

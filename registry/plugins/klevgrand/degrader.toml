@@ -1,0 +1,26 @@
+slug        = "degrader"
+name        = "Degrader"
+vendor      = "Klevgrand"
+version     = "1.0"
+description = "A combined resampler and bitcrusher plugin for adding lo-fi digital grit and vintage texture."
+category    = "effects"
+subcategory = "bit crusher"
+license     = "commercial"
+tags        = []
+homepage    = "https://klevgrand.com/products/degrader"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/8700-Degrader?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://klevgrand.com/products/degrader"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://klevgrand.com/products/degrader"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

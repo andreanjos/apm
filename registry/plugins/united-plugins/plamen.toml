@@ -1,0 +1,26 @@
+slug        = "plamen"
+name        = "Plamen"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "Multi-band saturation plugin with five adjustable frequency ranges and five saturation types per band."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/Plamen/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/11077-Plamen?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/Plamen/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/Plamen/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

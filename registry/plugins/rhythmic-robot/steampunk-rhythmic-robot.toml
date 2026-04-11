@@ -1,0 +1,25 @@
+slug        = "steampunk-rhythmic-robot"
+name        = "SteamPunk"
+vendor      = "Rhythmic Robot"
+version     = "1.0"
+description = "A Kontakt alt-Victorian steam synth combining barrel organ, Melodica, and electrically generated oscillators."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rhythmicrobot.com/product/steampunk-kontakt-instrument"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rhythmicrobot.com/product/steampunk-kontakt-instrument"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rhythmicrobot.com/product/steampunk-kontakt-instrument"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "ampknob"
+name        = "AmpKnob"
+vendor      = "Bogren Digital"
+version     = "1.0.0"
+description = "Single-knob amp simulator series from Bogren Digital delivering album-ready guitar tones with low latency."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://bogrendigital.com/collections/ampknob"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://bogrendigital.com/collections/ampknob"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://bogrendigital.com/collections/ampknob"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

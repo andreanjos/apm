@@ -1,0 +1,24 @@
+slug        = "quick-ag"
+name        = "Quick AG"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "All-in-one acoustic guitar mixing plugin with instrument-specific presets, EQ, compression, and reverb."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/QuickAG/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/QuickAG/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/QuickAG/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

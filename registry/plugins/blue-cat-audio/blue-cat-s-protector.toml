@@ -1,0 +1,26 @@
+slug        = "blue-cat-s-protector"
+name        = "Blue Cat s Protector"
+vendor      = "Blue Cat Audio"
+version     = "2.34"
+description = "Stereo brickwall limiter protecting the master bus from overshoot with transparent frequency response."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bluecataudio.com/Products/Product_Protector/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/263-Blue-Cat-s-Protector?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bluecataudio.com/Products/Product_Protector/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bluecataudio.com/Products/Product_Protector/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

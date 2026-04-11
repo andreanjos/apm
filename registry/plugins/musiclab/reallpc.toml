@@ -1,0 +1,25 @@
+slug        = "reallpc"
+name        = "RealLPC"
+vendor      = "MusicLab"
+version     = "6"
+description = "Virtual Les Paul Custom guitar instrument with realistic fingering and strumming techniques."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.musiclab.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.musiclab.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.musiclab.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

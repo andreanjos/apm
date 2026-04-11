@@ -1,0 +1,25 @@
+slug        = "true-strike-1"
+name        = "True Strike 1"
+vendor      = "ProjectSAM"
+version     = "2.0"
+description = "Cinematic orchestral percussion Kontakt library with powerful live-recorded ensemble hits."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/true-strike/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/true-strike/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/true-strike/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

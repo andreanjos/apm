@@ -1,0 +1,25 @@
+slug        = "sticky"
+name        = "Sticky"
+vendor      = "infinit essentials"
+version     = "1.0.0"
+description = "R&B and Modern Trap VSTi with 158 presets including chords, bells, pads, and leads."
+category    = "instruments"
+subcategory = "multi instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://infinit-essentials.com/collections/vst-plugins"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://infinit-essentials.com/collections/vst-plugins"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://infinit-essentials.com/collections/vst-plugins"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

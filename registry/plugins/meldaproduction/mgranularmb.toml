@@ -1,0 +1,26 @@
+slug        = "mgranularmb"
+name        = "MGranularMB"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Extreme granular resynthesizer that cuts audio into grains to create entirely new sounds across six frequency bands."
+category    = "effects"
+subcategory = "granular fx"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MGranularMB"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/328-MGranularMB?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MGranularMB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MGranularMB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

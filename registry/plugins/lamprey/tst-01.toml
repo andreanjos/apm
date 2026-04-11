@@ -1,0 +1,24 @@
+slug        = "tst-01"
+name        = "TST-01"
+vendor      = "Lamprey"
+version     = "1.0.0"
+description = "Transient shaping plugin for sculpting attack and sustain characteristics of audio signals."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://iamlamprey.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://iamlamprey.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://iamlamprey.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "bx-subsynth"
+name        = "bx subsynth"
+vendor      = "Brainworx"
+version     = "1.0.0"
+description = "Subharmonic generator that synthesizes frequencies an octave below source material to add bass depth."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugin-alliance.com/products/bx_subsynth"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/4477-bx-subsynth?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/products/bx_subsynth"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/products/bx_subsynth"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

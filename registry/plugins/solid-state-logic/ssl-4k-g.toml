@@ -1,0 +1,26 @@
+slug        = "ssl-4k-g"
+name        = "SSL 4K G"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "Definitive emulation of the SSL 4000 G channel strip with Pink and Black EQ flavors and refined dynamics."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-4k-g-channel-strip"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/15245-SSL-4K-G?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-4k-g-channel-strip"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-4k-g-channel-strip"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

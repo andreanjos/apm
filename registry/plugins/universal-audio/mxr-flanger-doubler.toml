@@ -1,0 +1,26 @@
+slug        = "mxr-flanger-doubler"
+name        = "MXR® Flanger/Doubler"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the MXR Flanger/Doubler rack unit, a classic studio and stage modulation effect."
+category    = "effects"
+subcategory = "flanger"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/modulation/mxr-flanger-doubler.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/modulation/mxr-flanger-doubler.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/modulation/mxr-flanger-doubler.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

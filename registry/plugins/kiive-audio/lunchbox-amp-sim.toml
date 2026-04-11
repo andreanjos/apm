@@ -1,0 +1,26 @@
+slug        = "lunchbox-amp-sim"
+name        = "Lunchbox Amp Sim"
+vendor      = "Kiive Audio"
+version     = "1.0.0"
+description = "Plugin emulation of a classic 1960s British valve amp with cabinet IRs, drive, delay, and reverb."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kiiveaudio.com/products/lunchbox-amp"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/8290-Lunchbox-Amp-Sim?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kiiveaudio.com/products/lunchbox-amp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kiiveaudio.com/products/lunchbox-amp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

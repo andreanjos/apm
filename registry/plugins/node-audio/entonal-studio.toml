@@ -1,0 +1,26 @@
+slug        = "entonal-studio"
+name        = "Entonal Studio"
+vendor      = "Node Audio"
+version     = "2.0"
+description = "Microtonality and alternative tuning utility by Node Audio for exploring non-standard scales."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://nodeaudio.com/entonal-studio/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16429-Entonal-Studio?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nodeaudio.com/entonal-studio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nodeaudio.com/entonal-studio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

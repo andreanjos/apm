@@ -1,0 +1,25 @@
+slug        = "producer-essentials"
+name        = "Producer Essentials"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "Three-instrument Kontakt bundle with synth classics, cinematic pads, and sci-fi soundscapes."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/product/producer-essentials/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/product/producer-essentials/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/product/producer-essentials/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

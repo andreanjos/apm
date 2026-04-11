@@ -1,0 +1,25 @@
+slug        = "shreddage-3-rogue"
+name        = "Shreddage 3 Rogue"
+vendor      = "Impact Soundworks"
+version     = "1.0.0"
+description = "Kontakt aggressive drop-A 7-string Japanese electric guitar with bright tone for metal and hard rock."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://impactsoundworks.com/product/shreddage-3-rogue/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://impactsoundworks.com/product/shreddage-3-rogue/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://impactsoundworks.com/product/shreddage-3-rogue/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

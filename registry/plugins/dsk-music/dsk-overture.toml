@@ -1,0 +1,26 @@
+slug        = "dsk-overture"
+name        = "DSK Overture"
+vendor      = "DSK Music"
+version     = "1.0.0"
+description = "Free orchestral instruments VSTi with a wide range of classical ensemble sounds."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.dskmusic.com/dsk-overture/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/551-DSK-Overture?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.dskmusic.com/dsk-overture/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.dskmusic.com/dsk-overture/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

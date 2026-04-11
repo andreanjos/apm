@@ -1,0 +1,26 @@
+slug        = "pripyat"
+name        = "Pripyat"
+vendor      = "MNTRA Instruments"
+version     = "1.0.0"
+description = "Synthetic texture instrument built from electromagnetic interference and unstable vintage analog synths."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.mntra.io/product/pripyat/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/8431-Pripyat?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.mntra.io/product/pripyat/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.mntra.io/product/pripyat/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

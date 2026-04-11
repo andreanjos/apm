@@ -1,0 +1,25 @@
+slug        = "genius-loci-obzor"
+name        = "Genius Loci – Obzor"
+vendor      = "Atom Hub"
+version     = "1.0.0"
+description = "Ambient Kontakt instrument capturing the spirit of place through Obzor environmental recordings."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.atomhub.net/Genius_Loci_Obzor.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.atomhub.net/Genius_Loci_Obzor.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.atomhub.net/Genius_Loci_Obzor.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

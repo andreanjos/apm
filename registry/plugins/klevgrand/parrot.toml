@@ -1,0 +1,26 @@
+slug        = "parrot"
+name        = "Parrot"
+vendor      = "Klevgrand"
+version     = "1.0.0"
+description = "A rhythmic delay that builds loops from audio slices, morphing from subtle pulses to chaotic glitch patterns."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://klevgrand.com/products/parrot"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/16590-Parrot?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://klevgrand.com/products/parrot"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://klevgrand.com/products/parrot"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

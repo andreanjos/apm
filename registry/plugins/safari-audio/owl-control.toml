@@ -1,0 +1,26 @@
+slug        = "owl-control"
+name        = "Owl Control"
+vendor      = "Safari Audio"
+version     = "1.0.0"
+description = "Multi-mode compressor plugin featuring four smart compression algorithms in one versatile tool."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://safariaudio.com/products/owl-control"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/15348-Owl-Control?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://safariaudio.com/products/owl-control"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://safariaudio.com/products/owl-control"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

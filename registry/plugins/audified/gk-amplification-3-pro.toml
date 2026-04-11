@@ -1,0 +1,26 @@
+slug        = "gk-amplification-3-pro"
+name        = "GK Amplification 3 Pro"
+vendor      = "Audified"
+version     = "3.1.5"
+description = "Professional Gallien-Krueger bass amp emulation with three iconic amps, cabs, nine mic models, and FX."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/gk-amplification-3-pro/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/9746-GK-Amplification-3-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/gk-amplification-3-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/gk-amplification-3-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

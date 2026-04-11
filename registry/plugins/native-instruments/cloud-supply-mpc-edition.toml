@@ -1,0 +1,27 @@
+slug        = "cloud-supply-mpc-edition"
+name        = "Cloud Supply MPC Edition"
+vendor      = "Native Instruments"
+version     = "1.0"
+description = "Hazy, atmospheric trap and R&B sounds for Akai MPC hardware via the NI Play Series MPC Edition format."
+category    = "effects"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/for-akai-mpc/akai-mpc-editions/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/15183-Cloud-Supply-MPC-Edition?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/for-akai-mpc/akai-mpc-editions/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/for-akai-mpc/akai-mpc-editions/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

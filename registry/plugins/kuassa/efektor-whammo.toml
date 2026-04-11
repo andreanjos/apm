@@ -1,0 +1,24 @@
+slug        = "efektor-whammo"
+name        = "EFEKTOR Whammo"
+vendor      = "Kuassa"
+version     = "1.0.0"
+description = "High-precision pitch shifter/bender guitar effect with -3 to +2 octave range and MIDI control."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kuassa.com/products/efektor-whammo/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kuassa.com/products/efektor-whammo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kuassa.com/products/efektor-whammo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

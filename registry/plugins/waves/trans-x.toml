@@ -1,0 +1,25 @@
+slug        = "trans-x"
+name        = "Trans-X"
+vendor      = "Waves"
+version     = "14.0"
+description = "Transient shaper plugin for controlling attack and sustain characteristics of any sound."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/trans-x"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/trans-x"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/trans-x"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

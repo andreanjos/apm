@@ -1,0 +1,25 @@
+slug        = "vs-koto"
+name        = "Vs Koto"
+vendor      = "Versus Audio"
+version     = "1.0.0"
+description = "Japanese koto Kontakt instrument with sustain, pizzicato, and performance articulations."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://versusaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://versusaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://versusaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

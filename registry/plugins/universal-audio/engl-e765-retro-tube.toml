@@ -1,0 +1,26 @@
+slug        = "engl-e765-retro-tube"
+name        = "ENGL® E765 Retro Tube"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the ENGL E765 Retro Tube classic-voiced 100-watt guitar amplifier."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/guitar-bass/engl-e765-retro-tube.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/guitar-bass/engl-e765-retro-tube.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/guitar-bass/engl-e765-retro-tube.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

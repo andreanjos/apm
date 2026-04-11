@@ -1,0 +1,25 @@
+slug        = "liminal-chamber-string-textures-volume-1"
+name        = "Liminal Chamber String Textures Volume 1"
+vendor      = "Crocus Soundware"
+version     = "1.0.0"
+description = "Intimate chamber strings Kontakt library with aleatoric and evolving articulations for soundscapes."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.crocussoundware.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.crocussoundware.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.crocussoundware.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

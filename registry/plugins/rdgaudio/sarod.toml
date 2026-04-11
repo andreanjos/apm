@@ -1,0 +1,25 @@
+slug        = "sarod"
+name        = "Sarod"
+vendor      = "RDGAudio"
+version     = "1.0.0"
+description = "AU/VST3 virtual instrument plugin faithfully capturing the Indian plucked lute Sarod."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://rdgaudio.com/product/sarod/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rdgaudio.com/product/sarod/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rdgaudio.com/product/sarod/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

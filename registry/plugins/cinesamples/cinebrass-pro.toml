@@ -1,0 +1,26 @@
+slug        = "cinebrass-pro"
+name        = "CineBrass Pro"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Comprehensive orchestral brass expansion recorded at MGM Scoring Stage with extended articulations."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/cinebrass-pro"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11240-CineBrass-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/cinebrass-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/cinebrass-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

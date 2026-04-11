@@ -1,0 +1,25 @@
+slug        = "ds-4"
+name        = "DS-4"
+vendor      = "Iconic Instruments"
+version     = "1.0"
+description = "Vintage electronic drum machine synthesizer emulating classic analog drum sounds."
+category    = "instruments"
+subcategory = "electronic drums"
+license     = "commercial"
+tags        = []
+homepage    = "https://iconicpluginsinstruments.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://iconicpluginsinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://iconicpluginsinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

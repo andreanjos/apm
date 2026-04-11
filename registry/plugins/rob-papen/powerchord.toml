@@ -1,0 +1,26 @@
+slug        = "powerchord"
+name        = "PowerChord"
+vendor      = "Rob Papen"
+version     = "1.0.0"
+description = "Grunge guitar groove machine with 12 solo and 41 stacked guitar models, sequencer, and analog-modeled filters."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/powerchord.html"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/13065-PowerChord?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/powerchord.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/powerchord.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

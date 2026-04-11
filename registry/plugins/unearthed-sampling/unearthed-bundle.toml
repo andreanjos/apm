@@ -1,0 +1,25 @@
+slug        = "unearthed-bundle"
+name        = "Unearthed Bundle"
+vendor      = "unEarthed Sampling"
+version     = "1.0"
+description = "Complete bundle of unEarthed Sampling's Kontakt instrument library for cinematic sound design and scoring."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.unearthedsampling.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.unearthedsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.unearthedsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

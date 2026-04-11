@@ -1,0 +1,25 @@
+slug        = "gem-voice"
+name        = "GEM Voice"
+vendor      = "Overloud"
+version     = "1.0.0"
+description = "Comprehensive vocal production plug-in based on classic analogue processors for professional results."
+category    = "effects"
+subcategory = "impulse response"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.overloud.com/gems"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.overloud.com/gems"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.overloud.com/gems"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

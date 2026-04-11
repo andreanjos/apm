@@ -1,0 +1,25 @@
+slug        = "syntronik-2-crossgrade"
+name        = "Syntronik 2 Crossgrade"
+vendor      = "IK Multimedia"
+version     = "2.0"
+description = "Crossgrade to Syntronik 2, IK's hybrid sample and modeling synthesizer with 34 legendary synths."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/syntronik2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/syntronik2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/syntronik2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

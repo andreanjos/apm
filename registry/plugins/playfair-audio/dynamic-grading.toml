@@ -1,0 +1,25 @@
+slug        = "dynamic-grading"
+name        = "Dynamic Grading"
+vendor      = "Playfair Audio"
+version     = "1.2"
+description = "Playfair Audio Dynamic Grading applies film-inspired dynamic range grading to audio signals."
+category    = "effects"
+subcategory = "dynamic processor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.playfairaudio.com/dynamic-grading"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.playfairaudio.com/dynamic-grading"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.playfairaudio.com/dynamic-grading"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

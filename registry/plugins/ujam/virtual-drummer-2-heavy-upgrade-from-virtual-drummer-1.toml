@@ -1,0 +1,25 @@
+slug        = "virtual-drummer-2-heavy-upgrade-from-virtual-drummer-1"
+name        = "Virtual Drummer 2 Heavy Upgrade from Virtual Drummer 1"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Upgrade to Virtual Drummer 2 HEAVY hard-hitting rock drums from Virtual Drummer 1."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/drummer/heavy/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/drummer/heavy/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/drummer/heavy/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

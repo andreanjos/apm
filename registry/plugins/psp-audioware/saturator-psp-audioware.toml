@@ -1,0 +1,24 @@
+slug        = "saturator-psp-audioware"
+name        = "Saturator"
+vendor      = "PSP Audioware"
+version     = "1.1.3"
+description = "Saturation plugin emulating the warmth and harmonic character of analog tape recorders and valve circuits."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-saturator"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-saturator"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-saturator"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

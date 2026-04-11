@@ -1,0 +1,26 @@
+slug        = "raw-kick"
+name        = "RAW Kick"
+vendor      = "Rob Papen"
+version     = "1.0.0"
+description = "Virtual kick drum synthesizer with three synthesis layers and sample loading, co-developed with DJ Free-K and DJ Promo."
+category    = "instruments"
+subcategory = "generator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/RAW-Kick.html"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/4787-RAW-Kick?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/RAW-Kick.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/RAW-Kick.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

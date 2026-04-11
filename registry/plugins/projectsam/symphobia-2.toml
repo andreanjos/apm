@@ -1,0 +1,25 @@
+slug        = "symphobia-2"
+name        = "Symphobia 2"
+vendor      = "ProjectSAM"
+version     = "1.0.0"
+description = "Expanded orchestral Kontakt library with refined articulations and cinematic effects."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/symphobia-2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/symphobia-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/symphobia-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

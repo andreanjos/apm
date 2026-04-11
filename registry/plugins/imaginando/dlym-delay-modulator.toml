@@ -1,0 +1,26 @@
+slug        = "dlym-delay-modulator"
+name        = "DLYM Delay Modulator"
+vendor      = "Imaginando"
+version     = "2.2.0"
+description = "Chorus and flanger effects processor with modulated delay for rich stereo movement."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.imaginando.pt/products/dlym-delay-modulator"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/4250-DLYM-Delay-Modulator?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.imaginando.pt/products/dlym-delay-modulator"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.imaginando.pt/products/dlym-delay-modulator"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

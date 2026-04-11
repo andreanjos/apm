@@ -1,0 +1,25 @@
+slug        = "orchestral-brass-classic"
+name        = "Orchestral Brass Classic"
+vendor      = "ProjectSAM"
+version     = "1.0.0"
+description = "Re-issue of the acclaimed SAM Horns, Trombones, Trumpets, and Solo Sessions brass library."
+category    = "instruments"
+subcategory = "brass"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/orchestral-brass-classic/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/orchestral-brass-classic/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/orchestral-brass-classic/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

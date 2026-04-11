@@ -1,0 +1,27 @@
+slug        = "unfiltered-audio-silo"
+name        = "Unfiltered Audio SILO"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "Granular reverb plugin breaking audio into grains to create rich, tweakable, and otherworldly reverb textures."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/en/products/unfiltered_audio_silo.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/14933-Unfiltered-Audio-SILO?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio_silo.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio_silo.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

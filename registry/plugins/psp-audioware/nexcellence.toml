@@ -1,0 +1,24 @@
+slug        = "nexcellence"
+name        = "Nexcellence"
+vendor      = "PSP Audioware"
+version     = "1.0.0"
+description = "Rich-sounding spring reverb emulation inspired by classic necklace-type reverb units."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-nexcellence"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-nexcellence"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-nexcellence"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

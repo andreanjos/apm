@@ -1,0 +1,25 @@
+slug        = "bleass-omega-synth-bundle"
+name        = "BLEASS Omega Synth Bundle"
+vendor      = "BLEASS"
+version     = "1.0"
+description = "Bundle featuring the BLEASS Omega FM synthesizer with curated preset packs from top sound designers."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bleass.com/omega/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bleass.com/omega/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bleass.com/omega/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

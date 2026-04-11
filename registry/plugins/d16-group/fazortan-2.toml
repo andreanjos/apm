@@ -1,0 +1,26 @@
+slug        = "fazortan-2"
+name        = "Fazortan 2"
+vendor      = "D16 Group"
+version     = "2.2.2"
+description = "Analog phaser emulation from the 1970s with dual LFOs, adjustable stages and OTA modeling."
+category    = "effects"
+subcategory = "phaser"
+license     = "commercial"
+tags        = []
+homepage    = "https://d16.pl/fazortan2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/4711-Fazortan-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://d16.pl/fazortan2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://d16.pl/fazortan2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

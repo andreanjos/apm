@@ -1,0 +1,26 @@
+slug        = "fulltone-collection"
+name        = "Fulltone Collection"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Official Fulltone pedal effects collection for AmpliTube with faithful models of Fulltone's classic stomps."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/fulltone/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/12959-Fulltone-Collection?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/fulltone/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/fulltone/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

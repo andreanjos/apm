@@ -1,0 +1,26 @@
+slug        = "sem-v"
+name        = "SEM V"
+vendor      = "Arturia"
+version     = "3.5.0"
+description = "Virtual recreation of the Oberheim SEM (Synthesizer Expander Module) analog voice module."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-instruments/semv/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-instruments/semv/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-instruments/semv/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

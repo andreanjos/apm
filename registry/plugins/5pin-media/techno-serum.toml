@@ -1,0 +1,26 @@
+slug        = "techno-serum"
+name        = "Techno Serum"
+vendor      = "5Pin Media"
+version     = "1.0.0"
+description = "130 premium grade techno Serum presets with macro-driven sounds for hard-hitting techno production."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://5pinmedia.com/product/techno-serum/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11179-Techno-Serum?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://5pinmedia.com/product/techno-serum/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://5pinmedia.com/product/techno-serum/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

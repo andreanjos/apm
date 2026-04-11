@@ -1,0 +1,25 @@
+slug        = "bassysm-s"
+name        = "BassysM-S"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Sample-based electric bass instrument modeled on a four-string bass guitar with a standard strung configuration."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/bassysm-s"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/bassysm-s"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/bassysm-s"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

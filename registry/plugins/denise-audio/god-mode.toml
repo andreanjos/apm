@@ -1,0 +1,26 @@
+slug        = "god-mode"
+name        = "God Mode"
+vendor      = "Denise Audio"
+version     = "1.0.0"
+description = "Powerful saturation plugin delivering harmonic richness and analog-style overdrive."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.deniseaudio.com/plugins/god-mode"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/6336-God-Mode?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.deniseaudio.com/plugins/god-mode"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.deniseaudio.com/plugins/god-mode"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

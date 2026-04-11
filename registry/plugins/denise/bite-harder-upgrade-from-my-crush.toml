@@ -1,0 +1,25 @@
+slug        = "bite-harder-upgrade-from-my-crush"
+name        = "Bite Harder Upgrade from My Crush"
+vendor      = "denise"
+version     = "1.0.0"
+description = "Upgrade path from My Crush to Bite Harder, adding advanced bit-crushing capabilities."
+category    = "effects"
+subcategory = "bit crusher"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.deniseaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.deniseaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.deniseaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "vikings-expansion-metal-cinematic"
+name        = "Vikings Expansion Metal Cinematic"
+vendor      = "Keepforest"
+version     = "1.0.0"
+description = "Keepforest 10.7 GB cinematic metal expansion for Kontakt with strings, percussion, guitars, and bass."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://keep-forest.com/store/libraries/223533"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/7800-Vikings-Expansion-Metal-Cinematic?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://keep-forest.com/store/libraries/223533"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://keep-forest.com/store/libraries/223533"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

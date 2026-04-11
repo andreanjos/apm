@@ -1,0 +1,25 @@
+slug        = "voltage-modular-core"
+name        = "Voltage Modular Core"
+vendor      = "Cherry Audio"
+version     = "2"
+description = "The most feature-rich software modular synthesis platform with unlimited cables and busses system."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/voltage-modular"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/voltage-modular"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/voltage-modular"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

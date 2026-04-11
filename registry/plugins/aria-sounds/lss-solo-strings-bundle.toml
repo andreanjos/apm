@@ -1,0 +1,25 @@
+slug        = "lss-solo-strings-bundle"
+name        = "LSS Solo Strings Bundle"
+vendor      = "Aria Sounds"
+version     = "1.0.0"
+description = "Bundle of solo violin, viola, cello, and double bass Kontakt libraries recorded in a concert hall."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://ariasounds.com/product/lss-solo-strings-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://ariasounds.com/product/lss-solo-strings-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://ariasounds.com/product/lss-solo-strings-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

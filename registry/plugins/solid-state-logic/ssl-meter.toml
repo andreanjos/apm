@@ -1,0 +1,26 @@
+slug        = "ssl-meter"
+name        = "SSL Meter"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "SSL metering plugin providing loudness and level monitoring for mixing and mastering workflows."
+category    = "utility"
+subcategory = "metering"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-meter"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/10642-SSL-Meter?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-meter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-meter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "kymera-collectors-edition"
+name        = "Kymera (Collector’s Edition)"
+vendor      = "MNTRA"
+version     = "1.0.0"
+description = "Collector's edition of MNTRA's Kymera, a Musique concrète-inspired virtual instrument."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.mntra.io/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.mntra.io/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.mntra.io/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

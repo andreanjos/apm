@@ -1,0 +1,25 @@
+slug        = "oxypops"
+name        = "Oxypops"
+vendor      = "Forgotten Keys"
+version     = "1.0.0"
+description = "Kontakt simulation of the 1960s Mini Pops 7 vintage drum machine with sampled rhythms."
+category    = "instruments"
+subcategory = "electronic drums"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.forgottenkeys.co.uk/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.forgottenkeys.co.uk/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.forgottenkeys.co.uk/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

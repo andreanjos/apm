@@ -1,0 +1,26 @@
+slug        = "nithonat-2"
+name        = "Nithonat 2"
+vendor      = "D16 Group"
+version     = "2.0.2"
+description = "TR-606 drum synthesizer emulation with harsh metallic sounds, step sequencer and 900+ presets."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+homepage    = "https://d16.pl/nithonat2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/12414-Nithonat-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://d16.pl/nithonat2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://d16.pl/nithonat2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

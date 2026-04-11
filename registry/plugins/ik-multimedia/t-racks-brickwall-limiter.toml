@@ -1,0 +1,25 @@
+slug        = "t-racks-brickwall-limiter"
+name        = "T-RackS Brickwall Limiter"
+vendor      = "IK Multimedia"
+version     = "5.0"
+description = "T-RackS true brickwall limiter module for transparent loudness maximization in mixing and mastering."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/tr5/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/tr5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/tr5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

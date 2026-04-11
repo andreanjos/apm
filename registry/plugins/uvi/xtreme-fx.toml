@@ -1,0 +1,25 @@
+slug        = "xtreme-fx"
+name        = "Xtreme FX"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Sound effect and foley library with thousands of sounds from combat to sci-fi, with XY performance controls."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/xtreme-fx-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/xtreme-fx-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/xtreme-fx-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

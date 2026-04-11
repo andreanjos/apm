@@ -1,0 +1,26 @@
+slug        = "w43-noise-reduction"
+name        = "W43 Noise Reduction"
+vendor      = "Waves"
+version     = "14.0"
+description = "Broadband noise reduction plugin modeled on the Cedar DNS One noise suppressor."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/w43-noise-reduction"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/w43-noise-reduction"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/w43-noise-reduction"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

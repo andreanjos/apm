@@ -1,0 +1,25 @@
+slug        = "eastern-violin"
+name        = "Eastern Violin"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "A 2.7GB library of over 1,000 authentic eastern-style violin phrases recorded in 24-bit on the Indian subcontinent."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/eastern-violin"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/eastern-violin"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/eastern-violin"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

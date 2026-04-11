@@ -1,0 +1,25 @@
+slug        = "drumslot"
+name        = "DRUMSLOT"
+vendor      = "Vegas Audio"
+version     = "1.0"
+description = "Drum sampler and sequencer plugin by Vegas Audio for slot-machine-style beat generation."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://vegasaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://vegasaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://vegasaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

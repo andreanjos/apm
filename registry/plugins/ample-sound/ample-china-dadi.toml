@@ -1,0 +1,26 @@
+slug        = "ample-china-dadi"
+name        = "Ample China Dadi"
+vendor      = "Ample Sound"
+version     = "4"
+description = "Chinese dizi flute virtual instrument capturing the bright, expressive tone of this traditional wind instrument."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.amplesound.net/en/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15083-Ample-China-Dadi?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.amplesound.net/en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.amplesound.net/en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

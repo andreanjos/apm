@@ -1,0 +1,25 @@
+slug        = "tdr-od-everything-bundle"
+name        = "TDR + OD Everything Bundle"
+vendor      = "Tokyo Dawn Labs"
+version     = "1.0.0"
+description = "Combined bundle of all Tokyo Dawn Labs and Ohlhorst Digital plugins for comprehensive mixing and mastering."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tokyodawn.net/od-plugin-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tokyodawn.net/od-plugin-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tokyodawn.net/od-plugin-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

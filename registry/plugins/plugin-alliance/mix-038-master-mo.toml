@@ -1,0 +1,26 @@
+slug        = "mix-038-master-mo"
+name        = "MIX &#038; MASTER/mo"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "Monthly subscription bundle giving access to Plugin Alliance's comprehensive mix and mastering plugin collection."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-monthly.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-monthly.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/pa-mix-master-bundle-monthly.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

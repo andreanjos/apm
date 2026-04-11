@@ -1,0 +1,27 @@
+slug        = "fairchild-tube-limiter-collection"
+name        = "Fairchild Tube Limiter Collection"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulations of the Fairchild 660 and 670 tube limiters, the rarest and most coveted compressors ever made."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/fairchild-tube-limiter-collection.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/10312-Fairchild-Tube-Limiter-Collection?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/fairchild-tube-limiter-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/fairchild-tube-limiter-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

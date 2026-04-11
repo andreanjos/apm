@@ -1,0 +1,25 @@
+slug        = "voice-of-gaia-8211-francesca-genco"
+name        = "Voice of Gaia &#8211; Francesca Genco"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Solo female voice Kontakt library featuring singer Francesca Genco with operatic vocal range."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/voice-of-gaia-francesca-genco"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/voice-of-gaia-francesca-genco"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/voice-of-gaia-francesca-genco"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "pianoverb-2"
+name        = "PianoVerb 2"
+vendor      = "PSP Audioware"
+version     = "2.5.5"
+description = "Creative resonant reverb plugin using twelve piano string-inspired resonant filters for distinctive reverberation."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-pianoverb2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-pianoverb2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-pianoverb2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "bassysm-f"
+name        = "Bassysm-F"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Sample-based four-string fretless bass guitar with expressive legato articulations and a smooth tone."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/bassysm-f"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/bassysm-f"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/bassysm-f"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

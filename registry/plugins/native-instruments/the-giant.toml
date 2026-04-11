@@ -1,0 +1,26 @@
+slug        = "the-giant"
+name        = "The Giant"
+vendor      = "Native Instruments"
+version     = "1.2"
+description = "Sampled from the world's largest upright piano, the Klavins 370i — piercing, direct, and unforgettable."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/keys/the-giant/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/keys/the-giant/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/keys/the-giant/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

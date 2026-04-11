@@ -1,0 +1,25 @@
+slug        = "lo"
+name        = "Lo"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Lo-fi electronic drum machine Kontakt instrument with vintage, degraded percussive character."
+category    = "instruments"
+subcategory = "electronic drums"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/lo"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/lo"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/lo"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

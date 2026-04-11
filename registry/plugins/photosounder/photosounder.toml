@@ -1,0 +1,26 @@
+slug        = "photosounder"
+name        = "Photosounder"
+vendor      = "Photosounder"
+version     = "1.11.2"
+description = "Image-based synthesizer that converts images into sound and sound into images for unique design."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://photosounder.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1350-Photosounder?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://photosounder.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://photosounder.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

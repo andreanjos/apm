@@ -1,0 +1,25 @@
+slug        = "lotary-2"
+name        = "L’otary 2"
+vendor      = "PSP Audioware"
+version     = "2.1.4"
+description = "Ultra high-quality rotary speaker emulation modeled after the Leslie 122 and 147 cabinets."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-lotary2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-lotary2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-lotary2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

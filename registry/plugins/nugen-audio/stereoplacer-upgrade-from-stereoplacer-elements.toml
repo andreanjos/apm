@@ -1,0 +1,25 @@
+slug        = "stereoplacer-upgrade-from-stereoplacer-elements"
+name        = "Stereoplacer Upgrade from Stereoplacer Elements"
+vendor      = "NUGEN Audio"
+version     = "1.0.0"
+description = "Upgrade from Stereoplacer Elements to full Stereoplacer for complete frequency-specific stereo placement."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://nugenaudio.com/stereoplacer/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nugenaudio.com/stereoplacer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nugenaudio.com/stereoplacer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

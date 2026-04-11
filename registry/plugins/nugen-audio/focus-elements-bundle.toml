@@ -1,0 +1,25 @@
+slug        = "focus-elements-bundle"
+name        = "Focus Elements Bundle"
+vendor      = "NUGEN Audio"
+version     = "1.0.0"
+description = "Lite versions of NUGEN Audio's Stereoizer, Monofilter, and Stereoplacer in an affordable bundle."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://nugenaudio.com/focus/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nugenaudio.com/focus/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nugenaudio.com/focus/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

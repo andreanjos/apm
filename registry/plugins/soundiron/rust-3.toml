@@ -1,0 +1,25 @@
+slug        = "rust-3"
+name        = "Rust 3"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Third volume of the Rust series — industrial Kontakt instrument from rusted and weathered metals."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/rust-3"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/rust-3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/rust-3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

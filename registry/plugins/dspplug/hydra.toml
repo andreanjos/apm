@@ -1,0 +1,25 @@
+slug        = "hydra"
+name        = "hydra"
+vendor      = "DSPplug"
+version     = "1.0.0"
+description = "Doubler/harmonizer plugin for creating rich, layered harmonic textures from any audio source."
+category    = "effects"
+subcategory = "harmonizer"
+license     = "commercial"
+tags        = []
+homepage    = "https://dspplug.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://dspplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://dspplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "bass-machine"
+name        = "Bass Machine"
+vendor      = "Hideaway Studio"
+version     = "1.0.0"
+description = "Dual-voice Kontakt synth engine with over 800 samples from a 1976 Minimoog for rich bass sounds."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://hideawaystudio.net/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hideawaystudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hideawaystudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

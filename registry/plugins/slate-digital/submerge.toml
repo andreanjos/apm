@@ -1,0 +1,26 @@
+slug        = "submerge"
+name        = "Submerge"
+vendor      = "Slate Digital"
+version     = "1.0.0"
+description = "Advanced automatic sidechain plugin with three trigger modes and eight effect types for ducking effects."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://slatedigital.com/submerge/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/15809-Submerge?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://slatedigital.com/submerge/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://slatedigital.com/submerge/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

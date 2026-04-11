@@ -1,0 +1,26 @@
+slug        = "noire"
+name        = "Noire"
+vendor      = "Native Instruments"
+version     = "1.2"
+description = "Nils Frahm's Yamaha CFX grand piano, deeply sampled with felt and prepared piano textures."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/keys/noire/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/keys/noire/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/keys/noire/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

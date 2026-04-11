@@ -1,0 +1,25 @@
+slug        = "quantakor"
+name        = "Quantakor"
+vendor      = "Eplex7 DSP"
+version     = "1.0.0"
+description = "AI-generated futuristic sci-fi instrument plugin with 1.2GB of cybernetic soundscapes."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eplex7.com/quantakor-vsti-au-plug-in-instrument/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eplex7.com/quantakor-vsti-au-plug-in-instrument/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eplex7.com/quantakor-vsti-au-plug-in-instrument/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

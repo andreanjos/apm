@@ -1,0 +1,26 @@
+slug        = "808-bass-module-4-lite"
+name        = "808 Bass Module 4 Lite"
+vendor      = "Electronik Sound Lab"
+version     = "4 Lite"
+description = "Free lite version of the 808 Bass Module 4 virtual instrument for trap and hip-hop bass sounds."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://electroniksoundlab.com/808-bass-module-5/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/7906-808-Bass-Module-4-Lite?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://electroniksoundlab.com/808-bass-module-5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://electroniksoundlab.com/808-bass-module-5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

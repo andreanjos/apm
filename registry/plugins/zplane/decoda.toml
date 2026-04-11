@@ -1,0 +1,26 @@
+slug        = "decoda"
+name        = "deCoda"
+vendor      = "zplane"
+version     = "1.0.0"
+description = "Song deconstruction tool that analyzes audio to reveal key, tempo, chords, and song sections."
+category    = "utility"
+subcategory = "music theory tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://products.zplane.de/products/decoda"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6057-deCoda?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://products.zplane.de/products/decoda"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://products.zplane.de/products/decoda"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "ir1"
+name        = "IR1"
+vendor      = "Waves"
+version     = "14.0"
+description = "Waves IR1 convolution reverb with comprehensive impulse response processing capabilities."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/ir1"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/ir1"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/ir1"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

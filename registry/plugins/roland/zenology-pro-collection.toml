@@ -1,0 +1,27 @@
+slug        = "zenology-pro-collection"
+name        = "ZENOLOGY PRO Collection"
+vendor      = "Roland"
+version     = "1.0"
+description = "Complete collection bundle for Roland ZENOLOGY PRO advanced ZEN-Core software synthesizer."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "roland-cloud"
+homepage    = "https://www.roland.com/us/products/rc_zenology_pro/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15303-ZENOLOGY-PRO-Collection?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.roland.com/us/products/rc_zenology_pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.roland.com/us/products/rc_zenology_pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

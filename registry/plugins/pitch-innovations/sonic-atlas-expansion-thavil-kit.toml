@@ -1,0 +1,26 @@
+slug        = "sonic-atlas-expansion-thavil-kit"
+name        = "Sonic Atlas Expansion Thavil Kit"
+vendor      = "Pitch Innovations"
+version     = "1.0.0"
+description = "Playable South Indian Thavil temple percussion ensemble kit for Sonic Atlas."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pitchinnovations.com/products/sonic-atlas"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/16792-Sonic-Atlas-Expansion-Thavil-Kit?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pitchinnovations.com/products/sonic-atlas"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pitchinnovations.com/products/sonic-atlas"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

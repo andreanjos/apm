@@ -1,0 +1,26 @@
+slug        = "moroccan-vocal-phrases"
+name        = "Moroccan Vocal Phrases"
+vendor      = "Sonuscore"
+version     = "1.0.0"
+description = "Over 580 Moroccan vocal phrases by Nadia Kaawad spanning Gnawa, Andalusian, Malhun, and Chaabi styles."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonuscore.com/shop/moroccan-vocal-phrases/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13024-Moroccan-Vocal-Phrases?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonuscore.com/shop/moroccan-vocal-phrases/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonuscore.com/shop/moroccan-vocal-phrases/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

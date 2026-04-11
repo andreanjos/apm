@@ -1,0 +1,24 @@
+slug        = "vocalign-project-5-for-revoice-pro-4-owners"
+name        = "VocAlign Project 5 for Revoice Pro 4 Owners"
+vendor      = "Synchro Arts"
+version     = "5"
+description = "VocAlign Project 5 vocal alignment plugin available to Revoice Pro 4 license holders."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://synchroarts.com/products/vocalign-pro"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synchroarts.com/products/vocalign-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synchroarts.com/products/vocalign-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

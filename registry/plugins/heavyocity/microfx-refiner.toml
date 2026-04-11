@@ -1,0 +1,26 @@
+slug        = "microfx-refiner"
+name        = "MicroFX Refiner"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Compact bus polishing plugin combining compression and saturation with an XY pad engine for dynamic mix refinement."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/microfx-refiner"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/14243-MicroFX-Refiner?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/microfx-refiner"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/microfx-refiner"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

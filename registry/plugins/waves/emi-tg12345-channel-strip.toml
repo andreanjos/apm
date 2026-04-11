@@ -1,0 +1,26 @@
+slug        = "emi-tg12345-channel-strip"
+name        = "EMI TG12345 Channel Strip"
+vendor      = "Waves"
+version     = "14.0"
+description = "Emulation of the EMI TG12345 console channel strip from Abbey Road Studios."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/emi-tg12345-channel-strip"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/emi-tg12345-channel-strip"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/emi-tg12345-channel-strip"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

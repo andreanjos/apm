@@ -1,0 +1,25 @@
+slug        = "brazilian-series-tam-tam"
+name        = "Brazilian Series: Tam Tam"
+vendor      = "Muletone Audio"
+version     = "1.5"
+description = "Kontakt library of the Brazilian Tantã cylindrical drum with traditional rhythms and grooves."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.muletoneaudio.com/tam-tam/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.muletoneaudio.com/tam-tam/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.muletoneaudio.com/tam-tam/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

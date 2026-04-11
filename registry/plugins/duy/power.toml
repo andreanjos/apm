@@ -1,0 +1,25 @@
+slug        = "power"
+name        = "Power"
+vendor      = "DUY"
+version     = "1.0.0"
+description = "Automatic dynamics processor that adjusts thresholds, ratios, attack and release with no manual tweaking."
+category    = "effects"
+subcategory = "dynamic processor"
+license     = "commercial"
+tags        = []
+homepage    = "https://duy.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

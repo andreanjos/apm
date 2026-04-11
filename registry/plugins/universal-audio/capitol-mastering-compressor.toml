@@ -1,0 +1,27 @@
+slug        = "capitol-mastering-compressor"
+name        = "Capitol Mastering Compressor"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Mastering-grade compressor modeled on the outboard gear in Capitol Studios' mastering suite."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/capitol-mastering-compressor.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10562-Capitol-Mastering-Compressor?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/capitol-mastering-compressor.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/capitol-mastering-compressor.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

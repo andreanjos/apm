@@ -1,0 +1,26 @@
+slug        = "rz062-equalizer"
+name        = "RZ062 Equalizer"
+vendor      = "Audified"
+version     = "2.0.0"
+description = "Analog-modeled equalizer emulating a vintage German broadcast console EQ for warm, musical tone shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/rz062-equalizer/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/3761-RZ062-Equalizer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/rz062-equalizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/rz062-equalizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

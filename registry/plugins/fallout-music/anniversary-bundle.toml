@@ -1,0 +1,25 @@
+slug        = "anniversary-bundle"
+name        = "Anniversary Bundle"
+vendor      = "Fallout Music"
+version     = "1.0.0"
+description = "Fallout Music Group anniversary collection of six cinematic Kontakt sound design libraries."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://falloutmusicgroup.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://falloutmusicgroup.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://falloutmusicgroup.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

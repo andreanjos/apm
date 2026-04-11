@@ -1,0 +1,25 @@
+slug        = "bassysm-j"
+name        = "Bassysm-J"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Four-string Musicman Stingray bass in a jazz-muted variant with flatwound strings, ideal for jazz ensembles."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/bassysm-j"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/bassysm-j"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/bassysm-j"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

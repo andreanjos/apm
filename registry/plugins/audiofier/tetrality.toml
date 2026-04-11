@@ -1,0 +1,25 @@
+slug        = "tetrality"
+name        = "Tetrality"
+vendor      = "Audiofier"
+version     = "1.0"
+description = "Four-zone Kontakt instrument with polyrhythmic sequencers and 20 organic instruments per layer."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiofier.co.uk/tetrality/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiofier.co.uk/tetrality/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiofier.co.uk/tetrality/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

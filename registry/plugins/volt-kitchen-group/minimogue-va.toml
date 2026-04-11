@@ -1,0 +1,26 @@
+slug        = "minimogue-va"
+name        = "Minimogue VA"
+vendor      = "Volt Kitchen Group"
+version     = "1.0"
+description = "Virtual analog Minimoog synthesizer emulation by Volt Kitchen Group with authentic tone."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "http://www.voltkitchengroup.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/151-Minimogue-VA?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "http://www.voltkitchengroup.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "http://www.voltkitchengroup.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "ezdrummer-3-upgrade"
+name        = "EZdrummer 3 Upgrade"
+vendor      = "Toontrack"
+version     = "3.1.2"
+description = "Upgrade path to EZdrummer 3 for existing Toontrack drum instrument owners."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+installer   = "toontrack-product-manager"
+homepage    = "https://www.toontrack.com/product/ezdrummer-3/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.toontrack.com/product/ezdrummer-3/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.toontrack.com/product/ezdrummer-3/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "cloudbounce-8211-infinity-annual-subscription"
+name        = "Cloudbounce &#8211; Infinity Annual Subscription"
+vendor      = "CloudBounce"
+version     = "1.0.0"
+description = "Annual Infinity-tier subscription to CloudBounce with highest-priority AI mastering and unlimited tracks."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://cloudbounce.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cloudbounce.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cloudbounce.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

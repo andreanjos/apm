@@ -1,0 +1,27 @@
+slug        = "system-1"
+name        = "SYSTEM 1"
+vendor      = "Roland"
+version     = "1.0"
+description = "ACB-modeled software synthesizer based on Roland's SYSTEM-1 with PLUG-OUT capability for classic synths."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "roland-cloud"
+homepage    = "https://www.roland.com/us/products/rc_system-1/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15281-SYSTEM-1?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.roland.com/us/products/rc_system-1/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.roland.com/us/products/rc_system-1/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

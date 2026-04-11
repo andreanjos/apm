@@ -1,0 +1,26 @@
+slug        = "ample-bass-upright"
+name        = "Ample Bass Upright"
+vendor      = "Ample Sound"
+version     = "4"
+description = "Upright double bass virtual instrument capturing the iconic soulful jazz bass sound with 13 articulations."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.amplesound.net/en/pro-pd.asp?id=21"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15112-Ample-Bass-Upright?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=21"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=21"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

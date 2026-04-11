@@ -1,0 +1,26 @@
+slug        = "pattern-strings"
+name        = "Pattern Strings"
+vendor      = "Ben Osterhouse"
+version     = "1.0.0"
+description = "Kontakt library of tempo-synced rhythmic string fragments for creating natural ostinatos."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://osterhousesounds.com/products/pattern-strings"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7406-Pattern-Strings?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://osterhousesounds.com/products/pattern-strings"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://osterhousesounds.com/products/pattern-strings"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

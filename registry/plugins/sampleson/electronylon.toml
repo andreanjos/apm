@@ -1,0 +1,26 @@
+slug        = "electronylon"
+name        = "ElectroNylon"
+vendor      = "Sampleson"
+version     = "1.0.0"
+description = "Spectral-modeled hybrid instrument combining nylon guitar and electric piano into a single playable sound."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://sampleson.com/electronylon.html"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/6961-ElectroNylon?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sampleson.com/electronylon.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sampleson.com/electronylon.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

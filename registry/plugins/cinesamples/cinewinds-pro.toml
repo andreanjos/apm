@@ -1,0 +1,26 @@
+slug        = "cinewinds-pro"
+name        = "CineWinds Pro"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Professional orchestral woodwind expansion with extended articulations and additional instruments."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/cinewinds-pro"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11285-CineWinds-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/cinewinds-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/cinewinds-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

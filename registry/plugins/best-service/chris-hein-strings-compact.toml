@@ -1,0 +1,25 @@
+slug        = "chris-hein-strings-compact"
+name        = "Chris Hein Strings Compact"
+vendor      = "Best Service"
+version     = "1.0.0"
+description = "Compact orchestral strings library with solo violins, violas, cellos, and double basses for Kontakt Player."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/chris_hein_strings_compact.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/chris_hein_strings_compact.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/chris_hein_strings_compact.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

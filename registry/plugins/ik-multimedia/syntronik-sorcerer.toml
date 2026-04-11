@@ -1,0 +1,25 @@
+slug        = "syntronik-sorcerer"
+name        = "Syntronik Sorcerer"
+vendor      = "IK Multimedia"
+version     = "2.0"
+description = "Syntronik instrument based on the Moog Source with fat analog oscillators and the classic Moog ladder filter."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/synsorcerer/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/synsorcerer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/synsorcerer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

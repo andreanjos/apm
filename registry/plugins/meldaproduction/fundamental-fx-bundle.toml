@@ -1,0 +1,25 @@
+slug        = "fundamental-fx-bundle"
+name        = "Fundamental FX Bundle"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Four creative sound design plugins — MRhythmizer, MHarmonizerMB, MMorph, and MGranularMB — in one bundle."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/bundles"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/bundles"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/bundles"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

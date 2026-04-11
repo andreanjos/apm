@@ -1,0 +1,25 @@
+slug        = "jjp-drums"
+name        = "JJP Drums"
+vendor      = "Waves"
+version     = "14.0"
+description = "Signature drum channel plugin based on Jack Joseph Puig's drum processing methods."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/jjp-drums"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/jjp-drums"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/jjp-drums"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

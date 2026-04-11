@@ -1,0 +1,26 @@
+slug        = "chorus-d-bundle"
+name        = "Chorus D Bundle"
+vendor      = "Slate Digital"
+version     = "1.0.0"
+description = "Bundle of SD-D Chorus and Custom D Chorus plugins delivering lush, spacious vintage chorus tones."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+homepage    = "https://slatedigital.com/chorus-d-bundle-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/15768-Chorus-D-Bundle?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://slatedigital.com/chorus-d-bundle-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://slatedigital.com/chorus-d-bundle-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

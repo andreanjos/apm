@@ -1,0 +1,26 @@
+slug        = "voxos-epic-choirs"
+name        = "Voxos Epic Choirs"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Soaring symphonic choir with fluid legato and cinematic realism for epic scores and film."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/voxos-epic-choirs"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11270-Voxos-Epic-Choirs?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/voxos-epic-choirs"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/voxos-epic-choirs"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

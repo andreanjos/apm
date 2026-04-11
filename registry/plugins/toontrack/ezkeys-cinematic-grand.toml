@@ -1,0 +1,26 @@
+slug        = "ezkeys-cinematic-grand"
+name        = "EZKeys Cinematic Grand"
+vendor      = "Toontrack"
+version     = "2.1.5"
+description = "EZkeys expansion featuring a Bösendorfer grand piano recorded with bowed, plucked, harmonic and damped techniques."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "toontrack-product-manager"
+homepage    = "https://www.toontrack.com/product/cinematic-grand-ekx/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.toontrack.com/product/cinematic-grand-ekx/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.toontrack.com/product/cinematic-grand-ekx/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

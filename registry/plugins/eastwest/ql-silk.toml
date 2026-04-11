@@ -1,0 +1,25 @@
+slug        = "ql-silk"
+name        = "QL Silk"
+vendor      = "EastWest"
+version     = "1.0.0"
+description = "EastWest virtual instrument featuring authentic Eastern strings and traditional Asian instruments."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/world-and-traditional/silk"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/world-and-traditional/silk"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/world-and-traditional/silk"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

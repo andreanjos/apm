@@ -1,0 +1,25 @@
+slug        = "sigmund"
+name        = "Sigmund"
+vendor      = "D16 Group"
+version     = "1.0.0"
+description = "Original flexible multi-delay unit for advanced echo and spatial effects (legacy version)."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://d16.pl/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://d16.pl/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://d16.pl/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

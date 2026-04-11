@@ -1,0 +1,27 @@
+slug        = "echoboy"
+name        = "EchoBoy"
+vendor      = "Soundtoys"
+version     = "5.5"
+description = "Classic echo modeling plugin spanning decades of hardware echo devices in a single versatile tool."
+category    = "effects"
+subcategory = "echo"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundtoys.com/product/echoboy/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/1798-EchoBoy?a_aid=69d5e87c5f2e9"
+bundle_ids  = ["com.soundtoys.audiounit.EchoBoy"]
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundtoys.com/product/echoboy/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundtoys.com/product/echoboy/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

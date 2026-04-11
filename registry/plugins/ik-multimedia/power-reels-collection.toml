@@ -1,0 +1,25 @@
+slug        = "power-reels-collection"
+name        = "Power Reels Collection"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "T-RackS collection of 6 tape-based plugins including tape echoes and 4 classic virtual tape machines."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/trtapeecho/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/trtapeecho/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/trtapeecho/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

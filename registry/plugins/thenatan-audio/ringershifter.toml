@@ -1,0 +1,26 @@
+slug        = "ringershifter"
+name        = "RingerShifter"
+vendor      = "Thenatan Audio"
+version     = "1.0.0"
+description = "Frequency shifter and ring modulator plugin for creating unique textures, tremolo and robot voices."
+category    = "effects"
+subcategory = "frequency shifter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.thenatan.store/p/ringershifter-fx-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/28-Frequency-Shifter/15940-RingerShifter?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.thenatan.store/p/ringershifter-fx-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.thenatan.store/p/ringershifter-fx-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

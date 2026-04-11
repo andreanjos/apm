@@ -1,0 +1,25 @@
+slug        = "synthesizer-2000"
+name        = "Synthesizer 2000"
+vendor      = "Rhythmic Robot"
+version     = "1.0"
+description = "A Kontakt instrument based on the Roland SH-2000 monosynth, updated with polyphony and multiple oscillators."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rhythmicrobot.com/product/synthesizer-2000"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rhythmicrobot.com/product/synthesizer-2000"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rhythmicrobot.com/product/synthesizer-2000"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

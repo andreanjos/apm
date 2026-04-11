@@ -1,0 +1,26 @@
+slug        = "celestial-harp"
+name        = "Celestial Harp"
+vendor      = "Sonuscore"
+version     = "1.0.0"
+description = "Sampled Celtic harp Kontakt instrument with Glow slider technology for ethereal atmospheric transformation."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonuscore.com/shop/celestial-harp/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11048-Celestial-Harp?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonuscore.com/shop/celestial-harp/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonuscore.com/shop/celestial-harp/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

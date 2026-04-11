@@ -1,0 +1,26 @@
+slug        = "new-york-l-1991"
+name        = "New York L 1991"
+vendor      = "Boz Digital Labs"
+version     = "1.0.0"
+description = "A 1991 New York Steinway Model L with a pristine, spacious sound ideal for stand-out and blended mixes."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozmasterkeys.com/product/new-york-l-1991/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/11643-New-York-L-1991?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozmasterkeys.com/product/new-york-l-1991/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozmasterkeys.com/product/new-york-l-1991/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "tetrad"
+name        = "Tetrad"
+vendor      = "Physical Audio"
+version     = "1.0.0"
+description = "Synthesizer plugin based on four physically modeled slashed plates for experimental sound design."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://physicalaudio.co.uk/products/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15692-Tetrad?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://physicalaudio.co.uk/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://physicalaudio.co.uk/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

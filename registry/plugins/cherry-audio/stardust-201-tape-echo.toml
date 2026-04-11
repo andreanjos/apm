@@ -1,0 +1,25 @@
+slug        = "stardust-201-tape-echo"
+name        = "Stardust 201 Tape Echo"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Hot-rodded tape echo plugin emulating vintage Roland RE-201/RE-301 units with seven virtual tape head modes."
+category    = "effects"
+subcategory = "echo"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/stardust-201"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/stardust-201"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/stardust-201"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

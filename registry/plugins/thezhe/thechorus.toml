@@ -1,0 +1,26 @@
+slug        = "thechorus"
+name        = "TheChorus"
+vendor      = "TheZhe"
+version     = "1.0.0"
+description = "Free analog-modeled chorus, flanger, and vibrato effect plugin available as VST3 and AU."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kvraudio.com/developer/thezhe"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/9061-TheChorus?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kvraudio.com/developer/thezhe"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kvraudio.com/developer/thezhe"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "henchman"
+name        = "Henchman"
+vendor      = "Rankin Audio"
+version     = "1.0"
+description = "Rankin Audio Henchman is a free saturation plugin delivering harmonic drive and richness."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rankinaudio.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/16922-Henchman?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rankinaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rankinaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

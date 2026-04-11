@@ -1,0 +1,25 @@
+slug        = "architecture-of-sound"
+name        = "Architecture of Sound"
+vendor      = "Strezov Sampling"
+version     = "1.0.0"
+description = "Kontakt library of acoustic metal sculptures with over 100 curated percussive and tonal sounds."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.strezov-sampling.com/products/view/architecture-of-sound.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.strezov-sampling.com/products/view/architecture-of-sound.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.strezov-sampling.com/products/view/architecture-of-sound.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

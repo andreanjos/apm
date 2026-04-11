@@ -1,0 +1,26 @@
+slug        = "deverberate-3"
+name        = "DeVerberate 3"
+vendor      = "Acon Digital"
+version     = "3.0.4"
+description = "Reverb reduction plugin with deep learning for automatic dialogue cleanup and manual mode for music."
+category    = "utility"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+homepage    = "https://acondigital.com/products/deverberate/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/8119-DeVerberate-3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://acondigital.com/products/deverberate/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://acondigital.com/products/deverberate/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

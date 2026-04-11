@@ -1,0 +1,26 @@
+slug        = "vla-fet"
+name        = "VLA FET"
+vendor      = "Black Rooster Audio"
+version     = "3.0.0"
+description = "FET-based leveling amplifier emulation with fast attack and release for punchy transient control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://blackroosteraudio.com/en/products/vla-fet"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11336-VLA-FET?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://blackroosteraudio.com/en/products/vla-fet"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://blackroosteraudio.com/en/products/vla-fet"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

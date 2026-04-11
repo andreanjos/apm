@@ -1,0 +1,26 @@
+slug        = "toneknob-compressor"
+name        = "ToneKnob Compressor"
+vendor      = "Audified"
+version     = "1.0.2"
+description = "Single-knob compressor plugin delivering studio-grade dynamic control with one intuitive control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/toneknob-ultimate-bundle/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14030-ToneKnob-Compressor?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/toneknob-ultimate-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/toneknob-ultimate-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "delay-unit"
+name        = "delay unit"
+vendor      = "DSPplug"
+version     = "1.0.0"
+description = "Simple and clean delay/echo plugin for adding rhythmic and spatial depth to audio signals."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://dspplug.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://dspplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://dspplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

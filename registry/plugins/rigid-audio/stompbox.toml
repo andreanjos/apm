@@ -1,0 +1,25 @@
+slug        = "stompbox"
+name        = "Stompbox"
+vendor      = "Rigid Audio"
+version     = "1.0.0"
+description = "Cinematic hybrid drum and percussion Kontakt instrument with 32 kits and reverb/saturation effects."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rigid-audio.com/product/stompbox/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rigid-audio.com/product/stompbox/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rigid-audio.com/product/stompbox/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "rym2612-soundbank-god-of-rainbows"
+name        = "RYM2612 Soundbank God Of Rainbows"
+vendor      = "Inphonik"
+version     = "1.0.0"
+description = "Preset soundbank for the RYM2612 FM synthesizer with a wide range of curated patches."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.inphonik.com/products/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/7315-RYM2612-Soundbank-God-Of-Rainbows?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.inphonik.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.inphonik.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "ps-20"
+name        = "PS 20"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Polyphonic synthesizer reimagining the Korg MS-20 with 16-voice polyphony and modular patch panel."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/ps-20"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7618-PS-20?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/ps-20"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/ps-20"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

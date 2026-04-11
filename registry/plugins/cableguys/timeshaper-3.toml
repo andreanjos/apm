@@ -1,0 +1,26 @@
+slug        = "timeshaper-3"
+name        = "TimeShaper 3"
+vendor      = "Cableguys"
+version     = "3"
+description = "Time-warping plugin for creating ear-candy FX, stutter effects, and multiband time transformations."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.cableguys.com/timeshaper"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/9842-TimeShaper-3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.cableguys.com/timeshaper"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.cableguys.com/timeshaper"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

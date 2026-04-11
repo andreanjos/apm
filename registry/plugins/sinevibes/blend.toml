@@ -1,0 +1,26 @@
+slug        = "blend"
+name        = "Blend"
+vendor      = "Sinevibes"
+version     = "2.1.4"
+description = "Multi-voice chorus built from up to 16 independent chorus layers each with dedicated modulation and feedback."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sinevibes.com/blend/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/4830-Blend?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sinevibes.com/blend/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sinevibes.com/blend/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

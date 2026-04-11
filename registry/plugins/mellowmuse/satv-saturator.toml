@@ -1,0 +1,26 @@
+slug        = "satv-saturator"
+name        = "SATV Saturator"
+vendor      = "Mellowmuse"
+version     = "4.5.0"
+description = "Analogue-modelled saturator plugin for adding warmth, harmonics, and character to any source."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.mellowmuse.com/saturators"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/6697-SATV-Saturator?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.mellowmuse.com/saturators"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.mellowmuse.com/saturators"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

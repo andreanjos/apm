@@ -1,0 +1,26 @@
+slug        = "mia-border"
+name        = "MIA Border"
+vendor      = "MIA Laboratories"
+version     = "1.0.0"
+description = "MIA Laboratories free Butterworth low-pass and high-pass filter with smooth analog character."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://mialaboratories.com/product/miaborder/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/8779-MIA-Border?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mialaboratories.com/product/miaborder/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mialaboratories.com/product/miaborder/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

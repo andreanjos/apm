@@ -1,0 +1,26 @@
+slug        = "tdr-vos-slickeq-ge"
+name        = "TDR VOS SlickEQ GE"
+vendor      = "Tokyo Dawn Labs"
+version     = "1.3.9"
+description = "Gentleman's Edition musical three-band EQ with multiple filter types, output saturation and M/S processing."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tokyodawn.net/tdr-vos-slickeq-ge/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/4658-TDR-VOS-SlickEQ-GE?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tokyodawn.net/tdr-vos-slickeq-ge/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tokyodawn.net/tdr-vos-slickeq-ge/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

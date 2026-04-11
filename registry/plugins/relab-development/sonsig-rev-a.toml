@@ -1,0 +1,26 @@
+slug        = "sonsig-rev-a"
+name        = "Sonsig Rev A"
+vendor      = "Relab Development"
+version     = "1.0"
+description = "Algorithmic reverb plugin by Relab Development inspired by classic hardware reverb units."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://relabdevelopment.com/store/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/8028-Sonsig-Rev-A?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://relabdevelopment.com/store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://relabdevelopment.com/store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

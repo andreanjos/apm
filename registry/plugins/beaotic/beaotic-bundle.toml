@@ -1,0 +1,25 @@
+slug        = "beaotic-bundle"
+name        = "Beaotic Bundle"
+vendor      = "beaotic"
+version     = "1.0.0"
+description = "Complete bundle of all beaotic synthesizer and effect plugins for ambient sound design."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://beaotic.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://beaotic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://beaotic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

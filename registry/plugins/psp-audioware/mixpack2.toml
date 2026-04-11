@@ -1,0 +1,25 @@
+slug        = "mixpack2"
+name        = "MixPack2"
+vendor      = "PSP Audioware"
+version     = "2.1.0"
+description = "Collection of six high-resolution audio processors designed to improve digital audio tracks and mixes."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-mixpack2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-mixpack2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-mixpack2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "cloudmax-breeze"
+name        = "Cloudmax Breeze"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "AI-powered vocal refiner combining neural intelligence with reverb, EQ, saturation, and compression."
+category    = "effects"
+subcategory = "vocal processing"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/products/cloudmax-breeze"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/14152-Cloudmax-Breeze?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/products/cloudmax-breeze"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/products/cloudmax-breeze"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "cineperc"
+name        = "CinePerc"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Cinematic orchestral percussion library with thunderous detail and dynamic realism for film scoring."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/cineperc"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11253-CinePerc?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/cineperc"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/cineperc"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

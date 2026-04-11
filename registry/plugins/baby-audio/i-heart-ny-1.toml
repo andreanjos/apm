@@ -1,0 +1,25 @@
+slug        = "i-heart-ny-1"
+name        = "I Heart NY 1"
+vendor      = "Baby Audio"
+version     = "1"
+description = "Original Baby Audio parallel compressor plugin for adding weight and punch to drums and vocals."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://babyaud.io/all-products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://babyaud.io/all-products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://babyaud.io/all-products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

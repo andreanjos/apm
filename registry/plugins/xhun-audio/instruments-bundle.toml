@@ -1,0 +1,25 @@
+slug        = "instruments-bundle"
+name        = "Instruments Bundle"
+vendor      = "Xhun Audio"
+version     = "1.0.0"
+description = "Bundle of all Xhun Audio instruments: LittleOne, IronAxe, ResonHeart, ZeroBox, KickBeat, and more."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.xhun-audio.com/site/xhun.php?page=shop"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.xhun-audio.com/site/xhun.php?page=shop"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.xhun-audio.com/site/xhun.php?page=shop"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "cassette-keys-02-for-kontakt"
+name        = "Cassette Keys.02 for Kontakt"
+vendor      = "THEPHONOLOOP"
+version     = "1.0.0"
+description = "Cassette Keys.02 for Kontakt — 80s FM synth-inspired instruments with 41 presets recorded across cassette decks."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://thephonoloop.com/products/cassette-keys-02"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://thephonoloop.com/products/cassette-keys-02"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://thephonoloop.com/products/cassette-keys-02"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "psycho-ring"
+name        = "Psycho Ring"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Ring modulator plugin delivering metallic, robotic, and experimental frequency modulation effects."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p1155-Psycho-Ring/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p1155-Psycho-Ring/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p1155-Psycho-Ring/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

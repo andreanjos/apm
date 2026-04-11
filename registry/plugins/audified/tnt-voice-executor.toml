@@ -1,0 +1,24 @@
+slug        = "tnt-voice-executor"
+name        = "TNT Voice Executor"
+vendor      = "Audified"
+version     = "1.1.0"
+description = "One-click vocal processing plugin delivering instant professional voice treatment with minimal controls."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/tnt-voice-executor/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/tnt-voice-executor/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/tnt-voice-executor/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

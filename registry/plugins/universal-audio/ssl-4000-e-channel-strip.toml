@@ -1,0 +1,27 @@
+slug        = "ssl-4000-e-channel-strip"
+name        = "SSL 4000 E Channel Strip"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the legendary SSL 4000 E series console channel strip."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/channel-strips/ssl-4000-e-channel-strip.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/13324-SSL-4000-E-Channel-Strip?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/ssl-4000-e-channel-strip.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/ssl-4000-e-channel-strip.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

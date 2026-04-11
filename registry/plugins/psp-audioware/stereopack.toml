@@ -1,0 +1,25 @@
+slug        = "stereopack"
+name        = "StereoPack"
+vendor      = "PSP Audioware"
+version     = "1.0.0"
+description = "Collection of four stereo image plugins for creating, expanding, controlling, and analyzing stereo signals."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-stereopack"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-stereopack"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-stereopack"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

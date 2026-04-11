@@ -1,0 +1,26 @@
+slug        = "phoenix-rise-hit-whoosh-builder"
+name        = "Phoenix Rise Hit Whoosh Builder"
+vendor      = "Vir2 Instruments"
+version     = "1.0.0"
+description = "Cinematic Kontakt instrument with 700 sounds for layering rises, impacts, and whooshes."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.vir2.com/instruments/phoenix-rise-hit-whoosh-builder/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8331-Phoenix-Rise-Hit-Whoosh-Builder?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.vir2.com/instruments/phoenix-rise-hit-whoosh-builder/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.vir2.com/instruments/phoenix-rise-hit-whoosh-builder/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

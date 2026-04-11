@@ -1,0 +1,25 @@
+slug        = "rs-world-colours"
+name        = "RS World Colours"
+vendor      = "Rast Sound"
+version     = "1.0.0"
+description = "Bundle of 10 Rast Sound world libraries covering vocals, solo instruments, rhythms, and cinematic engines."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://rastsound.com/downloads/world-colours/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rastsound.com/downloads/world-colours/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rastsound.com/downloads/world-colours/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "2rulesynth-v3"
+name        = "2RuleSynth V3"
+vendor      = "2Rule"
+version     = "3.0"
+description = "Versatile virtual synthesizer by 2Rule with diverse oscillator and filter options."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://2rule.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10152-2RuleSynth-V3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://2rule.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://2rule.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

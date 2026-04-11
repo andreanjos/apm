@@ -1,0 +1,26 @@
+slug        = "hollywoodwinds"
+name        = "Hollywoodwinds"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Professional orchestral woodwind library recorded at a top Hollywood scoring stage."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/hollywoodwinds"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11252-Hollywoodwinds?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/hollywoodwinds"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/hollywoodwinds"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

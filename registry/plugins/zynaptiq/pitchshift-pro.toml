@@ -1,0 +1,26 @@
+slug        = "pitchshift-pro"
+name        = "PITCHSHIFT PRO"
+vendor      = "Zynaptiq"
+version     = "1.2.0"
+description = "Professional high-quality pitch shifting plugin with ZTX time-stretching technology and advanced controls."
+category    = "effects"
+subcategory = "pitch shifter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.zynaptiq.com/pitchshift/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/13378-PITCHSHIFT-PRO?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.zynaptiq.com/pitchshift/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.zynaptiq.com/pitchshift/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

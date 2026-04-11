@@ -1,0 +1,25 @@
+slug        = "prepared-colors-steel"
+name        = "Prepared Colors Steel"
+vendor      = "Evolution Series"
+version     = "1.0.0"
+description = "Textural Kontakt guitar library featuring prepared steel guitar performance techniques."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.evolutionseries.com/product/prepared-colors-steel/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.evolutionseries.com/product/prepared-colors-steel/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.evolutionseries.com/product/prepared-colors-steel/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

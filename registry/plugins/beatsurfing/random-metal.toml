@@ -1,0 +1,26 @@
+slug        = "random-metal"
+name        = "RANDOM Metal"
+vendor      = "BEATSURFING"
+version     = "1.0.0"
+description = "Metal-focused drum synthesizer for generating aggressive percussive sounds via randomization."
+category    = "instruments"
+subcategory = "drum synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://beatsurfing.com/audio-plugins/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/139-Drum-Synth/13336-RANDOM-Metal?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://beatsurfing.com/audio-plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://beatsurfing.com/audio-plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "ezkeys-dream-machine"
+name        = "EZKeys Dream Machine"
+vendor      = "Toontrack"
+version     = "2.1.5"
+description = "EZkeys expansion featuring hybrid synth and acoustic sounds ideal for modern pop, ambient and soundtrack work."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "toontrack-product-manager"
+homepage    = "https://www.toontrack.com/product/dream-machine-ekx/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.toontrack.com/product/dream-machine-ekx/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.toontrack.com/product/dream-machine-ekx/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

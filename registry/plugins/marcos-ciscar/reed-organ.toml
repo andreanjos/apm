@@ -1,0 +1,25 @@
+slug        = "reed-organ"
+name        = "Reed Organ"
+vendor      = "Marcos Ciscar"
+version     = "1.0.0"
+description = "Sampled reed organ Kontakt instrument with authentic bellows-driven free-reed character."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.marcosciscar.com"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.marcosciscar.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.marcosciscar.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

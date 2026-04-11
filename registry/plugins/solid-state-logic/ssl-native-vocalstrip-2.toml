@@ -1,0 +1,26 @@
+slug        = "ssl-native-vocalstrip-2"
+name        = "SSL Native Vocalstrip 2"
+vendor      = "Solid State Logic"
+version     = "2"
+description = "Dedicated vocal channel strip plugin with de-esser, compander, EQ, and transient enhancement tools."
+category    = "effects"
+subcategory = "vocal processing"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-native-vocalstrip-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/8662-SSL-Native-Vocalstrip-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-vocalstrip-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-vocalstrip-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

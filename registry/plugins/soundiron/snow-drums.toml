@@ -1,0 +1,25 @@
+slug        = "snow-drums"
+name        = "Snow Drums"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Wintry Kontakt percussion instrument built from snow, ice, and cold weather sound sources."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/snow-drums"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/snow-drums"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/snow-drums"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

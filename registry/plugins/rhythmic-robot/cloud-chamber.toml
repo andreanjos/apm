@@ -1,0 +1,25 @@
+slug        = "cloud-chamber"
+name        = "Cloud Chamber"
+vendor      = "Rhythmic Robot"
+version     = "1.0"
+description = "A swirling atmospheric wind synthesizer Kontakt instrument for evolving cinematic textures."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rhythmicrobot.com/product/cloud-chamber"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rhythmicrobot.com/product/cloud-chamber"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rhythmicrobot.com/product/cloud-chamber"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "dynamics-kilohearts"
+name        = "Dynamics"
+vendor      = "Kilohearts"
+version     = "2.4.6"
+description = "Dynamics Snapin combining compressor and expander in one lightweight module."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://kilohearts.com/products/dynamics"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://kilohearts.com/products/dynamics"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://kilohearts.com/products/dynamics"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

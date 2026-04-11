@@ -1,0 +1,25 @@
+slug        = "oxford-declicker-native"
+name        = "Oxford DeClicker Native"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Oxford DeClicker Native detects and removes clicks, crackle, and impulse noise from audio recordings automatically."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "vstplug-mini-boom-switch"
+name        = "VSTplug mini boom switch"
+vendor      = "DSPplug"
+version     = "1.0.0"
+description = "Utility plugin providing a quick low-end boost or cut for instant bass management."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://dspplug.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://dspplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://dspplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

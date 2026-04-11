@@ -1,0 +1,25 @@
+slug        = "paradox-lost-redux"
+name        = "Paradox Lost Redux"
+vendor      = "Beautiful Void Audio"
+version     = "1.0.0"
+description = "Kontakt instrument featuring bizarre soundscapes, drones, and experimental tones for cinematic scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.beautifulvoidaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.beautifulvoidaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.beautifulvoidaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

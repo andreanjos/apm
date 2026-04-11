@@ -1,0 +1,24 @@
+slug        = "freqanalyst-multi"
+name        = "FreqAnalyst Multi"
+vendor      = "Blue Cat Audio"
+version     = "2.44"
+description = "Multi-track real-time spectrum analyzer for comparing spectral content across several audio tracks."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bluecataudio.com/Products/Product_FreqAnalystMulti/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bluecataudio.com/Products/Product_FreqAnalystMulti/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bluecataudio.com/Products/Product_FreqAnalystMulti/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

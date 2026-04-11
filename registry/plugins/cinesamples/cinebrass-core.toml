@@ -1,0 +1,26 @@
+slug        = "cinebrass-core"
+name        = "CineBrass Core"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Orchestral brass library recorded at MGM Scoring Stage featuring full brass section articulations."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/cinebrass-core"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11295-CineBrass-Core?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/cinebrass-core"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/cinebrass-core"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "debleed-drums"
+name        = "DeBleed Drums"
+vendor      = "Acon Digital"
+version     = "1.0.0"
+description = "AI-powered plugin for real-time removal of microphone bleed and spill from drum tracks."
+category    = "utility"
+subcategory = "drum tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://acondigital.com/products/remix-bundle"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/80-Drum-Tools/14875-DeBleed-Drums?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://acondigital.com/products/remix-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://acondigital.com/products/remix-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

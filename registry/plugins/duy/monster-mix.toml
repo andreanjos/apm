@@ -1,0 +1,25 @@
+slug        = "monster-mix"
+name        = "Monster Mix"
+vendor      = "DUY"
+version     = "1.0.0"
+description = "Automatic dynamics and EQ optimizer that adds a professional final touch to any musical mix."
+category    = "effects"
+subcategory = "mixing"
+license     = "commercial"
+tags        = []
+homepage    = "https://duy.com/product/monster-mix/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://duy.com/product/monster-mix/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://duy.com/product/monster-mix/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

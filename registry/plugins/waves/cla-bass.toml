@@ -1,0 +1,25 @@
+slug        = "cla-bass"
+name        = "CLA Bass"
+vendor      = "Waves"
+version     = "14.0"
+description = "Single-knob bass processing plugin capturing Chris Lord-Alge's signature bass sound."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/cla-bass"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/cla-bass"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/cla-bass"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

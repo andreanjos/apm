@@ -1,0 +1,25 @@
+slug        = "lap-harp"
+name        = "Lap Harp"
+vendor      = "Cinematique Instruments"
+version     = "1.0.0"
+description = "Lap harp Kontakt instrument capturing intimate plucked string tones for folk and world music."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://cinematique-instruments.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cinematique-instruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cinematique-instruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

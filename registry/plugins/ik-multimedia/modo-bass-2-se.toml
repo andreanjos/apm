@@ -1,0 +1,26 @@
+slug        = "modo-bass-2-se"
+name        = "MODO BASS 2 SE"
+vendor      = "IK Multimedia"
+version     = "2.0"
+description = "MODO BASS 2 SE — free-to-start version of the physically modeled electric bass with 1 bass guitar."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/modobass2/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/12691-MODO-BASS-2-SE?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/modobass2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/modobass2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

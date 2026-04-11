@@ -1,0 +1,26 @@
+slug        = "mnml-tech-dnb-serum"
+name        = "Mnml Tech DnB Serum"
+vendor      = "5Pin Media"
+version     = "1.0.0"
+description = "110 minimal and tech DnB Serum presets inspired by Kasra, Enei, Alix Perez, and Halogenix."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://5pinmedia.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11184-Mnml-Tech-DnB-Serum?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://5pinmedia.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://5pinmedia.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

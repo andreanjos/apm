@@ -1,0 +1,24 @@
+slug        = "flexverb"
+name        = "FlexVerb"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "Versatile SSL reverb plugin with four algorithms, 6-band EQ, and independent early/late reflection controls."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-native-flexverb"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-flexverb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-flexverb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

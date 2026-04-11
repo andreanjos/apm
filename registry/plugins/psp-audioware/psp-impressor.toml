@@ -1,0 +1,26 @@
+slug        = "psp-impressor"
+name        = "PSP Impressor"
+vendor      = "PSP Audioware"
+version     = "1.0.3"
+description = "High-precision compressor designed for whole mixes, busses, or single tracks with accurate gain reduction."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-impressor"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10860-PSP-Impressor?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-impressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-impressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

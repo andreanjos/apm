@@ -1,0 +1,25 @@
+slug        = "enhance-plugin-bundle-hd-hdx"
+name        = "Enhance Plugin Bundle – HD/HDX"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Sonnox Enhance Bundle HD/HDX with Oxford Inflator, Limiter, and TransMod for loudness, punch, and clarity."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/sonnox-enhance-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/sonnox-enhance-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/sonnox-enhance-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

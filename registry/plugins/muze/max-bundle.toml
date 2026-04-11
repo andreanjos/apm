@@ -1,0 +1,26 @@
+slug        = "max-bundle"
+name        = "Max Bundle"
+vendor      = "Muze"
+version     = "1.0.0"
+description = "Large Muze Kontakt bundle featuring acoustic and hybrid instruments for composers and producers."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.muze.shop/en/index.php?route=product/product&product_id=73"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7850-Max-Bundle?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.muze.shop/en/index.php?route=product/product&product_id=73"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.muze.shop/en/index.php?route=product/product&product_id=73"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

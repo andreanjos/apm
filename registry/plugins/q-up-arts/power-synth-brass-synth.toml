@@ -1,0 +1,25 @@
+slug        = "power-synth-brass-synth"
+name        = "Power Synth Brass Synth"
+vendor      = "Q Up Arts"
+version     = "1.0.0"
+description = "Kontakt library of brass synth sounds from curated analog, digital, and vintage synthesizers."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.quparts.com/products/power-synth-keyboards"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.quparts.com/products/power-synth-keyboards"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.quparts.com/products/power-synth-keyboards"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

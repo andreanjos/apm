@@ -1,0 +1,26 @@
+slug        = "collective-2"
+name        = "Collective 2"
+vendor      = "Tracktion"
+version     = "2.0.2"
+description = "Sample-based synthesis platform with 900+ presets, VA oscillators, FM module, and versatile effects."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/collective"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16971-Collective-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/collective"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/collective"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

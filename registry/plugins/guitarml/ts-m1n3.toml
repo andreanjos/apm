@@ -1,0 +1,26 @@
+slug        = "ts-m1n3"
+name        = "TS M1N3"
+vendor      = "GuitarML"
+version     = "1.0"
+description = "Free neural amp modeler by GuitarML capturing the Tube Screamer into a compact plugin."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://guitarml.com/tone-library.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/8921-TS-M1N3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://guitarml.com/tone-library.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://guitarml.com/tone-library.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "vocal-compressor"
+name        = "Vocal Compressor"
+vendor      = "WA Production"
+version     = "1.2.0"
+description = "A three-stage vocal compressor delivering transparent dynamics, balance, and subtle saturation."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/plugins/view/vocal-compressor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/plugins/view/vocal-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/plugins/view/vocal-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

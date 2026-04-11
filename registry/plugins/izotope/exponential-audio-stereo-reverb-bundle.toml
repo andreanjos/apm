@@ -1,0 +1,25 @@
+slug        = "exponential-audio-stereo-reverb-bundle"
+name        = "Exponential Audio: Stereo Reverb Bundle"
+vendor      = "iZotope"
+version     = "1.0.0"
+description = "Bundle of Exponential Audio stereo algorithmic reverbs including PhoenixVerb and R2."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

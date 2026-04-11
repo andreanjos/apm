@@ -1,0 +1,26 @@
+slug        = "ssl-blitzer"
+name        = "SSL Blitzer"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "Multi-character compressor inspired by classic hardware, ranging from soft saturation to brick-wall limiting."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/blitzer"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10384-SSL-Blitzer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/blitzer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/blitzer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

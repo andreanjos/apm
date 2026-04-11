@@ -1,0 +1,27 @@
+slug        = "luna-pro-mk-2"
+name        = "LUNA Pro Mk 2"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "LUNA Pro Mk 2 is Universal Audio's professional recording DAW with built-in tape emulation."
+category    = "utility"
+subcategory = "daw"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/luna/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/15966-LUNA-Pro-Mk-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/luna/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/luna/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

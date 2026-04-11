@@ -1,0 +1,25 @@
+slug        = "riffendium-3"
+name        = "Riffendium 3"
+vendor      = "Audiofier"
+version     = "1.0"
+description = "Ambient guitar loops for Kontakt with editable articulation slices for atmospheric productions."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiofier.co.uk/riffendium-3/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiofier.co.uk/riffendium-3/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiofier.co.uk/riffendium-3/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

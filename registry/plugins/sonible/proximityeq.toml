@@ -1,0 +1,25 @@
+slug        = "proximityeq"
+name        = "proximity:EQ+"
+vendor      = "sonible"
+version     = "1.0.0"
+description = "Distance-aware EQ that adjusts frequency response to place sounds closer or further in a mix."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonible.com/proximityeq/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonible.com/proximityeq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonible.com/proximityeq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

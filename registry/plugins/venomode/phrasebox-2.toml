@@ -1,0 +1,26 @@
+slug        = "phrasebox-2"
+name        = "Phrasebox 2"
+vendor      = "Venomode"
+version     = "2.0.1"
+description = "Phrase arpeggiator plugin that generates melodic phrases and chord progressions from MIDI input."
+category    = "utility"
+subcategory = "music theory tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://venomode.com/plugins"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6072-Phrasebox-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://venomode.com/plugins"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://venomode.com/plugins"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

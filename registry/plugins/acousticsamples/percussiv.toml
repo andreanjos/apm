@@ -1,0 +1,25 @@
+slug        = "percussiv"
+name        = "Percussiv"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Collection of unique world percussion instruments including agogo, berimbau, bongos, congas, and more."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/percussiv"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/percussiv"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/percussiv"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

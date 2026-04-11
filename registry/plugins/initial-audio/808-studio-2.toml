@@ -1,0 +1,25 @@
+slug        = "808-studio-2"
+name        = "808 Studio 2"
+vendor      = "Initial Audio"
+version     = "2.0"
+description = "Bass synthesizer plugin designed for crafting deep, warm and hard-hitting 808 bass sounds."
+category    = "instruments"
+subcategory = "bass"
+license     = "commercial"
+tags        = []
+homepage    = "https://initialaudio.com/808-studio-2-bass-synthesizer/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://initialaudio.com/808-studio-2-bass-synthesizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://initialaudio.com/808-studio-2-bass-synthesizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

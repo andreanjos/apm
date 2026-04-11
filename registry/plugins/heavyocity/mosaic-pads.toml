@@ -1,0 +1,26 @@
+slug        = "mosaic-pads"
+name        = "Mosaic Pads"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Cinematic pad instrument breathing new life into classic synth pads with rhythms, textures, and arpeggios."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/mosaic-pads"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9685-Mosaic-Pads?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/mosaic-pads"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/mosaic-pads"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

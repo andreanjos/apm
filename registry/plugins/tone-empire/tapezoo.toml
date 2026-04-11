@@ -1,0 +1,26 @@
+slug        = "tapezoo"
+name        = "TapeZoo"
+vendor      = "Tone Empire"
+version     = "1.0.0"
+description = "Passive tape emulator plugin delivering analog warmth, harmonic saturation, and tape compression."
+category    = "effects"
+subcategory = "tape emulation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tone-empire.com/tapezoo/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/14763-TapeZoo?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tone-empire.com/tapezoo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tone-empire.com/tapezoo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

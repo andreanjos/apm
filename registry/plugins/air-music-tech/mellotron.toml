@@ -1,0 +1,25 @@
+slug        = "mellotron"
+name        = "Mellotron"
+vendor      = "Air Music Tech"
+version     = "1.0.0"
+description = "Virtual Mellotron instrument plugin reproducing the iconic tape-replay keyboard sounds."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/mellotron"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/mellotron"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/mellotron"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

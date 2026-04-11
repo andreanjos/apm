@@ -1,0 +1,26 @@
+slug        = "td-201"
+name        = "TD 201"
+vendor      = "Black Rooster Audio"
+version     = "3.0.0"
+description = "Vintage tape echo emulation capturing the unmistakable character of classic tape delay hardware."
+category    = "effects"
+subcategory = "echo"
+license     = "commercial"
+tags        = []
+homepage    = "https://blackroosteraudio.com/en/products/td-201"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/11369-TD-201?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://blackroosteraudio.com/en/products/td-201"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://blackroosteraudio.com/en/products/td-201"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

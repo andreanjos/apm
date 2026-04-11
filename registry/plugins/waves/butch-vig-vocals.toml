@@ -1,0 +1,25 @@
+slug        = "butch-vig-vocals"
+name        = "Butch Vig Vocals"
+vendor      = "Waves"
+version     = "14.0"
+description = "Signature vocal processing plugin designed with legendary producer Butch Vig."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/butch-vig-vocals"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/butch-vig-vocals"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/butch-vig-vocals"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

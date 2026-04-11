@@ -1,0 +1,26 @@
+slug        = "realphones-2-ultimate"
+name        = "Realphones 2 Ultimate"
+vendor      = "dSONIQ"
+version     = "2.0"
+description = "Ultimate headphone monitoring suite by dSONIQ with full calibration and room simulation."
+category    = "utility"
+subcategory = "referencing tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://dsoniq.com/realphones/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/11809-Realphones-2-Ultimate?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://dsoniq.com/realphones/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://dsoniq.com/realphones/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

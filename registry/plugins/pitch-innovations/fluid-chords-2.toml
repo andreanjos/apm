@@ -1,0 +1,26 @@
+slug        = "fluid-chords-2"
+name        = "Fluid Chords 2"
+vendor      = "Pitch Innovations"
+version     = "1.0.0"
+description = "Intelligent chord-bending plugin for real-time harmonic transitions between any chords."
+category    = "utility"
+subcategory = "music theory tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pitchinnovations.com/products/fluid-chords-2"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/15093-Fluid-Chords-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pitchinnovations.com/products/fluid-chords-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pitchinnovations.com/products/fluid-chords-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

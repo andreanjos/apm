@@ -1,0 +1,26 @@
+slug        = "dawesome-zyklop"
+name        = "Dawesome Zyklop"
+vendor      = "Tracktion"
+version     = "1.0.0"
+description = "Free synthesizer by Dawesome powered by re-synthesis with 8-voice polyphony and 125 premium presets."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/zyklop"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/14139-Dawesome-Zyklop?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/zyklop"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/zyklop"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "rp-distort-2"
+name        = "RP-Distort 2"
+vendor      = "Rob Papen"
+version     = "2.0"
+description = "Advanced distortion plugin with 52 distortion types, dual wave shapers, pre/post EQ, compressor, and Disrupt Sphere."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/rp-distort-2.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/rp-distort-2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/rp-distort-2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

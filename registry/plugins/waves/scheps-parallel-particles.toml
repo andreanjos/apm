@@ -1,0 +1,26 @@
+slug        = "scheps-parallel-particles"
+name        = "Scheps Parallel Particles"
+vendor      = "Waves"
+version     = "14.0"
+description = "Parallel processing plugin with four sonic enhancers designed with Andrew Scheps."
+category    = "effects"
+subcategory = "dynamic processor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/scheps-parallel-particles"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/scheps-parallel-particles"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/scheps-parallel-particles"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

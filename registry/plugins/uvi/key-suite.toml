@@ -1,0 +1,26 @@
+slug        = "key-suite"
+name        = "Key Suite"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Comprehensive keyboard collection bundling acoustic, electric, and digital keys into a unified experience."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/key-suite"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/16200-Key-Suite?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/key-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/key-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

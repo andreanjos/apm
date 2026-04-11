@@ -1,0 +1,24 @@
+slug        = "beastverb-vst3-au"
+name        = "BeastVerb (VST3/AU)"
+vendor      = "Beastsamples"
+version     = "1.0"
+description = "Beastsamples BeastVerb is a reverb plugin with character and warmth in VST3 and AU formats."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://beastsamples.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://beastsamples.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://beastsamples.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

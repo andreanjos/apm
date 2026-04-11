@@ -1,0 +1,25 @@
+slug        = "ax73"
+name        = "AX73"
+vendor      = "Martinic"
+version     = "1.0.0"
+description = "Analog-modeled virtual synthesizer based on the classic AX73 with modern 21st century features."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.martinic.com/en/products/ax73"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.martinic.com/en/products/ax73"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.martinic.com/en/products/ax73"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

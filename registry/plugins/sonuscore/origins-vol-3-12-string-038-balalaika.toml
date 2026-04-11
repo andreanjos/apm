@@ -1,0 +1,25 @@
+slug        = "origins-vol-3-12-string-038-balalaika"
+name        = "Origins Vol 3: 12-String &#038; Balalaika"
+vendor      = "Sonuscore"
+version     = "1.0.0"
+description = "Kontakt instrument pairing 12-string acoustic guitar with the traditional Russian balalaika."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonuscore.com/shop/origins-vol-3-12-string-balalaika/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonuscore.com/shop/origins-vol-3-12-string-balalaika/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonuscore.com/shop/origins-vol-3-12-string-balalaika/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

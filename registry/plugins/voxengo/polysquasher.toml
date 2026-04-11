@@ -1,0 +1,25 @@
+slug        = "polysquasher"
+name        = "Polysquasher"
+vendor      = "Voxengo"
+version     = "1.0.0"
+description = "Transparent mastering compressor plugin designed for clean and musical dynamic control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/polysquasher/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/polysquasher/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/polysquasher/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "kantele-bundle"
+name        = "Kantele Bundle"
+vendor      = "Have Audio"
+version     = "1.0.0"
+description = "Deep-sampled Finnish kantele bundle with playable articulations and cinematic textures."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://haveaudio.com/products/kantele-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://haveaudio.com/products/kantele-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://haveaudio.com/products/kantele-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

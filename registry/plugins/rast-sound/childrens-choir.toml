@@ -1,0 +1,25 @@
+slug        = "childrens-choir"
+name        = "Childrens Choir"
+vendor      = "Rast Sound"
+version     = "1.0.0"
+description = "Rare Kontakt choir library featuring seven child singers with a wealth of atmospheric vocal performances."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://rastsound.com/downloads/childrens-choir/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rastsound.com/downloads/childrens-choir/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rastsound.com/downloads/childrens-choir/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "granada-49"
+name        = "Granada 49"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Vintage 49-key Spanish keyboard Kontakt instrument with warm, classic organ-like character."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/granada-49"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/granada-49"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/granada-49"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

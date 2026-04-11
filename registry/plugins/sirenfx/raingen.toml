@@ -1,0 +1,24 @@
+slug        = "raingen"
+name        = "RainGen"
+vendor      = "SirenFX"
+version     = "1.1.0"
+description = "Sample-free rain sound synthesizer generating realistic and customizable rain ambiences."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kvraudio.com/product/raingen-by-sirenfx"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kvraudio.com/product/raingen-by-sirenfx"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kvraudio.com/product/raingen-by-sirenfx"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

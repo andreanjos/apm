@@ -1,0 +1,24 @@
+slug        = "tonespot-computermusic"
+name        = "ToneSpot ComputerMusic"
+vendor      = "Audified"
+version     = "1.0.0"
+description = "ToneSpot edition created for Computer Music magazine with curated presets for music production."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/tonespot-computermusic/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/tonespot-computermusic/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/tonespot-computermusic/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

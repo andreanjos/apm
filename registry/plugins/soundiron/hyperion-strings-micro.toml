@@ -1,0 +1,26 @@
+slug        = "hyperion-strings-micro"
+name        = "Hyperion Strings Micro"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Micro-sized Kontakt string library delivering core orchestral string tones in a small footprint."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/hyperion-strings-micro"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/4543-Hyperion-Strings-Micro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/hyperion-strings-micro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/hyperion-strings-micro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "origins-vol-7-tar-038-chonguri"
+name        = "Origins Vol 7: Tar &#038; Chonguri"
+vendor      = "Sonuscore"
+version     = "1.0.0"
+description = "Kontakt instrument pairing the Persian tar and Georgian chonguri eastern string instruments."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonuscore.com/shop/origins-vol-7/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonuscore.com/shop/origins-vol-7/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonuscore.com/shop/origins-vol-7/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

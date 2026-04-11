@@ -1,0 +1,25 @@
+slug        = "mrotary"
+name        = "MRotary"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "The ultimate rotary simulator delivering vintage sound and futuristic algorithmic effects with up to 6 speakers."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MRotary"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MRotary"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MRotary"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

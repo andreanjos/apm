@@ -1,0 +1,25 @@
+slug        = "ocean-way-studios"
+name        = "Ocean Way Studios"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Convolution reverb modeling the acoustic spaces of the legendary Ocean Way Recording Studios."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/reverbs/ocean-way-studios.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/reverbs/ocean-way-studios.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/reverbs/ocean-way-studios.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

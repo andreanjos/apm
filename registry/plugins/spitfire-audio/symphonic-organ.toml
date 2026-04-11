@@ -1,0 +1,26 @@
+slug        = "symphonic-organ"
+name        = "Symphonic Organ"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Cathedral-sized 4-manual pipe organ with 3,721 pipes recorded with multiple mic positions at AIR Studios."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/shop/a-z/symphonic-organ/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/shop/a-z/symphonic-organ/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/shop/a-z/symphonic-organ/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

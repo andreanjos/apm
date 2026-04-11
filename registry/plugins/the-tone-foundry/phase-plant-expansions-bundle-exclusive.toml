@@ -1,0 +1,26 @@
+slug        = "phase-plant-expansions-bundle-exclusive"
+name        = "Phase Plant Expansions Bundle Exclusive"
+vendor      = "The Tone Foundry"
+version     = "1.0.0"
+description = "Exclusive bundle of The Tone Foundry Phase Plant expansions covering Jungle Classics, Anthemic House, and more."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/14092-Phase-Plant-Expansions-Bundle-Exclusive-"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/14970-Phase-Plant-Expansions-Bundle-Exclusive-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/14092-Phase-Plant-Expansions-Bundle-Exclusive-"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/14092-Phase-Plant-Expansions-Bundle-Exclusive-"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

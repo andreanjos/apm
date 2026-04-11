@@ -1,0 +1,26 @@
+slug        = "skywaves"
+name        = "SkyWaves"
+vendor      = "Sampleson"
+version     = "1.0.0"
+description = "Analog cinematic soundscape creator for generating lush, evolving atmospheric textures and pads."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://sampleson.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/11249-SkyWaves?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sampleson.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sampleson.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

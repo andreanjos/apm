@@ -1,0 +1,26 @@
+slug        = "ministry-of-rock-1"
+name        = "Ministry Of Rock 1"
+vendor      = "EastWest Sounds"
+version     = "1.0.0"
+description = "Ultimate rock drums, bass, and guitars collection recorded in EastWest Studio 2 with vintage mics."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/guitars-and-bass/ministry-of-rock-1"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15617-Ministry-Of-Rock-1?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/guitars-and-bass/ministry-of-rock-1"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/guitars-and-bass/ministry-of-rock-1"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

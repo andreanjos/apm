@@ -1,0 +1,25 @@
+slug        = "drum-synth-500"
+name        = "Drum Synth 500"
+vendor      = "Air Music Tech"
+version     = "1.0.0"
+description = "Synthesized drum instrument plugin with analog-style drum synthesis engines."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/drum-synth-500"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/drum-synth-500"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/drum-synth-500"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

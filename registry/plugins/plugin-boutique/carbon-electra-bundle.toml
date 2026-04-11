@@ -1,0 +1,25 @@
+slug        = "carbon-electra-bundle"
+name        = "Carbon Electra+ Bundle"
+vendor      = "Plugin Boutique"
+version     = "1.0.0"
+description = "Bundle combining Carbon Electra four-oscillator synth with extra presets and content."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/manufacturers/7-Plugin-Boutique"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/manufacturers/7-Plugin-Boutique"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/manufacturers/7-Plugin-Boutique"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

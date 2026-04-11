@@ -1,0 +1,26 @@
+slug        = "chameleon"
+name        = "Chameleon"
+vendor      = "GuitarML"
+version     = "1.0"
+description = "Neural network guitar amp simulator by GuitarML that learns amp tones from captures."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://guitarml.com/chameleon.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/8924-Chameleon?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://guitarml.com/chameleon.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://guitarml.com/chameleon.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

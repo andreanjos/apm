@@ -1,0 +1,26 @@
+slug        = "fx-collection-2"
+name        = "FX Collection 2"
+vendor      = "Arturia"
+version     = "2.0.0"
+description = "Second edition of Arturia's bundle of analog-modeled studio effects and processors."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-effects/fx-collection/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-effects/fx-collection/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-effects/fx-collection/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

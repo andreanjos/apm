@@ -1,0 +1,25 @@
+slug        = "toys-bundle"
+name        = "Toys Bundle"
+vendor      = "Have Audio"
+version     = "1.0.0"
+description = "Bundle of three toy-inspired Kontakt instruments: Acoustic, Electronic, and Dystopian versions."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://haveaudio.com/products/toys-3-blends-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://haveaudio.com/products/toys-3-blends-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://haveaudio.com/products/toys-3-blends-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

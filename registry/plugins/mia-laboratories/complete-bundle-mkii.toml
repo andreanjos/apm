@@ -1,0 +1,25 @@
+slug        = "complete-bundle-mkii"
+name        = "Complete Bundle MKII"
+vendor      = "MIA Laboratories"
+version     = "MKII"
+description = "MIA Laboratories MKII complete bundle including Pi & Phi MKIII, 358, 409, 925, Musiqual series, and more."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://mialaboratories.com/product/mia-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mialaboratories.com/product/mia-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mialaboratories.com/product/mia-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

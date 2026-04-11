@@ -1,0 +1,26 @@
+slug        = "london-solo-strings"
+name        = "London Solo Strings"
+vendor      = "Big Fish Audio"
+version     = "1.0.0"
+description = "Big Fish Audio Kontakt library of world-class solo violin, viola, cello, and contrabass recordings."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bigfishaudio.com/London-Solo-Strings"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/15937-London-Solo-Strings?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bigfishaudio.com/London-Solo-Strings"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bigfishaudio.com/London-Solo-Strings"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

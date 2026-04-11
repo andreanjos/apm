@@ -1,0 +1,26 @@
+slug        = "damage-rock-grooves-2"
+name        = "Damage Rock Grooves 2"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Hard-hitting rock drum loop library featuring Heavy and Clean groove categories powered by the Damage 2 Loop Designer."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/damage-rock-grooves-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/14457-Damage-Rock-Grooves-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/damage-rock-grooves-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/damage-rock-grooves-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

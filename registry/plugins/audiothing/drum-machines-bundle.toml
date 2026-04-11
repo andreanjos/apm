@@ -1,0 +1,25 @@
+slug        = "drum-machines-bundle"
+name        = "Drum Machines Bundle"
+vendor      = "AudioThing"
+version     = "1.0.0"
+description = "Bundle of AudioThing's drum machine plugins including SR-88 and Latin Percussion vintage analog emulations."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/instruments/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/instruments/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/instruments/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

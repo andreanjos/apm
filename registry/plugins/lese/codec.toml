@@ -1,0 +1,26 @@
+slug        = "codec"
+name        = "Codec"
+vendor      = "Lese"
+version     = "2.0"
+description = "Free digital degradation plugin for bit crushing and codec-style audio artifacts and lo-fi effects."
+category    = "effects"
+subcategory = "bit crusher"
+license     = "commercial"
+tags        = []
+homepage    = "https://lese.io/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/9645-Codec?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://lese.io/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://lese.io/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "oxford-envolution-native"
+name        = "Oxford Envolution Native"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Oxford Envolution Native — frequency-dependent envelope shaper for precise attack and sustain control."
+category    = "effects"
+subcategory = "envelope shaper"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/oxford-envolution"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/oxford-envolution"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/oxford-envolution"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "iron-pack-10-tortue-amour"
+name        = "Iron Pack 10 – Tortue Amour"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Iron Pack Vol.10 — a quirky sound-designed Kontakt instrument with French avant-garde character."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/iron-pack-10-tortue-amour"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/iron-pack-10-tortue-amour"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/iron-pack-10-tortue-amour"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

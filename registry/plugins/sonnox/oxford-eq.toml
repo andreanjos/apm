@@ -1,0 +1,26 @@
+slug        = "oxford-eq"
+name        = "Oxford EQ"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "5-band parametric EQ modelled on the OXF-R3 console, delivering transparency and flexibility for modern production."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/oxford-eq"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/494-Oxford-EQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/oxford-eq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/oxford-eq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

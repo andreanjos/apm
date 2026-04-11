@@ -1,0 +1,26 @@
+slug        = "empirical-labs-complete-collection-upgrade-from-empirical-labs-lil-freq"
+name        = "Empirical Labs Complete Collection Upgrade from Empirical Labs Lil FrEQ"
+vendor      = "Softube"
+version     = "2.6"
+description = "Upgrade to full Empirical Labs Complete Collection from the Lil FrEQ equalizer plugin."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-complete-collection-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-complete-collection-2"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/empirical-labs-complete-collection-2"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

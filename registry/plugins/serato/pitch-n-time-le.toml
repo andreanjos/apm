@@ -1,0 +1,26 @@
+slug        = "pitch-n-time-le"
+name        = "Pitch N Time LE"
+vendor      = "Serato"
+version     = "3.1.1"
+description = "High-quality time-stretching and pitch-shifting AudioSuite plug-in for Pro Tools and Logic Pro."
+category    = "effects"
+subcategory = "pitch shifter"
+license     = "commercial"
+tags        = []
+homepage    = "https://serato.com/pitchntime-le"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/5097-Pitch-N-Time-LE?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://serato.com/pitchntime-le"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://serato.com/pitchntime-le"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

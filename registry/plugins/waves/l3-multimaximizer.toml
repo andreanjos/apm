@@ -1,0 +1,26 @@
+slug        = "l3-multimaximizer"
+name        = "L3 Multimaximizer"
+vendor      = "Waves"
+version     = "14.0"
+description = "Five-band multiband peak limiter combining loudness maximization and dynamic control."
+category    = "effects"
+subcategory = "dynamic processor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/l3-multimaximizer"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/l3-multimaximizer"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/l3-multimaximizer"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

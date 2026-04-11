@@ -1,0 +1,26 @@
+slug        = "frahm"
+name        = "Frahm"
+vendor      = "Lese"
+version     = "1.0.0"
+description = "Stereo width and spatial processing plugin delivering nuanced stereo field manipulation."
+category    = "effects"
+subcategory = "stereo width"
+license     = "commercial"
+tags        = []
+homepage    = "https://lese.io/plugins/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/11948-Frahm?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://lese.io/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://lese.io/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

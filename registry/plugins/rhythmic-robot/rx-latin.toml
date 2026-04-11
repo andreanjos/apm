@@ -1,0 +1,25 @@
+slug        = "rx-latin"
+name        = "RX Latin"
+vendor      = "Rhythmic Robot"
+version     = "1.0"
+description = "A Kontakt recreation of the Yamaha RX21L Latin drum machine for authentic percussive rhythms."
+category    = "instruments"
+subcategory = "electronic drums"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rhythmicrobot.com/product/rx-latin"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rhythmicrobot.com/product/rx-latin"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rhythmicrobot.com/product/rx-latin"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

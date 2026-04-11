@@ -1,0 +1,26 @@
+slug        = "fox-echo-chorus"
+name        = "Fox Echo Chorus"
+vendor      = "Safari Audio"
+version     = "1.0.0"
+description = "Classic vintage tape echo and chorus plugin with a warm, nostalgic lo-fi character."
+category    = "effects"
+subcategory = "echo"
+license     = "commercial"
+tags        = []
+homepage    = "https://safariaudio.com/products/fox-echo-chorus"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/15346-Fox-Echo-Chorus?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://safariaudio.com/products/fox-echo-chorus"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://safariaudio.com/products/fox-echo-chorus"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

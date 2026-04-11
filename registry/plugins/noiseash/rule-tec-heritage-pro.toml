@@ -1,0 +1,25 @@
+slug        = "rule-tec-heritage-pro"
+name        = "Rule Tec Heritage Pro"
+vendor      = "NoiseAsh"
+version     = "1.8.2"
+description = "Three legendary EQ models (F3C, EQ1A, EQ5M) combined in one plugin for classic tonal shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://noiseash.com/rule-tec-heritage-pro/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://noiseash.com/rule-tec-heritage-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://noiseash.com/rule-tec-heritage-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

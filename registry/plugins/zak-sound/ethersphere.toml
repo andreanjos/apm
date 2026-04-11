@@ -1,0 +1,26 @@
+slug        = "ethersphere"
+name        = "Ethersphere"
+vendor      = "ZAK Sound"
+version     = "1.0.0"
+description = "Wavetable synthesizer with 37 unique wavetables and 100 presets for atmospheric pads and evolving textures."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://zaksound.com/ethersphere/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15967-Ethersphere?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zaksound.com/ethersphere/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zaksound.com/ethersphere/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

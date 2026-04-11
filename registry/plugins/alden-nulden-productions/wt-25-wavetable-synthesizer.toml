@@ -1,0 +1,25 @@
+slug        = "wt-25-wavetable-synthesizer"
+name        = "WT-25 Wavetable Synthesizer"
+vendor      = "Alden Nulden Productions"
+version     = "1.0.0"
+description = "Kontakt-based wavetable synthesizer instrument for creating evolving electronic sounds."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "http://aldennuldenproductions.com/product/wt-25-wavetable-synthesizer/"
+is_paid     = true
+
+[formats.vst3]
+url          = "http://aldennuldenproductions.com/product/wt-25-wavetable-synthesizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "http://aldennuldenproductions.com/product/wt-25-wavetable-synthesizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

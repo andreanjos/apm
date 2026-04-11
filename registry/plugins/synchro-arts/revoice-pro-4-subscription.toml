@@ -1,0 +1,24 @@
+slug        = "revoice-pro-4-subscription"
+name        = "Revoice Pro 4 Subscription"
+vendor      = "Synchro Arts"
+version     = "4"
+description = "Subscription license for Revoice Pro 4, the industry-standard professional vocal processing suite."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://synchroarts.com/products/revoice-pro"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synchroarts.com/products/revoice-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synchroarts.com/products/revoice-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

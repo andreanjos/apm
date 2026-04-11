@@ -1,0 +1,26 @@
+slug        = "dime-tt"
+name        = "dime tt"
+vendor      = "time off audio"
+version     = "1.0"
+description = "Transient shaper by time off audio for precise attack and sustain control."
+category    = "effects"
+subcategory = "transient shaper"
+license     = "commercial"
+tags        = []
+homepage    = "https://timeoffaudio.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/14948-dime-tt-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://timeoffaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://timeoffaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

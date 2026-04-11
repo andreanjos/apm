@@ -1,0 +1,25 @@
+slug        = "hammered-dulcimer"
+name        = "Hammered Dulcimer"
+vendor      = "Cinematique Instruments"
+version     = "1.0.0"
+description = "Hammered dulcimer Kontakt instrument with shimmering string sounds for film scores and ethnic music."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://cinematique-instruments.com/sites2025/instr_hammdulc.php"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cinematique-instruments.com/sites2025/instr_hammdulc.php"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cinematique-instruments.com/sites2025/instr_hammdulc.php"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

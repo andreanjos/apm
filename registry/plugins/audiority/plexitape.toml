@@ -1,0 +1,26 @@
+slug        = "plexitape"
+name        = "PlexiTape"
+vendor      = "Audiority"
+version     = "1.4"
+description = "Analog modeled vintage tape echo plug-in capturing the warmth and character of classic tape delay units."
+category    = "effects"
+subcategory = "echo"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/plexitape/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/5477-PlexiTape?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/plexitape/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/plexitape/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

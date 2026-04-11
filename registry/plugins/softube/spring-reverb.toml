@@ -1,0 +1,26 @@
+slug        = "spring-reverb"
+name        = "Spring Reverb"
+vendor      = "Softube"
+version     = "2.6"
+description = "Authentic spring reverb plugin with component-modeled spring tank simulation for vintage character."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/spring-reverb"
+bundle_ids  = ["com.local.springreverb"]
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/spring-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/spring-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

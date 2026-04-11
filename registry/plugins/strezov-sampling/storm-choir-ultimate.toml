@@ -1,0 +1,25 @@
+slug        = "storm-choir-ultimate"
+name        = "Storm Choir Ultimate"
+vendor      = "Strezov Sampling"
+version     = "1.0.0"
+description = "20-piece chamber choir Kontakt library with Syllabuilder engine and three mic positions."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.strezov-sampling.com/products/view/sc-ultimate.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.strezov-sampling.com/products/view/sc-ultimate.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.strezov-sampling.com/products/view/sc-ultimate.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

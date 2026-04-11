@@ -1,0 +1,25 @@
+slug        = "soundsense-grime-scene"
+name        = "SoundSense: Grime Scene"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Hip-hop and grime loops, beats, strings, and percussion samples for urban music production."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/soundsense-grime-scene"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/soundsense-grime-scene"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/soundsense-grime-scene"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

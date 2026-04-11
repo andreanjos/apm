@@ -1,0 +1,25 @@
+slug        = "mturbocomple"
+name        = "MTurboCompLE"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "14 vintage-style compressors in one plugin for professional dynamics control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MTurboCompLE"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MTurboCompLE"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MTurboCompLE"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

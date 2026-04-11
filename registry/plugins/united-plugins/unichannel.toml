@@ -1,0 +1,26 @@
+slug        = "unichannel"
+name        = "UniChannel"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "Channel strip emulating 27+ vintage studio equipment combinations with German, American, and British styles."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/UniChannel/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/8330-UniChannel?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/UniChannel/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/UniChannel/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

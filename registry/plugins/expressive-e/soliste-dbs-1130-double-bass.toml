@@ -1,0 +1,26 @@
+slug        = "soliste-dbs-1130-double-bass"
+name        = "Soliste DBS 1130 Double Bass"
+vendor      = "Expressive E"
+version     = "1.0.0"
+description = "Physically modeled solo double bass instrument with real-time expressive MPE and MIDI control."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.expressivee.com/139-soliste"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15160-Soliste-DBS-1130-Double-Bass?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.expressivee.com/139-soliste"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.expressivee.com/139-soliste"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

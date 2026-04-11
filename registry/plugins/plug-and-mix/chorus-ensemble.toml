@@ -1,0 +1,25 @@
+slug        = "chorus-ensemble"
+name        = "Chorus Ensemble"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Classic chorus ensemble effect plugin with lush, shimmering modulation inspired by vintage hardware."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p879-Chorus-Ensemble/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p879-Chorus-Ensemble/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p879-Chorus-Ensemble/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

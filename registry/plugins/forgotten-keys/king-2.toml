@@ -1,0 +1,25 @@
+slug        = "king-2"
+name        = "KING-2"
+vendor      = "Forgotten Keys"
+version     = "1.0.0"
+description = "Kontakt simulation of the Maestro Rhythm King MRK-2 late-1960s American drum machine."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.forgottenkeys.co.uk/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.forgottenkeys.co.uk/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.forgottenkeys.co.uk/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

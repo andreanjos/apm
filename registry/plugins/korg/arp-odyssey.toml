@@ -1,0 +1,26 @@
+slug        = "arp-odyssey"
+name        = "ARP ODYSSEY"
+vendor      = "KORG"
+version     = "6"
+description = "Software recreation of the classic 1972 ARP ODYSSEY duophonic synthesizer for Mac/PC."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.korg.com/us/products/software/korg_collection/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11191-ARP-ODYSSEY?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.korg.com/us/products/software/korg_collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.korg.com/us/products/software/korg_collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

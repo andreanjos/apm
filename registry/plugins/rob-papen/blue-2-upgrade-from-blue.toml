@@ -1,0 +1,25 @@
+slug        = "blue-2-upgrade-from-blue"
+name        = "Blue 2 Upgrade from Blue"
+vendor      = "Rob Papen"
+version     = "1.0.0"
+description = "Upgrade license from the original Blue to Blue 2, adding extended samples and a versatile XY pad."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/blue2.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/blue2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/blue2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

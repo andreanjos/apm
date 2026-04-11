@@ -1,0 +1,25 @@
+slug        = "lm-correct"
+name        = "LM-Correct"
+vendor      = "NUGEN Audio"
+version     = "1.0"
+description = "A loudness correction plugin providing a fast, hassle-free route to loudness-compliant audio."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://nugenaudio.com/lm-correct/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nugenaudio.com/lm-correct/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nugenaudio.com/lm-correct/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "plck"
+name        = "PLCK"
+vendor      = "Musical Sampling"
+version     = "1.0"
+description = "Plucked instrument Kontakt library capturing pre-pluck textures and round-robin releases for realism."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://musicalsampling.com/plck/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://musicalsampling.com/plck/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://musicalsampling.com/plck/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

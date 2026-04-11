@@ -1,0 +1,26 @@
+slug        = "comet"
+name        = "Comet"
+vendor      = "Polyverse"
+version     = "1.0.0"
+description = "Lush and versatile reverb plugin with unique preset morphing for vocals, melodies, and drums."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://polyversemusic.com/products/comet/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/5491-Comet?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://polyversemusic.com/products/comet/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://polyversemusic.com/products/comet/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

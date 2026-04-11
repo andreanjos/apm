@@ -1,0 +1,26 @@
+slug        = "david-bendeth-s-the-hoser-2"
+name        = "David Bendeth s The Hoser 2"
+vendor      = "Boz Digital Labs"
+version     = "2"
+description = "David Bendeth signature tilt-style EQ for quick, musical high-shelf and low-shelf tone shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozdigitallabs.com/product/the-hoser-2/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11001-David-Bendeth-s-The-Hoser-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozdigitallabs.com/product/the-hoser-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozdigitallabs.com/product/the-hoser-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

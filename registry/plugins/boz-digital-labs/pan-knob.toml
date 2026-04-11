@@ -1,0 +1,26 @@
+slug        = "pan-knob"
+name        = "Pan Knob"
+vendor      = "Boz Digital Labs"
+version     = "1.0.0"
+description = "Stereo panning plugin using a frequency-dependent algorithm that keeps lows centered while panning highs."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozdigitallabs.com/pan-knob/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/4802-Pan-Knob?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozdigitallabs.com/pan-knob/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozdigitallabs.com/pan-knob/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

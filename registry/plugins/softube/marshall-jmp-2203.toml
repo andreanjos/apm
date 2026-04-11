@@ -1,0 +1,26 @@
+slug        = "marshall-jmp-2203"
+name        = "Marshall JMP 2203"
+vendor      = "Softube"
+version     = "2.6"
+description = "Amp simulator modeled on the classic Marshall JMP 2203 master volume head for hard rock tones."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-jmp-2203"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-jmp-2203"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-jmp-2203"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

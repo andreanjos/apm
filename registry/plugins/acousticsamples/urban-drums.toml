@@ -1,0 +1,25 @@
+slug        = "urban-drums"
+name        = "Urban Drums"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Hybrid drum kit blending acoustic elements with synthesized drum samples for modern urban production."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/urbandrums"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/urbandrums"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/urbandrums"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

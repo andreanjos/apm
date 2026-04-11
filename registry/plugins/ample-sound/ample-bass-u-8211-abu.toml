@@ -1,0 +1,25 @@
+slug        = "ample-bass-u-8211-abu"
+name        = "Ample Bass U &#8211; ABU"
+vendor      = "Ample Sound"
+version     = "4"
+description = "Upright double bass virtual instrument for jazz, blues, and acoustic music production."
+category    = "instruments"
+subcategory = "bass"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.amplesound.net/en/pro-pd.asp?id=21"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=21"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=21"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

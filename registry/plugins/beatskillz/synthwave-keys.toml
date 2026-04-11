@@ -1,0 +1,25 @@
+slug        = "synthwave-keys"
+name        = "Synthwave Keys"
+vendor      = "BeatSkillz"
+version     = "1.0.0"
+description = "Virtual instrument plugin with classic 80s synthesizer keyboard sounds for synthwave production."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.beatskillz.com/shop/synthwave-keys/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.beatskillz.com/shop/synthwave-keys/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.beatskillz.com/shop/synthwave-keys/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

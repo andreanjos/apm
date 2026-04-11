@@ -1,0 +1,25 @@
+slug        = "alternate-keys"
+name        = "Alternate Keys"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Unconventional keyboard collection for SampleTank with accordion, harmonium, toy piano, and harpsichord."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/stalternatekeys/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/stalternatekeys/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/stalternatekeys/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

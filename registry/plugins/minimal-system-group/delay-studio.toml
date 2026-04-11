@@ -1,0 +1,26 @@
+slug        = "delay-studio"
+name        = "Delay Studio"
+vendor      = "Minimal System Group"
+version     = "1.0.0"
+description = "Analogue-modelled delay plugin offering a versatile range of echo and tape-style delay effects."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/472-Delay-Studio?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "renaissance-vox"
+name        = "Renaissance Vox"
+vendor      = "Waves"
+version     = "14.0"
+description = "Upward and downward compressor/expander designed for natural-sounding vocal dynamics."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/renaissance-vox"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/renaissance-vox"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/renaissance-vox"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

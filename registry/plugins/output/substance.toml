@@ -1,0 +1,25 @@
+slug        = "substance"
+name        = "Substance"
+vendor      = "Output"
+version     = "1.0"
+description = "Kontakt Player bass instrument delivering deep, evolving low-end tones for electronic and cinematic music."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://output.com/products/substance"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://output.com/products/substance"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://output.com/products/substance"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

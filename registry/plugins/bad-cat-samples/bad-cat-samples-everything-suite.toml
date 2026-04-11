@@ -1,0 +1,25 @@
+slug        = "bad-cat-samples-everything-suite"
+name        = "Bad Cat Samples Everything Suite"
+vendor      = "Bad Cat Samples"
+version     = "1.0.0"
+description = "Complete bundle of all Bad Cat Samples Kontakt instruments in one suite."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://bad-cat-media-group.myshopify.com/collections/kontakt-virtual-instruments"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://bad-cat-media-group.myshopify.com/collections/kontakt-virtual-instruments"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://bad-cat-media-group.myshopify.com/collections/kontakt-virtual-instruments"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

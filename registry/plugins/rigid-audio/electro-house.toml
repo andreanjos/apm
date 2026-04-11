@@ -1,0 +1,25 @@
+slug        = "electro-house"
+name        = "Electro House"
+vendor      = "Rigid Audio"
+version     = "1.0.0"
+description = "Electro house Kontakt instrument with 87 electronic synthesizer sounds and Triquencer sequencer."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rigid-audio.com/product/electro-house/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rigid-audio.com/product/electro-house/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rigid-audio.com/product/electro-house/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

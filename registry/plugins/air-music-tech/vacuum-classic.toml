@@ -1,0 +1,25 @@
+slug        = "vacuum-classic"
+name        = "Vacuum Classic"
+vendor      = "Air Music Tech"
+version     = "1"
+description = "Tube synthesizer plugin delivering warm, vintage analog tones via valve-modeled oscillators."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/vacuum"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/vacuum"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/vacuum"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "dj-studio-pro-edition"
+name        = "DJ STUDIO Pro Edition"
+vendor      = "DJ Studio"
+version     = "5.0"
+description = "Professional DJ software for mixing, cueing, and performing with full feature set."
+category    = "utility"
+subcategory = "daw"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.djstudioapp.com/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12769-DJ-STUDIO-Pro-Edition?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.djstudioapp.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.djstudioapp.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "friedman-amplifiers-collection"
+name        = "Friedman Amplifiers Collection"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Collection of emulations of Friedman Amplification guitar amplifiers including BE-100 and Buxom Betty."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/bundles/friedman-amplifiers-collection.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/bundles/friedman-amplifiers-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/bundles/friedman-amplifiers-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

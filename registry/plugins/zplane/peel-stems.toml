@@ -1,0 +1,26 @@
+slug        = "peel-stems"
+name        = "PEEL STEMS"
+vendor      = "zplane"
+version     = "1.0.0"
+description = "Real-time stem separation plugin using AI to isolate vocals, drums, bass, and other stems."
+category    = "utility"
+subcategory = "sound editor"
+license     = "commercial"
+tags        = []
+homepage    = "https://products.zplane.de/products/peel-stems"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/22-Sound-Editor/12589-PEEL-STEMS-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://products.zplane.de/products/peel-stems"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://products.zplane.de/products/peel-stems"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

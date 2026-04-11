@@ -1,0 +1,25 @@
+slug        = "oldtimermb"
+name        = "oldTimerMB"
+vendor      = "PSP Audioware"
+version     = "1.2.2"
+description = "Vintage-style multi-band compressor for demanding track processing, buss compression, and mastering."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-oldtimermb"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-oldtimermb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-oldtimermb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

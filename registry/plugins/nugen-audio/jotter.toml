@@ -1,0 +1,26 @@
+slug        = "jotter"
+name        = "Jotter"
+vendor      = "NUGEN Audio"
+version     = "1.0"
+description = "A DAW plugin for sharing timestamped notes and comments between engineers and clients via a companion app."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://nugenaudio.com/jotter/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/10476-Jotter?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nugenaudio.com/jotter/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nugenaudio.com/jotter/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

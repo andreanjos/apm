@@ -1,0 +1,26 @@
+slug        = "hollywood-fantasy-winds"
+name        = "Hollywood Fantasy Winds"
+vendor      = "EastWest Sounds"
+version     = "1.0.0"
+description = "Fantasy woodwind library with Irish whistles, Renaissance flutes, uilleann pipes, and ocarinas."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15558-Hollywood-Fantasy-Winds?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

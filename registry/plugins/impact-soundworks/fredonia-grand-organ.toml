@@ -1,0 +1,25 @@
+slug        = "fredonia-grand-organ"
+name        = "Fredonia Grand Organ"
+vendor      = "Impact Soundworks"
+version     = "1.0.0"
+description = "Kontakt pipe organ sampled from the Schlicker Pipe Organ at SUNY Fredonia with 39 combinable stops."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://impactsoundworks.com/product/fredonia-grand-organ/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://impactsoundworks.com/product/fredonia-grand-organ/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://impactsoundworks.com/product/fredonia-grand-organ/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

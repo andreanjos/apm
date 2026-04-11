@@ -1,0 +1,25 @@
+slug        = "abbey-road-chambers"
+name        = "Abbey Road Chambers"
+vendor      = "Waves"
+version     = "14.0"
+description = "Emulation of the legendary echo chambers at Abbey Road Studios for authentic reverb."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/abbey-road-chambers"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/abbey-road-chambers"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/abbey-road-chambers"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

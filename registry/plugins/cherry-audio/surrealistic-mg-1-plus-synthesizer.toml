@@ -1,0 +1,26 @@
+slug        = "surrealistic-mg-1-plus-synthesizer"
+name        = "Surrealistic MG 1 Plus Synthesizer"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Free virtual recreation of the Radio Shack Realistic MG-1 synthesizer with dual oscillators and ladder filter."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/surrealistic-mg-1-plus"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7117-Surrealistic-MG-1-Plus-Synthesizer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/surrealistic-mg-1-plus"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/surrealistic-mg-1-plus"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

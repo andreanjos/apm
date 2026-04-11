@@ -1,0 +1,24 @@
+slug        = "stereodelta-2"
+name        = "StereoDelta 2"
+vendor      = "Mathew Lane"
+version     = "2.0"
+description = "Advanced stereo manipulation plugin with M/S processing and width control by Mathew Lane."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.mathewlane.com/stereodelta/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.mathewlane.com/stereodelta/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.mathewlane.com/stereodelta/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

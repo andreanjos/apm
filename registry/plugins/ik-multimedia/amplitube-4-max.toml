@@ -1,0 +1,25 @@
+slug        = "amplitube-4-max"
+name        = "AmpliTube 4 MAX"
+vendor      = "IK Multimedia"
+version     = "4.0"
+description = "Complete guitar and bass amp simulation suite with 400+ amps, cabs, stomps, and rack effects."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/amplitube5/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/amplitube5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/amplitube5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

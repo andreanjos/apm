@@ -1,0 +1,25 @@
+slug        = "zitherette"
+name        = "Zitherette"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Delicate zitherette Kontakt library with plucked string resonance and folk melodic character."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/zitherette"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/zitherette"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/zitherette"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "rx-elements"
+name        = "RX Elements"
+vendor      = "iZotope"
+version     = "11.4.0"
+description = "Entry-level iZotope audio repair plugin suite with noise reduction, de-click, de-hum, and de-reverb."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products/rx"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products/rx"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products/rx"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

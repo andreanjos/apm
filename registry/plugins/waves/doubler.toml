@@ -1,0 +1,25 @@
+slug        = "doubler"
+name        = "Doubler"
+vendor      = "Waves"
+version     = "14.0"
+description = "Stereo doubling effect that creates lush, wide layered textures from a single mono source."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/doubler"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/doubler"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/doubler"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

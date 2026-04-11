@@ -1,0 +1,25 @@
+slug        = "gensis-8211-pads-in-motion"
+name        = "Gensis &#8211; Pads in Motion"
+vendor      = "Sample Logic"
+version     = "1.0.0"
+description = "Advanced pad instrument for Kontakt that streamlines silky-smooth pad creation with motion."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.samplelogic.com/products/genesis-pads-in-motion/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.samplelogic.com/products/genesis-pads-in-motion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.samplelogic.com/products/genesis-pads-in-motion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

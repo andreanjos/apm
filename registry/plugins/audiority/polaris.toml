@@ -1,0 +1,26 @@
+slug        = "polaris"
+name        = "Polaris"
+vendor      = "Audiority"
+version     = "1.9"
+description = "Vintage digital echo/reverb plug-in with shimmer, inspired by early digital hardware units."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/polaris/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/3441-Polaris?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/polaris/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/polaris/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

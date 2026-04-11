@@ -1,0 +1,26 @@
+slug        = "cinebrass-descant-horn"
+name        = "CineBrass Descant Horn"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Expansion library adding high-register descant horn range to complement CineBrass Core and Pro."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/cinebrass-descant-horn"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11275-CineBrass-Descant-Horn?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/cinebrass-descant-horn"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/cinebrass-descant-horn"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

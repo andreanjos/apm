@@ -1,0 +1,25 @@
+slug        = "veevum-2-8211-ad"
+name        = "Veevum 2 &#8211; AD"
+vendor      = "Audiofier"
+version     = "1.0"
+description = "Ambient Kontakt instrument with 100 analog and digital synth sound sources in the Veevum engine."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiofier.co.uk/veevum-a-d/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiofier.co.uk/veevum-a-d/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiofier.co.uk/veevum-a-d/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

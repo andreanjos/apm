@@ -1,0 +1,26 @@
+slug        = "modo-drum-kit-djentleman"
+name        = "MODO DRUM Kit Djentleman"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "MODO DRUM expansion kit inspired by Matt Halpern's Periphery drum kit for the djent genre."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/mddjentleman/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/14538-MODO-DRUM-Kit-Djentleman?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/mddjentleman/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/mddjentleman/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

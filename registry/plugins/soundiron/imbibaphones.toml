@@ -1,0 +1,25 @@
+slug        = "imbibaphones"
+name        = "Imbibaphones"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Unique Kontakt instrument made from tuned glass vessels filled with liquid, played by rubbing."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/imbibaphones"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/imbibaphones"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/imbibaphones"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

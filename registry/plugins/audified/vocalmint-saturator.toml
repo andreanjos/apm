@@ -1,0 +1,24 @@
+slug        = "vocalmint-saturator"
+name        = "VocalMint Saturator"
+vendor      = "Audified"
+version     = "1.0.0"
+description = "Vocal saturation plugin adding subtle harmonic richness and presence to voice recordings."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/vocalmint-saturator/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/vocalmint-saturator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/vocalmint-saturator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

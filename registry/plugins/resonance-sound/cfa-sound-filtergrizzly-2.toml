@@ -1,0 +1,26 @@
+slug        = "cfa-sound-filtergrizzly-2"
+name        = "CFA Sound FilterGrizzly 2"
+vendor      = "Resonance Sound"
+version     = "2"
+description = "Filter plugin featuring analog-modeled multimode filters with drive and modulation controls."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.resonance-sound.com"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/1186-CFA-Sound-FilterGrizzly-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.resonance-sound.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.resonance-sound.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

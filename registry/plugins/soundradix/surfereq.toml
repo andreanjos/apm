@@ -1,0 +1,25 @@
+slug        = "surfereq"
+name        = "SurferEQ"
+vendor      = "Soundradix"
+version     = "2.1.2"
+description = "Pitch-tracking equalizer that dynamically moves EQ bands in real time with the source pitch."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundradix.com/products/surfereq/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundradix.com/products/surfereq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundradix.com/products/surfereq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

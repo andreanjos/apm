@@ -1,0 +1,26 @@
+slug        = "unlock"
+name        = "Unlock"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Door foley designer with 120+ doors, 170+ sub-layers, and 29,000 samples for realistic open and shut sounds."
+category    = "instruments"
+subcategory = "generator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/unlock"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/16939-Unlock?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/unlock"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/unlock"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

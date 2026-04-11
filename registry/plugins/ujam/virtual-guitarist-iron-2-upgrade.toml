@@ -1,0 +1,25 @@
+slug        = "virtual-guitarist-iron-2-upgrade"
+name        = "Virtual Guitarist Iron 2 Upgrade"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Upgrade license for Virtual Guitarist IRON 2 high-energy rock guitar plugin."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/guitarist/iron/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/guitarist/iron/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/guitarist/iron/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

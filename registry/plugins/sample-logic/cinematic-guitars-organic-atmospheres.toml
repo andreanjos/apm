@@ -1,0 +1,25 @@
+slug        = "cinematic-guitars-organic-atmospheres"
+name        = "Cinematic Guitars Organic Atmospheres"
+vendor      = "Sample Logic"
+version     = "1.0.0"
+description = "Cinematic guitar Kontakt library delivering organic atmospheric textures for scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.samplelogic.com/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.samplelogic.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.samplelogic.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "swam-solo-trumpets"
+name        = "SWAM Solo Trumpets"
+vendor      = "Audio Modeling"
+version     = "3"
+description = "Physically modeled solo trumpets with real-time expressive control over dynamics and articulations."
+category    = "instruments"
+subcategory = "brass"
+license     = "commercial"
+tags        = []
+homepage    = "https://audiomodeling.com/swam-engine/solo-brass/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audiomodeling.com/swam-engine/solo-brass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audiomodeling.com/swam-engine/solo-brass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

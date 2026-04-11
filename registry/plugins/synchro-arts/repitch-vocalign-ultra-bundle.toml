@@ -1,0 +1,25 @@
+slug        = "repitch-vocalign-ultra-bundle"
+name        = "RePitch & VocAlign Ultra Bundle"
+vendor      = "Synchro Arts"
+version     = "1.0.0"
+description = "Bundle pairing RePitch vocal tuning and VocAlign Ultra alignment for complete vocal production."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://synchroarts.com/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synchroarts.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synchroarts.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

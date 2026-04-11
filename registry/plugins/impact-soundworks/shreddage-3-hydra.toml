@@ -1,0 +1,25 @@
+slug        = "shreddage-3-hydra"
+name        = "Shreddage 3 Hydra"
+vendor      = "Impact Soundworks"
+version     = "1.0.0"
+description = "Kontakt 8-string electric guitar instrument for heavy rock and metal with extended low-end range."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://impactsoundworks.com/product/shreddage-3-hydra/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://impactsoundworks.com/product/shreddage-3-hydra/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://impactsoundworks.com/product/shreddage-3-hydra/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "drums-of-war-3"
+name        = "Drums of War 3"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Modern score-ready epic percussion for action, suspense, thriller, sci-fi, and fantasy."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/drums-of-war-3"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11281-Drums-of-War-3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/drums-of-war-3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/drums-of-war-3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

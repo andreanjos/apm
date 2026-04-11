@@ -1,0 +1,26 @@
+slug        = "detroit-electro-ni-massive"
+name        = "Detroit Electro NI Massive"
+vendor      = "5Pin Media"
+version     = "1.0.0"
+description = "100 Detroit electro NI Massive presets spanning bass, leads, arps, and sequences with a timeless electro vibe."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://5pinmedia.com/product/detroit-electro-ni-massive-bank-5/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11316-Detroit-Electro-NI-Massive?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://5pinmedia.com/product/detroit-electro-ni-massive-bank-5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://5pinmedia.com/product/detroit-electro-ni-massive-bank-5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "vault"
+name        = "Vault"
+vendor      = "Ecliptiq Audio"
+version     = "1.0.0"
+description = "Advanced 808 bass Kontakt instrument with deep sub tones for trap and hip-hop production."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.lootaudio.com/label/Ecliptiq-Audio"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.lootaudio.com/label/Ecliptiq-Audio"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.lootaudio.com/label/Ecliptiq-Audio"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

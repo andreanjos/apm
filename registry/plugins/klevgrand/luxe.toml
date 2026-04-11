@@ -1,0 +1,26 @@
+slug        = "luxe"
+name        = "LUXE"
+vendor      = "Klevgrand"
+version     = "1.1.2"
+description = "An audio enhancer that applies subtle, musical compression and saturation for warmth and presence."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+homepage    = "https://klevgrand.com/products/luxe"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/8712-LUXE?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://klevgrand.com/products/luxe"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://klevgrand.com/products/luxe"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

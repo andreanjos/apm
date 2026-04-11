@@ -1,0 +1,25 @@
+slug        = "beatmaker-nemesis"
+name        = "BeatMaker Nemesis"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Cyberpunk and industrial drum machine plugin with futuristic electronic percussion."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/beatmaker/nemesis/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/beatmaker/nemesis/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/beatmaker/nemesis/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

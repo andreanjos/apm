@@ -1,0 +1,26 @@
+slug        = "1176-classic-limiter-collection"
+name        = "1176 Classic Limiter Collection"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulations of the classic 1176 FET limiter in Rev A, D, E, and AE editions."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/1176-classic-limiter-collection.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/1176-classic-limiter-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/1176-classic-limiter-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

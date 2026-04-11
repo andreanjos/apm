@@ -1,0 +1,26 @@
+slug        = "serato-studio"
+name        = "Serato Studio"
+vendor      = "Serato"
+version     = "2.1.2"
+description = "Beat production DAW with cutting-edge stem separation, sampling, and music creation tools."
+category    = "utility"
+subcategory = "daw"
+license     = "commercial"
+tags        = []
+homepage    = "https://serato.com/studio"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/5975-Serato-Studio?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://serato.com/studio"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://serato.com/studio"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

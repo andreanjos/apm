@@ -1,0 +1,25 @@
+slug        = "vs-sanshin-ii"
+name        = "Vs Sanshin II"
+vendor      = "Versus Audio"
+version     = "1.0.0"
+description = "Warm-toned Okinawan sanshin Kontakt instrument with VSAS acoustic stringed engine."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://versusaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://versusaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://versusaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

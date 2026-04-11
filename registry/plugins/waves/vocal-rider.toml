@@ -1,0 +1,26 @@
+slug        = "vocal-rider"
+name        = "Vocal Rider"
+vendor      = "Waves"
+version     = "14.0"
+description = "Automatic vocal level rider that maintains consistent vocal presence throughout a track."
+category    = "effects"
+subcategory = "dynamic processor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/vocal-rider"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/vocal-rider"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/vocal-rider"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

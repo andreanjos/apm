@@ -1,0 +1,26 @@
+slug        = "electri6ity"
+name        = "Electri6ity"
+vendor      = "Vir2 Instruments"
+version     = "1.0.0"
+description = "Ultimate electric guitar Kontakt library featuring 8 iconic guitars with 24,000+ samples each."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.vir2.com/instruments/electri6ity/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/809-Electri6ity?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.vir2.com/instruments/electri6ity/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.vir2.com/instruments/electri6ity/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

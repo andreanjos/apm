@@ -1,0 +1,26 @@
+slug        = "serum-expansion-pack-latin-tech-house"
+name        = "Serum Expansion Pack Latin Tech House"
+vendor      = "Plugin Boutique Presets"
+version     = "1.0.0"
+description = "Latin Tech House preset expansion for Xfer Serum with Latin-flavored electronic dance sounds."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/products/11788-Serum-Expansion-Pack-Latin-Tech-House"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11788-Serum-Expansion-Pack-Latin-Tech-House?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/products/11788-Serum-Expansion-Pack-Latin-Tech-House"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/products/11788-Serum-Expansion-Pack-Latin-Tech-House"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

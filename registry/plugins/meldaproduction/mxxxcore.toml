@@ -1,0 +1,24 @@
+slug        = "mxxxcore"
+name        = "MXXXCore"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "An affordable modular effect plugin — build a customized version of MXXX by purchasing only the modules you need."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MXXXCore"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MXXXCore"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MXXXCore"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

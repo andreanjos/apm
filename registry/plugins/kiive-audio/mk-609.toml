@@ -1,0 +1,26 @@
+slug        = "mk-609"
+name        = "MK 609"
+vendor      = "Kiive Audio"
+version     = "1.0.0"
+description = "Plugin recreation of a classic 1969 large-format console compressor developed with AudioScape Engineering."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kiiveaudio.com/products/mk-609"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14435-MK-609?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kiiveaudio.com/products/mk-609"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kiiveaudio.com/products/mk-609"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

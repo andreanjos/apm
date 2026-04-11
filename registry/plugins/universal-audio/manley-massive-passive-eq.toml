@@ -1,0 +1,26 @@
+slug        = "manley-massive-passive-eq"
+name        = "Manley Massive Passive EQ"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Manley Massive Passive, a mastering-grade passive tube EQ."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/manley-massive-passive-eq.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/manley-massive-passive-eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/manley-massive-passive-eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

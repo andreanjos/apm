@@ -1,0 +1,26 @@
+slug        = "eclipse-cinematic-presets-for-pigments"
+name        = "Eclipse Cinematic Presets for Pigments"
+vendor      = "LP24 Audio"
+version     = "1.0.0"
+description = "Cinematic preset collection for Arturia Pigments emulating modern film score soundscapes."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://lp24audio.com/shop/arturia-pigments-presets"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/10564-Eclipse-Cinematic-Presets-for-Pigments?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://lp24audio.com/shop/arturia-pigments-presets"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://lp24audio.com/shop/arturia-pigments-presets"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

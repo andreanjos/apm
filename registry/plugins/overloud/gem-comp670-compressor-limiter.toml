@@ -1,0 +1,25 @@
+slug        = "gem-comp670-compressor-limiter"
+name        = "GEM Comp670 Compressor Limiter"
+vendor      = "Overloud"
+version     = "1.0.0"
+description = "Emulation of the legendary Fairchild 670 tube compressor-limiter, beyond the original hardware."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.overloud.com/gems"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.overloud.com/gems"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.overloud.com/gems"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

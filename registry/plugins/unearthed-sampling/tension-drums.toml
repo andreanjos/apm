@@ -1,0 +1,25 @@
+slug        = "tension-drums"
+name        = "Tension Drums"
+vendor      = "unEarthed Sampling"
+version     = "1.0"
+description = "Cinematic tension percussion Kontakt instrument featuring suspenseful drum textures for scoring and trailers."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.unearthedsampling.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.unearthedsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.unearthedsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "oxford-elite-bundle-hd-hdx"
+name        = "Oxford Elite Bundle HD/HDX"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Oxford Elite Bundle HD/HDX — seven plugins covering EQ, dynamics, reverb, inflator, limiter, TransMod, and SuprEsser."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/sonnox-elite-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/sonnox-elite-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/sonnox-elite-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

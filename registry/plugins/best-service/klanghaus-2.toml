@@ -1,0 +1,25 @@
+slug        = "klanghaus-2"
+name        = "Klanghaus 2"
+vendor      = "Best Service"
+version     = "2"
+description = "Unique instrument collection invented and constructed by Ferdinand Foersch featuring exotic handmade instruments."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/klanghaus_2.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/klanghaus_2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/klanghaus_2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

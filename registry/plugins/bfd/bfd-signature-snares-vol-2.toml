@@ -1,0 +1,26 @@
+slug        = "bfd-signature-snares-vol-2"
+name        = "BFD Signature Snares Vol 2"
+vendor      = "BFD"
+version     = "1.0"
+description = "BFD3 expansion with five Yamaha artist signature snare drums recorded with varied beater types."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bfddrums.com/bfd3-expansions/signature-snares-vol-2/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/3163-BFD-Signature-Snares-Vol-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bfddrums.com/bfd3-expansions/signature-snares-vol-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bfddrums.com/bfd3-expansions/signature-snares-vol-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

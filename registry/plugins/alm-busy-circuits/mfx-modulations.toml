@@ -1,0 +1,26 @@
+slug        = "mfx-modulations"
+name        = "MFX Modulations"
+vendor      = "ALM Busy Circuits"
+version     = "1.0.0"
+description = "Pair of modulation plugins (Multi Phaser and Ensembles chorus) ported from the MFX module."
+category    = "effects"
+subcategory = "modulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://busycircuits.com/pages/alm-pg006"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/14823-MFX-Modulations-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://busycircuits.com/pages/alm-pg006"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://busycircuits.com/pages/alm-pg006"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "rymcast-genesis-vgm-player"
+name        = "RYMCast Genesis VGM Player"
+vendor      = "Inphonik"
+version     = "1.0.0"
+description = "Sega Genesis VGM file player plugin for enjoying classic video game music soundtracks."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.inphonik.com/products/rymcast-genesis-vgm-player/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/5637-RYMCast-Genesis-VGM-Player?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.inphonik.com/products/rymcast-genesis-vgm-player/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.inphonik.com/products/rymcast-genesis-vgm-player/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

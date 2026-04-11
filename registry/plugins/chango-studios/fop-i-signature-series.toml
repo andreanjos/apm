@@ -1,0 +1,25 @@
+slug        = "fop-i-signature-series"
+name        = "FOP I (Signature Series)"
+vendor      = "Chango Studios"
+version     = "1.0"
+description = "Chango Studios FOP I Kontakt instrument inspired by classic analog synth orchestrations."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://changostudios.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://changostudios.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://changostudios.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

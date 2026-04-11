@@ -1,0 +1,26 @@
+slug        = "cp3v-compressor"
+name        = "CP3V Compressor"
+vendor      = "Mellowmuse"
+version     = "2.6.0"
+description = "Third-generation vintage compressor plugin with smooth analogue-modelled gain reduction."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.mellowmuse.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6689-CP3V-Compressor?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.mellowmuse.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.mellowmuse.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

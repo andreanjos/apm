@@ -1,0 +1,25 @@
+slug        = "haunted-piano"
+name        = "Haunted Piano"
+vendor      = "Rhythmic Robot"
+version     = "1.0"
+description = "A Kontakt toy piano instrument ranging from realistic playability to eerie organic sound design textures."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rhythmicrobot.com/product/haunted-piano"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rhythmicrobot.com/product/haunted-piano"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rhythmicrobot.com/product/haunted-piano"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

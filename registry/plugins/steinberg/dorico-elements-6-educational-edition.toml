@@ -1,0 +1,26 @@
+slug        = "dorico-elements-6-educational-edition"
+name        = "Dorico Elements 6 Educational Edition"
+vendor      = "Steinberg"
+version     = "6"
+description = "Educational edition of Dorico Elements 6 music notation software for students and teachers."
+category    = "utility"
+subcategory = "daw"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.steinberg.net/dorico/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/14820-Dorico-Elements-6-Educational-Edition?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.steinberg.net/dorico/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.steinberg.net/dorico/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

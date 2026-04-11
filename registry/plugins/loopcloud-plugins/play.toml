@@ -1,0 +1,25 @@
+slug        = "play"
+name        = "PLAY"
+vendor      = "Loopcloud Plugins"
+version     = "1.0.0"
+description = "Advanced sampler with LFOs, filter envelopes, effects, and Loopcloud-connected instruments."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.loopcloud.com/cloud/plugins"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.loopcloud.com/cloud/plugins"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.loopcloud.com/cloud/plugins"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

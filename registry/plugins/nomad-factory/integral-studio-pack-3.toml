@@ -1,0 +1,25 @@
+slug        = "integral-studio-pack-3"
+name        = "Integral Studio Pack 3"
+vendor      = "Nomad Factory"
+version     = "5.13.8"
+description = "Comprehensive bundle of 37 vintage-style analog audio processors rebuilt for modern DAWs and operating systems."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.nomadfactory.com/products/b898-Integral-Studio-Pack-III/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.nomadfactory.com/products/b898-Integral-Studio-Pack-III/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.nomadfactory.com/products/b898-Integral-Studio-Pack-III/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

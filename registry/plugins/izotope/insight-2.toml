@@ -1,0 +1,25 @@
+slug        = "insight-2"
+name        = "Insight 2"
+vendor      = "iZotope"
+version     = "2.6.0"
+description = "Comprehensive metering and audio analysis plugin with loudness, spectrogram, and Dolby Atmos support."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products/insight"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products/insight"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products/insight"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

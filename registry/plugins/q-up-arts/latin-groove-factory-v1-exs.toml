@@ -1,0 +1,25 @@
+slug        = "latin-groove-factory-v1-exs"
+name        = "Latin Groove Factory V1 EXS"
+vendor      = "Q Up Arts"
+version     = "1"
+description = "Afro-Cuban rhythm collection for Logic EXS with percussion, drum kit loops, congas, bongos, and timbales."
+category    = "instruments"
+subcategory = "exs"
+license     = "commercial"
+tags        = []
+homepage    = "https://quparts.com/products/latin-groove-factory-v1-afro-cuba"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://quparts.com/products/latin-groove-factory-v1-afro-cuba"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://quparts.com/products/latin-groove-factory-v1-afro-cuba"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

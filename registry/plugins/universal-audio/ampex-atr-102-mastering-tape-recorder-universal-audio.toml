@@ -1,0 +1,25 @@
+slug        = "ampex-atr-102-mastering-tape-recorder-universal-audio"
+name        = "Ampex® ATR-102 Mastering Tape Recorder"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Ampex ATR-102 mastering tape recorder with selectable speeds and bias."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/recording/ampex-atr-102-mastering-tape-recorder.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/recording/ampex-atr-102-mastering-tape-recorder.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/recording/ampex-atr-102-mastering-tape-recorder.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

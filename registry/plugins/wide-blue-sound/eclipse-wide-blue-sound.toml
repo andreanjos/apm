@@ -1,0 +1,26 @@
+slug        = "eclipse-wide-blue-sound"
+name        = "ECLIPSE"
+vendor      = "Wide Blue Sound"
+version     = "1.0.0"
+description = "Kontakt synth with massive, forceful sounds for epic modern leads, sequences, and atmospheres."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.widebluesound.com/orbit-eclipse/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/6034-ECLIPSE?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.widebluesound.com/orbit-eclipse/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.widebluesound.com/orbit-eclipse/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

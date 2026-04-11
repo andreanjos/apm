@@ -1,0 +1,25 @@
+slug        = "exclusive-bundle"
+name        = "Exclusive Bundle"
+vendor      = "Sonokinetic"
+version     = "1.0.0"
+description = "Sonokinetic exclusive bundle combining multiple orchestral Kontakt libraries at a discounted price."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonokinetic.net/products/bundles/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonokinetic.net/products/bundles/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonokinetic.net/products/bundles/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

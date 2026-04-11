@@ -1,0 +1,26 @@
+slug        = "oberheim-dmx"
+name        = "Oberheim DMX"
+vendor      = "GForce Software"
+version     = "1.1"
+description = "Officially endorsed recreation of the 1981 Oberheim DMX drum machine with all original and updated samples."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.gforcesoftware.com/product/dmx/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/12180-Oberheim-DMX?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.gforcesoftware.com/product/dmx/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.gforcesoftware.com/product/dmx/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

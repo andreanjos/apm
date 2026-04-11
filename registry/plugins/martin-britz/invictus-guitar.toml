@@ -1,0 +1,25 @@
+slug        = "invictus-guitar"
+name        = "Invictus Guitar"
+vendor      = "Martin Britz"
+version     = "1.4"
+description = "Martin Britz Invictus Guitar is a detailed Kontakt guitar library with expressive articulations."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.martinbritz.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.martinbritz.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.martinbritz.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

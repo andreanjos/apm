@@ -1,0 +1,27 @@
+slug        = "spl-de-esser-collection"
+name        = "SPL De Esser Collection"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "Two SPL Analog Code de-esser plugins emulating SPL's classic single-band and modern dual-band hardware units."
+category    = "effects"
+subcategory = "de esser"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/en/products/spl_de-esser.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/10856-SPL-De-Esser-Collection?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/spl_de-esser.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/spl_de-esser.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

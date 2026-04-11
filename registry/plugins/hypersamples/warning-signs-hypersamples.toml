@@ -1,0 +1,25 @@
+slug        = "warning-signs-hypersamples"
+name        = "Warning Signs"
+vendor      = "Hypersamples"
+version     = "1.0"
+description = "Warning Signs by Hypersamples is a dramatic tension Kontakt library for thriller scores."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://hypersamples.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hypersamples.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hypersamples.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

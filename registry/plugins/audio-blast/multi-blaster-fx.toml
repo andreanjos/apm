@@ -1,0 +1,26 @@
+slug        = "multi-blaster-fx"
+name        = "Multi Blaster FX"
+vendor      = "Audio Blast"
+version     = "1.0.0"
+description = "Creative multi-effects plugin with 18 high-quality effects in a flexible 4-slot FX chain."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audioblast.me/product/multi-fx-blaster/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/17133-Multi-Blaster-FX?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audioblast.me/product/multi-fx-blaster/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audioblast.me/product/multi-fx-blaster/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

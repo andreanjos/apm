@@ -1,0 +1,26 @@
+slug        = "oberheim-tvs-pro"
+name        = "Oberheim TVS Pro"
+vendor      = "GForce Software"
+version     = "1.0"
+description = "Officially endorsed recreation of the Oberheim TVS Pro polyphonic synthesizer, developed in collaboration with Oberheim."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.gforcesoftware.com/product/oberheim-tvs-pro/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/14804-Oberheim-TVS-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.gforcesoftware.com/product/oberheim-tvs-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.gforcesoftware.com/product/oberheim-tvs-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

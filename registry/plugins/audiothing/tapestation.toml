@@ -1,0 +1,25 @@
+slug        = "tapestation"
+name        = "TapeStation"
+vendor      = "AudioThing"
+version     = "1.0"
+description = "Kontakt instrument sampling a classic analog bass synth recorded to cassette tape for lo-fi character."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/instruments/tapestation/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/instruments/tapestation/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/instruments/tapestation/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

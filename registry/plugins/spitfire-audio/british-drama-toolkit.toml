@@ -1,0 +1,26 @@
+slug        = "british-drama-toolkit"
+name        = "British Drama Toolkit"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Emotionally potent small strings and woodwinds toolkit by composer Samuel Sim for British drama scoring."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/shop/a-z/british-drama-toolkit/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/shop/a-z/british-drama-toolkit/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/shop/a-z/british-drama-toolkit/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

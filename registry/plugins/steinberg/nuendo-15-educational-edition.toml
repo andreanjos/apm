@@ -1,0 +1,26 @@
+slug        = "nuendo-15-educational-edition"
+name        = "Nuendo 15 Educational Edition"
+vendor      = "Steinberg"
+version     = "15"
+description = "Educational edition of Nuendo 15 professional audio post-production DAW for academic users."
+category    = "utility"
+subcategory = "daw"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.steinberg.net/nuendo/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/17082-Nuendo-15-Educational-Edition?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.steinberg.net/nuendo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.steinberg.net/nuendo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

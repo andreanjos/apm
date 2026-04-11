@@ -1,0 +1,26 @@
+slug        = "drc-polyphonic-synthesizer"
+name        = "DRC Polyphonic Synthesizer"
+vendor      = "Imaginando"
+version     = "2.11.0"
+description = "Polyphonic synthesizer delivering warm analog sound across desktop and mobile platforms."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.imaginando.pt/products/drc-polyphonic-synthesizer"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/3268-DRC-Polyphonic-Synthesizer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.imaginando.pt/products/drc-polyphonic-synthesizer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.imaginando.pt/products/drc-polyphonic-synthesizer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

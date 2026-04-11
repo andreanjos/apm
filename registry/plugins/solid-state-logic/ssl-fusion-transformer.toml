@@ -1,0 +1,26 @@
+slug        = "ssl-fusion-transformer"
+name        = "SSL Fusion Transformer"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "Plugin emulation of the SSL Fusion analog transformer circuit for adding warmth and harmonic mojo."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-transformer"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/8682-SSL-Fusion-Transformer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-transformer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-transformer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

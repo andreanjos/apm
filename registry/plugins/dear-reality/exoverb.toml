@@ -1,0 +1,24 @@
+slug        = "exoverb"
+name        = "EXOVERB"
+vendor      = "Dear Reality"
+version     = "1.2.1"
+description = "Stereo reverb plugin offering 50 true-to-life acoustic scenes from rooms to vast spaces."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.dear-reality.com/products/exoverb-micro"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.dear-reality.com/products/exoverb-micro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.dear-reality.com/products/exoverb-micro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "noisy"
+name        = "Noisy"
+vendor      = "Expressive E"
+version     = "1.0.0"
+description = "MPE synthesizer blending acoustic resonance and analog character for expressive keyboard performance."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.expressivee.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.expressivee.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.expressivee.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

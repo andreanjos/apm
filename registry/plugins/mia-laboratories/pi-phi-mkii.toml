@@ -1,0 +1,25 @@
+slug        = "pi-phi-mkii"
+name        = "Pi & Phi MkII"
+vendor      = "MIA Laboratories"
+version     = "MkII"
+description = "MIA Laboratories Pi & Phi MkII stereo enhancer plugin for width and harmonic enrichment."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+homepage    = "https://mialaboratories.com/product/piandphi/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mialaboratories.com/product/piandphi/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mialaboratories.com/product/piandphi/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

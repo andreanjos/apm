@@ -1,0 +1,25 @@
+slug        = "generative-collection"
+name        = "Generative Collection"
+vendor      = "Rast Sound"
+version     = "1.0.0"
+description = "Bundle of Rast Sound generative music tools for creating unique melodies, rhythms, and ambiences."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://rastsound.com/downloads/generative-collection/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rastsound.com/downloads/generative-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rastsound.com/downloads/generative-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

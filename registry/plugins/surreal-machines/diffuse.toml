@@ -1,0 +1,26 @@
+slug        = "diffuse"
+name        = "Diffuse"
+vendor      = "Surreal Machines"
+version     = "1.2"
+description = "Tape-echo inspired delay plugin with lush modulation and vintage warmth from Surreal Machines."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.surrealmachines.com/diffuse/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/4409-Diffuse?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.surrealmachines.com/diffuse/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.surrealmachines.com/diffuse/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "t-racks-csr-hall-reverb"
+name        = "T-RackS CSR Hall Reverb"
+vendor      = "IK Multimedia"
+version     = "5.0"
+description = "T-RackS CSR Hall Reverb — convolution reverb module simulating the acoustics of concert halls."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/tr5/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/tr5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/tr5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

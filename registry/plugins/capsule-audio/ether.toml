@@ -1,0 +1,25 @@
+slug        = "ether"
+name        = "Ether"
+vendor      = "Capsule Audio"
+version     = "1.0.0"
+description = "Capsule ambient pad library with plucks, bells, and shimmering soundscapes for laid-back genres."
+category    = "instruments"
+subcategory = "pads"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.capsule.audio/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

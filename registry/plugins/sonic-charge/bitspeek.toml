@@ -1,0 +1,26 @@
+slug        = "bitspeek"
+name        = "Bitspeek"
+vendor      = "Sonic Charge"
+version     = "1.7"
+description = "Real-time speech synthesizer vocoder plugin creating robotic and lo-fi vocal textures."
+category    = "effects"
+subcategory = "vocoder"
+license     = "commercial"
+tags        = []
+homepage    = "https://soniccharge.com/bitspeek"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/71-Bitspeek?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soniccharge.com/bitspeek"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soniccharge.com/bitspeek"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

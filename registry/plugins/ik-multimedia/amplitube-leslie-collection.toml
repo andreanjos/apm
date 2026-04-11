@@ -1,0 +1,25 @@
+slug        = "amplitube-leslie-collection"
+name        = "AmpliTube Leslie Collection"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Official Leslie rotary speaker collection for AmpliTube with multiple modeled Leslie amp and cabinet combos."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/atleslie/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/atleslie/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/atleslie/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

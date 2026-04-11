@@ -1,0 +1,25 @@
+slug        = "rhythmic-textures"
+name        = "Rhythmic Textures"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Cinematic rhythmic texture instrument delivering pulsing, evolving patterns and textures for dynamic scoring."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/rhythmic-textures"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/rhythmic-textures"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/rhythmic-textures"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "n2o"
+name        = "N2O"
+vendor      = "PSP Audioware"
+version     = "1.0.0"
+description = "Semi-modular multi-effect plugin offering unparalleled routing flexibility and total sound creation freedom."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-n2o"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-n2o"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-n2o"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

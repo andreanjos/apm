@@ -1,0 +1,26 @@
+slug        = "ts-808"
+name        = "TS 808"
+vendor      = "Tactile Sounds"
+version     = "1.0"
+description = "TR-808 drum machine sampler by Tactile Sounds with authentic vintage analog drum sounds."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+homepage    = "https://tactilesounds.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/376-TS-808?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://tactilesounds.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://tactilesounds.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

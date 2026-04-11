@@ -1,0 +1,25 @@
+slug        = "clavitube"
+name        = "Clavitube"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Comprehensive Hohner Clavinet collection for SampleTank with 250+ presets covering the full tonal range."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/stclavitube/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/stclavitube/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/stclavitube/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

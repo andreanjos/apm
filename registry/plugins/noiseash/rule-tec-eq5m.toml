@@ -1,0 +1,25 @@
+slug        = "rule-tec-eq5m"
+name        = "Rule Tec EQ5M"
+vendor      = "NoiseAsh"
+version     = "1.8.2"
+description = "Classic mid-range passive EQ covering key musical frequencies for precise mixing and mastering."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://noiseash.com/rule-tec-eq5m/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://noiseash.com/rule-tec-eq5m/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://noiseash.com/rule-tec-eq5m/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

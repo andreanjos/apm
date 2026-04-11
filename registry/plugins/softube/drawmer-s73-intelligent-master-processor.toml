@@ -1,0 +1,26 @@
+slug        = "drawmer-s73-intelligent-master-processor"
+name        = "Drawmer S73 Intelligent Master Processor"
+vendor      = "Softube"
+version     = "2.6"
+description = "Mastering processor plugin based on the Drawmer S73 with multiband compression and limiting."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mastering/drawmer-s73-intelligent-master-processor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mastering/drawmer-s73-intelligent-master-processor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mastering/drawmer-s73-intelligent-master-processor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

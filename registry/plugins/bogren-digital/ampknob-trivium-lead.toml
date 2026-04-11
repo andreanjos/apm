@@ -1,0 +1,26 @@
+slug        = "ampknob-trivium-lead"
+name        = "AmpKnob Trivium Lead"
+vendor      = "Bogren Digital"
+version     = "1.0.0"
+description = "Single-knob amp sim for Trivium's lead guitar tones, developed with Jens Bogren and Trivium's guitarists."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://bogrendigital.com/pages/ampknob-trivium-bundle"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/12351-AmpKnob-Trivium-Lead?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://bogrendigital.com/pages/ampknob-trivium-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://bogrendigital.com/pages/ampknob-trivium-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

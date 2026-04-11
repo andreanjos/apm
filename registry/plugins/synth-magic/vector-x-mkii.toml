@@ -1,0 +1,25 @@
+slug        = "vector-x-mkii"
+name        = "Vector X MKII"
+vendor      = "Synth Magic"
+version     = "MKII"
+description = "Kontakt library of the Sequential Circuits Prophet VS vector synthesizer with updated samples and interface."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://synthmagic.co.uk/vector-x/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synthmagic.co.uk/vector-x/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synthmagic.co.uk/vector-x/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

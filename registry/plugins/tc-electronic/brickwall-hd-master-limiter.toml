@@ -1,0 +1,26 @@
+slug        = "brickwall-hd-master-limiter"
+name        = "BRICKWALL HD Master Limiter"
+vendor      = "TC Electronic"
+version     = "1.0.0"
+description = "Brick-wall mastering limiter plugin with transparent limiting and loudness-oriented workflow."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tcelectronic.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/14602-BRICKWALL-HD-Master-Limiter?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tcelectronic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tcelectronic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

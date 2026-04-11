@@ -1,0 +1,26 @@
+slug        = "unfiltered-audio-bundle"
+name        = "Unfiltered Audio Bundle"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "Complete collection of Unfiltered Audio creative plugins spanning synthesis, reverb, distortion, spectral FX, and more."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/en/products/unfiltered_audio-bundle-monthly.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio-bundle-monthly.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio-bundle-monthly.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

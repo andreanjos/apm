@@ -1,0 +1,25 @@
+slug        = "neon-capsule-audio"
+name        = "Neon"
+vendor      = "Capsule Audio"
+version     = "1.0.0"
+description = "Capsule vintage synth library inspired by synth-wave and new wave with brassy chords and liquid pads."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.capsule.audio/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "tal-elek7ro"
+name        = "TAL Elek7ro"
+vendor      = "TAL"
+version     = "2.7"
+description = "Virtual analog synth with oscillator hardsync, FM, alias-free oscillators, and fast envelopes up to 400 Hz LFO."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://tal-software.com/products/tal-elek7ro"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/433-TAL-Elek7ro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://tal-software.com/products/tal-elek7ro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://tal-software.com/products/tal-elek7ro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

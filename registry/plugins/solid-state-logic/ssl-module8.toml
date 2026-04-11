@@ -1,0 +1,26 @@
+slug        = "ssl-module8"
+name        = "SSL Module8"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "Modulation FX rack plugin featuring six LFO-driven effects including phaser, flanger, chorus, and tremolo."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/module8"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/12042-SSL-Module8?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/module8"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/module8"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

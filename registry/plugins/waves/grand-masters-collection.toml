@@ -1,0 +1,26 @@
+slug        = "grand-masters-collection"
+name        = "Grand Masters Collection"
+vendor      = "Waves"
+version     = "14.0"
+description = "Elite bundle featuring plugins from legendary mastering and mixing engineers."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/grand-masters-collection"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/grand-masters-collection"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/grand-masters-collection"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

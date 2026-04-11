@@ -1,0 +1,26 @@
+slug        = "caprakan"
+name        = "Caprakan"
+vendor      = "MNTRA Instruments"
+version     = "1.0.0"
+description = "Virtual instrument with 50+ rare Andean and Mesoamerican instrument sources for dark cinematic sounds."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.mntra.io/product/caprakan/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/9806-Caprakan?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.mntra.io/product/caprakan/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.mntra.io/product/caprakan/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

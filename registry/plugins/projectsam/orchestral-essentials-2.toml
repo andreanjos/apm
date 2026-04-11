@@ -1,0 +1,25 @@
+slug        = "orchestral-essentials-2"
+name        = "Orchestral Essentials 2"
+vendor      = "ProjectSAM"
+version     = "2.0"
+description = "Expanded orchestral palette with new articulations, mixed orchestra recordings, and 8-player horns."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/orchestral-essentials-2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/orchestral-essentials-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/orchestral-essentials-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

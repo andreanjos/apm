@@ -1,0 +1,26 @@
+slug        = "evolution-devastator"
+name        = "Evolution Devastator"
+vendor      = "Keepforest"
+version     = "1.0.0"
+description = "Keepforest hybrid industrial cinematic Kontakt toolkit with hits, braams, and rhythmic sequencer."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://keep-forest.com/store/libraries/225182"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7789-Evolution-Devastator?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://keep-forest.com/store/libraries/225182"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://keep-forest.com/store/libraries/225182"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "brainworx-bx-refinement"
+name        = "Brainworx bx_refinement"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Brainworx bx_refinement is a mix-smoothing plug-in that removes digital harshness."
+category    = "effects"
+subcategory = "mixing"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/brainworx-bx-refinement.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/brainworx-bx-refinement.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/brainworx-bx-refinement.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

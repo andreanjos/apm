@@ -1,0 +1,26 @@
+slug        = "melodism"
+name        = "Melodism"
+vendor      = "Loot Audio"
+version     = "1.0.0"
+description = "Hybrid cinematic Kontakt instrument with 64 melodic leads, plucks, pads, and custom instruments."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.lootaudio.com/category/kontakt-instruments/the-last-haven/melodism-kontakt"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10698-Melodism?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.lootaudio.com/category/kontakt-instruments/the-last-haven/melodism-kontakt"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.lootaudio.com/category/kontakt-instruments/the-last-haven/melodism-kontakt"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

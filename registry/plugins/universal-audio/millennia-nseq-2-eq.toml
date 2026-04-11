@@ -1,0 +1,26 @@
+slug        = "millennia-nseq-2-eq"
+name        = "Millennia NSEQ-2 EQ"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Millennia NSEQ-2 dual-channel parametric equalizer with tube or solid-state topology."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/millennia-nseq-2.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/millennia-nseq-2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/millennia-nseq-2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

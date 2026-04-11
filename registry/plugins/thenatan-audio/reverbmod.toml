@@ -1,0 +1,26 @@
+slug        = "reverbmod"
+name        = "ReverbMod"
+vendor      = "Thenatan Audio"
+version     = "1.0.0"
+description = "Reverb plugin with integrated ducking for creating rhythmic, dynamic reverb effects without extra routing."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.thenatan.store/p/reverbmod-fx-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/15942-ReverbMod?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.thenatan.store/p/reverbmod-fx-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.thenatan.store/p/reverbmod-fx-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

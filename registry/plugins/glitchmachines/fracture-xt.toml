@@ -1,0 +1,24 @@
+slug        = "fracture-xt"
+name        = "Fracture XT"
+vendor      = "Glitchmachines"
+version     = "1.0.0"
+description = "Extended version of the Fracture buffer effects plugin for glitchy sound design and mangling."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://glitchmachines.com/products/fracture/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://glitchmachines.com/products/fracture/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://glitchmachines.com/products/fracture/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

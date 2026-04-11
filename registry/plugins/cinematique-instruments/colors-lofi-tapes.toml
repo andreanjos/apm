@@ -1,0 +1,25 @@
+slug        = "colors-lofi-tapes"
+name        = "Colors: Lofi Tapes"
+vendor      = "Cinematique Instruments"
+version     = "1.0.0"
+description = "Kontakt instrument featuring lo-fi tape-processed sounds for atmospheric and vintage-inspired textures."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cinematique-instruments.com/pages_instr/inst_colors.php"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

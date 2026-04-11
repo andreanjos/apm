@@ -1,0 +1,25 @@
+slug        = "trailer-drops"
+name        = "Trailer Drops"
+vendor      = "Fallout Music"
+version     = "1.0.0"
+description = "Kontakt library of cinematic drop effects available in wet, dry, gated, and panned variations."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://falloutmusicgroup.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://falloutmusicgroup.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://falloutmusicgroup.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "efektor-cp3603-compressor"
+name        = "Efektor CP3603 Compressor"
+vendor      = "Kuassa"
+version     = "1.0.0"
+description = "Guitar compressor plugin emulating VCA, FET, and optical compression styles."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kuassa.com/products/efektor-cp3603/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kuassa.com/products/efektor-cp3603/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kuassa.com/products/efektor-cp3603/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

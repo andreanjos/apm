@@ -1,0 +1,26 @@
+slug        = "chordbloom"
+name        = "ChordBloom"
+vendor      = "Pentacom"
+version     = "1.0"
+description = "Pentacom ChordBloom generates and plays chord progressions from single key presses."
+category    = "utility"
+subcategory = "music theory tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://pentacom.com/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/15709-ChordBloom?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://pentacom.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://pentacom.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

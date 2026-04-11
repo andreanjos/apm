@@ -1,0 +1,25 @@
+slug        = "synthmaster-2-player"
+name        = "SynthMaster 2 Player"
+vendor      = "KV331 Audio"
+version     = "2.9.12"
+description = "Preset-focused player version of SynthMaster 2 offering access to the full sound library without editing."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kv331audio.com/synthmaster.aspx"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kv331audio.com/synthmaster.aspx"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kv331audio.com/synthmaster.aspx"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

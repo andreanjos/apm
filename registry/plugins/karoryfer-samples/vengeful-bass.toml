@@ -1,0 +1,25 @@
+slug        = "vengeful-bass"
+name        = "Vengeful Bass"
+vendor      = "Karoryfer Samples"
+version     = "1.0.0"
+description = "Solo double bass sample library with over two dozen articulations including ghost spiccato and wind noise."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://shop.karoryfer.com/products/vengeful-bass"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://shop.karoryfer.com/products/vengeful-bass"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://shop.karoryfer.com/products/vengeful-bass"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

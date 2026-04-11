@@ -1,0 +1,27 @@
+slug        = "jupiter-4"
+name        = "JUPITER 4"
+vendor      = "Roland"
+version     = "2.0"
+description = "ACB-modeled software recreation of Roland's 1978 JUPITER-4, the synth that launched a dynasty."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "roland-cloud"
+homepage    = "https://www.roland.com/us/products/rc_jupiter-4/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15319-JUPITER-4?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.roland.com/us/products/rc_jupiter-4/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.roland.com/us/products/rc_jupiter-4/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

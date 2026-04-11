@@ -1,0 +1,25 @@
+slug        = "trypticon"
+name        = "TRYPTICON"
+vendor      = "Sick Noise Instruments"
+version     = "1.0.0"
+description = "Kontakt synth instrument with three sound segments designed for hi-tech and psytrance production."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://sicknoiseinstruments.com/product/trypticon/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sicknoiseinstruments.com/product/trypticon/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sicknoiseinstruments.com/product/trypticon/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

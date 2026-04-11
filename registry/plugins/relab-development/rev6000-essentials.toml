@@ -1,0 +1,26 @@
+slug        = "rev6000-essentials"
+name        = "REV6000 Essentials"
+vendor      = "Relab Development"
+version     = "1.0"
+description = "Essentials edition of the REV6000 plugin, delivering tight room sounds and warm Hollywood Hall reverbs."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://relabdevelopment.com/store/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/13452-REV6000-Essentials?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://relabdevelopment.com/store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://relabdevelopment.com/store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

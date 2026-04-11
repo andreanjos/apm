@@ -1,0 +1,26 @@
+slug        = "ha-609a-dual-mono-stereo-compressor-limiter"
+name        = "HA 609A Dual Mono Stereo Compressor Limiter"
+vendor      = "Heritage Audio"
+version     = "1.0.0"
+description = "Dual mono/stereo compressor/limiter plugin with Class A discrete topology and diode bridge GR."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://users.heritageaudio.com/product/ha-609a/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16747-HA-609A-Dual-Mono-Stereo-Compressor-Limiter?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://users.heritageaudio.com/product/ha-609a/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://users.heritageaudio.com/product/ha-609a/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "detroit-heartbreak-flite-expansion"
+name        = "Detroit Heartbreak Flite Expansion"
+vendor      = "Wavea"
+version     = "1.0.0"
+description = "Flite expansion featuring hard 808s, moody subs, and distorted analog drums for techno/trap/house."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.wavea.co/store/detroit-heartbreak/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/14245-Detroit-Heartbreak-Flite-Expansion-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.wavea.co/store/detroit-heartbreak/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.wavea.co/store/detroit-heartbreak/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

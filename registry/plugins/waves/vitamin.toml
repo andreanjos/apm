@@ -1,0 +1,26 @@
+slug        = "vitamin"
+name        = "Vitamin"
+vendor      = "Waves"
+version     = "14.0"
+description = "Multiband harmonic enhancer adding brightness, warmth, and presence across five bands."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/vitamin"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/vitamin"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/vitamin"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

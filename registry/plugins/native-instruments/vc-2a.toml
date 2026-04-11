@@ -1,0 +1,26 @@
+slug        = "vc-2a"
+name        = "VC 2A"
+vendor      = "Native Instruments"
+version     = "1.3"
+description = "Electro-optical tube compressor/limiter emulation with a smooth, silky sound ideal for vocals and bass."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/effects/vc-2a/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/effects/vc-2a/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/effects/vc-2a/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

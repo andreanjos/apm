@@ -1,0 +1,25 @@
+slug        = "808-bass-module-5"
+name        = "808 Bass Module 5"
+vendor      = "Electronik Sound Lab"
+version     = "5"
+description = "808 bass ROMpler with 400 crafted presets for professional trap and hip-hop bass production."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://electroniksoundlab.com/808-bass-module-5/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://electroniksoundlab.com/808-bass-module-5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://electroniksoundlab.com/808-bass-module-5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

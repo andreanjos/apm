@@ -1,0 +1,26 @@
+slug        = "reason-13"
+name        = "Reason 13"
+vendor      = "Reason Studios"
+version     = "13.4"
+description = "Professional music production DAW with the Reason Rack, sequencer, and extensive sound library."
+category    = "utility"
+subcategory = "daw"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.reasonstudios.com/shop/product/reason-13/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/12462-Reason-13?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.reasonstudios.com/shop/product/reason-13/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.reasonstudios.com/shop/product/reason-13/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

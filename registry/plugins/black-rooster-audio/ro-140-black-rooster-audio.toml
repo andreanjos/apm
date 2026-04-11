@@ -1,0 +1,24 @@
+slug        = "ro-140-black-rooster-audio"
+name        = "RO-140"
+vendor      = "Black Rooster Audio"
+version     = "3.0.0"
+description = "Vintage plate reverb emulation with six selectable metal materials and a built-in three-band EQ."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://blackroosteraudio.com/en/products/ro-140"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://blackroosteraudio.com/en/products/ro-140"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://blackroosteraudio.com/en/products/ro-140"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

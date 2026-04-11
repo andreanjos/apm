@@ -1,0 +1,26 @@
+slug        = "dx7-v"
+name        = "DX7 V"
+vendor      = "Arturia"
+version     = "3.5.0"
+description = "Faithful virtual recreation of the iconic Yamaha DX7 FM synthesizer with expanded capabilities."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-instruments/dx7v/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-instruments/dx7v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-instruments/dx7v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,27 @@
+slug        = "teletronix-la-3a-audio-leveler"
+name        = "Teletronix LA 3A Audio Leveler"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Teletronix LA-3A solid-state electro-optical audio leveling amplifier."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-3a-audio-leveler.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10416-Teletronix-LA-3A-Audio-Leveler?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-3a-audio-leveler.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-3a-audio-leveler.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

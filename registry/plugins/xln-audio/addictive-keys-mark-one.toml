@@ -1,0 +1,25 @@
+slug        = "addictive-keys-mark-one"
+name        = "Addictive Keys: Mark One"
+vendor      = "XLN Audio"
+version     = "1.7.3"
+description = "Classic Fender Rhodes-style electric piano instrument with rich, warm tones for Addictive Keys."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.xlnaudio.com/products/addictive_keys/instrument/mark_one"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.xlnaudio.com/products/addictive_keys/instrument/mark_one"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.xlnaudio.com/products/addictive_keys/instrument/mark_one"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

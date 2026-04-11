@@ -1,0 +1,25 @@
+slug        = "virtual-guitarist-iron-2"
+name        = "Virtual Guitarist Iron 2"
+vendor      = "UJAM"
+version     = "2.0"
+description = "High-energy rock guitar plugin with bold, commanding electric guitar performances."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/guitarist/iron/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/guitarist/iron/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/guitarist/iron/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

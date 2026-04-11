@@ -1,0 +1,25 @@
+slug        = "synthmaster-crossgrade-from-player-excluding-synthmaster-player-free"
+name        = "SynthMaster Crossgrade from Player (Excluding SynthMaster Player FREE)"
+vendor      = "KV331 Audio"
+version     = "2.9.12"
+description = "Crossgrade to SynthMaster from the Player edition, unlocking complete synthesis and modulation capabilities."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kv331audio.com/synthmaster.aspx"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kv331audio.com/synthmaster.aspx"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kv331audio.com/synthmaster.aspx"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

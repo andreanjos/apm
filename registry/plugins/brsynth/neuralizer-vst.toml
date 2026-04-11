@@ -1,0 +1,25 @@
+slug        = "neuralizer-vst"
+name        = "Neuralizer VST"
+vendor      = "BRSYNTH"
+version     = "1.0"
+description = "Neural network-based synthesizer plugin by BRSYNTH for dynamic sound generation."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://brsynth.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://brsynth.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://brsynth.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

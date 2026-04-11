@@ -1,0 +1,26 @@
+slug        = "ferrum-modern-trailer-percussion"
+name        = "Ferrum Modern Trailer Percussion"
+vendor      = "Keepforest"
+version     = "1.0.0"
+description = "Keepforest Kontakt library of cinematic hits, anvils, metallic percussion, and FX for trailer scoring."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://keep-forest.com/store/libraries/225185"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7791-Ferrum-Modern-Trailer-Percussion?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://keep-forest.com/store/libraries/225185"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://keep-forest.com/store/libraries/225185"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

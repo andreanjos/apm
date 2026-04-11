@@ -1,0 +1,25 @@
+slug        = "dronar-dark-synthesis"
+name        = "Dronar Dark Synthesis"
+vendor      = "Gothic Instruments"
+version     = "1.0.0"
+description = "Kontakt module crafting dark synthetic textures, pads and atmospheric soundscapes."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonoracinematic.com/products/dronar-dark-synthesis"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonoracinematic.com/products/dronar-dark-synthesis"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonoracinematic.com/products/dronar-dark-synthesis"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

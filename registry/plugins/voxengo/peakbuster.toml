@@ -1,0 +1,24 @@
+slug        = "peakbuster"
+name        = "Peakbuster"
+vendor      = "Voxengo"
+version     = "1.7"
+description = "Attack-phase boosting and harmonic enhancement plugin for adding punch and presence to tracks."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/peakbuster/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/peakbuster/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/peakbuster/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

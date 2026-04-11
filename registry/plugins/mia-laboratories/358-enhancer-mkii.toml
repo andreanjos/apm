@@ -1,0 +1,25 @@
+slug        = "358-enhancer-mkii"
+name        = "358 Enhancer MKII"
+vendor      = "MIA Laboratories"
+version     = "MkII"
+description = "MIA Laboratories single-stage audio enhancer for precise control of Low, Mid, and High frequencies."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+homepage    = "https://mialaboratories.com/product/358-enhancer-mkii/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mialaboratories.com/product/358-enhancer-mkii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mialaboratories.com/product/358-enhancer-mkii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

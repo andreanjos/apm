@@ -1,0 +1,25 @@
+slug        = "thorus"
+name        = "Thorus"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Polyphase modulation effect with variable 8-voice chorus architecture for clear modulation from subtle to extreme."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/thorus"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/thorus"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/thorus"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

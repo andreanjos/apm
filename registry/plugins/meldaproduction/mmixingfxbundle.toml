@@ -1,0 +1,25 @@
+slug        = "mmixingfxbundle"
+name        = "MMixingFXBundle"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "A complete pack of 37 mixing processors for professional audio mixing and production."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MMixingFXBundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MMixingFXBundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MMixingFXBundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "forest-film-pads-1"
+name        = "Forest Film Pads 1"
+vendor      = "Eplex7 DSP"
+version     = "1.0.0"
+description = "Cinematic pad plugin with film pads, magic soundscapes, and forest-themed atmospheric sounds."
+category    = "instruments"
+subcategory = "pads"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eplex7.com/product/forest-film-pads-1/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eplex7.com/product/forest-film-pads-1/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eplex7.com/product/forest-film-pads-1/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

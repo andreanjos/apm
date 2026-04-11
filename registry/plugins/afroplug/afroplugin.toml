@@ -1,0 +1,26 @@
+slug        = "afroplugin"
+name        = "Afroplugin"
+vendor      = "Afroplug"
+version     = "1.0"
+description = "African percussion and instrument plugin by Afroplug with authentic ethnic sounds."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://afroplug.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/7675-Afroplugin?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://afroplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://afroplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

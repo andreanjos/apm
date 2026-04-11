@@ -1,0 +1,25 @@
+slug        = "things-8211-crusher"
+name        = "Things &#8211; Crusher"
+vendor      = "Sampleson"
+version     = "1.0.0"
+description = "Crusher expansion for the Things synthesizer adding destructive processing and bit-crushing capabilities."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://sampleson.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sampleson.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sampleson.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

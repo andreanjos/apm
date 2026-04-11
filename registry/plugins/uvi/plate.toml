@@ -1,0 +1,26 @@
+slug        = "plate"
+name        = "Plate"
+vendor      = "UVI"
+version     = "1.0.4"
+description = "Physically-modeled plate reverb plugin simulating the EMT 140 and 240 with up to 20,000 modal resonances."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/plate"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/16063-Plate?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/plate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/plate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

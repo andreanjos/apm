@@ -1,0 +1,25 @@
+slug        = "the-snail"
+name        = "The Snail"
+vendor      = "IrcamLab"
+version     = "2.0"
+description = "IrcamLab The Snail is a polyphonic pitch and harmonic analysis plugin for tuning and notation."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ircamlab.com/products/p2120-The-Snail/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ircamlab.com/products/p2120-The-Snail/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ircamlab.com/products/p2120-The-Snail/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

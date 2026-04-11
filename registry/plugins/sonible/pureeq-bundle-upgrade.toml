@@ -1,0 +1,25 @@
+slug        = "pureeq-bundle-upgrade"
+name        = "pure:EQ Bundle Upgrade"
+vendor      = "sonible"
+version     = "1.0.0"
+description = "Upgrade pricing to the full pure:EQ bundle for existing sonible customers."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonible.com/pureeq/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonible.com/pureeq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonible.com/pureeq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

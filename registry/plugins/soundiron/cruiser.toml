@@ -1,0 +1,25 @@
+slug        = "cruiser"
+name        = "Cruiser"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Cinematic Kontakt instrument with sweeping, momentum-driven pads and motion-based textures."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/cruiser"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/cruiser"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/cruiser"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

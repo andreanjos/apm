@@ -1,0 +1,25 @@
+slug        = "smoke"
+name        = "Smoke"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Trip-hop lounge sample library featuring downtempo breaks, sultry guitars, keyboards, pads, and atmospheric effects."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/smoke"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/smoke"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/smoke"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

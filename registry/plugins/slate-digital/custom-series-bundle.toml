@@ -1,0 +1,26 @@
+slug        = "custom-series-bundle"
+name        = "Custom Series Bundle"
+vendor      = "Slate Digital"
+version     = "1.0.0"
+description = "Analog EQ bundle inspired by over a dozen classic equalizers with a complementary Lift processor."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://slatedigital.com/custom-series-bundle/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/15772-Custom-Series-Bundle?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://slatedigital.com/custom-series-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://slatedigital.com/custom-series-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

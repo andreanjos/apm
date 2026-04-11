@@ -1,0 +1,24 @@
+slug        = "infiltrator-1"
+name        = "Infiltrator 1"
+vendor      = "Devious Machines"
+version     = "1"
+description = "Multi-effects sequencer plugin with 24 effect modules and deep modulation routing."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://deviousmachines.com/product/infiltrator/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://deviousmachines.com/product/infiltrator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://deviousmachines.com/product/infiltrator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "remix"
+name        = "Remix"
+vendor      = "Acon Digital"
+version     = "1.0.0"
+description = "Real-time AI stem separation plugin splitting full mixes into vocals, piano, bass, drums, and other."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://acondigital.com/products/remix-bundle"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/11190-Remix?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://acondigital.com/products/remix-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://acondigital.com/products/remix-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

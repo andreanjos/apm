@@ -1,0 +1,25 @@
+slug        = "gem-eq84"
+name        = "GEM EQ84"
+vendor      = "Overloud"
+version     = "1.0.0"
+description = "Emulation of the legendary British Neve 1084 EQ with modern enhancements beyond the original hardware."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.overloud.com/gems"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.overloud.com/gems"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.overloud.com/gems"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

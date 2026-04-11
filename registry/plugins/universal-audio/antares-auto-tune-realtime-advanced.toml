@@ -1,0 +1,25 @@
+slug        = "antares-auto-tune-realtime-advanced"
+name        = "Antares Auto-Tune Realtime Advanced"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Real-time pitch correction and vocal effect plug-in from Antares, running on UAD hardware."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/voice/antares-auto-tune-realtime-advanced.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/voice/antares-auto-tune-realtime-advanced.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/voice/antares-auto-tune-realtime-advanced.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

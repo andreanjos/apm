@@ -1,0 +1,25 @@
+slug        = "mlimiterx"
+name        = "MLimiterX"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "A powerful brickwall limiter with transparent sound for mixing and mastering."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MLimiterX"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MLimiterX"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MLimiterX"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

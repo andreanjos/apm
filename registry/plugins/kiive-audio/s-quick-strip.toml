@@ -1,0 +1,26 @@
+slug        = "s-quick-strip"
+name        = "S Quick Strip"
+vendor      = "Kiive Audio"
+version     = "1.0.0"
+description = "Compact console-style insert combining saturation, two-band EQ, single-knob compression, and transient design."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kiiveaudio.com/products/s-quick"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/8432-S-Quick-Strip?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kiiveaudio.com/products/s-quick"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kiiveaudio.com/products/s-quick"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

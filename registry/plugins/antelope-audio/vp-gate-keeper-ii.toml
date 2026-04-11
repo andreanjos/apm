@@ -1,0 +1,26 @@
+slug        = "vp-gate-keeper-ii"
+name        = "VP Gate Keeper II"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "VCA-based gate/expander plugin for precise transient noise control and drum gating."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/vp-gate-keeper-ii/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16111-VP-Gate-Keeper-II?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/vp-gate-keeper-ii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/vp-gate-keeper-ii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

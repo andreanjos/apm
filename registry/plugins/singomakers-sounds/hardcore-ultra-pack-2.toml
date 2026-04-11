@@ -1,0 +1,26 @@
+slug        = "hardcore-ultra-pack-2"
+name        = "Hardcore Ultra Pack 2"
+vendor      = "Singomakers Sounds"
+version     = "1.0.0"
+description = "Singomakers Hardcore Ultra Pack Vol 2 with hard-hitting samples, presets, and construction kits."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.singomakers.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/10336-Hardcore-Ultra-Pack-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.singomakers.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.singomakers.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

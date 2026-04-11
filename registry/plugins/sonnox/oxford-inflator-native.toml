@@ -1,0 +1,25 @@
+slug        = "oxford-inflator-native"
+name        = "Oxford Inflator (Native)"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Oxford Inflator Native adds presence, warmth, and loudness to tracks without compromising dynamic range or clarity."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/oxford-inflator"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/oxford-inflator"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/oxford-inflator"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

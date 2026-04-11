@@ -1,0 +1,26 @@
+slug        = "forensics-package"
+name        = "Forensics Package"
+vendor      = "Waves"
+version     = "14.0"
+description = "Bundle of audio forensic tools for audio restoration and enhancement in legal contexts."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/forensics-package"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/forensics-package"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/forensics-package"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

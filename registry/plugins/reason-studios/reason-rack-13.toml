@@ -1,0 +1,26 @@
+slug        = "reason-rack-13"
+name        = "Reason Rack 13"
+vendor      = "Reason Studios"
+version     = "13.4"
+description = "Reason Rack plugin that brings the full Reason instrument and effect rack into any DAW."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.reasonstudios.com/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16761-Reason-Rack-13?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.reasonstudios.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.reasonstudios.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

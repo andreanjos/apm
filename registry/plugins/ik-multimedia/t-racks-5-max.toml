@@ -1,0 +1,25 @@
+slug        = "t-racks-5-max"
+name        = "T-RackS 5 MAX"
+vendor      = "IK Multimedia"
+version     = "5.0"
+description = "T-RackS 5 MAX — the complete mixing and mastering suite with all modules including Sunset Sound Reverb."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/tr5/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/tr5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/tr5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

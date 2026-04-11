@@ -1,0 +1,25 @@
+slug        = "deluxe-tilt"
+name        = "Deluxe Tilt"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Tilt EQ plugin for simple, musical tone shaping using a single frequency balance control."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p1148-Deluxe-Tilt/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p1148-Deluxe-Tilt/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p1148-Deluxe-Tilt/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "wavesynth-pro-bundle"
+name        = "Wavesynth Pro Bundle"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "Bundle of Karanyi Sounds Wavesynth instruments for powerful waveshaping across diverse sonic styles."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/product/wavesynth-pro-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/product/wavesynth-pro-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/product/wavesynth-pro-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

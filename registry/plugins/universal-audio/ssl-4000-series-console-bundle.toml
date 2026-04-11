@@ -1,0 +1,26 @@
+slug        = "ssl-4000-series-console-bundle"
+name        = "SSL 4000 Series Console Bundle"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Complete bundle of SSL 4000 series emulations including the E channel strip and G bus compressor."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/bundles/ssl-4000-series-console-bundle.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/bundles/ssl-4000-series-console-bundle.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/bundles/ssl-4000-series-console-bundle.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

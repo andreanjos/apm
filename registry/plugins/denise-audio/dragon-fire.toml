@@ -1,0 +1,26 @@
+slug        = "dragon-fire"
+name        = "Dragon Fire"
+vendor      = "Denise Audio"
+version     = "1.0.0"
+description = "Aggressive compressor plugin designed to add punch, energy, and character to your mix."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.deniseaudio.com/plugins/dragon-fire"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/7384-Dragon-Fire?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.deniseaudio.com/plugins/dragon-fire"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.deniseaudio.com/plugins/dragon-fire"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

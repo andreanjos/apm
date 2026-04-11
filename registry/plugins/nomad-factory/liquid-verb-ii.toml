@@ -1,0 +1,24 @@
+slug        = "liquid-verb-ii"
+name        = "Liquid Verb II"
+vendor      = "Nomad Factory"
+version     = "3.0.1"
+description = "Reverb plugin from the Liquid II series delivering smooth, natural-sounding spaces and halls."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.nomadfactory.com/products/p750-Liquid-Verb/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.nomadfactory.com/products/p750-Liquid-Verb/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.nomadfactory.com/products/p750-Liquid-Verb/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

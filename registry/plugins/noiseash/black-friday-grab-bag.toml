@@ -1,0 +1,25 @@
+slug        = "black-friday-grab-bag"
+name        = "Black Friday Grab Bag"
+vendor      = "NoiseAsh"
+version     = "1.0.0"
+description = "Limited-edition grab bag bundle offering a selection of NoiseAsh plugins at a special price."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://noiseash.com/black-friday-grab-bag/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://noiseash.com/black-friday-grab-bag/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://noiseash.com/black-friday-grab-bag/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

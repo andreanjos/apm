@@ -1,0 +1,25 @@
+slug        = "helper-series-2"
+name        = "Helper Series 2"
+vendor      = "WA Production"
+version     = "1.0.0"
+description = "A bundle of Helper Equalizer 2, Helper Saturator 2, and Helper Transients 2 utility plugins."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/bundles/view/helper-series-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/bundles/view/helper-series-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/bundles/view/helper-series-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

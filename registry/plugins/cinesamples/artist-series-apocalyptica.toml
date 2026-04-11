@@ -1,0 +1,26 @@
+slug        = "artist-series-apocalyptica"
+name        = "Artist Series Apocalyptica"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Kontakt instrument capturing Apocalyptica's powerful cello performances blending classical and metal styles."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/artistseriesapocalyptica"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11263-Artist-Series-Apocalyptica?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/artistseriesapocalyptica"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/artistseriesapocalyptica"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

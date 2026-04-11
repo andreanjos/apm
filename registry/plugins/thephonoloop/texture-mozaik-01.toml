@@ -1,0 +1,26 @@
+slug        = "texture-mozaik-01"
+name        = "Texture Mozaik 01"
+vendor      = "THEPHONOLOOP"
+version     = "1.0.0"
+description = "Kontakt instrument with 120+ experimental sound sources inspired by tape-based film composers of the 1950s–70s."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://thephonoloop.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/3882-Texture-Mozaik-01?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://thephonoloop.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://thephonoloop.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

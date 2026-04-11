@@ -1,0 +1,26 @@
+slug        = "bx-control-v2"
+name        = "bx control V2"
+vendor      = "Brainworx"
+version     = "1.0.0"
+description = "M/S stereo utility plugin for mono/stereo control, bass summing, and mid-side processing workflows."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugin-alliance.com/en/products/bx_control_v2.html"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/10250-bx-control-V2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/bx_control_v2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/bx_control_v2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

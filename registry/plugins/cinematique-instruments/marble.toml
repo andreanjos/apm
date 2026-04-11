@@ -1,0 +1,26 @@
+slug        = "marble"
+name        = "Marble"
+vendor      = "Cinematique Instruments"
+version     = "1.0.0"
+description = "Versatile dual-slot Kontakt instrument with open sequencer and acoustic/synthetic sound blending."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://cinematique-instruments.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/3293-Marble?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cinematique-instruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cinematique-instruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "tonelux-tilt-eq"
+name        = "Tonelux® Tilt EQ"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Tonelux Tilt EQ, a simple rotary tilt-shelf equalizer for fast tone shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/tonelux-tilt-eq.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/tonelux-tilt-eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/tonelux-tilt-eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

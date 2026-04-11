@@ -1,0 +1,24 @@
+slug        = "polyspace"
+name        = "PolySpace"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "Modern studio-quality ambient reverb plugin with 50+ space combinations and simple two-knob control."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/products/poly-space"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/products/poly-space"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/products/poly-space"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

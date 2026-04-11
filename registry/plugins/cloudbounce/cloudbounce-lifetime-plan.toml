@@ -1,0 +1,25 @@
+slug        = "cloudbounce-lifetime-plan"
+name        = "Cloudbounce – Lifetime Plan"
+vendor      = "CloudBounce"
+version     = "1.0.0"
+description = "Lifetime access to CloudBounce's AI mastering service allowing unlimited track masters permanently."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://cloudbounce.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cloudbounce.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cloudbounce.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

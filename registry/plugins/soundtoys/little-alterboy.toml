@@ -1,0 +1,27 @@
+slug        = "little-alterboy"
+name        = "Little AlterBoy"
+vendor      = "Soundtoys"
+version     = "5.5"
+description = "Vocal pitch and formant shifter plugin for creative voice transformation and character alteration."
+category    = "effects"
+subcategory = "vocal processing"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundtoys.com/product/little-alterboy/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/1807-Little-AlterBoy?a_aid=69d5e87c5f2e9"
+bundle_ids  = ["com.soundtoys.audiounit.LittleAlterBoy"]
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundtoys.com/product/little-alterboy/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundtoys.com/product/little-alterboy/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

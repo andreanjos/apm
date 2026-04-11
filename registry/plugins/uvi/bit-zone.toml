@@ -1,0 +1,26 @@
+slug        = "bit-zone"
+name        = "Bit Zone"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Virtual instrument inspired by the rare Crumar Bit 99 Italian analog polysynth, with 370+ presets."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/bit-zone"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16049-Bit-Zone?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/bit-zone"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/bit-zone"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

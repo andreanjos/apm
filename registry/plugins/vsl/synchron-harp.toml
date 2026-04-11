@@ -1,0 +1,25 @@
+slug        = "synchron-harp"
+name        = "Synchron Harp"
+vendor      = "VSL"
+version     = "1.1"
+description = "VSL Synchron Harp is a detailed concert grand harp library with seven mic positions and pedal mode."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.vsl.co.at/products/synchron/harp"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.vsl.co.at/products/synchron/harp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.vsl.co.at/products/synchron/harp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

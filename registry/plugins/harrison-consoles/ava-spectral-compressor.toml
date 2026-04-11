@@ -1,0 +1,25 @@
+slug        = "ava-spectral-compressor"
+name        = "AVA Spectral Compressor"
+vendor      = "Harrison Consoles"
+version     = "1.0.0"
+description = "Spectral dynamics processor applying compression selectively across 18 frequency bands for precise control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.harrisonaudio.com/ava/ava-spectral-compressor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.harrisonaudio.com/ava/ava-spectral-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.harrisonaudio.com/ava/ava-spectral-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

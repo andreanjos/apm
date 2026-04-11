@@ -1,0 +1,25 @@
+slug        = "gd-6-acoustic-guitar"
+name        = "GD-6 Acoustic Guitar"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Deeply sampled custom Guild D-40 acoustic guitar with dozens of articulations and four performance modes."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/gd-6-acoustic-guitar"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/gd-6-acoustic-guitar"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/gd-6-acoustic-guitar"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

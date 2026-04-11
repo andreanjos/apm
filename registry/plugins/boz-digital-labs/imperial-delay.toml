@@ -1,0 +1,26 @@
+slug        = "imperial-delay"
+name        = "Imperial Delay"
+vendor      = "Boz Digital Labs"
+version     = "1.0.0"
+description = "Feature-rich stereo delay plugin with extensive modulation and routing options for any mix context."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozdigitallabs.com/product/imperial-delay/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/2146-Imperial-Delay?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozdigitallabs.com/product/imperial-delay/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozdigitallabs.com/product/imperial-delay/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

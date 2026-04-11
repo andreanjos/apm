@@ -1,0 +1,26 @@
+slug        = "hx-oddy"
+name        = "HX ODDY"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Virtual duophonic analog synth inspired by the ARP Odyssey, with 13,000+ samples and modeled filters."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/hx-oddy"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15609-HX-ODDY?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/hx-oddy"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/hx-oddy"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

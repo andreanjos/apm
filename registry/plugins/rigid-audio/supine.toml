@@ -1,0 +1,25 @@
+slug        = "supine"
+name        = "Supine"
+vendor      = "Rigid Audio"
+version     = "1.0.0"
+description = "Ambient loop and multisample Kontakt module with 350 kits of warm synthesizer sounds."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rigid-audio.com/product/supine/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rigid-audio.com/product/supine/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rigid-audio.com/product/supine/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

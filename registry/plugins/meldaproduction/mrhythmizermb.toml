@@ -1,0 +1,24 @@
+slug        = "mrhythmizermb"
+name        = "MRhythmizerMB"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Gating, glitching, repeating, and scratching across 6 frequency bands."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MRhythmizerMB"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MRhythmizerMB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MRhythmizerMB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

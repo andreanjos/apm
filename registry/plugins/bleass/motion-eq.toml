@@ -1,0 +1,25 @@
+slug        = "motion-eq"
+name        = "Motion EQ"
+vendor      = "BLEASS"
+version     = "1.0"
+description = "BLEASS dynamic EQ splitting and moving frequency bands to bring motion to any audio signal."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bleass.com/motion-eq/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bleass.com/motion-eq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bleass.com/motion-eq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

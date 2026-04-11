@@ -1,0 +1,26 @@
+slug        = "glow"
+name        = "Glow"
+vendor      = "Lese"
+version     = "1.3"
+description = "Granular effects plugin with routing configurations for generating evolving, layered sonic textures."
+category    = "effects"
+subcategory = "granular fx"
+license     = "commercial"
+tags        = []
+homepage    = "https://lese.io/plugins/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/11949-Glow?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://lese.io/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://lese.io/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

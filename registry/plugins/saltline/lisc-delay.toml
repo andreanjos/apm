@@ -1,0 +1,26 @@
+slug        = "lisc-delay"
+name        = "Lisc Delay"
+vendor      = "Saltline"
+version     = "1.0.1"
+description = "Free delay plugin with pre- and post-effect filters and dry-signal routing flexibility."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kvraudio.com/developer/saltline"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/713-Lisc-Delay?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kvraudio.com/developer/saltline"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kvraudio.com/developer/saltline"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

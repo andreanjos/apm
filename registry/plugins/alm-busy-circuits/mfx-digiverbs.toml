@@ -1,0 +1,26 @@
+slug        = "mfx-digiverbs"
+name        = "MFX DigiVerbs"
+vendor      = "ALM Busy Circuits"
+version     = "1.0.0"
+description = "Pair of vintage digital reverb plugins (Almicon and QuaidraVerb) ported from the MFX module."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://busycircuits.com/digiverbs/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/14814-MFX-DigiVerbs?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://busycircuits.com/digiverbs/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://busycircuits.com/digiverbs/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "mirror"
+name        = "Mirror"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "Reverse delay plugin creating the world's first reverse negative delay using DAW latency compensation."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/Mirror/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/8658-Mirror?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/Mirror/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/Mirror/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

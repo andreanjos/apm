@@ -1,0 +1,26 @@
+slug        = "tue-madsen-signature-kemper-pack-2"
+name        = "Tue Madsen Signature Kemper Pack 2"
+vendor      = "Bogren Digital"
+version     = "1.0.0"
+description = "Second Kemper profile pack from producer Tue Madsen delivering his signature heavy guitar amp tones."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://bogrendigital.com/products/tue-madsen-signature-kemper-pack-2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/9199-Tue-Madsen-Signature-Kemper-Pack-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://bogrendigital.com/products/tue-madsen-signature-kemper-pack-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://bogrendigital.com/products/tue-madsen-signature-kemper-pack-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

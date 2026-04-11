@@ -1,0 +1,25 @@
+slug        = "meldwaygrand"
+name        = "MeldwayGrand"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Beautifully realistic, customizable software grand piano with 7 microphones and 25 algorithmic reverbs."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MeldwayGrand"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MeldwayGrand"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MeldwayGrand"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

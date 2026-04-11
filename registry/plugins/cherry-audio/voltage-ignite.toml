@@ -1,0 +1,25 @@
+slug        = "voltage-ignite"
+name        = "Voltage Ignite"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Mid-tier bundle for Voltage Modular with 40+ modules and 296 presets for software modular synthesis."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/voltage-modular"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/voltage-modular"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/voltage-modular"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "ssl-g-master"
+name        = "SSL G-Master"
+vendor      = "Waves"
+version     = "14.0"
+description = "Emulation of the SSL G-Series master bus compressor for glue and punch on the mix bus."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/ssl-g-master"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/ssl-g-master"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/ssl-g-master"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

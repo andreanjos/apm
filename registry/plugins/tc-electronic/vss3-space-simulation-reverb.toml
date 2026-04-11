@@ -1,0 +1,26 @@
+slug        = "vss3-space-simulation-reverb"
+name        = "VSS3 Space Simulation Reverb"
+vendor      = "TC Electronic"
+version     = "1.0.0"
+description = "Hyper-realistic versatile reverb plugin delivering the smoothest reverb tails ever developed."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.tcelectronic.com/products/native-plug-ins/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/14575-VSS3-Space-Simulation-Reverb?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.tcelectronic.com/products/native-plug-ins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.tcelectronic.com/products/native-plug-ins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

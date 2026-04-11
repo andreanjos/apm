@@ -1,0 +1,24 @@
+slug        = "pro-r"
+name        = "Pro-R"
+vendor      = "FabFilter"
+version     = "2.05"
+description = "Natural-sounding algorithmic reverb with room size, character, and decay rate controls for any mix context."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.fabfilter.com/products/pro-r-reverb-plug-in"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.fabfilter.com/products/pro-r-reverb-plug-in"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.fabfilter.com/products/pro-r-reverb-plug-in"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

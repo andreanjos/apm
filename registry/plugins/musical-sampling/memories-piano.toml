@@ -1,0 +1,25 @@
+slug        = "memories-piano"
+name        = "Memories Piano"
+vendor      = "Musical Sampling"
+version     = "1.0"
+description = "Atelier Series Kontakt instrument featuring three distinct pianos suited for songwriting and cinematic scoring."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://musicalsampling.com/memories-piano/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://musicalsampling.com/memories-piano/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://musicalsampling.com/memories-piano/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

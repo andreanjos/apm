@@ -1,0 +1,25 @@
+slug        = "valentines-playtime-bundle"
+name        = "Valentines Playtime Bundle"
+vendor      = "Yum Audio"
+version     = "1.0.0"
+description = "Limited Yum Audio bundle combining select lo-fi and creative effect plugins at a special price."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.yum-audio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.yum-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.yum-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

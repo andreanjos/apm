@@ -1,0 +1,25 @@
+slug        = "cs-m"
+name        = "CS-M"
+vendor      = "UVI"
+version     = "1.5"
+description = "Dual-layer virtual instrument capturing the authentic analog sounds of the Yamaha CS-series synthesizers."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/cs-m"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/cs-m"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/cs-m"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "cooper-time-cube-mk-ii-delay"
+name        = "Cooper® Time Cube Mk II Delay"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Cooper Time Cube Mk II garden-hose-based analog delay/doubling unit."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/delays/cooper-time-cube-mk-ii-delay.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/delays/cooper-time-cube-mk-ii-delay.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/delays/cooper-time-cube-mk-ii-delay.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

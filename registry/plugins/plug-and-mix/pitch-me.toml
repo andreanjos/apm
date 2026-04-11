@@ -1,0 +1,24 @@
+slug        = "pitch-me"
+name        = "Pitch Me"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Pitch shift plugin for transposing audio by semitones or cents with adjustable quality settings."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p2493-Pitch-Me/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p2493-Pitch-Me/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p2493-Pitch-Me/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "koncept-038-funktion"
+name        = "Koncept &#038; Funktion"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Underground Drum & Bass sample library with 40 construction kits, loops, and effects for professional DnB production."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/koncept-funktion"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/koncept-funktion"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/koncept-funktion"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "escalator"
+name        = "Escalator"
+vendor      = "Black Salt Audio"
+version     = "1.0"
+description = "Combined compression, saturation, and distortion plugin for instantly energizing and colouring any sound."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.blacksaltaudio.com/escalator/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/9057-Escalator?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.blacksaltaudio.com/escalator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.blacksaltaudio.com/escalator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

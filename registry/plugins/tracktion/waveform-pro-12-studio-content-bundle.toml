@@ -1,0 +1,25 @@
+slug        = "waveform-pro-12-studio-content-bundle"
+name        = "Waveform Pro 12 + Studio Content Bundle"
+vendor      = "Tracktion"
+version     = "12"
+description = "Waveform Pro 12 DAW bundled with the Studio Content pack including synths, sounds, and expansion content."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/waveform-pro"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/waveform-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/waveform-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

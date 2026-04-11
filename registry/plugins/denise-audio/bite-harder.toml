@@ -1,0 +1,26 @@
+slug        = "bite-harder"
+name        = "Bite Harder"
+vendor      = "Denise Audio"
+version     = "1.0.0"
+description = "Advanced bit crusher plugin delivering creative lo-fi and digital destruction effects."
+category    = "effects"
+subcategory = "bit crusher"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.deniseaudio.com/plugins/bite-harder"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/8068-Bite-Harder?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.deniseaudio.com/plugins/bite-harder"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.deniseaudio.com/plugins/bite-harder"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

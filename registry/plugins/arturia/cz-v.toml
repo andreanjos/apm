@@ -1,0 +1,26 @@
+slug        = "cz-v"
+name        = "CZ V"
+vendor      = "Arturia"
+version     = "1.5.0"
+description = "Virtual recreation of the Casio CZ series phase distortion synthesizers from the 1980s."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-instruments/cz-v/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-instruments/cz-v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-instruments/cz-v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

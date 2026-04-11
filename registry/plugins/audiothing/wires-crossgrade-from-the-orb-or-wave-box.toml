@@ -1,0 +1,25 @@
+slug        = "wires-crossgrade-from-the-orb-or-wave-box"
+name        = "Wires Crossgrade from The Orb or Wave Box"
+vendor      = "AudioThing"
+version     = "1.2.5"
+description = "Crossgrade to Wires, an echo plugin emulating vintage wire recorder delay with magnetic degradation."
+category    = "effects"
+subcategory = "echo"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/effects/wires/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/effects/wires/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/effects/wires/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "scheps-73"
+name        = "Scheps 73"
+vendor      = "Waves"
+version     = "14.0"
+description = "Emulation of the Neve 1073 console EQ and preamp designed with Andrew Scheps."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/scheps-73"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/scheps-73"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/scheps-73"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

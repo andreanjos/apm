@@ -1,0 +1,26 @@
+slug        = "legacy-eq"
+name        = "Legacy EQ"
+vendor      = "Harrison Consoles"
+version     = "1.0.0"
+description = "Digital EQ plugin recreating the classic MPC console equalizer with carefully chosen frequency ranges per band."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.harrisonaudio.com/all-products/legacy-eq"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/12123-Legacy-EQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.harrisonaudio.com/all-products/legacy-eq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.harrisonaudio.com/all-products/legacy-eq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "filter"
+name        = "Filter"
+vendor      = "Kilohearts"
+version     = "2.4.6"
+description = "Multi-mode filter Snapin with low-pass, high-pass, band-pass and notch modes."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://kilohearts.com/products/filter"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://kilohearts.com/products/filter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://kilohearts.com/products/filter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

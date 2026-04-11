@@ -1,0 +1,26 @@
+slug        = "otto8-overdrive"
+name        = "OTTO8 OVERDRIVE"
+vendor      = "Otto Audio"
+version     = "1.0"
+description = "Otto Audio OTTO8 Overdrive is a free classic overdrive plugin with flexible input/output gain."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://ottoaudio.net/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/8864-OTTO8-OVERDRIVE?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://ottoaudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://ottoaudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

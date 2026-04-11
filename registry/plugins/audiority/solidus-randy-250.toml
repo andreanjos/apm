@@ -1,0 +1,26 @@
+slug        = "solidus-randy-250"
+name        = "Solidus Randy 250"
+vendor      = "Audiority"
+version     = "1.2"
+description = "Analog modeled solid state amplifier plug-in inspired by the Randy California and similar 250-series amps."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/solidus-randy-250/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/7034-Solidus-Randy-250?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/solidus-randy-250/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/solidus-randy-250/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "church-pipe-organ"
+name        = "Church Pipe Organ"
+vendor      = "Aria Sounds"
+version     = "1.0.0"
+description = "Magnificent church pipe organ Kontakt library with pullable stops and combination tuti selections."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://ariasounds.com/product/church-pipe-organ/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://ariasounds.com/product/church-pipe-organ/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://ariasounds.com/product/church-pipe-organ/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

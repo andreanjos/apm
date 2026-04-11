@@ -1,0 +1,25 @@
+slug        = "mideast-vocals"
+name        = "MidEast Vocals"
+vendor      = "Rast Sound"
+version     = "1.0.0"
+description = "Middle Eastern vocal library for Kontakt featuring eight performers across traditional and ethnic styles."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://rastsound.com/downloads/mideast-vocals/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rastsound.com/downloads/mideast-vocals/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rastsound.com/downloads/mideast-vocals/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

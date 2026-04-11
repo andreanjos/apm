@@ -1,0 +1,26 @@
+slug        = "saturn-5"
+name        = "Saturn 5"
+vendor      = "Minimal System Group"
+version     = "1.0.0"
+description = "Analogue modelling synthesizer with 3 oscillators, sub oscillator, multi-mode filter and chorus."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/412-Saturn-5"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/412-Saturn-5?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/412-Saturn-5"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/412-Saturn-5"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

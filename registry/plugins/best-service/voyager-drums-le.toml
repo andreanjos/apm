@@ -1,0 +1,25 @@
+slug        = "voyager-drums-le"
+name        = "Voyager Drums LE"
+vendor      = "Best Service"
+version     = "1.0.0"
+description = "Limited edition version of Voyager Drums delivering punchy drum kits for Pop, Rock, Jazz, and Funk production."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/voyager_drums_le.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/voyager_drums_le.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/voyager_drums_le.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "neoverb-r2-bundle-exclusive"
+name        = "Neoverb + R2 Bundle (Exclusive)"
+vendor      = "iZotope"
+version     = "1.0.0"
+description = "Exclusive bundle of iZotope Neoverb intelligent reverb and Exponential Audio R2 Stereo reverb."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products/neoverb"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products/neoverb"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products/neoverb"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

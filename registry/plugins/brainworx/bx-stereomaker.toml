@@ -1,0 +1,26 @@
+slug        = "bx-stereomaker"
+name        = "bx stereomaker"
+vendor      = "Brainworx"
+version     = "1.0.0"
+description = "Frequency-optimized M/S upmixer that converts mono signals to natural-sounding stereo."
+category    = "effects"
+subcategory = "stereo width"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugin-alliance.com/products/bx_stereomaker"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/10313-bx-stereomaker?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/products/bx_stereomaker"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/products/bx_stereomaker"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

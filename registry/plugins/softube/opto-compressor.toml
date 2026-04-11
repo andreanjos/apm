@@ -1,0 +1,26 @@
+slug        = "opto-compressor"
+name        = "OPTO Compressor"
+vendor      = "Softube"
+version     = "2.6"
+description = "Opto-electric compressor plugin with smooth, musical gain reduction inspired by classic LA-2A hardware."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/opto-compressor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/opto-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/opto-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "drm-60"
+name        = "DRM 60"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Hybrid tube preamp, EQ, and vari-mu compressor channel strip for full analog tone shaping."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/drm-60/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16019-DRM-60-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/drm-60/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/drm-60/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "tronto-trilogy"
+name        = "Tronto Trilogy"
+vendor      = "Tronsonic"
+version     = "1.0.0"
+description = "Vintage analogue-style polysynth Kontakt library combining TRONTO, VCO, and DCO synths."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "http://www.tronsonic.com/products/the-tronto-trilogy"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/710-Tronto-Trilogy?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "http://www.tronsonic.com/products/the-tronto-trilogy"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "http://www.tronsonic.com/products/the-tronto-trilogy"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

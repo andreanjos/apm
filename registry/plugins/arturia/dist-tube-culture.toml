@@ -1,0 +1,26 @@
+slug        = "dist-tube-culture"
+name        = "Dist TUBE-CULTURE"
+vendor      = "Arturia"
+version     = "1.4.0"
+description = "Tube saturation and overdrive plugin delivering warm harmonic distortion and tonal coloration."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-effects/dist-tube-culture/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-effects/dist-tube-culture/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-effects/dist-tube-culture/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

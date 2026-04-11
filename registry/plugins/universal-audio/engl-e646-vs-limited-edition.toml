@@ -1,0 +1,26 @@
+slug        = "engl-e646-vs-limited-edition"
+name        = "ENGL® E646 VS Limited Edition"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the ENGL E646 VS Limited Edition high-gain guitar amplifier."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/guitar-bass/engl-e646-vs-limited-edition.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/guitar-bass/engl-e646-vs-limited-edition.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/guitar-bass/engl-e646-vs-limited-edition.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "black-q-v2"
+name        = "Black Q V2"
+vendor      = "Tone Empire"
+version     = "2"
+description = "Four-band analog-modeled tube equalizer with Sowter and Lundahl transformer emulation."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tone-empire.com/black-q/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tone-empire.com/black-q/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tone-empire.com/black-q/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

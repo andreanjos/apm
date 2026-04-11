@@ -1,0 +1,25 @@
+slug        = "ample-bass-a"
+name        = "Ample Bass A"
+vendor      = "Ample Sound"
+version     = "4"
+description = "Acoustic bass virtual instrument based on a Guild B-54 CE with realistic articulations and MIDI tools."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.amplesound.net/en/pro-pd.asp?id=17"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=17"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=17"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

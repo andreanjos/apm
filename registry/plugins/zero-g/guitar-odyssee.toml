@@ -1,0 +1,25 @@
+slug        = "guitar-odyssee"
+name        = "Guitar Odyssee"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Electric, acoustic, and synth guitar loops, licks, and riffs ideal for house, trip hop, and drum & bass production."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/guitar-odyssey"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/guitar-odyssey"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/guitar-odyssey"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

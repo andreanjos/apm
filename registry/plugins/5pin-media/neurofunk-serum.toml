@@ -1,0 +1,26 @@
+slug        = "neurofunk-serum"
+name        = "Neurofunk Serum"
+vendor      = "5Pin Media"
+version     = "1.0.0"
+description = "100 premium neurofunk Serum presets inspired by Noisia, Emperor, Phace, Spor, and The Upbeats."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://5pinmedia.com/product/neurofunk-serum/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11181-Neurofunk-Serum?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://5pinmedia.com/product/neurofunk-serum/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://5pinmedia.com/product/neurofunk-serum/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

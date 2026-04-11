@@ -1,0 +1,26 @@
+slug        = "bassline-house-ni-massive"
+name        = "Bassline House NI Massive"
+vendor      = "5Pin Media"
+version     = "1.0.0"
+description = "NI Massive preset bank covering 43 bass, 16 mid-bass, 13 FX, 11 lead, and other bassline house sounds."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://5pinmedia.com/product/bassline-house/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11320-Bassline-House-NI-Massive?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://5pinmedia.com/product/bassline-house/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://5pinmedia.com/product/bassline-house/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

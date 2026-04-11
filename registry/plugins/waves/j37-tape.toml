@@ -1,0 +1,25 @@
+slug        = "j37-tape"
+name        = "J37 Tape"
+vendor      = "Waves"
+version     = "14.0"
+description = "Emulation of the Studer J37 tube tape machine capturing classic analog tape saturation."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/j37-tape"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/j37-tape"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/j37-tape"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

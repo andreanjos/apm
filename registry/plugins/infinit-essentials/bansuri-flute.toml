@@ -1,0 +1,25 @@
+slug        = "bansuri-flute"
+name        = "Bansuri Flute"
+vendor      = "infinit essentials"
+version     = "1.0.0"
+description = "Sampled Bansuri flute VSTi with 7 articulations and built-in reverb and wind effects."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://infinit-essentials.com/products/bansuri-flute-vsti"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://infinit-essentials.com/products/bansuri-flute-vsti"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://infinit-essentials.com/products/bansuri-flute-vsti"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "black-friday-bundle"
+name        = "Black Friday Bundle"
+vendor      = "Baby Audio"
+version     = "1.0.0"
+description = "Limited Baby Audio Black Friday bundle offering multiple plugins at a significant discount."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://babyaud.io/all-products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://babyaud.io/all-products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://babyaud.io/all-products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "blackash-sc-5"
+name        = "BlackAsh SC 5"
+vendor      = "Black Rooster Audio"
+version     = "3.0.0"
+description = "1980s-style VCA compressor emulation with a darker audio path for punchy mix compression."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://blackroosteraudio.com/en/products/blackash_sc5"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11335-BlackAsh-SC-5?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://blackroosteraudio.com/en/products/blackash_sc5"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://blackroosteraudio.com/en/products/blackash_sc5"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

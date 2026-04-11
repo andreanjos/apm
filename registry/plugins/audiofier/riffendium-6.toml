@@ -1,0 +1,25 @@
+slug        = "riffendium-6"
+name        = "Riffendium 6"
+vendor      = "Audiofier"
+version     = "1.0"
+description = "Clean and vintage disco/funk guitar loops for Kontakt spanning classic and modern electronic styles."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiofier.co.uk/riffendium-6/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiofier.co.uk/riffendium-6/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiofier.co.uk/riffendium-6/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

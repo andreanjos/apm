@@ -1,0 +1,25 @@
+slug        = "best-sellers-bundle"
+name        = "Best Sellers Bundle"
+vendor      = "Eventide"
+version     = "1.0.0"
+description = "Four of Eventide's most popular plug-ins: SplitEQ, Physion Mk II, H3000 Factory, and Blackhole."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eventideaudio.com/plug-ins-bundles/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eventideaudio.com/plug-ins-bundles/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eventideaudio.com/plug-ins-bundles/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

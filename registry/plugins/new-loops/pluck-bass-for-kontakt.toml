@@ -1,0 +1,25 @@
+slug        = "pluck-bass-for-kontakt"
+name        = "Pluck Bass for Kontakt"
+vendor      = "New Loops"
+version     = "1.0.0"
+description = "Kontakt library of 105 pluck bass presets including analogue, wavetable, and dance bass sounds."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://newloops.com/products/pluck-bass"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://newloops.com/products/pluck-bass"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://newloops.com/products/pluck-bass"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

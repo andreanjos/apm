@@ -1,0 +1,26 @@
+slug        = "sigmod"
+name        = "SigMod"
+vendor      = "NUGEN Audio"
+version     = "1.5"
+description = "A modular signal routing plugin for creating custom mid/side paths and frequency splits in any DAW."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://nugenaudio.com/sigmod/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/4434-SigMod?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nugenaudio.com/sigmod/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nugenaudio.com/sigmod/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

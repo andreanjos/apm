@@ -1,0 +1,26 @@
+slug        = "veq-1a"
+name        = "VEQ 1A"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Two-band tube EQ plugin based on the classic Pultec EQP-1A passive program equalizer."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/veq-1a/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/16081-VEQ-1A?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/veq-1a/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/veq-1a/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

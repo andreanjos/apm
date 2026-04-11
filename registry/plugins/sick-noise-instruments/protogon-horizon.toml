@@ -1,0 +1,25 @@
+slug        = "protogon-horizon"
+name        = "Protogon Horizon"
+vendor      = "Sick Noise Instruments"
+version     = "1.0.0"
+description = "Hi-tech futuristic dark industrial cinematic Kontakt library with 7.4GB of sounds."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://sicknoiseinstruments.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sicknoiseinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sicknoiseinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

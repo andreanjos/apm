@@ -1,0 +1,26 @@
+slug        = "ezkeys-retro-electrics"
+name        = "EZKeys Retro Electrics"
+vendor      = "Toontrack"
+version     = "2.1.5"
+description = "EZkeys expansion capturing vintage electric piano and keyboard tones from classic retro instruments."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "toontrack-product-manager"
+homepage    = "https://www.toontrack.com/product/retro-electrics-ekx/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.toontrack.com/product/retro-electrics-ekx/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.toontrack.com/product/retro-electrics-ekx/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

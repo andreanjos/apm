@@ -1,0 +1,26 @@
+slug        = "cathedral-of-junk"
+name        = "Cathedral of Junk"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Kontakt instrument made from the Austin folk art Cathedral of Junk with unique metallic textures."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/cathedral-of-junk"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/5029-Cathedral-of-Junk?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/cathedral-of-junk"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/cathedral-of-junk"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "genesis-bundle"
+name        = "Genesis Bundle"
+vendor      = "Waves"
+version     = "14.0"
+description = "Comprehensive mixing bundle combining Waves' most popular processing and creative tools."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/genesis-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/genesis-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/genesis-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

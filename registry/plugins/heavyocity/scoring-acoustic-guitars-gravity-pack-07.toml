@@ -1,0 +1,25 @@
+slug        = "scoring-acoustic-guitars-gravity-pack-07"
+name        = "Scoring Acoustic Guitars Gravity Pack 07"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Cinematic acoustic guitar instrument with pads, phrases, and scoring content powered by Heavyocity's GRAVITY engine."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/scoring-acoustic-guitars"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/scoring-acoustic-guitars"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/scoring-acoustic-guitars"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

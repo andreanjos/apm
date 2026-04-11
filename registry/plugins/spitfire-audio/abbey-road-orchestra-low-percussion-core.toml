@@ -1,0 +1,26 @@
+slug        = "abbey-road-orchestra-low-percussion-core"
+name        = "Abbey Road Orchestra: Low Percussion Core"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Core edition of low orchestral percussion recorded with the Abbey Road Orchestra at Abbey Road Studios."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/shop/a-z/abbey-road-orchestra-low-percussion-core/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/shop/a-z/abbey-road-orchestra-low-percussion-core/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/shop/a-z/abbey-road-orchestra-low-percussion-core/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

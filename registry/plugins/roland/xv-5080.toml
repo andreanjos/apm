@@ -1,0 +1,27 @@
+slug        = "xv-5080"
+name        = "XV 5080"
+vendor      = "Roland"
+version     = "1.0"
+description = "Software recreation of Roland's 1999 XV-5080 flagship 128-voice PCM synthesizer module."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "roland-cloud"
+homepage    = "https://www.roland.com/us/products/rc_xv-5080/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15297-XV-5080?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.roland.com/us/products/rc_xv-5080/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.roland.com/us/products/rc_xv-5080/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

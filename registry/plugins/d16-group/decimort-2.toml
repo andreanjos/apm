@@ -1,0 +1,26 @@
+slug        = "decimort-2"
+name        = "Decimort 2"
+vendor      = "D16 Group"
+version     = "2.3.2"
+description = "High-quality bit crusher recreating the coloration and warmth of classic vintage samplers."
+category    = "effects"
+subcategory = "bit crusher"
+license     = "commercial"
+tags        = []
+homepage    = "https://d16.pl/decimort2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/32-Bit-Crusher/2017-Decimort-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://d16.pl/decimort2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://d16.pl/decimort2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

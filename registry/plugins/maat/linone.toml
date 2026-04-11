@@ -1,0 +1,26 @@
+slug        = "linone"
+name        = "LINone"
+vendor      = "MAAT"
+version     = "1.0.0"
+description = "Stereo/mono re-dithering plugin providing precision wordlength reduction for final delivery."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.maat.digital/linone/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/8439-LINone?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.maat.digital/linone/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.maat.digital/linone/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "ross-rising-funk-guitar"
+name        = "Ross Rising Funk Guitar"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Superb library of rhythm guitar samples concentrating on cool and slinky funk riffs for music production."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/rosss-rising-funk-guitar"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/rosss-rising-funk-guitar"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/rosss-rising-funk-guitar"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

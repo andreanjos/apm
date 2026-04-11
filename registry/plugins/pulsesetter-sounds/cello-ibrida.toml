@@ -1,0 +1,25 @@
+slug        = "cello-ibrida"
+name        = "Cello Ibrida"
+vendor      = "Pulsesetter Sounds"
+version     = "1.0"
+description = "Hybrid cello Kontakt library by Pulsesetter Sounds blending acoustic and processed tones."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pulsesettersounds.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pulsesettersounds.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pulsesettersounds.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

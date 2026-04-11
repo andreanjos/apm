@@ -1,0 +1,26 @@
+slug        = "satin"
+name        = "Satin"
+vendor      = "u he"
+version     = "1.0.0"
+description = "Tape simulation plugin with detailed models of saturation, wow, flutter, and tape noise."
+category    = "effects"
+subcategory = "tape emulation"
+license     = "commercial"
+tags        = []
+homepage    = "https://u-he.com/products/satin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/1400-Satin?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://u-he.com/products/satin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://u-he.com/products/satin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

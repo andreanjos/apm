@@ -1,0 +1,25 @@
+slug        = "titan-2"
+name        = "TITAN 2"
+vendor      = "Best Service"
+version     = "2"
+description = "Massive synthesizer emulating 266 hardware synths with 12,800 presets covering 45 years of synthesis history."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/titan_2.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/titan_2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/titan_2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

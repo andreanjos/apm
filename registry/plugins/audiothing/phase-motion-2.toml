@@ -1,0 +1,24 @@
+slug        = "phase-motion-2"
+name        = "Phase Motion 2"
+vendor      = "AudioThing"
+version     = "2.1.1"
+description = "Phaser effect plugin with organic modulation delivering vintage analog phase shifting sounds."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/effects/phase-motion/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/effects/phase-motion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/effects/phase-motion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

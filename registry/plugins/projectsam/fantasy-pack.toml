@@ -1,0 +1,25 @@
+slug        = "fantasy-pack"
+name        = "Fantasy Pack"
+vendor      = "ProjectSAM"
+version     = "1.0.0"
+description = "ProjectSAM bundle of fantasy-themed orchestral libraries for cinematic scoring."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

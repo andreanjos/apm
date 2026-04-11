@@ -1,0 +1,25 @@
+slug        = "mr-hum"
+name        = "MR Hum"
+vendor      = "Wave Arts"
+version     = "7.0"
+description = "Adaptive hum removal plugin that eliminates electrical interference and buzz from audio recordings."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+homepage    = "https://wavearts.com/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://wavearts.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://wavearts.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

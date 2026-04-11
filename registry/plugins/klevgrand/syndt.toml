@@ -1,0 +1,26 @@
+slug        = "syndt"
+name        = "Syndt"
+vendor      = "Klevgrand"
+version     = "1.1"
+description = "A morphable polyphonic synthesizer with sine-to-square waveform control, filter, and built-in effects."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://klevgrand.com/products/syndt"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/3382-Syndt?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://klevgrand.com/products/syndt"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://klevgrand.com/products/syndt"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "nithonat"
+name        = "Nithonat"
+vendor      = "D16 Group"
+version     = "1.0.0"
+description = "Original software emulation of the classic Roland TR-606 drum machine (legacy version)."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://d16.pl/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://d16.pl/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://d16.pl/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

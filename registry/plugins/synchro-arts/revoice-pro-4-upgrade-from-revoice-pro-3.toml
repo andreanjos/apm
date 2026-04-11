@@ -1,0 +1,24 @@
+slug        = "revoice-pro-4-upgrade-from-revoice-pro-3"
+name        = "Revoice Pro 4 Upgrade from Revoice Pro 3"
+vendor      = "Synchro Arts"
+version     = "4"
+description = "Upgrade from Revoice Pro 3 to the latest Revoice Pro 4 vocal production suite."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://synchroarts.com/products/revoice-pro"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synchroarts.com/products/revoice-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synchroarts.com/products/revoice-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

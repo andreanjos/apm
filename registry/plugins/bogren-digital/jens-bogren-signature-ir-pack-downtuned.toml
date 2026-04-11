@@ -1,0 +1,26 @@
+slug        = "jens-bogren-signature-ir-pack-downtuned"
+name        = "Jens Bogren Signature IR Pack Downtuned"
+vendor      = "Bogren Digital"
+version     = "1.0.0"
+description = "Signature IR pack from Jens Bogren optimized for downtuned guitars and heavy metal production."
+category    = "utility"
+subcategory = "impulse response"
+license     = "commercial"
+tags        = []
+homepage    = "https://bogrendigital.com/products/jens-bogren-signature-ir-pack-downtuned"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/9181-Jens-Bogren-Signature-IR-Pack-Downtuned?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://bogrendigital.com/products/jens-bogren-signature-ir-pack-downtuned"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://bogrendigital.com/products/jens-bogren-signature-ir-pack-downtuned"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

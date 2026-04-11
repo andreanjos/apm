@@ -1,0 +1,25 @@
+slug        = "tubesynth"
+name        = "TubeSynth"
+vendor      = "Air Music Tech"
+version     = "1.0.0"
+description = "Vintage-inspired analog synthesizer plugin modeled on warm tube-circuit oscillator designs."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/tubesynth"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/tubesynth"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/tubesynth"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

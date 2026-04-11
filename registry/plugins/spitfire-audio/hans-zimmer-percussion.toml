@@ -1,0 +1,26 @@
+slug        = "hans-zimmer-percussion"
+name        = "Hans Zimmer Percussion"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Hans Zimmer's blockbuster orchestral and ensemble percussion combining solo and ensemble instruments."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-percussion"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-percussion"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/shop/a-z/hans-zimmer-percussion"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

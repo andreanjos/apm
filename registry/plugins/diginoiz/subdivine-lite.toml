@@ -1,0 +1,26 @@
+slug        = "subdivine-lite"
+name        = "Subdivine Lite"
+vendor      = "Diginoiz"
+version     = "1.0.0"
+description = "Free lite version of Subdivine 808/bass synthesizer for trap, R&B, hip-hop, and pop producers."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://diginoiz.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/6694-Subdivine-Lite?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://diginoiz.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://diginoiz.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

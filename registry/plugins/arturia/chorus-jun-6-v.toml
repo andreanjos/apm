@@ -1,0 +1,26 @@
+slug        = "chorus-jun-6-v"
+name        = "Chorus JUN-6 V"
+vendor      = "Arturia"
+version     = "1.4.0"
+description = "Authentic recreation of the iconic Roland Juno-6 ensemble chorus effect circuit."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-effects/chorus-jun-6/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-effects/chorus-jun-6/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-effects/chorus-jun-6/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

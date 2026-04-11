@@ -462,10 +462,18 @@ async fn run_single(
                 DownloadType::Manual => "manual download required",
                 DownloadType::Managed => "vendor installer required",
             };
+            let source = match src.download_type {
+                DownloadType::Manual => plugin
+                    .homepage
+                    .as_deref()
+                    .filter(|homepage| !homepage.is_empty())
+                    .unwrap_or("(no download URL listed)"),
+                _ => src.url.as_str(),
+            };
             println!(
                 "          {}: {} ({})",
                 fmt.to_string().cyan(),
-                src.url,
+                source,
                 dl_type
             );
         }

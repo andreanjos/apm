@@ -1,0 +1,25 @@
+slug        = "haunted-ground"
+name        = "Haunted Ground"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Avant-garde library of abandoned location atmospheres, from condemned hospitals to haunted prisons for film scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/haunted-ground"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/haunted-ground"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/haunted-ground"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

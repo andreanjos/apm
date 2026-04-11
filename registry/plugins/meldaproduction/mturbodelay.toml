@@ -1,0 +1,25 @@
+slug        = "mturbodelay"
+name        = "MTurboDelay"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "41 delay plugins in a single beast — comprehensive delay covering diverse analog and digital-inspired algorithms."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MTurboDelay"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MTurboDelay"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MTurboDelay"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

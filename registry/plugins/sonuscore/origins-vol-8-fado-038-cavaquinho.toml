@@ -1,0 +1,25 @@
+slug        = "origins-vol-8-fado-038-cavaquinho"
+name        = "Origins Vol 8: Fado &#038; Cavaquinho"
+vendor      = "Sonuscore"
+version     = "1.0.0"
+description = "Kontakt instrument featuring the Portuguese fado guitar and Brazilian cavaquinho string instruments."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonuscore.com/shop/origins-vol-8-fado-cavaquinho/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonuscore.com/shop/origins-vol-8-fado-cavaquinho/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonuscore.com/shop/origins-vol-8-fado-cavaquinho/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

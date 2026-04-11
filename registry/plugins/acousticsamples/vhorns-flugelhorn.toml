@@ -1,0 +1,25 @@
+slug        = "vhorns-flugelhorn"
+name        = "VHorns Flugelhorn"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Dedicated flugelhorn virtual instrument from the VHorns VSeries with expressive sampling and modeling."
+category    = "instruments"
+subcategory = "orchestral"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/vhornsflugelhorn"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/vhornsflugelhorn"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/vhornsflugelhorn"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "magiceq"
+name        = "MagicEQ"
+vendor      = "DUY"
+version     = "1.0.0"
+description = "Intelligent parametric EQ plugin offering smart frequency management for fast, musical results."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://duy.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "api-summing"
+name        = "API Summing"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of API's analog summing bus for LUNA, adding depth and dimension to mixes."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/channel-strips/api-summing.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/api-summing.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/api-summing.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

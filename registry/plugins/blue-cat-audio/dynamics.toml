@@ -1,0 +1,25 @@
+slug        = "dynamics"
+name        = "Dynamics"
+vendor      = "Blue Cat Audio"
+version     = "4.44"
+description = "All-in-one dynamics processor functioning as compressor, limiter, gate, expander, or waveshaper."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bluecataudio.com/Products/Product_Dynamics/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bluecataudio.com/Products/Product_Dynamics/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bluecataudio.com/Products/Product_Dynamics/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

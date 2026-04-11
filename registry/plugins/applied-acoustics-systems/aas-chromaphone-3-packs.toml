@@ -1,0 +1,25 @@
+slug        = "aas-chromaphone-3-packs"
+name        = "AAS Chromaphone 3 + Packs"
+vendor      = "Applied Acoustics Systems"
+version     = "3"
+description = "AAS Chromaphone 3 acoustic object synthesizer bundled with additional sound expansion packs."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.applied-acoustics.com/chromaphone-3/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.applied-acoustics.com/chromaphone-3/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.applied-acoustics.com/chromaphone-3/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

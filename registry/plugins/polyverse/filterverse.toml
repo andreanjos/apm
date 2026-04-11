@@ -1,0 +1,26 @@
+slug        = "filterverse"
+name        = "Filterverse"
+vendor      = "Polyverse"
+version     = "1.0.0"
+description = "Definitive filter collection with 30+ filter types from classic to cutting-edge designs."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://polyversemusic.com/products/filterverse/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/13970-Filterverse-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://polyversemusic.com/products/filterverse/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://polyversemusic.com/products/filterverse/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

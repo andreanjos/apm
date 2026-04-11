@@ -1,0 +1,25 @@
+slug        = "360-surround-tools"
+name        = "360 Surround Tools"
+vendor      = "Waves"
+version     = "14.0"
+description = "Suite of tools for mixing, monitoring, and mastering in 360-degree surround formats."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/360-surround-tools"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/360-surround-tools"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/360-surround-tools"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

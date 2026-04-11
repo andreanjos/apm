@@ -1,0 +1,25 @@
+slug        = "frankensnare"
+name        = "Frankensnare"
+vendor      = "Karoryfer Samples"
+version     = "1.0.0"
+description = "Customizable snare instrument built from over 3500 acoustic snare, clap, and tambourine samples."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://shop.karoryfer.com/pages/free-frankensnare"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://shop.karoryfer.com/pages/free-frankensnare"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://shop.karoryfer.com/pages/free-frankensnare"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

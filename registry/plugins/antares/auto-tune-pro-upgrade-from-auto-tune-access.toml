@@ -1,0 +1,24 @@
+slug        = "auto-tune-pro-upgrade-from-auto-tune-access"
+name        = "Auto-Tune Pro Upgrade from Auto-Tune Access"
+vendor      = "Antares"
+version     = "1.0.0"
+description = "Upgrade from Auto-Tune Access to Pro, adding Graph Mode and advanced pitch editing tools."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.antarestech.com/products/auto-tune/pro"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.antarestech.com/products/auto-tune/pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.antarestech.com/products/auto-tune/pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

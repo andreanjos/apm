@@ -1,0 +1,26 @@
+slug        = "kagamine-rin-len-nt"
+name        = "KAGAMINE RIN LEN NT"
+vendor      = "Crypton Future Media"
+version     = "NT"
+description = "Kagamine Rin/Len NT VOCALOID singing synthesizer with twin Japanese voices in Newtype format."
+category    = "instruments"
+subcategory = "vocal synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonicwire.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/16422-KAGAMINE-RIN-LEN-NT?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonicwire.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonicwire.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

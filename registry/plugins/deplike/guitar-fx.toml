@@ -1,0 +1,25 @@
+slug        = "guitar-fx"
+name        = "Guitar FX"
+vendor      = "Deplike"
+version     = "5.0"
+description = "Deplike Guitar FX is a mobile and desktop amp simulator and effects pedal app for guitarists."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://deplike.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://deplike.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://deplike.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "spherix-immersive-compressor-038-limiter"
+name        = "Spherix Immersive Compressor &#038; Limiter"
+vendor      = "Waves"
+version     = "14.0"
+description = "Immersive audio compressor and limiter for Dolby Atmos and 3D audio mixing workflows."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/spherix-immersive-compressor-038-limiter"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/spherix-immersive-compressor-038-limiter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/spherix-immersive-compressor-038-limiter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

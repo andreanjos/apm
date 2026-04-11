@@ -1,0 +1,24 @@
+slug        = "igniter-full-tank"
+name        = "Igniter Full Tank"
+vendor      = "Krotos Audio"
+version     = "1.0.0"
+description = "Premium vehicle sound design plugin with expanded libraries for any real-world or sci-fi vehicle."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.krotosaudio.com/igniter/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.krotosaudio.com/igniter/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.krotosaudio.com/igniter/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

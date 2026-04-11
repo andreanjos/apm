@@ -1,0 +1,26 @@
+slug        = "ca2600-synthesizer"
+name        = "CA2600 Synthesizer"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Powerful duophonic synthesizer inspired by the ARP 2600, with vintage-correct ladder filter and CV control."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/ca2600"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7033-CA2600-Synthesizer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/ca2600"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/ca2600"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "ns1-noise-suppressor"
+name        = "NS1 Noise Suppressor"
+vendor      = "Waves"
+version     = "14.0"
+description = "Single-knob intelligent noise suppressor for removing background noise from live recordings."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/ns1-noise-suppressor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/ns1-noise-suppressor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/ns1-noise-suppressor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

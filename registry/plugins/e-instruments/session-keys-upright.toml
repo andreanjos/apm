@@ -1,0 +1,26 @@
+slug        = "session-keys-upright"
+name        = "Session Keys Upright"
+vendor      = "e instruments"
+version     = "1.0.0"
+description = "Deeply sampled upright piano virtual instrument for Kontakt and Kontakt Player."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://e-instruments.com/instruments/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/6296-Session-Keys-Upright?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://e-instruments.com/instruments/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://e-instruments.com/instruments/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

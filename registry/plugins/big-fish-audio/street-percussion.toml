@@ -1,0 +1,26 @@
+slug        = "street-percussion"
+name        = "Street Percussion"
+vendor      = "Big Fish Audio"
+version     = "1.0.0"
+description = "Big Fish Audio Kontakt street percussion library with 100+ instruments and an 8-channel step sequencer."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bigfishaudio.com/Street-Percussion"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/5976-Street-Percussion?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bigfishaudio.com/Street-Percussion"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bigfishaudio.com/Street-Percussion"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

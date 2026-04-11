@@ -1,0 +1,26 @@
+slug        = "nightdream-imagine-expansion-pack"
+name        = "Nightdream Imagine Expansion Pack"
+vendor      = "Expressive E"
+version     = "1.0.0"
+description = "EDM and trap expansion for Imagine synthesizer with 80+ presets of leads, basses, and sequences."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.expressivee.com/86-nightdream"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/11080-Nightdream-Imagine-Expansion-Pack-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.expressivee.com/86-nightdream"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.expressivee.com/86-nightdream"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

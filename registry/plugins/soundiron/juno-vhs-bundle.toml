@@ -1,0 +1,25 @@
+slug        = "juno-vhs-bundle"
+name        = "Juno VHS Bundle"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Bundle combining the Juno and VHS Kontakt keyboard libraries for retro electronic sounds."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/juno-vhs-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/juno-vhs-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/juno-vhs-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

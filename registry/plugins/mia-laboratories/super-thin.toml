@@ -1,0 +1,25 @@
+slug        = "super-thin"
+name        = "Super Thin"
+vendor      = "MIA Laboratories"
+version     = "1.0.0"
+description = "MIA Laboratories one-knob high-frequency EQ for adding brilliance and air to any signal."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://mialaboratories.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mialaboratories.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mialaboratories.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

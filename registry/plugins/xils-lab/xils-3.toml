@@ -1,0 +1,26 @@
+slug        = "xils-3"
+name        = "XILS 3"
+vendor      = "XILS Lab"
+version     = "1.0.0"
+description = "Virtual synthesizer emulating the EMS VCS3 with its characteristic warm and quirky analog character."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.xils-lab.com/store/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/51-XILS-3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.xils-lab.com/store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.xils-lab.com/store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

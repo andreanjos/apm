@@ -1,0 +1,25 @@
+slug        = "real-dhaak"
+name        = "Real Dhaak"
+vendor      = "RDGAudio"
+version     = "1.0.0"
+description = "Authentic sampled Indian Dhaak drum plugin with detailed velocity layers and articulations."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://rdgaudio.com/product/real-dhaak/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rdgaudio.com/product/real-dhaak/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rdgaudio.com/product/real-dhaak/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

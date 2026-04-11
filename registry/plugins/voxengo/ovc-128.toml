@@ -1,0 +1,25 @@
+slug        = "ovc-128"
+name        = "OVC-128"
+vendor      = "Voxengo"
+version     = "1.13"
+description = "Massively-oversampled soft and hard clipping distortion plugin for creative saturation effects."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/ovc128/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/ovc128/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/ovc128/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

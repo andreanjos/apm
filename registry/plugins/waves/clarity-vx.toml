@@ -1,0 +1,26 @@
+slug        = "clarity-vx"
+name        = "Clarity Vx"
+vendor      = "Waves"
+version     = "14.0"
+description = "AI-powered vocal noise reduction plugin for clean voice isolation in one knob."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/clarity-vx"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/clarity-vx"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/clarity-vx"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

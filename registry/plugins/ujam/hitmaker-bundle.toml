@@ -1,0 +1,25 @@
+slug        = "hitmaker-bundle"
+name        = "Hitmaker Bundle"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Curated UJAM plugin bundle aimed at crafting commercial, chart-ready hit songs."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/store/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

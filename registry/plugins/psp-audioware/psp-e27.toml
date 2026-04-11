@@ -1,0 +1,26 @@
+slug        = "psp-e27"
+name        = "PSP E27"
+vendor      = "PSP Audioware"
+version     = "1.7.4"
+description = "Multi-stage equalizer plugin modeled after the famed Avedis Audio Electronics E27 analog EQ."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-e27"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/10900-PSP-E27?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-e27"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-e27"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

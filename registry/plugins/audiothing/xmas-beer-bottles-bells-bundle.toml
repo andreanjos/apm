@@ -1,0 +1,25 @@
+slug        = "xmas-beer-bottles-bells-bundle"
+name        = "Xmas Beer Bottles & Bells Bundle"
+vendor      = "AudioThing"
+version     = "1.0.0"
+description = "Festive bundle of AudioThing Kontakt instruments featuring sampled beer bottles and bells."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/instruments/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/instruments/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/instruments/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

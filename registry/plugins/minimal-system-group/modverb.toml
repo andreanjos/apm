@@ -1,0 +1,26 @@
+slug        = "modverb"
+name        = "ModVerb"
+vendor      = "Minimal System Group"
+version     = "1.0.0"
+description = "Reverb plugin with main reverb, modulation, delay and master sections for rich spatial effects."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/232-ModVerb?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

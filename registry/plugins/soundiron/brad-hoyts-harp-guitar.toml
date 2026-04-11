@@ -1,0 +1,25 @@
+slug        = "brad-hoyts-harp-guitar"
+name        = "Brad Hoyt’s Harp Guitar"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Kontakt library of Brad Hoyt's custom harp guitar with warm, resonant multi-string tones."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/brad-hoyts-harp-guitar"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/brad-hoyts-harp-guitar"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/brad-hoyts-harp-guitar"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

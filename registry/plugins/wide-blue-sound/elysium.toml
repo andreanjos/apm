@@ -1,0 +1,26 @@
+slug        = "elysium"
+name        = "ELYSIUM"
+vendor      = "Wide Blue Sound"
+version     = "1.0.0"
+description = "Kinetic motion Kontakt synth combining tonal rhythms, pads, arpeggios, and hybrid instruments."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.widebluesound.com/elysium/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7202-ELYSIUM?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.widebluesound.com/elysium/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.widebluesound.com/elysium/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

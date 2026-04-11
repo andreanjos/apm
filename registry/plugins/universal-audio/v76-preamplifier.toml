@@ -1,0 +1,25 @@
+slug        = "v76-preamplifier"
+name        = "V76 Preamplifier"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the legendary V76 tube preamplifier used extensively at Abbey Road Studios."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/channel-strips/v76-preamplifier.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/v76-preamplifier.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/v76-preamplifier.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

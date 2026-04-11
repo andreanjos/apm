@@ -1,0 +1,25 @@
+slug        = "calc-u-synth-heavyocity"
+name        = "Calc-U-Synth"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Kontakt instrument providing unique synthesizer sounds with Heavyocity's signature sound design processing."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/calc-u-synth"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/calc-u-synth"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/calc-u-synth"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

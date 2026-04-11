@@ -1,0 +1,26 @@
+slug        = "v-pan"
+name        = "V Pan"
+vendor      = "Rhodes"
+version     = "1.0.0"
+description = "Rhodes-inspired stereo panning plugin for dynamic width and spatial movement effects."
+category    = "effects"
+subcategory = "stereo width"
+license     = "commercial"
+tags        = []
+homepage    = "https://rhodesmusic.com/software/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/11500-V-Pan?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rhodesmusic.com/software/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rhodesmusic.com/software/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "komplete-14-standard"
+name        = "Komplete 14 Standard"
+vendor      = "Native Instruments"
+version     = "14"
+description = "Comprehensive music production bundle with 100+ instruments, effects, and Maschine expansions."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-standard/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

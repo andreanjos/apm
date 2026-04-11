@@ -1,0 +1,25 @@
+slug        = "melancholia"
+name        = "Melancholia"
+vendor      = "Sketch Sampling"
+version     = "1.0.0"
+description = "Kontakt library of processed electric guitar, sound design instruments, and enveloping ambiences."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://sketchsampling.ru/melancholia/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sketchsampling.ru/melancholia/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sketchsampling.ru/melancholia/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

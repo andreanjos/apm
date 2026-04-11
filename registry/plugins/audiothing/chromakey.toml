@@ -1,0 +1,25 @@
+slug        = "chromakey"
+name        = "ChromaKey"
+vendor      = "AudioThing"
+version     = "1.0"
+description = "Kontakt instrument featuring 60 hybrid and organic melodic patches from AudioThing's AAS Chromaphone soundset."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/instruments/chromakey/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/instruments/chromakey/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/instruments/chromakey/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

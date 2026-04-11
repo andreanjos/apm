@@ -1,0 +1,26 @@
+slug        = "go2-x"
+name        = "Go2 X"
+vendor      = "Rob Papen"
+version     = "1.0.0"
+description = "Enhanced Go2 with custom waveform drawing, expanded arpeggiator with Magic Mode, and simultaneous delay and reverb."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/Go2-x.html"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11562-Go2-X?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/Go2-x.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/Go2-x.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

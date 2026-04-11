@@ -1,0 +1,25 @@
+slug        = "doepfer-a-188-1-bbd"
+name        = "Doepfer A-188-1 BBD"
+vendor      = "Softube"
+version     = "2.6"
+description = "Bucket brigade delay module for Softube Modular, based on the classic Doepfer A-188-1 hardware."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/synthesizers/doepfer-a-188-1-bbd"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/synthesizers/doepfer-a-188-1-bbd"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/synthesizers/doepfer-a-188-1-bbd"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

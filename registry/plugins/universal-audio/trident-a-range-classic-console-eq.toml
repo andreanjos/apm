@@ -1,0 +1,26 @@
+slug        = "trident-a-range-classic-console-eq"
+name        = "Trident® A-Range Classic Console EQ"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Trident A-Range console EQ, a classic British desk used on iconic recordings."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/trident-a-range-console-eq.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/trident-a-range-console-eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/trident-a-range-console-eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

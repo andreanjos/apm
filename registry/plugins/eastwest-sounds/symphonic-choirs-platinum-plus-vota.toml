@@ -1,0 +1,26 @@
+slug        = "symphonic-choirs-platinum-plus-vota"
+name        = "Symphonic Choirs Platinum Plus VOTA"
+vendor      = "EastWest Sounds"
+version     = "1.0.0"
+description = "Award-winning virtual choir with WordBuilder technology for singing any lyrics in any language."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/vocals/symphonic-choirs"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15628-Symphonic-Choirs-Platinum-Plus-VOTA?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/vocals/symphonic-choirs"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/vocals/symphonic-choirs"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

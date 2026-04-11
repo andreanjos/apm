@@ -1,0 +1,25 @@
+slug        = "ocarina"
+name        = "Ocarina"
+vendor      = "Soul Samples"
+version     = "1.0"
+description = "Soul Samples Ocarina is a detailed Kontakt instrument capturing the magical tone of ocarina."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kvraudio.com/product/ocarina-sample-library-by-soul-samples"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kvraudio.com/product/ocarina-sample-library-by-soul-samples"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kvraudio.com/product/ocarina-sample-library-by-soul-samples"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "brigade-chorus"
+name        = "Brigade Chorus"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "UA's Brigade emulates classic BBD bucket-brigade chorus with lush, warm modulation."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/modulation/brigade-chorus.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/modulation/brigade-chorus.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/modulation/brigade-chorus.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

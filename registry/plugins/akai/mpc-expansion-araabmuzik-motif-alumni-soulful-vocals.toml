@@ -1,0 +1,26 @@
+slug        = "mpc-expansion-araabmuzik-motif-alumni-soulful-vocals"
+name        = "MPC Expansion AraabMuzik Motif Alumni Soulful Vocals"
+vendor      = "AKAI"
+version     = "1.0.0"
+description = "MPC expansion by AraabMuzik featuring soulful vocal chops and trap-influenced Motif Alumni sounds."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/11215-MPC-Expansion-AraabMuzik-Motif-Alumni-Soulful-Vocals?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

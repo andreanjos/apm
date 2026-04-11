@@ -1,0 +1,25 @@
+slug        = "halion-sonic-3"
+name        = "HALion Sonic 3"
+vendor      = "Steinberg"
+version     = "3"
+description = "All-in-one VST workstation with thousands of synths, acoustic instruments, and first-class effects."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.steinberg.net/vst-instruments/halion/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.steinberg.net/vst-instruments/halion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.steinberg.net/vst-instruments/halion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

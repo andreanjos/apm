@@ -1,0 +1,26 @@
+slug        = "shaper-table"
+name        = "Shaper Table"
+vendor      = "Kilohearts"
+version     = "2.4.6"
+description = "Wavetable waveshaper Snapin that morphs distortion character by scanning through a table of shaper curves."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://kilohearts.com/products/shaper_table"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/12131-Shaper-Table?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://kilohearts.com/products/shaper_table"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://kilohearts.com/products/shaper_table"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

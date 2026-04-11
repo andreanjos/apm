@@ -1,0 +1,26 @@
+slug        = "gombulator"
+name        = "Gombulator"
+vendor      = "Fine Cut Bodies"
+version     = "1.0"
+description = "Unique Kontakt instrument by Fine Cut Bodies with unusual tonal and granular sound design."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.finecutbodies.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/2926-Gombulator?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.finecutbodies.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.finecutbodies.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

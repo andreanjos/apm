@@ -1,0 +1,26 @@
+slug        = "ssl-g3-multibuscomp"
+name        = "SSL G3 MultiBusComp"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "Multi-bus compressor plugin inspired by the classic SSL G Series bus compressor topology."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/g3-multibuscomp"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10963-SSL-G3-MultiBusComp?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/g3-multibuscomp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/g3-multibuscomp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

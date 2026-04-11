@@ -1,0 +1,26 @@
+slug        = "recirculate"
+name        = "Recirculate"
+vendor      = "Newfangled Audio"
+version     = "1.0.0"
+description = "Creative delay plugin with independent delay/repeat controls, filters, compression, and reverb."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.newfangledaudio.com/recirculate"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/11842-Recirculate?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.newfangledaudio.com/recirculate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.newfangledaudio.com/recirculate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

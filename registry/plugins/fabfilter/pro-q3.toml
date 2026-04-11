@@ -1,0 +1,25 @@
+slug        = "pro-q3"
+name        = "Pro-Q3"
+vendor      = "FabFilter"
+version     = "4.11"
+description = "Industry-standard equalizer with up to 24 bands, dynamic EQ, EQ match, and Dolby Atmos support."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

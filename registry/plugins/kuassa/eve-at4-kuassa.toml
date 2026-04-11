@@ -1,0 +1,25 @@
+slug        = "eve-at4-kuassa"
+name        = "EVE-AT4"
+vendor      = "Kuassa"
+version     = "1.0.0"
+description = "3-band EQ inspired by the Neve 1084, delivering strong character and classic 1970s tones."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kuassa.com/products/eve-at-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kuassa.com/products/eve-at-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kuassa.com/products/eve-at-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

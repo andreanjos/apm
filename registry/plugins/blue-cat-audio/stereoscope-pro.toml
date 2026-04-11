@@ -1,0 +1,24 @@
+slug        = "stereoscope-pro"
+name        = "StereoScope Pro"
+vendor      = "Blue Cat Audio"
+version     = "2.14"
+description = "Real-time stereo field analyzer with 3D visualization and MIDI/automation output capabilities."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bluecataudio.com/Products/Product_StereoScopePro/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bluecataudio.com/Products/Product_StereoScopePro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bluecataudio.com/Products/Product_StereoScopePro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "bae-1084"
+name        = "BAE 1084"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Authentic FPGA emulation of the vintage BAE 1084 console channel strip EQ."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/bae-1084/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/16012-BAE-1084?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/bae-1084/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/bae-1084/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

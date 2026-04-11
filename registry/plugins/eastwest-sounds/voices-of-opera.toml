@@ -1,0 +1,26 @@
+slug        = "voices-of-opera"
+name        = "Voices Of Opera"
+vendor      = "EastWest Sounds"
+version     = "1.0.0"
+description = "Virtual opera library featuring soprano Larisa Martinez and tenor Carlton Moe."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/vocals/voices-of-opera"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15639-Voices-Of-Opera?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/vocals/voices-of-opera"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/vocals/voices-of-opera"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

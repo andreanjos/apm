@@ -1,0 +1,26 @@
+slug        = "wurlybird-140b"
+name        = "Wurlybird 140B"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Sample-based virtual instrument modeled after the 1964 Wurlitzer 140B electric piano."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/wurlybird140b"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/12636-Wurlybird-140B?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/wurlybird140b"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/wurlybird140b"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

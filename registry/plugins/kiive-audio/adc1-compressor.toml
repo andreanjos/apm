@@ -1,0 +1,26 @@
+slug        = "adc1-compressor"
+name        = "ADC1 Compressor"
+vendor      = "Kiive Audio"
+version     = "1.0.0"
+description = "Four-mode compressor/limiter inspired by classic 1950s–60s hardware with analog EQ shaping and oversampling."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kiiveaudio.com/products/adc1"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/9943-ADC1-Compressor?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kiiveaudio.com/products/adc1"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kiiveaudio.com/products/adc1"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

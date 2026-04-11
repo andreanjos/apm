@@ -1,0 +1,26 @@
+slug        = "urban-drill-trap-for-serum"
+name        = "Urban Drill Trap for Serum"
+vendor      = "The Tone Foundry"
+version     = "1.0.0"
+description = "Serum preset pack with bone-rattling basses and captivating leads inspired by Pop Smoke and 21 Savage."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11599-Urban-Drill-Trap-for-Serum"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11599-Urban-Drill-Trap-for-Serum?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11599-Urban-Drill-Trap-for-Serum"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11599-Urban-Drill-Trap-for-Serum"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "precision-enhancer-khz"
+name        = "Precision Enhancer kHz"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "UA's Precision Enhancer kHz adds harmonic detail and air to high-frequency content."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/precision-enhancer-khz.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/precision-enhancer-khz.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/precision-enhancer-khz.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

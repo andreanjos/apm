@@ -1,0 +1,25 @@
+slug        = "analog-bundle"
+name        = "Analog Bundle"
+vendor      = "DUY"
+version     = "1.0.0"
+description = "DUY bundle of analog-modeled plugins for tube, vinyl, tape, and mixing console emulation."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://duy.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

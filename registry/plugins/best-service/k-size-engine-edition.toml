@@ -1,0 +1,25 @@
+slug        = "k-size-engine-edition"
+name        = "K-Size Engine Edition"
+vendor      = "Best Service"
+version     = "1.0.0"
+description = "Four K-Size sample packs in one Engine-powered bundle with 8,600 loops for Tech House, Techno, and Minimal."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/k-size_engine_edition.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/k-size_engine_edition.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/k-size_engine_edition.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

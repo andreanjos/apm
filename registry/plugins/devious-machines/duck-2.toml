@@ -1,0 +1,26 @@
+slug        = "duck-2"
+name        = "Duck 2"
+vendor      = "Devious Machines"
+version     = "2"
+description = "Sidechain-style ducking and envelope shaping plugin for creating pumping rhythmic effects."
+category    = "effects"
+subcategory = "envelope shaper"
+license     = "commercial"
+tags        = []
+homepage    = "https://deviousmachines.com/product/duck2/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/16921-Duck-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://deviousmachines.com/product/duck2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://deviousmachines.com/product/duck2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

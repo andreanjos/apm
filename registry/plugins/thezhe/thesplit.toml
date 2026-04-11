@@ -1,0 +1,26 @@
+slug        = "thesplit"
+name        = "TheSplit"
+vendor      = "TheZhe"
+version     = "1.0.0"
+description = "Free multimode signal splitter dividing audio into complementary outputs via four split modes."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kvraudio.com/developer/thezhe"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/9063-TheSplit?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kvraudio.com/developer/thezhe"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kvraudio.com/developer/thezhe"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

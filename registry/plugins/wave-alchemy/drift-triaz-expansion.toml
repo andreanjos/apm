@@ -1,0 +1,26 @@
+slug        = "drift-triaz-expansion"
+name        = "Drift Triaz Expansion"
+vendor      = "Wave Alchemy"
+version     = "1.0.0"
+description = "Triaz expansion with 13,000 drums delivering warm, nostalgic Lofi, Hip-Hop and alternative R&B vibes."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.wavealchemy.co.uk/product-category/sounds/triaz-expansions/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/13088-Drift-Triaz-Expansion-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.wavealchemy.co.uk/product-category/sounds/triaz-expansions/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.wavealchemy.co.uk/product-category/sounds/triaz-expansions/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

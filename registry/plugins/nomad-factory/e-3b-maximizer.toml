@@ -1,0 +1,25 @@
+slug        = "e-3b-maximizer"
+name        = "E-3B Maximizer"
+vendor      = "Nomad Factory"
+version     = "1.0.0"
+description = "Loudness maximizer plugin from the E-Series for transparent peak limiting and gain maximization."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.nomadfactory.com/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.nomadfactory.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.nomadfactory.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

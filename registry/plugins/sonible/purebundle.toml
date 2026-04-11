@@ -1,0 +1,25 @@
+slug        = "purebundle"
+name        = "pure:bundle"
+vendor      = "sonible"
+version     = "1.0.0"
+description = "AI-powered bundle including pure:EQ, pure:comp, pure:limit, pure:verb, and more creator tools."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonible.com/purebundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonible.com/purebundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonible.com/purebundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

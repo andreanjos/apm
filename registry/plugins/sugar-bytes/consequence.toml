@@ -1,0 +1,26 @@
+slug        = "consequence"
+name        = "Consequence"
+vendor      = "Sugar Bytes"
+version     = "1.0.0"
+description = "Chord sequencer and arpeggiator with three oscillators, chord memory, and detailed step control."
+category    = "effects"
+subcategory = "sequencer"
+license     = "commercial"
+tags        = []
+homepage    = "https://sugar-bytes.de/consequence"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/24-Sequencer/532-Consequence?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sugar-bytes.de/consequence"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sugar-bytes.de/consequence"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

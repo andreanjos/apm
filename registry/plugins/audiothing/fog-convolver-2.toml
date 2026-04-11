@@ -1,0 +1,24 @@
+slug        = "fog-convolver-2"
+name        = "Fog Convolver 2"
+vendor      = "AudioThing"
+version     = "2.4"
+description = "Advanced convolution reverb with snapshot system, spectral morphing, and extensive IR library support."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/effects/fog-convolver/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/effects/fog-convolver/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/effects/fog-convolver/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

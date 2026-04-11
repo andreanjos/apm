@@ -1,0 +1,26 @@
+slug        = "cfa-sound-super-7"
+name        = "CFA Sound Super 7"
+vendor      = "Resonance Sound"
+version     = "1.0.0"
+description = "Powerful synthesizer plugin with seven oscillators and extensive modulation routing options."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.resonance-sound.com"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1465-CFA-Sound-Super-7?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.resonance-sound.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.resonance-sound.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

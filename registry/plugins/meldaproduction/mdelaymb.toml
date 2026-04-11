@@ -1,0 +1,26 @@
+slug        = "mdelaymb"
+name        = "MDelayMB"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Unique six-band delay plugin with modulators for creative audio processing."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MDelayMB"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/83-MDelayMB?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MDelayMB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MDelayMB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

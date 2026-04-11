@@ -1,0 +1,25 @@
+slug        = "hexa-trailer-drum-kit"
+name        = "Hexa Trailer Drum Kit"
+vendor      = "Ecliptiq Audio"
+version     = "1.0.0"
+description = "Kontakt drum kit library with 4 multisampled trailer-grade drum kits for cinematic scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.lootaudio.com/category/kontakt-instruments/ecliptiq-audio/hexa-trailer-drumkit-kontakt"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.lootaudio.com/category/kontakt-instruments/ecliptiq-audio/hexa-trailer-drumkit-kontakt"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.lootaudio.com/category/kontakt-instruments/ecliptiq-audio/hexa-trailer-drumkit-kontakt"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

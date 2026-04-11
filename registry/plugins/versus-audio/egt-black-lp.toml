@@ -1,0 +1,25 @@
+slug        = "egt-black-lp"
+name        = "EGT Black LP"
+vendor      = "Versus Audio"
+version     = "1.0.0"
+description = "Sampled electric guitar Kontakt instrument with a dark, versatile LP-style tone."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://versusaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://versusaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://versusaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

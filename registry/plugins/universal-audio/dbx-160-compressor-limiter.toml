@@ -1,0 +1,27 @@
+slug        = "dbx-160-compressor-limiter"
+name        = "dbx 160 Compressor Limiter"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the dbx 160 VCA compressor/limiter known for aggressive, punchy dynamics control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/dbx-160-compressor-limiter.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11176-dbx-160-Compressor-Limiter-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/dbx-160-compressor-limiter.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/dbx-160-compressor-limiter.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

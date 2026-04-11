@@ -1,0 +1,25 @@
+slug        = "sta-effects"
+name        = "STA Effects"
+vendor      = "Audified"
+version     = "2.1.0"
+description = "Collection of tube-saturated modulation and enhancement effects using STA summing tube amp technology."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/sta-effects/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/sta-effects/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/sta-effects/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "delay-dt-mkii"
+name        = "Delay dt MKII"
+vendor      = "MIA Laboratories"
+version     = "MKII"
+description = "MIA Laboratories analog-character delay plugin with warm, musical timing control."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://mialaboratories.com/product/miadelay-dt/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mialaboratories.com/product/miadelay-dt/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mialaboratories.com/product/miadelay-dt/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

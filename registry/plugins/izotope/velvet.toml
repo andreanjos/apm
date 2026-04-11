@@ -1,0 +1,27 @@
+slug        = "velvet"
+name        = "Velvet"
+vendor      = "iZotope"
+version     = "1.0.0"
+description = "Intelligent de-esser that splits sibilance and tonal channels for precise, natural-sounding de-essing."
+category    = "effects"
+subcategory = "de esser"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products/velvet"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/14847-Velvet?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products/velvet"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products/velvet"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

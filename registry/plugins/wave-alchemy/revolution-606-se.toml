@@ -1,0 +1,26 @@
+slug        = "revolution-606-se"
+name        = "Revolution 606 SE"
+vendor      = "Wave Alchemy"
+version     = "1.0.0"
+description = "Free Kontakt instrument with 126 samples from the iconic TR-606 drum machine across multiple signal chains."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.wavealchemy.co.uk/product/revolution/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/1389-Revolution-606-SE?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.wavealchemy.co.uk/product/revolution/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.wavealchemy.co.uk/product/revolution/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

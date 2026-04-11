@@ -1,0 +1,24 @@
+slug        = "spread-light"
+name        = "Spread Light"
+vendor      = "Yum Audio"
+version     = "1.0.0"
+description = "Lightweight stereo width plugin for narrowing or widening the stereo field during mixing and mastering."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.yum-audio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.yum-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.yum-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

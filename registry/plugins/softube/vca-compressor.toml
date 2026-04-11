@@ -1,0 +1,26 @@
+slug        = "vca-compressor"
+name        = "VCA Compressor"
+vendor      = "Softube"
+version     = "2.6"
+description = "VCA-style compressor plugin with punchy, transparent gain reduction for drums and full mixes."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/vca-compressor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/vca-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/vca-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "abbey-road-orchestra-high-percussion-professional"
+name        = "Abbey Road Orchestra: High Percussion Professional"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Professional high percussion library recorded with the Abbey Road Orchestra at the iconic London studio."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/shop/a-z/abbey-road-orchestra-high-percussion-professional/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/shop/a-z/abbey-road-orchestra-high-percussion-professional/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/shop/a-z/abbey-road-orchestra-high-percussion-professional/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "spaceman"
+name        = "SpaceMan"
+vendor      = "Rhythmic Robot"
+version     = "1.0"
+description = "A Kontakt spring reverb-based sound design machine capable of sharp hits and evolving lo-fi textures."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rhythmicrobot.com/product/spaceman"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rhythmicrobot.com/product/spaceman"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rhythmicrobot.com/product/spaceman"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

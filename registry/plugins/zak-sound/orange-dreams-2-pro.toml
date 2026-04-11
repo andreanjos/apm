@@ -1,0 +1,26 @@
+slug        = "orange-dreams-2-pro"
+name        = "Orange Dreams 2 Pro"
+vendor      = "ZAK Sound"
+version     = "2"
+description = "Full-featured lofi/hip-hop instrument with 140 presets, dual samplers, synth, and vintage effects rack."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://zaksound.com/orange-dreams/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12607-Orange-Dreams-2-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zaksound.com/orange-dreams/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zaksound.com/orange-dreams/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

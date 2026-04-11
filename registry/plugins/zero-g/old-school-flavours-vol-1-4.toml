@@ -1,0 +1,25 @@
+slug        = "old-school-flavours-vol-1-4"
+name        = "Old School Flavours Vol. 1-4"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Classic old school hip-hop and R&B sample collection spanning multiple volumes of authentic urban grooves."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

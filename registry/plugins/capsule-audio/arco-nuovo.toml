@@ -1,0 +1,25 @@
+slug        = "arco-nuovo"
+name        = "Arco Nuovo"
+vendor      = "Capsule Audio"
+version     = "1.0.0"
+description = "Capsule orchestral strings library that layers acoustic and synthesized elements for contemporary atmospheres."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.capsule.audio/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

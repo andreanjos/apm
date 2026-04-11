@@ -1,0 +1,24 @@
+slug        = "t-racks-tape-machine-collection"
+name        = "T-RackS Tape Machine Collection"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "T-RackS Tape Machine Collection with four modeled tape machines: JH24, A80, PR99, and Ampex AG440B."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/trtapemac/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/trtapemac/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/trtapemac/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

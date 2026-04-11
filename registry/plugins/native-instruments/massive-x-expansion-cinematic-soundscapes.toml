@@ -1,0 +1,27 @@
+slug        = "massive-x-expansion-cinematic-soundscapes"
+name        = "Massive X Expansion Cinematic Soundscapes"
+vendor      = "Native Instruments"
+version     = "1.0"
+description = "50 Massive X presets — emotive textures and layered atmospheres built for the big screen."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/expansions/massive-x-expansions/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/16323-Massive-X-Expansion-Cinematic-Soundscapes?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/expansions/massive-x-expansions/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/expansions/massive-x-expansions/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

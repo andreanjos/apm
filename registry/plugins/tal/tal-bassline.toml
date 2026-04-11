@@ -1,0 +1,26 @@
+slug        = "tal-bassline"
+name        = "TAL Bassline"
+vendor      = "TAL"
+version     = "1.0.0"
+description = "Virtual analog bass synthesizer with a unique -18dB low-pass filter for warm, acid, and bass sounds."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://tal-software.com/products/tal-bassline"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/434-TAL-Bassline?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://tal-software.com/products/tal-bassline"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://tal-software.com/products/tal-bassline"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

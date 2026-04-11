@@ -1,0 +1,25 @@
+slug        = "lx122-premium"
+name        = "LX122 Premium"
+vendor      = "XILS Lab"
+version     = "1.0.3"
+description = "Premium Leslie rotating speaker emulation with True Stereo Dynamic Engine and tube amplifier modeling."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.xils-lab.com/store/lx122/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.xils-lab.com/store/lx122/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.xils-lab.com/store/lx122/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

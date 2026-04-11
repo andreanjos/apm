@@ -1,0 +1,26 @@
+slug        = "sonic-sweep-2"
+name        = "Sonic Sweep 2"
+vendor      = "Rave Generation"
+version     = "1.0.0"
+description = "Channel strip plugin combining EQ, dynamics, and sweeping filter controls in one interface."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+homepage    = "https://ravegeneration.io/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/16781-Sonic-Sweep-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://ravegeneration.io/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://ravegeneration.io/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "giada"
+name        = "Giada"
+vendor      = "Giada"
+version     = "0.18"
+description = "Giada is a free, open-source loop machine and sampler for live performance and production."
+category    = "instruments"
+subcategory = "sampler"
+license     = "commercial"
+tags        = []
+homepage    = "https://giadamusic.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/666-Giada?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://giadamusic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://giadamusic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

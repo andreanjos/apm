@@ -1,0 +1,26 @@
+slug        = "bfd-london-sessions"
+name        = "BFD London Sessions"
+vendor      = "BFD"
+version     = "1.0"
+description = "BFD3 expansion with 10 vintage and modern kits from AIR Studios tracked through a Neve console."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bfddrums.com/bfd3-expansions/london-sessions/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/1596-BFD-London-Sessions?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bfddrums.com/bfd3-expansions/london-sessions/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bfddrums.com/bfd3-expansions/london-sessions/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "the-sauce"
+name        = "The Sauce"
+vendor      = "DJ Swivel"
+version     = "1.0.0"
+description = "All-in-one vocal transformation plugin with essential creative processing ingredients."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://swivel-audio.com/the-sauce"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://swivel-audio.com/the-sauce"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://swivel-audio.com/the-sauce"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

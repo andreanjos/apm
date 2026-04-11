@@ -1,0 +1,26 @@
+slug        = "tomofon"
+name        = "Tomofon"
+vendor      = "Klevgrand"
+version     = "1.0"
+description = "An expressive audio synth using an Audio Model format with thousands of waves extracted from real audio."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://klevgrand.com/products/tomofon"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10064-Tomofon?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://klevgrand.com/products/tomofon"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://klevgrand.com/products/tomofon"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

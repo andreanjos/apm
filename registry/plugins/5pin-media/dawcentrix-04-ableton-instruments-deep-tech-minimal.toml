@@ -1,0 +1,26 @@
+slug        = "dawcentrix-04-ableton-instruments-deep-tech-minimal"
+name        = "DAWcentrix 04 Ableton Instruments Deep Tech Minimal"
+vendor      = "5Pin Media"
+version     = "1.0.0"
+description = "250 Ableton Instrument Rack presets for deep tech, minimal techno, and tech house requiring Ableton Live 11 Suite."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://5pinmedia.com/product/ableton-instruments-deep-tech-minimal/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11062-DAWcentrix-04-Ableton-Instruments-Deep-Tech-Minimal?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://5pinmedia.com/product/ableton-instruments-deep-tech-minimal/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://5pinmedia.com/product/ableton-instruments-deep-tech-minimal/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

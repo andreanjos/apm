@@ -1,0 +1,26 @@
+slug        = "curve-2"
+name        = "Curve 2"
+vendor      = "Cableguys"
+version     = "2"
+description = "Software synthesizer with a unique Wave Editor for drawing custom waveforms, dual filters, and modulation matrix."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.cableguys.com/curve"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/632-Curve-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.cableguys.com/curve"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.cableguys.com/curve"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

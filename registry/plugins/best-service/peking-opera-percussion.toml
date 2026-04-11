@@ -1,0 +1,25 @@
+slug        = "peking-opera-percussion"
+name        = "Peking Opera Percussion"
+vendor      = "Best Service"
+version     = "1.0.0"
+description = "Collection of high-quality drum and percussion instruments from traditional Chinese Peking Opera and Kunqu Opera."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/peking_opera_percussion.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/peking_opera_percussion.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/peking_opera_percussion.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

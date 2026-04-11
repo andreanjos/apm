@@ -1,0 +1,26 @@
+slug        = "vrev-63-surf-spring-reverb"
+name        = "VREV 63 Surf Spring Reverb"
+vendor      = "Fuse Audio Labs"
+version     = "2.7"
+description = "Surf-style spring reverb plugin emulating the splashy, wet sound of vintage guitar spring reverbs."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://fuseaudiolabs.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/13541-VREV-63-Surf-Spring-Reverb?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://fuseaudiolabs.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://fuseaudiolabs.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

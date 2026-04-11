@@ -1,0 +1,26 @@
+slug        = "brown-sound-78-79-signature-collection"
+name        = "Brown Sound 78 79 Signature Collection"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "TONEX Signature Collection capturing the legendary Brown Sound guitar tones from 1978 and 1979."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/tonex-brown-sound/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/14909-Brown-Sound-78-79-Signature-Collection?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/tonex-brown-sound/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/tonex-brown-sound/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

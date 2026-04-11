@@ -1,0 +1,25 @@
+slug        = "monopolyphonix"
+name        = "Monopolyphonix"
+vendor      = "Hideaway Studio"
+version     = "1.0.0"
+description = "Kontakt instrument sampled from a restored 1974 Farfisa Syntorchestra with a 4-voice layering engine."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://hideawaystudio.net/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hideawaystudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hideawaystudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

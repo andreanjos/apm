@@ -1,0 +1,25 @@
+slug        = "rave-synths-038-leads-1-plugin-instrument"
+name        = "Rave synths &#038; leads 1 plugin instrument"
+vendor      = "Eplex7 DSP"
+version     = "1.0.0"
+description = "Plugin instrument with classic 90s and modern rave synths, hoovers, and leads."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eplex7.com/rave-synths-1-plugin-instrument/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eplex7.com/rave-synths-1-plugin-instrument/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eplex7.com/rave-synths-1-plugin-instrument/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

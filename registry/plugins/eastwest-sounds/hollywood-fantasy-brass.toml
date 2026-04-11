@@ -1,0 +1,26 @@
+slug        = "hollywood-fantasy-brass"
+name        = "Hollywood Fantasy Brass"
+vendor      = "EastWest Sounds"
+version     = "1.0.0"
+description = "Fantasy brass library with Wagner tubas, flugelhorns, alpenhorns, and historic brass ensembles."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15543-Hollywood-Fantasy-Brass?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/orchestras/hollywood-fantasy-orchestra"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

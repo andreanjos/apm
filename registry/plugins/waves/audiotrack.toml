@@ -1,0 +1,25 @@
+slug        = "audiotrack"
+name        = "AudioTrack"
+vendor      = "Waves"
+version     = "14.0"
+description = "All-in-one channel strip combining EQ, compression, gating, and limiting for fast mixing."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/audiotrack"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/audiotrack"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/audiotrack"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

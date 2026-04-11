@@ -1,0 +1,26 @@
+slug        = "marshall-bluesbreaker-1962-softube"
+name        = "Marshall Bluesbreaker 1962"
+vendor      = "Softube"
+version     = "2.6"
+description = "Amp simulator modeled on the iconic Marshall Bluesbreaker 1962 combo for classic British blues tone."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-bluesbreaker-1962"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-bluesbreaker-1962"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/guitar-bass/marshall-bluesbreaker-1962"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

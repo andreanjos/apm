@@ -1,0 +1,26 @@
+slug        = "w495"
+name        = "W495"
+vendor      = "Pulsar Audio"
+version     = "1.2.11"
+description = "Analog-modelled EQ plugin emulating the classic Neve 1073/1084 console equalizer circuit."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://pulsar.audio/w495/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11213-W495?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://pulsar.audio/w495/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://pulsar.audio/w495/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

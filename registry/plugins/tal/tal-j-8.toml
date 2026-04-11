@@ -1,0 +1,26 @@
+slug        = "tal-j-8"
+name        = "TAL J 8"
+vendor      = "TAL"
+version     = "2.0.6"
+description = "Meticulous emulation of the Roland Jupiter 8 synthesizer with VCO unison, MPE support, and 300+ factory presets."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://tal-software.com/products/tal-j-8"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/9674-TAL-J-8?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://tal-software.com/products/tal-j-8"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://tal-software.com/products/tal-j-8"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

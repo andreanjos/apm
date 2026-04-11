@@ -1,0 +1,24 @@
+slug        = "vocalign-ultra-upgrade"
+name        = "VocALign Ultra Upgrade"
+vendor      = "Synchro Arts"
+version     = "1.0.0"
+description = "Upgrade license to VocAlign Ultra for users of previous VocAlign versions."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://synchroarts.com/products/vocalign-pro"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synchroarts.com/products/vocalign-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synchroarts.com/products/vocalign-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

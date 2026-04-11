@@ -1,0 +1,25 @@
+slug        = "bocs-bundle"
+name        = "BOCS Bundle"
+vendor      = "AudioWarp"
+version     = "1.0.0"
+description = "Complete Boards of Canada-inspired Kontakt bundle with all three BOCS volumes, 55 patches."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kvraudio.com/developer/audiowarp"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kvraudio.com/developer/audiowarp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kvraudio.com/developer/audiowarp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

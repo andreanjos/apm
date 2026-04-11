@@ -1,0 +1,25 @@
+slug        = "world-percussion-2-0"
+name        = "World Percussion 2.0"
+vendor      = "Evolution Series"
+version     = "2.0"
+description = "Comprehensive 45 GB Kontakt library of 111 world percussion instruments from five continents."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.evolutionseries.com/product-category/world-percussion/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.evolutionseries.com/product-category/world-percussion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.evolutionseries.com/product-category/world-percussion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

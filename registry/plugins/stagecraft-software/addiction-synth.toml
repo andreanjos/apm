@@ -1,0 +1,26 @@
+slug        = "addiction-synth"
+name        = "Addiction Synth"
+vendor      = "Stagecraft Software"
+version     = "1.0.0"
+description = "Subtractive synthesizer VST plugin for creating a wide range of classic and modern synth sounds."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.stagecraftsoftware.com/products/addictionsynth/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1240-Addiction-Synth?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.stagecraftsoftware.com/products/addictionsynth/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.stagecraftsoftware.com/products/addictionsynth/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "revolver-convolution-reverb-plugin-v6-native"
+name        = "Revolver Convolution Reverb Plugin v6 Native"
+vendor      = "McDSP"
+version     = "6.0"
+description = "Native v6 of McDSP Revolver convolution reverb plugin with realistic space modeling."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://mcdsp.com/plugin-index/revolver/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mcdsp.com/plugin-index/revolver/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mcdsp.com/plugin-index/revolver/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "gem-modula"
+name        = "GEM Modula"
+vendor      = "Overloud"
+version     = "1.0.0"
+description = "Three modulation processors in one plugin: Dimension, Ensemble and Symphonic chorus effects."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.overloud.com/gems"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.overloud.com/gems"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.overloud.com/gems"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

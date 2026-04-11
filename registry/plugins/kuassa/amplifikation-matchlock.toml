@@ -1,0 +1,25 @@
+slug        = "amplifikation-matchlock"
+name        = "Amplifikation Matchlock"
+vendor      = "Kuassa"
+version     = "1.0.0"
+description = "Fender-inspired American combo guitar amp simulator with three amp types and classic tones."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kuassa.com/products/amplifikation-matchlock/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kuassa.com/products/amplifikation-matchlock/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kuassa.com/products/amplifikation-matchlock/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

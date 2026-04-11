@@ -1,0 +1,26 @@
+slug        = "ancient-kingdom"
+name        = "Ancient Kingdom"
+vendor      = "EastWest Sounds"
+version     = "1.0.0"
+description = "345 rare world wind instruments across 26 categories from Armenian Duduk to Viking War Horns."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/world-and-traditional/ancient-kingdom"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15605-Ancient-Kingdom?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/world-and-traditional/ancient-kingdom"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/world-and-traditional/ancient-kingdom"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

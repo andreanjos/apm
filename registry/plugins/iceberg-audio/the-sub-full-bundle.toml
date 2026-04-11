@@ -1,0 +1,26 @@
+slug        = "the-sub-full-bundle"
+name        = "The Sub Full Bundle"
+vendor      = "Iceberg Audio"
+version     = "1.0.0"
+description = "Complete package of The Sub with 10 expansion packs and 2 free packs for comprehensive sub bass production."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://icebergaudio.com/shop/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/10080-The-Sub-Full-Bundle?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://icebergaudio.com/shop/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://icebergaudio.com/shop/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "diode-609"
+name        = "Diode 609"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Analog-modeled diode bridge compressor plugin inspired by the classic Neve 33609."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/diode-609/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16018-Diode-609?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/diode-609/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/diode-609/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

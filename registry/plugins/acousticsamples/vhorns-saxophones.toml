@@ -1,0 +1,25 @@
+slug        = "vhorns-saxophones"
+name        = "VHorns Saxophones"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Sampling and modeling hybrid of eight saxophones: two each of soprano, alto, tenor, and baritone."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/vhornssaxophones"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/vhornssaxophones"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/vhornssaxophones"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

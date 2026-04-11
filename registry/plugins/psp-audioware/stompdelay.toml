@@ -1,0 +1,25 @@
+slug        = "stompdelay"
+name        = "stompDelay"
+vendor      = "PSP Audioware"
+version     = "1.1.3"
+description = "Creative delay plugin covering analog tape delays, ping-pong, vibrant loops, and pitch-shifted effects."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-stompdelay"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-stompdelay"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-stompdelay"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

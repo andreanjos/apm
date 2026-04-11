@@ -1,0 +1,24 @@
+slug        = "fusion-stereo-image"
+name        = "Fusion Stereo Image"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "SSL Fusion-derived stereo width plugin using analog mid-side processing for immersive stereo fields."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-stereo-image"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-stereo-image"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-stereo-image"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "mstereogenerator"
+name        = "MStereoGenerator"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Expand mono to stereo naturally with this unique mono-to-stereo expander plugin."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MStereoGenerator"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MStereoGenerator"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MStereoGenerator"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

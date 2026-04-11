@@ -1,0 +1,26 @@
+slug        = "diversion"
+name        = "Diversion"
+vendor      = "DS Audio"
+version     = "1.6"
+description = "DS Audio Diversion is a versatile subtractive/wavetable synthesizer with complex modulation."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.dsoudsystem.com/diversion/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/4737-Diversion?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.dsoudsystem.com/diversion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.dsoudsystem.com/diversion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

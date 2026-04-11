@@ -1,0 +1,24 @@
+slug        = "bassblaster"
+name        = "BassBlaster"
+vendor      = "Eplex7 DSP"
+version     = "1.0.0"
+description = "Futuristic bass plugin effect generating alien and mechanic basslines for electronic music."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eplex7.com/product/bassblaster/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eplex7.com/product/bassblaster/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eplex7.com/product/bassblaster/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

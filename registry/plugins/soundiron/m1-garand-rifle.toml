@@ -1,0 +1,25 @@
+slug        = "m1-garand-rifle"
+name        = "M1 Garand Rifle"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Detailed Kontakt library of the iconic M1 Garand rifle with mechanical sounds and impacts."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/m1-garand-rifle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/m1-garand-rifle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/m1-garand-rifle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

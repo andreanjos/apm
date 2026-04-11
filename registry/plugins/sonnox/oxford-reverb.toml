@@ -1,0 +1,26 @@
+slug        = "oxford-reverb"
+name        = "Oxford Reverb"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Highly flexible algorithmic reverb plugin offering precise control over early reflections, tail, EQ, and spatial design."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/oxford-reverb"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/915-Oxford-Reverb?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/oxford-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/oxford-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

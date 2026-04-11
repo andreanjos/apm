@@ -1,0 +1,24 @@
+slug        = "crtiv-shumovick"
+name        = "CRTIV Shumovick"
+vendor      = "Voxengo"
+version     = "1.3"
+description = "Creative dynamic noise-floor padding effect plugin for adding texture to electronic music productions."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/crtivshum/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/crtivshum/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/crtivshum/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "formula-3-year-subscription"
+name        = "Formula 3 Year Subscription"
+vendor      = "Soundspear"
+version     = "1.0.0"
+description = "3-year subscription to Formula, Soundspear's free open-source audio effects development plugin."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundspear.com/product/formula"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundspear.com/product/formula"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundspear.com/product/formula"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

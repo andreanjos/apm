@@ -1,0 +1,24 @@
+slug        = "tonespot-voice-pro"
+name        = "ToneSpot Voice Pro"
+vendor      = "Audified"
+version     = "1.0.0"
+description = "Professional vocal mixing plugin with advanced processing modules for polished, genre-ready vocal sounds."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/tonespot-voice-pro/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/tonespot-voice-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/tonespot-voice-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

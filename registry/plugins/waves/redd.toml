@@ -1,0 +1,26 @@
+slug        = "redd"
+name        = "REDD"
+vendor      = "Waves"
+version     = "14.0"
+description = "Emulation of the vintage EMI REDD.37 and REDD.51 tube console equalizers from Abbey Road."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/redd"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/redd"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/redd"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "hertz-drums-2-white-pack"
+name        = "Hertz Drums 2 White Pack"
+vendor      = "Hertz Instruments"
+version     = "1.0.0"
+description = "Hertz Drums 2 expansion with a balanced American Maple kit for tight, mix-gluing drum sounds."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://hertzinstruments.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/13279-Hertz-Drums-2-White-Pack?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hertzinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hertzinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

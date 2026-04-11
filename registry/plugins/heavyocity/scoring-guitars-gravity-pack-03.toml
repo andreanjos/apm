@@ -1,0 +1,25 @@
+slug        = "scoring-guitars-gravity-pack-03"
+name        = "Scoring Guitars Gravity Pack 03"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Cinematic electric guitar library with guitar pads, performance palettes, and tempo-synced loops."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/scoring-guitars"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/scoring-guitars"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/scoring-guitars"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

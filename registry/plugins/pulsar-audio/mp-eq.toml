@@ -1,0 +1,26 @@
+slug        = "mp-eq"
+name        = "MP EQ"
+vendor      = "Pulsar Audio"
+version     = "2.0.6"
+description = "Analog-modelled minimum-phase equalizer offering warm, musical frequency shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://pulsar.audio/mp-eq/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/9101-MP-EQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://pulsar.audio/mp-eq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://pulsar.audio/mp-eq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

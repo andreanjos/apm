@@ -1,0 +1,26 @@
+slug        = "mercury-bundle"
+name        = "Mercury Bundle"
+vendor      = "Waves"
+version     = "14.0"
+description = "Waves' ultimate bundle with every plugin for professional mixing and music production."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/mercury-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/mercury-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/mercury-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

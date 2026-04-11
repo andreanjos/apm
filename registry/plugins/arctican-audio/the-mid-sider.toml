@@ -1,0 +1,26 @@
+slug        = "the-mid-sider"
+name        = "The Mid Sider"
+vendor      = "Arctican Audio"
+version     = "1.0"
+description = "Mid/side stereo processing plugin by Arctican Audio for precise spatial manipulation."
+category    = "effects"
+subcategory = "stereo width"
+license     = "commercial"
+tags        = []
+homepage    = "https://arcticanaudio.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/594-The-Mid-Sider?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://arcticanaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://arcticanaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

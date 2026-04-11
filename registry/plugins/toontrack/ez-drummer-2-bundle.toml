@@ -1,0 +1,26 @@
+slug        = "ez-drummer-2-bundle"
+name        = "EZ Drummer 2 Bundle"
+vendor      = "Toontrack"
+version     = "2.2.3"
+description = "EZdrummer 2 bundle combining the drum instrument with expansion content for realistic acoustic drum production."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+installer   = "toontrack-product-manager"
+homepage    = "https://www.toontrack.com/product/ezdrummer-2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.toontrack.com/product/ezdrummer-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.toontrack.com/product/ezdrummer-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

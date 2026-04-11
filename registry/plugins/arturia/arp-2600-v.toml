@@ -1,0 +1,26 @@
+slug        = "arp-2600-v"
+name        = "ARP 2600 V"
+vendor      = "Arturia"
+version     = "3.13.4"
+description = "Virtual recreation of the iconic ARP 2600 semi-modular analog synthesizer."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-instruments/arp2600v/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-instruments/arp2600v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-instruments/arp2600v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

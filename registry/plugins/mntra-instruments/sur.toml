@@ -1,0 +1,26 @@
+slug        = "sur"
+name        = "Sur"
+vendor      = "MNTRA Instruments"
+version     = "1.0.0"
+description = "Free Indian drone plugin with Tanpura and Shruti Box for raga practice, ambient, and meditation."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.mntra.io/product/sur/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/12030-Sur?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.mntra.io/product/sur/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.mntra.io/product/sur/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

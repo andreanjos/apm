@@ -1,0 +1,26 @@
+slug        = "landr-mastering-plugin-pro"
+name        = "LANDR Mastering Plugin PRO"
+vendor      = "LANDR"
+version     = "1.0"
+description = "AI-powered mastering plugin with unlimited masters, advanced personalization controls, and loudness targeting."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.landr.com/plugins/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/11463-LANDR-Mastering-Plugin-PRO?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.landr.com/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.landr.com/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

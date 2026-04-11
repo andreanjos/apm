@@ -1,0 +1,26 @@
+slug        = "dpmeter5"
+name        = "dpMeter5"
+vendor      = "TBProAudio"
+version     = "5.3.7"
+description = "Free multi-channel meter with RMS, EBU R128, and TruePeak measurement standards."
+category    = "utility"
+subcategory = "metering"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tbproaudio.de/products/dpmeter"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/15891-dpMeter5?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tbproaudio.de/products/dpmeter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tbproaudio.de/products/dpmeter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

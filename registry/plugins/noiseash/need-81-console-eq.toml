@@ -1,0 +1,25 @@
+slug        = "need-81-console-eq"
+name        = "NEED 81 Console Eq"
+vendor      = "NoiseAsh"
+version     = "1.0.0"
+description = "British console EQ modeled on the Neve 1081 module with four-band parametric equalization."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://noiseash.com/need-81-console-eq/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://noiseash.com/need-81-console-eq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://noiseash.com/need-81-console-eq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

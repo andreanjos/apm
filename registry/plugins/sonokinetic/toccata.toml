@@ -1,0 +1,25 @@
+slug        = "toccata"
+name        = "Toccata"
+vendor      = "Sonokinetic"
+version     = "1.0.0"
+description = "Large pipe church organ multi-sampled Kontakt library for classical and cinematic organ sounds."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonokinetic.net/products/instruments/toccata/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonokinetic.net/products/instruments/toccata/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonokinetic.net/products/instruments/toccata/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

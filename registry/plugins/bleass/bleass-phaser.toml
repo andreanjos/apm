@@ -1,0 +1,26 @@
+slug        = "bleass-phaser"
+name        = "BLEASS Phaser"
+vendor      = "BLEASS"
+version     = "1.0"
+description = "All-encompassing phaser effect from resonant swirls to stunning atmospheric stereo sounds."
+category    = "effects"
+subcategory = "phaser"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bleass.com/phaser/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/8104-BLEASS-Phaser?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bleass.com/phaser/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bleass.com/phaser/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

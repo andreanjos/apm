@@ -1,0 +1,25 @@
+slug        = "power-mix-bundle"
+name        = "Power Mix Bundle"
+vendor      = "DUY"
+version     = "1.0.0"
+description = "DUY bundle of mixing-focused plugins combining dynamics, EQ, and analog-modeled bus processing."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://duy.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

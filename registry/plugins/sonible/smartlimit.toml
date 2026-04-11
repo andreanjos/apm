@@ -1,0 +1,25 @@
+slug        = "smartlimit"
+name        = "smart:limit"
+vendor      = "sonible"
+version     = "1.0.0"
+description = "Content-aware mastering limiter with intelligent automatic loudness targeting and stream-ready metering."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonible.com/smartlimit/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonible.com/smartlimit/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonible.com/smartlimit/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "stx-70"
+name        = "STX-70"
+vendor      = "Sampletrip"
+version     = "1.0.0"
+description = "Kontakt FM electric piano library inspired by Yamaha TX7 synthesizer module sounds."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kvraudio.com/product/stx-70-by-sampletrip"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kvraudio.com/product/stx-70-by-sampletrip"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kvraudio.com/product/stx-70-by-sampletrip"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "altus-crossgrade"
+name        = "Altus Crossgrade"
+vendor      = "Best Service"
+version     = "1.0.0"
+description = "Crossgrade to Altus, the countertenor vocal library by José Hernández Pastor for Renaissance and Baroque music."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/altus_crossgrade.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/altus_crossgrade.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/altus_crossgrade.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

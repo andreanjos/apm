@@ -1,0 +1,25 @@
+slug        = "prodrummer-volumes-1-2-bundle"
+name        = "ProDrummer Volumes 1 & 2 Bundle"
+vendor      = "EastWest"
+version     = "1.0.0"
+description = "Bundle of EastWest ProDrummer Vol 1 and Vol 2 professional acoustic drum instruments."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/drums-and-percussion/prodrummer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

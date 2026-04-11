@@ -1,0 +1,26 @@
+slug        = "tube-bell"
+name        = "Tube Bell"
+vendor      = "Three Body Technology"
+version     = "2.0"
+description = "Mid-frequency tube EQ plugin with two Peak sections and one Dip section using Bell-type filters."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.threebodytech.com/en/products/deepvintage"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14715-Tube-Bell?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.threebodytech.com/en/products/deepvintage"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.threebodytech.com/en/products/deepvintage"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "yumtone-h4"
+name        = "Yumtone H4"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Vintage Yumtone H4 keyboard Kontakt instrument with retro, characterful electronic tones."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/yumtone-h4"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/yumtone-h4"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/yumtone-h4"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

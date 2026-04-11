@@ -1,0 +1,25 @@
+slug        = "ae400-active-eq"
+name        = "AE400 Active EQ"
+vendor      = "McDSP"
+version     = "7.0"
+description = "McDSP's AE400 Active EQ with 4 overlapping bands of fixed and active equalization."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://mcdsp.com/plugin-index/ae400/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mcdsp.com/plugin-index/ae400/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mcdsp.com/plugin-index/ae400/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

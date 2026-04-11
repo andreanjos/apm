@@ -1,0 +1,25 @@
+slug        = "m-tron-world"
+name        = "M-Tron World"
+vendor      = "GForce Software"
+version     = "1.0.0"
+description = "M-Tron expansion featuring global and world music tape banks for diverse ethnic and orchestral keyboard sounds."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.gforcesoftware.com/product/m-tron-world/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.gforcesoftware.com/product/m-tron-world/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.gforcesoftware.com/product/m-tron-world/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

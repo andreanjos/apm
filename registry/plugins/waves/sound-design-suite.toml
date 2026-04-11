@@ -1,0 +1,26 @@
+slug        = "sound-design-suite"
+name        = "Sound Design Suite"
+vendor      = "Waves"
+version     = "14.0"
+description = "Bundle of creative sound design tools for film, TV, and experimental audio production."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/sound-design-suite"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/sound-design-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/sound-design-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

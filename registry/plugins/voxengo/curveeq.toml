@@ -1,0 +1,25 @@
+slug        = "curveeq"
+name        = "CurveEQ"
+vendor      = "Voxengo"
+version     = "3.15"
+description = "Spline-based equalizer plugin displaying a smooth curve filter response with spectrum visualization."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/curveeq/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/curveeq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/curveeq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

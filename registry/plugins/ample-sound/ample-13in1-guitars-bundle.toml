@@ -1,0 +1,25 @@
+slug        = "ample-13in1-guitars-bundle"
+name        = "Ample 13in1 Guitars Bundle"
+vendor      = "Ample Sound"
+version     = "1.0.0"
+description = "Comprehensive Ample Sound bundle of 13 guitar virtual instruments across multiple styles."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.amplesound.net/en/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.amplesound.net/en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.amplesound.net/en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

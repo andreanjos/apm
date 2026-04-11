@@ -1,0 +1,26 @@
+slug        = "renaissance-compressor"
+name        = "Renaissance Compressor"
+vendor      = "Waves"
+version     = "14.0"
+description = "Musical vintage-style compressor for warm, natural-sounding dynamics control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/renaissance-compressor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/renaissance-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/renaissance-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

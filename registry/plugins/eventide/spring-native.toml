@@ -1,0 +1,24 @@
+slug        = "spring-native"
+name        = "Spring Native"
+vendor      = "Eventide"
+version     = "1.0.0"
+description = "Native version of Eventide's Spring reverb emulating vintage guitar amp spring tanks with tremolo."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eventideaudio.com/plug-ins/spring/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eventideaudio.com/plug-ins/spring/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eventideaudio.com/plug-ins/spring/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "retropolis"
+name        = "Retropolis"
+vendor      = "Loot Audio"
+version     = "1.0.0"
+description = "Kontakt instrument library from classic analog synths with 200+ snapshots across bass, strings, and pads."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.lootaudio.com/category/kontakt-instruments/synthmagic/retropolis-kontakt"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/9790-Retropolis?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.lootaudio.com/category/kontakt-instruments/synthmagic/retropolis-kontakt"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.lootaudio.com/category/kontakt-instruments/synthmagic/retropolis-kontakt"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

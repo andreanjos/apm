@@ -1,0 +1,26 @@
+slug        = "microtonic"
+name        = "Microtonic"
+vendor      = "Sonic Charge"
+version     = "3.3.4"
+description = "Pattern-based drum synthesizer and MIDI sequencer for creating electronic percussion sounds."
+category    = "instruments"
+subcategory = "drum synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://soniccharge.com/microtonic"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/139-Drum-Synth/70-Microtonic?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soniccharge.com/microtonic"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soniccharge.com/microtonic"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

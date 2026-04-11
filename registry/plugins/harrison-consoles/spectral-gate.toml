@@ -1,0 +1,26 @@
+slug        = "spectral-gate"
+name        = "Spectral Gate"
+vendor      = "Harrison Consoles"
+version     = "1.0.0"
+description = "Intelligent frequency-dependent noise gate that learns the tonal fingerprint of your source for clean gating."
+category    = "effects"
+subcategory = "gate"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.harrisonaudio.com/all-products/spectral-gate"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/15412-Spectral-Gate?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.harrisonaudio.com/all-products/spectral-gate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.harrisonaudio.com/all-products/spectral-gate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

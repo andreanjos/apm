@@ -1,0 +1,25 @@
+slug        = "lofi-keys"
+name        = "Lofi Keys"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "Instant lo-fi virtual instrument with classic electric pianos and synths resampled through vintage tape."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/product/lofi-keys/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/product/lofi-keys/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/product/lofi-keys/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "composercloud-plus-1-year-subscription"
+name        = "ComposerCloud Plus 1 Year Subscription"
+vendor      = "EastWest"
+version     = "1.0.0"
+description = "Annual subscription to EastWest's full catalog of 80+ virtual instrument collections."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/composercloud"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/composercloud"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/composercloud"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

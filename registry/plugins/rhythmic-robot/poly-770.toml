@@ -1,0 +1,25 @@
+slug        = "poly-770"
+name        = "Poly 770"
+vendor      = "Rhythmic Robot"
+version     = "1.0"
+description = "A polyphonic Kontakt instrument fusing the Korg 770 monosynth to sophisticated controls and 40 patches."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rhythmicrobot.com/product/poly_770"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rhythmicrobot.com/product/poly_770"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rhythmicrobot.com/product/poly_770"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

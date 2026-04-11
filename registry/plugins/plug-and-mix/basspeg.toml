@@ -1,0 +1,25 @@
+slug        = "basspeg"
+name        = "Basspeg"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Bass amp simulator plugin emulating classic bass amplifier tones for electric bass guitar."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p2491-Basspeg/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p2491-Basspeg/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p2491-Basspeg/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

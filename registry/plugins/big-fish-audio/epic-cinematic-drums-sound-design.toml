@@ -1,0 +1,26 @@
+slug        = "epic-cinematic-drums-sound-design"
+name        = "Epic Cinematic Drums Sound Design"
+vendor      = "Big Fish Audio"
+version     = "1.0.0"
+description = "Big Fish Audio 10.3 GB Kontakt library with cinematic drums, loops, and 388 sound design FX."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bigfishaudio.com/Epic-Cinematic-Drums-Sound-Design"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/813-Epic-Cinematic-Drums-Sound-Design?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bigfishaudio.com/Epic-Cinematic-Drums-Sound-Design"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bigfishaudio.com/Epic-Cinematic-Drums-Sound-Design"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

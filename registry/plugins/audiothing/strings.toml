@@ -1,0 +1,25 @@
+slug        = "strings"
+name        = "Strings"
+vendor      = "AudioThing"
+version     = "1.0"
+description = "Kontakt instrument featuring sampled string instruments including autoharp, ukulele, toy harp, and violin."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/instruments/strings/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/instruments/strings/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/instruments/strings/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

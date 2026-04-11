@@ -1,0 +1,25 @@
+slug        = "rare-winds-collection"
+name        = "Rare Winds Collection"
+vendor      = "Rast Sound"
+version     = "1.0.0"
+description = "Collection of rare world wind instrument Kontakt libraries from diverse global musical traditions."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://rastsound.com/downloads/rare-winds-collection/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rastsound.com/downloads/rare-winds-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rastsound.com/downloads/rare-winds-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

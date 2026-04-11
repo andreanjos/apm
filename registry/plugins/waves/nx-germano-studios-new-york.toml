@@ -1,0 +1,26 @@
+slug        = "nx-germano-studios-new-york"
+name        = "Nx Germano Studios New York"
+vendor      = "Waves"
+version     = "14.0"
+description = "Virtual monitoring environment modeled on the renowned Germano Studios in New York."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/nx-germano-studios-new-york"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/nx-germano-studios-new-york"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/nx-germano-studios-new-york"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

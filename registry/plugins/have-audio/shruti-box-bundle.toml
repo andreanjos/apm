@@ -1,0 +1,25 @@
+slug        = "shruti-box-bundle"
+name        = "Shruti Box Bundle"
+vendor      = "Have Audio"
+version     = "1.0.0"
+description = "Indian shruti box bundle with Essential, Extended, and Harmonic Kontakt instrument blends."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://haveaudio.com/products/shruti-box-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://haveaudio.com/products/shruti-box-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://haveaudio.com/products/shruti-box-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "colours-adaptive-runs"
+name        = "Colours: Adaptive Runs"
+vendor      = "ProjectSAM"
+version     = "1.0.1"
+description = "Smartest orchestral runs library for strings, woodwinds, and brass with Adaptive Sync engine."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/colours-adaptive-runs/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/colours-adaptive-runs/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/colours-adaptive-runs/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

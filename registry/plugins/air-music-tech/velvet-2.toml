@@ -1,0 +1,25 @@
+slug        = "velvet-2"
+name        = "Velvet 2"
+vendor      = "Air Music Tech"
+version     = "2"
+description = "Electric piano plugin with detailed multisampled vintage keyboards and realistic tone controls."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/velvet"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/velvet"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/velvet"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

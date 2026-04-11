@@ -1,0 +1,25 @@
+slug        = "bute-loudness-normaliser-2-stereo"
+name        = "BUTE Loudness Normaliser 2 Stereo"
+vendor      = "Signum Audio"
+version     = "1.0.0"
+description = "Stereo loudness normaliser for offline batch processing to meet broadcast and streaming delivery specs."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.signumaudio.com/bute-loudness-suite"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.signumaudio.com/bute-loudness-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.signumaudio.com/bute-loudness-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

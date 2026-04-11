@@ -1,0 +1,26 @@
+slug        = "blue-face"
+name        = "Blue Face"
+vendor      = "Audiority"
+version     = "1.3"
+description = "Analog modeled vintage fuzz plug-in based on classic silicon fuzz pedal circuits."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/blue-face/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/4324-Blue-Face?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/blue-face/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/blue-face/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "max-038-neo-bundle"
+name        = "Max &#038; Neo Bundle"
+vendor      = "Muze"
+version     = "1.0.0"
+description = "Combined Max and Neo Kontakt instrument bundle offering a comprehensive collection of orchestral and synth sounds."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.muze.shop/en/index.php?route=product/category&path=69"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.muze.shop/en/index.php?route=product/category&path=69"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.muze.shop/en/index.php?route=product/category&path=69"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

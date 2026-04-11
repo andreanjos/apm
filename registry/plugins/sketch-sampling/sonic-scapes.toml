@@ -1,0 +1,25 @@
+slug        = "sonic-scapes"
+name        = "Sonic Scapes"
+vendor      = "Sketch Sampling"
+version     = "1.0.0"
+description = "Kontakt sound design library of evolving textures and atmospheric soundscapes."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://sketchsampling.ru/sonic-scapes/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sketchsampling.ru/sonic-scapes/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sketchsampling.ru/sonic-scapes/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

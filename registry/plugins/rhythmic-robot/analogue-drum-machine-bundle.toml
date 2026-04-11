@@ -1,0 +1,25 @@
+slug        = "analogue-drum-machine-bundle"
+name        = "Analogue Drum Machine Bundle"
+vendor      = "Rhythmic Robot"
+version     = "1.0.0"
+description = "A Rhythmic Robot bundle of multiple sampled vintage analogue drum machines for Kontakt."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rhythmicrobot.com/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rhythmicrobot.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rhythmicrobot.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

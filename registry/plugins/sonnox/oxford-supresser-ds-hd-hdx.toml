@@ -1,0 +1,25 @@
+slug        = "oxford-supresser-ds-hd-hdx"
+name        = "Oxford SuprEsser DS HD/HDX"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Oxford SuprEsser DS HD/HDX — real-time de-esser with sub-2ms latency and AAX-DSP support for live and studio use."
+category    = "effects"
+subcategory = "de-esser"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/oxford-supresser-ds"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/oxford-supresser-ds"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/oxford-supresser-ds"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

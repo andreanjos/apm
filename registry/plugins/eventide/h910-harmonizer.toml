@@ -1,0 +1,26 @@
+slug        = "h910-harmonizer"
+name        = "H910 Harmonizer"
+vendor      = "Eventide"
+version     = "1.0.0"
+description = "Classic pitch-shifting, delay, and modulation plug-in bringing the legendary H910 hardware to your DAW."
+category    = "effects"
+subcategory = "pitch shifter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eventideaudio.com/plug-ins/h910-harmonizer/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/2854-H910-Harmonizer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eventideaudio.com/plug-ins/h910-harmonizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eventideaudio.com/plug-ins/h910-harmonizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

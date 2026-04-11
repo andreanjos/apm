@@ -1,0 +1,26 @@
+slug        = "c4-multiband-compressor"
+name        = "C4 Multiband Compressor"
+vendor      = "Waves"
+version     = "14.0"
+description = "Four-band multiband dynamics processor for transparent spectral compression and expansion."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/c4-multiband-compressor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/c4-multiband-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/c4-multiband-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

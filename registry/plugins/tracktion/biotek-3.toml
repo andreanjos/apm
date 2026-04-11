@@ -1,0 +1,26 @@
+slug        = "biotek-3"
+name        = "BioTek 3"
+vendor      = "Tracktion"
+version     = "3.2"
+description = "Flagship creative synthesizer with 50+ layer support, 800+ presets, and redesigned intuitive interface."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/biotek"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/14164-BioTek-3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/biotek"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/biotek"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

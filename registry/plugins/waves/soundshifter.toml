@@ -1,0 +1,25 @@
+slug        = "soundshifter"
+name        = "SoundShifter"
+vendor      = "Waves"
+version     = "14.0"
+description = "High-quality pitch shifting and time stretching plugin for audio post and production."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/soundshifter"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/soundshifter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/soundshifter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

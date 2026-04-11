@@ -1,0 +1,25 @@
+slug        = "analog-bus"
+name        = "Analog BUS"
+vendor      = "DUY"
+version     = "1.0.0"
+description = "Plugin modeling classical vintage mixing console buses for authentic analog bus color in the DAW."
+category    = "effects"
+subcategory = "mixing"
+license     = "commercial"
+tags        = []
+homepage    = "https://duy.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

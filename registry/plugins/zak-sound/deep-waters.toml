@@ -1,0 +1,26 @@
+slug        = "deep-waters"
+name        = "Deep Waters"
+vendor      = "ZAK Sound"
+version     = "1.5"
+description = "Reverb plugin built from 77 unique water sound recordings with 104 presets for immersive soundscapes."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://zaksound.com/deep-waters/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/12621-Deep-Waters?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zaksound.com/deep-waters/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zaksound.com/deep-waters/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

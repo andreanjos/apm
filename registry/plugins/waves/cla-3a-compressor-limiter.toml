@@ -1,0 +1,26 @@
+slug        = "cla-3a-compressor-limiter"
+name        = "CLA-3A Compressor Limiter"
+vendor      = "Waves"
+version     = "14.0"
+description = "Emulation of the UA LA-3A solid-state optical limiter modeled from CLA's personal unit."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/cla-3a-compressor-limiter"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/cla-3a-compressor-limiter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/cla-3a-compressor-limiter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "sound-like-when-the-levee-breaks-kontakt"
+name        = "Sound Like When The Levee Breaks Kontakt"
+vendor      = "Just Add Drums"
+version     = "1.0.0"
+description = "Kontakt drum library recreating John Bonham's legendary Led Zeppelin drum sound."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.justadddrums.store/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/16267-Sound-Like-When-The-Levee-Breaks-Kontakt?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.justadddrums.store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.justadddrums.store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

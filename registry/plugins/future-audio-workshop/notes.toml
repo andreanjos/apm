@@ -1,0 +1,26 @@
+slug        = "notes"
+name        = "Notes"
+vendor      = "Future Audio Workshop"
+version     = "1.0.3"
+description = "Chord synthesizer with dynamic chord generation, analog sounds, and smart composition tools."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://futureaudioworkshop.com/product/notes/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16476-Notes?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://futureaudioworkshop.com/product/notes/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://futureaudioworkshop.com/product/notes/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

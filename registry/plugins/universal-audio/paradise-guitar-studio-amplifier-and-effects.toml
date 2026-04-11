@@ -1,0 +1,26 @@
+slug        = "paradise-guitar-studio-amplifier-and-effects"
+name        = "Paradise Guitar Studio Amplifier and Effects"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "UA's Paradise Guitar Studio combines amp models, speaker cabs, and effects in one plug-in."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/guitar-bass/paradise-guitar-studio.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/guitar-bass/paradise-guitar-studio.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/guitar-bass/paradise-guitar-studio.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

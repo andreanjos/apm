@@ -1,0 +1,26 @@
+slug        = "antresol"
+name        = "Antresol"
+vendor      = "D16 Group"
+version     = "1.3.2"
+description = "Accurate emulation of a 1970s BBD analog flanger with stereo LFO and mid/side processing."
+category    = "effects"
+subcategory = "flanger"
+license     = "commercial"
+tags        = []
+homepage    = "https://d16.pl/antresol"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/1580-Antresol?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://d16.pl/antresol"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://d16.pl/antresol"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "fletchy-muncher"
+name        = "Fletchy Muncher"
+vendor      = "Noisebud"
+version     = "1.0.0"
+description = "Free utility plugin that exaggerates mid-range frequency response to expose balance issues."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.noisebud.se/vst-plugins/fletchy-muncher/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/2600-Fletchy-Muncher?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.noisebud.se/vst-plugins/fletchy-muncher/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.noisebud.se/vst-plugins/fletchy-muncher/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

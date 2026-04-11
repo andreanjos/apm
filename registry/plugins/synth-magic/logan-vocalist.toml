@@ -1,0 +1,25 @@
+slug        = "logan-vocalist"
+name        = "Logan Vocalist"
+vendor      = "Synth Magic"
+version     = "1.0.0"
+description = "Kontakt library of the Logan Vocalist synthesizer, predecessor to the Logan Big Band with lush analog pads."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://synthmagic.co.uk/logan-vocalist-2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synthmagic.co.uk/logan-vocalist-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synthmagic.co.uk/logan-vocalist-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

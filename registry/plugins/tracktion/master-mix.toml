@@ -1,0 +1,25 @@
+slug        = "master-mix"
+name        = "Master Mix"
+vendor      = "Tracktion"
+version     = "1.0.0"
+description = "Mastering plugin suite providing comprehensive tools for final mix polish and loudness optimization."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "smart-limit"
+name        = "smart limit"
+vendor      = "sonible"
+version     = "1.0.0"
+description = "Content-aware limiter with automatic parametrization, loudness monitoring, and sound-shaping tools."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonible.com/smartlimit/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/8476-smart-limit?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonible.com/smartlimit/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonible.com/smartlimit/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

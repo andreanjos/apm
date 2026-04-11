@@ -1,0 +1,26 @@
+slug        = "collab3-v2-pro"
+name        = "CollaB3 V2 Pro"
+vendor      = "Sampleson"
+version     = "2"
+description = "Pro version of the spectral-modeled vintage tonewheel B3 organ with expanded features and sounds."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://sampleson.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/13296-CollaB3-V2-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sampleson.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sampleson.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

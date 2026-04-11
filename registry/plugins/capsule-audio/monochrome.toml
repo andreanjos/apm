@@ -1,0 +1,25 @@
+slug        = "monochrome"
+name        = "Monochrome"
+vendor      = "Capsule Audio"
+version     = "1.0.0"
+description = "Capsule bass and pad library with 64 presets including menacing bass layers for trap, hip-hop, and DNB."
+category    = "instruments"
+subcategory = "bass"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.capsule.audio/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

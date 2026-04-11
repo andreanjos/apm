@@ -1,0 +1,25 @@
+slug        = "dark-textures"
+name        = "Dark Textures"
+vendor      = "AudioXpression"
+version     = "1.0.0"
+description = "Kontakt library of dark ambient textures and soundscapes for cinematic and film scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audioxpression.com/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audioxpression.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audioxpression.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

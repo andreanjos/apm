@@ -1,0 +1,26 @@
+slug        = "swamps-stereo"
+name        = "SWAMPS Stereo"
+vendor      = "Boom"
+version     = "1.0"
+description = "Stereo version of BOOM Library's SWAMPS, a virtual instrument built from Florida wetlands field recordings."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.boomlibrary.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/16525-SWAMPS-Stereo?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.boomlibrary.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.boomlibrary.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "texturous"
+name        = "Texturous"
+vendor      = "Sketch Sampling"
+version     = "1.0.0"
+description = "Kontakt library of rich textural pads and evolving sound design layers."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://sketchsampling.ru/texturous/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sketchsampling.ru/texturous/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sketchsampling.ru/texturous/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

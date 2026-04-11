@@ -1,0 +1,25 @@
+slug        = "the-driver"
+name        = "The Driver"
+vendor      = "Audiority"
+version     = "1.0.0"
+description = "Analog modeled simulation of the vintage Marshall Drivemaster overdrive pedal for JCM800-style drive tones."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/the-british-tanks-collection/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/the-british-tanks-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/the-british-tanks-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

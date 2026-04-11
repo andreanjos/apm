@@ -1,0 +1,26 @@
+slug        = "discord4"
+name        = "Discord4"
+vendor      = "Audio Damage"
+version     = "1.0.0"
+description = "Stereo pitch shifter with reverb, LFOs, and advanced detuning for creative pitch manipulation."
+category    = "effects"
+subcategory = "pitch shifter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiodamage.com/products/ad044-discord4"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/4645-Discord4?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiodamage.com/products/ad044-discord4"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiodamage.com/products/ad044-discord4"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "weiss-complete-collection-upgrade-from-weiss-compressor-limiter"
+name        = "Weiss Complete Collection Upgrade from Weiss Compressor/Limiter"
+vendor      = "Softube"
+version     = "2.6"
+description = "Upgrade to full Weiss Complete Collection from the Weiss Compressor/Limiter plugin."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mastering/weiss-complete-collection-3"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mastering/weiss-complete-collection-3"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mastering/weiss-complete-collection-3"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

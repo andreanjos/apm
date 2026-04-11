@@ -1,0 +1,26 @@
+slug        = "micropitch"
+name        = "MicroPitch"
+vendor      = "Eventide"
+version     = "1.0.0"
+description = "Fine-resolution pitch shifting plug-in for subtle tone fattening plus delays for dramatic slap-back effects."
+category    = "effects"
+subcategory = "pitch shifter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eventideaudio.com/plug-ins/micropitch/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/6350-MicroPitch?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eventideaudio.com/plug-ins/micropitch/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eventideaudio.com/plug-ins/micropitch/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

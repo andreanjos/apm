@@ -1,0 +1,25 @@
+slug        = "vstplug-la-bands-3"
+name        = "VSTplug LA bands 3"
+vendor      = "DSPplug"
+version     = "1.0.0"
+description = "Three-band EQ plugin with LA-style analogue-modelled frequency shaping for mixing and mastering."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://dspplug.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://dspplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://dspplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

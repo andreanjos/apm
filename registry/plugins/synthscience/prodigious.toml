@@ -1,0 +1,26 @@
+slug        = "prodigious"
+name        = "Prodigious"
+vendor      = "Synthscience"
+version     = "1.0"
+description = "Feature-rich synthesizer by Synthscience combining multiple synthesis types and effects."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://synthscience.net/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/470-Prodigious?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synthscience.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synthscience.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

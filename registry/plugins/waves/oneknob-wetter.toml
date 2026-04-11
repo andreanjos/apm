@@ -1,0 +1,25 @@
+slug        = "oneknob-wetter"
+name        = "OneKnob Wetter"
+vendor      = "Waves"
+version     = "14.0"
+description = "Single-knob reverb processor for quickly adding ambience and space to any track."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/oneknob-wetter"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/oneknob-wetter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/oneknob-wetter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

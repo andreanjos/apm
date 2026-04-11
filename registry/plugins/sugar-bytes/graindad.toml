@@ -1,0 +1,26 @@
+slug        = "graindad"
+name        = "Graindad"
+vendor      = "Sugar Bytes"
+version     = "1.0.0"
+description = "Realtime granular FX plugin for freezing, texturizing, and reorganizing audio with high-quality granular processing."
+category    = "effects"
+subcategory = "granular fx"
+license     = "commercial"
+tags        = []
+homepage    = "https://sugar-bytes.de/graindad"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/9699-Graindad?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sugar-bytes.de/graindad"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sugar-bytes.de/graindad"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

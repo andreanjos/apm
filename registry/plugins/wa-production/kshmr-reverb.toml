@@ -1,0 +1,24 @@
+slug        = "kshmr-reverb"
+name        = "KSHMR Reverb"
+vendor      = "WA Production"
+version     = "1.2"
+description = "A collaboration reverb plugin with ducking, gating, special FX, and a six-node EQ co-designed with KSHMR."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/plugins/view/kshmr-reverb"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/plugins/view/kshmr-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/plugins/view/kshmr-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "msoundfactory"
+name        = "MSoundFactory"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "The ultimate modular virtual instrument with per-voice modulation, oscillators, filters, samplers, and effects."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MSoundFactory"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MSoundFactory"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MSoundFactory"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

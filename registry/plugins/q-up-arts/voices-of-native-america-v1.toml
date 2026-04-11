@@ -1,0 +1,25 @@
+slug        = "voices-of-native-america-v1"
+name        = "Voices of Native America V1"
+vendor      = "Q Up Arts"
+version     = "1"
+description = "Definitive collection of indigenous Native American sounds including drums, flutes, chants, and ceremonial instruments."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.quparts.com/products/voices-of-native-america-v1"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.quparts.com/products/voices-of-native-america-v1"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.quparts.com/products/voices-of-native-america-v1"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

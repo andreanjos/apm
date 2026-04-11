@@ -1,0 +1,25 @@
+slug        = "post-production-surround-reverb-bundle-upgrade"
+name        = "Post Production Surround Reverb Bundle Upgrade"
+vendor      = "iZotope"
+version     = "1.0.0"
+description = "Upgrade bundle for post-production surround reverb tools from Exponential Audio by iZotope."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

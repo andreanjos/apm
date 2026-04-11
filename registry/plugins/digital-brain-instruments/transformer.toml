@@ -1,0 +1,26 @@
+slug        = "transformer"
+name        = "Transformer"
+vendor      = "Digital Brain Instruments"
+version     = "1.0.0"
+description = "Creative audio morphing and editing tool for redesigning and transforming sound libraries."
+category    = "utility"
+subcategory = "audio editor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.digitalbrain-instruments.com/transformer"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/5052-Transformer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.digitalbrain-instruments.com/transformer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.digitalbrain-instruments.com/transformer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

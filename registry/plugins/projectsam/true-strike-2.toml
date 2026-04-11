@@ -1,0 +1,25 @@
+slug        = "true-strike-2"
+name        = "True Strike 2"
+vendor      = "ProjectSAM"
+version     = "1.0.0"
+description = "World percussion Kontakt library with 52+ instruments from Japanese, African, and European traditions."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

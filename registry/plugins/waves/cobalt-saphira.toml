@@ -1,0 +1,26 @@
+slug        = "cobalt-saphira"
+name        = "Cobalt Saphira"
+vendor      = "Waves"
+version     = "14.0"
+description = "Harmonic enhancer and coloring plugin adding warmth and shimmer via harmonic generation."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/cobalt-saphira"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/cobalt-saphira"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/cobalt-saphira"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

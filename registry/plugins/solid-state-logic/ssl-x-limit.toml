@@ -1,0 +1,26 @@
+slug        = "ssl-x-limit"
+name        = "SSL X Limit"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "SSL transparent limiter plugin for peak control and loudness maximization in mixing and mastering."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-x-limit"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/9371-SSL-X-Limit?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-x-limit"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-x-limit"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

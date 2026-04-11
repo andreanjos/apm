@@ -1,0 +1,26 @@
+slug        = "subdivine-expansions-bundle"
+name        = "Subdivine Expansions Bundle"
+vendor      = "Diginoiz"
+version     = "1.0.0"
+description = "Bundle of all Subdivine expansion packs with extensive bass and 808 presets for modern productions."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://diginoiz.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/9963-Subdivine-Expansions-Bundle?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://diginoiz.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://diginoiz.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

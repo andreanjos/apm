@@ -1,0 +1,25 @@
+slug        = "hopkin-instrumentarium-woodentines"
+name        = "Hopkin Instrumentarium: Woodentines"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Kontakt Player library of custom wooden tine instruments designed by Bart Hopkin."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/hopkin-instrumentarium-woodentines"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/hopkin-instrumentarium-woodentines"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/hopkin-instrumentarium-woodentines"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

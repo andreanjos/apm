@@ -1,0 +1,26 @@
+slug        = "amp-room"
+name        = "Amp Room"
+vendor      = "Softube"
+version     = "2.6"
+description = "Comprehensive guitar and bass amp simulation platform with amps, cabs, mics, and studio effects."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/amp-room"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/amp-room"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/amp-room"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

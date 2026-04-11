@@ -1,0 +1,26 @@
+slug        = "mysteria"
+name        = "Mysteria"
+vendor      = "Native Instruments"
+version     = "1.2"
+description = "Cinematic choral instrument with 800+ sound sources from 45 hours of recordings for emotional scoring."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/vocal/mysteria/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/vocal/mysteria/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/vocal/mysteria/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

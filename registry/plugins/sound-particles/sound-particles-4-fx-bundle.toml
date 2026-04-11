@@ -1,0 +1,25 @@
+slug        = "sound-particles-4-fx-bundle"
+name        = "Sound Particles 4 FX Bundle"
+vendor      = "Sound Particles"
+version     = "1.0.0"
+description = "Bundle of four Sound Particles FX plugins for immersive and spatial audio production."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundparticles.com/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundparticles.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundparticles.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

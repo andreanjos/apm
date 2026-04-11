@@ -1,0 +1,26 @@
+slug        = "ssl-fusion-vintage-drive"
+name        = "SSL Fusion Vintage Drive"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "SSL Fusion Vintage Drive plugin for gentle harmonic saturation and soft analog compression character."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-vintage-drive"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/8678-SSL-Fusion-Vintage-Drive?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-vintage-drive"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-vintage-drive"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

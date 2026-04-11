@@ -1,0 +1,25 @@
+slug        = "loom-classic"
+name        = "Loom Classic"
+vendor      = "Air Music Tech"
+version     = "1"
+description = "Original additive synthesizer plugin with modular signal flow and wavetable oscillators."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/loom"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/loom"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/loom"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

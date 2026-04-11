@@ -1,0 +1,25 @@
+slug        = "predator-3"
+name        = "Predator 3"
+vendor      = "Rob Papen"
+version     = "3.0"
+description = "Hybrid synthesizer combining analog-modeled and wavetable oscillators with a redesigned UI and 7000+ presets."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/Predator-3.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/Predator-3.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/Predator-3.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

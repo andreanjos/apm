@@ -1,0 +1,25 @@
+slug        = "blade-1-to-blade-2-upgrade"
+name        = "Blade 1 to Blade 2 Upgrade"
+vendor      = "Rob Papen"
+version     = "1.0.0"
+description = "Upgrade license from the original Blade synthesizer to the advanced Blade 2."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/BLADE-2.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/BLADE-2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/BLADE-2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

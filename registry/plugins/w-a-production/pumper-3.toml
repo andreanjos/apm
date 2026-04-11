@@ -1,0 +1,26 @@
+slug        = "pumper-3"
+name        = "Pumper 3"
+vendor      = "W A Production"
+version     = "3"
+description = "Sidechain ducking and pumping effect plugin for creating rhythmic volume movement in EDM productions."
+category    = "effects"
+subcategory = "dynamics processor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/plugins/view/pumper-3"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/4930-Pumper-3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/plugins/view/pumper-3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/plugins/view/pumper-3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

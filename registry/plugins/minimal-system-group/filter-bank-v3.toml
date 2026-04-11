@@ -1,0 +1,26 @@
+slug        = "filter-bank-v3"
+name        = "Filter Bank V3"
+vendor      = "Minimal System Group"
+version     = "3.0"
+description = "Free multimode filter plugin with multiple filter types for creative sound sculpting."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/237-Filter-Bank-V3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

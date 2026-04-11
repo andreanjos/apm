@@ -1,0 +1,26 @@
+slug        = "augmented-strings"
+name        = "Augmented Strings"
+vendor      = "Arturia"
+version     = "2.0.0"
+description = "Hybrid instrument blending sampled orchestral strings with synthesis engines for modern production."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-instruments/augmented-strings/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-instruments/augmented-strings/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-instruments/augmented-strings/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

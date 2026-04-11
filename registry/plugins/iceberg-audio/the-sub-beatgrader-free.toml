@@ -1,0 +1,25 @@
+slug        = "the-sub-beatgrader-free"
+name        = "The Sub + Beatgrader FREE"
+vendor      = "Iceberg Audio"
+version     = "1.0.0"
+description = "The Sub bass plugin bundled with the Beatgrader lo-fi effect plugin at no extra cost."
+category    = "instruments"
+subcategory = "bass"
+license     = "commercial"
+tags        = []
+homepage    = "https://icebergaudio.com/shop/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://icebergaudio.com/shop/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://icebergaudio.com/shop/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

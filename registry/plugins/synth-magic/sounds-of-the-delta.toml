@@ -1,0 +1,25 @@
+slug        = "sounds-of-the-delta"
+name        = "Sounds of the Delta"
+vendor      = "Synth Magic"
+version     = "1.0.0"
+description = "Kontakt library of the 1970s Korg Delta analog synthesizer with synth, raw oscillator, and strings sections."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://synthmagic.co.uk/sounds-of-the-delta/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synthmagic.co.uk/sounds-of-the-delta/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synthmagic.co.uk/sounds-of-the-delta/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

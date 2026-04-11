@@ -1,0 +1,26 @@
+slug        = "pulse-noir-chromaphone-3-sound-bank"
+name        = "Pulse Noir Chromaphone 3 Sound Bank"
+vendor      = "Applied Acoustics Systems"
+version     = "1.0.0"
+description = "AAS sound bank of cinematic and dark electronic patches designed for Chromaphone 3."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.applied-acoustics.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/15791-Pulse-Noir-Chromaphone-3-Sound-Bank?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.applied-acoustics.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.applied-acoustics.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "weiss-ds1-mk3-upgrade-from-weiss-deess"
+name        = "Weiss DS1-MK3 Upgrade from Weiss Deess"
+vendor      = "Softube"
+version     = "2.6"
+description = "Upgrade to the full Weiss DS1-MK3 mastering processor from the Weiss Deess de-esser plugin."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mastering/weiss-ds1-mk3"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mastering/weiss-ds1-mk3"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mastering/weiss-ds1-mk3"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

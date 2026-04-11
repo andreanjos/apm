@@ -1,0 +1,26 @@
+slug        = "ribs"
+name        = "Ribs"
+vendor      = "Hvoya Audio"
+version     = "1.2"
+description = "Hvoya Audio Ribs is a free granular FX plugin for glitching, scratching, and granular textures."
+category    = "effects"
+subcategory = "granular fx"
+license     = "commercial"
+tags        = []
+homepage    = "https://hvoya.audio/product/ribs/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/4647-Ribs?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hvoya.audio/product/ribs/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hvoya.audio/product/ribs/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "symphobia-trio-pack"
+name        = "Symphobia Trio Pack"
+vendor      = "ProjectSAM"
+version     = "1.0.0"
+description = "Bundle combining Symphobia volumes 1, 2, and 3: Lumina cinematic orchestral libraries."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "apu-loudness-compressor"
+name        = "APU Loudness Compressor"
+vendor      = "APU Software"
+version     = "1.0"
+description = "APU Software loudness compressor plugin for broadcast and streaming loudness compliance."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.apusoftware.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.apusoftware.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.apusoftware.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

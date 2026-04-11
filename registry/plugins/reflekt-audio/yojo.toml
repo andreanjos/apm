@@ -1,0 +1,26 @@
+slug        = "yojo"
+name        = "YoJo"
+vendor      = "Reflekt Audio"
+version     = "1.0"
+description = "Whimsical virtual instrument by Reflekt Audio with unusual tonal and percussive sounds."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://reflektaudio.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/5809-YoJo?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://reflektaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://reflektaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

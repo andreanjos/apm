@@ -1,0 +1,25 @@
+slug        = "t-racks-vintage-tube-compressor"
+name        = "T-RackS Vintage Tube Compressor"
+vendor      = "IK Multimedia"
+version     = "5.0"
+description = "T-RackS Vintage Tube Compressor — warm analog-modeled tube compressor for mix glue and dynamics control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/tr5/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/tr5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/tr5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

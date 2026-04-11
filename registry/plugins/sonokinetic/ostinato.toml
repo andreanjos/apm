@@ -1,0 +1,25 @@
+slug        = "ostinato"
+name        = "Ostinato"
+vendor      = "Sonokinetic"
+version     = "1.0.0"
+description = "Perpetual cinematic orchestral strings ostinato Kontakt library for rhythmic scoring beds."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonokinetic.net/products/instruments/ostinato/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonokinetic.net/products/instruments/ostinato/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonokinetic.net/products/instruments/ostinato/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "obscurium"
+name        = "Obscurium"
+vendor      = "Sugar Bytes"
+version     = "1.0.0"
+description = "Generative synthesizer with VST2 hosting and a generative pitch engine for unpredictable compositions."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://sugar-bytes.de/obscurium"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/1650-Obscurium?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sugar-bytes.de/obscurium"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sugar-bytes.de/obscurium"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

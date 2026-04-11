@@ -1,0 +1,26 @@
+slug        = "tapestop"
+name        = "TapeStop"
+vendor      = "Thenatan Audio"
+version     = "1.0.0"
+description = "Vintage tape stop effect plugin with DAW-synced pitch-shifting and adjustable curve parameters."
+category    = "effects"
+subcategory = "pitch shifter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.thenatan.store/p/tapestop-fx-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/15939-TapeStop?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.thenatan.store/p/tapestop-fx-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.thenatan.store/p/tapestop-fx-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

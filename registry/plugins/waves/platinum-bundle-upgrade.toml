@@ -1,0 +1,26 @@
+slug        = "platinum-bundle-upgrade"
+name        = "Platinum Bundle Upgrade"
+vendor      = "Waves"
+version     = "14.0"
+description = "Upgrade path to the Waves Platinum Bundle from a lower-tier bundle."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/platinum-bundle-upgrade"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/platinum-bundle-upgrade"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/platinum-bundle-upgrade"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "vibratotremolo"
+name        = "VibratoTremolo"
+vendor      = "Thenatan Audio"
+version     = "1.0.0"
+description = "Vibrato and tremolo effects plugin for adding silky movement or jagged rhythmic modulation to audio."
+category    = "effects"
+subcategory = "vibrato"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.thenatan.store/p/vibratotremolo-fx-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/41-Vibrato/15840-VibratoTremolo?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.thenatan.store/p/vibratotremolo-fx-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.thenatan.store/p/vibratotremolo-fx-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "phon-61"
+name        = "Phon 61"
+vendor      = "Synth Magic"
+version     = "1.0.0"
+description = "Kontakt library of the Korg Poly 61 DCO synthesizer with raw oscillator waveforms and custom sounds."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://synthmagic.co.uk/phon-61/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synthmagic.co.uk/phon-61/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synthmagic.co.uk/phon-61/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

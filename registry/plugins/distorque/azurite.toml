@@ -1,0 +1,26 @@
+slug        = "azurite"
+name        = "Azurite"
+vendor      = "Distorque"
+version     = "1.0.0"
+description = "Free multi-voice chorus VST plugin emulating lush analog chorus effects for guitar and audio."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+homepage    = "http://distorqueaudio.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/469-Azurite?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "http://distorqueaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "http://distorqueaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "super-ii"
+name        = "Super II"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Dual-manual VOX Super Continental organ from 1965 recreated as an authentic sample-based virtual instrument."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/super-ii"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/super-ii"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/super-ii"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

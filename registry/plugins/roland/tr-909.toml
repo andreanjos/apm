@@ -1,0 +1,27 @@
+slug        = "tr-909"
+name        = "TR 909"
+vendor      = "Roland"
+version     = "1.0"
+description = "ACB-modeled software recreation of Roland's iconic 1983 TR-909 analog/digital drum machine."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+installer   = "roland-cloud"
+homepage    = "https://www.roland.com/us/products/rc_tr-909/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/15284-TR-909?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.roland.com/us/products/rc_tr-909/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.roland.com/us/products/rc_tr-909/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

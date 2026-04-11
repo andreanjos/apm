@@ -1,0 +1,25 @@
+slug        = "piano-038-keys-bundle"
+name        = "Piano &#038; Keys Bundle"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Comprehensive bundle of Soundiron's piano and keyboard Kontakt instrument libraries."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/piano-keys-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/piano-keys-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/piano-keys-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

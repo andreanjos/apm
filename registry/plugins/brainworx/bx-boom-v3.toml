@@ -1,0 +1,26 @@
+slug        = "bx-boom-v3"
+name        = "bx boom V3"
+vendor      = "Brainworx"
+version     = "1.0.0"
+description = "Essential sub-frequency sculpting tool for aligning lows and giving drums and bass punch and weight."
+category    = "effects"
+subcategory = "drum fx"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugin-alliance.com/products/bx_boom"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/13-Drum-FX/13549-bx-boom-V3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/products/bx_boom"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/products/bx_boom"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

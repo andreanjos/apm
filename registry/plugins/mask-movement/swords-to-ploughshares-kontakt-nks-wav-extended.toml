@@ -1,0 +1,26 @@
+slug        = "swords-to-ploughshares-kontakt-nks-wav-extended"
+name        = "Swords to Ploughshares Kontakt NKS WAV Extended"
+vendor      = "Mask Movement"
+version     = "1.0"
+description = "Extended Kontakt NKS and WAV instrument by Mask Movement with metallic industrial tones."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://maskmovement.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13373-Swords-to-Ploughshares-Kontakt-NKS-WAV-Extended?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://maskmovement.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://maskmovement.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

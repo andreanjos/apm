@@ -1,0 +1,25 @@
+slug        = "guitar-harmonics-v2"
+name        = "Guitar Harmonics v2"
+vendor      = "Cinematique Instruments"
+version     = "2"
+description = "Guitar harmonics Kontakt instrument with detailed sampling of natural and artificial guitar harmonics."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://cinematique-instruments.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cinematique-instruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cinematique-instruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

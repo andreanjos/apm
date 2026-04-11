@@ -1,0 +1,25 @@
+slug        = "tyrolean-harp"
+name        = "Tyrolean Harp"
+vendor      = "weyrerTon"
+version     = "1.1"
+description = "weyrerTon Tyrolean Harp is a Kontakt Player library of a rare Alpine wooden folk harp."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.weyrerton.com/tyrolean-harp-kontakt-library"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.weyrerton.com/tyrolean-harp-kontakt-library"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.weyrerton.com/tyrolean-harp-kontakt-library"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

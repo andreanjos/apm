@@ -1,0 +1,25 @@
+slug        = "mutable-instruments-clouds"
+name        = "Mutable Instruments Clouds"
+vendor      = "Softube"
+version     = "2.6"
+description = "Granular audio processor module for Softube Modular based on Mutable Instruments Clouds hardware."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/synthesizers/mutable-instruments-clouds"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/synthesizers/mutable-instruments-clouds"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/synthesizers/mutable-instruments-clouds"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

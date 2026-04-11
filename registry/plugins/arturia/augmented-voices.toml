@@ -1,0 +1,26 @@
+slug        = "augmented-voices"
+name        = "Augmented Voices"
+vendor      = "Arturia"
+version     = "2.0.0"
+description = "Hybrid instrument fusing detailed vocal samples with synthesis for a wide palette of vocal textures."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-instruments/augmented-voices/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-instruments/augmented-voices/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-instruments/augmented-voices/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

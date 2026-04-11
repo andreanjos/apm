@@ -1,0 +1,25 @@
+slug        = "cloudbounce-annual-subscription"
+name        = "Cloudbounce – Annual Subscription"
+vendor      = "CloudBounce"
+version     = "1.0.0"
+description = "Annual subscription to CloudBounce's AI music mastering platform for unlimited masters in all formats."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://cloudbounce.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cloudbounce.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cloudbounce.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

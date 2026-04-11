@@ -1,0 +1,26 @@
+slug        = "pyros"
+name        = "Pyros"
+vendor      = "Audiority"
+version     = "2.3.1"
+description = "Aggressive multi-mode distortion unit with diverse circuit types for high-gain and experimental tones."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/pyros/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/3451-Pyros?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/pyros/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/pyros/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

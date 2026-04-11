@@ -1,0 +1,26 @@
+slug        = "ds-2-synthesizer"
+name        = "DS 2 Synthesizer"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Virtual recreation of the 1978 Crumar DS-2, combining digital oscillator control with analog filtering."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/ds-2-synthesizer"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/17088-DS-2-Synthesizer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/ds-2-synthesizer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/ds-2-synthesizer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "mlimitermb"
+name        = "MLimiterMB"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Multiband limiter and maximizer that increases loudness while balancing spectrum and adding character."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MLimiterMB"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/89-MLimiterMB?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MLimiterMB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MLimiterMB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

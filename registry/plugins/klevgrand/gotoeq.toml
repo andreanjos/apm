@@ -1,0 +1,26 @@
+slug        = "gotoeq"
+name        = "GotoEQ"
+vendor      = "Klevgrand"
+version     = "1.0"
+description = "A vintage passive tube EQ evolved with dynamic mid bands for a musical approach to EQ correction."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://klevgrand.com/products/gotoeq"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8705-GotoEQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://klevgrand.com/products/gotoeq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://klevgrand.com/products/gotoeq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

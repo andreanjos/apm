@@ -1,0 +1,26 @@
+slug        = "echoes-t7e-mkii"
+name        = "Echoes T7E MKII"
+vendor      = "Audiority"
+version     = "2.3"
+description = "Analog modeled Italian magnetic echo plug-in capturing the warm tape echo character of vintage hardware."
+category    = "effects"
+subcategory = "echo"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/echoes-t7e-mkii/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/49-Echo/3920-Echoes-T7E-MKII?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/echoes-t7e-mkii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/echoes-t7e-mkii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

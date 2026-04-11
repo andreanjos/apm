@@ -1,0 +1,25 @@
+slug        = "swift-guitar"
+name        = "Swift Guitar"
+vendor      = "Sketch Sampling"
+version     = "1.0.0"
+description = "Affordable and playable acoustic guitar Kontakt instrument with natural articulations."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://sketchsampling.ru/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sketchsampling.ru/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sketchsampling.ru/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

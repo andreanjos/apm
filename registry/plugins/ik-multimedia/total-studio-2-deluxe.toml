@@ -1,0 +1,25 @@
+slug        = "total-studio-2-deluxe"
+name        = "Total Studio 2 Deluxe"
+vendor      = "IK Multimedia"
+version     = "2.0"
+description = "Total Studio 2 Deluxe — an expanded production bundle combining IK's core instrument and effects suites."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/ts5/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/ts5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/ts5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

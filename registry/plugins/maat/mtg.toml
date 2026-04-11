@@ -1,0 +1,26 @@
+slug        = "mtg"
+name        = "MtG"
+vendor      = "MAAT"
+version     = "1.0.0"
+description = "Automatic dialog editing assistant plugin from MAAT for dialogue and post-production work."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.maat.digital/mtg/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/7524-MtG?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.maat.digital/mtg/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.maat.digital/mtg/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

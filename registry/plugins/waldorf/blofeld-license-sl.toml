@@ -1,0 +1,26 @@
+slug        = "blofeld-license-sl"
+name        = "Blofeld License SL"
+vendor      = "Waldorf"
+version     = "1.0"
+description = "SL expansion license for the Waldorf Blofeld synthesizer plugin adding additional sound content and waveforms."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://waldorfmusic.com/blofeld-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/12449-Blofeld-License-SL?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://waldorfmusic.com/blofeld-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://waldorfmusic.com/blofeld-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

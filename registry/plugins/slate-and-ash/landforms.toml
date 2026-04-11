@@ -1,0 +1,25 @@
+slug        = "landforms"
+name        = "Landforms"
+vendor      = "Slate & Ash"
+version     = "1.0.0"
+description = "Orchestral sound design Kontakt instrument combining sampler and synthesizer for organic sound collages."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://slateandash.com/products/landforms"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://slateandash.com/products/landforms"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://slateandash.com/products/landforms"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

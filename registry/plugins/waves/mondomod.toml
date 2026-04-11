@@ -1,0 +1,26 @@
+slug        = "mondomod"
+name        = "MondoMod"
+vendor      = "Waves"
+version     = "14.0"
+description = "Vintage modulation plugin combining AM and FM modulation with delay and panning."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/mondomod"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/mondomod"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/mondomod"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "cube-lunacy-audio"
+name        = "CUBE"
+vendor      = "Lunacy Audio"
+version     = "1.0.0"
+description = "Advanced sample-based synthesizer with 300+ multi-sampled sound sources and 1000+ presets."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://lunacy.audio/products/cube/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://lunacy.audio/products/cube/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://lunacy.audio/products/cube/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

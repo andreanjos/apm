@@ -1,0 +1,25 @@
+slug        = "david-oliver-rhythmic-odyssey"
+name        = "David Oliver Rhythmic Odyssey"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Kontakt Player rhythmic percussion library from artist David Oliver with world beat influences."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/david-oliver-rhythmic-odyssey"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/david-oliver-rhythmic-odyssey"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/david-oliver-rhythmic-odyssey"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

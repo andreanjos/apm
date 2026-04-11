@@ -1,0 +1,25 @@
+slug        = "stomp-board"
+name        = "Stomp Board"
+vendor      = "BBE"
+version     = "1.0"
+description = "BBE Stomp Board is a pedalboard amp simulator plugin with stompbox effects for guitarists."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://bbesound.com/products/plug-ins/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://bbesound.com/products/plug-ins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://bbesound.com/products/plug-ins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "speedrum-lite"
+name        = "Speedrum Lite"
+vendor      = "Apisonic Labs"
+version     = "1.5"
+description = "Free lightweight drum sampler by Apisonic Labs for quick sample-based drum programming."
+category    = "instruments"
+subcategory = "sampler"
+license     = "commercial"
+tags        = []
+homepage    = "https://apisoniclabs.com/speedrum-lite/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/8072-Speedrum-Lite?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://apisoniclabs.com/speedrum-lite/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://apisoniclabs.com/speedrum-lite/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

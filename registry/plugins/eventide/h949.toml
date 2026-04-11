@@ -1,0 +1,25 @@
+slug        = "h949"
+name        = "H949"
+vendor      = "Eventide"
+version     = "1.0.0"
+description = "Emulation of the classic Eventide H949 Harmonizer with pitch shifting, delay, and modulation effects."
+category    = "effects"
+subcategory = "harmonizer"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eventideaudio.com/plug-ins/h949-harmonizer/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eventideaudio.com/plug-ins/h949-harmonizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eventideaudio.com/plug-ins/h949-harmonizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

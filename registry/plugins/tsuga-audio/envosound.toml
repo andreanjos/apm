@@ -1,0 +1,26 @@
+slug        = "envosound"
+name        = "Envosound"
+vendor      = "Tsuga Audio"
+version     = "1.0"
+description = "Tsuga Audio Envosound is an envelope-driven synthesizer for dynamic, expressive sound design."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://tsugaaudio.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16642-Envosound?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://tsugaaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://tsugaaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

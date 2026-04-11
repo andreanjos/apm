@@ -1,0 +1,25 @@
+slug        = "polyscape-2"
+name        = "Polyscape 2"
+vendor      = "Karanyi Sounds"
+version     = "2.0"
+description = "Hybrid Kontakt instrument merging cello recordings and synths for cinematic tension and movement."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/product/polyscape-2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/product/polyscape-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/product/polyscape-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

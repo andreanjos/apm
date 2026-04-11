@@ -1,0 +1,26 @@
+slug        = "bx-refinement-v3"
+name        = "bx refinement V3"
+vendor      = "Brainworx"
+version     = "1.0.0"
+description = "Analog tube mastering chain emulation that softens harshness and adds professional polish to mixes."
+category    = "utility"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugin-alliance.com/products/bx_refinement-v3"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/14381-bx-refinement-V3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/products/bx_refinement-v3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/products/bx_refinement-v3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

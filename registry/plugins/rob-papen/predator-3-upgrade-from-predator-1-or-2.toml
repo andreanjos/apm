@@ -1,0 +1,25 @@
+slug        = "predator-3-upgrade-from-predator-1-or-2"
+name        = "Predator 3 Upgrade from Predator 1 or 2"
+vendor      = "Rob Papen"
+version     = "1.0.0"
+description = "Upgrade license to Predator 3 from Predator 1 or 2, adding wavetable synthesis, multi-envelopes, and 7000+ presets."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/Predator-3.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/Predator-3.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/Predator-3.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

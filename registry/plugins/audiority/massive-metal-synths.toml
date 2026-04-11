@@ -1,0 +1,25 @@
+slug        = "massive-metal-synths"
+name        = "Massive Metal Synths"
+vendor      = "Audiority"
+version     = "1.0.0"
+description = "50 NI Massive presets for metal keyboardists including basses, pads, stacks, and lead guitar sounds."
+category    = "instruments"
+subcategory = "presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/massive-metal-synths/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/massive-metal-synths/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/massive-metal-synths/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

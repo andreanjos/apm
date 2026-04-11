@@ -1,0 +1,26 @@
+slug        = "sound-particles-pro"
+name        = "Sound Particles Pro"
+vendor      = "Sound Particles"
+version     = "3.0"
+description = "Sound Particles Pro professional immersive audio workstation powered by a 3D engine and particle system."
+category    = "utility"
+subcategory = "audio editor"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundparticles.com/products"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/6425-Sound-Particles-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundparticles.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundparticles.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

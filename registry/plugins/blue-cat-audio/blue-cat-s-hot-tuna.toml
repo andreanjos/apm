@@ -1,0 +1,26 @@
+slug        = "blue-cat-s-hot-tuna"
+name        = "Blue Cat s Hot Tuna"
+vendor      = "Blue Cat Audio"
+version     = "1.23"
+description = "Fast, high-precision chromatic tuner plug-in with adjustable reference frequency and signal muting."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bluecataudio.com/Products/Product_HotTuna/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/6116-Blue-Cat-s-Hot-Tuna?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bluecataudio.com/Products/Product_HotTuna/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bluecataudio.com/Products/Product_HotTuna/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

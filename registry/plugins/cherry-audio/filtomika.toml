@@ -1,0 +1,26 @@
+slug        = "filtomika"
+name        = "Filtomika"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Filter effect emulating the wild filter section of the 1980s Soviet Polivoks synthesizer."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/filtomika-filter"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/14150-Filtomika?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/filtomika-filter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/filtomika-filter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

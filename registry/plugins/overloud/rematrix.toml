@@ -1,0 +1,25 @@
+slug        = "rematrix"
+name        = "REmatrix"
+vendor      = "Overloud"
+version     = "1.0.0"
+description = "Unique parallel IR processor with five simultaneous convolvers for composing custom hybrid reverbs."
+category    = "effects"
+subcategory = "impulse response"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.overloud.com/products/rematrix"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.overloud.com/products/rematrix"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.overloud.com/products/rematrix"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

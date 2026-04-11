@@ -1,0 +1,24 @@
+slug        = "things-motor"
+name        = "Things – Motor"
+vendor      = "AudioThing"
+version     = "1.2"
+description = "Effect plugin simulating the rotary speaker/Leslie cabinet effect for swirling modulation sounds."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/effects/things-motor/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/effects/things-motor/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/effects/things-motor/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

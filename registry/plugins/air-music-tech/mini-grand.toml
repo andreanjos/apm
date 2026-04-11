@@ -1,0 +1,25 @@
+slug        = "mini-grand"
+name        = "Mini Grand"
+vendor      = "Air Music Tech"
+version     = "1.0.0"
+description = "Compact grand piano plugin offering realistic acoustic piano tones with simple controls."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/mini-grand"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/mini-grand"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/mini-grand"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

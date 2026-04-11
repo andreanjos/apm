@@ -1,0 +1,26 @@
+slug        = "instant-flanger-mk-ii"
+name        = "Instant Flanger Mk II"
+vendor      = "Eventide"
+version     = "1.0.0"
+description = "Vintage flanging effect with rich, sweeping modulation for enhancing instruments and vocals."
+category    = "effects"
+subcategory = "flanger"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eventideaudio.com/plug-ins/instant-flanger-mk-ii/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/5216-Instant-Flanger-Mk-II?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eventideaudio.com/plug-ins/instant-flanger-mk-ii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eventideaudio.com/plug-ins/instant-flanger-mk-ii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

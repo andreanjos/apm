@@ -1,0 +1,24 @@
+slug        = "vintage-reverb-038-delay-bundle"
+name        = "Vintage Reverb &#038; Delay Bundle"
+vendor      = "Black Rooster Audio"
+version     = "3.0.0"
+description = "Vintage reverb and delay bundle combining RO-140, RO-SPR, RO-GOLD plate reverbs, and TD-201 tape echo."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://blackroosteraudio.com/en/products/reverb-delay-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://blackroosteraudio.com/en/products/reverb-delay-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://blackroosteraudio.com/en/products/reverb-delay-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

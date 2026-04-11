@@ -1,0 +1,26 @@
+slug        = "bx-dyneq-v2"
+name        = "bx dynEQ V2"
+vendor      = "Brainworx"
+version     = "1.0.0"
+description = "Dynamic equalizer with frequency-selective compression and expansion for precise spectral shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugin-alliance.com/products/bx_dynEQ-v2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/10256-bx-dynEQ-V2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/products/bx_dynEQ-v2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/products/bx_dynEQ-v2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

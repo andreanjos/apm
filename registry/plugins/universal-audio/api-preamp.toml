@@ -1,0 +1,25 @@
+slug        = "api-preamp"
+name        = "API Preamp"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the API 312 discrete solid-state preamp module for LUNA Recording System."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/channel-strips/api-preamp.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/api-preamp.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/api-preamp.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

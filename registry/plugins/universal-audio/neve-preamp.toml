@@ -1,0 +1,25 @@
+slug        = "neve-preamp"
+name        = "Neve Preamp"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Neve 1073 preamp section for LUNA Recording System."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/channel-strips/neve-preamp.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/neve-preamp.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/neve-preamp.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

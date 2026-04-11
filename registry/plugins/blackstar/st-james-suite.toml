@@ -1,0 +1,26 @@
+slug        = "st-james-suite"
+name        = "St James Suite"
+vendor      = "Blackstar"
+version     = "1.0.0"
+description = "Full suite of Blackstar St. James amp plugin emulations including 6L6 and EL34 versions."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://blackstarplugins.com/dp/st-james-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/11823-St-James-Suite?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://blackstarplugins.com/dp/st-james-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://blackstarplugins.com/dp/st-james-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "smartcomp-2-upgrade"
+name        = "smart:comp 2 Upgrade"
+vendor      = "sonible"
+version     = "2.0"
+description = "Upgrade pricing from smart:comp to smart:comp 2 for existing sonible customers."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonible.com/smartcomp3/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonible.com/smartcomp3/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonible.com/smartcomp3/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

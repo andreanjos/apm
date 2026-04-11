@@ -1,0 +1,26 @@
+slug        = "tape-piano-2"
+name        = "Tape Piano 2"
+vendor      = "Thenatan Audio"
+version     = "1.0.0"
+description = "Multilayer lo-fi piano VST with 4 samplers, 200+ presets, vinyl scratch designer and 10 effects."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.thenatan.store/p/tape-piano/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15983-Tape-Piano-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.thenatan.store/p/tape-piano/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.thenatan.store/p/tape-piano/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

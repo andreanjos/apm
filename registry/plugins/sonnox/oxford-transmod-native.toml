@@ -1,0 +1,24 @@
+slug        = "oxford-transmod-native"
+name        = "Oxford TransMod Native"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Oxford TransMod Native — transient modulation plugin for precise sculpting of attack and sustain on any audio source."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/oxford-transmod"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/oxford-transmod"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/oxford-transmod"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

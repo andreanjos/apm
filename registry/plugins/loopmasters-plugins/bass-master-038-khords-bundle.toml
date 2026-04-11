@@ -1,0 +1,25 @@
+slug        = "bass-master-038-khords-bundle"
+name        = "Bass Master &#038; KHORDS Bundle"
+vendor      = "Loopmasters Plugins"
+version     = "1.0.0"
+description = "Bundle combining Bass Master synth engine and KHORDS chord instrument for bass and harmony."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/product/81-Bundles/58-Instrument-Bundles/6698-Bass-Master-KHORDS-Bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/product/81-Bundles/58-Instrument-Bundles/6698-Bass-Master-KHORDS-Bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/product/81-Bundles/58-Instrument-Bundles/6698-Bass-Master-KHORDS-Bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

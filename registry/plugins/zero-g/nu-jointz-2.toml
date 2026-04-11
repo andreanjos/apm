@@ -1,0 +1,25 @@
+slug        = "nu-jointz-2"
+name        = "Nu Jointz 2"
+vendor      = "Zero-G"
+version     = "2.0"
+description = "Eclectic hip-hop sample library with 1,300+ 24-bit samples, construction kits, loops, and sound effects."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/nu-jointz-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/nu-jointz-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/nu-jointz-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "mpc-spectral-compressor"
+name        = "MPC Spectral Compressor"
+vendor      = "Harrison Consoles"
+version     = "1.0.0"
+description = "Post-production spectral compressor applying compression across 18 frequency bands from Harrison's MPC console."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.harrisonaudio.com/post/mpc-spectral-compressor"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11914-MPC-Spectral-Compressor?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.harrisonaudio.com/post/mpc-spectral-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.harrisonaudio.com/post/mpc-spectral-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

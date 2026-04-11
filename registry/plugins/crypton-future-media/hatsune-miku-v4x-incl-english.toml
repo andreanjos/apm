@@ -1,0 +1,26 @@
+slug        = "hatsune-miku-v4x-incl-english"
+name        = "HATSUNE MIKU V4X incl ENGLISH"
+vendor      = "Crypton Future Media"
+version     = "V4X"
+description = "Hatsune Miku V4X VOCALOID voicebank including Japanese and English singing synthesis voices."
+category    = "instruments"
+subcategory = "vocal synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonicwire.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/140-Vocal-Synth/16418-HATSUNE-MIKU-V4X-incl-ENGLISH-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonicwire.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonicwire.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

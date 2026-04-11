@@ -1,0 +1,26 @@
+slug        = "sd-3a"
+name        = "SD 3A"
+vendor      = "Slate Digital"
+version     = "1.0.0"
+description = "Optical compressor inspired by a 1960s legend with fast, musical compression and punchy tone."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://slatedigital.com/sd-3a-compressor-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/15804-SD-3A?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://slatedigital.com/sd-3a-compressor-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://slatedigital.com/sd-3a-compressor-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

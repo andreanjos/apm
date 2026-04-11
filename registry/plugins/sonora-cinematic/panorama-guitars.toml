@@ -1,0 +1,26 @@
+slug        = "panorama-guitars"
+name        = "Panorama Guitars"
+vendor      = "Sonora Cinematic"
+version     = "1.0.0"
+description = "Kontakt Player guitar instrument with wide-ranging acoustic and electric guitar articulations."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonoracinematic.com/products/panorama-guitars-by-sonora-cinematic"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/12500-Panorama-Guitars?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonoracinematic.com/products/panorama-guitars-by-sonora-cinematic"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonoracinematic.com/products/panorama-guitars-by-sonora-cinematic"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

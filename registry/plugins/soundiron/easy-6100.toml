@@ -1,0 +1,25 @@
+slug        = "easy-6100"
+name        = "Easy 6100"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Vintage easy listening electronic keyboard Kontakt instrument with classic retro tones."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/easy-6100"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/easy-6100"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/easy-6100"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

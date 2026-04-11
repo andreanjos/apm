@@ -1,0 +1,25 @@
+slug        = "pro-c-2"
+name        = "Pro-C 2"
+vendor      = "FabFilter"
+version     = "3.01"
+description = "Versatile compressor with eight compression styles, a large interactive display, and transparent processing."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.fabfilter.com/products/pro-c-2-compressor-plug-in"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.fabfilter.com/products/pro-c-2-compressor-plug-in"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.fabfilter.com/products/pro-c-2-compressor-plug-in"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

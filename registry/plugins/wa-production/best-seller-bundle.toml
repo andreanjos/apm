@@ -1,0 +1,25 @@
+slug        = "best-seller-bundle"
+name        = "Best Seller Bundle"
+vendor      = "WA Production"
+version     = "1.0.0"
+description = "A collection of W.A. Production's top-selling instrument plugins in one package."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/bundles"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/bundles"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/bundles"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

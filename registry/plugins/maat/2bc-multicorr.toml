@@ -1,0 +1,26 @@
+slug        = "2bc-multicorr"
+name        = "2BC multiCORR"
+vendor      = "MAAT"
+version     = "1.0.0"
+description = "Monitor controller plugin combined with a third-octave multiband stereo correlation meter."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.maat.digital/2bcmulticorr/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/5319-2BC-multiCORR?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.maat.digital/2bcmulticorr/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.maat.digital/2bcmulticorr/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

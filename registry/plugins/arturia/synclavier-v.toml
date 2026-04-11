@@ -1,0 +1,26 @@
+slug        = "synclavier-v"
+name        = "Synclavier V"
+vendor      = "Arturia"
+version     = "2.5.0"
+description = "Virtual recreation of the legendary New England Digital Synclavier II FM/additive synthesis workstation."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-instruments/synclavier-v/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-instruments/synclavier-v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-instruments/synclavier-v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

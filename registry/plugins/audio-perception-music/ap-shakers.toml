@@ -1,0 +1,25 @@
+slug        = "ap-shakers"
+name        = "AP Shakers"
+vendor      = "Audio Perception Music"
+version     = "1.0.0"
+description = "Kontakt shaker library with a wide variety of shaker tonalities for any musical style."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://audioperceptionmusic.com/sounds/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audioperceptionmusic.com/sounds/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audioperceptionmusic.com/sounds/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

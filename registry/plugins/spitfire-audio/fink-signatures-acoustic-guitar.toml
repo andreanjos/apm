@@ -1,0 +1,25 @@
+slug        = "fink-signatures-acoustic-guitar"
+name        = "Fink – Signatures Acoustic Guitar"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Definitive acoustic guitar toolkit by singer-songwriter Fink, full of character and sonic depth."
+category    = "instruments"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/shop/a-z/fink-signatures/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/shop/a-z/fink-signatures/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/shop/a-z/fink-signatures/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

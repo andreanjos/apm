@@ -1,0 +1,26 @@
+slug        = "big-swarma"
+name        = "Big Swarma"
+vendor      = "Audiority"
+version     = "1.0.1"
+description = "Multivoice detune and feedback modulation plug-in for lush chorus-like detuning effects."
+category    = "effects"
+subcategory = "modulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/big-swarma/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/15680-Big-Swarma?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/big-swarma/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/big-swarma/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

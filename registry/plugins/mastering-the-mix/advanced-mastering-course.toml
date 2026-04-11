@@ -1,0 +1,26 @@
+slug        = "advanced-mastering-course"
+name        = "Advanced Mastering Course"
+vendor      = "Mastering The Mix"
+version     = "1.0.0"
+description = "Interactive video course by Mastering The Mix covering professional mastering techniques and workflows."
+category    = "utility"
+subcategory = "video interactive courses"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.masteringthemix.com/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/65-Video-Interactive-Courses/11779-Advanced-Mastering-Course?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.masteringthemix.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.masteringthemix.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

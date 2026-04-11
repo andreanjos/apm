@@ -1,0 +1,25 @@
+slug        = "everything-orchestral-bundle"
+name        = "Everything Orchestral Bundle"
+vendor      = "Musical Sampling"
+version     = "1.0"
+description = "Complete orchestral bundle from Musical Sampling covering brass, strings, and solo instruments for Kontakt."
+category    = "instruments"
+subcategory = "brass"
+license     = "commercial"
+tags        = []
+homepage    = "https://musicalsampling.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://musicalsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://musicalsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

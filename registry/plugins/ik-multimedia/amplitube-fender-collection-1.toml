@@ -1,0 +1,25 @@
+slug        = "amplitube-fender-collection-1"
+name        = "Amplitube Fender Collection 1"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Officially certified Fender Collection 1 for AmpliTube with classic Fender amps and effects."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/fender/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/fender/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/fender/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

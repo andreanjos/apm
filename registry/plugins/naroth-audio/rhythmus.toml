@@ -1,0 +1,25 @@
+slug        = "rhythmus"
+name        = "RHYTHMUS"
+vendor      = "Naroth Audio"
+version     = "1.0"
+description = "Naroth Audio RHYTHMUS is a found-percussion Kontakt library with four generative sequencers."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://narothaudio.com/products/rhythmus"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://narothaudio.com/products/rhythmus"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://narothaudio.com/products/rhythmus"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

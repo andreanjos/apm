@@ -1,0 +1,26 @@
+slug        = "hypercyclic"
+name        = "Hypercyclic"
+vendor      = "Mucoder"
+version     = "3.0"
+description = "Free MIDI arpeggiator and gate sequencer by Mucoder with complex polyrhythmic patterns."
+category    = "effects"
+subcategory = "midi arp"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.mucoder.net/en/hypercyclic/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/14-MIDI-Arp/1813-Hypercyclic?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.mucoder.net/en/hypercyclic/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.mucoder.net/en/hypercyclic/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

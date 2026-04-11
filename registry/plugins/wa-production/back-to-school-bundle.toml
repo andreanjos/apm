@@ -1,0 +1,25 @@
+slug        = "back-to-school-bundle"
+name        = "Back to School Bundle"
+vendor      = "WA Production"
+version     = "1.0.0"
+description = "A W.A. Production bundle of instrument plugins ideal for producers getting started."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/bundles"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/bundles"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/bundles"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "house-essentials-construction-kit-for-waveform"
+name        = "House Essentials Construction Kit for Waveform"
+vendor      = "Tracktion"
+version     = "1.0.0"
+description = "House music construction kit expansion for Waveform with loops, synths, and production-ready house content."
+category    = "effects"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/sound-packs"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/16748-House-Essentials-Construction-Kit-for-Waveform-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/sound-packs"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/sound-packs"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

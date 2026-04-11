@@ -1,0 +1,26 @@
+slug        = "autoformer"
+name        = "Autoformer"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "Analogue-inspired preamp combined with automatic volume balancer and transparent compressor by Soundevice Digital."
+category    = "effects"
+subcategory = "dynamics processor"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/Autoformer/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/6232-Autoformer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/Autoformer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/Autoformer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

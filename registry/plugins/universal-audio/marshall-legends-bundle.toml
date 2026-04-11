@@ -1,0 +1,26 @@
+slug        = "marshall-legends-bundle"
+name        = "Marshall® Legends Bundle"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Bundle of Marshall amplifier emulations including the Plexi 1959, Silver Jubilee 2555, and Bluesbreaker."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/bundles/marshall-legends-bundle.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/bundles/marshall-legends-bundle.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/bundles/marshall-legends-bundle.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "synthmaster-one-crossgrade"
+name        = "SynthMaster One Crossgrade"
+vendor      = "KV331 Audio"
+version     = "1.6"
+description = "Crossgrade option to SynthMaster One, the streamlined wavetable and analogue synthesizer from KV331 Audio."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kv331audio.com/synthmasterone.aspx"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kv331audio.com/synthmasterone.aspx"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kv331audio.com/synthmasterone.aspx"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

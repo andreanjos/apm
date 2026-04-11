@@ -1,0 +1,26 @@
+slug        = "strokes"
+name        = "Strokes"
+vendor      = "Cong Burn"
+version     = "1.0"
+description = "Cong Burn Strokes is a creative sequencer effect plugin for rhythmic pattern generation."
+category    = "effects"
+subcategory = "sequencer"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/product/2-Effects/73-Sequencer/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/24-Sequencer/11892-Strokes?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/product/2-Effects/73-Sequencer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/product/2-Effects/73-Sequencer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

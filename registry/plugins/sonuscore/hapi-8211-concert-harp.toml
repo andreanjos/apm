@@ -1,0 +1,25 @@
+slug        = "hapi-8211-concert-harp"
+name        = "ha•pi &#8211; Concert Harp"
+vendor      = "Sonuscore"
+version     = "1.0.0"
+description = "Sampled concert harp Kontakt instrument with Glow slider, 5 round robins, and ethereal soundscape capability."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonuscore.com/shop/hapi-concert-harp/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonuscore.com/shop/hapi-concert-harp/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonuscore.com/shop/hapi-concert-harp/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

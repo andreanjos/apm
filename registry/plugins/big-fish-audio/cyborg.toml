@@ -1,0 +1,26 @@
+slug        = "cyborg"
+name        = "CYBORG"
+vendor      = "Big Fish Audio"
+version     = "1.0.0"
+description = "Big Fish Audio Kontakt library combining organic recordings with cutting-edge synth sound design."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bigfishaudio.com/Cyborg"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8589-CYBORG?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bigfishaudio.com/Cyborg"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bigfishaudio.com/Cyborg"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

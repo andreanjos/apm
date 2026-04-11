@@ -1,0 +1,26 @@
+slug        = "ppg-wave-3-v-version-2-update"
+name        = "PPG Wave 3 V Version 2 Update"
+vendor      = "Waldorf"
+version     = "2.0"
+description = "Version 2 update for the PPG Wave 3.V plugin adding a wavetable editor and a fully resizable GUI."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://waldorfmusic.com/produkt/ppg-wave-3-v-version-2/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15603-PPG-Wave-3-V-Version-2-Update?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://waldorfmusic.com/produkt/ppg-wave-3-v-version-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://waldorfmusic.com/produkt/ppg-wave-3-v-version-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

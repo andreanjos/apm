@@ -1,0 +1,25 @@
+slug        = "pure-plate-reverb"
+name        = "Pure Plate Reverb"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "UA's Pure Plate is an original analog-modeled plate reverb with a clean, natural sound."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/reverbs/pure-plate-reverb.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/reverbs/pure-plate-reverb.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/reverbs/pure-plate-reverb.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

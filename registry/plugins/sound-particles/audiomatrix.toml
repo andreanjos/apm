@@ -1,0 +1,26 @@
+slug        = "audiomatrix"
+name        = "AudioMatrix"
+vendor      = "Sound Particles"
+version     = "1.0"
+description = "Sound Particles AudioMatrix offering must-have utility tools for spatial and immersive audio mixes."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundparticles.com/products/audiomatrix"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/10993-AudioMatrix?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundparticles.com/products/audiomatrix"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundparticles.com/products/audiomatrix"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

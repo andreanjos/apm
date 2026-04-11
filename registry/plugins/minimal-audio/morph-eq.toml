@@ -1,0 +1,26 @@
+slug        = "morph-eq"
+name        = "Morph EQ"
+vendor      = "Minimal Audio"
+version     = "1.0.0"
+description = "Expressive EQ designer with flexible per-band routing and invertible EQ shapes for creative shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.minimal.audio/products/morph-eq"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/9496-Morph-EQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.minimal.audio/products/morph-eq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.minimal.audio/products/morph-eq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

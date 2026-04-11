@@ -1,0 +1,25 @@
+slug        = "hammond-b-3x-organ"
+name        = "Hammond B-3X Organ"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Authentic virtual Hammond B-3 organ plugin with detailed tonewheel modeling and Leslie simulation."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/hammondb3x/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/hammondb3x/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/hammondb3x/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

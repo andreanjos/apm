@@ -1,0 +1,25 @@
+slug        = "apocalypse-percussion-ensemble"
+name        = "Apocalypse Percussion Ensemble"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Industry-leading epic percussion library with 25,000+ samples, 40+ drums, and 400 MIDI grooves."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/apocalypse-percussion"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/apocalypse-percussion"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/apocalypse-percussion"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "dronar-master-edition"
+name        = "Dronar Master Edition"
+vendor      = "Gothic Instruments"
+version     = "1.0.0"
+description = "Bundle of eight Dronar Kontakt modules with 2,000+ presets and 30 GB of cinematic soundscapes."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonoracinematic.com/products/dronar-master-edition"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonoracinematic.com/products/dronar-master-edition"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonoracinematic.com/products/dronar-master-edition"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

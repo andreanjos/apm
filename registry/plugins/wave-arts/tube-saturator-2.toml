@@ -1,0 +1,24 @@
+slug        = "tube-saturator-2"
+name        = "Tube Saturator 2"
+vendor      = "Wave Arts"
+version     = "2.0"
+description = "Circuit-accurate simulation of a tube preamp with analog EQ for warm harmonic saturation."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://wavearts.com/products/plugins/tube-saturator-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://wavearts.com/products/plugins/tube-saturator-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://wavearts.com/products/plugins/tube-saturator-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

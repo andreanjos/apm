@@ -1,0 +1,25 @@
+slug        = "t-01-synthesizer"
+name        = "T-01 Synthesizer"
+vendor      = "Alden Nulden Productions"
+version     = "1.0.0"
+description = "Kontakt-based synthesizer instrument from Alden Nulden Productions for electronic music production."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "http://aldennuldenproductions.com/shop/"
+is_paid     = true
+
+[formats.vst3]
+url          = "http://aldennuldenproductions.com/shop/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "http://aldennuldenproductions.com/shop/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

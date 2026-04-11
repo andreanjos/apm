@@ -1,0 +1,26 @@
+slug        = "symphonic-woodwinds-professional"
+name        = "Symphonic Woodwinds Professional"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Definitive professional symphonic woodwinds with piccolo through contrabassoon recorded at The Hall, AIR Studios."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/spitfire-symphonic-woodwinds-professional"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/spitfire-symphonic-woodwinds-professional"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/spitfire-symphonic-woodwinds-professional"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

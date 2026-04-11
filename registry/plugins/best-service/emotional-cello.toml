@@ -1,0 +1,25 @@
+slug        = "emotional-cello"
+name        = "Emotional Cello"
+vendor      = "Best Service"
+version     = "1.0.0"
+description = "Expressive solo cello library for Kontakt Player with an impressive range of articulations and play techniques."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/emotional_cello.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/emotional_cello.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/emotional_cello.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

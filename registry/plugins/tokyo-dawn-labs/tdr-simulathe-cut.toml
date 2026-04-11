@@ -1,0 +1,26 @@
+slug        = "tdr-simulathe-cut"
+name        = "TDR SimuLathe CUT"
+vendor      = "Tokyo Dawn Labs"
+version     = "1.1.1"
+description = "Virtual disk mastering simulator modeling the physical and sonic characteristics of lacquer cutting for vinyl."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tokyodawn.net/tdr-simulathe-cut/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/10088-TDR-SimuLathe-CUT?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tokyodawn.net/tdr-simulathe-cut/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tokyodawn.net/tdr-simulathe-cut/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

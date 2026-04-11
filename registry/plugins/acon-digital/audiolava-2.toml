@@ -1,0 +1,25 @@
+slug        = "audiolava-2"
+name        = "AudioLava 2"
+vendor      = "Acon Digital"
+version     = "2.0.2"
+description = "Audio restoration and LP/tape-to-digital software for removing hiss, hum, clicks, and crackle."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+homepage    = "https://acondigital.com/products/audiolava/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://acondigital.com/products/audiolava/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://acondigital.com/products/audiolava/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

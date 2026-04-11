@@ -1,0 +1,24 @@
+slug        = "mpx-native-reverb"
+name        = "MPX Native Reverb"
+vendor      = "Lexicon"
+version     = "1.0.0"
+description = "Polymorphic reverb plugin with seven reverb types delivering the classic Lexicon MPX sound."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://lexiconpro.com/en-US/products/mpx-native-reverb"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://lexiconpro.com/en-US/products/mpx-native-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://lexiconpro.com/en-US/products/mpx-native-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "deluxe-vocal-bundle"
+name        = "Deluxe Vocal Bundle"
+vendor      = "WA Production"
+version     = "1.0.0"
+description = "A W.A. Production bundle of vocal processing plugins including compressor, limiter, and reverb."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/bundles/view/deluxe-vocal-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/bundles/view/deluxe-vocal-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/bundles/view/deluxe-vocal-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

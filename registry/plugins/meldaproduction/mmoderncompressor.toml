@@ -1,0 +1,26 @@
+slug        = "mmoderncompressor"
+name        = "MModernCompressor"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Versatile compressor delivering astonishing sound with intuitive controls and advanced metering capabilities."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MModernCompressor"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/78-MModernCompressor?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MModernCompressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MModernCompressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

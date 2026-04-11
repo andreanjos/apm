@@ -1,0 +1,25 @@
+slug        = "vertigo"
+name        = "Vertigo"
+vendor      = "DiscoDSP"
+version     = "5.1"
+description = "Additive re-synthesizer with 512 oscillators, FFT resynthesis, and bitmap-to-audio conversion."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.discodsp.com/vertigo/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.discodsp.com/vertigo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.discodsp.com/vertigo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

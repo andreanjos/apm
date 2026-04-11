@@ -1,0 +1,26 @@
+slug        = "spiral"
+name        = "spiral"
+vendor      = "Photosounder"
+version     = "1.0.0"
+description = "Musical spectrum analyser plugin providing detailed visual spectral analysis of audio signals."
+category    = "effects"
+subcategory = "spectral analysis"
+license     = "commercial"
+tags        = []
+homepage    = "https://photosounder.com/spiral/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/25-Spectral-Analysis/1358-spiral?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://photosounder.com/spiral/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://photosounder.com/spiral/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

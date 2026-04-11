@@ -1,0 +1,25 @@
+slug        = "rain-simulator"
+name        = "Rain Simulator"
+vendor      = "Alden Nulden Productions"
+version     = "1.0.0"
+description = "Kontakt instrument simulating rain, thunder, and wind for ambient sound design and relaxation."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "http://aldennuldenproductions.com/product/rain-simulator/"
+is_paid     = true
+
+[formats.vst3]
+url          = "http://aldennuldenproductions.com/product/rain-simulator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "http://aldennuldenproductions.com/product/rain-simulator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

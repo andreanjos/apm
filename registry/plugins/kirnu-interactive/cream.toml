@@ -1,0 +1,26 @@
+slug        = "cream"
+name        = "Cream"
+vendor      = "Kirnu Interactive"
+version     = "2.0"
+description = "Kirnu Interactive Cream is a MIDI arpeggiator and chord generator plugin for expressive patterns."
+category    = "effects"
+subcategory = "midi arp"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kirnu.com/cream/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/14-MIDI-Arp/1385-Cream?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kirnu.com/cream/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kirnu.com/cream/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

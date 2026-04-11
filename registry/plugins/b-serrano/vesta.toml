@@ -1,0 +1,26 @@
+slug        = "vesta"
+name        = "Vesta"
+vendor      = "B Serrano"
+version     = "1.0.0"
+description = "Free multimode filter plugin with three independently configurable LP/HP/BP filter layers."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/806-Vesta?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/manufacturers/66-B-Serrano"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

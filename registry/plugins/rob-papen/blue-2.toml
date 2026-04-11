@@ -1,0 +1,25 @@
+slug        = "blue-2"
+name        = "Blue 2"
+vendor      = "Rob Papen"
+version     = "2.0"
+description = "Cross-fusion synthesizer combining subtractive and FM synthesis with samples and an intuitive XY pad."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/blue2.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/blue2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/blue2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

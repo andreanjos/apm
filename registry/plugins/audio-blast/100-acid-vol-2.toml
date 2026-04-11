@@ -1,0 +1,26 @@
+slug        = "100-acid-vol-2"
+name        = "100 Acid Vol 2"
+vendor      = "Audio Blast"
+version     = "1.0.0"
+description = "Second volume of 100 acid bassline presets for Rave Generator 3 by Audio Blast."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audioblast.me/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/14560-100-Acid-Vol-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audioblast.me/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audioblast.me/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

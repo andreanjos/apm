@@ -1,0 +1,25 @@
+slug        = "clearmountains-phases-flanger-phaser"
+name        = "Clearmountain’s Phases Flanger/Phaser"
+vendor      = "Apogee"
+version     = "1.0.0"
+description = "Flanger and phaser plugin co-designed with Bob Clearmountain for lush modulation effects."
+category    = "effects"
+subcategory = "flanger"
+license     = "commercial"
+tags        = []
+homepage    = "https://apogeedigital.com/shop/plugins/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://apogeedigital.com/shop/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://apogeedigital.com/shop/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "i-heart-ny-2-upgrade-from-i-heart-ny-1"
+name        = "I Heart NY 2 Upgrade from I Heart NY 1"
+vendor      = "Baby Audio"
+version     = "2"
+description = "Upgrade path from I Heart NY 1 to IHNY-2, the advanced XY-pad parallel compression plugin by Baby Audio."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://babyaud.io/ihny-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://babyaud.io/ihny-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://babyaud.io/ihny-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

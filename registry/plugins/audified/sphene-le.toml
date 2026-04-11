@@ -1,0 +1,25 @@
+slug        = "sphene-le"
+name        = "Sphene LE"
+vendor      = "Audified"
+version     = "1.0.0"
+description = "Entry-level Sphene bass amp emulation plugin based on boutique bass amplifier modeling."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/sphene-le/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/sphene-le/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/sphene-le/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

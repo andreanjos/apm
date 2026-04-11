@@ -1,0 +1,26 @@
+slug        = "galactron"
+name        = "Galactron"
+vendor      = "MNTRA Instruments"
+version     = "1.0.0"
+description = "Retro digital synthesizer plugin combining 12-bit FM, phase distortion, and digitally controlled analog."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.mntra.io/product/galactron/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10670-Galactron?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.mntra.io/product/galactron/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.mntra.io/product/galactron/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

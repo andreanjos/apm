@@ -1,0 +1,26 @@
+slug        = "dvr-250-digital-vintage-reverb"
+name        = "DVR 250 Digital Vintage Reverb"
+vendor      = "TC Electronic"
+version     = "2.0.02"
+description = "Reverb plugin recreating the iconic EMT 250 Electronic Reverberator for airy vintage ambiences."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tcelectronic.com/product.html?modelCode=P0DCR"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/14604-DVR-250-Digital-Vintage-Reverb?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tcelectronic.com/product.html?modelCode=P0DCR"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tcelectronic.com/product.html?modelCode=P0DCR"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

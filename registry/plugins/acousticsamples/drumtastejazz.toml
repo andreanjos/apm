@@ -1,0 +1,25 @@
+slug        = "drumtastejazz"
+name        = "DrumTasteJazz"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Sonor jazz drum kit with nine instruments each recorded from three microphone positions."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/drumtastejazz"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/drumtastejazz"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/drumtastejazz"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

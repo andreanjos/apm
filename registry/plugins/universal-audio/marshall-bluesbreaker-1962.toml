@@ -1,0 +1,26 @@
+slug        = "marshall-bluesbreaker-1962"
+name        = "Marshall® Bluesbreaker 1962"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the classic 1962 Marshall Bluesbreaker combo amplifier."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-bluesbreaker-1962.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-bluesbreaker-1962.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/guitar-bass/marshall-bluesbreaker-1962.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

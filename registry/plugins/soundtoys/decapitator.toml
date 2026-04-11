@@ -1,0 +1,27 @@
+slug        = "decapitator"
+name        = "Decapitator"
+vendor      = "Soundtoys"
+version     = "5.5"
+description = "Hardware-modeled analog saturation plugin spanning five classic tube and tape distortion characters."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundtoys.com/product/decapitator/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/1801-Decapitator?a_aid=69d5e87c5f2e9"
+bundle_ids  = ["com.soundtoys.audiounit.Decapitator"]
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundtoys.com/product/decapitator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundtoys.com/product/decapitator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

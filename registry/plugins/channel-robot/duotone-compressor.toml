@@ -1,0 +1,25 @@
+slug        = "duotone-compressor"
+name        = "DuoTone Compressor"
+vendor      = "Channel Robot"
+version     = "1.0"
+description = "Channel Robot DuoTone Compressor blends two compressor models for flexible parallel dynamics."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.channelrobot.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.channelrobot.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.channelrobot.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

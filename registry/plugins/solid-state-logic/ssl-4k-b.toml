@@ -1,0 +1,26 @@
+slug        = "ssl-4k-b"
+name        = "SSL 4K B"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "Faithful emulation of the SL 4000 B console channel strip with musical EQ and thick retro tone."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-4k-b"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10385-SSL-4K-B?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-4k-b"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-4k-b"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

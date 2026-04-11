@@ -1,0 +1,25 @@
+slug        = "clavi-twin-821778"
+name        = "Clavi Twin &#8217;78"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Vintage 1978 clavinet Kontakt instrument with authentic funky, percussive keyboard character."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/clavi-twin-78"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/clavi-twin-78"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/clavi-twin-78"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

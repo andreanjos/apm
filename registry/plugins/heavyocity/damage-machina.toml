@@ -1,0 +1,26 @@
+slug        = "damage-machina"
+name        = "Damage Machina"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Industrial cinematic percussion combining mechanical, electronic, and orchestral sources with DAMAGE processing."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/damage-machina"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/14908-Damage-Machina?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/damage-machina"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/damage-machina"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

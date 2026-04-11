@@ -1,0 +1,25 @@
+slug        = "10db-bundle"
+name        = "+10db Bundle"
+vendor      = "Boz Digital Labs"
+version     = "1.0.0"
+description = "Bundle combining Boz Digital Labs' +10dB compressor and EQ plugins for mixing and tracking workflows."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozdigitallabs.com/product/10db-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozdigitallabs.com/product/10db-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozdigitallabs.com/product/10db-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

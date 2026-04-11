@@ -1,0 +1,25 @@
+slug        = "symphonic-orchestra-gold"
+name        = "Symphonic Orchestra Gold"
+vendor      = "EastWest"
+version     = "1.0.0"
+description = "EastWest's classic orchestral sample library featuring full orchestra recorded at Gold mic position."
+category    = "instruments"
+subcategory = "orchestral"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/orchestras/symphonic-orchestra"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/orchestras/symphonic-orchestra"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/orchestras/symphonic-orchestra"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

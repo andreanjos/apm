@@ -1,0 +1,25 @@
+slug        = "aas-lounge-lizard-session"
+name        = "AAS Lounge Lizard Session"
+vendor      = "Applied Acoustics Systems"
+version     = "1.0.0"
+description = "AAS entry-level version of the Lounge Lizard physically modeled electric piano plugin."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.applied-acoustics.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.applied-acoustics.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.applied-acoustics.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

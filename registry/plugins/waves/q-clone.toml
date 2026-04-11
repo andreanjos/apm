@@ -1,0 +1,26 @@
+slug        = "q-clone"
+name        = "Q-Clone"
+vendor      = "Waves"
+version     = "14.0"
+description = "EQ cloning plugin that captures and replicates the curve of any hardware or software EQ."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/q-clone"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/q-clone"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/q-clone"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

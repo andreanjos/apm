@@ -1,0 +1,26 @@
+slug        = "oxford-inflator"
+name        = "Oxford Inflator"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Renowned plugin adding presence, warmth, and loudness to tracks without compromising dynamic range or clarity."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/oxford-inflator"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/492-Oxford-Inflator?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/oxford-inflator"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/oxford-inflator"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "cinestrings-solo"
+name        = "CineStrings Solo"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Best-in-class solo strings library with industry-first Adaptive True Legato technology."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/cinestrings-solo"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11242-CineStrings-Solo?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/cinestrings-solo"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/cinestrings-solo"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

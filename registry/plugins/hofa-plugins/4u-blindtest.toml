@@ -1,0 +1,26 @@
+slug        = "4u-blindtest"
+name        = "4U BlindTest"
+vendor      = "HOFA Plugins"
+version     = "1.0.0"
+description = "Free blind A/B comparison plugin for objectively comparing up to 3 plugins or tracks in your DAW."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://hofa-plugins.de/en/shop/freeware-en/4u-blindtest/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/5360-4U-BlindTest?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hofa-plugins.de/en/shop/freeware-en/4u-blindtest/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hofa-plugins.de/en/shop/freeware-en/4u-blindtest/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "mutant-reverb-038-delay-bundle"
+name        = "Mutant Reverb &#038; Delay Bundle"
+vendor      = "WA Production"
+version     = "1.0.0"
+description = "A bundle of Mutant Reverb and Mutant Delay with integrated ducking for vocals and production."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/bundles/view/mutant-reverb-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/bundles/view/mutant-reverb-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/bundles/view/mutant-reverb-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

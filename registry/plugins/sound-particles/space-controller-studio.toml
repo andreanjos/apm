@@ -1,0 +1,26 @@
+slug        = "space-controller-studio"
+name        = "Space Controller Studio"
+vendor      = "Sound Particles"
+version     = "1.0"
+description = "Sound Particles Space Controller Studio for advanced mobile-controlled immersive audio panning."
+category    = "effects"
+subcategory = "stereo width"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundparticles.com/products/spacecontroller"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/7997-Space-Controller-Studio?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundparticles.com/products/spacecontroller"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundparticles.com/products/spacecontroller"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

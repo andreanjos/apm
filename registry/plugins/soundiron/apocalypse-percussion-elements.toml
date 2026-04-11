@@ -1,0 +1,26 @@
+slug        = "apocalypse-percussion-elements"
+name        = "Apocalypse Percussion Elements"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Compact edition of the Apocalypse epic percussion library with essential cinematic drum content."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/apocalypse-elements"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/1221-Apocalypse-Percussion-Elements?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/apocalypse-elements"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/apocalypse-elements"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

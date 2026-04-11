@@ -1,0 +1,25 @@
+slug        = "granulizer"
+name        = "Granulizer"
+vendor      = "BLEASS"
+version     = "1.0"
+description = "BLEASS granular texture effect with randomization and mesmerizing 3D visualizer."
+category    = "effects"
+subcategory = "granular"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bleass.com/product/bleass-granulizer-desktop-plugin/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bleass.com/product/bleass-granulizer-desktop-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bleass.com/product/bleass-granulizer-desktop-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

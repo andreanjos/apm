@@ -1,0 +1,25 @@
+slug        = "realrick"
+name        = "RealRick"
+vendor      = "MusicLab"
+version     = "6"
+description = "Virtual Rickenbacker guitar instrument capturing the classic jangle and unique tone of the Rick."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.musiclab.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.musiclab.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.musiclab.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

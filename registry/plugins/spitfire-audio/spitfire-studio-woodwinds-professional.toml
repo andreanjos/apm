@@ -1,0 +1,26 @@
+slug        = "spitfire-studio-woodwinds-professional"
+name        = "Spitfire Studio Woodwinds Professional"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Professional edition with 11 woodwind instruments and 143 articulations recorded at AIR Studio One."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/spitfire-studio-woodwinds-professional"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/spitfire-studio-woodwinds-professional"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/spitfire-studio-woodwinds-professional"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

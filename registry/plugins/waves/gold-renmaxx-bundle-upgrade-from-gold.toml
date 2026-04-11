@@ -1,0 +1,26 @@
+slug        = "gold-renmaxx-bundle-upgrade-from-gold"
+name        = "Gold + RenMaxx Bundle Upgrade from Gold"
+vendor      = "Waves"
+version     = "14.0"
+description = "Upgrade bundle adding Renaissance Maxx plugins to the existing Gold Bundle."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/gold-renmaxx-bundle-upgrade-from-gold"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/gold-renmaxx-bundle-upgrade-from-gold"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/gold-renmaxx-bundle-upgrade-from-gold"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

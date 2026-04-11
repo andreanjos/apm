@@ -1,0 +1,26 @@
+slug        = "1984"
+name        = "1984"
+vendor      = "Piano Vintage"
+version     = "1.0.0"
+description = "Free virtual analog synthesizer with dual oscillators, Moog-style filter, and built-in chorus/reverb."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/manufacturers/44-Piano-Vintage"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/369-1984?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/manufacturers/44-Piano-Vintage"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/manufacturers/44-Piano-Vintage"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

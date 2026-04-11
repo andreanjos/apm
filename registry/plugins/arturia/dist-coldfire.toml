@@ -1,0 +1,26 @@
+slug        = "dist-coldfire"
+name        = "Dist COLDFIRE"
+vendor      = "Arturia"
+version     = "1.4.0"
+description = "Dual-engine distortion plugin pairing a solid-state and a tube circuit with parallel processing."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-effects/dist-coldfire/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "code-red-free"
+name        = "Code Red Free"
+vendor      = "Shattered Glass Audio"
+version     = "1.0"
+description = "Free channel strip plugin by Shattered Glass Audio with preamp, EQ, and dynamics."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+homepage    = "https://shatteredglassaudio.com/product/code-red-free"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/1778-Code-Red-Free?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://shatteredglassaudio.com/product/code-red-free"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://shatteredglassaudio.com/product/code-red-free"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "clap-machine"
+name        = "Clap Machine"
+vendor      = "99Sounds"
+version     = "1.0"
+description = "Free clap and snare generator plugin by 99Sounds with layered clap synthesis."
+category    = "instruments"
+subcategory = "generator"
+license     = "commercial"
+tags        = []
+homepage    = "https://99sounds.org/clap-machine/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/1353-Clap-Machine?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://99sounds.org/clap-machine/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://99sounds.org/clap-machine/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

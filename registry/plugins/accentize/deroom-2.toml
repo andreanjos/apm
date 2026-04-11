@@ -1,0 +1,25 @@
+slug        = "deroom-2"
+name        = "DeRoom 2"
+vendor      = "Accentize"
+version     = "2.0.7"
+description = "Machine-learning reverb removal plugin that separates direct sound from room reflections in real time."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.accentize.com/product/deroom/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.accentize.com/product/deroom/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.accentize.com/product/deroom/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

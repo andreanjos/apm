@@ -1,0 +1,25 @@
+slug        = "swam-all-in-bundle"
+name        = "SWAM All In Bundle"
+vendor      = "Audio Modeling"
+version     = "3"
+description = "Complete SWAM collection of physically modeled solo woodwinds, brass, and strings instruments."
+category    = "instruments"
+subcategory = "brass"
+license     = "commercial"
+tags        = []
+homepage    = "https://audiomodeling.com/swam-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audiomodeling.com/swam-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audiomodeling.com/swam-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "psp-hertzrider2"
+name        = "PSP HertzRider2"
+vendor      = "PSP Audioware"
+version     = "2.0.4"
+description = "Stereo frequency shifter for tuning inharmonic sounds and creative sound design with LFO modulation."
+category    = "effects"
+subcategory = "frequency shifter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-hertzrider2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/28-Frequency-Shifter/5136-PSP-HertzRider2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-hertzrider2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-hertzrider2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "auto-tune-unlimited-2-months-subscription"
+name        = "Auto-Tune Unlimited 2 Months Subscription"
+vendor      = "Antares"
+version     = "1.0.0"
+description = "2-month subscription providing access to the full suite of Antares Auto-Tune plugins."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.antarestech.com/products/auto-tune/unlimited"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.antarestech.com/products/auto-tune/unlimited"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.antarestech.com/products/auto-tune/unlimited"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

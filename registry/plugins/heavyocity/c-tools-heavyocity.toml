@@ -1,0 +1,25 @@
+slug        = "c-tools-heavyocity"
+name        = "C-Tools"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Kontakt suite with Capsule drum machine, Coil FM bass synth, and Clique polyphonic string/organ engine."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/c-tools"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/c-tools"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/c-tools"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

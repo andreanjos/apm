@@ -1,0 +1,24 @@
+slug        = "spherequad"
+name        = "SphereQuad"
+vendor      = "WA Production"
+version     = "1.5.0"
+description = "A semi-modular multi-effect with flanger, phaser, chorus, stereo filter, and a 16-step sequencer."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/plugins/view/spherequad"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/plugins/view/spherequad"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/plugins/view/spherequad"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

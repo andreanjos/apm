@@ -1,0 +1,25 @@
+slug        = "totalpack"
+name        = "TotalPack"
+vendor      = "PSP Audioware"
+version     = "1.0.0"
+description = "Complete PSP Audioware bundle combining all PSP plugins including verbs, EQs, compressors, delays, and modulation."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "ample-guitar-m-lite-ii"
+name        = "Ample Guitar M Lite II"
+vendor      = "Ample Sound"
+version     = "2.31"
+description = "Free lite virtual instrument of the Martin D-41 acoustic guitar with 848 MB of samples."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.amplesound.net/en/pro-pd.asp?id=7"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/4520-Ample-Guitar-M-Lite-II?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=7"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=7"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

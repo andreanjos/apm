@@ -1,0 +1,25 @@
+slug        = "vintage-4-band-radio"
+name        = "Vintage 4 Band Radio"
+vendor      = "Alden Nulden Productions"
+version     = "1.0.0"
+description = "Kontakt instrument emulating the character and tone coloring of a vintage 4-band radio."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "http://aldennuldenproductions.com/product/vintage-4-band-radio-kontakt-version/"
+is_paid     = true
+
+[formats.vst3]
+url          = "http://aldennuldenproductions.com/product/vintage-4-band-radio-kontakt-version/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "http://aldennuldenproductions.com/product/vintage-4-band-radio-kontakt-version/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

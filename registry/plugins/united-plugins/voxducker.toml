@@ -1,0 +1,26 @@
+slug        = "voxducker"
+name        = "VoxDucker"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "Sidechain-based ducking plugin that automatically suppresses background audio when a primary source is present."
+category    = "effects"
+subcategory = "vocal processing"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/VoxDucker/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/9995-VoxDucker?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/VoxDucker/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/VoxDucker/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

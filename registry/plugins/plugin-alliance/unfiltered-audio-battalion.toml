@@ -1,0 +1,27 @@
+slug        = "unfiltered-audio-battalion"
+name        = "Unfiltered Audio Battalion"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "Drum machine plugin by Unfiltered Audio combining 20-engine synthesis capabilities with modern sampling and sequencing."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/en/products/unfiltered_audio_battalion.html"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/14935-Unfiltered-Audio-Battalion?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio_battalion.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/unfiltered_audio_battalion.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

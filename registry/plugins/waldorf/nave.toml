@@ -1,0 +1,26 @@
+slug        = "nave"
+name        = "Nave"
+vendor      = "Waldorf"
+version     = "1.0"
+description = "Wavetable synthesizer plugin bringing the acclaimed Nave iPad synth engine to professional DAW environments."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://waldorfmusic.com/nave-plugin-en/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12435-Nave?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://waldorfmusic.com/nave-plugin-en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://waldorfmusic.com/nave-plugin-en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

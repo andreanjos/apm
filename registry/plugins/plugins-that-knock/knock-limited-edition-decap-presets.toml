@@ -1,0 +1,24 @@
+slug        = "knock-limited-edition-decap-presets"
+name        = "KNOCK + Limited Edition DECAP Presets"
+vendor      = "PLUGINS THAT KNOCK"
+version     = "1.0.0"
+description = "KNOCK plugin bundled with limited edition preset pack designed by platinum producer DECAP."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://pluginsthatknock.com/knock"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://pluginsthatknock.com/knock"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://pluginsthatknock.com/knock"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

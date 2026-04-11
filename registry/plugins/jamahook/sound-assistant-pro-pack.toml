@@ -1,0 +1,26 @@
+slug        = "sound-assistant-pro-pack"
+name        = "Sound Assistant Pro Pack"
+vendor      = "Jamahook"
+version     = "1.0"
+description = "Jamahook Sound Assistant Pro Pack with advanced AI music analysis and metadata features."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://jamahook.com/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/11875-Sound-Assistant-Pro-Pack?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://jamahook.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://jamahook.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

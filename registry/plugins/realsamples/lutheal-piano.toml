@@ -1,0 +1,25 @@
+slug        = "lutheal-piano"
+name        = "Lutheal Piano"
+vendor      = "Realsamples"
+version     = "1.0.0"
+description = "Sample library recreating Ravel's unique Luthéal piano attachment with distinctive tonal stops."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.realsamples.de/en_GB"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.realsamples.de/en_GB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.realsamples.de/en_GB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

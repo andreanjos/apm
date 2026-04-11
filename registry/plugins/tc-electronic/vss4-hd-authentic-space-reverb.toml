@@ -1,0 +1,26 @@
+slug        = "vss4-hd-authentic-space-reverb"
+name        = "VSS4 HD Authentic Space Reverb"
+vendor      = "TC Electronic"
+version     = "1.0.0"
+description = "True stereo reverb plugin with precision early reflections and adjustable stereo diffused fields."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.tcelectronic.com/products/native-plug-ins/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/14574-VSS4-HD-Authentic-Space-Reverb?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.tcelectronic.com/products/native-plug-ins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.tcelectronic.com/products/native-plug-ins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

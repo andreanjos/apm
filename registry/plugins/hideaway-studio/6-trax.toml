@@ -1,0 +1,25 @@
+slug        = "6-trax"
+name        = "6-Trax"
+vendor      = "Hideaway Studio"
+version     = "1.0.0"
+description = "Kontakt instrument inspired by the 1984 Sequential Circuits Six-Trak, one of the first MIDI multitimbral synths."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://hideawaystudio.net/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hideawaystudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hideawaystudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

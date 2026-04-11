@@ -1,0 +1,25 @@
+slug        = "total-snare-drums"
+name        = "Total Snare Drums"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Library containing over 10,000 single hit snare drum samples across multiple genres and formats."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/total-snare-drums"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/total-snare-drums"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/total-snare-drums"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

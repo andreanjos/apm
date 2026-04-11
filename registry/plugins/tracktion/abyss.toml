@@ -1,0 +1,25 @@
+slug        = "abyss"
+name        = "Abyss"
+vendor      = "Tracktion"
+version     = "1.2"
+description = "Visual synthesizer by Dawesome delivering dark drones, cinematic pads, and rich evolving textures."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/abyss"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/abyss"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/abyss"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

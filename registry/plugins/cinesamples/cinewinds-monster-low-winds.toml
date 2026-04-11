@@ -1,0 +1,26 @@
+slug        = "cinewinds-monster-low-winds"
+name        = "CineWinds Monster Low Winds"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Deep, powerful low woodwind library featuring contrabassoon, bass clarinet, and contrabass flute."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/cinewinds-monster-low-winds"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11297-CineWinds-Monster-Low-Winds?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/cinewinds-monster-low-winds"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/cinewinds-monster-low-winds"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

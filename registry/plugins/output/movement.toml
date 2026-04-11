@@ -1,0 +1,24 @@
+slug        = "movement"
+name        = "Movement"
+vendor      = "Output"
+version     = "1.0"
+description = "Rhythmic effects plugin with delay, distortion, filters, EQ, compression, and reverb to add motion to any signal."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://output.com/products/movement"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://output.com/products/movement"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://output.com/products/movement"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

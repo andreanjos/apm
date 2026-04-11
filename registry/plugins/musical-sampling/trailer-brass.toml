@@ -1,0 +1,25 @@
+slug        = "trailer-brass"
+name        = "Trailer Brass"
+vendor      = "Musical Sampling"
+version     = "1.0"
+description = "Epic trailer-style brass Kontakt library delivering powerful, high-impact performances for cinematic media."
+category    = "instruments"
+subcategory = "brass"
+license     = "commercial"
+tags        = []
+homepage    = "https://musicalsampling.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://musicalsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://musicalsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

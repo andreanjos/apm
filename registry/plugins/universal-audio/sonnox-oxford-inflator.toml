@@ -1,0 +1,26 @@
+slug        = "sonnox-oxford-inflator"
+name        = "Sonnox® Oxford Inflator"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Sonnox Oxford Inflator increases loudness and perceived volume without limiting or clipping."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/sonnox-oxford-inflator.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/sonnox-oxford-inflator.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/sonnox-oxford-inflator.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

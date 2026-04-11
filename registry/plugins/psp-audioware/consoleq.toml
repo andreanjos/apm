@@ -1,0 +1,25 @@
+slug        = "consoleq"
+name        = "ConsoleQ"
+vendor      = "PSP Audioware"
+version     = "2.0.3"
+description = "British console-style equalizer delivering analog EQ character for tracking and mixing."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-consoleq"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-consoleq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-consoleq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

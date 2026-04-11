@@ -1,0 +1,26 @@
+slug        = "ps-3300-korg"
+name        = "PS 3300"
+vendor      = "KORG"
+version     = "6"
+description = "Software recreation of the rare 1977 KORG PS-3300 fully polyphonic analog synthesizer."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.korg.com/us/products/software/korg_collection/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/16095-PS-3300?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.korg.com/us/products/software/korg_collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.korg.com/us/products/software/korg_collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "the-orchestra-essentials"
+name        = "The Orchestra Essentials"
+vendor      = "Sonuscore"
+version     = "1.0.0"
+description = "Entry-level orchestral plugin combining strings, brass, winds, and percussion with 99 inspirational presets."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonuscore.com/shop/the-orchestra-essentials/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonuscore.com/shop/the-orchestra-essentials/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonuscore.com/shop/the-orchestra-essentials/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

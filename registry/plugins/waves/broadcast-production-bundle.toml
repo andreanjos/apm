@@ -1,0 +1,26 @@
+slug        = "broadcast-production-bundle"
+name        = "Broadcast & Production Bundle"
+vendor      = "Waves"
+version     = "14.0"
+description = "Comprehensive bundle of audio processing tools for broadcast and production workflows."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/broadcast-production-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/broadcast-production-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/broadcast-production-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

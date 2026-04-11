@@ -1,0 +1,26 @@
+slug        = "ampknob-s-zero-100"
+name        = "AmpKnob S Zero 100"
+vendor      = "Bogren Digital"
+version     = "1.0.0"
+description = "Single-knob free amp sim of the boutique MLC Subzero 100 with clean, crunch, and high-gain channels."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://bogrendigital.com/products/ampknob-mlc-s_zero-100"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/11969-AmpKnob-S-Zero-100?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://bogrendigital.com/products/ampknob-mlc-s_zero-100"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://bogrendigital.com/products/ampknob-mlc-s_zero-100"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

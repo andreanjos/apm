@@ -1,0 +1,24 @@
+slug        = "frostbite-2"
+name        = "Frostbite 2"
+vendor      = "AudioThing"
+version     = "2.3"
+description = "Creative freeze and glitch audio effect for generating ambient textures, drones, and stuttered soundscapes."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/effects/frostbite/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/effects/frostbite/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/effects/frostbite/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

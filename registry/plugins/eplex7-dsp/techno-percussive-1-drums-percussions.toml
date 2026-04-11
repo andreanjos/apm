@@ -1,0 +1,25 @@
+slug        = "techno-percussive-1-drums-percussions"
+name        = "Techno percussive 1 – drums & percussions"
+vendor      = "Eplex7 DSP"
+version     = "1.0.0"
+description = "Kontakt-style plugin with 21 multi-octave banks of techno percussions and melodic drums."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eplex7.com/techno-percussive-1-instrument-plugin-banks/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eplex7.com/techno-percussive-1-instrument-plugin-banks/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eplex7.com/techno-percussive-1-instrument-plugin-banks/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

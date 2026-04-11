@@ -1,0 +1,25 @@
+slug        = "slickeq-mastering"
+name        = "SlickEQ Mastering"
+vendor      = "Tokyo Dawn Labs"
+version     = "2.1.1"
+description = "Mastering-grade equalizer with stepped controls, linear and minimum phase modes and output saturation."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tokyodawn.net/tdr-slickeq-m/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tokyodawn.net/tdr-slickeq-m/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tokyodawn.net/tdr-slickeq-m/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

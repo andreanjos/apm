@@ -1,0 +1,26 @@
+slug        = "lion-master"
+name        = "Lion Master"
+vendor      = "Safari Audio"
+version     = "1.0.0"
+description = "Mastering limiter with flexible crossover, serious saturation and full stereo-width control."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://safariaudio.com/products/lion-master"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/15344-Lion-Master?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://safariaudio.com/products/lion-master"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://safariaudio.com/products/lion-master"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

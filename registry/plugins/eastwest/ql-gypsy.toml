@@ -1,0 +1,25 @@
+slug        = "ql-gypsy"
+name        = "QL Gypsy"
+vendor      = "EastWest"
+version     = "1.0.0"
+description = "EastWest world instrument library featuring authentic Romani and flamenco instruments."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/world-and-traditional/gypsy"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/world-and-traditional/gypsy"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/world-and-traditional/gypsy"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

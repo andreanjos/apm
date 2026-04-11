@@ -1,0 +1,25 @@
+slug        = "the-hoser-xt"
+name        = "The Hoser XT"
+vendor      = "Boz Digital Labs"
+version     = "1.0.0"
+description = "Extended version of The Hoser tilt EQ with additional frequency options and improved controls."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozdigitallabs.com/product/the-hoser-xt/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozdigitallabs.com/product/the-hoser-xt/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozdigitallabs.com/product/the-hoser-xt/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

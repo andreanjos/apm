@@ -1,0 +1,25 @@
+slug        = "c7-grand"
+name        = "C7 Grand"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Yamaha C7 Grand piano (227 cm) sampled with three stereo mic perspectives for a bright, precise concert sound."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/C7Grand"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/C7Grand"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/C7Grand"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

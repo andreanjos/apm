@@ -1,0 +1,25 @@
+slug        = "riq-drum"
+name        = "Riq Drum"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Kontakt library of the Middle Eastern riq frame drum with authentic rhythmic articulations."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/riq-drum"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/riq-drum"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/riq-drum"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

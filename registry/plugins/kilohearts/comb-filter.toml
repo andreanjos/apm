@@ -1,0 +1,25 @@
+slug        = "comb-filter"
+name        = "Comb Filter"
+vendor      = "Kilohearts"
+version     = "2.4.6"
+description = "Comb filter Snapin that creates resonant peaks and notches for metallic coloration effects."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://kilohearts.com/products/comb_filter"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://kilohearts.com/products/comb_filter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://kilohearts.com/products/comb_filter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "modular-beats"
+name        = "Modular Beats"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "100% pure analogue drum loops and grooves backed up with over 300 modular drum kits."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/modular-beats"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/modular-beats"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/modular-beats"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

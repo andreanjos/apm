@@ -1,0 +1,25 @@
+slug        = "liquid-mod-ii"
+name        = "Liquid Mod II"
+vendor      = "Nomad Factory"
+version     = "3.0.1"
+description = "Chorus and modulation plugin from the Liquid II series delivering lush analog-style modulation effects."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.nomadfactory.com/products/p748-Liquid-Mod/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.nomadfactory.com/products/p748-Liquid-Mod/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.nomadfactory.com/products/p748-Liquid-Mod/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

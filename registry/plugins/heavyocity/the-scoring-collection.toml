@@ -1,0 +1,25 @@
+slug        = "the-scoring-collection"
+name        = "THE SCORING COLLECTION"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Heavyocity's premier scoring bundle with atmospheric sound design, strings, brass, plucks, and vocals."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/the-scoring-collection"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/the-scoring-collection"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/the-scoring-collection"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

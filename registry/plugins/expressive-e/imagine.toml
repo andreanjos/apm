@@ -1,0 +1,26 @@
+slug        = "imagine"
+name        = "Imagine"
+vendor      = "Expressive E"
+version     = "1.0.0"
+description = "Physical modeling acoustic synthesizer with hundreds of instrument layers and expressive MPE control."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.expressivee.com/63-imagine"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/8257-Imagine?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.expressivee.com/63-imagine"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.expressivee.com/63-imagine"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

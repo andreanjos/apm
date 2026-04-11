@@ -1,0 +1,26 @@
+slug        = "omnitec-436c"
+name        = "OmniTec 436C"
+vendor      = "Black Rooster Audio"
+version     = "3.0.0"
+description = "Vari-mu tube compressor inspired by the Altec 436C delivering smooth, mellow optical-style compression."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://blackroosteraudio.com/en/products/omnitec_436c"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/11330-OmniTec-436C?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://blackroosteraudio.com/en/products/omnitec_436c"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://blackroosteraudio.com/en/products/omnitec_436c"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

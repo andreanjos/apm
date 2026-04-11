@@ -1,0 +1,26 @@
+slug        = "peq-3000-versatile-2x12-midas-eq"
+name        = "PEQ 3000 Versatile 2x12 Midas EQ"
+vendor      = "TC Electronic"
+version     = "1.0.0"
+description = "2x12 band fully parametric equalizer plugin built on Midas live sound mixing console heritage."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.tcelectronic.com/products/native-plug-ins/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14583-PEQ-3000-Versatile-2x12-Midas-EQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.tcelectronic.com/products/native-plug-ins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.tcelectronic.com/products/native-plug-ins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

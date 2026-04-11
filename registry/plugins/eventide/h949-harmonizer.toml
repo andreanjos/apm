@@ -1,0 +1,26 @@
+slug        = "h949-harmonizer"
+name        = "H949 Harmonizer"
+vendor      = "Eventide"
+version     = "1.0.0"
+description = "Legendary pitch-shifting, delay, and modulation perfect for enhancing vocals, guitars, and modern music production."
+category    = "effects"
+subcategory = "harmonizer"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eventideaudio.com/plug-ins/h949-harmonizer/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/91-Harmonizer/7947-H949-Harmonizer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eventideaudio.com/plug-ins/h949-harmonizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eventideaudio.com/plug-ins/h949-harmonizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

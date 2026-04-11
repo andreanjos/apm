@@ -1,0 +1,25 @@
+slug        = "sonnox-oxford-envolution"
+name        = "Sonnox Oxford Envolution"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Sonnox Oxford Envolution is a transient shaper with frequency-selective attack and sustain control."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/dynamics/sonnox-oxford-envolution.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/dynamics/sonnox-oxford-envolution.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/dynamics/sonnox-oxford-envolution.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

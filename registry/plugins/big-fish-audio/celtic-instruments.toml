@@ -1,0 +1,26 @@
+slug        = "celtic-instruments"
+name        = "Celtic Instruments"
+vendor      = "Big Fish Audio"
+version     = "1.0.0"
+description = "Big Fish Audio Kontakt library of authentic Celtic instruments including pipes, fiddle, and bodhran."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bigfishaudio.com/Celtic-Instruments"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13261-Celtic-Instruments?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bigfishaudio.com/Celtic-Instruments"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bigfishaudio.com/Celtic-Instruments"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

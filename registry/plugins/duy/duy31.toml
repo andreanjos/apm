@@ -1,0 +1,25 @@
+slug        = "duy31"
+name        = "Duy31"
+vendor      = "DUY"
+version     = "1.0.0"
+description = "Three-plugin suite including a 31-band graphic EQ, spectrum analyzer, and pink/white noise generator."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://duy.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://duy.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

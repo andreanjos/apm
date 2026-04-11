@@ -1,0 +1,25 @@
+slug        = "purelimit-crossgrade"
+name        = "pure:limit Crossgrade"
+vendor      = "sonible"
+version     = "1.0.0"
+description = "Crossgrade pricing for pure:limit, sonible's AI-powered limiter for creators."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonible.com/purelimit/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonible.com/purelimit/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonible.com/purelimit/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "blue-cat-s-plug-n-script"
+name        = "Blue Cat s Plug n Script"
+vendor      = "Blue Cat Audio"
+version     = "3.6"
+description = "Audio and MIDI scripting tool for building custom effects and virtual instruments within any DAW."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bluecataudio.com/Products/Product_PlugNScript/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/3866-Blue-Cat-s-Plug-n-Script?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bluecataudio.com/Products/Product_PlugNScript/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bluecataudio.com/Products/Product_PlugNScript/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

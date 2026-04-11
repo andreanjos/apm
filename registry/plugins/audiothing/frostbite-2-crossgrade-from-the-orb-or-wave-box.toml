@@ -1,0 +1,24 @@
+slug        = "frostbite-2-crossgrade-from-the-orb-or-wave-box"
+name        = "Frostbite 2 Crossgrade from The Orb or Wave Box"
+vendor      = "AudioThing"
+version     = "2.3"
+description = "Crossgrade to Frostbite 2, a creative freeze and glitch effect plugin for ambient texture generation."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/effects/frostbite/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/effects/frostbite/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/effects/frostbite/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

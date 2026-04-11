@@ -1,0 +1,25 @@
+slug        = "surround-3d-reverb-bundle"
+name        = "Surround 3D Reverb Bundle"
+vendor      = "iZotope"
+version     = "1.0.0"
+description = "Bundle of Exponential Audio surround and 3D algorithmic reverb plugins for immersive audio work."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

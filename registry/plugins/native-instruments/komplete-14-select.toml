@@ -1,0 +1,26 @@
+slug        = "komplete-14-select"
+name        = "Komplete 14 Select"
+vendor      = "Native Instruments"
+version     = "14"
+description = "Entry-level Komplete 14 bundle with essential synths, instruments, effects, and samples."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-select/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-select/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-14-select/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

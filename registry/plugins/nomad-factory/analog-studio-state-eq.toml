@@ -1,0 +1,25 @@
+slug        = "analog-studio-state-eq"
+name        = "Analog Studio State EQ"
+vendor      = "Nomad Factory"
+version     = "1.0.0"
+description = "State-variable EQ plugin modeled on vintage analog equalizer circuits for smooth frequency shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.nomadfactory.com/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.nomadfactory.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.nomadfactory.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "retro-machines-mk2"
+name        = "Retro Machines MK2"
+vendor      = "Native Instruments"
+version     = "1.4"
+description = "16 meticulously recreated vintage analog synths and keyboards from the 70s and 80s for Kontakt."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/synths/retro-machines-mk2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/synths/retro-machines-mk2/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/synths/retro-machines-mk2/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

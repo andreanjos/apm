@@ -1,0 +1,26 @@
+slug        = "mastermind"
+name        = "MasterMind"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "Mastering plugin with EQ matching, optimizer, limiter with saturation, and stereo enhancement."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/MasterMind/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/9867-MasterMind?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/MasterMind/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/MasterMind/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "weiss-gambit-series-channel-strip-for-console-1"
+name        = "Weiss Gambit Series Channel Strip for Console 1"
+vendor      = "Softube"
+version     = "2.6"
+description = "Weiss mastering-grade channel strip plugin optimized for use with Softube Console 1 hardware."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/weiss-gambit-series-for-console-1"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/weiss-gambit-series-for-console-1"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/weiss-gambit-series-for-console-1"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

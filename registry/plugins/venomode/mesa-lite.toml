@@ -1,0 +1,26 @@
+slug        = "mesa-lite"
+name        = "Mesa Lite"
+vendor      = "Venomode"
+version     = "1"
+description = "Free multi-mode clipper plugin offering soft, hard, and curve clipping options."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://venomode.com/plugins"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/16308-Mesa-Lite?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://venomode.com/plugins"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://venomode.com/plugins"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

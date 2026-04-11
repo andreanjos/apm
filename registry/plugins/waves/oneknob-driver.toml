@@ -1,0 +1,26 @@
+slug        = "oneknob-driver"
+name        = "OneKnob Driver"
+vendor      = "Waves"
+version     = "14.0"
+description = "Single-knob overdrive and distortion processor for adding gritty analog drive."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/oneknob-driver"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/oneknob-driver"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/oneknob-driver"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

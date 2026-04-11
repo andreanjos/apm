@@ -1,0 +1,25 @@
+slug        = "mercury-symphonic-boys-choir"
+name        = "Mercury Symphonic Boys Choir"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Full Kontakt library of a professional boys choir with extensive articulations for orchestral scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/mercury-symphonic-boys-choir"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/mercury-symphonic-boys-choir"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/mercury-symphonic-boys-choir"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

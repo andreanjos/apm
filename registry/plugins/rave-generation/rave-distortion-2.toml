@@ -1,0 +1,26 @@
+slug        = "rave-distortion-2"
+name        = "Rave Distortion 2"
+vendor      = "Rave Generation"
+version     = "1.0.0"
+description = "Distortion plugin inspired by hardware pedals, synth filters, and mixing console saturation."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://ravegeneration.io/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/30-Distortion/16784-Rave-Distortion-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://ravegeneration.io/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://ravegeneration.io/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

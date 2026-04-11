@@ -1,0 +1,26 @@
+slug        = "charakter-piano-collection"
+name        = "Charakter Piano Collection"
+vendor      = "Cinematique Instruments"
+version     = "1.0.0"
+description = "Collection of character piano Kontakt instruments offering diverse tonal personalities for composition."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://cinematique-instruments.com/pages_instr/page_charakter_piano.php"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/3297-Charakter-Piano-Collection?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cinematique-instruments.com/pages_instr/page_charakter_piano.php"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cinematique-instruments.com/pages_instr/page_charakter_piano.php"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

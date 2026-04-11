@@ -1,0 +1,25 @@
+slug        = "ny-cutz-2-8211-off-da-hook"
+name        = "NY Cutz 2 &#8211; OFF DA HOOK"
+vendor      = "Zero-G"
+version     = "2.0"
+description = "East Coast hip-hop sample library featuring beats, grooves, drums, keys, vocals, and construction kits."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/ny-cutz-2-off-da-hook"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/ny-cutz-2-off-da-hook"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/ny-cutz-2-off-da-hook"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

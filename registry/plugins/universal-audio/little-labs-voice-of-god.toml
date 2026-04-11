@@ -1,0 +1,27 @@
+slug        = "little-labs-voice-of-god"
+name        = "Little Labs Voice of God"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Little Labs Voice of God subharmonic bass generator for deep low-end enhancement."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/little-labs-voice-of-god.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/17066-Little-Labs-Voice-of-God?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/little-labs-voice-of-god.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/little-labs-voice-of-god.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

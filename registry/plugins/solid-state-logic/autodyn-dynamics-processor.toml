@@ -1,0 +1,24 @@
+slug        = "autodyn-dynamics-processor"
+name        = "autoDYN Dynamics Processor"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "AI-assisted SSL 4000 E channel strip dynamics processor with intelligent compressor and gate settings."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/autodyn"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/autodyn"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/autodyn"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

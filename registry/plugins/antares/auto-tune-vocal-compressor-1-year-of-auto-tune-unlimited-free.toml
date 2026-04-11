@@ -1,0 +1,25 @@
+slug        = "auto-tune-vocal-compressor-1-year-of-auto-tune-unlimited-free"
+name        = "Auto-Tune Vocal Compressor + 1 Year of Auto-Tune Unlimited FREE"
+vendor      = "Antares"
+version     = "1.0.0"
+description = "Vocal-optimized compressor plugin bundled with one year of Auto-Tune Unlimited subscription."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.antarestech.com/products/vocal-tools/vocal-compressor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.antarestech.com/products/vocal-tools/vocal-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.antarestech.com/products/vocal-tools/vocal-compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

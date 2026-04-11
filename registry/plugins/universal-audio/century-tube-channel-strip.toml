@@ -1,0 +1,26 @@
+slug        = "century-tube-channel-strip"
+name        = "Century Tube Channel Strip"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "UA's Century Tube Channel Strip is an original tube-warm preamp, EQ, and compressor strip."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/channel-strips/century-tube-channel-strip.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/century-tube-channel-strip.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/century-tube-channel-strip.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

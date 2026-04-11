@@ -1,0 +1,25 @@
+slug        = "x-echo"
+name        = "X-Echo"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "SSL tape echo emulation plugin with tempo-sync for classic analog delay textures in the DAW."
+category    = "effects"
+subcategory = "echo"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-echo"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-echo"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-echo"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

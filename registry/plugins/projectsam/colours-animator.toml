@@ -1,0 +1,25 @@
+slug        = "colours-animator"
+name        = "Colours: Animator"
+vendor      = "ProjectSAM"
+version     = "1.0.0"
+description = "Kontakt library for cartoon and animation scoring with laughing clarinets and trombone slides."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/colours-animator/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/colours-animator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/colours-animator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

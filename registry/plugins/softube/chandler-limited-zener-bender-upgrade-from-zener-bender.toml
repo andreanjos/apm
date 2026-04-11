@@ -1,0 +1,26 @@
+slug        = "chandler-limited-zener-bender-upgrade-from-zener-bender"
+name        = "Chandler Limited Zener-Bender Upgrade from Zener-Bender"
+vendor      = "Softube"
+version     = "2.6"
+description = "Upgrade path to the latest Chandler Limited Zener-Bender from the previous Zener-Bender version."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-bender"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-bender"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/chandler-limited-zener-bender"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

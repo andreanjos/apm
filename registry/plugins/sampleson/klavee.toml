@@ -1,0 +1,26 @@
+slug        = "klavee"
+name        = "Klavee"
+vendor      = "Sampleson"
+version     = "1.0.0"
+description = "Virtual restoration of the rare Czech Klaviphon, a plucked electric piano manufactured in the 1960s."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://sampleson.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/7161-Klavee?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sampleson.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sampleson.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

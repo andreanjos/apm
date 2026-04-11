@@ -1,0 +1,26 @@
+slug        = "tube-tech-complete-collection-upgrade-from-cl1b"
+name        = "Tube-Tech Complete Collection Upgrade from CL1B"
+vendor      = "Softube"
+version     = "2.6"
+description = "Upgrade to the full Tube-Tech Complete Collection from the CL 1B tube compressor plugin."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/tube-tech-complete-collection-2"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

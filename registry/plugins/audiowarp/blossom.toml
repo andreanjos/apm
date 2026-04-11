@@ -1,0 +1,25 @@
+slug        = "blossom"
+name        = "Blossom"
+vendor      = "AudioWarp"
+version     = "1.0.0"
+description = "Tape-infused Kontakt instrument inspired by vintage analog synths with a unique warm sound."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kvraudio.com/developer/audiowarp"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kvraudio.com/developer/audiowarp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kvraudio.com/developer/audiowarp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

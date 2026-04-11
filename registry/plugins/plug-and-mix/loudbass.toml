@@ -1,0 +1,25 @@
+slug        = "loudbass"
+name        = "Loudbass"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Low-frequency enhancement plugin for adding depth, weight, and sub-bass presence to any signal."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p1152-Loudbass/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p1152-Loudbass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p1152-Loudbass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

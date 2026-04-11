@@ -1,0 +1,24 @@
+slug        = "producers-guide-to-neoverb"
+name        = "Producer’s Guide to Neoverb"
+vendor      = "Producertech"
+version     = "1.0.0"
+description = "Producertech video course guiding producers through iZotope Neoverb's features and workflows."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.producertech.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.producertech.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.producertech.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

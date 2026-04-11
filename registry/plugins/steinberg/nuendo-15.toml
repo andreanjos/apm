@@ -1,0 +1,26 @@
+slug        = "nuendo-15"
+name        = "Nuendo 15"
+vendor      = "Steinberg"
+version     = "15"
+description = "Professional audio post-production DAW with 35+ new features for mixing, editing, and ADR workflows."
+category    = "utility"
+subcategory = "daw"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.steinberg.net/nuendo/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/17079-Nuendo-15?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.steinberg.net/nuendo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.steinberg.net/nuendo/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

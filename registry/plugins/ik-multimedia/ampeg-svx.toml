@@ -1,0 +1,25 @@
+slug        = "ampeg-svx"
+name        = "Ampeg SVX"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Official Ampeg bass amp simulator for AmpliTube with 18 models including 4 amps, 6 cabs, and 8 stomps."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/svx/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/svx/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/svx/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

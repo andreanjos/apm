@@ -1,0 +1,25 @@
+slug        = "hype"
+name        = "Hype"
+vendor      = "Air Music Tech"
+version     = "1.0.0"
+description = "Modern wavetable synthesizer with advanced modulation and an extensive preset library."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/hype"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/hype"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/hype"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

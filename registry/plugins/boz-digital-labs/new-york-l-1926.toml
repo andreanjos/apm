@@ -1,0 +1,26 @@
+slug        = "new-york-l-1926"
+name        = "New York L 1926"
+vendor      = "Boz Digital Labs"
+version     = "1.0.0"
+description = "A 1926 New York Steinway Model L (5'10\") with warm, aged bass and softened highs from decades of use."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozmasterkeys.com/product/new-york-l-1926/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/11644-New-York-L-1926?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozmasterkeys.com/product/new-york-l-1926/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozmasterkeys.com/product/new-york-l-1926/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

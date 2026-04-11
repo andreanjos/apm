@@ -1,0 +1,27 @@
+slug        = "deesser"
+name        = "Deesser"
+vendor      = "Softube"
+version     = "2.6"
+description = "Transparent de-esser plugin for removing sibilance from vocals and other audio sources."
+category    = "effects"
+subcategory = "de esser"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/deesser"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/14616-Deesser?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/deesser"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/deesser"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

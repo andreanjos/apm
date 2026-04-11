@@ -1,0 +1,25 @@
+slug        = "nitromodular-collection"
+name        = "nitroModular Collection"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Collection of nitroModular effect and synthesis modules for the Voltage Modular platform."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/voltage-modular"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/voltage-modular"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/voltage-modular"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

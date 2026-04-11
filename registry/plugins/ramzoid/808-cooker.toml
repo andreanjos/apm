@@ -1,0 +1,26 @@
+slug        = "808-cooker"
+name        = "808 Cooker"
+vendor      = "Ramzoid"
+version     = "1.0"
+description = "808 bass synthesizer plugin by Ramzoid designed for trap-style punchy sub bass production."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://ramzoid.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/11027-808-Cooker?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://ramzoid.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://ramzoid.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "master-tanbur"
+name        = "Master Tanbur"
+vendor      = "Rast Sound"
+version     = "1.0.0"
+description = "Middle Eastern tanbur lute Kontakt library recorded with a master performer with multiple articulations."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://rastsound.com/downloads/master-tanbur/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rastsound.com/downloads/master-tanbur/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rastsound.com/downloads/master-tanbur/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

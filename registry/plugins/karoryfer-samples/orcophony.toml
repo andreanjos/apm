@@ -1,0 +1,25 @@
+slug        = "orcophony"
+name        = "Orcophony"
+vendor      = "Karoryfer Samples"
+version     = "1.0.0"
+description = "Medieval-fantasy sample library of orc and goblin sounds with over 13,000 samples of tagelharpas and ibex horn."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://shop.karoryfer.com/products/orcophony"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://shop.karoryfer.com/products/orcophony"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://shop.karoryfer.com/products/orcophony"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

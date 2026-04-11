@@ -1,0 +1,25 @@
+slug        = "ethera-gold-atlantis"
+name        = "Ethera Gold Atlantis"
+vendor      = "Zero-G"
+version     = "3.5"
+description = "Professional vocal library with 34GB of samples featuring 6 cinematic singers and 11 True Legato instruments."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/ethera-gold-atlantis-3-5"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/ethera-gold-atlantis-3-5"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/ethera-gold-atlantis-3-5"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

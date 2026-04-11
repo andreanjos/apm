@@ -1,0 +1,26 @@
+slug        = "ambient-minimalism-2-the-dark-side"
+name        = "Ambient Minimalism 2 The Dark Side"
+vendor      = "Big Fish Audio"
+version     = "1.0.0"
+description = "Big Fish Audio Kontakt library of dark and mysterious ambient soundscapes and cinematic textures."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bigfishaudio.com/Ambient-Minimalism-2-The-Dark-Side"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/6417-Ambient-Minimalism-2-The-Dark-Side?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bigfishaudio.com/Ambient-Minimalism-2-The-Dark-Side"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bigfishaudio.com/Ambient-Minimalism-2-The-Dark-Side"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

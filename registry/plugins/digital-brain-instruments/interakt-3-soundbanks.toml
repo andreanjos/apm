@@ -1,0 +1,26 @@
+slug        = "interakt-3-soundbanks"
+name        = "Interakt 3 Soundbanks"
+vendor      = "Digital Brain Instruments"
+version     = "3.0"
+description = "Additional soundbank content for the Interakt multi-sampler platform by Digital Brain Instruments."
+category    = "instruments"
+subcategory = "sampler"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.digitalbrain-instruments.com/interakt"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/9378-Interakt-3-Soundbanks?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.digitalbrain-instruments.com/interakt"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.digitalbrain-instruments.com/interakt"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

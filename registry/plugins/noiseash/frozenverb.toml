@@ -1,0 +1,24 @@
+slug        = "frozenverb"
+name        = "FrozenVerb"
+vendor      = "NoiseAsh"
+version     = "1.3.9"
+description = "Algorithmic reverb with a Freeze button for creating infinitely sustaining reverb pads."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://noiseash.com/frozenverb/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://noiseash.com/frozenverb/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://noiseash.com/frozenverb/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

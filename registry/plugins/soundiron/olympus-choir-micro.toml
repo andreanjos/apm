@@ -1,0 +1,26 @@
+slug        = "olympus-choir-micro"
+name        = "Olympus Choir Micro"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Micro edition of Soundiron's flagship Olympus Symphonic Choir Kontakt library."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/olympus-choir-micro"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/2025-Olympus-Choir-Micro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/olympus-choir-micro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/olympus-choir-micro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

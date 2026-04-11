@@ -1,0 +1,25 @@
+slug        = "smartgate-upgrade"
+name        = "smart:gate Upgrade"
+vendor      = "sonible"
+version     = "1.0.0"
+description = "Upgrade pricing to smart:gate for existing sonible plugin customers."
+category    = "effects"
+subcategory = "gate"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonible.com/smartgate/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonible.com/smartgate/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonible.com/smartgate/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "kuvert"
+name        = "Kuvert"
+vendor      = "Klevgrand"
+version     = "1.0"
+description = "An envelope-driven multi-effect where five freely drawn envelopes control different effect parameters."
+category    = "effects"
+subcategory = "envelope shaper"
+license     = "commercial"
+tags        = []
+homepage    = "https://klevgrand.com/products/kuvert"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/8711-Kuvert?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://klevgrand.com/products/kuvert"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://klevgrand.com/products/kuvert"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

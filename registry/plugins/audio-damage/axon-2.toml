@@ -1,0 +1,25 @@
+slug        = "axon-2"
+name        = "Axon 2"
+vendor      = "Audio Damage"
+version     = "1.0.0"
+description = "Neural network-based drum sequencer that generates evolving, organic rhythmic patterns."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiodamage.com/products/ad042-axon-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiodamage.com/products/ad042-axon-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiodamage.com/products/ad042-axon-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

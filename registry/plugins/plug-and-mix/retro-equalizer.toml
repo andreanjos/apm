@@ -1,0 +1,25 @@
+slug        = "retro-equalizer"
+name        = "Retro Equalizer"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Vintage-style EQ plugin delivering classic analog tonal shaping with musical, warm frequency response."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p871-Retro-Equalizer/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p871-Retro-Equalizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p871-Retro-Equalizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

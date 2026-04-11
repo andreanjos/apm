@@ -1,0 +1,26 @@
+slug        = "tube-tech-eq-collection"
+name        = "Tube-Tech EQ Collection"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Collection emulating Tube-Tech's PE 1C passive EQ and ME 1B midrange equalizer."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/tube-tech-eq-collection.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/tube-tech-eq-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/tube-tech-eq-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

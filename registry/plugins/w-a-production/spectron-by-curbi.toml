@@ -1,0 +1,26 @@
+slug        = "spectron-by-curbi"
+name        = "Spectron by Curbi"
+vendor      = "W A Production"
+version     = "1.0.0"
+description = "Spectral delay plugin co-designed with Curbi turning individual frequencies into independent delay paths."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/plugins/view/spectron"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/13475-Spectron-by-Curbi?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/plugins/view/spectron"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/plugins/view/spectron"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

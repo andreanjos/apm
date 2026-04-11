@@ -1,0 +1,25 @@
+slug        = "organ-mystique"
+name        = "Organ Mystique"
+vendor      = "ProjectSAM"
+version     = "1.0.0"
+description = "Kontakt library of three sampled Dutch church organs for authentic orchestral organ parts."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

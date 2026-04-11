@@ -1,0 +1,27 @@
+slug        = "tremolator"
+name        = "Tremolator"
+vendor      = "Soundtoys"
+version     = "5.5"
+description = "Tempo-synced tremolo plugin with rhythmic patterns and modulation for expressive amplitude effects."
+category    = "effects"
+subcategory = "tremolo"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundtoys.com/product/tremolator/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/40-Tremolo/1810-Tremolator?a_aid=69d5e87c5f2e9"
+bundle_ids  = ["com.soundtoys.audiounit.Tremolator"]
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundtoys.com/product/tremolator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundtoys.com/product/tremolator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

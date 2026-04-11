@@ -1,0 +1,25 @@
+slug        = "jennings-mkii"
+name        = "Jennings MKII"
+vendor      = "Rhythmic Robot"
+version     = "1.0"
+description = "A Kontakt instrument based on the 1950s Jennings Univox valve synthesizer for swelling, percussive tones."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rhythmicrobot.com/product/jennings-mk-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rhythmicrobot.com/product/jennings-mk-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rhythmicrobot.com/product/jennings-mk-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

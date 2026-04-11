@@ -1,0 +1,26 @@
+slug        = "the-bass-collective-dynir-cabinet-collection"
+name        = "The Bass Collective DynIR Cabinet Collection"
+vendor      = "Two Notes Audio Engineering"
+version     = "1.0.0"
+description = "10 DynIR bass cab captures inspired by Hartke, Eden, Mesa Engineering, MarkBass, and more."
+category    = "utility"
+subcategory = "impulse response"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.two-notes.com/en/dynir-virtual-cabinets-for-bass/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/92-Impulse-Response/10925-The-Bass-Collective-DynIR-Cabinet-Collection?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.two-notes.com/en/dynir-virtual-cabinets-for-bass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.two-notes.com/en/dynir-virtual-cabinets-for-bass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

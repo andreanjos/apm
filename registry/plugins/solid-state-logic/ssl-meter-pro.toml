@@ -1,0 +1,26 @@
+slug        = "ssl-meter-pro"
+name        = "SSL Meter Pro"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "Advanced metering plugin with loudness, dynamics, and spectral analysis for professional mastering."
+category    = "utility"
+subcategory = "metering"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/meter-pro"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/14914-SSL-Meter-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/meter-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/meter-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "american-tweed"
+name        = "American Tweed"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Amp simulator plugin emulating classic American tweed combo amplifier tones for guitar."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p911-American-Tweed/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p911-American-Tweed/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p911-American-Tweed/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

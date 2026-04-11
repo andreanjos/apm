@@ -1,0 +1,27 @@
+slug        = "spl-pq"
+name        = "SPL PQ"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "Fully parametric dual-channel five-band mastering EQ based on SPL's pioneering 120V rail technology."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/en/products/spl_pq.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/10881-SPL-PQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/spl_pq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/spl_pq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

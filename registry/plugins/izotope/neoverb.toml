@@ -1,0 +1,25 @@
+slug        = "neoverb"
+name        = "Neoverb"
+vendor      = "iZotope"
+version     = "1.4.0"
+description = "AI-powered reverb plugin with triangle blend pad to morph between early, room, and late reflections."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products/neoverb"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products/neoverb"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products/neoverb"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

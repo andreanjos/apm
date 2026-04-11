@@ -1,0 +1,26 @@
+slug        = "spicerack"
+name        = "Spicerack"
+vendor      = "PROCESS AUDIO"
+version     = "1.0.0"
+description = "Saturation plugin with five distinct distortion flavors for a wide palette of harmonic color."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://process.audio/en/products/spicerack"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/9803-Spicerack?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://process.audio/en/products/spicerack"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://process.audio/en/products/spicerack"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

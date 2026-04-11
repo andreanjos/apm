@@ -1,0 +1,26 @@
+slug        = "komplete-13-update"
+name        = "Komplete 13 Update"
+vendor      = "Native Instruments"
+version     = "13"
+description = "Update to Komplete 13 Standard — the world's favourite music production bundle from Native Instruments."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-13/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-13/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/bundles/komplete-13/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

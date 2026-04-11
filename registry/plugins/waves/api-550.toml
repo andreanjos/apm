@@ -1,0 +1,26 @@
+slug        = "api-550"
+name        = "API 550"
+vendor      = "Waves"
+version     = "14.0"
+description = "Emulation of the legendary API 550A and 550B analog equalizers for punchy, musical EQ."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/api-550"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/api-550"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/api-550"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

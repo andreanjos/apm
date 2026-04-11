@@ -1,0 +1,25 @@
+slug        = "toy-suite"
+name        = "Toy Suite"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Ultimate musical toy collection with 370+ acoustic and electric toys plus 8-bit chip synth, totaling 70,000+ samples."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/toy-suite"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/toy-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/toy-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

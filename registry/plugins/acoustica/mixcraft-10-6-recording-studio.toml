@@ -1,0 +1,26 @@
+slug        = "mixcraft-10-6-recording-studio"
+name        = "Mixcraft 10 6 Recording Studio"
+vendor      = "Acoustica"
+version     = "10.6"
+description = "Acoustica Mixcraft Recording Studio 10.6 DAW for multi-track recording and production."
+category    = "utility"
+subcategory = "daw"
+license     = "commercial"
+tags        = []
+homepage    = "https://acoustica.com/mixcraft"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/23-DAW/11418-Mixcraft-10-6-Recording-Studio?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://acoustica.com/mixcraft"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://acoustica.com/mixcraft"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

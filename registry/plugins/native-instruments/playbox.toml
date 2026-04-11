@@ -1,0 +1,26 @@
+slug        = "playbox"
+name        = "Playbox"
+vendor      = "Native Instruments"
+version     = "1.0"
+description = "Sample and chord generator with 900+ samples and 200+ chord sets for instant harmonic inspiration."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/synths/playbox/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/synths/playbox/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/synths/playbox/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

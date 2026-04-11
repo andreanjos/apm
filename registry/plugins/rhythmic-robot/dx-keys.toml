@@ -1,0 +1,25 @@
+slug        = "dx-keys"
+name        = "DX Keys"
+vendor      = "Rhythmic Robot"
+version     = "1.0"
+description = "A Kontakt instrument capturing the iconic FM tones of the Yamaha DX series synthesizers."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rhythmicrobot.com/product/dx-keys"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rhythmicrobot.com/product/dx-keys"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rhythmicrobot.com/product/dx-keys"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "dirty-tape"
+name        = "Dirty Tape"
+vendor      = "Softube"
+version     = "2.6"
+description = "Lo-fi tape saturation plugin with Dirt and Drive controls for warm, vintage analog character."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/dirty-tape"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/dirty-tape"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/dirty-tape"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

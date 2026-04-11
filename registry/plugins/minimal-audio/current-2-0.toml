@@ -1,0 +1,26 @@
+slug        = "current-2-0"
+name        = "Current 2 0"
+vendor      = "Minimal Audio"
+version     = "2.2"
+description = "Flagship synthesizer with five sound engines, granular sampler, and comprehensive built-in effects rack."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.minimal.audio/products/current"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11770-Current-2-0?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.minimal.audio/products/current"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.minimal.audio/products/current"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

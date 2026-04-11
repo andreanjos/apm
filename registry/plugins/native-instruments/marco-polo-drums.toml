@@ -1,0 +1,27 @@
+slug        = "marco-polo-drums"
+name        = "Marco Polo Drums"
+vendor      = "Native Instruments"
+version     = "1.0"
+description = "Signature boom bap drum kits from producer Marco Polo — raw, dusty hip hop beats with classic swing."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/play-series/marco-polo-drums/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/16858-Marco-Polo-Drums?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/play-series/marco-polo-drums/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/play-series/marco-polo-drums/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

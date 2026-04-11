@@ -1,0 +1,25 @@
+slug        = "have-it-all-bundle"
+name        = "Have It All Bundle"
+vendor      = "Have Audio"
+version     = "1.0.0"
+description = "Complete Have Audio bundle including all Kontakt instruments and libraries in one collection."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://haveaudio.com/collections/all-products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://haveaudio.com/collections/all-products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://haveaudio.com/collections/all-products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

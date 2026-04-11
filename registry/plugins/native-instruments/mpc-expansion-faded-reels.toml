@@ -1,0 +1,27 @@
+slug        = "mpc-expansion-faded-reels"
+name        = "MPC Expansion Faded Reels"
+vendor      = "Native Instruments"
+version     = "1.0"
+description = "Lo-fi hip hop MPC expansion with fuzzy chords, cozy keys, dusty drums, and pastel-toned textures."
+category    = "effects"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/for-akai-mpc/expansions-for-mpc/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/76-Expansion-Packs/15193-MPC-Expansion-Faded-Reels?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/for-akai-mpc/expansions-for-mpc/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/for-akai-mpc/expansions-for-mpc/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "orange-dreams-2-lite"
+name        = "Orange Dreams 2 Lite"
+vendor      = "ZAK Sound"
+version     = "2"
+description = "Free lofi/hip-hop instrument plugin with dual samplers and synthesizer engine for chill beat production."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://zaksound.com/orange-dreams/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/13339-Orange-Dreams-2-Lite?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zaksound.com/orange-dreams/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zaksound.com/orange-dreams/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

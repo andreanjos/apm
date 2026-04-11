@@ -1,0 +1,25 @@
+slug        = "frame-drummer"
+name        = "Frame Drummer"
+vendor      = "RDGAudio"
+version     = "1.0.0"
+description = "Sample-based frame drum instrument plugin with authentic Middle Eastern and world percussion."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://rdgaudio.com/frame-drummer/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rdgaudio.com/frame-drummer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rdgaudio.com/frame-drummer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "ssi-pro-analogue-modelled-gate"
+name        = "SSi Pro Analogue Modelled Gate"
+vendor      = "Minimal System Group"
+version     = "1.0.0"
+description = "High-end analogue-modelled noise gate for demanding mixing engineers and mastering professionals."
+category    = "effects"
+subcategory = "gate"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/20-Gate/243-SSi-Pro-Analogue-Modelled-Gate?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/manufacturers/29-Minimal-System-Group"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

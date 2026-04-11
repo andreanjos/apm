@@ -1,0 +1,25 @@
+slug        = "dulcitone-celesta"
+name        = "Dulcitone Celesta"
+vendor      = "Realsamples"
+version     = "1.0.0"
+description = "Virtual tuning-fork piano from circa 1910 with nearly 1,500 single samples for Kontakt Player."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.realsamples.de/Dulcitone-Celesta-Edition-Beurmann/en"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.realsamples.de/Dulcitone-Celesta-Edition-Beurmann/en"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.realsamples.de/Dulcitone-Celesta-Edition-Beurmann/en"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

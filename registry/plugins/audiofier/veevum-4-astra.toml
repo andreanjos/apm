@@ -1,0 +1,25 @@
+slug        = "veevum-4-astra"
+name        = "Veevum 4 – Astra"
+vendor      = "Audiofier"
+version     = "1.0"
+description = "Ambient Kontakt instrument with 100 evolving and mutating sound sources for unpredictable textures."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiofier.co.uk/veevum-astra/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiofier.co.uk/veevum-astra/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiofier.co.uk/veevum-astra/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

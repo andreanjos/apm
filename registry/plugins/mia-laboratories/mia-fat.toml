@@ -1,0 +1,26 @@
+slug        = "mia-fat"
+name        = "MIA Fat"
+vendor      = "MIA Laboratories"
+version     = "1.0.0"
+description = "MIA Laboratories free one-knob low-frequency enhancer for adding weight to club mixes."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://mialaboratories.com/product/miafat/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/8434-MIA-Fat?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mialaboratories.com/product/miafat/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mialaboratories.com/product/miafat/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

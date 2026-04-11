@@ -1,0 +1,26 @@
+slug        = "parity-eq"
+name        = "Parity EQ"
+vendor      = "Stagecraft Software"
+version     = "1.0.0"
+description = "Beautiful and highly functional EQ plugin with a heavy focus on modulation and automation."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.stagecraftsoftware.com/products/parityeq/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/14549-Parity-EQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.stagecraftsoftware.com/products/parityeq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.stagecraftsoftware.com/products/parityeq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

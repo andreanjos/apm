@@ -1,0 +1,25 @@
+slug        = "waveframe-sound-collection"
+name        = "WaveFrame Sound Collection"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Sample library dedicated to the WaveFrame Audioframe sampler, used on Peter Gabriel's Us and Enigma's MCMXC a.D."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/waveframe-sound-collection"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/waveframe-sound-collection"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/waveframe-sound-collection"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

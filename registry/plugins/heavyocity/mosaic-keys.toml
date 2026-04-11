@@ -1,0 +1,26 @@
+slug        = "mosaic-keys"
+name        = "Mosaic Keys"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Cinematic electric keys instrument re-envisioning electric piano sounds with synthetic and found sound textures."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/mosaic-keys"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/5435-Mosaic-Keys?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/mosaic-keys"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/mosaic-keys"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

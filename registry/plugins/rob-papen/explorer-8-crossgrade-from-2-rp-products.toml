@@ -1,0 +1,25 @@
+slug        = "explorer-8-crossgrade-from-2-rp-products"
+name        = "eXplorer-8 Crossgrade from 2 RP Products"
+vendor      = "Rob Papen"
+version     = "1.0.0"
+description = "Crossgrade to the eXplorer 8 bundle for owners of two existing Rob Papen products."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/explorer-8.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/explorer-8.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/explorer-8.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

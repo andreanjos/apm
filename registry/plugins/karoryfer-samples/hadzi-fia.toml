@@ -1,0 +1,25 @@
+slug        = "hadzi-fia"
+name        = "Hadzi-Fia"
+vendor      = "Karoryfer Samples"
+version     = "1.0.0"
+description = "Solo male vocal sample library recorded in Ghana featuring all seven Ewe vowels with true legato."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://shop.karoryfer.com/products/hadzi-fia"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://shop.karoryfer.com/products/hadzi-fia"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://shop.karoryfer.com/products/hadzi-fia"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

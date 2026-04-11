@@ -1,0 +1,25 @@
+slug        = "raindrop-038-blade"
+name        = "Raindrop &#038; Blade"
+vendor      = "Three-Body Technology"
+version     = "1.6.0"
+description = "Deeply sampled ancient Chinese Yangqin hammered dulcimer virtual instrument."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.threebodytech.com/en/products/raindropsandblade"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.threebodytech.com/en/products/raindropsandblade"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.threebodytech.com/en/products/raindropsandblade"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "dave-aude-emp-toolbox"
+name        = "Dave Aude EMP Toolbox"
+vendor      = "Waves"
+version     = "14.0"
+description = "Dave Aude's signature collection of electronic music production tools and processors."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/dave-aude-emp-toolbox"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/dave-aude-emp-toolbox"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/dave-aude-emp-toolbox"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

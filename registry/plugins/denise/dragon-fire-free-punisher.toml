@@ -1,0 +1,25 @@
+slug        = "dragon-fire-free-punisher"
+name        = "Dragon Fire + Free Punisher"
+vendor      = "denise"
+version     = "1.0.0"
+description = "Dragon Fire compressor bundled with the free Punisher saturation plugin."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.deniseaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.deniseaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.deniseaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "space-ii"
+name        = "Space II"
+vendor      = "Rigid Audio"
+version     = "1.0.0"
+description = "Kontakt instrument with 100 dark spacey looping textures and drones for movie scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rigid-audio.com/product/space-ii/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rigid-audio.com/product/space-ii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rigid-audio.com/product/space-ii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

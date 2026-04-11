@@ -1,0 +1,25 @@
+slug        = "ezmix-pack-rooms-verbs"
+name        = "EZmix Pack: Rooms & Verbs"
+vendor      = "Toontrack"
+version     = "1.0.0"
+description = "EZmix expansion pack with room and reverb presets for adding natural acoustic spaces to your mix."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "toontrack-product-manager"
+homepage    = "https://www.toontrack.com/product-category/ezmix-packs/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.toontrack.com/product-category/ezmix-packs/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.toontrack.com/product-category/ezmix-packs/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

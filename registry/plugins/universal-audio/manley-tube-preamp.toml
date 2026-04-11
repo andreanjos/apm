@@ -1,0 +1,27 @@
+slug        = "manley-tube-preamp"
+name        = "Manley Tube Preamp"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Manley Reference Cardioid tube microphone preamp for LUNA."
+category    = "effects"
+subcategory = "vocal processing"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/channel-strips/manley-tube-preamp.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/11028-Manley-Tube-Preamp?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/manley-tube-preamp.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/channel-strips/manley-tube-preamp.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "ezcety"
+name        = "Ezcety"
+vendor      = "Zyvenhaal"
+version     = "1.0.0"
+description = "Dystopian synthesizer Kontakt library with dark atmospheric and industrial textures."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zyvenhaal.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zyvenhaal.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zyvenhaal.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

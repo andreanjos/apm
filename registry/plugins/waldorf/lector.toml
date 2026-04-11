@@ -1,0 +1,26 @@
+slug        = "lector"
+name        = "Lector"
+vendor      = "Waldorf"
+version     = "1.5"
+description = "Vocoder plugin from Waldorf Music that turns any input signal into diverse vocal and harmonic sound effects."
+category    = "effects"
+subcategory = "vocoder"
+license     = "commercial"
+tags        = []
+homepage    = "https://waldorfmusic.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/43-Vocoder/12434-Lector?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://waldorfmusic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://waldorfmusic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

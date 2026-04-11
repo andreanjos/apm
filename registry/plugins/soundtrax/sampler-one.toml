@@ -1,0 +1,25 @@
+slug        = "sampler-one"
+name        = "Sampler One"
+vendor      = "Soundtrax"
+version     = "2.0"
+description = "Kontakt instrument emulating early digital hardware samplers with drag-and-drop sample import."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundtrax-kontakt.bandcamp.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundtrax-kontakt.bandcamp.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundtrax-kontakt.bandcamp.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

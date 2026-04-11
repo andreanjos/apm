@@ -1,0 +1,25 @@
+slug        = "ensemble-metals-collection"
+name        = "Ensemble Metals Collection"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Master Sessions collection of deeply sampled metallic percussion instruments played in ensemble configurations."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/ms-ensemblemetals"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/ms-ensemblemetals"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/ms-ensemblemetals"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

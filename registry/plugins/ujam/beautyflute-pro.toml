@@ -1,0 +1,26 @@
+slug        = "beautyflute-pro"
+name        = "BEAUTYFLUTE Pro"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Free expressive flute/recorder virtual instrument plugin for adding authentic flute textures."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/beautyflute-pro/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/17090-BEAUTYFLUTE-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/beautyflute-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/beautyflute-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

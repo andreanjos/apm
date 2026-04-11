@@ -1,0 +1,25 @@
+slug        = "daw-essentials-8211-delay-studio"
+name        = "DAW Essentials &#8211; Delay Studio"
+vendor      = "Tracktion"
+version     = "1.0.0"
+description = "Delay plugin from the DAW Essentials Collection with multiple delay modes and tempo sync."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/daw-essentials-collection"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/daw-essentials-collection"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/daw-essentials-collection"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

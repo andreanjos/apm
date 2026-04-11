@@ -1,0 +1,25 @@
+slug        = "amplitube-metal"
+name        = "AmpliTube Metal"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Metal-focused AmpliTube expansion with high-gain amps, cabs, and stomps for heavy tones."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/metal/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/metal/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/metal/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,27 @@
+slug        = "jx-3p"
+name        = "JX 3P"
+vendor      = "Roland"
+version     = "1.0"
+description = "Software recreation of Roland's 1983 JX-3P, the brand's first MIDI synthesizer with DCO-based tones."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "roland-cloud"
+homepage    = "https://www.roland.com/us/products/rc_jx-3p/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15288-JX-3P?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.roland.com/us/products/rc_jx-3p/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.roland.com/us/products/rc_jx-3p/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

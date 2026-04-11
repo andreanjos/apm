@@ -1,0 +1,26 @@
+slug        = "space-flanger"
+name        = "Space Flanger"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Real-time flanger plugin producing phases, sweeps, and extraterrestrial whooshing modulation effects."
+category    = "effects"
+subcategory = "flanger"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/space-flanger/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/12-Flanger/16069-Space-Flanger?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/space-flanger/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/space-flanger/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

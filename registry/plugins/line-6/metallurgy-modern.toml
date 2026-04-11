@@ -1,0 +1,25 @@
+slug        = "metallurgy-modern"
+name        = "Metallurgy: Modern"
+vendor      = "Line 6"
+version     = "1.0"
+description = "Line 6 Metallurgy: Modern is an amp sim plugin with high-gain modern metal tones."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://line6.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://line6.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://line6.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

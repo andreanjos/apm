@@ -1,0 +1,25 @@
+slug        = "david-oliver-shake"
+name        = "David Oliver Shake"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Kontakt Player shaker and rattle percussion library curated by percussionist David Oliver."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/david-oliver-shake"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/david-oliver-shake"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/david-oliver-shake"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

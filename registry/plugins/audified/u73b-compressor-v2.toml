@@ -1,0 +1,25 @@
+slug        = "u73b-compressor-v2"
+name        = "U73b Compressor V2"
+vendor      = "Audified"
+version     = "2.0.0"
+description = "Second-generation emulation of the vintage German U73b broadcast compressor/limiter hardware."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/u73b-compressor/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/u73b-compressor/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/u73b-compressor/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

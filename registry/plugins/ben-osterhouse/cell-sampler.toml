@@ -1,0 +1,26 @@
+slug        = "cell-sampler"
+name        = "Cell Sampler"
+vendor      = "Ben Osterhouse"
+version     = "1.0.0"
+description = "Kontakt instrument using creative sampling techniques to build unique evolving soundscapes."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://osterhousesounds.com/products/cell-sampler"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10973-Cell-Sampler?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://osterhousesounds.com/products/cell-sampler"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://osterhousesounds.com/products/cell-sampler"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

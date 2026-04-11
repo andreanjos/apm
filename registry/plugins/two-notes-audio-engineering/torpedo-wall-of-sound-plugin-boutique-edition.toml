@@ -1,0 +1,26 @@
+slug        = "torpedo-wall-of-sound-plugin-boutique-edition"
+name        = "Torpedo Wall of Sound Plugin Boutique Edition"
+vendor      = "Two Notes Audio Engineering"
+version     = "1.0.0"
+description = "Comprehensive speaker emulator DAW plugin using DynIR technology; Plugin Boutique edition."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.two-notes.com/en/torpedo-series/torpedo-wall-of-sound/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/10922-Torpedo-Wall-of-Sound-Plugin-Boutique-Edition?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.two-notes.com/en/torpedo-series/torpedo-wall-of-sound/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.two-notes.com/en/torpedo-series/torpedo-wall-of-sound/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

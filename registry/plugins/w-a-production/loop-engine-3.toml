@@ -1,0 +1,26 @@
+slug        = "loop-engine-3"
+name        = "Loop Engine 3"
+vendor      = "W A Production"
+version     = "1.0.0"
+description = "MIDI generation tool for EDM producers creating riffs, arpeggios, and polyrhythmic sequences."
+category    = "utility"
+subcategory = "music theory tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/plugins/view/loop-engine-3"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/13923-Loop-Engine-3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/plugins/view/loop-engine-3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/plugins/view/loop-engine-3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

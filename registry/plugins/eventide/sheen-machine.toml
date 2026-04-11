@@ -1,0 +1,26 @@
+slug        = "sheen-machine"
+name        = "Sheen Machine"
+vendor      = "Eventide"
+version     = "1.0.0"
+description = "One-knob high-frequency EQ that adds air and tonal brilliance without boosting transients or adding harshness."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eventideaudio.com/plug-ins/sheen-machine/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/11692-Sheen-Machine?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eventideaudio.com/plug-ins/sheen-machine/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eventideaudio.com/plug-ins/sheen-machine/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

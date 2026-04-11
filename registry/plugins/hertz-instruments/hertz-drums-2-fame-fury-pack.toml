@@ -1,0 +1,26 @@
+slug        = "hertz-drums-2-fame-fury-pack"
+name        = "Hertz Drums 2 Fame Fury Pack"
+vendor      = "Hertz Instruments"
+version     = "1.0.0"
+description = "Modern metal drum expansion for Hertz Drums 2 delivering polished, mix-ready heavy drum sounds."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://hertzinstruments.com/packs/hertz-drums-fameandfury-pack/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/13293-Hertz-Drums-2-Fame-Fury-Pack?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hertzinstruments.com/packs/hertz-drums-fameandfury-pack/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hertzinstruments.com/packs/hertz-drums-fameandfury-pack/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

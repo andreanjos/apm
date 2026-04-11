@@ -1,0 +1,26 @@
+slug        = "tekturon"
+name        = "Tekturon"
+vendor      = "D16 Group"
+version     = "1.2.2"
+description = "Multitap sequenced delay with 16 independent delay lines arranged in a unique Delay Matrix topology."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://d16.pl/tekturon"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/3371-Tekturon?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://d16.pl/tekturon"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://d16.pl/tekturon"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "infinity-eq-2"
+name        = "Infinity EQ 2"
+vendor      = "Slate Digital"
+version     = "2.0"
+description = "Flexible dynamic EQ with new filter types, pristine performance, and a streamlined interface."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://slatedigital.com/infinity-eq/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/15797-Infinity-EQ-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://slatedigital.com/infinity-eq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://slatedigital.com/infinity-eq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "vinylistik-sequel-2-and-samplex-v3-bundle"
+name        = "Vinylistik, Sequel 2 and SampleX V3 Bundle"
+vendor      = "BeatSkillz"
+version     = "1.0.0"
+description = "Bundle combining Vinylistik, Sequel 2, and SampleX V3 for complete boom bap and lo-fi production."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.beatskillz.com/store/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.beatskillz.com/store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.beatskillz.com/store/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

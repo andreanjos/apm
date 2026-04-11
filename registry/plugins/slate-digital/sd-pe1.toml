@@ -1,0 +1,26 @@
+slug        = "sd-pe1"
+name        = "SD PE1"
+vendor      = "Slate Digital"
+version     = "1.0.0"
+description = "Realistic passive EQ recreation offering classic analog character with modern digital enhancements."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://slatedigital.com/sd-pe1-passive-eq-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/15805-SD-PE1?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://slatedigital.com/sd-pe1-passive-eq-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://slatedigital.com/sd-pe1-passive-eq-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

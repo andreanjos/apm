@@ -1,0 +1,25 @@
+slug        = "v-alto-choir"
+name        = "V Alto Choir"
+vendor      = "Bela D Media"
+version     = "1.0.0"
+description = "Female alto choir Kontakt library with legato scripting for realistic choral ensemble performances."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://beladmedia.com/v-alto-choir/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://beladmedia.com/v-alto-choir/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://beladmedia.com/v-alto-choir/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

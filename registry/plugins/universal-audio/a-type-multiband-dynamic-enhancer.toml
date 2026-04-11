@@ -1,0 +1,27 @@
+slug        = "a-type-multiband-dynamic-enhancer"
+name        = "A Type Multiband Dynamic Enhancer"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Multiband dynamic enhancer modeled on vintage hardware for width and presence."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/a-type-multiband-dynamic-enhancer.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/42-Enhancer/15130-A-Type-Multiband-Dynamic-Enhancer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/a-type-multiband-dynamic-enhancer.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/a-type-multiband-dynamic-enhancer.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "dream-fields"
+name        = "Dream Fields"
+vendor      = "Soundethers"
+version     = "1.0"
+description = "Kontakt library of glitchy, nostalgic pads, field recordings, and ambient noisescapes."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundethers.wixsite.com/soundethers"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundethers.wixsite.com/soundethers"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundethers.wixsite.com/soundethers"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "resonant-techno-reverb-rrtx24-extraterrestrial-algorithmic-fx-reverb"
+name        = "Resonant Techno Reverb RRTX24 – Extraterrestrial algorithmic fx reverb"
+vendor      = "G-Sonique"
+version     = "1.0.0"
+description = "Creative algorithmic reverb with resonant filters designed for techno and electronic music production."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.g-sonique.com/technoresonantreverbrrtx24plugin.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.g-sonique.com/technoresonantreverbrrtx24plugin.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.g-sonique.com/technoresonantreverbrrtx24plugin.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

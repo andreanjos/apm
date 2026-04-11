@@ -1,0 +1,25 @@
+slug        = "german-studio-bundle"
+name        = "German Studio Bundle"
+vendor      = "Audified"
+version     = "1.0.0"
+description = "Bundle of Audified's vintage German studio hardware emulations including U73b, U78, and 1A EQ."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/boutique-studio-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/boutique-studio-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/boutique-studio-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

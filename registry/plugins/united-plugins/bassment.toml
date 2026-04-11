@@ -1,0 +1,24 @@
+slug        = "bassment"
+name        = "Bassment"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "All-in-one bass amplifier plugin with multi-effects, EQ matching, and 200+ cabinet simulations."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/Bassment/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/Bassment/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/Bassment/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

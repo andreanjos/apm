@@ -1,0 +1,26 @@
+slug        = "blue-cat-s-chorus"
+name        = "Blue Cat s Chorus"
+vendor      = "Blue Cat Audio"
+version     = "4.5"
+description = "Free modulation effect ranging from subtle ensemble to deep, destructive chorus effects."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bluecataudio.com/Products/Product_Chorus/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/271-Blue-Cat-s-Chorus?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bluecataudio.com/Products/Product_Chorus/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bluecataudio.com/Products/Product_Chorus/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

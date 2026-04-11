@@ -1,0 +1,26 @@
+slug        = "particles"
+name        = "Particles"
+vendor      = "ZAK Sound"
+version     = "1.0.0"
+description = "Multi-effect plugin transforming sounds into immersive spatial textures via reverb, delay, saturation, and chorus."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://zaksound.com/particles/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/14228-Particles?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zaksound.com/particles/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zaksound.com/particles/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

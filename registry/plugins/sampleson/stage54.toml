@@ -1,0 +1,26 @@
+slug        = "stage54"
+name        = "Stage54"
+vendor      = "Sampleson"
+version     = "1.0.0"
+description = "Spectral-modeled emulation of a rare 54-key late-'70s stage electric tine piano in just 45MB."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instrument/8783-Stage54"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/8783-Stage54?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instrument/8783-Stage54"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instrument/8783-Stage54"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

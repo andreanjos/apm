@@ -1,0 +1,24 @@
+slug        = "32c-vocal-intensity-processor"
+name        = "32C Vocal Intensity Processor"
+vendor      = "Harrison Consoles"
+version     = "1.0.0"
+description = "Vocal plugin combining Harrison's 32C filters, vocal leveler, K-12 meter, and limiter for polished vocal tracks."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.harrisonaudio.com/all-products/vocal-intensity-processor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.harrisonaudio.com/all-products/vocal-intensity-processor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.harrisonaudio.com/all-products/vocal-intensity-processor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

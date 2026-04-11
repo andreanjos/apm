@@ -1,0 +1,25 @@
+slug        = "eddie-kramer-effects-channel"
+name        = "Eddie Kramer Effects Channel"
+vendor      = "Waves"
+version     = "14.0"
+description = "Signature effects channel strip capturing Eddie Kramer's iconic effects routing approach."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/eddie-kramer-effects-channel"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/eddie-kramer-effects-channel"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/eddie-kramer-effects-channel"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

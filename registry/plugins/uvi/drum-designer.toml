@@ -1,0 +1,26 @@
+slug        = "drum-designer"
+name        = "Drum Designer"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Modern drum workshop combining sample and synthesis with 4 drum engines, 5,700+ samples, and 2,500+ preset kits."
+category    = "instruments"
+subcategory = "drum synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/drum-designer"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/139-Drum-Synth/16030-Drum-Designer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/drum-designer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/drum-designer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "realeight"
+name        = "RealEight"
+vendor      = "MusicLab"
+version     = "6"
+description = "Virtual 8-string electric guitar instrument delivering realistic playing techniques and tones."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.musiclab.com/products/realeight/info.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.musiclab.com/products/realeight/info.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.musiclab.com/products/realeight/info.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

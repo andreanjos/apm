@@ -1,0 +1,25 @@
+slug        = "synthmaster-everything-bundle-upgrade-from-synthmaster-12-bundle"
+name        = "SynthMaster Everything Bundle Upgrade from SynthMaster 1+2 Bundle"
+vendor      = "KV331 Audio"
+version     = "1.0.0"
+description = "Upgrade to the SynthMaster Everything Bundle from the 1+2 Bundle, adding SynthMaster One and all expansions."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kv331audio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kv331audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kv331audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

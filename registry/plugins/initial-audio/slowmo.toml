@@ -1,0 +1,24 @@
+slug        = "slowmo"
+name        = "SlowMo"
+vendor      = "Initial Audio"
+version     = "1.0.0"
+description = "Multiband halftime and reverse effect plugin for real-time tempo and pitch manipulation."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://initialaudio.com/slowmo2-halftime-effect-plugin/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://initialaudio.com/slowmo2-halftime-effect-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://initialaudio.com/slowmo2-halftime-effect-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

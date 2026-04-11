@@ -1,0 +1,26 @@
+slug        = "ga-gt2"
+name        = "GA GT2"
+vendor      = "Black Rooster Audio"
+version     = "3.0.0"
+description = "Guitar and bass preamp simulator delivering amp tone without the need for an audio interface."
+category    = "effects"
+subcategory = "preamp"
+license     = "commercial"
+tags        = []
+homepage    = "https://blackroosteraudio.com/en/products/ga_gt2"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/11391-GA-GT2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://blackroosteraudio.com/en/products/ga_gt2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://blackroosteraudio.com/en/products/ga_gt2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "clone"
+name        = "Clone"
+vendor      = "Thenatan Audio"
+version     = "1.0.0"
+description = "Mix-checking plugin simulating 16 speaker systems from studio monitors to phones and car stereos."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.thenatan.store/p/clone-mixcheker-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/15988-Clone?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.thenatan.store/p/clone-mixcheker-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.thenatan.store/p/clone-mixcheker-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

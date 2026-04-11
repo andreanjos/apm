@@ -1,0 +1,26 @@
+slug        = "ssl-fusion-stereo-image"
+name        = "SSL Fusion Stereo Image"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "SSL Fusion stereo image plugin using mid-side processing to widen and enhance stereo depth."
+category    = "effects"
+subcategory = "stereo width"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-stereo-image"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/8679-SSL-Fusion-Stereo-Image?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-stereo-image"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-fusion-stereo-image"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

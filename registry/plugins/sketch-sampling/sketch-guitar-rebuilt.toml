@@ -1,0 +1,25 @@
+slug        = "sketch-guitar-rebuilt"
+name        = "Sketch Guitar Rebuilt"
+vendor      = "Sketch Sampling"
+version     = "1.0.0"
+description = "Rebuilt Kontakt guitar library with expressive acoustic guitar samples and articulations."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://sketchsampling.ru/sketch-guitar-rebuilt/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sketchsampling.ru/sketch-guitar-rebuilt/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sketchsampling.ru/sketch-guitar-rebuilt/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

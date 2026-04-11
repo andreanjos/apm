@@ -1,0 +1,26 @@
+slug        = "halo-upmix"
+name        = "Halo Upmix"
+vendor      = "NUGEN Audio"
+version     = "2.0"
+description = "A natural stereo-to-surround upmix tool supporting 5.1, 7.1, and immersive audio formats."
+category    = "effects"
+subcategory = "stereo width"
+license     = "commercial"
+tags        = []
+homepage    = "https://nugenaudio.com/haloupmix/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/27-Stereo-Width/1790-Halo-Upmix?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nugenaudio.com/haloupmix/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nugenaudio.com/haloupmix/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

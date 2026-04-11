@@ -1,0 +1,26 @@
+slug        = "uncharted-88"
+name        = "UNCHARTED 88"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Experimental percussive piano with 18,600+ samples sourced from stripped piano components and preparations."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/uncharted-88"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10225-UNCHARTED-88?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/uncharted-88"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/uncharted-88"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

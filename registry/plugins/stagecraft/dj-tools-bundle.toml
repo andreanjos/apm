@@ -1,0 +1,25 @@
+slug        = "dj-tools-bundle"
+name        = "DJ Tools Bundle"
+vendor      = "Stagecraft"
+version     = "1.0.0"
+description = "Bundle of DJ-oriented utility plugins from Stagecraft Software for live mixing and performance."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.stagecraftsoftware.com/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.stagecraftsoftware.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.stagecraftsoftware.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

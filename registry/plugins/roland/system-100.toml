@@ -1,0 +1,27 @@
+slug        = "system-100"
+name        = "SYSTEM 100"
+vendor      = "Roland"
+version     = "1.0"
+description = "Software recreation of Roland's modular 1975 SYSTEM-100 semi-modular synthesizer."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "roland-cloud"
+homepage    = "https://www.roland.com/us/products/rc_system-100/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15282-SYSTEM-100?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.roland.com/us/products/rc_system-100/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.roland.com/us/products/rc_system-100/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

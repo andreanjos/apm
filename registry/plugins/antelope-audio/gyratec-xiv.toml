@@ -1,0 +1,26 @@
+slug        = "gyratec-xiv"
+name        = "Gyratec XIV"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Passive stereo tube EQ with 55 individual frequency choices across five bands, inspired by the Pultec design."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/gyratec-xiv/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/16029-Gyratec-XIV?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/gyratec-xiv/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/gyratec-xiv/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

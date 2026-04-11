@@ -1,0 +1,25 @@
+slug        = "discovery"
+name        = "Discovery"
+vendor      = "DiscoDSP"
+version     = "6.4"
+description = "Nord Lead 2-inspired virtual analog synthesizer with 8 oscillators and zero-delay feedback filters."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.discodsp.com/discovery/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.discodsp.com/discovery/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.discodsp.com/discovery/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

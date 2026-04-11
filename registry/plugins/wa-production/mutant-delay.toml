@@ -1,0 +1,25 @@
+slug        = "mutant-delay"
+name        = "Mutant Delay"
+vendor      = "WA Production"
+version     = "2.2.0"
+description = "A host-synced delay with built-in ducker, ping-pong routing, and independent L/R channel control."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/plugins/view/mutant-delay"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/plugins/view/mutant-delay"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/plugins/view/mutant-delay"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

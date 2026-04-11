@@ -1,0 +1,25 @@
+slug        = "kontakt-sound-designer-collection"
+name        = "KONTAKT Sound Designer Collection"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Curated collection of Kontakt sample libraries spanning multiple genres and instruments for professional sound design."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

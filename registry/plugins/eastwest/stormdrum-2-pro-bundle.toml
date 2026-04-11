@@ -1,0 +1,25 @@
+slug        = "stormdrum-2-pro-bundle"
+name        = "StormDrum 2 Pro Bundle"
+vendor      = "EastWest"
+version     = "1.0.0"
+description = "EastWest StormDrum 2 Pro Bundle featuring world percussion and cinematic drum content."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/drums-and-percussion/sd2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/drums-and-percussion/sd2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/drums-and-percussion/sd2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

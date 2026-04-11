@@ -1,0 +1,26 @@
+slug        = "sonic-atlas"
+name        = "Sonic Atlas"
+vendor      = "Pitch Innovations"
+version     = "1.0.0"
+description = "World music sampler platform with authentic global sounds, rhythm kits, and song-starters."
+category    = "instruments"
+subcategory = "sampler"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pitchinnovations.com/products/sonic-atlas"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/5-Sampler/16193-Sonic-Atlas?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pitchinnovations.com/products/sonic-atlas"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pitchinnovations.com/products/sonic-atlas"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

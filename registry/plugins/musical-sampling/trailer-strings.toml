@@ -1,0 +1,25 @@
+slug        = "trailer-strings"
+name        = "Trailer Strings"
+vendor      = "Musical Sampling"
+version     = "1.0"
+description = "Large ensemble cinematic strings Kontakt library with four sections recorded in a concert hall for trailer scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://musicalsampling.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://musicalsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://musicalsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

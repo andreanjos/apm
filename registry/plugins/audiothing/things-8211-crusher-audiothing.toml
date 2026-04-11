@@ -1,0 +1,25 @@
+slug        = "things-8211-crusher-audiothing"
+name        = "Things &#8211; Crusher"
+vendor      = "AudioThing"
+version     = "1.2.2"
+description = "Bit crusher and sample rate reducer plugin for adding digital lo-fi grit and crunch to any signal."
+category    = "effects"
+subcategory = "bit crusher"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/effects/things-crusher/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/effects/things-crusher/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/effects/things-crusher/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

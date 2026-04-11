@@ -1,0 +1,26 @@
+slug        = "sound-gadgets"
+name        = "Sound Gadgets"
+vendor      = "Reflekt Audio"
+version     = "1.0"
+description = "Creative sound generator plugin by Reflekt Audio with unique tonal and noise elements."
+category    = "instruments"
+subcategory = "generator"
+license     = "commercial"
+tags        = []
+homepage    = "https://reflektaudio.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/5101-Sound-Gadgets?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://reflektaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://reflektaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

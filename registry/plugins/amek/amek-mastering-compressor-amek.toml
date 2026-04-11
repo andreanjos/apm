@@ -1,0 +1,25 @@
+slug        = "amek-mastering-compressor-amek"
+name        = "Amek Mastering Compressor"
+vendor      = "AMEK"
+version     = "1.0"
+description = "AMEK System 9098 mastering compressor plugin modeled from the Rupert Neve-designed hardware."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/amek-system-9098-compressor.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/amek-system-9098-compressor.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/amek-system-9098-compressor.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "symphonic-kontakt-mega-bundle"
+name        = "Symphonic Kontakt Mega Bundle"
+vendor      = "Aria Sounds"
+version     = "1.0.0"
+description = "Bundle including London Symphonic Strings, Aurora Choir, and LSS Solo Strings for cinematic scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://ariasounds.com/product/symphonic-kontakt-mega-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://ariasounds.com/product/symphonic-kontakt-mega-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://ariasounds.com/product/symphonic-kontakt-mega-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

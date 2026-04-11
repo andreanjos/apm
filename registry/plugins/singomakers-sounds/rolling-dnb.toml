@@ -1,0 +1,26 @@
+slug        = "rolling-dnb"
+name        = "Rolling DnB"
+vendor      = "Singomakers Sounds"
+version     = "1.0.0"
+description = "Singomakers Rolling Drum & Bass preset and sample pack for liquid and rolling DnB styles."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.singomakers.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/7267-Rolling-DnB?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.singomakers.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.singomakers.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

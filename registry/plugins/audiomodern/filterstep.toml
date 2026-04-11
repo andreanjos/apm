@@ -1,0 +1,26 @@
+slug        = "filterstep"
+name        = "Filterstep"
+vendor      = "Audiomodern"
+version     = "1.0.0"
+description = "Creative motion filter plugin for generating rhythmic filter movement and modulation effects."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://audiomodern.com/shop/plugins/filterstep/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/19-Filter/6268-Filterstep?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audiomodern.com/shop/plugins/filterstep/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audiomodern.com/shop/plugins/filterstep/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

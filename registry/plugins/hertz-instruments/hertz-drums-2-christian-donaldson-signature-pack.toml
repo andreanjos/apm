@@ -1,0 +1,26 @@
+slug        = "hertz-drums-2-christian-donaldson-signature-pack"
+name        = "Hertz Drums 2 Christian Donaldson Signature Pack"
+vendor      = "Hertz Instruments"
+version     = "1.0.0"
+description = "Signature drum sample expansion for Hertz Drums 2 crafted by producer Christian Donaldson."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://hertzinstruments.com/packs/christian-donaldson-signature-pack/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/13309-Hertz-Drums-2-Christian-Donaldson-Signature-Pack?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hertzinstruments.com/packs/christian-donaldson-signature-pack/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hertzinstruments.com/packs/christian-donaldson-signature-pack/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

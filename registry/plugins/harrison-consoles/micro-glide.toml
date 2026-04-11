@@ -1,0 +1,26 @@
+slug        = "micro-glide"
+name        = "Micro Glide"
+vendor      = "Harrison Consoles"
+version     = "1.0.0"
+description = "Chorus effect adding detuned and delayed voices for natural stereo width on bass, vocals, guitar, and synth."
+category    = "effects"
+subcategory = "pitch shifter"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.harrisonaudio.com/all-products/micro-glide"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/35-Pitch-Shifter/11781-Micro-Glide?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.harrisonaudio.com/all-products/micro-glide"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.harrisonaudio.com/all-products/micro-glide"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

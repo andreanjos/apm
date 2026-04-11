@@ -1,0 +1,26 @@
+slug        = "cla-classic-compressors"
+name        = "CLA Classic Compressors"
+vendor      = "Waves"
+version     = "14.0"
+description = "Bundle of three CLA compressor emulations: LA-2A, LA-3A, and 1176 models."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/cla-classic-compressors"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/cla-classic-compressors"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/cla-classic-compressors"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

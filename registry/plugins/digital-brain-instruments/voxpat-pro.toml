@@ -1,0 +1,26 @@
+slug        = "voxpat-pro"
+name        = "Voxpat Pro"
+vendor      = "Digital Brain Instruments"
+version     = "1.0.0"
+description = "Professional vocal processing plugin for creating monster, robotic and creature voice effects."
+category    = "effects"
+subcategory = "vocal processing"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.digitalbrain-instruments.com/voxpat"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/54-Vocal-Processing/10544-Voxpat-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.digitalbrain-instruments.com/voxpat"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.digitalbrain-instruments.com/voxpat"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

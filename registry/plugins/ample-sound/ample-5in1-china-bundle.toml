@@ -1,0 +1,25 @@
+slug        = "ample-5in1-china-bundle"
+name        = "Ample 5in1 China Bundle"
+vendor      = "Ample Sound"
+version     = "1.0.0"
+description = "Bundle of five Ample Sound Chinese traditional instrument virtual instruments."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.amplesound.net/en/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.amplesound.net/en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.amplesound.net/en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

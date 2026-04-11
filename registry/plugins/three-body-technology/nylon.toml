@@ -1,0 +1,26 @@
+slug        = "nylon"
+name        = "Nylon"
+vendor      = "Three Body Technology"
+version     = "2.0"
+description = "Dual-mode transparent overdrive plugin — Yellow for shimmering highs, Green for robust low-end saturation."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.threebodytech.com/en/products/deepvintage"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/14717-Nylon?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.threebodytech.com/en/products/deepvintage"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.threebodytech.com/en/products/deepvintage"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,27 @@
+slug        = "tr-808"
+name        = "TR 808"
+vendor      = "Roland"
+version     = "1.0"
+description = "ACB-modeled software recreation of Roland's legendary 1980 TR-808 analog drum machine for DAWs."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+installer   = "roland-cloud"
+homepage    = "https://www.roland.com/us/products/rc_tr-808/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/15360-TR-808?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.roland.com/us/products/rc_tr-808/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.roland.com/us/products/rc_tr-808/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

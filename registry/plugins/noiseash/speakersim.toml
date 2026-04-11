@@ -1,0 +1,25 @@
+slug        = "speakersim"
+name        = "SpeakerSim"
+vendor      = "NoiseAsh"
+version     = "1.3.9"
+description = "Speaker and phone simulation plugin using convolution with lo-fi and EQ controls for character effects."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://noiseash.com/speakersim/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://noiseash.com/speakersim/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://noiseash.com/speakersim/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

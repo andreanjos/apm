@@ -1,0 +1,26 @@
+slug        = "synsonic-bd-909"
+name        = "Synsonic BD 909"
+vendor      = "Synsonic Instruments"
+version     = "1.0"
+description = "Classic TR-909 kick drum synthesizer plugin by Synsonic Instruments for electronic music."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.synsonicinstruments.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/3555-Synsonic-BD-909?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.synsonicinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.synsonicinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

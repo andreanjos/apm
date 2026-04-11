@@ -1,0 +1,25 @@
+slug        = "kawai-ex-pro"
+name        = "Kawai-EX PRO"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Powerful, bright 9-foot (276 cm) Kawai EX concert grand piano formerly at the Kennedy Center."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/kawai-ex-pro"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/kawai-ex-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/kawai-ex-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

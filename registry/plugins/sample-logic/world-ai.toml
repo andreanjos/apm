@@ -1,0 +1,25 @@
+slug        = "world-ai"
+name        = "World AI"
+vendor      = "Sample Logic"
+version     = "1.0.0"
+description = "Kontakt instrument blending world instruments and vocals from around the globe with motion synthesis."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.samplelogic.com/products/world-ai/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.samplelogic.com/products/world-ai/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.samplelogic.com/products/world-ai/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

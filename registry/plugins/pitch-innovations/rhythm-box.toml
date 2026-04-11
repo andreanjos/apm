@@ -1,0 +1,26 @@
+slug        = "rhythm-box"
+name        = "Rhythm Box"
+vendor      = "Pitch Innovations"
+version     = "1.0.0"
+description = "Sampler plugin for performing rhythms live without manual MIDI sequencing."
+category    = "effects"
+subcategory = "sequencer"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pitchinnovations.com/products/rhythm-box"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/24-Sequencer/12681-Rhythm-Box?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pitchinnovations.com/products/rhythm-box"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pitchinnovations.com/products/rhythm-box"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "collection-9-pro"
+name        = "Collection 9 Pro"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "Pro-tier Karanyi Sounds instrument bundle with nine Kontakt synth and cinematic instrument libraries."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

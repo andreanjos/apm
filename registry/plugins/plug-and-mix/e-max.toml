@@ -1,0 +1,25 @@
+slug        = "e-max"
+name        = "E-Max"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Maximizing EQ plugin combining equalization and limiting for punchy, loud mixes."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p827-E-Max/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p827-E-Max/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p827-E-Max/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

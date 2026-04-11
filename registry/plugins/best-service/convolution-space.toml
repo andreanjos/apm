@@ -1,0 +1,25 @@
+slug        = "convolution-space"
+name        = "Convolution Space"
+vendor      = "Best Service"
+version     = "1.0.0"
+description = "Convolution-based virtual instrument with 8.5GB of hand-crafted stereo and 5.1 surround atmospheric textures."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/convolution_space.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/convolution_space.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/convolution_space.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "vocal-tools-tenor"
+name        = "Vocal Tools Tenor"
+vendor      = "Bela D Media"
+version     = "1.0.0"
+description = "Tenor soloist Kontakt library with phrase-based legato scripting for expressive vocal melodies."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://beladmedia.com/vocal-tools-tenor/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://beladmedia.com/vocal-tools-tenor/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://beladmedia.com/vocal-tools-tenor/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

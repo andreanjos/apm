@@ -1,0 +1,24 @@
+slug        = "omega-width"
+name        = "omega width"
+vendor      = "DSPplug"
+version     = "1.0.0"
+description = "Stereo width plugin for adjusting and controlling the stereo field of any audio source."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://dspplug.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://dspplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://dspplug.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

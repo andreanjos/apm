@@ -1,0 +1,25 @@
+slug        = "vibraphonez2"
+name        = "Vibraphonez2"
+vendor      = "RDGAudio"
+version     = "2.0"
+description = "Improved vibraphone plugin sampled from 14 real vibraphone models with expanded features."
+category    = "instruments"
+subcategory = "orchestral"
+license     = "commercial"
+tags        = []
+homepage    = "https://rdgaudio.com/product/vibraphonez2shop-2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rdgaudio.com/product/vibraphonez2shop-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rdgaudio.com/product/vibraphonez2shop-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "h3000-band-delays-mk-ii"
+name        = "H3000 Band Delays Mk II"
+vendor      = "Eventide"
+version     = "1.0.0"
+description = "Creative H3000 Harmonizer plug-in for delays, filtering, stereo-widening, and dynamic rhythmic effects."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eventideaudio.com/plug-ins/h3000-band-delays-mk-ii/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/12198-H3000-Band-Delays-Mk-II?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eventideaudio.com/plug-ins/h3000-band-delays-mk-ii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eventideaudio.com/plug-ins/h3000-band-delays-mk-ii/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

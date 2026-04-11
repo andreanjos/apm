@@ -1,0 +1,25 @@
+slug        = "the-forge"
+name        = "The Forge"
+vendor      = "Audiority"
+version     = "1.0.0"
+description = "Powerful Kontakt sample library for film/TV/games composers with acoustic, designed, and synthetic drums."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/the-forge/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/the-forge/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/the-forge/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

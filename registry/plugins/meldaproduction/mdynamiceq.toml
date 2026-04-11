@@ -1,0 +1,25 @@
+slug        = "mdynamiceq"
+name        = "MDynamicEq"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Dynamic equalizer with 5 bands and side-chain capabilities for precise, musical sound shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MDynamicEq"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MDynamicEq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MDynamicEq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

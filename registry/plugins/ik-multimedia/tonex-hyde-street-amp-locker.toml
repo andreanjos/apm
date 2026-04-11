@@ -1,0 +1,26 @@
+slug        = "tonex-hyde-street-amp-locker"
+name        = "Tonex Hyde Street Amp Locker"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "TONEX Signature Collection of 20 Tone Models from 14 amps at the legendary Hyde Street Studios."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/tonex-hyde-street-amp-locker/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/13417-Tonex-Hyde-Street-Amp-Locker?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/tonex-hyde-street-amp-locker/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/tonex-hyde-street-amp-locker/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "u-he-diva-free-ambient-depths-expansion"
+name        = "u he Diva Free Ambient Depths Expansion"
+vendor      = "Exclusive Bundles"
+version     = "1.0.0"
+description = "u-he Diva synthesizer bundled with the Ambient Depths expansion preset pack for ambient sound design."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7582-u-he-Diva-Free-Ambient-Depths-Expansion"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7582-u-he-Diva-Free-Ambient-Depths-Expansion?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7582-u-he-Diva-Free-Ambient-Depths-Expansion"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7582-u-he-Diva-Free-Ambient-Depths-Expansion"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

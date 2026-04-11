@@ -1,0 +1,26 @@
+slug        = "modo-bass-metal-bass"
+name        = "MODO BASS Metal Bass"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "MODO BASS expansion with a high-output metal bass guitar for cutting through dense progressive metal mixes."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/mbmetalbass/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/14504-MODO-BASS-Metal-Bass?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/mbmetalbass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/mbmetalbass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

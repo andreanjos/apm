@@ -1,0 +1,24 @@
+slug        = "analoger"
+name        = "Analoger"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Analog warmth plugin adding subtle tape saturation and harmonic coloring to digital recordings."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p882-Analoger/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p882-Analoger/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p882-Analoger/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

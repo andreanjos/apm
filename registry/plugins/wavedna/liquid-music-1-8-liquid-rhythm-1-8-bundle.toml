@@ -1,0 +1,26 @@
+slug        = "liquid-music-1-8-liquid-rhythm-1-8-bundle"
+name        = "Liquid Music 1 8 Liquid Rhythm 1 8 Bundle"
+vendor      = "WaveDNA"
+version     = "1.8"
+description = "WaveDNA Liquid Music and Rhythm bundle for AI-assisted melody and rhythm composition."
+category    = "utility"
+subcategory = "music theory tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.wavedna.com/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/10213-Liquid-Music-1-8-Liquid-Rhythm-1-8-Bundle?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.wavedna.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.wavedna.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "visualizer"
+name        = "Visualizer"
+vendor      = "NUGEN Audio"
+version     = "2.0"
+description = "A visual stereo analysis plugin showing detailed placement information to identify mix balance issues."
+category    = "utility"
+subcategory = "metering"
+license     = "commercial"
+tags        = []
+homepage    = "https://nugenaudio.com/visualizer/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/1708-Visualizer-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nugenaudio.com/visualizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nugenaudio.com/visualizer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

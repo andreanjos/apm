@@ -1,0 +1,26 @@
+slug        = "fabfilter-total-bundle"
+name        = "FabFilter Total Bundle"
+vendor      = "FabFilter"
+version     = "1.0.0"
+description = "Complete collection of all FabFilter professional mixing, mastering, and creative effect plugins."
+category    = "instruments"
+subcategory = "complete collection"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.fabfilter.com/products/total-bundle"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/16649-FabFilter-Total-Bundle?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.fabfilter.com/products/total-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.fabfilter.com/products/total-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "rd47"
+name        = "RD47"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Tube mic preamp plugin recreating the EMI REDD.51 console amp from iconic Abbey Road Studios."
+category    = "effects"
+subcategory = "preamp"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/rd47/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/16056-RD47?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/rd47/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/rd47/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

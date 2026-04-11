@@ -1,0 +1,25 @@
+slug        = "blue-3-upgrade"
+name        = "Blue 3 Upgrade"
+vendor      = "Rob Papen"
+version     = "1.0.0"
+description = "Upgrade license to Blue 3, adding Karplus Strong synthesis, new waveforms, and enhanced sample loading."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/blue3.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/blue3.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/blue3.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "ar1-reverb"
+name        = "AR1 Reverb"
+vendor      = "Initial Audio"
+version     = "1.0.0"
+description = "Algorithmic reverb plugin delivering natural-sounding space and depth for any source."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://initialaudio.com/product/ar1-reverb-effect-plugin/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://initialaudio.com/product/ar1-reverb-effect-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://initialaudio.com/product/ar1-reverb-effect-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "timeless-3"
+name        = "Timeless 3"
+vendor      = "FabFilter"
+version     = "3.09"
+description = "Creative stereo tape delay with unique diffusion filters, modulation, and feedback loop processing."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.fabfilter.com/products/timeless-3-tape-delay-plug-in"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.fabfilter.com/products/timeless-3-tape-delay-plug-in"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.fabfilter.com/products/timeless-3-tape-delay-plug-in"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

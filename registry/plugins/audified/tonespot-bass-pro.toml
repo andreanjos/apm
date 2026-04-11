@@ -1,0 +1,24 @@
+slug        = "tonespot-bass-pro"
+name        = "ToneSpot Bass Pro"
+vendor      = "Audified"
+version     = "1.0.0"
+description = "Professional bass mixing plugin with sub bass generator, octaver, auto-wah, and multi-genre presets."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/tonespot-bass-pro/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/tonespot-bass-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/tonespot-bass-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

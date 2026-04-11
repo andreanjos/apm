@@ -1,0 +1,25 @@
+slug        = "pure-dcompressor-flux"
+name        = "Pure DCompressor"
+vendor      = "Flux"
+version     = "1.0.0"
+description = "Downward compressor plugin for precise dynamic control with Flux's transparent processing engine."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.flux.audio/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.flux.audio/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.flux.audio/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "bleass-slow-machine"
+name        = "BLEASS Slow Machine"
+vendor      = "BLEASS"
+version     = "1.0"
+description = "Audio effect that slows down beats or melodies, transforms leads to heavy basses, and adds tape stop."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bleass.com/slow-machine/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/7757-BLEASS-Slow-Machine?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bleass.com/slow-machine/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bleass.com/slow-machine/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

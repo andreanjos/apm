@@ -1,0 +1,26 @@
+slug        = "spliteq"
+name        = "SplitEQ"
+vendor      = "Eventide"
+version     = "1.0.0"
+description = "Advanced EQ with transient/tonal separation technology for surgical repair, rebalancing, and widening of audio."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eventideaudio.com/plug-ins/spliteq/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/8345-SplitEQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eventideaudio.com/plug-ins/spliteq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eventideaudio.com/plug-ins/spliteq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

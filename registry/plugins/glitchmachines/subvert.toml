@@ -1,0 +1,25 @@
+slug        = "subvert"
+name        = "Subvert"
+vendor      = "Glitchmachines"
+version     = "2"
+description = "Savage 3-channel distortion processor with FM ring mod, digitizer, metalizer, and multimode filter."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://glitchmachines.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://glitchmachines.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://glitchmachines.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

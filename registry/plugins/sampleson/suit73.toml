@@ -1,0 +1,25 @@
+slug        = "suit73"
+name        = "Suit73"
+vendor      = "Sampleson"
+version     = "1.0.0"
+description = "Spectral-modeled Suitcase 73 electric piano delivering authentic electric piano warmth in a compact file."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://sampleson.com/suit73-electric-piano.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sampleson.com/suit73-electric-piano.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sampleson.com/suit73-electric-piano.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

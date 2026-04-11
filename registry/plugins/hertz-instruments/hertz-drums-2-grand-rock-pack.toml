@@ -1,0 +1,26 @@
+slug        = "hertz-drums-2-grand-rock-pack"
+name        = "Hertz Drums 2 Grand Rock Pack"
+vendor      = "Hertz Instruments"
+version     = "1.0.0"
+description = "Rock drum expansion for Hertz Drums 2 recorded in a premium European drum room with 20 kit presets."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://hertzinstruments.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/13290-Hertz-Drums-2-Grand-Rock-Pack?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hertzinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hertzinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

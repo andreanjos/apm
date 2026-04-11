@@ -1,0 +1,25 @@
+slug        = "mastercomp"
+name        = "MasterComp"
+vendor      = "PSP Audioware"
+version     = "1.10.0"
+description = "High-fidelity stereo dynamics processor using 64-bit double-precision processing for transparent compression."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-mastercomp"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-mastercomp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-mastercomp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

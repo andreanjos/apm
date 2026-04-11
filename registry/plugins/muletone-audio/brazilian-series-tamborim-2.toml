@@ -1,0 +1,25 @@
+slug        = "brazilian-series-tamborim-2"
+name        = "Brazilian Series: Tamborim 2"
+vendor      = "Muletone Audio"
+version     = "2.1.1"
+description = "Kontakt library of Tamborim 2 with 60+ loops and single hits from two tamborim instruments."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.muletoneaudio.com/tamborim2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.muletoneaudio.com/tamborim2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.muletoneaudio.com/tamborim2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "risenge-pro"
+name        = "Risenge Pro"
+vendor      = "Keepforest"
+version     = "1.0.0"
+description = "Keepforest pro-edition Kontakt library of thrilling rises, downfalls, and dramatic cinematic hits."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://keep-forest.com/store/libraries/225221"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7797-Risenge-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://keep-forest.com/store/libraries/225221"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://keep-forest.com/store/libraries/225221"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

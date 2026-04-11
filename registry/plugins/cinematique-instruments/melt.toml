@@ -1,0 +1,26 @@
+slug        = "melt"
+name        = "Melt"
+vendor      = "Cinematique Instruments"
+version     = "1.0.0"
+description = "Four-layer Kontakt instrument with blendable organic, synthetic, and field recording sound sources."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://cinematique-instruments.com/pages_instr/page_melt.php"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/4518-Melt?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cinematique-instruments.com/pages_instr/page_melt.php"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cinematique-instruments.com/pages_instr/page_melt.php"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

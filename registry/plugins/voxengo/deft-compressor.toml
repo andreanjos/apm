@@ -1,0 +1,25 @@
+slug        = "deft-compressor"
+name        = "Deft Compressor"
+vendor      = "Voxengo"
+version     = "1.0.0"
+description = "Musical compressor plugin with S-curve approach delivering warmth and natural-sounding dynamics."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/deftcomp/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/deftcomp/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/deftcomp/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

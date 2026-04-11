@@ -1,0 +1,25 @@
+slug        = "the-hoser-xt-and-10db-bundle"
+name        = "The Hoser XT And +10db Bundle"
+vendor      = "Boz Digital Labs"
+version     = "1.0.0"
+description = "Bundle combining The Hoser XT tilt EQ and the +10dB processing tools for mixing workflows."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozdigitallabs.com/product/the-hoser-xt-and-10db-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozdigitallabs.com/product/the-hoser-xt-and-10db-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozdigitallabs.com/product/the-hoser-xt-and-10db-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

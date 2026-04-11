@@ -1,0 +1,25 @@
+slug        = "dronar-hybrid"
+name        = "Dronar Hybrid"
+vendor      = "Gothic Instruments"
+version     = "1.0.0"
+description = "Kontakt drone instrument combining organic and synthetic sources for hybrid cinematic soundscapes."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonoracinematic.com/products/dronar-hybrid"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonoracinematic.com/products/dronar-hybrid"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonoracinematic.com/products/dronar-hybrid"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

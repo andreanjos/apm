@@ -1,0 +1,26 @@
+slug        = "neural-q-v2"
+name        = "Neural Q V2"
+vendor      = "Tone Empire"
+version     = "2"
+description = "Updated neural-network EQ plugin combining analog-modeled frequency shaping with modern controls."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tone-empire.com"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/9261-Neural-Q-V2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tone-empire.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tone-empire.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

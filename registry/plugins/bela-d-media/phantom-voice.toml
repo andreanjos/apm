@@ -1,0 +1,25 @@
+slug        = "phantom-voice"
+name        = "Phantom Voice"
+vendor      = "Bela D Media"
+version     = "1.0.0"
+description = "Gregorian-style chamber choir Kontakt instrument with sustained non-verbal vocal elements."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://beladmedia.com/phantom-voice/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://beladmedia.com/phantom-voice/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://beladmedia.com/phantom-voice/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

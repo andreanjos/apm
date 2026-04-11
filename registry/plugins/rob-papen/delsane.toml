@@ -1,0 +1,26 @@
+slug        = "delsane"
+name        = "DelSane"
+vendor      = "Rob Papen"
+version     = "1.0.0"
+description = "Stereo tape delay with Dr. Jekyll and Mr. Hyde character, featuring the Disrupt Sphere for dynamic delay manipulation."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/DelSane.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/7574-DelSane?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/DelSane.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/DelSane.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

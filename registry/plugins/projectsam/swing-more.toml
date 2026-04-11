@@ -1,0 +1,25 @@
+slug        = "swing-more"
+name        = "Swing More!"
+vendor      = "ProjectSAM"
+version     = "1.0.0"
+description = "Extensively sampled big band Kontakt library with legato articulations and live jazz recordings."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/swing-more/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/swing-more/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/swing-more/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

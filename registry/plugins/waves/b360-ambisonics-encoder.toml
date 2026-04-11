@@ -1,0 +1,25 @@
+slug        = "b360-ambisonics-encoder"
+name        = "B360 Ambisonics Encoder"
+vendor      = "Waves"
+version     = "14.0"
+description = "Converts mono or stereo audio into B-format Ambisonics for immersive 360-degree audio."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/b360-ambisonics-encoder"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/b360-ambisonics-encoder"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/b360-ambisonics-encoder"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

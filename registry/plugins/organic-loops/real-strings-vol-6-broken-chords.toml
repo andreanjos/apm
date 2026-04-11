@@ -1,0 +1,26 @@
+slug        = "real-strings-vol-6-broken-chords"
+name        = "Real Strings Vol 6 Broken Chords"
+vendor      = "Organic Loops"
+version     = "1.0"
+description = "Organic Loops Real Strings Vol 6 features arpeggiated string loops and a Kontakt instrument."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.loopmasters.com/genres/155-Filmscore/products/3583-Real-Strings-Vol-6-Broken-Chords"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/3646-Real-Strings-Vol-6-Broken-Chords?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.loopmasters.com/genres/155-Filmscore/products/3583-Real-Strings-Vol-6-Broken-Chords"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.loopmasters.com/genres/155-Filmscore/products/3583-Real-Strings-Vol-6-Broken-Chords"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "beatmaker-glory"
+name        = "Beatmaker GLORY"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Hybrid trap and pop drum machine plugin blending modern rhythms for chart-ready tracks."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/beatmaker/glory/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/beatmaker/glory/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/beatmaker/glory/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "orchestral-grand-piano"
+name        = "Orchestral Grand Piano"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Majestic grand piano recorded in The Hall at AIR Studios, designed to blend seamlessly with symphonic libraries."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/shop/a-z/orchestral-grand-piano/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/shop/a-z/orchestral-grand-piano/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/shop/a-z/orchestral-grand-piano/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

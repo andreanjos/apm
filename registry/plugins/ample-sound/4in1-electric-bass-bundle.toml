@@ -1,0 +1,25 @@
+slug        = "4in1-electric-bass-bundle"
+name        = "4in1 Electric Bass Bundle"
+vendor      = "Ample Sound"
+version     = "1.0.0"
+description = "Bundle of four Ample Sound electric bass virtual instruments for comprehensive bass production."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.amplesound.net/en/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.amplesound.net/en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.amplesound.net/en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

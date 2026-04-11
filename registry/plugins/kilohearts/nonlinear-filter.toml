@@ -1,0 +1,25 @@
+slug        = "nonlinear-filter"
+name        = "Nonlinear Filter"
+vendor      = "Kilohearts"
+version     = "2.4.6"
+description = "Nonlinear filter Snapin that adds harmonic coloration through internal circuit nonlinearities."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+homepage    = "https://kilohearts.com/products/nonlinear_filter"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://kilohearts.com/products/nonlinear_filter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://kilohearts.com/products/nonlinear_filter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "mpc-expansion-snipe-young-presents-vol-1"
+name        = "MPC Expansion Snipe Young Presents Vol 1"
+vendor      = "AKAI"
+version     = "Vol. 1"
+description = "MPC expansion by Grammy-winning engineer Snipe Young with unique sound design content."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/10959-MPC-Expansion-Snipe-Young-Presents-Vol-1?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.akaipro.com/sounds-and-software/sounds/expansions/mpc/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

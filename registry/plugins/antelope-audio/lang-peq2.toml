@@ -1,0 +1,26 @@
+slug        = "lang-peq2"
+name        = "LANG PEQ2"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Parametric EQ plugin modeled after the vintage LANG PEQ-2 analog equalizer."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/lang-peq2/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/16039-LANG-PEQ2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/lang-peq2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/lang-peq2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

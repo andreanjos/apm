@@ -1,0 +1,24 @@
+slug        = "vintage-vacuum-tube-vd76"
+name        = "Vintage Vacuum Tube VD76"
+vendor      = "Eplex7 DSP"
+version     = "1.0.0"
+description = "Valve amplifier effect plugin simulating analog tube saturation and vintage warmth."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eplex7.com/vst-plugins/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eplex7.com/vst-plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eplex7.com/vst-plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

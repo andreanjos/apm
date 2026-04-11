@@ -1,0 +1,25 @@
+slug        = "alpine-volksmusik-1-crossgrade"
+name        = "Alpine Volksmusik 1 Crossgrade"
+vendor      = "Best Service"
+version     = "1"
+description = "Crossgrade to the Alpine Volksmusik 1 collection of Swiss, Austrian, and German folk instrument patches."
+category    = "instruments"
+subcategory = "brass"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/alpine_volksmusik_1.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/alpine_volksmusik_1.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/alpine_volksmusik_1.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

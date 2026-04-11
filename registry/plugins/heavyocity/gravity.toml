@@ -1,0 +1,25 @@
+slug        = "gravity"
+name        = "Gravity"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Cinematic scoring tool delivering tempo-synced swells, rhythmic pulses, and hybrid textures for film and TV."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/gravity"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/gravity"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/gravity"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

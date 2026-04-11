@@ -1,0 +1,26 @@
+slug        = "distinct"
+name        = "Distinct"
+vendor      = "Kiive Audio"
+version     = "1.0.0"
+description = "Tube saturation plugin offering analog coloration and harmonic enhancement for tracks and mix buses."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kiiveaudio.com/products/distinct"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/8430-Distinct-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kiiveaudio.com/products/distinct"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kiiveaudio.com/products/distinct"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

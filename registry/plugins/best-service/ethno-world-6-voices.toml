@@ -1,0 +1,25 @@
+slug        = "ethno-world-6-voices"
+name        = "Ethno World 6 Voices"
+vendor      = "Best Service"
+version     = "6"
+description = "Voices edition of Ethno World 6 with choirs, solo voices, and phrases from global vocal traditions."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/ethno_world_6_voices.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/ethno_world_6_voices.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/ethno_world_6_voices.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

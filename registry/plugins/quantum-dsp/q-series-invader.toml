@@ -1,0 +1,26 @@
+slug        = "q-series-invader"
+name        = "Q Series Invader"
+vendor      = "Quantum DSP"
+version     = "1.0.0"
+description = "AI neural rock guitar amplifier plugin covering classic to modern hard rock and metal tones."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://quantumdsp.com/products/invader-q-series"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/17012-Q-Series-Invader?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://quantumdsp.com/products/invader-q-series"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://quantumdsp.com/products/invader-q-series"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "eight-voice"
+name        = "Eight Voice"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Polyphonic emulation of the rare Oberheim Eight Voice with eight independent dual-oscillator voice modules."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/eight-voice"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/7433-Eight-Voice?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/eight-voice"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/eight-voice"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

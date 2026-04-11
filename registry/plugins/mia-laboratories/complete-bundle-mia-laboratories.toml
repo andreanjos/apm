@@ -1,0 +1,25 @@
+slug        = "complete-bundle-mia-laboratories"
+name        = "Complete Bundle"
+vendor      = "MIA Laboratories"
+version     = "1.0.0"
+description = "MIA Laboratories complete collection of EQ, compression, saturation, and enhancement plugins."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://mialaboratories.com/product/mia-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mialaboratories.com/product/mia-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mialaboratories.com/product/mia-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

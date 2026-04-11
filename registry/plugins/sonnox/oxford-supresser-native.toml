@@ -1,0 +1,25 @@
+slug        = "oxford-supresser-native"
+name        = "Oxford SuprEsser Native"
+vendor      = "Sonnox"
+version     = "1.0.0"
+description = "Oxford SuprEsser Native — adaptive de-esser with automatic level tracking and three precision processing modes."
+category    = "effects"
+subcategory = "de-esser"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonnox.com/products/oxford-supresser"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonnox.com/products/oxford-supresser"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonnox.com/products/oxford-supresser"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "usynth-euphoria"
+name        = "Usynth Euphoria"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Electronic dance synthesizer plugin with club-ready sounds and energetic textures."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/usynth/euphoria/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/usynth/euphoria/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/usynth/euphoria/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

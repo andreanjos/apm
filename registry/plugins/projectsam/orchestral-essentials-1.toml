@@ -1,0 +1,25 @@
+slug        = "orchestral-essentials-1"
+name        = "Orchestral Essentials 1"
+vendor      = "ProjectSAM"
+version     = "2.0"
+description = "Versatile orchestral toolkit featuring curated content from the Symphobia and True Strike series."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://projectsam.com/libraries/orchestral-essentials/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://projectsam.com/libraries/orchestral-essentials/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://projectsam.com/libraries/orchestral-essentials/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

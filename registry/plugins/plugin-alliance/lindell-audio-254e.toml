@@ -1,0 +1,27 @@
+slug        = "lindell-audio-254e"
+name        = "Lindell Audio 254E"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "Plugin emulation of the classic English analog FET limiter/compressor, the sound of rock on drums and master bus."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/en/products/lindell_254e.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14576-Lindell-Audio-254E?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/lindell_254e.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/lindell_254e.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

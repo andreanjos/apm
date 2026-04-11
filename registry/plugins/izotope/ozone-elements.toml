@@ -1,0 +1,26 @@
+slug        = "ozone-elements"
+name        = "Ozone Elements"
+vendor      = "iZotope"
+version     = "12.1.0"
+description = "Entry-level iZotope mastering plugin with AI-driven Master Assistant for quick, professional results."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products/ozone"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products/ozone"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products/ozone"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

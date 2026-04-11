@@ -1,0 +1,26 @@
+slug        = "beat-magazine-230-february-2024"
+name        = "Beat Magazine 230 February 2024"
+vendor      = "Beat"
+version     = "1.0.0"
+description = "Digital edition of Beat Magazine issue 230, February 2024, covering electronic music production."
+category    = "utility"
+subcategory = "ebook"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/manufacturers/273-Beat"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/94-eBook/14372-Beat-Magazine-230-February-2024?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/manufacturers/273-Beat"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/manufacturers/273-Beat"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

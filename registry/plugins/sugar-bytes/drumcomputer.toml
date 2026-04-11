@@ -1,0 +1,26 @@
+slug        = "drumcomputer"
+name        = "DrumComputer"
+vendor      = "Sugar Bytes"
+version     = "1.0.0"
+description = "Next-level drum synthesizer combining classic and modern synthesis with flexible modulation and sequencing."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+homepage    = "https://sugar-bytes.de/drumcomputer"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/5977-DrumComputer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sugar-bytes.de/drumcomputer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sugar-bytes.de/drumcomputer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

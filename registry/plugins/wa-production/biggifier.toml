@@ -1,0 +1,25 @@
+slug        = "biggifier"
+name        = "BIGGIFIER"
+vendor      = "WA Production"
+version     = "1.1.0"
+description = "A one-knob punch enhancer with five processing modes to add weight and size to any audio signal."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.waproduction.com/plugins/view/biggifier"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waproduction.com/plugins/view/biggifier"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waproduction.com/plugins/view/biggifier"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

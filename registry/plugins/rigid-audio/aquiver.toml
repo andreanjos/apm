@@ -1,0 +1,25 @@
+slug        = "aquiver"
+name        = "Aquiver"
+vendor      = "Rigid Audio"
+version     = "1.0.0"
+description = "Granular Kontakt instrument with 1,300 powerful deep and soaring atmospheric sounds."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rigid-audio.com/product/aquiver/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rigid-audio.com/product/aquiver/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rigid-audio.com/product/aquiver/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

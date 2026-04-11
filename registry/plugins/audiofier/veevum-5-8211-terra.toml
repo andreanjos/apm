@@ -1,0 +1,25 @@
+slug        = "veevum-5-8211-terra"
+name        = "Veevum 5 &#8211; Terra"
+vendor      = "Audiofier"
+version     = "1.0"
+description = "Ambient Kontakt instrument with analog tape and vintage-processed sound sources for organic moods."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiofier.co.uk/veevum-terra/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiofier.co.uk/veevum-terra/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiofier.co.uk/veevum-terra/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

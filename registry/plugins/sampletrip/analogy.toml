@@ -1,0 +1,25 @@
+slug        = "analogy"
+name        = "Analogy"
+vendor      = "Sampletrip"
+version     = "1.0.0"
+description = "Kontakt library of analog and hybrid synth sounds with vector and subtractive synthesis engine."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kvraudio.com/product/analogy-by-sampletrip"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kvraudio.com/product/analogy-by-sampletrip"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kvraudio.com/product/analogy-by-sampletrip"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

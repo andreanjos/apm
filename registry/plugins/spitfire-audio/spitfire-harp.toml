@@ -1,0 +1,26 @@
+slug        = "spitfire-harp"
+name        = "Spitfire Harp"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Concert harp recorded at AIR Studios providing full range of articulations for orchestral and cinematic scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/shop/a-z/spitfire-harp/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/shop/a-z/spitfire-harp/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/shop/a-z/spitfire-harp/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

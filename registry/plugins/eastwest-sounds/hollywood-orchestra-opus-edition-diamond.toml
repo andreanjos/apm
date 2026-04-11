@@ -1,0 +1,26 @@
+slug        = "hollywood-orchestra-opus-edition-diamond"
+name        = "Hollywood Orchestra Opus Edition Diamond"
+vendor      = "EastWest Sounds"
+version     = "1.0.0"
+description = "Flagship orchestral suite with new recordings and reimagined content in the revolutionary OPUS engine."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/orchestras/hollywood-orchestra-opus-edition"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/15534-Hollywood-Orchestra-Opus-Edition-Diamond?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/orchestras/hollywood-orchestra-opus-edition"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/orchestras/hollywood-orchestra-opus-edition"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

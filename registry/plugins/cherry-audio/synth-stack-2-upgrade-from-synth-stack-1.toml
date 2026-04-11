@@ -1,0 +1,25 @@
+slug        = "synth-stack-2-upgrade-from-synth-stack-1"
+name        = "Synth Stack 2 Upgrade from Synth Stack 1"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Upgrade path to Synth Stack 2, Cherry Audio's bundle of multiple synthesizer instruments."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

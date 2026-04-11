@@ -1,0 +1,25 @@
+slug        = "warning-signs"
+name        = "Warning Signs"
+vendor      = "Hyper Samples"
+version     = "1.0"
+description = "Tense dramatic Kontakt library by Hyper Samples for suspenseful and horror film scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://hypersamples.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hypersamples.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hypersamples.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

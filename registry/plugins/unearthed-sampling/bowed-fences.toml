@@ -1,0 +1,25 @@
+slug        = "bowed-fences"
+name        = "Bowed Fences"
+vendor      = "unEarthed Sampling"
+version     = "1.0"
+description = "Cinematic Kontakt instrument derived from bowing barbed wire fences, delivering eerie drones and screaming tones."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.unearthedsampling.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.unearthedsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.unearthedsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

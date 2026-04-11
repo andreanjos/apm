@@ -1,0 +1,26 @@
+slug        = "clearmountain-s-phases"
+name        = "Clearmountain s Phases"
+vendor      = "Apogee"
+version     = "1.0.0"
+description = "Phaser plugin co-developed with Bob Clearmountain for his signature phase and flange sounds."
+category    = "effects"
+subcategory = "phaser"
+license     = "commercial"
+tags        = []
+homepage    = "https://apogeedigital.com/shop/plugins/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/8833-Clearmountain-s-Phases?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://apogeedigital.com/shop/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://apogeedigital.com/shop/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

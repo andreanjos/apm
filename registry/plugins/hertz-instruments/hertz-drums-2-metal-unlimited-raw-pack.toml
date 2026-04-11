@@ -1,0 +1,26 @@
+slug        = "hertz-drums-2-metal-unlimited-raw-pack"
+name        = "Hertz Drums 2 Metal Unlimited Raw Pack"
+vendor      = "Hertz Instruments"
+version     = "1.0.0"
+description = "Raw and unprocessed metal drum expansion for Hertz Drums 2 with blendable transient FX samples."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://hertzinstruments.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/13286-Hertz-Drums-2-Metal-Unlimited-Raw-Pack?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hertzinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hertzinstruments.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

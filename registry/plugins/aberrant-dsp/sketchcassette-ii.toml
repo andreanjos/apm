@@ -1,0 +1,27 @@
+slug        = "sketchcassette-ii"
+name        = "SketchCassette II"
+vendor      = "Aberrant DSP"
+version     = "1.0.0"
+description = "Cassette-inspired lo-fi plugin with warble, degradation, and 4-track tape emulation effects."
+category    = "effects"
+subcategory = "tape emulation"
+license     = "commercial"
+tags        = []
+homepage    = "https://aberrantdsp.com/plugins/sketchcassette/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/7024-SketchCassette-II?a_aid=69d5e87c5f2e9"
+bundle_ids  = ["com.AberrantDSP.SketchCassetteII"]
+is_paid     = true
+
+[formats.vst3]
+url          = "https://aberrantdsp.com/plugins/sketchcassette/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://aberrantdsp.com/plugins/sketchcassette/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

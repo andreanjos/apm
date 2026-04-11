@@ -1,0 +1,27 @@
+slug        = "session-ukulele"
+name        = "Session Ukulele"
+vendor      = "Native Instruments"
+version     = "1.0"
+description = "Realistic soprano ukulele, tenor ukulele, and charango sample library with 380+ playable patterns."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+installer   = "native-access"
+homepage    = "https://www.native-instruments.com/en/products/komplete/guitar/session-ukulele/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/15885-Session-Ukulele?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.native-instruments.com/en/products/komplete/guitar/session-ukulele/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.native-instruments.com/en/products/komplete/guitar/session-ukulele/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

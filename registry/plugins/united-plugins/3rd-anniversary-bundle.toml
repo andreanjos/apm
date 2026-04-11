@@ -1,0 +1,25 @@
+slug        = "3rd-anniversary-bundle"
+name        = "3rd Anniversary Bundle"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "United Plugins bundle celebrating three years with a curated selection of their best audio plugins."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

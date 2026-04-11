@@ -1,0 +1,24 @@
+slug        = "mxxxmodular"
+name        = "MXXXModular"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Build an effect chain any way you want — a modular plugin containing 70+ processors and 500+ active presets."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MXXX"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MXXX"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MXXX"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "pianology"
+name        = "Pianology"
+vendor      = "Rhodes"
+version     = "1.0.0"
+description = "Virtual instrument offering three deeply sampled pianos: grand, upright, and electric grand."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://rhodesmusic.com/rhodes-pianology-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/16924-Pianology?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rhodesmusic.com/rhodes-pianology-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rhodesmusic.com/rhodes-pianology-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

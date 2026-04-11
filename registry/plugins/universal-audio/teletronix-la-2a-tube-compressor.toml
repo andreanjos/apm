@@ -1,0 +1,26 @@
+slug        = "teletronix-la-2a-tube-compressor"
+name        = "Teletronix LA-2A Tube Compressor"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the legendary Teletronix LA-2A electro-optical tube compressor."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-leveler-collection.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-leveler-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/teletronix-la-2a-leveler-collection.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

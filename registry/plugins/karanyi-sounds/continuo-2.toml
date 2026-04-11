@@ -1,0 +1,25 @@
+slug        = "continuo-2"
+name        = "Continuo 2"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "Cinematic Kontakt texture designer with piano and analog synth recordings for hybrid film scores."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/product/continuo-2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/product/continuo-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/product/continuo-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

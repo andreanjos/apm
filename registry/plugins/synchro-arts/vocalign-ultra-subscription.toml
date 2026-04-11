@@ -1,0 +1,24 @@
+slug        = "vocalign-ultra-subscription"
+name        = "VocALign Ultra Subscription"
+vendor      = "Synchro Arts"
+version     = "1.0.0"
+description = "Subscription plan providing access to VocAlign Ultra professional vocal alignment plugin."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://synchroarts.com/products/vocalign-pro"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synchroarts.com/products/vocalign-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synchroarts.com/products/vocalign-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

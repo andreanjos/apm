@@ -1,0 +1,26 @@
+slug        = "bx-oberhausen"
+name        = "bx oberhausen"
+vendor      = "Brainworx"
+version     = "1.0.0"
+description = "World's first TMT synthesizer with patented M/S features, up to 32-voice polyphony, and built-in effects."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugin-alliance.com/en/products/bx_oberhausen.html"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/10276-bx-oberhausen?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/bx_oberhausen.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/bx_oberhausen.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

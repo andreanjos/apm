@@ -1,0 +1,25 @@
+slug        = "wurlie"
+name        = "Wurlie"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Sample-based Wurlitzer electric piano capturing the classic warm, bell-like tone of the vintage instrument."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/wurlie"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/wurlie"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/wurlie"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

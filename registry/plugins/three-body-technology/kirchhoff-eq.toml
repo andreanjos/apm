@@ -1,0 +1,25 @@
+slug        = "kirchhoff-eq"
+name        = "Kirchhoff-EQ"
+vendor      = "Three-Body Technology"
+version     = "1.7.1"
+description = "32-band parametric EQ with dynamic processing, 15 filter types, and 32 vintage EQ models."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.threebodytech.com/en/products/kirchhoffeq"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.threebodytech.com/en/products/kirchhoffeq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.threebodytech.com/en/products/kirchhoffeq"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

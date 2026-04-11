@@ -1,0 +1,25 @@
+slug        = "electric-noisebow"
+name        = "Electric Noisebow"
+vendor      = "SzcZ"
+version     = "1.0.0"
+description = "Experimental Kontakt instrument built around electrified bowed and noise-based textures."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.lootaudio.com/category/kontakt-instruments/szcz"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.lootaudio.com/category/kontakt-instruments/szcz"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.lootaudio.com/category/kontakt-instruments/szcz"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

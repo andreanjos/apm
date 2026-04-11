@@ -1,0 +1,25 @@
+slug        = "bute-limiter-2-stereo"
+name        = "BUTE Limiter 2 Stereo"
+vendor      = "Signum Audio"
+version     = "1.0.0"
+description = "Transparent stereo true-peak brick wall limiter with multiple broadcast standard presets and low latency."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.signumaudio.com/bute-loudness-suite"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.signumaudio.com/bute-loudness-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.signumaudio.com/bute-loudness-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

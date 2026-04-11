@@ -1,0 +1,25 @@
+slug        = "all-plugins-bundle"
+name        = "All Plugins Bundle"
+vendor      = "MIA Laboratories"
+version     = "1.0.0"
+description = "MIA Laboratories complete bundle of all their audio processing plugins."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://mialaboratories.com/product/mia-bundle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mialaboratories.com/product/mia-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mialaboratories.com/product/mia-bundle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

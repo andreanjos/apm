@@ -1,0 +1,26 @@
+slug        = "808-box-4-expansion-pack-for-the-sub"
+name        = "808 Box 4 Expansion Pack for The Sub"
+vendor      = "Iceberg Audio"
+version     = "1.0.0"
+description = "Fourth collection of 808-style bass presets for The Sub covering a range of styles and tones."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://icebergaudio.com/shop/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/9966-808-Box-4-Expansion-Pack-for-The-Sub-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://icebergaudio.com/shop/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://icebergaudio.com/shop/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

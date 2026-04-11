@@ -1,0 +1,26 @@
+slug        = "wirepluck"
+name        = "WirePluck"
+vendor      = "Rob Papen"
+version     = "1.0.0"
+description = "Three-layer synthesizer combining Wire, Karplus String, FM, and subtractive synthesis with arpeggiator and chord memory."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.robpapen.com/WirePluck.html"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15236-WirePluck?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.robpapen.com/WirePluck.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.robpapen.com/WirePluck.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

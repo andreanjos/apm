@@ -1,0 +1,25 @@
+slug        = "little-clipper"
+name        = "Little Clipper"
+vendor      = "Boz Digital Labs"
+version     = "1.0.0"
+description = "Lightweight soft clipper plugin for transparent peak control and gentle loudness enhancement."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozdigitallabs.com/product/little-clipper/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozdigitallabs.com/product/little-clipper/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozdigitallabs.com/product/little-clipper/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

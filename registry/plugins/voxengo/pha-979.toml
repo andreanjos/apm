@@ -1,0 +1,24 @@
+slug        = "pha-979"
+name        = "PHA-979"
+vendor      = "Voxengo"
+version     = "2.12"
+description = "Phase adjustment plugin allowing arbitrary phase shifts to audio material for stereo alignment."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/pha979/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/pha979/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/pha979/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "speakup"
+name        = "SpeakUp"
+vendor      = "Audified"
+version     = "1.0.0"
+description = "Auto-ducking plugin that automatically lowers background music when a voice signal is detected."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/speakup/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/speakup/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/speakup/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

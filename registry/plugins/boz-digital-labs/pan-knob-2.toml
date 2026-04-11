@@ -1,0 +1,24 @@
+slug        = "pan-knob-2"
+name        = "Pan Knob 2"
+vendor      = "Boz Digital Labs"
+version     = "2"
+description = "Updated stereo panning plugin with frequency-dependent panning to keep low frequencies centered."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozdigitallabs.com/pan-knob/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozdigitallabs.com/pan-knob/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozdigitallabs.com/pan-knob/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

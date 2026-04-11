@@ -1,0 +1,25 @@
+slug        = "siel-orchestra-2"
+name        = "Siel Orchestra 2"
+vendor      = "Synth Magic"
+version     = "1.0.0"
+description = "Kontakt library of the Siel Orchestra 2 with Brass, Piano, Reeds, and Strings in clean and tape-processed sets."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://synthmagic.co.uk/siel-orchestra-2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synthmagic.co.uk/siel-orchestra-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synthmagic.co.uk/siel-orchestra-2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "chris-hein-bass"
+name        = "Chris Hein Bass"
+vendor      = "Best Service"
+version     = "1.0.0"
+description = "Detailed multi-articulation bass guitar virtual instrument by film music producer Chris Hein for Kontakt."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/chris_hein_bass.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/chris_hein_bass.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/chris_hein_bass.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

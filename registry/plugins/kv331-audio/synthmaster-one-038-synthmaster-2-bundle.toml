@@ -1,0 +1,25 @@
+slug        = "synthmaster-one-038-synthmaster-2-bundle"
+name        = "Synthmaster One &#038; Synthmaster 2 Bundle"
+vendor      = "KV331 Audio"
+version     = "1.0.0"
+description = "Bundle combining SynthMaster One wavetable synth and SynthMaster 2 dual-layer semi-modular synthesizer."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kv331audio.com/synthmasterone.aspx"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kv331audio.com/synthmasterone.aspx"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kv331audio.com/synthmasterone.aspx"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

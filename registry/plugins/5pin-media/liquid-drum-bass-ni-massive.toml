@@ -1,0 +1,26 @@
+slug        = "liquid-drum-bass-ni-massive"
+name        = "Liquid Drum Bass NI Massive"
+vendor      = "5Pin Media"
+version     = "1.0.0"
+description = "NI Massive preset bank delivering the smooth, melodic sounds of liquid drum and bass production."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://5pinmedia.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/11313-Liquid-Drum-Bass-NI-Massive?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://5pinmedia.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://5pinmedia.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "chris-hein-ensemble-strings-upgrade"
+name        = "Chris Hein Ensemble Strings Upgrade"
+vendor      = "Best Service"
+version     = "1.0.0"
+description = "Upgrade to Chris Hein Ensemble Strings adding detailed solo violins, violas, cellos, and ensemble patches."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/chris_hein_ensemble_strings_upgrade.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/chris_hein_ensemble_strings_upgrade.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/chris_hein_ensemble_strings_upgrade.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

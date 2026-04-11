@@ -1,0 +1,25 @@
+slug        = "adventure-strings"
+name        = "Adventure Strings"
+vendor      = "Musical Sampling"
+version     = "1.0"
+description = "Cinematic orchestral strings Kontakt library recorded in Los Angeles for film, TV, and game scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://musicalsampling.com/adventure-strings/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://musicalsampling.com/adventure-strings/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://musicalsampling.com/adventure-strings/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

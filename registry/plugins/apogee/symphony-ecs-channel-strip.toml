@@ -1,0 +1,26 @@
+slug        = "symphony-ecs-channel-strip"
+name        = "Symphony ECS Channel Strip"
+vendor      = "Apogee"
+version     = "1.0.0"
+description = "Channel strip plugin with EQ, compression, and saturation modeled on Apogee Symphony hardware."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+homepage    = "https://apogeedigital.com/shop/plugins/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/8834-Symphony-ECS-Channel-Strip?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://apogeedigital.com/shop/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://apogeedigital.com/shop/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "bde-big-distortion-engine"
+name        = "BDE: Big Distortion Engine"
+vendor      = "DJ Swivel"
+version     = "1.1.0"
+description = "Distortion plugin with M/S control, multiple styles, and dynamic preservation technology."
+category    = "effects"
+subcategory = "distortion"
+license     = "commercial"
+tags        = []
+homepage    = "https://swivel-audio.com/bde/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://swivel-audio.com/bde/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://swivel-audio.com/bde/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,27 @@
+slug        = "sound-pack-bundle-sdz001-150"
+name        = "Sound Pack Bundle SDZ001 150"
+vendor      = "Roland"
+version     = "1.0"
+description = "150 Sound Pack titles covering all 150 ZEN-Core sound packs for Roland Cloud instruments."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+installer   = "roland-cloud"
+homepage    = "https://www.roland.com/us/products/rc_sound_pack_bundle_sdz001-150/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/16531-Sound-Pack-Bundle-SDZ001-150?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.roland.com/us/products/rc_sound_pack_bundle_sdz001-150/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.roland.com/us/products/rc_sound_pack_bundle_sdz001-150/"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

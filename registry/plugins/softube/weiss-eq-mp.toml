@@ -1,0 +1,26 @@
+slug        = "weiss-eq-mp"
+name        = "Weiss EQ MP"
+vendor      = "Softube"
+version     = "2.6"
+description = "Mastering parametric EQ plugin modeled on the Weiss EQ MP for precise, transparent equalization."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mastering/weiss-eq-mp"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mastering/weiss-eq-mp"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mastering/weiss-eq-mp"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

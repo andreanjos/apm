@@ -1,0 +1,25 @@
+slug        = "lo-fi-drums-bundle"
+name        = "Lo-Fi Drums Bundle"
+vendor      = "Excite Audio"
+version     = "1.0.0"
+description = "Exclusive bundle pairing Lifeline Console with lo-fi drum samples for vintage beat production."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.excite-audio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.excite-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.excite-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

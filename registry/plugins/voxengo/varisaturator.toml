@@ -1,0 +1,24 @@
+slug        = "varisaturator"
+name        = "VariSaturator"
+vendor      = "Voxengo"
+version     = "2.7"
+description = "Versatile saturation and overdrive plugin with multiple saturation modes for coloring audio."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/varisaturator/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/varisaturator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/varisaturator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "cloudbounce-8211-3-month-subscription"
+name        = "Cloudbounce &#8211; 3-Month Subscription"
+vendor      = "CloudBounce"
+version     = "1.0.0"
+description = "3-month subscription to CloudBounce's AI-powered online mastering service with unlimited masters."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://cloudbounce.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cloudbounce.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cloudbounce.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

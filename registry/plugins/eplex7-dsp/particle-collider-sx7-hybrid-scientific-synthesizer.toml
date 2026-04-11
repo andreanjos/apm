@@ -1,0 +1,25 @@
+slug        = "particle-collider-sx7-hybrid-scientific-synthesizer"
+name        = "Particle Collider SX7 – Hybrid Scientific Synthesizer"
+vendor      = "Eplex7 DSP"
+version     = "1.0.0"
+description = "Hybrid experimental synthesizer for sci-fi FX, atmospheric pads, and psychedelic sounds."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eplex7.com/product/particle-collider-sx7/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eplex7.com/product/particle-collider-sx7/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eplex7.com/product/particle-collider-sx7/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

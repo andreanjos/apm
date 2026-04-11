@@ -1,0 +1,26 @@
+slug        = "gr-x"
+name        = "GR X"
+vendor      = "BeatSkillz"
+version     = "1.0.0"
+description = "90s classic dance drum machine plugin with 45 kits and 30 patterns inspired by icons like Snap! and 2 Unlimited."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.beatskillz.com/shop/grx/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/14706-GR-X?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.beatskillz.com/shop/grx/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.beatskillz.com/shop/grx/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

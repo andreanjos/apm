@@ -1,0 +1,25 @@
+slug        = "ampeg-svx-bundle"
+name        = "Ampeg SVX Bundle"
+vendor      = "IK Multimedia"
+version     = "2.0"
+description = "Bundle combining Ampeg SVX and SVX 2 bass amp simulators with 18+ models for AmpliTube."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/svx/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/svx/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/svx/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

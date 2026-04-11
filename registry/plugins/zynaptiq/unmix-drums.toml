@@ -1,0 +1,26 @@
+slug        = "unmix-drums"
+name        = "UNMIX DRUMS"
+vendor      = "Zynaptiq"
+version     = "1.0"
+description = "Source separation plugin for boosting or attenuating drum levels in fully mixed music in real time."
+category    = "utility"
+subcategory = "drum tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.zynaptiq.com/unmixdrums/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/80-Drum-Tools/2708-UNMIX-DRUMS?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.zynaptiq.com/unmixdrums/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.zynaptiq.com/unmixdrums/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

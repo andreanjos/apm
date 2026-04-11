@@ -1,0 +1,25 @@
+slug        = "brainworx-bx-saturator-v2"
+name        = "Brainworx bx_saturator V2"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Brainworx bx_saturator V2 adds analog-style saturation and harmonic color to any signal."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/distortion/brainworx-bx-saturator-v2.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/distortion/brainworx-bx-saturator-v2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/distortion/brainworx-bx-saturator-v2.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

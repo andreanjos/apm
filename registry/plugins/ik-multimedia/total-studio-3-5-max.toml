@@ -1,0 +1,25 @@
+slug        = "total-studio-3-5-max"
+name        = "Total Studio 3.5 MAX"
+vendor      = "IK Multimedia"
+version     = "3.5"
+description = "Total Studio 3.5 MAX — comprehensive production bundle with 143 products and over 470 GB of content."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/ts3/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/ts3/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/ts3/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

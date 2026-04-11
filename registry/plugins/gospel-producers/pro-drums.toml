@@ -1,0 +1,25 @@
+slug        = "pro-drums"
+name        = "Pro-Drums"
+vendor      = "Gospel Producers"
+version     = "1.0"
+description = "Gospel Producers Pro-Drums is a VST/AU drum plugin with 1000+ samples and MIDI grooves."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://gospelproducers.com/pro-drums-the-best-drums-youve-ever-played-gospel-producers/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://gospelproducers.com/pro-drums-the-best-drums-youve-ever-played-gospel-producers/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://gospelproducers.com/pro-drums-the-best-drums-youve-ever-played-gospel-producers/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

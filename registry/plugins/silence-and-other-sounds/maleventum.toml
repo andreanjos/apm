@@ -1,0 +1,25 @@
+slug        = "maleventum"
+name        = "Maleventum"
+vendor      = "Silence And Other Sounds"
+version     = "1.0.0"
+description = "Kontakt instrument collection of ethnic flutes, whistles, and horns for cinematic sound design."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://silenceandothersounds.com/products/maleventum/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://silenceandothersounds.com/products/maleventum/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://silenceandothersounds.com/products/maleventum/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

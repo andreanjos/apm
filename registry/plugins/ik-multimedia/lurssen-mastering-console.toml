@@ -1,0 +1,26 @@
+slug        = "lurssen-mastering-console"
+name        = "Lurssen Mastering Console"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Mastering suite emulating the complete processing chain of world-renowned engineers Lurssen and Cohen."
+category    = "effects"
+subcategory = "mastering"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/lurssen/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/50-Mastering-/13142-Lurssen-Mastering-Console?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/lurssen/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/lurssen/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

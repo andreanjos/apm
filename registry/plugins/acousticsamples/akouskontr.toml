@@ -1,0 +1,25 @@
+slug        = "akouskontr"
+name        = "AkousKontr"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Detailed 4/4 German upright double bass sampled with electrostatic microphones capturing both pickups."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/akouskontr"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/akouskontr"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/akouskontr"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

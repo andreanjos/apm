@@ -1,0 +1,26 @@
+slug        = "hy-seqcollection2"
+name        = "HY SeqCollection2"
+vendor      = "HY Plugins"
+version     = "1.0.0"
+description = "Multi-mode sequencer with 6 sequencer modes, 4 modulation generators, and 9 MIDI effects."
+category    = "effects"
+subcategory = "sequencer"
+license     = "commercial"
+tags        = []
+homepage    = "https://hy-plugins.com/product/hy-seqcollectionwinmac/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/24-Sequencer/7927-HY-SeqCollection2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hy-plugins.com/product/hy-seqcollectionwinmac/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hy-plugins.com/product/hy-seqcollectionwinmac/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

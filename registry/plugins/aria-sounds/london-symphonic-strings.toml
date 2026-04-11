@@ -1,0 +1,25 @@
+slug        = "london-symphonic-strings"
+name        = "London Symphonic Strings"
+vendor      = "Aria Sounds"
+version     = "1.0.0"
+description = "42 GB orchestral string library featuring a 40-piece ensemble sampled in four mic positions."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://ariasounds.com/product/london-symphonic-strings/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://ariasounds.com/product/london-symphonic-strings/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://ariasounds.com/product/london-symphonic-strings/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

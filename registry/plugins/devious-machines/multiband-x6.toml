@@ -1,0 +1,26 @@
+slug        = "multiband-x6"
+name        = "Multiband X6"
+vendor      = "Devious Machines"
+version     = "1.0.0"
+description = "Advanced multiband compressor with six bands designed for precise mixing and mastering work."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://deviousmachines.com/product/x6/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10750-Multiband-X6?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://deviousmachines.com/product/x6/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://deviousmachines.com/product/x6/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

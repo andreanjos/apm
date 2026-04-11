@@ -1,0 +1,25 @@
+slug        = "glenn-morrison-late-nights-early-beginnings"
+name        = "Glenn Morrison: Late Nights Early Beginnings"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Over 2.6GB of dance samples with ethereal tones and festival-style riffs for house, techno, and ambient producers."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/glenn-morrison-late-nights"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/glenn-morrison-late-nights"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/glenn-morrison-late-nights"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

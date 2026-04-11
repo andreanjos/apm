@@ -1,0 +1,26 @@
+slug        = "4u-dynamictilteq"
+name        = "4U DynamicTiltEQ"
+vendor      = "HOFA Plugins"
+version     = "1.0.0"
+description = "Free dynamic tilt EQ plugin for balancing bass and treble with one simple, musical control."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://hofa-plugins.de/en/plugins/4u-dynamictilteq/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/4608-4U-DynamicTiltEQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hofa-plugins.de/en/plugins/4u-dynamictilteq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hofa-plugins.de/en/plugins/4u-dynamictilteq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

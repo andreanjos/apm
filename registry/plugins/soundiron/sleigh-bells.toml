@@ -1,0 +1,25 @@
+slug        = "sleigh-bells"
+name        = "Sleigh Bells"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Festive sleigh bells Kontakt library with authentic jingle and rhythmic articulations."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/sleigh-bells"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/sleigh-bells"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/sleigh-bells"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

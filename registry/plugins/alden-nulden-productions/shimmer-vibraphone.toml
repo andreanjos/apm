@@ -1,0 +1,25 @@
+slug        = "shimmer-vibraphone"
+name        = "Shimmer Vibraphone"
+vendor      = "Alden Nulden Productions"
+version     = "1.0.0"
+description = "Kontakt instrument combining vibraphone samples with shimmer reverb for cinematic ambient textures."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "http://aldennuldenproductions.com/product/shimmer-vibraphone/"
+is_paid     = true
+
+[formats.vst3]
+url          = "http://aldennuldenproductions.com/product/shimmer-vibraphone/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "http://aldennuldenproductions.com/product/shimmer-vibraphone/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "auto-tune-vocodist-perpetual-license"
+name        = "Auto-Tune Vocodist Perpetual License"
+vendor      = "Antares"
+version     = "1.0.0"
+description = "Perpetual license for Auto-Tune Vocodist, a creative vocoder and pitch correction plugin."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.antarestech.com/products/vocal-effects/vocodist"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.antarestech.com/products/vocal-effects/vocodist"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.antarestech.com/products/vocal-effects/vocodist"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

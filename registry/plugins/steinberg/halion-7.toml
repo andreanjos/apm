@@ -1,0 +1,26 @@
+slug        = "halion-7"
+name        = "HALion 7"
+vendor      = "Steinberg"
+version     = "7"
+description = "Professional VST sampler and sound design system with deep sampling, synthesis, and scripting capabilities."
+category    = "instruments"
+subcategory = "complete collection"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.steinberg.net/vst-instruments/halion/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/57-Complete-Collection/13016-HALion-7?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.steinberg.net/vst-instruments/halion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.steinberg.net/vst-instruments/halion/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

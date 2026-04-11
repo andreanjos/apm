@@ -1,0 +1,26 @@
+slug        = "artist-series-randy-s-prepared-piano"
+name        = "Artist Series Randy s Prepared Piano"
+vendor      = "Cinesamples"
+version     = "1.0.0"
+description = "Three uniquely prepared pianos recorded at MGM Scoring Stage and Hollywood Scoring Studios."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.cinesamples.com/products/randy-s-prepared-piano"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11307-Artist-Series-Randy-s-Prepared-Piano?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.cinesamples.com/products/randy-s-prepared-piano"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.cinesamples.com/products/randy-s-prepared-piano"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "vocaloid2-sonika"
+name        = "Vocaloid2 SONIKA"
+vendor      = "Zero-G"
+version     = "2.0"
+description = "Sweet virtual voice Vocaloid 2 synthesizer for creating high-quality singing vocals in English and other languages."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/sonika-vocaloid-2"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/sonika-vocaloid-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/sonika-vocaloid-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

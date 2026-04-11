@@ -1,0 +1,26 @@
+slug        = "little-primaltap"
+name        = "Little PrimalTap"
+vendor      = "Soundtoys"
+version     = "5.5"
+description = "Vintage digital delay plugin inspired by the Prime Time 1978 for echo, looping, and mangling effects."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundtoys.com/product/little-primaltap/"
+bundle_ids  = ["com.soundtoys.audiounit.LittlePrimalTap"]
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundtoys.com/product/little-primaltap/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundtoys.com/product/little-primaltap/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

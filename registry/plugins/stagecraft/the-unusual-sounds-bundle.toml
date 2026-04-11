@@ -1,0 +1,25 @@
+slug        = "the-unusual-sounds-bundle"
+name        = "The Unusual Sounds Bundle"
+vendor      = "Stagecraft"
+version     = "1.0.0"
+description = "Creative bundle of Stagecraft Software's more experimental and unusual audio effect plugins."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.stagecraftsoftware.com/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.stagecraftsoftware.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.stagecraftsoftware.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

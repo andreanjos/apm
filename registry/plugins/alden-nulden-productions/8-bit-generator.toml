@@ -1,0 +1,25 @@
+slug        = "8-bit-generator"
+name        = "8 Bit Generator"
+vendor      = "Alden Nulden Productions"
+version     = "1.0.0"
+description = "Kontakt instrument with 160 presets for chiptune, arcade, LoFi, glitch, and retro game music."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "http://aldennuldenproductions.com/product/8-bit-generator/"
+is_paid     = true
+
+[formats.vst3]
+url          = "http://aldennuldenproductions.com/product/8-bit-generator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "http://aldennuldenproductions.com/product/8-bit-generator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

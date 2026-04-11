@@ -1,0 +1,26 @@
+slug        = "neutron-3-elements"
+name        = "Neutron 3 Elements"
+vendor      = "iZotope"
+version     = "5.2.0"
+description = "Entry-level iZotope mixing plugin with AI-powered Mix Assistant and essential channel strip tools."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products/neutron"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products/neutron"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products/neutron"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

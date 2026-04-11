@@ -1,0 +1,25 @@
+slug        = "ultramini"
+name        = "UltraMini"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Sample-based Minimoog emulation with analog-modeled Xpander filters, three oscillators, and unlimited polyphony."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/ultra-mini"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/ultra-mini"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/ultra-mini"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

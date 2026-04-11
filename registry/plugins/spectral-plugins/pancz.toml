@@ -1,0 +1,24 @@
+slug        = "pancz"
+name        = "Pancz"
+vendor      = "Spectral Plugins"
+version     = "1.1.1"
+description = "Spectral Plugins Pancz is a now-free multiband transient shaper with compression and air EQ."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.musehub.com/plugin/pancz"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.musehub.com/plugin/pancz"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.musehub.com/plugin/pancz"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

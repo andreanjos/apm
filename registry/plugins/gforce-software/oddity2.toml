@@ -1,0 +1,25 @@
+slug        = "oddity2"
+name        = "Oddity2"
+vendor      = "GForce Software"
+version     = "2.5"
+description = "Virtual recreation of the classic ARP Odyssey synthesizer with extended features and modern improvements."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.gforcesoftware.com/product/oddity2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.gforcesoftware.com/product/oddity2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.gforcesoftware.com/product/oddity2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

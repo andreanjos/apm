@@ -1,0 +1,25 @@
+slug        = "the-clap-v2"
+name        = "The Clap V2"
+vendor      = "Paper Stone Instruments"
+version     = "2"
+description = "Version 2 of Paper Stone Instruments' detailed sampled hand clap percussion Kontakt library."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/meta_products/9770-Paper-Stone-Instruments"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

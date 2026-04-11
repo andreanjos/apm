@@ -1,0 +1,26 @@
+slug        = "ultracomp"
+name        = "UltraComp"
+vendor      = "Minimal System Group"
+version     = "1.0.0"
+description = "Free vintage-inspired compressor plugin blending classic analogue warmth with digital precision."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/products/238-UltraComp"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/238-UltraComp?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/products/238-UltraComp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/products/238-UltraComp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

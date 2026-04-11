@@ -1,0 +1,25 @@
+slug        = "tapes-m400"
+name        = "Tapes M400"
+vendor      = "Hoss Audio"
+version     = "1.0.0"
+description = "Mellotron M400 Kontakt library with Strings, Choir, and Flute from the iconic 1970s instrument."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.hadihosri.com/h%C3%96ss-audio"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.hadihosri.com/h%C3%96ss-audio"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.hadihosri.com/h%C3%96ss-audio"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

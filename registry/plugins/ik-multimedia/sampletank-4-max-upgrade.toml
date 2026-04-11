@@ -1,0 +1,25 @@
+slug        = "sampletank-4-max-upgrade"
+name        = "SampleTank 4 MAX Upgrade"
+vendor      = "IK Multimedia"
+version     = "4.0"
+description = "Upgrade to SampleTank 4 MAX for full access to the 250+ GB library and 19,000+ instrument presets."
+category    = "instruments"
+subcategory = "bass"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/st4/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/st4/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/st4/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

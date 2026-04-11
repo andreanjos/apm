@@ -1,0 +1,26 @@
+slug        = "virtual-buss-compressors"
+name        = "Virtual Buss Compressors"
+vendor      = "Slate Digital"
+version     = "1.0.0"
+description = "Suite of three classic mix buss compressor models with meticulous nonlinearity and transformer modeling."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://slatedigital.com/virtual-buss-compressors/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/15814-Virtual-Buss-Compressors?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://slatedigital.com/virtual-buss-compressors/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://slatedigital.com/virtual-buss-compressors/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

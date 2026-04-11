@@ -1,0 +1,26 @@
+slug        = "bfd-vintage-recording-techniques"
+name        = "BFD Vintage Recording Techniques"
+vendor      = "BFD"
+version     = "1.0"
+description = "BFD3 expansion capturing a Ludwig Classic Maple kit using ORTF, Glyn Johns, and Blumlein techniques."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bfddrums.com/bfd3-expansions/vintage-recording-techniques/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/3676-BFD-Vintage-Recording-Techniques?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bfddrums.com/bfd3-expansions/vintage-recording-techniques/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bfddrums.com/bfd3-expansions/vintage-recording-techniques/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

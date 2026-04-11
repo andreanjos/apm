@@ -1,0 +1,25 @@
+slug        = "pro-g"
+name        = "Pro-G"
+vendor      = "FabFilter"
+version     = "1.41"
+description = "Professional gate and expander with six gate styles, lookahead, and a large interactive display."
+category    = "effects"
+subcategory = "gate"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.fabfilter.com/products/pro-g-gate-expander-plug-in"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.fabfilter.com/products/pro-g-gate-expander-plug-in"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.fabfilter.com/products/pro-g-gate-expander-plug-in"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

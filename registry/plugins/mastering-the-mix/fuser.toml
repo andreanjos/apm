@@ -1,0 +1,26 @@
+slug        = "fuser"
+name        = "FUSER"
+vendor      = "Mastering The Mix"
+version     = "1.0"
+description = "Smart unmasking plugin that prevents frequency clashes between layers like kick/bass and vocals/synths."
+category    = "effects"
+subcategory = "dynamics processor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.masteringthemix.com/products/fuser"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/11102-FUSER?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.masteringthemix.com/products/fuser"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.masteringthemix.com/products/fuser"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

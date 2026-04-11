@@ -1,0 +1,25 @@
+slug        = "nashville-scoring-strings"
+name        = "Nashville Scoring Strings"
+vendor      = "Audio Ollie"
+version     = "1.0.0"
+description = "String library recorded at Ocean Way Studios Nashville with true-performance articulations."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audioollie.com/nashville-scoring-strings"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audioollie.com/nashville-scoring-strings"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audioollie.com/nashville-scoring-strings"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

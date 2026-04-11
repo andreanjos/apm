@@ -1,0 +1,26 @@
+slug        = "psp-drc"
+name        = "PSP DRC"
+vendor      = "PSP Audioware"
+version     = "1.0.0"
+description = "Dynamic processor inspired by the DBX 118 offering both compression and expansion for modern music production."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pspaudioware.com/products/psp-drc"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14920-PSP-DRC?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pspaudioware.com/products/psp-drc"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pspaudioware.com/products/psp-drc"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

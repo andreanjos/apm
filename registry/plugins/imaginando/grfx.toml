@@ -1,0 +1,26 @@
+slug        = "grfx"
+name        = "GRFX"
+vendor      = "Imaginando"
+version     = "1.0.0"
+description = "Granular audio effect plugin that deconstructs audio into transposable, rhythmic grain textures."
+category    = "effects"
+subcategory = "granular fx"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.imaginando.pt/products/grfx-granular-effects"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/45-Granular-FX/14666-GRFX?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.imaginando.pt/products/grfx-granular-effects"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.imaginando.pt/products/grfx-granular-effects"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

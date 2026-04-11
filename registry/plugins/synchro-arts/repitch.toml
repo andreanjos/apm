@@ -1,0 +1,24 @@
+slug        = "repitch"
+name        = "RePitch"
+vendor      = "Synchro Arts"
+version     = "2"
+description = "Vocal pitch correction plugin delivering natural-sounding tuning, formant shifting, and scale quantization."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://synchroarts.com/products/repitch"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synchroarts.com/products/repitch"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synchroarts.com/products/repitch"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

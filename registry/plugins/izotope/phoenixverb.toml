@@ -1,0 +1,25 @@
+slug        = "phoenixverb"
+name        = "PhoenixVerb"
+vendor      = "iZotope"
+version     = "7.1.0"
+description = "Exponential Audio algorithmic reverb plugin offering lush stereo room, hall, and plate reverb sounds."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

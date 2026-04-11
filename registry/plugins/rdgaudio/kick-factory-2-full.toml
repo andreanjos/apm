@@ -1,0 +1,25 @@
+slug        = "kick-factory-2-full"
+name        = "Kick Factory 2 Full"
+vendor      = "RDGAudio"
+version     = "2.0"
+description = "Advanced kick drum synthesizer with full sample layering and deep sound design controls."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://rdgaudio.com/product/kick-factory/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rdgaudio.com/product/kick-factory/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rdgaudio.com/product/kick-factory/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

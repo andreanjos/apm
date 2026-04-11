@@ -1,0 +1,25 @@
+slug        = "mcompletebundle"
+name        = "MCompleteBundle"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "The ultimate collection of 112+ effects and instruments for professional music production with lifetime free updates."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MCompleteBundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MCompleteBundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MCompleteBundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

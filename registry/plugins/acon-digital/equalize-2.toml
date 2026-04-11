@@ -1,0 +1,25 @@
+slug        = "equalize-2"
+name        = "Equalize 2"
+vendor      = "Acon Digital"
+version     = "2.2.2"
+description = "Parametric EQ plugin with up to 12 bands, eight filter types, and mixed phase mode for precise sound shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://acondigital.com/products/equalize"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://acondigital.com/products/equalize"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://acondigital.com/products/equalize"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

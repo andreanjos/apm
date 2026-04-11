@@ -1,0 +1,26 @@
+slug        = "bfd-jazz-maple"
+name        = "BFD Jazz Maple"
+vendor      = "BFD"
+version     = "1.0"
+description = "BFD3 expansion centered on a classic maple jazz kit with Sabian cymbals and Real Jazz MIDI grooves."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bfddrums.com/expansions/jazz-maple.html"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/3148-BFD-Jazz-Maple?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bfddrums.com/expansions/jazz-maple.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bfddrums.com/expansions/jazz-maple.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

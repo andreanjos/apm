@@ -1,0 +1,26 @@
+slug        = "soundweaver"
+name        = "SoundWeaver"
+vendor      = "Boom"
+version     = "1.0"
+description = "Standalone sound layering application by BOOM Library for designing new sounds from existing sample libraries."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.boomlibrary.com/sound-effects/soundweaver/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/8457-SoundWeaver?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.boomlibrary.com/sound-effects/soundweaver/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.boomlibrary.com/sound-effects/soundweaver/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

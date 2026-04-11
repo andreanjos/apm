@@ -1,0 +1,26 @@
+slug        = "telos-bass"
+name        = "Telos Bass"
+vendor      = "Black Salt Audio"
+version     = "1.0"
+description = "All-in-one bass mixing tool delivering punch, energy, and edge to bass tracks with minimal effort."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.blacksaltaudio.com/telos-bass/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16686-Telos-Bass?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.blacksaltaudio.com/telos-bass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.blacksaltaudio.com/telos-bass/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

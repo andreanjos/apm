@@ -1,0 +1,25 @@
+slug        = "emotional-viola"
+name        = "Emotional Viola"
+vendor      = "Best Service"
+version     = "1.0.0"
+description = "Expressive solo viola library for Kontakt Player with high-grade sound quality and realistic articulations."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/emotional_viola.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/emotional_viola.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/emotional_viola.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

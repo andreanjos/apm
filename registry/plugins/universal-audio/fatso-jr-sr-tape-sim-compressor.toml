@@ -1,0 +1,26 @@
+slug        = "fatso-jr-sr-tape-sim-compressor"
+name        = "FATSO™ Jr./Sr. Tape Sim. & Compressor"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Empirical Labs FATSO Jr./Sr., a tape and transformer saturation and compressor unit."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/compressors-limiters/fatso-jr-sr-tape-sim-and-compressor.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/fatso-jr-sr-tape-sim-and-compressor.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/compressors-limiters/fatso-jr-sr-tape-sim-and-compressor.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

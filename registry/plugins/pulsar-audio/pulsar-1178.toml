@@ -1,0 +1,26 @@
+slug        = "pulsar-1178"
+name        = "Pulsar 1178"
+vendor      = "Pulsar Audio"
+version     = "1.5.11"
+description = "FET compressor emulation of the classic 1178 stereo hardware unit with vintage character."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://pulsar.audio/1178/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/7344-Pulsar-1178?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://pulsar.audio/1178/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://pulsar.audio/1178/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "tm700-v3"
+name        = "TM700 V3"
+vendor      = "Tone Empire"
+version     = "3"
+description = "Tape machine emulation plugin modeling analog tape saturation, compression, and harmonic coloring."
+category    = "effects"
+subcategory = "tape emulation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tone-empire.com"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/12000-TM700-V3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tone-empire.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tone-empire.com"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

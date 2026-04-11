@@ -1,0 +1,26 @@
+slug        = "session-keys-electric-r"
+name        = "Session Keys Electric R"
+vendor      = "e instruments"
+version     = "1.0.0"
+description = "Deeply sampled iconic electric piano instrument for Kontakt and Kontakt Player."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://e-instruments.com/instruments/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/6282-Session-Keys-Electric-R?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://e-instruments.com/instruments/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://e-instruments.com/instruments/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

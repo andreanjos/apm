@@ -1,0 +1,26 @@
+slug        = "complexer-2"
+name        = "Complexer 2"
+vendor      = "Venomode"
+version     = "2"
+description = "Multi-stage dynamics processor with parallel compression and precise transient control."
+category    = "effects"
+subcategory = "dynamics processor"
+license     = "commercial"
+tags        = []
+homepage    = "https://venomode.com/plugins"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/5585-Complexer-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://venomode.com/plugins"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://venomode.com/plugins"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

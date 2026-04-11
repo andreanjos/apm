@@ -1,0 +1,26 @@
+slug        = "cassette-bunny"
+name        = "Cassette Bunny"
+vendor      = "Safari Audio"
+version     = "1.0.0"
+description = "Lo-fi tape distortion plugin emulating the warmth and degradation of cassette tape recording."
+category    = "effects"
+subcategory = "tape emulation"
+license     = "commercial"
+tags        = []
+homepage    = "https://safariaudio.com/products/cassette-bunny"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/15372-Cassette-Bunny?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://safariaudio.com/products/cassette-bunny"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://safariaudio.com/products/cassette-bunny"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "virtual-drummer-hot"
+name        = "Virtual Drummer HOT"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Radio-ready drummer plugin with commercial polish for pop and rock productions."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/drummer/hot/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/drummer/hot/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/drummer/hot/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

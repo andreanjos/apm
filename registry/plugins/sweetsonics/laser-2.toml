@@ -1,0 +1,26 @@
+slug        = "laser-2"
+name        = "Laser 2"
+vendor      = "Sweetsonics"
+version     = "2.0"
+description = "Sweetsonics Laser 2 is an envelope shaper plugin for precise attack and sustain control."
+category    = "effects"
+subcategory = "envelope shaper"
+license     = "commercial"
+tags        = []
+homepage    = "https://sweetsonics.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/63-Envelope-Shaper/5604-Laser-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sweetsonics.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sweetsonics.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

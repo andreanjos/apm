@@ -1,0 +1,26 @@
+slug        = "vintage-rock-grooves"
+name        = "Vintage Rock Grooves"
+vendor      = "BFD"
+version     = "1.0"
+description = "BFD3 groove pack with 200+ classic rock patterns from the 60s and 70s across 11 palettes."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bfddrums.com/bfd3-groove-packs/vintage-rock-grooves/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/3727-Vintage-Rock-Grooves?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bfddrums.com/bfd3-groove-packs/vintage-rock-grooves/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bfddrums.com/bfd3-groove-packs/vintage-rock-grooves/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

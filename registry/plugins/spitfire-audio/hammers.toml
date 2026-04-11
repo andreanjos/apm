@@ -1,0 +1,26 @@
+slug        = "hammers"
+name        = "Hammers"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "Unique percussion library featuring hammered instruments for distinctive industrial and cinematic textures."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/shop/a-z/hammers"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/shop/a-z/hammers"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/shop/a-z/hammers"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

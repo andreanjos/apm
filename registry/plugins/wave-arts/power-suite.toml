@@ -1,0 +1,24 @@
+slug        = "power-suite"
+name        = "Power Suite"
+vendor      = "Wave Arts"
+version     = "7.0"
+description = "Complete bundle of Wave Arts professional audio plugins including TrackPlug, FinalPlug, MasterVerb, and more."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://wavearts.com/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://wavearts.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://wavearts.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

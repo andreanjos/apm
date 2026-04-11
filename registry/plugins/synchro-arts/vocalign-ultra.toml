@@ -1,0 +1,24 @@
+slug        = "vocalign-ultra"
+name        = "VocAlign Ultra"
+vendor      = "Synchro Arts"
+version     = "6"
+description = "Advanced vocal alignment plugin with timing and pitch-matching for backing vocal production."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://synchroarts.com/products/vocalign-pro"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synchroarts.com/products/vocalign-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synchroarts.com/products/vocalign-pro"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "optored"
+name        = "OptoRED"
+vendor      = "Tone Empire"
+version     = "3"
+description = "Transparent optical compressor emulating a classic American tube optical unit with sidechain and Lo-Cut."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tone-empire.com/optored/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/6810-OptoRED?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tone-empire.com/optored/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tone-empire.com/optored/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

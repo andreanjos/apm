@@ -1,0 +1,26 @@
+slug        = "pre-x7"
+name        = "Pre X7"
+vendor      = "Audiority"
+version     = "1.6.1"
+description = "Analog modeled vintage tube preamplifier plug-in for adding warmth and harmonic color."
+category    = "effects"
+subcategory = "preamp"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/pre-x7/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/4937-Pre-X7?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/pre-x7/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/pre-x7/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

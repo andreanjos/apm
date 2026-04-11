@@ -1,0 +1,25 @@
+slug        = "vapor-keys"
+name        = "Vapor Keys"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "Collection of FM, wavetable, and algorithmic synth sounds designed for gorgeous neo-90s tones."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/product/vapor-keys/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/product/vapor-keys/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/product/vapor-keys/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

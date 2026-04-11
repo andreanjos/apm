@@ -1,0 +1,25 @@
+slug        = "biotek-2"
+name        = "BioTek 2"
+vendor      = "Tracktion"
+version     = "2.x"
+description = "Multi-synthesis organic synthesizer combining virtual analog, FM, granular, and sample-based synthesis."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tracktion.com/products/biotek"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tracktion.com/products/biotek"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tracktion.com/products/biotek"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

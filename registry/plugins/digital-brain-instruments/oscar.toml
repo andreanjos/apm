@@ -1,0 +1,26 @@
+slug        = "oscar"
+name        = "Oscar"
+vendor      = "Digital Brain Instruments"
+version     = "1.0.0"
+description = "Tone and noise generator plugin for test signal generation and audio calibration."
+category    = "instruments"
+subcategory = "generator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.digitalbrain-instruments.com/oscar"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/5125-Oscar?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.digitalbrain-instruments.com/oscar"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.digitalbrain-instruments.com/oscar"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

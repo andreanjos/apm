@@ -1,0 +1,26 @@
+slug        = "iron-pack-3-metal-tones"
+name        = "Iron Pack 3 Metal Tones"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Iron Pack Vol.3 — metallic tones Kontakt instrument with industrial percussive character."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/iron-pack-3-metal-tones"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10407-Iron-Pack-3-Metal-Tones?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/iron-pack-3-metal-tones"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/iron-pack-3-metal-tones"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

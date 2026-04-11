@@ -1,0 +1,25 @@
+slug        = "virtual-sandberg-basic-ken-taylor-rw-4"
+name        = "Virtual Sandberg Basic Ken Taylor RW 4"
+vendor      = "Pfundstein Audio Plugins"
+version     = "1.0.0"
+description = "Virtual recreation of a German Sandberg Ken Taylor bass guitar with velocity layers and playing styles."
+category    = "instruments"
+subcategory = "bass"
+license     = "commercial"
+tags        = []
+homepage    = "https://pfundstein-audio-plugins.de/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://pfundstein-audio-plugins.de/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://pfundstein-audio-plugins.de/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

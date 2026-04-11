@@ -1,0 +1,26 @@
+slug        = "walker-2"
+name        = "Walker 2"
+vendor      = "UVI"
+version     = "1.0.0"
+description = "Comprehensive footstep foley designer with 45,000+ samples covering 14 shoe types, 32 surfaces, and 24 clothing options."
+category    = "instruments"
+subcategory = "generator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.uvi.net/walker-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/69-Generator/16938-Walker-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uvi.net/walker-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uvi.net/walker-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "standard-audio-level-or"
+name        = "Standard Audio Level Or"
+vendor      = "Safari Audio"
+version     = "1.0.0"
+description = "Fierce character compressor/limiter plugin based on the cult-classic Standard Audio 500-series hardware unit."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://safariaudio.com/products/level-or"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/15369-Standard-Audio-Level-Or?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://safariaudio.com/products/level-or"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://safariaudio.com/products/level-or"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

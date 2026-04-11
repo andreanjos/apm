@@ -1,0 +1,26 @@
+slug        = "trailer-sounds-volume-1-cinematic-hits"
+name        = "Trailer Sounds Volume 1 Cinematic Hits"
+vendor      = "Boom"
+version     = "1.0"
+description = "150 cinematic booms, hits, and whoosh hits created by BOOM Library and Sonuscore for trailer production."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.boomlibrary.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11045-Trailer-Sounds-Volume-1-Cinematic-Hits?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.boomlibrary.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.boomlibrary.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

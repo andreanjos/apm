@@ -1,0 +1,25 @@
+slug        = "plugins-bundle"
+name        = "Plugins Bundle"
+vendor      = "AudioThing"
+version     = "1.0.0"
+description = "Comprehensive bundle of all AudioThing VST/AU/AAX effect and instrument plugins."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

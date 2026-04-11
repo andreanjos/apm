@@ -1,0 +1,25 @@
+slug        = "evolution-davastator-bundle"
+name        = "Evolution: Davastator Bundle"
+vendor      = "Keepforest"
+version     = "1.0.0"
+description = "Keepforest bundle of Evolution: Devastator cinematic Kontakt Player libraries for trailer music."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://keep-forest.com/store"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://keep-forest.com/store"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://keep-forest.com/store"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

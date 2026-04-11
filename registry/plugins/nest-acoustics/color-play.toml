@@ -1,0 +1,26 @@
+slug        = "color-play"
+name        = "Color Play"
+vendor      = "NEST Acoustics"
+version     = "1.0"
+description = "Synthesizer plugin by NEST Acoustics with colorful tonal palette and expressive controls."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://nestacoustics.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/17058-Color-Play?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nestacoustics.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nestacoustics.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

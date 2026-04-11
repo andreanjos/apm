@@ -1,0 +1,26 @@
+slug        = "poly-2106"
+name        = "Poly 2106"
+vendor      = "Synthscience"
+version     = "1.0"
+description = "Polyphonic synthesizer plugin by Synthscience with vintage-inspired analog character."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://synthscience.net/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/471-Poly-2106?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synthscience.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synthscience.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

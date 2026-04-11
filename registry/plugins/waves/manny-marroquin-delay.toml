@@ -1,0 +1,26 @@
+slug        = "manny-marroquin-delay"
+name        = "Manny Marroquin Delay"
+vendor      = "Waves"
+version     = "14.0"
+description = "Signature delay plugin capturing Manny Marroquin's unique delay and echo processing."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/manny-marroquin-delay"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/manny-marroquin-delay"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/manny-marroquin-delay"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

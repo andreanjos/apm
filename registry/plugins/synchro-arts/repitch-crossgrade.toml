@@ -1,0 +1,24 @@
+slug        = "repitch-crossgrade"
+name        = "RePitch Crossgrade"
+vendor      = "Synchro Arts"
+version     = "2"
+description = "Crossgrade license offering access to RePitch vocal pitch correction from a previous version."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://synchroarts.com/products/repitch"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://synchroarts.com/products/repitch"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://synchroarts.com/products/repitch"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

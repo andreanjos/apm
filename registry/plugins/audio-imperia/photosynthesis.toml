@@ -1,0 +1,25 @@
+slug        = "photosynthesis"
+name        = "Photosynthesis"
+vendor      = "Audio Imperia"
+version     = "1.0.0"
+description = "Kontakt Player instrument with ambient soundscapes, pads, growling basses, and bowed metals."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audioimperia.com/product/photosynthesis/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audioimperia.com/product/photosynthesis/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audioimperia.com/product/photosynthesis/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "t-racks-tape-machine-24-tape-machine-440-bundle"
+name        = "T-RackS Tape Machine 24 & Tape Machine 440 Bundle"
+vendor      = "IK Multimedia"
+version     = "1.0"
+description = "Bundle combining T-RackS Tape Machine 24 and Tape Machine 440 tape saturation modules."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ikmultimedia.com/products/trtapemac/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ikmultimedia.com/products/trtapemac/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ikmultimedia.com/products/trtapemac/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

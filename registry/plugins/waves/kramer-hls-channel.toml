@@ -1,0 +1,26 @@
+slug        = "kramer-hls-channel"
+name        = "Kramer HLS Channel"
+vendor      = "Waves"
+version     = "14.0"
+description = "Emulation of the Helios Type 69 console EQ used by Eddie Kramer at Olympic Studios."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/kramer-hls-channel"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/kramer-hls-channel"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/kramer-hls-channel"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

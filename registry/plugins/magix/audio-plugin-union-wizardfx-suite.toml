@@ -1,0 +1,25 @@
+slug        = "audio-plugin-union-wizardfx-suite"
+name        = "Audio Plugin Union wizardFX Suite"
+vendor      = "MAGIX"
+version     = "1.0.0"
+description = "Bundle of 11 dynamics, modulation, and reverb plugins for mixing and sound experimentation."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.magix.com/us/music-editing/audio-plugin-union/wizardfx-suite/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.magix.com/us/music-editing/audio-plugin-union/wizardfx-suite/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.magix.com/us/music-editing/audio-plugin-union/wizardfx-suite/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

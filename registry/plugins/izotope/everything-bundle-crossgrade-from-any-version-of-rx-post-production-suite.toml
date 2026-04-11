@@ -1,0 +1,26 @@
+slug        = "everything-bundle-crossgrade-from-any-version-of-rx-post-production-suite"
+name        = "Everything Bundle Crossgrade from ANY version of RX Post Production Suite"
+vendor      = "iZotope"
+version     = "1.0.0"
+description = "Crossgrade to iZotope's complete Everything Bundle from any version of RX Post Production Suite."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

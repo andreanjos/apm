@@ -1,0 +1,25 @@
+slug        = "buchla-296e-spectral-processor"
+name        = "Buchla 296e Spectral Processor"
+vendor      = "Softube"
+version     = "2.6"
+description = "Spectral filtering and processing module for Softube Modular, modeled on the Buchla 296e hardware."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/synthesizers/buchla-296e-spectral-processor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/synthesizers/buchla-296e-spectral-processor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/synthesizers/buchla-296e-spectral-processor"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

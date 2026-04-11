@@ -1,0 +1,26 @@
+slug        = "bfd-decatom"
+name        = "BFD Decatom"
+vendor      = "BFD"
+version     = "1.0"
+description = "BFD3 expansion featuring a set of 10 tuned toms with matching 6\" heads and varied depths."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bfddrums.com/bfd3-expansions/decatom/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/3154-BFD-Decatom?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bfddrums.com/bfd3-expansions/decatom/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bfddrums.com/bfd3-expansions/decatom/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

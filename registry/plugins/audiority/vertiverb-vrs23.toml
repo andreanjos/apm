@@ -1,0 +1,26 @@
+slug        = "vertiverb-vrs23"
+name        = "VertiVerb VRS23"
+vendor      = "Audiority"
+version     = "1.0.1"
+description = "Vintage BBD echo/reverb plug-in with lush analog bucket-brigade reverb and echo character."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/vertiverb-vrs23/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/11702-VertiVerb-VRS23?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/vertiverb-vrs23/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/vertiverb-vrs23/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

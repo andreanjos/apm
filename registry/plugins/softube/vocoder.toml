@@ -1,0 +1,25 @@
+slug        = "vocoder"
+name        = "Vocoder"
+vendor      = "Softube"
+version     = "2.6"
+description = "Classic vocoder plugin for robotic voice effects and spectral speech synthesis on any audio source."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/vocoder"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/vocoder"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/vocoder"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

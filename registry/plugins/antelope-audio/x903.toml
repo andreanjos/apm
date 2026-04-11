@@ -1,0 +1,26 @@
+slug        = "x903"
+name        = "x903"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "VCA compressor/limiter plugin delivering clean, transparent dynamic control for mixing and mastering."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/x903/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/16114-x903?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/x903/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/x903/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

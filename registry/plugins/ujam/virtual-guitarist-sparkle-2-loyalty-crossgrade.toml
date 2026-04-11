@@ -1,0 +1,25 @@
+slug        = "virtual-guitarist-sparkle-2-loyalty-crossgrade"
+name        = "Virtual Guitarist Sparkle 2 Loyalty Crossgrade"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Loyalty crossgrade to Virtual Guitarist SPARKLE 2 catchy electric rhythm guitar plugin."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/guitarist/sparkle/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/guitarist/sparkle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/guitarist/sparkle/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

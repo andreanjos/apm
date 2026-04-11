@@ -1,0 +1,25 @@
+slug        = "oldblackgrand"
+name        = "OldBlackGrand"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "1928 Pleyel grand piano sampled with vintage Studer console and tube mics for warm jazz and blues tones."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/oldblackgrand"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/oldblackgrand"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/oldblackgrand"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

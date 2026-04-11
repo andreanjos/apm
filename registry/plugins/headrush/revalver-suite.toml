@@ -1,0 +1,26 @@
+slug        = "revalver-suite"
+name        = "ReValver Suite"
+vendor      = "HeadRush"
+version     = "5.1"
+description = "HeadRush ReValver Suite combines component-level amp modeling with AI-powered amp cloning."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://revalver.headrushfx.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/14546-ReValver-Suite?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://revalver.headrushfx.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://revalver.headrushfx.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

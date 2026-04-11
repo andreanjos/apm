@@ -1,0 +1,25 @@
+slug        = "massive"
+name        = "Massive"
+vendor      = "Pulsar Audio"
+version     = "1.0.0"
+description = "Emulation of the Manley Massive Passive boutique passive EQ for musical tone shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://pulsar.audio/massive/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://pulsar.audio/massive/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://pulsar.audio/massive/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

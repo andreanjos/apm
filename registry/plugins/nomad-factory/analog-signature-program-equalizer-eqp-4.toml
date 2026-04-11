@@ -1,0 +1,25 @@
+slug        = "analog-signature-program-equalizer-eqp-4"
+name        = "Analog Signature Program Equalizer EQP-4"
+vendor      = "Nomad Factory"
+version     = "1.0.0"
+description = "Program equalizer plugin modeled on vintage Pultec-style passive EQ circuits for musical tone shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.nomadfactory.com/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.nomadfactory.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.nomadfactory.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

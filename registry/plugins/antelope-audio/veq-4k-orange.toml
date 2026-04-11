@@ -1,0 +1,26 @@
+slug        = "veq-4k-orange"
+name        = "VEQ 4K ORANGE"
+vendor      = "Antelope Audio"
+version     = "1.0.0"
+description = "Four-band EQ plugin with HPF/LPF modeled on the SSL 4000 Orange console equalizer."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://en.antelopeaudio.com/products/veq-4k-orange/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/16085-VEQ-4K-ORANGE?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://en.antelopeaudio.com/products/veq-4k-orange/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://en.antelopeaudio.com/products/veq-4k-orange/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

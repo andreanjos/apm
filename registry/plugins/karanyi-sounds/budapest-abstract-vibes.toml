@@ -1,0 +1,25 @@
+slug        = "budapest-abstract-vibes"
+name        = "Budapest Abstract Vibes"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "Contemporary Kontakt vibraphone with transient-rich modern sounds and special playing techniques."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/product/budapest-abstract-vibes/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/product/budapest-abstract-vibes/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/product/budapest-abstract-vibes/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "spc2000-serial-parallel-compressor-plugin-v6-native"
+name        = "SPC2000 Serial/Parallel Compressor Plugin v6 Native"
+vendor      = "McDSP"
+version     = "6.0"
+description = "Native v6 of McDSP SPC2000 serial/parallel compressor for flexible topology compression."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://mcdsp.com/plugin-index/spc2000/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mcdsp.com/plugin-index/spc2000/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mcdsp.com/plugin-index/spc2000/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

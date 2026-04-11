@@ -1,0 +1,26 @@
+slug        = "lcast-surround"
+name        = "LCAST Surround"
+vendor      = "MeterPlugs"
+version     = "1.0.0"
+description = "Surround broadcast loudness meter with CSV export and multi-channel peak measurement."
+category    = "utility"
+subcategory = "metering"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meterplugs.com/lcast"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/1380-LCAST-Surround?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meterplugs.com/lcast"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meterplugs.com/lcast"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "blue-cat-s-triple-eq"
+name        = "Blue Cat s Triple EQ"
+vendor      = "Blue Cat Audio"
+version     = "4.5"
+description = "Free three-band semi-parametric equalizer with customizable band shape control."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bluecataudio.com/Products/Product_TripleEQ/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/276-Blue-Cat-s-Triple-EQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bluecataudio.com/Products/Product_TripleEQ/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bluecataudio.com/Products/Product_TripleEQ/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

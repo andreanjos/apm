@@ -1,0 +1,26 @@
+slug        = "ssl-native-drumstrip"
+name        = "SSL Native Drumstrip"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "Dedicated channel strip plugin for drum processing with SSL EQ, gate, compressor, and transient tools."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-native-drumstrip"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/8660-SSL-Native-Drumstrip?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-drumstrip"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-drumstrip"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

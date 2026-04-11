@@ -1,0 +1,24 @@
+slug        = "boost-x"
+name        = "Boost X"
+vendor      = "Initial Audio"
+version     = "1.0.0"
+description = "Dynamic saturation plugin that adds harmonic excitement and presence to any audio signal."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://initialaudio.com/product/boost-x-dynamic-saturation/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://initialaudio.com/product/boost-x-dynamic-saturation/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://initialaudio.com/product/boost-x-dynamic-saturation/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

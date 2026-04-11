@@ -1,0 +1,25 @@
+slug        = "molot-compressor-gentlemans-edition"
+name        = "Molot Compressor Gentleman’s Edition"
+vendor      = "Tokyo Dawn Labs"
+version     = "1.0.7"
+description = "Gentleman's Edition characterful compressor melding classic mechanisms with saturation and creative tone control."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tokyodawn.net/tdr-molot-ge/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tokyodawn.net/tdr-molot-ge/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tokyodawn.net/tdr-molot-ge/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

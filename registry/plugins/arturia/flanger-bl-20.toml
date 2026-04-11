@@ -1,0 +1,26 @@
+slug        = "flanger-bl-20"
+name        = "Flanger BL-20"
+vendor      = "Arturia"
+version     = "1.4.0"
+description = "Classic bucket-brigade flanger emulation delivering vintage jet-engine flanging and deep modulation."
+category    = "effects"
+subcategory = "flanger"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-effects/flanger-bl-20/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-effects/flanger-bl-20/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-effects/flanger-bl-20/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

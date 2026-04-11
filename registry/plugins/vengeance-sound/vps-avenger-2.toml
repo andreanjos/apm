@@ -1,0 +1,25 @@
+slug        = "vps-avenger-2"
+name        = "VPS Avenger 2"
+vendor      = "Vengeance Sound"
+version     = "2.4.1"
+description = "Powerhouse synthesizer with wavetable, sampler, arpeggiator, and 160+ drum kits."
+category    = "effects"
+subcategory = "sampler"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.vengeance-sound.com/plugins.php"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.vengeance-sound.com/plugins.php"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.vengeance-sound.com/plugins.php"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

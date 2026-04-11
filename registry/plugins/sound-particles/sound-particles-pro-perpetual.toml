@@ -1,0 +1,25 @@
+slug        = "sound-particles-pro-perpetual"
+name        = "Sound Particles Pro Perpetual"
+vendor      = "Sound Particles"
+version     = "3.0"
+description = "Perpetual license for Sound Particles Pro, the professional-tier immersive audio workstation."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundparticles.com/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundparticles.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundparticles.com/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

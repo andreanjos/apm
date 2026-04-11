@@ -1,0 +1,26 @@
+slug        = "geq"
+name        = "GEQ"
+vendor      = "Waves"
+version     = "14.0"
+description = "30-band graphic equalizer for precise spectral shaping in live and studio applications."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/geq"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/geq"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/geq"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

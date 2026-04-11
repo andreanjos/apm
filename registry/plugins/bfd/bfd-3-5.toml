@@ -1,0 +1,26 @@
+slug        = "bfd-3-5"
+name        = "BFD 3 5"
+vendor      = "BFD"
+version     = "3.5"
+description = "Flagship acoustic drum studio plugin with 51 kits, 48 effects, and redesigned mixer engine."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bfddrums.com/bfd3/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/848-BFD-3-5?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bfddrums.com/bfd3/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bfddrums.com/bfd3/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

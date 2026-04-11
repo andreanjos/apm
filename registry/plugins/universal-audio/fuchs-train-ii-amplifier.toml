@@ -1,0 +1,26 @@
+slug        = "fuchs-train-ii-amplifier"
+name        = "Fuchs Train II Amplifier"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Fuchs Train II high-gain guitar amplifier."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/guitar-bass/fuchs-train-ii-amplifier.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/guitar-bass/fuchs-train-ii-amplifier.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/guitar-bass/fuchs-train-ii-amplifier.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

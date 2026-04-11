@@ -1,0 +1,26 @@
+slug        = "bfd-crush"
+name        = "BFD Crush"
+vendor      = "BFD"
+version     = "1.0"
+description = "BFD3 expansion capturing a Crush Drums Sublime AXM kit tuned for progressive and technical metal."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bfddrums.com/bfd3-expansions/crush/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/4179-BFD-Crush?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bfddrums.com/bfd3-expansions/crush/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bfddrums.com/bfd3-expansions/crush/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

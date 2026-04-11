@@ -1,0 +1,25 @@
+slug        = "deep-impact-8211-cinematic-atmospheres-and-sfx"
+name        = "Deep Impact &#8211; Cinematic Atmospheres and SFX"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Cinematic sound library featuring 4.2GB of atmospheres, effects, drones, and 40 construction kits for media scoring."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/deep-impact"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/deep-impact"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/deep-impact"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

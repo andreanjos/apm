@@ -1,0 +1,24 @@
+slug        = "mo-verb-plus"
+name        = "Mo-Verb Plus"
+vendor      = "SPL"
+version     = "1.1"
+description = "SPL Mo-Verb Plus adds natural room ambience and reverb with analog-modeled character."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://spl.audio/en/spl-produkt/mo-verb-plus/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://spl.audio/en/spl-produkt/mo-verb-plus/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://spl.audio/en/spl-produkt/mo-verb-plus/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

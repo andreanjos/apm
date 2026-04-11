@@ -1,0 +1,26 @@
+slug        = "clipshifter"
+name        = "ClipShifter"
+vendor      = "LVC Audio"
+version     = "2.6"
+description = "LVC Audio ClipShifter is a waveshaping clipper plugin for soft and hard clipping effects."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://lvcaudio.com/plugins/clipshifter/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/9-Limiter/4740-ClipShifter?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://lvcaudio.com/plugins/clipshifter/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://lvcaudio.com/plugins/clipshifter/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

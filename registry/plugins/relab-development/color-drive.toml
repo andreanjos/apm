@@ -1,0 +1,26 @@
+slug        = "color-drive"
+name        = "Color Drive"
+vendor      = "Relab Development"
+version     = "1.0"
+description = "Hardware-accurate tube saturation plugin modelling the Relab 176 variable-gain tube circuit with transformers."
+category    = "effects"
+subcategory = "saturation"
+license     = "commercial"
+tags        = []
+homepage    = "https://relabdevelopment.com/relab-color-drive/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/44-Saturation/16607-Color-Drive?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://relabdevelopment.com/relab-color-drive/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://relabdevelopment.com/relab-color-drive/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

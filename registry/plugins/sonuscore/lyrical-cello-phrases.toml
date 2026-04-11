@@ -1,0 +1,26 @@
+slug        = "lyrical-cello-phrases"
+name        = "Lyrical Cello Phrases"
+vendor      = "Sonuscore"
+version     = "1.0.0"
+description = "Expressive cello phrase library recorded by Mátyás Ölveti with 70+ freely combinable phrases."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://sonuscore.com/shop/lyrical-cello-phrases/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7956-Lyrical-Cello-Phrases?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sonuscore.com/shop/lyrical-cello-phrases/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sonuscore.com/shop/lyrical-cello-phrases/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

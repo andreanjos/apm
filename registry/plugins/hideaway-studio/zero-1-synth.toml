@@ -1,0 +1,25 @@
+slug        = "zero-1-synth"
+name        = "Zero 1 Synth"
+vendor      = "Hideaway Studio"
+version     = "1.0.0"
+description = "Kontakt-based single-oscillator virtual analog synthesizer loosely modeled on the 1982 Yamaha CS01."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://hideawaystudio.net/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hideawaystudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hideawaystudio.net/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

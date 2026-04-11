@@ -1,0 +1,26 @@
+slug        = "odc-2800-synthesizer"
+name        = "ODC 2800 Synthesizer"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "ARP Odyssey-inspired synthesizer faithfully recreating all three Mk I, II and III hardware versions."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/odc-2800-synthesizer"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15107-ODC-2800-Synthesizer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/odc-2800-synthesizer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/odc-2800-synthesizer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

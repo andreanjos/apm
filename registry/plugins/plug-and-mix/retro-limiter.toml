@@ -1,0 +1,25 @@
+slug        = "retro-limiter"
+name        = "Retro Limiter"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Vintage-style limiter plugin emulating classic broadcast and mastering limiter behavior."
+category    = "effects"
+subcategory = "limiter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p868-Retro-Limiter/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p868-Retro-Limiter/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p868-Retro-Limiter/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

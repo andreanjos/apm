@@ -1,0 +1,26 @@
+slug        = "crumar-spirit"
+name        = "Crumar Spirit"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Recreation of the rare 1983 Crumar Spirit monosynth designed by Bob Moog, with polyphonic expansion."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/spirit-synthesizer"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/15451-Crumar-Spirit?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/spirit-synthesizer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/spirit-synthesizer"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

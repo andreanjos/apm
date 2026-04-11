@@ -1,0 +1,25 @@
+slug        = "virtual-guitarist-amber"
+name        = "Virtual Guitarist AMBER"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Strummed and picked steel-string acoustic guitar plugin for authentic acoustic performances."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/guitarist/amber/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/guitarist/amber/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/guitarist/amber/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

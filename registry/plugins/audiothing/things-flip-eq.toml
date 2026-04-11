@@ -1,0 +1,25 @@
+slug        = "things-flip-eq"
+name        = "Things – Flip EQ"
+vendor      = "AudioThing"
+version     = "1.2.1"
+description = "Creative EQ plugin with an unconventional approach to frequency shaping for unique tonal results."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/effects/things-flip-eq/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/effects/things-flip-eq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/effects/things-flip-eq/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

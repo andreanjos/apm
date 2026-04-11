@@ -1,0 +1,25 @@
+slug        = "dialog"
+name        = "Dialog"
+vendor      = "Wave Arts"
+version     = "2.06"
+description = "Intelligent dialogue audio restoration plugin combining noise reduction, de-clicking, and de-humming in one tool."
+category    = "effects"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+homepage    = "https://wavearts.com/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://wavearts.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://wavearts.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

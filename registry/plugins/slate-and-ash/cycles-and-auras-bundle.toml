@@ -1,0 +1,25 @@
+slug        = "cycles-and-auras-bundle"
+name        = "Cycles and Auras Bundle"
+vendor      = "Slate & Ash"
+version     = "1.0.0"
+description = "Bundle combining Slate & Ash's Cycles loop granular engine and Auras expressive texture instrument."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://slateandash.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://slateandash.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://slateandash.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

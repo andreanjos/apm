@@ -1,0 +1,26 @@
+slug        = "unfilter"
+name        = "UNFILTER"
+vendor      = "Zynaptiq"
+version     = "1.0"
+description = "Adaptive tonal contour linearization plugin that removes filtering effects and resonances automatically."
+category    = "utility"
+subcategory = "audio restoration"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.zynaptiq.com/unfilter/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/51-Audio-Restoration-/2704-UNFILTER-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.zynaptiq.com/unfilter/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.zynaptiq.com/unfilter/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

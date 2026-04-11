@@ -1,0 +1,24 @@
+slug        = "algoreverb"
+name        = "AlgoReverb"
+vendor      = "2nd Sense Audio"
+version     = "1.0"
+description = "Algorithmic reverb plugin by 2nd Sense Audio with flexible room modeling and diffusion."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.2ndsenseaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.2ndsenseaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.2ndsenseaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "iq-compressor"
+name        = "IQ Compressor"
+vendor      = "Rockett Pedals"
+version     = "1.0"
+description = "Rockett Pedals IQ Compressor is an optical-style compressor modeled on analog pedal circuitry."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rockettaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rockettaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rockettaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

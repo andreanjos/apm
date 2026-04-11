@@ -1,0 +1,26 @@
+slug        = "metro"
+name        = "Metro"
+vendor      = "Evertone Project"
+version     = "1.0"
+description = "Utility metronome plugin by Evertone Project for precise tempo tracking in your DAW."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://evertoneproject.com/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/16665-Metro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://evertoneproject.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://evertoneproject.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

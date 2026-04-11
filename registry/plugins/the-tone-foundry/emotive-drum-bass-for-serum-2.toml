@@ -1,0 +1,26 @@
+slug        = "emotive-drum-bass-for-serum-2"
+name        = "Emotive Drum Bass for Serum 2"
+vendor      = "The Tone Foundry"
+version     = "1.0.0"
+description = "80 expressive Serum 2 presets for liquid DnB with lush atmospheres, warm basses, pads, and soaring leads."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/manufacturers/393-The-Tone-Foundry"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/16790-Emotive-Drum-Bass-for-Serum-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/manufacturers/393-The-Tone-Foundry"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/manufacturers/393-The-Tone-Foundry"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

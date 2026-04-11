@@ -1,0 +1,25 @@
+slug        = "unisonizer"
+name        = "Unisonizer"
+vendor      = "Eplex7 DSP"
+version     = "1.0.0"
+description = "Real-time unison effect plugin adding fatness and width to synths, bass, and pads."
+category    = "effects"
+subcategory = "harmonizer"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.eplex7.com/unisonizer-real-time-unison-effect-plugin-vst/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.eplex7.com/unisonizer-real-time-unison-effect-plugin-vst/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.eplex7.com/unisonizer-real-time-unison-effect-plugin-vst/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "bx-2098-eq"
+name        = "bx 2098 EQ"
+vendor      = "Brainworx"
+version     = "1.0.0"
+description = "Emulation of the Amek 9098 EQ with Neve-designed curves, full M/S control, and a THD parameter."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugin-alliance.com/en/products/bx_2098_eq.html"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/10228-bx-2098-EQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/en/products/bx_2098_eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/en/products/bx_2098_eq.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

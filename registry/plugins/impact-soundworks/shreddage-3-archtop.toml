@@ -1,0 +1,25 @@
+slug        = "shreddage-3-archtop"
+name        = "Shreddage 3 Archtop"
+vendor      = "Impact Soundworks"
+version     = "1.0.0"
+description = "Kontakt jazz archtop guitar instrument with a smooth tone ideal for jazz, blues, funk, and pop."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://impactsoundworks.com/product/shreddage-3-archtop/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://impactsoundworks.com/product/shreddage-3-archtop/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://impactsoundworks.com/product/shreddage-3-archtop/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

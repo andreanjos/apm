@@ -1,0 +1,25 @@
+slug        = "sufi-ney-v2-0"
+name        = "Sufi Ney V2.0"
+vendor      = "Rast Sound"
+version     = "2.0"
+description = "Middle Eastern ney flute Kontakt library with long performances, patterns, and solo multisample instruments."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://rastsound.com/downloads/sufi-ney/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rastsound.com/downloads/sufi-ney/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rastsound.com/downloads/sufi-ney/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

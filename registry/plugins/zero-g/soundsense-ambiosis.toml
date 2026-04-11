@@ -1,0 +1,25 @@
+slug        = "soundsense-ambiosis"
+name        = "SoundSense: Ambiosis"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Fantastic array of atmospherics and soundscapes for ambient, dance, film scoring, and trance production."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/soundsense-ambiosis"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/soundsense-ambiosis"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/soundsense-ambiosis"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

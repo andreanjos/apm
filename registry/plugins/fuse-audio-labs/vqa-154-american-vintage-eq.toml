@@ -1,0 +1,26 @@
+slug        = "vqa-154-american-vintage-eq"
+name        = "VQA 154 American Vintage EQ"
+vendor      = "Fuse Audio Labs"
+version     = "2.7"
+description = "American vintage EQ plugin emulating the tonal character of a classic passive American equalizer."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://fuseaudiolabs.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/13556-VQA-154-American-Vintage-EQ?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://fuseaudiolabs.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://fuseaudiolabs.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

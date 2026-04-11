@@ -1,0 +1,26 @@
+slug        = "precision-enhancer-hz"
+name        = "Precision Enhancer Hz"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "UA's Precision Enhancer Hz adds definition to bass frequencies with harmonic enhancement."
+category    = "effects"
+subcategory = "enhancer"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/equalizers/precision-enhancer-hz.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/precision-enhancer-hz.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/equalizers/precision-enhancer-hz.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

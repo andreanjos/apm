@@ -1,0 +1,25 @@
+slug        = "compressor-kilohearts"
+name        = "Compressor"
+vendor      = "Kilohearts"
+version     = "2.4.6"
+description = "Versatile compressor Snapin with standard controls for transparent dynamic range reduction."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://kilohearts.com/products/compressor"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://kilohearts.com/products/compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://kilohearts.com/products/compressor"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,27 @@
+slug        = "m-ag-audio-eq4-ms"
+name        = "M ag Audio EQ4 MS"
+vendor      = "Plugin Alliance"
+version     = "1.0.0"
+description = "Six-band dual-channel M/S mastering EQ featuring Mäag Audio's legendary AIR BAND for transparent top-end enhancement."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "plugin-alliance-installation-manager"
+homepage    = "https://www.plugin-alliance.com/products/eq4-ms"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/16-EQ/13447-M-ag-Audio-EQ4-MS?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugin-alliance.com/products/eq4-ms"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugin-alliance.com/products/eq4-ms"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

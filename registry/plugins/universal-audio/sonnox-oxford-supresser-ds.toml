@@ -1,0 +1,26 @@
+slug        = "sonnox-oxford-supresser-ds"
+name        = "Sonnox Oxford SuprEsser DS"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Sonnox Oxford SuprEsser DS is a dynamic de-esser with frequency-selective compression."
+category    = "effects"
+subcategory = "de-esser"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/dynamics/sonnox-oxford-supresser-ds.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/dynamics/sonnox-oxford-supresser-ds.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/dynamics/sonnox-oxford-supresser-ds.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

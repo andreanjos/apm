@@ -1,0 +1,25 @@
+slug        = "aleatoric-rhythms"
+name        = "Aleatoric Rhythms"
+vendor      = "Ergo Kukke"
+version     = "1.0.0"
+description = "Kontakt rhythm instrument with 200 samples ranging from bass riffs to ambient percussion loops."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bestservice.com/en/aleatoric_rhythms.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bestservice.com/en/aleatoric_rhythms.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bestservice.com/en/aleatoric_rhythms.html"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

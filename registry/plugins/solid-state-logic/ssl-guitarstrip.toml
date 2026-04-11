@@ -1,0 +1,26 @@
+slug        = "ssl-guitarstrip"
+name        = "SSL Guitarstrip"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "Channel strip plugin tailored for guitar tracks with SSL EQ, dynamics, and amp processing tools."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-guitarstrip"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/21-Channel-Strip/9572-SSL-Guitarstrip?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-guitarstrip"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-guitarstrip"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

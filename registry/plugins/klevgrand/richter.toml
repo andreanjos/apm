@@ -1,0 +1,26 @@
+slug        = "richter"
+name        = "Richter"
+vendor      = "Klevgrand"
+version     = "1.0"
+description = "A tectonic compressor designed for heavy compression with minimal artifacts and simple controls."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://klevgrand.com/products/richter"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/10643-Richter?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://klevgrand.com/products/richter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://klevgrand.com/products/richter"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

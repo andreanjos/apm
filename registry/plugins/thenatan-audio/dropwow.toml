@@ -1,0 +1,26 @@
+slug        = "dropwow"
+name        = "DropWow"
+vendor      = "Thenatan Audio"
+version     = "1.0.0"
+description = "Lo-fi pitch and volume dropout generator for adding vintage cassette-style imperfections to audio."
+category    = "effects"
+subcategory = "modulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.thenatan.store/p/dropwow-fx-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/33-Modulator/15944-DropWow?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.thenatan.store/p/dropwow-fx-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.thenatan.store/p/dropwow-fx-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

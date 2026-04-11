@@ -1,0 +1,26 @@
+slug        = "tal-dub-2"
+name        = "TAL Dub 2"
+vendor      = "TAL"
+version     = "1.0.0"
+description = "Vintage-style delay with a new 4x oversampled distortion stage, sinus LFO modulation, and stereo width control."
+category    = "effects"
+subcategory = "delay"
+license     = "commercial"
+tags        = []
+homepage    = "https://tal-software.com/products/tal-dub"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/10-Delay/441-TAL-Dub-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://tal-software.com/products/tal-dub"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://tal-software.com/products/tal-dub"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

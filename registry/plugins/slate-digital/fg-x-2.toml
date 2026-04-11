@@ -1,0 +1,26 @@
+slug        = "fg-x-2"
+name        = "FG X 2"
+vendor      = "Slate Digital"
+version     = "1.0.0"
+description = "Mastering plugin with transparent FG-Comp and True Peak FG-Level for professional loudness processing."
+category    = "effects"
+subcategory = "mastering suite"
+license     = "commercial"
+tags        = []
+homepage    = "https://slatedigital.com/fg-x-2-mastering-plugin/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/52-Mastering-Suite/15794-FG-X-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://slatedigital.com/fg-x-2-mastering-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://slatedigital.com/fg-x-2-mastering-plugin/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

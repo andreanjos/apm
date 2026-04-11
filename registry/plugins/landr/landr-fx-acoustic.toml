@@ -1,0 +1,26 @@
+slug        = "landr-fx-acoustic"
+name        = "LANDR FX Acoustic"
+vendor      = "LANDR"
+version     = "1.0"
+description = "Multi-effects plugin tailored for acoustic instruments with tone-shaping, reverb, and spatial processing."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.landr.com/plugins/landr-fx-suite"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/12904-LANDR-FX-Acoustic?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.landr.com/plugins/landr-fx-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.landr.com/plugins/landr-fx-suite"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

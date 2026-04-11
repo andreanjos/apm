@@ -1,0 +1,26 @@
+slug        = "4u-goniometer-korrelator"
+name        = "4U Goniometer Korrelator"
+vendor      = "HOFA Plugins"
+version     = "1.0.0"
+description = "Free goniometer and correlation meter plugin for stereo field monitoring and analysis."
+category    = "utility"
+subcategory = "metering"
+license     = "commercial"
+tags        = []
+homepage    = "https://hofa-plugins.de/en/freeware-en/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/79-Metering/5044-4U-Goniometer-Korrelator?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://hofa-plugins.de/en/freeware-en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://hofa-plugins.de/en/freeware-en/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

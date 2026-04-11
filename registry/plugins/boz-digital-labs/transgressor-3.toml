@@ -1,0 +1,26 @@
+slug        = "transgressor-3"
+name        = "Transgressor 3"
+vendor      = "Boz Digital Labs"
+version     = "3"
+description = "Hybrid EQ and transient shaper with fully independent EQ control over transients and sustained tones."
+category    = "effects"
+subcategory = "transient shaper"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bozdigitallabs.com/transgressor/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/36-Transient-Shaper/13426-Transgressor-3?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bozdigitallabs.com/transgressor/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bozdigitallabs.com/transgressor/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

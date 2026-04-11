@@ -1,0 +1,25 @@
+slug        = "musiqual-red-se"
+name        = "Musiqual RED SE"
+vendor      = "MIA Laboratories"
+version     = "SE"
+description = "MIA Laboratories Musiqual RED Special Edition, a tube-character EQ and harmonic enhancer."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://mialaboratories.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mialaboratories.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mialaboratories.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

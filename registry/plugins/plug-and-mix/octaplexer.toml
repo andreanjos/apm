@@ -1,0 +1,25 @@
+slug        = "octaplexer"
+name        = "Octaplexer"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Frequency shifter plugin delivering octave shifting, ring modulation, and pitch transposition effects."
+category    = "effects"
+subcategory = "frequency shifter"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p1154-Octaplexer/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p1154-Octaplexer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p1154-Octaplexer/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

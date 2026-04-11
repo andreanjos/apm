@@ -1,0 +1,25 @@
+slug        = "modern-harpejji"
+name        = "Modern Harpejji"
+vendor      = "Impact Soundworks"
+version     = "1.0.0"
+description = "Authorized Kontakt recreation of the Harpejji K24, a 24-string hybrid instrument combining guitar, bass, and keyboard."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://impactsoundworks.com/product/modern-harpejji/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://impactsoundworks.com/product/modern-harpejji/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://impactsoundworks.com/product/modern-harpejji/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "borsta"
+name        = "Borsta"
+vendor      = "Klevgrand"
+version     = "1.1"
+description = "A brush and stroke percussion instrument with a natural-sounding engine for endless rhythmic phrases."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://klevgrand.com/products/borsta"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/8819-Borsta?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://klevgrand.com/products/borsta"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://klevgrand.com/products/borsta"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

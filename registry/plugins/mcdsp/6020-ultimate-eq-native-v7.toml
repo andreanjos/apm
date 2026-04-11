@@ -1,0 +1,25 @@
+slug        = "6020-ultimate-eq-native-v7"
+name        = "6020 Ultimate EQ Native v7"
+vendor      = "McDSP"
+version     = "7.0"
+description = "Native v7 version of McDSP's 6020 Ultimate EQ advanced parametric equalizer."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://mcdsp.com/plugin-index/6020/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://mcdsp.com/plugin-index/6020/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://mcdsp.com/plugin-index/6020/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

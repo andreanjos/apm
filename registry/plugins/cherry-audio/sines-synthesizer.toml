@@ -1,0 +1,26 @@
+slug        = "sines-synthesizer"
+name        = "Sines Synthesizer"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Original polyphonic synthesizer built on four sine-wave oscillators with six waveshaping methods each."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/sines"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/9727-Sines-Synthesizer?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/sines"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/sines"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

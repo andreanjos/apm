@@ -1,0 +1,26 @@
+slug        = "foundations-emotive-choir"
+name        = "FOUNDATIONS Emotive Choir"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Free cinematic choir with evolving vowels, textures, and sound design tools for film and media composers."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/emotive-choir"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/10130-FOUNDATIONS-Emotive-Choir?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/emotive-choir"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/emotive-choir"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "satellite"
+name        = "Satellite"
+vendor      = "AudioThing"
+version     = "1.0"
+description = "Kontakt instrument sampling the rare 1970s Moog Satellite monophonic preset synthesizer with all 13 presets."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/instruments/satellite/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/instruments/satellite/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/instruments/satellite/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

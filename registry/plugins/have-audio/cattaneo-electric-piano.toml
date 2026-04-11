@@ -1,0 +1,26 @@
+slug        = "cattaneo-electric-piano"
+name        = "Cattaneo Electric Piano"
+vendor      = "Have Audio"
+version     = "1.0.0"
+description = "Unique Kontakt electric piano instrument capturing warm vintage electric piano character."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://haveaudio.com/products/cattaneo-electric-piano"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/11304-Cattaneo-Electric-Piano?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://haveaudio.com/products/cattaneo-electric-piano"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://haveaudio.com/products/cattaneo-electric-piano"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

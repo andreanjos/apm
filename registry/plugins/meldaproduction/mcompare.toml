@@ -1,0 +1,26 @@
+slug        = "mcompare"
+name        = "MCompare"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "The ultimate A/B comparison tool for mixing and mastering with automatic loudness-matched referencing."
+category    = "utility"
+subcategory = "referencing tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MCompare"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/95-Referencing-Tools/1325-MCompare?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MCompare"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MCompare"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

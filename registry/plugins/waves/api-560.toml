@@ -1,0 +1,26 @@
+slug        = "api-560"
+name        = "API 560"
+vendor      = "Waves"
+version     = "14.0"
+description = "Plugin model of the API 560 graphic equalizer with 10 bands of classic API tone shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/api-560"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/api-560"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/api-560"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

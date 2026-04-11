@@ -1,0 +1,25 @@
+slug        = "aas-modeling-collection"
+name        = "AAS Modeling Collection"
+vendor      = "Applied Acoustics Systems"
+version     = "1.0.0"
+description = "AAS bundle of all their physically modeled instruments including Ultra Analog, Chromaphone, and more."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.applied-acoustics.com/modeling-collection/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.applied-acoustics.com/modeling-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.applied-acoustics.com/modeling-collection/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

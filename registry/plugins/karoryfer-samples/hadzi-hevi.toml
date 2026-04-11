@@ -1,0 +1,25 @@
+slug        = "hadzi-hevi"
+name        = "Hadzi-Hevi"
+vendor      = "Karoryfer Samples"
+version     = "1.0.0"
+description = "Solo female vocal sample library recorded in Ghana with true legato for all Ewe vowels and syllables."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://shop.karoryfer.com/products/hadzi-hevi"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://shop.karoryfer.com/products/hadzi-hevi"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://shop.karoryfer.com/products/hadzi-hevi"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

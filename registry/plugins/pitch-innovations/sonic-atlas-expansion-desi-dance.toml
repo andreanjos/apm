@@ -1,0 +1,26 @@
+slug        = "sonic-atlas-expansion-desi-dance"
+name        = "Sonic Atlas Expansion Desi Dance"
+vendor      = "Pitch Innovations"
+version     = "1.0.0"
+description = "Sonic Atlas expansion fusing Indian soul with modern electronic rhythms."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pitchinnovations.com/products/sonic-atlas"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/16263-Sonic-Atlas-Expansion-Desi-Dance?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pitchinnovations.com/products/sonic-atlas"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pitchinnovations.com/products/sonic-atlas"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

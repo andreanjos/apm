@@ -1,0 +1,26 @@
+slug        = "largo-2"
+name        = "Largo 2"
+vendor      = "Waldorf"
+version     = "2.0"
+description = "Wavetable synthesizer plugin inspired by the Waldorf Blofeld with a continuously scalable modern UI."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://waldorfmusic.com/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/12433-Largo-2-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://waldorfmusic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://waldorfmusic.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

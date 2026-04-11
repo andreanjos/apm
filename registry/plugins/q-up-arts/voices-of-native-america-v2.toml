@@ -1,0 +1,25 @@
+slug        = "voices-of-native-america-v2"
+name        = "Voices of Native America V2"
+vendor      = "Q Up Arts"
+version     = "2"
+description = "Volume 2 of the authentic Native American sound library with additional indigenous drums, flutes, and vocals."
+category    = "instruments"
+subcategory = "ethnic"
+license     = "commercial"
+tags        = []
+homepage    = "https://quparts.com/collections/world"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://quparts.com/collections/world"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://quparts.com/collections/world"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

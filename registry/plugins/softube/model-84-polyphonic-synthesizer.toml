@@ -1,0 +1,26 @@
+slug        = "model-84-polyphonic-synthesizer"
+name        = "Model 84 Polyphonic Synthesizer"
+vendor      = "Softube"
+version     = "2.6"
+description = "Polyphonic synthesizer plugin inspired by classic 1980s analog polysynth architecture."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/synthesizers/model-84-polyphonic-synthesizer"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/synthesizers/model-84-polyphonic-synthesizer"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/synthesizers/model-84-polyphonic-synthesizer"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

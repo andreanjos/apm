@@ -1,0 +1,25 @@
+slug        = "ostinato-noir"
+name        = "Ostinato Noir"
+vendor      = "Sonokinetic"
+version     = "1.0.0"
+description = "Noir-styled perpetual orchestra Kontakt library blending strings, woodwinds, and brass."
+category    = "instruments"
+subcategory = "kontakt player"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.sonokinetic.net/products/instruments/ostinato-noir/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.sonokinetic.net/products/instruments/ostinato-noir/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.sonokinetic.net/products/instruments/ostinato-noir/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

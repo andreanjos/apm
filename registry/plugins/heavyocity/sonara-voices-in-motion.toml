@@ -1,0 +1,26 @@
+slug        = "sonara-voices-in-motion"
+name        = "Sonara Voices in Motion"
+vendor      = "Heavyocity"
+version     = "1.0.0"
+description = "Modern vocal instrument with 2,060+ sources, 1,060+ presets, and 8GB of melodic phrases and multisampled pedals."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://heavyocity.com/products/sonara"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/13584-Sonara-Voices-in-Motion?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://heavyocity.com/products/sonara"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://heavyocity.com/products/sonara"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

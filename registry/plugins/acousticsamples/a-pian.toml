@@ -1,0 +1,25 @@
+slug        = "a-pian"
+name        = "A-Pian"
+vendor      = "Acousticsamples"
+version     = "1.0.0"
+description = "Sample-based recreation of a 1960 Gaveau 'crapaud' petite grand piano with a bright, inharmonic character."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.acousticsamples.net/a-pian"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.acousticsamples.net/a-pian"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.acousticsamples.net/a-pian"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

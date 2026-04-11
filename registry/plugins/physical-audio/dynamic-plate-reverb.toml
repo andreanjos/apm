@@ -1,0 +1,24 @@
+slug        = "dynamic-plate-reverb"
+name        = "Dynamic Plate Reverb"
+vendor      = "Physical Audio"
+version     = "1.0.0"
+description = "Lush plate reverb with dynamic response for smooth depth and spaciousness on any source."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://physicalaudio.co.uk/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://physicalaudio.co.uk/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://physicalaudio.co.uk/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

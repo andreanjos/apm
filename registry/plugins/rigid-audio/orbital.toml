@@ -1,0 +1,25 @@
+slug        = "orbital"
+name        = "Orbital"
+vendor      = "Rigid Audio"
+version     = "1.0.0"
+description = "Spacey electronic Kontakt instrument with 70 atmospheric pad sounds and Triquencer sequencer."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rigid-audio.com/product/orbital/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rigid-audio.com/product/orbital/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rigid-audio.com/product/orbital/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

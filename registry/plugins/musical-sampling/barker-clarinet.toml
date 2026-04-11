@@ -1,0 +1,25 @@
+slug        = "barker-clarinet"
+name        = "Barker Clarinet"
+vendor      = "Musical Sampling"
+version     = "1.0"
+description = "Expressive solo clarinet Kontakt instrument performed by Joshua Barker with three performance styles."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://musicalsampling.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://musicalsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://musicalsampling.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

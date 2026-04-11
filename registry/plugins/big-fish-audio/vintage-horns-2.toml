@@ -1,0 +1,26 @@
+slug        = "vintage-horns-2"
+name        = "Vintage Horns 2"
+vendor      = "Big Fish Audio"
+version     = "1.0.0"
+description = "Big Fish Audio Kontakt Vol 2 horn section library recreating classic R&B and Soul brass sounds."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bigfishaudio.com/Vintage-Horns-2"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/3699-Vintage-Horns-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bigfishaudio.com/Vintage-Horns-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bigfishaudio.com/Vintage-Horns-2"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "titanium-euphone"
+name        = "Titanium Euphone"
+vendor      = "Spitfire Audio"
+version     = "1.0"
+description = "World's first sampled titanium euphone delivering unique bell-like resonances from glass rods and metal resonators."
+category    = "instruments"
+subcategory = "brass"
+license     = "commercial"
+tags        = []
+installer   = "spitfire-audio"
+homepage    = "https://www.spitfireaudio.com/shop/a-z/titanium-euphone"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.spitfireaudio.com/shop/a-z/titanium-euphone"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.spitfireaudio.com/shop/a-z/titanium-euphone"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

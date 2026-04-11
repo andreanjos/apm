@@ -1,0 +1,26 @@
+slug        = "ssl-native-x-valvecomp"
+name        = "SSL Native X ValveComp"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "SSL Native valve-style compressor plugin emulating the warmth and character of classic tube compression."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-valvecomp"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/8673-SSL-Native-X-ValveComp?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-valvecomp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-native-x-valvecomp"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "shapeshifter"
+name        = "ShapeShifter"
+vendor      = "Aberrant DSP"
+version     = "1.0.0"
+description = "Character compressor and dynamics remodeler using multi-band upward and downward compression."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://aberrantdsp.com/plugins/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/7021-ShapeShifter?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://aberrantdsp.com/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://aberrantdsp.com/plugins/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "iron-throne"
+name        = "Iron Throne"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Epic cinematic Kontakt instrument with powerful, regal tones suited for film and game scoring."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/iron-throne"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/7053-Iron-Throne?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/iron-throne"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/iron-throne"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

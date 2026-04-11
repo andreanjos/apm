@@ -1,0 +1,25 @@
+slug        = "virtual-bassist-rowdy-2-upgrade"
+name        = "Virtual Bassist Rowdy 2 Upgrade"
+vendor      = "UJAM"
+version     = "2.0"
+description = "Upgrade license for Virtual Bassist ROWDY 2 rough rock bass plugin from version 1."
+category    = "instruments"
+subcategory = "bass"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.ujam.com/bassist/rowdy/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.ujam.com/bassist/rowdy/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.ujam.com/bassist/rowdy/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

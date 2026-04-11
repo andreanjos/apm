@@ -1,0 +1,25 @@
+slug        = "darwin-chamber"
+name        = "Darwin Chamber"
+vendor      = "Zero-G"
+version     = "1.0"
+description = "Sample library featuring clean 303, 808, and 909 loops with FX, sweeps, drums, and instrument sounds."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://zero-g.co.uk/products/darwin-chamber"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://zero-g.co.uk/products/darwin-chamber"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://zero-g.co.uk/products/darwin-chamber"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

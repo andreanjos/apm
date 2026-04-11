@@ -1,0 +1,25 @@
+slug        = "iron-pack-7-soprano-voice"
+name        = "Iron Pack 7 – Soprano Voice"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Iron Pack Vol.7 — a solo soprano voice Kontakt library with expressive lyrical articulations."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/iron-pack-7-soprano-voice"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/iron-pack-7-soprano-voice"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/iron-pack-7-soprano-voice"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

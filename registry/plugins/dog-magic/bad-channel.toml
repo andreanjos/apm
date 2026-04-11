@@ -1,0 +1,24 @@
+slug        = "bad-channel"
+name        = "Bad Channel"
+vendor      = "Dog Magic"
+version     = "1.0.0"
+description = "Multi-FX channel strip with distortion, modulation, comb filter, tape delay, and brick wall limiter."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://dogmagic.net/bad-channel/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://dogmagic.net/bad-channel/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://dogmagic.net/bad-channel/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

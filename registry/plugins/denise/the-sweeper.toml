@@ -1,0 +1,24 @@
+slug        = "the-sweeper"
+name        = "The Sweeper"
+vendor      = "denise"
+version     = "1.0.0"
+description = "Dynamic filter plugin that sweeps frequencies to add constant motion and life."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.deniseaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.deniseaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.deniseaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

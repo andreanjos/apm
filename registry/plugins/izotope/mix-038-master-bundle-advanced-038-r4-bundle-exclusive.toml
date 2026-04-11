@@ -1,0 +1,26 @@
+slug        = "mix-038-master-bundle-advanced-038-r4-bundle-exclusive"
+name        = "Mix &#038; Master Bundle Advanced &#038; R4 Bundle (Exclusive)"
+vendor      = "iZotope"
+version     = "1.0.0"
+description = "Exclusive bundle combining iZotope Mix & Master Bundle Advanced with Exponential Audio R4 reverb."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "izotope-product-portal"
+homepage    = "https://www.izotope.com/en/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.izotope.com/en/products"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

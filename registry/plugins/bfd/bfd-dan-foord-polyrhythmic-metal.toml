@@ -1,0 +1,26 @@
+slug        = "bfd-dan-foord-polyrhythmic-metal"
+name        = "BFD Dan Foord Polyrhythmic Metal"
+vendor      = "BFD"
+version     = "1.0"
+description = "BFD3 groove pack with 500+ polyrhythmic metal patterns performed by Dan Foord of Sikth."
+category    = "instruments"
+subcategory = "expansion packs"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bfddrums.com/bfd3-expansions/dan-foord-polyrhythmic-metal/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/70-Expansion-Packs/2727-BFD-Dan-Foord-Polyrhythmic-Metal?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bfddrums.com/bfd3-expansions/dan-foord-polyrhythmic-metal/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bfddrums.com/bfd3-expansions/dan-foord-polyrhythmic-metal/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

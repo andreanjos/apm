@@ -1,0 +1,25 @@
+slug        = "vertigo-sound-vsm-3-mix-satellite"
+name        = "Vertigo Sound VSM-3 Mix Satellite"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Vertigo Sound VSM-3 harmonic mix satellite for analog color on every channel."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/distortion/vertigo-sound-vsm-3.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/distortion/vertigo-sound-vsm-3.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/distortion/vertigo-sound-vsm-3.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

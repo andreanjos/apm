@@ -1,0 +1,26 @@
+slug        = "hawk-phaser"
+name        = "Hawk Phaser"
+vendor      = "Safari Audio"
+version     = "1.0.0"
+description = "Vintage modulator phaser plugin with classic phase-shifting character."
+category    = "effects"
+subcategory = "phaser"
+license     = "commercial"
+tags        = []
+homepage    = "https://safariaudio.com/products/hawk-phaser"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/29-Phaser/15358-Hawk-Phaser?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://safariaudio.com/products/hawk-phaser"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://safariaudio.com/products/hawk-phaser"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

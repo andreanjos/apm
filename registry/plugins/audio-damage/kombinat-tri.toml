@@ -1,0 +1,26 @@
+slug        = "kombinat-tri"
+name        = "Kombinat Tri"
+vendor      = "Audio Damage"
+version     = "1.0.0"
+description = "Triple-engine multi-band distortion plugin combining three different distortion algorithms."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiodamage.com/products/ad037-kombinat-tri"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/4644-Kombinat-Tri?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiodamage.com/products/ad037-kombinat-tri"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiodamage.com/products/ad037-kombinat-tri"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

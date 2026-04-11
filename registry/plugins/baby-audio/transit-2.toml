@@ -1,0 +1,26 @@
+slug        = "transit-2"
+name        = "Transit 2"
+vendor      = "Baby Audio"
+version     = "2.2"
+description = "Motion multi-effect transition designer with 6 motion modes, 28 effect modules, and 968 presets."
+category    = "effects"
+subcategory = "multi effect"
+license     = "commercial"
+tags        = []
+homepage    = "https://babyaud.io/transit"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/53-Multi-Effect-/13431-Transit-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://babyaud.io/transit"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://babyaud.io/transit"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

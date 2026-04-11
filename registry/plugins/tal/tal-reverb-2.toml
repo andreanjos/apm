@@ -1,0 +1,26 @@
+slug        = "tal-reverb-2"
+name        = "TAL Reverb 2"
+vendor      = "TAL"
+version     = "2.3.0"
+description = "Super diffuse and lush reverb with a fast build-up time, ideal for ambient reverb sounds."
+category    = "effects"
+subcategory = "reverb"
+license     = "commercial"
+tags        = []
+homepage    = "https://tal-software.com/products/tal-reverb"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/17-Reverb/431-TAL-Reverb-2?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://tal-software.com/products/tal-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://tal-software.com/products/tal-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

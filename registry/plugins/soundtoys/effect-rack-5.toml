@@ -1,0 +1,25 @@
+slug        = "effect-rack-5"
+name        = "Effect Rack 5"
+vendor      = "Soundtoys"
+version     = "5.5"
+description = "Creative multi-effects rack featuring 14 essential Soundtoys effects in one integrated plugin."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundtoys.com/product/soundtoys-5/"
+bundle_ids  = ["com.soundtoys.audiounit.EffectRack"]
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundtoys.com/product/soundtoys-5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundtoys.com/product/soundtoys-5/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "jun-6-v"
+name        = "Jun-6 V"
+vendor      = "Arturia"
+version     = "1.5.0"
+description = "Virtual emulation of the classic Roland Juno-6 DCO-based analog polysynth."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-instruments/jun-6-v/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-instruments/jun-6-v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-instruments/jun-6-v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

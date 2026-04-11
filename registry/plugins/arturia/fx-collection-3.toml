@@ -1,0 +1,26 @@
+slug        = "fx-collection-3"
+name        = "FX Collection 3"
+vendor      = "Arturia"
+version     = "3.0.0"
+description = "Third edition bundle of Arturia's classic hardware-emulated studio effects processors."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-effects/fx-collection/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-effects/fx-collection/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-effects/fx-collection/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

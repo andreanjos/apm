@@ -1,0 +1,26 @@
+slug        = "plugin-boutique-serum-presets-bundle"
+name        = "Plugin Boutique Serum Presets Bundle"
+vendor      = "2321"
+version     = "1.0.0"
+description = "Bundle of 12 preset packs for Xfer Serum covering 1000+ patches across diverse genres."
+category    = "instruments"
+subcategory = "synth presets"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/9747-Plugin-Boutique-Serum-Presets-Bundle"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/9747-Plugin-Boutique-Serum-Presets-Bundle?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/9747-Plugin-Boutique-Serum-Presets-Bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.pluginboutique.com/product/1-Instruments/31-Synth-Presets/9747-Plugin-Boutique-Serum-Presets-Bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

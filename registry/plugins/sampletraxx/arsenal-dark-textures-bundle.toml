@@ -1,0 +1,25 @@
+slug        = "arsenal-dark-textures-bundle"
+name        = "Arsenal & Dark Textures Bundle"
+vendor      = "Sampletraxx"
+version     = "1.0.0"
+description = "Cinematic Kontakt bundle with 180+ instruments, 18 sound packs, and 700+ dark textures and drones."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://sampletraxx.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://sampletraxx.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://sampletraxx.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

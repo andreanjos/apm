@@ -1,0 +1,26 @@
+slug        = "jack-joseph-puig-signature-series"
+name        = "Jack Joseph Puig Signature Series"
+vendor      = "Waves"
+version     = "14.0"
+description = "Bundle of signature plugins modeled on Jack Joseph Puig's personal hardware collection."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/jack-joseph-puig-signature-series"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/jack-joseph-puig-signature-series"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/jack-joseph-puig-signature-series"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "vpre-376-vintage-preamp"
+name        = "VPRE 376 Vintage Preamp"
+vendor      = "Fuse Audio Labs"
+version     = "2.7"
+description = "Vintage preamp plugin emulating the tone and saturation of a classic American recording console."
+category    = "effects"
+subcategory = "preamp"
+license     = "commercial"
+tags        = []
+homepage    = "https://fuseaudiolabs.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/74-Preamp/13640-VPRE-376-Vintage-Preamp?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://fuseaudiolabs.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://fuseaudiolabs.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

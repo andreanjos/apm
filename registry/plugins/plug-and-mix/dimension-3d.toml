@@ -1,0 +1,24 @@
+slug        = "dimension-3d"
+name        = "Dimension 3D"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Stereo widening and 3D spatial enhancement plugin for adding depth and width to any audio."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p872-Dimension-3D/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p872-Dimension-3D/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p872-Dimension-3D/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

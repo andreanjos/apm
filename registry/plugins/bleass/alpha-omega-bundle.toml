@@ -1,0 +1,25 @@
+slug        = "alpha-omega-bundle"
+name        = "Alpha + Omega Bundle"
+vendor      = "BLEASS"
+version     = "1.0"
+description = "Bundle combining BLEASS Alpha virtual analog synth and BLEASS Omega FM synthesizer."
+category    = "instruments"
+subcategory = "bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.bleass.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.bleass.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.bleass.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "thrillme"
+name        = "ThrillMe"
+vendor      = "DiscoDSP"
+version     = "3.1"
+description = "Four-band multiband compressor with internal 16x oversampling and adaptive crossover filtering."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.discodsp.com/thrillme/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.discodsp.com/thrillme/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.discodsp.com/thrillme/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

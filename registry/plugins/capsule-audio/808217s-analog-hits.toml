@@ -1,0 +1,25 @@
+slug        = "808217s-analog-hits"
+name        = "80&#8217;s Analog Hits"
+vendor      = "Capsule Audio"
+version     = "1.0.0"
+description = "Capsule instrument library capturing iconic 80s analog keyboard and synthesizer sounds."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.capsule.audio/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.capsule.audio/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

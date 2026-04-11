@@ -1,0 +1,25 @@
+slug        = "zion"
+name        = "Zion"
+vendor      = "Rewired Records"
+version     = "1.0"
+description = "Rewired Records Zion is a VST rompler with 300+ EDM, trance, and rave sounds plus drum kits."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.rewiredrecords.co.uk/products/zion-vst"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.rewiredrecords.co.uk/products/zion-vst"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.rewiredrecords.co.uk/products/zion-vst"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

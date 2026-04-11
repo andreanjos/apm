@@ -1,0 +1,26 @@
+slug        = "opsix-native"
+name        = "opsix native"
+vendor      = "KORG"
+version     = "1.0.0"
+description = "Altered FM synthesizer plugin combining 6-operator FM, subtractive, analog modeling, and additive synthesis."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.korg.com/us/products/software/opsix_native/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11219-opsix-native?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.korg.com/us/products/software/opsix_native/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.korg.com/us/products/software/opsix_native/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

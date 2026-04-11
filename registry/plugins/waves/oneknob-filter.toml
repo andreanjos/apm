@@ -1,0 +1,26 @@
+slug        = "oneknob-filter"
+name        = "OneKnob Filter"
+vendor      = "Waves"
+version     = "14.0"
+description = "Single-knob DJ-style filter sweeping from low to high pass for creative mixing."
+category    = "effects"
+subcategory = "filter"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/oneknob-filter"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/oneknob-filter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/oneknob-filter"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

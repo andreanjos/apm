@@ -1,0 +1,25 @@
+slug        = "ample-guitar-vc"
+name        = "Ample Guitar VC"
+vendor      = "Ample Sound"
+version     = "4"
+description = "Electric guitar virtual instrument based on a Vintage Cherry guitar for warm classic electric tones."
+category    = "instruments"
+subcategory = "guitar"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.amplesound.net/en/pro-pd.asp?id=34"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=34"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.amplesound.net/en/pro-pd.asp?id=34"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

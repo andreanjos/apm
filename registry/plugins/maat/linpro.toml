@@ -1,0 +1,26 @@
+slug        = "linpro"
+name        = "LINpro"
+vendor      = "MAAT"
+version     = "1.0.0"
+description = "Professional stereo/mono re-dithering plugin for precision wordlength reduction to 8–24-bit."
+category    = "utility"
+subcategory = "utility"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.maat.digital/linpro/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/72-Utility/6947-LINpro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.maat.digital/linpro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.maat.digital/linpro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,24 @@
+slug        = "need-preamps"
+name        = "NEED Preamps"
+vendor      = "NoiseAsh"
+version     = "1.0.0"
+description = "Set of British-style Class-A preamp plugins modeled on classic Neve console input modules."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://noiseash.com/need-preamps/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://noiseash.com/need-preamps/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://noiseash.com/need-preamps/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

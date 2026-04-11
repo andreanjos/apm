@@ -1,0 +1,26 @@
+slug        = "e-lux"
+name        = "E LUX"
+vendor      = "Tone Empire"
+version     = "1.0.0"
+description = "Luxury electro-optical compressor plugin with tube emulation, NM2 models, and Ultra-X mode."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.tone-empire.com/elux/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/8-Compressor/14553-E-LUX?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.tone-empire.com/elux/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.tone-empire.com/elux/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

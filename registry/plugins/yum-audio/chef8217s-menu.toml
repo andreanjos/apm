@@ -1,0 +1,25 @@
+slug        = "chef8217s-menu"
+name        = "Chef&#8217;s Menu"
+vendor      = "Yum Audio"
+version     = "1.0.0"
+description = "Yum Audio mid-tier bundle with 10 lo-fi and stereo effect plugins for creative audio processing."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.yum-audio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.yum-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.yum-audio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

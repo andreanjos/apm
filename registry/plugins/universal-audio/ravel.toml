@@ -1,0 +1,26 @@
+slug        = "ravel"
+name        = "Ravel"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "UA's Ravel is a sampled grand piano virtual instrument for LUNA Recording System."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/instruments/ravel-grand-piano.html"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/instruments/ravel-grand-piano.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/instruments/ravel-grand-piano.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

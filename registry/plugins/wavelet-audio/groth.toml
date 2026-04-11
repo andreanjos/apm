@@ -1,0 +1,26 @@
+slug        = "groth"
+name        = "GROTH"
+vendor      = "Wavelet Audio"
+version     = "1.0.0"
+description = "Dark ages and mythology-inspired Kontakt instrument library with Viking folk and cinematic sounds."
+category    = "instruments"
+subcategory = "kontakt instrument"
+license     = "commercial"
+tags        = []
+homepage    = "https://wavelet-audio.com/groth/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/55-Kontakt-Instrument/8084-GROTH?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://wavelet-audio.com/groth/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://wavelet-audio.com/groth/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

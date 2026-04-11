@@ -1,0 +1,27 @@
+slug        = "moog-minimoog"
+name        = "Moog Minimoog"
+vendor      = "Universal Audio"
+version     = "11.0"
+description = "Emulation of the Moog Minimoog Model D, the definitive monophonic analog synthesizer."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+installer   = "ua-connect"
+homepage    = "https://www.uaudio.com/uad-plugins/instruments/moog-minimoog.html"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/10188-Moog-Minimoog?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.uaudio.com/uad-plugins/instruments/moog-minimoog.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.uaudio.com/uad-plugins/instruments/moog-minimoog.html"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

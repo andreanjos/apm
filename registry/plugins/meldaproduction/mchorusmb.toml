@@ -1,0 +1,26 @@
+slug        = "mchorusmb"
+name        = "MChorusMB"
+vendor      = "MeldaProduction"
+version     = "17.07"
+description = "Versatile chorus effect with up to 10 voices, 6 frequency bands, and studio-quality sound."
+category    = "effects"
+subcategory = "chorus"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.meldaproduction.com/MChorusMB"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/11-Chorus/81-MChorusMB?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.meldaproduction.com/MChorusMB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.meldaproduction.com/MChorusMB"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

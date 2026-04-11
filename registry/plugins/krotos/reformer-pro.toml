@@ -1,0 +1,26 @@
+slug        = "reformer-pro"
+name        = "Reformer Pro"
+vendor      = "Krotos"
+version     = "1.5"
+description = "Krotos Reformer Pro reshapes audio libraries in real time using layered sound replacement."
+category    = "utility"
+subcategory = "audio editor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.krotosaudio.com/reformer-pro/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/48-Audio-Editor/5367-Reformer-Pro?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.krotosaudio.com/reformer-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.krotosaudio.com/reformer-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

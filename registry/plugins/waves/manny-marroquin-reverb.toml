@@ -1,0 +1,25 @@
+slug        = "manny-marroquin-reverb"
+name        = "Manny Marroquin Reverb"
+vendor      = "Waves"
+version     = "14.0"
+description = "Signature reverb plugin delivering Manny Marroquin's lush, warm reverb character."
+category    = "effects"
+license     = "commercial"
+tags        = []
+installer   = "waves-central"
+homepage    = "https://www.waves.com/plugins/manny-marroquin-reverb"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.waves.com/plugins/manny-marroquin-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.waves.com/plugins/manny-marroquin-reverb"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

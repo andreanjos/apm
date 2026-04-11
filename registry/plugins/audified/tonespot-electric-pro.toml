@@ -1,0 +1,24 @@
+slug        = "tonespot-electric-pro"
+name        = "ToneSpot Electric Pro"
+vendor      = "Audified"
+version     = "1.0.0"
+description = "Professional electric guitar mixing plugin with voicing module, extensive effects, and texture control."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/tonespot-electric-pro/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/tonespot-electric-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/tonespot-electric-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "ls-rotator"
+name        = "Ls Rotator"
+vendor      = "Plug & Mix"
+version     = "4.1.0"
+description = "Rotary speaker simulator plugin emulating the swirling, Doppler-effect tone of a Leslie cabinet."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.plugandmix.com/products/p1151-Ls-Rotator/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.plugandmix.com/products/p1151-Ls-Rotator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.plugandmix.com/products/p1151-Ls-Rotator/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

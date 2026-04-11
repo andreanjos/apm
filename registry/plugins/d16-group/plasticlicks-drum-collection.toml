@@ -1,0 +1,25 @@
+slug        = "plasticlicks-drum-collection"
+name        = "Plasticlicks Drum Collection"
+vendor      = "D16 Group"
+version     = "1.0.0"
+description = "Curated sample library of plastic and electronic drum sounds for modern electronic music production."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://d16.pl/products"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://d16.pl/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://d16.pl/products"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

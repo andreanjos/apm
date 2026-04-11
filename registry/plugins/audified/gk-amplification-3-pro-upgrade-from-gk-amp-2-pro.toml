@@ -1,0 +1,25 @@
+slug        = "gk-amplification-3-pro-upgrade-from-gk-amp-2-pro"
+name        = "GK Amplification 3 Pro Upgrade from GK Amp 2 Pro"
+vendor      = "Audified"
+version     = "3.1.5"
+description = "Upgrade to GK Amplification 3 Pro from version 2 Pro, adding new amps, cabs, mics, and tone tools."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/gk-amplification-3-pro/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/gk-amplification-3-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/gk-amplification-3-pro/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

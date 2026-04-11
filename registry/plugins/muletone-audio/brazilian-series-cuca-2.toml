@@ -1,0 +1,25 @@
+slug        = "brazilian-series-cuca-2"
+name        = "Brazilian Series: Cuíca 2"
+vendor      = "Muletone Audio"
+version     = "2.4"
+description = "Kontakt library of the Cuíca 2 Brazilian friction drum with varied rhythms recorded by Robson Batata."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.muletoneaudio.com/cuica2/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.muletoneaudio.com/cuica2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.muletoneaudio.com/cuica2/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

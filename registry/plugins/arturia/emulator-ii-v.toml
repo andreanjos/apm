@@ -1,0 +1,26 @@
+slug        = "emulator-ii-v"
+name        = "Emulator II V"
+vendor      = "Arturia"
+version     = "1.5.0"
+description = "Virtual emulation of the classic E-mu Emulator II 8-bit sampler with authentic lo-fi character."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+installer   = "arturia-software-center"
+homepage    = "https://www.arturia.com/products/software-instruments/emulator-ii-v/overview"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.arturia.com/products/software-instruments/emulator-ii-v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.arturia.com/products/software-instruments/emulator-ii-v/overview"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

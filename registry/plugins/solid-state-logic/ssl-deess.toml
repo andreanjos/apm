@@ -1,0 +1,26 @@
+slug        = "ssl-deess"
+name        = "SSL DeEss"
+vendor      = "Solid State Logic"
+version     = "1.0.0"
+description = "SSL de-esser plugin for precisely removing harsh sibilance from vocals and other recordings."
+category    = "effects"
+subcategory = "de esser"
+license     = "commercial"
+tags        = []
+homepage    = "https://store.solidstatelogic.com/plug-ins/ssl-deess"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/59-De-Esser/9035-SSL-DeEss?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-deess"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://store.solidstatelogic.com/plug-ins/ssl-deess"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

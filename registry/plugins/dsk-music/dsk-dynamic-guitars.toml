@@ -1,0 +1,26 @@
+slug        = "dsk-dynamic-guitars"
+name        = "DSK Dynamic Guitars"
+vendor      = "DSK Music"
+version     = "1.0.0"
+description = "Free guitar VSTi with acoustic, nylon, and steel guitar types and ADSR control."
+category    = "instruments"
+subcategory = "virtual instruments"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.dskmusic.com/dsk-dynamic-guitars/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/64-Virtual-Instruments/1302-DSK-Dynamic-Guitars?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.dskmusic.com/dsk-dynamic-guitars/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.dskmusic.com/dsk-dynamic-guitars/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

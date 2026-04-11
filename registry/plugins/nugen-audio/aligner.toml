@@ -1,0 +1,26 @@
+slug        = "aligner"
+name        = "Aligner"
+vendor      = "NUGEN Audio"
+version     = "1.0"
+description = "An automatic phase and polarity alignment utility to speed up daily audio engineering workflows."
+category    = "utility"
+subcategory = "sound editor"
+license     = "commercial"
+tags        = []
+homepage    = "https://nugenaudio.com/aligner/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/22-Sound-Editor/10619-Aligner?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://nugenaudio.com/aligner/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://nugenaudio.com/aligner/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

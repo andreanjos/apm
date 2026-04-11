@@ -1,0 +1,25 @@
+slug        = "symphonic-choirs-gold-voices-of-the-apocalypse-bundle"
+name        = "Symphonic Choirs Gold & Voices of the Apocalypse Bundle"
+vendor      = "EastWest"
+version     = "1.0.0"
+description = "EastWest bundle of Symphonic Choirs Gold and Voices of the Apocalypse virtual choir libraries."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.soundsonline.com/vocals/symphonic-choirs"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.soundsonline.com/vocals/symphonic-choirs"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.soundsonline.com/vocals/symphonic-choirs"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

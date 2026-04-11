@@ -1,0 +1,24 @@
+slug        = "impulse-modeler"
+name        = "Impulse Modeler"
+vendor      = "Voxengo"
+version     = "1.0.0"
+description = "Tool for creating custom impulse responses by modeling acoustic spaces through convolution."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.voxengo.com/product/impulsemodeler/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.voxengo.com/product/impulsemodeler/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.voxengo.com/product/impulsemodeler/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

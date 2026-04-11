@@ -1,0 +1,25 @@
+slug        = "octamorph-fe"
+name        = "Octamorph FE"
+vendor      = "Audiority"
+version     = "1.0.0"
+description = "8-layer cross-morphing Kontakt instrument for complex soundscapes, morphing drones, and risers."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiority.com/shop/octamorph-fe/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiority.com/shop/octamorph-fe/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiority.com/shop/octamorph-fe/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

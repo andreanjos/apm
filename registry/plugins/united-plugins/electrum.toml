@@ -1,0 +1,26 @@
+slug        = "electrum"
+name        = "Electrum"
+vendor      = "United Plugins"
+version     = "1.0.0"
+description = "All-in-one guitar amp plugin with 5 amplifiers, 300+ cabinet simulations, and comprehensive effects."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://unitedplugins.com/Electrum/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/18-Amp-Simulator/7746-Electrum?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://unitedplugins.com/Electrum/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://unitedplugins.com/Electrum/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

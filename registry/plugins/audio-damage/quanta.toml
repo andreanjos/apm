@@ -1,0 +1,25 @@
+slug        = "quanta"
+name        = "Quanta"
+vendor      = "Audio Damage"
+version     = "1.0.0"
+description = "Granular synthesizer for transforming any audio into evolving, textural soundscapes."
+category    = "effects"
+subcategory = "granular"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiodamage.com/pages/free-and-legacy"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiodamage.com/pages/free-and-legacy"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiodamage.com/pages/free-and-legacy"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

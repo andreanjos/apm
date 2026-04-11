@@ -1,0 +1,25 @@
+slug        = "v-soprano-choir"
+name        = "V Soprano Choir"
+vendor      = "Bela D Media"
+version     = "1.0.0"
+description = "Female soprano choir Kontakt library with legato scripting for expressive choral performances."
+category    = "instruments"
+subcategory = "kontakt full"
+license     = "commercial"
+tags        = []
+homepage    = "https://beladmedia.com/v-soprano-choir/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://beladmedia.com/v-soprano-choir/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://beladmedia.com/v-soprano-choir/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

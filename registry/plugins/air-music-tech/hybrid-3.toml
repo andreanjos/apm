@@ -1,0 +1,25 @@
+slug        = "hybrid-3"
+name        = "Hybrid 3"
+vendor      = "Air Music Tech"
+version     = "3"
+description = "Hybrid synthesizer combining analog, FM, wavetable, and sample-based synthesis in one plugin."
+category    = "instruments"
+subcategory = "plugin"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/hybrid3"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/hybrid3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/hybrid3"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

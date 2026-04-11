@@ -1,0 +1,25 @@
+slug        = "peridot-le"
+name        = "Peridot LE"
+vendor      = "Audified"
+version     = "1.0.0"
+description = "Entry-level Peridot bass amp emulation plugin with essential amp and cabinet models."
+category    = "effects"
+subcategory = "amp simulator"
+license     = "commercial"
+tags        = []
+homepage    = "https://audified.com/products/peridot-le/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://audified.com/products/peridot-le/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://audified.com/products/peridot-le/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

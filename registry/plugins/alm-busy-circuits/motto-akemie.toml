@@ -1,0 +1,26 @@
+slug        = "motto-akemie"
+name        = "Motto Akemie"
+vendor      = "ALM Busy Circuits"
+version     = "1.0.0"
+description = "6-voice FM drum synthesizer with step sequencer based on the Akemie Taiko Eurorack module."
+category    = "instruments"
+subcategory = "drum machine"
+license     = "commercial"
+tags        = []
+homepage    = "https://busycircuits.com/motto-akemie/"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/7-Drum-Machine/14794-Motto-Akemie?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://busycircuits.com/motto-akemie/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://busycircuits.com/motto-akemie/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

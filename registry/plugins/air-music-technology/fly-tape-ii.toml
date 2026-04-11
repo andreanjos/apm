@@ -1,0 +1,26 @@
+slug        = "fly-tape-ii"
+name        = "Fly Tape II"
+vendor      = "AIR Music Technology"
+version     = "2.0"
+description = "Tape emulation plugin by AIR Music Technology delivering vintage warmth and saturation."
+category    = "effects"
+subcategory = "tape emulation"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.airmusictech.com/product/fly-tape-ii"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/96-Tape-Emulation/15711-Fly-Tape-II?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.airmusictech.com/product/fly-tape-ii"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.airmusictech.com/product/fly-tape-ii"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

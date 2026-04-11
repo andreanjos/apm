@@ -1,0 +1,25 @@
+slug        = "stagecraft-producers-bundle"
+name        = "Stagecraft Producers Bundle"
+vendor      = "Stagecraft"
+version     = "1.0.0"
+description = "Producer-focused bundle of Stagecraft Software's compressor and mixing utility plugins."
+category    = "effects"
+subcategory = "compressor"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.stagecraftsoftware.com/products/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.stagecraftsoftware.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.stagecraftsoftware.com/products/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

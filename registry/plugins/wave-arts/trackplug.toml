@@ -1,0 +1,25 @@
+slug        = "trackplug"
+name        = "TrackPlug"
+vendor      = "Wave Arts"
+version     = "7.0"
+description = "Full-featured channel strip combining 10-band EQ, gate, compressor, transient shaper, and tube saturation."
+category    = "effects"
+subcategory = "channel strip"
+license     = "commercial"
+tags        = []
+homepage    = "https://wavearts.com/products/plugins/trackplug-7"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://wavearts.com/products/plugins/trackplug-7"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://wavearts.com/products/plugins/trackplug-7"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

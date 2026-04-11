@@ -1,0 +1,25 @@
+slug        = "modern-u"
+name        = "Modern U"
+vendor      = "ViLabs"
+version     = "1.0.0"
+description = "Deeply sampled upright piano virtual instrument with an intimate, modern sound character."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.vilabsaudio.com/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.vilabsaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.vilabsaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

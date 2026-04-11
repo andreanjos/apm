@@ -1,0 +1,24 @@
+slug        = "efektor-rv3604-reverb"
+name        = "EFEKTOR RV3604 Reverb"
+vendor      = "Kuassa"
+version     = "1.0.0"
+description = "Guitar reverb plugin with Room, Hall, Plate, Spring, and Shimmer reverb types."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.kuassa.com/products/efektor-rv3604/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.kuassa.com/products/efektor-rv3604/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.kuassa.com/products/efektor-rv3604/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

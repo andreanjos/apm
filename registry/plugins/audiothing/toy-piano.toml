@@ -1,0 +1,25 @@
+slug        = "toy-piano"
+name        = "Toy Piano"
+vendor      = "AudioThing"
+version     = "1.0"
+description = "Kontakt instrument sampling a 2-octave upright toy piano with multiple articulations and ambient pads."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.audiothing.net/instruments/toy-piano/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.audiothing.net/instruments/toy-piano/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.audiothing.net/instruments/toy-piano/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "wavesynth"
+name        = "Wavesynth"
+vendor      = "Karanyi Sounds"
+version     = "1.0"
+description = "Powerful waveshaper Kontakt instrument with 60+ MIDI-learnable parameters and intelligent randomizer."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://karanyisounds.com/product/wavesynth/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://karanyisounds.com/product/wavesynth/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://karanyisounds.com/product/wavesynth/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

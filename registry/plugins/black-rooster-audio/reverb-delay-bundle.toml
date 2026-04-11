@@ -1,0 +1,24 @@
+slug        = "reverb-delay-bundle"
+name        = "Reverb & Delay Bundle"
+vendor      = "Black Rooster Audio"
+version     = "3.0.0"
+description = "Bundle combining the RO-140 plate reverb, RO-SPR spring reverb, and TD-201 tape delay plugins."
+category    = "effects"
+license     = "commercial"
+tags        = []
+homepage    = "https://blackroosteraudio.com/en/products/reverb-delay-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://blackroosteraudio.com/en/products/reverb-delay-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://blackroosteraudio.com/en/products/reverb-delay-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

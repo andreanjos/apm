@@ -1,0 +1,25 @@
+slug        = "ufo-61"
+name        = "UFO 61"
+vendor      = "Soundiron"
+version     = "1.0"
+description = "Retro 61-key space-age keyboard Kontakt instrument with vintage sci-fi electronic character."
+category    = "instruments"
+subcategory = "keys"
+license     = "commercial"
+tags        = []
+homepage    = "https://soundiron.com/products/ufo-61"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://soundiron.com/products/ufo-61"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://soundiron.com/products/ufo-61"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

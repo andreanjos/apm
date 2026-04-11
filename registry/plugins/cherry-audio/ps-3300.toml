@@ -1,0 +1,26 @@
+slug        = "ps-3300"
+name        = "PS 3300"
+vendor      = "Cherry Audio"
+version     = "1.0.0"
+description = "Virtual analog synthesizer emulating the rare 1977 Korg PS-3300 with three independent synth panels."
+category    = "instruments"
+subcategory = "synth"
+license     = "commercial"
+tags        = []
+homepage    = "https://cherryaudio.com/products/ps-3300"
+purchase_url = "https://www.pluginboutique.com/product/1-Instruments/4-Synth/11377-PS-3300?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://cherryaudio.com/products/ps-3300"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://cherryaudio.com/products/ps-3300"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,26 @@
+slug        = "dime-mb"
+name        = "dime mb"
+vendor      = "time off audio"
+version     = "1.0"
+description = "Multiband dynamics processor by time off audio for precise frequency-specific compression."
+category    = "effects"
+subcategory = "dynamics processor"
+license     = "commercial"
+tags        = []
+homepage    = "https://timeoffaudio.com/"
+purchase_url = "https://www.pluginboutique.com/product/2-Effects/71-Dynamics-Processor/16943-dime-mb-?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://timeoffaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://timeoffaudio.com/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

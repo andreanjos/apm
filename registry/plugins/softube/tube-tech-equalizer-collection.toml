@@ -1,0 +1,26 @@
+slug        = "tube-tech-equalizer-collection"
+name        = "Tube-Tech Equalizer Collection"
+vendor      = "Softube"
+version     = "2.6"
+description = "Collection of Tube-Tech EQ plugins modeling the ME 1B, PE 1C, and EQ 1A tube equalizers."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+installer   = "softube-central"
+homepage    = "https://www.softube.com/us/plug-ins/mixing/tube-tech-equalizers-mk-ii"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.softube.com/us/plug-ins/mixing/tube-tech-equalizers-mk-ii"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.softube.com/us/plug-ins/mixing/tube-tech-equalizers-mk-ii"
+sha256       = ""
+install_type = "zip"
+download_type = "managed"
+bundle_path  = ""

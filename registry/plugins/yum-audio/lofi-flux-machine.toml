@@ -1,0 +1,25 @@
+slug        = "lofi-flux-machine"
+name        = "LoFi Flux Machine"
+vendor      = "Yum Audio"
+version     = "1.0.0"
+description = "Analog-modelled tape warble and flutter plugin for adding lo-fi character and pitch instability."
+category    = "effects"
+subcategory = "lo-fi"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.yum-audio.com/LoFi-FluxMachine/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.yum-audio.com/LoFi-FluxMachine/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.yum-audio.com/LoFi-FluxMachine/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

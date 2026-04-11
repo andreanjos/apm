@@ -1,0 +1,26 @@
+slug        = "harvest"
+name        = "Harvest"
+vendor      = "Harvest Plugins"
+version     = "1.0.0"
+description = "MIDI sequence generator combining creative input with randomization for melodies and chord progressions."
+category    = "utility"
+subcategory = "music theory tools"
+license     = "commercial"
+tags        = []
+homepage    = "https://harvestplugins.com/harvest/"
+purchase_url = "https://www.pluginboutique.com/product/3-Studio-Tools/93-Music-Theory-Tools/6500-Harvest?a_aid=69d5e87c5f2e9"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://harvestplugins.com/harvest/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://harvestplugins.com/harvest/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

@@ -1,0 +1,25 @@
+slug        = "equivocate-newfangled-audio"
+name        = "EQuivocate"
+vendor      = "Newfangled Audio"
+version     = "1.0.0"
+description = "Graphic EQ with 26 bands matched to the human auditory system for natural tonal shaping."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://www.newfangledaudio.com/equivocate"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://www.newfangledaudio.com/equivocate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://www.newfangledaudio.com/equivocate"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

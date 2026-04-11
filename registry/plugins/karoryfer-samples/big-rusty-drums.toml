@@ -1,0 +1,25 @@
+slug        = "big-rusty-drums"
+name        = "Big Rusty Drums"
+vendor      = "Karoryfer Samples"
+version     = "1.0.0"
+description = "Sampled drum kit featuring a large collection of rusty, characterful acoustic drum sounds for Sforzando."
+category    = "instruments"
+subcategory = "percussion"
+license     = "commercial"
+tags        = []
+homepage    = "https://shop.karoryfer.com/products/big-rusty-drums"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://shop.karoryfer.com/products/big-rusty-drums"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://shop.karoryfer.com/products/big-rusty-drums"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

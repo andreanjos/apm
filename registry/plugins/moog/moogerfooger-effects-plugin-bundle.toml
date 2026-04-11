@@ -1,0 +1,25 @@
+slug        = "moogerfooger-effects-plugin-bundle"
+name        = "Moogerfooger Effects Plugin Bundle"
+vendor      = "Moog"
+version     = "1.0.0"
+description = "Complete bundle of all eight Moogerfooger software effects in VST3, AU, and AAX formats."
+category    = "effects"
+subcategory = "fx plugin bundle"
+license     = "commercial"
+tags        = []
+homepage    = "https://software.moogmusic.com/store/mf-bundle"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://software.moogmusic.com/store/mf-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://software.moogmusic.com/store/mf-bundle"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""

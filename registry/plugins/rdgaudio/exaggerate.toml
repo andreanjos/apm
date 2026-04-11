@@ -1,0 +1,25 @@
+slug        = "exaggerate"
+name        = "Exaggerate"
+vendor      = "RDGAudio"
+version     = "1.0.0"
+description = "AU/VST3 enhancer plugin combining EQ, compression, and saturation to add presence and color."
+category    = "effects"
+subcategory = "eq"
+license     = "commercial"
+tags        = []
+homepage    = "https://rdgaudio.com/product/exaggerate/"
+is_paid     = true
+
+[formats.vst3]
+url          = "https://rdgaudio.com/product/exaggerate/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
+
+[formats.au]
+url          = "https://rdgaudio.com/product/exaggerate/"
+sha256       = ""
+install_type = "zip"
+download_type = "manual"
+bundle_path  = ""
