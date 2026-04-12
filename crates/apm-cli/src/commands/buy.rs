@@ -25,6 +25,19 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
     })?;
 
     if !plugin.is_paid {
+        if !plugin.is_installable_product() {
+            println!(
+                "'{}' is a free {} catalog item, not a standalone install target.",
+                plugin.name, plugin.product_type
+            );
+            println!(
+                "Use {} or {} for details.",
+                format!("apm open {}", plugin.slug).bold(),
+                format!("apm info {}", plugin.slug).bold()
+            );
+            return Ok(());
+        }
+
         println!(
             "'{}' is free — install it directly with: {}",
             plugin.name,
@@ -52,10 +65,18 @@ pub async fn run(config: &Config, name: &str) -> Result<()> {
         .spawn()
         .map_err(|e| anyhow::anyhow!("Failed to open browser: {e}"))?;
 
-    println!(
-        "\nAfter purchasing, install with: {}",
-        format!("apm install {}", plugin.slug).bold()
-    );
+    if plugin.is_installable_product() {
+        println!(
+            "\nAfter purchasing, install with: {}",
+            format!("apm install {}", plugin.slug).bold()
+        );
+    } else {
+        println!(
+            "\nThis is a {} catalog item, not a standalone install target. Use {} for details.",
+            plugin.product_type,
+            format!("apm info {}", plugin.slug).bold()
+        );
+    }
 
     Ok(())
 }

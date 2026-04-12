@@ -419,6 +419,13 @@ async fn process_one(
 }
 
 fn external_install_reason(plugin: &PluginDefinition) -> Option<String> {
+    if !plugin.is_installable_product() {
+        return Some(format!(
+            "{} catalog item; use `apm info {}` or `apm open {}` for details",
+            plugin.product_type, plugin.slug, plugin.slug
+        ));
+    }
+
     let has_managed = plugin
         .formats
         .values()

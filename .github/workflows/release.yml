@@ -34,6 +34,18 @@ jobs:
             ~/.cargo/git
           key: ${{ runner.os }}-cargo-release-${{ hashFiles('**/Cargo.lock') }}
 
+      - name: Validate release version
+        run: |
+          TAG_VERSION=${GITHUB_REF_NAME#v}
+          CARGO_VERSION=$(cargo metadata --no-deps --format-version 1 | python3 -c 'import json,sys; data=json.load(sys.stdin); print(next(p["version"] for p in data["packages"] if any(t["name"] == "apm" and "bin" in t["kind"] for t in p["targets"])))')
+          test "$TAG_VERSION" = "$CARGO_VERSION" || {
+            echo "Tag version v${TAG_VERSION} does not match Cargo version ${CARGO_VERSION}" >&2
+            exit 1
+          }
+
+      - name: Test
+        run: cargo test --locked
+
       - name: Build aarch64
         run: cargo build --release --target aarch64-apple-darwin --bin apm
 

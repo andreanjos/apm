@@ -264,6 +264,16 @@ impl PluginDefinition {
         self.product_type == ProductType::Plugin
     }
 
+    /// True for catalog records that apm can reasonably handle through
+    /// `apm install`: audio plugins plus app-style DAWs/utilities. Other product
+    /// types are searchable/browsable but not direct install targets.
+    pub fn is_installable_product(&self) -> bool {
+        matches!(
+            self.product_type,
+            ProductType::Plugin | ProductType::Daw | ProductType::Utility
+        )
+    }
+
     /// Return the latest release represented by the top-level plugin fields.
     pub fn latest_release(&self) -> PluginRelease {
         PluginRelease {

@@ -287,6 +287,17 @@ async fn run_single(
         }
     })?;
 
+    if !plugin.is_installable_product() {
+        anyhow::bail!(
+            "'{}' is a {} catalog item, not a standalone install target.\n\
+             Hint: Use `apm info {}` or `apm open {}` for details. Use `apm bundles` for curated multi-plugin installs.",
+            plugin.slug,
+            plugin.product_type,
+            plugin.slug,
+            plugin.slug,
+        );
+    }
+
     let selected_release = plugin
         .resolve_release(requested_version)
         .ok_or_else(|| {

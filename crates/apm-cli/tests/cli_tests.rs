@@ -734,6 +734,75 @@ source = "official"
 }
 
 #[test]
+fn test_import_skips_non_installable_catalog_item() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let official_dir = tmp_cache.path().join("apm/registries/official/plugins");
+    std::fs::create_dir_all(&official_dir).expect("create official plugins");
+    std::fs::write(
+        official_dir.join("bundle-import.toml"),
+        r#"
+slug = "bundle-import"
+name = "Bundle Import"
+vendor = "Bundle Vendor"
+version = "1.0.0"
+description = "Bundle catalog item"
+category = "bundles"
+product_type = "bundle"
+license = "commercial"
+homepage = "https://example.com/bundle-import"
+
+[formats.vst3]
+url = "https://example.com/bundle-import.zip"
+sha256 = "manual"
+install_type = "zip"
+"#,
+    )
+    .expect("write bundle plugin");
+
+    let import_file = tmp_data.path().join("import.toml");
+    std::fs::write(
+        &import_file,
+        r#"
+[[plugins]]
+name = "bundle-import"
+version = "1.0.0"
+formats = ["vst3"]
+source = "official"
+"#,
+    )
+    .expect("write import");
+
+    let output = Command::new(apm_bin())
+        .args(["import", import_file.to_str().unwrap()])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(
+        output.status.success(),
+        "non-installable import should skip; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("bundle catalog item"),
+        "import should explain non-installable catalog item, got: {stdout}"
+    );
+    assert!(
+        stdout.contains("0 installed, 1 skipped, 0 failed"),
+        "non-installable import should count as skipped, got: {stdout}"
+    );
+}
+
+#[test]
 fn test_upgrade_dry_run_with_fixture_registry_uses_latest_against_installed_historical_version() {
     let tmp_config = tempfile::tempdir().expect("config dir");
     let tmp_data = tempfile::tempdir().expect("data dir");
@@ -1513,6 +1582,97 @@ download_type = "manual"
     assert!(
         !stdout.contains("(no homepage listed)"),
         "manual install should not expose or open placeholder text, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_install_rejects_non_installable_catalog_item() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+    let plugin_dir = cache.path().join("apm/registries/official/plugins");
+    std::fs::write(
+        plugin_dir.join("subscription-record.toml"),
+        r#"
+slug = "subscription-record"
+name = "Subscription Record"
+vendor = "Catalog Vendor"
+version = "1.0.0"
+description = "Subscription catalog record, not a direct install target"
+category = "effects"
+product_type = "subscription"
+license = "commercial"
+homepage = "https://example.com/subscription"
+
+[formats.vst3]
+url = "https://example.com/subscription"
+sha256 = ""
+install_type = "zip"
+download_type = "managed"
+"#,
+    )
+    .expect("write subscription fixture");
+
+    let output = run_apm_with_env(
+        &["install", "subscription-record", "--dry-run"],
+        &cfg,
+        &data,
+        &cache,
+    );
+
+    assert!(
+        !output.status.success(),
+        "non-installable catalog item should be rejected"
+    );
+
+    let stderr = String::from_utf8_lossy(&output.stderr);
+    assert!(
+        stderr.contains("not a standalone install target"),
+        "install should explain non-installable product type, got: {stderr}"
+    );
+}
+
+#[test]
+fn test_buy_free_non_installable_catalog_item_does_not_suggest_install() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+    let plugin_dir = cache.path().join("apm/registries/official/plugins");
+    std::fs::write(
+        plugin_dir.join("free-bundle-record.toml"),
+        r#"
+slug = "free-bundle-record"
+name = "Free Bundle Record"
+vendor = "Catalog Vendor"
+version = "1.0.0"
+description = "Free bundle catalog record, not a direct install target"
+category = "effects"
+product_type = "bundle"
+license = "freeware"
+homepage = "https://example.com/free-bundle"
+is_paid = false
+
+[formats.vst3]
+url = "https://example.com/free-bundle"
+sha256 = "manual"
+install_type = "zip"
+download_type = "manual"
+"#,
+    )
+    .expect("write free bundle fixture");
+
+    let output = run_apm_with_env(&["buy", "free-bundle-record"], &cfg, &data, &cache);
+
+    assert!(
+        output.status.success(),
+        "buy on free non-installable catalog item should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("not a standalone install target"),
+        "buy should explain catalog item type, got: {stdout}"
+    );
+    assert!(
+        !stdout.contains("install it directly"),
+        "buy should not suggest install for non-installable catalog item, got: {stdout}"
     );
 }
 
