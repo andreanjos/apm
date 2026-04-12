@@ -394,18 +394,31 @@ async fn run_single(
             .any(|(_, src)| src.download_type == DownloadType::Manual);
 
         if is_manual {
-            let homepage = plugin.homepage.as_deref().unwrap_or("(no homepage listed)");
+            let download_page = formats_to_check
+                .iter()
+                .find_map(|(_, src)| {
+                    (!src.url.trim().is_empty() && src.url != "manual").then_some(src.url.as_str())
+                })
+                .or(plugin.homepage.as_deref());
 
             println!("{} requires manual installation.\n", plugin.name.bold());
-            println!("Opening the download page: {}", homepage.cyan());
+            if let Some(url) = download_page {
+                println!("Opening the download page: {}", url.cyan());
+            } else {
+                println!("No download page is listed in the registry for this plugin.");
+            }
             println!(
                 "After installing {}, run {} to track it in apm.",
                 plugin.name.bold(),
                 "apm scan".bold()
             );
 
-            // Try to open the homepage in the default browser (macOS `open`).
-            let _ = std::process::Command::new("open").arg(homepage).spawn();
+            if let Some(url) = download_page {
+                std::process::Command::new("open")
+                    .arg(url)
+                    .spawn()
+                    .map_err(|e| anyhow::anyhow!("Failed to open browser: {e}"))?;
+            }
 
             return Ok(());
         }
@@ -463,10 +476,14 @@ async fn run_single(
                 DownloadType::Managed => "vendor installer required",
             };
             let source = match src.download_type {
-                DownloadType::Manual => plugin
-                    .homepage
-                    .as_deref()
-                    .filter(|homepage| !homepage.is_empty())
+                DownloadType::Manual => (!src.url.trim().is_empty() && src.url != "manual")
+                    .then_some(src.url.as_str())
+                    .or_else(|| {
+                        plugin
+                            .homepage
+                            .as_deref()
+                            .filter(|homepage| !homepage.trim().is_empty())
+                    })
                     .unwrap_or("(no download URL listed)"),
                 _ => src.url.as_str(),
             };
@@ -580,7 +597,6 @@ fn handle_managed_install(
             plugin.name.bold()
         );
         std::process::Command::new("open")
-            .arg("-a")
             .arg(&app_path)
             .spawn()
             .map_err(|e| anyhow::anyhow!("Failed to launch {}: {e}", installer.name))?;

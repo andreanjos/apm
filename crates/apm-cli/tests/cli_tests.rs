@@ -1306,6 +1306,49 @@ fn test_install_dry_run_nonexistent() {
 }
 
 #[test]
+fn test_manual_install_without_download_page_does_not_open_placeholder() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+    let plugin_dir = cache.path().join("apm/registries/official/plugins");
+    std::fs::write(
+        plugin_dir.join("manual-no-url.toml"),
+        r#"
+slug = "manual-no-url"
+name = "Manual No URL"
+vendor = "Test Vendor"
+version = "1.0.0"
+description = "Manual install fixture without a download page"
+category = "effects"
+license = "freeware"
+
+[formats.vst3]
+url = "manual"
+sha256 = "manual"
+install_type = "zip"
+download_type = "manual"
+"#,
+    )
+    .expect("write manual fixture");
+
+    let output = run_apm_with_env(&["install", "manual-no-url"], &cfg, &data, &cache);
+
+    assert!(
+        output.status.success(),
+        "manual install without URL should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("No download page is listed"),
+        "manual install should explain missing URL, got: {stdout}"
+    );
+    assert!(
+        !stdout.contains("(no homepage listed)"),
+        "manual install should not expose or open placeholder text, got: {stdout}"
+    );
+}
+
+#[test]
 fn test_outdated_empty_state() {
     let output = run_apm_isolated(&["outdated"]);
     assert!(

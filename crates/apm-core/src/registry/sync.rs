@@ -162,6 +162,18 @@ fn fetch_and_reset(dest: &Path, source: &Source) -> Result<()> {
         Command::new("git")
             .arg("-C")
             .arg(dest)
+            .arg("remote")
+            .arg("set-url")
+            .arg("origin")
+            .arg(&source.url),
+        source,
+        "update registry remote URL",
+    )?;
+
+    run_git(
+        Command::new("git")
+            .arg("-C")
+            .arg(dest)
             .arg("fetch")
             .arg("--depth")
             .arg("1")
