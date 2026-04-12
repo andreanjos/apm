@@ -138,7 +138,7 @@ enum Commands {
     /// Clones each registry on first run; performs fast-forward fetches on
     /// subsequent runs. Registry data is stored in ~/.cache/apm/registries/.
     /// Run this before `search`, `install`, or `outdated` to ensure you have
-    /// the latest plugin definitions.
+    /// the latest catalog definitions.
     #[command(alias = "update")]
     Sync,
 
@@ -300,7 +300,7 @@ enum Commands {
 
     /// Manage registry sources.
     ///
-    /// apm can pull plugin definitions from multiple Git-backed registries,
+    /// apm can pull catalog definitions from multiple Git-backed registries,
     /// similar to apt's sources.list. The official registry is configured
     /// by default.
     #[command(subcommand)]
@@ -388,11 +388,11 @@ enum Commands {
         name: Option<String>,
     },
 
-    /// List all plugin categories and subcategories with plugin counts.
+    /// List all catalog categories and subcategories with item counts.
     ///
     /// Shows a tree of categories from the synced registry, with the number
-    /// of plugins in each category and subcategory. Useful for discovering
-    /// what kinds of plugins are available before drilling down with
+    /// of catalog records in each category and subcategory. Useful for
+    /// discovering what kinds of products are available before drilling down with
     /// `apm search --category <name>`.
     #[command(alias = "cats")]
     Categories,
@@ -409,19 +409,19 @@ enum Commands {
         name: String,
     },
 
-    /// Print a plugin count as a plain integer (for scripting and prompts).
+    /// Print installed or available standalone plugin counts.
     ///
     /// Outputs a single number with no decoration, ideal for shell prompts,
     /// scripts, or CI checks. With no flags, prints the installed count.
-    /// With --available, prints the registry count instead.
-    /// With --json, outputs both counts as a JSON object.
+    /// With --available, prints the standalone plugin count from the registry.
+    /// With --json, also includes the full mixed catalog item count.
     ///
     /// Examples:
     ///   echo "$(apm count) plugins installed"
     ///   PS1="[apm:$(apm count)] $ "
     #[command(alias = "c")]
     Count {
-        /// Count available registry plugins instead of installed plugins.
+        /// Count available standalone registry plugins instead of installed plugins.
         #[arg(long)]
         available: bool,
     },
@@ -453,11 +453,11 @@ enum Commands {
         list: bool,
     },
 
-    /// Discover something new -- suggest a random plugin from the registry.
+    /// Discover something new -- suggest a random standalone plugin.
     ///
-    /// Picks a random plugin and displays its full info card. Great for
-    /// discovering plugins you might not have found through search. Optionally
-    /// filter by category to narrow the suggestion to instruments, effects, etc.
+    /// Picks a random standalone plugin and displays its full info card.
+    /// Optionally filter by category to narrow the suggestion to instruments,
+    /// effects, etc.
     Random {
         /// Limit to a category (e.g. "instruments", "effects", "reverb").
         #[arg(long, short = 'c')]
@@ -476,8 +476,8 @@ enum Commands {
     /// Show a dashboard summary of your apm environment.
     ///
     /// Displays at a glance: installed plugin count with AU/VST3 format
-    /// breakdown, total available plugins in the registry, number of pinned
-    /// plugins, configured registry sources, download cache size on disk,
+    /// breakdown, available standalone plugins, total mixed catalog items,
+    /// pinned plugins, configured registry sources, download cache size on disk,
     /// and the timestamp of the last `apm sync`.
     #[command(alias = "st")]
     Stats,
@@ -497,25 +497,24 @@ enum Commands {
 
     /// List all unique tags across the registry with occurrence counts.
     ///
-    /// Collects every tag from every plugin definition, counts how often each
+    /// Collects every tag from every catalog record, counts how often each
     /// appears, and displays the top 50 in a compact word-cloud layout sorted
     /// by frequency. Use --json to get the full untruncated list.
-    /// Pair with `apm search --tag <name>` to find plugins by tag.
+    /// Pair with `apm search --tag <name>` to find catalog items by tag.
     Tags,
 
-    /// List all plugin vendors in the registry with plugin counts.
+    /// List all vendors in the registry with catalog item counts.
     ///
-    /// Shows every vendor that has at least one plugin in the synced registry,
-    /// sorted by number of plugins (most first). Useful for discovering who
-    /// publishes the most plugins. Use `apm search --vendor <name>` to browse
-    /// a specific vendor's catalog.
+    /// Shows every vendor that has at least one synced catalog record, sorted
+    /// by count. Use `apm search --vendor <name>` to browse a specific vendor's
+    /// catalog.
     Vendors,
 
-    /// List registry plugins that you have not yet installed.
+    /// List standalone registry plugins that you have not yet installed.
     ///
-    /// The inverse of `apm list` -- shows everything available in the
-    /// registry minus what you already have. Useful for browsing what is
-    /// left to try. Optionally filter by category or cap the output.
+    /// The inverse of `apm list` for standalone plugins. Bundles, upgrades,
+    /// subscriptions, preset packs, and other catalog items stay discoverable
+    /// through `apm search` and `apm info`.
     #[command(alias = "available")]
     Uninstalled {
         /// Filter by category (e.g. "instruments", "effects", "reverb").
@@ -529,7 +528,7 @@ enum Commands {
 
     /// Print the apm version and exit.
     ///
-    /// Shows the version string (e.g. "apm 0.1.0"). With --json, includes
+    /// Shows the version string (for example, "apm 0.1.1"). With --json, includes
     /// the build target triple alongside the version.
     #[command(alias = "v")]
     Version,

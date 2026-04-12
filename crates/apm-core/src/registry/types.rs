@@ -258,6 +258,12 @@ pub struct PluginDefinition {
 }
 
 impl PluginDefinition {
+    /// True for standalone audio plugin records, false for bundles, upgrades,
+    /// subscriptions, preset packs, sample libraries, and other catalog items.
+    pub fn is_standalone_plugin(&self) -> bool {
+        self.product_type == ProductType::Plugin
+    }
+
     /// Return the latest release represented by the top-level plugin fields.
     pub fn latest_release(&self) -> PluginRelease {
         PluginRelease {
@@ -446,7 +452,7 @@ impl Source {
 
 // ── RegistryIndex ─────────────────────────────────────────────────────────────
 
-/// Root manifest of a registry (`index.toml`), listing available plugins.
+/// Root manifest of a registry (`index.toml`), listing available catalog records.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct RegistryIndex {
     /// Schema version for forward-compatibility.
@@ -455,15 +461,15 @@ pub struct RegistryIndex {
     /// ISO 8601 timestamp when the index was generated.
     pub generated: String,
 
-    /// Lightweight entries referencing individual plugin TOML files.
+    /// Lightweight entries referencing individual registry TOML files.
     #[serde(default)]
     pub plugins: Vec<RegistryIndexEntry>,
 }
 
-/// A single row in `index.toml`'s `[[plugins]]` array.
+/// A single row in `index.toml`'s historical `[[plugins]]` array.
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct RegistryIndexEntry {
-    /// Plugin slug (matches `PluginDefinition::slug`).
+    /// Catalog slug (matches `PluginDefinition::slug`).
     pub name: String,
 
     /// Relative path to the plugin's TOML file inside the registry repo.

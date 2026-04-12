@@ -3,7 +3,7 @@
 A package manager for macOS audio plugins. Install, update, remove, and discover
 AU and VST3 plugins from the command line.
 
-apm pulls plugin definitions from Git-backed registries, validates downloads
+apm pulls catalog definitions from Git-backed registries, validates downloads
 before installing, and tracks what is already installed on disk. The registry
 catalog includes 8,000+ entries covering standalone plugins, bundles, upgrades,
 expansions, preset packs, sample libraries, utilities, and vendor-managed
@@ -33,7 +33,7 @@ Then use `/apm search reverb` or `/apm install surge-xt` directly in Claude Code
 ## Quick start
 
 ```sh
-apm sync                        # Pull latest plugin definitions
+apm sync                        # Pull latest catalog definitions
 apm search reverb               # Find plugins by keyword
 apm info valhalla-supermassive  # View plugin details
 apm install tal-noisemaker      # Install a plugin

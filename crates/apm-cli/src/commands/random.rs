@@ -41,11 +41,13 @@ pub async fn run(config: &Config, category: Option<&str>, json: bool) -> Result<
         return Ok(());
     }
 
-    // Collect all plugins, optionally filtered by category.
+    // Collect standalone plugins, optionally filtered by category. Search/info
+    // expose the mixed catalog; random should not recommend upgrades or bundles.
     let category_lower = category.map(|c| c.to_lowercase());
     let candidates: Vec<&PluginDefinition> = registry
         .plugins
         .values()
+        .filter(|p| p.is_standalone_plugin())
         .filter(|p| {
             if let Some(ref cat) = category_lower {
                 p.category.to_lowercase().contains(cat.as_str())
@@ -63,21 +65,21 @@ pub async fn run(config: &Config, category: Option<&str>, json: bool) -> Result<
         if json {
             println!("null");
         } else if let Some(cat) = category {
-            println!("No plugins found in category \"{cat}\".");
+            println!("No standalone plugins found in category \"{cat}\".");
             println!(
                 "{}",
                 "Hint: Try `apm search --category <name>` to browse available categories.".dimmed()
             );
         } else {
-            println!("No plugins available.");
+            println!("No standalone plugins available.");
         }
         return Ok(());
     }
 
-    // Pick a pseudo-random plugin using subsecond nanos — no extra dependency needed.
+    // Pick a pseudo-random plugin using subsecond nanos; avoid an extra dependency.
     let seed = SystemTime::now()
         .duration_since(SystemTime::UNIX_EPOCH)
-        .unwrap()
+        .unwrap_or_default()
         .subsec_nanos() as usize;
     let index = seed % candidates.len();
     let plugin = candidates[index];

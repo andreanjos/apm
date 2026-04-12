@@ -1,4 +1,4 @@
-// count command — output installed or available plugin counts for scripting.
+// count command — output installed or available standalone plugin counts for scripting.
 
 use anyhow::Result;
 use serde::Serialize;
@@ -11,6 +11,7 @@ use apm_core::state::InstallState;
 struct CountJson {
     installed: usize,
     available: usize,
+    catalog_items: usize,
 }
 
 pub async fn run(config: &Config, json: bool, available: bool) -> Result<()> {
@@ -18,9 +19,15 @@ pub async fn run(config: &Config, json: bool, available: bool) -> Result<()> {
         // JSON mode always includes both counts.
         let state = InstallState::load(config)?;
         let registry = Registry::load_all_sources(config).unwrap_or_default();
+        let available = registry
+            .plugins
+            .values()
+            .filter(|p| p.is_standalone_plugin())
+            .count();
         let output = CountJson {
             installed: state.plugins.len(),
-            available: registry.len(),
+            available,
+            catalog_items: registry.len(),
         };
         println!("{}", serde_json::to_string(&output)?);
         return Ok(());
@@ -28,7 +35,12 @@ pub async fn run(config: &Config, json: bool, available: bool) -> Result<()> {
 
     if available {
         let registry = Registry::load_all_sources(config)?;
-        println!("{}", registry.len());
+        let available_plugins = registry
+            .plugins
+            .values()
+            .filter(|p| p.is_standalone_plugin())
+            .count();
+        println!("{available_plugins}");
     } else {
         let state = InstallState::load(config)?;
         println!("{}", state.plugins.len());

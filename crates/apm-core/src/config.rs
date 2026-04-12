@@ -1,6 +1,5 @@
-// Platform path constants and helper functions are public API used by later
-// phases of apm. The dead_code lint is suppressed here because this is
-// intentional infrastructure — not yet wired up in Phase 1.
+// Platform path constants and helper functions shared by the CLI, scanner,
+// installer, and registry cache code.
 
 use std::path::{Path, PathBuf};
 

@@ -1,4 +1,4 @@
-// vendors command — list all plugin vendors in the registry with plugin counts.
+// vendors command — list all vendors in the registry with catalog item counts.
 
 use std::collections::HashMap;
 
@@ -12,7 +12,7 @@ use apm_core::registry::Registry;
 #[derive(Serialize)]
 struct VendorEntry {
     name: String,
-    plugin_count: usize,
+    item_count: usize,
 }
 
 #[derive(Serialize)]
@@ -30,16 +30,16 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
                 serde_json::to_string_pretty(&VendorsJson { vendors: vec![] })?
             );
         } else {
-            println!("No plugins found. The registry cache is empty.");
+            println!("No catalog items found. The registry cache is empty.");
             println!();
             println!("To get started:");
-            println!("  apm sync    Download the plugin registry");
+            println!("  apm sync    Download the registry");
             println!("  apm vendors Then list vendors");
         }
         return Ok(());
     }
 
-    // Count plugins per vendor.
+    // Count catalog items per vendor.
     let mut vendor_counts: HashMap<String, usize> = HashMap::new();
     for plugin in registry.plugins.values() {
         *vendor_counts.entry(plugin.vendor.clone()).or_insert(0) += 1;
@@ -56,7 +56,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
         let output = VendorsJson {
             vendors: vendors
                 .into_iter()
-                .map(|(name, plugin_count)| VendorEntry { name, plugin_count })
+                .map(|(name, item_count)| VendorEntry { name, item_count })
                 .collect(),
         };
         println!("{}", serde_json::to_string_pretty(&output)?);
@@ -64,11 +64,11 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     }
 
     // ── Human output ─────────────────────────────────────────────────────────
-    let suffix = if total == 1 { "" } else { "s" };
+    let item_suffix = if registry.len() == 1 { "" } else { "s" };
     println!(
         "{}",
         format!(
-            "Vendors ({total} total, {} plugin{suffix} in registry):",
+            "Vendors ({total} total, {} catalog item{item_suffix} in registry):",
             registry.len()
         )
         .bold()
@@ -88,8 +88,8 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
         .unwrap_or(0);
 
     for (name, count) in &vendors {
-        let plugin_word = if *count == 1 { "plugin" } else { "plugins" };
-        println!("  {:<w_name$}  {:>w_count$} {plugin_word}", name, count,);
+        let item_word = if *count == 1 { "item" } else { "items" };
+        println!("  {:<w_name$}  {:>w_count$} {item_word}", name, count,);
     }
 
     Ok(())

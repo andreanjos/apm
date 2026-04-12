@@ -10,7 +10,7 @@ use apm_core::state::InstallState;
 
 use crate::utils::format_category;
 
-/// JSON-serializable view of an uninstalled plugin.
+/// JSON-serializable view of an uninstalled standalone plugin.
 #[derive(Serialize)]
 struct UninstalledPluginJson {
     slug: String,
@@ -44,10 +44,10 @@ pub async fn run(
             };
             println!("{}", serde_json::to_string_pretty(&output)?);
         } else {
-            println!("No plugins found. The registry cache is empty.");
+            println!("No catalog items found. The registry cache is empty.");
             println!();
             println!("To get started:");
-            println!("  apm sync    Download the plugin registry");
+            println!("  apm sync    Download the registry");
         }
         return Ok(());
     }
@@ -57,10 +57,13 @@ pub async fn run(
     // Build a set of installed plugin slugs for fast lookup.
     let installed_slugs: HashSet<&str> = state.plugins.iter().map(|p| p.name.as_str()).collect();
 
-    // Collect registry plugins that are NOT installed, optionally filtering by category.
+    // Collect standalone registry plugins that are NOT installed, optionally
+    // filtering by category. Bundles/upgrades/subscriptions are discoverable via
+    // search/info, but this command is specifically for installable plugins.
     let mut uninstalled: Vec<_> = registry
         .plugins
         .values()
+        .filter(|p| p.is_standalone_plugin())
         .filter(|p| !installed_slugs.contains(p.slug.as_str()))
         .filter(|p| {
             if let Some(cat) = category {
@@ -82,7 +85,11 @@ pub async fn run(
     uninstalled.sort_by(|a, b| a.slug.to_lowercase().cmp(&b.slug.to_lowercase()));
 
     let total = uninstalled.len();
-    let total_registry = registry.len();
+    let total_registry_plugins = registry
+        .plugins
+        .values()
+        .filter(|p| p.is_standalone_plugin())
+        .count();
 
     if total == 0 {
         if json {
@@ -93,10 +100,10 @@ pub async fn run(
             println!("{}", serde_json::to_string_pretty(&output)?);
         } else if category.is_some() {
             println!(
-                "All plugins in that category are already installed (or no plugins match the filter)."
+                "All standalone plugins in that category are already installed (or none match the filter)."
             );
         } else {
-            println!("All registry plugins are already installed. Nice!");
+            println!("All standalone registry plugins are already installed.");
         }
         return Ok(());
     }
@@ -131,8 +138,8 @@ pub async fn run(
     // ── Human-readable output ────────────────────────────────────────────────
 
     let header = format!(
-        "Available plugins not installed ({} of {}):",
-        total, total_registry
+        "Available standalone plugins not installed ({} of {}):",
+        total, total_registry_plugins
     );
     println!();
     println!("{}", header.bold());

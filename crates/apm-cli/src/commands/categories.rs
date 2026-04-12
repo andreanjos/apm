@@ -1,4 +1,4 @@
-// categories command — list all plugin categories and subcategories with counts.
+// categories command — list catalog categories and subcategories with counts.
 
 use std::collections::BTreeMap;
 
@@ -59,7 +59,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     }
 
     // Also compute total count per category (may exceed sum of subcategories
-    // when some plugins have no subcategory).
+    // when some catalog records have no subcategory).
     let mut category_totals: BTreeMap<String, usize> = BTreeMap::new();
     for plugin in registry.plugins.values() {
         *category_totals
@@ -129,12 +129,12 @@ fn print_human(
 
     for (cat_name, subs) in categories {
         let total = totals.get(cat_name).unwrap_or(&0);
-        let plugin_word = if *total == 1 { "plugin" } else { "plugins" };
+        let item_word = if *total == 1 { "item" } else { "items" };
         println!(
             "  {:<width$}  {:>cw$} {}",
             cat_name.bold().to_string(),
             total,
-            plugin_word.dimmed(),
+            item_word.dimmed(),
             width = max_cat_width,
             cw = count_width,
         );
@@ -155,13 +155,13 @@ fn print_human(
     }
 
     // Summary line.
-    let total_plugins: usize = totals.values().sum();
+    let total_items: usize = totals.values().sum();
     let total_cats = categories.len();
     println!();
     println!(
         "{}",
         format!(
-            "{total_plugins} plugins across {total_cats} {}.",
+            "{total_items} catalog items across {total_cats} {}.",
             if total_cats == 1 {
                 "category"
             } else {

@@ -1620,13 +1620,152 @@ fn test_stats_json_output() {
         serde_json::from_str(stdout.trim()).expect("should parse as valid JSON");
     let obj = value.as_object().expect("stats JSON should be an object");
 
-    for key in &["installed", "available", "pinned", "sources", "cache_bytes"] {
+    for key in &[
+        "installed",
+        "available",
+        "catalog_items",
+        "pinned",
+        "sources",
+        "cache_bytes",
+    ] {
         assert!(
             obj.contains_key(*key),
             "stats JSON should contain '{key}', got keys: {:?}",
             obj.keys().collect::<Vec<_>>()
         );
     }
+}
+
+#[test]
+fn test_uninstalled_lists_only_standalone_plugins_from_mixed_catalog() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let official_dir = tmp_cache.path().join("apm/registries/official/plugins");
+    std::fs::create_dir_all(&official_dir).expect("create official plugins");
+    std::fs::write(
+        official_dir.join("standalone-plugin.toml"),
+        r#"
+slug = "standalone-plugin"
+name = "Standalone Plugin"
+vendor = "Mixed Vendor"
+version = "1.0.0"
+description = "Installable standalone plugin"
+category = "effects"
+product_type = "plugin"
+license = "freeware"
+
+[formats.vst3]
+url = "https://example.com/standalone.zip"
+sha256 = "manual"
+install_type = "zip"
+download_type = "manual"
+"#,
+    )
+    .expect("write standalone plugin");
+    std::fs::write(
+        official_dir.join("bundle-record.toml"),
+        r#"
+slug = "bundle-record"
+name = "Bundle Record"
+vendor = "Mixed Vendor"
+version = "1.0.0"
+description = "Catalog bundle that is not a standalone plugin"
+category = "bundles"
+product_type = "bundle"
+license = "commercial"
+
+[formats.vst3]
+url = "https://example.com/bundle"
+sha256 = "manual"
+install_type = "zip"
+download_type = "manual"
+"#,
+    )
+    .expect("write bundle record");
+
+    let output = Command::new(apm_bin())
+        .args(["--json", "uninstalled"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(
+        output.status.success(),
+        "apm --json uninstalled should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    let value: serde_json::Value =
+        serde_json::from_str(stdout.trim()).expect("valid uninstalled JSON");
+    let entries = value["uninstalled"]
+        .as_array()
+        .expect("uninstalled should be an array");
+    let slugs: Vec<&str> = entries
+        .iter()
+        .filter_map(|entry| entry["slug"].as_str())
+        .collect();
+
+    assert_eq!(slugs, vec!["standalone-plugin"]);
+    assert_eq!(value["total"], 1);
+}
+
+#[test]
+fn test_random_ignores_non_plugin_catalog_records() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let official_dir = tmp_cache.path().join("apm/registries/official/plugins");
+    std::fs::create_dir_all(&official_dir).expect("create official plugins");
+    std::fs::write(
+        official_dir.join("only-bundle.toml"),
+        r#"
+slug = "only-bundle"
+name = "Only Bundle"
+vendor = "Mixed Vendor"
+version = "1.0.0"
+description = "Catalog bundle that random should not recommend"
+category = "bundles"
+product_type = "bundle"
+license = "commercial"
+
+[formats.vst3]
+url = "https://example.com/only-bundle"
+sha256 = "manual"
+install_type = "zip"
+download_type = "manual"
+"#,
+    )
+    .expect("write bundle record");
+
+    let output = Command::new(apm_bin())
+        .args(["random"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(
+        output.status.success(),
+        "apm random should exit 0 with no standalone plugins; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("No standalone plugins available"),
+        "random should not recommend non-plugin catalog records, got: {stdout}"
+    );
 }
 
 #[test]
@@ -1724,6 +1863,11 @@ fn test_count_available_json() {
     assert!(
         obj.contains_key("available"),
         "count JSON should contain 'available', got keys: {:?}",
+        obj.keys().collect::<Vec<_>>()
+    );
+    assert!(
+        obj.contains_key("catalog_items"),
+        "count JSON should contain 'catalog_items', got keys: {:?}",
         obj.keys().collect::<Vec<_>>()
     );
 }

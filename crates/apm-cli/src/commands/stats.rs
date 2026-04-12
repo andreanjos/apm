@@ -12,6 +12,7 @@ use apm_core::state::InstallState;
 struct StatsJson {
     installed: usize,
     available: usize,
+    catalog_items: usize,
     pinned: usize,
     sources: usize,
     cache_bytes: u64,
@@ -23,7 +24,12 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     let sources = config.sources();
 
     let installed = state.plugins.len();
-    let available = registry.len();
+    let catalog_items = registry.len();
+    let available = registry
+        .plugins
+        .values()
+        .filter(|p| p.is_standalone_plugin())
+        .count();
     let pinned = state.plugins.iter().filter(|p| p.pinned).count();
     let source_count = sources.len();
 
@@ -55,6 +61,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
         let stats = StatsJson {
             installed,
             available,
+            catalog_items,
             pinned,
             sources: source_count,
             cache_bytes,
@@ -75,11 +82,16 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     };
     println!("  {:<label_width$}{installed_value}", "Installed:".bold());
 
-    // Available.
+    // Available standalone plugins and full catalog size.
     let available_suffix = if available == 1 { "" } else { "s" };
     println!(
-        "  {:<label_width$}{available} plugin{available_suffix} in registry",
+        "  {:<label_width$}{available} standalone plugin{available_suffix}",
         "Available:".bold(),
+    );
+    println!(
+        "  {:<label_width$}{catalog_items} total catalog item{}",
+        "Catalog:".bold(),
+        if catalog_items == 1 { "" } else { "s" },
     );
 
     // Pinned.

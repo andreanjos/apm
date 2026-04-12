@@ -27,26 +27,37 @@ pub async fn run(config: &Config, json: bool, quiet: bool) -> Result<()> {
 
         match sync::sync_source(source, &registries_cache_dir) {
             Ok(()) => {
-                // Count how many plugins are now in the cache.
+                // Count how many catalog records are now in the cache.
                 let source_cache = registries_cache_dir.join(&source.name);
-                let count = registry::Registry::load_from_cache(&source_cache)
-                    .map(|r| r.len())
+                let loaded = registry::Registry::load_from_cache(&source_cache).ok();
+                let catalog_count = loaded.as_ref().map(|r| r.len()).unwrap_or(0);
+                let standalone_count = loaded
+                    .as_ref()
+                    .map(|r| {
+                        r.plugins
+                            .values()
+                            .filter(|p| p.is_standalone_plugin())
+                            .count()
+                    })
                     .unwrap_or(0);
 
                 if json {
                     json_results.push(serde_json::json!({
                         "name": source.name,
                         "status": "ok",
-                        "plugin_count": count,
+                        "standalone_plugin_count": standalone_count,
+                        "catalog_item_count": catalog_count,
                     }));
                 } else if !quiet {
                     println!(
                         "{}",
                         format!(
-                            "Registry '{}' updated. {} plugin{} available.",
+                            "Registry '{}' updated. {} standalone plugin{} ({} catalog item{}) available.",
                             source.name,
-                            count,
-                            if count == 1 { "" } else { "s" }
+                            standalone_count,
+                            if standalone_count == 1 { "" } else { "s" },
+                            catalog_count,
+                            if catalog_count == 1 { "" } else { "s" },
                         )
                         .green()
                     );
