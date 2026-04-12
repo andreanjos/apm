@@ -656,6 +656,84 @@ source = "official"
 }
 
 #[test]
+fn test_import_skips_manual_plugin_without_attempting_archive_install() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let official_dir = tmp_cache.path().join("apm/registries/official/plugins");
+    std::fs::create_dir_all(&official_dir).expect("create official plugins");
+    std::fs::write(
+        official_dir.join("manual-import.toml"),
+        r#"
+slug = "manual-import"
+name = "Manual Import"
+vendor = "Manual Vendor"
+version = "1.0.0"
+description = "Manual install test plugin"
+category = "effects"
+license = "freeware"
+homepage = "https://example.com/manual-import"
+
+[formats.vst3]
+url = "https://example.com/manual-import"
+sha256 = "manual"
+install_type = "zip"
+download_type = "manual"
+"#,
+    )
+    .expect("write manual plugin");
+
+    let import_file = tmp_data.path().join("import.toml");
+    std::fs::write(
+        &import_file,
+        r#"
+[[plugins]]
+name = "manual-import"
+version = "1.0.0"
+formats = ["vst3"]
+source = "official"
+"#,
+    )
+    .expect("write import");
+
+    let output = Command::new(apm_bin())
+        .args(["import", import_file.to_str().unwrap()])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(
+        output.status.success(),
+        "manual import should skip without trying network/archive install; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("manual install required"),
+        "manual import should explain scan-based workflow, got: {stdout}"
+    );
+    assert!(
+        stdout.contains("0 installed, 1 skipped, 0 failed"),
+        "manual import should count as skipped, got: {stdout}"
+    );
+
+    let state_path = tmp_data.path().join("apm/state.toml");
+    if state_path.exists() {
+        let saved = std::fs::read_to_string(state_path).expect("read state");
+        assert!(
+            !saved.contains("manual-import"),
+            "manual import should not add state until scan discovers it, got: {saved}"
+        );
+    }
+}
+
+#[test]
 fn test_upgrade_dry_run_with_fixture_registry_uses_latest_against_installed_historical_version() {
     let tmp_config = tempfile::tempdir().expect("config dir");
     let tmp_data = tempfile::tempdir().expect("data dir");
@@ -1231,6 +1309,96 @@ fn test_remove_dry_run_help_shows_flag() {
     assert!(
         stdout.contains("--dry-run"),
         "remove help should mention --dry-run, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_remove_cleans_stale_external_state_entry_without_deleting_files() {
+    let state = r#"
+version = 1
+
+[[plugins]]
+name = "external-missing"
+version = "1.0.0"
+vendor = "External Vendor"
+installed_at = "2025-01-01T00:00:00Z"
+source = "official"
+pinned = false
+origin = "external"
+
+[[plugins.formats]]
+format = "vst3"
+path = "/tmp/apm-test-definitely-missing/ExternalMissing.vst3"
+sha256 = ""
+"#;
+
+    let (cfg, data, cache) = setup_fixture_env_with_state(Some(state));
+    let output = run_apm_with_env(&["remove", "external-missing"], &cfg, &data, &cache);
+
+    assert!(
+        output.status.success(),
+        "remove stale external entry should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("Removed stale external state entry"),
+        "remove should clean stale external state, got: {stdout}"
+    );
+
+    let state_path = data.path().join("apm/state.toml");
+    let saved = std::fs::read_to_string(state_path).expect("read state");
+    assert!(
+        !saved.contains("external-missing"),
+        "stale external entry should be removed from state, got: {saved}"
+    );
+}
+
+#[test]
+fn test_remove_refuses_existing_external_state_entry() {
+    let existing_file = tempfile::NamedTempFile::new().expect("existing external file");
+    let existing_path = existing_file.path().display().to_string();
+    let state = format!(
+        r#"
+version = 1
+
+[[plugins]]
+name = "external-existing"
+version = "1.0.0"
+vendor = "External Vendor"
+installed_at = "2025-01-01T00:00:00Z"
+source = "official"
+pinned = false
+origin = "external"
+
+[[plugins.formats]]
+format = "vst3"
+path = "{existing_path}"
+sha256 = ""
+"#
+    );
+
+    let (cfg, data, cache) = setup_fixture_env_with_state(Some(&state));
+    let output = run_apm_with_env(&["remove", "external-existing"], &cfg, &data, &cache);
+
+    assert!(
+        output.status.success(),
+        "remove existing external entry should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("will not delete externally installed files"),
+        "remove should refuse to delete existing external files, got: {stdout}"
+    );
+
+    let state_path = data.path().join("apm/state.toml");
+    let saved = std::fs::read_to_string(state_path).expect("read state");
+    assert!(
+        saved.contains("external-existing"),
+        "existing external entry should remain in state, got: {saved}"
     );
 }
 

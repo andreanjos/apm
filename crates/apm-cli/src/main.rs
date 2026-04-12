@@ -199,10 +199,11 @@ enum Commands {
         bundle: Option<String>,
     },
 
-    /// Remove a plugin installed by apm.
+    /// Remove a plugin from apm.
     ///
     /// Deletes the plugin bundle(s) from disk and removes the entry from the
-    /// local state file. Only removes plugins that apm installed.
+    /// local state file for plugins installed by apm. For plugins discovered
+    /// by `apm scan`, this only cleans stale state after the files are gone.
     #[command(alias = "rm")]
     Remove {
         /// Plugin name or slug to remove (e.g. "tal-noisemaker").

@@ -33,13 +33,63 @@ pub async fn run(config: &Config, name: &str, json: bool, dry_run: bool) -> Resu
     };
 
     if plugin.origin == InstallOrigin::External {
+        let all_paths_missing = plugin.formats.iter().all(|format| !format.path.exists());
+
+        if all_paths_missing {
+            if dry_run {
+                if json {
+                    println!(
+                        "{}",
+                        serde_json::json!({
+                            "dry_run": true,
+                            "would_remove": true,
+                            "plugin": plugin.name,
+                            "reason": "stale external state entry",
+                        })
+                    );
+                } else {
+                    println!(
+                        "[dry-run] Would remove stale external state entry for {}.",
+                        plugin.name.bold()
+                    );
+                    println!("          No external plugin files would be deleted.");
+                }
+                return Ok(());
+            }
+
+            state.remove(&plugin.name);
+            state.save(config)?;
+
+            if json {
+                println!(
+                    "{}",
+                    serde_json::json!({
+                        "removed": true,
+                        "plugin": plugin.name,
+                        "reason": "stale external state entry",
+                        "formats_removed": [],
+                    })
+                );
+            } else {
+                println!(
+                    "{}",
+                    format!(
+                        "Removed stale external state entry for {}. No plugin files were deleted.",
+                        plugin.name
+                    )
+                    .green()
+                );
+            }
+            return Ok(());
+        }
+
         if json {
             println!(
                 "{}",
                 serde_json::json!({
                     "removed": false,
                     "plugin": plugin.name,
-                    "reason": "external install",
+                    "reason": "external install still exists",
                 })
             );
         } else {
@@ -47,7 +97,10 @@ pub async fn run(config: &Config, name: &str, json: bool, dry_run: bool) -> Resu
                 "{} was discovered by `apm scan`; apm will not delete externally installed files.",
                 plugin.name.bold()
             );
-            println!("Remove it with the vendor installer or Finder, then run `apm scan` again.");
+            println!(
+                "Remove it with the vendor installer or Finder first, then run `apm remove {}` to clean apm state.",
+                plugin.name
+            );
         }
         return Ok(());
     }

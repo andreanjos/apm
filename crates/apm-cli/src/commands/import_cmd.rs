@@ -9,7 +9,7 @@ use colored::Colorize;
 use crate::commands::export_cmd::{ExportDocument, ExportedPlugin};
 use crate::portable;
 use apm_core::config::{Config, SourceEntry};
-use apm_core::registry::Registry;
+use apm_core::registry::{DownloadType, PluginDefinition, Registry};
 use apm_core::state::InstallState;
 
 // ── Input Detection ──────────────────────────────────────────────────────────
@@ -142,7 +142,7 @@ async fn run_portable(config: &Config, input: &str, dry_run: bool, yes: bool) ->
     let mut state = InstallState::load(config)?;
 
     let mut installed = 0usize;
-    let skipped = preview.to_skip_same.len() + preview.to_skip_newer.len();
+    let mut skipped = preview.to_skip_same.len() + preview.to_skip_newer.len();
     let mut failed = 0usize;
 
     for (slug, version, _pinned) in &preview.to_install {
@@ -189,6 +189,12 @@ async fn run_portable(config: &Config, input: &str, dry_run: bool, yes: bool) ->
         let mut selected = plugin.clone();
         selected.version = release.version;
         selected.formats = release.formats;
+
+        if let Some(reason) = external_install_reason(&selected) {
+            println!("  {} {}: {}", "skip".dimmed(), slug, reason);
+            skipped += 1;
+            continue;
+        }
 
         println!(
             "  {} {} v{}...",
@@ -376,6 +382,11 @@ async fn process_one(
     selected_plugin.version = release.version;
     selected_plugin.formats = release.formats;
 
+    if let Some(reason) = external_install_reason(&selected_plugin) {
+        println!("  {} {}: {}", "skip".dimmed(), entry.name, reason);
+        return PluginOutcome::Skipped;
+    }
+
     if dry_run {
         println!(
             "  {} {} v{}",
@@ -405,6 +416,32 @@ async fn process_one(
         }
         Err(e) => PluginOutcome::Failed(e.to_string()),
     }
+}
+
+fn external_install_reason(plugin: &PluginDefinition) -> Option<String> {
+    let has_managed = plugin
+        .formats
+        .values()
+        .any(|src| src.download_type == DownloadType::Managed);
+    if has_managed {
+        return Some(format!(
+            "vendor-managed; run `apm install {}` to open the vendor installer, then run `apm scan`",
+            plugin.slug
+        ));
+    }
+
+    let has_manual = plugin
+        .formats
+        .values()
+        .any(|src| src.download_type == DownloadType::Manual);
+    if has_manual {
+        return Some(format!(
+            "manual install required; run `apm install {}` for download instructions, then run `apm scan`",
+            plugin.slug
+        ));
+    }
+
+    None
 }
 
 // ── File loading ────────────────────────────────────────────────────────────
