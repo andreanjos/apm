@@ -66,6 +66,15 @@ jobs:
           tar czf apm-${VERSION}-macos-universal.tar.gz apm
           shasum -a 256 apm-${VERSION}-macos-universal.tar.gz > apm-${VERSION}-macos-universal.tar.gz.sha256
 
+      - name: Validate package
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/v}
+          TMPDIR=$(mktemp -d)
+          tar xzf apm-${VERSION}-macos-universal.tar.gz -C "$TMPDIR"
+          "$TMPDIR/apm" --version
+          "$TMPDIR/apm" --help
+          rm -rf "$TMPDIR"
+
       - name: Update Homebrew formula
         run: |
           VERSION=${GITHUB_REF#refs/tags/v}

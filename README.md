@@ -16,7 +16,7 @@ brew tap andreanjos/apm https://github.com/andreanjos/apm
 brew install apm
 ```
 
-Or build from source (requires Rust 1.70+):
+Or build from source with the current stable Rust toolchain:
 
 ```sh
 cargo install --path crates/apm-cli
@@ -67,6 +67,7 @@ apm install tal-noisemaker --version 4.3.2    # Specific version
 sudo apm install tal-noisemaker --system      # System-wide (/Library/)
 printf "vital\nsurge-xt\n" | apm install --stdin
 apm install --dry-run surge-xt                # Preview without installing
+apm --json install surge-xt --dry-run         # Machine-readable install plan
 apm install massive-x                         # Opens Native Access when required
 
 apm remove tal-noisemaker                     # Remove a plugin
@@ -232,7 +233,7 @@ bundle_path  = "ValhallaSupermassive.component"
 | `url` | yes | Direct archive URL for `direct` downloads, or the official product/download page for `manual` and `managed` entries |
 | `sha256` | for direct downloads | SHA256 hex digest of the direct archive; manual and vendor-managed entries may leave this blank |
 | `install_type` | yes | `"dmg"`, `"pkg"`, `"zip"`, or `"mas"` |
-| `download_type` | yes | `"direct"`, `"manual"`, or `"managed"`; older omitted values deserialize as `"direct"` for compatibility |
+| `download_type` | yes | `"direct"`, `"manual"`, or `"managed"` |
 | `bundle_path` | for dmg/zip | Path inside the archive to the plugin bundle |
 
 ## Contributing plugins
