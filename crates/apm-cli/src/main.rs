@@ -590,13 +590,29 @@ async fn main() {
         colored::control::set_override(false);
     }
 
+    let json_requested = std::env::args_os().any(|arg| arg == "--json");
+
     if let Err(e) = run().await {
-        eprintln!("error: {e}");
-        // Walk the error chain for additional context.
-        let mut source = e.source();
-        while let Some(cause) = source {
-            eprintln!("  caused by: {cause}");
-            source = cause.source();
+        if json_requested {
+            let causes: Vec<String> = e.chain().skip(1).map(|cause| cause.to_string()).collect();
+            let obj = serde_json::json!({
+                "error": e.to_string(),
+                "causes": causes,
+            });
+            eprintln!(
+                "{}",
+                serde_json::to_string(&obj).unwrap_or_else(|_| {
+                    "{\"error\":\"failed to serialize error\"}".to_string()
+                })
+            );
+        } else {
+            eprintln!("error: {e}");
+            // Walk the error chain for additional context.
+            let mut source = e.source();
+            while let Some(cause) = source {
+                eprintln!("  caused by: {cause}");
+                source = cause.source();
+            }
         }
         std::process::exit(1);
     }
@@ -711,6 +727,7 @@ async fn run() -> Result<()> {
                 from_file.as_deref(),
                 *dry_run,
                 bundle.as_deref(),
+                json,
             )
             .await
         }

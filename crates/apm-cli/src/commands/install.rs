@@ -8,11 +8,42 @@ use std::path::Path;
 
 use anyhow::Result;
 use colored::Colorize;
+use serde::Serialize;
 
 use apm_core::config::{Config, InstallScope};
 use apm_core::error::ApmError;
-use apm_core::registry::{DownloadType, InstallerDefinition, PluginFormat, Registry};
+use apm_core::registry::{
+    DownloadType, FormatSource, InstallerDefinition, PluginDefinition, PluginFormat, Registry,
+};
 use apm_core::state::InstallState;
+
+#[derive(Serialize)]
+struct InstallFormatJson {
+    format: String,
+    download_type: String,
+    source: String,
+}
+
+#[derive(Serialize)]
+struct InstallPlanJson<'a> {
+    plugin: &'a str,
+    name: &'a str,
+    version: &'a str,
+    status: &'a str,
+    destination: Option<&'a str>,
+    formats: Vec<InstallFormatJson>,
+    installer: Option<InstallerJson<'a>>,
+    message: String,
+}
+
+#[derive(Serialize)]
+struct InstallerJson<'a> {
+    key: &'a str,
+    name: &'a str,
+    download_url: &'a str,
+    homepage: &'a str,
+    installed_app_path: Option<String>,
+}
 
 #[allow(clippy::too_many_arguments)]
 pub async fn run(
@@ -25,6 +56,7 @@ pub async fn run(
     from_file: Option<&Path>,
     dry_run: bool,
     bundle: Option<&str>,
+    json: bool,
 ) -> Result<()> {
     // ── Resolve plugin list (--stdin or positional args) ─────────────────────
 
@@ -98,6 +130,12 @@ pub async fn run(
     // ── Bundle resolution ─────────────────────────────────────────────────────
 
     if let Some(bundle_slug) = bundle {
+        if json {
+            anyhow::bail!(
+                "`apm install --json --bundle` is not supported yet.\n\
+                 Hint: Use `apm bundles --json` to inspect bundle contents, then install without --json."
+            );
+        }
         if version.is_some() {
             anyhow::bail!(
                 "--version cannot be combined with --bundle.\n\
@@ -150,6 +188,7 @@ pub async fn run(
             None,
             dry_run,
             None,
+            false,
         ))
         .await;
     }
@@ -159,12 +198,18 @@ pub async fn run(
     if plugins.len() == 1 {
         let name = &plugins[0];
         return run_single(
-            config, name, version, &registry, format, scope, from_file, dry_run, None,
+            config, name, version, &registry, format, scope, from_file, dry_run, None, json,
         )
         .await;
     }
 
     // ── Batch install ─────────────────────────────────────────────────────────
+    if json {
+        anyhow::bail!(
+            "`apm install --json` currently supports one plugin at a time.\n\
+             Hint: Use `apm install --json <plugin> --dry-run` for machine-readable planning."
+        );
+    }
 
     let mut succeeded: Vec<String> = Vec::new();
     let mut failed: Vec<(String, String)> = Vec::new(); // (name, reason)
@@ -182,6 +227,7 @@ pub async fn run(
             None,
             dry_run,
             Some(&batch_prefix),
+            false,
         )
         .await
         {
@@ -248,6 +294,7 @@ async fn run_single(
     from_file: Option<&Path>,
     dry_run: bool,
     batch_prefix: Option<&str>,
+    json: bool,
 ) -> Result<()> {
     // ── Look up the plugin ────────────────────────────────────────────────────
 
@@ -365,6 +412,20 @@ async fn run_single(
         };
 
         if already_has_format && existing.version == selected_version {
+            if json {
+                print_install_plan_json(
+                    plugin,
+                    "already_installed",
+                    None,
+                    &formats_to_check,
+                    None,
+                    format!(
+                        "'{}' is already installed at version {}.",
+                        plugin.slug, existing.version
+                    ),
+                )?;
+                return Ok(());
+            }
             if dry_run {
                 println!(
                     "[dry-run] '{}' is already installed (v{}). Nothing to do.",
@@ -385,6 +446,9 @@ async fn run_single(
         .iter()
         .any(|(_, src)| src.download_type == DownloadType::Managed);
     if is_managed {
+        if json {
+            return print_managed_json(plugin, registry, &formats_to_check, dry_run);
+        }
         if dry_run {
             return print_managed_dry_run(plugin, registry, &formats_to_check);
         }
@@ -411,6 +475,21 @@ async fn run_single(
                     (!src.url.trim().is_empty() && src.url != "manual").then_some(src.url.as_str())
                 })
                 .or(plugin.homepage.as_deref());
+
+            if json {
+                print_install_plan_json(
+                    plugin,
+                    "manual_required",
+                    None,
+                    &formats_to_check,
+                    None,
+                    format!(
+                        "{} requires manual installation. Install it externally, then run `apm scan`.",
+                        plugin.name
+                    ),
+                )?;
+                return Ok(());
+            }
 
             println!("{} requires manual installation.\n", plugin.name.bold());
             if let Some(url) = download_page {
@@ -472,6 +551,24 @@ async fn run_single(
             effective_scope,
         );
 
+        if json {
+            print_install_plan_json(
+                plugin,
+                "dry_run",
+                Some(install_base),
+                &formats_to_install,
+                None,
+                format!(
+                    "Would install {} v{} ({}) to {}.",
+                    plugin.name,
+                    selected_plugin.version,
+                    formats_to_show.join(", "),
+                    install_base
+                ),
+            )?;
+            return Ok(());
+        }
+
         println!(
             "[dry-run] Would install {} v{} ({})",
             plugin.name.bold(),
@@ -506,6 +603,13 @@ async fn run_single(
             );
         }
         return Ok(());
+    }
+
+    if json {
+        anyhow::bail!(
+            "`apm install --json` only supports planning and external handoff flows right now.\n\
+             Hint: Use `apm install --json <plugin> --dry-run`, or omit --json to install."
+        );
     }
 
     // ── Show install plan ─────────────────────────────────────────────────────
@@ -647,10 +751,117 @@ fn installed_app_path(installer: &InstallerDefinition) -> Option<std::path::Path
         .cloned()
 }
 
-fn print_managed_dry_run(
-    plugin: &apm_core::registry::PluginDefinition,
+fn print_install_plan_json(
+    plugin: &PluginDefinition,
+    status: &str,
+    destination: Option<&str>,
+    formats: &[(PluginFormat, &FormatSource)],
+    installer: Option<InstallerJson<'_>>,
+    message: String,
+) -> Result<()> {
+    let formats = formats
+        .iter()
+        .map(|(format, source)| InstallFormatJson {
+            format: format.to_string(),
+            download_type: source.download_type.to_string(),
+            source: format_source_url(plugin, source),
+        })
+        .collect();
+
+    let output = InstallPlanJson {
+        plugin: &plugin.slug,
+        name: &plugin.name,
+        version: &plugin.version,
+        status,
+        destination,
+        formats,
+        installer,
+        message,
+    };
+    println!("{}", serde_json::to_string_pretty(&output)?);
+    Ok(())
+}
+
+fn format_source_url(plugin: &PluginDefinition, source: &FormatSource) -> String {
+    match source.download_type {
+        DownloadType::Manual => (!source.url.trim().is_empty() && source.url != "manual")
+            .then_some(source.url.as_str())
+            .or_else(|| {
+                plugin
+                    .homepage
+                    .as_deref()
+                    .filter(|homepage| !homepage.trim().is_empty())
+            })
+            .unwrap_or("")
+            .to_string(),
+        _ => source.url.clone(),
+    }
+}
+
+fn print_managed_json(
+    plugin: &PluginDefinition,
     registry: &Registry,
-    formats_to_check: &[(PluginFormat, &apm_core::registry::FormatSource)],
+    formats_to_check: &[(PluginFormat, &FormatSource)],
+    dry_run: bool,
+) -> Result<()> {
+    let installer_key = plugin.installer.as_deref().ok_or_else(|| {
+        anyhow::anyhow!(
+            "Plugin '{}' is marked as installer-managed but has no installer key.\nHint: Add `installer = \"...\"` to the registry entry.",
+            plugin.slug
+        )
+    })?;
+
+    let installer = registry.find_installer(installer_key).ok_or_else(|| {
+        anyhow::anyhow!(
+            "Installer '{}' for plugin '{}' was not found in the registry.\nHint: Run `apm sync` to refresh installers.toml.",
+            installer_key,
+            plugin.slug
+        )
+    })?;
+
+    let app_path = installed_app_path(installer);
+    let installer_json = InstallerJson {
+        key: &installer.key,
+        name: &installer.name,
+        download_url: &installer.download_url,
+        homepage: &installer.homepage,
+        installed_app_path: app_path
+            .as_ref()
+            .map(|path| path.to_string_lossy().to_string()),
+    };
+    let status = if dry_run {
+        "dry_run"
+    } else if app_path.is_some() {
+        "vendor_installer_available"
+    } else {
+        "vendor_installer_required"
+    };
+    let message = if app_path.is_some() {
+        format!(
+            "Use {} to download and activate {}. Then run `apm scan`.",
+            installer.name, plugin.name
+        )
+    } else {
+        format!(
+            "{} is required for {}. Download it, install {}, then run `apm scan`.",
+            installer.name, plugin.name, plugin.name
+        )
+    };
+
+    print_install_plan_json(
+        plugin,
+        status,
+        None,
+        formats_to_check,
+        Some(installer_json),
+        message,
+    )
+}
+
+fn print_managed_dry_run(
+    plugin: &PluginDefinition,
+    registry: &Registry,
+    formats_to_check: &[(PluginFormat, &FormatSource)],
 ) -> Result<()> {
     let installer_key = plugin.installer.as_deref().ok_or_else(|| {
         anyhow::anyhow!(

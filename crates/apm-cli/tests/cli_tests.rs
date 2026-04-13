@@ -422,6 +422,66 @@ fn test_install_dry_run_with_fixture_registry_can_select_historical_version() {
 }
 
 #[test]
+fn test_install_json_dry_run_outputs_plan() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+
+    let output = run_apm_with_env(
+        &["--json", "install", "test-reverb", "--dry-run"],
+        &cfg,
+        &data,
+        &cache,
+    );
+    assert!(
+        output.status.success(),
+        "json install dry-run should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    let value: serde_json::Value =
+        serde_json::from_str(stdout.trim()).expect("install dry-run should be valid JSON");
+    assert_eq!(value["plugin"], "test-reverb");
+    assert_eq!(value["status"], "dry_run");
+    assert_eq!(value["destination"], "~/Library/Audio/Plug-Ins/");
+    assert!(
+        value["formats"]
+            .as_array()
+            .is_some_and(|formats| !formats.is_empty()),
+        "install dry-run JSON should include formats, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_json_errors_are_machine_readable() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+
+    let output = run_apm_with_env(
+        &["--json", "install", "does-not-exist", "--dry-run"],
+        &cfg,
+        &data,
+        &cache,
+    );
+    assert!(
+        !output.status.success(),
+        "unknown plugin should fail in json mode"
+    );
+
+    let stderr = String::from_utf8_lossy(&output.stderr);
+    let value: serde_json::Value =
+        serde_json::from_str(stderr.trim()).expect("json error should be valid JSON");
+    assert!(
+        value["error"]
+            .as_str()
+            .is_some_and(|error| error.contains("not found")),
+        "json error should include the root error, got: {stderr}"
+    );
+    assert!(
+        value["causes"].is_array(),
+        "json error should include causes array, got: {stderr}"
+    );
+}
+
+#[test]
 fn test_install_dry_run_with_fixture_registry_rejects_unknown_version() {
     let tmp_config = tempfile::tempdir().expect("config dir");
     let tmp_data = tempfile::tempdir().expect("data dir");
