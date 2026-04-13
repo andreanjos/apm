@@ -94,6 +94,23 @@ struct PluginDefinition {
     is_paid: bool,
 }
 
+#[derive(Debug, Clone, Serialize, Deserialize)]
+struct InstallerDefinition {
+    name: String,
+    vendor: String,
+    app_paths: Vec<String>,
+    download_url: String,
+    homepage: String,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+struct BundleDefinition {
+    slug: String,
+    name: String,
+    description: String,
+    plugins: Vec<String>,
+}
+
 // ── Registry (mirrors src/registry/mod.rs) ────────────────────────────────────
 
 struct Registry {
@@ -223,6 +240,14 @@ fn published_registry_dir() -> PathBuf {
     d.pop();
     d.push("registry");
     d
+}
+
+fn published_installers_path() -> PathBuf {
+    published_registry_dir().join("installers.toml")
+}
+
+fn published_bundles_dir() -> PathBuf {
+    published_registry_dir().join("bundles")
 }
 
 fn is_placeholder_sha256(sha256: &str) -> bool {
@@ -594,6 +619,126 @@ fn test_published_registry_has_no_direct_downloads_for_catalog_only_records() {
         offenders.is_empty(),
         "catalog-only records must not expose direct install sources; offenders: {}",
         offenders.join(", ")
+    );
+}
+
+#[test]
+fn test_published_registry_installer_references_are_valid() {
+    let registry = Registry::load_from_cache(&published_registry_dir())
+        .expect("published registry should load");
+    let raw = std::fs::read_to_string(published_installers_path())
+        .expect("published installers.toml should exist");
+    let installers: HashMap<String, InstallerDefinition> =
+        toml::from_str(&raw).expect("published installers.toml should parse");
+
+    let mut issues = Vec::new();
+    for (key, installer) in &installers {
+        if installer.name.trim().is_empty() {
+            issues.push(format!("{key}: missing name"));
+        }
+        if installer.vendor.trim().is_empty() {
+            issues.push(format!("{key}: missing vendor"));
+        }
+        if installer.app_paths.is_empty() {
+            issues.push(format!("{key}: missing app_paths"));
+        }
+        for path in &installer.app_paths {
+            if !path.starts_with("/Applications/") || !path.ends_with(".app") {
+                issues.push(format!("{key}: suspicious app path {path}"));
+            }
+        }
+        if !installer.download_url.starts_with("https://") {
+            issues.push(format!("{key}: download_url must be https"));
+        }
+        if !installer.homepage.starts_with("https://") {
+            issues.push(format!("{key}: homepage must be https"));
+        }
+    }
+
+    for plugin in registry.plugins.values() {
+        if let Some(installer) = &plugin.installer {
+            if !installers.contains_key(installer) {
+                issues.push(format!("{}: unknown installer {installer}", plugin.slug));
+            }
+        }
+
+        let has_managed = plugin
+            .formats
+            .values()
+            .any(|source| source.download_type == Some(DownloadType::Managed))
+            || plugin.releases.iter().any(|release| {
+                release
+                    .formats
+                    .values()
+                    .any(|source| source.download_type == Some(DownloadType::Managed))
+            });
+        if has_managed && plugin.installer.is_none() {
+            issues.push(format!("{}: managed source missing installer", plugin.slug));
+        }
+    }
+
+    assert!(
+        issues.is_empty(),
+        "published installer metadata must be complete and referenced keys must exist: {}",
+        issues.join(", ")
+    );
+}
+
+#[test]
+fn test_published_registry_bundles_reference_installable_products() {
+    let registry = Registry::load_from_cache(&published_registry_dir())
+        .expect("published registry should load");
+    let mut issues = Vec::new();
+    let mut bundle_count = 0;
+
+    for entry in std::fs::read_dir(published_bundles_dir()).expect("published bundles dir") {
+        let path = entry.expect("bundle dir entry").path();
+        if path.extension().and_then(|ext| ext.to_str()) != Some("toml") {
+            continue;
+        }
+        bundle_count += 1;
+        let raw = std::fs::read_to_string(&path).expect("bundle file should be readable");
+        let bundle: BundleDefinition = toml::from_str(&raw)
+            .unwrap_or_else(|err| panic!("bundle file should parse: {}: {err}", path.display()));
+
+        if bundle.slug.trim().is_empty()
+            || bundle.name.trim().is_empty()
+            || bundle.description.trim().is_empty()
+        {
+            issues.push(format!("{}: missing required bundle text", path.display()));
+        }
+
+        let mut seen = HashSet::new();
+        for slug in &bundle.plugins {
+            if !seen.insert(slug) {
+                issues.push(format!("{}: duplicate member {slug}", bundle.slug));
+            }
+            let Some(plugin) = registry.find(slug) else {
+                issues.push(format!("{}: missing member {slug}", bundle.slug));
+                continue;
+            };
+            let product_type = plugin.product_type.as_ref().unwrap_or(&ProductType::Plugin);
+            let installable_product = matches!(
+                product_type,
+                ProductType::Plugin | ProductType::Bundle | ProductType::Daw | ProductType::Utility
+            );
+            if !installable_product {
+                issues.push(format!(
+                    "{}: member {slug} is catalog-only ({product_type:?})",
+                    bundle.slug
+                ));
+            }
+        }
+    }
+
+    assert!(
+        bundle_count > 0,
+        "published registry should include bundles"
+    );
+    assert!(
+        issues.is_empty(),
+        "published bundles must reference existing installable products: {}",
+        issues.join(", ")
     );
 }
 

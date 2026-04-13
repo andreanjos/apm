@@ -161,6 +161,25 @@ The published registry is a Git repo with:
 - `registry/bundles/*.toml`
 - `registry/plugins/<vendor>/<slug>.toml`
 
+`registry/installers.toml` defines vendor manager apps that plugin records can
+reference with `installer = "<key>"`. Example:
+
+```toml
+[native-access]
+name = "Native Access 2"
+vendor = "Native Instruments"
+app_paths = [
+  "/Applications/Native Access 2.app",
+  "/Applications/Native Access.app",
+]
+download_url = "https://www.native-instruments.com/en/specials/native-access/"
+homepage = "https://www.native-instruments.com/"
+```
+
+Curated install bundles live separately in `registry/bundles/*.toml`; product
+bundle SKUs still live in `registry/plugins/<vendor>/<slug>.toml` with
+`product_type = "bundle"`.
+
 ```toml
 slug         = "valhalla-supermassive"
 aliases      = ["supermassive"]
@@ -197,7 +216,7 @@ bundle_path  = "ValhallaSupermassive.component"
 | `name` | yes | Display name |
 | `vendor` | yes | Developer or company |
 | `version` | yes | Semver or freeform version string |
-| `product_type` | yes | `plugin`, `bundle`, `upgrade`, `subscription`, and similar catalog types |
+| `product_type` | yes | `plugin`, `bundle`, `expansion`, `preset_pack`, `sample_library`, `daw`, `utility`, `upgrade`, `subscription`, or `template` |
 | `description` | yes | One or two sentence description |
 | `category` | yes | Registry category such as `"effects"`, `"instruments"`, or `"daws"` |
 | `subcategory` | no | e.g. `"reverb"`, `"synthesizer"`, `"eq"` |
@@ -211,8 +230,8 @@ bundle_path  = "ValhallaSupermassive.component"
 | `formats.*` | at least one | Format-specific download info such as `au`, `vst3`, or `app` |
 | `url` | yes | Direct archive URL for `direct` downloads, or the official product/download page for `manual` and `managed` entries |
 | `sha256` | for direct downloads | SHA256 hex digest of the direct archive; manual and vendor-managed entries may leave this blank |
-| `install_type` | yes | `"dmg"`, `"pkg"`, or `"zip"` |
-| `download_type` | no | `"direct"`, `"manual"`, or `"managed"` |
+| `install_type` | yes | `"dmg"`, `"pkg"`, `"zip"`, or `"mas"` |
+| `download_type` | yes | `"direct"`, `"manual"`, or `"managed"`; older omitted values deserialize as `"direct"` for compatibility |
 | `bundle_path` | for dmg/zip | Path inside the archive to the plugin bundle |
 
 ## Contributing plugins
