@@ -14,8 +14,10 @@ homepage     = "https://www.audiodamage.com/pages/free-and-legacy"
 url           = "https://cdn.shopify.com/s/files/1/1550/9885/files/ADF03_FuzzPlus3_dcb31ce3-1a02-4063-89c7-a36aeb1aa3fa.zip"
 sha256        = "24b09ca1fcd08c4a4a57a1112a16c2d2583c5b60467fca3ec8304cc2e76975d2"
 install_type  = "zip"
+download_type = "direct"
 
 [formats.au]
 url           = "https://cdn.shopify.com/s/files/1/1550/9885/files/ADF03_FuzzPlus3_dcb31ce3-1a02-4063-89c7-a36aeb1aa3fa.zip"
 sha256        = "24b09ca1fcd08c4a4a57a1112a16c2d2583c5b60467fca3ec8304cc2e76975d2"
 install_type  = "zip"
+download_type = "direct"

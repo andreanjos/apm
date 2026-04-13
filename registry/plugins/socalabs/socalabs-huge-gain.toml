@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=HugeGain_Mac.zip"
 sha256        = "d04e026b896b7d62674b723ce818819f4e0fe12904add89fac84c2e01c1a25ba"
 install_type  = "zip"
 bundle_path   = "vst3/HugeGain.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=HugeGain_Mac.zip"
 sha256        = "d04e026b896b7d62674b723ce818819f4e0fe12904add89fac84c2e01c1a25ba"
 install_type  = "zip"
 bundle_path   = "au/HugeGain.component"
+download_type = "direct"

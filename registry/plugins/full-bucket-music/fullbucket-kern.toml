@@ -15,9 +15,11 @@ url           = "https://www.fullbucket.de/music/dl.php?file=kern_1_2_0_mac"
 sha256        = "16b5cc1a323d8d089e97c58246d68558a66f986a9576d528e8621ebd2cf37816"
 install_type  = "pkg"
 bundle_path   = "Kern.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.fullbucket.de/music/dl.php?file=kern_1_2_0_mac"
 sha256        = "16b5cc1a323d8d089e97c58246d68558a66f986a9576d528e8621ebd2cf37816"
 install_type  = "pkg"
 bundle_path   = "Kern.component"
+download_type = "direct"

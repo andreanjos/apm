@@ -15,9 +15,11 @@ url           = "https://www.voxengo.com/files/VoxengoSoundDelay_115_Mac_AU_AAX_
 sha256        = "289a16328403dbfd9bc9a5e52e20e079f720a372cefd0004e18eed0c1af32df5"
 install_type  = "dmg"
 bundle_path   = "VoxengoSoundDelay.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.voxengo.com/files/VoxengoSoundDelay_115_Mac_AU_AAX_VST_setup.dmg"
 sha256        = "289a16328403dbfd9bc9a5e52e20e079f720a372cefd0004e18eed0c1af32df5"
 install_type  = "dmg"
 bundle_path   = "VoxengoSoundDelay.component"
+download_type = "direct"

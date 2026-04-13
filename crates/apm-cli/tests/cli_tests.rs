@@ -742,32 +742,33 @@ fn test_import_skips_non_installable_catalog_item() {
     let official_dir = tmp_cache.path().join("apm/registries/official/plugins");
     std::fs::create_dir_all(&official_dir).expect("create official plugins");
     std::fs::write(
-        official_dir.join("bundle-import.toml"),
+        official_dir.join("subscription-import.toml"),
         r#"
-slug = "bundle-import"
-name = "Bundle Import"
-vendor = "Bundle Vendor"
+slug = "subscription-import"
+name = "Subscription Import"
+vendor = "Subscription Vendor"
 version = "1.0.0"
-description = "Bundle catalog item"
-category = "bundles"
-product_type = "bundle"
+description = "Subscription catalog item"
+category = "subscriptions"
+product_type = "subscription"
 license = "commercial"
-homepage = "https://example.com/bundle-import"
+homepage = "https://example.com/subscription-import"
 
 [formats.vst3]
-url = "https://example.com/bundle-import.zip"
-sha256 = "manual"
+url = "https://example.com/subscription-import"
+sha256 = ""
 install_type = "zip"
+download_type = "managed"
 "#,
     )
-    .expect("write bundle plugin");
+    .expect("write subscription plugin");
 
     let import_file = tmp_data.path().join("import.toml");
     std::fs::write(
         &import_file,
         r#"
 [[plugins]]
-name = "bundle-import"
+name = "subscription-import"
 version = "1.0.0"
 formats = ["vst3"]
 source = "official"
@@ -793,12 +794,58 @@ source = "official"
 
     let stdout = String::from_utf8_lossy(&output.stdout);
     assert!(
-        stdout.contains("bundle catalog item"),
+        stdout.contains("subscription catalog item"),
         "import should explain non-installable catalog item, got: {stdout}"
     );
     assert!(
         stdout.contains("0 installed, 1 skipped, 0 failed"),
         "non-installable import should count as skipped, got: {stdout}"
+    );
+}
+
+#[test]
+fn test_install_allows_installable_bundle_catalog_item() {
+    let (cfg, data, cache) = setup_fixture_env_with_state(None);
+    let plugin_dir = cache.path().join("apm/registries/official/plugins");
+    std::fs::write(
+        plugin_dir.join("direct-bundle-record.toml"),
+        r#"
+slug = "direct-bundle-record"
+name = "Direct Bundle Record"
+vendor = "Bundle Vendor"
+version = "1.0.0"
+description = "Installable bundle product"
+category = "bundles"
+product_type = "bundle"
+license = "freeware"
+homepage = "https://example.com/direct-bundle"
+
+[formats.vst3]
+url = "https://example.com/direct-bundle.zip"
+sha256 = "deadbeef"
+install_type = "zip"
+download_type = "direct"
+"#,
+    )
+    .expect("write direct bundle fixture");
+
+    let output = run_apm_with_env(
+        &["install", "direct-bundle-record", "--dry-run"],
+        &cfg,
+        &data,
+        &cache,
+    );
+
+    assert!(
+        output.status.success(),
+        "installable bundle should be accepted; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert!(
+        stdout.contains("Would install Direct Bundle Record"),
+        "dry-run should show bundle install plan, got: {stdout}"
     );
 }
 
@@ -1635,29 +1682,29 @@ fn test_buy_free_non_installable_catalog_item_does_not_suggest_install() {
     let (cfg, data, cache) = setup_fixture_env_with_state(None);
     let plugin_dir = cache.path().join("apm/registries/official/plugins");
     std::fs::write(
-        plugin_dir.join("free-bundle-record.toml"),
+        plugin_dir.join("free-preset-record.toml"),
         r#"
-slug = "free-bundle-record"
-name = "Free Bundle Record"
+slug = "free-preset-record"
+name = "Free Preset Record"
 vendor = "Catalog Vendor"
 version = "1.0.0"
-description = "Free bundle catalog record, not a direct install target"
+description = "Free preset catalog record, not a direct install target"
 category = "effects"
-product_type = "bundle"
+product_type = "preset_pack"
 license = "freeware"
-homepage = "https://example.com/free-bundle"
+homepage = "https://example.com/free-preset"
 is_paid = false
 
 [formats.vst3]
-url = "https://example.com/free-bundle"
+url = "https://example.com/free-preset"
 sha256 = "manual"
 install_type = "zip"
 download_type = "manual"
 "#,
     )
-    .expect("write free bundle fixture");
+    .expect("write free preset fixture");
 
-    let output = run_apm_with_env(&["buy", "free-bundle-record"], &cfg, &data, &cache);
+    let output = run_apm_with_env(&["buy", "free-preset-record"], &cfg, &data, &cache);
 
     assert!(
         output.status.success(),

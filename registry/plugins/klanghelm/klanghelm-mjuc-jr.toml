@@ -15,9 +15,11 @@ url           = "https://klanghelm.com/free/MJUCjrdl.php?id=3"
 sha256        = "5673581ac610e5a1308539c19d4489c470d3a2eb103ba646ecd958c182cbd5c2"
 install_type  = "zip"
 bundle_path   = "MJUCjr.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://klanghelm.com/free/MJUCjrdl.php?id=3"
 sha256        = "5673581ac610e5a1308539c19d4489c470d3a2eb103ba646ecd958c182cbd5c2"
 install_type  = "zip"
 bundle_path   = "MJUCjr.component"
+download_type = "direct"

@@ -15,9 +15,11 @@ url           = "https://github.com/surge-synthesizer/monique-monosynth/releases
 sha256        = "7a3097c486c002d6533b55bae6ffd3024e9ccbc266e79ef008d2763719925843"
 install_type  = "dmg"
 bundle_path   = "Monique.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://github.com/surge-synthesizer/monique-monosynth/releases/download/Nightly/moniquemonosynth-macOS-2024-08-07-df7d339.dmg"
 sha256        = "7a3097c486c002d6533b55bae6ffd3024e9ccbc266e79ef008d2763719925843"
 install_type  = "dmg"
 bundle_path   = "Monique.component"
+download_type = "direct"

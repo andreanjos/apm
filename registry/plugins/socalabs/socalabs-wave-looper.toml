@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=WaveLooper_Mac.zip"
 sha256        = "b77c5b4b63824ebea0c217ae45a16e0bc131a7c62d1946ff80996d5711ba6063"
 install_type  = "zip"
 bundle_path   = "vst3/WaveLooper.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=WaveLooper_Mac.zip"
 sha256        = "b77c5b4b63824ebea0c217ae45a16e0bc131a7c62d1946ff80996d5711ba6063"
 install_type  = "zip"
 bundle_path   = "au/WaveLooper.component"
+download_type = "direct"

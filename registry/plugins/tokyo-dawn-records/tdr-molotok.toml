@@ -15,12 +15,14 @@ url           = "https://www.tokyodawn.net/labs/Molotok/1.0.7/TDR%20Molotok.zip"
 sha256        = "29b65ea823f5b34f5d0e2d1e556b7f92a9889d07bf6fa20dbb40207ca50c288f"
 install_type  = "zip"
 bundle_path   = "TDR Molotok.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.tokyodawn.net/labs/Molotok/1.0.7/TDR%20Molotok.zip"
 sha256        = "29b65ea823f5b34f5d0e2d1e556b7f92a9889d07bf6fa20dbb40207ca50c288f"
 install_type  = "zip"
 bundle_path   = "TDR Molotok.component"
+download_type = "direct"
 
 [[releases]]
 version = "1.0.6"
@@ -29,12 +31,12 @@ version = "1.0.6"
 url           = "https://www.tokyodawn.net/labs/Molotok/1.0.6/TDR%20Molotok.zip"
 sha256        = "1941adfb18bef4859fc76d499321fb87334b7996c3e24c1be1cc32f881518151"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://www.tokyodawn.net/labs/Molotok/1.0.6/TDR%20Molotok.zip"
 sha256        = "1941adfb18bef4859fc76d499321fb87334b7996c3e24c1be1cc32f881518151"
 install_type  = "zip"
-
+download_type = "direct"
 [[releases]]
 version = "1.0.5"
 
@@ -42,12 +44,12 @@ version = "1.0.5"
 url           = "https://www.tokyodawn.net/labs/Molotok/1.0.5/TDR%20Molotok.zip"
 sha256        = "f08968650bbe4facce0ba8a35313742b9a0882064fd35cae1af389d4e5de60ce"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://www.tokyodawn.net/labs/Molotok/1.0.5/TDR%20Molotok.zip"
 sha256        = "f08968650bbe4facce0ba8a35313742b9a0882064fd35cae1af389d4e5de60ce"
 install_type  = "zip"
-
+download_type = "direct"
 [[releases]]
 version = "1.0.4"
 
@@ -55,8 +57,9 @@ version = "1.0.4"
 url           = "https://www.tokyodawn.net/labs/Molotok/1.0.4/TDR%20Molotok.zip"
 sha256        = "3db74d5da20033981a61afb2276f359da4bfca7f418843378425efc4b85a1907"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://www.tokyodawn.net/labs/Molotok/1.0.4/TDR%20Molotok.zip"
 sha256        = "3db74d5da20033981a61afb2276f359da4bfca7f418843378425efc4b85a1907"
 install_type  = "zip"
+download_type = "direct"

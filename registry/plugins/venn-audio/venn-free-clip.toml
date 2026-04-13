@@ -15,9 +15,11 @@ url           = "https://www.vennaudio.com/downloads/Free%20Suite/Free%20Suite_M
 sha256        = "d0e0d4cd46a5793ddc76877ce5d411786c24bb179dde7fe2aa267489ecd92d07"
 install_type  = "dmg"
 bundle_path   = "Free Clip.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.vennaudio.com/downloads/Free%20Suite/Free%20Suite_MacOS_1.0.2_07Dec2023_2259.dmg"
 sha256        = "d0e0d4cd46a5793ddc76877ce5d411786c24bb179dde7fe2aa267489ecd92d07"
 install_type  = "dmg"
 bundle_path   = "Free Clip.component"
+download_type = "direct"

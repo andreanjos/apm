@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=SN76489_Mac.zip"
 sha256        = "b483d3a98f458ae764464f4efd1e0a4832edc2c79c59419977ddbd569ba212fa"
 install_type  = "zip"
 bundle_path   = "vst3/SN76489.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=SN76489_Mac.zip"
 sha256        = "b483d3a98f458ae764464f4efd1e0a4832edc2c79c59419977ddbd569ba212fa"
 install_type  = "zip"
 bundle_path   = "au/SN76489.component"
+download_type = "direct"

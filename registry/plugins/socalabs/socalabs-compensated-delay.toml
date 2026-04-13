@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=CompensatedDelay_Mac.zip"
 sha256        = "b3260890f5ea3e4f447bb88f330984e46d62fec2a66ae0f7c5403fdf2a0e113f"
 install_type  = "zip"
 bundle_path   = "vst3/CompensatedDelay.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=CompensatedDelay_Mac.zip"
 sha256        = "b3260890f5ea3e4f447bb88f330984e46d62fec2a66ae0f7c5403fdf2a0e113f"
 install_type  = "zip"
 bundle_path   = "au/CompensatedDelay.component"
+download_type = "direct"

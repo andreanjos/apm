@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=Wavetable_Mac.zip"
 sha256        = "63df61285b8a9605246fcc0eae4cedef0fc1082a57de511b4359cf4f6174fdca"
 install_type  = "zip"
 bundle_path   = "vst3/Wavetable.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=Wavetable_Mac.zip"
 sha256        = "63df61285b8a9605246fcc0eae4cedef0fc1082a57de511b4359cf4f6174fdca"
 install_type  = "zip"
 bundle_path   = "au/Wavetable.component"
+download_type = "direct"

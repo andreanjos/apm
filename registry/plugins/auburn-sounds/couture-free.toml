@@ -15,9 +15,11 @@ url           = "https://www.auburnsounds.com/downloads/Couture-FREE-1.10.zip"
 sha256        = "29889576676d1aefb3eb06afcd83377519db61ea515ac69396fae2de8c5b8ff3"
 install_type  = "zip"
 bundle_path   = "Couture.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.auburnsounds.com/downloads/Couture-FREE-1.10.zip"
 sha256        = "29889576676d1aefb3eb06afcd83377519db61ea515ac69396fae2de8c5b8ff3"
 install_type  = "zip"
 bundle_path   = "Couture.component"
+download_type = "direct"

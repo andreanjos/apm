@@ -15,9 +15,11 @@ url           = "https://www.fullbucket.de/music/dl.php?file=stigma_1_3_2_mac"
 sha256        = "441588f558f131ceabc225071730f0dd040dfdc8f69bae5376d22453924d5960"
 install_type  = "pkg"
 bundle_path   = "Stigma.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.fullbucket.de/music/dl.php?file=stigma_1_3_2_mac"
 sha256        = "441588f558f131ceabc225071730f0dd040dfdc8f69bae5376d22453924d5960"
 install_type  = "pkg"
 bundle_path   = "Stigma.component"
+download_type = "direct"

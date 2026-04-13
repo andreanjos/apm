@@ -15,9 +15,11 @@ url           = "https://tal-software.com/downloads/plugins/TAL-BassLine-101-ins
 sha256        = "d3dba9e92a8c0c5a66c9c5911b390a8a3f8753008446f6e5bf3785166c45f5e5"
 install_type  = "zip"
 bundle_path   = "TAL-BassLine-101.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://tal-software.com/downloads/plugins/TAL-BassLine-101-installer_macos.zip"
 sha256        = "d3dba9e92a8c0c5a66c9c5911b390a8a3f8753008446f6e5bf3785166c45f5e5"
 install_type  = "zip"
 bundle_path   = "TAL-BassLine-101.component"
+download_type = "direct"

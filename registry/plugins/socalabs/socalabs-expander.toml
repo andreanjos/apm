@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=Expander_Mac.zip"
 sha256        = "54f76c752525f1b1be8abba6ff263bcd795ad725cec753ac74c3501369af4705"
 install_type  = "zip"
 bundle_path   = "vst3/Expander.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=Expander_Mac.zip"
 sha256        = "54f76c752525f1b1be8abba6ff263bcd795ad725cec753ac74c3501369af4705"
 install_type  = "zip"
 bundle_path   = "au/Expander.component"
+download_type = "direct"

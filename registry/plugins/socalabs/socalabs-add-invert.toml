@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=AddInvert_Mac.zip"
 sha256        = "508eff3aa6566e07cf4658e7000645ea5987c81f8c1456d3aecc6313647505f1"
 install_type  = "zip"
 bundle_path   = "vst3/AddInvert.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=AddInvert_Mac.zip"
 sha256        = "508eff3aa6566e07cf4658e7000645ea5987c81f8c1456d3aecc6313647505f1"
 install_type  = "zip"
 bundle_path   = "au/AddInvert.component"
+download_type = "direct"

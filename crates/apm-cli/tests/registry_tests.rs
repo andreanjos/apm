@@ -529,6 +529,74 @@ fn test_published_registry_has_no_unverified_direct_downloads() {
     );
 }
 
+#[test]
+fn test_published_registry_declares_download_type_for_all_formats() {
+    let registry = Registry::load_from_cache(&published_registry_dir())
+        .expect("published registry should load");
+
+    let mut missing = Vec::new();
+    for plugin in registry.plugins.values() {
+        for format in plugin.formats.keys() {
+            if plugin.formats[format].download_type.is_none() {
+                missing.push(format!("{}:{format:?}", plugin.slug));
+            }
+        }
+        for release in &plugin.releases {
+            for (format, source) in &release.formats {
+                if source.download_type.is_none() {
+                    missing.push(format!("{}@{}:{format:?}", plugin.slug, release.version));
+                }
+            }
+        }
+    }
+
+    assert!(
+        missing.is_empty(),
+        "published format records must declare download_type explicitly; missing: {}",
+        missing.join(", ")
+    );
+}
+
+#[test]
+fn test_published_registry_has_no_direct_downloads_for_catalog_only_records() {
+    let registry = Registry::load_from_cache(&published_registry_dir())
+        .expect("published registry should load");
+
+    let mut offenders = Vec::new();
+    for plugin in registry.plugins.values() {
+        let product_type = plugin.product_type.as_ref().unwrap_or(&ProductType::Plugin);
+        let installable_product = matches!(
+            product_type,
+            ProductType::Plugin | ProductType::Bundle | ProductType::Daw | ProductType::Utility
+        );
+        if installable_product {
+            continue;
+        }
+
+        for (format, source) in &plugin.formats {
+            if source.download_type == Some(DownloadType::Direct) {
+                offenders.push(format!("{} ({product_type:?}):{format:?}", plugin.slug));
+            }
+        }
+        for release in &plugin.releases {
+            for (format, source) in &release.formats {
+                if source.download_type == Some(DownloadType::Direct) {
+                    offenders.push(format!(
+                        "{}@{} ({product_type:?}):{format:?}",
+                        plugin.slug, release.version
+                    ));
+                }
+            }
+        }
+    }
+
+    assert!(
+        offenders.is_empty(),
+        "catalog-only records must not expose direct install sources; offenders: {}",
+        offenders.join(", ")
+    );
+}
+
 fn normalize_catalog_key(value: &str) -> String {
     value
         .to_lowercase()

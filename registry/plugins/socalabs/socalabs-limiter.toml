@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=Limiter_Mac.zip"
 sha256        = "0b2bc9a8798c461172b05ac9243012572be31074b69ccda4a5f6d72068dd95a4"
 install_type  = "zip"
 bundle_path   = "vst3/Limiter.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=Limiter_Mac.zip"
 sha256        = "0b2bc9a8798c461172b05ac9243012572be31074b69ccda4a5f6d72068dd95a4"
 install_type  = "zip"
 bundle_path   = "au/Limiter.component"
+download_type = "direct"

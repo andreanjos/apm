@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=MidiLooper_Mac.zip"
 sha256        = "3682307720b1b93e87a1d1f573ad802b46abec3faed2d00d897e12ab15ff46e5"
 install_type  = "zip"
 bundle_path   = "vst3/MidiLooper.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=MidiLooper_Mac.zip"
 sha256        = "3682307720b1b93e87a1d1f573ad802b46abec3faed2d00d897e12ab15ff46e5"
 install_type  = "zip"
 bundle_path   = "au/MidiLooper.component"
+download_type = "direct"

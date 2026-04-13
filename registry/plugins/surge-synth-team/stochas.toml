@@ -15,12 +15,14 @@ url           = "https://github.com/surge-synthesizer/stochas/releases/download/
 sha256        = "36adaa836548d6b7e4424c25ab1b7b7322ab90a4cd1d75170ce5c24df437283a"
 install_type  = "dmg"
 bundle_path   = "Stochas.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://github.com/surge-synthesizer/stochas/releases/download/v1.3.13/stochas-macOS-1.3.13.dmg"
 sha256        = "36adaa836548d6b7e4424c25ab1b7b7322ab90a4cd1d75170ce5c24df437283a"
 install_type  = "dmg"
 bundle_path   = "Stochas.component"
+download_type = "direct"
 
 [[releases]]
 version = "1.3.12"
@@ -29,12 +31,12 @@ version = "1.3.12"
 url           = "https://github.com/surge-synthesizer/stochas/releases/download/v1.3.12/stochas-macOS-1.3.12.dmg"
 sha256        = "28beefd5358eb8bfeed2bc776d9a6ad505ccd154a55aadbb858a0034be78222b"
 install_type  = "dmg"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/surge-synthesizer/stochas/releases/download/v1.3.12/stochas-macOS-1.3.12.dmg"
 sha256        = "28beefd5358eb8bfeed2bc776d9a6ad505ccd154a55aadbb858a0034be78222b"
 install_type  = "dmg"
-
+download_type = "direct"
 [[releases]]
 version = "1.3.11"
 
@@ -42,12 +44,12 @@ version = "1.3.11"
 url           = "https://github.com/surge-synthesizer/stochas/releases/download/v1.3.11/stochas-macOS-1.3.11.dmg"
 sha256        = "5988764230259b56de013bee7e4ee719dce56821ae5a22ec181cd88b7320556b"
 install_type  = "dmg"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/surge-synthesizer/stochas/releases/download/v1.3.11/stochas-macOS-1.3.11.dmg"
 sha256        = "5988764230259b56de013bee7e4ee719dce56821ae5a22ec181cd88b7320556b"
 install_type  = "dmg"
-
+download_type = "direct"
 [[releases]]
 version = "1.3.10"
 
@@ -55,8 +57,9 @@ version = "1.3.10"
 url           = "https://github.com/surge-synthesizer/stochas/releases/download/v1.3.10/stochas-1.3.10.-mac.dmg"
 sha256        = "a26ea768fd376c87f5deda6291b35a8d8c17ed24156b21e8eef3d77520b13873"
 install_type  = "dmg"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/surge-synthesizer/stochas/releases/download/v1.3.10/stochas-1.3.10.-mac.dmg"
 sha256        = "a26ea768fd376c87f5deda6291b35a8d8c17ed24156b21e8eef3d77520b13873"
 install_type  = "dmg"
+download_type = "direct"

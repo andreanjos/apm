@@ -15,9 +15,11 @@ url           = "https://kilohearts.com/files/releases/installer/Kilohearts%20Of
 sha256        = "89635f100c4f9e6a643cf0bec39d1f669277838714d3f40b14d5f88f3b9fe405"
 install_type  = "dmg"
 bundle_path   = "Snap Heap.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://kilohearts.com/files/releases/installer/Kilohearts%20Offline%20Installer.dmg"
 sha256        = "89635f100c4f9e6a643cf0bec39d1f669277838714d3f40b14d5f88f3b9fe405"
 install_type  = "dmg"
 bundle_path   = "Snap Heap.component"
+download_type = "direct"

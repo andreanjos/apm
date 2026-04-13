@@ -15,9 +15,11 @@ url           = "https://www.fullbucket.de/music/dl.php?file=whispair_1_1_5_mac"
 sha256        = "79e710986d22c78b68cdd6e485819fdbc7957ece9dfc774f3cb6686042ea831f"
 install_type  = "pkg"
 bundle_path   = "WhispAir.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.fullbucket.de/music/dl.php?file=whispair_1_1_5_mac"
 sha256        = "79e710986d22c78b68cdd6e485819fdbc7957ece9dfc774f3cb6686042ea831f"
 install_type  = "pkg"
 bundle_path   = "WhispAir.component"
+download_type = "direct"

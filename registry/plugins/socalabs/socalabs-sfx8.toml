@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=SFX8_Mac.zip"
 sha256        = "eb3042b47ffe3071b577a57ee776533219010309058cc098b2e1eb5f565d8d02"
 install_type  = "zip"
 bundle_path   = "vst3/SFX8.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=SFX8_Mac.zip"
 sha256        = "eb3042b47ffe3071b577a57ee776533219010309058cc098b2e1eb5f565d8d02"
 install_type  = "zip"
 bundle_path   = "au/SFX8.component"
+download_type = "direct"

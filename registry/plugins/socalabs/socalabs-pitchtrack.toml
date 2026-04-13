@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=PitchTrack_Mac.zip"
 sha256        = "0352fef430e1715b44e1fd4fa98ce0fbbc2d734166753beef6e6bff4313351b6"
 install_type  = "zip"
 bundle_path   = "vst3/PitchTrack.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=PitchTrack_Mac.zip"
 sha256        = "0352fef430e1715b44e1fd4fa98ce0fbbc2d734166753beef6e6bff4313351b6"
 install_type  = "zip"
 bundle_path   = "au/PitchTrack.component"
+download_type = "direct"

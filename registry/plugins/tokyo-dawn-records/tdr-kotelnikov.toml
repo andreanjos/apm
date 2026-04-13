@@ -15,12 +15,14 @@ url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.7/TDR%20Kotelniko
 sha256        = "59e580a260fb66db6f608b92434c9cf9e426eb83734995b5d4633930783389da"
 install_type  = "zip"
 bundle_path   = "TDR Kotelnikov.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.7/TDR%20Kotelnikov.zip"
 sha256        = "59e580a260fb66db6f608b92434c9cf9e426eb83734995b5d4633930783389da"
 install_type  = "zip"
 bundle_path   = "TDR Kotelnikov.component"
+download_type = "direct"
 
 [[releases]]
 version = "1.6.5"
@@ -29,12 +31,12 @@ version = "1.6.5"
 url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.5/TDR%20Kotelnikov.zip"
 sha256        = "22dfe5c1b027fef009a5410c90b892608f48aa77e4a7e661210edf51b8d3da52"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.5/TDR%20Kotelnikov.zip"
 sha256        = "22dfe5c1b027fef009a5410c90b892608f48aa77e4a7e661210edf51b8d3da52"
 install_type  = "zip"
-
+download_type = "direct"
 [[releases]]
 version = "1.6.4"
 
@@ -42,12 +44,12 @@ version = "1.6.4"
 url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.4/TDR%20Kotelnikov.zip"
 sha256        = "eec5ad8d12ed25bb6501ed5058fa309ddb61d8c8ebf1a1b28c621b4f8b1ba2ee"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.4/TDR%20Kotelnikov.zip"
 sha256        = "eec5ad8d12ed25bb6501ed5058fa309ddb61d8c8ebf1a1b28c621b4f8b1ba2ee"
 install_type  = "zip"
-
+download_type = "direct"
 [[releases]]
 version = "1.6.3"
 
@@ -55,8 +57,9 @@ version = "1.6.3"
 url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.3/TDR%20Kotelnikov.zip"
 sha256        = "9f3b45a67db6510f1e0ec7eec99cbe6cb6c41e8a1744963a92833cd6b33786d5"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://www.tokyodawn.net/labs/Kotelnikov/1.6.3/TDR%20Kotelnikov.zip"
 sha256        = "9f3b45a67db6510f1e0ec7eec99cbe6cb6c41e8a1744963a92833cd6b33786d5"
 install_type  = "zip"
+download_type = "direct"

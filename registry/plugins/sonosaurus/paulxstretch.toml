@@ -16,9 +16,11 @@ url           = "https://github.com/essej/paulxstretch/releases/download/v1.6.0/
 sha256        = "c5bcba5215076f629c3442902eaba4825a7f71ac33fc2d793c7cb729bdeb17ad"
 install_type  = "dmg"
 bundle_path   = "PaulXStretch.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://github.com/essej/paulxstretch/releases/download/v1.6.0/paulxstretch-1.6.0-mac.dmg"
 sha256        = "c5bcba5215076f629c3442902eaba4825a7f71ac33fc2d793c7cb729bdeb17ad"
 install_type  = "dmg"
 bundle_path   = "PaulXStretch.component"
+download_type = "direct"

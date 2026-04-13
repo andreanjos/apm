@@ -15,9 +15,11 @@ url           = "https://www.voxengo.com/files/VoxengoMSED_313_Mac_AU_AAX_VST_se
 sha256        = "4d54b4885226664866fa073545ea4d74a759ed5bfafd87d6309974d19f11648c"
 install_type  = "dmg"
 bundle_path   = "VoxengoMSED.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.voxengo.com/files/VoxengoMSED_313_Mac_AU_AAX_VST_setup.dmg"
 sha256        = "4d54b4885226664866fa073545ea4d74a759ed5bfafd87d6309974d19f11648c"
 install_type  = "dmg"
 bundle_path   = "VoxengoMSED.component"
+download_type = "direct"

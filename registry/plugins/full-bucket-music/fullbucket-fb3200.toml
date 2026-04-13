@@ -14,8 +14,10 @@ homepage     = "https://www.fullbucket.de/music/fb3200.html"
 url           = "https://fullbucket.de/music/dl.php?file=fb3200_1_1_2_mac"
 sha256        = "37c33ccc06ccaddd41a128bd42b122e6b338998d4d5713c0e5ac8bd0a14383e1"
 install_type  = "pkg"
+download_type = "direct"
 
 [formats.au]
 url           = "https://fullbucket.de/music/dl.php?file=fb3200_1_1_2_mac"
 sha256        = "37c33ccc06ccaddd41a128bd42b122e6b338998d4d5713c0e5ac8bd0a14383e1"
 install_type  = "pkg"
+download_type = "direct"

@@ -265,12 +265,13 @@ impl PluginDefinition {
     }
 
     /// True for catalog records that apm can reasonably handle through
-    /// `apm install`: audio plugins plus app-style DAWs/utilities. Other product
-    /// types are searchable/browsable but not direct install targets.
+    /// `apm install`: audio plugins, installable product bundles, and app-style
+    /// DAWs/utilities. Commerce-only/content-only records remain searchable but
+    /// are not direct install targets.
     pub fn is_installable_product(&self) -> bool {
         matches!(
             self.product_type,
-            ProductType::Plugin | ProductType::Daw | ProductType::Utility
+            ProductType::Plugin | ProductType::Bundle | ProductType::Daw | ProductType::Utility
         )
     }
 

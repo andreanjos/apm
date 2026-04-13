@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=Compressor_Mac.zip"
 sha256        = "de95a9d15ccf265b0b771255336fe0ea7629fdcf3308290775b82c5441230151"
 install_type  = "zip"
 bundle_path   = "vst3/Compressor.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=Compressor_Mac.zip"
 sha256        = "de95a9d15ccf265b0b771255336fe0ea7629fdcf3308290775b82c5441230151"
 install_type  = "zip"
 bundle_path   = "au/Compressor.component"
+download_type = "direct"

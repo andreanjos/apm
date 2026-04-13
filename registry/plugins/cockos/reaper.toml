@@ -16,6 +16,7 @@ url           = "https://www.reaper.fm/files/7.x/reaper728_universal.dmg"
 sha256        = "6e1ac1217ac4de06808e9aab3ad14af40c1bdeb28c21c91886940a562a016ea6"
 install_type  = "dmg"
 bundle_path   = "REAPER.app"
+download_type = "direct"
 
 [[releases]]
 version = "7.27"
@@ -24,7 +25,7 @@ version = "7.27"
 url           = "https://www.reaper.fm/files/7.x/reaper727_universal.dmg"
 sha256        = "8c3a9db66d16e6617c53f2898bbbd1b1ef6d4f65f8015c0752dbd70beea20033"
 install_type  = "dmg"
-
+download_type = "direct"
 [[releases]]
 version = "7.26"
 
@@ -32,7 +33,7 @@ version = "7.26"
 url           = "https://www.reaper.fm/files/7.x/reaper726_universal.dmg"
 sha256        = "775926cba6245d0e49debde7c16f391e75adffa566a08ed9eaaa2c7d9e370fee"
 install_type  = "dmg"
-
+download_type = "direct"
 [[releases]]
 version = "7.25"
 
@@ -40,3 +41,4 @@ version = "7.25"
 url           = "https://www.reaper.fm/files/7.x/reaper725_universal.dmg"
 sha256        = "a420c3222e0099a794eda28d663eff820a7a87f21cfbb04f6c6adaf7f5e7d495"
 install_type  = "dmg"
+download_type = "direct"

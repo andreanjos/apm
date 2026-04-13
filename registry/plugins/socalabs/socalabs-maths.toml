@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=Maths_Mac.zip"
 sha256        = "389f73ed823f66b55eea5d814f8bb20068c5b10bf055775697e1ba9a9e644c92"
 install_type  = "zip"
 bundle_path   = "vst3/Maths.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=Maths_Mac.zip"
 sha256        = "389f73ed823f66b55eea5d814f8bb20068c5b10bf055775697e1ba9a9e644c92"
 install_type  = "zip"
 bundle_path   = "au/Maths.component"
+download_type = "direct"

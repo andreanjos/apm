@@ -4,7 +4,7 @@ vendor       = "Digital Suburban"
 version      = "1.0.1"
 description  = "FM synthesizer closely modeled on the Yamaha DX7, with support for loading original DX7 SysEx patches and a rich built-in patch library."
 category     = "instruments"
-product_type = "preset_pack"
+product_type = "plugin"
 subcategory  = "synthesizer"
 license      = "GPL-3.0"
 tags         = ["synth", "synthesizer", "fm", "dx7", "yamaha", "free", "gpl", "retro", "vintage"]
@@ -15,12 +15,14 @@ url           = "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed
 sha256        = "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8"
 install_type  = "dmg"
 bundle_path   = "Dexed.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-macOS.dmg"
 sha256        = "a6505103869d15400e7bed1d988d9dd155d6d8204a3d532f5301966ae7507ad8"
 install_type  = "dmg"
 bundle_path   = "Dexed.component"
+download_type = "direct"
 
 [[releases]]
 version = "0.9.9"
@@ -29,12 +31,12 @@ version = "0.9.9"
 url           = "https://github.com/asb2m10/dexed/releases/download/v0.9.9/Dexed-0.9.9-macOS.dmg"
 sha256        = "d747015bcd6d8e0714e87ca8a679ff4861a4c27c73339051ecfa52d1928e8ff8"
 install_type  = "dmg"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/asb2m10/dexed/releases/download/v0.9.9/Dexed-0.9.9-macOS.dmg"
 sha256        = "d747015bcd6d8e0714e87ca8a679ff4861a4c27c73339051ecfa52d1928e8ff8"
 install_type  = "dmg"
-
+download_type = "direct"
 [[releases]]
 version = "0.9.8"
 
@@ -42,12 +44,12 @@ version = "0.9.8"
 url           = "https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-macos.zip"
 sha256        = "3be32f98e56b40d9555a4069368c7307b8bae3368459bb087cf6195ae7538704"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/asb2m10/dexed/releases/download/v0.9.8/dexed-0.9.8-macos.zip"
 sha256        = "3be32f98e56b40d9555a4069368c7307b8bae3368459bb087cf6195ae7538704"
 install_type  = "zip"
-
+download_type = "direct"
 [[releases]]
 version = "0.9.7"
 
@@ -55,8 +57,9 @@ version = "0.9.7"
 url           = "https://github.com/asb2m10/dexed/releases/download/v0.9.7/dexed-0.9.7-macos.zip"
 sha256        = "b4357157fbdfc453c56ea02799978571624d8506c4dd728150f85ead798f3330"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/asb2m10/dexed/releases/download/v0.9.7/dexed-0.9.7-macos.zip"
 sha256        = "b4357157fbdfc453c56ea02799978571624d8506c4dd728150f85ead798f3330"
 install_type  = "zip"
+download_type = "direct"

@@ -15,9 +15,11 @@ url           = "https://www.voxengo.com/files/VoxengoSPAN_323_Mac_AU_AAX_VST_se
 sha256        = "82685deeac6060b72621516c7e524730345f06942ace2e32324cacd55f41c476"
 install_type  = "dmg"
 bundle_path   = "VoxengoSPAN.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.voxengo.com/files/VoxengoSPAN_323_Mac_AU_AAX_VST_setup.dmg"
 sha256        = "82685deeac6060b72621516c7e524730345f06942ace2e32324cacd55f41c476"
 install_type  = "dmg"
 bundle_path   = "VoxengoSPAN.component"
+download_type = "direct"

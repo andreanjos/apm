@@ -15,9 +15,11 @@ url           = "https://www.fullbucket.de/music/dl.php?file=fbdelay_2_0_3_mac"
 sha256        = "0cddf534ef094aa0d72a80d194814f65a00851d6184306df5aa5d651b0612428"
 install_type  = "pkg"
 bundle_path   = "FBDelay.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.fullbucket.de/music/dl.php?file=fbdelay_2_0_3_mac"
 sha256        = "0cddf534ef094aa0d72a80d194814f65a00851d6184306df5aa5d651b0612428"
 install_type  = "pkg"
 bundle_path   = "FBDelay.component"
+download_type = "direct"

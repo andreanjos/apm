@@ -15,9 +15,11 @@ url           = "https://www.fullbucket.de/music/dl.php?file=scrooo_2_0_4_mac"
 sha256        = "53fbe9bb1bd84e2bbab3481334583e2b9e27c7d517fbf75bd16093aecf3b69de"
 install_type  = "pkg"
 bundle_path   = "TheScrooo.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.fullbucket.de/music/dl.php?file=scrooo_2_0_4_mac"
 sha256        = "53fbe9bb1bd84e2bbab3481334583e2b9e27c7d517fbf75bd16093aecf3b69de"
 install_type  = "pkg"
 bundle_path   = "TheScrooo.component"
+download_type = "direct"

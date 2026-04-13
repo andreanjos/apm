@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=SID_Mac.zip"
 sha256        = "3bed2b637a786c03f24598d0f8bb3d47995bae853f425a1800635d3da2ddb08b"
 install_type  = "zip"
 bundle_path   = "vst3/SID.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=SID_Mac.zip"
 sha256        = "3bed2b637a786c03f24598d0f8bb3d47995bae853f425a1800635d3da2ddb08b"
 install_type  = "zip"
 bundle_path   = "au/SID.component"
+download_type = "direct"

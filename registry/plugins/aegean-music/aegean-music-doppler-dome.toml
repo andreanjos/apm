@@ -15,9 +15,11 @@ url           = "https://aegeanmusic.com/sitedownload/Doppler-Dome-Mac.dmg"
 sha256        = "73bca5f1e716cc8e335bdd32136f89cc9b7892ee60ce49223f1b81ac308feefa"
 install_type  = "dmg"
 bundle_path   = "Doppler Dome.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://aegeanmusic.com/sitedownload/Doppler-Dome-Mac.dmg"
 sha256        = "73bca5f1e716cc8e335bdd32136f89cc9b7892ee60ce49223f1b81ac308feefa"
 install_type  = "dmg"
 bundle_path   = "Doppler Dome.component"
+download_type = "direct"

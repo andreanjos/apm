@@ -14,8 +14,10 @@ homepage     = "https://tytel.org/helm/"
 url           = "https://tytel.org/static/dist/Helm_v0_9_0_r.pkg"
 sha256        = "1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf"
 install_type  = "pkg"
+download_type = "direct"
 
 [formats.au]
 url           = "https://tytel.org/static/dist/Helm_v0_9_0_r.pkg"
 sha256        = "1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf"
 install_type  = "pkg"
+download_type = "direct"

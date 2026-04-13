@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=StereoProcessor_Mac.zip"
 sha256        = "19221af9f6fdecbab95397ce97d720cb37c31c4e42ecf7b05f63072a62a7bc7b"
 install_type  = "zip"
 bundle_path   = "vst3/StereoProcessor.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=StereoProcessor_Mac.zip"
 sha256        = "19221af9f6fdecbab95397ce97d720cb37c31c4e42ecf7b05f63072a62a7bc7b"
 install_type  = "zip"
 bundle_path   = "au/StereoProcessor.component"
+download_type = "direct"

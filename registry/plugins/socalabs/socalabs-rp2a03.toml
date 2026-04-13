@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=RP2A03_Mac.zip"
 sha256        = "1d5611ec1c424c47943a1b8456722a40dc65871985dc868cc63cc5bdbc0eaf3f"
 install_type  = "zip"
 bundle_path   = "vst3/RP2A03.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=RP2A03_Mac.zip"
 sha256        = "1d5611ec1c424c47943a1b8456722a40dc65871985dc868cc63cc5bdbc0eaf3f"
 install_type  = "zip"
 bundle_path   = "au/RP2A03.component"
+download_type = "direct"

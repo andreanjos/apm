@@ -14,8 +14,10 @@ homepage     = "https://www.fullbucket.de/music/qyooo.html"
 url           = "https://fullbucket.de/music/dl.php?file=qyooo_1_2_1_mac"
 sha256        = "e0fcde90d6516d6c05a2942a32e9a877e8293b00bcbfce6a1b52906bce005c2b"
 install_type  = "pkg"
+download_type = "direct"
 
 [formats.au]
 url           = "https://fullbucket.de/music/dl.php?file=qyooo_1_2_1_mac"
 sha256        = "e0fcde90d6516d6c05a2942a32e9a877e8293b00bcbfce6a1b52906bce005c2b"
 install_type  = "pkg"
+download_type = "direct"

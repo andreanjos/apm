@@ -15,9 +15,11 @@ url           = "https://www.fullbucket.de/music/dl.php?file=monofury_2_3_2_mac"
 sha256        = "6db5c7e3918d1f3b79add8728f7d10e88091b29e1938987842cba603343116d7"
 install_type  = "pkg"
 bundle_path   = "MonoFury.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.fullbucket.de/music/dl.php?file=monofury_2_3_2_mac"
 sha256        = "6db5c7e3918d1f3b79add8728f7d10e88091b29e1938987842cba603343116d7"
 install_type  = "pkg"
 bundle_path   = "MonoFury.component"
+download_type = "direct"

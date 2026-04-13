@@ -15,12 +15,14 @@ url           = "https://github.com/ardura/Actuate/releases/download/v1.4.3/Actu
 sha256        = "c996c0a7ed5ec486c325ecba236dc4f80302ce9ec61c6f41beddbee435d81119"
 install_type  = "zip"
 bundle_path   = "Actuate.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://github.com/ardura/Actuate/releases/download/v1.4.3/Actuate_v143_macos_build.zip"
 sha256        = "c996c0a7ed5ec486c325ecba236dc4f80302ce9ec61c6f41beddbee435d81119"
 install_type  = "zip"
 bundle_path   = "Actuate.component"
+download_type = "direct"
 
 [[releases]]
 version = "1.4.2"
@@ -29,12 +31,12 @@ version = "1.4.2"
 url           = "https://github.com/ardura/Actuate/releases/download/v1.4.2/Actuate_v142_macos_build.zip"
 sha256        = "4f0d9c0719d9531b9088602f0ef8100697a025448cea6135243bd2439b09c3f6"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/ardura/Actuate/releases/download/v1.4.2/Actuate_v142_macos_build.zip"
 sha256        = "4f0d9c0719d9531b9088602f0ef8100697a025448cea6135243bd2439b09c3f6"
 install_type  = "zip"
-
+download_type = "direct"
 [[releases]]
 version = "1.4.1"
 
@@ -42,12 +44,12 @@ version = "1.4.1"
 url           = "https://github.com/ardura/Actuate/releases/download/v1.4.1/Actuate_v141_macos_build.zip"
 sha256        = "48476065d879dc4a3949f831922ee1b508c6856a0165053aaeef89c19c9966ba"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/ardura/Actuate/releases/download/v1.4.1/Actuate_v141_macos_build.zip"
 sha256        = "48476065d879dc4a3949f831922ee1b508c6856a0165053aaeef89c19c9966ba"
 install_type  = "zip"
-
+download_type = "direct"
 [[releases]]
 version = "1.4.0"
 
@@ -55,8 +57,9 @@ version = "1.4.0"
 url           = "https://github.com/ardura/Actuate/releases/download/v1.4.0/Actuate_v140_macos_build.zip"
 sha256        = "e5b13bf64c73a370d259aa0d3d557beda0825a86a48e8b2d700c551cf16ab5b2"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/ardura/Actuate/releases/download/v1.4.0/Actuate_v140_macos_build.zip"
 sha256        = "e5b13bf64c73a370d259aa0d3d557beda0825a86a48e8b2d700c551cf16ab5b2"
 install_type  = "zip"
+download_type = "direct"

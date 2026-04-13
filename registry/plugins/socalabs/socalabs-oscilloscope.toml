@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=Oscilloscope_Mac.zip"
 sha256        = "dfbb14a41d687f8d2de04ee602226a518acc1ebfbd60161c80b86e256d35cf60"
 install_type  = "zip"
 bundle_path   = "vst3/Oscilloscope.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=Oscilloscope_Mac.zip"
 sha256        = "dfbb14a41d687f8d2de04ee602226a518acc1ebfbd60161c80b86e256d35cf60"
 install_type  = "zip"
 bundle_path   = "au/Oscilloscope.component"
+download_type = "direct"

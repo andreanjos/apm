@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=Gate_Mac.zip"
 sha256        = "7f1ffa85dafed47e3f39330df85d81c2f9c33d94c0f18410c314b961604deeeb"
 install_type  = "zip"
 bundle_path   = "vst3/Gate.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=Gate_Mac.zip"
 sha256        = "7f1ffa85dafed47e3f39330df85d81c2f9c33d94c0f18410c314b961604deeeb"
 install_type  = "zip"
 bundle_path   = "au/Gate.component"
+download_type = "direct"

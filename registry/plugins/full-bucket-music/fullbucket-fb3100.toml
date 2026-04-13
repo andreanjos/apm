@@ -15,9 +15,11 @@ url           = "https://www.fullbucket.de/music/dl.php?file=fb3100_1_2_1_mac"
 sha256        = "0eb7b8d3ff5febd44c34e1d89386f7f152e5f0fa64c03cbbb874ea969e65c446"
 install_type  = "pkg"
 bundle_path   = "FB-3100.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.fullbucket.de/music/dl.php?file=fb3100_1_2_1_mac"
 sha256        = "0eb7b8d3ff5febd44c34e1d89386f7f152e5f0fa64c03cbbb874ea969e65c446"
 install_type  = "pkg"
 bundle_path   = "FB-3100.component"
+download_type = "direct"

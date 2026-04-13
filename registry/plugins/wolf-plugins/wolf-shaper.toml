@@ -15,12 +15,14 @@ url           = "https://github.com/wolf-plugins/wolf-shaper/releases/download/v
 sha256        = "19bba017c8eed9b697712d0f1e769ab30eb785534c152e6783017735fe73de03"
 install_type  = "zip"
 bundle_path   = "Wolf Shaper.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.2/wolf-shaper-v1.0.2-macos-universal.zip"
 sha256        = "19bba017c8eed9b697712d0f1e769ab30eb785534c152e6783017735fe73de03"
 install_type  = "zip"
 bundle_path   = "Wolf Shaper.component"
+download_type = "direct"
 
 [[releases]]
 version = "1.0.1"
@@ -29,12 +31,12 @@ version = "1.0.1"
 url           = "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.1/wolf-shaper-v1.0.1-macos-universal.zip"
 sha256        = "a083f5fc1f6a0daa52cb68f7b5996fd99d810aa451f8c5756d8703bbd6e9903d"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.1/wolf-shaper-v1.0.1-macos-universal.zip"
 sha256        = "a083f5fc1f6a0daa52cb68f7b5996fd99d810aa451f8c5756d8703bbd6e9903d"
 install_type  = "zip"
-
+download_type = "direct"
 [[releases]]
 version = "1.0.0"
 
@@ -42,8 +44,9 @@ version = "1.0.0"
 url           = "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.0/wolf-shaper-v1.0.0-macos-universal.zip"
 sha256        = "29937b6fa0eba83926613a26d33c6181a10764b6c273fc4adc0dd317328aa81c"
 install_type  = "zip"
-
+download_type = "direct"
 [releases.formats.au]
 url           = "https://github.com/wolf-plugins/wolf-shaper/releases/download/v1.0.0/wolf-shaper-v1.0.0-macos-universal.zip"
 sha256        = "29937b6fa0eba83926613a26d33c6181a10764b6c273fc4adc0dd317328aa81c"
 install_type  = "zip"
+download_type = "direct"

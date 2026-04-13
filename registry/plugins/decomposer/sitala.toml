@@ -15,9 +15,11 @@ url           = "https://decomposer.de/sitala/releases/Sitala-1.0.dmg"
 sha256        = "d07a7c107a1d944bb2fc11392bec9c606e1c9caf357db6bd979e248f6c584831"
 install_type  = "dmg"
 bundle_path   = "Sitala.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://decomposer.de/sitala/releases/Sitala-1.0.dmg"
 sha256        = "d07a7c107a1d944bb2fc11392bec9c606e1c9caf357db6bd979e248f6c584831"
 install_type  = "dmg"
 bundle_path   = "Sitala.component"
+download_type = "direct"

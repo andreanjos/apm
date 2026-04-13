@@ -15,9 +15,11 @@ url           = "https://meldaproduction.b-cdn.net/download/mpluginmanager/MPlug
 sha256        = "e36a0cb20db3efc63c13523926e08e07f86fd0daa210ccb30ed8b29b17bf270d"
 install_type  = "zip"
 bundle_path   = "MPluginManager.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://meldaproduction.b-cdn.net/download/mpluginmanager/MPluginManager_02_19_setupmac.zip"
 sha256        = "e36a0cb20db3efc63c13523926e08e07f86fd0daa210ccb30ed8b29b17bf270d"
 install_type  = "zip"
 bundle_path   = "MPluginManager.component"
+download_type = "direct"

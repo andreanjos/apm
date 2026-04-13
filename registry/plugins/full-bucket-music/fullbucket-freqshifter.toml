@@ -14,8 +14,10 @@ homepage     = "https://www.fullbucket.de/music/freqshifter.html"
 url           = "https://fullbucket.de/music/dl.php?file=freqshifter_2_0_3_mac"
 sha256        = "4c58b1079363dfa1cbaf0d93eb1c93f96f8a7077cff5d967361aca9a55a408b7"
 install_type  = "pkg"
+download_type = "direct"
 
 [formats.au]
 url           = "https://fullbucket.de/music/dl.php?file=freqshifter_2_0_3_mac"
 sha256        = "4c58b1079363dfa1cbaf0d93eb1c93f96f8a7077cff5d967361aca9a55a408b7"
 install_type  = "pkg"
+download_type = "direct"

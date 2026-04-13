@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=Delay_Mac.zip"
 sha256        = "13660104a3a888cee74ef660ec3d2256f960737a9e23a60fc427306f0969542e"
 install_type  = "zip"
 bundle_path   = "vst3/Delay.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=Delay_Mac.zip"
 sha256        = "13660104a3a888cee74ef660ec3d2256f960737a9e23a60fc427306f0969542e"
 install_type  = "zip"
 bundle_path   = "au/Delay.component"
+download_type = "direct"

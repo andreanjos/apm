@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=StereoEnhancer_Mac.zip"
 sha256        = "351d1845297037deabf5b5ab3d4333a3b8e5836c4ffbaee5b2742b3a9b3d5404"
 install_type  = "zip"
 bundle_path   = "vst3/StereoEnhancer.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=StereoEnhancer_Mac.zip"
 sha256        = "351d1845297037deabf5b5ab3d4333a3b8e5836c4ffbaee5b2742b3a9b3d5404"
 install_type  = "zip"
 bundle_path   = "au/StereoEnhancer.component"
+download_type = "direct"

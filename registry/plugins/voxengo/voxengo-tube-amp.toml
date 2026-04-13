@@ -15,9 +15,11 @@ url           = "https://www.voxengo.com/files/VoxengoTubeAmp_216_Mac_AU_AAX_VST
 sha256        = "e538d8885b6d7adde82a8adf70cf1baa32d4ca1a911f2136208acda7896b5c79"
 install_type  = "dmg"
 bundle_path   = "VoxengoTubeAmp.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.voxengo.com/files/VoxengoTubeAmp_216_Mac_AU_AAX_VST_setup.dmg"
 sha256        = "e538d8885b6d7adde82a8adf70cf1baa32d4ca1a911f2136208acda7896b5c79"
 install_type  = "dmg"
 bundle_path   = "VoxengoTubeAmp.component"
+download_type = "direct"

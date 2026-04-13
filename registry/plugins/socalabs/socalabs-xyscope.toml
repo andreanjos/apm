@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=XYScope_Mac.zip"
 sha256        = "07bbf4524e74e297328f4533b8572df15228cd6d8eeecc912856b3f8eb801b69"
 install_type  = "zip"
 bundle_path   = "vst3/XYScope.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=XYScope_Mac.zip"
 sha256        = "07bbf4524e74e297328f4533b8572df15228cd6d8eeecc912856b3f8eb801b69"
 install_type  = "zip"
 bundle_path   = "au/XYScope.component"
+download_type = "direct"

@@ -17,9 +17,11 @@ url           = "https://www.bluecataudio.com/Vault/Products/Product_TripleEQ/Bl
 sha256        = "c73f0e6c10f59319d2c8ebc65496ca29c39c10423d2e853fcad1afd37dbc5939"
 install_type  = "dmg"
 bundle_path   = "Blue Cat's Triple EQ.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.bluecataudio.com/Vault/Products/Product_TripleEQ/BlueCatTripleEQ.dmg"
 sha256        = "c73f0e6c10f59319d2c8ebc65496ca29c39c10423d2e853fcad1afd37dbc5939"
 install_type  = "dmg"
 bundle_path   = "Blue Cat's Triple EQ.component"
+download_type = "direct"

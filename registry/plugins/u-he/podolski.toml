@@ -15,9 +15,11 @@ url           = "https://dl.u-he.com/releases/Podolski_123_12092_Mac.zip"
 sha256        = "b3477dbd7306d733303bb3656798e8dbff2876cebc5057dd25bf05ae7162baa4"
 install_type  = "zip"
 bundle_path   = "Podolski.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://dl.u-he.com/releases/Podolski_123_12092_Mac.zip"
 sha256        = "b3477dbd7306d733303bb3656798e8dbff2876cebc5057dd25bf05ae7162baa4"
 install_type  = "zip"
 bundle_path   = "Podolski.component"
+download_type = "direct"

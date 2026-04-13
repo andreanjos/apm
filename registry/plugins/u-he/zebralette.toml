@@ -15,9 +15,11 @@ url           = "https://dl.u-he.com/releases/zebralette3_300_20399_Mac.zip"
 sha256        = "2ff7b8a0c9e29de90d659da0c3b01486918db2c33ba238ce6ba0cc965f4240f7"
 install_type  = "zip"
 bundle_path   = "Zebralette 3.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://dl.u-he.com/releases/zebralette3_300_20399_Mac.zip"
 sha256        = "2ff7b8a0c9e29de90d659da0c3b01486918db2c33ba238ce6ba0cc965f4240f7"
 install_type  = "zip"
 bundle_path   = "Zebralette 3.component"
+download_type = "direct"

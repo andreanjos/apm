@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=PAPU_Mac.zip"
 sha256        = "2e2f42d0ad5c5c06e856fc240de4598d6a12bccea878ec1acacd1b00ebc4a55f"
 install_type  = "zip"
 bundle_path   = "vst3/PAPU.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=PAPU_Mac.zip"
 sha256        = "2e2f42d0ad5c5c06e856fc240de4598d6a12bccea878ec1acacd1b00ebc4a55f"
 install_type  = "zip"
 bundle_path   = "au/PAPU.component"
+download_type = "direct"

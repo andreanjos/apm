@@ -15,9 +15,11 @@ url           = "https://acondigital.com/software/Multiply_macOS_1_3_1.pkg.zip"
 sha256        = "1b74270fb038381749d64996d92e6f9d95b13df855b75318405f0cc6e9b7f3ea"
 install_type  = "zip"
 bundle_path   = "Multiply.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://acondigital.com/software/Multiply_macOS_1_3_1.pkg.zip"
 sha256        = "1b74270fb038381749d64996d92e6f9d95b13df855b75318405f0cc6e9b7f3ea"
 install_type  = "zip"
 bundle_path   = "Multiply.component"
+download_type = "direct"

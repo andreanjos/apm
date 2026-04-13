@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=Organ_Mac.zip"
 sha256        = "5a6d490ec9c747cc7774b59c178ef4a012359ed3ebf68d994b3f54ab19ee042e"
 install_type  = "zip"
 bundle_path   = "vst3/Organ.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=Organ_Mac.zip"
 sha256        = "5a6d490ec9c747cc7774b59c178ef4a012359ed3ebf68d994b3f54ab19ee042e"
 install_type  = "zip"
 bundle_path   = "au/Organ.component"
+download_type = "direct"

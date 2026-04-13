@@ -14,8 +14,10 @@ homepage     = "https://www.audiodamage.com/pages/free-and-legacy"
 url           = "https://cdn.shopify.com/s/files/1/1550/9885/files/Audio_Damage_Discord3_Installers.zip"
 sha256        = "c0f0eadda52624230d8df80796a7c1b969aff6e8bb76354bc2d4f39011732a78"
 install_type  = "zip"
+download_type = "direct"
 
 [formats.au]
 url           = "https://cdn.shopify.com/s/files/1/1550/9885/files/Audio_Damage_Discord3_Installers.zip"
 sha256        = "c0f0eadda52624230d8df80796a7c1b969aff6e8bb76354bc2d4f39011732a78"
 install_type  = "zip"
+download_type = "direct"

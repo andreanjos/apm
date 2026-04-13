@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=GraphicEQ_Mac.zip"
 sha256        = "57ae18d3056f17b70a983c6455f5d8d5c8a7f96509b8dd42247c866825d4b089"
 install_type  = "zip"
 bundle_path   = "vst3/GraphicEQ.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=GraphicEQ_Mac.zip"
 sha256        = "57ae18d3056f17b70a983c6455f5d8d5c8a7f96509b8dd42247c866825d4b089"
 install_type  = "zip"
 bundle_path   = "au/GraphicEQ.component"
+download_type = "direct"

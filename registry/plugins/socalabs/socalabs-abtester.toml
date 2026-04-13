@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=ABTester_Mac.zip"
 sha256        = "e350747127a04bff63d3e57c9638e456dc7c25348d60a2567b6de45f7523ca85"
 install_type  = "zip"
 bundle_path   = "vst3/ABTester.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=ABTester_Mac.zip"
 sha256        = "e350747127a04bff63d3e57c9638e456dc7c25348d60a2567b6de45f7523ca85"
 install_type  = "zip"
 bundle_path   = "au/ABTester.component"
+download_type = "direct"

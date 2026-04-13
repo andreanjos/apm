@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=Crossfeed_Mac.zip"
 sha256        = "e3e64e13f7997e520767bfd3d94b8d53cee50b73de66d65c280e9cb66972f76a"
 install_type  = "zip"
 bundle_path   = "vst3/Crossfeed.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=Crossfeed_Mac.zip"
 sha256        = "e3e64e13f7997e520767bfd3d94b8d53cee50b73de66d65c280e9cb66972f76a"
 install_type  = "zip"
 bundle_path   = "au/Crossfeed.component"
+download_type = "direct"

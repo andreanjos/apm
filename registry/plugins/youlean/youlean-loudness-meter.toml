@@ -15,9 +15,11 @@ url           = "https://cdn.youlean.co/wp-content/uploads/2025/11/Youlean-Loudn
 sha256        = "6ec6663fb1a7177ab927a1b654f44751473da893b161b0925cf7fe91e9739cd7"
 install_type  = "dmg"
 bundle_path   = "Youlean Loudness Meter 2.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://cdn.youlean.co/wp-content/uploads/2025/11/Youlean-Loudness-Meter-2-V2.5.14-macOS-1.dmg"
 sha256        = "6ec6663fb1a7177ab927a1b654f44751473da893b161b0925cf7fe91e9739cd7"
 install_type  = "dmg"
 bundle_path   = "Youlean Loudness Meter 2.component"
+download_type = "direct"

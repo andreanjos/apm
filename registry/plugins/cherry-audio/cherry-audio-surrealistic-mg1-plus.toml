@@ -15,9 +15,11 @@ url           = "https://store.cherryaudio.com/downloads/surrealistic-mg-1-plus-
 sha256        = "322de958f423c9de499ab609f5f1df15468f67596066a34505da5436afa74d99"
 install_type  = "pkg"
 bundle_path   = "Surrealistic MG-1 Plus.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://store.cherryaudio.com/downloads/surrealistic-mg-1-plus-macos-installer"
 sha256        = "322de958f423c9de499ab609f5f1df15468f67596066a34505da5436afa74d99"
 install_type  = "pkg"
 bundle_path   = "Surrealistic MG-1 Plus.component"
+download_type = "direct"

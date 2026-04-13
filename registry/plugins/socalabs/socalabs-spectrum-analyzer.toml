@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=SpectrumAnalyzer_Mac.zip"
 sha256        = "f7612af25cf2f183952107b9e2362549dddba35f7fb70a65643fbe6a8dc10749"
 install_type  = "zip"
 bundle_path   = "vst3/SpectrumAnalyzer.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=SpectrumAnalyzer_Mac.zip"
 sha256        = "f7612af25cf2f183952107b9e2362549dddba35f7fb70a65643fbe6a8dc10749"
 install_type  = "zip"
 bundle_path   = "au/SpectrumAnalyzer.component"
+download_type = "direct"

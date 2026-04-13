@@ -15,9 +15,11 @@ url           = "https://socalabs.com/files/get.php?id=ToneGenerator_Mac.zip"
 sha256        = "624b74b06bc02d4ae0c2bf18e940730f2afc09d65970210f6c783ef3c215e08d"
 install_type  = "zip"
 bundle_path   = "vst3/ToneGenerator.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://socalabs.com/files/get.php?id=ToneGenerator_Mac.zip"
 sha256        = "624b74b06bc02d4ae0c2bf18e940730f2afc09d65970210f6c783ef3c215e08d"
 install_type  = "zip"
 bundle_path   = "au/ToneGenerator.component"
+download_type = "direct"

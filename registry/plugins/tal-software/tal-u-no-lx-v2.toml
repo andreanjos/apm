@@ -15,9 +15,11 @@ url           = "https://tal-software.com/downloads/plugins/TAL-U-NO-LX-V2-insta
 sha256        = "3159d497aea3af058bd229d4cd6e57c4f6fba5df266be09976819d753b805189"
 install_type  = "zip"
 bundle_path   = "TAL-U-NO-LX-V2.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://tal-software.com/downloads/plugins/TAL-U-NO-LX-V2-installer_macos.zip"
 sha256        = "3159d497aea3af058bd229d4cd6e57c4f6fba5df266be09976819d753b805189"
 install_type  = "zip"
 bundle_path   = "TAL-U-NO-LX-V2.component"
+download_type = "direct"

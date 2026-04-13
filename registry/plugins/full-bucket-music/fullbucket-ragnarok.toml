@@ -15,9 +15,11 @@ url           = "https://www.fullbucket.de/music/dl.php?file=ragnarok2_2_0_2_mac
 sha256        = "490a5fcb651a87c911703349b2d22bfe51a737b4e81d968388aedafcf2419d35"
 install_type  = "pkg"
 bundle_path   = "Ragnarok2.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://www.fullbucket.de/music/dl.php?file=ragnarok2_2_0_2_mac"
 sha256        = "490a5fcb651a87c911703349b2d22bfe51a737b4e81d968388aedafcf2419d35"
 install_type  = "pkg"
 bundle_path   = "Ragnarok2.component"
+download_type = "direct"

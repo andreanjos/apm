@@ -15,9 +15,11 @@ url           = "https://tal-software.com/downloads/plugins/TAL-Dub-X-installer_
 sha256        = "bc92759d1856722972ad15f6e7c393d28ad2857af3c8a0f64a23da4be6cdb59d"
 install_type  = "zip"
 bundle_path   = "TAL-Dub-X.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://tal-software.com/downloads/plugins/TAL-Dub-X-installer_macos.zip"
 sha256        = "bc92759d1856722972ad15f6e7c393d28ad2857af3c8a0f64a23da4be6cdb59d"
 install_type  = "zip"
 bundle_path   = "TAL-Dub-X.component"
+download_type = "direct"

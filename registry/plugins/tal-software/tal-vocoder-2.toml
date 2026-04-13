@@ -15,9 +15,11 @@ url           = "https://tal-software.com/downloads/plugins/TAL-Vocoder-2-instal
 sha256        = "27e6959106ed60f92aaa78d757f92eb687ccf0125e459913826093f3ed188d42"
 install_type  = "zip"
 bundle_path   = "TAL-Vocoder-2.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://tal-software.com/downloads/plugins/TAL-Vocoder-2-installer_macos.zip"
 sha256        = "27e6959106ed60f92aaa78d757f92eb687ccf0125e459913826093f3ed188d42"
 install_type  = "zip"
 bundle_path   = "TAL-Vocoder-2.component"
+download_type = "direct"

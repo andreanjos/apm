@@ -15,9 +15,11 @@ url           = "https://klanghelm.com/free/DC1A3dl.php?id=3"
 sha256        = "562e58178091b283a689aeab188bd3a26d8a7896d4445edfe98ad5d96622ca12"
 install_type  = "zip"
 bundle_path   = "DC1A.vst3"
+download_type = "direct"
 
 [formats.au]
 url           = "https://klanghelm.com/free/DC1A3dl.php?id=3"
 sha256        = "562e58178091b283a689aeab188bd3a26d8a7896d4445edfe98ad5d96622ca12"
 install_type  = "zip"
 bundle_path   = "DC1A.component"
+download_type = "direct"

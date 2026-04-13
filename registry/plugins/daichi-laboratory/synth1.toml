@@ -15,3 +15,4 @@ url           = "https://daichilab.sakura.ne.jp/softsynth/Synth1macau113beta11.z
 sha256        = "abcbfbaabdb8c6a536011f20bc4dbf7eb3e4f29cbc1d9f3c496884ebdd4cc6f8"
 install_type  = "zip"
 bundle_path   = "Synth1.component"
+download_type = "direct"
