@@ -31,12 +31,12 @@ pub async fn run(config: &Config, json: bool, quiet: bool) -> Result<()> {
                 let source_cache = registries_cache_dir.join(&source.name);
                 let loaded = registry::Registry::load_from_cache(&source_cache).ok();
                 let catalog_count = loaded.as_ref().map(|r| r.len()).unwrap_or(0);
-                let standalone_count = loaded
+                let installable_count = loaded
                     .as_ref()
                     .map(|r| {
                         r.plugins
                             .values()
-                            .filter(|p| p.is_standalone_plugin())
+                            .filter(|p| p.is_installable_product())
                             .count()
                     })
                     .unwrap_or(0);
@@ -45,17 +45,17 @@ pub async fn run(config: &Config, json: bool, quiet: bool) -> Result<()> {
                     json_results.push(serde_json::json!({
                         "name": source.name,
                         "status": "ok",
-                        "standalone_plugin_count": standalone_count,
+                        "installable_product_count": installable_count,
                         "catalog_item_count": catalog_count,
                     }));
                 } else if !quiet {
                     println!(
                         "{}",
                         format!(
-                            "Registry '{}' updated. {} standalone plugin{} ({} catalog item{}) available.",
+                            "Registry '{}' updated. {} installable product{} ({} catalog item{}) available.",
                             source.name,
-                            standalone_count,
-                            if standalone_count == 1 { "" } else { "s" },
+                            installable_count,
+                            if installable_count == 1 { "" } else { "s" },
                             catalog_count,
                             if catalog_count == 1 { "" } else { "s" },
                         )

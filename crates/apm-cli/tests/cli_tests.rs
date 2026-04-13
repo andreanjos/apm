@@ -1844,7 +1844,7 @@ fn test_stats_json_output() {
 }
 
 #[test]
-fn test_uninstalled_lists_only_standalone_plugins_from_mixed_catalog() {
+fn test_uninstalled_lists_installable_products_from_mixed_catalog() {
     let tmp_config = tempfile::tempdir().expect("config dir");
     let tmp_data = tempfile::tempdir().expect("data dir");
     let tmp_cache = tempfile::tempdir().expect("cache dir");
@@ -1878,7 +1878,7 @@ slug = "bundle-record"
 name = "Bundle Record"
 vendor = "Mixed Vendor"
 version = "1.0.0"
-description = "Catalog bundle that is not a standalone plugin"
+description = "Installable product bundle"
 category = "bundles"
 product_type = "bundle"
 license = "commercial"
@@ -1891,6 +1891,46 @@ download_type = "manual"
 "#,
     )
     .expect("write bundle record");
+    std::fs::write(
+        official_dir.join("subscription-record.toml"),
+        r#"
+slug = "subscription-record"
+name = "Subscription Record"
+vendor = "Mixed Vendor"
+version = "1.0.0"
+description = "Catalog-only subscription record"
+category = "subscriptions"
+product_type = "subscription"
+license = "commercial"
+
+[formats.vst3]
+url = "https://example.com/subscription"
+sha256 = ""
+install_type = "zip"
+download_type = "managed"
+"#,
+    )
+    .expect("write subscription record");
+    std::fs::write(
+        official_dir.join("utility-record.toml"),
+        r#"
+slug = "utility-record"
+name = "Utility Record"
+vendor = "Mixed Vendor"
+version = "1.0.0"
+description = "Installable utility record"
+category = "utilities"
+product_type = "utility"
+license = "freeware"
+
+[formats.app]
+url = "https://example.com/utility.zip"
+sha256 = "manual"
+install_type = "zip"
+download_type = "manual"
+"#,
+    )
+    .expect("write utility record");
 
     let output = Command::new(apm_bin())
         .args(["--json", "uninstalled"])
@@ -1919,8 +1959,11 @@ download_type = "manual"
         .filter_map(|entry| entry["slug"].as_str())
         .collect();
 
-    assert_eq!(slugs, vec!["standalone-plugin"]);
-    assert_eq!(value["total"], 1);
+    assert_eq!(
+        slugs,
+        vec!["bundle-record", "standalone-plugin", "utility-record"]
+    );
+    assert_eq!(value["total"], 3);
 }
 
 #[test]
@@ -2076,6 +2119,70 @@ fn test_count_available_json() {
         obj.contains_key("catalog_items"),
         "count JSON should contain 'catalog_items', got keys: {:?}",
         obj.keys().collect::<Vec<_>>()
+    );
+}
+
+#[test]
+fn test_count_available_counts_installable_products() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let official_dir = tmp_cache.path().join("apm/registries/official/plugins");
+    std::fs::create_dir_all(&official_dir).expect("create official plugins");
+
+    for (slug, product_type) in [
+        ("count-plugin", "plugin"),
+        ("count-bundle", "bundle"),
+        ("count-utility", "utility"),
+        ("count-daw", "daw"),
+        ("count-subscription", "subscription"),
+    ] {
+        std::fs::write(
+            official_dir.join(format!("{slug}.toml")),
+            format!(
+                r#"
+slug = "{slug}"
+name = "{slug}"
+vendor = "Count Vendor"
+version = "1.0.0"
+description = "Count fixture"
+category = "effects"
+product_type = "{product_type}"
+license = "freeware"
+
+[formats.vst3]
+url = "https://example.com/{slug}.zip"
+sha256 = "manual"
+install_type = "zip"
+download_type = "manual"
+"#
+            ),
+        )
+        .expect("write count fixture");
+    }
+
+    let output = Command::new(apm_bin())
+        .args(["count", "--available"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(
+        output.status.success(),
+        "apm count --available should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    assert_eq!(
+        stdout.trim(),
+        "4",
+        "available count should include plugin, bundle, utility, and daw only; got: {stdout}"
     );
 }
 

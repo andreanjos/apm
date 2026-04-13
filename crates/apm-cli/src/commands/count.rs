@@ -1,4 +1,4 @@
-// count command — output installed or available standalone plugin counts for scripting.
+// count command — output installed or available installable product counts for scripting.
 
 use anyhow::Result;
 use serde::Serialize;
@@ -22,7 +22,7 @@ pub async fn run(config: &Config, json: bool, available: bool) -> Result<()> {
         let available = registry
             .plugins
             .values()
-            .filter(|p| p.is_standalone_plugin())
+            .filter(|p| p.is_installable_product())
             .count();
         let output = CountJson {
             installed: state.plugins.len(),
@@ -38,7 +38,7 @@ pub async fn run(config: &Config, json: bool, available: bool) -> Result<()> {
         let available_plugins = registry
             .plugins
             .values()
-            .filter(|p| p.is_standalone_plugin())
+            .filter(|p| p.is_installable_product())
             .count();
         println!("{available_plugins}");
     } else {

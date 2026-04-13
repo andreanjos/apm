@@ -5,9 +5,9 @@ AU and VST3 plugins from the command line.
 
 apm pulls catalog definitions from Git-backed registries, validates downloads
 before installing, and tracks what is already installed on disk. The registry
-catalog includes 8,000+ entries covering standalone plugins, bundles, upgrades,
-expansions, preset packs, sample libraries, utilities, and vendor-managed
-products.
+catalog includes 8,000+ entries covering installable plugins, product bundles,
+DAWs, utilities, upgrades, expansions, preset packs, sample libraries, and
+vendor-managed products.
 
 ## Installation
 
@@ -38,6 +38,7 @@ apm search reverb               # Find plugins by keyword
 apm info valhalla-supermassive  # View plugin details
 apm install tal-noisemaker      # Install a plugin
 apm list                        # See what's installed
+apm uninstalled                 # Browse installable products not yet installed
 apm outdated                    # Check for updates
 apm upgrade                     # Upgrade everything
 ```

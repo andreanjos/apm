@@ -28,7 +28,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     let available = registry
         .plugins
         .values()
-        .filter(|p| p.is_standalone_plugin())
+        .filter(|p| p.is_installable_product())
         .count();
     let pinned = state.plugins.iter().filter(|p| p.pinned).count();
     let source_count = sources.len();
@@ -82,10 +82,10 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     };
     println!("  {:<label_width$}{installed_value}", "Installed:".bold());
 
-    // Available standalone plugins and full catalog size.
+    // Available installable products and full catalog size.
     let available_suffix = if available == 1 { "" } else { "s" };
     println!(
-        "  {:<label_width$}{available} standalone plugin{available_suffix}",
+        "  {:<label_width$}{available} installable product{available_suffix}",
         "Available:".bold(),
     );
     println!(

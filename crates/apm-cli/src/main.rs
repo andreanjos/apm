@@ -409,11 +409,11 @@ enum Commands {
         name: String,
     },
 
-    /// Print installed or available standalone plugin counts.
+    /// Print installed or available installable product counts.
     ///
     /// Outputs a single number with no decoration, ideal for shell prompts,
     /// scripts, or CI checks. With no flags, prints the installed count.
-    /// With --available, prints the standalone plugin count from the registry.
+    /// With --available, prints the installable product count from the registry.
     /// With --json, also includes the full mixed catalog item count.
     ///
     /// Examples:
@@ -421,7 +421,7 @@ enum Commands {
     ///   PS1="[apm:$(apm count)] $ "
     #[command(alias = "c")]
     Count {
-        /// Count available standalone registry plugins instead of installed plugins.
+        /// Count available installable registry products instead of installed plugins.
         #[arg(long)]
         available: bool,
     },
@@ -476,7 +476,7 @@ enum Commands {
     /// Show a dashboard summary of your apm environment.
     ///
     /// Displays at a glance: installed plugin count with AU/VST3 format
-    /// breakdown, available standalone plugins, total mixed catalog items,
+    /// breakdown, available installable products, total mixed catalog items,
     /// pinned plugins, configured registry sources, download cache size on disk,
     /// and the timestamp of the last `apm sync`.
     #[command(alias = "st")]
@@ -510,11 +510,11 @@ enum Commands {
     /// catalog.
     Vendors,
 
-    /// List standalone registry plugins that you have not yet installed.
+    /// List installable registry products that you have not yet installed.
     ///
-    /// The inverse of `apm list` for standalone plugins. Bundles, upgrades,
-    /// subscriptions, preset packs, and other catalog items stay discoverable
-    /// through `apm search` and `apm info`.
+    /// The inverse of `apm list` for installable products. Upgrades,
+    /// subscriptions, preset packs, and other catalog-only records stay
+    /// discoverable through `apm search` and `apm info`.
     #[command(alias = "available")]
     Uninstalled {
         /// Filter by category (e.g. "instruments", "effects", "reverb").
