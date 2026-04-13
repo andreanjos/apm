@@ -12,6 +12,7 @@ struct CountJson {
     installed: usize,
     available: usize,
     catalog_items: usize,
+    synced: bool,
 }
 
 pub async fn run(config: &Config, json: bool, available: bool) -> Result<()> {
@@ -28,6 +29,7 @@ pub async fn run(config: &Config, json: bool, available: bool) -> Result<()> {
             installed: state.plugins.len(),
             available,
             catalog_items: registry.len(),
+            synced: !registry.is_empty(),
         };
         println!("{}", serde_json::to_string(&output)?);
         return Ok(());
@@ -35,6 +37,11 @@ pub async fn run(config: &Config, json: bool, available: bool) -> Result<()> {
 
     if available {
         let registry = Registry::load_all_sources(config)?;
+        if registry.is_empty() {
+            anyhow::bail!(
+                "Registry cache is empty. Run `apm sync` before counting available products."
+            );
+        }
         let available_plugins = registry
             .plugins
             .values()

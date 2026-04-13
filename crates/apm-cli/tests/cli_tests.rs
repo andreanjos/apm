@@ -1967,6 +1967,69 @@ download_type = "manual"
 }
 
 #[test]
+fn test_search_new_excludes_catalog_only_records() {
+    let tmp_config = tempfile::tempdir().expect("config dir");
+    let tmp_data = tempfile::tempdir().expect("data dir");
+    let tmp_cache = tempfile::tempdir().expect("cache dir");
+
+    let official_dir = tmp_cache.path().join("apm/registries/official/plugins");
+    std::fs::create_dir_all(&official_dir).expect("create official plugins");
+    for (slug, product_type) in [
+        ("new-plugin", "plugin"),
+        ("new-ebook", "ebook"),
+        ("new-subscription", "subscription"),
+    ] {
+        std::fs::write(
+            official_dir.join(format!("{slug}.toml")),
+            format!(
+                r#"
+slug = "{slug}"
+name = "{slug}"
+vendor = "Search Vendor"
+version = "1.0.0"
+description = "Search fixture"
+category = "effects"
+product_type = "{product_type}"
+license = "freeware"
+
+[formats.vst3]
+url = "https://example.com/{slug}.zip"
+sha256 = "manual"
+install_type = "zip"
+download_type = "manual"
+"#
+            ),
+        )
+        .expect("write search fixture");
+    }
+
+    let output = Command::new(apm_bin())
+        .args(["--json", "search", "new", "--new"])
+        .env("XDG_CONFIG_HOME", tmp_config.path())
+        .env("XDG_DATA_HOME", tmp_data.path())
+        .env("XDG_CACHE_HOME", tmp_cache.path())
+        .env("NO_COLOR", "1")
+        .env("TERM", "dumb")
+        .output()
+        .expect("run apm");
+
+    assert!(
+        output.status.success(),
+        "apm search --new should exit 0; stderr: {}",
+        String::from_utf8_lossy(&output.stderr)
+    );
+
+    let stdout = String::from_utf8_lossy(&output.stdout);
+    let entries: Vec<serde_json::Value> =
+        serde_json::from_str(stdout.trim()).expect("valid search JSON");
+    let slugs: Vec<&str> = entries
+        .iter()
+        .filter_map(|entry| entry["slug"].as_str())
+        .collect();
+    assert_eq!(slugs, vec!["new-plugin"]);
+}
+
+#[test]
 fn test_random_ignores_non_plugin_catalog_records() {
     let tmp_config = tempfile::tempdir().expect("config dir");
     let tmp_data = tempfile::tempdir().expect("data dir");
@@ -2120,6 +2183,26 @@ fn test_count_available_json() {
         "count JSON should contain 'catalog_items', got keys: {:?}",
         obj.keys().collect::<Vec<_>>()
     );
+    assert!(
+        obj.contains_key("synced"),
+        "count JSON should contain 'synced', got keys: {:?}",
+        obj.keys().collect::<Vec<_>>()
+    );
+}
+
+#[test]
+fn test_count_available_requires_synced_registry_in_human_mode() {
+    let output = run_apm_isolated(&["count", "--available"]);
+    assert!(
+        !output.status.success(),
+        "apm count --available should fail when registry is empty"
+    );
+
+    let stderr = String::from_utf8_lossy(&output.stderr);
+    assert!(
+        stderr.contains("Run `apm sync`"),
+        "unsynced available count should explain sync requirement, got: {stderr}"
+    );
 }
 
 #[test]
@@ -2137,6 +2220,7 @@ fn test_count_available_counts_installable_products() {
         ("count-utility", "utility"),
         ("count-daw", "daw"),
         ("count-subscription", "subscription"),
+        ("count-ebook", "ebook"),
     ] {
         std::fs::write(
             official_dir.join(format!("{slug}.toml")),

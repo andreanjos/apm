@@ -1,230 +1,15 @@
-// Integration tests for registry TOML loading and search logic.
-// These tests operate directly on the TOML files in tests/fixtures/plugins/
-// using the toml + serde crates, and replicate the registry search logic
-// so behaviour can be verified without importing the binary crate.
+// Integration tests for registry TOML loading, search, and published registry
+// invariants. These tests intentionally use apm-core's production schema types
+// so registry validation cannot drift from the loader used by the CLI.
 
-use std::collections::HashMap;
 use std::collections::HashSet;
-use std::path::{Path, PathBuf};
+use std::path::PathBuf;
 
-use serde::{Deserialize, Serialize};
+use apm_core::registry::installers::load_installers_toml;
+use apm_core::registry::{
+    search, DownloadType, InstallType, PluginBundle, PluginFormat, ProductType, Registry,
+};
 use walkdir::WalkDir;
-
-// ── Registry types (mirrors src/registry/types.rs) ────────────────────────────
-
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Serialize, Deserialize)]
-#[serde(rename_all = "lowercase")]
-enum PluginFormat {
-    Au,
-    Vst3,
-    App,
-}
-
-#[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
-#[serde(rename_all = "lowercase")]
-enum InstallType {
-    Dmg,
-    Pkg,
-    Zip,
-    Mas,
-}
-
-#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
-#[serde(rename_all = "lowercase")]
-enum DownloadType {
-    Direct,
-    Manual,
-    Managed,
-}
-
-#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
-#[serde(rename_all = "snake_case")]
-enum ProductType {
-    Plugin,
-    Bundle,
-    Expansion,
-    PresetPack,
-    SampleLibrary,
-    Daw,
-    Utility,
-    Upgrade,
-    Subscription,
-    Template,
-}
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-struct FormatSource {
-    url: String,
-    sha256: String,
-    install_type: InstallType,
-    bundle_path: Option<String>,
-    #[serde(default)]
-    download_type: Option<DownloadType>,
-}
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-struct PluginRelease {
-    version: String,
-    formats: HashMap<PluginFormat, FormatSource>,
-}
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-struct PluginDefinition {
-    slug: String,
-    name: String,
-    vendor: String,
-    version: String,
-    description: String,
-    category: String,
-    #[serde(default)]
-    product_type: Option<ProductType>,
-    subcategory: Option<String>,
-    license: String,
-    #[serde(default)]
-    tags: Vec<String>,
-    #[serde(default)]
-    aliases: Vec<String>,
-    #[serde(default)]
-    installer: Option<String>,
-    formats: HashMap<PluginFormat, FormatSource>,
-    #[serde(default)]
-    releases: Vec<PluginRelease>,
-    homepage: Option<String>,
-    #[serde(default)]
-    is_paid: bool,
-}
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-struct InstallerDefinition {
-    name: String,
-    vendor: String,
-    app_paths: Vec<String>,
-    download_url: String,
-    homepage: String,
-}
-
-#[derive(Debug, Clone, Serialize, Deserialize)]
-struct BundleDefinition {
-    slug: String,
-    name: String,
-    description: String,
-    plugins: Vec<String>,
-}
-
-// ── Registry (mirrors src/registry/mod.rs) ────────────────────────────────────
-
-struct Registry {
-    plugins: HashMap<String, PluginDefinition>,
-}
-
-impl Registry {
-    fn new() -> Self {
-        Self {
-            plugins: HashMap::new(),
-        }
-    }
-
-    fn load_from_cache(cache_dir: &Path) -> anyhow::Result<Self> {
-        let plugins_dir = cache_dir.join("plugins");
-        let mut registry = Self::new();
-
-        if !plugins_dir.exists() {
-            return Ok(registry);
-        }
-
-        for entry in WalkDir::new(&plugins_dir) {
-            let entry = entry?;
-            let path = entry.path();
-            if !entry.file_type().is_file()
-                || path.extension().and_then(|e| e.to_str()) != Some("toml")
-            {
-                continue;
-            }
-            let raw = std::fs::read_to_string(&path)?;
-            if let Ok(plugin) = toml::from_str::<PluginDefinition>(&raw) {
-                registry.plugins.insert(plugin.slug.clone(), plugin);
-            }
-        }
-        Ok(registry)
-    }
-
-    fn find(&self, slug: &str) -> Option<&PluginDefinition> {
-        if let Some(p) = self.plugins.get(slug) {
-            return Some(p);
-        }
-        let lower = slug.to_lowercase();
-        self.plugins.values().find(|p| {
-            p.slug.to_lowercase() == lower
-                || p.aliases.iter().any(|alias| alias.to_lowercase() == lower)
-        })
-    }
-
-    fn len(&self) -> usize {
-        self.plugins.len()
-    }
-
-    fn is_empty(&self) -> bool {
-        self.plugins.is_empty()
-    }
-}
-
-// ── Search (mirrors src/registry/search.rs) ───────────────────────────────────
-
-fn text_matches(p: &PluginDefinition, query: &str) -> bool {
-    p.slug.to_lowercase().contains(query)
-        || p.name.to_lowercase().contains(query)
-        || p.vendor.to_lowercase().contains(query)
-        || p.description.to_lowercase().contains(query)
-        || p.category.to_lowercase().contains(query)
-        || p.subcategory
-            .as_deref()
-            .map(|s| s.to_lowercase().contains(query))
-            .unwrap_or(false)
-        || p.tags.iter().any(|t| t.to_lowercase().contains(query))
-        || p.aliases
-            .iter()
-            .any(|alias| alias.to_lowercase().contains(query))
-}
-
-fn search<'r>(
-    registry: &'r Registry,
-    query: &str,
-    category: Option<&str>,
-    vendor: Option<&str>,
-) -> Vec<&'r PluginDefinition> {
-    let query_lower = query.to_lowercase();
-    let category_lower = category.map(|c| c.to_lowercase());
-    let vendor_lower = vendor.map(|v| v.to_lowercase());
-
-    let mut results: Vec<&PluginDefinition> = registry
-        .plugins
-        .values()
-        .filter(|p| {
-            if let Some(ref cat) = category_lower {
-                let cat_match = p.category.to_lowercase().contains(cat.as_str())
-                    || p.subcategory
-                        .as_deref()
-                        .map(|s| s.to_lowercase().contains(cat.as_str()))
-                        .unwrap_or(false);
-                if !cat_match {
-                    return false;
-                }
-            }
-            if let Some(ref ven) = vendor_lower {
-                if !p.vendor.to_lowercase().contains(ven.as_str()) {
-                    return false;
-                }
-            }
-            if query_lower.is_empty() {
-                return true;
-            }
-            text_matches(p, &query_lower)
-        })
-        .collect();
-
-    results.sort_by_key(|p| p.name.to_lowercase());
-    results
-}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -253,6 +38,26 @@ fn published_bundles_dir() -> PathBuf {
 fn is_placeholder_sha256(sha256: &str) -> bool {
     let value = sha256.trim();
     value.is_empty() || value == "manual" || value.chars().all(|c| c == '0')
+}
+
+fn is_installable_product_type(product_type: &ProductType) -> bool {
+    matches!(
+        product_type,
+        ProductType::Plugin | ProductType::Bundle | ProductType::Daw | ProductType::Utility
+    )
+}
+
+fn published_plugin_files() -> Vec<PathBuf> {
+    let plugins_dir = published_registry_dir().join("plugins");
+    WalkDir::new(plugins_dir)
+        .into_iter()
+        .filter_map(Result::ok)
+        .filter(|entry| {
+            entry.file_type().is_file()
+                && entry.path().extension().and_then(|ext| ext.to_str()) == Some("toml")
+        })
+        .map(|entry| entry.into_path())
+        .collect()
 }
 
 // ── Registry loading ──────────────────────────────────────────────────────────
@@ -410,7 +215,7 @@ fn test_synth_plugin_tags_include_synthesizer() {
 #[test]
 fn test_search_by_name() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results = search(&registry, "reverb", None, None);
+    let results = search::search(&registry, "reverb", None, None, None);
     assert!(!results.is_empty(), "should find results for 'reverb'");
     assert!(
         results.iter().any(|p| p.slug == "test-reverb"),
@@ -421,7 +226,7 @@ fn test_search_by_name() {
 #[test]
 fn test_search_by_vendor() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results = search(&registry, "Dynamics Corp", None, None);
+    let results = search::search(&registry, "Dynamics Corp", None, None, None);
     assert!(
         !results.is_empty(),
         "should find results for vendor 'Dynamics Corp'"
@@ -432,7 +237,7 @@ fn test_search_by_vendor() {
 #[test]
 fn test_search_by_tag() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results = search(&registry, "synthesizer", None, None);
+    let results = search::search(&registry, "synthesizer", None, None, None);
     assert!(
         !results.is_empty(),
         "should find results for tag 'synthesizer'"
@@ -443,7 +248,7 @@ fn test_search_by_tag() {
 #[test]
 fn test_search_with_category_filter_effects() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results = search(&registry, "", Some("effects"), None);
+    let results = search::search(&registry, "", Some("effects"), None, None);
     assert_eq!(results.len(), 2, "should find exactly 2 effects plugins");
     assert!(results.iter().all(|p| p.category == "effects"));
 }
@@ -451,7 +256,7 @@ fn test_search_with_category_filter_effects() {
 #[test]
 fn test_search_with_category_filter_instruments() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results = search(&registry, "", Some("instruments"), None);
+    let results = search::search(&registry, "", Some("instruments"), None, None);
     assert_eq!(results.len(), 1);
     assert_eq!(results[0].slug, "test-synth");
 }
@@ -459,7 +264,7 @@ fn test_search_with_category_filter_instruments() {
 #[test]
 fn test_search_no_results() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results = search(&registry, "zyxwvutsrqponmlkjihgfedcba", None, None);
+    let results = search::search(&registry, "zyxwvutsrqponmlkjihgfedcba", None, None, None);
     assert!(
         results.is_empty(),
         "should find no results for gibberish query"
@@ -469,9 +274,9 @@ fn test_search_no_results() {
 #[test]
 fn test_search_case_insensitive() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results_lower = search(&registry, "reverb", None, None);
-    let results_upper = search(&registry, "REVERB", None, None);
-    let results_mixed = search(&registry, "ReVerb", None, None);
+    let results_lower = search::search(&registry, "reverb", None, None, None);
+    let results_upper = search::search(&registry, "REVERB", None, None, None);
+    let results_mixed = search::search(&registry, "ReVerb", None, None, None);
     assert_eq!(
         results_lower.len(),
         results_upper.len(),
@@ -483,7 +288,7 @@ fn test_search_case_insensitive() {
 #[test]
 fn test_search_empty_query_returns_all() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results = search(&registry, "", None, None);
+    let results = search::search(&registry, "", None, None, None);
     assert_eq!(
         results.len(),
         registry.len(),
@@ -494,7 +299,7 @@ fn test_search_empty_query_returns_all() {
 #[test]
 fn test_search_with_vendor_filter() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results = search(&registry, "", None, Some("Synth Vendor"));
+    let results = search::search(&registry, "", None, Some("Synth Vendor"), None);
     assert_eq!(results.len(), 1);
     assert_eq!(results[0].slug, "test-synth");
 }
@@ -502,14 +307,14 @@ fn test_search_with_vendor_filter() {
 #[test]
 fn test_search_vendor_filter_no_match() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results = search(&registry, "", None, Some("Nonexistent Vendor XYZ"));
+    let results = search::search(&registry, "", None, Some("Nonexistent Vendor XYZ"), None);
     assert!(results.is_empty());
 }
 
 #[test]
 fn test_search_by_subcategory() {
     let registry = Registry::load_from_cache(&fixtures_dir()).unwrap();
-    let results = search(&registry, "dynamics", None, None);
+    let results = search::search(&registry, "dynamics", None, None, None);
     assert!(!results.is_empty());
     assert!(results.iter().any(|p| p.slug == "test-compressor"));
 }
@@ -540,8 +345,8 @@ fn test_published_registry_has_no_unverified_direct_downloads() {
     let mut offenders = Vec::new();
     for plugin in registry.plugins.values() {
         for (format, source) in &plugin.formats {
-            let download_type = source.download_type.clone().unwrap_or(DownloadType::Direct);
-            if download_type == DownloadType::Direct && is_placeholder_sha256(&source.sha256) {
+            if source.download_type == DownloadType::Direct && is_placeholder_sha256(&source.sha256)
+            {
                 offenders.push(format!("{}:{format:?}", plugin.slug));
             }
         }
@@ -556,20 +361,35 @@ fn test_published_registry_has_no_unverified_direct_downloads() {
 
 #[test]
 fn test_published_registry_declares_download_type_for_all_formats() {
-    let registry = Registry::load_from_cache(&published_registry_dir())
-        .expect("published registry should load");
-
     let mut missing = Vec::new();
-    for plugin in registry.plugins.values() {
-        for format in plugin.formats.keys() {
-            if plugin.formats[format].download_type.is_none() {
-                missing.push(format!("{}:{format:?}", plugin.slug));
+    for path in published_plugin_files() {
+        let raw = std::fs::read_to_string(&path).expect("plugin file should be readable");
+        let value: toml::Value = toml::from_str(&raw)
+            .unwrap_or_else(|err| panic!("plugin file should parse: {}: {err}", path.display()));
+        let slug = value
+            .get("slug")
+            .and_then(toml::Value::as_str)
+            .unwrap_or("<missing-slug>");
+
+        if let Some(formats) = value.get("formats").and_then(toml::Value::as_table) {
+            for (format, source) in formats {
+                if source.get("download_type").is_none() {
+                    missing.push(format!("{slug}:{format}"));
+                }
             }
         }
-        for release in &plugin.releases {
-            for (format, source) in &release.formats {
-                if source.download_type.is_none() {
-                    missing.push(format!("{}@{}:{format:?}", plugin.slug, release.version));
+        if let Some(releases) = value.get("releases").and_then(toml::Value::as_array) {
+            for release in releases {
+                let version = release
+                    .get("version")
+                    .and_then(toml::Value::as_str)
+                    .unwrap_or("<missing-version>");
+                if let Some(formats) = release.get("formats").and_then(toml::Value::as_table) {
+                    for (format, source) in formats {
+                        if source.get("download_type").is_none() {
+                            missing.push(format!("{slug}@{version}:{format}"));
+                        }
+                    }
                 }
             }
         }
@@ -589,23 +409,19 @@ fn test_published_registry_has_no_direct_downloads_for_catalog_only_records() {
 
     let mut offenders = Vec::new();
     for plugin in registry.plugins.values() {
-        let product_type = plugin.product_type.as_ref().unwrap_or(&ProductType::Plugin);
-        let installable_product = matches!(
-            product_type,
-            ProductType::Plugin | ProductType::Bundle | ProductType::Daw | ProductType::Utility
-        );
-        if installable_product {
+        let product_type = &plugin.product_type;
+        if is_installable_product_type(product_type) {
             continue;
         }
 
         for (format, source) in &plugin.formats {
-            if source.download_type == Some(DownloadType::Direct) {
+            if source.download_type == DownloadType::Direct {
                 offenders.push(format!("{} ({product_type:?}):{format:?}", plugin.slug));
             }
         }
         for release in &plugin.releases {
             for (format, source) in &release.formats {
-                if source.download_type == Some(DownloadType::Direct) {
+                if source.download_type == DownloadType::Direct {
                     offenders.push(format!(
                         "{}@{} ({product_type:?}):{format:?}",
                         plugin.slug, release.version
@@ -626,10 +442,8 @@ fn test_published_registry_has_no_direct_downloads_for_catalog_only_records() {
 fn test_published_registry_installer_references_are_valid() {
     let registry = Registry::load_from_cache(&published_registry_dir())
         .expect("published registry should load");
-    let raw = std::fs::read_to_string(published_installers_path())
-        .expect("published installers.toml should exist");
-    let installers: HashMap<String, InstallerDefinition> =
-        toml::from_str(&raw).expect("published installers.toml should parse");
+    let installers = load_installers_toml(&published_installers_path())
+        .expect("published installers.toml should parse");
 
     let mut issues = Vec::new();
     for (key, installer) in &installers {
@@ -643,6 +457,7 @@ fn test_published_registry_installer_references_are_valid() {
             issues.push(format!("{key}: missing app_paths"));
         }
         for path in &installer.app_paths {
+            let path = path.to_string_lossy();
             if !path.starts_with("/Applications/") || !path.ends_with(".app") {
                 issues.push(format!("{key}: suspicious app path {path}"));
             }
@@ -665,12 +480,12 @@ fn test_published_registry_installer_references_are_valid() {
         let has_managed = plugin
             .formats
             .values()
-            .any(|source| source.download_type == Some(DownloadType::Managed))
+            .any(|source| source.download_type == DownloadType::Managed)
             || plugin.releases.iter().any(|release| {
                 release
                     .formats
                     .values()
-                    .any(|source| source.download_type == Some(DownloadType::Managed))
+                    .any(|source| source.download_type == DownloadType::Managed)
             });
         if has_managed && plugin.installer.is_none() {
             issues.push(format!("{}: managed source missing installer", plugin.slug));
@@ -698,7 +513,7 @@ fn test_published_registry_bundles_reference_installable_products() {
         }
         bundle_count += 1;
         let raw = std::fs::read_to_string(&path).expect("bundle file should be readable");
-        let bundle: BundleDefinition = toml::from_str(&raw)
+        let bundle: PluginBundle = toml::from_str(&raw)
             .unwrap_or_else(|err| panic!("bundle file should parse: {}: {err}", path.display()));
 
         if bundle.slug.trim().is_empty()
@@ -717,12 +532,8 @@ fn test_published_registry_bundles_reference_installable_products() {
                 issues.push(format!("{}: missing member {slug}", bundle.slug));
                 continue;
             };
-            let product_type = plugin.product_type.as_ref().unwrap_or(&ProductType::Plugin);
-            let installable_product = matches!(
-                product_type,
-                ProductType::Plugin | ProductType::Bundle | ProductType::Daw | ProductType::Utility
-            );
-            if !installable_product {
+            let product_type = &plugin.product_type;
+            if !is_installable_product_type(product_type) {
                 issues.push(format!(
                     "{}: member {slug} is catalog-only ({product_type:?})",
                     bundle.slug
@@ -765,18 +576,28 @@ fn test_published_registry_has_product_types_and_canonical_slugs() {
         "published registry should include the promoted canonical catalog"
     );
 
+    let mut missing_product_type = Vec::new();
+    for path in published_plugin_files() {
+        let raw = std::fs::read_to_string(&path).expect("plugin file should be readable");
+        let value: toml::Value = toml::from_str(&raw)
+            .unwrap_or_else(|err| panic!("plugin file should parse: {}: {err}", path.display()));
+        if value.get("product_type").is_none() {
+            let slug = value
+                .get("slug")
+                .and_then(toml::Value::as_str)
+                .unwrap_or("<missing-slug>");
+            missing_product_type.push(slug.to_string());
+        }
+    }
+
     let live_slugs: HashSet<&str> = registry.plugins.keys().map(String::as_str).collect();
     let mut alias_slugs = HashSet::new();
     let mut catalog_keys = HashSet::new();
-    let mut missing_product_type = Vec::new();
     let mut alias_collisions = Vec::new();
     let mut duplicate_catalog_keys = Vec::new();
     let mut unpaid_commercial = Vec::new();
 
     for plugin in registry.plugins.values() {
-        if plugin.product_type.is_none() {
-            missing_product_type.push(plugin.slug.clone());
-        }
         if plugin.license.eq_ignore_ascii_case("commercial") && !plugin.is_paid {
             unpaid_commercial.push(plugin.slug.clone());
         }

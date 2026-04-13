@@ -109,6 +109,9 @@ pub enum ProductType {
     Subscription,
     /// Template/project content.
     Template,
+    /// Ebook, magazine, or other written educational content.
+    #[serde(rename = "ebook")]
+    Ebook,
 }
 
 impl std::fmt::Display for ProductType {
@@ -124,6 +127,7 @@ impl std::fmt::Display for ProductType {
             Self::Upgrade => write!(f, "upgrade"),
             Self::Subscription => write!(f, "subscription"),
             Self::Template => write!(f, "template"),
+            Self::Ebook => write!(f, "ebook"),
         }
     }
 }

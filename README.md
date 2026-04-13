@@ -217,7 +217,7 @@ bundle_path  = "ValhallaSupermassive.component"
 | `name` | yes | Display name |
 | `vendor` | yes | Developer or company |
 | `version` | yes | Semver or freeform version string |
-| `product_type` | yes | `plugin`, `bundle`, `expansion`, `preset_pack`, `sample_library`, `daw`, `utility`, `upgrade`, `subscription`, or `template` |
+| `product_type` | yes | `plugin`, `bundle`, `expansion`, `preset_pack`, `sample_library`, `daw`, `utility`, `upgrade`, `subscription`, `template`, or `ebook` |
 | `description` | yes | One or two sentence description |
 | `category` | yes | Registry category such as `"effects"`, `"instruments"`, or `"daws"` |
 | `subcategory` | no | e.g. `"reverb"`, `"synthesizer"`, `"eq"` |

@@ -35,11 +35,11 @@ struct Cli {
     #[arg(long, short = 'v', global = true)]
     verbose: bool,
 
-    /// Suppress non-error output (for scripting).
+    /// Suppress progress output for commands that support it.
     #[arg(long, short = 'q', global = true)]
     quiet: bool,
 
-    /// Output results as JSON instead of human-readable tables.
+    /// Output JSON for commands that support structured output.
     #[arg(long, global = true)]
     json: bool,
 }

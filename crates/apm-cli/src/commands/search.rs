@@ -75,6 +75,9 @@ pub async fn run(
             if free_only && plugin.is_paid {
                 return false;
             }
+            if new && !plugin.is_installable_product() {
+                return false;
+            }
             if let Some(ref slugs) = installed_slugs {
                 if installed && !slugs.contains(&plugin.slug) {
                     return false;

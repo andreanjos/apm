@@ -152,7 +152,10 @@ fn product_type_rank(product_type: &ProductType) -> u8 {
         ProductType::SampleLibrary => 2,
         ProductType::Expansion | ProductType::PresetPack => 3,
         ProductType::Bundle => 4,
-        ProductType::Upgrade | ProductType::Subscription | ProductType::Template => 5,
+        ProductType::Upgrade
+        | ProductType::Subscription
+        | ProductType::Template
+        | ProductType::Ebook => 5,
     }
 }
 
