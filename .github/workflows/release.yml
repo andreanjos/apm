@@ -79,7 +79,7 @@ jobs:
         run: |
           VERSION=${GITHUB_REF#refs/tags/v}
           SHA256=$(shasum -a 256 apm-${VERSION}-macos-universal.tar.gz | awk '{print $1}')
-          sed -i '' "s/version \".*\"/version \"${VERSION}\"/" Formula/apm.rb
+          sed -i '' -E "s#url \".*\"#url \"https://github.com/andreanjos/apm/releases/download/v${VERSION}/apm-${VERSION}-macos-universal.tar.gz\"#" Formula/apm.rb
           sed -i '' "s/sha256 \".*\"/sha256 \"${SHA256}\"/" Formula/apm.rb
           cat Formula/apm.rb
 
