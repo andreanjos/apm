@@ -8,9 +8,9 @@ state.
 Last local checkpoint: 2026-07-02. Latest evidence JSON generated at
 `2026-07-02T04:46:13.184Z`.
 
-Post-merge CI passed on `main` commit
-`037b3a1eeb091b5a3c1ccff27ba0168f89158859` in GitHub Actions run
-`28566100125`.
+Recent post-merge CI evidence includes GitHub Actions runs `28566100125` and
+`28566548713`; both passed Build, Clippy, and Test on merged `main`
+checkpoints.
 
 ## Proven Locally
 
@@ -92,15 +92,15 @@ As of the latest post-merge check:
   artifacts left out of Git.
 - The `macos-desktop-release` GitHub Environment exists, but all eight required
   signing/notarization secret names are still missing.
-- The existing `v0.1.1` tag points at `e11943192307`, not the merged release
-  foundation commit `037b3a1eeb09`; move/recreate the tag after the final
-  release commit lands, or pass `--expected-commit <sha>` only for an
+- The existing `v0.1.1` tag points at `e11943192307`, not the release commit
+  currently expected by `release:macos:status`; move/recreate the tag after the
+  final release commit lands, or pass `--expected-commit <sha>` only for an
   intentional older release. When an explicit expected commit is supplied, the
   readiness report names both the expected tag target and the current tag
   target.
 - No completed `publish=false` `Desktop Release` dry run exists yet for
-  `v0.1.1` at `037b3a1eeb09`, so workflow artifact acceptance fails until the
-  first signed dry run completes.
+  `v0.1.1` at the expected release commit, so workflow artifact acceptance
+  fails until the first signed dry run completes.
 - Local release acceptance against preview artifacts fails as expected because
   preview artifacts are not Developer ID signed, not Gatekeeper accepted, and
   not stapled.

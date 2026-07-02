@@ -8,9 +8,8 @@ done when current files or verification commands prove the behavior exists.
 
 Last verified on 2026-07-02:
 
-- GitHub Actions `CI` run `28566100125` passed on merged `main` commit
-  `037b3a1eeb091b5a3c1ccff27ba0168f89158859`, including Build, Clippy, and
-  Test.
+- GitHub Actions `CI` runs `28566100125` and `28566548713` passed on merged
+  `main` checkpoints, including Build, Clippy, and Test.
 - `cd apps/apm-desktop && npm run verify:v3:local`
 - `cd apps/apm-desktop && npm run verify:v3:local -- --help`
 - `cargo test --workspace`
@@ -55,7 +54,7 @@ Last verified on 2026-07-02:
   names are configured there yet.
 - `cd apps/apm-desktop && npm run release:macos:workflow-check` currently fails
   because the same eight environment secrets are missing and the existing
-  `v0.1.1` tag does not point at the current merged release foundation commit.
+  `v0.1.1` tag does not point at the expected release commit.
 - `cd apps/apm-desktop && npm run release:macos:status -- --repo andreanjos/apm --tag v0.1.1`
   currently reports local preflight, local evidence, local worktree, and remote
   workflow visibility passing, with all eight environment secrets and the stale
@@ -101,8 +100,8 @@ Last verified on 2026-07-02:
   release gate also accepts `--help` before those preflight/build checks.
 - `cd apps/apm-desktop && npm run release:macos:workflow-accept -- --repo andreanjos/apm`
   currently fails because no completed `publish=false` `Desktop Release` dry
-  run exists for `v0.1.1` at the merged release foundation commit, so no
-  matching same-commit artifact set can be accepted yet.
+  run exists for `v0.1.1` at the expected release commit, so no matching
+  same-commit artifact set can be accepted yet.
 - `node apps/apm-desktop/build-tools/macos-release-acceptance.mjs --version 0.1.1`
   currently reaches the real local `desktop-release/` inventory/evidence set,
   but fails as expected because the local preview artifacts are ad-hoc signed,
