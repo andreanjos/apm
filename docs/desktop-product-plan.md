@@ -244,9 +244,9 @@ downloads its named `apm-desktop-<tag>` artifact set, and runs the same local
 release acceptance checks against that download. Publish dispatch now carries
 the accepted dry-run ID into the workflow, and the workflow itself validates
 that `accepted_run_id` before attaching assets to a GitHub Release.
-The remote environment exists now, but public distribution still requires the
-desktop workflow to reach the remote default branch, configured environment
-secrets, and a first verified workflow run. The first
+The remote environment and desktop workflow exist now, but public distribution
+still requires configured environment secrets, the release tag to point at the
+final release commit, and a first verified workflow run. The first
 install/update/uninstall/troubleshooting policy is documented in
 `docs/macos-release-runbook.md`: DMG install, manual app replacement for
 updates, deleting `/Applications/apm.app` for app uninstall, and preserving
@@ -474,10 +474,9 @@ installers. Its helper and rollback gates now carry designed artifact details
 for `com.apm.pkg-helper` and
 `service/privileged-install-receipts.json`, and core now has a non-mutating typed
 receipt-store scaffold for that path while execution stays disabled.
-Remaining Phase 21 work centers on publishing the desktop release workflow to
-the remote default branch, configuring signed/notarized release credentials,
-running the desktop release workflow successfully, and implementing future
-runtime execution.
+Remaining Phase 21 work centers on configuring signed/notarized release
+credentials, retagging the final release commit, running the desktop release
+workflow successfully, and implementing future runtime execution.
 
 ## v3.0 Non-Goals
 
