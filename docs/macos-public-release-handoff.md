@@ -6,7 +6,11 @@ already proven locally and what still requires external Apple/GitHub release
 state.
 
 Last local checkpoint: 2026-07-02. Latest evidence JSON generated at
-`2026-07-02T04:12:34.277Z`.
+`2026-07-02T04:46:13.184Z`.
+
+Post-merge CI passed on `main` commit
+`037b3a1eeb091b5a3c1ccff27ba0168f89158859` in GitHub Actions run
+`28566100125`.
 
 ## Proven Locally
 
@@ -47,9 +51,11 @@ That command proves:
 The latest local evidence hashes are:
 
 - `apm-0.1.1-macos-app.zip`:
-  `e0239e946f8380d37e2e073ab75574f8e835183de2bfc9d8e277b27c0caa97b3`
+  `35ee27c5d7d4dadb2aa8880dcb76f26a0d83638922810db119c9d42123078849`
 - `apm_0.1.1_aarch64.dmg`:
-  `f069abe5929f22189a19eb08f876827c5de0e6d24fb5e7fb6fc35b943a668787`
+  `dd974de8e38ae1db62a6011136b421dca1ed66c45793aa27e0a4c4705020fdce`
+- `apm-0.1.1-desktop.sha256`:
+  `002851bc4b3acd97c7c24bfa610d05e5a93a7b9bfe2f217e7161c190880aca20`
 
 Current local preview artifacts:
 
@@ -78,20 +84,23 @@ selection and verification without opening anything.
 
 ## Current External Blockers
 
-As of the latest check:
+As of the latest post-merge check:
 
-- GitHub Actions for `andreanjos/apm` sees only `CI` and `Release`; it does not
-  yet see `.github/workflows/desktop-release.yml` on the remote default branch.
-- The `macos-desktop-release` GitHub Environment exists, but its secret
-  inventory count is `0`.
-- The existing `v0.1.1` tag does not point at the current local release commit;
-  move/recreate the tag after the release commit lands, or pass
-  `--expected-commit <sha>` only for an intentional older release. When an
-  explicit expected commit is supplied, the readiness report names both the
-  expected tag target and the current tag target.
-- The local worktree still has uncommitted v3 changes while this handoff is
-  being prepared; commit or stash them before dispatching the Desktop Release
-  workflow because the workflow builds the release tag, not local files.
+- GitHub Actions for `andreanjos/apm` sees the merged
+  `.github/workflows/desktop-release.yml` on the remote default branch.
+- The local release worktree check passes with the current ignored preview
+  artifacts left out of Git.
+- The `macos-desktop-release` GitHub Environment exists, but all eight required
+  signing/notarization secret names are still missing.
+- The existing `v0.1.1` tag points at `e11943192307`, not the merged release
+  foundation commit `037b3a1eeb09`; move/recreate the tag after the final
+  release commit lands, or pass `--expected-commit <sha>` only for an
+  intentional older release. When an explicit expected commit is supplied, the
+  readiness report names both the expected tag target and the current tag
+  target.
+- No completed `publish=false` `Desktop Release` dry run exists yet for
+  `v0.1.1` at `037b3a1eeb09`, so workflow artifact acceptance fails until the
+  first signed dry run completes.
 - Local release acceptance against preview artifacts fails as expected because
   preview artifacts are not Developer ID signed, not Gatekeeper accepted, and
   not stapled.
@@ -182,8 +191,9 @@ npm run release:macos:github-secrets -- --repo andreanjos/apm --apply
    npm run verify:v3:local
    ```
 
-2. Merge and push `.github/workflows/desktop-release.yml` to the remote default
-   branch so GitHub Actions can see `Desktop Release`.
+2. Confirm `.github/workflows/desktop-release.yml` is visible on the remote
+   default branch. This is currently proven by the post-merge release status
+   check.
 
 3. Configure and verify the `macos-desktop-release` secrets:
 

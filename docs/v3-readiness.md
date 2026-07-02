@@ -8,6 +8,9 @@ done when current files or verification commands prove the behavior exists.
 
 Last verified on 2026-07-02:
 
+- GitHub Actions `CI` run `28566100125` passed on merged `main` commit
+  `037b3a1eeb091b5a3c1ccff27ba0168f89158859`, including Build, Clippy, and
+  Test.
 - `cd apps/apm-desktop && npm run verify:v3:local`
 - `cd apps/apm-desktop && npm run verify:v3:local -- --help`
 - `cargo test --workspace`
@@ -51,13 +54,11 @@ Last verified on 2026-07-02:
   `andreanjos/apm`, but none of the eight required signing/notarization secret
   names are configured there yet.
 - `cd apps/apm-desktop && npm run release:macos:workflow-check` currently fails
-  because the local worktree has uncommitted v3 changes, GitHub cannot see
-  `.github/workflows/desktop-release.yml` on the remote default branch yet, the
-  same eight environment secrets are missing, and the existing `v0.1.1` tag
-  does not point at the current local release commit.
+  because the same eight environment secrets are missing and the existing
+  `v0.1.1` tag does not point at the current merged release foundation commit.
 - `cd apps/apm-desktop && npm run release:macos:status -- --repo andreanjos/apm --tag v0.1.1`
-  currently reports local preflight passing, with local worktree cleanliness,
-  remote workflow visibility, all eight environment secrets, and the stale
+  currently reports local preflight, local evidence, local worktree, and remote
+  workflow visibility passing, with all eight environment secrets and the stale
   `v0.1.1` tag still blocking public release readiness; it also prints
   concrete next steps for those blockers, including the existing ignored
   `../../.env.release.local` template when present, an explicit fix step when
@@ -99,18 +100,20 @@ Last verified on 2026-07-02:
   upload/template work, workflow dispatch, or artifact acceptance. The main
   release gate also accepts `--help` before those preflight/build checks.
 - `cd apps/apm-desktop && npm run release:macos:workflow-accept -- --repo andreanjos/apm`
-  currently fails because GitHub cannot see `.github/workflows/desktop-release.yml`
-  on the remote default branch yet, so no matching Desktop Release run can be
-  discovered and accepted.
+  currently fails because no completed `publish=false` `Desktop Release` dry
+  run exists for `v0.1.1` at the merged release foundation commit, so no
+  matching same-commit artifact set can be accepted yet.
 - `node apps/apm-desktop/build-tools/macos-release-acceptance.mjs --version 0.1.1`
   currently reaches the real local `desktop-release/` inventory/evidence set,
   but fails as expected because the local preview artifacts are ad-hoc signed,
   lack Developer ID Application authority/TeamIdentifier, and are not stapled.
-- Latest local release evidence was regenerated at `2026-07-02T04:12:34.277Z`:
+- Latest local release evidence was regenerated at `2026-07-02T04:46:13.184Z`:
   `apm-0.1.1-macos-app.zip` SHA-256
-  `e0239e946f8380d37e2e073ab75574f8e835183de2bfc9d8e277b27c0caa97b3`,
+  `35ee27c5d7d4dadb2aa8880dcb76f26a0d83638922810db119c9d42123078849`,
   `apm_0.1.1_aarch64.dmg` SHA-256
-  `f069abe5929f22189a19eb08f876827c5de0e6d24fb5e7fb6fc35b943a668787`.
+  `dd974de8e38ae1db62a6011136b421dca1ed66c45793aa27e0a4c4705020fdce`,
+  and `apm-0.1.1-desktop.sha256` SHA-256
+  `002851bc4b3acd97c7c24bfa610d05e5a93a7b9bfe2f217e7161c190880aca20`.
 
 ## Status Summary
 
@@ -251,8 +254,8 @@ Last verified on 2026-07-02:
   dry-run/upload/check/status sequence without secret values. The file-writing
   path uses private permissions and refuses to overwrite an existing local env
   file. All required environment secrets are still missing, the manual desktop
-  workflow is not visible on GitHub yet, and the first signed/notarized
-  workflow run is not yet proven. The release status/workflow checks also
+  workflow is visible on GitHub, and the first signed/notarized workflow run is
+  not yet proven. The release status/workflow checks also
   reject a dirty local worktree and stale release tag before dispatch, because
   the workflow checks out the tag it is asked to build and cannot include
   uncommitted local changes. `release:macos:status` now exposes those blockers
@@ -285,15 +288,13 @@ Last verified on 2026-07-02:
 
 ## Remaining v3.0 Work
 
-1. Merge/push `.github/workflows/desktop-release.yml` so GitHub Actions can see
-   the manual desktop workflow, fill and source the existing ignored
-   `../../.env.release.local` template, pass `npm run release:macos:github-secrets`,
-   apply them with `--apply` so the
-   remote secret inventory is verified, commit or stash local changes before
-   dispatch, retag the merged release commit or pass `--expected-commit <sha>`
-   plus `--allow-dirty` for an intentional old committed release, pass
-   `npm run release:macos:workflow-check`, run the manual signed/notarized
-   desktop workflow with `publish=false`, and pass
+1. Fill and source the existing ignored `../../.env.release.local` template,
+   pass `npm run release:macos:github-secrets`, apply them with `--apply` so
+   the remote secret inventory is verified, keep the local release worktree
+   clean before dispatch, retag the final merged release commit or pass
+   `--expected-commit <sha>` plus `--allow-dirty` for an intentional old
+   committed release, pass `npm run release:macos:workflow-check`, run the
+   manual signed/notarized desktop workflow with `publish=false`, and pass
    `npm run release:macos:workflow-accept` against the completed same-commit
    matching run before dispatching `publish=true` with `--accepted-run-id` or
    the workflow `accepted_run_id` input.
