@@ -109,7 +109,7 @@ fn print_why(plugin: &apm_core::state::InstalledPlugin) {
     if !plugin.formats.is_empty() {
         println!("  {}:", "Formats".dimmed());
         let mut sorted_formats = plugin.formats.clone();
-        sorted_formats.sort_by(|a, b| a.format.to_string().cmp(&b.format.to_string()));
+        sorted_formats.sort_by_key(|format| format.format.to_string());
         for f in &sorted_formats {
             println!(
                 "    {:<6}{}",

@@ -4,7 +4,8 @@ use serde::Serialize;
 
 use apm_core::{
     config::Config,
-    state::{InstallState, InstalledPlugin},
+    engine::{ApmEngine, InstalledPackageSort, InstalledPackageSummary, InstalledPackagesRequest},
+    registry::PluginFormat,
 };
 
 use crate::utils::display_path;
@@ -28,56 +29,12 @@ struct InstalledPluginJson {
 }
 
 pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) -> Result<()> {
-    // Validate the sort parameter up front.
-    match sort {
-        "name" | "version" | "date" => {}
-        other => bail!(
-            "Unknown sort key '{other}'. Valid values are: name, version, date.\n\
-             Hint: Use `--sort name`, `--sort version`, or `--sort date`."
-        ),
-    }
-
-    // Validate the format parameter up front.
-    if let Some(f) = format {
-        match f {
-            "au" | "vst3" | "app" => {}
-            other => bail!(
-                "Unknown format '{other}'. Valid values are: au, vst3, app.\n\
-                 Hint: Use `--format au`, `--format vst3`, or omit the flag to show all."
-            ),
-        }
-    }
-
-    let state = InstallState::load(config)?;
-
-    // Filter by format if requested.
-    let mut plugins: Vec<&InstalledPlugin> = state
-        .plugins
-        .iter()
-        .filter(|plugin| match format {
-            Some("au") => plugin
-                .formats
-                .iter()
-                .any(|f| f.format.to_string().eq_ignore_ascii_case("au")),
-            Some("vst3") => plugin
-                .formats
-                .iter()
-                .any(|f| f.format.to_string().eq_ignore_ascii_case("vst3")),
-            Some("app") => plugin
-                .formats
-                .iter()
-                .any(|f| f.format.to_string().eq_ignore_ascii_case("app")),
-            _ => true,
-        })
-        .collect();
-
-    // Sort.
-    match sort {
-        "name" => plugins.sort_by(|a, b| a.name.to_lowercase().cmp(&b.name.to_lowercase())),
-        "version" => plugins.sort_by(|a, b| a.version.cmp(&b.version)),
-        "date" => plugins.sort_by(|a, b| b.installed_at.cmp(&a.installed_at)),
-        _ => unreachable!(),
-    }
+    let engine = ApmEngine::new(config.clone());
+    let request = InstalledPackagesRequest {
+        format: parse_format(format)?,
+        sort: parse_sort(sort)?,
+    };
+    let plugins = engine.installed_packages(request)?;
 
     if plugins.is_empty() {
         if json {
@@ -94,7 +51,7 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
         let results: Vec<InstalledPluginJson> = plugins
             .iter()
             .map(|plugin| InstalledPluginJson {
-                slug: plugin.name.clone(),
+                slug: plugin.slug.clone(),
                 version: plugin.version.clone(),
                 vendor: plugin.vendor.clone(),
                 formats: plugin
@@ -123,12 +80,12 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
 
     let rows: Vec<_> = plugins
         .iter()
-        .map(|plugin| (*plugin, format_label(plugin)))
+        .map(|plugin| (plugin, format_label(plugin)))
         .collect();
 
     let w_name = rows
         .iter()
-        .map(|(plugin, _)| plugin.name.len())
+        .map(|(plugin, _)| plugin.slug.len())
         .max()
         .unwrap_or(0)
         .max(HDR_NAME.len());
@@ -173,7 +130,7 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
 
         println!(
             "{:<w_name$}  {:<w_ver$}  {:<w_fmt$}  {:<w_origin$}  {}",
-            plugin.name.bold().to_string(),
+            plugin.slug.bold().to_string(),
             plugin.version.cyan().to_string(),
             fmt_label,
             plugin.origin.to_string(),
@@ -195,7 +152,32 @@ pub async fn run(config: &Config, json: bool, format: Option<&str>, sort: &str) 
     Ok(())
 }
 
-fn format_label(plugin: &InstalledPlugin) -> String {
+fn parse_sort(sort: &str) -> Result<InstalledPackageSort> {
+    match sort {
+        "name" => Ok(InstalledPackageSort::Name),
+        "version" => Ok(InstalledPackageSort::Version),
+        "date" => Ok(InstalledPackageSort::Date),
+        other => bail!(
+            "Unknown sort key '{other}'. Valid values are: name, version, date.\n\
+             Hint: Use `--sort name`, `--sort version`, or `--sort date`."
+        ),
+    }
+}
+
+fn parse_format(format: Option<&str>) -> Result<Option<PluginFormat>> {
+    match format {
+        Some("au") => Ok(Some(PluginFormat::Au)),
+        Some("vst3") => Ok(Some(PluginFormat::Vst3)),
+        Some("app") => Ok(Some(PluginFormat::App)),
+        Some(other) => bail!(
+            "Unknown format '{other}'. Valid values are: au, vst3, app.\n\
+             Hint: Use `--format au`, `--format vst3`, or omit the flag to show all."
+        ),
+        None => Ok(None),
+    }
+}
+
+fn format_label(plugin: &InstalledPackageSummary) -> String {
     let mut parts: Vec<String> = plugin
         .formats
         .iter()

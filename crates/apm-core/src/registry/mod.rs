@@ -136,23 +136,9 @@ impl Registry {
         let mut merged = Self::new();
 
         for source in &sources {
-            let source_cache = config.registries_cache_dir().join(&source.name);
-
-            // For local filesystem sources, load directly from the path if the
-            // cache symlink hasn't been created yet (allows `apm install` to
-            // work without requiring `apm sync` first).
-            let effective_path = if source_cache.exists() {
-                source_cache.clone()
-            } else if let Some(local) = sync::local_path(&source.url) {
-                debug!(
-                    "Loading source '{}' directly from local path {}",
-                    source.name,
-                    local.display()
-                );
-                local
-            } else {
-                source_cache.clone()
-            };
+            // For local filesystem sources, load directly from the path so
+            // unsynced local registries remain the source of truth.
+            let effective_path = source_effective_path(config, source);
 
             debug!(
                 "Loading source '{}' from {}",
@@ -337,24 +323,36 @@ impl Registry {
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
-fn is_hidden(path: &Path) -> bool {
+pub(crate) fn is_hidden(path: &Path) -> bool {
     path.file_name()
         .and_then(|name| name.to_str())
         .map(|name| name.starts_with('.'))
         .unwrap_or(false)
 }
 
-fn registry_data_dir(cache_dir: &Path) -> PathBuf {
-    if cache_dir.join("plugins").exists() {
+pub(crate) fn registry_data_dir(cache_dir: &Path) -> PathBuf {
+    if has_registry_data(cache_dir) {
         return cache_dir.to_path_buf();
     }
 
     let nested = cache_dir.join("registry");
-    if nested.join("plugins").exists() {
+    if has_registry_data(&nested) {
         return nested;
     }
 
     cache_dir.to_path_buf()
+}
+
+fn has_registry_data(path: &Path) -> bool {
+    path.join("plugins").exists()
+        || path.join("models").exists()
+        || path.join("bundles").exists()
+        || path.join("installers.toml").exists()
+}
+
+pub(crate) fn source_effective_path(config: &Config, source: &Source) -> PathBuf {
+    let source_cache = config.registries_cache_dir().join(&source.name);
+    sync::local_path(&source.url).unwrap_or(source_cache)
 }
 
 /// Parse a single plugin TOML file into a `PluginDefinition`.

@@ -11,6 +11,10 @@ use thiserror::Error;
 #[derive(Error, Debug)]
 #[allow(dead_code)]
 pub enum ApmError {
+    // -- Operation lifecycle ------------------------------------------------------
+    #[error("Operation canceled by request.")]
+    OperationCanceled,
+
     // ── Configuration ────────────────────────────────────────────────────────
     #[error(
         "Failed to load configuration from {path}: {source}\n\

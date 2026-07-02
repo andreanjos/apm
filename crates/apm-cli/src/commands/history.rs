@@ -28,7 +28,7 @@ pub async fn run(config: &Config, limit: Option<usize>, json: bool) -> Result<()
 
     // Sort by installed_at descending (most recent first).
     let mut plugins = state.plugins.clone();
-    plugins.sort_by(|a, b| b.installed_at.cmp(&a.installed_at));
+    plugins.sort_by_key(|plugin| std::cmp::Reverse(plugin.installed_at));
 
     // Apply limit if specified.
     if let Some(n) = limit {

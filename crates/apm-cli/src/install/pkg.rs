@@ -133,29 +133,6 @@ pub fn select_installed_bundle(
     Ok(bundles.into_iter().next().expect("non-empty bundles"))
 }
 
-/// Find the first `.pkg` or `.mpkg` file under `root`, using deterministic sort
-/// order so archive probing behaves predictably.
-pub fn find_pkg_in_dir(root: &Path) -> Option<PathBuf> {
-    let mut packages: Vec<PathBuf> = WalkDir::new(root)
-        .min_depth(1)
-        .max_depth(6)
-        .into_iter()
-        .filter_map(|e| e.ok())
-        .filter_map(|entry| {
-            let path = entry.into_path();
-            let ext = path.extension().and_then(|e| e.to_str())?;
-            if ext == "pkg" || ext == "mpkg" {
-                Some(path)
-            } else {
-                None
-            }
-        })
-        .collect();
-
-    packages.sort();
-    packages.into_iter().next()
-}
-
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 /// Try to determine the PKG's bundle ID using `pkgutil --pkg-info`.
@@ -282,29 +259,9 @@ fn scan_standard_dirs_for_bundles() -> Vec<PathBuf> {
 
 #[cfg(test)]
 mod tests {
-    use super::{find_pkg_in_dir, select_installed_bundle};
+    use super::select_installed_bundle;
     use apm_core::registry::PluginFormat;
     use std::path::PathBuf;
-
-    #[test]
-    fn test_find_pkg_in_dir_finds_nested_pkg() {
-        let temp = tempfile::tempdir().expect("tempdir");
-        let nested = temp.path().join("Vendor/Installer");
-        std::fs::create_dir_all(&nested).expect("create nested dir");
-        let pkg = nested.join("Plugin.pkg");
-        std::fs::write(&pkg, b"pkg").expect("write pkg");
-
-        let found = find_pkg_in_dir(temp.path()).expect("expected pkg");
-        assert_eq!(found, pkg);
-    }
-
-    #[test]
-    fn test_find_pkg_in_dir_returns_none_without_pkg() {
-        let temp = tempfile::tempdir().expect("tempdir");
-        std::fs::write(temp.path().join("README.txt"), b"no pkg").expect("write readme");
-
-        assert!(find_pkg_in_dir(temp.path()).is_none());
-    }
 
     #[test]
     fn test_select_installed_bundle_prefers_expected_bundle_name() {

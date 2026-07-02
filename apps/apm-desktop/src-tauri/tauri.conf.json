@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "apm",
+  "version": "0.1.1",
+  "identifier": "com.andreanjos.apm",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run sidecar:stage && npm test && npm run build",
+    "devUrl": "http://127.0.0.1:5173",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "apm",
+        "width": 1280,
+        "height": 820,
+        "minWidth": 980,
+        "minHeight": 700,
+        "resizable": true
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["app", "dmg"],
+    "externalBin": ["sidecars/apm-cli"],
+    "icon": ["icons/icon.png"],
+    "category": "DeveloperTool",
+    "shortDescription": "Audio package manager",
+    "longDescription": "Desktop audio package manager for macOS plugins, tools, and model packages."
+  }
+}

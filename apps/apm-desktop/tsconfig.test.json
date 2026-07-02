@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": ".tmp/unit-tests",
+    "rootDir": "src",
+    "module": "CommonJS",
+    "moduleResolution": "bundler",
+    "isolatedModules": false
+  },
+  "include": ["src/**/*.test.ts"],
+  "exclude": []
+}

@@ -15,14 +15,14 @@ use apm_core::config::InstallScope;
 
 // ── CLI Definition ────────────────────────────────────────────────────────────
 
-/// apm — Audio Plugin Manager for macOS.
+/// apm - Audio Package Manager for macOS.
 ///
-/// Manage AU and VST3 plugins from the command line, apt-style.
+/// Manage macOS audio packages from the command line.
 #[derive(Parser, Debug)]
 #[command(
     name = "apm",
     version,
-    about = "Audio Plugin Manager — apt-style management for macOS AU and VST3 plugins",
+    about = "Audio Package Manager for macOS audio packages, AU/VST3 plugins, and model manifests",
     long_about = None,
     propagate_version = true,
     after_help = "Quick start:\n  apm sync          Pull latest plugin registry\n  apm search synth  Search for plugins\n  apm install <id>  Install a plugin\n  apm list          See installed plugins"
@@ -306,6 +306,20 @@ enum Commands {
     #[command(subcommand)]
     Sources(SourcesCommands),
 
+    /// Work with audio-AI model package manifests and lockfiles.
+    ///
+    /// This is the v0 backbone for apm's local audio inference runtime: package
+    /// manifests, reproducible apm.lock files, and the ~/.apm model store.
+    #[command(subcommand)]
+    Model(commands::model::ModelCommands),
+
+    /// Run or inspect the local service boundary for GUI and automation clients.
+    ///
+    /// The first runtime is a foreground, loopback-only preview with persisted
+    /// operation status for registry sync and lifecycle writes.
+    #[command(subcommand)]
+    Serve(ServeCommands),
+
     /// Generate shell completion scripts.
     ///
     /// Prints the completion script for the specified shell to stdout.
@@ -580,6 +594,23 @@ enum SourcesCommands {
     List,
 }
 
+#[derive(Subcommand, Debug)]
+enum ServeCommands {
+    /// Print the versioned localhost API contract.
+    Contract,
+
+    /// Run the foreground localhost service preview.
+    Run {
+        /// Loopback host to bind.
+        #[arg(long, default_value = "127.0.0.1")]
+        host: String,
+
+        /// Port to bind. Defaults to APM_SERVE_PORT or 4767.
+        #[arg(long)]
+        port: Option<u16>,
+    },
+}
+
 // ── Entry Point ───────────────────────────────────────────────────────────────
 
 #[tokio::main]
@@ -765,6 +796,15 @@ async fn run() -> Result<()> {
                 commands::sources::run_remove(&config, name, json).await
             }
             SourcesCommands::List => commands::sources::run_list(&config, json).await,
+        },
+
+        Commands::Model(sub) => commands::model::run(sub, json).await,
+
+        Commands::Serve(sub) => match sub {
+            ServeCommands::Contract => commands::serve::run_contract(json),
+            ServeCommands::Run { host, port } => {
+                commands::serve::run_server(config.clone(), host, *port, quiet).await
+            }
         },
 
         Commands::Completions { shell } => commands::completions::run(shell),

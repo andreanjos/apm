@@ -1,4 +1,11 @@
 target/
+desktop-release/
+apps/apm-desktop/dist/
+apps/apm-desktop/.tmp/
+apps/apm-desktop/node_modules/
+apps/apm-desktop/src-tauri/gen/
+apps/apm-desktop/src-tauri/sidecars/*
+apps/apm-desktop/src-tauri/tauri.release.generated.conf.json
 .env
 .env.*
 .sqlx/
