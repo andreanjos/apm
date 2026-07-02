@@ -37,6 +37,9 @@ Last verified on 2026-07-02:
 - `cd desktop-release && shasum -a 256 -c apm-0.1.1-desktop.sha256`
 - `cd apps/apm-desktop && npm run release:macos:github-bootstrap -- --repo andreanjos/apm`
 - `cd apps/apm-desktop && node build-tools/macos-release-github-secrets.test.mjs`
+  covers ignored/private `--env-file` secret input, env-file parsing,
+  unsafe/tracked env-file rejection, and upload through GitHub stdin without
+  putting secret values in command arguments.
 - `cd apps/apm-desktop && npm run release:macos:github-secrets-template -- --output <temp>`,
   then rerunning the same output path, writes the ignored template with private
   permissions and refuses to overwrite an existing file.
@@ -45,7 +48,8 @@ Last verified on 2026-07-02:
   are written there.
 - `cd apps/apm-desktop && npm run release:macos:github-secrets -- --repo andreanjos/apm`
   currently fails because no local signing/notarization secret values are set
-  in this shell.
+  in this shell unless they are supplied through an ignored private
+  `--env-file`.
 - `gh api repos/andreanjos/apm/environments/macos-desktop-release/secrets`
   returned `total_count: 0`.
 - `cd apps/apm-desktop && npm run release:macos:github-check` currently fails
@@ -62,9 +66,9 @@ Last verified on 2026-07-02:
   concrete next steps for those blockers, including the existing ignored
   `../../.env.release.local` template when present, an explicit fix step when
   an existing template is not ignored/private, and a required GitHub secrets
-  dry run before upload. It also verifies and summarizes the local release
-  evidence manifest, including generated time and artifact hashes, and exposes
-  the exact local worktree change inventory in the report.
+  `--env-file` dry run before upload. It also verifies and summarizes the local
+  release evidence manifest, including generated time and artifact hashes, and
+  exposes the exact local worktree change inventory in the report.
 - `cd apps/apm-desktop && npm run release:macos:status -- --repo andreanjos/apm --tag v0.1.1 --markdown`
   uses the same live report, now including `Local Evidence` and
   `Local Worktree Changes` sections, to generate paste-ready handoff notes.
@@ -112,13 +116,13 @@ Last verified on 2026-07-02:
   currently reaches the real local `desktop-release/` inventory/evidence set,
   but fails as expected because the local preview artifacts are ad-hoc signed,
   lack Developer ID Application authority/TeamIdentifier, and are not stapled.
-- Latest local release evidence was regenerated at `2026-07-02T04:46:13.184Z`:
+- Latest local release evidence was regenerated at `2026-07-02T05:46:41.269Z`:
   `apm-0.1.1-macos-app.zip` SHA-256
-  `35ee27c5d7d4dadb2aa8880dcb76f26a0d83638922810db119c9d42123078849`,
+  `7ac076cbfd157d46de28f6e674b51d553019b2d49e367a48e5f975ea65e99856`,
   `apm_0.1.1_aarch64.dmg` SHA-256
-  `dd974de8e38ae1db62a6011136b421dca1ed66c45793aa27e0a4c4705020fdce`,
+  `f46b5e5b3a24d8cc20bc0c3d1fed1df915d672718010e6a3c6b393c488b48d91`,
   and `apm-0.1.1-desktop.sha256` SHA-256
-  `002851bc4b3acd97c7c24bfa610d05e5a93a7b9bfe2f217e7161c190880aca20`.
+  `9f952761965f2022991873b0ff2a083163bb8646bf0b89e08ca12211b6fd61da`.
 
 ## Status Summary
 
@@ -258,9 +262,11 @@ Last verified on 2026-07-02:
   safely writes the required env names, base64 generation commands, and
   dry-run/upload/check/status sequence without secret values. The file-writing
   path uses private permissions and refuses to overwrite an existing local env
-  file. All required environment secrets are still missing, the manual desktop
-  workflow is visible on GitHub, and the first signed/notarized workflow run is
-  not yet proven. The release status/workflow checks also
+  file, and the upload helper can read that ignored/private file directly with
+  `--env-file` instead of requiring shell sourcing. All required environment
+  secrets are still missing, the manual desktop workflow is visible on GitHub,
+  and the first signed/notarized workflow run is not yet proven. The release
+  status/workflow checks also
   reject a dirty local worktree and stale release tag before dispatch, because
   the workflow checks out the tag it is asked to build and cannot include
   uncommitted local changes. `release:macos:status` now exposes those blockers
@@ -294,8 +300,9 @@ Last verified on 2026-07-02:
 
 ## Remaining v3.0 Work
 
-1. Fill and source the existing ignored `../../.env.release.local` template,
-   pass `npm run release:macos:github-secrets`, apply them with `--apply` so
+1. Fill the existing ignored `../../.env.release.local` template, pass
+   `npm run release:macos:github-secrets -- --env-file ../../.env.release.local`,
+   apply them with `--apply` so
    the remote secret inventory is verified, keep the local release worktree
    clean before dispatch, run this as a dry run before applying the final
    release tag move:

@@ -133,10 +133,11 @@ tracked-change-only check. When `--allow-dirty` is used with
 check can pass but the same dirty-tree inventory remains visible in the report;
 `--allow-dirty` without `--expected-commit` is rejected before release checks.
 When the ignored local secret template already exists, the secret next step
-points at filling and sourcing that file instead of regenerating it.
+points at filling that file and passing it with `--env-file` instead of
+regenerating it.
 If an existing template is not ignored by Git or is not mode `600`, the status
-report points at fixing that before any credentials are sourced. Use `--json`
-for automation instead; JSON and markdown output are mutually exclusive. Add
+report points at fixing that before any credentials are read. Use `--json` for
+automation instead; JSON and markdown output are mutually exclusive. Add
 `--help` to print usage without running local or remote release checks.
 
 ## Required Secrets
@@ -162,25 +163,30 @@ npm run release:macos:github-secrets-template -- --output ../../.env.release.loc
 The generated template is written to the ignored `../../.env.release.local`
 path with private file permissions, and the command refuses to overwrite an
 existing file. Its comments include the dry-run, upload, remote inventory check,
-and markdown status commands so secret setup can be driven from the filled local
-file without retyping the sequence. `release:macos:check` verifies that this
-local secret template path remains ignored by Git before public-release setup,
-and `release:macos:status` warns when an existing template is not ignored or
-not private. Add `--help` to `release:macos:check` or `bundle:macos:release`
-to print release-gate usage without running preflight or release build work.
-Add `--help` to either secrets command to print usage without validating local
-values, writing a template, or uploading secrets.
+markdown status, and dry-run tag commands so secret setup can be driven from
+the filled local file without retyping the sequence. `release:macos:check`
+verifies that this local secret template path remains ignored by Git before
+public-release setup, and `release:macos:status` warns when an existing template
+is not ignored or not private. Add `--help` to `release:macos:check` or
+`bundle:macos:release` to print release-gate usage without running preflight or
+release build work. Add `--help` to either secrets command to print usage
+without validating local values, writing a template, or uploading secrets.
 
-After filling and sourcing the local template, validate without upload:
+After filling the local template, validate without upload:
 
 ```bash
-npm run release:macos:github-secrets -- --repo andreanjos/apm
+npm run release:macos:github-secrets -- \
+  --repo andreanjos/apm \
+  --env-file ../../.env.release.local
 ```
 
 Upload and verify the remote inventory:
 
 ```bash
-npm run release:macos:github-secrets -- --repo andreanjos/apm --apply
+npm run release:macos:github-secrets -- \
+  --repo andreanjos/apm \
+  --env-file ../../.env.release.local \
+  --apply
 ```
 
 ## Release Sequence
@@ -201,9 +207,13 @@ npm run release:macos:github-secrets -- --repo andreanjos/apm --apply
    ```bash
    # Run this first command only when ../../.env.release.local is missing.
    npm run release:macos:github-secrets-template -- --output ../../.env.release.local
-   source ../../.env.release.local
-   npm run release:macos:github-secrets -- --repo andreanjos/apm
-   npm run release:macos:github-secrets -- --repo andreanjos/apm --apply
+   npm run release:macos:github-secrets -- \
+     --repo andreanjos/apm \
+     --env-file ../../.env.release.local
+   npm run release:macos:github-secrets -- \
+     --repo andreanjos/apm \
+     --env-file ../../.env.release.local \
+     --apply
    npm run release:macos:github-check -- --repo andreanjos/apm
    npm run release:macos:tag -- --tag v0.1.1 --expected-commit "$(git rev-parse HEAD)"
    # Rerun the same tag command with --apply only after the dry-run plan is right.

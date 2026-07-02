@@ -1,7 +1,10 @@
 import {
   githubSecretInstallErrors,
   githubSecretTemplate,
+  parseSecretEnvFile,
+  releaseSecretEnvFileStatus,
   runGithubSecretCommand,
+  secretEnvironment,
   secretInstallEntries,
   secretValueErrors,
   writeGithubSecretTemplate,
@@ -13,6 +16,7 @@ import {
   readFileSync,
   rmSync,
   statSync,
+  writeFileSync,
 } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { tmpdir } from "node:os";
@@ -57,6 +61,117 @@ test("dry run accepts complete local secret inputs without gh calls", () => {
     "dry run errors",
   );
   assertEqual(callCount, 0, "dry run command calls");
+});
+
+test("reads complete local secret inputs from a private env file", () => {
+  withTempDir((dir) => {
+    const envFile = writeCompleteSecretEnvFile(resolve(dir, ".env.release.local"));
+
+    const secretEnv = secretEnvironment({ envFile });
+    assertDeepEqual(secretEnv.errors, [], "env file errors");
+    assertEqual(
+      secretEnv.values.APM_MACOS_SIGNING_IDENTITY,
+      completeSecretEnv().APM_MACOS_SIGNING_IDENTITY,
+      "parsed signing identity",
+    );
+
+    assertDeepEqual(
+      githubSecretInstallErrors({
+        repo: "andreanjos/apm",
+        envFile,
+        runCommand: () => {
+          throw new Error("dry run should not call gh or git for external private env files");
+        },
+      }),
+      [],
+      "env-file dry run errors",
+    );
+  });
+});
+
+test("uploads local secret inputs from an env file through gh stdin", () => {
+  withTempDir((dir) => {
+    const calls = [];
+    const envFile = writeCompleteSecretEnvFile(resolve(dir, ".env.release.local"));
+
+    assertDeepEqual(
+      githubSecretInstallErrors({
+        repo: "andreanjos/apm",
+        envFile,
+        apply: true,
+        runCommand: fakeGh(calls),
+      }),
+      [],
+      "env-file upload errors",
+    );
+
+    const firstSecret = calls.find((call) => call.args[0] === "secret");
+    assertEqual(
+      firstSecret.options.input,
+      completeSecretEnv().APM_MACOS_CERTIFICATE_BASE64,
+      "stdin from env file",
+    );
+  });
+});
+
+test("reports missing local secret inputs from the selected source", () => {
+  withTempDir((dir) => {
+    const envFile = writeCompleteSecretEnvFile(resolve(dir, ".env.release.local"), {
+      APPLE_API_KEY_BASE64: "",
+    });
+
+    const errors = githubSecretInstallErrors({
+      repo: "andreanjos/apm",
+      envFile,
+    }).join("\n");
+
+    assertIncludes(errors, "APPLE_API_KEY_BASE64", "missing env-file secret");
+    assertIncludes(errors, `release secret env file ${envFile}`, "env-file source");
+  });
+});
+
+test("accepts repo-local secret env files only when private and ignored", () => {
+  const calls = [];
+  const status = releaseSecretEnvFileStatus(resolve(repoRoot, ".env.release.local"), {
+    existsSync: () => true,
+    statSync: () => ({ mode: 0o600 }),
+    runCommand: (command, args) => {
+      calls.push({ command, args });
+      return { status: 0, stdout: "", stderr: "" };
+    },
+  });
+
+  assertDeepEqual(status.errors, [], "repo-local env-file errors");
+  assertEqual(status.ignored, true, "repo-local env-file ignored");
+  assertDeepEqual(
+    calls,
+    [{ command: "git", args: ["check-ignore", "-q", "--", ".env.release.local"] }],
+    "git ignore check",
+  );
+});
+
+test("rejects unsafe or tracked local secret env files", () => {
+  const unsafe = releaseSecretEnvFileStatus("tracked.env", {
+    existsSync: () => true,
+    statSync: () => ({ mode: 0o644 }),
+    runCommand: () => ({ status: 1, stdout: "", stderr: "" }),
+  }).errors.join("\n");
+
+  assertIncludes(unsafe, "private mode 600", "private mode error");
+  assertIncludes(unsafe, "ignored by git", "gitignore error");
+});
+
+test("reports local secret env file parse errors", () => {
+  withTempDir((dir) => {
+    const envFile = resolve(dir, ".env.release.local");
+    writeFileSync(envFile, "export APM_MACOS_CERTIFICATE_BASE64\n", {
+      encoding: "utf8",
+      mode: 0o600,
+    });
+
+    const parsed = parseSecretEnvFile(envFile);
+    assertIncludes(parsed.errors.join("\n"), "NAME=value", "parse error");
+  });
 });
 
 test("uploads environment secrets through gh stdin", () => {
@@ -161,9 +276,16 @@ test("prints a safe local secret template", () => {
   assertIncludes(template, "base64 -i /path/to/AuthKey_XXXXXXXXXX.p8", "api key command");
   assertIncludes(template, ".env.release.local", "ignored env file hint");
   assertIncludes(template, "--output ../../.env.release.local", "non-overwrite output command");
-  assertIncludes(template, "source ../../.env.release.local", "source command");
-  assertIncludes(template, "github-secrets -- --repo andreanjos/apm", "dry run command");
-  assertIncludes(template, "github-secrets -- --repo andreanjos/apm --apply", "apply command");
+  assertIncludes(
+    template,
+    "github-secrets -- --repo andreanjos/apm --env-file ../../.env.release.local",
+    "dry run command",
+  );
+  assertIncludes(
+    template,
+    "github-secrets -- --repo andreanjos/apm --env-file ../../.env.release.local --apply",
+    "apply command",
+  );
   assertIncludes(template, "github-check -- --repo andreanjos/apm", "remote inventory check");
   assertIncludes(
     template,
@@ -175,14 +297,26 @@ test("prints a safe local secret template", () => {
     `release:macos:tag -- --tag ${defaultTag} --expected-commit "$(git rev-parse HEAD)"`,
     "release tag command",
   );
-  assertEqual(template.includes(completeSecretEnv().APM_MACOS_CERTIFICATE_BASE64), false, "no p12 value");
-  assertEqual(template.includes(completeSecretEnv().APPLE_API_KEY_BASE64), false, "no api key value");
+  assertEqual(
+    template.includes(completeSecretEnv().APM_MACOS_CERTIFICATE_BASE64),
+    false,
+    "no p12 value",
+  );
+  assertEqual(
+    template.includes(completeSecretEnv().APPLE_API_KEY_BASE64),
+    false,
+    "no api key value",
+  );
 });
 
 test("prints explicit release handoff context in the local secret template", () => {
   const template = githubSecretTemplate({ repo: "example/apm", tag: "v9.8.7" });
 
-  assertIncludes(template, "github-secrets -- --repo example/apm", "explicit repo");
+  assertIncludes(
+    template,
+    "github-secrets -- --repo example/apm --env-file ../../.env.release.local",
+    "explicit repo",
+  );
   assertIncludes(
     template,
     "release:macos:status -- --repo example/apm --tag v9.8.7 --markdown",
@@ -208,7 +342,11 @@ test("writes the local secret template without overwriting existing files", () =
     assertEqual(result.written, true, "write result");
     assertEqual(result.path, output, "written path");
     const template = readFileSync(output, "utf8");
-    assertIncludes(template, "github-secrets -- --repo example/apm", "written repo");
+    assertIncludes(
+      template,
+      "github-secrets -- --repo example/apm --env-file ../../.env.release.local",
+      "written repo",
+    );
     assertIncludes(
       template,
       "release:macos:status -- --repo example/apm --tag v9.8.7 --markdown",
@@ -318,6 +456,20 @@ function completeSecretEnv(overrides = {}) {
   };
 }
 
+function writeCompleteSecretEnvFile(path, overrides = {}) {
+  const env = completeSecretEnv(overrides);
+  const lines = [
+    "# test release secrets",
+    ...Object.entries(env).map(([name, value]) => `export ${name}="${value}"`),
+    "",
+  ];
+  writeFileSync(path, lines.join("\n"), {
+    encoding: "utf8",
+    mode: 0o600,
+  });
+  return path;
+}
+
 function derLikeBase64() {
   return Buffer.from([0x30, 0x03, 0x02, 0x01, 0x00]).toString("base64");
 }
@@ -357,7 +509,15 @@ function withTempDir(run) {
 
 function ghApiResponse(args) {
   const key = args.join(" ");
-  if (key === "api --method PUT repos/andreanjos/apm/environments/macos-desktop-release --input -") {
+  const bootstrapEnvironmentKey = [
+    "api",
+    "--method",
+    "PUT",
+    "repos/andreanjos/apm/environments/macos-desktop-release",
+    "--input",
+    "-",
+  ].join(" ");
+  if (key === bootstrapEnvironmentKey) {
     return {
       status: 0,
       stdout: `${JSON.stringify({ name: "macos-desktop-release" })}\n`,
