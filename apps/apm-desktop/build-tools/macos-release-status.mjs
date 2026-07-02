@@ -412,22 +412,23 @@ function releaseTagNextStep(context) {
 function releaseEnvironmentSecretNextStep(context) {
   const template = context.localSecretTemplate;
   const path = template?.displayPath ?? "../../.env.release.local";
-  const validate = `npm run release:macos:github-secrets -- --repo ${context.repo}`;
+  const validate =
+    `npm run release:macos:github-secrets -- --repo ${context.repo} --env-file ${path}`;
   if (template?.exists && template.ignored && template.private) {
     return (
-      `Fill and source the existing ${path}, run ${validate}, ` +
+      `Fill the existing ${path}, run ${validate}, ` +
       "then rerun it with --apply after the dry run passes."
     );
   }
   if (template?.exists) {
     return (
-      `Fix ${path} so it is ignored by Git and mode 600, then fill and source it, ` +
+      `Fix ${path} so it is ignored by Git and mode 600, fill it, ` +
       `run ${validate}, then rerun it with --apply after the dry run passes.`
     );
   }
   return (
     `Run npm run release:macos:github-secrets-template -- --output ${path}, ` +
-    `fill and source that local env file, run ${validate}, ` +
+    `fill that local env file, run ${validate}, ` +
     "then rerun it with --apply after the dry run passes."
   );
 }

@@ -78,12 +78,12 @@ test("reports remote workflow, secret, and tag blockers without throwing", () =>
   );
   assertIncludes(
     report.nextSteps.join("\n"),
-    "fill and source that local env file",
-    "secret source next step",
+    "fill that local env file",
+    "secret fill next step",
   );
   assertIncludes(
     report.nextSteps.join("\n"),
-    "release:macos:github-secrets -- --repo andreanjos/apm",
+    "release:macos:github-secrets -- --repo andreanjos/apm --env-file ../../.env.release.local",
     "secret dry-run next step",
   );
   assertIncludes(
@@ -118,12 +118,12 @@ test("points secret setup at an existing ignored local template", () => {
   const nextSteps = report.nextSteps.join("\n");
   assertIncludes(
     nextSteps,
-    "Fill and source the existing ../../.env.release.local",
+    "Fill the existing ../../.env.release.local",
     "existing template next step",
   );
   assertIncludes(
     nextSteps,
-    "release:macos:github-secrets -- --repo andreanjos/apm",
+    "release:macos:github-secrets -- --repo andreanjos/apm --env-file ../../.env.release.local",
     "secret dry-run next step",
   );
   assertEqual(
@@ -148,12 +148,12 @@ test("warns before using an existing unsafe local secret template", () => {
   const nextSteps = report.nextSteps.join("\n");
   assertIncludes(
     nextSteps,
-    "Fix ../../.env.release.local so it is ignored by Git and mode 600",
+    "Fix ../../.env.release.local so it is ignored by Git and mode 600, fill it",
     "unsafe template remediation",
   );
   assertIncludes(
     nextSteps,
-    "release:macos:github-secrets -- --repo andreanjos/apm",
+    "release:macos:github-secrets -- --repo andreanjos/apm --env-file ../../.env.release.local",
     "secret dry-run next step",
   );
   assertEqual(

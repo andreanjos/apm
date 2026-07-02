@@ -1,4 +1,5 @@
-import { writeFileSync } from "node:fs";
+import { existsSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { relative, resolve } from "node:path";
 import { requiredReleaseEnvironmentSecrets } from "./macos-release.mjs";
 import {
   defaultReleaseEnvironment,
@@ -11,6 +12,7 @@ import {
   errorMessage,
   gitRemoteUrl,
   isMain,
+  repoRoot,
   repoFromRemoteUrl,
   run,
   valueArg,
@@ -90,8 +92,13 @@ export function githubSecretInstallErrors(options = {}) {
     return context.errors;
   }
 
-  const entries = secretInstallEntries(options.env ?? process.env);
-  const entryErrors = secretInstallEntryErrors(entries);
+  const env = secretEnvironment(options);
+  if (env.errors.length > 0) {
+    return env.errors;
+  }
+
+  const entries = secretInstallEntries(env.values);
+  const entryErrors = secretInstallEntryErrors(entries, env.source);
   if (entryErrors.length > 0) {
     return entryErrors;
   }
@@ -154,6 +161,102 @@ export function secretInstallEntries(env = process.env) {
   });
 }
 
+export function secretEnvironment(options = {}) {
+  if (options.env) {
+    return { values: options.env, source: "local environment", errors: [] };
+  }
+  if (!options.envFile) {
+    return { values: process.env, source: "local environment", errors: [] };
+  }
+
+  const status = releaseSecretEnvFileStatus(options.envFile, options);
+  if (status.errors.length > 0) {
+    return { values: {}, source: "", errors: status.errors };
+  }
+
+  const parsed = parseSecretEnvFile(status.path);
+  if (parsed.errors.length > 0) {
+    return { values: {}, source: "", errors: parsed.errors };
+  }
+  return {
+    values: parsed.values,
+    source: `release secret env file ${options.envFile}`,
+    errors: [],
+  };
+}
+
+export function releaseSecretEnvFileStatus(path, options = {}) {
+  const resolved = resolve(process.cwd(), path);
+  const exists = (options.existsSync ?? existsSync)(resolved);
+  const result = {
+    path: resolved,
+    exists,
+    ignored: false,
+    private: false,
+    errors: [],
+  };
+
+  if (!exists) {
+    result.errors.push(`release secret env file does not exist: ${path}`);
+    return result;
+  }
+
+  try {
+    result.private = ((options.statSync ?? statSync)(resolved).mode & 0o077) === 0;
+  } catch (error) {
+    result.errors.push(
+      `could not inspect release secret env file permissions: ${errorMessage(error)}`,
+    );
+  }
+  if (!result.private) {
+    result.errors.push(`release secret env file must be private mode 600: ${path}`);
+  }
+
+  const repoRelative = relative(repoRoot, resolved);
+  if (!repoRelative.startsWith("..") && repoRelative !== "") {
+    const ignored = gitIgnored(repoRelative, options);
+    result.ignored = ignored.value;
+    if (ignored.error) {
+      result.errors.push(`could not verify release secret env file ignore rule: ${ignored.error}`);
+    } else if (!ignored.value) {
+      result.errors.push(`release secret env file must be ignored by git: ${path}`);
+    }
+  }
+
+  return result;
+}
+
+export function parseSecretEnvFile(path) {
+  const values = {};
+  const errors = [];
+  const allowed = new Set(requiredReleaseEnvironmentSecrets());
+  let text = "";
+  try {
+    text = readFileSync(path, "utf8");
+  } catch (error) {
+    return {
+      values,
+      errors: [`could not read release secret env file: ${errorMessage(error)}`],
+    };
+  }
+
+  text.split(/\r?\n/).forEach((line, index) => {
+    const parsed = parseSecretEnvLine(line, index + 1);
+    if (parsed.skip) {
+      return;
+    }
+    if (parsed.error) {
+      errors.push(parsed.error);
+      return;
+    }
+    if (allowed.has(parsed.name)) {
+      values[parsed.name] = parsed.value;
+    }
+  });
+
+  return { values, errors };
+}
+
 export function githubSecretTemplate(options = {}) {
   const tag = (options.tag ?? defaultReleaseTag(options.desktopPackageJsonPath)) || "v<version>";
   const repo = options.repo ?? "andreanjos/apm";
@@ -161,17 +264,18 @@ export function githubSecretTemplate(options = {}) {
     "# apm macOS desktop release secrets",
     "# Save this to an ignored file such as ../../.env.release.local.",
     "# Prefer: npm run release:macos:github-secrets-template -- --output ../../.env.release.local",
-    "# Fill these values locally, source the file, then run the dry run first:",
-    "# source ../../.env.release.local",
-    `# npm run release:macos:github-secrets -- --repo ${repo}`,
+    "# Fill these values locally, then run the dry run first:",
+    `# npm run release:macos:github-secrets -- --repo ${repo} --env-file ../../.env.release.local`,
     "# Upload only after the dry run passes, then verify readiness:",
-    `# npm run release:macos:github-secrets -- --repo ${repo} --apply`,
+    "# npm run release:macos:github-secrets -- " +
+      `--repo ${repo} --env-file ../../.env.release.local --apply`,
     `# npm run release:macos:github-check -- --repo ${repo}`,
     `# npm run release:macos:status -- --repo ${repo} --tag ${tag} --markdown`,
     `# npm run release:macos:tag -- --tag ${tag} --expected-commit "$(git rev-parse HEAD)"`,
     "#",
     "# Generate file-backed base64 values with:",
-    '# export APM_MACOS_CERTIFICATE_BASE64="$(base64 -i /path/to/DeveloperIDApplication.p12 | tr -d \'\\n\')"',
+    "# export APM_MACOS_CERTIFICATE_BASE64=\"" +
+      "$(base64 -i /path/to/DeveloperIDApplication.p12 | tr -d '\\n')\"",
     '# export APPLE_API_KEY_BASE64="$(base64 -i /path/to/AuthKey_XXXXXXXXXX.p8 | tr -d \'\\n\')"',
     "",
   ];
@@ -216,10 +320,10 @@ export function writeGithubSecretTemplate(options = {}) {
   }
 }
 
-export function secretInstallEntryErrors(entries) {
+export function secretInstallEntryErrors(entries, source = "local environment") {
   return entries.flatMap((entry) => {
     if (!entry.present) {
-      return [`${entry.name} must be set in the local environment before uploading secrets`];
+      return [`${entry.name} must be set in ${source} before secret setup can continue`];
     }
     return secretValueErrors(entry.name, entry.value);
   });
@@ -269,6 +373,65 @@ export function secretValueErrors(name, value) {
   return [];
 }
 
+function parseSecretEnvLine(line, lineNumber) {
+  const trimmed = line.trim();
+  if (!trimmed || trimmed.startsWith("#")) {
+    return { skip: true };
+  }
+
+  const assignment = trimmed.startsWith("export ")
+    ? trimmed.slice("export ".length).trim()
+    : trimmed;
+  const match = assignment.match(/^([A-Za-z_][A-Za-z0-9_]*)=(.*)$/);
+  if (!match) {
+    return {
+      error:
+        `release secret env file line ${lineNumber} must be NAME=value or export NAME=value`,
+    };
+  }
+
+  const parsedValue = parseSecretEnvValue(match[2], lineNumber);
+  if (parsedValue.error) {
+    return parsedValue;
+  }
+  return { name: match[1], value: parsedValue.value };
+}
+
+function parseSecretEnvValue(rawValue, lineNumber) {
+  const value = rawValue.trim();
+  if (value.startsWith('"') || value.startsWith("'")) {
+    const quote = value[0];
+    if (!value.endsWith(quote) || value.length === 1) {
+      return {
+        error: `release secret env file line ${lineNumber} has an unterminated quoted value`,
+      };
+    }
+    const inner = value.slice(1, -1);
+    return {
+      value: quote === '"' ? inner.replace(/\\(["\\$`])/g, "$1") : inner,
+    };
+  }
+
+  const commentIndex = value.search(/\s+#/);
+  return {
+    value: commentIndex >= 0 ? value.slice(0, commentIndex).trimEnd() : value,
+  };
+}
+
+function gitIgnored(path, options) {
+  const result = run(options.runCommand, "git", ["check-ignore", "-q", "--", path]);
+  if (result.status === 0) {
+    return { value: true, error: "" };
+  }
+  if (result.status === 1) {
+    return { value: false, error: "" };
+  }
+  return {
+    value: false,
+    error: result.stderr || result.stdout || "git check-ignore exited non-zero",
+  };
+}
+
 function secretDescription(name) {
   return {
     APM_MACOS_CERTIFICATE_BASE64: "base64-encoded .p12 Developer ID Application certificate",
@@ -308,7 +471,7 @@ function githubSecretInstallContext(options) {
 function optionsFromArgs(argv) {
   const errors = argumentErrors(argv, {
     flagArgs: ["--apply", "--print-template", "--template", "--help"],
-    valueArgs: ["--output", "--repo", "--tag", "--environment"],
+    valueArgs: ["--output", "--repo", "--tag", "--environment", "--env-file"],
   });
 
   return {
@@ -317,6 +480,7 @@ function optionsFromArgs(argv) {
     apply: argv.includes("--apply"),
     printTemplate: argv.includes("--print-template") || argv.includes("--template"),
     output: valueArg(argv, "--output"),
+    envFile: valueArg(argv, "--env-file"),
     repo: valueArg(argv, "--repo"),
     tag: valueArg(argv, "--tag"),
     environment: valueArg(argv, "--environment"),
@@ -335,6 +499,7 @@ function usage() {
     "  --print-template        Print a local .env release secret template",
     "  --template              Alias for --print-template",
     "  --output <path>         Write the template without overwriting existing files",
+    "  --env-file <path>       Read local secret values from an ignored private env file",
     "  --repo <owner/name>     GitHub repository; defaults to origin remote for uploads",
     "  --tag <tag>             Release tag to include in generated template guidance",
     "  --environment <name>    GitHub Environment for release secrets",
