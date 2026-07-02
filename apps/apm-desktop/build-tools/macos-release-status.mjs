@@ -393,16 +393,18 @@ function releaseStatusNextStep(checkId, context) {
 }
 
 function releaseTagNextStep(context) {
+  const baseCommand = `npm run release:macos:tag -- --tag ${context.tag}`;
   if (context.expectedCommit) {
     return (
-      `Move or recreate ${context.tag} so it points at ` +
-      `${shortSha(context.expectedCommit)}, or rerun with the intended committed ` +
-      "release SHA."
+      `Run ${baseCommand} --expected-commit ${shortSha(context.expectedCommit)} ` +
+      "to review the lease-protected tag update, then rerun with --apply after " +
+      "confirming the intended release commit."
     );
   }
 
   return (
-    `Move or recreate ${context.tag} after the release commit lands, or pass ` +
+    `Run ${baseCommand} --expected-commit $(git rev-parse HEAD) to review the ` +
+    "lease-protected tag update after the final release commit lands, or pass " +
     "--expected-commit <sha> for an intentional older release."
   );
 }

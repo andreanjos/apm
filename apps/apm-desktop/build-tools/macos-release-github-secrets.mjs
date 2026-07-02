@@ -168,6 +168,7 @@ export function githubSecretTemplate(options = {}) {
     `# npm run release:macos:github-secrets -- --repo ${repo} --apply`,
     `# npm run release:macos:github-check -- --repo ${repo}`,
     `# npm run release:macos:status -- --repo ${repo} --tag ${tag} --markdown`,
+    `# npm run release:macos:tag -- --tag ${tag} --expected-commit "$(git rev-parse HEAD)"`,
     "#",
     "# Generate file-backed base64 values with:",
     '# export APM_MACOS_CERTIFICATE_BASE64="$(base64 -i /path/to/DeveloperIDApplication.p12 | tr -d \'\\n\')"',

@@ -93,11 +93,12 @@ As of the latest post-merge check:
 - The `macos-desktop-release` GitHub Environment exists, but all eight required
   signing/notarization secret names are still missing.
 - The existing `v0.1.1` tag points at `e11943192307`, not the release commit
-  currently expected by `release:macos:status`; move/recreate the tag after the
-  final release commit lands, or pass `--expected-commit <sha>` only for an
-  intentional older release. When an explicit expected commit is supplied, the
-  readiness report names both the expected tag target and the current tag
-  target.
+  currently expected by `release:macos:status`; use the dry-run
+  `release:macos:tag` helper to review the lease-protected tag move after the
+  final release commit lands, then rerun it with `--apply` only after the plan
+  matches the intended release commit. When an explicit expected commit is
+  supplied, the readiness report names both the expected tag target and the
+  current tag target.
 - No completed `publish=false` `Desktop Release` dry run exists yet for
   `v0.1.1` at the expected release commit, so workflow artifact acceptance
   fails until the first signed dry run completes.
@@ -204,6 +205,8 @@ npm run release:macos:github-secrets -- --repo andreanjos/apm --apply
    npm run release:macos:github-secrets -- --repo andreanjos/apm
    npm run release:macos:github-secrets -- --repo andreanjos/apm --apply
    npm run release:macos:github-check -- --repo andreanjos/apm
+   npm run release:macos:tag -- --tag v0.1.1 --expected-commit "$(git rev-parse HEAD)"
+   # Rerun the same tag command with --apply only after the dry-run plan is right.
    ```
 
    Add `--help` to `release:macos:github-bootstrap` or
@@ -219,9 +222,16 @@ npm run release:macos:github-secrets -- --repo andreanjos/apm --apply
 
    These commands also verify that the local worktree is clean and that the tag
    points at the expected commit. By default that commit is the current local
-   `HEAD`; add `--expected-commit <sha>` only when deliberately releasing a
-   different commit, and pair it with `--allow-dirty` only when deliberately
-   checking an older committed release state.
+   `HEAD`. Review the lease-protected tag update before applying it:
+
+   ```bash
+   npm run release:macos:tag -- --tag v0.1.1 --expected-commit "$(git rev-parse HEAD)"
+   ```
+
+   Rerun the same tag command with `--apply` after confirming the plan. Add
+   `--expected-commit <sha>` only when deliberately releasing a different
+   commit, and pair `--allow-dirty` with `--expected-commit` only when
+   deliberately checking an older committed release state.
 
 5. Dispatch a signed dry run:
 

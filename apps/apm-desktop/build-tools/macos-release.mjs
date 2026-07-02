@@ -283,6 +283,7 @@ export function requiredReleaseSupportFiles() {
     "build-tools/macos-release-github-readiness.mjs",
     "build-tools/macos-release-github-secrets.mjs",
     "build-tools/macos-release-status.mjs",
+    "build-tools/macos-release-github-tag.mjs",
     "build-tools/macos-release-github-workflow.mjs",
     "build-tools/macos-verify.mjs",
     "build-tools/run-unit-tests.mjs",
@@ -303,6 +304,7 @@ export function requiredReleaseSupportTestFiles() {
     "build-tools/macos-release-github-secrets.test.mjs",
     "build-tools/macos-release-github-workflow.test.mjs",
     "build-tools/macos-release-status.test.mjs",
+    "build-tools/macos-release-github-tag.test.mjs",
     "build-tools/macos-verify.test.mjs",
   ];
 }
@@ -322,6 +324,7 @@ export function requiredReleasePackageScripts() {
     "release:macos:github-secrets",
     "release:macos:github-secrets-template",
     "release:macos:status",
+    "release:macos:tag",
     "release:macos:workflow-check",
     "release:macos:workflow-dispatch",
     "release:macos:workflow-accept",

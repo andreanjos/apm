@@ -76,7 +76,11 @@ test("reports release tags that do not point at the expected commit", () => {
 
   assertIncludes(errors, "release tag v0.1.1 points to stale-releas", "stale tag");
   assertIncludes(errors, "expected expected-rel", "expected commit");
-  assertIncludes(errors, "move v0.1.1 to expected-rel", "explicit retag guidance");
+  assertIncludes(
+    errors,
+    "npm run release:macos:tag -- --tag v0.1.1 --expected-commit expected-rel",
+    "explicit retag guidance",
+  );
   assertIncludes(
     errors,
     "rerun with --expected-commit stale-releas",
