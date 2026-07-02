@@ -130,15 +130,17 @@ export function releaseTagErrors(context, options = {}) {
 function releaseTagMismatchGuidance(context, actual, expected, options = {}) {
   if (`${options.expectedCommit ?? ""}`.trim()) {
     return (
-      `move ${context.tag} to ${shortSha(expected)} or rerun with ` +
+      `run npm run release:macos:tag -- --tag ${context.tag} --expected-commit ` +
+      `${shortSha(expected)} to review the tag update, or rerun with ` +
       `--expected-commit ${shortSha(actual)} if ${shortSha(actual)} is the ` +
       "intended release commit"
     );
   }
 
   return (
-    "move the tag after merging the release commit or pass --expected-commit " +
-    "<sha> when intentionally dispatching an older release"
+    `run npm run release:macos:tag -- --tag ${context.tag} --expected-commit ` +
+    '"$(git rev-parse HEAD)" after merging the release commit, or pass ' +
+    "--expected-commit <sha> when intentionally dispatching an older release"
   );
 }
 

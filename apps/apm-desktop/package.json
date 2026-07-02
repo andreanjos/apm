@@ -20,6 +20,7 @@
     "release:macos:github-secrets": "node build-tools/macos-release-github-secrets.mjs",
     "release:macos:github-secrets-template": "node build-tools/macos-release-github-secrets.mjs --print-template",
     "release:macos:status": "node build-tools/macos-release-status.mjs",
+    "release:macos:tag": "node build-tools/macos-release-github-tag.mjs",
     "release:macos:workflow-check": "node build-tools/macos-release-github-workflow.mjs",
     "release:macos:workflow-dispatch": "node build-tools/macos-release-github-workflow.mjs --dispatch",
     "release:macos:workflow-accept": "node build-tools/macos-release-github-artifacts.mjs",

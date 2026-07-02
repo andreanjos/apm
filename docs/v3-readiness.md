@@ -82,6 +82,12 @@ Last verified on 2026-07-02:
 - `cd apps/apm-desktop && npm run release:macos:status -- --repo andreanjos/apm --tag v0.1.1 --markdown --untracked-files all`
   expands the current local worktree report to the full file-level inventory
   needed for merge review.
+- `cd apps/apm-desktop && npm run release:macos:tag -- --help`
+  prints usage without inspecting or updating tags.
+- `cd apps/apm-desktop && node build-tools/macos-release-github-tag.test.mjs`
+  covers dry-run-only tag planning, explicit `--expected-commit` before
+  `--apply`, dirty-worktree guards, lease-protected existing-tag moves, missing
+  tag creation, annotated tag targets, help, and argument validation.
 - `cd apps/apm-desktop && npm run release:macos:workflow-check -- --repo andreanjos/apm --tag v0.1.1 --allow-dirty`
   now fails before readiness checks unless `--expected-commit <sha>` is also
   provided, matching the status helper's dirty-tree override policy.
@@ -263,7 +269,8 @@ Last verified on 2026-07-02:
   render the same live report as markdown handoff notes, rejects malformed
   GitHub release-helper arguments before side effects, verifies and summarizes
   the local release evidence manifest for handoff notes, includes exact local
-  worktree changes in markdown and JSON output, and keeps
+  worktree changes in markdown and JSON output, points stale-tag remediation at
+  a dry-run-first `release:macos:tag` helper, and keeps
   `docs/macos-public-release-handoff.md` aligned with the exact external
   handoff sequence and acceptance criteria.
 - `DIST-04` - Done. First launch/setup checks service, registry, diagnostics,
@@ -290,9 +297,15 @@ Last verified on 2026-07-02:
 1. Fill and source the existing ignored `../../.env.release.local` template,
    pass `npm run release:macos:github-secrets`, apply them with `--apply` so
    the remote secret inventory is verified, keep the local release worktree
-   clean before dispatch, retag the final merged release commit or pass
-   `--expected-commit <sha>` plus `--allow-dirty` for an intentional old
-   committed release, pass `npm run release:macos:workflow-check`, run the
+   clean before dispatch, run this as a dry run before applying the final
+   release tag move:
+
+   ```bash
+   npm run release:macos:tag -- --tag v0.1.1 --expected-commit "$(git rev-parse HEAD)"
+   ```
+
+   Pass `--expected-commit <sha>` plus `--allow-dirty` only for an intentional
+   old committed release, pass `npm run release:macos:workflow-check`, run the
    manual signed/notarized desktop workflow with `publish=false`, and pass
    `npm run release:macos:workflow-accept` against the completed same-commit
    matching run before dispatching `publish=true` with `--accepted-run-id` or

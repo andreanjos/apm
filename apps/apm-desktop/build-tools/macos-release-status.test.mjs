@@ -93,7 +93,7 @@ test("reports remote workflow, secret, and tag blockers without throwing", () =>
   );
   assertIncludes(
     report.nextSteps.join("\n"),
-    "Move or recreate v0.1.1 so it points at expected-rel",
+    "release:macos:tag -- --tag v0.1.1 --expected-commit expected-rel",
     "tag next step",
   );
   assertEqual(

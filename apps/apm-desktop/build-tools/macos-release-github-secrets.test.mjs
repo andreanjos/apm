@@ -170,6 +170,11 @@ test("prints a safe local secret template", () => {
     `release:macos:status -- --repo andreanjos/apm --tag ${defaultTag} --markdown`,
     "status report command",
   );
+  assertIncludes(
+    template,
+    `release:macos:tag -- --tag ${defaultTag} --expected-commit "$(git rev-parse HEAD)"`,
+    "release tag command",
+  );
   assertEqual(template.includes(completeSecretEnv().APM_MACOS_CERTIFICATE_BASE64), false, "no p12 value");
   assertEqual(template.includes(completeSecretEnv().APPLE_API_KEY_BASE64), false, "no api key value");
 });
@@ -182,6 +187,11 @@ test("prints explicit release handoff context in the local secret template", () 
     template,
     "release:macos:status -- --repo example/apm --tag v9.8.7 --markdown",
     "explicit status context",
+  );
+  assertIncludes(
+    template,
+    'release:macos:tag -- --tag v9.8.7 --expected-commit "$(git rev-parse HEAD)"',
+    "explicit release tag command",
   );
 });
 
@@ -203,6 +213,11 @@ test("writes the local secret template without overwriting existing files", () =
       template,
       "release:macos:status -- --repo example/apm --tag v9.8.7 --markdown",
       "written status context",
+    );
+    assertIncludes(
+      template,
+      'release:macos:tag -- --tag v9.8.7 --expected-commit "$(git rev-parse HEAD)"',
+      "written release tag command",
     );
     assertEqual(statSync(output).mode & 0o077, 0, "secret template file mode");
 

@@ -149,11 +149,14 @@ test("rejects missing desktop release support files, tests, and package scripts"
         "build-tools/macos-release-github-readiness.mjs",
         "build-tools/macos-release-status.mjs",
         "build-tools/macos-release-status.test.mjs",
+        "build-tools/macos-release-github-tag.mjs",
+        "build-tools/macos-release-github-tag.test.mjs",
         "package-lock.json",
       ],
     });
     const scripts = { ...releasePackageJson().scripts };
     delete scripts["release:macos:status"];
+    delete scripts["release:macos:tag"];
     delete scripts["release:macos:github-secrets-template"];
     delete scripts["release:macos:workflow-accept"];
 
@@ -182,7 +185,10 @@ test("rejects missing desktop release support files, tests, and package scripts"
     );
     assertIncludes(errors, "macos-release-status.mjs", "status helper error");
     assertIncludes(errors, "macos-release-status.test.mjs", "status helper test error");
+    assertIncludes(errors, "macos-release-github-tag.mjs", "tag helper error");
+    assertIncludes(errors, "macos-release-github-tag.test.mjs", "tag helper test error");
     assertIncludes(errors, "release:macos:status", "status script error");
+    assertIncludes(errors, "release:macos:tag", "tag script error");
     assertIncludes(errors, "release:macos:workflow-accept", "workflow accept script error");
     assertIncludes(
       errors,
