@@ -62,10 +62,11 @@ fn run_model_with_runner_and_observer(
         }
     };
 
-    let result = match {
+    let runner_result = {
         let cancellation = BorrowedCancellationToken { inner: &*observer };
         runner.run(plan, &cancellation)
-    } {
+    };
+    let result = match runner_result {
         Ok(result) => result,
         Err(error) => {
             observer.failed(&requested_package_id, &error.to_string());

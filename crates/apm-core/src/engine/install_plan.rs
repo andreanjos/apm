@@ -198,15 +198,17 @@ impl ApmEngine {
             .any(|(_, source)| source.download_type == DownloadType::Managed);
 
         let external_policy_status = external_policy_status(&formats);
+        let plan_context = InstallPlanContext {
+            package: &selected_package,
+            scope: effective_scope,
+            installed_version,
+            formats: &formats,
+        };
 
         let plan = if already_installed {
-            build_plan(
-                &selected_package,
+            plan_context.build(
                 InstallPlanStatus::AlreadyInstalled,
                 None,
-                effective_scope,
-                installed_version,
-                &formats,
                 None,
                 format!(
                     "{} is already installed at version {}.",
@@ -231,40 +233,20 @@ impl ApmEngine {
                     installer.name, package.name
                 )
             };
-            build_plan(
-                &selected_package,
-                status,
-                None,
-                effective_scope,
-                installed_version,
-                &formats,
-                Some(installer),
-                message,
-            )
+            plan_context.build(status, None, Some(installer), message)
         } else if let Some(status) = external_policy_status {
-            build_external_policy_plan(
-                &selected_package,
-                status,
-                effective_scope,
-                installed_version,
-                &formats,
-                &package.name,
-            )
+            build_external_policy_plan(&plan_context, status, &package.name)
         } else {
             let destination = install_destination_label(
                 &formats
                     .iter()
                     .map(|(format, _)| *format)
                     .collect::<Vec<_>>(),
-                effective_scope,
+                plan_context.scope,
             );
-            build_plan(
-                &selected_package,
+            plan_context.build(
                 InstallPlanStatus::Ready,
                 Some(destination.clone()),
-                effective_scope,
-                installed_version,
-                &formats,
                 None,
                 format!(
                     "Ready to install {} v{} to {}.",
@@ -338,11 +320,8 @@ fn external_policy_status(formats: &[(PluginFormat, &FormatSource)]) -> Option<I
 }
 
 fn build_external_policy_plan(
-    package: &PluginDefinition,
+    context: &InstallPlanContext<'_>,
     status: InstallPlanStatus,
-    scope: InstallScope,
-    installed_version: Option<String>,
-    formats: &[(PluginFormat, &FormatSource)],
     package_name: &str,
 ) -> PackageInstallPlan {
     let message = match status {
@@ -358,50 +337,48 @@ fn build_external_policy_plan(
         _ => unreachable!("external policy plan only covers non-managed external statuses"),
     };
 
-    build_plan(
-        package,
-        status,
-        None,
-        scope,
-        installed_version,
-        formats,
-        None,
-        message,
-    )
+    context.build(status, None, None, message)
 }
 
-fn build_plan(
-    package: &PluginDefinition,
-    status: InstallPlanStatus,
-    destination: Option<String>,
+struct InstallPlanContext<'a> {
+    package: &'a PluginDefinition,
     scope: InstallScope,
     installed_version: Option<String>,
-    formats: &[(PluginFormat, &FormatSource)],
-    installer: Option<VendorInstallerPlan>,
-    message: String,
-) -> PackageInstallPlan {
-    PackageInstallPlan {
-        slug: package.slug.clone(),
-        name: package.name.clone(),
-        vendor: package.vendor.clone(),
-        version: package.version.clone(),
-        status,
-        destination,
-        scope,
-        installed_version,
-        formats: formats
-            .iter()
-            .map(|(format, source)| InstallPlanFormat {
-                format: *format,
-                install_type: source.install_type.to_string(),
-                download_type: source.download_type.clone(),
-                source: format_source_url(package, source),
-                bundle_path: source.bundle_path.clone(),
-                has_checksum: has_real_checksum(&source.sha256),
-            })
-            .collect(),
-        installer,
-        message,
+    formats: &'a [(PluginFormat, &'a FormatSource)],
+}
+
+impl InstallPlanContext<'_> {
+    fn build(
+        &self,
+        status: InstallPlanStatus,
+        destination: Option<String>,
+        installer: Option<VendorInstallerPlan>,
+        message: String,
+    ) -> PackageInstallPlan {
+        PackageInstallPlan {
+            slug: self.package.slug.clone(),
+            name: self.package.name.clone(),
+            vendor: self.package.vendor.clone(),
+            version: self.package.version.clone(),
+            status,
+            destination,
+            scope: self.scope,
+            installed_version: self.installed_version.clone(),
+            formats: self
+                .formats
+                .iter()
+                .map(|(format, source)| InstallPlanFormat {
+                    format: *format,
+                    install_type: source.install_type.to_string(),
+                    download_type: source.download_type.clone(),
+                    source: format_source_url(self.package, source),
+                    bundle_path: source.bundle_path.clone(),
+                    has_checksum: has_real_checksum(&source.sha256),
+                })
+                .collect(),
+            installer,
+            message,
+        }
     }
 }
 

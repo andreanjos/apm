@@ -26,10 +26,8 @@ fn check_privileged_helper_artifacts_at(
     ];
     let present = artifacts
         .iter()
-        .filter_map(|(label, path)| {
-            path.exists()
-                .then(|| format!("{label} at {}", display_path(path)))
-        })
+        .filter(|(_, path)| path.exists())
+        .map(|(label, path)| format!("{label} at {}", display_path(path)))
         .collect::<Vec<_>>();
 
     if runs_pkg_installers {
