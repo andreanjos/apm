@@ -7,7 +7,7 @@ use support::{
         free_loopback_port, operation_history_path, response_body, spawn_server,
         wait_for_http_with_auth, wait_for_operation_state,
     },
-    CliTestEnv,
+    write_fixture_config, CliTestEnv,
 };
 
 #[test]
@@ -86,6 +86,7 @@ fn serve_run_rejects_retry_without_saved_request_metadata() {
 #[test]
 fn serve_run_retries_failed_operation_from_saved_request_metadata() {
     let env = CliTestEnv::new();
+    write_fixture_config(&env);
     write_operation_history(
         &env,
         r#"{
@@ -144,6 +145,7 @@ fn serve_run_retries_failed_operation_from_saved_request_metadata() {
 #[test]
 fn serve_run_reports_restart_interrupted_recovery_candidates() {
     let env = CliTestEnv::new();
+    write_fixture_config(&env);
     write_operation_history(
         &env,
         r#"{
@@ -238,6 +240,7 @@ fn serve_run_reports_restart_interrupted_recovery_candidates() {
 #[test]
 fn serve_run_retries_retryable_recovery_candidates() {
     let env = CliTestEnv::new();
+    write_fixture_config(&env);
     write_operation_history(
         &env,
         r#"{

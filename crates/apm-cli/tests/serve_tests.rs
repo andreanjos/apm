@@ -22,7 +22,7 @@ use support::{
         wait_for_http_with_auth, wait_for_operation_state, wait_for_persisted_operation,
         TestServer,
     },
-    CliTestEnv,
+    write_fixture_config, CliTestEnv,
 };
 use zip::write::SimpleFileOptions;
 
@@ -920,17 +920,6 @@ fn test_state_config(env: &CliTestEnv) -> Config {
         cache_dir: Some(env.cache_home.path().join("apm")),
         ..Config::default()
     }
-}
-
-fn write_fixture_config(env: &CliTestEnv) {
-    let config_dir = env.config_home.path().join("apm");
-    fs::create_dir_all(&config_dir).expect("create test config dir");
-    let fixtures = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures");
-    let config = format!(
-        "default_registry_url = \"{}\"\n",
-        fixtures.display().to_string().replace('\\', "\\\\")
-    );
-    fs::write(config_dir.join("config.toml"), config).expect("write test config");
 }
 
 fn write_manual_handoff_config(env: &CliTestEnv) {
