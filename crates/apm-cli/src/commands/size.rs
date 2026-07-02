@@ -92,7 +92,7 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
         .collect();
 
     // Sort by size descending (largest first).
-    plugin_sizes.sort_by(|a, b| b.total_bytes.cmp(&a.total_bytes));
+    plugin_sizes.sort_by_key(|plugin| std::cmp::Reverse(plugin.total_bytes));
 
     let grand_total: u64 = plugin_sizes.iter().map(|p| p.total_bytes).sum();
 

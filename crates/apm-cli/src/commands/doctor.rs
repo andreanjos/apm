@@ -1,66 +1,16 @@
-// doctor command — run diagnostic checks and report apm health.
-
-use std::path::Path;
-use std::time::SystemTime;
+// doctor command - run diagnostic checks and report apm health.
 
 use anyhow::Result;
 use colored::Colorize;
 use serde::Serialize;
 
-use apm_core::bundle_id_store::BundleIdStore;
-use apm_core::config::{self, Config};
-use apm_core::registry::matcher;
-use apm_core::registry::Registry;
-use apm_core::scanner;
-use apm_core::state::InstallState;
-
-use crate::utils::display_path;
-
-// ── Check result ──────────────────────────────────────────────────────────────
-
-#[derive(Debug)]
-enum CheckStatus {
-    Ok(String),
-    Warn(String),
-    Fail(String),
-}
-
-struct Check {
-    label: String,
-    status: CheckStatus,
-    hint: Option<String>,
-}
-
-impl Check {
-    fn ok(label: impl Into<String>, detail: impl Into<String>) -> Self {
-        Self {
-            label: label.into(),
-            status: CheckStatus::Ok(detail.into()),
-            hint: None,
-        }
-    }
-
-    fn warn(label: impl Into<String>, detail: impl Into<String>, hint: impl Into<String>) -> Self {
-        Self {
-            label: label.into(),
-            status: CheckStatus::Warn(detail.into()),
-            hint: Some(hint.into()),
-        }
-    }
-
-    fn fail(label: impl Into<String>, detail: impl Into<String>, hint: impl Into<String>) -> Self {
-        Self {
-            label: label.into(),
-            status: CheckStatus::Fail(detail.into()),
-            hint: Some(hint.into()),
-        }
-    }
-}
-
-// ── JSON output types ────────────────────────────────────────────────────────
+use apm_core::{
+    config::Config,
+    diagnostics::{run_diagnostics, DiagnosticCheck, DiagnosticStatus, DiagnosticsReport},
+};
 
 #[derive(Serialize)]
-struct CheckJson {
+struct DoctorCheckJson {
     name: String,
     status: String,
     #[serde(skip_serializing_if = "Option::is_none")]
@@ -68,230 +18,90 @@ struct CheckJson {
 }
 
 #[derive(Serialize)]
-struct SummaryJson {
-    ok: usize,
-    warnings: usize,
-    failures: usize,
-}
-
-#[derive(Serialize)]
 struct DoctorJson {
-    checks: Vec<CheckJson>,
-    summary: SummaryJson,
+    checks: Vec<DoctorCheckJson>,
+    summary: apm_core::diagnostics::DiagnosticsSummary,
 }
-
-impl CheckJson {
-    fn from_check(check: &Check) -> Self {
-        match &check.status {
-            CheckStatus::Ok(d) => Self {
-                name: check.label.clone(),
-                status: "ok".to_string(),
-                detail: if d.is_empty() { None } else { Some(d.clone()) },
-            },
-            CheckStatus::Warn(d) => Self {
-                name: check.label.clone(),
-                status: "warning".to_string(),
-                detail: if d.is_empty() { None } else { Some(d.clone()) },
-            },
-            CheckStatus::Fail(d) => Self {
-                name: check.label.clone(),
-                status: "failure".to_string(),
-                detail: if d.is_empty() { None } else { Some(d.clone()) },
-            },
-        }
-    }
-}
-
-// ── Public entry point ────────────────────────────────────────────────────────
 
 pub fn run(config: &Config, json: bool) -> Result<()> {
-    let mut all_checks: Vec<Check> = Vec::new();
-    let mut failures = 0usize;
-    let mut warnings = 0usize;
-
-    if !json {
-        println!("apm doctor");
-        println!("{}", "\u{2550}".repeat(35));
-        println!();
-    }
-
-    // ── Plugin directories ────────────────────────────────────────────────────
-
-    if !json {
-        println!("Checking plugin directories...");
-    }
-
-    let dirs = vec![
-        (
-            config::user_au_dir(),
-            "~/Library/Audio/Plug-Ins/Components/",
-            true,
-        ),
-        (
-            config::user_vst3_dir(),
-            "~/Library/Audio/Plug-Ins/VST3/",
-            true,
-        ),
-        (
-            config::system_au_dir(),
-            "/Library/Audio/Plug-Ins/Components/",
-            false,
-        ),
-        (
-            config::system_vst3_dir(),
-            "/Library/Audio/Plug-Ins/VST3/",
-            false,
-        ),
-    ];
-
-    for (path, label, check_writable) in dirs {
-        let check = check_plugin_dir(&path, label, check_writable);
-        if !json {
-            print_check(&check);
-        }
-        tally(&check.status, &mut failures, &mut warnings);
-        all_checks.push(check);
-    }
-
-    if !json {
-        println!();
-    }
-
-    // ── Quarantine checks ─────────────────────────────────────────────────────
-
-    if !json {
-        println!("Checking for quarantined plugins...");
-    }
-    let quarantine_check = check_quarantine(config);
-    if !json {
-        print_check(&quarantine_check);
-    }
-    tally(&quarantine_check.status, &mut failures, &mut warnings);
-    all_checks.push(quarantine_check);
-    if !json {
-        println!();
-    }
-
-    // ── Configuration ─────────────────────────────────────────────────────────
-
-    if !json {
-        println!("Checking configuration...");
-    }
-
-    let config_check = check_config_file();
-    if !json {
-        print_check(&config_check);
-    }
-    tally(&config_check.status, &mut failures, &mut warnings);
-    all_checks.push(config_check);
-
-    let state_check = check_state_file(config);
-    if !json {
-        print_check(&state_check);
-    }
-    tally(&state_check.status, &mut failures, &mut warnings);
-    all_checks.push(state_check);
-
-    let managed_install_check = check_managed_installs(config);
-    if !json {
-        print_check(&managed_install_check);
-    }
-    tally(&managed_install_check.status, &mut failures, &mut warnings);
-    all_checks.push(managed_install_check);
-
-    let provenance_check = check_registry_provenance(config);
-    if !json {
-        print_check(&provenance_check);
-    }
-    tally(&provenance_check.status, &mut failures, &mut warnings);
-    all_checks.push(provenance_check);
-
-    let registry_check = check_registry_cache(config);
-    if !json {
-        print_check(&registry_check);
-    }
-    tally(&registry_check.status, &mut failures, &mut warnings);
-    all_checks.push(registry_check);
-
-    let installers_check = check_vendor_installers(config);
-    if !json {
-        print_check(&installers_check);
-    }
-    tally(&installers_check.status, &mut failures, &mut warnings);
-    all_checks.push(installers_check);
-
-    // ── Registry freshness ────────────────────────────────────────────────────
-
-    let freshness_check = check_registry_freshness(config);
-    if !json {
-        print_check(&freshness_check);
-    }
-    tally(&freshness_check.status, &mut failures, &mut warnings);
-    all_checks.push(freshness_check);
-
-    // ── Orphaned state entries ────────────────────────────────────────────────
-
-    let orphan_check = check_orphaned_state_entries(config);
-    if !json {
-        print_check(&orphan_check);
-    }
-    tally(&orphan_check.status, &mut failures, &mut warnings);
-    all_checks.push(orphan_check);
-
-    if !json {
-        println!();
-    }
-
-    // ── JSON output ───────────────────────────────────────────────────────────
+    let report = run_diagnostics(config);
 
     if json {
-        let ok_count = all_checks
-            .iter()
-            .filter(|c| matches!(c.status, CheckStatus::Ok(_)))
-            .count();
-
-        let output = DoctorJson {
-            checks: all_checks.iter().map(CheckJson::from_check).collect(),
-            summary: SummaryJson {
-                ok: ok_count,
-                warnings,
-                failures,
-            },
-        };
-        println!("{}", serde_json::to_string_pretty(&output)?);
+        print_json(&report)?;
         return Ok(());
     }
 
-    // ── Hints for failed/warned checks ────────────────────────────────────────
+    print_human(&report);
+    Ok(())
+}
 
-    let problem_checks: Vec<&Check> = all_checks
+fn print_json(report: &DiagnosticsReport) -> Result<()> {
+    let output = DoctorJson {
+        checks: report.checks.iter().map(DoctorCheckJson::from).collect(),
+        summary: report.summary.clone(),
+    };
+    println!("{}", serde_json::to_string_pretty(&output)?);
+    Ok(())
+}
+
+fn print_human(report: &DiagnosticsReport) {
+    println!("apm doctor");
+    println!("{}", "=".repeat(35));
+    println!();
+
+    println!("Checking plugin directories...");
+    for check in report.checks.iter().filter(|check| is_plugin_dir(check)) {
+        print_check(check);
+    }
+    println!();
+
+    if let Some(check) = report
+        .checks
         .iter()
-        .filter(|c| matches!(c.status, CheckStatus::Fail(_) | CheckStatus::Warn(_)))
+        .find(|check| check.name == "Quarantine")
+    {
+        println!("Checking for quarantined plugins...");
+        print_check(check);
+        println!();
+    }
+
+    println!("Checking configuration...");
+    for check in report
+        .checks
+        .iter()
+        .filter(|check| !is_plugin_dir(check) && check.name != "Quarantine")
+    {
+        print_check(check);
+    }
+    println!();
+
+    let problem_checks: Vec<&DiagnosticCheck> = report
+        .checks
+        .iter()
+        .filter(|check| check.status != DiagnosticStatus::Ok)
         .collect();
 
     if !problem_checks.is_empty() {
         println!("Remediation hints:");
-        for check in &problem_checks {
+        for check in problem_checks {
             if let Some(hint) = &check.hint {
-                println!("  {}: {}", check.label, hint);
+                println!("  {}: {}", check.name, hint);
             }
         }
         println!();
     }
 
-    // ── Summary ───────────────────────────────────────────────────────────────
-
-    if failures == 0 && warnings == 0 {
+    if report.summary.failures == 0 && report.summary.warnings == 0 {
         println!(
             "{}",
             "Summary: All checks passed. apm is ready to use.".green()
         );
-    } else if failures == 0 {
+    } else if report.summary.failures == 0 {
         println!(
             "{}",
             format!(
                 "Summary: {} warning(s) found. apm should work, but review the hints above.",
-                warnings
+                report.summary.warnings
             )
             .yellow()
         );
@@ -300,590 +110,51 @@ pub fn run(config: &Config, json: bool) -> Result<()> {
             "{}",
             format!(
                 "Summary: {} failure(s), {} warning(s) found. See hints above to resolve issues.",
-                failures, warnings
+                report.summary.failures, report.summary.warnings
             )
             .red()
         );
     }
-
-    Ok(())
 }
 
-// ── Tally helper ──────────────────────────────────────────────────────────────
-
-fn tally(status: &CheckStatus, failures: &mut usize, warnings: &mut usize) {
-    match status {
-        CheckStatus::Fail(_) => *failures += 1,
-        CheckStatus::Warn(_) => *warnings += 1,
-        CheckStatus::Ok(_) => {}
-    }
-}
-
-// ── Individual checks ─────────────────────────────────────────────────────────
-
-fn check_plugin_dir(path: &Path, label: &str, check_writable: bool) -> Check {
-    if !path.exists() {
-        if check_writable {
-            // User dirs: missing is fine, we can create them.
-            return Check::warn(
-                label,
-                "directory does not exist",
-                format!("Create it with: mkdir -p \"{}\"", path.display()),
-            );
-        } else {
-            // System dirs: missing means no system plugins, not necessarily an error.
-            return Check::warn(
-                label,
-                "directory does not exist (no system plugins installed)",
-                "System plugin directory is absent — this is normal if no system-wide plugins are installed.",
+fn print_check(check: &DiagnosticCheck) {
+    match check.status {
+        DiagnosticStatus::Ok => {
+            println!("  {:<45}  {} {}", check.name, "ok".green(), check.detail);
+        }
+        DiagnosticStatus::Warning => {
+            println!(
+                "  {:<45}  {} {}",
+                check.name,
+                "!".yellow(),
+                check.detail.yellow()
             );
         }
-    }
-
-    let readable = std::fs::read_dir(path).is_ok();
-    if !readable {
-        return Check::fail(
-            label,
-            "not readable",
-            format!(
-                "Check permissions with: ls -la \"{}\"",
-                path.parent().unwrap_or(path).display()
-            ),
-        );
-    }
-
-    if check_writable {
-        // Test writability by checking the metadata permissions.
-        let writable = is_writable(path);
-        if writable {
-            Check::ok(label, "readable, writable")
-        } else {
-            Check::warn(
-                label,
-                "readable but not writable",
-                format!("Fix permissions with: chmod u+w \"{}\"", path.display()),
-            )
+        DiagnosticStatus::Failure => {
+            println!("  {:<45}  {} {}", check.name, "x".red(), check.detail.red());
         }
-    } else {
-        Check::ok(label, "readable")
     }
 }
 
-fn check_quarantine(_config: &Config) -> Check {
-    // Check user plugin directories for quarantined bundles.
-    let dirs = [config::user_au_dir(), config::user_vst3_dir()];
-    let mut quarantined: Vec<String> = Vec::new();
+fn is_plugin_dir(check: &DiagnosticCheck) -> bool {
+    check.name.contains("Library/Audio/Plug-Ins")
+}
 
-    for dir in &dirs {
-        if !dir.exists() {
-            continue;
-        }
-        if let Ok(entries) = std::fs::read_dir(dir) {
-            for entry in entries.flatten() {
-                let path = entry.path();
-                if !path.is_dir() {
-                    continue;
-                }
-                let ext = path.extension().and_then(|e| e.to_str()).unwrap_or("");
-                if ext != "component" && ext != "vst3" {
-                    continue;
-                }
-
-                // Run `xattr -l <bundle>` and check for com.apple.quarantine.
-                if let Ok(output) = std::process::Command::new("xattr")
-                    .arg("-l")
-                    .arg(&path)
-                    .output()
-                {
-                    let stdout = String::from_utf8_lossy(&output.stdout);
-                    if stdout.contains("com.apple.quarantine") {
-                        let name = path
-                            .file_name()
-                            .and_then(|n| n.to_str())
-                            .unwrap_or("unknown")
-                            .to_string();
-                        quarantined.push(name);
-                    }
-                }
+impl From<&DiagnosticCheck> for DoctorCheckJson {
+    fn from(check: &DiagnosticCheck) -> Self {
+        Self {
+            name: check.name.clone(),
+            status: match check.status {
+                DiagnosticStatus::Ok => "ok",
+                DiagnosticStatus::Warning => "warning",
+                DiagnosticStatus::Failure => "failure",
             }
+            .to_string(),
+            detail: if check.detail.is_empty() {
+                None
+            } else {
+                Some(check.detail.clone())
+            },
         }
     }
-
-    if quarantined.is_empty() {
-        Check::ok("Quarantine", "no quarantined plugins found")
-    } else {
-        let names = quarantined.join(", ");
-        Check::warn(
-            "Quarantine",
-            format!("{} quarantined plugin(s): {}", quarantined.len(), names),
-            "Remove quarantine with: xattr -r -d com.apple.quarantine <bundle-path>\n    \
-             Or reinstall affected plugins with apm to have quarantine removed automatically.",
-        )
-    }
-}
-
-fn check_config_file() -> Check {
-    let cfg_dir = config::config_dir();
-    let cfg_path = cfg_dir.join("config.toml");
-
-    if !cfg_path.exists() {
-        // Missing is OK — apm creates it on next run.
-        return Check::ok(
-            "Config file",
-            format!("{} (will be created on next run)", display_path(&cfg_path)),
-        );
-    }
-
-    // Try to load and parse.
-    match config::load_config(&cfg_path) {
-        Ok(_) => Check::ok(
-            "Config file",
-            format!("\u{2713} {}", display_path(&cfg_path)),
-        ),
-        Err(e) => Check::fail(
-            "Config file",
-            format!("invalid TOML: {e}"),
-            format!(
-                "Edit or delete {} to fix. apm will recreate it with defaults if deleted.",
-                display_path(&cfg_path)
-            ),
-        ),
-    }
-}
-
-fn check_state_file(config: &Config) -> Check {
-    let state_path = config.state_file();
-
-    if !state_path.exists() {
-        return Check::ok(
-            "State file",
-            format!("{} (no plugins installed yet)", display_path(&state_path)),
-        );
-    }
-
-    match InstallState::load_from(&state_path) {
-        Ok(state) => Check::ok(
-            "State file",
-            format!(
-                "{} ({} plugin{} managed)",
-                display_path(&state_path),
-                state.plugins.len(),
-                if state.plugins.len() == 1 { "" } else { "s" }
-            ),
-        ),
-        Err(e) => Check::fail(
-            "State file",
-            format!("invalid: {e}"),
-            format!(
-                "Back up and delete {} to reset install state, then reinstall plugins.",
-                display_path(&state_path)
-            ),
-        ),
-    }
-}
-
-fn check_managed_installs(config: &Config) -> Check {
-    let state = match InstallState::load(config) {
-        Ok(state) => state,
-        Err(error) => {
-            return Check::fail(
-                "Managed installs",
-                format!("could not load install state: {error}"),
-                "Fix the state file first, then rerun `apm doctor`.",
-            )
-        }
-    };
-
-    if state.plugins.is_empty() {
-        return Check::ok("Managed installs", "no managed plugins to verify");
-    }
-
-    let mut missing = Vec::new();
-    for plugin in &state.plugins {
-        for format in &plugin.formats {
-            if !format.path.exists() {
-                missing.push(format!(
-                    "{} {} ({}) at {}",
-                    plugin.name,
-                    plugin.version,
-                    format.format,
-                    display_path(&format.path)
-                ));
-            }
-        }
-    }
-
-    if missing.is_empty() {
-        return Check::ok(
-            "Managed installs",
-            format!(
-                "verified {} managed plugin{} on disk",
-                state.plugins.len(),
-                if state.plugins.len() == 1 { "" } else { "s" }
-            ),
-        );
-    }
-
-    let preview = missing
-        .iter()
-        .take(3)
-        .cloned()
-        .collect::<Vec<_>>()
-        .join(", ");
-    let suffix = if missing.len() > 3 {
-        format!(" (+{} more)", missing.len() - 3)
-    } else {
-        String::new()
-    };
-
-    Check::warn(
-        "Managed installs",
-        format!(
-            "{} tracked bundle(s) missing on disk: {}{}",
-            missing.len(),
-            preview,
-            suffix
-        ),
-        "Run `apm remove <plugin>` to clean stale state entries, or reinstall the missing bundles.",
-    )
-}
-
-fn check_registry_provenance(config: &Config) -> Check {
-    let state = match InstallState::load(config) {
-        Ok(state) => state,
-        Err(error) => {
-            return Check::fail(
-                "Registry provenance",
-                format!("could not load install state: {error}"),
-                "Fix the state file first, then rerun `apm doctor`.",
-            )
-        }
-    };
-
-    if state.plugins.is_empty() {
-        return Check::ok("Registry provenance", "no managed plugins to verify");
-    }
-
-    let registry = match Registry::load_all_sources(config) {
-        Ok(registry) => registry,
-        Err(error) => {
-            return Check::warn(
-                "Registry provenance",
-                format!("registry unavailable: {error}"),
-                "Run `apm sync` so doctor can verify install provenance against the local registry cache.",
-            )
-        }
-    };
-
-    let known_sources: std::collections::HashSet<String> = config
-        .sources()
-        .into_iter()
-        .map(|source| source.name)
-        .collect();
-
-    let mut issues = Vec::new();
-    for plugin in &state.plugins {
-        if !known_sources.contains(&plugin.source) {
-            issues.push(format!(
-                "{} (unknown source '{}')",
-                plugin.name, plugin.source
-            ));
-            continue;
-        }
-
-        if registry
-            .find_in_source(&plugin.source, &plugin.name)
-            .is_none()
-        {
-            issues.push(format!(
-                "{} (missing from source '{}')",
-                plugin.name, plugin.source
-            ));
-        }
-    }
-
-    if issues.is_empty() {
-        return Check::ok(
-            "Registry provenance",
-            "all managed plugins map to configured sources",
-        );
-    }
-
-    let preview = issues
-        .iter()
-        .take(3)
-        .cloned()
-        .collect::<Vec<_>>()
-        .join(", ");
-    let suffix = if issues.len() > 3 {
-        format!(" (+{} more)", issues.len() - 3)
-    } else {
-        String::new()
-    };
-
-    Check::warn(
-        "Registry provenance",
-        format!("{} provenance issue(s): {}{}", issues.len(), preview, suffix),
-        "Re-add the missing registry source, run `apm sync`, or reinstall plugins from an available source.",
-    )
-}
-
-fn check_registry_cache(config: &Config) -> Check {
-    match Registry::load_all_sources(config) {
-        Ok(registry) if registry.is_empty() => Check::warn(
-            "Registry cache",
-            "empty — no plugins available",
-            "Run `apm sync` to download the plugin registry.",
-        ),
-        Ok(registry) => Check::ok(
-            "Registry cache",
-            format!(
-                "{} plugin{} cached",
-                registry.len(),
-                if registry.len() == 1 { "" } else { "s" }
-            ),
-        ),
-        Err(e) => Check::fail(
-            "Registry cache",
-            format!("could not load: {e}"),
-            "Run `apm sync` to rebuild the registry cache.",
-        ),
-    }
-}
-
-fn check_vendor_installers(config: &Config) -> Check {
-    let registry =
-        match Registry::load_all_sources(config) {
-            Ok(registry) if registry.is_empty() => return Check::warn(
-                "Vendor installers",
-                "registry unavailable for installer matching",
-                "Run `apm sync` so doctor can detect vendor manager apps for installed plugins.",
-            ),
-            Ok(registry) => registry,
-            Err(error) => return Check::warn(
-                "Vendor installers",
-                format!("registry unavailable: {error}"),
-                "Run `apm sync` so doctor can detect vendor manager apps for installed plugins.",
-            ),
-        };
-
-    let scanned = scanner::scan_plugins(config);
-    if scanned.is_empty() {
-        return Check::ok(
-            "Vendor installers",
-            "no installed plugins found to evaluate",
-        );
-    }
-
-    let bundle_store = BundleIdStore::open(config).ok();
-    let mut relevant_keys = std::collections::BTreeSet::new();
-
-    for plugin in &scanned {
-        let matched = matcher::match_plugin(plugin, &registry, bundle_store.as_ref());
-        if let Some(matched) = matched {
-            if let Some(key) = matched.registry_plugin.installer.as_deref() {
-                relevant_keys.insert(key.to_string());
-            }
-        }
-    }
-
-    if relevant_keys.is_empty() {
-        return Check::ok(
-            "Vendor installers",
-            "no vendor-managed plugins detected in the current library",
-        );
-    }
-
-    let mut installed = Vec::new();
-    let mut missing = Vec::new();
-    let mut unknown = Vec::new();
-
-    for key in relevant_keys {
-        let Some(installer) = registry.find_installer(&key) else {
-            unknown.push(key);
-            continue;
-        };
-
-        if installer.app_paths.iter().any(|path| path.exists()) {
-            installed.push(installer.name.clone());
-        } else {
-            missing.push(installer.name.clone());
-        }
-    }
-
-    let mut detail_parts = Vec::new();
-    if !installed.is_empty() {
-        detail_parts.push(format!("installed: {}", installed.join(", ")));
-    }
-    if !missing.is_empty() {
-        detail_parts.push(format!("missing: {}", missing.join(", ")));
-    }
-    if !unknown.is_empty() {
-        detail_parts.push(format!("unknown registry keys: {}", unknown.join(", ")));
-    }
-    let detail = detail_parts.join(" | ");
-
-    if missing.is_empty() && unknown.is_empty() {
-        Check::ok("Vendor installers", detail)
-    } else {
-        Check::warn(
-            "Vendor installers",
-            detail,
-            "Install the missing vendor manager apps, then rerun `apm doctor` or `apm install <plugin>`.",
-        )
-    }
-}
-
-/// Check that the registry cache is not stale (>30 days since last sync).
-///
-/// Examines the mtime of the "official" source directory under the registries
-/// cache. If it hasn't been updated in more than 30 days, emits a warning.
-fn check_registry_freshness(config: &Config) -> Check {
-    let registries_dir = config.registries_cache_dir();
-    let official_dir = registries_dir.join("official");
-
-    if !official_dir.exists() {
-        return Check::warn(
-            "Registry freshness",
-            "registry cache does not exist",
-            "Run `apm sync` to download the plugin registry.",
-        );
-    }
-
-    // Use the plugins/ subdirectory mtime as a proxy for last sync time,
-    // since `apm sync` resets the working tree which updates the directory.
-    // Fall back to the source root if plugins/ is absent.
-    let probe = {
-        let plugins_dir = official_dir.join("plugins");
-        if plugins_dir.exists() {
-            plugins_dir
-        } else {
-            official_dir.clone()
-        }
-    };
-
-    let mtime = match std::fs::metadata(&probe).and_then(|m| m.modified()) {
-        Ok(t) => t,
-        Err(_) => {
-            return Check::warn(
-                "Registry freshness",
-                "could not determine registry cache age",
-                "Run `apm sync` to refresh the registry.",
-            );
-        }
-    };
-
-    let age = SystemTime::now().duration_since(mtime).unwrap_or_default();
-    let age_days = age.as_secs() / 86400;
-
-    if age_days > 30 {
-        Check::warn(
-            "Registry freshness",
-            format!("registry cache is {} days old", age_days),
-            "Run `apm sync` to update.",
-        )
-    } else {
-        Check::ok(
-            "Registry freshness",
-            format!(
-                "synced {} day{} ago",
-                age_days,
-                if age_days == 1 { "" } else { "s" }
-            ),
-        )
-    }
-}
-
-/// Check for plugins in the install state whose bundle paths no longer exist
-/// on disk. These are "orphaned" state entries that reference deleted files.
-fn check_orphaned_state_entries(config: &Config) -> Check {
-    let state = match InstallState::load(config) {
-        Ok(state) => state,
-        Err(error) => {
-            return Check::fail(
-                "Orphaned state entries",
-                format!("could not load install state: {error}"),
-                "Fix the state file first, then rerun `apm doctor`.",
-            )
-        }
-    };
-
-    if state.plugins.is_empty() {
-        return Check::ok("Orphaned state entries", "no managed plugins to verify");
-    }
-
-    // Collect plugins where ALL format bundles are missing (fully orphaned).
-    let mut orphaned: Vec<(String, Vec<String>)> = Vec::new();
-
-    for plugin in &state.plugins {
-        let missing_paths: Vec<String> = plugin
-            .formats
-            .iter()
-            .filter(|f| !f.path.exists())
-            .map(|f| display_path(&f.path))
-            .collect();
-
-        // Consider a plugin orphaned if it has at least one missing bundle.
-        if !missing_paths.is_empty() {
-            orphaned.push((plugin.name.clone(), missing_paths));
-        }
-    }
-
-    if orphaned.is_empty() {
-        return Check::ok(
-            "Orphaned state entries",
-            "all installed plugins have bundles on disk",
-        );
-    }
-
-    // Build detail lines: "  - plugin-name: path missing"
-    let mut lines = Vec::new();
-    for (name, paths) in &orphaned {
-        for path in paths {
-            lines.push(format!("{}: {} missing", name, path));
-        }
-    }
-
-    let preview = lines.iter().take(5).cloned().collect::<Vec<_>>().join(", ");
-    let suffix = if lines.len() > 5 {
-        format!(" (+{} more)", lines.len() - 5)
-    } else {
-        String::new()
-    };
-
-    Check::warn(
-        "Orphaned state entries",
-        format!(
-            "{} installed plugin{} with missing bundles: {}{}",
-            orphaned.len(),
-            if orphaned.len() == 1 { "" } else { "s" },
-            preview,
-            suffix,
-        ),
-        "Run `apm remove <plugin>` to clean stale state entries, or reinstall with `apm install <plugin>`.",
-    )
-}
-
-// ── Display helpers ───────────────────────────────────────────────────────────
-
-fn print_check(check: &Check) {
-    match &check.status {
-        CheckStatus::Ok(d) => {
-            println!("  {:<45}  {} {}", check.label, "\u{2713}".green(), d);
-        }
-        CheckStatus::Warn(d) => {
-            println!("  {:<45}  {} {}", check.label, "!".yellow(), d.yellow());
-        }
-        CheckStatus::Fail(d) => {
-            println!("  {:<45}  {} {}", check.label, "\u{2717}".red(), d.red());
-        }
-    }
-}
-
-fn is_writable(path: &Path) -> bool {
-    // Use std::fs::metadata to check permissions.
-    use std::os::unix::fs::PermissionsExt;
-    path.metadata()
-        .map(|m| m.permissions().mode() & 0o200 != 0)
-        .unwrap_or(false)
 }

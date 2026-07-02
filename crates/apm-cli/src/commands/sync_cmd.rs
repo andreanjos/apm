@@ -2,92 +2,84 @@ use anyhow::Result;
 use colored::Colorize;
 
 use apm_core::config::Config;
-use apm_core::registry::{self, sync};
+use apm_core::engine::{ApmEngine, EngineEvent, RegistrySyncSourceResult};
 
 pub async fn run(config: &Config, json: bool, quiet: bool) -> Result<()> {
-    let sources = config.sources();
-
-    if sources.is_empty() {
-        if json {
-            println!("{}", serde_json::json!({ "sources": [] }));
-        } else if !quiet {
-            println!("No registry sources configured. Nothing to sync.");
-        }
-        return Ok(());
-    }
-
-    let registries_cache_dir = config.registries_cache_dir();
-    let mut any_error = false;
-    let mut json_results: Vec<serde_json::Value> = Vec::new();
-
-    for source in &sources {
-        if !json && !quiet {
-            println!("Syncing registry '{}'...", source.name);
-        }
-
-        match sync::sync_source(source, &registries_cache_dir) {
-            Ok(()) => {
-                // Count how many catalog records are now in the cache.
-                let source_cache = registries_cache_dir.join(&source.name);
-                let loaded = registry::Registry::load_from_cache(&source_cache).ok();
-                let catalog_count = loaded.as_ref().map(|r| r.len()).unwrap_or(0);
-                let installable_count = loaded
-                    .as_ref()
-                    .map(|r| {
-                        r.plugins
-                            .values()
-                            .filter(|p| p.is_installable_product())
-                            .count()
-                    })
-                    .unwrap_or(0);
-
-                if json {
-                    json_results.push(serde_json::json!({
-                        "name": source.name,
-                        "status": "ok",
-                        "installable_product_count": installable_count,
-                        "catalog_item_count": catalog_count,
-                    }));
-                } else if !quiet {
-                    println!(
-                        "{}",
-                        format!(
-                            "Registry '{}' updated. {} installable product{} ({} catalog item{}) available.",
-                            source.name,
-                            installable_count,
-                            if installable_count == 1 { "" } else { "s" },
-                            catalog_count,
-                            if catalog_count == 1 { "" } else { "s" },
-                        )
-                        .green()
-                    );
-                }
-            }
-            Err(e) => {
-                if json {
-                    json_results.push(serde_json::json!({
-                        "name": source.name,
-                        "status": "error",
-                        "error": format!("{e}"),
-                    }));
-                } else {
-                    eprintln!(
-                        "{}",
-                        format!("Failed to sync registry '{}': {e}", source.name).red()
-                    );
-                }
-                any_error = true;
+    let engine = ApmEngine::new(config.clone());
+    let mut sink = |event| {
+        if let EngineEvent::RegistrySourceSyncStarted { source } = event {
+            if !json && !quiet {
+                println!("Syncing registry '{source}'...");
             }
         }
-    }
+    };
+    let result = engine.sync_registries(&mut sink)?;
 
     if json {
+        let json_results: Vec<serde_json::Value> =
+            result.sources.iter().map(sync_source_json).collect();
         println!("{}", serde_json::json!({ "sources": json_results }));
+    } else {
+        for source in &result.sources {
+            print_source_result(source, quiet);
+        }
     }
 
-    if any_error {
+    if result.has_errors() {
         anyhow::bail!("One or more registry sources failed to sync.");
     }
 
     Ok(())
+}
+
+fn sync_source_json(source: &RegistrySyncSourceResult) -> serde_json::Value {
+    match source {
+        RegistrySyncSourceResult::Ok {
+            name,
+            catalog_item_count,
+            installable_product_count,
+        } => serde_json::json!({
+            "name": name,
+            "status": "ok",
+            "installable_product_count": installable_product_count,
+            "catalog_item_count": catalog_item_count,
+        }),
+        RegistrySyncSourceResult::Error { name, error } => serde_json::json!({
+            "name": name,
+            "status": "error",
+            "error": error,
+        }),
+    }
+}
+
+fn print_source_result(source: &RegistrySyncSourceResult, quiet: bool) {
+    match source {
+        RegistrySyncSourceResult::Ok {
+            name,
+            catalog_item_count,
+            installable_product_count,
+        } => {
+            if quiet {
+                return;
+            }
+            println!(
+                "{}",
+                format!(
+                    "Registry '{}' updated. {} installable product{} ({} catalog item{}) available.",
+                    name,
+                    installable_product_count,
+                    if *installable_product_count == 1 { "" } else { "s" },
+                    catalog_item_count,
+                    if *catalog_item_count == 1 { "" } else { "s" },
+                )
+                .green()
+            );
+        }
+        RegistrySyncSourceResult::Error { name, error } => {
+            eprintln!(
+                "{}",
+                format!("Failed to sync registry '{name}': {error}").red()
+            );
+        }
+    }
 }

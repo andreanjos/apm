@@ -1,0 +1,39 @@
+[package]
+name = "demucs"
+version = "4.0.1"
+description = "Music source separation into stems"
+publisher = "apm-core"
+
+[runtime]
+mode = "native-mlx"
+entry = "demucs_mlx.Separator"
+
+[weights]
+source = "hf:mlx-community/demucs-mlx-fp16"
+sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+format = "safetensors"
+
+[io]
+input = "audio"
+output = "stems"
+
+[[params]]
+name = "stems"
+type = "enum"
+values = ["2", "4", "6"]
+default = "4"
+
+[[params]]
+name = "shifts"
+type = "int"
+min = 1
+max = 10
+default = 1
+
+[license]
+spdx = "MIT"
+commercial = true
+
+[hardware]
+min_memory_gb = 8
+requires = ["apple-silicon"]

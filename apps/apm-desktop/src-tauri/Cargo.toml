@@ -1,0 +1,16 @@
+[package]
+name = "apm-desktop"
+version = "0.1.1"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/andreanjos/apm"
+
+[build-dependencies]
+tauri-build = { version = "2.6.3", features = [] }
+
+[dependencies]
+apm-core = { path = "../../../crates/apm-core", features = ["reqwest"] }
+serde = { workspace = true }
+serde_json = { workspace = true }
+tauri = { version = "2.11.4", features = [] }
+tauri-plugin-dialog = "2.7.1"

@@ -168,13 +168,8 @@ impl InstallState {
         let content =
             toml::to_string_pretty(self).context("Failed to serialise install state to TOML")?;
 
-        // Atomic write: write to a sibling temp file, then rename.
-        let tmp_path = path.with_extension("toml.tmp");
-        std::fs::write(&tmp_path, content)
-            .with_context(|| format!("Cannot write temp state file: {}", tmp_path.display()))?;
-
-        std::fs::rename(&tmp_path, path)
-            .with_context(|| format!("Cannot rename state file into place: {}", path.display()))?;
+        crate::file::atomic_write(path, content)
+            .with_context(|| format!("Cannot write state file atomically: {}", path.display()))?;
 
         debug!("State saved to {}", path.display());
         Ok(())

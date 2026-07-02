@@ -82,7 +82,7 @@ pub async fn run(
         .collect();
 
     // Sort alphabetically by slug for stable output.
-    uninstalled.sort_by(|a, b| a.slug.to_lowercase().cmp(&b.slug.to_lowercase()));
+    uninstalled.sort_by_key(|plugin| plugin.slug.to_lowercase());
 
     let total = uninstalled.len();
     let total_registry_products = registry

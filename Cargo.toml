@@ -3,6 +3,7 @@ resolver = "2"
 members = [
     "crates/apm-core",
     "crates/apm-cli",
+    "apps/apm-desktop/src-tauri",
 ]
 
 [workspace.package]

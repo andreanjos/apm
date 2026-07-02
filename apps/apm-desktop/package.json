@@ -1,0 +1,47 @@
+{
+  "name": "@apm/desktop",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "test": "npm run test:unit",
+    "test:unit": "node build-tools/run-unit-tests.mjs",
+    "build": "tsc && vite build",
+    "sidecar:stage": "node build-tools/stage-sidecar.mjs",
+    "bundle:macos": "node build-tools/macos-preview-bundle.mjs",
+    "bundle:macos:verified": "npm run bundle:macos && npm run sign:macos:preview && npm run verify:macos:preview:dmg",
+    "bundle:macos:app": "tauri build --bundles app",
+    "bundle:macos:dmg": "tauri build --bundles dmg",
+    "sign:macos:preview": "node build-tools/macos-preview-sign.mjs",
+    "release:macos:check": "node build-tools/macos-release.mjs --check",
+    "release:macos:github-bootstrap": "node build-tools/macos-release-github-env.mjs --create",
+    "release:macos:github-check": "node build-tools/macos-release-github-env.mjs",
+    "release:macos:github-secrets": "node build-tools/macos-release-github-secrets.mjs",
+    "release:macos:github-secrets-template": "node build-tools/macos-release-github-secrets.mjs --print-template",
+    "release:macos:status": "node build-tools/macos-release-status.mjs",
+    "release:macos:workflow-check": "node build-tools/macos-release-github-workflow.mjs",
+    "release:macos:workflow-dispatch": "node build-tools/macos-release-github-workflow.mjs --dispatch",
+    "release:macos:workflow-accept": "node build-tools/macos-release-github-artifacts.mjs",
+    "verify:macos:preview": "node build-tools/macos-verify.mjs --mode=preview",
+    "verify:macos:preview:dmg": "node build-tools/macos-verify.mjs --mode=preview --require-dmg",
+    "verify:macos:release": "node build-tools/macos-verify.mjs --mode=release",
+    "verify:v3:local": "node build-tools/v3-local-checkpoint.mjs",
+    "open:macos:preview": "node build-tools/macos-preview-open.mjs",
+    "open:macos:preview:dmg": "node build-tools/macos-preview-open.mjs --dmg",
+    "accept:macos:release": "node build-tools/macos-release-acceptance.mjs",
+    "bundle:macos:release": "node build-tools/macos-release.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "2.11.1",
+    "@tauri-apps/plugin-dialog": "2.7.1",
+    "lucide": "1.22.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.11.4",
+    "typescript": "6.0.3",
+    "vite": "8.1.2"
+  }
+}

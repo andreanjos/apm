@@ -57,7 +57,7 @@ impl std::fmt::Display for InstallType {
 // ── DownloadType ──────────────────────────────────────────────────────────────
 
 /// Whether apm can download this plugin automatically or the user must do it.
-#[derive(Debug, Clone, Serialize, Deserialize, PartialEq)]
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, Eq)]
 #[serde(rename_all = "lowercase")]
 pub enum DownloadType {
     /// apm can download this plugin automatically (default).

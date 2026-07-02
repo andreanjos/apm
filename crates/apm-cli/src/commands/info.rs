@@ -3,8 +3,7 @@ use colored::Colorize;
 use serde::Serialize;
 
 use apm_core::config::Config;
-use apm_core::registry::{self, PluginDefinition};
-use apm_core::state::InstallState;
+use apm_core::engine::{ApmEngine, PackageDetails, PackageDetailsResult};
 
 use crate::utils::{format_category, format_price};
 
@@ -34,20 +33,21 @@ struct PluginInfoJson<'a> {
 }
 
 pub async fn run(config: &Config, name: &str, json: bool, versions: bool) -> Result<()> {
-    let registry = registry::Registry::load_all_sources(config)?;
+    let engine = ApmEngine::new(config.clone());
+    let result = engine.package_details(name, versions)?;
 
-    if registry.is_empty() {
-        if json {
-            println!("null");
-        } else {
-            println!("Registry cache is empty. Run `apm sync` to download the plugin registry.");
+    let details = match result {
+        PackageDetailsResult::CatalogEmpty => {
+            if json {
+                println!("null");
+            } else {
+                println!(
+                    "Registry cache is empty. Run `apm sync` to download the plugin registry."
+                );
+            }
+            return Ok(());
         }
-        return Ok(());
-    }
-
-    let plugin = match registry.find(name) {
-        Some(p) => p,
-        None => {
+        PackageDetailsResult::NotFound => {
             if json {
                 println!("null");
             } else {
@@ -57,58 +57,57 @@ pub async fn run(config: &Config, name: &str, json: bool, versions: bool) -> Res
             }
             return Ok(());
         }
+        PackageDetailsResult::Found { package } => package,
     };
 
-    // Check install state.
-    let state = InstallState::load(config)?;
-    let installed = state.find(&plugin.slug);
-
     if json {
-        let mut formats: Vec<String> = plugin.formats.keys().map(|f| f.to_string()).collect();
-        formats.sort();
+        let summary = &details.summary;
         let info = PluginInfoJson {
-            slug: &plugin.slug,
-            name: &plugin.name,
-            vendor: &plugin.vendor,
-            version: &plugin.version,
+            slug: &summary.slug,
+            name: &summary.name,
+            vendor: &summary.vendor,
+            version: &summary.version,
             available_versions: if versions {
-                Some(plugin.available_versions())
+                Some(details.available_versions.clone())
             } else {
                 None
             },
-            product_type: plugin.product_type.to_string(),
-            category: &plugin.category,
-            subcategory: plugin.subcategory.as_deref(),
-            license: &plugin.license,
-            description: &plugin.description,
-            tags: &plugin.tags,
-            homepage: plugin.homepage.as_deref(),
-            formats,
-            installed: installed.is_some(),
-            installed_version: installed.map(|i| i.version.clone()),
-            is_paid: plugin.is_paid,
-            price_cents: plugin.price_cents,
-            currency: plugin.currency.as_deref(),
+            product_type: summary.product_type.to_string(),
+            category: &summary.category,
+            subcategory: summary.subcategory.as_deref(),
+            license: &summary.license,
+            description: &summary.description,
+            tags: &summary.tags,
+            homepage: details.homepage.as_deref(),
+            formats: details
+                .summary
+                .formats
+                .iter()
+                .map(|format| format.format.to_string())
+                .collect(),
+            installed: summary.installed,
+            installed_version: summary.installed_version.clone(),
+            is_paid: summary.is_paid,
+            price_cents: summary.price_cents,
+            currency: summary.currency.as_deref(),
             price_display: format_price(
-                plugin.price_cents,
-                plugin.currency.as_deref(),
-                plugin.is_paid,
+                summary.price_cents,
+                summary.currency.as_deref(),
+                summary.is_paid,
             ),
         };
         println!("{}", serde_json::to_string_pretty(&info)?);
     } else {
-        print_plugin_info(plugin, installed, versions);
+        print_plugin_info(&details, versions);
     }
     Ok(())
 }
 
 // ── Display ───────────────────────────────────────────────────────────────────
 
-fn print_plugin_info(
-    p: &PluginDefinition,
-    installed: Option<&apm_core::state::InstalledPlugin>,
-    show_versions: bool,
-) {
+fn print_plugin_info(details: &PackageDetails, show_versions: bool) {
+    let p = &details.summary;
+
     // Title
     println!("{}", p.slug.bold());
     println!("{}", "\u{2550}".repeat(47).dimmed()); // ═══════
@@ -137,7 +136,7 @@ fn print_plugin_info(
 
     println!("{:<13} {}", "License:".dimmed(), p.license);
 
-    if let Some(hp) = &p.homepage {
+    if let Some(hp) = &details.homepage {
         println!("{:<13} {}", "Homepage:".dimmed(), hp);
     }
 
@@ -172,20 +171,22 @@ fn print_plugin_info(
     if p.formats.is_empty() {
         println!("  {}", "(none listed)".dimmed());
     } else {
-        let mut formats: Vec<_> = p.formats.iter().collect();
-        formats.sort_by_key(|(fmt, _)| fmt.to_string());
-        for (fmt, src) in formats {
-            println!("  {:<6} ({})", fmt.to_string().cyan(), src.install_type);
+        for format in &p.formats {
+            println!(
+                "  {:<6} ({})",
+                format.format.to_string().cyan(),
+                format.install_type
+            );
         }
     }
 
     // Install status
     println!();
-    match installed {
-        Some(inst) => {
+    match p.installed_version.as_deref() {
+        Some(version) => {
             println!(
                 "Status:       {}",
-                format!("Installed (v{})", inst.version).green()
+                format!("Installed (v{version})").green()
             );
         }
         None => {
@@ -195,7 +196,7 @@ fn print_plugin_info(
 
     // Available versions (only when --versions flag is active)
     if show_versions {
-        let versions = p.available_versions();
+        let versions = &details.available_versions;
         println!();
         println!("{}", "Available Versions:".bold());
         for (i, v) in versions.iter().enumerate() {

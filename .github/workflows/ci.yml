@@ -41,6 +41,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-cargo-target-
 
+      - name: Stage desktop sidecar
+        run: npm --prefix apps/apm-desktop run sidecar:stage
+
       - name: Build
         run: cargo build --verbose
 

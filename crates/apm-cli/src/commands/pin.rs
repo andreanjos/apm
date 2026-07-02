@@ -5,7 +5,10 @@ use colored::Colorize;
 use serde::Serialize;
 
 use apm_core::config::Config;
-use apm_core::state::InstallState;
+use apm_core::engine::{
+    ApmEngine, InstalledPackageSummary, PinnedPackagesRequest, SetPackagePinRequest,
+    SetPackagePinResult,
+};
 
 #[derive(Serialize)]
 struct PinnedEntry {
@@ -46,12 +49,12 @@ pub async fn run(
     list: bool,
     json: bool,
 ) -> Result<()> {
-    let mut state = InstallState::load(config)?;
+    let engine = ApmEngine::new(config.clone());
 
     // ── List mode ─────────────────────────────────────────────────────────────
 
     if list {
-        let pinned: Vec<_> = state.plugins.iter().filter(|p| p.pinned).collect();
+        let pinned = engine.pinned_packages(PinnedPackagesRequest)?;
 
         if pinned.is_empty() {
             if json {
@@ -68,7 +71,7 @@ pub async fn run(
             let entries: Vec<PinnedEntry> = pinned
                 .iter()
                 .map(|p| PinnedEntry {
-                    name: p.name.clone(),
+                    name: p.slug.clone(),
                     version: p.version.clone(),
                 })
                 .collect();
@@ -79,7 +82,7 @@ pub async fn run(
 
         let col_name = pinned
             .iter()
-            .map(|p| p.name.len())
+            .map(|p| p.slug.len())
             .max()
             .unwrap_or(6)
             .max(6);
@@ -93,7 +96,7 @@ pub async fn run(
         for plugin in &pinned {
             println!(
                 "{:<col_name$}  {}",
-                plugin.name.bold().to_string(),
+                plugin.slug.bold().to_string(),
                 plugin.version.cyan(),
                 col_name = col_name,
             );
@@ -116,68 +119,81 @@ pub async fn run(
         }
     };
 
-    // Check the plugin is installed.
-    let plugin = match state.find(plugin_name) {
-        Some(p) => p.clone(),
-        None => {
-            if json {
-                let result = PinMissingJson {
-                    plugin: plugin_name.to_string(),
-                    installed: false,
-                    changed: false,
-                    reason: "not installed".to_string(),
-                };
-                println!("{}", serde_json::to_string_pretty(&result)?);
+    let result = engine.set_package_pin(SetPackagePinRequest {
+        slug: plugin_name.to_string(),
+        pinned: !unpin,
+    })?;
+    print_pin_result(plugin_name, unpin, json, result)?;
+
+    Ok(())
+}
+
+fn print_pin_result(
+    plugin_name: &str,
+    unpin: bool,
+    json: bool,
+    result: SetPackagePinResult,
+) -> Result<()> {
+    match result {
+        SetPackagePinResult::NotInstalled { .. } => print_missing(plugin_name, json),
+        SetPackagePinResult::Changed { package, .. }
+        | SetPackagePinResult::Unchanged { package, .. } => {
+            if unpin {
+                print_unpinned(&package, json)
             } else {
-                println!(
-                    "Plugin '{}' is not installed. Install it first with `apm install {}`.",
-                    plugin_name, plugin_name
-                );
+                print_pinned(&package, json)
             }
-            return Ok(());
-        }
-    };
-
-    if unpin {
-        // Unpin.
-        if let Some(p) = state.find_mut(plugin_name) {
-            p.pinned = false;
-        }
-        state.save(config)?;
-
-        if json {
-            let result = UnpinResultJson {
-                unpinned: true,
-                plugin: plugin.name.clone(),
-            };
-            println!("{}", serde_json::to_string_pretty(&result)?);
-        } else {
-            println!(
-                "{}",
-                format!("Unpinned {} (v{})", plugin.name, plugin.version).green()
-            );
-        }
-    } else {
-        // Pin.
-        if let Some(p) = state.find_mut(plugin_name) {
-            p.pinned = true;
-        }
-        state.save(config)?;
-
-        if json {
-            let result = PinResultJson {
-                pinned: true,
-                plugin: plugin.name.clone(),
-                version: plugin.version.clone(),
-            };
-            println!("{}", serde_json::to_string_pretty(&result)?);
-        } else {
-            println!(
-                "{}",
-                format!("Pinned {} at v{}", plugin.name, plugin.version).yellow()
-            );
         }
     }
+}
 
+fn print_missing(plugin_name: &str, json: bool) -> Result<()> {
+    if json {
+        let result = PinMissingJson {
+            plugin: plugin_name.to_string(),
+            installed: false,
+            changed: false,
+            reason: "not installed".to_string(),
+        };
+        println!("{}", serde_json::to_string_pretty(&result)?);
+    } else {
+        println!(
+            "Plugin '{}' is not installed. Install it first with `apm install {}`.",
+            plugin_name, plugin_name
+        );
+    }
+    Ok(())
+}
+
+fn print_unpinned(package: &InstalledPackageSummary, json: bool) -> Result<()> {
+    if json {
+        let result = UnpinResultJson {
+            unpinned: true,
+            plugin: package.slug.clone(),
+        };
+        println!("{}", serde_json::to_string_pretty(&result)?);
+    } else {
+        println!(
+            "{}",
+            format!("Unpinned {} (v{})", package.slug, package.version).green()
+        );
+    }
+    Ok(())
+}
+
+fn print_pinned(package: &InstalledPackageSummary, json: bool) -> Result<()> {
+    if json {
+        let result = PinResultJson {
+            pinned: true,
+            plugin: package.slug.clone(),
+            version: package.version.clone(),
+        };
+        println!("{}", serde_json::to_string_pretty(&result)?);
+    } else {
+        println!(
+            "{}",
+            format!("Pinned {} at v{}", package.slug, package.version).yellow()
+        );
+    }
     Ok(())
 }

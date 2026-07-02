@@ -1,12 +1,12 @@
-use std::collections::HashSet;
-
 use anyhow::Result;
 use colored::Colorize;
 use serde::Serialize;
 
 use apm_core::config::Config;
-use apm_core::registry::{self, search};
-use apm_core::state::InstallState;
+use apm_core::engine::{
+    ApmEngine, PackageAccessFilter, PackageInstallStateFilter, PackageSearchRequest,
+    PackageSearchResult,
+};
 
 use crate::utils::{format_category, format_price};
 
@@ -43,56 +43,49 @@ pub async fn run(
     new: bool,
     json: bool,
 ) -> Result<()> {
-    let registry = registry::Registry::load_all_sources(config)?;
-
-    if registry.is_empty() {
-        if json {
-            println!("[]");
+    let engine = ApmEngine::new(config.clone());
+    let result = engine.search_packages(PackageSearchRequest {
+        query: query.to_string(),
+        category: category.map(str::to_string),
+        vendor: vendor.map(str::to_string),
+        tag: tag.map(str::to_string),
+        access: if paid_only {
+            PackageAccessFilter::Paid
+        } else if free_only {
+            PackageAccessFilter::Free
         } else {
-            println!("No plugins found. The registry cache is empty.");
-            println!();
-            println!("To get started:");
-            println!("  apm sync    Download the plugin registry");
-            println!("  apm search  Then search for plugins");
-        }
-        return Ok(());
-    }
+            PackageAccessFilter::Any
+        },
+        install_state: if installed {
+            PackageInstallStateFilter::Installed
+        } else if new {
+            PackageInstallStateFilter::NotInstalled
+        } else {
+            PackageInstallStateFilter::Any
+        },
+        limit,
+    })?;
 
-    // When --installed or --new is set, load the install state and build a lookup set.
-    let installed_slugs: Option<HashSet<String>> = if installed || new {
-        let state = InstallState::load(config).unwrap_or_default();
-        Some(state.plugins.iter().map(|p| p.name.clone()).collect())
-    } else {
-        None
+    let (total_matches, display_results) = match result {
+        PackageSearchResult::CatalogEmpty => {
+            if json {
+                println!("[]");
+            } else {
+                println!("No plugins found. The registry cache is empty.");
+                println!();
+                println!("To get started:");
+                println!("  apm sync    Download the plugin registry");
+                println!("  apm search  Then search for plugins");
+            }
+            return Ok(());
+        }
+        PackageSearchResult::Matches {
+            total_matches,
+            packages,
+        } => (total_matches, packages),
     };
 
-    let results: Vec<_> = search::search(&registry, query, category, vendor, tag)
-        .into_iter()
-        .filter(|plugin| {
-            if paid_only && !plugin.is_paid {
-                return false;
-            }
-            if free_only && plugin.is_paid {
-                return false;
-            }
-            if new && !plugin.is_installable_product() {
-                return false;
-            }
-            if let Some(ref slugs) = installed_slugs {
-                if installed && !slugs.contains(&plugin.slug) {
-                    return false;
-                }
-                if new && slugs.contains(&plugin.slug) {
-                    return false;
-                }
-            }
-            true
-        })
-        .collect();
-
-    let total_matches = results.len();
-
-    if results.is_empty() {
+    if display_results.is_empty() {
         if json {
             println!("[]");
             return Ok(());
@@ -124,13 +117,6 @@ pub async fn run(
         );
         return Ok(());
     }
-
-    // Apply limit.
-    let display_results: Vec<_> = if let Some(n) = limit {
-        results.into_iter().take(n).collect()
-    } else {
-        results
-    };
 
     // ── JSON output ───────────────────────────────────────────────────────────
     if json {

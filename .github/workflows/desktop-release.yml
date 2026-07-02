@@ -1,0 +1,218 @@
+name: Desktop Release
+run-name: Desktop Release ${{ inputs.tag }} publish=${{ inputs.publish }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to build, for example v0.1.1"
+        required: true
+        type: string
+      publish:
+        description: "Attach verified desktop artifacts to the GitHub Release"
+        required: true
+        type: boolean
+        default: false
+      accepted_run_id:
+        description: "Accepted publish=false Desktop Release run ID required when publish is true"
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: desktop-release-${{ inputs.tag }}
+  cancel-in-progress: false
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  desktop:
+    name: Build signed desktop artifacts
+    runs-on: macos-15
+    timeout-minutes: 45
+    environment: macos-desktop-release
+    env:
+      APM_MACOS_PROVIDER_SHORT_NAME: ${{ secrets.APM_MACOS_PROVIDER_SHORT_NAME }}
+      APM_MACOS_SIGNING_IDENTITY: ${{ secrets.APM_MACOS_SIGNING_IDENTITY }}
+      APPLE_API_ISSUER: ${{ secrets.APPLE_API_ISSUER }}
+      APPLE_API_KEY: ${{ secrets.APPLE_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ inputs.tag }}
+
+      - name: Install Rust stable
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: apps/apm-desktop/package-lock.json
+
+      - name: Cache cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+          key: ${{ runner.os }}-desktop-release-${{ hashFiles('**/Cargo.lock') }}
+
+      - name: Validate release version
+        run: |
+          set -euo pipefail
+
+          TAG_VERSION="${{ inputs.tag }}"
+          TAG_VERSION="${TAG_VERSION#v}"
+          CARGO_VERSION="$(cargo metadata --no-deps --format-version 1 | python3 -c 'import json,sys; data=json.load(sys.stdin); print(next(p["version"] for p in data["packages"] if any(t["name"] == "apm" and "bin" in t["kind"] for t in p["targets"])))')"
+          TAURI_VERSION="$(node -p "require('./apps/apm-desktop/src-tauri/tauri.conf.json').version")"
+          NPM_VERSION="$(node -p "require('./apps/apm-desktop/package.json').version")"
+
+          test "$TAG_VERSION" = "$CARGO_VERSION" || {
+            echo "Tag version v${TAG_VERSION} does not match Cargo version ${CARGO_VERSION}" >&2
+            exit 1
+          }
+          test "$TAG_VERSION" = "$TAURI_VERSION" || {
+            echo "Tag version v${TAG_VERSION} does not match Tauri version ${TAURI_VERSION}" >&2
+            exit 1
+          }
+          test "$TAG_VERSION" = "$NPM_VERSION" || {
+            echo "Tag version v${TAG_VERSION} does not match desktop package version ${NPM_VERSION}" >&2
+            exit 1
+          }
+
+      - name: Install desktop dependencies
+        working-directory: apps/apm-desktop
+        run: npm ci
+
+      - name: Check release configuration
+        working-directory: apps/apm-desktop
+        run: npm run release:macos:check
+
+      - name: Import Developer ID certificate
+        env:
+          APM_MACOS_CERTIFICATE_BASE64: ${{ secrets.APM_MACOS_CERTIFICATE_BASE64 }}
+          APM_MACOS_CERTIFICATE_PASSWORD: ${{ secrets.APM_MACOS_CERTIFICATE_PASSWORD }}
+          APM_MACOS_KEYCHAIN_PASSWORD: ${{ secrets.APM_MACOS_KEYCHAIN_PASSWORD }}
+        run: |
+          set -euo pipefail
+
+          for name in \
+            APM_MACOS_CERTIFICATE_BASE64 \
+            APM_MACOS_CERTIFICATE_PASSWORD \
+            APM_MACOS_KEYCHAIN_PASSWORD \
+            APM_MACOS_SIGNING_IDENTITY
+          do
+            if [ -z "${!name:-}" ]; then
+              echo "$name is required for desktop release signing" >&2
+              exit 1
+            fi
+          done
+
+          CERTIFICATE_PATH="$RUNNER_TEMP/apm-developer-id.p12"
+          KEYCHAIN_PATH="$RUNNER_TEMP/apm-signing.keychain-db"
+          export CERTIFICATE_PATH
+          python3 -c 'import base64, os; open(os.environ["CERTIFICATE_PATH"], "wb").write(base64.b64decode(os.environ["APM_MACOS_CERTIFICATE_BASE64"]))'
+
+          security create-keychain -p "$APM_MACOS_KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          security list-keychains -d user -s "$KEYCHAIN_PATH"
+          security default-keychain -s "$KEYCHAIN_PATH"
+          security unlock-keychain -p "$APM_MACOS_KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+          security import "$CERTIFICATE_PATH" \
+            -k "$KEYCHAIN_PATH" \
+            -P "$APM_MACOS_CERTIFICATE_PASSWORD" \
+            -T /usr/bin/codesign
+          security set-key-partition-list \
+            -S apple-tool:,apple:,codesign: \
+            -s \
+            -k "$APM_MACOS_KEYCHAIN_PASSWORD" \
+            "$KEYCHAIN_PATH"
+          security find-identity -v -p codesigning "$KEYCHAIN_PATH" | grep -F "$APM_MACOS_SIGNING_IDENTITY"
+
+          echo "APM_MACOS_KEYCHAIN_PATH=$KEYCHAIN_PATH" >> "$GITHUB_ENV"
+
+      - name: Write notarization API key
+        env:
+          APPLE_API_KEY_BASE64: ${{ secrets.APPLE_API_KEY_BASE64 }}
+        run: |
+          set -euo pipefail
+
+          for name in APPLE_API_ISSUER APPLE_API_KEY APPLE_API_KEY_BASE64 APM_MACOS_PROVIDER_SHORT_NAME
+          do
+            if [ -z "${!name:-}" ]; then
+              echo "$name is required for desktop release notarization" >&2
+              exit 1
+            fi
+          done
+
+          APPLE_API_KEY_DIR="$RUNNER_TEMP/private_keys"
+          APPLE_API_KEY_PATH="$APPLE_API_KEY_DIR/AuthKey_${APPLE_API_KEY}.p8"
+          export APPLE_API_KEY_PATH
+          mkdir -p "$APPLE_API_KEY_DIR"
+          python3 -c 'import base64, os; open(os.environ["APPLE_API_KEY_PATH"], "wb").write(base64.b64decode(os.environ["APPLE_API_KEY_BASE64"]))'
+
+          chmod 600 "$APPLE_API_KEY_PATH"
+          echo "APPLE_API_KEY_PATH=$APPLE_API_KEY_PATH" >> "$GITHUB_ENV"
+
+      - name: Build and verify release artifacts
+        working-directory: apps/apm-desktop
+        run: npm run bundle:macos:release
+
+      - name: Package release assets
+        run: |
+          set -euo pipefail
+
+          VERSION="${{ inputs.tag }}"
+          VERSION="${VERSION#v}"
+          node apps/apm-desktop/build-tools/macos-release-assets.mjs --version "$VERSION"
+          node apps/apm-desktop/build-tools/macos-release-acceptance.mjs --version "$VERSION"
+
+      - name: Upload workflow artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: apm-desktop-${{ inputs.tag }}
+          path: desktop-release/*
+          if-no-files-found: error
+
+      - name: Verify accepted dry-run before publish
+        if: ${{ inputs.publish }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        working-directory: apps/apm-desktop
+        run: |
+          set -euo pipefail
+
+          if [ -z "${{ inputs.accepted_run_id }}" ]; then
+            echo "accepted_run_id is required when publish is true" >&2
+            exit 1
+          fi
+
+          npm run release:macos:workflow-accept -- \
+            --repo "${{ github.repository }}" \
+            --run-id "${{ inputs.accepted_run_id }}" \
+            --tag "${{ inputs.tag }}"
+
+      - name: Attach artifacts to GitHub Release
+        if: ${{ inputs.publish }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.tag }}
+          fail_on_unmatched_files: true
+          files: desktop-release/*
+
+      - name: Delete temporary signing keychain
+        if: always()
+        run: |
+          if [ -n "${APM_MACOS_KEYCHAIN_PATH:-}" ]; then
+            security delete-keychain "$APM_MACOS_KEYCHAIN_PATH" || true
+          fi

@@ -1,0 +1,291 @@
+.inspector-panel {
+  position: sticky;
+  top: 20px;
+}
+
+.package-description {
+  margin: 0;
+  padding: 16px 18px 0;
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.package-detail-section {
+  padding: 12px 18px 2px;
+  border-top: 1px solid var(--line);
+}
+
+.detail-list {
+  margin: 0;
+  padding: 16px 18px 8px;
+}
+
+.detail-list div {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.detail-link {
+  color: var(--blue);
+  overflow-wrap: anywhere;
+}
+
+.detail-token-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.detail-token-list span {
+  max-width: 100%;
+  padding: 3px 7px;
+  color: var(--ink);
+  background: var(--panel-2);
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+
+.format-summary-list {
+  display: grid;
+  gap: 1px;
+  margin-top: 9px;
+  background: var(--line);
+}
+
+.format-summary-row {
+  display: grid;
+  gap: 4px;
+  min-height: 42px;
+  padding: 9px 10px;
+  background: var(--panel-2);
+  font-size: 12px;
+}
+
+.format-summary-row strong {
+  color: var(--ink);
+}
+
+.format-summary-row span,
+.format-summary-path {
+  color: var(--muted);
+}
+
+.format-summary-path {
+  overflow-wrap: anywhere;
+}
+
+.action-row {
+  display: flex;
+  gap: 10px;
+  padding: 16px 18px 18px;
+}
+
+.plan-panel {
+  padding: 16px 18px 18px;
+  border-top: 1px solid var(--line);
+  background: #fff;
+}
+
+.plan-panel p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.plan-panel .lifecycle-notice {
+  padding: 9px 10px;
+  color: var(--ink);
+  background: #edf3eb;
+  border-left: 3px solid var(--signal);
+}
+
+.plan-panel .lifecycle-notice.success {
+  border-left-color: var(--green);
+}
+
+.plan-panel .lifecycle-notice.error {
+  border-left-color: var(--red);
+}
+
+.event-timeline {
+  display: grid;
+  gap: 1px;
+  margin-top: 12px;
+  background: var(--line);
+}
+
+.event-step {
+  position: relative;
+  min-height: 32px;
+  padding: 8px 10px 8px 28px;
+  color: var(--ink);
+  background: var(--panel-2);
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.event-step::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 11px;
+  width: 7px;
+  height: 7px;
+  background: var(--green);
+}
+
+.plan-panel.problem {
+  border-top-color: rgb(184 77 67 / 45%);
+}
+
+.plan-header,
+.format-row,
+.installer-box,
+.plan-facts div {
+  display: grid;
+}
+
+.plan-header {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 12px;
+}
+
+.plan-header strong {
+  display: block;
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+.plan-header span {
+  padding: 4px 8px;
+  color: #fff;
+  background: var(--ink);
+  font-size: 11px;
+  font-weight: 720;
+  text-transform: uppercase;
+}
+
+.plan-kicker {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 780;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.install-scope-control {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  min-height: 34px;
+  margin-top: 12px;
+  background: var(--line);
+}
+
+.install-scope-option {
+  min-width: 0;
+  height: 34px;
+  padding: 0 9px;
+  color: var(--ink);
+  background: var(--panel-2);
+  border: 0;
+  font-size: 12px;
+  font-weight: 720;
+  overflow-wrap: anywhere;
+}
+
+.install-scope-option.active {
+  color: #fff;
+  background: var(--ink);
+}
+
+.install-scope-option:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.plan-facts {
+  margin: 12px 0 0;
+}
+
+.plan-facts div {
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 12px;
+  padding: 7px 0;
+}
+
+.format-list {
+  display: grid;
+  gap: 1px;
+  margin-top: 12px;
+  background: var(--line);
+}
+
+.format-row {
+  grid-template-columns: 52px minmax(0, 1fr) 34px;
+  gap: 10px;
+  align-items: center;
+  min-height: 38px;
+  padding: 8px 10px;
+  background: var(--panel-2);
+  font-size: 12px;
+}
+
+.format-row span,
+.format-row small,
+.installer-box span {
+  color: var(--muted);
+}
+
+.format-row small {
+  text-align: right;
+}
+
+.format-install-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  background: var(--blue);
+  border: 0;
+}
+
+.format-install-button svg {
+  width: 15px;
+  height: 15px;
+}
+
+.installer-box {
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+}
+
+@media (max-width: 1040px) {
+  .inspector-panel {
+    position: static;
+  }
+}
+
+@media (max-width: 700px) {
+  .plan-header,
+  .format-row,
+  .installer-box {
+    grid-template-columns: 1fr;
+  }
+
+  .format-row small {
+    text-align: left;
+  }
+}

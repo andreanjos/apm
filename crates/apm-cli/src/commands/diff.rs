@@ -132,9 +132,9 @@ pub async fn run(config: &Config, json: bool) -> Result<()> {
     }
 
     // Sort each category alphabetically.
-    outdated.sort_by(|a, b| a.name.to_lowercase().cmp(&b.name.to_lowercase()));
-    not_in_registry.sort_by(|a, b| a.name.to_lowercase().cmp(&b.name.to_lowercase()));
-    up_to_date.sort_by(|a, b| a.name.to_lowercase().cmp(&b.name.to_lowercase()));
+    outdated.sort_by_key(|entry| entry.name.to_lowercase());
+    not_in_registry.sort_by_key(|entry| entry.name.to_lowercase());
+    up_to_date.sort_by_key(|entry| entry.name.to_lowercase());
 
     // ── JSON output ──────────────────────────────────────────────────────────
 

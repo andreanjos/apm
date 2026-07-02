@@ -1,6 +1,8 @@
 #![allow(dead_code)]
 #![allow(clippy::too_many_arguments)]
 
+pub mod serve;
+
 use std::{
     fs,
     io::Write,
@@ -49,6 +51,17 @@ pub fn command(env: &CliTestEnv) -> std::process::Command {
     let mut command = std::process::Command::new(binary);
     env.apply(&mut command);
     command
+}
+
+pub fn write_fixture_config(env: &CliTestEnv) {
+    let config_dir = env.config_home.path().join("apm");
+    fs::create_dir_all(&config_dir).expect("create test config dir");
+    let fixtures = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures");
+    let config = format!(
+        "default_registry_url = \"{}\"\n",
+        fixtures.display().to_string().replace('\\', "\\\\")
+    );
+    fs::write(config_dir.join("config.toml"), config).expect("write test config");
 }
 
 pub fn read_to_string(path: &Path) -> String {

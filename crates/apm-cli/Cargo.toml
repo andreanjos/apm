@@ -17,7 +17,8 @@ tracing = { workspace = true }
 tracing-subscriber = { workspace = true }
 chrono = { workspace = true }
 
-# CLI-only deps (not shared with server)
+# CLI/runtime deps
+axum = "=0.8.1"
 clap = { version = "4", features = ["derive", "env", "color"] }
 clap_complete = ">=4, <4.6"
 keyring = "2.3.3"
@@ -36,6 +37,7 @@ tempfile = ">=3, <3.15"
 futures-util = "0.3"
 flate2 = "1.1"
 base64 = "0.22"
+getrandom = "0.2"
 semver = "1"
 walkdir = "2"
 dirs = "6"
@@ -46,6 +48,5 @@ rusqlite = { version = "0.32.1", features = ["bundled", "chrono"] }
 apm-core = { workspace = true }
 assert_cmd = "2"
 assert_fs = "1"
-axum = "=0.8.1"
 ed25519-dalek = { version = "2.2.0", features = ["rand_core"] }
 plist = { version = "=1.7.0", default-features = false }

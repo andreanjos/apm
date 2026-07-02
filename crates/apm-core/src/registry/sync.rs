@@ -57,8 +57,21 @@ pub fn sync_source(source: &Source, registries_cache_dir: &Path) -> Result<()> {
         return sync_local(&local, &dest, source);
     }
 
-    if dest.exists() {
-        fetch_and_reset(&dest, source)
+    if cache_path_exists(&dest) {
+        if dest.join(".git").exists() {
+            fetch_and_reset(&dest, source)
+        } else {
+            // Leftover/corrupted cache without a git checkout; remove and reclone.
+            debug!(
+                "Cache dir {} is not a git checkout; removing and recloning",
+                dest.display()
+            );
+            remove_cache_path(&dest).map_err(|e| ApmError::RegistrySync {
+                source_name: source.name.clone(),
+                reason: format!("Cannot remove stale cache directory: {e}"),
+            })?;
+            clone_repo(&dest, source)
+        }
     } else {
         clone_repo(&dest, source)
     }
@@ -74,7 +87,7 @@ fn sync_local(local_path: &Path, dest: &Path, source: &Source) -> Result<()> {
     );
 
     // Remove existing symlink or directory if it points elsewhere.
-    if dest.exists() || dest.symlink_metadata().is_ok() {
+    if cache_path_exists(dest) {
         if dest.is_symlink() {
             let current_target = std::fs::read_link(dest).unwrap_or_default();
             if current_target == local_path {
@@ -86,11 +99,11 @@ fn sync_local(local_path: &Path, dest: &Path, source: &Source) -> Result<()> {
                 reason: format!("Cannot remove existing symlink: {e}"),
             })?;
         } else {
-            // Existing directory (e.g. from a previous git clone) — remove it
-            // so we can replace with a symlink.
-            std::fs::remove_dir_all(dest).map_err(|e| ApmError::RegistrySync {
+            // Existing path (e.g. from a previous git clone); remove it so
+            // we can replace it with a symlink.
+            remove_cache_path(dest).map_err(|e| ApmError::RegistrySync {
                 source_name: source.name.clone(),
-                reason: format!("Cannot remove existing cache directory: {e}"),
+                reason: format!("Cannot remove existing cache path: {e}"),
             })?;
         }
     }
@@ -112,6 +125,19 @@ fn sync_local(local_path: &Path, dest: &Path, source: &Source) -> Result<()> {
 
     debug!("Local source synced via symlink");
     Ok(())
+}
+
+fn cache_path_exists(path: &Path) -> bool {
+    path.exists() || path.symlink_metadata().is_ok()
+}
+
+fn remove_cache_path(path: &Path) -> std::io::Result<()> {
+    let metadata = path.symlink_metadata()?;
+    if metadata.is_dir() && !metadata.file_type().is_symlink() {
+        std::fs::remove_dir_all(path)
+    } else {
+        std::fs::remove_file(path)
+    }
 }
 
 #[cfg(not(unix))]
@@ -216,4 +242,62 @@ fn run_git(command: &mut Command, source: &Source, action: &str) -> Result<()> {
         reason: format!("Failed to {action}. Details: {detail}"),
     }
     .into())
+}
+
+#[cfg(test)]
+mod tests {
+    use super::{cache_path_exists, remove_cache_path};
+
+    #[test]
+    fn remove_cache_path_removes_directory() {
+        let temp = tempfile::tempdir().expect("temp dir");
+        let stale = temp.path().join("official");
+        std::fs::create_dir(&stale).expect("create stale dir");
+        std::fs::write(stale.join("index.toml"), "").expect("write file");
+
+        remove_cache_path(&stale).expect("remove stale dir");
+
+        assert!(!stale.exists());
+    }
+
+    #[test]
+    fn remove_cache_path_removes_file() {
+        let temp = tempfile::tempdir().expect("temp dir");
+        let stale = temp.path().join("official");
+        std::fs::write(&stale, "not a checkout").expect("write stale file");
+
+        remove_cache_path(&stale).expect("remove stale file");
+
+        assert!(!stale.exists());
+    }
+
+    #[cfg(unix)]
+    #[test]
+    fn remove_cache_path_removes_symlink_without_touching_target() {
+        let temp = tempfile::tempdir().expect("temp dir");
+        let target = temp.path().join("target");
+        let link = temp.path().join("official");
+        std::fs::create_dir(&target).expect("create target dir");
+        std::os::unix::fs::symlink(&target, &link).expect("create symlink");
+
+        remove_cache_path(&link).expect("remove symlink");
+
+        assert!(!link.exists());
+        assert!(target.exists());
+    }
+
+    #[cfg(unix)]
+    #[test]
+    fn cache_path_exists_detects_broken_symlink() {
+        let temp = tempfile::tempdir().expect("temp dir");
+        let target = temp.path().join("missing-target");
+        let link = temp.path().join("official");
+        std::os::unix::fs::symlink(&target, &link).expect("create broken symlink");
+
+        assert!(!link.exists());
+        assert!(cache_path_exists(&link));
+
+        remove_cache_path(&link).expect("remove broken symlink");
+        assert!(!cache_path_exists(&link));
+    }
 }
