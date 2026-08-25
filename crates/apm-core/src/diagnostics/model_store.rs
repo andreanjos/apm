@@ -14,7 +14,7 @@ fn check_model_store_at(store: &ModelStore) -> DiagnosticCheck {
         return DiagnosticCheck::warning(
             MODEL_STORE_CHECK_NAME,
             format!("not initialized: {}", display_path(root)),
-            "Initialize the model store from the desktop setup panel or run `apm model store --init`.",
+            "Run `apm model store --init` to initialize the model store.",
         );
     }
 
@@ -89,7 +89,7 @@ fn check_model_store_at(store: &ModelStore) -> DiagnosticCheck {
         return DiagnosticCheck::warning(
             MODEL_STORE_CHECK_NAME,
             format!("missing directories: {}", missing.join(", ")),
-            "Initialize the model store from the desktop setup panel or run `apm model store --init`.",
+            "Run `apm model store --init` to restore the model store layout.",
         );
     }
 

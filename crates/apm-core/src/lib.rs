@@ -11,7 +11,6 @@ pub mod install;
 pub mod model;
 pub mod registry;
 pub mod scanner;
-pub mod service;
 pub mod state;
 
 // Convenience re-exports

@@ -10,9 +10,7 @@ use crate::scanner;
 use crate::state::InstallState;
 
 mod model_store;
-mod privileged;
 use model_store::check_model_store;
-use privileged::check_privileged_helper_artifacts;
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
@@ -61,7 +59,6 @@ pub fn run_diagnostics(config: &Config) -> DiagnosticsReport {
     report.push(check_registry_cache(config));
     report.push(check_model_store());
     report.push(check_vendor_installers(config));
-    report.push(check_privileged_helper_artifacts());
     report.push(check_registry_freshness(config));
     report.push(check_orphaned_state_entries(config));
 

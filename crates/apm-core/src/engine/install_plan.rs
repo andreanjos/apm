@@ -329,7 +329,7 @@ fn build_external_policy_plan(
             "{package_name} is distributed through the Mac App Store. Open the App Store listing, install it with the App Store app, then run apm scan."
         ),
         InstallPlanStatus::PrivilegedInstallerRequired => format!(
-            "{package_name} requires a PKG installer. PKG installers can run privileged scripts, so the shared desktop/service path will not run it until apm has a privileged helper or escalation design."
+            "{package_name} requires a PKG installer. PKG installers can run privileged scripts; use the interactive `apm install` command to review and authorize this package."
         ),
         InstallPlanStatus::ManualRequired => format!(
             "{package_name} requires manual installation. Install it externally, then run apm scan."

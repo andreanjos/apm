@@ -313,13 +313,6 @@ enum Commands {
     #[command(subcommand)]
     Model(commands::model::ModelCommands),
 
-    /// Run or inspect the local service boundary for GUI and automation clients.
-    ///
-    /// The first runtime is a foreground, loopback-only preview with persisted
-    /// operation status for registry sync and lifecycle writes.
-    #[command(subcommand)]
-    Serve(ServeCommands),
-
     /// Generate shell completion scripts.
     ///
     /// Prints the completion script for the specified shell to stdout.
@@ -594,23 +587,6 @@ enum SourcesCommands {
     List,
 }
 
-#[derive(Subcommand, Debug)]
-enum ServeCommands {
-    /// Print the versioned localhost API contract.
-    Contract,
-
-    /// Run the foreground localhost service preview.
-    Run {
-        /// Loopback host to bind.
-        #[arg(long, default_value = "127.0.0.1")]
-        host: String,
-
-        /// Port to bind. Defaults to APM_SERVE_PORT or 4767.
-        #[arg(long)]
-        port: Option<u16>,
-    },
-}
-
 // ── Entry Point ───────────────────────────────────────────────────────────────
 
 #[tokio::main]
@@ -799,13 +775,6 @@ async fn run() -> Result<()> {
         },
 
         Commands::Model(sub) => commands::model::run(sub, json).await,
-
-        Commands::Serve(sub) => match sub {
-            ServeCommands::Contract => commands::serve::run_contract(json),
-            ServeCommands::Run { host, port } => {
-                commands::serve::run_server(config.clone(), host, *port, quiet).await
-            }
-        },
 
         Commands::Completions { shell } => commands::completions::run(shell),
 

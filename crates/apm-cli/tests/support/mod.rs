@@ -1,8 +1,6 @@
 #![allow(dead_code)]
 #![allow(clippy::too_many_arguments)]
 
-pub mod serve;
-
 use std::{
     fs,
     io::Write,

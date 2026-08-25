@@ -9,9 +9,8 @@ use super::pkg;
 
 /// Install a DMG through the shared core DMG bundle path.
 ///
-/// The CLI opts into the legacy embedded-PKG fallback because it can prompt on
-/// stdin before invoking `sudo installer`. The local service and desktop app use
-/// the safer core default, which refuses privileged PKG execution for now.
+/// The CLI opts into the embedded-PKG fallback because it can prompt on stdin
+/// before invoking `sudo installer`.
 pub fn install_from_dmg(
     dmg_path: &Path,
     dest_dir: &Path,

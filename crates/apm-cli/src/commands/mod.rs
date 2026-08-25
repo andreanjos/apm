@@ -24,7 +24,6 @@ pub mod remove;
 pub mod rollback;
 pub mod scan;
 pub mod search;
-pub mod serve;
 pub mod size;
 pub mod sources;
 pub mod stats;
