@@ -32,20 +32,10 @@ url           = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.6/D
 sha256        = "64e9ef4cf0d6afd5e97fe4f9645ae858bc6923177c8e0c27fb8242ed5152068c"
 install_type  = "pkg"
 download_type = "direct"
-[releases.formats.au]
-url           = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.6/DPF-Plugins-v1.6-macOS.pkg"
-sha256        = "64e9ef4cf0d6afd5e97fe4f9645ae858bc6923177c8e0c27fb8242ed5152068c"
-install_type  = "pkg"
-download_type = "direct"
 [[releases]]
 version = "1.5"
 
 [releases.formats.vst3]
-url           = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.5/DPF-Plugins-v1.5-macOS.pkg"
-sha256        = "b18d2aaec199fbc1506cd437285e1f7f466db7877d53581cca59a776931fd5a8"
-install_type  = "pkg"
-download_type = "direct"
-[releases.formats.au]
 url           = "https://github.com/DISTRHO/DPF-Plugins/releases/download/v1.5/DPF-Plugins-v1.5-macOS.pkg"
 sha256        = "b18d2aaec199fbc1506cd437285e1f7f466db7877d53581cca59a776931fd5a8"
 install_type  = "pkg"

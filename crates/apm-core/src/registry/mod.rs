@@ -128,9 +128,20 @@ impl Registry {
 
     /// Load and merge plugins (and bundles) from all configured sources.
     ///
-    /// Sources are processed in order; later sources override earlier ones
-    /// on slug collision (non-default sources take precedence, allowing
-    /// community overrides).
+    /// # Precedence
+    ///
+    /// Sources are ordered by priority: the built-in official registry first,
+    /// then user-added sources in `config.toml` order (see `Config::sources`).
+    /// On a slug collision the **highest-priority** source owns the merged
+    /// record; lower-priority sources only contribute records the official
+    /// registry does not have. Per-source records stay available through
+    /// `find_in_source` and `plugins_by_source`.
+    ///
+    /// A lower-priority aggregate must never rewrite a curated record: a
+    /// scraped catalogue marks every entry `license = "commercial"` /
+    /// `is_paid = true` and ships empty download URLs, so letting it win would
+    /// flip free plugins to paid and erase verified download sources. Point
+    /// `default_registry_url` at your own registry to make it authoritative.
     pub fn load_all_sources(config: &Config) -> Result<Self> {
         let sources = config.sources();
         let mut merged = Self::new();
@@ -151,11 +162,18 @@ impl Registry {
                     for plugin in registry.plugins.values_mut() {
                         plugin.source_name = Some(source.name.clone());
                     }
+                    let contributed = registry.plugins.len();
                     merged
                         .plugins_by_source
                         .insert(source.name.clone(), registry.plugins.clone());
-                    merged.plugins.extend(registry.plugins);
-                    merged.installers.extend(registry.installers);
+                    let collided = insert_first_wins(&mut merged.plugins, registry.plugins);
+                    debug!(
+                        "Source '{}' contributed {} plugins, {} already owned by a higher-priority source",
+                        source.name,
+                        contributed - collided,
+                        collided
+                    );
+                    insert_first_wins(&mut merged.installers, registry.installers);
                 }
                 Err(e) => {
                     tracing::warn!("Could not load source '{}': {e}", source.name);
@@ -204,7 +222,9 @@ impl Registry {
             match load_bundle_toml(&path) {
                 Ok(bundle) => {
                     debug!("Loaded bundle: {}", bundle.slug);
-                    self.bundles.insert(bundle.slug.clone(), bundle);
+                    // First-wins: a bundle from a higher-priority source is
+                    // never replaced by a lower-priority one.
+                    self.bundles.entry(bundle.slug.clone()).or_insert(bundle);
                 }
                 Err(e) => {
                     tracing::warn!("Skipping bundle {}: {e}", path.display());
@@ -322,6 +342,26 @@ impl Registry {
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
+
+/// Merge `incoming` records into `target` without replacing existing keys.
+///
+/// This is the slug-collision rule for registry sources: the first (highest
+/// priority) source that defines a key owns it. Returns how many incoming
+/// records collided with an existing key and were therefore dropped.
+fn insert_first_wins<K, V>(target: &mut HashMap<K, V>, incoming: HashMap<K, V>) -> usize
+where
+    K: std::hash::Hash + Eq,
+{
+    let mut collisions = 0;
+    for (key, value) in incoming {
+        if target.contains_key(&key) {
+            collisions += 1;
+            continue;
+        }
+        target.insert(key, value);
+    }
+    collisions
+}
 
 pub(crate) fn is_hidden(path: &Path) -> bool {
     path.file_name()
@@ -441,18 +481,95 @@ install_type = "zip"
             "Community Shared",
             "2.0.0",
         );
+        write_plugin(
+            &temp,
+            "community",
+            "community-only",
+            "Community Only",
+            "1.0.0",
+        );
 
         let registry = Registry::load_all_sources(&config).unwrap();
 
+        // The highest-priority (official) source owns a slug it defines...
         let merged = registry.find("shared-plugin").unwrap();
-        assert_eq!(merged.name, "Community Shared");
-        assert_eq!(merged.source_name.as_deref(), Some("community"));
+        assert_eq!(merged.name, "Official Shared");
+        assert_eq!(merged.source_name.as_deref(), Some("official"));
 
+        // ...while a lower-priority source still contributes new slugs.
+        let added = registry.find("community-only").unwrap();
+        assert_eq!(added.name, "Community Only");
+        assert_eq!(added.source_name.as_deref(), Some("community"));
+
+        // Per-source views keep both records, so provenance is not lost.
         let official = registry
             .find_in_source("official", "shared-plugin")
             .unwrap();
         assert_eq!(official.name, "Official Shared");
-        assert_eq!(official.source_name.as_deref(), Some("official"));
+        let community = registry
+            .find_in_source("community", "shared-plugin")
+            .unwrap();
+        assert_eq!(community.name, "Community Shared");
+        assert_eq!(community.source_name.as_deref(), Some("community"));
+
+        std::fs::remove_dir_all(&temp).unwrap();
+    }
+
+    /// A lower-priority aggregate that marks every record commercial must not
+    /// turn a curated freeware plugin into a paid one.
+    #[test]
+    fn lower_priority_source_cannot_reclassify_a_curated_free_plugin() {
+        let temp = std::env::temp_dir().join(format!("apm-registry-paid-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&temp);
+        std::fs::create_dir_all(&temp).unwrap();
+        let mut config = Config {
+            cache_dir: Some(temp.join("apm")),
+            ..Config::default()
+        };
+        config.sources.push(SourceEntry {
+            name: "scraped".to_string(),
+            url: "https://example.com/scraped.git".to_string(),
+        });
+
+        write_plugin(&temp, "official", "tal-chorus-lx", "TAL-Chorus-LX", "1.6.3");
+        write_plugin(&temp, "scraped", "tal-chorus-lx", "TAL Chorus LX", "1.6.3");
+
+        // The scraped source marks the free plugin paid and drops the URL.
+        let scraped_path = temp
+            .join("apm")
+            .join("registries")
+            .join("scraped")
+            .join("plugins")
+            .join("tal-chorus-lx.toml");
+        let scraped = std::fs::read_to_string(&scraped_path)
+            .unwrap()
+            .replace("license = \"freeware\"", "license = \"commercial\"")
+            .replace(
+                "url = \"https://example.com/tal-chorus-lx.zip\"",
+                "url = \"\"",
+            )
+            .replace("[formats.au]", "is_paid = true\n\n[formats.au]");
+        std::fs::write(&scraped_path, scraped).unwrap();
+
+        let registry = Registry::load_all_sources(&config).unwrap();
+        let plugin = registry.find("tal-chorus-lx").unwrap();
+
+        assert_eq!(
+            plugin.license, "freeware",
+            "the curated licence must survive a lower-priority source"
+        );
+        assert!(
+            !plugin.is_paid,
+            "a scanned/aggregate source must not mark a free plugin as paid"
+        );
+        assert_eq!(
+            plugin
+                .formats
+                .get(&PluginFormat::Au)
+                .map(|source| source.url.as_str()),
+            Some("https://example.com/tal-chorus-lx.zip"),
+            "the curated download URL must survive a lower-priority source"
+        );
 
         std::fs::remove_dir_all(&temp).unwrap();
     }
