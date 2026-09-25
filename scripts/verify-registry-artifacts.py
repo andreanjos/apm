@@ -27,6 +27,17 @@ Guarantees / non-goals:
   * Bounded: per-request timeout, per-artifact size cap, modest concurrency.
   * Idempotent: results are deterministic and cached, so a re-run reuses the
     cached bytes and produces the same report.
+  * One probe per distinct URL: entries that share a URL share the probe and
+    the artifact listing, since the result depends on the URL alone.
+  * `--apply` rewrites `download_type = "direct"` records only.  A `direct`
+    record claims apm fetches the URL itself, so the bytes can prove it wrong
+    (HTML or a 404 for a `direct` record means the record is really `manual`).
+    A `managed` record claims the plugin is installed through a vendor manager
+    app and lists that app's paths in `registry/installers.toml`, and a
+    `manual` record's URL is where apm sends the user, so for those the probe
+    is evidence but not a field correction: `managed` URLs are reported, and
+    `manual` URLs that answer with an artifact themselves are listed as
+    promotion proposals.
 
 Usage:
 
@@ -68,7 +79,7 @@ import urllib.request
 import zipfile
 import zlib
 
-TOOL_VERSION = "1.0.0"
+TOOL_VERSION = "1.1.0"
 USER_AGENT = "apm-registry-artifact-verifier/1.0 (+https://github.com/andreanjos/apm)"
 
 HEAD_BYTES = 64 * 1024
@@ -107,10 +118,25 @@ ALL_CLASSES = [
     UNREACHABLE,
 ]
 
+# Classes where the URL answered with an artifact apm can inspect or install,
+# as opposed to a product page. A ZIP that wraps a DMG is included here (the
+# bytes are an artifact) but can never become an install target, because no apm
+# path unwraps a nested DMG.
+ARTIFACT_CLASSES = (ZIP_WITH_BUNDLES, ZIP_WITH_PKG, ZIP_WITH_DMG, DMG, PKG)
+
 # format key in the registry -> bundle extension
 FORMAT_EXT = {"vst3": ".vst3", "au": ".component", "app": ".app"}
 # every extension that marks an audio-plugin bundle inside an archive
 PLUGIN_EXTS = {".vst3", ".component", ".app", ".clap", ".aaxplugin", ".vst"}
+# URL shapes that look like a direct download rather than a product page
+ARCHIVE_EXTS = (".dmg", ".zip", ".pkg", ".mpkg", ".tar.gz", ".tgz", ".tar", ".rar", ".7z", ".sit", ".sitx")
+# Filenames of a vendor-wide downloader/manager app rather than one plugin's
+# artifact. Phrase forms only, so "<product>-1.2-osx-installer.dmg" is not one.
+VENDOR_TOOL_RE = re.compile(
+    r"(?i)(offline installer|installation manager|software center|native access|"
+    r"ua connect|waves central|roland cloud|product manager|product portal|"
+    r"creative tools|download manager|install center)"
+)
 
 SCOPE_ORDER = ["direct", "managed", "manual"]
 
@@ -1117,8 +1143,18 @@ def derive_mismatches(entry: Entry, probe: Probe, artifact: Artifact, classifica
 
 
 def analyze_entry(entry: Entry, timeout: float, cap: int, cache: Cache) -> dict:
-    started = time.time()
     probe, artifact = analyze(entry.url, timeout, cap, cache)
+    return entry_result(entry, probe, artifact)
+
+
+def entry_result(entry: Entry, probe: Probe, artifact: Artifact) -> dict:
+    """Turn one shared (probe, artifact) pair into this entry's result record.
+
+    The probe is derived from the URL only, so entries that share a URL share
+    the probe and the artifact listing; only the declared metadata and the
+    mismatches derived from it are per entry.
+    """
+    started = time.time()
     classification = classify(entry, probe, artifact)
     mismatches, unverified = derive_mismatches(entry, probe, artifact, classification)
 
@@ -1214,6 +1250,34 @@ def analyze_entry(entry: Entry, timeout: float, cap: int, cache: Cache) -> dict:
     }
 
 
+def error_result(entry: Entry, exc: Exception) -> dict:
+    """Result for an entry whose analysis raised, so the run never drops one."""
+    return {
+        "entry_id": entry.entry_id,
+        "slug": entry.slug,
+        "vendor": entry.vendor,
+        "file": entry.file,
+        "locator": entry.locator,
+        "version": entry.version,
+        "format": entry.fmt,
+        "url": entry.url,
+        "scope": entry.download_type,
+        "declared": {
+            "install_type": entry.install_type,
+            "bundle_path": entry.bundle_path,
+            "download_type": entry.download_type,
+            "sha256": entry.sha256,
+        },
+        "probe": {"error": f"{type(exc).__name__}: {exc}"},
+        "artifact": {"method": "none", "container": "unknown", "size_bytes": None},
+        "classification": UNREACHABLE,
+        "sha256_state": "not-computed",
+        "mismatches": [],
+        "unverified_reason": f"verifier error: {type(exc).__name__}: {exc}",
+        "elapsed_s": 0.0,
+    }
+
+
 # ── Registry parsing ─────────────────────────────────────────────────────────
 
 
@@ -1299,6 +1363,175 @@ def plan_corrections(results: list[dict]) -> list[dict]:
             )
     corrections.sort(key=lambda c: (c["file"], c["entry_id"], c["field"]))
     return corrections
+
+
+# classification -> the install_type the served artifact implies
+PROMOTION_INSTALL_TYPE = {
+    ZIP_WITH_BUNDLES: "zip",
+    ZIP_WITH_PKG: "zip",
+    DMG: "dmg",
+    PKG: "pkg",
+    ZIP_WITH_DMG: "dmg",
+}
+
+
+def plan_promotions(results: list[dict]) -> list[dict]:
+    """Promotion proposals for `manual` records whose URL serves the artifact.
+
+    A `manual` record is a claim that the user has to fetch the plugin by hand;
+    when the record's URL actually answers with the installer, the bytes prove
+    the URL is not a landing page. These stay proposals: the URL of a `manual`
+    record is where apm points the user, so re-typing it changes the install
+    path and belongs to the maintainer, not to the verifier.
+
+    Each proposal carries the field changes the artifact supports and the
+    blockers the artifact cannot settle (a checksum apm would need for a direct
+    record, a bundle_path inside a DMG that is never mounted).
+    """
+    groups: dict[str, list[dict]] = {}
+    for result in results:
+        if result["scope"] != "manual":
+            continue
+        groups.setdefault(result["url"], []).append(result)
+
+    proposals: list[dict] = []
+    for url, items in sorted(groups.items()):
+        fetchable = [r for r in items if r["classification"] in ARTIFACT_CLASSES]
+        if not fetchable:
+            continue
+        classification = fetchable[0]["classification"]
+        artifact = fetchable[0]["artifact"]
+        observed = promotion_observation(artifact)
+        changes: list[dict] = []
+        blockers: list[str] = []
+
+        def block(reason: str) -> None:
+            if reason not in blockers:
+                blockers.append(reason)
+
+        for result in fetchable:
+            for mismatch in result["mismatches"]:
+                if mismatch["field"] == "download_type":
+                    continue
+                if mismatch["field"].startswith("formats."):
+                    # Dropping the only declared format on a promotion would be
+                    # a schema change, not a field correction.
+                    block(
+                        f"{result['entry_id']}: {mismatch['evidence']} "
+                        "(needs a new format block, not a promotion)"
+                    )
+                    continue
+                changes.append(
+                    {
+                        "entry_id": result["entry_id"],
+                        "field": mismatch["field"],
+                        "from": mismatch["declared"],
+                        "to": mismatch["actual"],
+                        "evidence": mismatch["evidence"],
+                    }
+                )
+            if result["unverified_reason"] and not any(
+                mismatch["field"].startswith("bundle_path") for mismatch in result["mismatches"]
+            ):
+                block(f"{result['entry_id']}: {result['unverified_reason']}")
+
+        base = {
+            "url": url,
+            "entries": [r["entry_id"] for r in fetchable],
+            "files": sorted({r["file"] for r in fetchable}),
+            "classification": classification,
+            "observed": observed,
+            "changes": changes,
+        }
+
+        if classification == ZIP_WITH_DMG:
+            proposals.append(
+                {
+                    **base,
+                    "target_download_type": None,
+                    "blockers": [
+                        "the served archive wraps a DMG and no apm path unwraps a nested "
+                        "DMG, so the record stays `manual`"
+                    ],
+                }
+            )
+            continue
+
+        # A filename that names a vendor-wide downloader is not the plugin's own
+        # artifact: the record belongs to the manager-app flow, like the records
+        # already typed `managed`. This is a URL/filename signal, not the bytes.
+        vendor_tool = VENDOR_TOOL_RE.search(urllib.parse.unquote(pathlib.PurePosixPath(
+            urllib.parse.urlparse(url).path
+        ).name))
+        if vendor_tool and classification in (DMG, PKG):
+            block(
+                "a `managed` record needs an `installer` key in `registry/installers.toml` "
+                "naming the vendor app and its `/Applications` paths; the bytes cannot "
+                "supply that"
+            )
+            changes.append(
+                {
+                    "entry_id": f"{len(fetchable)} entr{'y' if len(fetchable) == 1 else 'ies'}",
+                    "field": "download_type",
+                    "from": "manual",
+                    "to": "managed",
+                    "evidence": (
+                        f"URL serves {classification} whose filename names a vendor-wide "
+                        f"downloader ({vendor_tool.group(0)}); {observed}"
+                    ),
+                }
+            )
+            proposals.append(
+                {**base, "target_download_type": "managed", "blockers": blockers}
+            )
+            continue
+
+        if not artifact.get("sha256"):
+            block(
+                "the served bytes were not hashed (only ZIP/PKG under the size cap are "
+                "downloaded; DMGs are neither downloaded nor mounted), and a `direct` "
+                "record must declare a real sha256"
+            )
+        if classification == DMG and not any(
+            "DMG contents are not inspected" in reason for reason in blockers
+        ):
+            block(
+                "DMG contents are not inspected (never mounted), so the declared "
+                "bundle_path cannot be confirmed from the bytes"
+            )
+        changes.append(
+            {
+                "entry_id": f"{len(fetchable)} entr{'y' if len(fetchable) == 1 else 'ies'}",
+                "field": "download_type",
+                "from": "manual",
+                "to": "direct",
+                "evidence": (
+                    f"URL serves {classification} ({observed}) rather than a product page"
+                ),
+            }
+        )
+        proposals.append(
+            {
+                **base,
+                "target_download_type": "direct",
+                "install_type": PROMOTION_INSTALL_TYPE[classification],
+                "blockers": blockers,
+            }
+        )
+    proposals.sort(key=lambda p: (p["target_download_type"] is None, p["url"]))
+    return proposals
+
+
+def promotion_observation(artifact: dict) -> str:
+    size = artifact.get("size_bytes")
+    parts = [
+        f"container={artifact.get('container')}",
+        f"size={size or '?'}",
+        f"method={artifact.get('method')}",
+    ]
+    if artifact.get("sha256"):
+        parts.append(f"sha256={artifact['sha256']}")
+    return ", ".join(parts)
 
 
 def split_unsafe_removals(
@@ -1474,6 +1707,79 @@ def apply_file_corrections(
 # ── Reporting ────────────────────────────────────────────────────────────────
 
 
+def _registrable_host(url: str) -> str:
+    host = urllib.parse.urlparse(url).netloc.lower().split("@")[-1].split(":")[0]
+    labels = [label for label in host.split(".") if label]
+    return ".".join(labels[-3:] if len(labels) >= 3 and labels[-2] in ("co", "com", "org", "net") else labels[-2:])
+
+
+def managed_evidence(repo: pathlib.Path, registry_dir: pathlib.Path, results: list[dict]) -> dict:
+    """Why a `managed` URL is a vendor page by design, not a mislabelled download.
+
+    `managed` does not claim the URL serves an artifact: it claims the plugin is
+    installed through a vendor manager app. The evidence is the `installer`
+    reference on the record and the app paths behind that key in
+    `registry/installers.toml`.
+    """
+    installers_path = registry_dir.parent / "installers.toml"
+    if not installers_path.exists():
+        return {}
+    installers = tomllib.loads(installers_path.read_text(encoding="utf-8"))
+
+    plugin_installer: dict[str, str | None] = {}
+    for path in sorted(registry_dir.rglob("*.toml")):
+        if path.name in ("index.toml", "bundle_ids.toml", "installers.toml"):
+            continue
+        try:
+            data = tomllib.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        sources = list((data.get("formats") or {}).values()) + [
+            source
+            for release in (data.get("releases") or [])
+            for source in (release.get("formats") or {}).values()
+        ]
+        if not any((source.get("download_type") or "") == "managed" for source in sources):
+            continue
+        plugin_installer[data.get("slug") or path.stem] = data.get("installer")
+
+    managed = [r for r in results if r["scope"] == "managed"]
+    refs = collections.Counter()
+    unknown: list[str] = []
+    missing_app_paths: list[str] = []
+    own_host = 0
+    installer_page = 0
+    checked = 0
+    for result in managed:
+        key = plugin_installer.get(result["slug"])
+        refs[key] += 1
+        if not key or key not in installers:
+            unknown.append(result["slug"])
+            continue
+        if not installers[key].get("app_paths"):
+            missing_app_paths.append(key)
+        home = installers[key].get("homepage") or ""
+        own = installers[key].get("download_url") or ""
+        if own and result["url"].rstrip("/").lower() == own.rstrip("/").lower():
+            installer_page += 1
+        if home and result["url"]:
+            checked += 1
+            if _registrable_host(result["url"]) == _registrable_host(home):
+                own_host += 1
+    return {
+        "plugins": len(plugin_installer),
+        "entries": len(managed),
+        "installers": sorted({k for k in refs if k}),
+        "unbacked": sorted(set(unknown)),
+        "missing_app_paths": sorted(set(missing_app_paths)),
+        "installer_entries": {k: refs[k] for k in sorted(refs, key=lambda k: -refs[k]) if k},
+        "vendor_host_entries": own_host,
+        "installer_page_entries": installer_page,
+        "host_checked_entries": checked,
+        "hosts": sorted({_registrable_host(r["url"]) for r in managed if r["url"]}),
+    }
+
+
 def build_totals(results: list[dict]) -> dict:
     by_class = collections.Counter(r["classification"] for r in results)
     by_scope = collections.Counter(r["scope"] for r in results)
@@ -1570,11 +1876,29 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
         f"`{payload['timeout']}s`, concurrency `{payload['concurrency']}`"
     )
     add("- Nothing is installed, no DMG is mounted, no privileged command is run.")
+    if payload.get("merged_from"):
+        for merged in payload["merged_from"]:
+            scopes = ", ".join(f"`{scope}`" for scope in merged.get("scopes") or []) or "?"
+            add(
+                f"- Merged from `{merged['path']}` ({scopes}, {merged['entries']} entries, "
+                f"generated `{merged['generated_at']}`): cap `{merged['max_bytes']}` bytes, "
+                f"timeout `{merged['timeout']}s`, concurrency `{merged['concurrency']}`"
+            )
     add(
-        f"- This run proposes {len(payload['corrections'])} field corrections "
-        "(`download_type = \"direct\"` records only); a run after `--apply` should propose none "
-        "for the fields it already fixed."
+        f"- This run proposes {len(payload['corrections'])} field corrections, all on "
+        "`download_type = \"direct\"` records — the only scope `--apply` rewrites, because a "
+        "`direct` record claims apm can fetch the URL itself. A run after `--apply` should "
+        "propose none for the fields it already fixed."
     )
+    promotions = payload.get("promotions") or []
+    if promotions:
+        proposable = [p for p in promotions if p["target_download_type"]]
+        add(
+            f"- It also lists {len(promotions)} `manual` record"
+            f"{'' if len(promotions) == 1 else 's'} whose URL answers with an artifact; "
+            f"{len(proposable)} {'is a' if len(proposable) == 1 else 'are'} promotion "
+            f"candidate{'' if len(proposable) == 1 else 's'}. None were rewritten."
+        )
     add("")
     add("## Method and limits")
     add("")
@@ -1598,6 +1922,16 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
         f"{payload['timeout']}s per request, {payload['concurrency']} concurrent workers."
     )
     add("- `--apply` is the only mode that edits the registry, and only from recorded evidence.")
+    add(
+        "- Rate limits and transient server errors (408/425/429/5xx) are retried up to three "
+        "times, honouring `Retry-After` when the host sends one; a `HEAD` that a host rejects is "
+        "confirmed with a ranged `GET`."
+    )
+    add(
+        "- One probe is made per distinct URL, and every format entry pointing at that URL reuses "
+        "it: a plugin's formats and releases share one artifact, and a vendor page is often the "
+        "download page for a whole catalogue."
+    )
     add("")
     add("### Container policy for `install_type`")
     add("")
@@ -1622,8 +1956,60 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
     )
     add("| Flat PKG (xar) | `pkg` | `installer -pkg`, privileged |")
     add("| DMG | `dmg` | mounted and copied |")
-    add("| URL serving HTML/404 | unchanged; `download_type` becomes `manual` | nothing to install |")
+    add(
+        "| URL serving HTML/404 on a `direct` record | type unchanged; `download_type` becomes "
+        "`manual` | nothing to install |"
+    )
+    add(
+        "| URL serving HTML on a `managed` record | unchanged | `managed` means the vendor "
+        "manager app installs it, which the record's `installer` declares |"
+    )
     add("")
+    evidence = payload.get("managed_evidence")
+    if evidence and evidence.get("entries"):
+        add("### Why the `managed` wave is reported but never retyped")
+        add("")
+        add(
+            "`download_type = \"managed\"` does not claim the URL serves an artifact; it claims "
+            "the plugin is installed through a vendor manager app. Every managed record here is "
+            "backed by an `installer` key in `registry/installers.toml` that carries that app's "
+            "`/Applications` paths, and the URL is the vendor's own page, so an HTML answer "
+            "confirms the record instead of refuting it. Retyping one to `manual` would drop the "
+            "vendor-manager handoff that makes the record installable:"
+        )
+        add("")
+        add(
+            f"- managed format entries: {evidence['entries']} across {evidence['plugins']} plugins"
+        )
+        add(
+            f"- entries whose plugin declares an installer key present in `installers.toml` with "
+            f"non-empty `app_paths`: {evidence['entries'] - len(evidence['unbacked'])} of "
+            f"{evidence['entries']}"
+        )
+        if evidence["unbacked"]:
+            add(
+                "- managed entries with no usable installer key (candidates for retyping): "
+                + ", ".join(f"`{slug}`" for slug in evidence["unbacked"][:40])
+            )
+        add(
+            f"- entries whose URL host is the vendor's own host (as declared by the installer's "
+            f"`homepage`): {evidence['vendor_host_entries']} of {evidence['host_checked_entries']}"
+        )
+        add(
+            f"- entries whose URL is exactly the page `installers.toml` lists as the installer's "
+            f"`download_url`: {evidence['installer_page_entries']}; the rest are that vendor's "
+            "product or support pages for the individual plugin"
+        )
+        add(
+            "- installer keys in play: "
+            + ", ".join(f"`{key}` ({count})" for key, count in evidence["installer_entries"].items())
+        )
+        add("")
+        add(
+            "A managed URL that 404s is a broken pointer in a vendor page, not proof that the "
+            "plugin has no artifact, so it is reported under per-entry status and left alone."
+        )
+        add("")
     add("## Priority order")
     add("")
     add("| Wave | Scope | Entries | Unique URLs | What was done |")
@@ -1633,11 +2019,12 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
     wave_notes = {
         "direct": "every unique URL downloaded and inspected under the cap",
         "managed": (
-            "every unique URL probed; artifacts listed/inspected under the cap, the rest reported "
-            "with sizes"
+            "every unique URL probed; artifacts listed/inspected under the cap. No rewrite: the "
+            "URL is the vendor page the manager-app flow opens, not the artifact apm installs"
         ),
         "manual": (
-            "probed only, to count how many already point at a fetchable artifact (no rewrites)"
+            "every unique URL probed; the ones that answer with an artifact are listed as "
+            "promotion candidates (no rewrites)"
         ),
     }
     for index, scope in enumerate(ran, start=1):
@@ -1654,16 +2041,128 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
     add("")
     manual_scoped = [r for r in results if r["scope"] == "manual"]
     if manual_scoped:
-        manual_fetchable = [
-            r
-            for r in manual_scoped
-            if r["classification"] in (ZIP_WITH_BUNDLES, ZIP_WITH_PKG, ZIP_WITH_DMG, DMG, PKG)
-        ]
+        manual_fetchable = [r for r in manual_scoped if r["classification"] in ARTIFACT_CLASSES]
         add(
             f"{len(manual_fetchable)} of {len(manual_scoped)} `manual` entries already point at a "
             "fetchable artifact (an archive or installer rather than a product page). They are "
             "listed under per-entry status as promotion candidates; none of them were rewritten."
         )
+        add("")
+    add("## Promotion candidates in the `manual` wave")
+    add("")
+    add(
+        "`download_type = \"manual\"` says the user fetches the plugin by hand; a record whose URL "
+        "answers with the installer itself is mislabelled, and the returned bytes say so. These "
+        "are proposals: the URL of a `manual` record is where apm sends the user, so retyping it "
+        "changes the install path and belongs to the maintainer. Nothing here was applied. "
+        "Candidates are probed with the same limits as the rest of the run, so a blocker that "
+        "names the download cap or the DMG rule needs a different pass, not a different judgment."
+    )
+    add("")
+    promotions = payload.get("promotions") or []
+    if not promotions:
+        add("No `manual` URL served a fetchable artifact in this run.")
+        add("")
+    else:
+        proposable = [p for p in promotions if p["target_download_type"]]
+        held = [p for p in promotions if not p["target_download_type"]]
+        add(
+            f"{len(promotions)} distinct URLs serve an artifact. {len(proposable)} are promotion "
+            f"candidates; {len(held)} cannot become an apm install target at all."
+        )
+        add("")
+        add("| URL | Entries | Class | Proposed `download_type` | Observed | Field changes |")
+        add("| --- | --- | --- | --- | --- | --- |")
+        for proposal in proposable:
+            changes = "; ".join(
+                f"`{change['entry_id']}` `{change['field']}` {change['from']} -> {change['to']}"
+                for change in proposal["changes"]
+            )
+            add(
+                table_row(
+                    [
+                        f"`{short_url(proposal['url'])}`",
+                        str(len(proposal["entries"])),
+                        f"`{proposal['classification']}`",
+                        f"`{proposal['target_download_type']}`",
+                        proposal["observed"],
+                        changes or "`download_type` only",
+                    ]
+                )
+            )
+        add("")
+        blocked = [p for p in proposable if p["blockers"]]
+        if blocked:
+            add("### Promotion candidates with a blocker")
+            add("")
+            add(
+                "The bytes prove the URL serves the artifact, but not everything a `direct` "
+                "record must declare. These need a decision or a deeper read before promotion:"
+            )
+            add("")
+            add("| URL | Class | Blocker |")
+            add("| --- | --- | --- |")
+            for proposal in blocked:
+                for blocker in proposal["blockers"]:
+                    add(
+                        table_row(
+                            [
+                                f"`{short_url(proposal['url'])}`",
+                                f"`{proposal['classification']}`",
+                                blocker,
+                            ]
+                        )
+                    )
+            add("")
+        if held:
+            add("### Archive-shaped URLs that stay `manual`")
+            add("")
+            add("| URL | Class | Why it is not an apm install target |")
+            add("| --- | --- | --- |")
+            for proposal in held:
+                add(
+                    table_row(
+                        [
+                            f"`{short_url(proposal['url'])}`",
+                            f"`{proposal['classification']}`",
+                            "; ".join(proposal["blockers"]),
+                        ]
+                    )
+                )
+            add("")
+    archive_shaped = [
+        r
+        for r in manual_scoped
+        if r["url"].lower().split("?")[0].endswith(ARCHIVE_EXTS)
+        and r["classification"] not in ARTIFACT_CLASSES
+    ]
+    if archive_shaped:
+        seen: set[str] = set()
+        add("### Archive-shaped URLs that do not serve an artifact")
+        add("")
+        add(
+            "These `manual` URLs end in an archive extension but answered with something else, so "
+            "they stay `manual` and were not rewritten:"
+        )
+        add("")
+        add("| URL | Class | HTTP | Final URL |")
+        add("| --- | --- | --- | --- |")
+        for result in archive_shaped:
+            if result["url"] in seen:
+                continue
+            seen.add(result["url"])
+            probe = result["probe"]
+            final = probe.get("final_url") or ""
+            add(
+                table_row(
+                    [
+                        f"`{short_url(result['url'])}`",
+                        f"`{result['classification']}`",
+                        str(probe.get("status") or probe.get("error") or "-"),
+                        f"`{short_url(final)}`" if final and final != result["url"] else "-",
+                    ]
+                )
+            )
         add("")
     add("## Totals per class")
     add("")
@@ -1689,6 +2188,79 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
     add(f"- `mismatch`: {sha.get('mismatch', 0)} entries whose declared `sha256` is wrong")
     add(f"- `not-computed`: {sha.get('not-computed', 0)} entries where no bytes were hashed")
     add("")
+    stale = [r for r in results if r["sha256_state"] == "mismatch"]
+    if stale:
+        add("### Entries whose declared checksum no longer matches the served bytes")
+        add("")
+        add(
+            "`apm` verifies the digest after downloading and deletes the archive on a mismatch "
+            "(`ApmError::Checksum`, `crates/apm-core/src/engine/install_download.rs`), so these "
+            "records cannot install today. The served bytes are real; the declared digest is for "
+            "an older build of the same URL."
+        )
+        add("")
+        add(
+            "| URL | Entries | Declared sha256 | Served sha256 | Size | Resolved URL |"
+        )
+        add("| --- | --- | --- | --- | --- | --- |")
+        by_url: dict[str, list[dict]] = {}
+        for result in stale:
+            by_url.setdefault(result["url"], []).append(result)
+        for url, items in sorted(by_url.items()):
+            first = items[0]
+            artifact = first["artifact"]
+            probe = first["probe"]
+            final = probe.get("final_url") or ""
+            add(
+                table_row(
+                    [
+                        f"`{short_url(url)}`",
+                        str(len(items)),
+                        f"`{(first['declared']['sha256'] or '')[:16]}…`",
+                        f"`{(artifact.get('sha256') or '')[:16]}…`",
+                        str(artifact.get("size_bytes") or "-"),
+                        f"`{short_url(final)}`"
+                        if final and final != url
+                        else "`" + short_url(url) + "` (no redirect)",
+                    ]
+                )
+            )
+        add("")
+        add("**Policy options (proposed — nothing below was applied)**")
+        add("")
+        add(
+            "1. **Leave them.** `apm install` keeps refusing on mismatch. Honest about the bytes, "
+            "but it reports a vendor re-release as possible corruption/tampering, retries forever, "
+            "and leaves the plugin permanently uninstallable."
+        )
+        add(
+            "2. **Re-verify and update `sha256`.** Installs work again, but it blesses whatever the "
+            "vendor served at that moment with no review; where the resolved URL names a different "
+            "build than the record does (see the rows above that show a resolved URL), it "
+            "re-versions the record in place while its `version` field still names the old build. "
+            "The same rot returns on the vendor's next in-place roll."
+        )
+        add(
+            "3. **Mark the entry stale.** Stop declaring a digest apm cannot keep: set "
+            "`sha256 = \"manual\"` (the placeholder vocabulary `is_placeholder_sha256` already "
+            "recognises, so no schema change) and `download_type = \"manual\"` for the affected "
+            "formats, keeping the URL. `apm install` then hands the user the vendor's download "
+            "instead of promising a verified one, and no byte-following maintenance is needed. It "
+            "loses automatic install for records that fail today anyway."
+        )
+        add("")
+        add(
+            "Recommendation: **option 3**, split by cause. The URLs whose redirect resolves to a "
+            "differently-named newer build are a *version roll*, and the right fix there is a new "
+            "release with the resolved URL and its digest — that is curation, and it is how such a "
+            "record legitimately returns to `direct`. The URLs that serve a same-named file with "
+            "different bytes are a re-packaged artifact with no honest digest to pin, so they "
+            "should be marked stale (`download_type = \"manual\"`, `sha256 = \"manual\"`). A "
+            "blanket checksum refresh and leaving them alone are both worse: the first silently "
+            "re-versions and re-rots, the second leaves a permanently broken install that the user "
+            "cannot distinguish from a working one."
+        )
+        add("")
     add("## Mismatched fields")
     add("")
     add("| Field | Entries |")
@@ -1743,6 +2315,14 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
     if applied_corrections:
         add("## Corrections applied in this change")
         add("")
+        if not payload["corrections"]:
+            add(
+                "This pass applied no new corrections: every `direct` record already matches the "
+                "bytes it serves, and the `managed` and `manual` waves are probe-only, so their "
+                "findings are reported rather than applied. The table below is the record of the "
+                "corrections the first pass applied."
+            )
+            add("")
         add("| File | Entry | Field | Before | After | Evidence |")
         add("| --- | --- | --- | --- | --- | --- |")
         for correction in applied_corrections:
@@ -1851,6 +2431,44 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
             add(f"| … | | | {len(items) - 80} more (see the JSON report) |")
         add("")
 
+    unreachable = [r for r in results if r["classification"] == UNREACHABLE]
+    if unreachable:
+        add("### Unreachable URLs by host and status")
+        add("")
+        add(
+            "A probe that never got a usable answer says nothing about the record, so no field "
+            "was touched for these. Retries have already been applied; what is left is the host's "
+            "final answer:"
+        )
+        add("")
+        add("| Host | Final answer | Entries | Example URL |")
+        add("| --- | --- | --- | --- |")
+        buckets: dict[tuple[str, str], list[dict]] = collections.defaultdict(list)
+        for result in unreachable:
+            probe = result["probe"]
+            answer = probe.get("status")
+            answer = f"HTTP {answer}" if answer else (probe.get("error") or "no response")
+            host = urllib.parse.urlparse(result["url"]).netloc or "<no host>"
+            buckets[(host, answer)].append(result)
+        ordered = sorted(buckets.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+        shown = 0
+        for (host, answer), items in ordered:
+            if shown >= 60:
+                add(f"| … | | {len(unreachable) - shown} entries in {len(ordered) - shown} more host/answer pairs | |")
+                break
+            add(
+                table_row(
+                    [
+                        f"`{host}`",
+                        answer,
+                        str(len(items)),
+                        f"`{short_url(items[0]['url'])}`",
+                    ]
+                )
+            )
+            shown += len(items)
+        add("")
+
     add("## Per-entry status")
     add("")
     add(
@@ -1866,12 +2484,7 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
             continue
         listed = scoped
         if scope == "manual":
-            listed = [
-                r
-                for r in scoped
-                if r["classification"]
-                in (ZIP_WITH_BUNDLES, ZIP_WITH_PKG, ZIP_WITH_DMG, DMG, PKG)
-            ]
+            listed = [r for r in scoped if r["classification"] in ARTIFACT_CLASSES]
         add(f"### `download_type = \"{scope}\"` ({len(scoped)} entries, {len(listed)} listed)")
         add("")
         add("| Entry | Format | Class | Declared install_type | Size | Listing | Evidence | Note |")
@@ -1933,6 +2546,16 @@ def main(argv: list[str] | None = None) -> int:
         default=None,
         help="secondary (scraped) registry checkout to compare against, for the precedence section",
     )
+    parser.add_argument(
+        "--merge-json",
+        action="append",
+        default=None,
+        help=(
+            "another run's payload to fold into this report (repeatable). Results are merged by "
+            "entry id, with the current run winning, so the three waves can be probed as separate "
+            "runs and reported together"
+        ),
+    )
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--url-contains", default=None)
     parser.add_argument("--slug", action="append", default=None)
@@ -1993,50 +2616,76 @@ def main(argv: list[str] | None = None) -> int:
     cache = Cache(cache_dir)
     results: list[dict] = []
     started = time.time()
+
+    # Every entry sharing a URL shares its probe and artifact listing: several
+    # formats (and several releases) of one plugin point at one artifact, and a
+    # vendor page is often the download page for a whole catalogue. Grouping by
+    # URL keeps the network work proportional to distinct URLs without changing
+    # what is measured.
+    groups: dict[str, list[Entry]] = {}
+    for entry in selected:
+        groups.setdefault(entry.url, []).append(entry)
+
+    def analyze_group(url: str, entries: list[Entry]) -> list[dict]:
+        probe, artifact = analyze(url, args.timeout, args.max_bytes, cache)
+        return [entry_result(entry, probe, artifact) for entry in entries]
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.concurrency)) as pool:
         futures = {
-            pool.submit(analyze_entry, entry, args.timeout, args.max_bytes, cache): entry
-            for entry in selected
+            pool.submit(analyze_group, url, entries): entries
+            for url, entries in groups.items()
         }
         done = 0
         for future in concurrent.futures.as_completed(futures):
-            entry = futures[future]
+            entries = futures[future]
             try:
-                results.append(future.result())
+                results.extend(future.result())
             except Exception as exc:  # pragma: no cover - defensive
-                results.append(
-                    {
-                        "entry_id": entry.entry_id,
-                        "slug": entry.slug,
-                        "vendor": entry.vendor,
-                        "file": entry.file,
-                        "locator": entry.locator,
-                        "version": entry.version,
-                        "format": entry.fmt,
-                        "url": entry.url,
-                        "scope": entry.download_type,
-                        "declared": {
-                            "install_type": entry.install_type,
-                            "bundle_path": entry.bundle_path,
-                            "download_type": entry.download_type,
-                            "sha256": entry.sha256,
-                        },
-                        "probe": {"error": f"{type(exc).__name__}: {exc}"},
-                        "artifact": {"method": "none", "container": "unknown", "size_bytes": None},
-                        "classification": UNREACHABLE,
-                        "sha256_state": "not-computed",
-                        "mismatches": [],
-                        "unverified_reason": f"verifier error: {type(exc).__name__}: {exc}",
-                        "elapsed_s": 0.0,
-                    }
-                )
-            done += 1
-            if done % 100 == 0 or done == len(selected):
+                results.extend(error_result(entry, exc) for entry in entries)
+            done += len(entries)
+            if done % 100 < len(entries) or done == len(selected):
                 print(f"  {done}/{len(selected)} entries", flush=True)
 
     results.sort(key=lambda r: (SCOPE_ORDER.index(r["scope"]), r["file"], r["entry_id"]))
+
+    # Fold in earlier runs' results (one wave each), current run winning.
+    merged_from: list[dict] = []
+    for merge_path in args.merge_json or []:
+        path = pathlib.Path(merge_path)
+        try:
+            earlier = json.loads(path.read_text(encoding="utf-8"))
+        except Exception as exc:
+            print(f"cannot merge {path}: {type(exc).__name__}: {exc}", file=sys.stderr)
+            continue
+        known = {r["entry_id"] for r in results}
+        added = 0
+        for result in earlier.get("results") or []:
+            if result.get("entry_id") in known:
+                continue
+            known.add(result["entry_id"])
+            results.append(result)
+            added += 1
+        merged_from.append(
+            {
+                "path": str(path),
+                "scopes": earlier.get("scopes") or [],
+                "generated_at": earlier.get("generated_at") or "",
+                "max_bytes": earlier.get("max_bytes"),
+                "timeout": earlier.get("timeout"),
+                "concurrency": earlier.get("concurrency"),
+                "entries": len(earlier.get("results") or []),
+            }
+        )
+        print(f"merged {added} entries from {path}", flush=True)
+    if merged_from:
+        results.sort(key=lambda r: (SCOPE_ORDER.index(r["scope"]), r["file"], r["entry_id"]))
+        scope_urls = {
+            scope: len({r["url"] for r in results if r["scope"] == scope}) for scope in SCOPE_ORDER
+        }
+
     corrections = plan_corrections(results)
     corrections, deferred_removals = split_unsafe_removals(corrections, results)
+    promotions = plan_promotions(results)
     payload = {
         "tool_version": TOOL_VERSION,
         "generated_at": _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds"),
@@ -2046,10 +2695,13 @@ def main(argv: list[str] | None = None) -> int:
         "timeout": args.timeout,
         "concurrency": args.concurrency,
         "scope_urls": scope_urls,
+        "merged_from": merged_from,
         "scraped_source": scraped_source_stats(repo, registry_dir, scraped_source),
+        "managed_evidence": managed_evidence(repo, registry_dir, results),
         "totals": build_totals(results),
         "corrections": corrections,
         "corrections_not_applied": deferred_removals,
+        "promotions": promotions,
         "results": results,
         "duration_s": round(time.time() - started, 1),
     }
