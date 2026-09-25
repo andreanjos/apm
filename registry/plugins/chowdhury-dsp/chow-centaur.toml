@@ -58,8 +58,11 @@ url           = "https://github.com/jatinchowdhury18/KlonCentaur/releases/downlo
 sha256        = "bf471cec8a847e8e867baee08ed1056f2a829350b840a7da9ec4ef84002fab1d"
 install_type  = "zip"
 download_type = "direct"
+bundle_path   = "ChowCentaur.vst3"
 [releases.formats.au]
 url           = "https://github.com/jatinchowdhury18/KlonCentaur/releases/download/v1.2.0/ChowCentaur-Mac-1.2.0.zip"
 sha256        = "bf471cec8a847e8e867baee08ed1056f2a829350b840a7da9ec4ef84002fab1d"
 install_type  = "zip"
 download_type = "direct"
+
+bundle_path   = "ChowCentaur.component"

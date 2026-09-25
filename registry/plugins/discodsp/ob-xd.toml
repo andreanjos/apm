@@ -30,8 +30,11 @@ url           = "https://github.com/reales/OB-Xd/releases/download/v2.19/OB-Xd.2
 sha256        = "954072c937e79be2d1adc42ebeca342c0d4cbf95a12442adb0d60a97c260f7f9"
 install_type  = "pkg"
 download_type = "direct"
+bundle_path   = "OB-Xd.vst3"
 [releases.formats.au]
 url           = "https://github.com/reales/OB-Xd/releases/download/v2.19/OB-Xd.2.19.pkg"
 sha256        = "954072c937e79be2d1adc42ebeca342c0d4cbf95a12442adb0d60a97c260f7f9"
 install_type  = "pkg"
 download_type = "direct"
+
+bundle_path   = "OB-Xd.component"

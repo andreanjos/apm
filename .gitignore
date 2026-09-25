@@ -4,7 +4,8 @@ target/
 .sqlx/
 .planning/
 .claude/
-scripts/
+scripts/*
+!scripts/verify-registry-artifacts.py
 data/
 crates/apm-server/
 migrations/

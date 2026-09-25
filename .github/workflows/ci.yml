@@ -18,9 +18,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Rust stable
-        uses: dtolnay/rust-toolchain@stable
+      # The channel is read from rust-toolchain.toml so the pinned version lives
+      # in exactly one place. Floating `stable` here is what let a clippy
+      # release break unrelated PRs.
+      - name: Read pinned Rust toolchain
+        id: rust
+        run: |
+          set -euo pipefail
+          channel=$(sed -n 's/^[[:space:]]*channel[[:space:]]*=[[:space:]]*"\(.*\)"/\1/p' rust-toolchain.toml)
+          if [ -z "$channel" ]; then
+            echo "::error::rust-toolchain.toml does not declare a toolchain channel"
+            exit 1
+          fi
+          echo "Pinned Rust channel: ${channel}"
+          echo "channel=${channel}" >> "$GITHUB_OUTPUT"
+
+      - name: Install Rust (pinned)
+        uses: dtolnay/rust-toolchain@master
         with:
+          toolchain: ${{ steps.rust.outputs.channel }}
           components: clippy
 
       - name: Cache cargo registry
@@ -36,8 +52,10 @@ jobs:
       - name: Cache build target
         uses: actions/cache@v4
         with:
+          # Keyed on the pinned toolchain as well as the lockfile: artifacts built
+          # by a different rustc must not be reused.
           path: target
-          key: ${{ runner.os }}-cargo-target-${{ hashFiles('**/Cargo.lock') }}
+          key: ${{ runner.os }}-cargo-target-${{ hashFiles('**/Cargo.lock', 'rust-toolchain.toml') }}
           restore-keys: |
             ${{ runner.os }}-cargo-target-
 

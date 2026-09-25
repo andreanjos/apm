@@ -16,8 +16,11 @@ sha256        = "8c21614a444e67d56a7e68713107c1a2830f8e65eef82f3900bd68a2fa13590
 install_type  = "pkg"
 download_type = "direct"
 
+bundle_path   = "Blooo.vst3"
 [formats.au]
 url           = "https://fullbucket.de/music/dl.php?file=blooo_2_3_5_mac"
 sha256        = "8c21614a444e67d56a7e68713107c1a2830f8e65eef82f3900bd68a2fa135901"
 install_type  = "pkg"
 download_type = "direct"
+
+bundle_path   = "Blooo.component"

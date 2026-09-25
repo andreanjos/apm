@@ -16,6 +16,21 @@ user-facing application; reusable package behavior lives in the Rust core.
 
 There is no desktop application or local HTTP service in the supported product.
 
+## Toolchain
+
+`rust-toolchain.toml` pins the Rust channel, and both the CI and release
+workflows read that file and install exactly that channel instead of tracking
+`stable`. The pin exists because a floating toolchain silently moved the lint
+bar: clippy 1.98 promoted an existing construct in `apm-core` to a default
+warning, `cargo clippy -- -D warnings` promoted it to a hard error, and every
+open pull request went red — including ones that never touched that crate. With
+the channel pinned, a Rust release can only change the build when the `channel`
+field is bumped on purpose: run `cargo clippy --all-targets -- -D warnings` and
+`cargo test` on the new channel, fix or justify whatever it reports, and land
+the bump as its own commit. The lint bar itself is unchanged (`-D warnings`
+stays, the full `cargo test` run stays); only the compiler that measures it is
+fixed.
+
 ## Boundaries
 
 ### CLI
@@ -65,6 +80,24 @@ they do not imply a second frontend.
 
 PKG installers are exceptional: the CLI must prompt before invoking `sudo
 installer`. Core archive operations do not silently escalate privileges.
+
+## Registry Sources
+
+`Config::sources()` orders registry sources by priority: the built-in official
+registry first, then user-added sources in `config.toml` order.
+`Registry::load_all_sources` merges them with one deterministic rule: **the
+highest-priority source that defines a slug owns the merged record**. A
+lower-priority source only contributes slugs the official registry does not
+define; its own record stays inspectable through `plugins_by_source` (and the
+per-source views used by `apm doctor`).
+
+The direction matters because secondary sources are usually aggregates. The
+scraped catalogue under `data/registry` declares all of its 7,988 records
+`license = "commercial"` and `is_paid = true` and ships empty download URLs, so
+letting it win flips curated free plugins to paid and blanks the verified
+download URLs of the 1,991 machine-fetchable entries it shares with the curated
+registry. To make your own registry authoritative, point `default_registry_url`
+at it instead of adding it as an extra source.
 
 ## Local Data
 

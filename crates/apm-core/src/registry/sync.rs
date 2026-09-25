@@ -15,11 +15,8 @@ use crate::registry::Source;
 /// a remote Git URL. Returns the resolved path if local, `None` otherwise.
 pub fn local_path(url: &str) -> Option<PathBuf> {
     let expanded = if let Some(stripped) = url.strip_prefix('~') {
-        if let Some(home) = dirs::home_dir() {
-            home.join(stripped.trim_start_matches('/'))
-        } else {
-            return None;
-        }
+        let home = dirs::home_dir()?;
+        home.join(stripped.trim_start_matches('/'))
     } else {
         PathBuf::from(url)
     };

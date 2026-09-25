@@ -16,8 +16,11 @@ sha256        = "37c33ccc06ccaddd41a128bd42b122e6b338998d4d5713c0e5ac8bd0a14383e
 install_type  = "pkg"
 download_type = "direct"
 
+bundle_path   = "FB3200.vst3"
 [formats.au]
 url           = "https://fullbucket.de/music/dl.php?file=fb3200_1_1_2_mac"
 sha256        = "37c33ccc06ccaddd41a128bd42b122e6b338998d4d5713c0e5ac8bd0a14383e1"
 install_type  = "pkg"
 download_type = "direct"
+
+bundle_path   = "FB3200.component"
