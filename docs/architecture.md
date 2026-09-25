@@ -16,6 +16,21 @@ user-facing application; reusable package behavior lives in the Rust core.
 
 There is no desktop application or local HTTP service in the supported product.
 
+## Toolchain
+
+`rust-toolchain.toml` pins the Rust channel, and both the CI and release
+workflows read that file and install exactly that channel instead of tracking
+`stable`. The pin exists because a floating toolchain silently moved the lint
+bar: clippy 1.98 promoted an existing construct in `apm-core` to a default
+warning, `cargo clippy -- -D warnings` promoted it to a hard error, and every
+open pull request went red — including ones that never touched that crate. With
+the channel pinned, a Rust release can only change the build when the `channel`
+field is bumped on purpose: run `cargo clippy --all-targets -- -D warnings` and
+`cargo test` on the new channel, fix or justify whatever it reports, and land
+the bump as its own commit. The lint bar itself is unchanged (`-D warnings`
+stays, the full `cargo test` run stays); only the compiler that measures it is
+fixed.
+
 ## Boundaries
 
 ### CLI

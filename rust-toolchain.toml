@@ -1,0 +1,19 @@
+# Pinned Rust toolchain — the single source of truth for local builds and CI.
+#
+# Both `.github/workflows/ci.yml` and `.github/workflows/release.yml` install
+# exactly this channel instead of tracking `stable`. CI used to float stable, so
+# when clippy 1.98 turned an existing construct in apm-core into a default-warn
+# lint, `cargo clippy -- -D warnings` became a hard error and broke every open
+# pull request, including ones that never touched that crate.
+#
+# Upgrading: edit `channel`, then run
+#
+#     cargo clippy --all-targets -- -D warnings
+#     cargo test
+#
+# fix or justify whatever the new release reports, and land the bump as its own
+# commit. Never restore a floating channel to "get CI green".
+[toolchain]
+channel = "1.98.0"
+components = ["clippy", "rustfmt"]
+profile = "minimal"
