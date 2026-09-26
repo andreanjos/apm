@@ -1232,15 +1232,7 @@ def entry_result(entry: Entry, probe: Probe, artifact: Artifact) -> dict:
     classification = classify(entry, probe, artifact)
     mismatches, unverified = derive_mismatches(entry, probe, artifact, classification)
 
-    if artifact.sha256 and entry.sha256 and not entry.sha256.startswith("manual"):
-        if artifact.sha256.lower() == entry.sha256.lower():
-            sha_state = "match"
-        else:
-            sha_state = "mismatch"
-    elif artifact.sha256:
-        sha_state = "no-declared-checksum"
-    else:
-        sha_state = "not-computed"
+    sha_state = sha256_state(entry.sha256, artifact.sha256)
 
     observations: list[str] = []
     if classification == ZIP_WITH_PKG:
@@ -1324,6 +1316,28 @@ def entry_result(entry: Entry, probe: Probe, artifact: Artifact) -> dict:
     }
 
 
+def rerun_sha_state(result: dict) -> None:
+    """Re-derive the checksum verdict of an earlier run under the current rules.
+
+    A merged payload carries the verdict its own run computed, so an entry
+    probed before a rule changed would keep the old verdict in a merged report.
+    Only the digest comparison is re-derived, from the bytes and the declaration
+    the earlier run recorded.
+    """
+    declared = (result.get("declared") or {}).get("sha256")
+    served = (result.get("artifact") or {}).get("sha256")
+    state = sha256_state(declared or "", served)
+    if state == result.get("sha256_state"):
+        return
+    result["sha256_state"] = state
+    if state != "mismatch":
+        result["observations"] = [
+            note
+            for note in result.get("observations") or []
+            if "does not match the served bytes" not in note
+        ]
+
+
 def error_result(entry: Entry, exc: Exception) -> dict:
     """Result for an entry whose analysis raised, so the run never drops one."""
     return {
@@ -1391,6 +1405,13 @@ def is_placeholder_sha256(sha256: str) -> bool:
     """Empty, `manual`, or all-zero: the markers apm treats as "no checksum"."""
     value = (sha256 or "").strip()
     return not value or value.lower() == "manual" or set(value) == {"0"}
+
+
+def sha256_state(declared: str, served: str | None) -> str:
+    """How the served bytes relate to the declared digest."""
+    if served and not is_placeholder_sha256(declared):
+        return "match" if served.lower() == (declared or "").lower() else "mismatch"
+    return "no-declared-checksum" if served else "not-computed"
 
 
 def make_entry(rel, slug, vendor, locator, version, fmt, source) -> Entry:
@@ -2809,6 +2830,7 @@ def main(argv: list[str] | None = None) -> int:
             if result.get("entry_id") in known:
                 continue
             known.add(result["entry_id"])
+            rerun_sha_state(result)
             results.append(result)
             added += 1
         merged_from.append(
