@@ -13,14 +13,14 @@ is_paid      = true
 
 [formats.vst3]
 url           = "https://dl.u-he.com/releases/Diva_148_16519_Mac.zip"
-sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256        = "83baea58896bb120428c134476ba8602665315384ac1b068bc22d62e4f288189"
 install_type  = "zip"
-download_type = "manual"
+download_type = "direct"
 bundle_path   = "Diva.vst3"
 
 [formats.au]
 url           = "https://dl.u-he.com/releases/Diva_148_16519_Mac.zip"
-sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256        = "83baea58896bb120428c134476ba8602665315384ac1b068bc22d62e4f288189"
 install_type  = "zip"
-download_type = "manual"
+download_type = "direct"
 bundle_path   = "Diva.component"

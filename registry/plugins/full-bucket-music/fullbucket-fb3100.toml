@@ -1,7 +1,7 @@
 slug         = "fullbucket-fb3100"
 name         = "FB-3100"
 vendor       = "Full Bucket Music"
-version      = "1.2.1"
+version      = "1.2.2"
 description  = "Emulation of the PPG Wave 2 synthesizer with wavetable and analog subtractive synthesis."
 category     = "instruments"
 product_type = "plugin"
@@ -11,15 +11,15 @@ tags         = ["synth", "synthesizer", "wavetable", "ppg", "vintage", "free", "
 homepage     = "https://www.fullbucket.de/music/fb3100.html"
 
 [formats.vst3]
-url           = "https://www.fullbucket.de/music/dl.php?file=fb3100_1_2_1_mac"
-sha256        = "0eb7b8d3ff5febd44c34e1d89386f7f152e5f0fa64c03cbbb874ea969e65c446"
+url           = "https://www.fullbucket.de/music/dl/fb3100_1_2_2_mac.pkg"
+sha256        = "548352e42fa6ed14221bbdf034c265435b1374569bf9daff616781a2967c4ed0"
 install_type  = "pkg"
 bundle_path   = "FB3100.vst3"
 download_type = "direct"
 
 [formats.au]
-url           = "https://www.fullbucket.de/music/dl.php?file=fb3100_1_2_1_mac"
-sha256        = "0eb7b8d3ff5febd44c34e1d89386f7f152e5f0fa64c03cbbb874ea969e65c446"
+url           = "https://www.fullbucket.de/music/dl/fb3100_1_2_2_mac.pkg"
+sha256        = "548352e42fa6ed14221bbdf034c265435b1374569bf9daff616781a2967c4ed0"
 install_type  = "pkg"
 bundle_path   = "FB3100.component"
 download_type = "direct"

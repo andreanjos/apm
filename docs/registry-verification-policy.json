@@ -1,0 +1,123 @@
+{
+ "tool_version": "1.1.0",
+ "decided_on": "2026-09-25",
+ "decision": "the wave-2 lane recommendation (option 3, split by cause)",
+ "principle": "Establish a pin where none existed; never change one where the bytes contradict it silently.",
+ "stale_markings": [
+  {
+   "url": "https://fullbucket.de/music/dl.php?file=fb7999_1_1_7_mac",
+   "file": "registry/plugins/full-bucket-music/fullbucket-fb7999.toml",
+   "entries": ["fullbucket-fb7999:au", "fullbucket-fb7999:vst3"],
+   "declared_sha256": "abb53ed075ee401e44bde29910bbd9d2743028ed9ca45a26d3b261141c3e0f66",
+   "served_sha256": "81197af340d6bc61924d2f83713a712994f52cde4eb1dc9cd029b2957620c60c",
+   "artifact_version": "1.1.7",
+   "record_version": "1.1.7",
+   "note": "The redirect resolves to the same-named fb7999_1_1_7_mac.pkg, and the bundles inside declare 1.1.7, so the version did not roll: the vendor re-packaged the same build. There is no digest to pin that survives the next re-package."
+  },
+  {
+   "url": "https://www.fullbucket.de/music/dl.php?file=fbdelay_2_0_3_mac",
+   "file": "registry/plugins/full-bucket-music/fullbucket-fbdelay.toml",
+   "entries": ["fullbucket-fbdelay:au", "fullbucket-fbdelay:vst3"],
+   "declared_sha256": "0cddf534ef094aa0d72a80d194814f65a00851d6184306df5aa5d651b0612428",
+   "served_sha256": "9b7829cda9a982160610ab09603df3447d3f23aa3d694ef2d0a22562f8c338ee",
+   "artifact_version": "2.0.3",
+   "record_version": "2.0.3",
+   "note": "Same-named file, same bundle version 2.0.3, different bytes: a re-package, not a version roll."
+  },
+  {
+   "url": "https://www.fullbucket.de/music/dl.php?file=whispair_1_1_5_mac",
+   "file": "registry/plugins/full-bucket-music/fullbucket-whispair.toml",
+   "entries": ["fullbucket-whispair:au", "fullbucket-whispair:vst3"],
+   "declared_sha256": "79e710986d22c78b68cdd6e485819fdbc7957ece9dfc774f3cb6686042ea831f",
+   "served_sha256": "23e39f384fe55898a2cb730a8189981faaea6367473770cdd6f02e41886f5c34",
+   "artifact_version": "1.1.5",
+   "record_version": "1.1.5",
+   "note": "Same-named file, same bundle version 1.1.5, different bytes: a re-package, not a version roll."
+  },
+  {
+   "url": "https://tal-software.com/downloads/plugins/TAL-BassLine-101-installer_macos.zip",
+   "file": "registry/plugins/tal-software/tal-bassline-101.toml",
+   "entries": ["tal-bassline-101:au", "tal-bassline-101:vst3"],
+   "declared_sha256": "d3dba9e92a8c0c5a66c9c5911b390a8a3f8753008446f6e5bf3785166c45f5e5",
+   "served_sha256": "1bca65f194b2372ecb2fa378a9d183c5c730c1547a980077f7e3e319b7a9759d",
+   "artifact_version": "4.1.0",
+   "record_version": "3.0.0",
+   "note": "The unversioned installer URL now ships a newer build (the bundle declares 4.1.0 against the record's 3.0.0), but the URL names no build, so there is no versioned artifact URL to pin: the vendor overwrites it again at the next release."
+  },
+  {
+   "url": "https://tal-software.com/downloads/plugins/TAL-Bitcrusher-installer_macos.zip",
+   "file": "registry/plugins/tal-software/tal-bitcrusher.toml",
+   "entries": ["tal-bitcrusher:au", "tal-bitcrusher:vst3"],
+   "declared_sha256": "0c5641931c1c49ee3856ad8314a00bc1109d5cd9b58de65fb455cae58ea3d2e0",
+   "served_sha256": "a446b04623a692f9a98d46367758d13d5436fdc451d294ace5785992f7004c15",
+   "artifact_version": "0.9.9",
+   "record_version": "1.0",
+   "note": "Unversioned installer URL; the served bundle reports 0.9.9 while the record declares 1.0, so even the direction of the change is not established. Nothing to pin."
+  },
+  {
+   "url": "https://tytel.org/static/dist/Helm_v0_9_0_r.pkg",
+   "file": "registry/plugins/matt-tytel/helm.toml",
+   "entries": ["helm:au", "helm:vst3"],
+   "declared_sha256": "1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf",
+   "served_sha256": "3b713484c643077db6853f2322bd5335ec4100dbe0f9c0619dfe9254f5f6e9d8",
+   "artifact_version": null,
+   "record_version": "0.9.0",
+   "note": "Same-named file at the same URL. The pkg payload lies outside the downloaded bytes, so the served bundle version could not be read; the URL and the record both name 0.9.0, and no evidence contradicts that, so nothing was re-pinned or re-versioned."
+  }
+ ],
+ "version_rolls": [
+  {
+   "file": "registry/plugins/full-bucket-music/fullbucket-fb3100.toml",
+   "entries": ["fullbucket-fb3100:au", "fullbucket-fb3100:vst3"],
+   "url_before": "https://www.fullbucket.de/music/dl.php?file=fb3100_1_2_1_mac",
+   "url_after": "https://www.fullbucket.de/music/dl/fb3100_1_2_2_mac.pkg",
+   "version_before": "1.2.1",
+   "version_after": "1.2.2",
+   "sha256_after": "548352e42fa6ed14221bbdf034c265435b1374569bf9daff616781a2967c4ed0",
+   "how_version_established": "the redirect resolves to a version-named artifact (fb3100_1_2_2_mac.pkg), and the bundles in its pkg payload declare CFBundleShortVersionString 1.2.2 (FB3100.vst3, FB3100.component, FB3100.vst); the vendor page states FB-3100 v1.2.2"
+  },
+  {
+   "file": "registry/plugins/full-bucket-music/fullbucket-qyooo.toml",
+   "entries": ["fullbucket-qyooo:au", "fullbucket-qyooo:vst3"],
+   "url_before": "https://fullbucket.de/music/dl.php?file=qyooo_1_2_1_mac",
+   "url_after": "https://www.fullbucket.de/music/dl/qyooo_1_2_2_mac.pkg",
+   "version_before": "1.2.1",
+   "version_after": "1.2.2",
+   "sha256_after": "c32e74220ba4a472e5f1e261e40a136b4d842c3b9d575c19983c409a2c968942",
+   "how_version_established": "the redirect resolves to a version-named artifact (qyooo_1_2_2_mac.pkg), and the bundles in its pkg payload declare CFBundleShortVersionString 1.2.2 (Qyooo.vst3, Qyooo.component, Qyooo.vst); the vendor page states qyooo v1.2.2"
+  }
+ ],
+ "promotions_applied": [
+  {
+   "url": "https://dl.u-he.com/releases/Diva_148_16519_Mac.zip",
+   "file": "registry/plugins/u-he/diva.toml",
+   "entries": ["diva:au", "diva:vst3"],
+   "declared_version": "1.4.8",
+   "artifact_version": "1.4.8",
+   "sha256": "83baea58896bb120428c134476ba8602665315384ac1b068bc22d62e4f288189",
+   "version_evidence": "the bundles in the installer pkg declare V1.4.8, matching the record's 1.4.8; the pkg payload also confirms the declared bundle_path (Diva.vst3, Diva.component)"
+  },
+  {
+   "url": "https://dl.u-he.com/releases/Hive_212_16520_Mac.zip",
+   "file": "registry/plugins/u-he/hive.toml",
+   "entries": ["hive:au", "hive:vst3"],
+   "declared_version": "2.1.2",
+   "artifact_version": "2.1.2",
+   "sha256": "255ca6aac1c6d716b3b139d92526cc678215bf23af6fb460559a89f18ef7235f",
+   "version_evidence": "the bundles in the installer pkg declare V2.1.2, matching the record's 2.1.2; the pkg payload also confirms the declared bundle_path (Hive.vst3, Hive.component)"
+  },
+  {
+   "url": "https://dl.u-he.com/releases/Repro_113_16797_Mac.zip",
+   "file": "registry/plugins/u-he/repro.toml",
+   "entries": ["repro:au", "repro:vst3"],
+   "declared_version": "1.1.3",
+   "artifact_version": "1.1.3",
+   "sha256": "2d797891319f4dcda06d7cdf30a5233949411659c5a38307010c6908f65cef63",
+   "version_evidence": "the bundles in the installer pkg declare V1.1.3, matching the record's 1.1.3; the pkg payload also confirms the declared bundle_path (Repro-1.vst3, Repro-1.component)"
+  }
+ ],
+ "promotions_left": {
+  "count": 19,
+  "reason": "Each proposal carries a blocker the served bytes cannot settle: a DMG is never downloaded or mounted, so its declared bundle_path cannot be confirmed and its bytes cannot be hashed for a `direct` record to declare; the Kilohearts installer names a vendor-wide downloader, so `managed` is the right type but needs an `installer` key the bytes cannot supply; and the VCV Rack pkg contains an app, not the declared .vst3/.component bundles, which is a format-block change rather than a promotion."
+ }
+}

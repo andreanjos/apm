@@ -12,12 +12,12 @@ homepage     = "https://tytel.org/helm/"
 
 [formats.vst3]
 url           = "https://tytel.org/static/dist/Helm_v0_9_0_r.pkg"
-sha256        = "1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf"
+sha256        = "manual"
 install_type  = "pkg"
-download_type = "direct"
+download_type = "manual"
 
 [formats.au]
 url           = "https://tytel.org/static/dist/Helm_v0_9_0_r.pkg"
-sha256        = "1bfac2c016d7dd5cd51e714fa6d9facef4e1db52617ff7dd52748dbec1400ebf"
+sha256        = "manual"
 install_type  = "pkg"
-download_type = "direct"
+download_type = "manual"
