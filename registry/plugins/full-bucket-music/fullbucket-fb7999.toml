@@ -12,15 +12,15 @@ homepage     = "https://www.fullbucket.de/music/fb7999.html"
 
 [formats.vst3]
 url           = "https://fullbucket.de/music/dl.php?file=fb7999_1_1_7_mac"
-sha256        = "abb53ed075ee401e44bde29910bbd9d2743028ed9ca45a26d3b261141c3e0f66"
+sha256        = "manual"
 install_type  = "pkg"
-download_type = "direct"
+download_type = "manual"
 
 bundle_path   = "FB7999.vst3"
 [formats.au]
 url           = "https://fullbucket.de/music/dl.php?file=fb7999_1_1_7_mac"
-sha256        = "abb53ed075ee401e44bde29910bbd9d2743028ed9ca45a26d3b261141c3e0f66"
+sha256        = "manual"
 install_type  = "pkg"
-download_type = "direct"
+download_type = "manual"
 
 bundle_path   = "FB7999.component"

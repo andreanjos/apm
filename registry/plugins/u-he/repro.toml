@@ -13,14 +13,14 @@ is_paid      = true
 
 [formats.vst3]
 url           = "https://dl.u-he.com/releases/Repro_113_16797_Mac.zip"
-sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256        = "2d797891319f4dcda06d7cdf30a5233949411659c5a38307010c6908f65cef63"
 install_type  = "zip"
-download_type = "manual"
+download_type = "direct"
 bundle_path   = "Repro-1.vst3"
 
 [formats.au]
 url           = "https://dl.u-he.com/releases/Repro_113_16797_Mac.zip"
-sha256        = "0000000000000000000000000000000000000000000000000000000000000000"
+sha256        = "2d797891319f4dcda06d7cdf30a5233949411659c5a38307010c6908f65cef63"
 install_type  = "zip"
-download_type = "manual"
+download_type = "direct"
 bundle_path   = "Repro-1.component"

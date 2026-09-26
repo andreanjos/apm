@@ -12,14 +12,14 @@ homepage     = "https://tal-software.com/products/tal-bitcrusher"
 
 [formats.vst3]
 url           = "https://tal-software.com/downloads/plugins/TAL-Bitcrusher-installer_macos.zip"
-sha256        = "0c5641931c1c49ee3856ad8314a00bc1109d5cd9b58de65fb455cae58ea3d2e0"
+sha256        = "manual"
 install_type  = "zip"
 bundle_path   = "TAL-Bitcrusher.vst3"
-download_type = "direct"
+download_type = "manual"
 
 [formats.au]
 url           = "https://tal-software.com/downloads/plugins/TAL-Bitcrusher-installer_macos.zip"
-sha256        = "0c5641931c1c49ee3856ad8314a00bc1109d5cd9b58de65fb455cae58ea3d2e0"
+sha256        = "manual"
 install_type  = "zip"
 bundle_path   = "TAL-Bitcrusher.component"
-download_type = "direct"
+download_type = "manual"
