@@ -1973,7 +1973,169 @@ def scraped_source_stats(repo: pathlib.Path, registry_dir: pathlib.Path, scraped
     }
 
 
-def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[dict] | None):
+def load_policy(path: pathlib.Path) -> dict | None:
+    """Read the applied-decision record, or report why it could not be read."""
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        print(f"cannot read {path}: {type(exc).__name__}: {exc}", file=sys.stderr)
+        return None
+
+
+def render_policy_section(add, policy: dict) -> None:
+    """Render the maintainer's decisions about the stale-checksum wave.
+
+    The checksum table is evidence; how the registry answers it is a maintainer
+    decision, recorded in `docs/registry-verification-policy.json`. Rendering it
+    from that record keeps the report reproducible after a re-run, when the
+    mismatch table it came from is empty because the fix removed it.
+    """
+    stale = policy.get("stale_markings") or []
+    rolls = policy.get("version_rolls") or []
+    applied = policy.get("promotions_applied") or []
+    left = policy.get("promotions_left") or {}
+    add("## Policy applied in this change")
+    add("")
+    add(
+        "Wave 1 found the mismatches and wave 2 reported them, leaving three ways out on the "
+        "table: leave them, re-verify the digest in place, or mark the record stale. "
+        "Re-verifying in place is rejected for these rows — it blesses whatever the vendor "
+        "served and re-versions the record while its `version` field still names the old build. "
+        f"What was applied is {policy.get('decision', '')}, by hand from the recorded evidence. "
+        f"The rule that separates the two cases is *{policy.get('principle', '')}*"
+    )
+    add("")
+    if stale:
+        add("### Marked stale: `download_type = \"manual\"`, `sha256 = \"manual\"`")
+        add("")
+        add(
+            "The URL serves a same-named file whose bytes no longer match, and no digest survives "
+            "the vendor's next re-package, so the record stops promising a verified download and "
+            "keeps the URL, which is what `apm install` hands the user:"
+        )
+        add("")
+        add("| URL | Entries | Declared sha256 | Served sha256 | Version | Why stale, not rolled |")
+        add("| --- | --- | --- | --- | --- | --- |")
+        for row in stale:
+            version = row.get("artifact_version")
+            declared = row.get("record_version") or ""
+            version_cell = (
+                f"artifact `{version}`, record `{declared}`"
+                if version
+                else f"record `{declared}`, artifact not decoded"
+            )
+            add(
+                table_row(
+                    [
+                        f"`{short_url(row['url'])}`",
+                        str(len(row.get("entries") or [])),
+                        f"`{(row.get('declared_sha256') or '')[:16]}…`",
+                        f"`{(row.get('served_sha256') or '')[:16]}…`",
+                        version_cell,
+                        row.get("note") or "",
+                    ]
+                )
+            )
+        add("")
+    if rolls:
+        add("### Curated as a version roll: new URL, digest and version")
+        add("")
+        add(
+            "Here the redirect resolves to a differently-named, version-named build, so there is "
+            "an artifact URL that can be pinned durably. The record was updated as a new release "
+            "— URL, digest and `version` together — and legitimately returns to `direct`:"
+        )
+        add("")
+        add("| File | Entries | URL before | URL after | Version | sha256 | How the version was established |")
+        add("| --- | --- | --- | --- | --- | --- | --- |")
+        for row in rolls:
+            add(
+                table_row(
+                    [
+                        f"`{row['file']}`",
+                        str(len(row.get("entries") or [])),
+                        f"`{short_url(row['url_before'])}`",
+                        f"`{short_url(row['url_after'])}`",
+                        f"`{row.get('version_before')}` -> `{row.get('version_after')}`",
+                        f"`{(row.get('sha256_after') or '')[:16]}…`",
+                        row.get("how_version_established") or "",
+                    ]
+                )
+            )
+        add("")
+    if applied:
+        add("### Promotions applied")
+        add("")
+        add(
+            "A `manual` record whose URL serves the artifact itself, whose blockers are empty and "
+            "whose served build matches the version the record declares is install coverage "
+            "gained honestly: the digest is *established* where the placeholder said there was "
+            "none, not changed. Any served build newer than the record would be a version roll "
+            "instead (see above), not a promotion:"
+        )
+        add("")
+        add("| URL | Entries | Version check | sha256 declared now | Version evidence |")
+        add("| --- | --- | --- | --- | --- |")
+        for row in applied:
+            add(
+                table_row(
+                    [
+                        f"`{short_url(row['url'])}`",
+                        str(len(row.get("entries") or [])),
+                        f"artifact `{row.get('artifact_version')}` = record `{row.get('declared_version')}`",
+                        f"`{(row.get('sha256') or '')[:16]}…`",
+                        row.get("version_evidence") or "",
+                    ]
+                )
+            )
+        add("")
+    if left:
+        add("### Promotion candidates left alone")
+        add("")
+        add(
+            f"{left.get('count')} of the {len(applied) + left.get('count', 0)} proposals wave 2 "
+            f"made were left as they were (the other {len(applied)} are the promotions above). "
+            f"{left.get('reason', '')}"
+        )
+        add("")
+    add(
+        "The u-he records that carry placeholder digests (`sha256 = \"0000…\"`) are not part of "
+        "the stale set: a placeholder means *no digest was ever declared*, so the verifier "
+        "reports `no-declared-checksum` rather than a mismatch (commit `e454de3a`). They stay "
+        "that way wherever the artifact's version could not be confirmed; the three whose "
+        "blockers were empty were promoted above, which is a pin established, not a pin changed."
+    )
+    add("")
+    add(
+        "One consequence of the stale markings is visible in the promotion tables above: those "
+        "records now declare `download_type = \"manual\"` and their URL still answers with the "
+        "artifact, so the verifier proposes promoting them back. That proposal is the tool "
+        "answering from the bytes alone; the decision above stands, because re-pinning is the "
+        "silent re-versioning this policy refuses."
+    )
+    add("")
+    add(
+        f"Records were changed by hand from this evidence, not by `--apply`: "
+        f"{len(stale)} URL{'s' if len(stale) != 1 else ''} marked stale, "
+        f"{len(rolls)} curated as a version roll, {len(applied)} promoted "
+        f"({sum(len(r.get('entries') or []) for r in stale)} + "
+        f"{sum(len(r.get('entries') or []) for r in rolls)} + "
+        f"{sum(len(r.get('entries') or []) for r in applied)} format entries). This record is "
+        "`docs/registry-verification-policy.json`, which is what this section renders, so a "
+        "re-run reproduces it instead of losing it with the mismatch table."
+    )
+    add("")
+
+
+def write_report(
+    path: pathlib.Path,
+    payload: dict,
+    applied_corrections: list[dict] | None,
+    policy: dict | None = None,
+):
+
     results = payload["results"]
     totals = payload["totals"]
     lines: list[str] = []
@@ -2017,11 +2179,15 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
     promotions = payload.get("promotions") or []
     if promotions:
         proposable = [p for p in promotions if p["target_download_type"]]
+        applied_promotions = len((policy or {}).get("promotions_applied") or [])
         add(
             f"- It also lists {len(promotions)} `manual` record"
             f"{'' if len(promotions) == 1 else 's'} whose URL answers with an artifact; "
             f"{len(proposable)} {'is a' if len(proposable) == 1 else 'are'} promotion "
-            f"candidate{'' if len(proposable) == 1 else 's'}. None were rewritten."
+            f"candidate{'' if len(proposable) == 1 else 's'}, of which "
+            f"{applied_promotions} {'was' if applied_promotions == 1 else 'were'} applied in this "
+            "change; the rest are reported, with their blockers where the bytes cannot settle "
+            "one (see *Policy applied in this change*)."
         )
     add("")
     add("## Method and limits")
@@ -2153,7 +2319,8 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
         ),
         "manual": (
             "every unique URL probed; the ones that answer with an artifact are listed as "
-            "promotion candidates (no rewrites)"
+            "promotion candidates, and the promotions among them were applied by hand (see "
+            "*Policy applied in this change*)"
         ),
     }
     for index, scope in enumerate(ran, start=1):
@@ -2179,7 +2346,9 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
         add(
             f"{len(manual_fetchable)} of {len(manual_scoped)} `manual` entries already point at a "
             "fetchable artifact (an archive or installer rather than a product page). They are "
-            "listed under per-entry status as promotion candidates; none of them were rewritten."
+            "listed under per-entry status as promotion candidates; the ones whose blockers were "
+            "empty and whose served version matches the record are promoted in *Policy applied in "
+            "this change*, and the rest are reported."
         )
         add("")
     add("## Promotion candidates in the `manual` wave")
@@ -2188,9 +2357,11 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
         "`download_type = \"manual\"` says the user fetches the plugin by hand; a record whose URL "
         "answers with the installer itself is mislabelled, and the returned bytes say so. These "
         "are proposals: the URL of a `manual` record is where apm sends the user, so retyping it "
-        "changes the install path and belongs to the maintainer. Nothing here was applied. "
-        "Candidates are probed with the same limits as the rest of the run, so a blocker that "
-        "names the download cap or the DMG rule needs a different pass, not a different judgment."
+        "changes the install path and belongs to the maintainer. The proposals whose blockers "
+        "were empty were applied by hand in this change (*Policy applied in this change*); the "
+        "rest are listed with their blockers. Candidates are probed with the same limits as the "
+        "rest of the run, so a blocker that names the download cap or the DMG rule needs a "
+        "different pass, not a different judgment."
     )
     add("")
     promotions = payload.get("promotions") or []
@@ -2320,6 +2491,11 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
         "`sha256`"
     )
     add(f"- `mismatch`: {sha.get('mismatch', 0)} entries whose declared `sha256` is wrong")
+    add(
+        f"- `no-declared-checksum`: {sha.get('no-declared-checksum', 0)} entries whose declared "
+        "`sha256` is a placeholder (empty, `manual`, or all zeros) — the vocabulary "
+        "`is_placeholder_sha256` recognises, so there is nothing to compare"
+    )
     add(f"- `not-computed`: {sha.get('not-computed', 0)} entries where no bytes were hashed")
     add("")
     stale = [r for r in results if r["sha256_state"] == "mismatch"]
@@ -2360,41 +2536,14 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
                 )
             )
         add("")
-        add("**Policy options (proposed — nothing below was applied)**")
-        add("")
         add(
-            "1. **Leave them.** `apm install` keeps refusing on mismatch. Honest about the bytes, "
-            "but it reports a vendor re-release as possible corruption/tampering, retries forever, "
-            "and leaves the plugin permanently uninstallable."
-        )
-        add(
-            "2. **Re-verify and update `sha256`.** Installs work again, but it blesses whatever the "
-            "vendor served at that moment with no review; where the resolved URL names a different "
-            "build than the record does (see the rows above that show a resolved URL), it "
-            "re-versions the record in place while its `version` field still names the old build. "
-            "The same rot returns on the vendor's next in-place roll."
-        )
-        add(
-            "3. **Mark the entry stale.** Stop declaring a digest apm cannot keep: set "
-            "`sha256 = \"manual\"` (the placeholder vocabulary `is_placeholder_sha256` already "
-            "recognises, so no schema change) and `download_type = \"manual\"` for the affected "
-            "formats, keeping the URL. `apm install` then hands the user the vendor's download "
-            "instead of promising a verified one, and no byte-following maintenance is needed. It "
-            "loses automatic install for records that fail today anyway."
+            "How the registry answers these rows — the three options wave 2 weighed and the one "
+            "applied — is recorded under *Policy applied in this change* below."
         )
         add("")
-        add(
-            "Recommendation: **option 3**, split by cause. The URLs whose redirect resolves to a "
-            "differently-named newer build are a *version roll*, and the right fix there is a new "
-            "release with the resolved URL and its digest — that is curation, and it is how such a "
-            "record legitimately returns to `direct`. The URLs that serve a same-named file with "
-            "different bytes are a re-packaged artifact with no honest digest to pin, so they "
-            "should be marked stale (`download_type = \"manual\"`, `sha256 = \"manual\"`). A "
-            "blanket checksum refresh and leaving them alone are both worse: the first silently "
-            "re-versions and re-rots, the second leaves a permanently broken install that the user "
-            "cannot distinguish from a working one."
-        )
-        add("")
+
+    if policy:
+        render_policy_section(add, policy)
     add("## Mismatched fields")
     add("")
     add("| Field | Entries |")
@@ -2451,10 +2600,11 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
         add("")
         if not payload["corrections"]:
             add(
-                "This pass applied no new corrections: every `direct` record already matches the "
-                "bytes it serves, and the `managed` and `manual` waves are probe-only, so their "
-                "findings are reported rather than applied. The table below is the record of the "
-                "corrections the first pass applied."
+                "This pass applied no new field corrections from a probe: every `direct` record "
+                "already matches the bytes it serves. The policy decisions it did apply — the "
+                "stale markings, the version rolls and the promotions — are recorded under "
+                "*Policy applied in this change*. The table below is the record of the "
+                "corrections the first probe pass applied."
             )
             add("")
         add("| File | Entry | Field | Before | After | Evidence |")
@@ -2701,6 +2851,15 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--out-report", default=None)
     parser.add_argument("--applied-corrections", default=None)
     parser.add_argument(
+        "--policy-json",
+        default=None,
+        help=(
+            "record of the maintainer's decisions about the stale-checksum wave, rendered into "
+            "the report (default `docs/registry-verification-policy.json`). A decision is not "
+            "something a probe can re-derive, so it lives beside the evidence rather than in it"
+        ),
+    )
+    parser.add_argument(
         "--scraped-source",
         default=None,
         help="secondary (scraped) registry checkout to compare against, for the precedence section",
@@ -2739,6 +2898,11 @@ def main(argv: list[str] | None = None) -> int:
         pathlib.Path(args.applied_corrections)
         if args.applied_corrections
         else repo / "data" / "registry-verification-corrections.json"
+    )
+    policy_path = (
+        pathlib.Path(args.policy_json)
+        if args.policy_json
+        else repo / "docs" / "registry-verification-policy.json"
     )
     scraped_source = (
         pathlib.Path(args.scraped_source) if args.scraped_source else repo / "data" / "registry"
@@ -2901,7 +3065,7 @@ def main(argv: list[str] | None = None) -> int:
         except Exception:
             applied_corrections = None
 
-    write_report(out_report, payload, applied_corrections)
+    write_report(out_report, payload, applied_corrections, load_policy(policy_path))
     print(f"wrote {out_report}")
     return 0
 
