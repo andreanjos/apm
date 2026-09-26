@@ -44,6 +44,7 @@ Usage:
     python3 scripts/verify-registry-artifacts.py                     # direct+managed
     python3 scripts/verify-registry-artifacts.py --scope all         # + manual probe
     python3 scripts/verify-registry-artifacts.py --scope direct --limit 20
+    python3 scripts/verify-registry-artifacts.py --scope managed --host-interval 3
     python3 scripts/verify-registry-artifacts.py --apply             # write corrections
 
 Outputs:
@@ -199,7 +200,63 @@ class Artifact:
 # ── HTTP helpers ──────────────────────────────────────────────────────────────
 
 
+class HostPacer:
+    """Minimum spacing between requests to the same host (`0` disables it).
+
+    Some hosts sit behind a rate limiter that answers a burst with `429` for
+    every request in it, so retrying harder cannot help: spacing the requests
+    does. `--host-interval` applies an interval to every host; a host that
+    answers `429` gets `--pace-on-429` from then on instead, so only the hosts
+    that need spacing pay for it.
+    """
+
+    def __init__(self, interval: float, on_429: float = 0.0):
+        self.interval = max(0.0, interval)
+        self.on_429 = max(0.0, on_429)
+        self._lock = threading.Lock()
+        self._next: dict[str, float] = {}
+        self._host_interval: dict[str, float] = {}
+
+    def _host(self, url: str) -> str:
+        return urllib.parse.urlparse(url).netloc.lower()
+
+    def _interval_for(self, host: str) -> float:
+        return max(self.interval, self._host_interval.get(host, 0.0))
+
+    def wait(self, url: str) -> None:
+        host = self._host(url)
+        while True:
+            with self._lock:
+                span = self._interval_for(host)
+                if not span:
+                    return
+                now = time.monotonic()
+                ready = self._next.get(host, 0.0)
+                if now >= ready:
+                    self._next[host] = now + span
+                    return
+                delay = ready - now
+            time.sleep(min(delay, 0.5))
+
+    def penalize(self, url: str, retry_after: float | None = None) -> None:
+        """The host answered `429`: space it out from now on."""
+        if not self.on_429:
+            return
+        host = self._host(url)
+        with self._lock:
+            self._host_interval[host] = max(
+                self._host_interval.get(host, 0.0), self.on_429
+            )
+            cooldown = retry_after if retry_after and retry_after > 0 else 5.0
+            self._next[host] = max(self._next.get(host, 0.0), time.monotonic() + cooldown)
+
+
+# Replaced by `main` from `--host-interval` / `--pace-on-429`; unpaced by default.
+PACER = HostPacer(0.0, 0.0)
+
+
 def _request(url: str, headers: dict[str, str], timeout: float, method: str = "GET"):
+    PACER.wait(url)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **headers}, method=method)
     return urllib.request.urlopen(req, timeout=timeout)
 
@@ -231,10 +288,17 @@ def _parse_disposition_filename(value: str) -> str | None:
     return urllib.parse.unquote(m.group(1)) if m else None
 
 
+def _retry_after(headers) -> float | None:
+    value = _header(headers, "Retry-After").strip()
+    if value.isdigit():
+        return float(value)
+    return None
+
+
 def _retry_delay(headers, attempt: int) -> float:
-    retry_after = _header(headers, "Retry-After")
-    if retry_after.isdigit():
-        return min(float(retry_after), MAX_RETRY_SLEEP)
+    retry_after = _retry_after(headers)
+    if retry_after is not None:
+        return min(retry_after, MAX_RETRY_SLEEP)
     return min(1.5 * (attempt + 1), MAX_RETRY_SLEEP)
 
 
@@ -252,6 +316,8 @@ def fetch_range(url: str, start: int, end: int, timeout: float, attempts: int = 
                 return resp.status, resp.headers, data, truncated, resp.url, None
         except urllib.error.HTTPError as exc:
             if exc.code in RETRY_CODES and attempt + 1 < attempts:
+                if exc.code == 429:
+                    PACER.penalize(url, _retry_after(exc.headers))
                 time.sleep(_retry_delay(exc.headers, attempt))
                 last_error = f"HTTP {exc.code}"
                 continue
@@ -277,6 +343,8 @@ def fetch_head(url: str, timeout: float, attempts: int = 3):
                 return resp.status, resp.headers, resp.url, None, "head"
         except urllib.error.HTTPError as exc:
             if exc.code in RETRY_CODES and attempt + 1 < attempts:
+                if exc.code == 429:
+                    PACER.penalize(url, _retry_after(exc.headers))
                 time.sleep(_retry_delay(exc.headers, attempt))
                 last_error = f"HTTP {exc.code}"
                 continue
@@ -308,14 +376,14 @@ def _fill_probe(probe: Probe, status, headers, final_url, error, method) -> None
     probe.content_length = total or (int(length) if length.isdigit() else None)
 
 
-def probe_url(url: str, timeout: float) -> Probe:
+def probe_url(url: str, timeout: float, attempts: int = 3) -> Probe:
     probe = Probe()
     # A HEAD answer that looks like a refusal is confirmed with a ranged GET:
     # several CDNs answer 403/404/429 to HEAD but serve the artifact to GET.
-    status, headers, final_url, error, method = fetch_head(url, timeout)
+    status, headers, final_url, error, method = fetch_head(url, timeout, attempts)
     if status is None or status in CONFIRM_CODES:
         get_status, get_headers, data, _, get_final, get_error = fetch_range(
-            url, 0, HEAD_BYTES - 1, timeout
+            url, 0, HEAD_BYTES - 1, timeout, attempts
         )
         if get_status is not None and (status is None or get_status != status or data):
             status, headers, final_url, error, method = (
@@ -329,7 +397,7 @@ def probe_url(url: str, timeout: float) -> Probe:
 
     # Range GET gives a true size even when the server answers 200 to HEAD with 0.
     if probe.status is not None and probe.status < 400 and probe.content_length in (None, 0):
-        s2, h2, _, _, fut2, err2 = fetch_range(url, 0, HEAD_BYTES - 1, timeout)
+        s2, h2, _, _, fut2, err2 = fetch_range(url, 0, HEAD_BYTES - 1, timeout, attempts)
         if s2 is not None:
             _fill_probe(probe, s2, h2, fut2, err2, "range")
     return probe
@@ -733,9 +801,11 @@ class Cache:
 # ── Per-artifact analysis ─────────────────────────────────────────────────────
 
 
-def analyze(url: str, timeout: float, cap: int, cache: Cache) -> tuple[Probe, Artifact]:
+def analyze(
+    url: str, timeout: float, cap: int, cache: Cache, attempts: int = 3
+) -> tuple[Probe, Artifact]:
     artifact = Artifact()
-    probe = probe_url(url, timeout)
+    probe = probe_url(url, timeout, attempts)
     if probe.status is None:
         artifact.notes.append(probe.error or "no response")
         return probe, artifact
@@ -745,7 +815,9 @@ def analyze(url: str, timeout: float, cap: int, cache: Cache) -> tuple[Probe, Ar
         artifact.notes.append(f"HTTP {probe.status} {probe.content_type}".strip())
         return probe, artifact
 
-    head_status, head_headers, head, _, _, head_error = fetch_range(url, 0, HEAD_BYTES - 1, timeout)
+    head_status, head_headers, head, _, _, head_error = fetch_range(
+        url, 0, HEAD_BYTES - 1, timeout, attempts
+    )
     if head_status is not None:
         total = _parse_content_range(_header(head_headers, "Content-Range"))
         if total:
@@ -760,7 +832,7 @@ def analyze(url: str, timeout: float, cap: int, cache: Cache) -> tuple[Probe, Ar
     size = probe.content_length
     if size and size > HEAD_BYTES:
         tail_status, tail_headers, tail, _, _, tail_error = fetch_range(
-            url, max(0, size - TAIL_BYTES), size - 1, timeout
+            url, max(0, size - TAIL_BYTES), size - 1, timeout, attempts
         )
         if tail_error:
             artifact.notes.append(f"tail fetch: {tail_error}")
@@ -787,7 +859,7 @@ def analyze(url: str, timeout: float, cap: int, cache: Cache) -> tuple[Probe, Ar
         if size is not None and size <= cap:
             blob = cache.get(url)
             if blob is None:
-                blob = download_whole(url, size, cap, timeout)
+                blob = download_whole(url, size, cap, timeout, attempts)
                 if blob is not None:
                     cache.put(url, blob)
             if blob is None:
@@ -860,7 +932,7 @@ def analyze(url: str, timeout: float, cap: int, cache: Cache) -> tuple[Probe, Ar
         if size is not None and size <= cap:
             blob = cache.get(url)
             if blob is None:
-                blob = download_whole(url, size, cap, timeout)
+                blob = download_whole(url, size, cap, timeout, attempts)
                 if blob is not None:
                     cache.put(url, blob)
             if blob is not None:
@@ -912,10 +984,10 @@ def read_zip_members(blob: bytes, names: list[str], cap: int) -> dict[str, bytes
     return out
 
 
-def download_whole(url: str, size: int, cap: int, timeout: float) -> bytes | None:
+def download_whole(url: str, size: int, cap: int, timeout: float, attempts: int = 3) -> bytes | None:
     if size > cap:
         return None
-    status, headers, data, truncated, _, error = fetch_range(url, 0, size - 1, timeout)
+    status, headers, data, truncated, _, error = fetch_range(url, 0, size - 1, timeout, attempts)
     if status != 200 and status != 206:
         if error:
             return None
@@ -1142,8 +1214,10 @@ def derive_mismatches(entry: Entry, probe: Probe, artifact: Artifact, classifica
     return mismatches, unverified
 
 
-def analyze_entry(entry: Entry, timeout: float, cap: int, cache: Cache) -> dict:
-    probe, artifact = analyze(entry.url, timeout, cap, cache)
+def analyze_entry(
+    entry: Entry, timeout: float, cap: int, cache: Cache, attempts: int = 3
+) -> dict:
+    probe, artifact = analyze(entry.url, timeout, cap, cache, attempts)
     return entry_result(entry, probe, artifact)
 
 
@@ -1311,6 +1385,12 @@ def load_entries(
                     make_entry(rel, slug, vendor, f"releases[{version}]", version, fmt, source)
                 )
     return entries, errors
+
+
+def is_placeholder_sha256(sha256: str) -> bool:
+    """Empty, `manual`, or all-zero: the markers apm treats as "no checksum"."""
+    value = (sha256 or "").strip()
+    return not value or value.lower() == "manual" or set(value) == {"0"}
 
 
 def make_entry(rel, slug, vendor, locator, version, fmt, source) -> Entry:
@@ -1510,6 +1590,23 @@ def plan_promotions(results: list[dict]) -> list[dict]:
                 ),
             }
         )
+        declared_sha = fetchable[0]["declared"]["sha256"]
+        served_sha = artifact.get("sha256")
+        if served_sha and is_placeholder_sha256(declared_sha):
+            changes.insert(
+                0,
+                {
+                    "entry_id": f"{len(fetchable)} entr{'y' if len(fetchable) == 1 else 'ies'}",
+                    "field": "sha256",
+                    "from": declared_sha or "<empty>",
+                    "to": served_sha,
+                    "evidence": (
+                        f"the downloaded bytes hash to {served_sha} "
+                        f"({artifact.get('size_bytes')} bytes), and a `direct` record must "
+                        "declare a real checksum"
+                    ),
+                },
+            )
         proposals.append(
             {
                 **base,
@@ -1873,7 +1970,10 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
     add(f"- Registry root: `{payload['registry_root']}`")
     add(
         f"- Limits: download cap `{payload['max_bytes']}` bytes, request timeout "
-        f"`{payload['timeout']}s`, concurrency `{payload['concurrency']}`"
+        f"`{payload['timeout']}s`, concurrency `{payload['concurrency']}`, "
+        f"{payload.get('attempts') or 3} attempts per request, host spacing "
+        f"`{payload.get('host_interval') or 0}s`, spacing after a `429` "
+        f"`{payload.get('pace_on_429') or 0}s`"
     )
     add("- Nothing is installed, no DMG is mounted, no privileged command is run.")
     if payload.get("merged_from"):
@@ -1882,7 +1982,10 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
             add(
                 f"- Merged from `{merged['path']}` ({scopes}, {merged['entries']} entries, "
                 f"generated `{merged['generated_at']}`): cap `{merged['max_bytes']}` bytes, "
-                f"timeout `{merged['timeout']}s`, concurrency `{merged['concurrency']}`"
+                f"timeout `{merged['timeout']}s`, concurrency `{merged['concurrency']}`, "
+                f"{merged.get('attempts') or 3} attempts, host spacing "
+                f"`{merged.get('host_interval') or 0}s`, spacing after a `429` "
+                f"`{merged.get('pace_on_429') or 0}s`"
             )
     add(
         f"- This run proposes {len(payload['corrections'])} field corrections, all on "
@@ -1926,6 +2029,11 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
         "- Rate limits and transient server errors (408/425/429/5xx) are retried up to three "
         "times, honouring `Retry-After` when the host sends one; a `HEAD` that a host rejects is "
         "confirmed with a ranged `GET`."
+    )
+    add(
+        "- A host that answers `429` is spaced out from then on (`--pace-on-429`, default 3s): a "
+        "rate limiter that rejects every request in a burst cannot be retried out of, so the "
+        "burst is what has to change. `--host-interval` applies the same spacing to every host."
     )
     add(
         "- One probe is made per distinct URL, and every format entry pointing at that URL reuses "
@@ -2012,8 +2120,8 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
         add("")
     add("## Priority order")
     add("")
-    add("| Wave | Scope | Entries | Unique URLs | What was done |")
-    add("| --- | --- | --- | --- | --- |")
+    add("| Wave | Scope | Entries | Unique URLs | Unique hosts | What was done |")
+    add("| --- | --- | --- | --- | --- | --- |")
     scope_urls = payload["scope_urls"]
     ran = [scope for scope in SCOPE_ORDER if totals["by_scope"].get(scope, 0)]
     wave_notes = {
@@ -2028,14 +2136,19 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
         ),
     }
     for index, scope in enumerate(ran, start=1):
+        hosts = {
+            urllib.parse.urlparse(r["url"]).netloc
+            for r in results
+            if r["scope"] == scope and r["url"]
+        }
         add(
             f"| {index} | `download_type = \"{scope}\"` | {totals['by_scope'][scope]} | "
-            f"{scope_urls.get(scope, 0)} | {wave_notes[scope]} |"
+            f"{scope_urls.get(scope, 0)} | {len(hosts)} | {wave_notes[scope]} |"
         )
     for scope in SCOPE_ORDER:
         if scope not in ran:
             add(
-                f"| – | `download_type = \"{scope}\"` | not run | – | "
+                f"| – | `download_type = \"{scope}\"` | not run | – | – | "
                 "re-run with `--scope all` (`managed`/`manual` are probe-only waves) |"
             )
     add("")
@@ -2349,9 +2462,10 @@ def write_report(path: pathlib.Path, payload: dict, applied_corrections: list[di
     add("## Observed but not applied")
     add("")
     add(
-        "For `managed` and `manual` records the URL is where apm sends the user, not the artifact "
-        "apm installs, so these mismatches are reported and deliberately left unchanged "
-        f"({len(deferred)} fields)."
+        "A probe of the URL cannot retype a `managed` or `manual` record: a `managed` record is "
+        "installed by the vendor's manager app through its `installer` entry (see above), and a "
+        "`manual` URL is where apm sends the user rather than what apm installs. These mismatches "
+        f"are therefore reported and deliberately left unchanged ({len(deferred)} fields)."
     )
     add("")
     if deferred:
@@ -2537,6 +2651,30 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--max-bytes", type=int, default=64 * 1024 * 1024)
     parser.add_argument("--timeout", type=float, default=20.0)
     parser.add_argument("--concurrency", type=int, default=6)
+    parser.add_argument(
+        "--attempts",
+        type=int,
+        default=3,
+        help="attempts per request before a URL is called unreachable (default 3)",
+    )
+    parser.add_argument(
+        "--pace-on-429",
+        type=float,
+        default=3.0,
+        help=(
+            "seconds between requests to a host after it answers HTTP 429 (0 disables). A "
+            "rate-limited host cannot be retried out of a burst; it has to be spaced"
+        ),
+    )
+    parser.add_argument(
+        "--host-interval",
+        type=float,
+        default=0.0,
+        help=(
+            "minimum seconds between requests to the same host (0 = no pacing). Hosts that "
+            "answer a burst with HTTP 429 need spacing; retrying harder does not help"
+        ),
+    )
     parser.add_argument("--cache-dir", default=None)
     parser.add_argument("--out-json", default=None)
     parser.add_argument("--out-report", default=None)
@@ -2557,7 +2695,12 @@ def main(argv: list[str] | None = None) -> int:
         ),
     )
     parser.add_argument("--limit", type=int, default=0)
-    parser.add_argument("--url-contains", default=None)
+    parser.add_argument(
+        "--url-contains",
+        action="append",
+        default=None,
+        help="only probe URLs containing this substring (repeatable; any match)",
+    )
     parser.add_argument("--slug", action="append", default=None)
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args(argv)
@@ -2580,6 +2723,9 @@ def main(argv: list[str] | None = None) -> int:
         pathlib.Path(args.scraped_source) if args.scraped_source else repo / "data" / "registry"
     )
 
+    global PACER
+    PACER = HostPacer(args.host_interval, args.pace_on_429)
+
     entries, parse_errors = load_entries(registry_dir, repo)
     if parse_errors:
         for error in parse_errors[:20]:
@@ -2596,7 +2742,7 @@ def main(argv: list[str] | None = None) -> int:
         wanted = set(args.slug)
         selected = [e for e in selected if e.slug in wanted]
     if args.url_contains:
-        selected = [e for e in selected if args.url_contains in e.url]
+        selected = [e for e in selected if any(part in e.url for part in args.url_contains)]
     selected.sort(key=lambda e: (SCOPE_ORDER.index(e.download_type), e.file, e.entry_id))
 
     if args.limit:
@@ -2627,7 +2773,7 @@ def main(argv: list[str] | None = None) -> int:
         groups.setdefault(entry.url, []).append(entry)
 
     def analyze_group(url: str, entries: list[Entry]) -> list[dict]:
-        probe, artifact = analyze(url, args.timeout, args.max_bytes, cache)
+        probe, artifact = analyze(url, args.timeout, args.max_bytes, cache, args.attempts)
         return [entry_result(entry, probe, artifact) for entry in entries]
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, args.concurrency)) as pool:
@@ -2673,6 +2819,9 @@ def main(argv: list[str] | None = None) -> int:
                 "max_bytes": earlier.get("max_bytes"),
                 "timeout": earlier.get("timeout"),
                 "concurrency": earlier.get("concurrency"),
+                "host_interval": earlier.get("host_interval"),
+                "pace_on_429": earlier.get("pace_on_429"),
+                "attempts": earlier.get("attempts"),
                 "entries": len(earlier.get("results") or []),
             }
         )
@@ -2694,6 +2843,9 @@ def main(argv: list[str] | None = None) -> int:
         "max_bytes": args.max_bytes,
         "timeout": args.timeout,
         "concurrency": args.concurrency,
+        "host_interval": args.host_interval,
+        "pace_on_429": args.pace_on_429,
+        "attempts": args.attempts,
         "scope_urls": scope_urls,
         "merged_from": merged_from,
         "scraped_source": scraped_source_stats(repo, registry_dir, scraped_source),
